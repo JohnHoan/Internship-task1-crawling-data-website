@@ -1,0 +1,931 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="alternate" href="https://airdogvietnam.vn/" hreflang="vi-vn" />
+  	<title>Máy lọc không khí Airdog </title>
+ 
+    <meta name="keywords" content="Máy lọc không khí Airdog "/>
+    <meta name="robots" content="index,follow" />
+    
+    	<link rel="canonical" href="https://airdogvietnam.vn/"/>
+    
+  
+    
+    
+    
+  
+    <link rel="shortcut icon" href="/static/assets/default/images/Favicon.png"/>
+  	<meta property="fb:app_id" content="614287932290159" />
+    <meta property="og:title" content="Máy lọc không khí Airdog " />
+    <meta property="og:description" content="Máy lọc không khí Airdog " />
+    
+    <!-- end -->
+   	<meta property="og:image:alt" content="Máy lọc không khí Airdog ">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  	<link rel="preload" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></noscript>
+  
+  	<link rel="preload" href="/static/assets/default/script/style.css?10.999991" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="/static/assets/default/script/style.css?1"></noscript>
+  	
+    
+
+</head>
+<body>
+    <div class="header">
+<div class="header-main d-flex space-between align-items">
+        <div class="header-left d-flex align-items">
+            <a href="https://www.facebook.com/Airdog-Vietnam-102446882001388" class="social-icon"><i class="fa fa-facebook"></i></a>
+            <a href="mailto:thethaohoanggia.vn@gmail.com" class="social-icon"><i class="fa fa-envelope"></i></a>
+            <a href="tel:0944060088" class="social-icon"><i class="fa fa-phone"></i></a>
+            <a href="/" class="social-icon"><i class="fa fa-youtube-play"></i></a>
+        </div>
+        <div class="logo"><a href="/"><img src="/media/banner/logo_airdog-logo.png" alt="Logo aridog"></a></div>
+        <div class="header-right d-flex align-items">
+            <div class="hotline">
+                <a href="tel:0944060088">
+                    <img src="/static/assets/default/images/Hotline.png" alt="hotline">
+                    <p>0944.060.088</p>
+                </a>
+            </div>
+            <div class="icon-cart">
+                <a href="/cart">
+                    <img src="/static/assets/default/images/icon-cart.png" alt="icon-cart">
+                  	<span class="cart-count" id="js-cart-counter">0</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="menu d-flex align-items space-between">
+        <a href="javascript:void(0)" class="icon-menu" id="menu-mobile" ><i class="fa fa-bars"></i></a>
+        <ul class="main-menu d-flex align-items space-between">
+            <li class="item">
+              <a href="/may-loc-khong-khi">Sản phẩm</a>
+              <div class="hover-menu">
+                   
+                		<div class="sub"><a href="/may-loc-khong-khi" class="text-hover">Máy lọc không khí</a></div>
+                	
+              </div>
+          </li>
+            <li class="item">
+                <a href="/cong-nghe-airdog-viet-nam" class="d-flex align-items">
+                <p>Công nghệ </p><i class="fa fa-chevron-down"></i>
+            </a></li>
+            <!---<li class="item">
+                <a href="/" class="d-flex align-items"><p>Đối tác</p><i class="fa fa-chevron-down"></i></a></li>--->
+            <li class="item"><a href="/tin-tuc">Tin tức</a></li>
+            <li class="item"><a href="/gioi-thieu">Giới thiệu</a></li>
+            <li class="item"><a href="/lien-he">Liên hệ</a></li>
+        </ul>
+        <div class="icon-language d-flex align-items">
+            <a href="javascript:void(0);" onclick="doGTranslate('vi|vi');"><img src="/static/assets/default/images/icon-vietnam.png" alt=""></a>
+            <a href="javascript:void(0);" onclick="doGTranslate('vi|en');"><img src="/static/assets/default/images/icon-usa.png" alt=""></a>
+        </div>
+    </div><!-----list menu--->
+</div>
+<!-----click menu----->
+<div class="overlay" onclick="closeMainMenu();"></div>
+<div id="main-menu">
+  <div id="close" onclick="closeMainMenu();"><i class="fa fa-times"></i></div>
+    <div class="list">
+        <div class="item">
+            <a href="/" class="item"><span class="icon"><i class="fa fa-home"></i></span><span class="title">Trang chủ</span></a>
+        </div> 
+        <div class="line"></div>
+        <div class="item product-cat-container">
+            
+            <div class="cat-item">
+                <a href="/may-loc-khong-khi" class="lv1">Máy lọc không khí</a>
+                
+            </div>
+            
+        </div>
+		<div class="line"></div>
+        <div class="item">
+            <a href="/cong-nghe-airdog-viet-nam" class="item"><span class="title">Công nghệ</span></a>
+        </div>
+		<div class="line"></div>
+        <div class="item">
+            <a href="/doi-tac" class="item"><span class="title">Đối tác</span></a>
+        </div>
+		<div class="line"></div>
+        <div class="item">
+            <a href="/tin-tuc" class="item"><span class="title">Tin tức</span></a>
+        </div>
+      
+		<div class="line"></div>
+        <div class="item">
+            <a href="/gioi-thieu" class="item"><span class="title">Giới thiệu</span></a>
+        </div>
+      		
+      	<div class="line"></div>
+        <div class="item">
+            <a href="/lien-he" class="item"><span class="title">Liên Hệ</span></a>
+        </div>
+      
+        <div class="line"></div>
+        <div class="item">
+            <a href="/cart" class="item"><span class="title">Giỏ hàng của bạn</span></a>
+        </div>
+
+        <div class="line"></div>
+        <div class="item">
+            <a href="tel:0944060088" class="item"><span class="title">0944.060.088</span></a>
+        </div>
+    </div><!--list-->
+</div><!--main-menu-->
+    	<div class="clearfix"></div>
+    	<div class="homepage">
+<div class="main-slider">
+	<div class="slider owl-carousel owl-theme owl-dots owl-loaded owl-drag" id="js-slider">
+  	
+            <div class="item">
+                <a href="/ad.php?id=1"><img src="/media/banner/18_May5dd849a5520d5e07e8a9c049ffe461c5.jpg" alt="" ></a>
+                <a href="https://airdogvietnam.vn/may-loc-khong-khi" class="btn-product">Mua ngay</a>
+            </div>
+  	
+            <div class="item">
+                <a href="/ad.php?id=4"><img src="/media/banner/18_May7e555cc75d060bc0512d8624d8d3b3db.jpg" alt="" ></a>
+                <a href="https://airdogvietnam.vn/may-loc-khong-khi" class="btn-product">Mua ngay</a>
+            </div>
+  	
+            <div class="item">
+                <a href="/ad.php?id=5"><img src="/media/banner/18_May40abbc46a9af13d16722ccb4279ceb7b.jpg" alt="" ></a>
+                <a href="https://airdogvietnam.vn/may-loc-khong-khi" class="btn-product">Mua ngay</a>
+            </div>
+  	
+        </div>
+  </div>
+  <!----aaaaa---><!-- print_r debug content: Array
+(
+    [header] => Array
+        (
+            [banner_art_detail] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 7
+                            [display] => <img border=0 src="/media/banner/28_Apr1592f716270d282f155473ddd793982d.png" width='1920' height='620' alt="banner art"/>
+                            [fileUrl] => /media/banner/28_Apr1592f716270d282f155473ddd793982d.png
+                            [desUrl] => /ad.php?id=7
+                            [title] => banner art
+                            [width] => 1920
+                            [height] => 620
+                            [fileType] => banner
+                            [summary] => 
+                        )
+
+                )
+
+            [banner_trang_congnghe] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8
+                            [display] => <img border=0 src="/media/banner/18_Maye506f5a4699b23034370b9bd2fc49fcf.png" width='1920' height='620' alt="banner đầu "/>
+                            [fileUrl] => /media/banner/18_Maye506f5a4699b23034370b9bd2fc49fcf.png
+                            [desUrl] => /ad.php?id=8
+                            [title] => banner đầu 
+                            [width] => 1920
+                            [height] => 620
+                            [fileType] => 
+                            [summary] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 9
+                            [display] => <img border=0 src="/media/banner/29_Apr03b7d3b05ebe1f24d350cdb95cb34ab4.png" width='1920' height='621' alt="banner cong nghe 2"/>
+                            [fileUrl] => /media/banner/29_Apr03b7d3b05ebe1f24d350cdb95cb34ab4.png
+                            [desUrl] => /ad.php?id=9
+                            [title] => banner cong nghe 2
+                            [width] => 1920
+                            [height] => 621
+                            [fileType] => 1
+                            [summary] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 10
+                            [display] => <img border=0 src="/media/banner/29_Apr7f014bb5c656f27dfd030c6b047455ed.png" width='1920' height='620' alt=""/>
+                            [fileUrl] => /media/banner/29_Apr7f014bb5c656f27dfd030c6b047455ed.png
+                            [desUrl] => /ad.php?id=10
+                            [title] => 
+                            [width] => 1920
+                            [height] => 620
+                            [fileType] => banner
+                            [summary] => 
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 11
+                            [display] => <img border=0 src="/media/banner/29_Aprfbfc20eaa78ec448d04288313472e6a6.png" width='888' height='380' alt=""/>
+                            [fileUrl] => /media/banner/29_Aprfbfc20eaa78ec448d04288313472e6a6.png
+                            [desUrl] => /ad.php?id=11
+                            [title] => 
+                            [width] => 888
+                            [height] => 380
+                            [fileType] => banner
+                            [summary] => 
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 12
+                            [display] => <img border=0 src="/media/banner/29_Aprb75304ebf3c20925b2bc194f9daf311d.png" width='851' height='547' alt=""/>
+                            [fileUrl] => /media/banner/29_Aprb75304ebf3c20925b2bc194f9daf311d.png
+                            [desUrl] => /ad.php?id=12
+                            [title] => 
+                            [width] => 851
+                            [height] => 547
+                            [fileType] => 1
+                            [summary] => 
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 15
+                            [display] => <img border=0 src="/media/banner/06_Mayf0a203c0ff76f7483f3682ef20e75eeb.png" width='525' height='525' alt="aaaaaaaaaaa"/>
+                            [fileUrl] => /media/banner/06_Mayf0a203c0ff76f7483f3682ef20e75eeb.png
+                            [desUrl] => /ad.php?id=15
+                            [title] => aaaaaaaaaaa
+                            [width] => 525
+                            [height] => 525
+                            [fileType] => 1
+                            [summary] => 
+                        )
+
+                )
+
+            [banner_about_us] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 13
+                            [display] => <img border=0 src="/media/banner/05_Junadfaeafc778cd60df37550f014396416.jpg" width='1920' height='500' alt="banner about us"/>
+                            [fileUrl] => /media/banner/05_Junadfaeafc778cd60df37550f014396416.jpg
+                            [desUrl] => /ad.php?id=13
+                            [title] => banner about us
+                            [width] => 1920
+                            [height] => 500
+                            [fileType] => 
+                            [summary] => 
+                        )
+
+                )
+
+            [banner_congnghe_mb] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 19
+                            [display] => <img border=0 src="/media/banner/13_May35c6f6a5c6d5340e0dcfbb353b36e93c.png" width='640' height='380' alt="aa2"/>
+                            [fileUrl] => /media/banner/13_May35c6f6a5c6d5340e0dcfbb353b36e93c.png
+                            [desUrl] => /ad.php?id=19
+                            [title] => aa2
+                            [width] => 640
+                            [height] => 380
+                            [fileType] => 1
+                            [summary] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 20
+                            [display] => <img border=0 src="/media/banner/13_May3c42c3bd42f624836d8632087c5e413f.png" width='640' height='334' alt="aaaa"/>
+                            [fileUrl] => /media/banner/13_May3c42c3bd42f624836d8632087c5e413f.png
+                            [desUrl] => /ad.php?id=20
+                            [title] => aaaa
+                            [width] => 640
+                            [height] => 334
+                            [fileType] => 1
+                            [summary] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 21
+                            [display] => <img border=0 src="/media/banner/13_Maya4f1f9699745d95672737d25aa8d3c65.png" width='640' height='380' alt=""/>
+                            [fileUrl] => /media/banner/13_Maya4f1f9699745d95672737d25aa8d3c65.png
+                            [desUrl] => /ad.php?id=21
+                            [title] => 
+                            [width] => 640
+                            [height] => 380
+                            [fileType] => 1
+                            [summary] => 
+                        )
+
+                )
+
+        )
+
+    [homepage] => Array
+        (
+            [banner_slider_home] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [display] => <img border=0 src="/media/banner/18_May5dd849a5520d5e07e8a9c049ffe461c5.jpg" width='1920' height='570' alt="banner 1"/>
+                            [fileUrl] => /media/banner/18_May5dd849a5520d5e07e8a9c049ffe461c5.jpg
+                            [desUrl] => /ad.php?id=1
+                            [title] => banner 1
+                            [width] => 1920
+                            [height] => 570
+                            [fileType] => 
+                            [summary] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 4
+                            [display] => <img border=0 src="/media/banner/18_May7e555cc75d060bc0512d8624d8d3b3db.jpg" width='1920' height='570' alt="banner 2"/>
+                            [fileUrl] => /media/banner/18_May7e555cc75d060bc0512d8624d8d3b3db.jpg
+                            [desUrl] => /ad.php?id=4
+                            [title] => banner 2
+                            [width] => 1920
+                            [height] => 570
+                            [fileType] => 
+                            [summary] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 5
+                            [display] => <img border=0 src="/media/banner/18_May40abbc46a9af13d16722ccb4279ceb7b.jpg" width='1920' height='570' alt="banner 3"/>
+                            [fileUrl] => /media/banner/18_May40abbc46a9af13d16722ccb4279ceb7b.jpg
+                            [desUrl] => /ad.php?id=5
+                            [title] => banner 3
+                            [width] => 1920
+                            [height] => 570
+                            [fileType] => 
+                            [summary] => 
+                        )
+
+                )
+
+            [banner_home_sale] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6
+                            [display] => 
+                            [fileUrl] => /media/lib/01-05-2021/hero-large.mp4
+                            [desUrl] => /ad.php?id=6
+                            [title] => sale
+                            [width] => 1920
+                            [height] => 774
+                            [fileType] => 
+                            [summary] => 
+                        )
+
+                )
+
+            [banner_slider_mb_home] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 16
+                            [display] => <img border=0 src="/media/banner/18_May2a80d01b2093c9555075bb74cdd5dae9.jpg" width='640' height='780' alt="a1"/>
+                            [fileUrl] => /media/banner/18_May2a80d01b2093c9555075bb74cdd5dae9.jpg
+                            [desUrl] => /ad.php?id=16
+                            [title] => a1
+                            [width] => 640
+                            [height] => 780
+                            [fileType] => banner
+                            [summary] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 14
+                            [display] => <img border=0 src="/media/banner/18_Mayf28f559e819f7b0e85453c4e64b9ab2d.jpg" width='640' height='780' alt="slider mb"/>
+                            [fileUrl] => /media/banner/18_Mayf28f559e819f7b0e85453c4e64b9ab2d.jpg
+                            [desUrl] => /ad.php?id=14
+                            [title] => slider mb
+                            [width] => 640
+                            [height] => 780
+                            [fileType] => banner
+                            [summary] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 17
+                            [display] => <img border=0 src="/media/banner/18_Mayd19d33b1edd5b756c63e16f7ed81ef11.jpg" width='640' height='780' alt="a2"/>
+                            [fileUrl] => /media/banner/18_Mayd19d33b1edd5b756c63e16f7ed81ef11.jpg
+                            [desUrl] => /ad.php?id=17
+                            [title] => a2
+                            [width] => 640
+                            [height] => 780
+                            [fileType] => banner
+                            [summary] => 
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 18
+                            [display] => <img border=0 src="/media/banner/18_Maydba208415bb6d87c8a82ef585b1066bb.jpg" width='640' height='780' alt="a3"/>
+                            [fileUrl] => /media/banner/18_Maydba208415bb6d87c8a82ef585b1066bb.jpg
+                            [desUrl] => /ad.php?id=18
+                            [title] => a3
+                            [width] => 640
+                            [height] => 780
+                            [fileType] => banner
+                            [summary] => 
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 22
+                            [display] => <img border=0 src="/media/banner/18_May25bff2caa67e9b085f61567b45fc2018.jpg" width='640' height='780' alt=""/>
+                            [fileUrl] => /media/banner/18_May25bff2caa67e9b085f61567b45fc2018.jpg
+                            [desUrl] => /ad.php?id=22
+                            [title] => 
+                            [width] => 640
+                            [height] => 780
+                            [fileType] => banner
+                            [summary] => 
+                        )
+
+                )
+
+        )
+
+    [footer] => Array
+        (
+        )
+
+)
+-->
+  <div class="clearfix"></div>
+        <div class="banner-sale">
+           
+          	<video width="100%" height="100%" loop autoplay muted src="/media/lib/01-05-2021/hero-large.mp4" type="video/mp4"></video>
+          
+        </div>
+        <div class="branch-main">
+            <div class="container">
+                <div class="title">
+                  <b> "Chào mừng bạn đến với cuộc cách mạng không khí, nơi những sản phẩm đều mang tính lịch sử trong công nghệ lọc." </b>
+                </div> 
+                <div class="content-branch d-flex align-items space-between">
+                    <a href="#" class="item"><img src="/static/assets/default/images/GadgetSin300px.png" alt="" ></a>
+                    <a href="#" class="item"><img src="/static/assets/default/images/cnet_300px.png" alt=""></a>
+                    <a href="#" class="item"><img src="/static/assets/default/images/Trend_Hunter_300px.png" alt=""></a>
+                    <a href="#" class="item"><img src="/static/assets/default/images/Home_Smart_300px.png" alt=""></a>
+                    <a href="#" class="item"><img src="/static/assets/default/images/forbes-logo-black-transparent_300px.png" alt=""></a>
+                </div>
+            </div>
+        </div>  
+        <div class="product-noibat">
+            <div class="title">Sản phẩm nổi bật</div>
+                <div class="section-product" id="js-product-featured">
+                   	
+                    <!-- end lisst sp -->
+                </div>
+          <a href="/may-loc-khong-khi" class="btn-more d-flex"><b class="d-block text-18 font-500">Xem tất cả</b></a>
+        </div>
+        <div class="home-chinhsach">
+            <div class="container">
+                <div class="main-chinhsach d-flex space-between">
+                        <a href="#" class="item">
+                          <div class="img-chinhsach">
+                            <img src="/static/assets/default/images/water-drop.png" alt="">
+                          </div>
+                          <div class="noidung-chinhsach">
+                            <h4>Hiệu suất cao</h4>
+                          </div>
+                        </a>
+                        <a href="#" class="item">
+                          <div class="img-chinhsach">
+                            <img src="/static/assets/default/images/health-new.png" alt="">
+                          </div>
+                          <div class="noidung-chinhsach">
+                            <h4>Kiểm soát thông minh</h4>
+                          </div>
+                        </a>
+                        <a href="#" class="item">
+                          <div class="img-chinhsach">
+                            <img src="/static/assets/default/images/chinhsach-pricer-new.png" alt="">
+                          </div>
+                          <div class="noidung-chinhsach">
+                            <h4>Tiết kiệm chi phí</h4>		
+                          </div>
+                        </a>
+                        <a href="#" class="item">
+                          <div class="img-chinhsach">
+                            <img src="/static/assets/default/images/planet-earth-new.png" alt="">
+                          </div>
+                          <div class="noidung-chinhsach">
+                            <h4>Thân thiện với môi trường</h4>
+                          </div>
+                        </a>
+                        <a href="#" class="item">
+                          <div class="img-chinhsach">
+                            <img src="/static/assets/default/images/icon-thongbao-new.png" alt="">
+                          </div>
+                          <div class="noidung-chinhsach">
+                            <h4>Động cơ hoạt động êm ái</h4>
+                            <h4>Không tiếng ồn</h4>
+                          </div>
+                        </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-danhrieng">
+            <div class="container">
+                <div class="title">Sản phẩm dành riêng cho bạn</div>
+              
+                <div class="content-sp d-flex" id="js-product-detail">
+                  	<!------ajax--->
+                  
+                </div> 
+            </div>
+        </div>
+        <div class="art-noibat">
+            <div class="container">
+                <div class="title">Tin tức nổi bật</div>
+                <div class="art-main d-flex align-items space-between" id="js-art-noibat"> 
+                    <!----ajax---> 
+                </div>
+            </div>
+        </div>
+</div>
+    	<div class="clearfix"></div>
+     <div class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="form-sale">
+                        <div class="title">
+                            <h2>NHẬN CHƯƠNG TRÌNH KHUYẾN MÃI!</h2>
+                            <p>Hãy để lại email, Airdog Việt Nam sẽ gửi tin tức khuyến mãi cho bạn.</p>
+                        </div>
+                       <div id="news_letter" class="">
+                            <input type="text" id="email_newsletter" placeholder="Nhập Email của bạn tại đây...">
+                            <button type="submit" name="subscribe" id="subscribe" value="GỬI">
+                                <i class="fa fa-paper-plane" onclick="subscribe_newsletter('#email_newsletter')" ></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-main">
+                <div class="footer-content d-flex space-between">
+                    <div class="item-gioithieu">
+                        <div class="title">Về Aridog Việt Nam</div>
+                        <p>Airdog - Silicon Valley Air Expert Inc. là công ty hàng đầu về máy lọc không khí được thành lập bởi một nhóm các chuyên gia công nghệ và doanh nhân đến từ Thung lũng Silicon Hoa Kỳ. Sản phẩm của Airdog được Công ty TNHH thương mại xuất nhập khẩu Nhất Phong - TOP 10 thương hiệu tiêu biểu nhất khu vực Châu Á - Thái Bình Dương năm 2021 phân phối độc quyền tại Việt Nam.</p>
+                      <p>
+                        <b>Công ty TNHH Thương Mại Xuất Khẩu Nhất Phong</b><br/>
+Số ĐKKD 3002071266 do Sở KHĐT Tp. Hà Tĩnh  cấp ngày 22/02/2017<br/>
+Địa chỉ:Xóm Thanh Phú, X. Thạch Trung, Tp. Hà Tĩnh, Hà Tĩnh<br/>
+                        Điện thoại: 0944.060.088 - Email: thethaohoanggia.vn@gmail.com
+                      </p>
+                        <div class="social-footer">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="item-danhmuc">
+                        <div class="title">Danh mục sản phẩm</div>
+                        <a href="https://airdogvietnam.vn/may-loc-khong-khi">Sản phẩm</a>
+                        <a href="https://airdogvietnam.vn/cong-nghe-airdog-viet-nam">Công nghệ</a>
+                        <a href="https://airdogvietnam.vn/">Đối tác</a>
+                        <a href="https://airdogvietnam.vn/tin-tuc">Tin tức</a>
+                        <a href="/gioi-thieu">Giới thiệu</a>
+                        <a href="/lien-he">Liên Hệ</a>
+                    </div>
+                    <div class="item-quydinh">
+                        <div class="title">Chính sách & quy định</div>
+                        <a href="https://airdogvietnam.vn/chinh-sach-thanh-toan-1">Chính sách thanh toán</a>
+                        <a href="https://airdogvietnam.vn/chinh-sach-xu-ly-khieu-nai">Chính sách xử lý khiếu nại</a>
+                        <a href="https://airdogvietnam.vn/chinh-sach-van-chuyen-va-giao-nhan">Chính sách vận chuyển</a>
+                        <a href="https://airdogvietnam.vn/chinh-sach-doi-tra-va-hoan-tien">Chính sách đổi trả, trả hàng</a>
+                        <a href="https://airdogvietnam.vn/chinh-sach-bao-hanh">Chính sách bảo hành</a>                     
+                        <a href="https://airdogvietnam.vn/chinh-sach-bao-mat-thong-tin">Chính sách bảo mật thông tin</a>
+
+                    </div>
+                    <div class="item-pay">
+                        <div class="title">Phương thức thanh toán</div>
+                        <a href="#">
+                            <img src="/static/assets/default/images/icon-pay.png" alt="">
+                        </a>
+                        <a href="http://online.gov.vn/Home/WebDetails/84013" target="_blanK" class="bocongthuong">
+                            <img src="/static/assets/default/images/thong-bao-website-voi-bo-cong-thuong_grande.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="text-center">@2021 Airdog Viet Nam all rights reserved</p>
+            </div>
+        </div>
+    <script src="https://static.gleecdn.com/hura8/v2/hura8.js"></script>
+<script src="https://static.gleecdn.com/hura8/v2/vendors.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.6/dist/lazyload.min.js"></script>
+<script src="/static/assets/default/script/main.js?6"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- Translate -->
+<style type="text/css">#goog-gt-tt{display:none!important}.goog-te-banner-frame{display:none!important}.goog-te-menu-value:hover{text-decoration:none!important}body{top:0!important}#google_translate_element2{display:none!important}</style>
+
+<script src="/static/assets/default/script/language.js "></script>
+
+<div id="google_translate_element2"></div>
+<script type="text/javascript">function googleTranslateElementInit2(){new google.translate.TranslateElement({pageLanguage:'vi',autoDisplay:false},'google_translate_element2');}</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+<script src="/static/assets/default/script/language.js"></script>  
+<!-- End Translate -->
+
+<script>
+ // scroll menu
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 170) {
+            $(".header").addClass("header-fix");
+        } else {
+            $(".header").removeClass("header-fix");
+        }
+    });
+  	
+})
+//slider product
+var optionProductCarousel = {
+        items:4,
+        margin: 15,
+        loop:false,
+        nav:true,
+        autoplay: false,
+        autoplayTimeout:3000,
+        autoplaySpeed:2000,
+        autoplayHoverPause: true,
+        dots:false,
+        lazyLoad:true,
+        navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
+    }
+  
+  // Thêm sản phẩm vào trong giỏ hàng
+    function addProductToCart(productId, variantId, quantityId, redirectId){
+
+        Hura.Cart.Product.add(productId, variantId, {quantity: quantityId}).then(function(response){
+            if(response.status === "error"){
+                if(response.error_type === "item-in-cart") alert("Sản phẩm đã có trong giỏ hàng")
+                else if(response.error_type === "invalid-item-id") slert("ID sản phẩm không đúng")
+                else elert(response.message)
+            }else{
+                if(redirectId == 1){
+                    window.location.href = "/cart"
+                }else{
+                    alert("sản phẩm đã thêm trong giỏ hàng");
+                    showCartSummary("#js-cart-counter");
+                }
+            }
+        })
+    }
+    $(function(){
+        showCartSummary("#js-cart-counter");
+    })
+  	//show số lượng sản phẩm có trong giỏ hàng
+  	function showCartSummary(display_node) {
+        var $status_container = $(display_node);
+        $status_container.html('...');
+        Hura.Cart.getSummary().then(summary => {
+            $status_container.html(summary.total_item);
+        });
+    }
+</script>
+<script>
+  // click show menu
+     $("#menu-mobile").click(function(){
+    	$("#main-menu,.overlay,body").toggleClass("active");  
+    });  
+    function closeMainMenu(){
+    	$("#main-menu,.overlay,body").removeClass("active");    
+    } 
+    function showMenuCategory(){
+    	$("#category-menu,body").addClass("active");
+    }
+    function hideMenuCategory(){
+    	$("#category-menu,body").removeClass("active");  
+    }
+    $("#category-menu .list .item i, .product-cat-container .cat-item i").click(function(){
+      $(this).parent().find(".sub").slideToggle();
+      $(this).parent().toggleClass("active");
+    }); 
+  
+  
+//email footer
+  function subscribe_newsletter(a){
+        var email = $(a).val();
+        
+        if(email.length > 3){
+            var params = {
+                action : 'customer', 
+                action_type: 'register-newsletter', 
+                info : { 
+                    name: 'Khách hàng nhận bản tin', 
+                    email: email
+                }
+            };
+            Hura.Ajax.post('customer', params).then(function (data) {
+                console.log(data);
+                if(data.status == 'success') {
+                    alert("Quý khách đã đăng ký thành công");
+                    $(a).val("");}
+                else if(data.message == 'Email exist'){
+                    alert("Email này đã tồn tại");
+                }
+                else {
+                    alert('Lỗi xảy ra, vui lòng thử lại');
+                }
+            })
+
+        }else{alert('Vui lòng nhập địa chỉ email');}
+    }
+  
+</script>
+
+
+<script>
+var productTpl = `
+  <div class="product-item">
+        <div class="product-img">
+          <a href="{%= item.productUrl %}"><img src="{%= item.productImage.large %}" alt="{%= item.productName %}"></a>
+          <div class="img_hover">
+              <a href="{%= item.productUrl %}"><img src="{%= item.imageCollection[1].image.large %}" alt="{%= item.productName %}"></a>
+          </div>
+        </div>
+        <div class="product-info">
+          <a href="{%= item.productUrl %}" class="product-name"> {%= item.productName %} </a>
+          <div class="price-main d-flex align-items">
+            <span class="price">{%= item.price > 0 ? formatCurrency(item.price) + '₫' : 'Liên hệ' %}</span>
+            
+            {% if (item.marketPrice != 0) { %}
+            <del class="price-old">{%= formatCurrency(item.marketPrice) %} đ</del>
+            {% } %}
+            
+            {% if (item.price_off > 0) { %}
+            <span class="icon-sale">
+              <img src="/static/assets/default/images/icon-sale.png" alt="">
+              <p>- {%= item.price_off %} %</p>
+            </span>
+            {% } %}
+          </div>
+        </div>
+   </div>`;
+  var product_detailTpt =`
+                    <a class="sp-img" href="{%= item.productUrl %}">
+                        <img src="{%= item.productImage.large %}" alt="{%= item.productName %}">
+                    </a> 
+                    <div class="sp-info">
+                        <a href="{%= item.productUrl %}" class="product-name"> {%= item.productName %} </a>
+                        <div class="price-main d-flex align-items">
+                            <span class="price">{%= item.price > 0 ? formatCurrency(item.price) + '₫' : 'Liên hệ' %}</span>
+                          
+                          	{% if (item.marketPrice != 0) { %}
+                            <del class="price-old">{%= formatCurrency(item.marketPrice) %} đ</del>
+                          	{% } %}
+                          {% if (item.price_off > 0) { %}
+                            <span class="icon-sale">
+                                <img src="/static/assets/default/images/icon-sale.png" alt="">
+                                <p>- {%= item.price_off %} %</p>
+                            </span>
+                          {% } %}
+                        </div>
+                        <div class="quantity-sp d-flex align-items space-between">
+                            <a href="javascript:;" class="quantity-change amount-down minus js-quantity-change"
+                                data-value="-1">-</a>
+                            <input type="text" size="3" value="1"
+                                class="buy-quantity quantity-change js-buy-quantity js-quantity-change"
+                                data-stock="180">
+                            <a href="javascript:;" class="quantity-change amount-up plus js-quantity-change"
+                                data-value="1">+</a>
+                        </div>
+                        <div class="product-button">
+                            <a href="javascript:;" onclick="listenBuyProduct({%= item.productId %},0,1)"
+                                class="btn-addcart">
+                                <b class="d-block text-18 font-500">Thêm vào giỏ hàng</b>
+                            </a>
+                            <a href="javascript:void(0)"
+                                onclick="listenBuyProduct({%= item.productId %}, 0,0)" class="btn-buynow">
+                                <b class="d-block text-18 font-500">Đặt mua ngay</b>
+                            </a>
+                        </div>
+                        <a href="{%= item.productUrl %}" class="more-detail">Xem chi tiết sản phẩm</a>
+                    </div>
+  		`;
+  	var item_art = `
+        <div class="item-art">
+              <div class="img-art">
+                   <a href="{%= item.url %}"><img src="{%= item.image.original %}" alt="{%= item.title %}"></a>
+              </div>
+          <div class="art-content">
+              <a href="{%= item.url %}" class="art-name">{%= item.title.slice(0, 70) %}</a>
+                 <div class="art-mota">{%= item.summary.slice(0, 100).concat('...') %}</div>
+                    <a href="{%= item.url %}" class="btn-art">Xem chi tiết</a>
+                 </div>
+         </div>
+    `;
+  var art_lienquan = `
+  	<div class="item-art">
+                    <div class="img-art">
+                        <a href="{%= item.url %}"><img src="{%= item.image.original %}" alt="{%= item.title %}"></a>
+                    </div>
+                    <div class="art-content">
+                        <a href="{%= item.url %}" class="art-name">{%= item.title %}</a>
+                    </div>
+                </div>
+  `;
+</script>
+
+
+
+
+	<script>
+ $ (window) .on ('load', function () {
+   $("#js-slider").owlCarousel({
+  		loop: true,
+        items: 1,
+        autoplayHoverPause: true,
+        autoplay: true,
+        slideSpeed: 4000,
+        lazyLoad:true,
+        autoplayTimeout: 4000,
+  		dots: true,
+  		nav: false
+    });
+  getProductFeatured();
+  getProductDanhrieng();
+  getArticleNoibat();
+})
+</script>
+<script>
+  function getProductFeatured() {
+        var params = {
+            action_type: "product-list",
+            type    :"featured"
+        };
+        var target = '#js-product-featured';
+
+        Hura.Ajax.get("product", params).then(function (data) {
+            console.log(data);
+            var html = Hura.Template.parse(productTpl, data.list);
+            Hura.Template.render(target,'<div class="owl-carousel owl-theme custom-nav js-pro-carousel">' + html + '</div>');
+              $(".js-pro-carousel").owlCarousel(optionProductCarousel); 
+  			
+        })
+  		
+    }
+  // san pham danh rieng
+    function getProductDanhrieng() {
+      var params = {
+          action_type: "product-list",
+          type    :"hot"
+      };
+      var target = '#js-product-detail';
+      Hura.Ajax.get("product", params).then(function (data) {
+           //console.log(data);
+  			var showData = data.list.splice(0, 1);
+          var html = Hura.Template.parse(product_detailTpt, showData);
+  		  Hura.Template.render(target,html);
+  		//console.log(html);
+      })
+  		
+  	}
+  // tin tuc noi bat
+    function getArticleNoibat() {
+        var params = {
+            action_type: 'featured',
+            type : 'article',
+            show: 3
+        }
+        var target = '#js-art-noibat';
+        Hura.Ajax.get('article', params).then(function (data) {
+            console.log(data);
+			var showData = data.splice(0, 3);
+            var html = Hura.Template.parse(item_art,showData, data);
+            Hura.Template.render(target, html);
+        })
+    }
+</script>
+
+
+
+
+<!---//script hien thi cho gio hang-->
+
+<!---//script hien thi tin tuc-->
+
+
+</body>
+</html>
+<!-- Load time: 0.06283 seconds  / 4 mb-->
+<!-- Powered by Hura8 Cloud - 1.2, Released: 10-May-2020 / Website: www.hurasoft.vn -->
+        

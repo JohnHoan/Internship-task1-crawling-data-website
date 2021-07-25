@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]> <html lang="vi" class="ie9 loading-site no-js"> <![endif]-->
+<!--[if IE 8 ]> <html lang="vi" class="ie8 loading-site no-js"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="vi" class="loading-site no-js"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://cofarm-agritech.com/xmlrpc.php" />
+
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>CoFarm &#8211; Công ty TNHH Công Nghệ Nông nghiệp CoFarm</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" href="https://cofarm-agritech.com/en/" hreflang="en" />
+<link rel="alternate" href="https://cofarm-agritech.com/" hreflang="vi" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin CoFarm &raquo;" href="https://cofarm-agritech.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dòng phản hồi CoFarm &raquo;" href="https://cofarm-agritech.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cofarm-agritech.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://cofarm-agritech.com/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-icons-css'  href='https://cofarm-agritech.com/wp-content/themes/flatsome/assets/css/fl-icons.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-main-css'  href='https://cofarm-agritech.com/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.10.0' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-style-css'  href='https://cofarm-agritech.com/wp-content/themes/flatsome/style.css?ver=3.10.0' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-googlefonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3Aregular%2C700%2Cregular%2C700%7CDancing+Script%3Aregular%2C400&#038;display=swap&#038;ver=3.9' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.contactus.css-css'  href='https://cofarm-agritech.com/wp-content/plugins/ar-contactus/res/css/jquery.contactus.min.css?ver=1.7.7' type='text/css' media='all' />
+<link rel='stylesheet' id='contactus.generated.desktop.css-css'  href='https://cofarm-agritech.com/wp-content/plugins/ar-contactus/res/css/generated-desktop.css?ver=1622111263' type='text/css' media='all' />
+<link rel='stylesheet' id='contactus.fa.css-css'  href='https://use.fontawesome.com/releases/v5.8.1/css/all.css?ver=1.7.7' type='text/css' media='all' />
+<script type='text/javascript' src='https://cofarm-agritech.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://cofarm-agritech.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://cofarm-agritech.com/wp-content/plugins/ar-contactus/res/js/scripts.js?ver=1.7.7' id='jquery.contactus.scripts-js'></script>
+<link rel="https://api.w.org/" href="https://cofarm-agritech.com/wp-json/" /><link rel="alternate" type="application/json" href="https://cofarm-agritech.com/wp-json/wp/v2/pages/9" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cofarm-agritech.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cofarm-agritech.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<link rel="canonical" href="https://cofarm-agritech.com/" />
+<link rel='shortlink' href='https://cofarm-agritech.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://cofarm-agritech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcofarm-agritech.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://cofarm-agritech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcofarm-agritech.com%2F&#038;format=xml" />
+<style>.bg{opacity: 0; transition: opacity 1s; -webkit-transition: opacity 1s;} .bg-loaded{opacity: 1;}</style><!--[if IE]><link rel="stylesheet" type="text/css" href="https://cofarm-agritech.com/wp-content/themes/flatsome/assets/css/ie-fallback.css"><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script><script>var head = document.getElementsByTagName('head')[0],style = document.createElement('style');style.type = 'text/css';style.styleSheet.cssText = ':before,:after{content:none !important';head.appendChild(style);setTimeout(function(){head.removeChild(style);}, 0);</script><script src="https://cofarm-agritech.com/wp-content/themes/flatsome/assets/libs/ie-flexibility.js"></script><![endif]--><link rel="icon" href="https://cofarm-agritech.com/wp-content/uploads/2021/04/cropped-logo512-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://cofarm-agritech.com/wp-content/uploads/2021/04/cropped-logo512-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://cofarm-agritech.com/wp-content/uploads/2021/04/cropped-logo512-180x180.png" />
+<meta name="msapplication-TileImage" content="https://cofarm-agritech.com/wp-content/uploads/2021/04/cropped-logo512-270x270.png" />
+<style id="custom-css" type="text/css">:root {--primary-color: #14af52;}.header-main{height: 65px}#logo img{max-height: 65px}#logo{width:200px;}.header-bottom{min-height: 55px}.header-top{min-height: 30px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 65px;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.header-bottom {background-color: #f1f1f1}.header-main .nav > li > a{line-height: 16px }.stuck .header-main .nav > li > a{line-height: 50px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #14af52;}/* Color !important */[data-text-color="primary"]{color: #14af52!important;}/* Background Color */[data-text-bg="primary"]{background-color: #14af52;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #14af52;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #14af52}.nav-tabs > li.active > a{border-top-color: #14af52}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #14af52 }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #14af52 }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #14af52;}/* Background Color */[data-icon-label]:after, .secondary.is-underline:hover,.secondary.is-outline:hover,.icon-label,.button.secondary:not(.is-outline),.button.alt:not(.is-outline), .badge-inner.on-sale, .button.checkout, .single_add_to_cart_button{ background-color:#ffc107; }[data-text-bg="secondary"]{background-color: #ffc107;}/* Color */.secondary.is-underline,.secondary.is-link, .secondary.is-outline,.stars a.active, .star-rating:before, .woocommerce-page .star-rating:before,.star-rating span:before, .color-secondary{color: #ffc107}/* Color !important */[data-text-color="secondary"]{color: #ffc107!important;}/* Border */.secondary.is-outline:hover{border-color:#ffc107}body{font-family:"Roboto", sans-serif}body{font-weight: 0}body{color: #0a0a0a}.nav > li > a {font-family:"Roboto", sans-serif;}.nav > li > a {font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Roboto", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font{color: #0a0a0a;}.alt-font{font-family: "Dancing Script", sans-serif;}.alt-font{font-weight: 400!important;}.header:not(.transparent) .header-nav.nav > li > a {color: #0a0a0a;}.header:not(.transparent) .header-nav.nav > li > a:hover,.header:not(.transparent) .header-nav.nav > li.active > a,.header:not(.transparent) .header-nav.nav > li.current > a,.header:not(.transparent) .header-nav.nav > li > a.active,.header:not(.transparent) .header-nav.nav > li > a.current{color: #14af52;}.header-nav.nav-line-bottom > li > a:before,.header-nav.nav-line-grow > li > a:before,.header-nav.nav-line > li > a:before,.header-nav.nav-box > li > a:hover,.header-nav.nav-box > li.active > a,.header-nav.nav-pills > li > a:hover,.header-nav.nav-pills > li.active > a{color:#FFF!important;background-color: #14af52;}a{color: #0a0a0a;}/* Custom CSS */.hero-title__wrapper h3 {display: flex;justify-content: space-between;}.hero-title__wrapper p {font-size: 1.2em;}.crousel .icon-box-text {text-align: left;}.crousel ul {min-height: 120px;margin-bottom: 20px !important;}.crousel ul li {text-align: left;}.crousel a.button {margin-bottom: 0;}.icons-wrapper_col .col-inner {display: flex;flex-direction: column;justify-content: space-between;height: 80%;}.statistics-wrapper h2 {color: #fff;font-size: 2em;text-align: center;}.statistics-wrapper h3 {color: #fff;text-align: center;}footer h2,footer p {color: #fff;text-align: center;}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}</style></head>
+
+<body class="home page-template page-template-page-blank page-template-page-blank-php page page-id-9 lightbox nav-dropdown-has-arrow">
+
+
+<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+<div id="wrapper">
+
+	
+	<header id="header" class="header has-sticky sticky-jump">
+		<div class="header-wrapper">
+			<div id="masthead" class="header-main ">
+      <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
+
+          <!-- Logo -->
+          <div id="logo" class="flex-col logo">
+            <!-- Header logo -->
+<a href="https://cofarm-agritech.com/" title="CoFarm - Công ty TNHH Công Nghệ Nông nghiệp CoFarm" rel="home">
+    <img width="200" height="65" src="http://cofarm-agritech.com/wp-content/uploads/2021/04/cofarm-agritech.png" class="header_logo header-logo" alt="CoFarm"/><img  width="200" height="65" src="http://cofarm-agritech.com/wp-content/uploads/2021/04/cofarm-agritech.png" class="header-logo-dark" alt="CoFarm"/></a>
+          </div>
+
+          <!-- Mobile Left Elements -->
+          <div class="flex-col show-for-medium flex-left">
+            <ul class="mobile-nav nav nav-left ">
+              <li class="nav-icon has-icon">
+  		<a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay" data-color="" class="is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
+		
+		  <i class="icon-menu" ></i>
+		  		</a>
+	</li>            </ul>
+          </div>
+
+          <!-- Left Elements -->
+          <div class="flex-col hide-for-medium flex-left
+            flex-grow">
+            <ul class="header-nav header-nav-main nav nav-left  nav-line-bottom nav-size-medium nav-spacing-medium nav-uppercase" >
+              <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item active  menu-item-13"><a href="https://cofarm-agritech.com/" class="nav-top-link">Trang Chủ</a></li>
+<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-88"><a href="https://cofarm-agritech.com/gioi-thieu/" class="nav-top-link">Về chúng tôi</a></li>
+<li id="menu-item-111" class="menu-item menu-item-type-taxonomy menu-item-object-category  menu-item-111"><a href="https://cofarm-agritech.com/category/du-an/" class="nav-top-link">Dự án</a></li>
+<li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-108"><a href="https://cofarm-agritech.com/lien-he/" class="nav-top-link">Liên hệ</a></li>
+<li id="menu-item-244" class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom current-menu-parent menu-item-has-children active  menu-item-244 has-dropdown"><a href="#pll_switcher" class="nav-top-link"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFsSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f4NI9d////3+f+b3/1+////+9f/XL6A4o6ws0AaAAGIBm/0fRTVQ2v3Pf97f/4/9Aqv+DdHA8Ps3UANAALEAMSNQNdDGP3+ALvnf8vv/t9//9X/////7f+uv/4K//iciNABNBwggsJP+/IW4kuH3n//1v/8v+wVSDURmv/57//7/CeokoKFA0wECiAnkpL9/wH4CO+DNr/+VQA1A9PN/w6//j36CVIMRxEkAAQR20m+QpSBXgU0CuSTj9/93v/8v//V/xW+48UBD/zAwAAQQSAMzOMiABoBUswCd8ev/M7A669//OX7///Lr/x+gBlCoAJ0DEEAgDUy//zBISoKNAfoepJNRFmQkyJecfxj4/kDCEIiAigECiPErakTiiWMIAAgwAB4ZUlqMMhQQAAAAAElFTkSuQmCC" alt="Tiếng Việt" width="16" height="11" style="width: 16px; height: 11px;" /><i class="icon-angle-down" ></i></a>
+<ul class='nav-dropdown nav-dropdown-default'>
+	<li id="menu-item-244-en" class="lang-item lang-item-9 lang-item-en lang-item-first menu-item menu-item-type-custom menu-item-object-custom  menu-item-244-en"><a href="https://cofarm-agritech.com/en/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" alt="English" width="16" height="11" style="width: 16px; height: 11px;" /></a></li>
+	<li id="menu-item-244-vi" class="lang-item lang-item-12 lang-item-vi current-lang menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home  menu-item-244-vi"><a href="https://cofarm-agritech.com/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFsSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f4NI9d////3+f+b3/1+////+9f/XL6A4o6ws0AaAAGIBm/0fRTVQ2v3Pf97f/4/9Aqv+DdHA8Ps3UANAALEAMSNQNdDGP3+ALvnf8vv/t9//9X/////7f+uv/4K//iciNABNBwggsJP+/IW4kuH3n//1v/8v+wVSDURmv/57//7/CeokoKFA0wECiAnkpL9/wH4CO+DNr/+VQA1A9PN/w6//j36CVIMRxEkAAQR20m+QpSBXgU0CuSTj9/93v/8v//V/xW+48UBD/zAwAAQQSAMzOMiABoBUswCd8ev/M7A669//OX7///Lr/x+gBlCoAJ0DEEAgDUy//zBISoKNAfoepJNRFmQkyJecfxj4/kDCEIiAigECiPErakTiiWMIAAgwAB4ZUlqMMhQQAAAAAElFTkSuQmCC" alt="Tiếng Việt" width="16" height="11" style="width: 16px; height: 11px;" /></a></li>
+</ul>
+</li>
+            </ul>
+          </div>
+
+          <!-- Right Elements -->
+          <div class="flex-col hide-for-medium flex-right">
+            <ul class="header-nav header-nav-main nav nav-right  nav-line-bottom nav-size-medium nav-spacing-medium nav-uppercase">
+              <li class="html header-social-icons ml-0">
+	<div class="social-icons follow-icons" ><a href="https://www.facebook.com/mxhnongnghiep" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon button circle is-outline facebook tooltip" title="Follow on Facebook"><i class="icon-facebook" ></i></a><a href="mailto:cofarm@cofarm.vn" data-label="E-mail"  rel="nofollow" class="icon button circle is-outline  email tooltip" title="Send us an email"><i class="icon-envelop" ></i></a></div></li>            </ul>
+          </div>
+
+          <!-- Mobile Right Elements -->
+          <div class="flex-col show-for-medium flex-right">
+            <ul class="mobile-nav nav nav-right ">
+                          </ul>
+          </div>
+
+      </div><!-- .header-inner -->
+     
+            <!-- Header divider -->
+      <div class="container"><div class="top-divider full-width"></div></div>
+      </div><!-- .header-main -->
+<div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div><!-- .header-bg-container -->		</div><!-- header-wrapper-->
+	</header>
+
+	
+	<main id="main" class="">
+
+
+<div id="content" role="main" class="content-area">
+
+		
+			
+	<section class="section" id="section_425966545">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div><!-- .section-bg -->
+
+		<div class="section-content relative">
+			
+
+<div class="row row-full-width align-middle align-center"  id="row-59579075">
+
+<div class="col small-12 large-12"  ><div class="col-inner"  >
+
+
+  <div class="banner has-hover" id="banner-1959969062">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+                    </div><!-- bg-layers -->
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+
+   <div id="text-box-1077858435" class="text-box banner-layer hero-title__wrapper x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+
+<p>Xây dựng một </p>
+<h3 class="uppercase"><strong>*NỀN TẢNG</strong><strong>*KẾT NỐI </strong><strong>*THAY ĐỔI</strong></h3>
+<p>Câu chuyện mới về nông nghiệp Việt Nam</p>
+
+              </div>
+           </div><!-- text-box-inner -->
+                            
+<style scope="scope">
+
+#text-box-1077858435 {
+  width: 67%;
+}
+#text-box-1077858435 .text {
+  font-size: 100%;
+}
+</style>
+    </div><!-- text-box -->
+ 
+
+        </div><!-- .banner-layers -->
+      </div><!-- .banner-inner -->
+
+            
+<style scope="scope">
+
+#banner-1959969062 {
+  padding-top: 500px;
+}
+#banner-1959969062 .bg.bg-loaded {
+  background-image: url(https://cofarm-agritech.com/wp-content/uploads/2021/04/slide-img1.jpg);
+}
+</style>
+  </div><!-- .banner -->
+
+
+
+</div></div>
+
+
+<style scope="scope">
+
+</style>
+</div>
+
+		</div><!-- .section-content -->
+
+		
+<style scope="scope">
+
+#section_425966545 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+</style>
+	</section>
+	
+	<section class="section crousel" id="section_906739458">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div><!-- .section-bg -->
+
+		<div class="section-content relative">
+			
+
+<div class="row row-large"  id="row-739808733">
+
+<div class="col medium-4 small-12 large-4"  ><div class="col-inner text-left box-shadow-2" style="padding:20px 20px 20px 20px;" >
+
+<h3>Các Dự Án Nông Nghiệp</h3>
+
+		<div class="icon-box featured-box icon-box-center text-center"  >
+					<div class="icon-box-img" style="width: 401px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="300" height="200" src="https://cofarm-agritech.com/wp-content/uploads/2021/04/unnamed-300x200.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://cofarm-agritech.com/wp-content/uploads/2021/04/unnamed-300x200.jpg 300w, https://cofarm-agritech.com/wp-content/uploads/2021/04/unnamed.jpg 512w" sizes="(max-width: 300px) 100vw, 300px" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+
+<ul>
+<li><strong>Cofarm</strong> &#8211; Mạng xã hội nông nghiệp &amp; Chứng thực nguồn gốc nông sản</li>
+<li><strong>Vườn bên nhà</strong> &#8211; Hỗ trợ chuyển đổi phương thức canh tác an toàn</li>
+</ul>
+
+		</div>
+	</div><!-- .icon-box -->
+	
+	
+<a class="button primary is-shade box-shadow-3 box-shadow-5-hover"  style="border-radius:5px;">
+    <span>Xem thêm</span>
+  </a>
+
+
+
+</div></div>
+<div class="col medium-4 small-12 large-4"  ><div class="col-inner text-left box-shadow-2" style="padding:20px 20px 20px 20px;" >
+
+<h3>Hợp tác &amp; Kết Nối</h3>
+
+		<div class="icon-box featured-box icon-box-center text-center"  >
+					<div class="icon-box-img" style="width: 401px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="300" height="196" src="https://cofarm-agritech.com/wp-content/uploads/2021/04/reseller-300x196.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://cofarm-agritech.com/wp-content/uploads/2021/04/reseller-300x196.jpg 300w, https://cofarm-agritech.com/wp-content/uploads/2021/04/reseller.jpg 384w" sizes="(max-width: 300px) 100vw, 300px" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+
+<ul>
+<li>Liên kết các Hợp tác xã nông nghiệp kiểu mới</li>
+<li>Liên kết các hộ nông dân </li>
+<li>Liên kết chuỗi cung ứng </li>
+</ul>
+<a class="button primary is-shade box-shadow-3 box-shadow-5-hover"  style="border-radius:5px;">
+    <span>Xem thêm</span>
+  </a>
+
+
+
+		</div>
+	</div><!-- .icon-box -->
+	
+	
+
+</div></div>
+<div class="col medium-4 small-12 large-4"  ><div class="col-inner box-shadow-2" style="padding:20px 20px 20px 20px;" >
+
+<h3>Các hoạt động&nbsp;</h3>
+
+		<div class="icon-box featured-box icon-box-center text-center"  >
+					<div class="icon-box-img" style="width: 401px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="300" height="196" src="https://cofarm-agritech.com/wp-content/uploads/2021/04/consumer-300x196.jpg" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://cofarm-agritech.com/wp-content/uploads/2021/04/consumer-300x196.jpg 300w, https://cofarm-agritech.com/wp-content/uploads/2021/04/consumer.jpg 384w" sizes="(max-width: 300px) 100vw, 300px" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+
+<ul>
+<li>Hỗ trợ công nghệ sản xuất an toàn</li>
+<li>Hỗ trợ quảng cáo sản phẩm</li>
+<li>Hỗ trợ nông dân tạo nên câu chuyện nông sản</li>
+</ul>
+<a class="button primary is-shade box-shadow-3 box-shadow-5-hover"  style="border-radius:5px;">
+    <span>xem thêm</span>
+  </a>
+
+
+
+		</div>
+	</div><!-- .icon-box -->
+	
+	
+
+</div></div>
+
+
+<style scope="scope">
+
+</style>
+</div>
+
+		</div><!-- .section-content -->
+
+		
+<style scope="scope">
+
+#section_906739458 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+</style>
+	</section>
+	
+	<section class="section" id="section_1779597540">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div><!-- .section-bg -->
+
+		<div class="section-content relative">
+			
+
+<div class="container section-title-container" ><h2 class="section-title section-title-center"><b></b><span class="section-title-main" >MÔ HÌNH HOẠT ĐỘNG</span><b></b></h2></div><!-- .section-title -->
+
+<div class="row"  id="row-1919000393">
+
+<div class="col medium-4 small-12 large-4"  ><div class="col-inner"  >
+
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1770827187">
+								<div class="img-inner dark" >
+			<img width="1009" height="997" src="https://cofarm-agritech.com/wp-content/uploads/2021/05/cofam-agri-tech-1.png" class="attachment-original size-original" alt="" loading="lazy" srcset="https://cofarm-agritech.com/wp-content/uploads/2021/05/cofam-agri-tech-1.png 1009w, https://cofarm-agritech.com/wp-content/uploads/2021/05/cofam-agri-tech-1-300x296.png 300w, https://cofarm-agritech.com/wp-content/uploads/2021/05/cofam-agri-tech-1-768x759.png 768w" sizes="(max-width: 1009px) 100vw, 1009px" />						
+					</div>
+								
+<style scope="scope">
+
+#image_1770827187 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+
+
+</div></div>
+<div class="col icons-wrapper_col medium-4 small-12 large-4"  ><div class="col-inner"  >
+
+
+		<div class="icon-box featured-box icon-box-left text-left"  style="margin:0px 0px 30px 0px;">
+					<div class="icon-box-img" style="width: 55px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="300" height="287" src="https://cofarm-agritech.com/wp-content/uploads/2021/04/socail-300x287.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://cofarm-agritech.com/wp-content/uploads/2021/04/socail-300x287.png 300w, https://cofarm-agritech.com/wp-content/uploads/2021/04/socail-768x734.png 768w, https://cofarm-agritech.com/wp-content/uploads/2021/04/socail.png 1017w" sizes="(max-width: 300px) 100vw, 300px" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+
+<h3>Xây dựng Cofarm &#8211; Mxh nông nghiệp &amp; Chứng thực nguồn gốc</h3>
+<p>Như một Nhật ký điện tử, cập nhật thông tin theo thời gian thực, tạo mã Qr truy xuất nguồn gốc</p>
+
+		</div>
+	</div><!-- .icon-box -->
+	
+	
+
+		<div class="icon-box featured-box icon-box-left text-left"  >
+					<div class="icon-box-img" style="width: 55px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="300" height="284" src="https://cofarm-agritech.com/wp-content/uploads/2021/05/changes-300x284.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://cofarm-agritech.com/wp-content/uploads/2021/05/changes-300x284.png 300w, https://cofarm-agritech.com/wp-content/uploads/2021/05/changes-768x727.png 768w, https://cofarm-agritech.com/wp-content/uploads/2021/05/changes.png 811w" sizes="(max-width: 300px) 100vw, 300px" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+
+<h3>Chuyển đổi số Nông Nghiệp</h3>
+<p>Mục tiêu hỗ trợ người làm Nông Nghiệp Việt Nam làm quen và sử dụng tốt các công cụ số liên quan đến Nông Nghiệp </p>
+
+		</div>
+	</div><!-- .icon-box -->
+	
+	
+
+</div></div>
+<div class="col icons-wrapper_col medium-4 small-12 large-4"  ><div class="col-inner"  >
+
+
+		<div class="icon-box featured-box icon-box-left text-left"  style="margin:0px 0px 30px 0px;">
+					<div class="icon-box-img" style="width: 55px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="300" height="287" src="https://cofarm-agritech.com/wp-content/uploads/2021/04/suport-300x287.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://cofarm-agritech.com/wp-content/uploads/2021/04/suport-300x287.png 300w, https://cofarm-agritech.com/wp-content/uploads/2021/04/suport-768x734.png 768w, https://cofarm-agritech.com/wp-content/uploads/2021/04/suport.png 1017w" sizes="(max-width: 300px) 100vw, 300px" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+
+<h3>Các dự Án hỗ trợ nông dân</h3>
+<p>Xây dựng các Dự án liên quan đến chuyển đổi số nông nghiệp, các chương trình hỗ trợ đầu ra và liên kết cải tạo, chuyển đổi phương thức canh tác. </p>
+
+		</div>
+	</div><!-- .icon-box -->
+	
+	
+
+		<div class="icon-box featured-box icon-box-left text-left"  >
+					<div class="icon-box-img" style="width: 55px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="300" height="287" src="https://cofarm-agritech.com/wp-content/uploads/2021/04/creattory-300x287.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://cofarm-agritech.com/wp-content/uploads/2021/04/creattory-300x287.png 300w, https://cofarm-agritech.com/wp-content/uploads/2021/04/creattory-768x734.png 768w, https://cofarm-agritech.com/wp-content/uploads/2021/04/creattory.png 1017w" sizes="(max-width: 300px) 100vw, 300px" />					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+
+<h3>Hướng dẫn Tạo câu chuyện Nông Sản</h3>
+<p>Tổ chức các chương trình đào tạo, hướng dẫn nhà nông sử dụng các công cụ số, xây dựng câu chuyện nông sản. </p>
+
+		</div>
+	</div><!-- .icon-box -->
+	
+	
+
+</div></div>
+
+</div>
+
+		</div><!-- .section-content -->
+
+		
+<style scope="scope">
+
+#section_1779597540 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+</style>
+	</section>
+	
+	<section class="section" id="section_165932904">
+		<div class="bg section-bg fill bg-fill  " >
+
+			
+			
+			
+
+		</div><!-- .section-bg -->
+
+		<div class="section-content relative">
+			
+
+<div class="row align-middle align-center"  id="row-518881686">
+
+<div class="col statistics-wrapper medium-3 small-6 large-3"  ><div class="col-inner"  >
+
+<h3>Nông Nghiệp Việt Nam</h3>
+<h2>60% tổng dân </h2>
+
+</div></div>
+<div class="col statistics-wrapper medium-3 small-6 large-3"  ><div class="col-inner"  >
+
+<h3>Diện Tích </h3>
+<h2>27 triệu ha</h2>
+
+</div></div>
+<div class="col statistics-wrapper medium-3 small-6 large-3"  ><div class="col-inner"  >
+
+<h3>Xuất khẩu 2020</h3>
+<h2>41 tỷ Usd</h2>
+
+</div></div>
+<div class="col statistics-wrapper medium-3 small-6 large-3"  ><div class="col-inner"  >
+
+<h3>Thị trường trong nước<br />
+</h3>
+<h2>100 triệu dân</h2>
+
+</div></div>
+
+
+<style scope="scope">
+
+#row-518881686 > .col > .col-inner {
+  padding: 20px 0px 0px 0px;
+}
+</style>
+</div>
+
+		</div><!-- .section-content -->
+
+		
+<style scope="scope">
+
+#section_165932904 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#section_165932904 .section-bg.bg-loaded {
+  background-image: url(https://cofarm-agritech.com/wp-content/uploads/2021/04/tonage.jpg);
+}
+</style>
+	</section>
+	
+	<section class="section" id="section_2089473371">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div><!-- .section-bg -->
+
+		<div class="section-content relative">
+			
+
+<div class="container section-title-container" ><h2 class="section-title section-title-center"><b></b><span class="section-title-main" >DỰ ÁN ĐANG TRIỂN KHAI</span><b></b></h2></div><!-- .section-title -->
+
+<div class="row"  id="row-2041996209">
+
+<div class="col small-12 large-12"  ><div class="col-inner"  >
+
+
+  
+    <div class="row large-columns-4 medium-columns-3 small-columns-1 slider row-slider slider-nav-reveal slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : false}'>
+
+  		<div class="col post-item has-post-icon" >
+			<div class="col-inner">
+			<a href="https://cofarm-agritech.com/du-an-mxh-cofarm/" class="plain">
+				<div class="box box-bounce box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="300" height="300" src="https://cofarm-agritech.com/wp-content/uploads/2021/04/cofarm-logo-300x300.png" class="attachment-medium size-medium wp-post-image" alt="" loading="lazy" srcset="https://cofarm-agritech.com/wp-content/uploads/2021/04/cofarm-logo-300x300.png 300w, https://cofarm-agritech.com/wp-content/uploads/2021/04/cofarm-logo-150x150.png 150w, https://cofarm-agritech.com/wp-content/uploads/2021/04/cofarm-logo.png 512w" sizes="(max-width: 300px) 100vw, 300px" />  							  							  						</div>
+  						  							<div class="absolute no-click x50 y50 md-x50 md-y50 lg-x50 lg-y50">
+  				            	<div class="overlay-icon">
+  				                    <i class="icon-play"></i>
+  				                </div>
+  				            </div>
+  						  					</div><!-- .box-image -->
+          					<div class="box-text text-center" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Cofarm &#8211; Mạng xã hội nông nghiệp &#038; Chứng thực nguồn gốc</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Cofarm - Mxh Nông Nghiệp & Chứng thực nguồn gốc nông sản, tạo mã Qr [...]					</p>
+					                    
+					
+					
+					</div><!-- .box-text-inner -->
+					</div><!-- .box-text -->
+																<div class="badge absolute top post-date badge-square">
+							<div class="badge-inner">
+								<span class="post-date-day">04</span><br>
+								<span class="post-date-month is-xsmall">Th5</span>
+							</div>
+						</div>
+									</div><!-- .box -->
+				</a><!-- .link -->
+			</div><!-- .col-inner -->
+		</div><!-- .col -->
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://cofarm-agritech.com/du-an-vuon-ben-nha/" class="plain">
+				<div class="box box-bounce box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="300" height="226" src="https://cofarm-agritech.com/wp-content/uploads/2021/04/img2767-1593683873047657254834-300x226.jpg" class="attachment-medium size-medium wp-post-image" alt="" loading="lazy" srcset="https://cofarm-agritech.com/wp-content/uploads/2021/04/img2767-1593683873047657254834-300x226.jpg 300w, https://cofarm-agritech.com/wp-content/uploads/2021/04/img2767-1593683873047657254834.jpg 650w" sizes="(max-width: 300px) 100vw, 300px" />  							  							  						</div>
+  						  					</div><!-- .box-image -->
+          					<div class="box-text text-center" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Dự án &#8211; Vườn Bên Nhà.</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Cofarm - Agritech khởi động dự án Vườn bên nhà vào tháng 01-2021. Đây là [...]					</p>
+					                    
+					
+					
+					</div><!-- .box-text-inner -->
+					</div><!-- .box-text -->
+																<div class="badge absolute top post-date badge-square">
+							<div class="badge-inner">
+								<span class="post-date-day">11</span><br>
+								<span class="post-date-month is-xsmall">Th4</span>
+							</div>
+						</div>
+									</div><!-- .box -->
+				</a><!-- .link -->
+			</div><!-- .col-inner -->
+		</div><!-- .col -->
+</div>
+
+
+</div></div>
+
+</div>
+
+		</div><!-- .section-content -->
+
+		
+<style scope="scope">
+
+#section_2089473371 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+</style>
+	</section>
+	
+
+		
+				
+</div>
+
+
+
+</main><!-- #main -->
+
+<footer id="footer" class="footer-wrapper">
+
+		<section class="section" id="section_797004263">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div><!-- .section-bg -->
+
+		<div class="section-content relative">
+			
+
+<h2>CÔNG TY TNHH CÔNG NGHỆ NÔNG NGHIỆP COFARM</h2>
+<p>MST: 4101571800</p>
+<p>39/16/21 Tháp Đôi Quy Nhơn, Bình Định, Việt Nam</p>
+<p> 083 399 9586</p>
+<p>cofarm@cofarm.vn</p>
+<p><a href="http://online.gov.vn/Home/WebDetails/83684"><img src="http://cofarm-agritech.com/wp-content/uploads/2021/07/logoSaleNoti.png" width="200"/></a></p>
+
+		</div><!-- .section-content -->
+
+		
+<style scope="scope">
+
+#section_797004263 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(57, 77, 61);
+}
+</style>
+	</section>
+	
+<div class="absolute-footer dark medium-text-center text-center">
+  <div class="container clearfix">
+
+    
+    <div class="footer-primary pull-left">
+            <div class="copyright-footer">
+        2021 © <strong>CoFarm AgriTech. All Copyrights Reserved</strong>      </div>
+          </div><!-- .left -->
+  </div><!-- .container -->
+</div><!-- .absolute-footer -->
+<a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link"><i class="icon-angle-up" ></i></a>
+
+</footer><!-- .footer-wrapper -->
+
+</div><!-- #wrapper -->
+
+<!-- Mobile Sidebar -->
+<div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
+    <div class="sidebar-menu no-scrollbar ">
+        <ul class="nav nav-sidebar  nav-vertical nav-uppercase">
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-13"><a href="https://cofarm-agritech.com/" class="nav-top-link">Trang Chủ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="https://cofarm-agritech.com/gioi-thieu/" class="nav-top-link">Về chúng tôi</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-111"><a href="https://cofarm-agritech.com/category/du-an/" class="nav-top-link">Dự án</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="https://cofarm-agritech.com/lien-he/" class="nav-top-link">Liên hệ</a></li>
+<li class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom current-menu-parent menu-item-has-children menu-item-244"><a href="#pll_switcher" class="nav-top-link"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFsSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f4NI9d////3+f+b3/1+////+9f/XL6A4o6ws0AaAAGIBm/0fRTVQ2v3Pf97f/4/9Aqv+DdHA8Ps3UANAALEAMSNQNdDGP3+ALvnf8vv/t9//9X/////7f+uv/4K//iciNABNBwggsJP+/IW4kuH3n//1v/8v+wVSDURmv/57//7/CeokoKFA0wECiAnkpL9/wH4CO+DNr/+VQA1A9PN/w6//j36CVIMRxEkAAQR20m+QpSBXgU0CuSTj9/93v/8v//V/xW+48UBD/zAwAAQQSAMzOMiABoBUswCd8ev/M7A669//OX7///Lr/x+gBlCoAJ0DEEAgDUy//zBISoKNAfoepJNRFmQkyJecfxj4/kDCEIiAigECiPErakTiiWMIAAgwAB4ZUlqMMhQQAAAAAElFTkSuQmCC" alt="Tiếng Việt" width="16" height="11" style="width: 16px; height: 11px;" /></a>
+<ul class=children>
+	<li class="lang-item lang-item-9 lang-item-en lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-244-en"><a href="https://cofarm-agritech.com/en/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" alt="English" width="16" height="11" style="width: 16px; height: 11px;" /></a></li>
+	<li class="lang-item lang-item-12 lang-item-vi current-lang menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-244-vi"><a href="https://cofarm-agritech.com/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFsSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f4NI9d////3+f+b3/1+////+9f/XL6A4o6ws0AaAAGIBm/0fRTVQ2v3Pf97f/4/9Aqv+DdHA8Ps3UANAALEAMSNQNdDGP3+ALvnf8vv/t9//9X/////7f+uv/4K//iciNABNBwggsJP+/IW4kuH3n//1v/8v+wVSDURmv/57//7/CeokoKFA0wECiAnkpL9/wH4CO+DNr/+VQA1A9PN/w6//j36CVIMRxEkAAQR20m+QpSBXgU0CuSTj9/93v/8v//V/xW+48UBD/zAwAAQQSAMzOMiABoBUswCd8ev/M7A669//OX7///Lr/x+gBlCoAJ0DEEAgDUy//zBISoKNAfoepJNRFmQkyJecfxj4/kDCEIiAigECiPErakTiiWMIAAgwAB4ZUlqMMhQQAAAAAElFTkSuQmCC" alt="Tiếng Việt" width="16" height="11" style="width: 16px; height: 11px;" /></a></li>
+</ul>
+</li>
+<li class="html header-social-icons ml-0">
+	<div class="social-icons follow-icons" ><a href="https://www.facebook.com/mxhnongnghiep" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon button circle is-outline facebook tooltip" title="Follow on Facebook"><i class="icon-facebook" ></i></a><a href="mailto:cofarm@cofarm.vn" data-label="E-mail"  rel="nofollow" class="icon button circle is-outline  email tooltip" title="Send us an email"><i class="icon-envelop" ></i></a></div></li>        </ul>
+    </div><!-- inner -->
+</div><!-- #mobile-menu -->
+<div id="arcontactus"></div>
+    <script src="https://cofarm-agritech.com/wp-content/plugins/ar-contactus/res/js/jquery.contactus.min.js?version=1.7.7"></script>
+<script type="text/javascript">
+    var zaloWidgetInterval;
+    var tawkToInterval;
+    var skypeWidgetInterval;
+    var lcpWidgetInterval;
+    var closePopupTimeout;
+    var lzWidgetInterval;
+        var arcItems = [];
+        window.addEventListener('load', function(){
+                    arCuClosedCookie = arCuGetCookie('arcu-closed');
+                jQuery('#arcontactus').on('arcontactus.init', function(){
+                                                        });
+        jQuery('#arcontactus').on('arcontactus.closeMenu', function(){
+            arCuCreateCookie('arcumenu-closed', 1, 1);
+        });
+                                                var arcItem = {};
+                            arcItem.id = 'msg-item-1';
+                                    arcItem.class = 'msg-item-facebook-messenger';
+            arcItem.title = "Messenger";
+                        arcItem.icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z"></path></svg>';
+                            arcItem.href = 'https://m.me/mxhnongnghiep';
+                                    arcItem.color = '#567AFF';
+            arcItems.push(arcItem);
+                var arcuOptions = {
+            wordpressPluginVersion: '1.7.7',
+                            buttonIcon: '<svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Canvas" transform="translate(-825 -308)"><g id="Vector"><use xlink:href="#path0_fill0123" transform="translate(825 308)" fill="currentColor"></use></g></g><defs><path id="path0_fill0123" d="M 19 4L 17 4L 17 13L 4 13L 4 15C 4 15.55 4.45 16 5 16L 16 16L 20 20L 20 5C 20 4.45 19.55 4 19 4ZM 15 10L 15 1C 15 0.45 14.55 0 14 0L 1 0C 0.45 0 0 0.45 0 1L 0 15L 4 11L 14 11C 14.55 11 15 10.55 15 10Z"></path></defs></svg>',
+                        drag: false,
+            mode: 'regular',
+            buttonIconUrl: 'https://cofarm-agritech.com/wp-content/plugins/ar-contactus/res/img/msg.svg',
+            showMenuHeader: false,
+            menuHeaderText: "How would you like to contact us?",
+            showHeaderCloseBtn: false,
+                                        headerCloseBtnBgColor: '#008749',
+                                        headerCloseBtnColor: '#ffffff',
+                        itemsIconType: 'rounded',
+            align: 'right',
+            reCaptcha: false,
+            reCaptchaKey: '',
+            countdown: 0,
+            theme: '#008749',
+                            buttonText: "Contact us",
+                        buttonSize: 'large',
+            menuSize: 'large',
+            phonePlaceholder: '+XXX-XX-XXX-XX-XX',
+            callbackSubmitText: 'Waiting for call',
+            errorMessage: 'Connection error. Please refresh the page and try again.',
+            callProcessText: 'We are calling you to phone',
+            callSuccessText: 'Thank you.<br />We are call you back soon.',
+            iconsAnimationSpeed: 600,
+            callbackFormText: 'Please enter your phone number<br />and we call you back soon',
+            items: arcItems,
+            ajaxUrl: 'https://cofarm-agritech.com/wp-admin/admin-ajax.php',
+                            promptPosition: 'top',
+                        callbackFormFields: {
+                                                phone: {
+                    name: 'phone',
+                    enabled: true,
+                    required: true,
+                    type: 'tel',
+                    label: '',
+                    placeholder: "+XXX-XX-XXX-XX-XX"
+                },
+                            },
+            action: 'arcontactus_request_callback'
+        };
+                                    jQuery('#arcontactus').contactUs(arcuOptions);
+                                                                });
+                                                            </script>
+<script type='text/javascript' src='https://cofarm-agritech.com/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search.js?ver=3.10.0' id='flatsome-live-search-js'></script>
+<script type='text/javascript' src='https://cofarm-agritech.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1' id='hoverIntent-js'></script>
+<script type='text/javascript' id='flatsome-js-js-extra'>
+/* <![CDATA[ */
+var flatsomeVars = {"ajaxurl":"https:\/\/cofarm-agritech.com\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"70","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cofarm-agritech.com/wp-content/themes/flatsome/assets/js/flatsome.js?ver=3.10.0' id='flatsome-js-js'></script>
+<script type='text/javascript' src='https://cofarm-agritech.com/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js'></script>
+
+</body>
+</html>

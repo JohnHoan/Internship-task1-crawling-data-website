@@ -1,0 +1,2104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="oPwDIJ3SPnqZrAlnyaaQ1SXMdnkMr43k40evpvB4"/>
+
+        
+        <title>APP24h - Thiết kế app bán hàng</title>
+
+        <link rel="canonical" href="https://app24h.com.vn"/>
+
+        <meta name="distribution" content="Global">
+        <meta name="description" content="APP24h">
+        <meta name="keywords" content="APP24h">
+        <meta name="author" content="APP24h">
+
+        <meta property="og:locale" content="vi_VN">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="APP24h - Thiết kế app bán hàng">
+        <meta property="og:description" content="APP24h">
+        <meta property="og:url" content="https://app24h.com.vn">
+        <meta property="og:site_name" content="APP24h">
+        <meta property="og:image" content="https://app24h.com.vn/storage/uploads/2021/06/11/60c338d75da2d.png">
+        <meta property="og:image:alt" content="APP24h">
+        <link rel="alternate" type="application/rss+xml" title="APP24h - Thiết kế app bán hàng" href="https://app24h.com.vn/feed"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="https://app24h.com.vn/storage/uploads/2021/06/11/60c338a4dde6f.png">
+        <!-- Style css -->
+        <link rel="stylesheet" href="https://app24h.com.vn/storage/frontend/assets/css/style.css?v=2.7">
+
+        <!-- Responsive css -->
+        <link rel="stylesheet" href="https://app24h.com.vn/storage/frontend/assets/css/responsive.css?v=2.7">
+
+        <link rel="stylesheet" href="https://app24h.com.vn/storage/frontend/assets/css/customf9e3.css">
+
+        <style>
+            .form-message {
+                padding: 10px;
+                color: #fff;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+
+            .form-message.success {
+                background: #028a02;
+            }
+
+            .form-message.error {
+                background: red;
+            }
+
+
+            .service-text a {
+                font-family: 'Open Sans', sans-serif;
+            }
+
+            .customer-intro {
+                min-height: 60px;
+                text-align: center;
+            }
+
+            .website-link {
+                text-align: center;
+            }
+
+            @media (max-width: 575px) {
+                .avatar-lg {
+                    height: auto;
+                }
+            }
+
+            .bg-grayx {
+                background-color: #f3f3f3;
+            }
+
+            h3.blog-title {
+                font-size: 18px;
+            }
+
+            .blog-area h4 {
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 24px;
+            }
+
+            .blog .breadcrumb-area {
+                background: none;
+            }
+
+            .breadcrumb-area {
+                height: 350px;
+            }
+
+            .blog-details img {
+                height: auto !important;
+            }
+
+            b, strong {
+                font-weight: bold;
+            }
+
+            .blog-details h2 {
+                font-size: 24px;
+            }
+
+            .blog-details h3 {
+                font-size: 20px;
+            }
+
+            .blog-details h4 {
+                font-size: 18px;
+            }
+
+            .blog-details h5 {
+                font-size: 16px;
+            }
+
+            .app-screenshots .blog-container p,
+            .app-screenshots .blog-container h6 {
+                margin: 10px 0 0 0px;
+            }
+
+            .app-screenshots .icon-button {
+                display: block;
+                text-align: center;
+                width: 100%;
+            }
+
+            .app-screenshots .icon-button a {
+                display: block;
+                text-align: center;
+                width: 100%;
+            }
+
+            .app-screenshots .icon-button a img {
+                margin: 0 auto;
+                padding: 10px 0px;
+            }
+
+            .app-screenshots .button-group {
+                margin: 0;
+            }
+
+            .blog-container {
+                height: 450px;
+                margin-top: 20px;
+            }
+
+            .card-header .btn.collapsed::after {
+                content: '';
+            }
+
+            .card-header .collapsed span.icon::after {
+                content: '\f105';
+            }
+
+            .card-header p {
+                padding-right: 30px !important;
+                cursor: pointer;
+            }
+
+            .card-header span.icon::after, .card-header .collapsed span.icon::after {
+                position: absolute;
+                top: 50%;
+                left: calc(100% - 1.25rem);
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                font-size: 18px;
+                font-weight: 900;
+                font-family: 'Font Awesome 5 Free';
+            }
+
+            .card-header .btn::after {
+                content: '';
+            }
+
+            .card-header span.icon::after {
+                content: '\f107';
+            }
+
+            .project-img {
+                width: 15%;
+                display: inline-block;
+                float: left;
+            }
+
+            .project-desc {
+                width: 85%;
+                padding-left: 20px;
+                display: inline-block;
+                float: left;
+            }
+
+            .project-header h2 {
+                padding-top: 15px;
+                font-size: 28px;
+                text-transform: capitalize !important;
+                font-weight: normal;
+                line-height: 28px;
+            }
+
+            .project-img img {
+                border-radius: 30px;
+                border: solid 1px #d9d9d9;
+            }
+
+            .project-content {
+                width: 100%;
+                display: inline-block;
+                padding-top: 30px;
+            }
+
+            .project-item:first-child {
+                padding-top: 0px;
+            }
+
+            .project-item {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                border-bottom: solid 1px #ddd;
+            }
+
+            .project-content .img-list {
+                text-align: center;
+                width: 100%;
+            }
+
+            .project-content .img-list img {
+                max-width: 100%;
+                display: inline-block;
+                text-align: center;
+            }
+
+            .link-btn-group {
+                padding: 10px 0;
+            }
+
+            .dl-btn {
+                min-width: 100px;
+                display: inline-block;
+                background: #7f6ce6;
+                padding: 5px;
+                text-align: center;
+                color: #fff;
+                border-radius: 5px;
+                margin-right: 10px;
+            }
+
+            .dl-btn:hover {
+                color: #fff;
+                background: #7b3be6;
+            }
+
+            @media (min-width: 768px) {
+                .project-desc-mobi {
+                    display: none;
+                }
+            }
+
+            @media (max-width: 767px) {
+                .project-img {
+                    width: 30%;
+                }
+
+                .project-desc {
+                    width: 70%;
+                }
+
+                .project-header h2 {
+                    padding-top: 5px;
+                    font-size: 20px;
+                }
+
+                .dl-btn {
+                    margin-top: 10px;
+                    float: left;
+                }
+
+                .link-btn-group {
+                    padding-top: 0;
+                    display: inline-block;
+                }
+
+                .breadcrumb-area {
+                    height: 300px;
+                }
+
+                .project-desc-pc {
+                    display: none;
+                }
+
+                .project-content {
+                    padding-top: 0;
+                }
+            }
+
+            .ptb_10 {
+                padding: 10px 0;
+            }
+
+            .ptb_20 {
+                padding: 20px 0;
+            }
+
+            .error {
+                color: red;
+            }
+        </style>
+        
+
+        <script type="text/javascript">
+            var BASE_URL = url('/');
+        </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120844787-4"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'UA-120844787-4');
+        </script>
+
+
+    </head>
+
+    <body>
+        <header class="navbar navbar-sticky navbar-expand-lg navbar-dark">
+    <div class="container position-relative">
+        <a class="navbar-brand" href="https://app24h.com.vn">
+            <img class="navbar-brand-regular" src="https://app24h.com.vn/storage/uploads/2021/06/11/60c338d75da2d.png" width="180px" alt="brand-logo">
+            <img class="navbar-brand-sticky" src="https://app24h.com.vn/storage/uploads/2021/06/11/60c338d75da2d.png" width="180px"
+                 alt="sticky brand-logo">
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-inner">
+            <!--  Mobile Menu Toggler -->
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav>
+                                    <ul class="navbar-nav" id="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link scroll" target="_blank" href="#gioi-thieu-ve-APP24h">Giới
+                                thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#tinh-nang-APP24h">Tính năng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#khach-hang-APP24h">Khách hàng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#bang-gia-APP24h">Bảng giá</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/tin-tuc">Tin tức</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link show-popup-contact" href="javascript:;" data-package="4">Liên hệ</a>
+                        </li>
+                    </ul>
+                            </nav>
+        </div>
+    </div>
+</header>
+<!-- Modal -->
+<div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="modalContact" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Đăng ký tư vấn APP24h<br>
+                    <p>Vui lòng điền đầy đủ các thông tin dưới đây. Chúng tôi sẽ liên lạc ngay cho bạn sau khi
+                        nhận được thông tin!</p>
+                </h4>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="https://app24h.com.vn/lien-he.html" method="post" id="contact-form">
+                    <input type="hidden" name="_token" value="oPwDIJ3SPnqZrAlnyaaQ1SXMdnkMr43k40evpvB4">                    <div class="form-group row">
+                        <label for="fullname" class="col-sm-4 col-form-label">Họ tên
+                            <span style="color: red">(*)</span></label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="fullname" name="fullname" placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="phone" class="col-sm-4 col-form-label">Số điện thoại
+                            <span style="color: red">(*)</span></label>
+                        <div class="col-sm-8">
+                            <input type="number" class="form-control" minlength="10" id="phone" name="phone"
+                                   placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-sm-4 col-form-label">Email <span
+                                style="color: red">(*)</span></label>
+                        <div class="col-sm-8">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="company_name" class="col-sm-4 col-form-label">Tên Công ty/Thương
+                            hiệu</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="company_name" name="company_name"
+                                   placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="address" class="col-sm-4 col-form-label">Địa chỉ</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="address" name="address" placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="career" class="col-sm-4 col-form-label">Ngành nghề hoạt động
+                            <span style="color: red">(*)</span></label>
+                        <div class="col-sm-8">
+                            <select class="form-control" name="career" id="inputScope">
+                                <option value="" selected="selected">Chọn</option>
+                                                                    <option value="1">Thực Phẩm</option>
+                                                                    <option value="2">Thời trang</option>
+                                                                    <option value="3">Mỹ phẩm</option>
+                                                                    <option value="4">Mẹ và bé</option>
+                                                                    <option value="5">Tạp hóa - Siêu thị mini</option>
+                                                                    <option value="6">Điện thoại - Điện máy - Điện tử - Thiết bị</option>
+                                                                    <option value="7">Thủy Sinh</option>
+                                                                    <option value="8">Bất Động Sản</option>
+                                                                    <option value="9">Ô tô, xe máy</option>
+                                                                    <option value="10">Y tế - Thuốc - Dược Phẩm</option>
+                                                                    <option value="11">Hoa - Quà tặng</option>
+                                                                    <option value="12">Nông sản - Nông Nghiệp</option>
+                                                                    <option value="13">Sách - Văn phòng phẩm</option>
+                                                                    <option value="14">Bar - Cafe - Nhà hàng</option>
+                                                                    <option value="15">Spa - Dịch Vụ Làm Đẹp</option>
+                                                                    <option value="16">Du lịch</option>
+                                                                    <option value="17">Xây dựng - Kiến Trúc</option>
+                                                                    <option value="18">Tài Chính - Ngân Hàng</option>
+                                                                    <option value="19">Giáo dục</option>
+                                                                    <option value="20">Bảo trì - Sửa chữa - Vệ Sinh</option>
+                                                                    <option value="21">Ngành khác</option>
+                                                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="service" class="col-sm-4 col-form-label">Gói dịch vụ bạn cần tư
+                            vấn <span style="color: red">(*)</span></label>
+                        <div class="col-sm-8">
+                            <select class="form-control package_select" name="service" id="service">
+                                <option value="">Chọn</option>
+                                                                    <option value="1">Gói APP24h CƠ BẢN (~ 21.000đ/ngày)</option>
+                                                                    <option value="2">Gói APP24h CHUYÊN NGHIỆP (~ 41.000đ/ngày)</option>
+                                                                    <option value="3">Gói APP24h CAO CẤP</option>
+                                                                    <option value="4">Dịch vụ khác</option>
+                                                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputEmail" class="col-sm-4 col-form-label">Mô tả thêm về yêu cầu của
+                            bạn</label>
+                        <div class="col-sm-8">
+                            <textarea class="form-control" name="content"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputEmail" class="col-sm-4 col-form-label">Bạn muốn chúng tôi liên hệ với
+                            bạn qua kênh nào? (Có thể chọn nhiều) <span style="color: red">(*)</span></label>
+                        <div class="col-sm-8">
+                            <div class="row">
+                                <div class="col-md-6 col-6">
+                                    <div class="form-check">
+                                        <input type="checkbox" name="contact_how[]" value="1"
+                                               class="form-check-input" id="types_1">
+                                        <label class="form-check-label" for="types_1">Gọi điện trực tiếp</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <div class="form-check">
+                                        <input type="checkbox" name="contact_how[]" value="2"
+                                               class="form-check-input" id="types_2">
+                                        <label class="form-check-label" for="types_2">Chat Zalo</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <div class="form-check">
+                                        <input type="checkbox" name="contact_how[]" value="3"
+                                               class="form-check-input" id="types_3">
+                                        <label class="form-check-label" for="types_3">Chat Skype</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <div class="form-check">
+                                        <input type="checkbox" name="contact_how[]" value="4"
+                                               class="form-check-input" id="types_4">
+                                        <label class="form-check-label" for="types_4">Chat Viber</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-6">
+                                    <div class="form-check">
+                                        <input type="checkbox" name="contact_how[]" value="5"
+                                               class="form-check-input" id="types_5">
+                                        <label class="form-check-label" for="types_5">Trao đổi qua Email</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="chanel" class="col-sm-4 col-form-label">Bạn biết đến APP24h qua kênh
+                            nào? <span style="color: red">(*)</span></label>
+                        <div class="col-sm-8">
+                            <select class="form-control" name="chanel" id="chanel">
+                                <option value="">Chọn</option>
+                                                                    <option value="1">Tìm trên Google</option>
+                                                                    <option value="2">Mạng xã hội</option>
+                                                                    <option value="3">Báo chí, truyền thông</option>
+                                                                    <option value="4">Người quen giới thiệu</option>
+                                                                    <option value="5">Khác</option>
+                                                            </select>
+                            <div class="row">
+                                <!--
+                                    <div class="col-md-6 col-6">
+                                        <div class="form-check">
+                                            <input type="checkbox" name="sources[]" value=""
+                                                   class="form-check-input" id="sources_">
+                                            <label class="form-check-label" for="sources_"></label>
+                                        </div>
+                                    </div>
+                                -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="g-recaptcha"
+                         data-sitekey="6Lf5WhAaAAAAAJ1eklD_KI9USZTkO4LEhx4wAX90"
+                         data-callback="recaptcha_callback"
+                         data-size="invisible">
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-sm-12 text-center">
+                            <button type="submit" class="btn btn-primary" id="submit-btn">
+                                Đăng ký
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="preloader-main">
+            <div class="preloader-wapper">
+                <svg class="preloader" xmlns="http://www.w3.org/2000/svg" version="1.1" width="600" height="200">
+                    <defs>
+                        <filter id="goo" x="-40%" y="-40%" height="200%" width="400%">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -8"
+                                           result="goo"/>
+                        </filter>
+                    </defs>
+                    <g filter="url(#goo)">
+                        <circle class="dot" cx="50" cy="50" r="25" fill="#1a73e8"/>
+                        <circle class="dot" cx="50" cy="50" r="25" fill="#1a73e8"/>
+                    </g>
+                </svg>
+                <div>
+                    <div class="loader-section section-left"></div>
+                    <div class="loader-section section-right"></div>
+                </div>
+            </div>
+        </div>
+            <!-- ***** Welcome Area Start ***** -->
+    <section id="home" class="section welcome-area bg-inherit h-100vh overflow-hidden">
+        <div class="shapes-container">
+            <div class="bg-shape"></div>
+        </div>
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <!-- Welcome Intro Start -->
+                <div class="col-12 col-md-7">
+                    <div class="welcome-intro">
+                        <h2>Giải pháp Thương Mại Điện Tử 3 trong 1 trên Di Động Thông Minh và Website</h2>
+                        <p class="my-4 loi-mo-dau">APP24h là giải pháp thương mại điện tử 3 trong 1 <b>cực kỳ
+                                hiệu quả và
+                                tối ưu chi phí</b> phù hợp cho mọi hoạt động kinh doanh online hiện nay. Chỉ với <b>~
+                                21.000đ/ngày (không phát sinh thêm bất kì chi phí nào khác)</b>, bạn sẽ sở hữu ngay <b>2
+                                ứng dụng bán hàng trên di động (Android và IOS)</b> đồng bộ cùng <b>1 website bán hàng
+                                chuẩn SEO</b> giúp người kinh doanh có thể quản lý toàn bộ quy trình bán hàng, chăm sóc
+                            khách hàng, tăng doanh thu, tăng giá trị thương hiệu, giảm chi phí và phát triển kinh doanh
+                            hiệu quả hơn.
+                            <br/>Điểm đặc biệt của APP24h so với vô vàn các App bán hàng khác trên thị
+                            trường: 2 App
+                            Android & IOS được xây dựng bằng <b>ngôn ngữ gốc (Native App)</b>, chính vì vậy mà <b>HIỆU
+                                SUẤT và TRẢI NGHIỆM CỦA NGƯỜI DÙNG</b> trên ứng dụng luôn cao nhất, <b>DUNG LƯỢNG</b>
+                            của ứng dụng luôn thấp nhất và <b>TỒN TẠI VĨNH VIỄN</b> theo thời gian mà không sợ ứng dụng
+                            bị xóa vì sự thay đổi chính sách nền tảng của Google hoặc Apple trong tương lai.
+                        </p>
+                        <a style="margin-right: 20px;" href="javascript:;" class="btn show-popup-contact"
+                           data-package="4">Đăng
+                            ký tư vấn</a>
+                        <a href="#tinh-nang-APP24h" class="btn">Xem tính năng</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <!-- Welcome Thumb -->
+                    <div class="welcome-thumb" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                        <img class="hinh-rung-rinh" src="https://app24h.com.vn/storage/frontend/App24h/image_banner.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Welcome Area End ***** -->
+
+    <section id="gioi-thieu-ve-APP24h" class="section discover-area bg-gray overflow-hidden ptb_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-12">
+                    <!-- Section Heading -->
+                    <div class="section-heading text-center">
+                        <h2>APP24h giúp bạn giải quyết vấn đề gì?</h2>
+                        <!--                            <p class="d-none d-sm-block mt-4">Để xây dựng ứng dụng di động thì bạn có thể thuê 1 công ty để lập trình ứng dụng riêng cho bạn hoặc sử dụng các giải pháp tạo ứng dựng di động như App 1h. Vậy các ưu điểm của App 1H là gì?</p>-->
+                        <!--                            <p class="d-block d-sm-none mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati.</p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-lg-6 order-2 order-lg-1">
+                    <!-- Discover Thumb -->
+                    <div class="service-thumb discover-thumb mx-auto text-center">
+                        <img src="https://app24h.com.vn/storage/frontend/App24h/app-cho-shop-my-pham-thanh-duoc.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 order-1 order-lg-2">
+                    <!-- Discover Text -->
+                    <div class="discover-text px-0 px-lg-4 pt-4 pt-lg-0">
+                        <h3 class="pb-4">Nếu bạn đang muốn bắt đầu kinh doanh online ở thời kì "hậu Covid":</h3>
+                        <!-- Check List -->
+                        <ul class="check-list">
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">Bạn sẽ sở hữu ngay 1 website chuẩn SEO, 2 app bán hàng chuyên nghiệp trên Android và IOS.</span>
+                                </div>
+                            </li>
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">Quản lý website bán hàng và 2 ứng dụng bán hàng bằng 1 website quản trị duy nhất với đầy đủ tính năng, đơn giản, dễ sử dụng.</span>
+                                </div>
+                            </li>
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">Tối ưu chi phí để khởi đầu kinh doanh online chỉ với 21.000đ/ngày và không phát sinh thêm bất kỳ chi phí nào khác.</span>
+                                </div>
+                            </li>
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">Xây dựng nền móng thương hiệu từ những viên gạch đầu tiên và "biến" khách hàng trở thành "fan cứng trung thành" của thương hiệu.</span>
+                                </div>
+                            </li>
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">Chiếm trước keyword (từ khóa) ngành nghề kinh doanh trên Store của Google, Apple</span>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-6 order-2 order-lg-1">
+                    <!-- Service Text -->
+                    <div class="service-text pt-4 pt-lg-0">
+                        <h3 class="mb-4">Nếu bạn đang kinh doanh và đã có website:</h3>
+                        <!-- Service List -->
+                        <ul class="check-list">
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">Bạn sẽ BỔ SUNG THÊM cho THƯƠNG HIỆU của mình 2 Ứng dụng bán hàng chuyên nghiệp giúp nâng tầm giá trị thương hiệu.</span>
+                                </div>
+                            </li>
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">Bổ sung thêm hai kênh mua sắm tiện lợi và nâng cao hành trình trải nghiệm mua sắm online giúp xây dựng hệ thống khách hàng trung thành bền vững.</span>
+                                </div>
+                            </li>
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">Phát triển và duy trì mối quan hệ đối với các khách hàng cũ đã mua hàng.</span>
+                                </div>
+                            </li>
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">CHĂM SÓC KHÁCH HÀNG bằng các chức năng TÍCH ĐIỂM, ĐỔI QUÀ, HOÀN TIỀN.</span>
+                                </div>
+                            </li>
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">TĂNG DOANH SỐ vượt bậc bằng chức năng MÃ GIỚI THIỆU siêu hấp dẫn.</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <!--                            <a href="#" class="btn btn-bordered mt-4">Learn More</a>-->
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 order-1 order-lg-2 d-none d-md-block">
+                    <!-- Service Thumb -->
+                    <div class="service-thumb mx-auto">
+                        <img src="https://app24h.com.vn/storage/frontend/App24h/app-ban-hang-cho-cua-hang-thuy-sinh.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-lg-6 order-2 order-lg-1">
+                    <!-- Discover Thumb -->
+                    <div class="service-thumb discover-thumb mx-auto text-center">
+                        <img src="https://app24h.com.vn/storage/frontend/App24h/app-cho-cua-hang-trang-suc-vang-bac.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 order-1 order-lg-2">
+                    <!-- Discover Text -->
+                    <div class="discover-text px-0 px-lg-4 pt-4 pt-lg-0">
+                        <h3 class="pb-4">Một số điểm ĐẶC BIỆT của APP24h:</h3>
+                        <!-- Check List -->
+                        <ul class="check-list">
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">APP24h là sản phẩm được thietke24h cho ra đời vào năm 2016 và sau một thời gian dài cải tiến, cập nhật về công nghệ cũng như nền tảng, đến nay APP24h đã trở thành một "vũ khí lợi hại" và mang đến sự thành công trong việc kinh doanh online cho hơn 1000+ khách hàng trên cả nước.</span>
+                                </div>
+                            </li>
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">2 Ứng dụng báng hàng trên Android, IOS được lập trình 100% bằng Ngôn Ngữ Gốc (Native App) DUY NHẤT TRÊN THỊ TRƯỜNG hiện tại.</span>
+                                </div>
+                            </li>
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">HỆ SINH THÁI CÔNG NGHỆ ĐỒNG BỘ, cập nhật nội dung 1 lần duy nhất và dữ liệu sẽ được đồng bộ theo thời gian thực lên cả 3 nền tảng: Website, App Android, App IOS.</span>
+                                </div>
+                            </li>
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">Bạn có thể yêu cầu thiết kế bộ giao diện riêng cho Website, App Android, App IOS của mình.</span>
+                                </div>
+                            </li>
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">Các bộ module chức năng đặc biệt giúp đẩy mạnh doanh thu và thu hút khách hàng quay trở lại mua sắm sau lần mua hàng đầu tiên.</span>
+                                </div>
+                            </li>
+                            <li class="py-1">
+                                <!-- List Box -->
+                                <div class="list-box media">
+                                    <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                    <span class="media-body pl-2">Toàn bộ hệ thống sử dụng Cloud của Google nên hiệu suất luôn đạt mức tối đa và đảm bảo hoàn toàn cho vấn đề bảo mật dữ liệu.</span>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***** Features Area Start ***** -->
+    <section id="tinh-nang-APP24h" class="section features-area ptb_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-12">
+                    <!-- Section Heading -->
+                    <div class="section-heading text-center">
+                        <h2>Các tính năng cao cấp của APP24h</h2>
+                        <p class="d-none d-sm-block mt-4 in-nghieng">Một số tính năng cao cấp của APP24h hỗ
+                            trợ tối ưu
+                            cho các chiến dịch marketing và giúp doanh thu online tăng doanh số vượt bậc</p>
+                        <p class="d-block d-sm-none mt-4"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Icon Box -->
+                    <div class="icon-box text-center p-4 wow fadeInUp" data-wow-duration="2s">
+                        <!-- Featured Icon -->
+                        <div class="featured-icon mb-3">
+                            <!--                                <span class="flaticon-tap"></span>-->
+                            <img src="https://app24h.com.vn/storage/frontend/App24h/Group500.png" alt="">
+                        <!--                                <img src="https://APP24h.com/https://app24h.com.vn/storage/frontend/App24h/flash.png" alt="">-->
+
+                        </div>
+                        <!-- Icon Text -->
+                        <div class="icon-text">
+                            <h3 class="mb-2">Push Notification
+                                <span class="purple-tooltip" data-toggle="tooltip" data-html="true"
+                                      title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+                                    <i class="fa fa-support"></i>
+                                </span>
+                            </h3>
+                            <p>Tính năng Push Notification (Gửi thông báo cho cả Website và 2 App) là chức năng đặc biệt
+                                giúp người kinh doanh chủ động gửi các thông tin khuyến mãi, sản phẩm mới, hoặc triển
+                                khai các nội dung marketing nhằm kích thích hành vi mua sắm của khách hàng.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Icon Box -->
+                    <div class="icon-box text-center p-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+                        <!-- Featured Icon -->
+                        <div class="featured-icon mb-3">
+                            <!--                                <span class="flaticon-fingerprint"></span>-->
+                            <img src="https://app24h.com.vn/storage/frontend/App24h/Group-500.png"  alt="">
+
+                        </div>
+                        <!-- Icon Text -->
+                        <div class="icon-text">
+                            <h3 class="mb-2">Thuộc tính sản phẩm không giới hạn</h3>
+                            <p>Dù sản phẩm của bạn có bao nhiêu loại thuộc tính (màu sắc, size, kiểu dáng, chất liệu,
+                                v..v...) thì bạn vẫn có thể dễ dàng cài đặt từng loại thuộc tính và quản lý tồn kho
+                                riêng biệt ngay trong giao diện quản trị.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Icon Box -->
+                    <div class="icon-box text-center p-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+                        <!-- Featured Icon -->
+                        <div class="featured-icon mb-3">
+                            <!--                                <span class="flaticon-notification"></span>-->
+                            <img src="https://app24h.com.vn/storage/frontend/App24h/Group-501.png" alt="">
+
+                        </div>
+                        <!-- Icon Text -->
+                        <div class="icon-text">
+                            <h3 class="mb-2">Mã Giảm Giá Khuyến Mãi</h3>
+                            <p>Bạn có thể tạo ra các mã giảm giá theo % tổng số tiền của đơn hàng hoặc mã giảm giá theo
+                                một số tiền cố định được đặt sẵn để kích thích hành vi mua sắm của khách hàng. Đặc biệt,
+                                bạn có thể tùy chỉnh thời gian để mã giảm giá hoạt động theo chiến lược marketing của
+                                mình.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Icon Box -->
+                    <div class="icon-box text-center p-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
+                        <!-- Featured Icon -->
+                        <div class="featured-icon mb-3">
+                            <!--                                <span class="flaticon-place"></span>-->
+                            <img src="https://app24h.com.vn/storage/frontend/App24h/Group-502.png" alt="">
+
+                        </div>
+                        <!-- Icon Text -->
+                        <div class="icon-text">
+                            <h3 class="mb-2">Tích điểm</h3>
+                            <p>Khách hàng sẽ được tích điểm vào tài khoản sau khi hoàn thành một đơn hàng và điểm tích
+                                lũy sẽ được khách hàng sử dụng để trừ tiền vào các lần mua sắm tiếp theo. Đây là một
+                                tính năng quan trọng giúp xây dựng một tệp khách hàng trung thành dành cho thương hiệu
+                                của bạn.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Icon Box -->
+                    <div class="icon-box text-center p-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.8s">
+                        <!-- Featured Icon -->
+                        <div class="featured-icon mb-3">
+                            <!--                                <span class="flaticon-settings"></span>-->
+                            <img src="https://app24h.com.vn/storage/frontend/App24h/Group-503.png" alt="">
+
+                        </div>
+                        <!-- Icon Text -->
+                        <div class="icon-text">
+                            <h3 class="mb-2">Mã Giới thiệu (Affiliate)</h3>
+                            <p>Tính năng Mã Giới Thiệu là một tính năng hỗ trợ cho việc mở rộng thị trường kinh doanh
+                                của bạn một cách nhanh chóng và cực kỳ hiệu quả. Với mã giới thiệu, khách hàng sẽ tích
+                                cực quảng bá cho thương hiệu và sản phẩm của bạn để nhận được các lợi ích dành cho chính
+                                mình.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Icon Box -->
+                    <div class="icon-box text-center p-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+                        <!-- Featured Icon -->
+                        <div class="featured-icon mb-3">
+                            <!--                                <span class="flaticon-language"></span>-->
+                            <img src="https://app24h.com.vn/storage/frontend/App24h/Group-504.png" alt="">
+
+                        </div>
+                        <!-- Icon Text -->
+                        <div class="icon-text">
+                            <h3 class="mb-2">Tích Hợp Ví Điện Tử & Các Đơn Vị Giao Hàng</h3>
+                            <p>Tích hợp ví điện tử, thanh toán trực tuyến, tích hợp các đơn vị vận chuyển, giao hàng
+                                hoặc các bên thứ 3 (có mở sẵn API) là một tính năng mà APP24h hỗ trợ cho vấn
+                                đề kinh
+                                doanh của bạn trở nên thật sự linh hoạt và tiện lợi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Area End ***** -->
+
+    <!-- ***** Service Area Start ***** -->
+    <section class="section service-area bg-gray overflow-hidden ptb_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-12">
+                    <!-- Section Heading -->
+                    <div class="section-heading text-center">
+                        <h2>3 Bước để sở hữu bộ ứng dụng bán hàng APP24h cho Thương Hiệu</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-6 order-2 order-lg-1">
+                    <!-- Service Text -->
+                    <div class="service-text pt-4 pt-lg-0">
+                        <!-- Service List -->
+                        <ul class="service-list">
+                            <!-- Single Service -->
+                            <li class="single-service media py-2">
+                                <div class="service-icon pr-4  d-none d-sm-block">
+                                    <!--                                        <span><i class="fab fa-buffer"></i></span>-->
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/Group-505.png" alt="">
+                                </div>
+                                <div class="service-text media-body">
+                                    <p class="in-dam">Bước 1:</p>
+                                    <a>- Điền vào form tư vấn các thông tin cơ bản như: ngành nghề kinh doanh, thương
+                                        hiệu, địa chỉ, số điện thoại,v..v.
+                                        <br>- APP24h sẽ liên hệ tư vấn theo yêu cầu ngành nghề kinh doanh của
+                                        Quý Khách.
+                                        <br>- Quý khách sẽ ký hợp đồng dịch vụ cùng APP24h.</a>
+                                </div>
+                            </li>
+                            <!-- Single Service -->
+                            <li class="single-service media py-2">
+                                <div class="service-icon pr-4  d-none d-sm-block">
+                                    <!--                                        <span><i class="fas fa-brush"></i></span>-->
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/Group-506.png" alt="">
+
+                                </div>
+                                <div class="service-text media-body">
+                                    <p class="in-dam">Bước 2:</p>
+                                    <a>- Chọn mẫu thiết kế, và màu sắc phù hợp với bộ nhận diện thương hiệu của bạn theo
+                                        kho giao diện có sẵn của APP24h.<br>- Quý khách cũng có thể yêu cầu
+                                        thiết kế
+                                        riêng giao diện cho website, ứng dụng hoặc bổ sung thêm chức năng theo yêu cầu
+                                        <a href="#">(Xem chi tiết)</a>.</a>
+                                </div>
+                            </li>
+                            <!-- Single Service -->
+                            <li class="single-service media py-2">
+                                <div class="service-icon pr-4  d-none d-sm-block">
+                                    <!--                                        <span><i class="fas fa-burn"></i></span>-->
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/Group-507.png" alt="">
+
+
+                                </div>
+                                <div class="service-text media-body">
+                                    <p class="in-dam">Bước 3:</p>
+                                    <a>- Quý khách sẽ nhận được website bán hàng, website quản trị và App bán hàng trên
+                                        Android (file APK) để test.<br/>- Quý khách sẽ cập nhật dữ liệu sản phẩm và nội
+                                        dung cơ bản vào website quản trị.<br/>- APP24h sẽ publish 2 App bán
+                                        hàng Android
+                                        và IOS lên kho ứng dụng Google Play và Apple Store để chờ duyệt.<br/>- Sau khi
+                                        ứng dụng của Quý khách được Apple và Google duyệt, Quý khách vận hành theo các
+                                        hướng dẫn của APP24h để TĂNG DOANH SỐ.</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 order-1 order-lg-2 d-none d-md-block">
+                    <!-- Service Thumb -->
+                    <div class="service-thumb mx-auto">
+                        <img src="https://app24h.com.vn/storage/frontend/App24h/iPhone-X-mockup-tilt-front-back.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Service Area End ***** -->
+
+
+    <!-- ***** Price Plan Area Start ***** -->
+    <section id="bang-gia-APP24h" class="section price-plan-area overflow-hidden ptb_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-7">
+                    <!-- Section Heading -->
+                    <div class="section-heading text-center">
+                        <h2>Bảng giá APP24h</h2>
+                        <p class="d-none d-sm-block mt-4 in-nghieng">Quý khách có thể lựa chọn các gói phù hợp với nhu
+                            cầu của mình theo bảng giá bên dưới.</p>
+                        <p class="d-block d-sm-none mt-4"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-12 col-lg-12">
+                    <div class="row price-plan-wrapper">
+                        <div class="col-12 col-md-4">
+                            <!-- Single Price Plan -->
+                            <div class="single-price-plan text-center p-5 wow fadeInLeft" data-aos-duration="2s"
+                                 data-wow-delay="0.4s">
+                                <!-- Plan Thumb -->
+                                <div class="plan-thumb">
+                                    <img class="avatar-lg"
+                                         src="https://app24h.com.vn/storage/frontend/App24h/APP24h-co-ban.png" alt="">
+                                </div>
+                                <!-- Plan Title -->
+                                <div class="plan-title my-2 my-sm-3">
+                                    <h3 class="text-uppercase">Cơ bản</h3>
+                                </div>
+                                <!-- Plan Price -->
+                                <div class="plan-price pb-2 pb-sm-3">
+                                    <h2 class="color-primary" style="color:#5400a7">21.000<small class="fw-7">đ</small>
+                                        / Ngày</h2>
+                                    <h5 class="color-primary">(650.000<small class="fw-7">đ</small> / Tháng)</h5>
+                                </div>
+                                <!-- Plan Description -->
+                                <div class="plan-description">
+                                    <ul class="plan-features">
+                                        <li class="border-top py-3">Có 1 website full tính năng bán hàng, chuẩn SEO, tốc
+                                            độ siêu nhanh
+                                        </li>
+                                        <li class="border-top py-3">Có 1 App bán hàng trên Android siêu mượt (Native App
+                                            100%)
+                                        </li>
+                                        <li class="border-top py-3">Có 1 App bán hàng trên IOS siêu mượt (Native App
+                                            100%)
+                                        </li>
+                                        <li class="border-top py-3">Có 1 website quản trị chung cho 3 nền tảng, dễ sử
+                                            dụng, thao tác
+                                        </li>
+                                        <li class="border-top py-3">Hỗ trợ đưa App lên Store của Google và Apple miễn
+                                            phí 100%
+                                        </li>
+                                        <li class="border-top py-3">Server sử dụng Cloud Google, không giới hạn băng
+                                            thông & dung lượng
+                                        </li>
+                                        <li class="border-top py-3">Khách hàng đăng ký thành viên bằng Email/SĐT và mật
+                                            khẩu
+                                        </li>
+                                        <li class="border-top py-3">Khách hàng đặt hàng không cần đăng ký và vẫn theo
+                                            dõi đơn hàng dễ dàng
+                                        </li>
+                                        <li class="border-top py-3">Quản lý, phân cấp, chia quyền cho nhân viên trong hệ
+                                            thống quản trị
+                                        </li>
+                                        <li class="border-top py-3">Nhận đơn hàng và liên hệ từ khách hàng bởi một hệ
+                                            thống quản trị duy nhất
+                                        </li>
+                                        <li class="border-top py-3">Đăng sản phẩm không giới hạn thuộc tính và quản lý
+                                            tồn kho riêng biệt
+                                        </li>
+                                        <li class="border-top border-bottom py-3">Tính năng Push Notification để gửi
+                                            thông báo, khuyến mãi cho khách hàng
+                                        </li>
+                                        <li class="border-top py-3">Tính năng Mã Giảm Giá, Khuyến Mãi hỗ trợ tăng doanh
+                                            số bán hàng
+                                        </li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/>-<br/></li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/>-<br/></li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/>-<br/></li>
+                                        <li class="border-top border-bottom py-3 d-none d-sm-block"><br/>-<br/></li>
+                                    </ul>
+                                </div>
+                                <!-- Plan Button -->
+                                <div class="plan-button">
+                                    <a href="javascript:;" class="btn mt-4 show-popup-contact" data-package="1">Đăng
+                                        Ký</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mt-4 mt-md-0">
+                            <!-- Single Price Plan -->
+                            <div class="single-price-plan text-center p-5 wow fadeInRight" data-aos-duration="2s"
+                                 data-wow-delay="0.4s">
+                                <!-- Plan Thumb -->
+                                <div class="plan-thumb">
+                                    <img class="avatar-lg"
+                                         src="https://app24h.com.vn/storage/frontend/App24h/app24h-chuyen-nghiep.png"
+                                         alt="">
+                                </div>
+                                <!-- Plan Title -->
+                                <div class="plan-title my-2 my-sm-3">
+                                    <h3 class="text-uppercase">Chuyên Nghiệp</h3>
+                                </div>
+                                <!-- Plan Price -->
+                                <div class="plan-price pb-2 pb-sm-3">
+                                    <h2 class="color-primary" style="color:#5400a7">41.000<small class="fw-7">đ</small>
+                                        / Ngày</h2>
+                                    <h5 class="color-primary">(1.250.000<small class="fw-7">đ</small> / Tháng)</h5>
+                                </div>
+                                <!-- Plan Description -->
+                                <div class="plan-description">
+                                    <ul class="plan-features">
+                                        <li class="border-top py-3">Có 1 website full tính năng bán hàng, chuẩn SEO, tốc
+                                            độ siêu nhanh
+                                        </li>
+                                        <li class="border-top py-3">Có 1 App bán hàng trên Android siêu mượt (Native App
+                                            100%)
+                                        </li>
+                                        <li class="border-top py-3">Có 1 App bán hàng trên IOS siêu mượt (Native App
+                                            100%)
+                                        </li>
+                                        <li class="border-top py-3">Có 1 website quản trị chung cho 3 nền tảng, dễ sử
+                                            dụng, thao tác
+                                        </li>
+                                        <li class="border-top py-3">Hỗ trợ đưa App lên Store của Google và Apple miễn
+                                            phí 100%
+                                        </li>
+                                        <li class="border-top py-3">Server sử dụng Cloud Google, không giới hạn băng
+                                            thông & dung lượng
+                                        </li>
+                                        <li class="border-top py-3">Khách hàng đăng ký thành viên bằng Email/SĐT và mật
+                                            khẩu
+                                        </li>
+                                        <li class="border-top py-3">Khách hàng đặt hàng không cần đăng ký và vẫn theo
+                                            dõi đơn hàng dễ dàng
+                                        </li>
+                                        <li class="border-top py-3">Quản lý, phân cấp, chia quyền cho nhân viên trong hệ
+                                            thống quản trị
+                                        </li>
+                                        <li class="border-top py-3">Nhận đơn hàng và liên hệ từ khách hàng bởi một hệ
+                                            thống quản trị duy nhất
+                                        </li>
+                                        <li class="border-top py-3">Đăng sản phẩm không giới hạn thuộc tính và quản lý
+                                            tồn kho riêng biệt
+                                        </li>
+                                        <li class="border-top py-3">Tính năng Push Notification để gửi thông báo, khuyến
+                                            mãi cho khách hàng
+                                        </li>
+                                        <li class="border-top py-3">Tính năng Mã Giảm Giá, Khuyến Mãi hỗ trợ tăng doanh
+                                            số bán hàng
+                                        </li>
+                                        <li class="border-top py-3 in-dam">Tính năng Tích Điểm kích thích hành vi tái
+                                            mua sắm của khách hàng
+                                            <img style="width: 1.5rem;"
+                                                 src="https://app24h.com.vn/storage/frontend/App24h/hot-icon.png" alt="">
+                                        </li>
+                                        <li class="border-top py-3 in-dam">Tính năng Mã Giới Thiệu Affiliate theo chuẩn
+                                            mới (duy nhất tại APP24h)
+                                            <img style="width: 1.5rem;"
+                                                 src="https://app24h.com.vn/storage/frontend/App24h/hot-icon.png" alt="">
+                                        </li>
+                                        <li class="border-top py-3 in-dam">Tích hợp thanh toán online, ví điện tử, đơn
+                                            vị giao hàng (có API)
+                                            <img style="width: 1.5rem;"
+                                                 src="https://app24h.com.vn/storage/frontend/App24h/hot-icon.png" alt="">
+                                        </li>
+                                        <li class="border-top border-bottom in-dam py-3">Giao diện Website & App được
+                                            thiết kế riêng cho thương hiệu
+                                            <img style="width: 1.5rem;"
+                                                 src="https://app24h.com.vn/storage/frontend/App24h/hot-icon.png" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Plan Button -->
+                                <div class="plan-button">
+                                    <a href="javascript:;" class="btn mt-4 show-popup-contact" data-package="2">Đăng
+                                        Ký</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <!-- Single Price Plan -->
+                            <div class="single-price-plan text-center p-5 wow fadeInLeft" data-aos-duration="2s"
+                                 data-wow-delay="0.4s">
+                                <!-- Plan Thumb -->
+                                <div class="plan-thumb">
+                                    <img class="avatar-lg"
+                                         src="https://app24h.com.vn/storage/frontend/App24h/app24h-cao-cap.png" alt="">
+                                </div>
+                                <!-- Plan Title -->
+                                <div class="plan-title my-2 my-sm-3">
+                                    <h3 class="text-uppercase">Cao Cấp</h3>
+                                </div>
+                                <!-- Plan Price -->
+                                <div class="plan-price pb-2 pb-sm-3">
+                                    <h2 class="color-primary" style="color:#5400a7">Liên Hệ</h2>
+                                    <h5 class="color-primary">(Bàn Giao Vĩnh Viễn)</h5>
+                                </div>
+                                <!-- Plan Description -->
+                                <div class="plan-description">
+                                    <ul class="plan-features">
+                                        <li class="border-top py-3">Thiết kế chức năng ứng dụng theo yêu cầu đặc biệt
+                                            của khách hàng
+                                        </li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/>
+                                        </li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/>
+                                        </li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/>
+                                        </li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/>
+                                        </li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/>
+                                        </li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/>
+                                        </li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/>
+                                        </li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/>
+                                        </li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/>
+                                        </li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/>
+                                        </li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/>
+                                        </li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/></li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/></li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/></li>
+                                        <li class="border-top py-3 d-none d-sm-block"><br/><br/></li>
+                                        <li class="border-top border-bottom py-3 d-none d-sm-block"><br/><br/></li>
+                                    </ul>
+                                </div>
+                                <!-- Plan Button -->
+                                <div class="plan-button">
+                                    <a href="javascript:;" class="btn mt-4 show-popup-contact" data-package="3">Đăng
+                                        Ký</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-md-12">
+                    <p class="text-body pt-4 fw-5 text-center">Bạn vẫn chưa biết mình phù hợp với gói nào?
+                        <a href="javascript:;" class="in-dam show-popup-contact" data-package="4">Liên
+                            hệ APP24h và chúng tôi sẽ hỗ trợ bạn</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Price Plan Area End ***** -->
+
+    <!-- ***** FAQ Area Start ***** -->
+
+    <section class="section faq-area bg-gray ptb_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-7">
+                    <!-- Section Heading -->
+                    <div class="section-heading text-center">
+                        <h2 class="text-capitalize">Câu hỏi thường gặp (FAQ)</h2>
+                        <p class="d-none d-sm-block mt-4"></p>
+                        <p class="d-block d-sm-none mt-4"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <!-- FAQ Content -->
+                    <div class="faq-content">
+                        <!-- sApp Accordion -->
+                        <div class="accordion" id="sApp-accordion">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-md-10 col-lg-8">
+                                    <!-- Single Accordion Item -->
+                                    <div class="card border-top-0 border-left-0 border-right-0 border-bottom">
+                                        <!-- Card Header -->
+                                        <div class="card-header bg-inherit border-0 p-0">
+                                            <p class="btn px-0 py-3 collapsed" data-toggle="collapse"
+                                               data-target="#collapseOne" aria-expanded="false">
+                                                Tôi có thể trải nghiệm thử APP24h không?
+                                                <span class="icon"></span>
+                                            </p>
+                                        </div>
+                                        <div id="collapseOne" class="collapse" data-parent="#sApp-accordion" style="">
+                                            <!-- Card Body -->
+                                            <div class="card-body px-0 py-3">
+                                                Câu trả lời là có. Bạn có thể tải demo các App bán hàng trên Android và
+                                                IOS của các khách hàng đang sử dụng gói APP24h ở phía dưới
+                                                đây để trải
+                                                nghiệm. Còn về phần website quản trị, APP24h có các clip
+                                                hướng dẫn sử
+                                                dụng, bạn có thể tham khảo <a href="#">tại đây</a> hoặc liên
+                                                hệ APP24h,
+                                                và chúng tôi sẽ gửi bạn tài khoản demo để tham khảo chi tiết hơn về
+                                                website quản trị.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Single Accordion Item -->
+                                    <div class="card border-top-0 border-left-0 border-right-0 border-bottom">
+                                        <!-- Card Header -->
+                                        <div class="card-header bg-inherit border-0 p-0">
+                                            <p class="btn px-0 py-3 collapsed" data-toggle="collapse"
+                                               data-target="#collapseTwo" aria-expanded="false">
+                                                Có thể làm demo APP24h cho thương hiệu của tôi để tôi sử dụng
+                                                thử
+                                                trước khi mua không?
+                                                <span class="icon"></span>
+                                            </p>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" data-parent="#sApp-accordion" style="">
+                                            <!-- Card Body -->
+                                            <div class="card-body px-0 py-3">
+                                                Khi Quý khách cần làm Website bán hàng và App demo cho thương hiệu của
+                                                mình, Quý khách vui lòng liên hệ với nhân viên kinh doanh hoặc nhấn vào
+                                                đây để được hỗ trợ. Lưu ý: Quý khách cần đặt cọc trước
+                                                khi APP24h tiến
+                                                hành làm demo sản phẩm mẫu cho Quý khách, bởi vì nền tảng
+                                                của APP24h là
+                                                Code native (tt) và không giống các bên khác chỉ cần làm thao tác nhân
+                                                bản ứng dụng nên khi APP24h build ứng dụng cho Quý khách sẽ
+                                                mất nhiều
+                                                thời gian cùng chi phí hệ thống server.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Single Accordion Item -->
+                                    <div class="card border-top-0 border-left-0 border-right-0 border-bottom">
+                                        <!-- Card Header -->
+                                        <div class="card-header bg-inherit border-0 p-0">
+                                            <p class="btn collapsed px-0 py-3" data-toggle="collapse"
+                                               data-target="#collapseThree">
+                                                Sau khi tôi đăng ký thì sau bao lâu tôi nhận được bộ ứng
+                                                dụng APP24h
+                                                hoàn chỉnh?
+                                                <span class="icon"></span>
+                                            </p>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" data-parent="#sApp-accordion">
+                                            <!-- Card Body -->
+                                            <div class="card-body px-0 py-3">
+                                                - <span class="in-dam">Đối với gói APP24h CƠ BẢN</span>: Tổng
+                                                thời gian
+                                                tính từ ngày Quý khách ký hợp đồng gói cơ bản với APP24h đến
+                                                ngày Quý
+                                                khách có được bộ ứng dụng hoàn chỉnh (2 App được up lên Store Google và
+                                                Apple) rơi vào khoảng từ 12 ngày đến 30 ngày (tùy thuộc vào nhiều yếu tố
+                                                như thời gian Quý khách up một số lượng sản phẩm lên web quản trị trước
+                                                khi gửi duyệt ứng dụng, thời gian duyệt ứng dụng của Apple, v..v…).
+                                                <br/>- <span
+                                                    class="in-dam">Đối với gói APP24h CHUYÊN NGHIỆP</span>:
+                                                Vì
+                                                gói này thiết kế giao diện riêng theo yêu cầu, có bổ sung thêm nhiều
+                                                chức năng, và liên kết thanh toán trực tuyến hoặc vận chuyển với bên thứ
+                                                3 nên sẽ phát sinh nhiều thời gian hơn gói cơ bản. Tổng thời gian tính
+                                                từ ngày Quý khách ký hợp đồng gói chuyên nghiệp với APP24h
+                                                đến ngày Quý
+                                                khách có được bộ ứng dụng hoàn chỉnh (2 App được up lên Store Google và
+                                                Apple) rơi vào khoảng từ 20 ngày đến 45 ngày (tùy thuộc vào nhiều yếu tố
+                                                như thời gian Quý khách up một số lượng sản phẩm lên web quản trị trước
+                                                khi gửi duyệt ứng dụng, thời gian duyệt ứng dụng của Apple, thời gian
+                                                làm việc để tích hợp với bên thứ 3, v..v…).
+                                                <br/>- <span class="in-dam">Đối với gói APP24h CAO CẤP</span>:
+                                                Thời gian
+                                                hoàn thành sẽ được tính dựa trên bảng mô tả chức năng tổng hợp mà Quý
+                                                khách yêu cầu.
+                                                <br/><span class="in-nghieng">Trên đây là các ước tính căn bản về thời gian, nếu Quý khách cần tìm hiểu chi tiết về quy trình ký hợp đồng và triển khai, Quý khách vui lòng tham khảo tại link này: <a
+                                                        href="#">Quy trình triển khai ứng dụng bán hàng APP24h</a>.</span>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Single Accordion Item -->
+                                    <div class="card border-top-0 border-left-0 border-right-0 border-bottom">
+                                        <!-- Card Header -->
+                                        <div class="card-header bg-inherit border-0 p-0">
+                                            <p class="btn collapsed px-0 py-3" data-toggle="collapse"
+                                               data-target="#collapseFour">
+                                                Tôi có thể đăng ký sử dụng APP24h trong vòng 1 tháng, 3 tháng
+                                                hoặc 6
+                                                tháng không?
+                                                <span class="icon"></span>
+                                            </p>
+                                        </div>
+                                        <div id="collapseFour" class="collapse" data-parent="#sApp-accordion">
+                                            <!-- Card Body -->
+                                            <div class="card-body px-0 py-3">
+                                                Quý khách có thể ký hợp đồng sử dụng APP24h ít nhất là 6
+                                                tháng. Bởi vì
+                                                như đã nói ở trên, APP24h hoàn toàn không giống các ứng dụng
+                                                bán hàng
+                                                khác trên thị trường vì định hướng của APP24h là mang đến lợi
+                                                ích cao
+                                                nhất cho việc kinh doanh online của Khách hàng chứ không phải vấn đề lợi
+                                                nhuận của Công ty, vì vậy mà APP24h chọn nền tảng native cho
+                                                2 ứng dụng,
+                                                đồng nghĩa với việc ứng dụng khi triển khai & đưa lên Store của Apple,
+                                                Google sẽ tốn nhiều thời gian, chi phí.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Single Accordion Item -->
+                                    <div class="card border-top-0 border-left-0 border-right-0 border-bottom">
+                                        <!-- Card Header -->
+                                        <div class="card-header bg-inherit border-0 p-0">
+                                            <p class="btn collapsed px-0 py-3" data-toggle="collapse"
+                                               data-target="#collapseFive" style="    line-height: 22px;">
+                                                Trang quản trị của APP24h có khó sử dụng không? Tôi cần bao
+                                                nhiêu
+                                                nhân viên để vận hành khi sử dụng APP24h?
+                                                <span class="icon"></span>
+                                            </p>
+                                        </div>
+                                        <div id="collapseFive" class="collapse" data-parent="#sApp-accordion">
+                                            <!-- Card Body -->
+                                            <div class="card-body px-0 py-3">
+                                                Website quản trị của APP24h có giao diện đơn giản, trực quan
+                                                và cực kỳ dễ
+                                                sử dụng. Ngoài ra APP24h có kho video hướng dẫn chi tiết từng
+                                                chức năng
+                                                dành cho Quý khách hàng nên việc nắm bắt hệ thống sẽ không tốn nhiều
+                                                thời gian của Quý khách. Nếu Quý khách giao cho nhân viên của mình vận
+                                                hành hệ thống thì chỉ cần duy nhất một nhân sự là đủ.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Single Accordion Item -->
+                                    <div class="card border-top-0 border-left-0 border-right-0 border-bottom">
+                                        <!-- Card Header -->
+                                        <div class="card-header bg-inherit border-0 p-0">
+                                            <p class="btn collapsed px-0 py-3" data-toggle="collapse"
+                                               data-target="#collapseSix">
+                                                Nếu tôi cần một số chức năng đặc biệt theo yêu cầu thì có được
+                                                không?
+                                                <span class="icon"></span>
+                                            </p>
+                                        </div>
+                                        <div id="collapseSix" class="collapse" data-parent="#sApp-accordion">
+                                            <!-- Card Body -->
+                                            <div class="card-body px-0 py-3">
+                                                Nếu chức năng của Quý khách không phát sinh quá nhiều so với chức năng
+                                                của hệ thống thì APP24h sẽ tính thêm phí viết chức năng đặc
+                                                biệt (phí ban
+                                                đầu và chỉ thanh toán một lần duy nhất). Còn nếu yêu cầu chức năng của
+                                                Quý khách phát sinh nhiều và có những yêu cầu cao thì APP24h
+                                                sẽ báo giá
+                                                và triển khai cho Quý khách theo gói Cao Cấp (thiết kế theo yêu cầu và
+                                                bàn giao tất cả sau khi hoàn thành).
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Single Accordion Item -->
+                                    <div class="card border-top-0 border-left-0 border-right-0 border-bottom">
+                                        <!-- Card Header -->
+                                        <div class="card-header bg-inherit border-0 p-0">
+                                            <p class="btn collapsed px-0 py-3" data-toggle="collapse"
+                                               data-target="#collapseSeven">
+                                                Sau thời gian sử dụng APP24h tôi có thể mua trọn bộ ứng dụng
+                                                mà không
+                                                thuê theo năm được không?
+                                                <span class="icon"></span>
+                                            </p>
+                                        </div>
+                                        <div id="collapseSeven" class="collapse" data-parent="#sApp-accordion">
+                                            <!-- Card Body -->
+                                            <div class="card-body px-0 py-3">
+                                                Sau thời gian sử dụng và vận hành APP24h, nếu Quý khách có
+                                                nhu cầu mua và
+                                                nhận bàn giao trọn bộ ứng dụng, vui lòng liên hệ nhân viên kinh doanh
+                                                của APP24h để trao đổi về chi phí và quy trình bàn giao toàn
+                                                bộ gói ứng
+                                                dụng. Ngoài ra, số tiền Quý khách đã thuê gói APP24h sẽ được
+                                                trừ ra trong
+                                                tổng chi phí bàn giao trọn gói, đó là chính sách hỗ trợ nhằm tri ân
+                                                khách hàng đã ủng hộ và tin tưởng APP24h.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** FAQ Area End ***** -->
+
+
+    <section id="khach-hang-APP24h" class="section screenshots-area ptb_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-7">
+                    <!-- Section Heading -->
+                    <div class="section-heading text-center">
+                        <h2 class="text-capitalize">1000+ Khách hàng tin dùng APP24h</h2>
+                        <p class="d-none d-sm-block mt-4 in-nghieng">Một số khách hàng tiêu biểu tăng doanh số vượt bậc
+                            sau khi sử dụng APP24h cho việc kinh doanh</p>
+                        <p class="d-block d-sm-none mt-4"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <!-- App Screenshot Slider Area -->
+                    <div class="app-screenshots">
+                        <div class="col-md-4 col-sm-4">
+
+                            <div class="blog-container">
+                                <a href="https://heis.vn/" target="_blank">
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/heis.png"
+                                         alt="Thời Trang Nam Giới Heis.vn"
+                                         class="img-responsive pull-left blog-image">
+                                </a>
+                                <p class="customer-intro">
+                                    Thương Hiệu: <span class="in-dam">HEIS.VN</span><br/>
+                                    Lĩnh Vực: <span class="in-dam">Thời Trang Nam</span><br/>
+                                    Gói: <span class="in-dam">APP24h CHUYÊN NGHIỆP</span>
+                                </p>
+                                <h6 class="website-link"><a href="https://heis.vn/" target="_blank">https://heis.vn/</a>
+                                </h6><br/>
+
+                                <div class="clearfix"></div>
+                                <div class="button-group store-buttons store-black d-flex flex-wrap">
+                                    <div class="icon-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.app1h.heis"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/google-play-black.png" alt="">
+                                        </a>
+                                        <a href="https://apps.apple.com/us/app/id1481989109" target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/app-store-black.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end col-md-4 -->
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="blog-container">
+                                <a href="https://tanlapthanh.com/" target="_blank">
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/logo-nhua-tan-lap-thanh.png"
+                                         alt="Nhựa Tân Lập Thành"
+                                         class="img-responsive pull-left blog-image">
+                                </a>
+                                <p class="customer-intro">
+                                    Thương Hiệu: <span class="in-dam">TÂN LẬP THÀNH</span><br/>
+                                    Lĩnh Vực: <span class="in-dam">Sản Xuất Nhựa</span><br/>
+                                    Gói: <span class="in-dam">APP24h CAO CẤP</span>
+                                </p>
+                                <h6 class="website-link"><a href="https://tanlapthanh.com/" target="_blank">https://tanlapthanh.com/</a>
+                                </h6><br/>
+
+                                <div class="clearfix"></div>
+                                <div class="button-group store-buttons store-black d-flex flex-wrap">
+                                    <div class="icon-button">
+                                        <a href="https://play.google.com/store/apps/details?id=thietke24h.com.tanlapthanh"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/google-play-black.png" alt="">
+                                        </a>
+                                        <a href="https://apps.apple.com/us/app/tan-lap-thanh/id1441270067"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/app-store-black.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end col-md-4 -->
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="blog-container">
+                                <a href="https://toantamvn.com/" target="_blank">
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/logo-ve-sinh-toan-tam.png"
+                                         alt="Công ty TNHH DV Toàn Tâm"
+                                         class="img-responsive pull-left blog-image">
+                                </a>
+                                <p class="customer-intro">
+                                    Thương Hiệu: <span class="in-dam">TOÀN TÂM</span><br/>
+                                    Lĩnh Vực: <span class="in-dam">Dịch vụ vệ sinh</span><br/>
+                                    Gói: <span class="in-dam">APP24h CAO CẤP</span>
+                                </p>
+                                <h6 class="website-link"><a href="https://toantamvn.com/" target="_blank">https://toantamvn.com/</a>
+                                </h6>
+                                <h6 class="website-link"><a href="https://giatthamviet.com/" target="_blank">https://giatthamviet.com/</a>
+                                </h6>
+
+                                <div class="clearfix"></div>
+                                <div class="button-group store-buttons store-black d-flex flex-wrap">
+                                    <div class="icon-button">
+                                        <a href="https://play.google.com/store/apps/details?id=thietke24h.toantam.user"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/google-play-black.png" alt="">
+                                        </a>
+                                        <a href="https://apps.apple.com/us/app/toantam/id1519028748" target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/app-store-black.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end col-md-4 -->
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="blog-container">
+                                <a href="https://muahophuquoc.com/" target="_blank">
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/logo-mua-ho-phu-quoc.png"
+                                         alt="Mua Hộ Phú Quốc"
+                                         class="img-responsive pull-left blog-image">
+                                </a>
+                                <p class="customer-intro">
+                                    Thương Hiệu: <span class="in-dam">MUA HỘ PHÚ QUỐC</span><br/>
+                                    Lĩnh Vực: <span class="in-dam">Dịch Vụ Mua Hộ</span><br/>
+                                    Gói: <span class="in-dam">APP24h CAO CẤP</span>
+                                </p>
+                                <h6 class="website-link"><a href="https://muahophuquoc.com/" target="_blank">https://muahophuquoc.com/</a>
+                                </h6><br/>
+
+                                <div class="clearfix"></div>
+                                <div class="button-group store-buttons store-black d-flex flex-wrap">
+                                    <div class="icon-button">
+                                        <a href="https://play.google.com/store/apps/details?id=thietke24h.com.tanlapthanh"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/google-play-black.png" alt="">
+                                        </a>
+                                        <a href="https://apps.apple.com/us/app/id1500219778" target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/app-store-black.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end col-md-4 -->
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="blog-container">
+                                <a href="https://delicashop.me/" target="_blank">
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/logo-thoi-trang-delica.png"
+                                         alt="CÔNG TY CỔ PHẦN DELICA"
+                                         class="img-responsive pull-left blog-image">
+                                </a>
+                                <p class="customer-intro">
+                                    Thương Hiệu: <span class="in-dam">CTY CP DELICA</span><br/>
+                                    Lĩnh Vực: <span class="in-dam">Thời trang cao cấp</span><br/>
+                                    Gói: <span class="in-dam">APP24h CAO CẤP</span>
+                                </p>
+                                <h6 class="website-link"><a href="https://delicashop.me/" target="_blank">https://delicashop.me/</a>
+                                </h6><br/>
+
+                                <div class="clearfix"></div>
+                                <div class="button-group store-buttons store-black d-flex flex-wrap">
+                                    <div class="icon-button">
+                                        <a href="https://play.google.com/store/apps/details?id=thietke24h.delicashop.me"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/google-play-black.png" alt="">
+                                        </a>
+                                        <a href="https://apps.apple.com/us/app/delicashop-sản-phẩm-chính-hãng/id1504491905"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/app-store-black.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end col-md-4 -->
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="blog-container">
+                                <a href="https://tuthanhda.vn/" target="_blank">
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/logo-tu-thanh-da.png"
+                                         alt="CÔNG TY CỔ PHẦN DELICA"
+                                         class="img-responsive pull-left blog-image">
+                                </a>
+                                <p class="customer-intro">
+                                    Thương Hiệu: <span class="in-dam">TỰ THANH ĐA</span><br/>
+                                    Lĩnh Vực: <span class="in-dam">Motor</span><br/>
+                                    Gói: <span class="in-dam">APP24h CAO CẤP</span>
+                                </p>
+                                <h6 class="website-link"><a href="https://tuthanhda.vn/" target="_blank">https://tuthanhda.vn/</a>
+                                </h6><br/>
+
+                                <div class="clearfix"></div>
+                                <div class="button-group store-buttons store-black d-flex flex-wrap">
+                                    <div class="icon-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.app1h.tuthanhda"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/google-play-black.png" alt="">
+                                        </a>
+                                        <a href="https://apps.apple.com/us/app/tuthanhda/id1519204385" target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/app-store-black.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end col-md-4 -->
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="blog-container">
+                                <a href="https://play.google.com/store/apps/details?id=ancarat.co.ancarat"
+                                   target="_blank">
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/logo-ancarat.png"
+                                         alt="Cty Cổ Phần Ancarat Việt Nam"
+                                         class="img-responsive pull-left blog-image">
+                                </a>
+                                <p class="customer-intro">
+                                    Thương Hiệu: <span class="in-dam">ANCARAT VIỆT NAM</span><br/>
+                                    Lĩnh Vực: <span class="in-dam">Vàng Bạc - Đá Quý</span><br/>
+                                    Gói: <span class="in-dam">APP24h CAO CẤP</span><br/>
+                                </p><br/><br/>
+
+                                <div class="clearfix"></div>
+                                <div class="button-group store-buttons store-black d-flex flex-wrap">
+                                    <div class="icon-button">
+                                        <a href="https://play.google.com/store/apps/details?id=ancarat.co.ancarat"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/google-play-black.png" alt="">
+                                        </a>
+                                        <a href="https://apps.apple.com/vn/app/ancarat/id1329918275" target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/app-store-black.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end col-md-4 -->
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="blog-container">
+                                <a href="https://play.google.com/store/apps/details?id=com.thietke24h.thanhduoc"
+                                   target="_blank">
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/logo-my-pham-thanh-duoc.png"
+                                         alt="Công ty TNHH Mỹ Phẩm Thanh Dược"
+                                         class="img-responsive pull-left blog-image">
+                                </a>
+                                <p class="customer-intro">
+                                    Thương Hiệu: <span class="in-dam">THANH DƯỢC</span><br/>
+                                    Lĩnh Vực: <span class="in-dam">Mỹ Phẩm</span><br/>
+                                    Gói: <span class="in-dam">APP24h CAO CẤP</span><br/>
+                                </p><br/><br/>
+
+                                <div class="clearfix"></div>
+                                <div class="button-group store-buttons store-black d-flex flex-wrap">
+                                    <div class="icon-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.thietke24h.thanhduoc"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/google-play-black.png" alt="">
+                                        </a>
+                                        <a href="https://apps.apple.com/us/app/thanhduoc-mỹ-phẩm-thanh-dược/id1516055653"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/app-store-black.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end col-md-4 -->
+
+                        <div class="col-md-4 col-sm-4 "
+                             data-animation-delay="300">
+                            <div class="blog-container">
+                                <a href="https://ctyhaisanviet.com/" target="_blank" rel="nofollow">
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/haisanviet.png" alt="Hải Sản Việt"
+                                         class="img-responsive pull-left blog-image">
+                                </a>
+                                <p class="customer-intro">
+                                    Thương Hiệu: <span class="in-dam">HẢI SẢN VIỆT</span><br/>
+                                    Lĩnh Vực: <span class="in-dam">Thủy Hải Sản</span><br/>
+                                    Gói: <span class="in-dam">APP24h CƠ BẢN</span>
+                                </p>
+                                <h6 class="website-link">
+                                    <a href="https://ctyhaisanviet.com/" target="_blank" rel="nofollow">https://ctyhaisanviet.com/</a>
+                                </h6><br/>
+
+                                <div class="clearfix"></div>
+                                <div class="button-group store-buttons store-black d-flex flex-wrap">
+                                    <div class="icon-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.APP24h.ctyhaisanviet"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/google-play-black.png" alt="">
+                                        </a>
+                                        <a href="https://apps.apple.com/us/app/id1503282952" target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/app-store-black.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div><!-- end col-md-4 -->
+
+                        <div class="col-md-4 col-sm-4 ">
+                            <div class="blog-container">
+                                <a href="https://thuysantamviet.com/" target="_blank" rel="nofollow">
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/tamviet.png" alt="Thủy Sản Tâm Việt"
+                                         class="img-responsive pull-left blog-image">
+                                </a>
+                                <p class="customer-intro">
+                                    Thương Hiệu: <span class="in-dam">THỦY SẢN TÂM VIỆT</span><br/>
+                                    Lĩnh Vực: <span class="in-dam">Thủy Hải Sản</span><br/>
+                                    Gói: <span class="in-dam">APP24h CHUYÊN NGHIỆP</span>
+                                </p>
+                                <h6 class="website-link">
+                                    <a href="https://thuysantamviet.com/" target="_blank" rel="nofollow">https://thuysantamviet.com/</a>
+                                </h6><br/>
+
+                                <div class="clearfix"></div>
+                                <div class="button-group store-buttons store-black d-flex flex-wrap">
+                                    <div class="icon-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.APP24h.thuysantamviet"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/google-play-black.png" alt="">
+                                        </a>
+                                        <a href="https://apps.apple.com/us/app/id1480812953" target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/app-store-black.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end col-md-4 -->
+
+                        <div class="col-md-4 col-sm-4 ">
+                            <div class="blog-container">
+                                <a href="https://todi.vn/" target="_blank" rel="nofollow">
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/todi.png" alt="Todi"
+                                         class="img-responsive pull-left blog-image">
+                                </a>
+                                <p class="customer-intro">
+                                    Thương Hiệu: <span class="in-dam">TODI</span><br/>
+                                    Lĩnh Vực: <span class="in-dam">Du lịch và cho thuê xe</span><br/>
+                                    Gói: <span class="in-dam">APP24h CƠ BẢN</span>
+                                </p>
+                                <h6 class="website-link"><a href="https://todi.vn/" target="_blank" rel="nofollow">https://todi.vn/</a>
+                                </h6><br/>
+
+                                <div class="clearfix"></div>
+                                <div class="button-group store-buttons store-black d-flex flex-wrap">
+                                    <div class="icon-button">
+                                        <a href="https://play.google.com/store/apps/details?id=com.APP24h.todi"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/google-play-black.png" alt="">
+                                        </a>
+                                        <a href="https://apps.apple.com/us/app/id1487486422" target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/app-store-black.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end col-md-4 -->
+
+                        <div class="col-md-4 col-sm-4 "
+                             data-animation-delay="300">
+                            <div class="blog-container">
+                                <a href="https://vhbmart.com/" target="_blank" rel="nofollow">
+                                    <img src="https://app24h.com.vn/storage/frontend/App24h/VHB.png" alt="Siêu thị Vì Hòa Bình"
+                                         class="img-responsive pull-left blog-image">
+                                </a>
+                                <p class="customer-intro">
+                                    Thương Hiệu: <span class="in-dam">Siêu Thị VHBMART</span><br/>
+                                    Lĩnh Vực: <span class="in-dam">Hàng tiêu dùng</span><br/>
+                                    Gói: <span class="in-dam">APP24h CƠ BẢN</span>
+                                </p>
+                                <h6 class="website-link"><a href="https://vhbmart.com/" target="_blank" rel="nofollow">https://vhbmart.com/</a>
+                                </h6><br/>
+
+                                <div class="clearfix"></div>
+                                <div class="button-group store-buttons store-black d-flex flex-wrap">
+                                    <div class="icon-button">
+                                        <a href="https://play.google.com/store/apps/details?id=thietke24h.vhbmart.com"
+                                           target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/google-play-black.png" alt="">
+                                        </a>
+                                        <a href="https://apps.apple.com/us/app/id1479431226" target="_blank">
+                                            <img src="https://app24h.com.vn/storage/frontend/App24h/app-store-black.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***** Download Area Start ***** -->
+    <section class="section download-area overlay-dark ptb_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <!-- Download Text -->
+                    <div class="download-text text-center">
+                        <h2 class="text-white">1000+ Đơn vị Kinh Doanh đang sử dụng APP24h để tăng doanh thu
+                            và giá trị
+                            thương hiệu.</h2>
+                        <p class="text-white my-3 d-none d-sm-block">Hãy để chúng tôi giúp bạn làm điều đó ngay bây
+                            giờ.</p>
+                        <p class="text-white my-3 d-block d-sm-none"></p>
+                        <div class="button-group store-buttons d-flex justify-content-center">
+                            <a href="javascript:;" class="show-popup-contact" data-package="4">
+                                <img src="https://app24h.com.vn/storage/frontend/App24h/dang-ky-tu-van-APP24h.png"
+                                     alt="">
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <footer class="" style="padding-bottom: 50px">
+    <!-- Footer Top -->
+    <div class="footer-top ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <!-- Footer Items -->
+                    <div class="footer-items">
+                        <h3 class="footer-title mb-2">Thông tin</h3>
+
+                        <p class="mt-2 mb-3">CÔNG TY TNHH PHẦN MỀM LCK <br>Mã Số Thuế: 0315005650 do Sở Kế Hoạch Và Đầu Tư TP.HCM cấp ngày 24/04/2018</p>
+                        <p class="mt-2 mb-3">Trụ sở: 181 Điện Biên Phủ, Phường Đa Kao, Quận 1, TP.HCM</p>
+                        <p class="mt-2 mb-3">VPKD 2: 79/11 Trần Văn Đang, Phường 9, Quận 3, Tp.HCM</p>
+                        <p class="mt-2 mb-3">VPKD 3: 27 Hoàng Hoa Thám, Phường 6, Quận Bình Thạnh, Tp.HCM</p>
+                        <p class="mt-2 mb-3">App24h là một sản phẩm của <a href="https://thietke24h.com/">Thietke24h.com</a></p>
+                        <!-- Social Icons -->
+                        <div class="social-icons d-flex">
+                            <a class="facebook" href="https://www.facebook.com/Thiet-ke-app-381774478990298/" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="google-plus" href="https://www.youtube.com/channel/UC2MoEPf0_yrEXX23hVI0QqA" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <!-- Footer Items -->
+                    <div class="footer-items">
+                        <!-- Footer Title -->
+                        <h3 class="footer-title mb-2">Chính sách & Quy Định</h3>
+                        <ul>
+                            <li class="py-2">
+                                <a href="chinh-sach-va-quy-dinh-chung" target="_blank">Chính sách & Quy định chung</a></li>
+                            <li class="py-2">
+                                <a href="chinh-sach-bao-ve-thong-tin-ca-nhan-nguoi-tieu-dung" target="_blank">Chính
+                                    sách bảo vệ thông tin khách hàng</a></li>
+                            <li class="py-2">
+                                <a href="chinh-sach-bao-mat-thong-tin" target="_blank">Chính
+                                    sách bảo mật thông tin</a></li>
+                            <li class="py-2"><a href="javascript:;" class="show-popup-contact" data-package="4">Liên hệ</a></li>
+                        </ul>
+<a href="http://online.gov.vn/Home/WebDetails/84206"> <img src="https://thietke24h.com/st/images/dathongbao.png"/></a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <!-- Footer Items -->
+                    <div class="footer-items">
+                        <!-- Footer Title -->
+                        <h3 class="footer-title mb-2">Hỗ trợ khách hàng</h3>
+                        <ul>
+                            <li class="py-2"><a href="mailto:info@thietke24h.com">Email:
+                                    info@thietke24h.com</a></li>
+                            <li class="py-2"><a href="tel:0946 268 630">Hotline 1: 0946 268 630</a></li>
+                            <li class="py-2"><a href="tel:0937 302 533">Hotline 2: 0937 302 533</a></li>
+                            <li class="py-2"><a href="tel:0976 337 424">Hotline 3: 0976 337 424</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Copyright Area -->
+                    <div class="copyright-area d-flex flex-wrap justify-content-center justify-content-sm-between text-center py-4" style="border: none">
+                        <!-- Copyright Left -->
+                        <div class="copyright-left text-center">&copy; Copyrights 2021 <a href="#">Thietke24h.com</a>
+                            All rights
+                            reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--====== Footer Area End ======--></div>
+<div id="metu">
+    <div class="mmt-app mmt-app--mobile mmt-app--pink">
+        <span class="mmt-menu__item mmt-menu__item--mobile" style="display: flex;"> 
+<span class="mmt-button mmt-button--mobile call" onclick="window.location.href='tel:0946.268.630'"> 
+<svg id="Layer_1" data-name="Layer 1" viewBox="0 0 56.69 56.69" class="mmt-button__icon"> 
+<path class="cls-1" d="M44.25,34.69a5.45,5.45,0,0,0-4-1.88,5.63,5.63,0,0,0-4,1.87l-3.74,3.8c-.3-.17-.61-.32-.91-.48s-.83-.42-1.17-.64a40.73,40.73,0,0,1-9.73-9.07,24.52,24.52,0,0,1-3.2-5.14c1-.91,1.87-1.85,2.75-2.76l1-1a5.63,5.63,0,0,0,0-8.36L18,7.7c-.37-.37-.75-.76-1.1-1.15C16.16,5.8,15.41,5,14.65,4.31a5.56,5.56,0,0,0-4-1.78,5.74,5.74,0,0,0-4,1.78l0,0-4,4.15A8.88,8.88,0,0,0,.05,14.09a21.52,21.52,0,0,0,1.51,9,52.32,52.32,0,0,0,9,15.42A55.92,55.92,0,0,0,29.15,53.31a28.25,28.25,0,0,0,10.41,3.14l.74,0a8.84,8.84,0,0,0,6.83-3s0,0,0-.06a26.22,26.22,0,0,1,2.07-2.19c.51-.49,1-1,1.53-1.56a6,6,0,0,0,1.79-4.18,5.85,5.85,0,0,0-1.82-4.14Zm4.51,12.76h0c-.47.51-.95,1-1.46,1.48A31.45,31.45,0,0,0,45,51.35a5.75,5.75,0,0,1-4.51,1.93h-.55a25.72,25.72,0,0,1-9.34-2.84,53.39,53.39,0,0,1-17.69-14A49.47,49.47,0,0,1,4.28,21.9a17.53,17.53,0,0,1-1.34-7.58,5.59,5.59,0,0,1,1.65-3.6L8.68,6.59a2.7,2.7,0,0,1,1.82-.87,2.61,2.61,0,0,1,1.75.85l0,0C13,7.3,13.71,8,14.44,8.78c.37.39.75.77,1.14,1.17l3.27,3.31c1.27,1.29,1.27,2.47,0,3.76l-1,1c-1,1-2,2-3,3,0,0-.05,0-.06.06a2.48,2.48,0,0,0-.62,2.75l0,.11A26.71,26.71,0,0,0,18,30.32h0a44.33,44.33,0,0,0,10.64,9.79,15.54,15.54,0,0,0,1.47.81c.44.22.84.43,1.19.65l.14.08a2.45,2.45,0,0,0,3-.53L38.59,37a2.7,2.7,0,0,1,1.81-.9,2.43,2.43,0,0,1,1.72.88l0,0,6.6,6.68A2.41,2.41,0,0,1,48.76,47.45Z">
+</path><path class="cls-1" d="M30.42,13.69A14.91,14.91,0,0,1,38.58,18a15.57,15.57,0,0,1,4.24,8.34,1.59,1.59,0,0,0,1.57,1.35l.27,0A1.62,1.62,0,0,0,46,25.79,18.79,18.79,0,0,0,40.85,15.7,18.16,18.16,0,0,0,31,10.47a1.63,1.63,0,0,0-.55,3.22Z"></path><path class="cls-1" d="M56.11,25.32A30.82,30.82,0,0,0,47.68,8.71,29.82,29.82,0,0,0,31.41.09a1.59,1.59,0,0,0-1.83,1.33A1.63,1.63,0,0,0,30.89,3.3,26.76,26.76,0,0,1,45.43,11,27.55,27.55,0,0,1,53,25.85a1.61,1.61,0,0,0,1.58,1.36,1.24,1.24,0,0,0,.27,0A1.59,1.59,0,0,0,56.11,25.32Z"></path></svg> <span class="mmt-button__label">Gọi ngay</span> </span> </span>
+        <span class="mmt-menu__item mmt-menu__item--mobile" style="display: flex;"> <span class="mmt-button mmt-button--mobile facebook" onclick="window.open('https://m.me/thietkeapp24h')"> <svg id="Layer_1" data-name="Layer 1" viewBox="0 0 56.69 56.69" class="mmt-button__icon"> <path class="cls-1" d="M28.35.47C13.19.47.87,12,.87,26.17a24.94,24.94,0,0,0,9.22,19.19V56.74L21.17,51a29.24,29.24,0,0,0,7.18.89c15.15,0,27.48-11.53,27.48-25.71S43.5.47,28.35.47Zm0,48.74a26,26,0,0,1-7.26-1l-.9-.26-6.57,3.45V44.65l-.91-.71a22.26,22.26,0,0,1-8.9-17.58c0-12.61,11-22.86,24.54-22.86S52.9,13.75,52.9,26.36,41.89,49.21,28.36,49.21Z"></path><polygon class="cls-1" points="39.37 16.51 41.8 18.93 31.06 30.24 25.75 24.98 17.33 31.03 14.9 28.6 25.51 17.18 30.78 22.45 39.37 16.51"></polygon></svg> <span class="mmt-button__label">FB Chat</span> </span> </span>
+        <span class="mmt-menu__item mmt-menu__item--mobile" style="display: flex;"> <span class="mmt-button mmt-button--mobile zalo" onclick="window.open('https://zalo.me/0946268630')"> <svg id="Layer_1" x="0px" y="0px" viewBox="0 0 56.7 56.7" xml:space="preserve" class="mmt-button__icon"> <path class="cls-1" d="M20.2,27.6c1.9,0,3.8,0,5.6,0c1,0,1.6,0.4,1.7,1.2c0.1,1-0.5,1.7-1.6,1.7c-2.1,0-4.2,0-6.2,0 c-0.6,0-1.2,0-1.8,0c-0.7,0-1.5-0.2-1.8-1c-0.4-0.8-0.1-1.5,0.4-2.1c2-2.5,4-5.1,6-7.6c0.1-0.2,0.2-0.3,0.3-0.5 c-0.1-0.2-0.3-0.1-0.5-0.1c-1.4,0-2.8,0-4.2,0c-0.3,0-0.6,0-1-0.1c-0.7-0.2-1.2-0.9-1-1.6c0.1-0.5,0.5-0.9,1-1 c0.3-0.1,0.6-0.1,1-0.1c2.3,0,4.6,0,6.9,0c0.4,0,0.8,0,1.2,0.1c0.9,0.3,1.2,1.1,0.9,2c-0.3,0.7-0.8,1.4-1.3,2 c-1.7,2.1-3.4,4.3-5.1,6.4C20.5,27.1,20.4,27.3,20.2,27.6L20.2,27.6z"></path><path class="cls-1" d="M35.1,20.8c0.3-0.4,0.6-0.8,1.2-0.9c1-0.2,2,0.5,2,1.5c0,2.6,0,5.1,0,7.7c0,0.7-0.4,1.3-1.1,1.5 c-0.6,0.2-1.4,0.1-1.8-0.5c-0.2-0.3-0.3-0.3-0.6-0.1c-1.2,1-2.5,1.1-3.9,0.7c-2.3-0.7-3.2-2.5-3.5-4.7c-0.3-2.4,0.5-4.4,2.6-5.6 C31.7,19.3,33.5,19.4,35.1,20.8L35.1,20.8z M30.6,25.5c0,0.6,0.2,1.1,0.5,1.6c0.7,0.9,2,1.1,3,0.4c0.2-0.1,0.3-0.3,0.4-0.4 c0.7-1,0.7-2.6,0-3.6c-0.4-0.5-0.9-0.8-1.5-0.8C31.6,22.6,30.6,23.7,30.6,25.5z M44,25.6c-0.1-3.3,2.1-5.8,5.2-5.9 c3.3-0.1,5.7,2.1,5.8,5.3c0.1,3.3-1.9,5.6-5,5.9C46.7,31.2,44,28.8,44,25.6L44,25.6z M47.3,25.3c0,0.6,0.2,1.3,0.6,1.8 c0.7,0.9,2,1.1,3,0.4c0.1-0.1,0.3-0.2,0.4-0.4c0.7-1,0.7-2.6,0-3.6c-0.4-0.5-0.9-0.8-1.5-0.8C48.2,22.6,47.3,23.7,47.3,25.3z M42.9,23c0,2,0,4,0,6c0,0.9-0.7,1.7-1.6,1.7c-0.2,0-0.3,0-0.5-0.1c-0.6-0.2-1.1-0.8-1.1-1.7V18.8c0-0.6,0-1.2,0-1.8 c0-1,0.6-1.6,1.6-1.6c1,0,1.6,0.6,1.6,1.7C42.9,19,42.9,21,42.9,23z"></path><path class="cls-1" d="M56.2,40.9c-2.4,2.5-5.3,4.6-8.4,6c-7.6,3.5-15.4,3.8-23.2,0.9c-0.7-0.3-1.4-0.3-2.1-0.1 c-1,0.3-2.1,0.6-3.1,0.9c-3,1-6.1,1.4-9.3,0.8C9.9,49.3,9.8,49.2,10,49c0.2-0.1,0.3-0.2,0.5-0.4c1.6-1.1,3.1-2.3,4.1-4.1 c0.8-1.5,0.7-2.3-0.3-3.4C8.5,35,5.9,27.6,7.2,18.9c0.7-4.9,2.9-9.2,6-12.9c1.9-2.2,4.6-4.5,7.1-6H8.9c-0.5,0-1,0-1.4,0.1 C3.5,0.2,0,3.4,0,8.1c0,13.6,0,27.1,0,40.7c0,4.2,3.1,7.7,7.1,7.9c0.5,0,1,0.1,1.5,0.1h0.1H46v0c1,0,2.1,0,3.1,0h0.1 c4.1,0,7.3-3.5,7.4-7.7v-8.7C56.6,40.6,56.3,40.8,56.2,40.9z"></path></svg> <span class="mmt-button__label">Zalo Chat</span> </span> </span>
+        <span class="mmt-menu__item mmt-menu__item--mobile" style="display: flex;"> <span class="mmt-button mmt-button--mobile contact show-popup-contact" data-package="4"> <svg id="Layer_1" data-name="Layer 1" viewBox="0 0 56.69 56.69" class="mmt-button__icon"> <path class="cls-1" d="M14.68,7V3.88c0-.91.41-1.36,1.3-1.36H39.86c.93,0,1.38.43,1.35,1.42s0,1.93,0,3.06H53.83c1.44,0,1.61.18,1.61,1.69q0,21.86,0,43.71c0,1.41-.21,1.63-1.57,1.63H2.07C.65,54,.44,53.8.43,52.35q0-21.85,0-43.71C.44,7.25.64,7,2,7,5.73,7,9.46,7,13.2,7ZM2.46,51.91h51V9.1H41.35a1,1,0,0,0-.11.3c0,.66,0,1.32,0,2,0,1.38-.25,1.69-1.55,1.69-7.85,0-15.7,0-23.54,0-1.07,0-1.49-.51-1.45-1.58,0-.79,0-1.59,0-2.43H2.46ZM16.61,4.6c0,1.82.05,3.49,0,5.15-.05,1,.21,1.35,1.23,1.34,6.77,0,13.53,0,20.3,0,.35,0,.71-.05,1-.07V4.6Z"></path><path class="cls-1" d="M19.18,31.39c2.82.05,4.93,1,5.64,3.55a19.58,19.58,0,0,1,.33,5.32c0,.75-.72.82-1.35.82H13.49c-1.46,0-2.92,0-4.37,0-1.27,0-1.47-.24-1.48-1.55q0-1.29,0-2.58a5.3,5.3,0,0,1,5.28-5.51l.79-.07a6.93,6.93,0,0,1-2.05-5.26c.07-2.92,2-5,4.72-5a4.81,4.81,0,0,1,4.85,5.06A7.11,7.11,0,0,1,19.18,31.39ZM9.62,39.12c.48,0,.88.05,1.28.05H21c2.55,0,2.55,0,2.3-2.6A3.28,3.28,0,0,0,20,33.4c-2.38,0-4.77,0-7.15,0a3.22,3.22,0,0,0-3.22,2.85C9.55,37.17,9.62,38.1,9.62,39.12ZM19.3,26.18a10.15,10.15,0,0,0-.24-1.27A2.72,2.72,0,0,0,16.67,23a2.79,2.79,0,0,0-2.74,1.56,4.69,4.69,0,0,0,1.9,5.84,1.57,1.57,0,0,0,1.22,0C18.65,29.61,19.21,28.15,19.3,26.18Z"></path><path class="cls-1" d="M40.25,27.77h6.6c.69,0,1.34.08,1.33,1s-.69,1-1.35,1H33.51c-.71,0-1.32-.21-1.29-1s.67-.89,1.31-.89Z"></path><path class="cls-1" d="M40.23,35.4H33.62c-.69,0-1.36-.09-1.38-.93s.67-1,1.41-1H46.76c.72,0,1.43.07,1.42,1s-.73,1-1.45,1C44.57,35.39,42.4,35.4,40.23,35.4Z"></path><path class="cls-1" d="M40.25,24c-2.24,0-4.48,0-6.72,0-.74,0-1.3-.2-1.3-1S32.84,22,33.5,22H46.83c.68,0,1.35.11,1.35,1s-.71,1-1.43,1C44.58,24,42.42,24,40.25,24Z"></path></svg> <span class="mmt-button__label">Liên hệ</span> </span> </span>
+    </div>
+    <div class="mmt-app mmt-app--desktop mmt-app--pink"><span class="mmt-menu__item" style="display: flex;"> <div class="css-1rzxmvw"> <span class="mmt-button call"> <svg id="Layer_1" x="0px" y="0px" viewBox="0 0 56.7 56.7" xml:space="preserve" class="mmt-button__icon"> <path class="cls-1" d="M44.25,34.69a5.45,5.45,0,0,0-4-1.88,5.63,5.63,0,0,0-4,1.87l-3.74,3.8c-.3-.17-.61-.32-.91-.48s-.83-.42-1.17-.64a40.73,40.73,0,0,1-9.73-9.07,24.52,24.52,0,0,1-3.2-5.14c1-.91,1.87-1.85,2.75-2.76l1-1a5.63,5.63,0,0,0,0-8.36L18,7.7c-.37-.37-.75-.76-1.1-1.15C16.16,5.8,15.41,5,14.65,4.31a5.56,5.56,0,0,0-4-1.78,5.74,5.74,0,0,0-4,1.78l0,0-4,4.15A8.88,8.88,0,0,0,.05,14.09a21.52,21.52,0,0,0,1.51,9,52.32,52.32,0,0,0,9,15.42A55.92,55.92,0,0,0,29.15,53.31a28.25,28.25,0,0,0,10.41,3.14l.74,0a8.84,8.84,0,0,0,6.83-3s0,0,0-.06a26.22,26.22,0,0,1,2.07-2.19c.51-.49,1-1,1.53-1.56a6,6,0,0,0,1.79-4.18,5.85,5.85,0,0,0-1.82-4.14Zm4.51,12.76h0c-.47.51-.95,1-1.46,1.48A31.45,31.45,0,0,0,45,51.35a5.75,5.75,0,0,1-4.51,1.93h-.55a25.72,25.72,0,0,1-9.34-2.84,53.39,53.39,0,0,1-17.69-14A49.47,49.47,0,0,1,4.28,21.9a17.53,17.53,0,0,1-1.34-7.58,5.59,5.59,0,0,1,1.65-3.6L8.68,6.59a2.7,2.7,0,0,1,1.82-.87,2.61,2.61,0,0,1,1.75.85l0,0C13,7.3,13.71,8,14.44,8.78c.37.39.75.77,1.14,1.17l3.27,3.31c1.27,1.29,1.27,2.47,0,3.76l-1,1c-1,1-2,2-3,3,0,0-.05,0-.06.06a2.48,2.48,0,0,0-.62,2.75l0,.11A26.71,26.71,0,0,0,18,30.32h0a44.33,44.33,0,0,0,10.64,9.79,15.54,15.54,0,0,0,1.47.81c.44.22.84.43,1.19.65l.14.08a2.45,2.45,0,0,0,3-.53L38.59,37a2.7,2.7,0,0,1,1.81-.9,2.43,2.43,0,0,1,1.72.88l0,0,6.6,6.68A2.41,2.41,0,0,1,48.76,47.45Z"></path><path class="cls-1" d="M30.42,13.69A14.91,14.91,0,0,1,38.58,18a15.57,15.57,0,0,1,4.24,8.34,1.59,1.59,0,0,0,1.57,1.35l.27,0A1.62,1.62,0,0,0,46,25.79,18.79,18.79,0,0,0,40.85,15.7,18.16,18.16,0,0,0,31,10.47a1.63,1.63,0,0,0-.55,3.22Z"></path><path class="cls-1" d="M56.11,25.32A30.82,30.82,0,0,0,47.68,8.71,29.82,29.82,0,0,0,31.41.09a1.59,1.59,0,0,0-1.83,1.33A1.63,1.63,0,0,0,30.89,3.3,26.76,26.76,0,0,1,45.43,11,27.55,27.55,0,0,1,53,25.85a1.61,1.61,0,0,0,1.58,1.36,1.24,1.24,0,0,0,.27,0A1.59,1.59,0,0,0,56.11,25.32Z"></path> </svg> <span class="mmt-button__label">Hotline 0946.268.630 </span> </span> </div> </span>
+        <span class="mmt-menu__item" style="display: flex;" onclick="window.open('https://m.me/thietkeapp24h')"> <div class="css-1rzxmvw"> <span class="mmt-button facebook"> <svg id="Layer_1" data-name="Layer 1" viewBox="0 0 56.69 56.69" class="mmt-button__icon"> <path class="cls-1" d="M28.35.47C13.19.47.87,12,.87,26.17a24.94,24.94,0,0,0,9.22,19.19V56.74L21.17,51a29.24,29.24,0,0,0,7.18.89c15.15,0,27.48-11.53,27.48-25.71S43.5.47,28.35.47Zm0,48.74a26,26,0,0,1-7.26-1l-.9-.26-6.57,3.45V44.65l-.91-.71a22.26,22.26,0,0,1-8.9-17.58c0-12.61,11-22.86,24.54-22.86S52.9,13.75,52.9,26.36,41.89,49.21,28.36,49.21Z"></path><polygon class="cls-1" points="39.37 16.51 41.8 18.93 31.06 30.24 25.75 24.98 17.33 31.03 14.9 28.6 25.51 17.18 30.78 22.45 39.37 16.51"> </polygon> </svg> <span class="mmt-button__label">Facebook Chat</span> </span> </div> </span>
+        <span class="mmt-menu__item" style="display: flex;" onclick="window.open('https://zalo.me/0946268630')"> <div class="css-1rzxmvw"> <span class="mmt-button zalo"> <svg id="Layer_1" x="0px" y="0px" viewBox="0 0 56.7 56.7" xml:space="preserve" class="mmt-button__icon"> <path class="cls-1" d="M20.2,27.6c1.9,0,3.8,0,5.6,0c1,0,1.6,0.4,1.7,1.2c0.1,1-0.5,1.7-1.6,1.7c-2.1,0-4.2,0-6.2,0 c-0.6,0-1.2,0-1.8,0c-0.7,0-1.5-0.2-1.8-1c-0.4-0.8-0.1-1.5,0.4-2.1c2-2.5,4-5.1,6-7.6c0.1-0.2,0.2-0.3,0.3-0.5 c-0.1-0.2-0.3-0.1-0.5-0.1c-1.4,0-2.8,0-4.2,0c-0.3,0-0.6,0-1-0.1c-0.7-0.2-1.2-0.9-1-1.6c0.1-0.5,0.5-0.9,1-1 c0.3-0.1,0.6-0.1,1-0.1c2.3,0,4.6,0,6.9,0c0.4,0,0.8,0,1.2,0.1c0.9,0.3,1.2,1.1,0.9,2c-0.3,0.7-0.8,1.4-1.3,2 c-1.7,2.1-3.4,4.3-5.1,6.4C20.5,27.1,20.4,27.3,20.2,27.6L20.2,27.6z"></path><path class="cls-1" d="M35.1,20.8c0.3-0.4,0.6-0.8,1.2-0.9c1-0.2,2,0.5,2,1.5c0,2.6,0,5.1,0,7.7c0,0.7-0.4,1.3-1.1,1.5 c-0.6,0.2-1.4,0.1-1.8-0.5c-0.2-0.3-0.3-0.3-0.6-0.1c-1.2,1-2.5,1.1-3.9,0.7c-2.3-0.7-3.2-2.5-3.5-4.7c-0.3-2.4,0.5-4.4,2.6-5.6 C31.7,19.3,33.5,19.4,35.1,20.8L35.1,20.8z M30.6,25.5c0,0.6,0.2,1.1,0.5,1.6c0.7,0.9,2,1.1,3,0.4c0.2-0.1,0.3-0.3,0.4-0.4 c0.7-1,0.7-2.6,0-3.6c-0.4-0.5-0.9-0.8-1.5-0.8C31.6,22.6,30.6,23.7,30.6,25.5z M44,25.6c-0.1-3.3,2.1-5.8,5.2-5.9 c3.3-0.1,5.7,2.1,5.8,5.3c0.1,3.3-1.9,5.6-5,5.9C46.7,31.2,44,28.8,44,25.6L44,25.6z M47.3,25.3c0,0.6,0.2,1.3,0.6,1.8 c0.7,0.9,2,1.1,3,0.4c0.1-0.1,0.3-0.2,0.4-0.4c0.7-1,0.7-2.6,0-3.6c-0.4-0.5-0.9-0.8-1.5-0.8C48.2,22.6,47.3,23.7,47.3,25.3z M42.9,23c0,2,0,4,0,6c0,0.9-0.7,1.7-1.6,1.7c-0.2,0-0.3,0-0.5-0.1c-0.6-0.2-1.1-0.8-1.1-1.7V18.8c0-0.6,0-1.2,0-1.8 c0-1,0.6-1.6,1.6-1.6c1,0,1.6,0.6,1.6,1.7C42.9,19,42.9,21,42.9,23z"></path><path class="cls-1" d="M56.2,40.9c-2.4,2.5-5.3,4.6-8.4,6c-7.6,3.5-15.4,3.8-23.2,0.9c-0.7-0.3-1.4-0.3-2.1-0.1 c-1,0.3-2.1,0.6-3.1,0.9c-3,1-6.1,1.4-9.3,0.8C9.9,49.3,9.8,49.2,10,49c0.2-0.1,0.3-0.2,0.5-0.4c1.6-1.1,3.1-2.3,4.1-4.1 c0.8-1.5,0.7-2.3-0.3-3.4C8.5,35,5.9,27.6,7.2,18.9c0.7-4.9,2.9-9.2,6-12.9c1.9-2.2,4.6-4.5,7.1-6H8.9c-0.5,0-1,0-1.4,0.1 C3.5,0.2,0,3.4,0,8.1c0,13.6,0,27.1,0,40.7c0,4.2,3.1,7.7,7.1,7.9c0.5,0,1,0.1,1.5,0.1h0.1H46v0c1,0,2.1,0,3.1,0h0.1 c4.1,0,7.3-3.5,7.4-7.7v-8.7C56.6,40.6,56.3,40.8,56.2,40.9z"></path></svg> <span class="mmt-button__label">Zalo Chat</span> </span> </div> </span>
+        <span class="mmt-menu__item show-popup-contact" style="display: flex;" data-package="4"> <div class="css-1rzxmvw"> <span class="mmt-button contact"> <svg id="Layer_1" data-name="Layer 1" viewBox="0 0 56.69 56.69" class="mmt-button__icon"> <path class="cls-1" d="M14.68,7V3.88c0-.91.41-1.36,1.3-1.36H39.86c.93,0,1.38.43,1.35,1.42s0,1.93,0,3.06H53.83c1.44,0,1.61.18,1.61,1.69q0,21.86,0,43.71c0,1.41-.21,1.63-1.57,1.63H2.07C.65,54,.44,53.8.43,52.35q0-21.85,0-43.71C.44,7.25.64,7,2,7,5.73,7,9.46,7,13.2,7ZM2.46,51.91h51V9.1H41.35a1,1,0,0,0-.11.3c0,.66,0,1.32,0,2,0,1.38-.25,1.69-1.55,1.69-7.85,0-15.7,0-23.54,0-1.07,0-1.49-.51-1.45-1.58,0-.79,0-1.59,0-2.43H2.46ZM16.61,4.6c0,1.82.05,3.49,0,5.15-.05,1,.21,1.35,1.23,1.34,6.77,0,13.53,0,20.3,0,.35,0,.71-.05,1-.07V4.6Z"></path><path class="cls-1" d="M19.18,31.39c2.82.05,4.93,1,5.64,3.55a19.58,19.58,0,0,1,.33,5.32c0,.75-.72.82-1.35.82H13.49c-1.46,0-2.92,0-4.37,0-1.27,0-1.47-.24-1.48-1.55q0-1.29,0-2.58a5.3,5.3,0,0,1,5.28-5.51l.79-.07a6.93,6.93,0,0,1-2.05-5.26c.07-2.92,2-5,4.72-5a4.81,4.81,0,0,1,4.85,5.06A7.11,7.11,0,0,1,19.18,31.39ZM9.62,39.12c.48,0,.88.05,1.28.05H21c2.55,0,2.55,0,2.3-2.6A3.28,3.28,0,0,0,20,33.4c-2.38,0-4.77,0-7.15,0a3.22,3.22,0,0,0-3.22,2.85C9.55,37.17,9.62,38.1,9.62,39.12ZM19.3,26.18a10.15,10.15,0,0,0-.24-1.27A2.72,2.72,0,0,0,16.67,23a2.79,2.79,0,0,0-2.74,1.56,4.69,4.69,0,0,0,1.9,5.84,1.57,1.57,0,0,0,1.22,0C18.65,29.61,19.21,28.15,19.3,26.18Z"></path><path class="cls-1" d="M40.25,27.77h6.6c.69,0,1.34.08,1.33,1s-.69,1-1.35,1H33.51c-.71,0-1.32-.21-1.29-1s.67-.89,1.31-.89Z"> </path> <path class="cls-1" d="M40.23,35.4H33.62c-.69,0-1.36-.09-1.38-.93s.67-1,1.41-1H46.76c.72,0,1.43.07,1.42,1s-.73,1-1.45,1C44.57,35.39,42.4,35.4,40.23,35.4Z"> </path> <path class="cls-1" d="M40.25,24c-2.24,0-4.48,0-6.72,0-.74,0-1.3-.2-1.3-1S32.84,22,33.5,22H46.83c.68,0,1.35.11,1.35,1s-.71,1-1.43,1C44.58,24,42.42,24,40.25,24Z"> </path> </svg> <span class="mmt-button__label">Liên hệ</span> </span> </div> </span>
+    </div>
+</div>
+
+
+    <!-- ***** All jQuery Plugins ***** -->
+        <!-- jQuery(necessary for all JavaScript plugins) -->
+        <script src="https://app24h.com.vn/storage/frontend/assets/js/jquery/jquery-3.3.1.min.js"></script>
+
+        <!-- Bootstrap js -->
+        <script src="https://app24h.com.vn/storage/frontend/assets/js/bootstrap/popper.min.js"></script>
+        <script src="https://app24h.com.vn/storage/frontend/assets/js/bootstrap/bootstrap.min.js"></script>
+
+        <!-- Plugins js -->
+        <script src="https://app24h.com.vn/storage/frontend/assets/js/plugins/plugins.min.js"></script>
+
+        <!-- Active js -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        <script src="https://app24h.com.vn/storage/frontend/assets/js/jquery.validate.js"></script>
+
+        <script src="https://app24h.com.vn/storage/frontend/assets/js/active4623.js?v=1.21"></script>
+
+        <script src="../www.google.com/recaptcha/api.js" async defer></script>
+
+        <script type="text/javascript">
+            // $(document).ready(function () {
+            //     grecaptcha.execute();
+            // });
+
+            function recaptcha_callback() {
+                $('#submit-btn').removeAttr('disabled');
+            }
+        </script>
+            <script>
+        // $("#contact-form").validate({
+        //     rules: {
+        //         fullname: "required",
+        //         phone: "required",
+        //         email: {
+        //             email: true,
+        //             required: true,
+        //         },
+        //         // company_name: "required",
+        //         career: "required",
+        //         service: "required",
+        //         chanel: "required",
+        //         'contact_how[]': "required",
+        //     },
+        //     messages: {
+        //         fullname: "Vui lòng nhập Họ tên!",
+        //         phone: "Vui lòng nhập số điện thoại!",
+        //         career: "Vui lòng chọn ngành nghề hoạt động!",
+        //         // company_name: "Vui lòng chọn dịch vụ!",
+        //         service: "Vui lòng chọn dịch vụ!",
+        //         chanel: "Vui lòng chọn!",
+        //         'contact_how[]': "Vui lòng chọn!",
+        //         email: {
+        //             email: "Không đúng định dạng email!",
+        //             required: "Vui lòng nhập email!",
+        //         },
+        //     }
+        // });
+
+    </script>
+    </body>
+</html>

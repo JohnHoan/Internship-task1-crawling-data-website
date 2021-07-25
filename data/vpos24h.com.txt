@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!--Start of Google Analytics script-->
+            <!-- Start to avoid copy data-->
+
+	<style>
+        body {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+    </style>
+    <script type="text/JavaScript">
+        function killCopy(e){ 
+            return false } 
+        function reEnable(){ 
+            return true } 
+        document.onselectstart = new Function ("return false") 
+        
+        if (window.sidebar){  
+            document.onmousedown=killCopy 
+            document.onclick=reEnable 
+        }
+    </script>
+    
+    <script language="JavaScript">
+    window.onload = function() {
+        document.addEventListener("contextmenu", function(e) {
+            e.preventDefault();
+        }, false);
+        document.addEventListener("keydown", function(e) {
+            //document.onkeydown = function(e) {
+            // "I" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                disabledEvent(e);
+            }
+            // "J" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                disabledEvent(e);
+            }
+            // "S" key + macOS
+            if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                disabledEvent(e);
+            }
+            // "U" key
+            if (e.ctrlKey && e.keyCode == 85) {
+                disabledEvent(e);
+            }
+            // "F12" key
+            if (event.keyCode == 123) {
+                disabledEvent(e);
+            }
+        }, false);
+
+        function disabledEvent(e) {
+            if (e.stopPropagation) {
+                e.stopPropagation();
+            } else if (window.event) {
+                window.event.cancelBubble = true;
+            }
+            e.preventDefault();
+            return false;
+        }
+    };
+    </script>
+
+   <!-- End to avoid copy data-->
+
+<!-- Pixel Code for https://trigger365.com/run/ -->
+<script async src="https://trigger365.com/run/pixel/zajtn9l4la773qsaq1yv5muxj6l1xy15"></script>
+<!-- END Pixel Code -->
+            <!--End of Google Analytics script-->
+
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <meta name="description" content="Phần mềm Quản lý bán hàng - Quản lý kho dành cho mọi doanh nghiệp vừa và nhỏ">
+      <meta name="keywords" content="Phần mềm quản lý bán hàng,phần mềm quản lý kho,phần mềm quản lý chuỗi bán lẻ,phần mềm quản lý chuỗi cửa hàng,phần mềm quản lý bán sỉ,phần mềm quản lý bán buôn,phần mềm quản lý nhà hàng,phần mềm quản lý cafe">
+
+      <meta name="csrf-token" content="hnuQZ6qJ5hJdXjJ1FUQPkgQfqVBhuoPy1afBfBFc">
+      <title>Phần mềm Quản lý bán hàng - Quản lý kho chuyên nghiệp </title>
+      <!-- favicon -->
+      <link rel="shortcut icon" href="https://vpos24h.com/assets/front/img/5ea9b08153105.png" type="image/x-icon">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="https://vpos24h.com/assets/front/css/bootstrap.min.css">
+      <!-- plugin css -->
+      <link rel="stylesheet" href="https://vpos24h.com/assets/front/css/plugin.min.css">
+            <!-- main css -->
+      <link rel="stylesheet" href="https://vpos24h.com/assets/front/css/style.css">
+
+                  
+      <!-- responsive css -->
+      <link rel="stylesheet" href="https://vpos24h.com/assets/front/css/responsive.css">
+      <!-- base color change -->
+      <link href="https://vpos24h.com/assets/front/css/base-color.php?color=25D06F&color1=0A3041" rel="stylesheet">
+            <!-- jquery js -->
+      <script src="https://vpos24h.com/assets/front/js/jquery-3.3.1.min.js"></script>
+
+      
+      <!-- Start of Facebook Pixel Code -->
+            <!-- End of Facebook Pixel Code -->
+
+      <!--Start of Appzi script-->
+            <!--End of Appzi script-->
+      
+      <!--Begin okChat365.com -->
+      		<script src="https://okchat365.com/public/js/jquery.min.js"></script>
+        <script src="https://okchat365.com/chat_widget.js?token=822404376&lang=2"></script>
+	        <!--End okChat365.com -->
+      
+      
+      
+      
+   </head>
+
+
+
+   <body >
+
+      <!--   header area start   -->
+      <div class="header-area header-absolute">
+         <div class="container">
+            <div class="support-bar-area">
+               <div class="row">
+                  <div class="col-lg-6 support-contact-info">
+                     <span class="address"><i class="far fa-envelope"></i> vPOS24hAgent@gmail.com</span>
+                     <span class="phone"><i class="flaticon-chat"></i> 0945.062.863</span>
+                  </div>
+                  <div class="col-lg-6 text-right">
+                     <ul class="social-links">
+                                                <li><a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a target="_blank" href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a target="_blank" href="https://dribble.com/"><i class="fab fa-dribbble"></i></a></li>
+                                                <li><a target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                                                <li><a target="_blank" href="https://www.google.com/"><i class="fab fa-google-plus-g"></i></a></li>
+                                                <li><a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram iconpicker-component"></i></a></li>
+                                            </ul>
+
+                                            <div class="language">
+                          <a class="language-btn" href="#"><i class="flaticon-worldwide"></i> Vietnamese</a>
+                          <ul class="language-dropdown">
+                                                        <li><a href='https://vpos24h.com/changelanguage/en'>English</a></li>
+                                                        <li><a href='https://vpos24h.com/changelanguage/vi'>Vietnamese</a></li>
+                                                      </ul>
+                       </div>
+                     
+                  </div>
+               </div>
+            </div>
+            <div class="header-navbar">
+               <div class="row">
+                  <div class="col-lg-2 col-6">
+                     <div class="logo-wrapper">
+                        <a href="https://vpos24h.com"><img src="https://vpos24h.com/assets/front/img/5ea9ae9666417.png" alt=""></a>
+                     </div>
+                  </div>
+                  <div class="col-lg-10 col-6 text-right position-static">
+                     <ul class="main-menu" id="mainMenu">
+                        <li class=" active  "><a href="https://vpos24h.com">Trang chủ</a></li>
+                        <li class=""><a href="https://vpos24h.com/blog-details/tinh-nang-cua-phan-mem-quan-ly-ban-hang-quan-ly-kho/59">Tính năng</a></li>
+                        
+                                                  <li class=""><a href="https://vpos24h.com/packages">Bảng giá</a></li>
+                                                	
+                                                  <li class=""><a href="https://vpos24h.com/blogs">Tin tức</a></li>
+                        
+                        
+                        <li class="dropdown
+                        ">
+                            <!--<a class="dropdown-btn" href="#">About</a>-->
+                            <a class="dropdown-btn" href="#">Giới thiệu</a>
+                            <ul class="dropdown-lists">
+                            
+                                <li class=""><a href="https://vpos24h.com/gioi-thieu-so-luoc/32/page">Giới thiệu sơ lược</a></li>
+
+                            
+                                <li class=""><a href="https://vpos24h.com/huong-dan-su-dung/33/page">Hướng dẫn sử dụng</a></li>
+
+                            
+                                <li class=""><a href="https://vpos24h.com/Dieu-khoan-giao-dich/34/page">Điều khoản giao dịch</a></li>
+
+                            
+                                <li class=""><a href="https://vpos24h.com/phuong-thuc-giao-nhan/35/page">Phương thức giao nhận</a></li>
+
+                            
+                                <li class=""><a href="https://vpos24h.com/phuong-thuc-thanh-toan/36/page">Phương thức thanh toán</a></li>
+
+                            
+                                <li class=""><a href="https://vpos24h.com/chinh-sach-bao-hanh/37/page">Chính sách bảo hành</a></li>
+
+                            
+                                <li class=""><a href="https://vpos24h.com/chinh-sach-bao-mat/38/page">Chính sách bảo mật</a></li>
+
+                                                                                        <li class=""><a href="https://vpos24h.com/team">Đội ngữ nhân sự</a></li>
+                                                                                        <li class=""><a href="https://vpos24h.com/career">Tuyển dụng</a></li>
+                                                                                        <li class=""><a href="https://vpos24h.com/calendar">Lịch sự kiện</a></li>
+                                                                                        <li class=""><a href="https://vpos24h.com/gallery">Thư viện ảnh</a></li>
+                                                                                        <li class=""><a href="https://vpos24h.com/faq">Hỏi đáp</a></li>
+                                                        </ul>
+                        </li>
+
+                        
+                                                  <li class=""><a href="https://vpos24h.com/contact">Liên  hệ</a></li>
+                                                                        
+                        <li><a href="https://vpos24h.com/run/public/login?lang=vi" class="boxed-btn">Đăng nhập</a></li>
+                     </ul>
+                     <div id="mobileMenu"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--   header area end   -->
+
+
+        <!--   hero area start   -->
+      <div class="hero-area" id="particles-js" style="background-image: url('https://vpos24h.com/assets/front/img/5ea9b4279995d.jpg'); background-size: cover;">
+   <div class="container">
+      <div class="hero-txt home-3">
+         <div class="row">
+           <div class="col-12">
+              <span>VPOS24H.COM</span>
+              <h1>Phần mềm Quản lý bán hàng - Quản lý kho dành cho doanh nghiệp vừa và nhỏ</h1>
+                            <a href="https://vpos24h.com/run/public/business/register?lang=vi" class="hero-boxed-btn" target="_blank">Đăng ký ngay!</a>
+                         </div>
+         </div>
+      </div>
+   </div>
+   <div class="hero-area-overlay"></div>
+</div>
+    <!--   hero area end    -->
+
+
+  <!--    introduction area start   -->
+  <div class="intro-section" >
+     <div class="container">
+              <div class="hero-features">
+          <div class="row">
+                            <style>
+                    .sf35::after {
+                        background-color: #0A3041;
+                    }
+                </style>
+                <div class="col-md-3 col-sm-6 single-hero-feature sf35" style="background-color: #0A3041;">
+                <div class="outer-container">
+                    <div class="inner-container">
+                        <div class="icon-wrapper">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <h3>Gia tăng hiệu quả bán hàng</h3>
+                    </div>
+                </div>
+            </div>
+                            <style>
+                    .sf36::after {
+                        background-color: #0E3E53;
+                    }
+                </style>
+                <div class="col-md-3 col-sm-6 single-hero-feature sf36" style="background-color: #0E3E53;">
+                <div class="outer-container">
+                    <div class="inner-container">
+                        <div class="icon-wrapper">
+                        <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h3>Giảm thiểu rủi ro trong bán hàng</h3>
+                    </div>
+                </div>
+            </div>
+                            <style>
+                    .sf37::after {
+                        background-color: #0A3041;
+                    }
+                </style>
+                <div class="col-md-3 col-sm-6 single-hero-feature sf37" style="background-color: #0A3041;">
+                <div class="outer-container">
+                    <div class="inner-container">
+                        <div class="icon-wrapper">
+                        <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Tăng hiệu quả quản lý bán hàng</h3>
+                    </div>
+                </div>
+            </div>
+                            <style>
+                    .sf38::after {
+                        background-color: #0E3E53;
+                    }
+                </style>
+                <div class="col-md-3 col-sm-6 single-hero-feature sf38" style="background-color: #0E3E53;">
+                <div class="outer-container">
+                    <div class="inner-container">
+                        <div class="icon-wrapper">
+                        <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Hệ thống bảo mật tuyệt đối</h3>
+                    </div>
+                </div>
+            </div>
+                      </div>
+       </div>
+       
+              <div class="row">
+          <div class="col-lg-6 pr-lg-0">
+             <div class="intro-txt">
+                <span class="section-title">Dùng thử miễn phí!</span>
+                <h2 class="section-summary">Hỗ trợ dùng thử miễn phí trong 365 ngày, trải nghiệm ngay! </h2>
+                                <a href="https://vpos24h.com/run/public/business/register?lang=vi" class="intro-btn" target="_blank"><span>Trải nghiệm</span></a>
+                             </div>
+          </div>
+          <div class="col-lg-6 pl-lg-0 px-md-3 px-0">
+             <div class="intro-bg" style="background-image: url('https://vpos24h.com/assets/front/img/5eaaacde4709c.jpg'); background-size: cover;">
+                                <a id="play-video" class="video-play-button" href="#">
+                  <span></span>
+                </a>
+                             </div>
+          </div>
+       </div>
+            </div>
+  </div>
+  <!--    introduction area end   -->
+
+
+  
+
+    <!--   how we do section start   -->
+  <div class="approach-section">
+     <div class="container">
+        <div class="row">
+           <div class="col-lg-6">
+              <div class="approach-summary">
+                 <span class="section-title">Lĩnh vực hoạt động</span>
+                 <h2 class="section-summary">Ứng dụng hỗ trợ hầu hết các lĩnh vực kinh doanh</h2>
+                                  <a href="https://vpos24h.com/blog-details/ho-tro-cac-loai-hinh-kinh-doanh/60" class="boxed-btn" target="_blank"><span>Xem thêm</span></a>
+                               </div>
+           </div>
+           <div class="col-lg-6">
+              <ul class="approach-lists">
+                                    <li class="single-approach">
+                      <div class="approach-icon-wrapper"><i class="fas fa-cart-plus"></i></div>
+                      <div class="approach-text">
+                         <h4>Lĩnh vực bán lẻ</h4>
+                         <p>Bao gồm các cửa hàng bán lẻ, các chuỗi cửa hàng bán lẻ, các shop thời trang, các cửa hàng bán đồ gia dụng, các cửa hàng bán mỹ phẩm...</p>
+                      </div>
+                   </li>
+                                    <li class="single-approach">
+                      <div class="approach-icon-wrapper"><i class="fas fa-city"></i></div>
+                      <div class="approach-text">
+                         <h4>Lĩnh vực bán sỉ</h4>
+                         <p>Bao gồm các doanh nghiệp bán sỉ các loại sản phẩm như thời trang, giầy dép, mỹ phẩm, sơn, sắt thép, xe...</p>
+                      </div>
+                   </li>
+                                    <li class="single-approach">
+                      <div class="approach-icon-wrapper"><i class="fas fa-coffee"></i></div>
+                      <div class="approach-text">
+                         <h4>Lĩnh vực dịch vụ</h4>
+                         <p>Bao gồm các doanh nghiệp dịch vụ như spa, salon, gym, sửa chữa xe, cafe, nhà hàng, điện hoa, quà tặng...</p>
+                      </div>
+                   </li>
+                               </ul>
+           </div>
+        </div>
+     </div>
+  </div>
+  <!--   how we do section end   -->
+  
+
+    <!--    statistics section start    -->
+  <div class="statistics-section  statistics-bg " id="statisticsSection" >
+     <div class="statistics-container">
+        <div class="container">
+           <div class="row no-gutters">
+                            <div class="col-lg-3 col-md-6">
+                  <div class="round"
+                     data-value="1"
+                     data-number="1000"
+                     data-size="200"
+                     data-thickness="6"
+                     data-fill="{
+                     &quot;color&quot;: &quot;#25D06F&quot;
+                     }">
+                     <strong></strong>
+                     <h5><i class="fas fa-project-diagram"></i> Dự án đã triển khai</h5>
+                  </div>
+               </div>
+                            <div class="col-lg-3 col-md-6">
+                  <div class="round"
+                     data-value="1"
+                     data-number="1200"
+                     data-size="200"
+                     data-thickness="6"
+                     data-fill="{
+                     &quot;color&quot;: &quot;#25D06F&quot;
+                     }">
+                     <strong></strong>
+                     <h5><i class="far fa-smile"></i> Khách hàng hài lòng</h5>
+                  </div>
+               </div>
+                            <div class="col-lg-3 col-md-6">
+                  <div class="round"
+                     data-value="1"
+                     data-number="120"
+                     data-size="200"
+                     data-thickness="6"
+                     data-fill="{
+                     &quot;color&quot;: &quot;#25D06F&quot;
+                     }">
+                     <strong></strong>
+                     <h5><i class="far fa-flag"></i> Quốc gia</h5>
+                  </div>
+               </div>
+                            <div class="col-lg-3 col-md-6">
+                  <div class="round"
+                     data-value="1"
+                     data-number="450"
+                     data-size="200"
+                     data-thickness="6"
+                     data-fill="{
+                     &quot;color&quot;: &quot;#25D06F&quot;
+                     }">
+                     <strong></strong>
+                     <h5><i class="fas fa-heart"></i> Đánh giá tích cực</h5>
+                  </div>
+               </div>
+                        </div>
+        </div>
+     </div>
+     <div class="statistic-overlay"></div>
+  </div>
+  <!--    statistics section end    -->
+  
+
+  
+
+    <!--   Testimonial section start    -->
+  <div class="testimonial-section pb-115">
+     <div class="container">
+        <div class="row text-center">
+           <div class="col-lg-6 offset-lg-3">
+              <span class="section-title">Cảm nhận của Khách hàng</span>
+              <h2 class="section-summary">Khách hàng nói gì về vPOS24h.com?</h2>
+           </div>
+        </div>
+        <div class="row">
+           <div class="col-md-12">
+              <div class="testimonial-carousel owl-carousel owl-theme">
+                                    <div class="single-testimonial">
+                      <div class="img-wrapper"><img src="https://vpos24h.com/assets/front/img/testimonials/1588254710.jpg" alt=""></div>
+                      <div class="client-desc">
+                         <p class="comment">Tôi biết đến vPOS24h qua một người bạn là giám đốc chuỗi cửa hàng thời trang hiện đang áp dụng phần mềm này vào công tác quản lý. Giao diện của vPOS24h  rất đơn giản, dễ dùng. Về phần đào tạo nhân viên cũng không nhiều, hầu hết nhân viên đều biết cách làm việc trong ứng dụng. vPOS24h thật sự hữu ích!</p>
+                         <h6 class="name">NIKKI CAESAR</h6>
+                         <p class="rank">CEO VENUS SPA</p>
+                      </div>
+                   </div>
+                                    <div class="single-testimonial">
+                      <div class="img-wrapper"><img src="https://vpos24h.com/assets/front/img/testimonials/1588254807.jpg" alt=""></div>
+                      <div class="client-desc">
+                         <p class="comment">Tôi đã mở nhà hàng được 5 năm rồi, tuy vậy trước đây Tôi chỉ dùng phương pháp quản lý truyền thống. Khi được nhân viên vPOS24h đến tư vấn, Tôi quyết định dùng phần mềm vPOS24h ngay hôm đó luôn. Với vPOS24h, Tôi ấn tượng nhất là tính năng có thể xem được báo cáo kể cả khi đi ra ngoài. Phần mềm sử dụng rất tiện.</p>
+                         <h6 class="name">ALEX O&#039;R</h6>
+                         <p class="rank">CEO DIAMAND RESTAURANT CHAIN</p>
+                      </div>
+                   </div>
+                                    <div class="single-testimonial">
+                      <div class="img-wrapper"><img src="https://vpos24h.com/assets/front/img/testimonials/1588254640.jpg" alt=""></div>
+                      <div class="client-desc">
+                         <p class="comment">Sau khi triển khai sử dụng phần mềm quản lý bán hàng vPOS24h vào hoạt động kinh doanh của chuỗi cửa hàng giầy da thương hiệu Italy, tôi đã thay đổi thói quen phải đến cửa hàng hằng ngày. Giờ đây, Tôi chỉ việc xem các loại báo cáo từ bất kỳ vị trí nào có internet và tập trung lên kế hoạch kinh doanh sắp tới.</p>
+                         <h6 class="name">JONAT DAVIS</h6>
+                         <p class="rank">GIÁM ĐỐC GIẦY DA ITALY</p>
+                      </div>
+                   </div>
+                               </div>
+           </div>
+        </div>
+     </div>
+  </div>
+  <!--   Testimonial section end    -->
+  
+
+    <!--    team section start   -->
+  <div class="team-section section-padding"  style="background-image: url('https://vpos24h.com/assets/front/img/5eaaddcb731ce.jpg'); background-size:cover;"  >
+     <div class="team-content">
+        <div class="container">
+           <div class="row text-center">
+              <div class="col-lg-6 offset-lg-3">
+                 <span class="section-title">Đội ngũ nhân viên</span>
+                 <h2 class="section-summary">Những thành viên chính</h2>
+              </div>
+           </div>
+           <div class="row">
+              <div class="team-carousel common-carousel owl-carousel owl-theme">
+                                 <div class="single-team-member">
+                    <div class="team-img-wrapper">
+                       <img src="https://vpos24h.com/assets/front/img/members/1588255724.png" alt="">
+                       <div class="social-accounts">
+                          <ul class="social-account-lists">
+                                                                                                                                              </ul>
+                       </div>
+                    </div>
+                    <div class="member-info">
+                       <h5 class="member-name">Nguyễn Xuân Thu</h5>
+                       <small>Giám đốc kinh doanh</small>
+                    </div>
+                 </div>
+                                 <div class="single-team-member">
+                    <div class="team-img-wrapper">
+                       <img src="https://vpos24h.com/assets/front/img/members/1588255794.png" alt="">
+                       <div class="social-accounts">
+                          <ul class="social-account-lists">
+                                                                                                                                              </ul>
+                       </div>
+                    </div>
+                    <div class="member-info">
+                       <h5 class="member-name">Hoàng Kim Quy</h5>
+                       <small>Kế toán &amp; Nhân sự</small>
+                    </div>
+                 </div>
+                                 <div class="single-team-member">
+                    <div class="team-img-wrapper">
+                       <img src="https://vpos24h.com/assets/front/img/members/1588256775.jpg" alt="">
+                       <div class="social-accounts">
+                          <ul class="social-account-lists">
+                                                                                                                                              </ul>
+                       </div>
+                    </div>
+                    <div class="member-info">
+                       <h5 class="member-name">Lan Hương</h5>
+                       <small>Marketing</small>
+                    </div>
+                 </div>
+                                 <div class="single-team-member">
+                    <div class="team-img-wrapper">
+                       <img src="https://vpos24h.com/assets/front/img/members/1588256808.jpg" alt="">
+                       <div class="social-accounts">
+                          <ul class="social-account-lists">
+                                                                                                                                              </ul>
+                       </div>
+                    </div>
+                    <div class="member-info">
+                       <h5 class="member-name">Hoàng Quốc Uy</h5>
+                       <small>CEO</small>
+                    </div>
+                 </div>
+                              </div>
+           </div>
+        </div>
+     </div>
+     <div class="team-overlay"></div>
+  </div>
+  <!--    team section end   -->
+  
+
+    <!-- pricing begin -->
+  <div class="pricing-tables">
+     <div class="container">
+       <div class="row text-center">
+          <div class="col-lg-6 offset-lg-3">
+             <span class="section-title">Danh sách gói dịch vụ</span>
+             <h2 class="section-summary">Hãy chọn một gói dịch vụ phù hợp!</h2>
+          </div>
+       </div>
+        <div class="pricing-carousel common-carousel owl-carousel owl-theme">
+                      <div class="single-pricing-table">
+               <span class="title">Gói miễn phí</span>
+               <div class="price">
+               	                   	<h1>0 đ</h1>
+                                   
+               </div>
+               <div class="features">
+                  <div style="text-align: center;">Số điểm bán (Cửa hàng): <b>01</b></div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Số nhân viên: <b>05</b></div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Số sản phẩm: <b>50</b></div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Số hóa đơn: 20<b>0</b></div><div style="text-align: center;"><br></div>
+<div style="text-align: center;">Module quản lý khách hàng &amp; nhà cung cấp</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý sản phẩm</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý mua hàng</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý bán hàng</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý kho</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý giao hàng</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý hàng bán trả lại</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý hàng mua trả lại</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module kế toán</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Báo cáo - Thống kê</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module khác</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Hỗ trợ phiên bản mobile</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Có hướng dẫn sử dụng &amp; hỗ trợ 24/7</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;"><b>Dùng trong <b>12 tháng</b></b></div><div style="text-align: center;"><br>
+</div><div style="text-align: center;"><i>(Giá trên tính theo tháng)</i></div>
+               </div>
+
+               <a href="https://vpos24h.com/run/public/business/register?lang=vi" class="pricing-btn">Đăng ký</a>
+
+            </div>
+                      <div class="single-pricing-table">
+               <span class="title">Gói cơ bản</span>
+               <div class="price">
+               	                   	<h1>150,000 đ</h1>
+                                   
+               </div>
+               <div class="features">
+                  <div style="text-align: center;">Số điểm bán (Cửa hàng): <b>01</b></div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Số nhân viên: <b>10</b></div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Số sản phẩm: <b>Không giới hạn</b></div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Số hóa đơn: <b>Không giới hạn</b></div><div style="text-align: center;"><br></div>
+<div style="text-align: center;">Module quản lý khách hàng &amp; nhà cung cấp</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý sản phẩm</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý mua hàng</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý bán hàng</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý kho</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý giao hàng</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý hàng bán trả lại</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý hàng mua trả lại</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module kế toán</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Báo cáo - Thống kê</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module khác</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Hỗ trợ phiên bản mobile</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Có hướng dẫn sử dụng &amp; hỗ trợ 24/7</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;"><b>Đăng ký tối thiểu&nbsp;<b>12 tháng</b></b></div><div style="text-align: center;"><br>
+</div><div style="text-align: center;"><i>(Giá trên tính theo tháng)</i></div>
+               </div>
+
+               <a href="https://vpos24h.com/run/public/business/register?lang=vi" class="pricing-btn">Đăng ký</a>
+
+            </div>
+                      <div class="single-pricing-table">
+               <span class="title">Gói nâng cao</span>
+               <div class="price">
+               	                   	<h1>225,000 đ</h1>
+                                   
+               </div>
+               <div class="features">
+                  <div style="text-align: center;">Số điểm bán (Cửa hàng): <b>01</b></div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Số nhân viên: <b>Không giới hạn</b></div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Số sản phẩm: <b>Không giới hạn</b></div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Số hóa đơn: <b>Không giới hạn</b></div><div style="text-align: center;"><br></div>
+<div style="text-align: center;">Module quản lý khách hàng &amp; nhà cung cấp</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý sản phẩm</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý mua hàng</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý bán hàng</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý kho</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý giao hàng</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý hàng bán trả lại</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Quản lý hàng mua trả lại</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module kế toán</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module Báo cáo - Thống kê</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Module khác</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Hỗ trợ phiên bản mobile</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;">Có hướng dẫn sử dụng &amp; hỗ trợ 24/7</div><div style="text-align: center;"><br>
+</div><div style="text-align: center;"><b>Đăng ký tối thiểu&nbsp;<b>12 tháng</b></b></div><div style="text-align: center;"><br>
+</div><div style="text-align: center;"><i>(Giá trên tính theo tháng)</i></div>
+               </div>
+
+               <a href="https://vpos24h.com/run/public/business/register?lang=vi" class="pricing-btn">Đăng ký</a>
+
+            </div>
+                  </div>
+     </div>
+  </div>
+  <!-- pricing end -->
+  
+
+
+    <!--    blog section start   -->
+  <div class="blog-section section-padding">
+     <div class="container">
+        <div class="row text-center">
+           <div class="col-lg-6 offset-lg-3">
+              <span class="section-title">Tin tức mới nhất</span>
+              <h2 class="section-summary">Danh sách các tin mới nhất</h2>
+           </div>
+        </div>
+        <div class="blog-carousel owl-carousel owl-theme common-carousel">
+                         <div class="single-blog">
+                 <div class="blog-img-wrapper">
+                    <img src="https://vpos24h.com/assets/front/img/blogs/1588251688.jpg" alt="">
+                 </div>
+                 <div class="blog-txt">
+                    
+                    <p class="date"><small>Bởi <span class="username">Quản trị viên</span></small> | <small>30 tháng 4, 2020</small> </p>
+
+                    <h4 class="blog-title"><a href="https://vpos24h.com/blog-details/T%C3%ADnh-n%C4%83ng-c%E1%BB%A7a-ph%E1%BA%A7n-m%E1%BB%81m-qu%E1%BA%A3n-l%C3%BD-b%C3%A1n-h%C3%A0ng-qu%E1%BA%A3n-l%C3%BD-kho/59">Tính năng của phần mềm quản l?...</a></h4>
+
+
+                    <p class="blog-summary">Các lĩnh vực mà phần mềm vPOS24h.com hỗ trợ - Xem thêm...&nbsp; &nbsp; &nbsp;vPOS24h.c...</p>
+
+
+                    <a href="https://vpos24h.com/blog-details/T%C3%ADnh-n%C4%83ng-c%E1%BB%A7a-ph%E1%BA%A7n-m%E1%BB%81m-qu%E1%BA%A3n-l%C3%BD-b%C3%A1n-h%C3%A0ng-qu%E1%BA%A3n-l%C3%BD-kho/59" class="readmore-btn"><span>Đọc thêm</span></a>
+
+                 </div>
+              </div>
+                         <div class="single-blog">
+                 <div class="blog-img-wrapper">
+                    <img src="https://vpos24h.com/assets/front/img/blogs/1589725395.jpg" alt="">
+                 </div>
+                 <div class="blog-txt">
+                    
+                    <p class="date"><small>Bởi <span class="username">Quản trị viên</span></small> | <small>17 tháng 5, 2020</small> </p>
+
+                    <h4 class="blog-title"><a href="https://vpos24h.com/blog-details/H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C4%83ng-k%C3%BD-t%C3%A0i-kho%E1%BA%A3n-th%C3%A0nh-vi%C3%AAn/61">Hướng dẫn đăng ký tài khoản t...</a></h4>
+
+
+                    <p class="blog-summary">&nbsp; &nbsp; &nbsp; Để có thể sử dụng các chức năng của phần mềm Quản lý bá...</p>
+
+
+                    <a href="https://vpos24h.com/blog-details/H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C4%83ng-k%C3%BD-t%C3%A0i-kho%E1%BA%A3n-th%C3%A0nh-vi%C3%AAn/61" class="readmore-btn"><span>Đọc thêm</span></a>
+
+                 </div>
+              </div>
+                         <div class="single-blog">
+                 <div class="blog-img-wrapper">
+                    <img src="https://vpos24h.com/assets/front/img/blogs/1588252263.png" alt="">
+                 </div>
+                 <div class="blog-txt">
+                    
+                    <p class="date"><small>Bởi <span class="username">Quản trị viên</span></small> | <small>30 tháng 4, 2020</small> </p>
+
+                    <h4 class="blog-title"><a href="https://vpos24h.com/blog-details/H%E1%BB%97-tr%E1%BB%A3-c%C3%A1c-lo%E1%BA%A1i-h%C3%ACnh-kinh-doanh/60">Hỗ trợ các loại hình kinh doanh</a></h4>
+
+
+                    <p class="blog-summary">&nbsp; &nbsp; &nbsp;vPOS24h.com hỗ trợ các loại hình doanh nghiệp khác nhau như doanh ng...</p>
+
+
+                    <a href="https://vpos24h.com/blog-details/H%E1%BB%97-tr%E1%BB%A3-c%C3%A1c-lo%E1%BA%A1i-h%C3%ACnh-kinh-doanh/60" class="readmore-btn"><span>Đọc thêm</span></a>
+
+                 </div>
+              </div>
+                         <div class="single-blog">
+                 <div class="blog-img-wrapper">
+                    <img src="https://vpos24h.com/assets/front/img/blogs/1592986619.png" alt="">
+                 </div>
+                 <div class="blog-txt">
+                    
+                    <p class="date"><small>Bởi <span class="username">Quản trị viên</span></small> | <small>24 tháng 6, 2020</small> </p>
+
+                    <h4 class="blog-title"><a href="https://vpos24h.com/blog-details/Thi%E1%BA%BFt-l%E1%BA%ADp-c%C3%A1c-tham-s%E1%BB%91-cho-doanh-nghi%E1%BB%87p/62">Thiết lập các tham số cho doanh n...</a></h4>
+
+
+                    <p class="blog-summary">&nbsp; &nbsp; &nbsp;Trước khi tiến hành các thao tác nghiệp vụ về Quản trị bá hà...</p>
+
+
+                    <a href="https://vpos24h.com/blog-details/Thi%E1%BA%BFt-l%E1%BA%ADp-c%C3%A1c-tham-s%E1%BB%91-cho-doanh-nghi%E1%BB%87p/62" class="readmore-btn"><span>Đọc thêm</span></a>
+
+                 </div>
+              </div>
+                         <div class="single-blog">
+                 <div class="blog-img-wrapper">
+                    <img src="https://vpos24h.com/assets/front/img/blogs/1593055778.png" alt="">
+                 </div>
+                 <div class="blog-txt">
+                    
+                    <p class="date"><small>Bởi <span class="username">Quản trị viên</span></small> | <small>25 tháng 6, 2020</small> </p>
+
+                    <h4 class="blog-title"><a href="https://vpos24h.com/blog-details/Thi%E1%BA%BFt-l%E1%BA%ADp-th%C3%B4ng-tin-%C4%91i%E1%BB%83m-b%C3%A1n/63">Thiết lập thông tin điểm bán</a></h4>
+
+
+                    <p class="blog-summary">Bài viết này sẽ lần lượt giúp bạn:+ Hiểu khái niệm Điểm bán là gì?+ Cách c...</p>
+
+
+                    <a href="https://vpos24h.com/blog-details/Thi%E1%BA%BFt-l%E1%BA%ADp-th%C3%B4ng-tin-%C4%91i%E1%BB%83m-b%C3%A1n/63" class="readmore-btn"><span>Đọc thêm</span></a>
+
+                 </div>
+              </div>
+                         <div class="single-blog">
+                 <div class="blog-img-wrapper">
+                    <img src="https://vpos24h.com/assets/front/img/blogs/1593073495.png" alt="">
+                 </div>
+                 <div class="blog-txt">
+                    
+                    <p class="date"><small>Bởi <span class="username">Quản trị viên</span></small> | <small>25 tháng 6, 2020</small> </p>
+
+                    <h4 class="blog-title"><a href="https://vpos24h.com/blog-details/Gi%E1%BB%9Bi-thi%E1%BB%87u-giao-di%E1%BB%87n-l%C3%A0m-vi%E1%BB%87c-c%E1%BB%A7a-vPOS24h/64">Giới thiệu giao diện làm việc c...</a></h4>
+
+
+                    <p class="blog-summary">&nbsp; &nbsp; &nbsp;Khi bạn đăng nhập vào phần mềm Quản lý bán hàng - Quản lý kho...</p>
+
+
+                    <a href="https://vpos24h.com/blog-details/Gi%E1%BB%9Bi-thi%E1%BB%87u-giao-di%E1%BB%87n-l%C3%A0m-vi%E1%BB%87c-c%E1%BB%A7a-vPOS24h/64" class="readmore-btn"><span>Đọc thêm</span></a>
+
+                 </div>
+              </div>
+                   </div>
+     </div>
+  </div>
+  <!--    blog section end   -->
+  
+
+    <!--    call to action section start    -->
+  <div class="cta-section" style="background-image: url('https://vpos24h.com/assets/front/img/5ea9ae96686eb.jpg')">
+     <div class="container">
+        <div class="cta-content">
+           <div class="row">
+              <div class="col-md-9 col-lg-7">
+                 <h3>Liên hệ ngay với chúng tôi để được giải đáp sớm.</h3>
+              </div>
+              <div class="col-md-3 col-lg-5 contact-btn-wrapper">
+                 <a href="https://vpos24h.com/contact" class="boxed-btn contact-btn"><span>Liên hệ</span></a>
+              </div>
+           </div>
+        </div>
+     </div>
+     <div class="cta-overlay"></div>
+  </div>
+  <!--    call to action section end    -->
+  
+
+    <!--   partner section start    -->
+  <div class="partner-section">
+     <div class="container top-border">
+        <div class="row">
+           <div class="col-md-12">
+              <div class="partner-carousel owl-carousel owl-theme common-carousel">
+                               </div>
+           </div>
+        </div>
+     </div>
+  </div>
+  <!--   partner section end    -->
+  
+
+
+      <!--    announcement banner section start   -->
+      <a class="announcement-banner" href="https://vpos24h.com/assets/front/img/5ea9ae9669678.jpg"></a>
+      <!--    announcement banner section end   -->
+
+
+      <!--    footer section start   -->
+      <footer class="footer-section">
+         <div class="container">
+                        <div class="top-footer-section ">
+               <div class="row">
+                  <div class="col-lg-4 col-md-12">
+                     <div class="footer-logo-wrapper">
+                        <a href="https://vpos24h.com">
+                        <img src="https://vpos24h.com/assets/front/img/5ea9ae9666f9c.png" alt="">
+                        </a>
+                     </div>
+                     <p class="footer-txt">Phần mềm Quản lý bán hàng - Quản lý Kho  vPOS24h được phát triển bởi Công ty TNHH Thương Mại và Dịch Vụ Uy Tín Phát.</p>
+                  </div>
+                  <div class="col-lg-2 col-md-3">
+                     <h4>Điều khoản giao dịch</h4>
+                     <ul class="footer-links">
+                                                  <li><a href="https://vpos24h.com/Dieu-khoan-giao-dich/34/page">Điều khoản dịch vụ chung</a></li>
+                                                  <li><a href="https://vpos24h.com/phuong-thuc-giao-nhan/35/page">Phương thức giao nhận</a></li>
+                                                  <li><a href="https://vpos24h.com/phuong-thuc-thanh-toan/36/page">Phương thức thanh toán</a></li>
+                                                  <li><a href="https://vpos24h.com/chinh-sach-bao-hanh/37/page">Chính sách bảo hành - Đổi trả</a></li>
+                                                  <li><a href="https://vpos24h.com/chinh-sach-bao-mat/38/page">Chính sách bảo mật thông tin người dùng</a></li>
+                                             </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-4">
+                     <h4>Bản tin</h4>
+                     <form class="footer-newsletter" id="footerSubscribeForm" action="https://vpos24h.com/subscribe" method="post">
+                       <input type="hidden" name="_token" value="hnuQZ6qJ5hJdXjJ1FUQPkgQfqVBhuoPy1afBfBFc">                       <p>Đăng ký ngay để nhận bản tin mới nhất từ chúng tôi!</p>
+                       <input type="email" name="email" value="" placeholder="Nhập địa chỉ Email" />
+                       <p id="erremail" class="text-danger mb-0 err-email"></p>
+                       <button type="submit">Đăng ký</button>
+                     </form>
+                  </div>
+                  <div class="col-lg-3 col-md-5">
+                     <h4>Liên hệ</h4 >
+                     <div class="footer-contact-info">
+                        <ul>
+                           <li><i class="fa fa-home"></i><span>Số 136, Ngõ 44 Phố Trần Thái Tông, Tổ 16 Phường Dịch Vọng Hậu, Cầu Giấy, Hà nội</span>
+                           </li>
+                           <li><i class="fa fa-phone"></i><span>0945.062.863</span></li>
+                           <li><i class="far fa-envelope"></i><span>vPOS24hAgent@gmail.com</span></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+                                    <div class="copyright-section">
+               <div class="row">
+                  <div class="col-sm-12 text-center">
+                     <p><b>CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ UY TÍN PHÁT</b></p><p>Số giấy CNĐKDN: <b>0106008658</b>, ngày cấp: <b>04/04/2018</b>, nơi cấp: <b>Sở Kế Hoạch và Đầu Tư Thành Phố Hà nội&nbsp;</b></p><p>Copyright © 2019. All rights reserved by&nbsp;vPOS24h.com</p>
+                  </div>
+               </div>
+            </div>
+                     </div>
+      </footer>
+      <!--    footer section end   -->
+
+
+      <!-- preloader section start -->
+      <div class="loader-container">
+         <span class="loader">
+         <span class="loader-inner"></span>
+         </span>
+      </div>
+      <!-- preloader section end -->
+
+
+      <!-- back to top area start -->
+      <div class="back-to-top">
+         <i class="fas fa-chevron-up"></i>
+      </div>
+      <!-- back to top area end -->
+
+
+      
+            <div class="js-cookie-consent cookie-consent">
+
+    <div class="container">
+      <div class="cookie-container">
+        <span class="cookie-consent__message">
+          <p><span class="cookie-consent__message" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; font-family: Poppins, sans-serif; font-size: 16px;"><span class="cookie-consent__message" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;">Để trang web chạy nhanh hơn bạn cần cho phép cookies hoạt động.</span></span><br></p><div><span class="cookie-consent__message" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; color: rgb(255, 255, 255); font-family: Poppins, sans-serif; font-size: 16px; background-color: rgb(38, 41, 56);"><span class="cookie-consent__message" style="margin: 0px; padding: 0px; border: 0px; vertical-align: baseline;"><br></span></span></div>
+        </span>
+
+        <button class="js-cookie-consent-agree cookie-consent__agree">
+            Cho phép Cookies
+        </button>
+      </div>
+    </div>
+
+</div>
+
+    <script>
+
+        window.laravelCookieConsent = (function () {
+
+            const COOKIE_VALUE = 1;
+            const COOKIE_DOMAIN = 'vpos24h.com';
+
+            function consentWithCookies() {
+                setCookie('laravel_cookie_consent', COOKIE_VALUE, 7300);
+                hideCookieDialog();
+            }
+
+            function cookieExists(name) {
+                return (document.cookie.split('; ').indexOf(name + '=' + COOKIE_VALUE) !== -1);
+            }
+
+            function hideCookieDialog() {
+                const dialogs = document.getElementsByClassName('js-cookie-consent');
+
+                for (let i = 0; i < dialogs.length; ++i) {
+                    dialogs[i].style.display = 'none';
+                }
+            }
+
+            function setCookie(name, value, expirationInDays) {
+                const date = new Date();
+                date.setTime(date.getTime() + (expirationInDays * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value
+                    + ';expires=' + date.toUTCString()
+                    + ';domain=' + COOKIE_DOMAIN
+                    + ';path=/';
+            }
+
+            if (cookieExists('laravel_cookie_consent')) {
+                hideCookieDialog();
+            }
+
+            const buttons = document.getElementsByClassName('js-cookie-consent-agree');
+
+            for (let i = 0; i < buttons.length; ++i) {
+                buttons[i].addEventListener('click', consentWithCookies);
+            }
+
+            return {
+                consentWithCookies: consentWithCookies,
+                hideCookieDialog: hideCookieDialog
+            };
+        })();
+    </script>
+
+            
+
+            <script>
+        var lat = 51.507351;
+        var lng = -0.127758;
+        var mainbs = {"is_announcement":0,"announcement_delay":"2.00"};
+
+        var rtl = 0;
+      </script>
+      <!-- popper js -->
+      <script src="https://vpos24h.com/assets/front/js/popper.min.js"></script>
+      <!-- bootstrap js -->
+      <script src="https://vpos24h.com/assets/front/js/bootstrap.min.js"></script>
+      <!-- Plugin js -->
+      <script src="https://vpos24h.com/assets/front/js/plugin.min.js"></script>
+            <!-- main js -->
+      <script src="https://vpos24h.com/assets/front/js/main.js"></script>
+
+      
+      
+      
+      <!--Start of subscribe functionality-->
+      <script>
+        $(document).ready(function() {
+          $("#subscribeForm, #footerSubscribeForm").on('submit', function(e) {
+            // console.log($(this).attr('id'));
+
+            e.preventDefault();
+
+            let formId = $(this).attr('id');
+            let fd = new FormData(document.getElementById(formId));
+            let $this = $(this);
+
+            $.ajax({
+              url: $(this).attr('action'),
+              type: $(this).attr('method'),
+              data: fd,
+              contentType: false,
+              processData: false,
+              success: function(data) {
+                // console.log(data);
+                if ((data.errors)) {
+                  $this.find(".err-email").html(data.errors.email[0]);
+                } else {
+                  toastr["success"]("You are subscribed successfully!");
+                  $this.trigger('reset');
+                  $this.find(".err-email").html('');
+                }
+              }
+            });
+          });
+        });
+      </script>
+      <!--End of subscribe functionality-->
+
+      <!--Start of Tawk.to script-->
+            <!--End of Tawk.to script-->
+
+      <!--Start of AddThis script-->
+            <!--End of AddThis script-->
+   </body>
+</html>

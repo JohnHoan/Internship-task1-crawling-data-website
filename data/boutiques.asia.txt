@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+					<script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
+				<script type="text/javascript">function theChampLoadEvent(e){var t=window.onload;if(typeof window.onload!="function"){window.onload=e}else{window.onload=function(){t();e()}}}</script>
+		<script type="text/javascript">var theChampDefaultLang = 'en_US', theChampCloseIconPath = 'https://boutiques.asia/wp-content/plugins/super-socializer/images/close.png';</script>
+		<script> var theChampSiteUrl = 'https://boutiques.asia', theChampVerified = 0, theChampEmailPopup = 0; </script>
+			<script> var theChampLoadingImgPath = 'https://boutiques.asia/wp-content/plugins/super-socializer/images/ajax_loader.gif'; var theChampAjaxUrl = 'https://boutiques.asia/wp-admin/admin-ajax.php'; var theChampRedirectionUrl = 'https://boutiques.asia/'; var theChampRegRedirectionUrl = 'https://boutiques.asia/'; </script>
+				<script> var theChampFBKey = '2114409778692014', theChampSameTabLogin = '0', theChampVerified = 0; var theChampAjaxUrl = 'https://boutiques.asia/wp-admin/admin-ajax.php'; var theChampPopupTitle = ''; var theChampEmailPopup = 0; var theChampEmailAjaxUrl = 'https://boutiques.asia/wp-admin/admin-ajax.php'; var theChampEmailPopupTitle = ''; var theChampEmailPopupErrorMsg = ''; var theChampEmailPopupUniqueId = ''; var theChampEmailPopupVerifyMessage = ''; var theChampSteamAuthUrl = ""; var theChampCurrentPageUrl = 'https%3A%2F%2Fboutiques.asia%2F';  var heateorMSEnabled = 0, theChampTwitterAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Twitter&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampLineAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Line&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampLiveAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Live&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampFacebookAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Facebook&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampYahooAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Yahoo&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampGoogleAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Google&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampVkontakteAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Vkontakte&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampLinkedinAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Linkedin&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampInstagramAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Instagram&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampWordpressAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Wordpress&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampDribbbleAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Dribbble&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampGithubAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Github&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampSpotifyAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Spotify&super_socializer_redirect_to=" + theChampCurrentPageUrl, theChampKakaoAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Kakao&super_socializer_redirect_to=" + theChampCurrentPageUrl; theChampTwitchAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Twitch&super_socializer_redirect_to=" + theChampCurrentPageUrl; theChampRedditAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Reddit&super_socializer_redirect_to=" + theChampCurrentPageUrl; theChampDisqusAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Disqus&super_socializer_redirect_to=" + theChampCurrentPageUrl; theChampDropboxAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Dropbox&super_socializer_redirect_to=" + theChampCurrentPageUrl; theChampFoursquareAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Foursquare&super_socializer_redirect_to=" + theChampCurrentPageUrl;</script>
+						<script type="text/javascript">var theChampFBCommentUrl = 'https://boutiques.asia/'; var theChampFBCommentColor = 'light'; var theChampFBCommentNumPosts = ''; var theChampFBCommentWidth = '100%'; var theChampFBCommentOrderby = 'social'; var theChampCommentingTabs = "wordpress,facebook,disqus", theChampGpCommentsUrl = 'https://boutiques.asia/', theChampDisqusShortname = '', theChampScEnabledTabs = 'wordpress', theChampScLabel = 'Leave a reply', theChampScTabLabels = {"wordpress":"Default Comments (0)","fb":"Facebook Comments","disqus":"Disqus Comments"}, theChampGpCommentsWidth = 0, theChampCommentingId = 'respond'</script>
+					<style type="text/css">.the_champ_horizontal_sharing .theChampSharing{
+					color: #fff;
+				border-width: 0px;
+		border-style: solid;
+		border-color: transparent;
+	}
+		.the_champ_horizontal_sharing .theChampTCBackground{
+		color:#666;
+	}
+		.the_champ_horizontal_sharing .theChampSharing:hover{
+				border-color: transparent;
+	}
+	.the_champ_vertical_sharing .theChampSharing{
+					color: #fff;
+				border-width: 0px;
+		border-style: solid;
+		border-color: transparent;
+	}
+		.the_champ_vertical_sharing .theChampTCBackground{
+		color:#666;
+	}
+		.the_champ_vertical_sharing .theChampSharing:hover{
+				border-color: transparent;
+	}
+	@media screen and (max-width:783px){.the_champ_vertical_sharing{display:none!important}}div.heateor_ss_mobile_footer{display:none;}@media screen and (max-width:783px){div.the_champ_bottom_sharing ul.the_champ_sharing_ul i.theChampTCBackground{background-color:white}div.the_champ_bottom_sharing{width:100%!important;left:0!important;}div.the_champ_bottom_sharing li{width:11.111111111111% !important;}div.the_champ_bottom_sharing .theChampSharing{width: 100% !important;}div.the_champ_bottom_sharing div.theChampTotalShareCount{font-size:1em!important;line-height:28px!important}div.the_champ_bottom_sharing div.theChampTotalShareText{font-size:.7em!important;line-height:0px!important}div.heateor_ss_mobile_footer{display:block;height:40px;}.the_champ_bottom_sharing{padding:0!important;display:block!important;width: auto!important;bottom:-2px!important;top: auto!important;}.the_champ_bottom_sharing .the_champ_square_count{line-height: inherit;}.the_champ_bottom_sharing .theChampSharingArrow{display:none;}.the_champ_bottom_sharing .theChampTCBackground{margin-right: 1.1em !important}}</style>
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v16.0.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Boutiques.asia – The Art of lifestyle shopping - Boutiques.asia</title>
+	<link rel="canonical" href="https://boutiques.asia/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Boutiques.asia – The Art of lifestyle shopping - Boutiques.asia" />
+	<meta property="og:description" content="The best you can get from Vietnam OUR CRUSHES LIMITED ITEMS About us We are international Expatriates and French, located in Saigon and in Asia for more than 15 years, with a history of sourcing and production. Like you, we are lovers of beautiful goods and lifestyle shopaholics. LATEST NEWS" />
+	<meta property="og:url" content="https://boutiques.asia/" />
+	<meta property="og:site_name" content="Boutiques.asia" />
+	<meta property="article:modified_time" content="2021-03-26T04:51:42+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time">
+	<meta name="twitter:data1" content="4 minutes">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://boutiques.asia/#website","url":"https://boutiques.asia/","name":"Boutiques.asia","description":"The Art of lifestyle shopping","potentialAction":[{"@type":"SearchAction","target":"https://boutiques.asia/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://boutiques.asia/#webpage","url":"https://boutiques.asia/","name":"Boutiques.asia \u2013 The Art of lifestyle shopping - Boutiques.asia","isPartOf":{"@id":"https://boutiques.asia/#website"},"datePublished":"2021-03-12T10:07:55+00:00","dateModified":"2021-03-26T04:51:42+00:00","breadcrumb":{"@id":"https://boutiques.asia/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://boutiques.asia/"]}]},{"@type":"BreadcrumbList","@id":"https://boutiques.asia/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://boutiques.asia/","url":"https://boutiques.asia/","name":"Boutiques.asia \u2013 The Art of lifestyle shopping"}}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Boutiques.asia &raquo; Feed" href="https://boutiques.asia/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Boutiques.asia &raquo; Comments Feed" href="https://boutiques.asia/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/boutiques.asia\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='dashicons-css'  href='https://boutiques.asia/wp-includes/css/dashicons.min.css?ver=5.7.2' type='text/css' media='all' />
+<style id='dashicons-inline-css' type='text/css'>
+[data-font="Dashicons"]:before {font-family: 'Dashicons' !important;content: attr(data-icon) !important;speak: none !important;font-weight: normal !important;font-variant: normal !important;text-transform: none !important;line-height: 1 !important;font-style: normal !important;-webkit-font-smoothing: antialiased !important;-moz-osx-font-smoothing: grayscale !important;}
+</style>
+<link rel='stylesheet' id='wp-block-library-css'  href='https://boutiques.asia/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-vendors-style-css'  href='https://boutiques.asia/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=4.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://boutiques.asia/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=4.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-selectBox-css'  href='https://boutiques.asia/wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox.css?ver=1.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-wcwl-font-awesome-css'  href='https://boutiques.asia/wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-wcwl-main-css'  href='https://boutiques.asia/wp-content/plugins/yith-woocommerce-wishlist/assets/css/style.css?ver=3.0.20' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://boutiques.asia/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='https://boutiques.asia/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=5.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='https://boutiques.asia/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.1.0' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='https://boutiques.asia/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=5.1.0' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='wc-gateway-ppec-frontend-css'  href='https://boutiques.asia/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/assets/css/wc-gateway-ppec-frontend.css?ver=2.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce_prettyPhoto_css-css'  href='//boutiques.asia/wp-content/plugins/woocommerce/assets/css/prettyPhoto.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='hello-elementor-css'  href='https://boutiques.asia/wp-content/themes/hello-elementor/style.min.css?ver=2.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css'  href='https://boutiques.asia/wp-content/themes/hello-elementor/theme.min.css?ver=2.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://boutiques.asia/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.11.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://boutiques.asia/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='https://boutiques.asia/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://boutiques.asia/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-12918-css'  href='https://boutiques.asia/wp-content/uploads/elementor/css/post-12918.css?ver=1622201827' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-pro-css'  href='https://boutiques.asia/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='https://boutiques.asia/wp-content/uploads/elementor/css/global.css?ver=1622201828' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-12922-css'  href='https://boutiques.asia/wp-content/uploads/elementor/css/post-12922.css?ver=1622202917' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-12971-css'  href='https://boutiques.asia/wp-content/uploads/elementor/css/post-12971.css?ver=1622201828' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-13111-css'  href='https://boutiques.asia/wp-content/uploads/elementor/css/post-13111.css?ver=1622201828' type='text/css' media='all' />
+<link rel='stylesheet' id='dokan-style-css'  href='https://boutiques.asia/wp-content/plugins/dokan-lite/assets/css/style.css?ver=1617071862' type='text/css' media='all' />
+<link rel='stylesheet' id='dokan-fontawesome-css'  href='https://boutiques.asia/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/font-awesome.min.css?ver=3.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='https://boutiques.asia/wp-includes/js/thickbox/thickbox.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='the_champ_frontend_css-css'  href='https://boutiques.asia/wp-content/plugins/super-socializer/css/front.css?ver=7.13.14' type='text/css' media='all' />
+<link rel='stylesheet' id='tawcvs-frontend-css'  href='https://boutiques.asia/wp-content/plugins/variation-swatches-for-woocommerce/assets/css/frontend.css?ver=20200222' type='text/css' media='all' />
+<link rel='stylesheet' id='hello-elementor-child-style-css'  href='https://boutiques.asia/wp-content/themes/hello-theme-child-master/style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRuluko%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='https://boutiques.asia/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css'  href='https://boutiques.asia/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://boutiques.asia/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://boutiques.asia/wp-json/" /><link rel="alternate" type="application/json" href="https://boutiques.asia/wp-json/wp/v2/pages/12922" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://boutiques.asia/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://boutiques.asia/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<meta name="generator" content="WooCommerce 5.1.0" />
+<link rel='shortlink' href='https://boutiques.asia/' />
+<link rel="alternate" type="application/json+oembed" href="https://boutiques.asia/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fboutiques.asia%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://boutiques.asia/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fboutiques.asia%2F&#038;format=xml" />
+<meta name="framework" content="Redux 4.1.24" /><style type="text/css" id="simple-css-output">#super_small_menu a{ color:white; font-size: 13px; margin-left:10px;}.dokan-store-info, #dokan-secondary , #dokan-content > div.dokan-profile-frame-wrapper > div.profile-frame > div > div > div > div.profile-info > ul{ display:none;}#breadcrumbs{ display:none; margin-bottom:70px;}#primary{ margin-top:70px;}div.pdpcustom-qty{ margin-right:15px; padding-top: 9px;}p.store-address , p.store-phone{ display:none}#add_payment_method table.cart td.actions .coupon .input-text, .woocommerce-cart table.cart td.actions .coupon .input-text, .woocommerce-checkout table.cart td.actions .coupon .input-text { width: 200px;}.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{ background-color:#ec1a6d; color:#FFFFFF; font-weight:600;}.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt { background-color:#ec1a6d; color:#FFFFFF; font-weight:600;}body > div.elementor.elementor-18 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-8b80a9b.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > div.elementor-element.elementor-element-4af5bca1.elementor-widget.elementor-widget-shortcode > div > div > div > div > section.woocommerce-order-details > table > tbody > tr.woocommerce-table__product-purchase-note.product-purchase-note{ display:none}.elementor-menu-toggle.elementor-active{ border: 0px transparent;}* {-webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;-webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;outline: none !important;}.elementor-button.elementor-button--view-cart, .elementor-button.elementor-button--checkout{ background-color:#ED146F;}th.woocommerce-product-attributes-item__label:before { content: "Packaging ";}</style><!-- Starting: WooCommerce Conversion Tracking (https://wordpress.org/plugins/woocommerce-conversion-tracking/) -->
+<!-- End: WooCommerce Conversion Tracking Codes -->
+		<script>
+			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+		</script>
+		<meta name="facebook-domain-verification" content="0r7ir4vsg1gsqpk6ei8fordsv3vdtg" />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="https://boutiques.asia/wp-content/uploads/2021/03/cropped-BA-logo-icon-800px-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://boutiques.asia/wp-content/uploads/2021/03/cropped-BA-logo-icon-800px-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://boutiques.asia/wp-content/uploads/2021/03/cropped-BA-logo-icon-800px-180x180.png" />
+<meta name="msapplication-TileImage" content="https://boutiques.asia/wp-content/uploads/2021/03/cropped-BA-logo-icon-800px-270x270.png" />
+</head>
+<body class="home page-template page-template-elementor_header_footer page page-id-12922 theme-hello-elementor woocommerce-no-js elementor-default elementor-template-full-width elementor-kit-12918 elementor-page elementor-page-12922 dokan-theme-hello-elementor">
+
+		<div data-elementor-type="header" data-elementor-id="12971" class="elementor elementor-12971 elementor-location-header" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-6e5b02d elementor-section-full_width elementor-reverse-tablet elementor-reverse-mobile elementor-hidden-phone elementor-section-height-default elementor-section-height-default" data-id="6e5b02d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-8fdee85" data-id="8fdee85" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2382e76 elementor-widget elementor-widget-heading" data-id="2382e76" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<span class="elementor-heading-title elementor-size-default"><a href="tel:+84338670088%20"><i class="fa fa-phone"></i> (+84) 33 86 700 88 </a></span>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-9f0ad8f" data-id="9f0ad8f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d80f919 elementor-widget elementor-widget-heading" data-id="d80f919" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<span class="elementor-heading-title elementor-size-default"><i class="fa fa-envelope-o" style="margin-right:5px;"></i><a href="mailto:contact@boutiques.asia">contact@boutiques.asia</a></span>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-f10ab82" data-id="f10ab82" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-12cebf9 elementor-widget elementor-widget-text-editor" data-id="12cebf9" data-element_type="widget" id="linkmy" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">
+<a href="http://boutiques.asia/my-account/">Login/Register</a>
+
+</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-2523d13" data-id="2523d13" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3304d4e elementor-widget elementor-widget-heading" data-id="3304d4e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<span class="elementor-heading-title elementor-size-default"><a href="http://boutiques.asia/checkout/">Checkout</a></span>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<header class="elementor-section elementor-top-section elementor-element elementor-element-557f28d4 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="557f28d4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-4cd2415" data-id="4cd2415" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-83b013f elementor-widget elementor-widget-image" data-id="83b013f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+											<a href="http://boutiques.asia">
+							<img width="400" height="101"   alt="" loading="lazy" data-srcset="https://boutiques.asia/wp-content/uploads/2021/03/boutiques-logo.png 400w, https://boutiques.asia/wp-content/uploads/2021/03/boutiques-logo-300x76.png 300w"  data-src="https://boutiques.asia/wp-content/uploads/2021/03/boutiques-logo.png" data-sizes="(max-width: 400px) 100vw, 400px" class="attachment-large size-large lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="400" height="101" src="https://boutiques.asia/wp-content/uploads/2021/03/boutiques-logo.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://boutiques.asia/wp-content/uploads/2021/03/boutiques-logo.png 400w, https://boutiques.asia/wp-content/uploads/2021/03/boutiques-logo-300x76.png 300w" sizes="(max-width: 400px) 100vw, 400px" /></noscript>								</a>
+											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-729c48c2" data-id="729c48c2" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5a08036 elementor-nav-menu__align-right elementor-nav-menu--indicator-none elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="5a08036" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none"><ul id="menu-1-5a08036" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-13025"><a href="https://boutiques.asia/shop/" class="elementor-item">Shop</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13031"><a href="https://boutiques.asia/cat/books/" class="elementor-sub-item">Books</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13036"><a href="https://boutiques.asia/cat/gifts/" class="elementor-sub-item">Gifts</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13033"><a href="https://boutiques.asia/cat/decoration/" class="elementor-sub-item">Decoration</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13045"><a href="https://boutiques.asia/cat/vintage/" class="elementor-sub-item">Vintage</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13035"><a href="https://boutiques.asia/cat/furniture/" class="elementor-sub-item">Furniture</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13030"><a href="https://boutiques.asia/cat/art/" class="elementor-sub-item">Art</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13032"><a href="https://boutiques.asia/cat/craft/" class="elementor-sub-item">Craft</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13034"><a href="https://boutiques.asia/cat/food-beverage/" class="elementor-sub-item">Food &amp; Beverage</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5732"><a href="https://boutiques.asia/about-us/" class="elementor-item">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5734"><a href="https://boutiques.asia/contact/" class="elementor-item">Contact Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13863"><a href="https://boutiques.asia/blog/" class="elementor-item">Blog</a></li>
+</ul></nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i class="eicon-menu-bar" aria-hidden="true"></i>
+			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true"><ul id="menu-2-5a08036" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-13025"><a href="https://boutiques.asia/shop/" class="elementor-item">Shop</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13031"><a href="https://boutiques.asia/cat/books/" class="elementor-sub-item">Books</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13036"><a href="https://boutiques.asia/cat/gifts/" class="elementor-sub-item">Gifts</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13033"><a href="https://boutiques.asia/cat/decoration/" class="elementor-sub-item">Decoration</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13045"><a href="https://boutiques.asia/cat/vintage/" class="elementor-sub-item">Vintage</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13035"><a href="https://boutiques.asia/cat/furniture/" class="elementor-sub-item">Furniture</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13030"><a href="https://boutiques.asia/cat/art/" class="elementor-sub-item">Art</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13032"><a href="https://boutiques.asia/cat/craft/" class="elementor-sub-item">Craft</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-13034"><a href="https://boutiques.asia/cat/food-beverage/" class="elementor-sub-item">Food &amp; Beverage</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5732"><a href="https://boutiques.asia/about-us/" class="elementor-item">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5734"><a href="https://boutiques.asia/contact/" class="elementor-item">Contact Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13863"><a href="https://boutiques.asia/blog/" class="elementor-item">Blog</a></li>
+</ul></nav>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-1d07868" data-id="1d07868" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ea3d3b3 toggle-icon--cart-medium elementor-menu-cart--items-indicator-bubble elementor-menu-cart--show-divider-yes elementor-menu-cart--show-remove-button-yes elementor-menu-cart--buttons-inline elementor-widget elementor-widget-woocommerce-menu-cart" data-id="ea3d3b3" data-element_type="widget" data-widget_type="woocommerce-menu-cart.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-menu-cart__wrapper">
+						<div class="elementor-menu-cart__container elementor-lightbox" aria-expanded="false">
+				<div class="elementor-menu-cart__main" aria-expanded="false">
+					<div class="elementor-menu-cart__close-button"></div>
+					<div class="widget_shopping_cart_content"></div>
+				</div>
+			</div>
+						<div class="elementor-menu-cart__toggle elementor-button-wrapper">
+			<a id="elementor-menu-cart__toggle_button" href="#" class="elementor-button elementor-size-sm">
+				<span class="elementor-button-text"><span class="woocommerce-Price-amount amount"><bdi>0&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+				<span class="elementor-button-icon" data-counter="0">
+					<i class="eicon" aria-hidden="true"></i>
+					<span class="elementor-screen-only">Cart</span>
+				</span>
+			</a>
+		</div>
+
+								</div> <!-- close elementor-menu-cart__wrapper -->
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-afcafbe" data-id="afcafbe" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a7013aa elementor-search-form--skin-classic elementor-search-form--button-type-icon elementor-search-form--icon-search elementor-widget elementor-widget-search-form" data-id="a7013aa" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;classic&quot;}" data-widget_type="search-form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-search-form" role="search" action="https://boutiques.asia" method="get">
+									<div class="elementor-search-form__container">
+								<input placeholder="Search..." class="elementor-search-form__input" type="search" name="s" title="Search" value="">
+													<button class="elementor-search-form__submit" type="submit" title="Search" aria-label="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+							<span class="elementor-screen-only">Search</span>
+											</button>
+											</div>
+		</form>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</header>
+				</div>
+		</div>
+				<div data-elementor-type="wp-page" data-elementor-id="12922" class="elementor elementor-12922" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-76ecd74 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="76ecd74" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7453001" data-id="7453001" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-61fa1ac elementor--h-position-center elementor--v-position-middle elementor-arrows-position-inside elementor-pagination-position-inside elementor-widget elementor-widget-slides" data-id="61fa1ac" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;transition&quot;:&quot;slide&quot;,&quot;transition_speed&quot;:500}" data-widget_type="slides.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-swiper">
+			<div class="elementor-slides-wrapper elementor-main-swiper swiper-container" dir="ltr" data-animation="fadeInUp">
+				<div class="swiper-wrapper elementor-slides">
+					<div class="elementor-repeater-item-172d860 swiper-slide"><div class="swiper-slide-bg"></div><div class="swiper-slide-inner" ><div class="swiper-slide-contents"><div class="elementor-slide-heading">The best you can get from Vietnam</div></div></div></div>				</div>
+							</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-79f1e5f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="79f1e5f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7741410" data-id="7741410" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-9156593 elementor-widget elementor-widget-heading" data-id="9156593" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">OUR CRUSHES</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-011cf21 elementor-product-loop-item--align-center elementor-products-columns-tablet-4 elementor-products-columns-mobile-2 elementor-products-columns-4 elementor-products-grid elementor-wc-products elementor-widget elementor-widget-woocommerce-products" data-id="011cf21" data-element_type="widget" data-widget_type="woocommerce-products.default">
+				<div class="elementor-widget-container">
+			<div class="woocommerce columns-4 "><ul class="products columns-4">
+<li class="product type-product post-10677 status-publish first instock product_cat-art has-post-thumbnail shipping-taxable purchasable product-type-simple">
+	<div class="woo-height"><a href="https://boutiques.asia/shop/art/serigraph-palan-by-tarakys/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300"   alt="Tara&amp;Kys Serigraph Palan 30x40" loading="lazy" data-srcset="https://boutiques.asia/wp-content/uploads/2020/07/Serigraph-Original-Palan-30x40-frame-43.5x53-01-300x300.jpg 300w, https://boutiques.asia/wp-content/uploads/2020/07/Serigraph-Original-Palan-30x40-frame-43.5x53-01-150x150.jpg 150w, https://boutiques.asia/wp-content/uploads/2020/07/Serigraph-Original-Palan-30x40-frame-43.5x53-01-768x767.jpg 768w, https://boutiques.asia/wp-content/uploads/2020/07/Serigraph-Original-Palan-30x40-frame-43.5x53-01-600x599.jpg 600w, https://boutiques.asia/wp-content/uploads/2020/07/Serigraph-Original-Palan-30x40-frame-43.5x53-01-100x100.jpg 100w, https://boutiques.asia/wp-content/uploads/2020/07/Serigraph-Original-Palan-30x40-frame-43.5x53-01.jpg 960w"  data-src="https://boutiques.asia/wp-content/uploads/2020/07/Serigraph-Original-Palan-30x40-frame-43.5x53-01-300x300.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="300" height="300" src="https://boutiques.asia/wp-content/uploads/2020/07/Serigraph-Original-Palan-30x40-frame-43.5x53-01-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Tara&amp;Kys Serigraph Palan 30x40" loading="lazy" srcset="https://boutiques.asia/wp-content/uploads/2020/07/Serigraph-Original-Palan-30x40-frame-43.5x53-01-300x300.jpg 300w, https://boutiques.asia/wp-content/uploads/2020/07/Serigraph-Original-Palan-30x40-frame-43.5x53-01-150x150.jpg 150w, https://boutiques.asia/wp-content/uploads/2020/07/Serigraph-Original-Palan-30x40-frame-43.5x53-01-768x767.jpg 768w, https://boutiques.asia/wp-content/uploads/2020/07/Serigraph-Original-Palan-30x40-frame-43.5x53-01-600x599.jpg 600w, https://boutiques.asia/wp-content/uploads/2020/07/Serigraph-Original-Palan-30x40-frame-43.5x53-01-100x100.jpg 100w, https://boutiques.asia/wp-content/uploads/2020/07/Serigraph-Original-Palan-30x40-frame-43.5x53-01.jpg 960w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><h2 class="woocommerce-loop-product__title">Serigraph Palan</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>2,900,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</a></div><a href="?add-to-cart=10677" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="10677" data-product_sku="Serigraph Palan by Tara&amp;Kys" aria-label="Add &ldquo;Serigraph Palan&rdquo; to your cart" rel="nofollow">Add to cart</a></li>
+<li class="product type-product post-12119 status-publish instock product_cat-accessories product_cat-fashion-accessories product_cat-our-crush has-post-thumbnail shipping-taxable purchasable product-type-variable">
+	<div class="woo-height"><a href="https://boutiques.asia/shop/accessories/fashion-accessories/the-message-necklace/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300"   alt="" loading="lazy" data-srcset="https://boutiques.asia/wp-content/uploads/2020/12/message-gold-1-600x600-2-300x300.jpg 300w, https://boutiques.asia/wp-content/uploads/2020/12/message-gold-1-600x600-2-150x150.jpg 150w, https://boutiques.asia/wp-content/uploads/2020/12/message-gold-1-600x600-2-100x100.jpg 100w, https://boutiques.asia/wp-content/uploads/2020/12/message-gold-1-600x600-2.jpg 600w"  data-src="https://boutiques.asia/wp-content/uploads/2020/12/message-gold-1-600x600-2-300x300.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="300" height="300" src="https://boutiques.asia/wp-content/uploads/2020/12/message-gold-1-600x600-2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://boutiques.asia/wp-content/uploads/2020/12/message-gold-1-600x600-2-300x300.jpg 300w, https://boutiques.asia/wp-content/uploads/2020/12/message-gold-1-600x600-2-150x150.jpg 150w, https://boutiques.asia/wp-content/uploads/2020/12/message-gold-1-600x600-2-100x100.jpg 100w, https://boutiques.asia/wp-content/uploads/2020/12/message-gold-1-600x600-2.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><h2 class="woocommerce-loop-product__title">The Message Necklace</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>3,800,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span> &ndash; <span class="woocommerce-Price-amount amount"><bdi>4,000,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</a></div><a href="https://boutiques.asia/shop/accessories/fashion-accessories/the-message-necklace/" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="12119" data-product_sku="" aria-label="Select options for &ldquo;The Message Necklace&rdquo;" rel="nofollow">Select options</a></li>
+<li class="product type-product post-11103 status-publish instock product_cat-art product_cat-decoration product_cat-gifts product_cat-home-accessories product_cat-our-crush product_cat-unique-in-vietnam has-post-thumbnail shipping-taxable purchasable product-type-variable">
+	<div class="woo-height"><a href="https://boutiques.asia/shop/accessories/home-accessories/harmony-box-with-cards-by-jarlov-francois/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300"   alt="" loading="lazy" data-srcset="https://boutiques.asia/wp-content/uploads/2020/12/harmony-box-with-cards-300x300.jpg 300w, https://boutiques.asia/wp-content/uploads/2020/12/harmony-box-with-cards-150x150.jpg 150w, https://boutiques.asia/wp-content/uploads/2020/12/harmony-box-with-cards-768x768.jpg 768w, https://boutiques.asia/wp-content/uploads/2020/12/harmony-box-with-cards-600x600.jpg 600w, https://boutiques.asia/wp-content/uploads/2020/12/harmony-box-with-cards-100x100.jpg 100w, https://boutiques.asia/wp-content/uploads/2020/12/harmony-box-with-cards.jpg 960w"  data-src="https://boutiques.asia/wp-content/uploads/2020/12/harmony-box-with-cards-300x300.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="300" height="300" src="https://boutiques.asia/wp-content/uploads/2020/12/harmony-box-with-cards-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://boutiques.asia/wp-content/uploads/2020/12/harmony-box-with-cards-300x300.jpg 300w, https://boutiques.asia/wp-content/uploads/2020/12/harmony-box-with-cards-150x150.jpg 150w, https://boutiques.asia/wp-content/uploads/2020/12/harmony-box-with-cards-768x768.jpg 768w, https://boutiques.asia/wp-content/uploads/2020/12/harmony-box-with-cards-600x600.jpg 600w, https://boutiques.asia/wp-content/uploads/2020/12/harmony-box-with-cards-100x100.jpg 100w, https://boutiques.asia/wp-content/uploads/2020/12/harmony-box-with-cards.jpg 960w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><h2 class="woocommerce-loop-product__title">Harmony Box With Cards</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>890,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</a></div><a href="https://boutiques.asia/shop/accessories/home-accessories/harmony-box-with-cards-by-jarlov-francois/" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="11103" data-product_sku="Boxes Harmony with Cards by Jarlov Francois" aria-label="Select options for &ldquo;Harmony Box With Cards&rdquo;" rel="nofollow">Select options</a></li>
+<li class="product type-product post-12730 status-publish last instock product_cat-decoration has-post-thumbnail shipping-taxable purchasable product-type-simple">
+	<div class="woo-height"><a href="https://boutiques.asia/shop/decoration/lacquer-box-with-lock/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300"   alt="" loading="lazy" data-srcset="https://boutiques.asia/wp-content/uploads/2021/02/MICHELE-DA-0026V3CUO-300x300.jpg 300w, https://boutiques.asia/wp-content/uploads/2021/02/MICHELE-DA-0026V3CUO-150x150.jpg 150w, https://boutiques.asia/wp-content/uploads/2021/02/MICHELE-DA-0026V3CUO-768x768.jpg 768w, https://boutiques.asia/wp-content/uploads/2021/02/MICHELE-DA-0026V3CUO-600x600.jpg 600w, https://boutiques.asia/wp-content/uploads/2021/02/MICHELE-DA-0026V3CUO-100x100.jpg 100w, https://boutiques.asia/wp-content/uploads/2021/02/MICHELE-DA-0026V3CUO.jpg 960w"  data-src="https://boutiques.asia/wp-content/uploads/2021/02/MICHELE-DA-0026V3CUO-300x300.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="300" height="300" src="https://boutiques.asia/wp-content/uploads/2021/02/MICHELE-DA-0026V3CUO-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://boutiques.asia/wp-content/uploads/2021/02/MICHELE-DA-0026V3CUO-300x300.jpg 300w, https://boutiques.asia/wp-content/uploads/2021/02/MICHELE-DA-0026V3CUO-150x150.jpg 150w, https://boutiques.asia/wp-content/uploads/2021/02/MICHELE-DA-0026V3CUO-768x768.jpg 768w, https://boutiques.asia/wp-content/uploads/2021/02/MICHELE-DA-0026V3CUO-600x600.jpg 600w, https://boutiques.asia/wp-content/uploads/2021/02/MICHELE-DA-0026V3CUO-100x100.jpg 100w, https://boutiques.asia/wp-content/uploads/2021/02/MICHELE-DA-0026V3CUO.jpg 960w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><h2 class="woocommerce-loop-product__title">Lacquer Box with Lock</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>1,500,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</a></div><a href="?add-to-cart=12730" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="12730" data-product_sku="Lacquer Box with Lock By Michel de Albert-2-1-1" aria-label="Add &ldquo;Lacquer Box with Lock&rdquo; to your cart" rel="nofollow">Add to cart</a></li>
+</ul>
+</div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b80252f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b80252f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d42a02" data-id="2d42a02" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d135ba8 elementor-widget elementor-widget-heading" data-id="d135ba8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">LIMITED ITEMS</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-be7abe8 elementor-product-loop-item--align-center elementor-products-columns-tablet-4 elementor-products-columns-mobile-2 elementor-products-columns-4 elementor-products-grid elementor-wc-products elementor-widget elementor-widget-woocommerce-products" data-id="be7abe8" data-element_type="widget" data-widget_type="woocommerce-products.default">
+				<div class="elementor-widget-container">
+			<div class="woocommerce columns-4 "><ul class="products columns-4">
+<li class="product type-product post-12410 status-publish first instock product_cat-books product_cat-gifts product_cat-limited-edition product_tag-book product_tag-photography has-post-thumbnail shipping-taxable purchasable product-type-simple">
+	<div class="woo-height"><a href="https://boutiques.asia/shop/gifts/postal-saigon-portrait-of-a-city/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300"   alt="" loading="lazy" data-srcset="https://boutiques.asia/wp-content/uploads/2021/01/Postal-Card-300x300.jpg 300w, https://boutiques.asia/wp-content/uploads/2021/01/Postal-Card-150x150.jpg 150w, https://boutiques.asia/wp-content/uploads/2021/01/Postal-Card-100x100.jpg 100w"  data-src="https://boutiques.asia/wp-content/uploads/2021/01/Postal-Card-300x300.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="300" height="300" src="https://boutiques.asia/wp-content/uploads/2021/01/Postal-Card-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://boutiques.asia/wp-content/uploads/2021/01/Postal-Card-300x300.jpg 300w, https://boutiques.asia/wp-content/uploads/2021/01/Postal-Card-150x150.jpg 150w, https://boutiques.asia/wp-content/uploads/2021/01/Postal-Card-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><h2 class="woocommerce-loop-product__title">Postal Saigon &#8211; Portrait of a city</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>250,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</a></div><a href="?add-to-cart=12410" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="12410" data-product_sku="Postal Saigon Portrait of a city" aria-label="Add &ldquo;Postal Saigon - Portrait of a city&rdquo; to your cart" rel="nofollow">Add to cart</a></li>
+<li class="product type-product post-12343 status-publish instock product_cat-books product_cat-gifts product_cat-limited-edition product_tag-book product_tag-photography has-post-thumbnail shipping-taxable purchasable product-type-simple">
+	<div class="woo-height"><a href="https://boutiques.asia/shop/gifts/saigon-portrait-of-a-city/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300"   alt="" loading="lazy" data-srcset="https://boutiques.asia/wp-content/uploads/2021/01/1-300x300.png 300w, https://boutiques.asia/wp-content/uploads/2021/01/1-150x150.png 150w, https://boutiques.asia/wp-content/uploads/2021/01/1-768x768.png 768w, https://boutiques.asia/wp-content/uploads/2021/01/1-600x600.png 600w, https://boutiques.asia/wp-content/uploads/2021/01/1-100x100.png 100w, https://boutiques.asia/wp-content/uploads/2021/01/1.png 960w"  data-src="https://boutiques.asia/wp-content/uploads/2021/01/1-300x300.png" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="300" height="300" src="https://boutiques.asia/wp-content/uploads/2021/01/1-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://boutiques.asia/wp-content/uploads/2021/01/1-300x300.png 300w, https://boutiques.asia/wp-content/uploads/2021/01/1-150x150.png 150w, https://boutiques.asia/wp-content/uploads/2021/01/1-768x768.png 768w, https://boutiques.asia/wp-content/uploads/2021/01/1-600x600.png 600w, https://boutiques.asia/wp-content/uploads/2021/01/1-100x100.png 100w, https://boutiques.asia/wp-content/uploads/2021/01/1.png 960w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><h2 class="woocommerce-loop-product__title">SAIGON &#8211; Portrait Of A City</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>1,350,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</a></div><a href="?add-to-cart=12343" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="12343" data-product_sku="SAIGON - Portrait Of A City Book" aria-label="Add &ldquo;SAIGON - Portrait Of A City&rdquo; to your cart" rel="nofollow">Add to cart</a></li>
+<li class="product type-product post-9572 status-publish instock product_cat-art product_cat-limited-edition has-post-thumbnail shipping-taxable purchasable product-type-simple">
+	<div class="woo-height"><a href="https://boutiques.asia/shop/art/pop-vietnam-2-collection-saigon/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300"   alt="" loading="lazy" data-srcset="https://boutiques.asia/wp-content/uploads/2020/05/24991013_1491525474230518_9114066318807187004_n-300x300.jpg 300w, https://boutiques.asia/wp-content/uploads/2020/05/24991013_1491525474230518_9114066318807187004_n-150x150.jpg 150w, https://boutiques.asia/wp-content/uploads/2020/05/24991013_1491525474230518_9114066318807187004_n-100x100.jpg 100w"  data-src="https://boutiques.asia/wp-content/uploads/2020/05/24991013_1491525474230518_9114066318807187004_n-300x300.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="300" height="300" src="https://boutiques.asia/wp-content/uploads/2020/05/24991013_1491525474230518_9114066318807187004_n-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://boutiques.asia/wp-content/uploads/2020/05/24991013_1491525474230518_9114066318807187004_n-300x300.jpg 300w, https://boutiques.asia/wp-content/uploads/2020/05/24991013_1491525474230518_9114066318807187004_n-150x150.jpg 150w, https://boutiques.asia/wp-content/uploads/2020/05/24991013_1491525474230518_9114066318807187004_n-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><h2 class="woocommerce-loop-product__title">Pop Vietnam 2 (collection Saigon)</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>150,000,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</a></div><a href="?add-to-cart=9572" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9572" data-product_sku="Pop Vietnam 2 (collection Saigon)" aria-label="Add &ldquo;Pop Vietnam 2 (collection Saigon)&rdquo; to your cart" rel="nofollow">Add to cart</a></li>
+<li class="product type-product post-7502 status-publish last instock product_cat-accessories product_cat-fashion-accessories product_cat-limited-edition product_tag-woman has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
+	<div class="woo-height"><a href="https://boutiques.asia/shop/accessories/fashion-accessories/flower-bag-10/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+	<span class="onsale">Sale!</span>
+	<img width="300" height="300"   alt="" loading="lazy" data-srcset="https://boutiques.asia/wp-content/uploads/2019/08/Flower_H21xW23_2-300x300.jpg 300w, https://boutiques.asia/wp-content/uploads/2019/08/Flower_H21xW23_2-150x150.jpg 150w, https://boutiques.asia/wp-content/uploads/2019/08/Flower_H21xW23_2-768x768.jpg 768w, https://boutiques.asia/wp-content/uploads/2019/08/Flower_H21xW23_2-600x600.jpg 600w, https://boutiques.asia/wp-content/uploads/2019/08/Flower_H21xW23_2-100x100.jpg 100w, https://boutiques.asia/wp-content/uploads/2019/08/Flower_H21xW23_2.jpg 1000w"  data-src="https://boutiques.asia/wp-content/uploads/2019/08/Flower_H21xW23_2-300x300.jpg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="300" height="300" src="https://boutiques.asia/wp-content/uploads/2019/08/Flower_H21xW23_2-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://boutiques.asia/wp-content/uploads/2019/08/Flower_H21xW23_2-300x300.jpg 300w, https://boutiques.asia/wp-content/uploads/2019/08/Flower_H21xW23_2-150x150.jpg 150w, https://boutiques.asia/wp-content/uploads/2019/08/Flower_H21xW23_2-768x768.jpg 768w, https://boutiques.asia/wp-content/uploads/2019/08/Flower_H21xW23_2-600x600.jpg 600w, https://boutiques.asia/wp-content/uploads/2019/08/Flower_H21xW23_2-100x100.jpg 100w, https://boutiques.asia/wp-content/uploads/2019/08/Flower_H21xW23_2.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></noscript><h2 class="woocommerce-loop-product__title">Flower Bag n10</h2>
+	<span class="price"><del><span class="woocommerce-Price-amount amount"><bdi>8,800,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>2,400,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</a></div><a href="?add-to-cart=7502" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="7502" data-product_sku="Flower Bag n10" aria-label="Add &ldquo;Flower Bag n10&rdquo; to your cart" rel="nofollow">Add to cart</a></li>
+</ul>
+</div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1c909b8 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="1c909b8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f69dc94" data-id="f69dc94" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ece4750 elementor-widget elementor-widget-heading" data-id="ece4750" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">About us</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-96b7b8a elementor-widget elementor-widget-text-editor" data-id="96b7b8a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>We are international Expatriates and French, located in Saigon and in Asia for more than 15 years, with a history of sourcing and production. Like you, we are lovers of beautiful goods and lifestyle shopaholics.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c816651 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c816651" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8aa4934" data-id="8aa4934" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ef113b5 elementor-widget elementor-widget-heading" data-id="ef113b5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">LATEST NEWS</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ad056eb elementor-grid-tablet-3 elementor-grid-3 elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-widget elementor-widget-posts" data-id="ad056eb" data-element_type="widget" data-settings="{&quot;classic_columns_tablet&quot;:&quot;3&quot;,&quot;classic_columns&quot;:&quot;3&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:35,&quot;sizes&quot;:[]}}" data-widget_type="posts.classic">
+				<div class="elementor-widget-container">
+					<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+				<article class="elementor-post elementor-grid-item post-13801 post type-post status-publish format-standard has-post-thumbnail hentry category-khong-phan-loai">
+				<a class="elementor-post__thumbnail__link" href="https://boutiques.asia/mathilde-tran-thanh-truc-30-years-experience-in-vietnam-interior-design/" >
+			<div class="elementor-post__thumbnail"><img width="221" height="300"   alt="Mathilde" loading="lazy" data-srcset="https://boutiques.asia/wp-content/uploads/2021/06/New-Project-221x300.jpg 221w, https://boutiques.asia/wp-content/uploads/2021/06/New-Project.jpg 378w"  data-src="https://boutiques.asia/wp-content/uploads/2021/06/New-Project-221x300.jpg" data-sizes="(max-width: 221px) 100vw, 221px" class="attachment-medium size-medium lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="221" height="300" src="https://boutiques.asia/wp-content/uploads/2021/06/New-Project-221x300.jpg" class="attachment-medium size-medium" alt="Mathilde" loading="lazy" srcset="https://boutiques.asia/wp-content/uploads/2021/06/New-Project-221x300.jpg 221w, https://boutiques.asia/wp-content/uploads/2021/06/New-Project.jpg 378w" sizes="(max-width: 221px) 100vw, 221px" /></noscript></div>
+		</a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://boutiques.asia/mathilde-tran-thanh-truc-30-years-experience-in-vietnam-interior-design/" >
+				MATHILDE TRẦN THANH TRÚC: 30 years EXPERIENCE in VIETNAM INTERIOR DESIGN			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>&#8221;Since in Vietnam, the most interesting thing in my design &amp; decoration work is to make the house reflect the personality and lifestyle of the</p>
+		</div>
+					<a class="elementor-post__read-more" href="https://boutiques.asia/mathilde-tran-thanh-truc-30-years-experience-in-vietnam-interior-design/" >
+				Read More »			</a>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-13727 post type-post status-publish format-standard has-post-thumbnail hentry category-book tag-book tag-photography tag-saigon">
+				<a class="elementor-post__thumbnail__link" href="https://boutiques.asia/alexandre-garel-the-french-photographer-who-immortalizes-vietnam-architecture/" >
+			<div class="elementor-post__thumbnail"><img width="300" height="200"   alt="Alexandre Garel" loading="lazy" data-srcset="https://boutiques.asia/wp-content/uploads/2021/03/DSCF4103-300x200.jpeg 300w, https://boutiques.asia/wp-content/uploads/2021/03/DSCF4103-1024x683.jpeg 1024w, https://boutiques.asia/wp-content/uploads/2021/03/DSCF4103-768x512.jpeg 768w, https://boutiques.asia/wp-content/uploads/2021/03/DSCF4103-600x400.jpeg 600w, https://boutiques.asia/wp-content/uploads/2021/03/DSCF4103.jpeg 1200w"  data-src="https://boutiques.asia/wp-content/uploads/2021/03/DSCF4103-300x200.jpeg" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-medium size-medium lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="300" height="200" src="https://boutiques.asia/wp-content/uploads/2021/03/DSCF4103-300x200.jpeg" class="attachment-medium size-medium" alt="Alexandre Garel" loading="lazy" srcset="https://boutiques.asia/wp-content/uploads/2021/03/DSCF4103-300x200.jpeg 300w, https://boutiques.asia/wp-content/uploads/2021/03/DSCF4103-1024x683.jpeg 1024w, https://boutiques.asia/wp-content/uploads/2021/03/DSCF4103-768x512.jpeg 768w, https://boutiques.asia/wp-content/uploads/2021/03/DSCF4103-600x400.jpeg 600w, https://boutiques.asia/wp-content/uploads/2021/03/DSCF4103.jpeg 1200w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+		</a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://boutiques.asia/alexandre-garel-the-french-photographer-who-immortalizes-vietnam-architecture/" >
+				Alexandre Garel the French photographer who immortalizes Vietnam architecture			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>Alexandre Garel Born in 1971, Alexandre Garel is a French photographer based in Saigon, Việt Nam. When he first arrived in late 2011, Alexandre instantly</p>
+		</div>
+					<a class="elementor-post__read-more" href="https://boutiques.asia/alexandre-garel-the-french-photographer-who-immortalizes-vietnam-architecture/" >
+				Read More »			</a>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-9635 post type-post status-publish format-standard has-post-thumbnail hentry category-khong-phan-loai tag-bamboo tag-iconic-helmet tag-sustainable-development tag-vietnam">
+				<a class="elementor-post__thumbnail__link" href="https://boutiques.asia/we-are-privileged-to-introduce-you-the-iconic-roof-bamboo-helmet-now-available-in-your-boutiques-asia-in-very-limited-number-straight-out-of-roof-factory-reserve/" >
+			<div class="elementor-post__thumbnail"><img width="300" height="202"   alt="" loading="lazy" data-srcset="https://boutiques.asia/wp-content/uploads/2020/05/pasted-image-300x202.png 300w, https://boutiques.asia/wp-content/uploads/2020/05/pasted-image-600x403.png 600w, https://boutiques.asia/wp-content/uploads/2020/05/pasted-image.png 720w"  data-src="https://boutiques.asia/wp-content/uploads/2020/05/pasted-image-300x202.png" data-sizes="(max-width: 300px) 100vw, 300px" class="attachment-medium size-medium lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="300" height="202" src="https://boutiques.asia/wp-content/uploads/2020/05/pasted-image-300x202.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://boutiques.asia/wp-content/uploads/2020/05/pasted-image-300x202.png 300w, https://boutiques.asia/wp-content/uploads/2020/05/pasted-image-600x403.png 600w, https://boutiques.asia/wp-content/uploads/2020/05/pasted-image.png 720w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></div>
+		</a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://boutiques.asia/we-are-privileged-to-introduce-you-the-iconic-roof-bamboo-helmet-now-available-in-your-boutiques-asia-in-very-limited-number-straight-out-of-roof-factory-reserve/" >
+				The Unique and Iconic Roof Bamboo helmet			</a>
+		</h3>
+				<div class="elementor-post__excerpt">
+			<p>The story behind&#8230; Claude Morin, founder of Roof International in 1993, graduated as a mechanical engineer was early passionate about composite and wooden materials applied</p>
+		</div>
+					<a class="elementor-post__read-more" href="https://boutiques.asia/we-are-privileged-to-introduce-you-the-iconic-roof-bamboo-helmet-now-available-in-your-boutiques-asia-in-very-limited-number-straight-out-of-roof-factory-reserve/" >
+				Read More »			</a>
+				</div>
+				</article>
+				</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+				<div data-elementor-type="footer" data-elementor-id="13111" class="elementor elementor-13111 elementor-location-footer" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<footer class="elementor-section elementor-top-section elementor-element elementor-element-efbfc4d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="efbfc4d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d1eac18" data-id="d1eac18" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-a30381a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a30381a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-d17df95" data-id="d17df95" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-72d8d61 elementor-widget elementor-widget-image" data-id="72d8d61" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="800" height="800"   alt="" loading="lazy" data-srcset="https://boutiques.asia/wp-content/uploads/2021/03/BA-logo-icon-800px.png 800w, https://boutiques.asia/wp-content/uploads/2021/03/BA-logo-icon-800px-300x300.png 300w, https://boutiques.asia/wp-content/uploads/2021/03/BA-logo-icon-800px-150x150.png 150w, https://boutiques.asia/wp-content/uploads/2021/03/BA-logo-icon-800px-768x768.png 768w, https://boutiques.asia/wp-content/uploads/2021/03/BA-logo-icon-800px-600x600.png 600w, https://boutiques.asia/wp-content/uploads/2021/03/BA-logo-icon-800px-100x100.png 100w"  data-src="https://boutiques.asia/wp-content/uploads/2021/03/BA-logo-icon-800px.png" data-sizes="(max-width: 800px) 100vw, 800px" class="attachment-large size-large lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img width="800" height="800" src="https://boutiques.asia/wp-content/uploads/2021/03/BA-logo-icon-800px.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://boutiques.asia/wp-content/uploads/2021/03/BA-logo-icon-800px.png 800w, https://boutiques.asia/wp-content/uploads/2021/03/BA-logo-icon-800px-300x300.png 300w, https://boutiques.asia/wp-content/uploads/2021/03/BA-logo-icon-800px-150x150.png 150w, https://boutiques.asia/wp-content/uploads/2021/03/BA-logo-icon-800px-768x768.png 768w, https://boutiques.asia/wp-content/uploads/2021/03/BA-logo-icon-800px-600x600.png 600w, https://boutiques.asia/wp-content/uploads/2021/03/BA-logo-icon-800px-100x100.png 100w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-d55e848" data-id="d55e848" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-701834a elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="701834a" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+					<a href="http://boutiques.asia/my-account/">					<span class="elementor-icon-list-text">My account</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="http://boutiques.asia/wishlist/">					<span class="elementor-icon-list-text">My wishlist</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="http://boutiques.asia/checkout/">					<span class="elementor-icon-list-text">Checkout</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="http://boutiques.asia/makers/">					<span class="elementor-icon-list-text">Makers</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-84ba7a7" data-id="84ba7a7" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-9828b68 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="9828b68" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+					<a href="http://boutiques.asia/faqs/">					<span class="elementor-icon-list-text">FAQs</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="http://boutiques.asia/blog/">					<span class="elementor-icon-list-text">Blog</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="http://boutiques.asia/contact/">					<span class="elementor-icon-list-text">Contact Us</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="http://boutiques.asia/policy/">					<span class="elementor-icon-list-text">Policy</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="http://boutiques.asia/terms-conditions/">					<span class="elementor-icon-list-text">Terms</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2a02cc1" data-id="2a02cc1" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-547f609 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="547f609" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper elementor-grid">
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-aee197e" href="https://www.facebook.com/boutiquesasia/" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<i class="fab fa-facebook"></i>					</a>
+				</div>
+							<div class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-e323d53" href="https://instagram.com/boutiques.asia?igshid=1x0eveofjrnli" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</div>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-054ae21 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="054ae21" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6a4f7d8" data-id="6a4f7d8" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d8b8380 elementor-widget elementor-widget-text-editor" data-id="d8b8380" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Copyright © 2019 &#8211; 2021 by Boutiques.asia. All rights reserved.</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1d3664e" data-id="1d3664e" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</footer>
+				</div>
+		</div>
+		
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d653f7c124ed393bbae92503e/c10b829c37e05b8817e5e20ea.js");</script><script src="//code.tidio.co/yy82izu8gawog6xnxcexlr3qbdik9emk.js" async></script>
+
+	<!-- Hotjar Tracking Code for https://boutiques.asia -->
+	<script>
+	    (function(h,o,t,j,a,r){
+	        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+	        h._hjSettings={hjid:1686233,hjsv:6};
+	        a=o.getElementsByTagName('head')[0];
+	        r=o.createElement('script');r.async=1;
+	        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+	        a.appendChild(r);
+	    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156683610-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156683610-1');
+</script>
+
+	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='https://boutiques.asia/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=1.2.0' id='jquery-selectBox-js'></script>
+<script type='text/javascript' id='jquery-yith-wcwl-js-extra'>
+/* <![CDATA[ */
+var yith_wcwl_l10n = {"ajax_url":"\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","enable_ajax_loading":"","ajax_loader_url":"https:\/\/boutiques.asia\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg","remove_from_wishlist_after_add_to_cart":"1","is_wishlist_responsive":"1","time_to_close_prettyphoto":"3000","fragments_index_glue":".","reload_on_found_variation":"1","mobile_media_query":"768","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies on your browser are enabled.","added_to_cart_message":"<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem","load_mobile_action":"load_mobile","delete_item_action":"delete_item","save_title_action":"save_title","save_privacy_action":"save_privacy","load_fragments":"load_fragments"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.min.js?ver=3.0.20' id='jquery-yith-wcwl-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="https://boutiques.asia/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://boutiques.asia/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://boutiques.asia/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://boutiques.asia/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://boutiques.asia/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://boutiques.asia/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="https://boutiques.asia/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-includes/js/dist/hooks.min.js?ver=50e23bed88bcb9e6e14023e9961698c1' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-includes/js/dist/i18n.min.js?ver=db9a9a37da262883343e941c3731bc67' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.19' id='lodash-js'></script>
+<script type='text/javascript' id='lodash-js-after'>
+window.lodash = _.noConflict();
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-includes/js/dist/url.min.js?ver=0ac7e0472c46121366e7ce07244be1ac' id='wp-url-js'></script>
+<script type='text/javascript' id='wp-api-fetch-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-includes/js/dist/api-fetch.min.js?ver=a783d1f442d2abefc7d6dbd156a44561' id='wp-api-fetch-js'></script>
+<script type='text/javascript' id='wp-api-fetch-js-after'>
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://boutiques.asia/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "eb9642b4ce" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "https://boutiques.asia/wp-admin/admin-ajax.php?action=rest-nonce";
+</script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/woo-align-buttons/public/js/wooalign-public.js?ver=3.6.5' id='wooalign-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70' id='jquery-blockui-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/boutiques.asia\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=5.1.0' id='wc-add-to-cart-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4' id='js-cookie-js'></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=5.1.0' id='woocommerce-js'></script>
+<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_24bb93912891b1bc8f6ba15803e8977d","fragment_name":"wc_fragments_24bb93912891b1bc8f6ba15803e8977d","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=5.1.0' id='wc-cart-fragments-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.8.3' id='smush-lazy-load-js'></script>
+<script type='text/javascript' src='//boutiques.asia/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.6' id='prettyPhoto-js'></script>
+<script type='text/javascript' id='mailchimp-woocommerce-js-extra'>
+/* <![CDATA[ */
+var mailchimp_public_data = {"site_url":"https:\/\/boutiques.asia","ajax_url":"https:\/\/boutiques.asia\/wp-admin\/admin-ajax.php","language":"en"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/mailchimp-for-woocommerce/public/js/mailchimp-woocommerce-public.min.js?ver=2.5.1' id='mailchimp-woocommerce-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/dokan-lite/assets/vendors/magnific/jquery.magnific-popup.min.js?ver=3.2.3' id='dokan-popup-js'></script>
+<script type='text/javascript' id='dokan-i18n-jed-js-extra'>
+/* <![CDATA[ */
+var dokan = {"ajaxurl":"https:\/\/boutiques.asia\/wp-admin\/admin-ajax.php","nonce":"cb5fd5186e","ajax_loader":"https:\/\/boutiques.asia\/wp-content\/plugins\/dokan-lite\/assets\/images\/ajax-loader.gif","seller":{"available":"Available","notAvailable":"Not Available"},"delete_confirm":"Are you sure?","wrong_message":"Something went wrong. Please try again.","vendor_percentage":"80","commission_type":"percentage","rounding_precision":"6","mon_decimal_point":".","product_types":["simple"],"rest":{"root":"https:\/\/boutiques.asia\/wp-json\/","nonce":"eb9642b4ce","version":"dokan\/v1"},"api":null,"libs":[],"routeComponents":{"default":null},"routes":[],"urls":{"assetsUrl":"https:\/\/boutiques.asia\/wp-content\/plugins\/dokan-lite\/assets"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/dokan-lite/assets/vendors/i18n/jed.js?ver=3.2.3' id='dokan-i18n-jed-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/dokan-lite/assets/js/login-form-popup.js?ver=1617071862' id='dokan-login-form-popup-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/super-socializer/js/front/social_login/general.js?ver=7.13.14' id='the_champ_ss_general_scripts-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/super-socializer/js/front/social_login/common.js?ver=7.13.14' id='the_champ_sl_common-js'></script>
+<script type='text/javascript' id='thickbox-js-extra'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/boutiques.asia\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105' id='thickbox-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/super-socializer/js/front/facebook/commenting.js?ver=7.13.14' id='the_champ_fb_commenting-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/variation-swatches-for-woocommerce/assets/js/frontend.js?ver=20200317' id='tawcvs-frontend-js'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LdhXPgaAAAAANmC3Ik1CoyCjmN5_PysfJZ32Co8&#038;ver=3.0' id='google-recaptcha-js'></script>
+<script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LdhXPgaAAAAANmC3Ik1CoyCjmN5_PysfJZ32Co8","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.4' id='wpcf7-recaptcha-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1' id='smartmenus-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.2.1' id='elementor-pro-webpack-runtime-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.4' id='elementor-webpack-runtime-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.4' id='elementor-frontend-modules-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.2.1' id='elementor-sticky-js'></script>
+<script type='text/javascript' id='elementor-pro-frontend-js-before'>
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/boutiques.asia\/wp-admin\/admin-ajax.php","nonce":"ca51fb5776","urls":{"assets":"https:\/\/boutiques.asia\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"menu_cart":{"cart_page_url":"https:\/\/boutiques.asia\/cart\/","checkout_page_url":"https:\/\/boutiques.asia\/checkout\/"},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/boutiques.asia\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.2.1' id='elementor-pro-frontend-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1' id='elementor-dialog-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.1.4' id='share-link-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6' id='swiper-js'></script>
+<script type='text/javascript' id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false,"isImprovedAssetsLoading":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.1.4","is_static":false,"experimentalFeatures":{"form-submissions":true},"urls":{"assets":"https:\/\/boutiques.asia\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":12922,"title":"Boutiques.asia%20%E2%80%93%20The%20Art%20of%20lifestyle%20shopping","excerpt":"","featuredImage":false}};
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.1.4' id='elementor-frontend-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.2.1' id='pro-preloaded-elements-handlers-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/elementor/assets/js/preloaded-elements-handlers.min.js?ver=3.1.4' id='preloaded-elements-handlers-js'></script>
+<script type='text/javascript' src='https://boutiques.asia/wp-includes/js/underscore.min.js?ver=1.8.3' id='underscore-js'></script>
+<script type='text/javascript' id='wp-util-js-extra'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-includes/js/wp-util.min.js?ver=5.7.2' id='wp-util-js'></script>
+<script type='text/javascript' id='wpforms-elementor-js-extra'>
+/* <![CDATA[ */
+var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://boutiques.asia/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.6.5' id='wpforms-elementor-js'></script>
+
+</body>
+</html>

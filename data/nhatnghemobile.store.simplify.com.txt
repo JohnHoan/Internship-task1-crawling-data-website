@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="webapp-stores-hosted" sc-embedded-style class="no-js" ng-class="scAppSettings.getCobrand()" dir="ltr" id="ng-app">
+<head>
+    <!-- replace:baseurl -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="initial-scale=1.0"/>
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="u7uAEGkhoL8z5iZOFSYgtBsMDTan6GupSy8R2KHeUSQ"/>
+    <title>NHAT NGHE MOBILE</title>
+    <meta name="description" content="Hộ Kinh Doanh Nhất Nghệ Mobile Số ĐKKD: 41G8042824 Ngày cấp: 24/04/2020 Nơi cấp: UBND Quận 7 TP. HCM">
+
+    <meta property="og:url" content="http://nhatnghemobile.store.simplify.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="NHAT NGHE MOBILE"/>
+    <meta property="og:description" content="Hộ Kinh Doanh Nhất Nghệ Mobile Số ĐKKD: 41G8042824 Ngày cấp: 24/04/2020 Nơi cấp: UBND Quận 7 TP. HCM"/>
+    <meta property="og:image" content="https://api.simplify.com/ss/image/K7aaRb"/>
+
+    
+
+    <!--[if IE]><link rel="shortcut icon" href="assets/images/favicon/icon.ico"><![endif]-->
+    <link rel="shortcut icon" href="assets/images/favicon/icon.png"/>
+    <style>.sc-spinner {position: fixed;top: 0;right: 0;bottom: 0;left: 0;width: 70px;height: 70px;margin: auto;border-radius: 50%;animation: spin .6s infinite linear;border: 2px solid;border-color: #555 #555 transparent transparent;z-index: 1;-webkit-backface-visibility: hidden;will-change: transform;animation-delay: .3s;opacity: 0;}@keyframes spin {0% {opacity: 1} 100% {transform: rotate(360deg); opacity: 1;} }</style>
+    <link rel="stylesheet" href="https://static.simplify.com/stores/assets/styles/styles-simplify-1.59.2.css"/>
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- line at the top when states changes -->
+<sc-spinner-linear></sc-spinner-linear>
+
+<!-- Circle Spinner -->
+<div sc-spinner class="sc-spinner" ng-show="isSpinning"></div>
+
+<!-- Page Helper -->
+<sc-page>
+    <!-- Screen Size Helper -->
+    <sc-screen-size>
+
+        <!-- Messages -->
+        <sc-messages>
+            <!-- Preview Mode -->
+            <sc-preview-mode>
+                <!-- Modal -->
+                <sc-embedded-modal>
+                    <div ui-view></div>
+                </sc-embedded-modal>
+                <!-- End Modal -->
+            </sc-preview-mode>
+            <!-- End Preview Mode -->
+        </sc-messages>
+        <!-- End Messages -->
+
+        <!-- End Circle Spinner -->
+    </sc-screen-size>
+    <!-- End Screen Size Helper -->
+</sc-page>
+<!-- End Page Helper -->
+<script src="https://api.simplify.com/ss/config/config-5826530228e6c38175fe9a5972b3f651.js?cobrand=ecompay" type="application/javascript"></script>
+<script type="text/javascript">
+    
+    window.store = {"id":"7adpgA","name":"NHAT NGHE MOBILE","code":"nhatnghemobile","currency":"VND","merchantId":"4efbdd99-95a4-4ad6-9699-023e7dac663d","address":{"id":"o7eBdz","line1":"Hộ Kinh Doanh Nhất Nghệ Mobile - Số ĐKKD: 41G8042824 - Ngày cấp: 24/04/2020. Địa chỉ 74/4 Đường số 14A  Phường Tân Thuận Tây  Quận 7","city":"TP Hồ Chí Minh","state":"SG","zip":"70000","country":"VN"},"email":"duythaimobile86@gmail.com","phoneNumber":"0938073817","locale":"vi_VN","supportPhoneNumber":"0944406406","facebook":"0938073817","enabled":true,"deleted":false,"stockEnabled":true,"autoFulfillEnabled":true,"authCaptureEnabled":false,"pickupEnabled":true,"defaultPickupAddress":"74/4 đường 14a tân thuận tậy quận 7","defaultPickupInstructions":"nhận hàng tại shop có thể call trước khi nhận hàng","marketplaces":[],"stocks":["K7z7Ad"],"customization":{"id":"G5MXp7","homePageHeader":{"button":"","color":{"title":"#ffffff"},"subtitle":"0938073817","link":"all-products","title":"NHẤT NGHỆ MOBILE"},"banner":{"backgroundColor":"#59b5ed","icon":"icon-mobile","link":"all-products","text":"","textColor":"#ffffff"},"enabled":true,"image":{"id":"xBeker","fileName":"d2e77751-f67a-4ce3-af39-73c26848ac0c/8c1a9513-3a69-4f4b-b02b-9e40d53a5f7c","url":"https://api.simplify.com/ss/image/xBeker","contentType":"image/jpeg","lastUpdated":1624550705391},"revision":0},"template":{"id":"basic","schema":{"name":"simplify","keywords":[],"settings":{"theme":"simplify"},"sections":[{"tag":"sc-section","view":"banner","class":"banner-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-banner-background","elements":[{"tag":"sc-banner-icon"},{"tag":"sc-banner-text"}]}]}]}]}]},{"tag":"sc-section","view":"header","class":"header","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-hamburger"},{"tag":"sc-cart-widget"},{"tag":"sc-search-icon"},{"tag":"sc-page-header-logo"},{"tag":"sc-page-header-menu","class":"hidden-sm hidden-xs horizontal"}]}]}]}]},{"tag":"sc-section","view":"sidebar","class":"sidebar","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-page-header-menu","class":"vertical"},{"tag":"sc-page-footer-social","class":"vertical"}]}]}]},{"tag":"sc-section","view":"breadcrumb","class":"breadcrumb-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-page-breadcrumb"}]}]}]}]},{"tag":"sc-section","view":"footer","class":"footer","elements":[{"class":"footer-row1-section","tag":"div","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-2 col-md-3 col-sm-3 col-xs-12","elements":[{"tag":"sc-page-footer-menu"}]},{"tag":"sc-col","class":"col-lg-2 col-md-3 col-sm-3 col-xs-12","elements":[{"tag":"sc-page-footer-navigation"}]},{"tag":"sc-col","class":"col-lg-3 col-md-3 col-sm-3 col-xs-12","elements":[{"tag":"sc-page-footer-address"}]},{"tag":"sc-col","class":"col-lg-2 col-md-3 col-sm-3 col-xs-12","elements":[{"tag":"sc-page-footer-social"}]},{"tag":"sc-col","class":"col-lg-3 col-md-3 col-sm-3 col-xs-12","elements":[{"tag":"sc-page-footer-language"}]}]}]}]},{"tag":"div","class":"footer-row2-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-page-footer-cards"}]}]}]}]},{"tag":"div","class":"footer-row3-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"sc-section","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-page-footer-copyright"}]}]}]}]},{"tag":"div","class":"footer-row4-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"sc-section","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-banner-demo-html"}]}]}]}]}]}],"pages":[{"code":"home","sections":[{"fromView":"banner"},{"fromView":"header"},{"fromView":"sidebar"},{"tag":"sc-section","view":"content","class":"carousel-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-carousel-background","elements":[{"tag":"sc-carousel-title"},{"tag":"sc-carousel-sub-title"},{"tag":"sc-carousel-button"}]}]}]}]}]},{"tag":"sc-section","view":"content","class":"category-list-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-category-list"}]}]}]}]},{"fromView":"footer"}]},{"code":"category","sections":[{"tag":"sc-section","view":"content","class":"category-menu-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-category-menu","class":"horizontal"}]}]}]}]},{"tag":"sc-section","view":"content","class":"category-view-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-category-view"}]}]}]}]}]},{"code":"info","sections":[{"fromView":"breadcrumb"},{"tag":"sc-section","view":"content","class":"info-view-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-info-view"}]}]}]}]}]},{"code":"policy","sections":[{"fromView":"breadcrumb"},{"tag":"sc-section","view":"content","class":"policy-view-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-3 col-md-3 col-sm-3 col-xs-12","elements":[{"tag":"sc-policy-menu"}]},{"tag":"sc-col","class":"col-lg-9 col-md-9 col-sm-9 col-xs-12","elements":[{"tag":"sc-policy-view"}]}]}]}]}]},{"code":"product","sections":[{"fromView":"breadcrumb"},{"tag":"sc-section","view":"content","class":"product-view-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-product-view"}]}]}]}]}]},{"code":"search","sections":[{"fromView":"breadcrumb"},{"tag":"sc-section","view":"content","class":"search-view-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-search-view"}]}]}]}]}]},{"code":"cart","sections":[{"fromView":"breadcrumb"},{"tag":"sc-section","view":"content","class":"cart-view-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-cart-view"}]}]}]}]}]},{"code":"checkout","sections":[{"tag":"sc-section","view":"banner","class":"banner-section-none"},{"tag":"sc-section","view":"header","class":"header","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-page-header-logo"},{"tag":"sc-checkout-menu"}]}]}]}]},{"tag":"sc-section","view":"content","class":"checkout-view-section","elements":[{"tag":"div","class":"container","elements":[{"tag":"div","class":"row","elements":[{"tag":"sc-col","class":"col-lg-12 col-md-12 col-sm-12 col-xs-12","elements":[{"tag":"sc-checkout-view"}]}]}]}]}]}]},"revision":1},"image":{"id":"K7aaRb","fileName":"d2e77751-f67a-4ce3-af39-73c26848ac0c/330a9723-8ea4-4763-b762-53f6f2f42ec2","url":"https://api.simplify.com/ss/image/K7aaRb","contentType":"image/jpeg","lastUpdated":1623566264875},"orderCustomFields":{"fields":[{"values":[],"name":"thạnh đông"}],"message":""},"metaTags":{}};
+        
+    window.partnerConfig = {"cobrand":"ecompay","isWhiteLabelled":false,"acquirerKeyLive":"VPBANK","acquirerKeySandbox":"VPBANK_TEST","appName":"Ecompay Simplify","shortAppName":"Ecompay","fraudAppName":"controls","partnerLinks":[{"id":"f3182ca0-7fe0-49bf-84af-c20599a41e8a","name":"LEGAL_MERCHANT","url":"https://gateway.force.com/support/s"},{"id":"bc007c8b-8a0b-4ef5-8759-134657b9a935","name":"STORES_CUSTOM_DOMAIN_FAQ","url":"https://gateway.force.com/support/s/article/How-do-I-link-a-custom-domain-to-my-store"},{"id":"07ff05ac-84fc-418c-9f2f-7343f736b481","name":"SUPPORT","url":"https://gateway.force.com/support/s"},{"id":"63061681-7caf-4e5d-b820-75688e61a64f","name":"SAMPLE_TERMS","url":"https://gateway.force.com/support/s"},{"id":"ab73215c-ec68-4443-9803-97fea31718ce","name":"LEGAL_PRIVACY","url":"https://gateway.force.com/support/s"},{"id":"48f16dc4-2a25-47d9-aedc-64670995932c","name":"SAMPLE_SHIPPING_POLICY","url":"https://gateway.force.com/support/s"},{"id":"aef2717f-6869-47e3-b142-78cbf18d9684","name":"SAMPLE_REFUND_POLICY","url":"https://gateway.force.com/support/s"},{"id":"c61abaf2-111d-4c95-ad53-737e97746fcd","name":"SAMPLE_PRIVACY_POLICY","url":"https://gateway.force.com/support/s"},{"id":"b21816ce-78c6-49fc-a399-f6eef97b6fe0","name":"PRODUCT_SUBSCRIPTION","url":"https://gateway.force.com/support/s/article/product-subscription"}],"emailDetails":{"id":"2ebd4c8e-8337-4a5c-8b11-4ae8b4a29f6a","fromAddress":"noreply@simplify.vpbank.com.vn","supportAddress":"Ecompay.support@vpbank.com.vn","merchantFromAddress":"simplify@vpbank.com.vn"},"branding":{"id":"1528b3b9-33ea-4ae5-831f-4806ade8f69b","brandColor":"#36b172","altColor":"#36b172","primaryNavColor":"#36b172","primaryNavTextColor":"#ffffff","secondaryNavColor":"#73be8a","secondaryNavTextColor":"#ffffff","buttonTextColor":"#ffffff","buttonAltTextColor":"#000000","linkTextColor":"#000000","logo":"b9803f85-63a8-4c14-a818-201816458fe4","logoSmall":"3e740916-d516-4311-9c11-3d59634b1f82","favicon":"a0dfd59b-9584-4878-a504-c04b4cdb488b","loginMarketing":"46ced1be-9069-4a52-a1ac-13dd76bb213b"},"locale":"vi_VN","isDefault":false,"css":"ecompay-1603944120263","deskId":"","marketingImg":"46ced1be-9069-4a52-a1ac-13dd76bb213b/1603944119369"}
+    
+
+    //IE9 needs DOM loaded before accessing document...
+    document.addEventListener('DOMContentLoaded', function () {
+        var base = document.createElement('base');
+        var storeCode = window.location.pathname.match(/\/stores\/([^\/]+).*/);
+        if (!storeCode) {
+            base.href = '/';
+        } else {
+            base.href = '/stores/';
+        }
+        document.head.appendChild(base);
+    });
+</script>
+<script defer ng-src="{{::simplifyJsUrl | trustAsResourceUrl}}"></script>
+
+    <script type="application/javascript" src="https://static.simplify.com/stores//assets/vendor/vendor.min-aac5cd97.js"></script>
+
+    <script type="application/javascript" src="https://static.simplify.com/stores//assets/html/webapp-stores-hosted-templates.min-1.59.2-3af8a399.js"></script>
+
+    <script type="application/javascript" src="https://static.simplify.com/stores//assets/scripts/webapp-stores-hosted.min-1.59.2-b30cfcb1.js"></script>
+
+</body>
+</html>

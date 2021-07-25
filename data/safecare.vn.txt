@@ -1,0 +1,574 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+    
+        <!-- Bootstrap Core CSS -->
+        
+        <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- MetisMenu CSS -->
+        <link href="/static/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="/static/sb-admin-2/css/sb-admin-2.min.css" rel="stylesheet">
+        <link href="/static/css/facemon.css" rel="stylesheet">
+        <link href="/static/css/jquery.timepicker.css" rel="stylesheet">
+        <link href="/static/css/jodit.css" rel="stylesheet">
+        <link href="/static/css/jodit.min.css" rel="stylesheet">
+        <link href="/static/css/bootstrap-spinner.css" rel="stylesheet">
+        <link href="/static/css/modal-panel.css" rel="stylesheet">
+        <!-- toast animation-->
+        <link href="/static/css/animate.min.css" rel="stylesheet">
+        
+        <!-- Custom Fonts -->        
+        <link href="/static/fontawesome/v5.15.3/css/all.css" rel="stylesheet" >
+		<link rel="shortcut icon" type="image/x-icon" href="/static/img/favicon.ico">
+
+        <link href="/static/lightgallery/lightgallery.css" rel="stylesheet">
+        
+        
+<title>Dịch vụ Safe Care</title>
+
+    </head>
+    <body>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-messaging.js"></script>
+    
+    
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyDUBTd3frVimcJTUzsa2dvcrJ-JzKu2X68",
+        authDomain: "safeapp-ed526.firebaseapp.com",
+        projectId: "safeapp-ed526",
+        storageBucket: "safeapp-ed526.appspot.com",
+        messagingSenderId: "731225997243",
+        appId: "1:731225997243:web:85677ebf034f11e5fe0e9e",
+        measurementId: "G-D2Z0T98MHY"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+    const messaging = firebase.messaging();
+
+
+    function requestPermission() {
+        Notification.requestPermission().then((permission) => {
+            if (permission !== 'granted') {
+                //showError("Vui lòng chọn Allow Notification để chúng tôi thông báo tiến độ công việc")
+            }
+        });
+    }
+
+    messaging.usePublicVapidKey("BELmikhDM5ylhhA3u7c_rioBcKmT1RKOIHk_i0pNptxH4t559MDHd3KDGWiDPwGhxQP2n7EiVT_j4Efm6QIobkw")
+
+    messaging.getToken().then((currentToken) => {
+        SaveFCMtoken(currentToken)
+
+    }).catch((err) => {
+        console.log('Unable to retrieve refreshed token ', err);
+    });
+
+    messaging.onMessage((payload) => {
+        notification = payload.notification
+        ShowToast(notification.title + ": " + notification.body)
+        console.log('Message received. ', payload);
+    });
+
+    g_FCMtoken = ""
+
+    function SaveFCMtoken(FCMtoken)
+    {
+        if(Cookies.get("phone") == null || Cookies.get("phone") == "")
+            return
+
+
+        path = window.location.pathname
+        if( path == "/" || 
+            path == "/profile/" ||
+            path == "/changepassword/")
+        {
+            g_FCMtoken = FCMtoken
+
+            requestPermission()
+
+            host_request = gethost() + '/api/user/saveFCMtoken'
+            request_data = {
+                "phone": Cookies.get("phone"),
+                "oldFCMtoken": Cookies.get("FCMtoken"),
+                "FCMtoken": FCMtoken,
+                "platform" : "web",
+                "token": Cookies.get("token")
+            }
+            ajaxRequest("POST", host_request, request_data, onSaveSuccess, onSaveFailed)
+        }
+
+        
+    }
+
+    function onSaveSuccess(res)
+    {
+        Cookies.set("FCMtoken", g_FCMtoken)
+    }
+
+    function onSaveFailed(res)
+    {
+    }
+
+    // Callback fired if Instance ID token is updated.
+    messaging.onTokenRefresh(() => {
+        messaging.getToken().then((refreshedToken) => {
+            SaveFCMtoken(refreshedToken)
+        }).catch((err) => {
+            console.log('Unable to retrieve refreshed token ', err);
+        });
+    });
+    </script>
+    <!-- end firebase -->
+    
+            
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">      
+                <button type="button" id="sidebarCollapse" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" id= "nav-link" href="/" style="font-weight: bold; color: green;"> Safe Care</a>
+                </div> <!-- /.navbar-header -->
+            
+            
+
+            <ul class="nav navbar-top-links navbar-right">
+                
+                <!-- not logged in -->
+                <ul class="nav navbar-top-links navbar-right">
+                    <li class="dropdown" id="menu_profile">
+                        <a  href="/login">
+                            <i class="fa fa-user fa-fw"></i>
+                            <b>Login</b>
+                        </a>
+                    </li>
+                </ul>
+                
+            </ul>
+            
+            
+            
+            
+            <!-- /.left panel -->
+            
+            <div class="navbar-default sidebar" id="sidebar" role="navigation" hidden-print>
+                <div id="sidebar-header">
+                    <h2 style="color: #337ab7; margin-left: 20px;">Menu</h2>
+                    <div id="dismiss" >
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+                </div>
+                <div>                   
+                    <ul class="nav" id="side-menu">
+                        
+                        
+                        
+                        
+                    </ul>
+                </div>               
+            </div>
+            
+            
+        </nav>
+           
+        
+            <div id="page-wrapper">
+        
+        
+<br/>
+
+<div id="sample_category" class="col-lg-4 col-md-4 col-xs-4" hidden>
+    <div style="background-color: white; margin: 5px; border-radius: 8px; ">
+        <a id="link_detail">
+            <div class="category-item" >
+                <center>
+                    <span class="category-icon" id="fa_icon" ></span>
+                    <img class="category-img"  id="img_thumbnail">                    
+                    <span class="category-name" id="category_name">Vệ sinh máy lạnh</span>
+                </center>                
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="panel panel-info" style="margin: 0px 0 0 0">
+    <div class="panel-heading">
+        <h3 id="service_name" class="" style="margin: 0px; font-weight: bold;">DỊCH VỤ</h3>
+    </div>
+</div>
+
+<div id="div_service" class="row">
+   
+</div>
+
+<div class="panel panel-info" style="margin: 20px 0 0 0">
+    <div class="panel-heading">
+        <h3 id="service_name" class="" style="margin: 0px; font-weight: bold;">HỆ THỐNG</h3>
+    </div>
+</div>
+
+<div id="div_system" class="row">
+   
+</div>
+
+
+
+<div id="footer" class="col-md-12" style="position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #337ab7;
+    color: white;
+    padding-top: 5px;">
+    <!-- <button id="btn_book" class="btn btn-default btn-success" style="border: 1px solid white; font-size: 1.1em;">
+        <span class='fa fa-calendar-check'></span> Đặt lịch</button> -->
+</div>
+
+<a rel="external" href="tel:0777247112" >
+    <button class="form-control" style="display:block; 
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        background-color: green;
+        color: white;
+        right: 10px;
+        bottom: 20px;
+        border-radius: 50%;">
+        <span class='fa fa-phone'></span>
+    </button>
+</a>
+
+
+        <hr class="hidden-print">
+<div id="div_footer" class="row well hidden-print" style="font-size: 0.8em;">
+    <div id="div_footer_left" class="col-md-6 col-xs-12" style="padding: 0px 10 0px 0;">
+        <h4 style="font-weight: bold;">CÔNG TY TNHH ĐT VÀ PT NHÂN VŨ</h4>
+        <!-- <label>Công Ty TNHH Đầu Tư Và Phát Triển Nhân Vũ</label></br> -->
+        <label>Mã số Doanh nghiệp:</label><span> 0310675669 do Sở kế hoạch và đầu tư Thành Phố Hồ Chí Minh cấp thay đổi lần thứ: 7, ngày 21/06/2021</span></br>
+        <label>Địa chỉ:</label><span> 762/34B Hồng Bàng – P.1 – Q.11 – Tp.HCM</span></br>
+        <!-- <label>Mã số Thuế:</label> 0310675669</br> -->
+        <label>Hotline: </label> 0777.247.111 - 0777.247.112 - 0975.966.366</br>
+        <label>Email:</label> <a href="mailto:nhanvuco@yahoo.com.vn">nhanvuco@yahoo.com.vn</a> - <a href="mailto:nhanvuco@gmail.com">nhanvuco@gmail.com</a></br>
+        <label>Website:</label> <a href="http://nhanvu.com"> www.nhanvu.com</a> - <a href="http://rfid-solutions.vn/">www.rfid-solutions.vn</a></br>
+        <a href='http://online.gov.vn/Home/WebDetails/83614' target="blank">
+            <img alt='' title='' src='/static/img/logoSaleNoti.png' style="max-height: 120px;"/></a>
+    </div>
+
+    <div class="col-md-6 col-xs-12" style="padding: 0px 0 0px 0; line-height: 2;">
+        <h4 style="font-weight: bold;">CHÍNH SÁCH</h4>
+        <div class="">
+            <a href="/post/?pk=60cce600320dd37b6239bd8f">CHÍNH SÁCH BẢO VỆ THÔNG TIN CÁ NHÂN NGƯỜI TIÊU DÙNG</a>
+        </div>
+        <div class="">
+            <a href="/post/?pk=60cce60d148c51b3e52e95f6">QUY ĐỊNH VÀ HÌNH THỨC THANH TOÁN</a>
+        </div>
+        <div class="">
+            <a href="/post/?pk=60cce614148c51b3e52e95f7">CHÍNH SÁCH BẢO HÀNH</a>
+        </div>
+        <div class="">
+            <a href="/post/?pk=60e55ba78c7e2e596ea9299a">THÔNG TIN GIAO HÀNG</a>
+        </div>
+        <div class="">
+            <a href="/post/?pk=60e55e338c7e2e596ea9299b">CHÍNH SÁCH ĐỔI - TRẢ HÀNG VÀ HOÀN TIỀN</a>
+        </div>
+    </div>
+</div> 
+<div id="bottom-page" style="height: 40px;" hidden></div>   
+            </div>
+            
+         <!-- Popup error -->
+        <div id="errorModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">   
+              <div class="modal-content panel-red">
+                <div class="modal-header panel-heading">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Có lỗi xảy ra</h4>
+                </div>
+                <div class="modal-body panel-body">
+                  <p id="errorMsg">Some text in the modal.</p>
+                </div>
+                <div class="modal-footer panel-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- Popup notice -->
+        <div id="noticeModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">           
+                <div class="modal-content panel-green">
+                <div class="modal-header panel-heading">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Thông báo</h4>
+                </div>
+                <div class="modal-body panel-body">
+                    <p id="noticeMsg">Some text in the modal.</p>
+                </div>
+                <div class="modal-footer panel-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </body>
+    <!-- jQuery -->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="/static/vendor/metisMenu/metisMenu.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="/static/sb-admin-2/js/sb-admin-2.min.js"></script>
+    <script src="/static/js/js.cookie.js"></script>
+    <script src="/static/js/facemon.js"></script>
+    <script src="/static/js/qrcode.js"></script>
+    <script src="/static/js/jquery.timepicker.js"></script>
+    <script src="/static/js/jodit.js"></script>
+    <script src="/static/js/jodit.min.js"></script>
+    <script src="/static/js/jquery.spinner.js"></script>
+    <script src="/static/js/jquery.spinner.min.js"></script>
+    <script src="/static/js/modal-panel.js"></script>
+    <script src="/static/js/BarChart/analytics.js"></script>
+    <script src="/static/js/BarChart/Chart.min.js"></script>
+    <script src="/static/js/BarChart/utils.js"></script>
+    <script src="/static/js/webcam.min.js"></script>
+    <script src="/static/js/bootstrap-notify.min.js"></script>
+    <script src="/static/js/jquery-barcode.js"></script>
+    <script src="/static/js/jquery-barcode.min.js"></script>
+    <script src="/static/lightgallery/lightgallery-all.js"></script>
+    
+
+     <script>
+        $(document).keyup(function(e) {
+            if (e.key === "Escape") { 
+                $(".modal").modal('hide')
+            }
+        });
+
+        $( document ).ready(function() {
+            $("body").css("background", "white")
+            sethost("safecare.vn")
+
+            if($(document).width() >= 768)
+            {
+                ShowSidebar()
+            }
+
+            $('#dismiss, .overlay').on('click', function () {
+                HideSidebar()
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                if($('#sidebar').hasClass('active'))
+                    HideSidebar()
+                else
+                    ShowSidebar()
+            });
+
+            function ShowSidebar()
+            {
+                $('#sidebar').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            }
+
+            function HideSidebar()
+            {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            }
+
+
+            document.getElementById("page-wrapper").style.height = "100%"
+
+            if("" > 0)
+            {
+                $("#lbl_numNotification").css("background", "red")
+            }
+        });
+
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QH71VJ9ZDG"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QH71VJ9ZDG');
+    </script>
+
+
+    
+    
+<script>
+
+g_services = null
+g_categories = null
+g_service = ""
+g_service_pk = ""
+g_category_pk = ""
+
+document.getElementsByTagName('body')[0].style.background = "#ffffff";
+
+$(document).ready(function () 
+{
+    var issueTypes;
+    g_issuePk = ""
+
+    GetCategories()
+
+    $("#bottom-page").show()
+
+});
+
+function GetCategories()
+{
+    $('#table_category > tbody tr').remove()
+    host_request = host + '/api/category/getList'
+    request_data = {
+        "token": Cookies.get('token')
+    }        
+    ajaxRequest("POST", host_request , request_data, onGetCategoriesSuccess, genericFailCB)
+}
+
+function onGetCategoriesSuccess(res)
+{
+    if(res.length ==0)
+    {
+        showError("Không tìm thấy danh mục")
+        return
+    }
+    g_categories = res
+
+    ShowCategories("all")
+}
+
+
+function ShowCategories()
+{
+    $("#div_service").empty()
+    $("#div_system").empty()
+
+    for(i = 0; i < g_categories.length; i++)
+    {
+        category = g_categories[i]
+        if(category.status == "Inactive")
+            continue
+        
+
+        var sample_category = $("#sample_category").clone()
+        sample_category.removeAttr('hidden')
+        
+        name = category.name.replace("/", "")
+        name = name.replace("\\n", "</br>")
+        sample_category.find("#category_name").html(name)
+
+        if(category.imagePath != null && category.imagePath != "")
+        {
+            sample_category.find("#img_thumbnail").attr("src", category.imagePath)
+            sample_category.find("#fa_icon").hide()
+        }
+        else
+        {
+            sample_category.find("#fa_icon").addClass("fa fa-" + category.icon)
+            sample_category.find("#img_thumbnail").hide()
+        }
+        
+        
+        if(category.status != "Disable")
+        {
+            if(category.group == "Hệ thống")
+            {
+                sample_category.find("#fa_icon").addClass("category-icon-system")
+                sample_category.find("#img_thumbnail").addClass("category-icon-system")
+            }
+            else
+            {
+                sample_category.find("#fa_icon").addClass("category-icon-service")
+                sample_category.find("#img_thumbnail").addClass("category-icon-service")
+            }
+
+            if(category.link != null && category.link != "")
+            {
+                sample_category.find("#link_detail").attr("href", category.link)    
+            }
+            else
+            {
+                sample_category.find("#link_detail").attr("href", "/category?pk=" + category._id.$oid )
+            }            
+        }
+        else
+        {
+            sample_category.find("#fa_icon").css("color", "gray")
+        }        
+        
+        if(category.group == "Dịch vụ")
+            $("#div_service").prepend(sample_category)
+        else
+            $("#div_system").prepend(sample_category)
+    }
+}
+
+$("#btn_book").click(function () {
+    window.location.href = "/order/"
+})
+
+
+function GetService(service_pk)
+{
+    for(i = 0; i < g_services.length; i++)
+    {            
+        service = g_services[i]
+        if(service._id.$oid == service_pk)
+            return service
+    }
+
+    return null
+}
+
+$("#btn_order").click(function () {
+    request_data = {
+        "service_pk": g_service_pk,
+        "service": g_service,
+        "category": g_category,
+        "token": Cookies.get("token"),
+    }
+    host_request = host + '/api/order/create'
+    ajaxRequest("POST", host_request, request_data, onUpdateSuccess, genericFailCB)
+});
+
+
+</script> 
+
+
+
+
+</html>

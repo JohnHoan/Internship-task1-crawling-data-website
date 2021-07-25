@@ -1,0 +1,879 @@
+
+
+<!-- <script type="text/javascript">    
+
+    $(document).ready(function() {
+
+        $('.left_poup').click(function() {
+
+            var type = $(this).attr('data-type');
+
+            if (type == 'location') {
+
+                $('.left-find-showroom').css('display', 'inline-block');
+
+                $('.left-inf-dat').css('display', 'none');
+
+            } else {
+
+                $('.left-inf-dat').css('display', 'inline-block');
+
+                $('.left-find-showroom').css('display', 'none');
+
+            }
+
+        });
+
+    });        
+
+</script> -->
+<!DOCTYPE html>
+<html dir="ltr" lang="en1">
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nano Geyser</title>
+    <meta name="keywords" content="">
+    <meta property="og:title" content="">
+    <meta property="og:image" content="https://nghiafurniture.com/front/image/catalog/logo_vuong.png">
+    <meta property="og:site_name" content="Nano Geyser">
+    <meta name="description"  property="og:description"
+          content="">
+    <link href="https://geysereco.com/front/image/favicon.png" rel="icon"/>
+    <meta property="fb:app_id" content="445850863127921"/>
+    <meta property="fb:admins" content="A1DA1qeOJkLosqfOrAvg35h"/>
+        <script>
+        Laravel = {
+            base: 'https://geysereco.com',
+            token: 'PICsdARUW2V7dXWPrpy2axCYt9ay7l7BINbIqKYT'
+        };
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VLRPXZXNSK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VLRPXZXNSK');
+</script>
+    <script src="https://geysereco.com/front/javascript/jquery.min.js"></script> 
+   <link href="https://geysereco.com/front/javascript/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" media="screen">
+    <script src="https://geysereco.com/front/javascript/owlcarousel/owl.carousel.min.js"></script>
+    <link href="https://geysereco.com/front/javascript/bootstrap/css/bootstrap.minf9e3.css?v=1.1" rel="stylesheet" media="screen"/>
+    <script src="https://geysereco.com/front/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="https://geysereco.com/front/javascript/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://geysereco.com/front/stylesheet/stylesheetf9e3.css?v=6" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://geysereco.com/front/stylesheet/jquery.numbox-1.2.0.css" media="screen"/>
+    <link rel="stylesheet" type="text/css"  href="js/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
+    <link href="https://geysereco.com/front/stylesheet/main.css?v=4" rel="stylesheet" media="screen"/>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.cart1').on('click', function () {
+                var cart_buy = $(this).attr('data-buy');
+                $.ajax({
+                    url: 'https://geysereco.com/addToCart',
+                    type: 'post',
+                    data: {
+                        'id': $(this).attr('data-product'),
+                        'number': cart_buy,
+                        '_token': 'PICsdARUW2V7dXWPrpy2axCYt9ay7l7BINbIqKYT',
+                    },
+                    beforeSend : function(){
+                        $('#loading-image').show();
+                    },
+                    success: function (response) {
+                        $('#loading-image').hide();
+                        if(response.code == 200){
+                            $('.div_success').css('display','block');
+                            var number_cart = parseInt($('.number_cart').attr('data-total'));
+                            number_cart += parseInt(cart_buy);
+                            $('.number_cart').attr('data-total',number_cart); 
+                            $('.number_cart').html('('+number_cart+')'); 
+                        }
+                        return true;
+                    },
+                });
+            });
+            $('.clear-sp').on('click', function () {
+                var tr_del = $(this).parents('tr');
+                $.ajax({
+                    url: 'https://geysereco.com/xoa-don-hang',
+                    type: 'post',
+                    data: {
+                        'id': $(this).attr('data-product'),
+                        '_token': 'PICsdARUW2V7dXWPrpy2axCYt9ay7l7BINbIqKYT',
+                    },
+                    beforeSend : function(){
+                        $('#loading-image').show();
+                    },
+                    success: function (response) {
+                        $('#loading-image').hide();
+                        $(tr_del).remove();
+                        return true;
+                    },
+                });
+            });
+        });
+        function calPrice(){
+            var total_thanh_tien = 0;
+            var total_product = 0;
+            $('.table-cart table tbody tr').each(function(item, value){
+                var tr_number = parseInt($(this).find('.input-number').val());
+                var tr_price = parseInt($(this).find('.input-number').attr('data-price'));
+                thanh_tien = tr_number*tr_price;
+                total_thanh_tien += thanh_tien;
+                total_product += tr_number;
+                $(this).find('.thanh-tien').html(formatCurrency(String(thanh_tien)));
+            });
+            $('.total_price_nk').html(formatCurrency(String(total_thanh_tien)));
+            $('.total_product_nk').html(total_product);
+            $('.number_cart').html('('+total_product+')');
+        }
+        function formatCurrency(value){
+            var result = '';
+            var valueArray = value.split('');
+            var resultArray = [];
+            var counter = 0;
+            var temp = '';
+            for (var i = valueArray.length - 1; i >= 0; i--) {
+                temp += valueArray[i];
+                counter++
+                if(counter == 3){
+                    resultArray.push(temp);
+                    counter = 0;
+                    temp = '';
+                }
+            };
+            if(counter > 0){
+                resultArray.push(temp);             
+            }
+            for (var i = resultArray.length - 1; i >= 0; i--) {
+                var resTemp = resultArray[i].split('');
+                for (var j = resTemp.length - 1; j >= 0; j--) {
+                    result += resTemp[j];
+                };
+                if(i > 0){
+                    result += ','
+                }
+            };
+            return result+' đ';        
+        }
+    </script>
+    <style type="text/css">
+        .total_product_nk{
+            float: none !important;
+            color: #000 !important;
+            font-size: 16px !important;
+        }
+    </style>
+</head>
+<body>
+<!--Header-->
+<div class="header">
+    <div class="top-head"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-4 col-xs-7">
+                            <div class="logo">
+                                <h1 class="hide"></h1>
+                                <a href="https://geysereco.com"><img  src="/public/uploads/images/2021/06/07/91623057705-fea8f64f440eb050e91f.jpg" class="img-responsive"/></a>
+                            </div>
+                </div>
+
+                <div class="col-md-9 col-sm-8 col-xs-5 head-right">
+                    <div class="menu-mobile hide-dt"><i class="fa fa-bars"></i></div>
+                    <a href="https://geysereco.com/cart" class="cart">Giỏ hàng
+                                                <span class="number_cart" data-total="0">
+                            (0)
+                        </span>
+                    </a>
+                    <a href="tell:02466 862 911" class="hotline-top">Hotline: <span>02466 862 911</span></a> 
+                    <div class="box-search">
+                        <i class="fa fa-search icon-search" aria-hidden="true"></i>
+                        <div class="search" id="search">
+                            <form method="get" id="idf" action="/search">
+                                <input class="top_input" type="text" placeholder="Tìm theo mã sản phẩm..." name="search"
+                                       value=""/>
+                                <button class="nut_searh" onclick=""></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <span class="close-menu hide-dt"><i class="fas fa-times"></i></span>
+        <div class="hide-menu"></div>
+        <div class="container menu-mb1">   
+            <ul class="ul-menu ul-none"><li class="menu-lv1"><h2><a title="Trang chủ" href="/">Trang chủ</a></h2></li><li class="menu-lv1"><h2><a title="Về chúng tôi" href="/ve-chung-toi">Về chúng tôi</a></h2></li><li class="menu-lv1"><h2><a title="Máy lọc nước" href="/may-loc-nuoc">Máy lọc nước</a></h2></li><li class="menu-lv1"><h2><a title="Lõi lọc nước" href="/loi-loc-nuoc">Lõi lọc nước</a></h2></li><li class="menu-lv1"><h2><a title="Thuê máy lọc nước" href="/thue-may-loc-nuoc-nong-lanh-nano-geyser">Thuê máy lọc nước</a></h2></li><li class="menu-lv1"><h2><a title="Tin tức" href="/blog">Tin tức</a></h2></li><li class="menu-lv1"><h2><a title="Liên hệ" href="/lien-he">Liên hệ</a></h2></li></ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+            $(document).ready(function() {
+                var owl = $("#owl-vdmenu");
+                owl.owlCarousel({
+                    items: 4,
+                    itemsCustom: false,
+                    autoPlay: 5000,
+                    pagination: false,
+                    itemsDesktop: [1199, 4],
+                    itemsDesktopSmall: [979, 3],
+                    itemsTablet: [768, 2],
+                    itemsMobile: [479, 2]
+                });
+                // Custom Navigation Events
+                $(".next-vd").click(function() {
+                    owl.trigger('owl.next');
+                })
+                $(".prev-vd").click(function() {
+                    owl.trigger('owl.prev');
+                })
+            });
+             $(".various").fancybox({
+        'transitionIn'  : 'none',
+        'transitionOut' : 'none'
+    });
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() { 
+    $(".menu-mobile").click(function(){
+        $(".menu").toggle(300);
+    });
+    $(".close-menu").click(function(){
+        $(".menu").hide(300);
+    });
+    $(".hide-menu").click(function(){
+        $(".menu").hide(300);
+    });
+});
+
+</script><div class="div-slide">
+   <div class="slider slider-for  owl-carousel">
+            <div class="item">
+         <a target="_blank" href="">
+         <img src="/slider/image/1626245243.jpg" class="img-responsive">
+         </a>
+      </div>
+                   
+   </div>
+</div>
+<!--Banner trang chu-->
+<!--Danh muc san pham-->
+<div class="cate-bg">
+   <div class="cate-h">
+      <div class="container">
+         <div class="box-cate-h">
+            <!-- <p class="hi-nano">Chào mừng đến với</p> -->
+            <h2 class="tit-cate-h">NANO GEYSER</h2>
+            <p class="des-tit-h">Sau hơn 10 năm có mặt tại Việt Nam, Geyser đã trở thành một trong những thương hiệu hàng đầu tại Việt Nam về các dòng sản phẩm, dịch vụ máy lọc nước gia đình. Nguồn nước đầu ra máy Nano Geyser hoàn toàn tinh khiết <b>ĐẠT CHUẨN QUỐC GIA NƯỚC UỐNG TRỰC TIẾP QCVN 6 - 1: 2010/BYT</b></p>
+            <ul class="list-cate-h ul-none  owl-carousel owl-theme">
+               <li>
+                  <div class="mg-cate">
+                     <span class="img-cate-h"><a href="/may-loc-nuoc"><img src="/front/image/dm1.png" class="img-responsive" alt=""></a></span>
+                     <h2><a href="/may-loc-nuoc">Máy lọc nước</a></h2>
+                  </div>
+               </li>
+               <li>
+                  <div class="mg-cate">
+                     <span class="img-cate-h"><a href="/loi-loc-nuoc"><img src="/front/image/Loi-aragon.png" class="img-responsive" alt=""></a></span>
+                     <h2><a href="/loi-loc-nuoc">Lõi lọc nước</a></h2>
+                  </div>
+               </li>
+               <li>
+                  <div class="mg-cate">
+                     <span class="img-cate-h"><a href="/thue-may-loc-nuoc-nong-lanh-nano-geyser"><img src="/front/image/thue-may-loc-nuoc.png" class="img-responsive" alt=""></a></span>
+                     <h2><a href="/thue-may-loc-nuoc-nong-lanh-nano-geyser">Thuê máy lọc nước</a></h2>
+                  </div>
+               </li>
+            </ul>
+            <script type="text/javascript">
+               $(document).ready(function () {               
+                   var owl = $(".list-cate-h");               
+                   owl.owlCarousel({               
+                       items: 3,               
+                       autoPlay: 10000,               
+                       itemsDesktop      : [1199,3],               
+                       itemsDesktopSmall     : [979,2],               
+                       itemsTablet       : [768,2],               
+                       itemsMobile       : [479,1]
+                   });               
+               });               
+            </script>
+         </div>
+      </div>
+   </div>
+</div>
+<!--End Danh muc san pham-->
+<div class="container">
+   <!--San pham noi bat-->
+   <div class="sp-nb" >
+      <div class="title-home">Sản phẩm nổi bật</div>
+      <p class="des-tit">Với lịch sử phát triển hơn 30 năm từ năm 1986  tới nay các sản phẩm thương hiệu Geyser đã có mặt ở hơn 40 quốc gia trên thế giới. Tại Việt Nam Nano Geyser cung được rất nhiều gia đình tin tưởng sử dụng không chỉ bởi độ tương thích của máy lọc nước Nano Geyser với nguồn nước tại Việt Nam, mà còn bởi chất lượng, thiết kế nhỏ gọn, tinh tế sang trọng.
+</p>
+      <div class="tab-content relative">
+         <div id="tab-1" class="tab-pane fade in active">
+            <div id="owl-demo1" class="ul-spmoi owl-carousel">
+                              <div class="item">
+                  <div class="product-box">
+                           <a class="img-product-h" href="https://geysereco.com/may-loc-nuoc-nano-geyser-slim-s8-12"><img src="https://geysereco.com/product_images/may-loc-nuoc-nano-geyser-slim-s8-631.gif" class="img-responsive">
+                              <span class="icon-h">HOT</span>
+                           </a>
+                           <h3 class="product-name">
+                              <a href="https://geysereco.com/may-loc-nuoc-nano-geyser-slim-s8-12">Máy lọc nước Nano Geyser Slim S8</a>
+                           </h3>
+                                                      <p class="price-km">3,680,000 đ</p>
+                                             </div>
+               </div>
+                              <div class="item">
+                  <div class="product-box">
+                           <a class="img-product-h" href="https://geysereco.com/may-loc-nuoc-nano-geyser-ro-eco-c9-10"><img src="https://geysereco.com/product_images/may-loc-nuoc-nano-geyser-ro-eco-c9-597.gif" class="img-responsive">
+                              <span class="icon-h">HOT</span>
+                           </a>
+                           <h3 class="product-name">
+                              <a href="https://geysereco.com/may-loc-nuoc-nano-geyser-ro-eco-c9-10">Máy lọc nước Nano Geyser RO ECO C9</a>
+                           </h3>
+                                                      <p class="price-km">5,180,000 đ</p>
+                                             </div>
+               </div>
+                              <div class="item">
+                  <div class="product-box">
+                           <a class="img-product-h" href="https://geysereco.com/may-loc-nuoc-nano-geyser-eco8-8"><img src="https://geysereco.com/product_images/may-loc-nuoc-nano-geyser-eco8-626.gif" class="img-responsive">
+                              <span class="icon-h">HOT</span>
+                           </a>
+                           <h3 class="product-name">
+                              <a href="https://geysereco.com/may-loc-nuoc-nano-geyser-eco8-8">Máy lọc nước Nano Geyser ECO8</a>
+                           </h3>
+                                                      <p class="price-km">4,280,000 đ</p>
+                                             </div>
+               </div>
+                              <div class="item">
+                  <div class="product-box">
+                           <a class="img-product-h" href="https://geysereco.com/may-loc-nuoc-nong-lanh-nguoi-nano-geyser-eco5-6"><img src="https://geysereco.com/product_images/may-loc-nuoc-nong-lanh-nguoi-nano-geyser-eco5-581.gif" class="img-responsive">
+                              <span class="icon-h">HOT</span>
+                           </a>
+                           <h3 class="product-name">
+                              <a href="https://geysereco.com/may-loc-nuoc-nong-lanh-nguoi-nano-geyser-eco5-6">Máy lọc nước nóng lạnh nguội Nano Geyser ECO5</a>
+                           </h3>
+                                                      <p class="price-km">10,500,000 đ</p>
+                                             </div>
+               </div>
+                           </div>
+         </div>
+      </div>
+   </div>
+</div>
+<script type="text/javascript">
+   $(document).ready(function () {   
+       var owl = $("#owl-demo1");   
+       owl.owlCarousel({   
+           items: 3,   
+           autoPlay: 10000,   
+           pagination: true,   
+           navigation: false,   
+           itemsDesktop      : [1199,3],   
+           itemsDesktopSmall     : [979,3],   
+           itemsTablet       : [768,1],   
+           itemsMobile       : [479,1]      
+       });   
+   });   
+</script>
+<script type="text/javascript">
+   $(document).ready(function () {   
+       var owl = $("#owl-demo2");   
+       owl.owlCarousel({   
+           items: 2,   
+           autoPlay: 10000,   
+           pagination: true,   
+           navigation: false,   
+           itemsDesktop      : [1199,2],   
+           itemsDesktopSmall     : [979,2],   
+           itemsTablet       : [768,1],   
+           itemsMobile       : [479,1]      
+       });   
+   });   
+</script>
+<!--End San noi bat-->
+<!--Tại sao chọn chúng tôi-->
+<div class="gt-banner">
+   <div class="container">
+      <div class="title-home">VÌ SAO NÊN CHỌN NANO GEYSER</div>
+      <p class="des-tit">Tự hào là một trong những đơn vị nhập khẩu, lắp ráp và phân phối máy lọc nước Geyser. Với hơn 5 năm kinh nghiệm tư vấn, lắp đặt máy lọc nước Geyser cho hàng triệu gia đình Việt. Với những giá trị cốt lõi <b> Đổi mới mỗi ngày - Lấy khách hàng làm trung tâm & luôn luôn tận tâm - Cam kết vượt trội</b>
+      </p>
+      <div class="box-gt">
+         <div class="row">
+            <div class="slide-dctc owl-carousel owl-theme">
+               <div class="tab-gt">
+                  <img src="../front/image/icon1.png" alt="">
+                  <h3>Tư vấn chuẩn mực</h3>
+                  <span class="mt-gt">100% các kỹ thuật viên tư vấn được đào tạo bài bản và chuyên nghiệp, chuẩn mực.</span>
+               </div>
+               <div class="tab-gt">
+                  <img src="../front/image/icon2.png" alt="">
+                  <h3>Uy Tín & chất lượng</h3>
+                  <span class="mt-gt">100% sản phẩm bán tại Nano Geyser là sản phẩm chính hãng, nhập khẩu, lắp ráp và phân phối.</span>
+               </div>
+               <div class="tab-gt">
+                  <img src="../front/image/icon3.png" alt="">
+                  <h3>Tận tâm và chu đáo</h3>
+                  <span class="mt-gt">Với giá trị cốt lõi lấy khách hàng làm trung tâm & luôn luôn tận tâm chúng tôi luôn ưu tiên đặt quyền lợi khách hàng lên hàng đầu. </span>
+               </div>
+               <div class="tab-gt">
+                  <img src="../front/image/icon4.png" alt="">
+                  <h3>Bảo hành bảo trì tốt</h3>
+                  <span class="mt-gt mt-4">100% sản phẩm được bảo hành, bảo trì tại nhà theo đúng tiêu chuẩn 5 năm chính hãng</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="clear"></div>
+<script type="text/javascript">
+   $(document).ready(function () {   
+       var owl = $(".slide-dctc");   
+       owl.owlCarousel({   
+           items: 4,   
+           autoPlay: 10000,   
+           itemsDesktop      : [1199,4],   
+           itemsDesktopSmall     : [979,3],   
+           itemsTablet       : [768,2],   
+           itemsMobile       : [479,2]
+       });   
+   });   
+</script>
+<!--End Tại sao chọn chúng tôi-->
+<!--Tin tức + video-->
+<div class="container">
+   <!-- <div class="title-home">Tin tức hoạt động</div> -->
+   <!-- <p class="des-tit">Chúng tôi tự hào là một trong những đơn vị hàng đầu phân phối máy lọc nước Geyser.</br>
+      Với 5 năm kinh nghiệm tư vấn và lắp đặt máy lọc nước cho hàng ngàn hộ gia đình, chúng tôi tự tin có đủ kinh nghiệm và chuyên môn, sự nhiệt tình khiến quý khách hàng tin tưởng và lựa chọn trong suốt những năm vừa qua
+   </p> -->
+   <div class="box-news-vd">
+      <div class="news-l">
+         <div class="tit-1">Tin tức nổi bật</div>
+         <div class="news-slide owl-carousel owl-theme">
+                        <div class="item news-home">
+               <a href="https://geysereco.com/blog/thay-the-loi-loc-nano-geyser-dinh-ky-cho-nguon-nuoc-dat-chuan-9" class="img-news"><img src="/public/uploads/images/2021/06/21/91624249465-thay-loi-loc-nuoc-nano-geyser.png" alt="" class="img-responsive"></a>
+               <h3><a href="https://geysereco.com/blog/thay-the-loi-loc-nano-geyser-dinh-ky-cho-nguon-nuoc-dat-chuan-9">Thay thế lõi lọc Nano Geyser định kỳ cho nguồn nước đạt chuẩn</a></h3>
+               <p>Trải qua hơn 30 năm phát triển, công nghệ lõi lọc của Aragon trong các sản phẩm của Geyser đã chiếm được lượng khách hàng ở Châu Âu, Mỹ.</p>
+            </div>
+                        <div class="item news-home">
+               <a href="https://geysereco.com/blog/kham-pha-cong-nghe-loc-nano-qua-may-loc-nuoc-eco-nano-geyser-8" class="img-news"><img src="/public/uploads/images/2021/06/21/11624250100-cong-nghe-may-loc-nuoc-nano-geyser.png" alt="" class="img-responsive"></a>
+               <h3><a href="https://geysereco.com/blog/kham-pha-cong-nghe-loc-nano-qua-may-loc-nuoc-eco-nano-geyser-8">Khám phá công nghệ lọc Nano qua máy lọc nước ECO Nano Geyser</a></h3>
+               <p>Trải qua hơn 30 năm phát triển, công nghệ lõi lọc của Aragon trong các sản phẩm của Geyser đã chiếm được lượng khách hàng ở Châu Âu, Mỹ.</p>
+            </div>
+                        <div class="item news-home">
+               <a href="https://geysereco.com/blog/vi-sao-nen-chon-may-loc-nuoc-ro-eco-nano-geyser-7" class="img-news"><img src="/public/uploads/images/2021/06/18/71624006427-may-loc-nuoc-ro-eco-nano-geyser-8-cap.png" alt="" class="img-responsive"></a>
+               <h3><a href="https://geysereco.com/blog/vi-sao-nen-chon-may-loc-nuoc-ro-eco-nano-geyser-7">Vì sao nên chọn máy lọc nước RO ECO Nano Geyser?</a></h3>
+               <p>Trải qua hơn 30 năm phát triển, công nghệ lõi lọc của Aragon trong các sản phẩm của Geyser đã chiếm được lượng khách hàng ở Châu Âu, Mỹ.</p>
+            </div>
+                        <div class="item news-home">
+               <a href="https://geysereco.com/blog/nhung-dieu-can-biet-ve-cong-nghe-may-loc-nuoc-ro-6" class="img-news"><img src="/public/uploads/images/2021/06/12/81623463350-cong-nghe-may-loc-nuoc-ro.png" alt="" class="img-responsive"></a>
+               <h3><a href="https://geysereco.com/blog/nhung-dieu-can-biet-ve-cong-nghe-may-loc-nuoc-ro-6">Những điều cần biết về công nghệ máy lọc nước RO</a></h3>
+               <p>Trải qua hơn 30 năm phát triển, công nghệ lõi lọc của Aragon trong các sản phẩm của Geyser đã chiếm được lượng khách hàng ở Châu Âu, Mỹ.</p>
+            </div>
+                     </div>
+      </div>
+      <script type="text/javascript">
+         $(document).ready(function () {         
+             var owl = $(".news-slide");         
+             owl.owlCarousel({         
+                 items: 2,         
+                 autoPlay: 10000,         
+                 itemsDesktop      : [1199,2],         
+                 itemsDesktopSmall     : [979,2],         
+                 itemsTablet       : [768,2],         
+                 itemsMobile       : [479,1]
+             });         
+         });
+         
+      </script>
+      <div class="video-r">
+         <div class="tit-1">video nổi bật</div>
+                           <div class="big-video">
+            <a href="https://geysereco.com/video/may-loc-nuoc-nong-lanh-nano-geyser-eco-cho-nguon-nuoc-dat-chuan-quoc-gia-qcvn-6-12010byt-3">
+               <img src="/public/uploads/images/2021/06/15/71623728311-may-loc-nuoc-nong-lanh-nguoi-nano-geyser.jpg" alt="" class="img-responsive">
+               <div class="bg-black"></div>
+               <h3>Máy lọc nước nóng lạnh Nano Geyser ECO - Cho nguồn nước đạt chuẩn quốc gia QCVN 6-1:2010/BYT</h3>
+            </a>
+         </div>
+                                                               <div class="row video-small">
+                                                            <div class="col-md-6 col-sm-6 col-xs-6">
+               <div class="list-vdh">
+                  <a href="https://geysereco.com/video/test-do-ph-cua-may-loc-nuoc-ion-geyser-2">
+                     <img src="/public/uploads/images/2021/06/21/81624250888-test-do-ph-may-loc-nuoc-ion-kiem.png" alt="" class="img-responsive">
+                     <div class="bg-black"></div>
+                  </a>
+                  <h3><a href="https://geysereco.com/video/test-do-ph-cua-may-loc-nuoc-ion-geyser-2">Test độ pH của máy lọc nước Ion Geyser</a></h3>
+               </div>
+            </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+               <div class="list-vdh">
+                  <a href="https://geysereco.com/video/may-loc-nuoc-nong-lanh-nano-geyser-eco-cho-nguon-nuoc-dat-chuan-quoc-gia-qcvn-6-12010byt-1">
+                     <img src="/public/uploads/images/2021/06/15/21623741576-may-loc-nuoc-nong-lanh-nguoi-nano-geyser.jpg" alt="" class="img-responsive">
+                     <div class="bg-black"></div>
+                  </a>
+                  <h3><a href="https://geysereco.com/video/may-loc-nuoc-nong-lanh-nano-geyser-eco-cho-nguon-nuoc-dat-chuan-quoc-gia-qcvn-6-12010byt-1">Máy lọc nước nóng lạnh Nano Geyser ECO - Cho nguồn nước đạt chuẩn quốc gia QCVN 6-1:2010/BYT</a></h3>
+               </div>
+            </div>
+                                 </div>
+      </div>
+      <div class="clear"></div>
+   </div>
+</div>
+<!--End Tin tức + video-->
+<div class="yk">
+   <div class="container">
+      <div class="title-home">Cảm nhận khách hàng</div>
+      <p class="des-tit">Trong sứ mệnh cung cấp sản phẩm đến hàng triệu khách hàng, chúng tôi hân hạnh nhận về những đánh giá tốt đẹp từ những khách hàng thân thiết</p>
+      <div class="box-yk">
+         <div class="yk-slide owl-carousel owl-theme">
+                        <div class="item">
+               <div class="list-yk">
+                  <div class="inf-kh"><img src="/public/uploads/images/2021/06/17/11623895615-chi-trang.png" alt=""></div>
+                  <div class="name-kh">Chị Trang</div>
+                  <p class="add-kh"></p>
+                  <div class="clear"></div>
+                  <p class="nd-kh">Sản phẩm và dịch vụ bên thương hiệu máy lọc nước Nano Geyser thực sự rất tốt và mình vô cùng hài lòng, hiếm có thương hiệu nào tại Việt Nam giúp mình có những trải nghiệm tuyệt vời từ sản phẩm, tới dịch vụ như này.</p>
+               </div>
+            </div>
+                        <div class="item">
+               <div class="list-yk">
+                  <div class="inf-kh"><img src="/public/uploads/images/2021/06/17/01623894822-anh-hung.jpg" alt=""></div>
+                  <div class="name-kh">Anh Hưng</div>
+                  <p class="add-kh"></p>
+                  <div class="clear"></div>
+                  <p class="nd-kh">Mình rất hài lòng khi sử dụng máy lọc nước Nano Geyser, mình đã sử dụng được sản phẩm này được 5 năm rồi và sẽ tiếp tục tin tưởng, sử dụng các sản phẩm của nhãn hàng này. Đặc biệt mình rất hài lòng về phục vụ của nhãn hàng</p>
+               </div>
+            </div>
+                        <div class="item">
+               <div class="list-yk">
+                  <div class="inf-kh"><img src="/public/uploads/images/2021/06/17/01623894329-anh-tung.png" alt=""></div>
+                  <div class="name-kh">Anh Tùng</div>
+                  <p class="add-kh"></p>
+                  <div class="clear"></div>
+                  <p class="nd-kh">Mình đang sử dụng sản phẩm máy lọc nước Nano Geyser Eco8 sản phẩm rất tốt và ổn định. Sản phẩm có chứng chỉ quốc gia nước uống đóng chai trực tiếp QCVN 6-1:2010/BYT nên mình càng yên tâm khi sử dụng.</p>
+               </div>
+            </div>
+                        <div class="item">
+               <div class="list-yk">
+                  <div class="inf-kh"><img src="/public/uploads/images/2021/06/17/71623895241-chi-huong-lan.png" alt=""></div>
+                  <div class="name-kh">Chị Hương Lan</div>
+                  <p class="add-kh"></p>
+                  <div class="clear"></div>
+                  <p class="nd-kh">Mình đã mua và sử dụng máy lọc nước Nano Geyser thực sự rất hài lòng cả về sản phẩm cũng như chất lượng phục vụ từ nhãn hàng. Các sản phẩm có chứng chỉ, chứng nhận chất lượng rõ ràng nên mình rất yên tâm</p>
+               </div>
+            </div>
+                        <div class="item">
+               <div class="list-yk">
+                  <div class="inf-kh"><img src="/public/uploads/images/2021/06/17/41623895628-chi-hoa.png" alt=""></div>
+                  <div class="name-kh">Chị Hoà</div>
+                  <p class="add-kh"></p>
+                  <div class="clear"></div>
+                  <p class="nd-kh">Công ty mình đang sử dụng dịch vụ thuê máy lọc nước của Nano Geyser thực sự vô cùng hài lòng về dịch vụ bởi công ty cung cấp. Lịch thay lõi, vệ sinh bảo dưỡng máy rất đúng hạn đảm bảo nguồn nước sạch cho toàn công ty</p>
+               </div>
+            </div>
+                     </div>
+      </div>
+   </div>
+</div>
+<script type="text/javascript">
+
+            $(document).ready(function () {
+
+                var owl = $(".yk-slide");
+
+                owl.owlCarousel({
+
+                    items: 3,
+
+                    autoPlay: 10000,
+
+                    itemsDesktop      : [1199,3],
+
+                    itemsDesktopSmall     : [979,2],
+
+                    itemsTablet       : [768,1],
+
+                    itemsMobile       : [479,1]
+
+                     
+
+                });
+
+            });
+
+    </script>
+<!--Map + form-->
+<div class="container">
+    <div class="map-form">
+        <div class="map-h">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.4075820377913!2d105.82027432923331!3d20.967355651429827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acfc50366359%3A0x399891005f193415!2zMzkgTmfDtSA2MzQgxJDGsOG7nW5nIEtpbSBHaWFuZywgVGhhbmggTGnhu4d0LCBUaGFuaCBUcsOsLCBIw6AgTuG7mWksIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1624268661900!5m2!1sen!2s" width="780" height="465" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="form-h">
+            <div class="tit-form">Gửi yêu cầu tư vấn</div>
+            <p>Bạn hãy điền thông tin và cho chúng tôi biết mong muốn của bạn.Chúng tôi sẽ liên hệ lại cho bạn ngay lập tức.</p>
+            <form action="" id="create_contact_form" class="dathang-f" novalidate="novalidate">
+                <!-- <input class="form-control" name="full_name" id="full_name" type="text" placeholder="Họ tên(*)">
+                <input class="form-control" name="email" id="email" type="email" placeholder="Email(*)"> -->
+                <input class="form-control" name="phone" id="phone" type="text" placeholder="Số điện thoại(*)">
+                <textarea rows="3" name="note" id="note" class="form-control popup-placeholder" placeholder="Nội dung"></textarea>
+                <input type="hidden" name="_token" value="PICsdARUW2V7dXWPrpy2axCYt9ay7l7BINbIqKYT">
+                <div class="loading-image" style="display:none; padding-top: 10px;color: #21a52d;"><img src="https://geysereco.com/assets/img/loading.gif"></div>
+                <div class="div_success" style="display:none; padding-top: 10px;color: #21a52d;">Gửi yêu cầu thành công</div>
+                <button type="submit" class="buttom-s" id="buttom-s">Gửi yêu cầu tư vấn</button>
+                <button type="reset" class="buttom-clear" id="buttom-r">Hủy</button>
+            </form>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<style type="text/css">
+    .error{
+        float: left;
+        color: red;
+    }
+    .loading-image img{
+        width: 40px;
+        color: #65A63A;
+        padding-bottom: 12px;
+    }
+</style>
+<script src="https://geysereco.com/assets/js/jquery.validate.min.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function () {
+        $('.buttom-clear').click(function(){
+            $('#create_contact_form').trigger("reset");
+        });
+        $('#create_contact_form').validate({
+            rules: {
+                phone: {
+                    "required": true,
+                }
+            },
+            messages: {
+                phone: {
+                    "required": "Số điện thoại không được để trống",
+                },
+                note: {
+                    // "required": true,
+                }
+            },
+            errorPlacement: function(error, element) {         
+               error.insertBefore(element);
+            },
+            submitHandler: function (form) {
+                $.ajax({
+                    url: 'https://geysereco.com/gui-lien-he',
+                    type: 'post',
+                    data: $(form).serialize(),
+                    beforeSend : function(){
+                        $('#loading-image').show();
+                    },
+                    success: function (response) {
+                        $('#loading-image').hide();
+                        if(response.code == 200){
+                            $('.div_success').css('display','block');
+                        }
+                    }
+                });
+            }
+        });
+    });
+</script>
+<!--Map + form--><div class="footer">
+        <div class="container">
+            <div class="menuf">
+                <div class="row">
+                    <ul class="ul-none">
+                        <li class="col-md-3 col-sm-6 col-xs-12 li-menuf">
+                            <h4>Thông tin hỗ trợ</h4>
+                            <ul class="ul-none menuf2">
+                                <li><a href="/may-loc-nuoc">Máy lọc nước</a></li>
+                                <li><a href="/loi-loc-nuoc">Lõi lọc nước</a></li>
+                                <li><a href="/thue-may-loc-nuoc-nong-lanh-nano-geyser">Thuê máy lọc nước</a></li>
+                                <li><a href="/blog">Tin tức</a></li>
+                                <li><a href="/he-thong-doi-tac">Hệ thống đối tác</a></li>
+                                <li><a href="/tuyen-dung">Tuyển dụng</a></li>
+                                <li><a href='http://online.gov.vn/Home/WebDetails/83669'><img alt='' title='' width="200px" src='/front/image/logoSaleNoti.png'/></a></li>
+                            </ul>
+                        </li>
+                        <li class="col-md-1 li-menuf"></li>
+                        <li class="col-md-3 col-sm-6 col-xs-12 li-menuf">
+                            <h4>Chính sách chung</h4>
+                            <ul class="ul-none menuf2">
+                                <li><a href="/chinh-sach-bao-hanh">Chính sách bảo hành</a></li>
+                                <li><a href="/chinh-sach-van-chuyen">Chính sách vận chuyển</a></li>
+                                <li><a href="/chinh-sach-bao-mat-thong-tin-khach-hang">Chính sách bảo mật thông tin khách hàng</a></li>
+                                <li><a href="/chinh-sach-thanh-toan">Chính sách thanh toán</a></li>
+                                <li><a href="/chinh-sach-doi-tra-hang">Chính sách đổi trả hàng</a></li>
+                            </ul>
+                            <p class="hc">
+                                <img src="/front/image/hc1.png">
+                                <img src="/front/image/hc2.png">
+                                <img src="/front/image/hc3.png">
+                            </p>
+                        </li>
+                        <li class="col-md-5 col-sm-12 col-xs-12 info-f">
+                            <h4>ĐƠN VỊ CHỦ QUYỀN:</h4>
+                            <!-- <p class="sologen">CÔNG TY TNHH ĐẦU TƯ VÀ PHÁT TRIỂN CÔNG NGHỆ MINH TÂN</p> -->
+                            <h4 style="font-size: 18px !important;">CÔNG TY TNHH ĐẦU TƯ VÀ PHÁT TRIỂN CÔNG NGHỆ MINH TÂN</h4>
+                            <ul class="ul-none">
+                                <li><i class="fas fa-phone-volume"></i> Hotline: <a href="tel:02466862911">02466 862 911</a></li>
+                                <li><i class="far fa-envelope"></i> nanogeyser29@gmail.com</li>
+                                <li><i class="fas fa-map-marker-alt"></i> Địa chỉ: Số 39, Ngõ 634, Đường Kim Giang, Thanh Liệt, Thanh trì, Hà Nội</li>
+                               <!--  <li><i class="fas fa-map-marker-alt"></i> AD: 30 Lê Văn Lương kéo dài - Hà Đông - Hà Nội</li>
+                                <li><i class="fas fa-map-marker-alt"></i> VP1: 286 Nguyễn Xiển - Thanh Xuân - Hà Nội</li>
+                                <li><i class="fas fa-map-marker-alt"></i> VP2: 634 Kim Giang - Hà Nội</li> -->
+                            </ul>
+                            <h5>Giấy ĐKKD số: 0801100006</h5>
+                            <h5>Ngày cấp: 25/11/2014</h5>
+                            <h5>Nơi cấp: PHÒNG ĐĂNG KÝ KINH DOANH - SỞ KẾ HOẠCH VÀ ĐẦU TƯ TỈNH HẢI DƯƠNG</h5>
+                            <p class="isocial">
+                                <a target="_blank" href="https://www.facebook.com/maylocnuocnanogeysercaocap"><img src="/front/image/facebook.png"></a>
+                                <a href=""><img src="/front/image/twister.png"></a>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCHWW41_pVbtz-sRNx96FVZg"><img src="/front/image/youtube.png"></a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="inf-footer">
+                
+            </div> -->
+        </div>
+    </div>
+<div class="footer1">
+    <div class="container">
+        <div class="f-design">© 2021  CÔNG TY TNHH ĐẦU TƯ VÀ PHÁT TRIỂN CÔNG NGHỆ MINH TÂN </div>
+        <div class="f-thongke">Đang online: 21 | Tổng truy cập: 433186</div>
+        <div class="clear"></div>
+    </div>
+</div>           <!--End Header-->
+<!--Body-->
+<script type="text/javascript">
+    $(".slider").owlCarousel({
+
+        items: 1,
+        itemsCustom: false,
+        itemsDesktop: [1199, 1],
+        itemsDesktopSmall: [980, 1],
+        itemsTablet: [768, 1],
+        itemsTabletSmall: false,
+        itemsMobile: [479, 1],
+        autoPlay: 15000,
+        pagination: false,
+        navigation: false,
+
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".icon-search").click(function() {
+             $( "#search" ).toggle(300);
+             $( ".icon-search" ).hide();
+        });
+
+    });
+</script>
+
+
+<script type="text/javascript">
+
+// $(function() {
+    // $("#left_create_order_2").validate({
+    //     rules: {
+    //         left_full_name: "required",
+    //         left_phone: {
+    //             required: true,
+    //         }
+
+    //     },
+    //     messages: {
+    //         left_full_name: "Tên không được để trống",
+    //         left_phone: {
+    //             required: "Số điện thoại không được để trống",
+    //         }
+    //     },
+    //     submitHandler: function(form) {
+    //         var data = {
+    //         'full_name': $('#left_create_order_2 #left_full_name').val(),
+    //         'phone': $('#left_create_order_2 #left_phone').val(),
+    //         'note': $('#left_create_order_2 #left_note').val(),
+    //         'product_id': 0,
+    //         'count': 0,
+    //         '_token': Laravel.token
+    // };
+
+    // $.ajax({
+    //     url: Laravel.base + '/add-bills',
+    //     type: 'post',
+    //     dataType: 'json',
+    //     data: data,
+    //     success: function (result) {
+    //         $('.left_div_success').show();
+    //     },
+    // });
+    //     }
+    // });
+
+    // })
+</script>
+<script type="text/javascript">
+$(document).ready(function() { 
+    $(window).scroll(function(){
+        if ($(window).scrollTop() > 700){
+        $( ".scroll-se" ).show();
+        } else {
+       $( ".scroll-se" ).hide();
+        }
+    });
+});
+</script>
+
+<script type="text/javascript">
+    $(".ul-yk").owlCarousel({
+        items: 1,
+        itemsCustom: false,
+        itemsDesktop: [1199, 1],
+        itemsDesktopSmall: [980, 1],
+        itemsTablet: [768, 1],
+        itemsTabletSmall: false,
+        itemsMobile: [479, 1],
+        autoPlay: 15000,
+        pagination: false,
+        navigation: false,
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#search .nut_searh').on('click', function () {
+            url = $('base').attr('href') + 'tim-kiem.html';
+            var value = $('.top_input').val();
+            if (value) {
+                url += '?search=' + encodeURIComponent(value);
+            }
+            window.location.href = url;
+        });
+        $('#search input[name=\'search\']').on('keydown', function (e) {
+            if (e.keyCode == 13) {
+                $('#search .nut_searh').trigger('click');
+            }
+        });
+
+    });
+</script>
+<!--End Body-->
+</body>
+</html>

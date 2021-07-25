@@ -1,0 +1,863 @@
+<!doctype html>
+<html lang="vi">
+    <head >
+        <script>
+    var BASE_URL = 'https://mmpro.vn/';
+    var require = {
+        "baseUrl": "https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN"
+    };
+</script>
+        <meta charset="utf-8"/>
+<meta name="title" content="Home page"/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="format-detection" content="telephone=no"/>
+<title>Home page</title>
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/mage/calendar.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/css/styles-m.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/Mageplaza_Core/css/owl.carousel.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/Mageplaza_Core/css/owl.theme.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/Mageplaza_BannerSlider/css/animate.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/Mageplaza_BannerSlider/css/style.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/css/plugins/simple-scrollbar-master/simple-scrollbar.css" />
+<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/css/styles-l.css" />
+<link  rel="stylesheet" type="text/css"  media="print" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/css/print.css" />
+<script  type="text/javascript"  src="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/requirejs/require.js"></script>
+<script  type="text/javascript"  src="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/mage/requirejs/mixins.js"></script>
+<script  type="text/javascript"  src="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/requirejs-config.js"></script>
+<script  type="text/javascript"  src="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/mage/polyfill.js"></script>
+<script  type="text/javascript"  src="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/Smile_ElasticsuiteTracker/js/tracking.js"></script>
+<link rel="preload" as="font" crossorigin="anonymous" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/fonts/opensans/light/opensans-300.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/fonts/opensans/regular/opensans-400.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/fonts/opensans/semibold/opensans-600.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/fonts/opensans/bold/opensans-700.woff2" />
+<link rel="preload" as="font" crossorigin="anonymous" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/fonts/Luma-Icons.woff2" />
+<link  rel="icon" sizes="32x32" href="https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/Magento_Theme/favicon.png" />
+<link  rel="icon" type="image/x-icon" href="https://mmpro.vn/media/favicon/stores/26/favicon.png" />
+<link  rel="shortcut icon" type="image/x-icon" href="https://mmpro.vn/media/favicon/stores/26/favicon.png" />
+            </head>
+    <body data-container="body"
+          data-mage-init='{"loaderAjax": {}, "loader": { "icon": "https://mmpro.vn/static/version1625452655/frontend/Smartosc/MM/vi_VN/images/loader-2.gif"}}'
+        class="cms-home cms-index-index page-layout-1column-fullwidth">
+        
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "\u002F",
+                "domain": ".mmpro.vn",
+                "secure": false,
+                "lifetime": "3600"
+            }
+        }
+    }
+</script>
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>JavaScript dường như bị vô hiệu trong trình duyệt của bạn.</strong>
+                    <span>Để có trải nghiệm tốt nhất trên trang web của chúng tôi, đảm bảo bật Javascript trong trình duyệt của bạn.</span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+
+<script>
+    window.cookiesConfig = window.cookiesConfig || {};
+    window.cookiesConfig.secure = false;
+</script>
+<script>
+    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter'
+            }
+        }
+    });
+</script>
+
+<div class="page-wrapper"><header class="page-header"><div class="panel wrapper"><div class="panel header">
+<span class="notify-message">Khám phá thế giới của bạn tại Mega Market</span>
+<a class="action skip contentarea"
+   href="#contentarea">
+    <span>
+        Chuyển đến nội dung    </span>
+</a>
+</div></div><div class="header content"><span data-action="toggle-nav" class="action nav-toggle"><span>Toggle Nav</span></span>
+<a
+    class="logo"
+    href="https://mmpro.vn/"
+    title="Mega&#x20;Market&#x20;Vietnam"
+    aria-label="store logo">
+    <img src="https://mmpro.vn/media/logo/stores/26/logo.png"
+         title="Mega&#x20;Market&#x20;Vietnam"
+         alt="Mega&#x20;Market&#x20;Vietnam"
+            width="108"            height="32"    />
+</a>
+
+<div class="block block-search">
+    <div class="block block-title"><strong>Tìm kiếm</strong></div>
+    <div class="block block-content">
+        <form class="form minisearch" id="search_mini_form" action="https://mmpro.vn/catalogsearch/result/" method="get">
+            <div class="field search">
+                <label class="label" for="search" data-role="minisearch-label">
+                    <span>Tìm kiếm</span>
+                </label>
+                <div class="control">
+                    <input id="search"
+                           type="text"
+                           name="q"
+                           value=""
+                           placeholder="Tìm sản phẩm mong muốn ..."
+                           class="input-text"
+                           maxlength="128"
+                           role="combobox"
+                           aria-haspopup="false"
+                           aria-autocomplete="both"
+                           aria-expanded="false"
+                           autocomplete="off"
+                           data-block="autocomplete-form"/>
+                    <div id="search_autocomplete" class="search-autocomplete"></div>
+
+                                    </div>
+            </div>
+            <div class="actions">
+                <button type="submit"
+                        title="Tìm kiếm"
+                        class="action search">
+                    <span>Tìm kiếm</span>
+                </button>
+            </div>
+            <span class="close-btn">Close</span>
+        </form>
+    </div>
+</div>
+<script type="text/x-magento-init">
+{
+    "#search" :
+    {
+        "quickSearch" :
+        {
+            "formSelector":"#search_mini_form",
+            "url":"https://mmpro.vn/search/ajax/suggest/",
+            "destinationSelector":"#search_autocomplete",
+            "templates": {"term":{"title":"Search terms","template":"Smile_ElasticsuiteCore\/autocomplete\/term"},"product":{"title":"C\u00e1c s\u1ea3n ph\u1ea9m","template":"Smile_ElasticsuiteCatalog\/autocomplete\/product"},"category":{"title":"Nh\u00f3m","template":"Smile_ElasticsuiteCatalog\/autocomplete\/category"},"product_attribute":{"title":"Thu\u00f4\u0323c ti\u0301nh","template":"Smile_ElasticsuiteCatalog\/autocomplete\/product-attribute","titleRenderer":"Smile_ElasticsuiteCatalog\/js\/autocomplete\/product-attribute"}},
+            "priceFormat" : {"pattern":"%s VN\u0110","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},
+            "minSearchLength" : 3        }
+    }
+}
+</script>
+
+
+
+<div data-block="minicart" class="minicart-wrapper">
+            <a class="action showcart" href="https://mmpro.vn/checkout/cart/"
+           data-bind="scope: 'minicart_content'">
+            <span class="text">Giỏ hàng của tôi</span>
+            <span class="counter qty empty"
+                  data-bind="css: { empty: !!getCartParam('summary_count') == false && !isLoading() }, blockLoader: isLoading">
+                <span class="counter-number"><!-- ko text: getCartParam('summary_count') --><!-- /ko --></span>
+                <span class="counter-label">
+                <!-- ko if: getCartParam('summary_count') -->
+                    <!-- ko text: getCartParam('summary_count') --><!-- /ko -->
+                    <!-- ko i18n: 'items' --><!-- /ko -->
+                    <!-- /ko -->
+                </span>
+            </span>
+        </a>
+                <div class="block block-minicart"
+             data-role="dropdownDialog"
+             data-mage-init='{"dropdownDialog":{
+                     "triggerEvent" : "hover",
+                "appendTo":"[data-block=minicart]",
+                "triggerTarget":".showcart",
+                "closeOnMouseLeave": true,
+                "closeOnEscape": true,
+                "triggerClass":"active",
+                "parentClass":"active",
+                "bodyClass": "_has-modal",
+                "buttons":[]}}'>
+            <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+                <!-- ko template: getTemplate() --><!-- /ko -->
+            </div>
+                    </div>
+        <script>
+        window.checkout = {"shoppingCartUrl":"https:\/\/mmpro.vn\/checkout\/cart\/","checkoutUrl":"https:\/\/mmpro.vn\/checkout\/","updateItemQtyUrl":"https:\/\/mmpro.vn\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/mmpro.vn\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/mmpro.vn\/","minicartMaxItemsVisible":3,"websiteId":"1","maxItemsToDisplay":10,"storeId":"26","storeGroupId":"4","customerLoginUrl":"https:\/\/mmpro.vn\/customer\/account\/login\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/mmpro.vn\/captcha\/refresh\/","isRequired":false,"timestamp":1626947836}}};
+    </script>
+    <script type="text/x-magento-init">
+    {
+        "[data-block='minicart']": {
+            "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":0,"display_cart_subtotal_excl_tax":1,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals"}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"uiComponent","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content"},"component":"Magento_Checkout\/js\/view\/minicart"},"mini_quotelist_content":{"children":{"subtotal.container":{"children":{"subtotal":{"config":{"display_cart_subtotal_incl_tax":0,"display_cart_subtotal_excl_tax":1}}}}}}},"types":[]}        },
+        "*": {
+            "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fmmpro.vn\u002Fstatic\u002Fversion1625452655\u002Ffrontend\u002FSmartosc\u002FMM\u002Fvi_VN\u002Fimages\u002Floader\u002D1.gif"
+        }
+    }
+    </script>
+</div>
+
+
+<ul class="header links">    <li class="greet welcome" data-bind="scope: 'customer'">
+        <!-- ko if: customer().fullname  -->
+        <span class="logged-in"
+              data-bind="text: new String('Chào mừng, %1!').replace('%1', customer().fullname)">
+        </span>
+        <!-- /ko -->
+        <!-- ko ifnot: customer().fullname  -->
+        <span class="not-logged-in"
+              data-bind='html:"Welcome to Mega Market Vietnam"'></span>
+                <!-- /ko -->
+    </li>
+    <script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "customer": {
+                        "component": "Magento_Customer/js/view/customer"
+                    }
+                }
+            }
+        }
+    }
+    </script>
+<li class="authorization-link" data-label="ho&#x0103;&#x0323;c">
+    <a href="https://mmpro.vn/customer/account/login/">
+        Đăng nhập    </a>
+</li>
+</ul></div></header>    <div class="sections nav-sections">
+                <div class="section-items nav-sections-items"
+             data-mage-init='{"tabs":{"openedState":"active"}}'>
+                                            <div class="section-item-title nav-sections-item-title"
+                     data-role="collapsible">
+                    <a class="nav-sections-item-switch"
+                       data-toggle="switch" href="#store.menu">
+                        Menu                    </a>
+                </div>
+                <div class="section-item-content nav-sections-item-content"
+                     id="store.menu"
+                     data-role="content">
+                    
+
+<nav class="navigation">
+    <div class="navigation-wrapper">
+        <div class="nav-item menu-category">
+            <a class="nav-category">
+                <span class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </span>
+                <span>DANH MỤC</span>
+            </a>
+        </div>
+
+        <div class="nav-item solutions-menu">
+            <ul>
+<li><a href="https://mmpro.vn/our-solutions">GIẢI PHÁP </a></li>
+</ul>        </div>
+    </div>
+</nav>
+
+
+<nav class="categories-menu ">
+    <div class="categories-menu-content">
+        <ul >
+            <li  class="level0 nav-1 category-item first level-top parent"><a href="https://mmpro.vn/thuc-pham-tuoi-song.html"  class="level-top" ><span>Thực phẩm tươi sống</span></a><span class="categories-menu-icon"></span><ul class="level0 submenu"><li  class="level1 nav-1-1 category-item first parent"><a href="https://mmpro.vn/thuc-pham-tuoi-song/thit.html" ><span>Thịt</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-1-1-1 category-item first"><a href="https://mmpro.vn/thuc-pham-tuoi-song/thit/th-t-heo.html" ><span>Thịt heo</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-1-2 category-item"><a href="https://mmpro.vn/thuc-pham-tuoi-song/thit/th-t-bo.html" ><span>Thịt bò</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-1-3 category-item"><a href="https://mmpro.vn/thuc-pham-tuoi-song/thit/th-t-gia-c-m.html" ><span>Thịt gia cầm</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-1-4 category-item last"><a href="https://mmpro.vn/thuc-pham-tuoi-song/thit/cac-lo-i-th-t-khac.html" ><span>Các loại thịt khác</span></a><span class="categories-menu-icon"></span></li></ul></li><li  class="level1 nav-1-2 category-item parent"><a href="https://mmpro.vn/thuc-pham-tuoi-song/rau-cu-trai-cay.html" ><span>Rau củ-Trái cây</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-1-2-1 category-item first"><a href="https://mmpro.vn/thuc-pham-tuoi-song/rau-cu-trai-cay/rau-c.html" ><span>Rau củ</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-2-2 category-item"><a href="https://mmpro.vn/thuc-pham-tuoi-song/rau-cu-trai-cay/s-n-ph-m-nh-p-kh-u.html" ><span>Trái cây nhập khẩu</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-2-3 category-item"><a href="https://mmpro.vn/thuc-pham-tuoi-song/rau-cu-trai-cay/s-n-ph-m-trong-nu-c.html" ><span>Trái cây trong nước</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-2-4 category-item last"><a href="https://mmpro.vn/thuc-pham-tuoi-song/rau-cu-trai-cay/rau-c-trai-cay-ch-bi-n.html" ><span>Rau củ chế biến</span></a><span class="categories-menu-icon"></span></li></ul></li><li  class="level1 nav-1-3 category-item parent"><a href="https://mmpro.vn/thuc-pham-tuoi-song/hai-san.html" ><span>Hải sản</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-1-3-1 category-item first"><a href="https://mmpro.vn/thuc-pham-tuoi-song/hai-san/ca.html" ><span>Cá</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-3-2 category-item"><a href="https://mmpro.vn/thuc-pham-tuoi-song/hai-san/h-i-s-n-dong-l-nh.html" ><span>Hải sản đông lạnh</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-3-3 category-item"><a href="https://mmpro.vn/thuc-pham-tuoi-song/hai-san/h-i-s-n-ch-bi-n.html" ><span>Hải sản chế biến</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-3-4 category-item last"><a href="https://mmpro.vn/thuc-pham-tuoi-song/hai-san/ngheu-so.html" ><span>Các loại hải sản khác</span></a><span class="categories-menu-icon"></span></li></ul></li><li  class="level1 nav-1-4 category-item parent"><a href="https://mmpro.vn/thuc-pham-tuoi-song/frozen.html" ><span> Đồ đông lạnh</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-1-4-1 category-item first"><a href="https://mmpro.vn/thuc-pham-tuoi-song/frozen/th-c-ph-m-ch-bi-n-dong-l-nh.html" ><span>Thực phẩm chế biến đông lạnh</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-4-2 category-item"><a href="https://mmpro.vn/thuc-pham-tuoi-song/frozen/rau-c-trai-cay-dong-l-nh.html" ><span>Rau củ - trái cây đông lạnh</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-4-3 category-item last"><a href="https://mmpro.vn/thuc-pham-tuoi-song/frozen/kem.html" ><span>Kem - Sữa chua</span></a><span class="categories-menu-icon"></span></li></ul></li><li  class="level1 nav-1-5 category-item parent"><a href="https://mmpro.vn/thuc-pham-tuoi-song/th-c-ph-m-ch-bi-n-s-n.html" ><span>Chế biến sẵn</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-1-5-1 category-item first last"><a href="https://mmpro.vn/thuc-pham-tuoi-song/th-c-ph-m-ch-bi-n-s-n/d-ngu-i.html" ><span>Đồ nguội</span></a><span class="categories-menu-icon"></span></li></ul></li><li  class="level1 nav-1-6 category-item last parent"><a href="https://mmpro.vn/thuc-pham-tuoi-song/th-c-ph-m-ng-n-ngay.html" ><span>Ngắn ngày</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-1-6-1 category-item first"><a href="https://mmpro.vn/thuc-pham-tuoi-song/th-c-ph-m-ng-n-ngay/th-c-ph-m-h-ng-ngay.html" ><span>Đồ mát</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-6-2 category-item"><a href="https://mmpro.vn/thuc-pham-tuoi-song/th-c-ph-m-ng-n-ngay/d-ngu-i.html" ><span>Thực phẩm đóng gói</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-6-3 category-item"><a href="https://mmpro.vn/thuc-pham-tuoi-song/th-c-ph-m-ng-n-ngay/banh-cac-lo-i.html" ><span>Bơ sữa - Phô mai</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-6-4 category-item"><a href="https://mmpro.vn/thuc-pham-tuoi-song/th-c-ph-m-ng-n-ngay/tr-ng-gia-c-m.html" ><span>Trứng gia cầm</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-1-6-5 category-item last"><a href="https://mmpro.vn/thuc-pham-tuoi-song/th-c-ph-m-ng-n-ngay/s-a-ti-t-trung.html" ><span>Sữa tiệt trùng</span></a><span class="categories-menu-icon"></span></li></ul></li></ul></li><li  class="level0 nav-2 category-item level-top parent"><a href="https://mmpro.vn/d-h-p-d-kho.html"  class="level-top" ><span>Đồ hộp - Đồ khô</span></a><span class="categories-menu-icon"></span><ul class="level0 submenu"><li  class="level1 nav-2-1 category-item first parent"><a href="https://mmpro.vn/d-h-p-d-kho/g-o.html" ><span>Bánh-Nguyên Liệu</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-2-1-1 category-item first"><a href="https://mmpro.vn/d-h-p-d-kho/d-kho-dong-goi/g-o/banh-tuoi.html" ><span>Bánh tươi</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-2-1-2 category-item"><a href="https://mmpro.vn/d-h-p-d-kho/d-kho-dong-goi/g-o/nguyen-li-u-ch-bi-n.html" ><span>Nguyên liệu chế biến</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-2-1-3 category-item last"><a href="https://mmpro.vn/d-h-p-d-kho/g-o/b-t-cac-lo-i.html" ><span>Bột các loại</span></a><span class="categories-menu-icon"></span></li></ul></li><li  class="level1 nav-2-2 category-item parent"><a href="https://mmpro.vn/d-h-p-d-kho/d-u-an-nu-c-ch-m-gia-v.html" ><span>Gia vị - Đồ khô</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-2-2-1 category-item first"><a href="https://mmpro.vn/d-h-p-d-kho/d-u-an-nu-c-ch-m-gia-v/gia-v.html" ><span>Gia vị</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-2-2-2 category-item"><a href="https://mmpro.vn/d-h-p-d-kho/d-u-an-nu-c-ch-m-gia-v/c-qu-dong-goi.html" ><span>Đồ hộp</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-2-2-3 category-item"><a href="https://mmpro.vn/d-h-p-d-kho/d-u-an-nu-c-ch-m-gia-v/d-kho-dong-goi.html" ><span>Đồ khô đóng gói</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-2-2-4 category-item"><a href="https://mmpro.vn/d-h-p-d-kho/d-u-an-nu-c-ch-m-gia-v/nui-mi.html" ><span>Mì các loại</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-2-2-5 category-item last"><a href="https://mmpro.vn/d-h-p-d-kho/d-u-an-nu-c-ch-m-gia-v/g-o-cac-lo-i.html" ><span>Gạo </span></a><span class="categories-menu-icon"></span></li></ul></li><li  class="level1 nav-2-3 category-item parent"><a href="https://mmpro.vn/d-h-p-d-kho/d-u-ng-dinh-du-ng.html" ><span>Thực phẩm dinh dưỡng</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-2-3-1 category-item first"><a href="https://mmpro.vn/d-h-p-d-kho/d-u-ng-dinh-du-ng/tra-cafe.html" ><span>Trà - Cafe</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-2-3-2 category-item"><a href="https://mmpro.vn/d-h-p-d-kho/d-u-ng-dinh-du-ng/ngu-c-c-s-a-d-c.html" ><span>Thực phẩm dinh dưỡng đóng gói</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-2-3-3 category-item last"><a href="https://mmpro.vn/d-h-p-d-kho/d-u-ng-dinh-du-ng/s-a-d-c.html" ><span>Sữa bột</span></a><span class="categories-menu-icon"></span></li></ul></li><li  class="level1 nav-2-4 category-item last parent"><a href="https://mmpro.vn/d-h-p-d-kho/banh-k-o-cac-lo-i.html" ><span>Bánh - Kẹo các loại</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-2-4-1 category-item first"><a href="https://mmpro.vn/d-h-p-d-kho/banh-k-o-cac-lo-i/banh-quy-x-p-nu-ng.html" ><span>Bánh các loại</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-2-4-2 category-item"><a href="https://mmpro.vn/d-h-p-d-kho/banh-k-o-cac-lo-i/k-o-cac-lo-i.html" ><span>Kẹo các loại</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-2-4-3 category-item"><a href="https://mmpro.vn/d-h-p-d-kho/banh-k-o-cac-lo-i/banh-quy-banh-x-p.html" ><span>Bánh dinh dưỡng</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-2-4-4 category-item last"><a href="https://mmpro.vn/d-h-p-d-kho/banh-k-o-cac-lo-i/snack-socola.html" ><span>Snacks</span></a><span class="categories-menu-icon"></span></li></ul></li></ul></li><li  class="level0 nav-3 category-item level-top parent"><a href="https://mmpro.vn/beer-beverage.html"  class="level-top" ><span>Đồ uống các loại</span></a><span class="categories-menu-icon"></span><ul class="level0 submenu"><li  class="level1 nav-3-1 category-item first parent"><a href="https://mmpro.vn/catalog/category/view/s/nu-c-gi-i-khat/id/4754/" ><span>Nước giải khát</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-3-1-1 category-item first"><a href="https://mmpro.vn/catalog/category/view/s/nu-c-u-ng-co-ga/id/4867/" ><span>Nước uống có ga</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-3-1-2 category-item last"><a href="https://mmpro.vn/catalog/category/view/s/nu-c-u-ng-khong-ga/id/4868/" ><span>Nước uống không ga</span></a><span class="categories-menu-icon"></span></li></ul></li><li  class="level1 nav-3-2 category-item last parent"><a href="https://mmpro.vn/beer-beverage/nu-c-u-ng-co-c-n.html" ><span>Đồ uống có cồn</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-3-2-1 category-item first"><a href="https://mmpro.vn/beer-beverage/nu-c-u-ng-co-c-n/bia.html" ><span>Bia</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-3-2-2 category-item"><a href="https://mmpro.vn/beer-beverage/nu-c-u-ng-co-c-n/ru-u-m-nh.html" ><span>Rượu mạnh</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-3-2-3 category-item"><a href="https://mmpro.vn/beer-beverage/nu-c-u-ng-co-c-n/ru-u-d-u-ng-len-men.html" ><span>Đồ uống lên men</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-3-2-4 category-item"><a href="https://mmpro.vn/beer-beverage/nu-c-u-ng-co-c-n/ru-u-whisky-cac-lo-i.html" ><span>Rượu whisky</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-3-2-5 category-item last"><a href="https://mmpro.vn/beer-beverage/nu-c-u-ng-co-c-n/ru-u-vang.html" ><span>Rượu vang</span></a><span class="categories-menu-icon"></span></li></ul></li></ul></li><li  class="level0 nav-4 category-item level-top parent"><a href="https://mmpro.vn/d-gia-d-ng.html"  class="level-top" ><span>Đồ gia dụng</span></a><span class="categories-menu-icon"></span><ul class="level0 submenu"><li  class="level1 nav-4-1 category-item first parent"><a href="https://mmpro.vn/d-gia-d-ng/cham-soc-co-th.html" ><span>Chăm sóc cơ thể</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-4-1-1 category-item first"><a href="https://mmpro.vn/d-gia-d-ng/cham-soc-co-th/s-n-ph-m-cho-nam-gi-i.html" ><span>Sản phẩm cho nam</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-1-2 category-item"><a href="https://mmpro.vn/d-gia-d-ng/cham-soc-co-th/cham-soc-rang-mi-ng.html" ><span>Chăm sóc răng miệng</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-1-3 category-item"><a href="https://mmpro.vn/d-gia-d-ng/cham-soc-co-th/d-dung-khach-s-n.html" ><span>Đồ dùng khách sạn</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-1-4 category-item"><a href="https://mmpro.vn/d-gia-d-ng/cham-soc-co-th/cham-soc-tr-em.html" ><span>Chăm sóc bé</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-1-5 category-item"><a href="https://mmpro.vn/d-gia-d-ng/cham-soc-co-th/lam-s-ch-co-th.html" ><span>Làm sạch cơ thể</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-1-6 category-item"><a href="https://mmpro.vn/d-gia-d-ng/cham-soc-co-th/du-ng-m-cho-da.html" ><span>Dưỡng ẩm cho da</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-1-7 category-item"><a href="https://mmpro.vn/d-gia-d-ng/cham-soc-co-th/cham-soc-da-m-t.html" ><span>Chăm sóc da mặt</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-1-8 category-item last"><a href="https://mmpro.vn/d-gia-d-ng/cham-soc-co-th/cham-soc-toc.html" ><span>Chăm sóc tóc</span></a><span class="categories-menu-icon"></span></li></ul></li><li  class="level1 nav-4-2 category-item parent"><a href="https://mmpro.vn/d-gia-d-ng/v-sinh-nha-c-a.html" ><span>Vệ sinh nhà cửa</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-4-2-1 category-item first"><a href="https://mmpro.vn/d-gia-d-ng/v-sinh-nha-c-a/t-ngu-i-l-n.html" ><span>Tã người lớn</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-2-2 category-item"><a href="https://mmpro.vn/d-gia-d-ng/v-sinh-nha-c-a/t-cho-be.html" ><span>Tã cho bé</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-2-3 category-item"><a href="https://mmpro.vn/d-gia-d-ng/v-sinh-nha-c-a/v-sinh-san-nha.html" ><span>Nước tẩy rửa</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-2-4 category-item"><a href="https://mmpro.vn/d-gia-d-ng/v-sinh-nha-c-a/bang-v-sinh-dung-d-ch-v-sinh.html" ><span>Băng vệ sinh - Dung dịch vệ sinh</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-2-5 category-item"><a href="https://mmpro.vn/d-gia-d-ng/v-sinh-nha-c-a/x-t-phong-con-trung.html" ><span>Diệt côn trùng</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-2-6 category-item"><a href="https://mmpro.vn/d-gia-d-ng/v-sinh-nha-c-a/b-t-gi-t-nu-c-x-v-i.html" ><span>Bột giặt - Nước giặt - Nước xả </span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-2-7 category-item"><a href="https://mmpro.vn/d-gia-d-ng/v-sinh-nha-c-a/khan-gi-y-khan-u-t.html" ><span>Khăn giấy - Khăn ướt</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-2-8 category-item last"><a href="https://mmpro.vn/d-gia-d-ng/v-sinh-nha-c-a/sap-thom-x-t-phong.html" ><span>Sáp thơm - Xịt phòng</span></a><span class="categories-menu-icon"></span></li></ul></li><li  class="level1 nav-4-3 category-item last parent"><a href="https://mmpro.vn/d-gia-d-ng/trang-tri-nha-c-a.html" ><span>Hàng gia dụng</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-4-3-1 category-item first"><a href="https://mmpro.vn/d-gia-d-ng/trang-tri-nha-c-a/d-ng-c-gi-t-i.html" ><span>Dụng cụ giặt ủi</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-3-2 category-item"><a href="https://mmpro.vn/d-gia-d-ng/trang-tri-nha-c-a/d-ng-c-v-sinh.html" ><span>Dụng cụ vệ sinh</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-3-3 category-item"><a href="https://mmpro.vn/d-gia-d-ng/trang-tri-nha-c-a/d-dung-m-t-l-n.html" ><span>Đồ dùng một lần</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-3-4 category-item"><a href="https://mmpro.vn/d-gia-d-ng/trang-tri-nha-c-a/tui-rac-tui-nilon.html" ><span>Túi rác - Túi nilon</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-3-5 category-item"><a href="https://mmpro.vn/d-gia-d-ng/trang-tri-nha-c-a/mang-b-c-tui-th-c-ph-m.html" ><span>Màng bọc - Túi thực phẩm</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-4-3-6 category-item last"><a href="https://mmpro.vn/d-gia-d-ng/trang-tri-nha-c-a/n-n-cac-lo-i.html" ><span>Nến các loại</span></a><span class="categories-menu-icon"></span></li></ul></li></ul></li><li  class="level0 nav-5 category-item last level-top parent"><a href="https://mmpro.vn/van-phong-ph-m.html"  class="level-top" ><span>Văn phòng phẩm -  Điện, điện tử</span></a><span class="categories-menu-icon"></span><ul class="level0 submenu"><li  class="level1 nav-5-1 category-item first parent"><a href="https://mmpro.vn/van-phong-ph-m/van-phong-ph-m.html" ><span>Văn phòng phẩm</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-5-1-1 category-item first"><a href="https://mmpro.vn/van-phong-ph-m/van-phong-ph-m/gi-y-bia.html" ><span>Đồ dùng văn phòng</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-5-1-2 category-item"><a href="https://mmpro.vn/van-phong-ph-m/van-phong-ph-m/thi-t-b-van-phong.html" ><span>Thiết bị văn phòng</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-5-1-3 category-item"><a href="https://mmpro.vn/van-phong-ph-m/van-phong-ph-m/bang-keo.html" ><span>Băng keo</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-5-1-4 category-item"><a href="https://mmpro.vn/van-phong-ph-m/van-phong-ph-m/d-ng-c-h-c-t-p.html" ><span>Dụng cụ học tập</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-5-1-5 category-item"><a href="https://mmpro.vn/van-phong-ph-m/van-phong-ph-m/vi-t-cac-lo-i.html" ><span>Viết các loại</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-5-1-6 category-item last"><a href="https://mmpro.vn/van-phong-ph-m/van-phong-ph-m/trang-tri-van-phong.html" ><span>Trang trí văn phòng</span></a><span class="categories-menu-icon"></span></li></ul></li><li  class="level1 nav-5-2 category-item parent"><a href="https://mmpro.vn/van-phong-ph-m/d-di-n-t.html" ><span>Đồ điện tử </span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-5-2-1 category-item first"><a href="https://mmpro.vn/van-phong-ph-m/d-di-n-t/pin-s-c-pin.html" ><span>Pin - Sạc pin</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-5-2-2 category-item last"><a href="https://mmpro.vn/van-phong-ph-m/d-di-n-t/tivi-ph-kien.html" ><span>Tivi - Phụ kiên</span></a><span class="categories-menu-icon"></span></li></ul></li><li  class="level1 nav-5-3 category-item last parent"><a href="https://mmpro.vn/van-phong-ph-m/cac-lo-i-khac.html" ><span>Máy văn phòng - Phụ kiện</span></a><span class="categories-menu-icon"></span><ul class="level1 submenu"><li  class="level2 nav-5-3-1 category-item first"><a href="https://mmpro.vn/van-phong-ph-m/cac-lo-i-khac/may-tinh-ph-ki-n.html" ><span>Máy tính - Phụ kiện</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-5-3-2 category-item"><a href="https://mmpro.vn/van-phong-ph-m/cac-lo-i-khac/di-n-tho-i-ph-ki-n.html" ><span>Điện thoại - Phụ kiện</span></a><span class="categories-menu-icon"></span></li><li  class="level2 nav-5-3-3 category-item last"><a href="https://mmpro.vn/van-phong-ph-m/cac-lo-i-khac/thi-t-b-luu-tr.html" ><span>Thiết bị lưu trữ</span></a><span class="categories-menu-icon"></span></li></ul></li></ul></li>                    </ul>
+    </div>
+</nav>
+<script type="text/x-magento-init">
+{
+    "*": {
+        "customMenu": {},
+        "customPdp": {}
+    }
+}
+</script>
+                </div>
+                    </div>
+    </div>
+<div class="home-banner">        <div class="carousel-container">
+        <div id="banner-slider">
+                        <div id="bannerslider-list-items-3-60f940fc40bfb" class="bannerslider">
+                                                                            <div class="banner-item banner-slider">                                            <div class="item-image">
+                                                            <picture>
+                                    <source media="(max-width:768px)" srcset="https://mmpro.vn/media/mageplaza/bannerslider/banner/image/h/o/home-banner-mobile-03_1.png">
+                                    <img class="img-responsive no" data-src="https://mmpro.vn/media/mageplaza/bannerslider/banner/image/h/o/home-banner-03_1.png" src="https://mmpro.vn/media/mageplaza/bannerslider/banner/image/h/o/home-banner-03_1.png" alt="Banner" />
+                                </picture>
+                                                                    <div class="banner-container" style="text-align:left">
+                                        <h2 class="banner-title">Tươi sạch an toàn từ nông trại đến bàn ăn</h2>
+                                                                                    <div class="banner-desc"><p>Lựa chọn hàng đầu của thực phẩm tươi sống cho hơn 1 triệu khách hàng nhà hàng, khách sạn và căn tin.</p></div>
+                                        
+                                                                            </div>
+                                                                                    </div>
+                                                                                                                    </div><div class="banner-item banner-slider">                                            <div class="item-image">
+                                                            <picture>
+                                    <source media="(max-width:768px)" srcset="https://mmpro.vn/media/mageplaza/bannerslider/banner/image/h/o/home-banner-mobile-02_1.png">
+                                    <img class="img-responsive no" data-src="https://mmpro.vn/media/mageplaza/bannerslider/banner/image/h/o/home-banner-02_1.png" src="https://mmpro.vn/media/mageplaza/bannerslider/banner/image/h/o/home-banner-02_1.png" alt="Banner" />
+                                </picture>
+                                                                    <div class="banner-container" style="text-align:left">
+                                        <h2 class="banner-title">Tươi sạch an toàn từ nông trại đến bàn ăn</h2>
+                                                                                    <div class="banner-desc"><p>Lựa chọn hàng đầu của thực phẩm tươi sống cho hơn 1 triệu khách hàng nhà hàng, khách sạn và căn tin.</p></div>
+                                        
+                                                                                    <a href="cleaning.html" class="abutton banner-btn btn-outline">Tìm hiểu thêm</a>
+                                                                            </div>
+                                                                                    </div>
+                                                                                                                    </div><div class="banner-item banner-slider">                                            <div class="item-image">
+                                                            <picture>
+                                    <source media="(max-width:768px)" srcset="https://mmpro.vn/media/mageplaza/bannerslider/banner/image/h/o/home-banner-mobile-01_1.png">
+                                    <img class="img-responsive no" data-src="https://mmpro.vn/media/mageplaza/bannerslider/banner/image/h/o/home-banner-01_1.png" src="https://mmpro.vn/media/mageplaza/bannerslider/banner/image/h/o/home-banner-01_1.png" alt="Banner" />
+                                </picture>
+                                                                    <div class="banner-container" style="text-align:left">
+                                        <h2 class="banner-title">Tươi sạch an toàn từ nông trại đến bàn ăn</h2>
+                                                                                    <div class="banner-desc"><p>Lựa chọn hàng đầu của thực phẩm tươi sống cho hơn 1 triệu khách hàng nhà hàng, khách sạn và căn tin.</p></div>
+                                        
+                                                                                    <a href="/commodities.html" class="abutton banner-btn btn-outline">Tìm hiểu thêm</a>
+                                                                            </div>
+                                                                                    </div>
+                                        </div>                            </div>
+        </div>
+            </div>
+
+        <script>
+        require(['jquery', 'js/plugins/slider/slick.min'], function ($) {
+            $('#bannerslider-list-items-3-60f940fc40bfb').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                fade: false,
+                arrows: true,
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 6000,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            dots: false,
+                            arrows: false
+                        }
+                    },
+                ]
+            });
+
+        });
+    </script>
+</div><main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+<div class="columns"><div class="column main"><div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+    <!-- ko if: cookieMessages && cookieMessages.length > 0 -->
+    <div role="alert" data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+
+    <!-- ko if: messages().messages && messages().messages.length > 0 -->
+    <div role="alert" data-bind="foreach: { data: messages().messages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }
+</script>
+</div><section class="home-section section-top container">
+    <div class="block-brands">
+        <div class="block-title">
+            <strong role="heading" aria-level="2">Khách Hàng Của Chúng Tôi</strong>
+        </div>
+        <div class="brand-images block-content">
+                                        <div class="brand-item"><a href="https://mmpro.vn/catalog/category/view/id/5132/">
+                        <img src="https://mmpro.vn//media/catalog/category/1.jpeg" alt="">
+                    </a>
+                </div>
+                            <div class="brand-item"><a href="https://mmpro.vn/catalog/category/view/id/5133/">
+                        <img src="https://mmpro.vn//media/catalog/category/Untitled.png" alt="">
+                    </a>
+                </div>
+                            <div class="brand-item"><a href="https://mmpro.vn/catalog/category/view/id/5134/">
+                        <img src="https://mmpro.vn//media/catalog/category/3.png" alt="">
+                    </a>
+                </div>
+                            <div class="brand-item"><a href="https://mmpro.vn/catalog/category/view/id/5135/">
+                        <img src="https://mmpro.vn//media/catalog/category/1280px-Highlands_Coffee_logo.svg.png" alt="">
+                    </a>
+                </div>
+                            <div class="brand-item"><a href="https://mmpro.vn/catalog/category/view/id/5136/">
+                        <img src="https://mmpro.vn//media/catalog/category/512x512.7d6ca8547a050a70ad667543e8d0eb94.ai.1.png" alt="">
+                    </a>
+                </div>
+                    </div>
+    </div>
+
+<div class="custom-widget why-choose-us">
+    <div class="block-content">
+        <h3 class="block-title">Tại Sao Chọn Chúng Tôi</h3>
+        <p class="block-desc">Là Đối tác Hàng đầu cho khách hàng B2B, chúng tôi cung cấp Giải pháp Phù hợp cho các nhóm Khách hàng Chuyên nghiệp, đáp ứng các yêu cầu Chất lượng cao với Đa dạng chủng loại hàng hóa đi cùng Chính sách Giá cả cạnh tranh.</p>
+        <a class="block-link btn-link" href="https://mmpro.vn/our-solutions">Tìm hiểu thêm</a>
+    </div>
+        <div class="block-image">
+        <a href="https://mmpro.vn/our-solutions">
+            <img alt="Tại Sao Chọn Chúng Tôi" src="https://mmpro.vn/media/block-image-why.png">
+        </a>
+    </div>
+    </div>
+
+<div class="custom-widget benefit">
+    <div class="block-content">
+        <h3 class="block-title">Liên Hệ Doanh Nghiệp</h3>
+        <p class="block-desc">Khách hàng B2B nhận được nhiều lợi ích: mức chiết khấu cạnh tranh, đội ngũ chăm sóc khách hàng tận tâm và truy xuất hoá đơn minh bạch giúp quản lý tài chính hiệu quả hơn.</p>
+        <a class="block-link btn-link" href="https://mmpro.vn/contact">Liên hệ ngay</a>
+    </div>
+    </div>
+</section><input name="form_key" type="hidden" value="LxLAlLUcAF7oK1JT" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+    <script>
+        window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/mmpro.vn\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/mmpro.vn\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/mmpro.vn\/"};
+    </script>
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fmmpro.vn\u002Fstatic\u002Fversion1625452655\u002Ffrontend\u002FSmartosc\u002FMM\u002Fvi_VN\u002Fimages\u002Floader\u002D1.gif"
+            }
+        }
+    </script>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/section-config": {
+                "sections": {"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":["*"],"customer\/account\/createpost":["*"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart","directory-data","quote-list"],"checkout\/cart\/delete":["cart","quote-list"],"checkout\/cart\/updatepost":["cart","quote-list"],"checkout\/cart\/updateitemoptions":["cart","quote-list"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart","quote-list"],"checkout\/cart\/estimateupdatepost":["cart","quote-list"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items","quote-list"],"checkout\/sidebar\/removeitem":["cart","quote-list"],"checkout\/sidebar\/updateitemqty":["cart","quote-list"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","instant-purchase","quote-list"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","quote-list"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data","quote-list"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase","quote-list"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"multishipping\/checkout\/overviewpost":["cart"],"authorizenet\/directpost_payment\/place":["cart","checkout-data"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"aw_ctq\/requestquote\/submit":["quote-list"],"aw_ctq\/quotelist\/add":["quote-list","wishlist"],"customer\/anonymous\/add":["cart"]},
+                "clientSideSections": ["checkout-data","cart-data","chatData"],
+                "baseUrls": ["https:\/\/mmpro.vn\/","http:\/\/mmpro.vn\/"],
+                "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","instant-purchase","persistent","review","wishlist","quote-list","chatData","customer-login","recently_viewed_product","recently_compared_product","product_data_storage"]            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/customer-data": {
+                "sectionLoadUrl": "https\u003A\u002F\u002Fmmpro.vn\u002Fcustomer\u002Fsection\u002Fload\u002F",
+                "expirableSectionLifetime": 60,
+                "expirableSectionNames": ["cart","persistent","quote-list"],
+                "cookieLifeTime": "3600",
+                "updateSessionUrl": "https\u003A\u002F\u002Fmmpro.vn\u002Fcustomer\u002Faccount\u002FupdateSession\u002F"
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/invalidation-processor": {
+                "invalidationRules": {
+                    "website-rule": {
+                        "Magento_Customer/js/invalidation-rules/website-rule": {
+                            "scopeConfig": {
+                                "websiteId": "1"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/mmpro.vn\/page_cache\/block\/render\/","handles":["default","cms_index_index","cms_page_view","cms_index_index_id_home"],"originalRequest":{"route":"cms","controller":"index","action":"index","uri":"\/"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+<section class="home-section section-catalog">
+<div class="home-category">
+    <div id="categoryTabs">
+                    <ul class="tab-title category-parents">
+                                                                            <li data-role="collapsible">
+                        <a data-toggle="trigger" href="#tabs-4296">
+                            Thực phẩm tươi sống                        </a>
+                    </li>
+                                                                            <li data-role="collapsible">
+                        <a data-toggle="trigger" href="#tabs-4753">
+                            Đồ hộp - Đồ khô                        </a>
+                    </li>
+                                                                            <li data-role="collapsible">
+                        <a data-toggle="trigger" href="#tabs-4794">
+                            Đồ gia dụng                        </a>
+                    </li>
+                                                                            <li data-role="collapsible">
+                        <a data-toggle="trigger" href="#tabs-5090">
+                            Văn phòng phẩm -  Điện, điện tử                        </a>
+                    </li>
+                                                                            <li data-role="collapsible">
+                        <a data-toggle="trigger" href="#tabs-5142">
+                            Đồ uống các loại                        </a>
+                    </li>
+                            </ul>
+
+                                                                            <div id="tabs-4296" data-role="content" class="tab-content">
+                    <h4 class="cate-desc">Thực phẩm tươi sống</h4>
+                    <ul class="sub-category">
+                                                                                <li class="item" id="4300">
+                                <a href="https://mmpro.vn/thuc-pham-tuoi-song/thit.html">
+                                    <h6 class="category-name">Thịt</h6>
+                                                                            <img class="category-image" alt="Thịt" src="https://mmpro.vn//media/catalog/category/130615_21306150_3.jpg"/>
+                                                                    </a>
+                            </li>
+                                                                                <li class="item" id="4299">
+                                <a href="https://mmpro.vn/thuc-pham-tuoi-song/rau-cu-trai-cay.html">
+                                    <h6 class="category-name">Rau củ-Trái cây</h6>
+                                                                            <img class="category-image" alt="Rau củ-Trái cây" src="https://mmpro.vn//media/catalog/category/76401_20764012_2.jpg"/>
+                                                                    </a>
+                            </li>
+                                                                                <li class="item" id="4298">
+                                <a href="https://mmpro.vn/thuc-pham-tuoi-song/hai-san.html">
+                                    <h6 class="category-name">Hải sản</h6>
+                                                                            <img class="category-image" alt="Hải sản" src="https://mmpro.vn//media/catalog/category/17715_20177157_2.jpg"/>
+                                                                    </a>
+                            </li>
+                                                                                <li class="item" id="5143">
+                                <a href="https://mmpro.vn/thuc-pham-tuoi-song/frozen.html">
+                                    <h6 class="category-name"> Đồ đông lạnh</h6>
+                                                                            <img class="category-image" alt=" Đồ đông lạnh" src="https://mmpro.vn//media/catalog/category/334068_23340688.jpg"/>
+                                                                    </a>
+                            </li>
+                                                                                <li class="item" id="5144">
+                                <a href="https://mmpro.vn/thuc-pham-tuoi-song/th-c-ph-m-ch-bi-n-s-n.html">
+                                    <h6 class="category-name">Chế biến sẵn</h6>
+                                                                            <img class="category-image" alt="Chế biến sẵn" src="https://mmpro.vn//media/catalog/category/177084_21770845_2.jpg"/>
+                                                                    </a>
+                            </li>
+                                                                                <li class="item" id="4765">
+                                <a href="https://mmpro.vn/thuc-pham-tuoi-song/th-c-ph-m-ng-n-ngay.html">
+                                    <h6 class="category-name">Ngắn ngày</h6>
+                                                                            <img class="category-image" alt="Ngắn ngày" src="https://mmpro.vn//media/catalog/category/s_a_anchor_1_l_t.jpg"/>
+                                                                    </a>
+                            </li>
+                                            </ul>
+                    <a href="https://mmpro.vn/thuc-pham-tuoi-song.html" class="button btn-view-all">View All</a>
+                </div>
+                                                                            <div id="tabs-4753" data-role="content" class="tab-content">
+                    <h4 class="cate-desc">Đồ hộp - Đồ khô</h4>
+                    <ul class="sub-category">
+                                                                                <li class="item" id="4963">
+                                <a href="https://mmpro.vn/d-h-p-d-kho/g-o.html">
+                                    <h6 class="category-name">Bánh-Nguyên Liệu</h6>
+                                                                    </a>
+                            </li>
+                                                                                <li class="item" id="4756">
+                                <a href="https://mmpro.vn/d-h-p-d-kho/d-u-an-nu-c-ch-m-gia-v.html">
+                                    <h6 class="category-name">Gia vị - Đồ khô</h6>
+                                                                    </a>
+                            </li>
+                                                                                <li class="item" id="4980">
+                                <a href="https://mmpro.vn/d-h-p-d-kho/d-u-ng-dinh-du-ng.html">
+                                    <h6 class="category-name">Thực phẩm dinh dưỡng</h6>
+                                                                    </a>
+                            </li>
+                                                                                <li class="item" id="4755">
+                                <a href="https://mmpro.vn/d-h-p-d-kho/banh-k-o-cac-lo-i.html">
+                                    <h6 class="category-name">Bánh - Kẹo các loại</h6>
+                                                                    </a>
+                            </li>
+                                            </ul>
+                    <a href="https://mmpro.vn/d-h-p-d-kho.html" class="button btn-view-all">View All</a>
+                </div>
+                                                                            <div id="tabs-4794" data-role="content" class="tab-content">
+                    <h4 class="cate-desc">Đồ gia dụng</h4>
+                    <ul class="sub-category">
+                                                                                <li class="item" id="4940">
+                                <a href="https://mmpro.vn/d-gia-d-ng/cham-soc-co-th.html">
+                                    <h6 class="category-name">Chăm sóc cơ thể</h6>
+                                                                    </a>
+                            </li>
+                                                                                <li class="item" id="4912">
+                                <a href="https://mmpro.vn/d-gia-d-ng/v-sinh-nha-c-a.html">
+                                    <h6 class="category-name">Vệ sinh nhà cửa</h6>
+                                                                    </a>
+                            </li>
+                                                                                <li class="item" id="4797">
+                                <a href="https://mmpro.vn/d-gia-d-ng/trang-tri-nha-c-a.html">
+                                    <h6 class="category-name">Hàng gia dụng</h6>
+                                                                    </a>
+                            </li>
+                                            </ul>
+                    <a href="https://mmpro.vn/d-gia-d-ng.html" class="button btn-view-all">View All</a>
+                </div>
+                                                                            <div id="tabs-5090" data-role="content" class="tab-content">
+                    <h4 class="cate-desc">Văn phòng phẩm -  Điện, điện tử</h4>
+                    <ul class="sub-category">
+                                                                                <li class="item" id="5185">
+                                <a href="https://mmpro.vn/van-phong-ph-m/van-phong-ph-m.html">
+                                    <h6 class="category-name">Văn phòng phẩm</h6>
+                                                                    </a>
+                            </li>
+                                                                                <li class="item" id="5189">
+                                <a href="https://mmpro.vn/van-phong-ph-m/d-di-n-t.html">
+                                    <h6 class="category-name">Đồ điện tử </h6>
+                                                                    </a>
+                            </li>
+                                                                                <li class="item" id="5126">
+                                <a href="https://mmpro.vn/van-phong-ph-m/cac-lo-i-khac.html">
+                                    <h6 class="category-name">Máy văn phòng - Phụ kiện</h6>
+                                                                    </a>
+                            </li>
+                                            </ul>
+                    <a href="https://mmpro.vn/van-phong-ph-m.html" class="button btn-view-all">View All</a>
+                </div>
+                                                                            <div id="tabs-5142" data-role="content" class="tab-content">
+                    <h4 class="cate-desc">Đồ uống các loại</h4>
+                    <ul class="sub-category">
+                                                                                <li class="item" id="4754">
+                                <a href="https://mmpro.vn/catalog/category/view/s/d-u-ng-cac-lo-i/id/4754/">
+                                    <h6 class="category-name">Nước giải khát</h6>
+                                                                    </a>
+                            </li>
+                                                                                <li class="item" id="4928">
+                                <a href="https://mmpro.vn/beer-beverage/nu-c-u-ng-co-c-n.html">
+                                    <h6 class="category-name">Đồ uống có cồn</h6>
+                                                                    </a>
+                            </li>
+                                            </ul>
+                    <a href="https://mmpro.vn/beer-beverage.html" class="button btn-view-all">View All</a>
+                </div>
+                        </div>
+</div>
+
+<script>
+    require([
+        'jquery',
+        'jquery/ui',
+        'mage/tabs'], function ($) {
+        $("#categoryTabs").tabs({
+            "openedState": "active",
+            "loadingClass": "loading"
+        });
+    });
+</script>
+</section>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "cmsScript": {}
+        }
+    }
+</script>
+<section class="home-section section-bottom container">
+<div class="custom-widget block-vertical">
+    <div class="block-content">
+        <h3 class="block-title">Giải Pháp Buffet</h3>
+        <p class="block-desc">Quy trình nghiêm ngặt đảm bảo an toàn vệ sinh thực phẩm, giữ được chất dinh dưỡng tự nhiên và độ tươi ngon hấp dẫn. MM Mega Market Việt Nam với nguồn hàng lớn và ổn định, chính sách giá hợp lý luôn sẵn sàng đáp ứng mọi nhu cầu từ đối tác.</p>
+        <a class="block-link btn-link" href="https://mmpro.vn/buffet-solution.html">Xem thêm...</a>
+    </div>
+        <div class="block-image">
+        <a href="https://mmpro.vn/buffet-solution.html">
+            <img alt="Giải Pháp Buffet" src="https://mmpro.vn/media/home-solution-01.jpeg">
+        </a>
+    </div>
+    </div>
+
+<div class="custom-widget block-horizontal-left">
+    <div class="block-content">
+        <h3 class="block-title">Giải Pháp Thực Phẩm Tươi Sống</h3>
+        <p class="block-desc">Rau củ quả, thịt cá, hải sản</p>
+        <a class="block-link btn-link" href="https://mmpro.vn/ultra-fresh.html">Xem thêm...</a>
+    </div>
+        <div class="block-image">
+        <a href="https://mmpro.vn/ultra-fresh.html">
+            <img alt="Giải Pháp Thực Phẩm Tươi Sống" src="https://mmpro.vn/media/2.jpeg">
+        </a>
+    </div>
+    </div>
+
+<div class="custom-widget block-horizontal-right">
+    <div class="block-content">
+        <h3 class="block-title">Giải pháp Minimart</h3>
+        <p class="block-desc">Đa dạng sự lựa chọn về sản phẩm, thương hiệu</p>
+        <a class="block-link btn-link" href="https://mmpro.vn/commodities.html">Xem thêm...</a>
+    </div>
+        <div class="block-image">
+        <a href="https://mmpro.vn/commodities.html">
+            <img alt="Giải pháp Minimart" src="https://mmpro.vn/media/home-solution-03.jpeg">
+        </a>
+    </div>
+    </div>
+
+<div class="custom-widget block-fullwidth">
+    <div class="block-content">
+        <h3 class="block-title">Giải Pháp Làm Sạch</h3>
+        <p class="block-desc">chúng tôi cũng xem xét kỹ lưỡng tiêu chí đầu vào, đảm bảo thỏa mãn các tiêu chuẩn an toàn</p>
+        <a class="block-link btn-link" href="https://mmpro.vn/cleaning.html">Xem thêm...</a>
+    </div>
+        <div class="block-image">
+        <a href="https://mmpro.vn/cleaning.html">
+            <img alt="Giải Pháp Làm Sạch" src="https://mmpro.vn/media/home-solution-04.jpeg">
+        </a>
+    </div>
+    </div>
+<div class="widget block block-static-block">
+    <div class="home-contact-faq">
+<div class="row">
+<div class="col-image col-xs-12 col-sm-12 col-md-2 col-lg-2"><img src="https://mmpro.vn/media/cms_page/home/home-support.png" alt="support"></div>
+<div class="col-link col-xs-12 col-sm-12 col-md-5 col-lg-5">
+<div class="block-link">
+<p>Có câu hỏi nào không ?</p>
+<a class="alink" href="/faq">Đọc câu hỏi thường gặp của chúng tôi</a></div>
+<div class="block-link">
+<p>Cần tìm hiểu thêm?</p>
+<a class="alink" href="/contact">Liên hệ với bộ phận hỗ trợ bán hàng của chúng tôi</a></div>
+</div>
+<div class="col-link col-xs-12 col-sm-12 col-md-5 col-lg-5">
+<div class="block-link">
+<p>Hoặc gọi Hotline của chúng tôi để được những người khác hỗ trợ</p>
+<a class="alink link-phone" href="tel:1800 799998">1800 799998</a></div>
+</div>
+</div>
+</div></div>
+
+<div class="block home-flyers">
+    <div class="block-title">
+        <h4>Tải Tờ Rơi Của Chúng Tôi</h4>
+    </div>
+            <ul class="list-flyers">
+                        <li class="item">
+                <a href="https://mmpro.vn/media/pdf_info/1/_/1_tap_hoa.pdf" target="_blank" >
+                    <img src="https://mmpro.vn/media/113_TH_227_1.png" alt="TapHoa Promotion July">
+                </a>
+                <h6>TapHoa Promotion July</h6>
+            </li>
+                        <li class="item">
+                <a href="https://mmpro.vn/media/pdf_info/1/_/1_b2b_all_v2.pdf" target="_blank" >
+                    <img src="https://mmpro.vn/media/113_1.227_1.png" alt="Promotion Catalogue in July">
+                </a>
+                <h6>Promotion Catalogue in July</h6>
+            </li>
+                        <li class="item">
+                <a href="https://mmpro.vn/media/pdf_info/2/-/2-3_b2b.pdf" target="_blank" >
+                    <img src="https://mmpro.vn/media/1134_227_2.png" alt="Promotion Catalogue in July">
+                </a>
+                <h6>Promotion Catalogue in July</h6>
+            </li>
+                        <li class="item">
+                <a href="https://mmpro.vn/media/pdf_info/4/-/4-5_ll_b2b_nam.pdf" target="_blank" >
+                    <img src="https://mmpro.vn/media/11345.227_1.png" alt="Promotion Catalogue in July">
+                </a>
+                <h6>Promotion Catalogue in July</h6>
+            </li>
+                        <li class="item">
+                <a href="https://mmpro.vn/media/pdf_info/6/-/6-7_nam.pdf" target="_blank" >
+                    <img src="https://mmpro.vn/media/11367.227_1.png" alt="Promotion Catalogue in July">
+                </a>
+                <h6>Promotion Catalogue in July</h6>
+            </li>
+                        <li class="item">
+                <a href="https://mmpro.vn/media/pdf_info/8/_/8__ll_b2b_nam.pdf" target="_blank" >
+                    <img src="https://mmpro.vn/media/11380.227.png" alt="Promotion Catalogue in Jul">
+                </a>
+                <h6>Promotion Catalogue in Jul</h6>
+            </li>
+                    </ul>
+    </div>
+</section></div></div></main><footer class="page-footer"><div class="footer content"><div class="footer-center"><div class="footer-contact"><img src="https://mmpro.vn/media/cms_page/home/logo-mmpro.png" alt="MMPro" width="108" height="32">
+<p>Zone B, An Phu - An Khanh Urban Area, Ward An Phu, Thu Duc City, HCMC</p>
+<a class="phone" href="tel:+028 35 190 390">+028 35 190 390</a> <a class="email" href="mailto:contactus@mmvietnam.com">contactus@mmvietnam.com</a>
+<ul class="social-links">
+<li class="linkin"><a title="Mega Market Linked-in" href="https://www.linkedin.com/company/mm-mega-market-vietnam/" target="_blank" rel="noopener">Mega Market Linked-in</a></li>
+<li class="instagram"><a title="Mega Market Instagram" href="https://www.instagram.com/mmmegamarketvietnam/" target="_blank" rel="noopener">Mega Market Instagram</a></li>
+<li class="facebook"><a title="Mega Market Facebook" href="https://www.facebook.com/MMMegaMarketVietnam" target="_blank" rel="noopener">Mega Market Facebook</a></li>
+<li class="youtube"><a title="Mega Market Channel" href="https://www.youtube.com/c/MMMegaMarketVietnam/featured" target="_blank" rel="noopener">Mega Market Channel</a></li>
+</ul>
+</div><div class="block mobile-collapse js-mobile-collapse">
+<div class="block-title"><strong>Our Branches</strong></div>
+<div class="block-content">
+<ul>
+<li><a href="https://mmpro.vn/"><span style="text-decoration: underline;">Noth's Store</span></a></li>
+<li><a href="https://mmpro.vn/"><span style="text-decoration: underline;">Central's Store</span></a></li>
+<li><a href="https://mmpro.vn/"><span style="text-decoration: underline;">South's Store</span></a></li>
+</ul>
+</div>
+</div><div class="block mobile-collapse js-mobile-collapse">
+<div class="block-title"><strong>Thông tin công ty</strong></div>
+<div class="block-content">
+<ul>
+<li><a href="/about-us">Về chúng tôi</a></li>
+<li><a href="https://mmvietnam.com/san-pham/" target="blank">Cấu trúc &amp; Danh mục kinh doanh</a></li>
+<li><a href="https://mmvietnam.com/don-dau-xu-huong-moi/tin-tuc/mm-mega-market-thuong-hieu-4-nam-tuoi-cua-tap-doan-tcc-giu-vi-tri-thu-3-cong-ty-ban-le-uy-tin/" target="blank">Thành tựu</a></li>
+<li><a href="/our-awards">Giải thưởng</a></li>
+<li><a href="https://mmvietnam.com/tuyen-dung/" target="blank">Tuyển dụng</a></li>
+</ul>
+</div>
+</div></div>        <div class="switcher language switcher-language" data-ui-id="language-switcher" id="switcher-language">
+        <div class="actions dropdown options switcher-options">
+            <ul class=" switcher-dropdown"
+                data-target="dropdown">
+
+                                                                            <li class="view-mm_default_store_en switcher-option ">
+                        <a href="https://mmpro.vn/stores/store/redirect/___store/mm_default_store_en/___from_store/mm_default_store_vi/uenc/aHR0cHM6Ly9tbXByby52bi8_X19fc3RvcmU9bW1fZGVmYXVsdF9zdG9yZV9lbg%2C%2C/">
+                            ENG                        </a>
+                    </li>
+
+                                                                                                                    <li class="view-mm_default_store_vi switcher-option active">
+                        <a href="https://mmpro.vn/stores/store/redirect/___store/mm_default_store_vi/___from_store/mm_default_store_vi/uenc/aHR0cHM6Ly9tbXByby52bi8_X19fc3RvcmU9bW1fZGVmYXVsdF9zdG9yZV92aQ%2C%2C/">
+                            VIE                        </a>
+                    </li>
+
+                            </ul>
+        </div>
+    </div>
+
+<div class="footer-copyright">
+    <p>MM © 2020. All Rights Reserved.</p></div>
+
+<script type="text/x-magento-init">
+{
+    ".block.widget": {
+        "addToWishlist": {}
+    }
+}
+</script>
+
+</div></footer><script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "storage-manager": {
+                            "component": "Magento_Catalog/js/storage-manager",
+                            "appendTo": "",
+                            "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/mmpro.vn\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/mmpro.vn\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/mmpro.vn\/rest\/mm_default_store_vi\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/mmpro.vn\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}                        }
+                    }
+                }
+            }
+        }
+</script>
+
+
+</div>    </body>
+</html>

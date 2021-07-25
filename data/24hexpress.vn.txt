@@ -1,0 +1,1528 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="vi"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="vi"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="vi"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10" lang="vi"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="vi"> <!--<![endif]-->
+<head><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),this._loadEverythingNow()}async _loadEverythingNow(){this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{var n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){const n=e[t];Object.defineProperty(e,t,{get:n||function(){},set:n=>{e["rocket"+t]=n}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e?"rocket-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,r=document.createRange(),i=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),i.insertBefore(a,o)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mouseover","touchmove","touchstart","wheel"]);e._delayEventListeners(),e._delayJQueryReady(e),e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();
+</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=yes' />
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="pingback" href="https://24hexpress.vn/xmlrpc.php" />
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script type="rocketlazyloadscript" async src="https://www.googletagmanager.com/gtag/js?id=G-694689FJQ2"></script>
+	<script type="rocketlazyloadscript">
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-694689FJQ2');
+	</script>
+	<script type="rocketlazyloadscript" data-ad-client="ca-pub-5191506008464792" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+			<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+              var jnews_ajax_url = '/?ajax-request=jnews'
+			</script>
+			
+	<!-- This site is optimized with the Yoast SEO Premium plugin v16.6 (Yoast SEO v16.6) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Blog Chia Sẻ Tin Tức - 24hExpress.vn</title>
+	<meta name="description" content="24hexpress.vn là trang thông tin tổng hợp chia sẻ về những kiến thức về đời sống xã hôi, công nghệ, thể thao, giải trí," />
+	<link rel="canonical" href="https://24hexpress.vn/" />
+	<meta property="og:locale" content="vi_VN" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Blog Chia Sẻ Tin Tức - 24hExpress.vn" />
+	<meta property="og:description" content="24hexpress.vn là trang thông tin tổng hợp chia sẻ về những kiến thức về đời sống xã hôi, công nghệ, thể thao, giải trí," />
+	<meta property="og:url" content="https://24hexpress.vn/" />
+	<meta property="og:site_name" content="24hExpress.vn" />
+	<meta property="article:modified_time" content="2021-06-21T13:28:24+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Ước tính thời gian đọc" />
+	<meta name="twitter:data1" content="2 phút" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://24hexpress.vn/#/schema/person/67080109671542988349155b1e422c1c","name":"24hexpress.vn","image":{"@type":"ImageObject","@id":"https://24hexpress.vn/#personlogo","inLanguage":"vi","url":"https://24hexpress.vn/wp-content/uploads/2021/05/logo-nho.png","contentUrl":"https://24hexpress.vn/wp-content/uploads/2021/05/logo-nho.png","width":283,"height":187,"caption":"24hexpress.vn"},"logo":{"@id":"https://24hexpress.vn/#personlogo"},"sameAs":["https://24hexpress.vn"]},{"@type":"WebSite","@id":"https://24hexpress.vn/#website","url":"https://24hexpress.vn/","name":"24hExpress.vn","description":"Blog chia s\u1ebb tin t\u1ee9c online","publisher":{"@id":"https://24hexpress.vn/#/schema/person/67080109671542988349155b1e422c1c"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://24hexpress.vn/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"vi"},{"@type":"WebPage","@id":"https://24hexpress.vn/#webpage","url":"https://24hexpress.vn/","name":"Blog Chia S\u1ebb Tin T\u1ee9c - 24hExpress.vn","isPartOf":{"@id":"https://24hexpress.vn/#website"},"about":{"@id":"https://24hexpress.vn/#/schema/person/67080109671542988349155b1e422c1c"},"datePublished":"2021-02-22T10:48:47+00:00","dateModified":"2021-06-21T13:28:24+00:00","description":"24hexpress.vn l\u00e0 trang th\u00f4ng tin t\u1ed5ng h\u1ee3p chia s\u1ebb v\u1ec1 nh\u1eefng ki\u1ebfn th\u1ee9c v\u1ec1 \u0111\u1eddi s\u1ed1ng x\u00e3 h\u00f4i, c\u00f4ng ngh\u1ec7, th\u1ec3 thao, gi\u1ea3i tr\u00ed,","breadcrumb":{"@id":"https://24hexpress.vn/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://24hexpress.vn/"]}]},{"@type":"BreadcrumbList","@id":"https://24hexpress.vn/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Blog Chia S\u1ebb Tin T\u1ee9c"}]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin 24hExpress.vn &raquo;" href="https://24hexpress.vn/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dòng phản hồi 24hExpress.vn &raquo;" href="https://24hexpress.vn/comments/feed/" />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://24hexpress.vn/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://24hexpress.vn/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='kk-star-ratings-css'  href='https://24hexpress.vn/wp-content/plugins/kk-star-ratings/public/css/kk-star-ratings.css?ver=4.2.0' type='text/css' media='all' />
+<style id='kk-star-ratings-inline-css' type='text/css'>
+.kk-star-ratings .kksr-stars .kksr-star {
+        margin-right: 4px;
+    }
+    [dir="rtl"] .kk-star-ratings .kksr-stars .kksr-star {
+        margin-left: 4px;
+        margin-right: 0;
+    }
+</style>
+<link rel='stylesheet' id='toc-screen-css'  href='https://24hexpress.vn/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2106' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='https://24hexpress.vn/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jeg_customizer_font-css'  href='//fonts.googleapis.com/css?family=Roboto%3Aregular%2C500%2C700%2C500%2Cregular&#038;display=swap&#038;ver=1.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='https://24hexpress.vn/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.16' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='https://24hexpress.vn/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jnews-frontend-css'  href='https://24hexpress.vn/wp-content/themes/jnews/assets/dist/frontend.min.css?ver=7.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='jnews-style-css'  href='https://24hexpress.vn/wp-content/themes/jnews/style.css?ver=7.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='jnews-darkmode-css'  href='https://24hexpress.vn/wp-content/themes/jnews/assets/css/darkmode.css?ver=7.0.8' type='text/css' media='all' />
+<link rel='stylesheet' id='jnews-social-login-style-css'  href='https://24hexpress.vn/wp-content/plugins/jnews-social-login/assets/css/plugin.css?ver=7.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jnews-migration-newspaper-style-css'  href='https://24hexpress.vn/wp-content/plugins/jnews-migration-newspaper/assets/css/shortcode.css?ver=7.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jnews-select-share-css'  href='https://24hexpress.vn/wp-content/plugins/jnews-social-share/assets/css/plugin.css' type='text/css' media='all' />
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js' defer></script>
+<link rel="https://api.w.org/" href="https://24hexpress.vn/wp-json/" /><link rel="alternate" type="application/json" href="https://24hexpress.vn/wp-json/wp/v2/pages/707" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://24hexpress.vn/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://24hexpress.vn/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<link rel='shortlink' href='https://24hexpress.vn/' />
+<link rel="alternate" type="application/json+oembed" href="https://24hexpress.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2F24hexpress.vn%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://24hexpress.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2F24hexpress.vn%2F&#038;format=xml" />
+<script type="application/ld+json">{
+    "@context": "https://schema.org/",
+    "@type": "CreativeWorkSeries",
+    "name": "Blog Chia Sẻ Tin Tức",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "ratingCount": "1"
+    }
+}</script><style type="text/css">div#toc_container {width: 100%;}</style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Person","url":"https:\/\/24hexpress.vn\/","name":"Th\u00e0nh \u0110\u1ea1t","sameAs":["https:\/\/www.facebook.com\/blog24hexpress"],"homeLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressCountry":"0779.561.528"}}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"https:\/\/24hexpress.vn\/#website","url":"https:\/\/24hexpress.vn\/","name":"","potentialAction":{"@type":"SearchAction","target":"https:\/\/24hexpress.vn\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<link rel="icon" href="https://24hexpress.vn/wp-content/uploads/2021/05/24hexpress-75x75.png" sizes="32x32" />
+<link rel="icon" href="https://24hexpress.vn/wp-content/uploads/2021/05/24hexpress.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://24hexpress.vn/wp-content/uploads/2021/05/24hexpress.png" />
+<meta name="msapplication-TileImage" content="https://24hexpress.vn/wp-content/uploads/2021/05/24hexpress.png" />
+<style id="jeg_dynamic_css" type="text/css" data-type="jeg_custom-css">.jeg_container, .jeg_content, .jeg_boxed .jeg_main .jeg_container, .jeg_autoload_separator { background-color : #ffffff; } body,.newsfeed_carousel.owl-carousel .owl-nav div,.jeg_filter_button,.owl-carousel .owl-nav div,.jeg_readmore,.jeg_hero_style_7 .jeg_post_meta a,.widget_calendar thead th,.widget_calendar tfoot a,.jeg_socialcounter a,.entry-header .jeg_meta_like a,.entry-header .jeg_meta_comment a,.entry-content tbody tr:hover,.entry-content th,.jeg_splitpost_nav li:hover a,#breadcrumbs a,.jeg_author_socials a:hover,.jeg_footer_content a,.jeg_footer_bottom a,.jeg_cartcontent,.woocommerce .woocommerce-breadcrumb a { color : #53585c; } a,.jeg_menu_style_5 > li > a:hover,.jeg_menu_style_5 > li.sfHover > a,.jeg_menu_style_5 > li.current-menu-item > a,.jeg_menu_style_5 > li.current-menu-ancestor > a,.jeg_navbar .jeg_menu:not(.jeg_main_menu) > li > a:hover,.jeg_midbar .jeg_menu:not(.jeg_main_menu) > li > a:hover,.jeg_side_tabs li.active,.jeg_block_heading_5 strong,.jeg_block_heading_6 strong,.jeg_block_heading_7 strong,.jeg_block_heading_8 strong,.jeg_subcat_list li a:hover,.jeg_subcat_list li button:hover,.jeg_pl_lg_7 .jeg_thumb .jeg_post_category a,.jeg_pl_xs_2:before,.jeg_pl_xs_4 .jeg_postblock_content:before,.jeg_postblock .jeg_post_title a:hover,.jeg_hero_style_6 .jeg_post_title a:hover,.jeg_sidefeed .jeg_pl_xs_3 .jeg_post_title a:hover,.widget_jnews_popular .jeg_post_title a:hover,.jeg_meta_author a,.widget_archive li a:hover,.widget_pages li a:hover,.widget_meta li a:hover,.widget_recent_entries li a:hover,.widget_rss li a:hover,.widget_rss cite,.widget_categories li a:hover,.widget_categories li.current-cat > a,#breadcrumbs a:hover,.jeg_share_count .counts,.commentlist .bypostauthor > .comment-body > .comment-author > .fn,span.required,.jeg_review_title,.bestprice .price,.authorlink a:hover,.jeg_vertical_playlist .jeg_video_playlist_play_icon,.jeg_vertical_playlist .jeg_video_playlist_item.active .jeg_video_playlist_thumbnail:before,.jeg_horizontal_playlist .jeg_video_playlist_play,.woocommerce li.product .pricegroup .button,.widget_display_forums li a:hover,.widget_display_topics li:before,.widget_display_replies li:before,.widget_display_views li:before,.bbp-breadcrumb a:hover,.jeg_mobile_menu li.sfHover > a,.jeg_mobile_menu li a:hover,.split-template-6 .pagenum, .jeg_push_notification_button .button { color : #f70d28; } .jeg_menu_style_1 > li > a:before,.jeg_menu_style_2 > li > a:before,.jeg_menu_style_3 > li > a:before,.jeg_side_toggle,.jeg_slide_caption .jeg_post_category a,.jeg_slider_type_1 .owl-nav .owl-next,.jeg_block_heading_1 .jeg_block_title span,.jeg_block_heading_2 .jeg_block_title span,.jeg_block_heading_3,.jeg_block_heading_4 .jeg_block_title span,.jeg_block_heading_6:after,.jeg_pl_lg_box .jeg_post_category a,.jeg_pl_md_box .jeg_post_category a,.jeg_readmore:hover,.jeg_thumb .jeg_post_category a,.jeg_block_loadmore a:hover, .jeg_postblock.alt .jeg_block_loadmore a:hover,.jeg_block_loadmore a.active,.jeg_postblock_carousel_2 .jeg_post_category a,.jeg_heroblock .jeg_post_category a,.jeg_pagenav_1 .page_number.active,.jeg_pagenav_1 .page_number.active:hover,input[type="submit"],.btn,.button,.widget_tag_cloud a:hover,.popularpost_item:hover .jeg_post_title a:before,.jeg_splitpost_4 .page_nav,.jeg_splitpost_5 .page_nav,.jeg_post_via a:hover,.jeg_post_source a:hover,.jeg_post_tags a:hover,.comment-reply-title small a:before,.comment-reply-title small a:after,.jeg_storelist .productlink,.authorlink li.active a:before,.jeg_footer.dark .socials_widget:not(.nobg) a:hover .fa,.jeg_breakingnews_title,.jeg_overlay_slider_bottom.owl-carousel .owl-nav div,.jeg_overlay_slider_bottom.owl-carousel .owl-nav div:hover,.jeg_vertical_playlist .jeg_video_playlist_current,.woocommerce span.onsale,.woocommerce #respond input#submit:hover,.woocommerce a.button:hover,.woocommerce button.button:hover,.woocommerce input.button:hover,.woocommerce #respond input#submit.alt,.woocommerce a.button.alt,.woocommerce button.button.alt,.woocommerce input.button.alt,.jeg_popup_post .caption,.jeg_footer.dark input[type="submit"],.jeg_footer.dark .btn,.jeg_footer.dark .button,.footer_widget.widget_tag_cloud a:hover, .jeg_inner_content .content-inner .jeg_post_category a:hover, #buddypress .standard-form button, #buddypress a.button, #buddypress input[type="submit"], #buddypress input[type="button"], #buddypress input[type="reset"], #buddypress ul.button-nav li a, #buddypress .generic-button a, #buddypress .generic-button button, #buddypress .comment-reply-link, #buddypress a.bp-title-button, #buddypress.buddypress-wrap .members-list li .user-update .activity-read-more a, div#buddypress .standard-form button:hover,div#buddypress a.button:hover,div#buddypress input[type="submit"]:hover,div#buddypress input[type="button"]:hover,div#buddypress input[type="reset"]:hover,div#buddypress ul.button-nav li a:hover,div#buddypress .generic-button a:hover,div#buddypress .generic-button button:hover,div#buddypress .comment-reply-link:hover,div#buddypress a.bp-title-button:hover,div#buddypress.buddypress-wrap .members-list li .user-update .activity-read-more a:hover, #buddypress #item-nav .item-list-tabs ul li a:before, .jeg_inner_content .jeg_meta_container .follow-wrapper a { background-color : #f70d28; } .jeg_block_heading_7 .jeg_block_title span, .jeg_readmore:hover, .jeg_block_loadmore a:hover, .jeg_block_loadmore a.active, .jeg_pagenav_1 .page_number.active, .jeg_pagenav_1 .page_number.active:hover, .jeg_pagenav_3 .page_number:hover, .jeg_prevnext_post a:hover h3, .jeg_overlay_slider .jeg_post_category, .jeg_sidefeed .jeg_post.active, .jeg_vertical_playlist.jeg_vertical_playlist .jeg_video_playlist_item.active .jeg_video_playlist_thumbnail img, .jeg_horizontal_playlist .jeg_video_playlist_item.active { border-color : #f70d28; } .jeg_tabpost_nav li.active, .woocommerce div.product .woocommerce-tabs ul.tabs li.active { border-bottom-color : #f70d28; } h1,h2,h3,h4,h5,h6,.jeg_post_title a,.entry-header .jeg_post_title,.jeg_hero_style_7 .jeg_post_title a,.jeg_block_title,.jeg_splitpost_bar .current_title,.jeg_video_playlist_title,.gallery-caption { color : #212121; } .split-template-9 .pagenum, .split-template-10 .pagenum, .split-template-11 .pagenum, .split-template-12 .pagenum, .split-template-13 .pagenum, .split-template-15 .pagenum, .split-template-18 .pagenum, .split-template-20 .pagenum, .split-template-19 .current_title span, .split-template-20 .current_title span { background-color : #212121; } .entry-content .content-inner p, .entry-content .content-inner span, .entry-content .intro-text { color : #000000; } .jeg_topbar .jeg_nav_row, .jeg_topbar .jeg_search_no_expand .jeg_search_input { line-height : 55px; } .jeg_topbar .jeg_nav_row, .jeg_topbar .jeg_nav_icon { height : 55px; } .jeg_midbar { height : 154px; } .jeg_header .jeg_bottombar.jeg_navbar,.jeg_bottombar .jeg_nav_icon { height : 60px; } .jeg_header .jeg_bottombar.jeg_navbar, .jeg_header .jeg_bottombar .jeg_main_menu:not(.jeg_menu_style_1) > li > a, .jeg_header .jeg_bottombar .jeg_menu_style_1 > li, .jeg_header .jeg_bottombar .jeg_menu:not(.jeg_main_menu) > li > a { line-height : 60px; } .jeg_header .jeg_bottombar, .jeg_header .jeg_bottombar.jeg_navbar_dark, .jeg_bottombar.jeg_navbar_boxed .jeg_nav_row, .jeg_bottombar.jeg_navbar_dark.jeg_navbar_boxed .jeg_nav_row { border-top-width : 1px; border-bottom-width : 1px; } .jeg_header .socials_widget > a > i.fa:before { color : #ffffff; } .jeg_header .jeg_vertical_menu.jeg_vertical_menu_1 { border-top-width : 2px; } .jeg_header .jeg_vertical_menu.jeg_vertical_menu_2 { border-top-width : 7px; } .jeg_header .jeg_vertical_menu.jeg_vertical_menu_3 { border-top-width : 6px; } body,input,textarea,select,.chosen-container-single .chosen-single,.btn,.button { font-family: Roboto,Helvetica,Arial,sans-serif; } .jeg_post_title, .entry-header .jeg_post_title, .jeg_single_tpl_2 .entry-header .jeg_post_title, .jeg_single_tpl_3 .entry-header .jeg_post_title, .jeg_single_tpl_6 .entry-header .jeg_post_title { font-family: Roboto,Helvetica,Arial,sans-serif;font-weight : 500; font-style : normal;  } .jeg_post_excerpt p, .content-inner p { font-family: Roboto,Helvetica,Arial,sans-serif;font-weight : 400; font-style : normal;  } .jeg_thumb .jeg_post_category a,.jeg_pl_lg_box .jeg_post_category a,.jeg_pl_md_box .jeg_post_category a,.jeg_postblock_carousel_2 .jeg_post_category a,.jeg_heroblock .jeg_post_category a,.jeg_slide_caption .jeg_post_category a { background-color : #000000; color : #ffffff; } .jeg_overlay_slider .jeg_post_category,.jeg_thumb .jeg_post_category a,.jeg_pl_lg_box .jeg_post_category a,.jeg_pl_md_box .jeg_post_category a,.jeg_postblock_carousel_2 .jeg_post_category a,.jeg_heroblock .jeg_post_category a,.jeg_slide_caption .jeg_post_category a { border-color : #000000; } </style><style type="text/css">
+					.no_thumbnail .jeg_thumb,
+					.thumbnail-container.no_thumbnail {
+					    display: none !important;
+					}
+					.jeg_search_result .jeg_pl_xs_3.no_thumbnail .jeg_postblock_content,
+					.jeg_sidefeed .jeg_pl_xs_3.no_thumbnail .jeg_postblock_content,
+					.jeg_pl_sm.no_thumbnail .jeg_postblock_content {
+					    margin-left: 0;
+					}
+					.jeg_postblock_11 .no_thumbnail .jeg_postblock_content,
+					.jeg_postblock_12 .no_thumbnail .jeg_postblock_content,
+					.jeg_postblock_12.jeg_col_3o3 .no_thumbnail .jeg_postblock_content  {
+					    margin-top: 0;
+					}
+					.jeg_postblock_15 .jeg_pl_md_box.no_thumbnail .jeg_postblock_content,
+					.jeg_postblock_19 .jeg_pl_md_box.no_thumbnail .jeg_postblock_content,
+					.jeg_postblock_24 .jeg_pl_md_box.no_thumbnail .jeg_postblock_content,
+					.jeg_sidefeed .jeg_pl_md_box .jeg_postblock_content {
+					    position: relative;
+					}
+					.jeg_postblock_carousel_2 .no_thumbnail .jeg_post_title a,
+					.jeg_postblock_carousel_2 .no_thumbnail .jeg_post_title a:hover,
+					.jeg_postblock_carousel_2 .no_thumbnail .jeg_post_meta .fa {
+					    color: #212121 !important;
+					} 
+				</style>		<style type="text/css" id="wp-custom-css">
+			.jeg_readmore
+{
+	display: none;
+}
+.jeg_post_category
+{
+	display: none; !important
+}
+.meta_text
+{
+	display: none; !important
+}
+.lazyloaded, .thumbnail-background>div.lazyloaded {
+
+    width: 380px;
+}
+.jeg_block_heading_6:after 
+{
+	width:30%;
+}
+
+
+		</style>
+		<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>			
+</head>
+<body class="home page-template page-template-template-builder page-template-template-builder-php page page-id-707 wp-embed-responsive jeg_toggle_dark jnews jsc_normal wpb-js-composer js-comp-ver-6.6.0 vc_responsive">
+	
+
+    
+    
+    <div class="jeg_ad jeg_ad_top jnews_header_top_ads">
+        <div class='ads-wrapper  '></div>    </div>
+
+    <!-- The Main Wrapper
+    ============================================= -->
+	
+    <div class="jeg_viewport">
+
+        
+        <div class="jeg_header_wrapper">
+            <div class="jeg_header_instagram_wrapper">
+    </div>
+
+<!-- HEADER -->
+<div class="jeg_header full">
+    <div class="jeg_bottombar jeg_navbar jeg_container jeg_navbar_wrapper  jeg_navbar_normal">
+    <div class="container">
+        <div class="jeg_nav_row">
+            
+                <div class="jeg_nav_col jeg_nav_left jeg_nav_normal">
+                    <div class="item_wrap jeg_nav_alignleft">
+                                            </div>
+                </div>
+
+                
+                <div class="jeg_nav_col jeg_nav_center jeg_nav_grow">
+                    <div class="item_wrap jeg_nav_aligncenter">
+                        <div class="jeg_nav_item jeg_logo jeg_desktop_logo">
+		    <h1 class="site-title">
+	    	<a href="https://24hexpress.vn/" style="padding: 0px 0px 0px 50px;">
+	    	    <img class='jeg_logo_img' src="https://24hexpress.vn/wp-content/uploads/2021/05/logo-nho-express.png" srcset="https://24hexpress.vn/wp-content/uploads/2021/05/logo-nho-express.png 1x, https://24hexpress.vn/wp-content/uploads/2021/05/logo-nho-express.png 2x" alt="24hExpress "data-light-src="https://24hexpress.vn/wp-content/uploads/2021/05/logo-nho-express.png" data-light-srcset="https://24hexpress.vn/wp-content/uploads/2021/05/logo-nho-express.png 1x, https://24hexpress.vn/wp-content/uploads/2021/05/logo-nho-express.png 2x" data-dark-src="" data-dark-srcset=" 1x, https://24hexpress.vn/wp-content/uploads/2021/05/24hexpress.png 2x">	    	</a>
+	    </h1>
+	</div><div class="jeg_main_menu_wrapper">
+<div class="jeg_nav_item jeg_mainmenu_wrap"><ul class="jeg_menu jeg_main_menu jeg_menu_style_1" data-animation="animateTransform"><li id="menu-item-878" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-878 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/star/">Star</a></li>
+<li id="menu-item-867" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-867 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/the-thao/">Thể Thao</a></li>
+<li id="menu-item-872" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-872 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/giai-tri/">Giải Trí</a>
+<ul class="sub-menu">
+	<li id="menu-item-874" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-874 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/giai-tri/anh-vui/">Ảnh Vui</a></li>
+	<li id="menu-item-875" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-875 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/giai-tri/clip-hai/">Clip Hài</a></li>
+	<li id="menu-item-876" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-876 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/giai-tri/tieu-su/">Tiểu Sử</a></li>
+</ul>
+</li>
+<li id="menu-item-1373" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1373 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/lam-dep/">Làm Đẹp</a></li>
+<li id="menu-item-873" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-873 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/am-nhac/">Âm Nhạc</a></li>
+<li id="menu-item-877" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-877 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/hoc-duong/">Học Đường</a></li>
+<li id="menu-item-1059" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1059 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/the-gioi-cong-nghe/">Thế Giới Công Nghệ</a></li>
+</ul></div></div>
+                    </div>
+                </div>
+
+                
+                <div class="jeg_nav_col jeg_nav_right jeg_nav_normal">
+                    <div class="item_wrap jeg_nav_alignright">
+                        <!-- Search Form -->
+<div class="jeg_nav_item jeg_nav_search">
+	<div class="jeg_search_wrapper jeg_search_no_expand round">
+	    <a href="#" class="jeg_search_toggle"><i class="fa fa-search"></i></a>
+	    <form action="https://24hexpress.vn/" method="get" class="jeg_search_form" target="_top">
+    <input name="s" class="jeg_search_input" placeholder="Search..." type="text" value="" autocomplete="off">
+    <button type="submit" class="jeg_search_button btn"><i class="fa fa-search"></i></button>
+</form>
+<!-- jeg_search_hide with_result no_result -->
+<div class="jeg_search_result jeg_search_hide with_result">
+    <div class="search-result-wrapper">
+    </div>
+    <div class="search-link search-noresult">
+        No Result    </div>
+    <div class="search-link search-all-button">
+        <i class="fa fa-search"></i> View All Result    </div>
+</div>	</div>
+</div>                    </div>
+                </div>
+
+                        </div>
+    </div>
+</div></div><!-- /.jeg_header -->        </div>
+
+        <div class="jeg_header_sticky">
+            <div class="sticky_blankspace"></div>
+<div class="jeg_header normal">
+    <div class="jeg_container">
+        <div data-mode="scroll" class="jeg_stickybar jeg_navbar jeg_navbar_wrapper  jeg_navbar_normal">
+            <div class="container">
+    <div class="jeg_nav_row">
+        
+            <div class="jeg_nav_col jeg_nav_left jeg_nav_grow">
+                <div class="item_wrap jeg_nav_alignleft">
+                    <div class="jeg_nav_item jeg_nav_html">
+    <script type="rocketlazyloadscript" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async=""></script>
+<ins class="adsbygoogle" style="display: block; text-align: center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-5191506008464792" data-ad-slot="5573789832"></ins><script type="rocketlazyloadscript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="jeg_main_menu_wrapper">
+<div class="jeg_nav_item jeg_mainmenu_wrap"><ul class="jeg_menu jeg_main_menu jeg_menu_style_1" data-animation="animateTransform"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-878 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/star/">Star</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-867 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/the-thao/">Thể Thao</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-872 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/giai-tri/">Giải Trí</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-874 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/giai-tri/anh-vui/">Ảnh Vui</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-875 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/giai-tri/clip-hai/">Clip Hài</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-876 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/giai-tri/tieu-su/">Tiểu Sử</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1373 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/lam-dep/">Làm Đẹp</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-873 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/am-nhac/">Âm Nhạc</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-877 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/hoc-duong/">Học Đường</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1059 bgnav" data-item-row="default" ><a href="https://24hexpress.vn/the-gioi-cong-nghe/">Thế Giới Công Nghệ</a></li>
+</ul></div></div>
+                </div>
+            </div>
+
+            
+            <div class="jeg_nav_col jeg_nav_center jeg_nav_normal">
+                <div class="item_wrap jeg_nav_aligncenter">
+                                    </div>
+            </div>
+
+            
+            <div class="jeg_nav_col jeg_nav_right jeg_nav_normal">
+                <div class="item_wrap jeg_nav_alignright">
+                    <!-- Search Icon -->
+<div class="jeg_nav_item jeg_search_wrapper search_icon jeg_search_popup_expand">
+    <a href="#" class="jeg_search_toggle"><i class="fa fa-search"></i></a>
+    <form action="https://24hexpress.vn/" method="get" class="jeg_search_form" target="_top">
+    <input name="s" class="jeg_search_input" placeholder="Search..." type="text" value="" autocomplete="off">
+    <button type="submit" class="jeg_search_button btn"><i class="fa fa-search"></i></button>
+</form>
+<!-- jeg_search_hide with_result no_result -->
+<div class="jeg_search_result jeg_search_hide with_result">
+    <div class="search-result-wrapper">
+    </div>
+    <div class="search-link search-noresult">
+        No Result    </div>
+    <div class="search-link search-all-button">
+        <i class="fa fa-search"></i> View All Result    </div>
+</div></div>                </div>
+            </div>
+
+                </div>
+</div>        </div>
+    </div>
+</div>
+        </div>
+
+        <div class="jeg_navbar_mobile_wrapper">
+            <div class="jeg_navbar_mobile" data-mode="scroll">
+    <div class="jeg_mobile_bottombar jeg_mobile_midbar jeg_container dark">
+    <div class="container">
+        <div class="jeg_nav_row">
+            
+                <div class="jeg_nav_col jeg_nav_left jeg_nav_normal">
+                    <div class="item_wrap jeg_nav_alignleft">
+                        <div class="jeg_nav_item">
+    <a href="#" class="toggle_btn jeg_mobile_toggle"><i class="fa fa-bars"></i></a>
+</div>                    </div>
+                </div>
+
+                
+                <div class="jeg_nav_col jeg_nav_center jeg_nav_grow">
+                    <div class="item_wrap jeg_nav_aligncenter">
+                                            </div>
+                </div>
+
+                
+                <div class="jeg_nav_col jeg_nav_right jeg_nav_normal">
+                    <div class="item_wrap jeg_nav_alignright">
+                        <div class="jeg_nav_item jeg_search_wrapper jeg_search_popup_expand">
+    <a href="#" class="jeg_search_toggle"><i class="fa fa-search"></i></a>
+	<form action="https://24hexpress.vn/" method="get" class="jeg_search_form" target="_top">
+    <input name="s" class="jeg_search_input" placeholder="Search..." type="text" value="" autocomplete="off">
+    <button type="submit" class="jeg_search_button btn"><i class="fa fa-search"></i></button>
+</form>
+<!-- jeg_search_hide with_result no_result -->
+<div class="jeg_search_result jeg_search_hide with_result">
+    <div class="search-result-wrapper">
+    </div>
+    <div class="search-link search-noresult">
+        No Result    </div>
+    <div class="search-link search-all-button">
+        <i class="fa fa-search"></i> View All Result    </div>
+</div></div>                    </div>
+                </div>
+
+                        </div>
+    </div>
+</div></div>
+<div class="sticky_blankspace" style="height: 60px;"></div>        </div>
+
+
+<div class="jeg_main">
+
+    <div class="jeg_container">
+        <div class="jeg_content">
+            <div class="jeg_vc_content">
+                <div class="row vc_row wpb_row vc_row-fluid"><div class="jeg-vc-wrapper"><div class="wpb_column jeg_column vc_column_container vc_col-sm-8 jeg_main_content"><div class="jeg_wrapper wpb_wrapper"><div  class="jeg_postblock_16 jeg_postblock jeg_module_hook jeg_pagination_disable jeg_col_2o3 jnews_module_707_0_60f941ebc3ef4   " data-unique="jnews_module_707_0_60f941ebc3ef4">
+                
+                <div class="jeg_block_container">
+                
+                <div class="jeg_posts_wrap">
+                <div class="jeg_postbig">
+                    <article class="jeg_post jeg_pl_lg_5 format-standard">
+                        <div class="jeg_thumb">
+                
+                <a href="https://24hexpress.vn/to-thi-thanh-hiep-la-ai/"><div class="thumbnail-container animate-lazy  size-500 "><img width="700" height="375" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-750x375 size-jnews-750x375 lazyload wp-post-image" alt="Thanh Hiệp là ai" loading="lazy" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/Thanh-Hiep-la-ai-3-700x375.jpg" data-srcset="" data-sizes="auto" data-expand="700" /></div></a>
+                <div class="jeg_post_category">
+                    <span><a href="https://24hexpress.vn/giai-tri/tieu-su/" class="category-tieu-su">Tiểu Sử</a></span>
+                </div>
+            </div>
+            <div class="jeg_postblock_content">
+                <h3 class="jeg_post_title">
+                    <a href="https://24hexpress.vn/to-thi-thanh-hiep-la-ai/">Tô Thị Thanh Hiệp là ai? Cô gái ủng hộ bạn trai ngoại tình khiến bà mối Cát Tường hoang mang</a>
+                </h3>
+                <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/to-thi-thanh-hiep-la-ai/"><i class="fa fa-clock-o"></i> 22 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/to-thi-thanh-hiep-la-ai/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                <div class="jeg_post_excerpt">
+                    <p>Trong tập 14 mới lên sóng của chương trình “Ghép Đôi Thần Tốc - Kết Đôi Như Ý" với vai trò khách mời ghép đôi. Tô Thị Thanh Hiệp (24 tuổi) hiện đang làm nhân...</p>
+                    <a href="https://24hexpress.vn/to-thi-thanh-hiep-la-ai/" class="jeg_readmore">Read more</a>
+                </div>
+            </div>
+                    </article>
+                </div>
+                <div class="jeg_posts jeg_load_more_flag">
+                    <article class="jeg_post jeg_pl_xs_2 format-standard">
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/4-phuong-phap-lam-toc-den-tro-lai-sau-khi-nhuom-hieu-qua-nhanh-chong-tai-nha/">4 phương pháp làm tóc đen trở lại sau khi nhuộm hiệu quả nhanh chóng tại nhà</a>
+                    </h3>
+                </div>
+            </article><article class="jeg_post jeg_pl_xs_2 format-standard">
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/ios-14-7/">Apple chính thức phát hành bản cập nhật iOS 14.7 với nhiều cải tiến mới</a>
+                    </h3>
+                </div>
+            </article><article class="jeg_post jeg_pl_xs_2 format-standard">
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/tieu-su-ca-si-dan-truong/">Tiểu sử và sự nghiệp của ca sĩ Đan Trường</a>
+                    </h3>
+                </div>
+            </article><article class="jeg_post jeg_pl_xs_2 format-standard">
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/vu-khac-tiep-la-ai-tieu-su-cua-dai-su-cach-ly/">Vũ Khắc Tiệp Là ai? Tiểu sử của &#8220;Đại sứ cách ly&#8221;</a>
+                    </h3>
+                </div>
+            </article>
+                </div>
+            </div>
+                <div class='module-overlay'>
+                <div class='preloader_type preloader_dot'>
+                    <div class="module-preloader jeg_preloader dot">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="module-preloader jeg_preloader circle">
+                        <div class="jnews_preloader_circle_outer">
+                            <div class="jnews_preloader_circle_inner"></div>
+                        </div>
+                    </div>
+                    <div class="module-preloader jeg_preloader square">
+                        <div class="jeg_square"><div class="jeg_square_inner"></div></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="jeg_block_navigation">
+                <div class='navigation_overlay'><div class='module-preloader jeg_preloader'><span></span><span></span><span></span></div></div>
+                
+                
+            </div>
+                
+                <script type="rocketlazyloadscript">var jnews_module_707_0_60f941ebc3ef4 = {"header_icon":"","first_title":"","second_title":"","url":"","header_type":"heading_8","header_background":"","header_secondary_background":"","header_text_color":"","header_line_color":"","header_accent_color":"","header_filter_category":"","header_filter_author":"","header_filter_tag":"","header_filter_text":"","post_type":"post","content_type":"all","number_post":"5","post_offset":"0","unique_content":"unique1","include_post":"","exclude_post":"","include_category":"109,62","exclude_category":"","include_author":"","include_tag":"","exclude_tag":"","sort_by":"latest","date_format":"default","date_format_custom":"Y\/m\/d","excerpt_length":"35","excerpt_ellipsis":"...","force_normal_image_load":"","pagination_mode":"disable","pagination_nextprev_showtext":"","pagination_number_post":4,"pagination_scroll_limit":0,"boxed":"","boxed_shadow":"","el_id":"","el_class":"","scheme":"","column_width":"auto","title_color":"","accent_color":"","alt_color":"","excerpt_color":"","css":"","compatible_column_notice":"","paged":1,"column_class":"jeg_col_2o3","class":"jnews_block_16"};</script>
+            </div><div  class="jeg_postblock_carousel_3 jeg_postblock jeg_col_8 jnews_module_707_1_60f941ebc9060 shownav   ">
+					<div class='jeg_carousel_placeholder'>
+						<div class='thumbnail-wrapper'>
+							<div class='thumbnail-inner' style='margin-right: 15px;'><div class='thumbnail-container size-715'></div></div><div class='thumbnail-inner' style=''><div class='thumbnail-container size-715'></div></div>
+						</div>
+					</div>
+                    <div class="jeg_carousel_post" data-nav='true' data-autoplay='true' data-delay='4000' data-items='2' data-margin='15'>
+                        <article class="jeg_post format-standard">
+                    
+                    <div class="jeg_thumb">                        
+                        <a href="https://24hexpress.vn/to-thi-thanh-hiep-la-ai/" ><div class="thumbnail-container animate-lazy  size-1000 "><img width="75" height="75" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-75x75 size-jnews-75x75 lazyload wp-post-image" alt="Thanh Hiệp là ai" loading="lazy" sizes="(max-width: 75px) 100vw, 75px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/Thanh-Hiep-la-ai-3-75x75.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/Thanh-Hiep-la-ai-3-75x75.jpg 75w, https://24hexpress.vn/wp-content/uploads/2021/07/Thanh-Hiep-la-ai-3-150x150.jpg 150w" data-sizes="auto" data-expand="700" /></div></a>
+                    </div>
+                    <div class="overlay_content">
+                        <div class="jeg_postblock_content">
+                            <h3 class="jeg_post_title"><a href="https://24hexpress.vn/to-thi-thanh-hiep-la-ai/">Tô Thị Thanh Hiệp là ai? Cô gái ủng hộ bạn trai ngoại tình khiến bà mối Cát Tường hoang mang</a></h3>
+                            <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/to-thi-thanh-hiep-la-ai/" ><i class="fa fa-clock-o"></i> 6 giờ ago</a></div></div>
+                        </div>
+                    </div>
+                </article><article class="jeg_post format-standard">
+                    
+                    <div class="jeg_thumb">                        
+                        <a href="https://24hexpress.vn/4-phuong-phap-lam-toc-den-tro-lai-sau-khi-nhuom-hieu-qua-nhanh-chong-tai-nha/" ><div class="thumbnail-container animate-lazy  size-1000 "><img width="75" height="75" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-75x75 size-jnews-75x75 lazyload wp-post-image" alt="Phương pháp làm tóc đen tại nhà" loading="lazy" sizes="(max-width: 75px) 100vw, 75px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/phuong-phap-giup-toc-den-tro-lai-sau-khi-nhuom-5-75x75.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/phuong-phap-giup-toc-den-tro-lai-sau-khi-nhuom-5-75x75.jpg 75w, https://24hexpress.vn/wp-content/uploads/2021/07/phuong-phap-giup-toc-den-tro-lai-sau-khi-nhuom-5-150x150.jpg 150w" data-sizes="auto" data-expand="700" /></div></a>
+                    </div>
+                    <div class="overlay_content">
+                        <div class="jeg_postblock_content">
+                            <h3 class="jeg_post_title"><a href="https://24hexpress.vn/4-phuong-phap-lam-toc-den-tro-lai-sau-khi-nhuom-hieu-qua-nhanh-chong-tai-nha/">4 phương pháp làm tóc đen trở lại sau khi nhuộm hiệu quả nhanh chóng tại nhà</a></h3>
+                            <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/4-phuong-phap-lam-toc-den-tro-lai-sau-khi-nhuom-hieu-qua-nhanh-chong-tai-nha/" ><i class="fa fa-clock-o"></i> 16 giờ ago</a></div></div>
+                        </div>
+                    </div>
+                </article><article class="jeg_post format-standard">
+                    
+                    <div class="jeg_thumb">                        
+                        <a href="https://24hexpress.vn/ios-14-7/" ><div class="thumbnail-container animate-lazy  size-1000 "><img width="75" height="75" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-75x75 size-jnews-75x75 lazyload wp-post-image" alt="Hệ điều hành IOS 14.7" loading="lazy" sizes="(max-width: 75px) 100vw, 75px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/ios-14-7-2-75x75.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/ios-14-7-2-75x75.jpg 75w, https://24hexpress.vn/wp-content/uploads/2021/07/ios-14-7-2-150x150.jpg 150w" data-sizes="auto" data-expand="700" /></div></a>
+                    </div>
+                    <div class="overlay_content">
+                        <div class="jeg_postblock_content">
+                            <h3 class="jeg_post_title"><a href="https://24hexpress.vn/ios-14-7/">Apple chính thức phát hành bản cập nhật iOS 14.7 với nhiều cải tiến mới</a></h3>
+                            <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/ios-14-7/" ><i class="fa fa-clock-o"></i> 2 ngày ago</a></div></div>
+                        </div>
+                    </div>
+                </article><article class="jeg_post format-standard">
+                    
+                    <div class="jeg_thumb">                        
+                        <a href="https://24hexpress.vn/tieu-su-ca-si-dan-truong/" ><div class="thumbnail-container animate-lazy  size-1000 "><img width="75" height="75" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-75x75 size-jnews-75x75 lazyload wp-post-image" alt="Đan trường ly hôn với Thủy Tiên" loading="lazy" sizes="(max-width: 75px) 100vw, 75px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-dan-truong-3-75x75.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-dan-truong-3-75x75.jpg 75w, https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-dan-truong-3-150x150.jpg 150w" data-sizes="auto" data-expand="700" /></div></a>
+                    </div>
+                    <div class="overlay_content">
+                        <div class="jeg_postblock_content">
+                            <h3 class="jeg_post_title"><a href="https://24hexpress.vn/tieu-su-ca-si-dan-truong/">Tiểu sử và sự nghiệp của ca sĩ Đan Trường</a></h3>
+                            <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/tieu-su-ca-si-dan-truong/" ><i class="fa fa-clock-o"></i> 4 ngày ago</a></div></div>
+                        </div>
+                    </div>
+                </article><article class="jeg_post format-standard">
+                    
+                    <div class="jeg_thumb">                        
+                        <a href="https://24hexpress.vn/vu-khac-tiep-la-ai-tieu-su-cua-dai-su-cach-ly/" ><div class="thumbnail-container animate-lazy  size-1000 "><img width="75" height="75" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-75x75 size-jnews-75x75 lazyload wp-post-image" alt="Vũ Khắc Tiệp là ai" loading="lazy" sizes="(max-width: 75px) 100vw, 75px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-vu-khac-tiep-5-75x75.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-vu-khac-tiep-5-75x75.jpg 75w, https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-vu-khac-tiep-5-150x150.jpg 150w" data-sizes="auto" data-expand="700" /></div></a>
+                    </div>
+                    <div class="overlay_content">
+                        <div class="jeg_postblock_content">
+                            <h3 class="jeg_post_title"><a href="https://24hexpress.vn/vu-khac-tiep-la-ai-tieu-su-cua-dai-su-cach-ly/">Vũ Khắc Tiệp Là ai? Tiểu sử của &#8220;Đại sứ cách ly&#8221;</a></h3>
+                            <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/vu-khac-tiep-la-ai-tieu-su-cua-dai-su-cach-ly/" ><i class="fa fa-clock-o"></i> 5 ngày ago</a></div></div>
+                        </div>
+                    </div>
+                </article>
+                    </div>
+                </div><div  class="jeg_postblock_22 jeg_postblock jeg_module_hook jeg_pagination_disable jeg_col_2o3 jnews_module_707_2_60f941ebcc14d   " data-unique="jnews_module_707_2_60f941ebcc14d">
+                <div class="jeg_block_heading jeg_block_heading_6 jeg_subcat_right">
+                    <h3 class="jeg_block_title"><span><i class='far fa-star'></i>CHUYỆN <strong>CỦA SAO</strong></span></h3>
+                    
+                </div>
+                <div class="jeg_block_container">
+                
+                <div class="jeg_posts_wrap">
+                <div class="jeg_posts jeg_load_more_flag"> 
+                    <article class="jeg_post jeg_pl_md_5 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/mac-van-khoa-la-ai/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Mạc văn khoa là ai" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/mac-van-khoa-la-ai-24hepxressvn-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/mac-van-khoa-la-ai-24hepxressvn-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/mac-van-khoa-la-ai-24hepxressvn-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                    <div class="jeg_post_category">
+                        <span><a href="https://24hexpress.vn/star/" class="category-star">Star</a></span>
+                    </div>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/mac-van-khoa-la-ai/">Mạc Văn Khoa là ai? Tiểu sử về diễn viên hài Mạc Văn Khoa</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/mac-van-khoa-la-ai/" ><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_5 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/dien-vien-hoang-yen-la-ai/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Diễn viên hoàn yến là ai" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/dien-vien-hoan-yen-ve-nha-di-con-la-ai-2-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/dien-vien-hoan-yen-ve-nha-di-con-la-ai-2-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/dien-vien-hoan-yen-ve-nha-di-con-la-ai-2-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                    <div class="jeg_post_category">
+                        <span><a href="https://24hexpress.vn/star/" class="category-star">Star</a></span>
+                    </div>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/dien-vien-hoang-yen-la-ai/">Diễn viên Hoàng Yến về nhà đi con là ai</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/dien-vien-hoang-yen-la-ai/" ><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_5 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/pham-ngoc-ha-my-la-ai-nhan-sac-nguoi-dep-moi-vtv24/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="pham ngọc hà my là ai" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/pham-ngoc-ha-my-vtv24-la-ai-11-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/pham-ngoc-ha-my-vtv24-la-ai-11-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/pham-ngoc-ha-my-vtv24-la-ai-11-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                    <div class="jeg_post_category">
+                        <span><a href="https://24hexpress.vn/star/" class="category-star">Star</a></span>
+                    </div>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/pham-ngoc-ha-my-la-ai-nhan-sac-nguoi-dep-moi-vtv24/">Phạm Ngọc Hà My là ai? Nhan sắc người đẹp VTV24</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/pham-ngoc-ha-my-la-ai-nhan-sac-nguoi-dep-moi-vtv24/" ><i class="fa fa-clock-o"></i> 22 Tháng Sáu, 2021</a></div></div>
+                </div>
+            </article>
+                </div>
+            </div>
+                <div class='module-overlay'>
+                <div class='preloader_type preloader_dot'>
+                    <div class="module-preloader jeg_preloader dot">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="module-preloader jeg_preloader circle">
+                        <div class="jnews_preloader_circle_outer">
+                            <div class="jnews_preloader_circle_inner"></div>
+                        </div>
+                    </div>
+                    <div class="module-preloader jeg_preloader square">
+                        <div class="jeg_square"><div class="jeg_square_inner"></div></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="jeg_block_navigation">
+                <div class='navigation_overlay'><div class='module-preloader jeg_preloader'><span></span><span></span><span></span></div></div>
+                
+                
+            </div>
+                
+                <script type="rocketlazyloadscript">var jnews_module_707_2_60f941ebcc14d = {"header_icon":"far fa-star","first_title":"CHUY\u1ec6N ","second_title":"C\u1ee6A SAO","url":"","header_type":"heading_6","header_background":"","header_secondary_background":"","header_text_color":"","header_line_color":"","header_accent_color":"","header_filter_category":"","header_filter_author":"","header_filter_tag":"","header_filter_text":"All","post_type":"post","content_type":"all","number_post":"3","post_offset":"0","unique_content":"disable","include_post":"","exclude_post":"","include_category":"103","exclude_category":"","include_author":"","include_tag":"","exclude_tag":"","sort_by":"latest","date_format":"default","date_format_custom":"Y\/m\/d","force_normal_image_load":"","pagination_mode":"disable","pagination_nextprev_showtext":"","pagination_number_post":3,"pagination_scroll_limit":0,"boxed":"","boxed_shadow":"","el_id":"","el_class":"","scheme":"","column_width":"auto","title_color":"","accent_color":"","alt_color":"","excerpt_color":"","css":"","compatible_column_notice":"","paged":1,"column_class":"jeg_col_2o3","class":"jnews_block_22"};</script>
+            </div><div class="row vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="jeg_wrapper "><div class="wpb_wrapper"><div  class="jeg_postblock_3 jeg_postblock jeg_module_hook jeg_pagination_disable jeg_col_2o3 jnews_module_707_3_60f941ebd07ab   " data-unique="jnews_module_707_3_60f941ebd07ab">
+                
+                <div class="jeg_posts jeg_block_container">
+                
+                <div class="jeg_posts jeg_load_more_flag">
+                <article class="jeg_post jeg_pl_md_2 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/tan-suat-quang-cao-la-gi-lap-lai-quang-cao-facebook-bao-nhieu-la-du/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="tan suat quang cao la gi" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/tan-suat-quang-cao-la-gi-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/tan-suat-quang-cao-la-gi-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/07/tan-suat-quang-cao-la-gi-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/tan-suat-quang-cao-la-gi-lap-lai-quang-cao-facebook-bao-nhieu-la-du/">Tần suất quảng cáo là gì? Lặp lại quảng cáo Facebook bao nhiêu là đủ?</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/tan-suat-quang-cao-la-gi-lap-lai-quang-cao-facebook-bao-nhieu-la-du/"><i class="fa fa-clock-o"></i> 13 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/tan-suat-quang-cao-la-gi-lap-lai-quang-cao-facebook-bao-nhieu-la-du/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p>Bạn đã tìm được bao nhiêu cách để hạn chế số tiền phải trả cho Facebook Ads? Bạn có để ý đến tần suất quảng cáo là gì? và quan tâm đến tần suất quảng...</p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/ket-qua-boc-tham-vong-loai-u23-chau-a-2022/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="ket qua boc tham vong loai u23 chau a (1)" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/ket-qua-boc-tham-vong-loai-u23-chau-a-1-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/ket-qua-boc-tham-vong-loai-u23-chau-a-1-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/07/ket-qua-boc-tham-vong-loai-u23-chau-a-1-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/ket-qua-boc-tham-vong-loai-u23-chau-a-2022/">Kết quả bốc thăm vòng loại U23 Châu Á 2022</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/ket-qua-boc-tham-vong-loai-u23-chau-a-2022/"><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/ket-qua-boc-tham-vong-loai-u23-chau-a-2022/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p>Rút thăm vòng loại U23 châu Á 2022, U23 Việt Nam là hạt giống số 1 tại bảng đấu.Lễ bốc thăm chia bảng vòng loại U23 châu Á 2022 được tổ chức vào 14h00 (giờ...</p>
+                    </div>
+                </div>
+            </article><div class='jeg_ad jeg_ad_module  '><div class='ads-wrapper'></div></div><article class="jeg_post jeg_pl_md_2 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/ukm-la-gi-y-nghia-cua-tu-ukm-tren-facebook/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="ukm la gi" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/ukm-la-gi-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/ukm-la-gi-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/07/ukm-la-gi-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/ukm-la-gi-y-nghia-cua-tu-ukm-tren-facebook/">Ukm là gì? Ý nghĩa của từ Ukm trên Facebook?</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/ukm-la-gi-y-nghia-cua-tu-ukm-tren-facebook/"><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/ukm-la-gi-y-nghia-cua-tu-ukm-tren-facebook/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p>Nhiều bạn dùng mạng xã hôi, đang thắc mắc ukm là gì, ukm là viết tắt chữ gì hay ý nghĩa của ukm là gì mà được những người trẻ tuổi sử dụng nhiều đến như vậy, đặc...</p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/ket-qua-boc-tham-vong-loai-wc-thu-3-2022-tai-malaysia/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="lich thi dau doi tuyen viet nam vong loai thu 3 world cup 2022" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/lich-thi-dau-doi-tuyen-viet-nam-vong-loai-thu-3-world-cup-2022-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/lich-thi-dau-doi-tuyen-viet-nam-vong-loai-thu-3-world-cup-2022-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/07/lich-thi-dau-doi-tuyen-viet-nam-vong-loai-thu-3-world-cup-2022-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/ket-qua-boc-tham-vong-loai-wc-thu-3-2022-tai-malaysia/">Kết quả bốc thăm vòng loại WC thứ 3 2022 tại Malaysia</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/ket-qua-boc-tham-vong-loai-wc-thu-3-2022-tai-malaysia/"><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/ket-qua-boc-tham-vong-loai-wc-thu-3-2022-tai-malaysia/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p>Blog24hexpress.vn - Vào lúc 13h45 chiều 1/7, Theo lịch công bố, lễ bốc thăm vòng loại thứ 3 World Cup 2022, khu vực châu Á sẽ chính thức diễn ra tại Kuala Lumpur, Malaysia. Do...</p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/nhung-mau-banh-kute-khien-ban-khong-muon-an/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="nhung mau banh de thuong" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/nhung-mau-banh-de-thuong-7-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/nhung-mau-banh-de-thuong-7-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/nhung-mau-banh-de-thuong-7-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/nhung-mau-banh-kute-khien-ban-khong-muon-an/">Những mẫu bánh kute khiến bạn không muốn ăn</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/nhung-mau-banh-kute-khien-ban-khong-muon-an/"><i class="fa fa-clock-o"></i> 17 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/nhung-mau-banh-kute-khien-ban-khong-muon-an/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p>&gt;&gt; Xem thêm: Mẫu bánh sinh nhật đẹp tặng người yêu  &gt;&gt; Xem thêm: Những mẫu bánh kem sinh nhật đẹp &gt;&gt; Xem thêm: Những mẫu bánh kem tặng người yêu đẹp</p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/nhung-cau-noi-hay-ve-cuoc-song-giup-ban-nghi-khac-di/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="nhung cau noi hay trong cuoc song" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/nhung-cau-noi-hay-trong-cuoc-song-4-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/nhung-cau-noi-hay-trong-cuoc-song-4-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/nhung-cau-noi-hay-trong-cuoc-song-4-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/nhung-cau-noi-hay-ve-cuoc-song-giup-ban-nghi-khac-di/">Tổng hợp những câu nói hay về cuộc sống giúp bạn “nghĩ khác đi”.</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/nhung-cau-noi-hay-ve-cuoc-song-giup-ban-nghi-khac-di/"><i class="fa fa-clock-o"></i> 13 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/nhung-cau-noi-hay-ve-cuoc-song-giup-ban-nghi-khac-di/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p>Blog24hexpress.vn gửi đến các bạn những câu nói hay về cuộc sống giúp bạn “nghĩ khác đi”. Trong cuộc sống sẽ đôi khi bạn gặp khó nhưng không hề hay biết phải đương đầu với...</p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/cach-dat-ten-cho-con-theo-phong-thuy-hop-menh-bo-me/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="dat ten cho con theo phong thuy ngu hanh" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/dat-ten-cho-con-theo-phong-thuy-ngu-hanh-4-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/dat-ten-cho-con-theo-phong-thuy-ngu-hanh-4-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/dat-ten-cho-con-theo-phong-thuy-ngu-hanh-4-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/cach-dat-ten-cho-con-theo-phong-thuy-hop-menh-bo-me/">Cách đặt tên cho con theo phong thủy hợp mệnh bố mẹ</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/cach-dat-ten-cho-con-theo-phong-thuy-hop-menh-bo-me/"><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/cach-dat-ten-cho-con-theo-phong-thuy-hop-menh-bo-me/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p>Sinh con trong bao khó nhọc, việc đặt tên cho con cũng là điều hết sức thiêng liêng và ý nghĩa mà nhiều cha mẹ cũng hết sức đau đầu. Trong bài viết này, 24hexpres.vn...</p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/cach-dat-ten-cho-con-trai-hay-va-y-nghia/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="cach dat ten cho con trai hay va y nghia" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/cach-dat-ten-cho-con-trai-hay-va-y-nghia-1-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/cach-dat-ten-cho-con-trai-hay-va-y-nghia-1-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/cach-dat-ten-cho-con-trai-hay-va-y-nghia-1-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/cach-dat-ten-cho-con-trai-hay-va-y-nghia/">Cách đặt tên cho con trai hay và ý nghĩa</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/cach-dat-ten-cho-con-trai-hay-va-y-nghia/"><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/cach-dat-ten-cho-con-trai-hay-va-y-nghia/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p>Đặt tên cho con, đặt biệt là con đầu lòng và là con trai nhưng mẹ thích tên này, nhưng bố lại thích tên khác, rồi ông bà lại thích tên khác, mỗi người một...</p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/cach-dat-ten-cho-con-gai-hay-va-y-nghia/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="huong dan dat ten cho con gai" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/huong-dan-dat-ten-cho-con-gai-3-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/huong-dan-dat-ten-cho-con-gai-3-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/huong-dan-dat-ten-cho-con-gai-3-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/cach-dat-ten-cho-con-gai-hay-va-y-nghia/">Cách đặt tên cho con gái hay và ý nghĩa</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/cach-dat-ten-cho-con-gai-hay-va-y-nghia/"><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/cach-dat-ten-cho-con-gai-hay-va-y-nghia/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p>Nhiều khả năng mẹ đã có cho mình những ứng cử viên sáng giá cho tên bé yêu của mẹ rồi. Thật dễ dàng nếu như nhiều người thân trong nhà cũng có chung suy...</p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/nguon-goc-va-y-nghia-cua-ngay-gia-dinh-viet-nam/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="ngay gia dinh viet nam" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/ngay-gia-dinh-viet-nam-7-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/ngay-gia-dinh-viet-nam-7-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/ngay-gia-dinh-viet-nam-7-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/nguon-goc-va-y-nghia-cua-ngay-gia-dinh-viet-nam/">Nguồn gốc và ý nghĩa của ngày Gia đình Việt Nam 28-6</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/nguon-goc-va-y-nghia-cua-ngay-gia-dinh-viet-nam/"><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/nguon-goc-va-y-nghia-cua-ngay-gia-dinh-viet-nam/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p>24hexpress.vn - Nguồn gốc và ý nghĩa của Ngày Gia đình Việt Nam 28/6, ngày gia đình là một sự kiện tôn vinh gia đình Việt Nam, là ngày mọi người trong gia đình quan...</p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/vai-thun-cotton-poly-thai-la-gi/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Các loại vải thái lan" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/cac-loai-vai-cua-thai-lan-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/cac-loai-vai-cua-thai-lan-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/cac-loai-vai-cua-thai-lan-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/vai-thun-cotton-poly-thai-la-gi/">Vải thun Thái là gì? Vải cotton Thái là gì? Vải poly Thái là gì?</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/vai-thun-cotton-poly-thai-la-gi/"><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/vai-thun-cotton-poly-thai-la-gi/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p>Để các bạn hiểu hơn về các loại vải của Thái như vải thun lạnh Thái, vải poly Thái, vải cotton Thái, vải thổ cẩm Thái và cuối cùng là vải tole Thái . Thì...</p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/tai-sao-nhat-ban-goi-la-dat-nuoc-mat-troi-moc/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Tai sao nhat ban co ten goi la xu so mat troi moc" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/Tai-sao-nhat-ban-co-ten-goi-la-xu-so-mat-troi-moc-2-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/Tai-sao-nhat-ban-co-ten-goi-la-xu-so-mat-troi-moc-2-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/Tai-sao-nhat-ban-co-ten-goi-la-xu-so-mat-troi-moc-2-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/tai-sao-nhat-ban-goi-la-dat-nuoc-mat-troi-moc/">Tại sao Nhật Bản gọi là đất nước mặt trời mọc?</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/tai-sao-nhat-ban-goi-la-dat-nuoc-mat-troi-moc/"><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/tai-sao-nhat-ban-goi-la-dat-nuoc-mat-troi-moc/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p>Nhật Bản ai cũng biết là một đất nước xinh đẹp với nhiều tên gọi khác nhau, có người gọi là nước Nhật Bản là xứ sở hoa anh đào, xứ sở samurai, đất nước...</p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-gallery">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/mau-banh-sinh-nhat-dep-tang-nguoi-yeu/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Ảnh bánh sinh nhật cute" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/anh-banh-sinh-nhat-dep-24hexpressvn-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/anh-banh-sinh-nhat-dep-24hexpressvn-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/anh-banh-sinh-nhat-dep-24hexpressvn-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/mau-banh-sinh-nhat-dep-tang-nguoi-yeu/">Mẫu bánh sinh nhật đẹp tặng người yêu</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/mau-banh-sinh-nhat-dep-tang-nguoi-yeu/"><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/mau-banh-sinh-nhat-dep-tang-nguoi-yeu/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p></p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/insight-la-gi-the-nao-la-mot-insight-tot/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="insight la gi" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/insight-la-gi-24hexpressvn-2-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/insight-la-gi-24hexpressvn-2-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/insight-la-gi-24hexpressvn-2-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/insight-la-gi-the-nao-la-mot-insight-tot/">Insight là gì? Thế nào là một insight tốt?</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/insight-la-gi-the-nao-la-mot-insight-tot/"><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/insight-la-gi-the-nao-la-mot-insight-tot/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p>Có rất nhiều bạn đang thắc mắc về insight nghĩa là gì?. Làm thế nào để có một insight tốt? luôn là câu hỏi rất đáng được quan tâm và cần lời giải đáp. Tuy...</p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/thao-mai-la-gi-y-nghia-ve-tinh-cach-thao-mai/"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Thảo mai là gì" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/Thao-mai-la-gi-2-350x250.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/Thao-mai-la-gi-2-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/Thao-mai-la-gi-2-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/thao-mai-la-gi-y-nghia-ve-tinh-cach-thao-mai/">Thảo mai là gì? Ý nghĩa về tính cách thảo mai</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/thao-mai-la-gi-y-nghia-ve-tinh-cach-thao-mai/"><i class="fa fa-clock-o"></i> 22 Tháng Sáu, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/thao-mai-la-gi-y-nghia-ve-tinh-cach-thao-mai/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p>Thảo mai mặc dù không có trong từ điển Tiếng Việt nhưng nó lại vô tình được dùng nhiều trong đời sống, đặc biệt là trong tầng lớp giới trẻ. Vậy thảo mai là gì? thảo mai...</p>
+                    </div>
+                </div>
+            </article>
+            </div>
+                <div class='module-overlay'>
+                <div class='preloader_type preloader_dot'>
+                    <div class="module-preloader jeg_preloader dot">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="module-preloader jeg_preloader circle">
+                        <div class="jnews_preloader_circle_outer">
+                            <div class="jnews_preloader_circle_inner"></div>
+                        </div>
+                    </div>
+                    <div class="module-preloader jeg_preloader square">
+                        <div class="jeg_square"><div class="jeg_square_inner"></div></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="jeg_block_navigation">
+                <div class='navigation_overlay'><div class='module-preloader jeg_preloader'><span></span><span></span><span></span></div></div>
+                
+                
+            </div>
+                
+                <script type="rocketlazyloadscript">var jnews_module_707_3_60f941ebd07ab = {"header_icon":"","first_title":"","second_title":"","url":"","header_type":"heading_6","header_background":"","header_secondary_background":"","header_text_color":"","header_line_color":"","header_accent_color":"","header_filter_category":"","header_filter_author":"","header_filter_tag":"","header_filter_text":"ALL","post_type":"post","content_type":"all","number_post":"15","post_offset":"0","unique_content":"disable","include_post":"","exclude_post":"","include_category":"102,108,81,79,105,64,113","exclude_category":"","include_author":"","include_tag":"","exclude_tag":"","sort_by":"latest","date_format":"default","date_format_custom":"Y\/m\/d","excerpt_length":"35","excerpt_ellipsis":"...","force_normal_image_load":"","pagination_mode":"disable","pagination_nextprev_showtext":"","pagination_number_post":4,"pagination_scroll_limit":0,"ads_type":"googleads","ads_position":"2","ads_random":"","ads_image":"","ads_image_tablet":"","ads_image_phone":"","ads_image_link":"","ads_image_alt":"","ads_image_new_tab":"","google_publisher_id":"","google_slot_id":"","google_desktop":"auto","google_tab":"auto","google_phone":"auto","content":"","ads_bottom_text":"","boxed":"","boxed_shadow":"","el_id":"","el_class":"","scheme":"","column_width":"auto","title_color":"","accent_color":"","alt_color":"","excerpt_color":"","css":"","compatible_column_notice":"","paged":1,"column_class":"jeg_col_2o3","class":"jnews_block_3"};</script>
+            </div></div></div></div></div></div></div><div class="wpb_column jeg_column vc_column_container vc_col-sm-4 jeg_sticky_sidebar jeg_sidebar"><div class="jeg_wrapper wpb_wrapper"><div  class="jeg_postblock_21 jeg_postblock jeg_module_hook jeg_pagination_disable jeg_col_1o3 jnews_module_707_4_60f941ebe23a0   " data-unique="jnews_module_707_4_60f941ebe23a0">
+                <div class="jeg_block_heading jeg_block_heading_6 jeg_subcat_right">
+                    <h3 class="jeg_block_title"><span><i class='fas fa-bell'></i>BÀI <strong>VIẾT MỚI</strong></span></h3>
+                    
+                </div>
+                <div class="jeg_block_container">
+                
+                <div class="jeg_posts jeg_load_more_flag">
+                <article class="jeg_post jeg_pl_sm format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/to-thi-thanh-hiep-la-ai/"><div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="Thanh Hiệp là ai" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/Thanh-Hiep-la-ai-3-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/Thanh-Hiep-la-ai-3-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/07/Thanh-Hiep-la-ai-3-350x250.jpg 350w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/to-thi-thanh-hiep-la-ai/">Tô Thị Thanh Hiệp là ai? Cô gái ủng hộ bạn trai ngoại tình khiến bà mối Cát Tường hoang mang</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/to-thi-thanh-hiep-la-ai/" ><i class="fa fa-clock-o"></i> 22 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article><article class="jeg_post jeg_pl_sm format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/4-phuong-phap-lam-toc-den-tro-lai-sau-khi-nhuom-hieu-qua-nhanh-chong-tai-nha/"><div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="Phương pháp làm tóc đen tại nhà" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/phuong-phap-giup-toc-den-tro-lai-sau-khi-nhuom-5-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/phuong-phap-giup-toc-den-tro-lai-sau-khi-nhuom-5-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/07/phuong-phap-giup-toc-den-tro-lai-sau-khi-nhuom-5-350x250.jpg 350w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/4-phuong-phap-lam-toc-den-tro-lai-sau-khi-nhuom-hieu-qua-nhanh-chong-tai-nha/">4 phương pháp làm tóc đen trở lại sau khi nhuộm hiệu quả nhanh chóng tại nhà</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/4-phuong-phap-lam-toc-den-tro-lai-sau-khi-nhuom-hieu-qua-nhanh-chong-tai-nha/" ><i class="fa fa-clock-o"></i> 22 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article><article class="jeg_post jeg_pl_sm format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/ios-14-7/"><div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="Hệ điều hành IOS 14.7" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/ios-14-7-2-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/ios-14-7-2-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/07/ios-14-7-2-350x250.jpg 350w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/ios-14-7/">Apple chính thức phát hành bản cập nhật iOS 14.7 với nhiều cải tiến mới</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/ios-14-7/" ><i class="fa fa-clock-o"></i> 20 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article><article class="jeg_post jeg_pl_sm format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/tieu-su-ca-si-dan-truong/"><div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="Đan trường ly hôn với Thủy Tiên" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-dan-truong-3-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-dan-truong-3-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-dan-truong-3-300x216.jpg 300w, https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-dan-truong-3-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-dan-truong-3.jpg 700w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/tieu-su-ca-si-dan-truong/">Tiểu sử và sự nghiệp của ca sĩ Đan Trường</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/tieu-su-ca-si-dan-truong/" ><i class="fa fa-clock-o"></i> 19 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article><article class="jeg_post jeg_pl_sm format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/loi-bai-hat-playing-with-fire-blackpink/"><div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="lời bài hát blackpink playing with fire" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/blackpink-playing-with-fire-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/blackpink-playing-with-fire-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/07/blackpink-playing-with-fire-350x250.jpg 350w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/loi-bai-hat-playing-with-fire-blackpink/">Lời bài hát Playing With Fire &#8211; BLACKPINK</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/loi-bai-hat-playing-with-fire-blackpink/" ><i class="fa fa-clock-o"></i> 17 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article>
+            </div>
+                <div class='module-overlay'>
+                <div class='preloader_type preloader_dot'>
+                    <div class="module-preloader jeg_preloader dot">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="module-preloader jeg_preloader circle">
+                        <div class="jnews_preloader_circle_outer">
+                            <div class="jnews_preloader_circle_inner"></div>
+                        </div>
+                    </div>
+                    <div class="module-preloader jeg_preloader square">
+                        <div class="jeg_square"><div class="jeg_square_inner"></div></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="jeg_block_navigation">
+                <div class='navigation_overlay'><div class='module-preloader jeg_preloader'><span></span><span></span><span></span></div></div>
+                
+                
+            </div>
+                <style scoped>.jnews_module_707_4_60f941ebe23a0 .jeg_block_heading_6 .jeg_block_title span, .jnews_module_707_4_60f941ebe23a0 .jeg_block_heading_6 .jeg_block_title i { color: #000000; }.jnews_module_707_4_60f941ebe23a0 .jeg_block_heading_6 { border-color: #d1d1d1; }.jnews_module_707_4_60f941ebe23a0 .jeg_block_heading_6:after { background-color: #e82020; }</style>
+                <script type="rocketlazyloadscript">var jnews_module_707_4_60f941ebe23a0 = {"header_icon":"fas fa-bell","first_title":"B\u00c0I ","second_title":"VI\u1ebeT M\u1edaI","url":"","header_type":"heading_6","header_background":"","header_secondary_background":"","header_text_color":"#000000","header_line_color":"#d1d1d1","header_accent_color":"#e82020","header_filter_category":"","header_filter_author":"","header_filter_tag":"","header_filter_text":"All","post_type":"post","content_type":"all","number_post":"5","post_offset":"0","unique_content":"unique2","include_post":"","exclude_post":"","include_category":"","exclude_category":"","include_author":"","include_tag":"","exclude_tag":"","sort_by":"latest","date_format":"default","date_format_custom":"Y\/m\/d","force_normal_image_load":"","pagination_mode":"disable","pagination_nextprev_showtext":"","pagination_number_post":6,"pagination_scroll_limit":0,"boxed":"","boxed_shadow":"","el_id":"","el_class":"","scheme":"","column_width":"auto","title_color":"","accent_color":"","alt_color":"","excerpt_color":"","css":"","compatible_column_notice":"","paged":1,"column_class":"jeg_col_1o3","class":"jnews_block_21"};</script>
+            </div><div  class="vc_wp_text wpb_content_element"><div class="widget widget_text">			<div class="textwidget"><p><script type="rocketlazyloadscript" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><br />
+<!-- QC-Sitebar-left --><br />
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5191506008464792" data-ad-slot="9024868112" data-ad-format="auto" data-full-width-responsive="true"></ins><br />
+<script type="rocketlazyloadscript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></p>
+</div>
+		</div></div></div></div></div></div><div class="row vc_row wpb_row vc_row-fluid"><div class="jeg-vc-wrapper"><div class="wpb_column jeg_column vc_column_container vc_col-sm-8 jeg_main_content"><div class="jeg_wrapper wpb_wrapper"></div></div></div></div><div class="row vc_row wpb_row vc_row-fluid"><div class="jeg-vc-wrapper"><div class="wpb_column jeg_column vc_column_container vc_col-sm-12 jeg_main_content"><div class="jeg_wrapper wpb_wrapper"><div class="row vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="jeg_wrapper "><div class="wpb_wrapper"><div  class="jeg_postblock_20 jeg_postblock jeg_module_hook jeg_pagination_disable jeg_col_1o3 jnews_module_707_5_60f941ebe854a   " data-unique="jnews_module_707_5_60f941ebe854a">
+                <div class="jeg_block_heading jeg_block_heading_6 jeg_subcat_right">
+                    <h3 class="jeg_block_title"><span>CÔNG NGHỆ</span></h3>
+                    
+                </div>
+                <div class="jeg_block_container">
+                
+                <div class="jeg_posts">
+                <article class="jeg_post jeg_pl_sm format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/ios-14-7/"><div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="Hệ điều hành IOS 14.7" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/ios-14-7-2-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/ios-14-7-2-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/07/ios-14-7-2-350x250.jpg 350w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/ios-14-7/">Apple chính thức phát hành bản cập nhật iOS 14.7 với nhiều cải tiến mới</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/ios-14-7/" ><i class="fa fa-clock-o"></i> 20 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article>
+                <div class="jeg_postsmall jeg_load_more_flag">
+                    <article class="jeg_post jeg_pl_xs format-standard">
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/top-3-phan-mem-gia-lap-android-nhe-nhat-hien-nay/">Top 3 phần mềm giả lập android nhẹ nhất hiện nay</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/top-3-phan-mem-gia-lap-android-nhe-nhat-hien-nay/" ><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article><article class="jeg_post jeg_pl_xs format-standard">
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/tpm-la-gi/">TPM 2.0 là gì? Fix lỗi TPM2</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/tpm-la-gi/" ><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article><article class="jeg_post jeg_pl_xs format-standard">
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/nguoi-dung-se-duoc-nang-cap-len-windows-11-mien-phi-cac-tinh-nang-chinh-cua-windows-11/">Người dùng sẽ được nâng cấp lên Windows 11 miễn phí, các tính năng chính của Windows 11</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/nguoi-dung-se-duoc-nang-cap-len-windows-11-mien-phi-cac-tinh-nang-chinh-cua-windows-11/" ><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article>
+                </div>
+            </div>
+                <div class='module-overlay'>
+                <div class='preloader_type preloader_dot'>
+                    <div class="module-preloader jeg_preloader dot">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="module-preloader jeg_preloader circle">
+                        <div class="jnews_preloader_circle_outer">
+                            <div class="jnews_preloader_circle_inner"></div>
+                        </div>
+                    </div>
+                    <div class="module-preloader jeg_preloader square">
+                        <div class="jeg_square"><div class="jeg_square_inner"></div></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="jeg_block_navigation">
+                <div class='navigation_overlay'><div class='module-preloader jeg_preloader'><span></span><span></span><span></span></div></div>
+                
+                
+            </div>
+                
+                <script type="rocketlazyloadscript">var jnews_module_707_5_60f941ebe854a = {"header_icon":"","first_title":"C\u00d4NG NGH\u1ec6","second_title":"","url":"","header_type":"heading_6","header_background":"","header_secondary_background":"","header_text_color":"","header_line_color":"","header_accent_color":"","header_filter_category":"","header_filter_author":"","header_filter_tag":"","header_filter_text":"All","post_type":"post","content_type":"all","number_post":"4","post_offset":"0","unique_content":"disable","include_post":"","exclude_post":"","include_category":"110","exclude_category":"","include_author":"","include_tag":"","exclude_tag":"","sort_by":"latest","date_format":"default","date_format_custom":"Y\/m\/d","force_normal_image_load":"","pagination_mode":"disable","pagination_nextprev_showtext":"","pagination_number_post":6,"pagination_scroll_limit":0,"boxed":"","boxed_shadow":"","el_id":"","el_class":"","scheme":"","column_width":"4","title_color":"","accent_color":"","alt_color":"","excerpt_color":"","css":"","compatible_column_notice":"","paged":1,"column_class":"jeg_col_1o3","class":"jnews_block_20"};</script>
+            </div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="jeg_wrapper "><div class="wpb_wrapper"><div  class="jeg_postblock_20 jeg_postblock jeg_module_hook jeg_pagination_disable jeg_col_1o3 jnews_module_707_6_60f941ebec38f   " data-unique="jnews_module_707_6_60f941ebec38f">
+                <div class="jeg_block_heading jeg_block_heading_6 jeg_subcat_right">
+                    <h3 class="jeg_block_title"><span>ÂM NHẠC</span></h3>
+                    
+                </div>
+                <div class="jeg_block_container">
+                
+                <div class="jeg_posts">
+                <article class="jeg_post jeg_pl_sm format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/loi-bai-hat-playing-with-fire-blackpink/"><div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="lời bài hát blackpink playing with fire" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/blackpink-playing-with-fire-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/blackpink-playing-with-fire-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/07/blackpink-playing-with-fire-350x250.jpg 350w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/loi-bai-hat-playing-with-fire-blackpink/">Lời bài hát Playing With Fire &#8211; BLACKPINK</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/loi-bai-hat-playing-with-fire-blackpink/" ><i class="fa fa-clock-o"></i> 17 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article>
+                <div class="jeg_postsmall jeg_load_more_flag">
+                    <article class="jeg_post jeg_pl_xs format-standard">
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/loi-bai-hat-when-i-was-your-man-bruno-mars/">Lời bài hát When I Was Your Man – Bruno Mars</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/loi-bai-hat-when-i-was-your-man-bruno-mars/" ><i class="fa fa-clock-o"></i> 14 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article><article class="jeg_post jeg_pl_xs format-standard">
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/loi-bai-hat-twinkle-twinkle-little-star-jane-taylor/">Lời bài hát Twinkle Twinkle Little Star – Jane Taylor</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/loi-bai-hat-twinkle-twinkle-little-star-jane-taylor/" ><i class="fa fa-clock-o"></i> 13 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article><article class="jeg_post jeg_pl_xs format-standard">
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/loi-bai-hat-seasons-in-the-sun-westlife/">Lời bài hát Seasons In The Sun – Westlife</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/loi-bai-hat-seasons-in-the-sun-westlife/" ><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article>
+                </div>
+            </div>
+                <div class='module-overlay'>
+                <div class='preloader_type preloader_dot'>
+                    <div class="module-preloader jeg_preloader dot">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="module-preloader jeg_preloader circle">
+                        <div class="jnews_preloader_circle_outer">
+                            <div class="jnews_preloader_circle_inner"></div>
+                        </div>
+                    </div>
+                    <div class="module-preloader jeg_preloader square">
+                        <div class="jeg_square"><div class="jeg_square_inner"></div></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="jeg_block_navigation">
+                <div class='navigation_overlay'><div class='module-preloader jeg_preloader'><span></span><span></span><span></span></div></div>
+                
+                
+            </div>
+                
+                <script type="rocketlazyloadscript">var jnews_module_707_6_60f941ebec38f = {"header_icon":"","first_title":"\u00c2M NH\u1ea0C","second_title":"","url":"","header_type":"heading_6","header_background":"","header_secondary_background":"","header_text_color":"","header_line_color":"","header_accent_color":"","header_filter_category":"","header_filter_author":"","header_filter_tag":"","header_filter_text":"All","post_type":"post","content_type":"all","number_post":"4","post_offset":"0","unique_content":"disable","include_post":"","exclude_post":"","include_category":"80","exclude_category":"","include_author":"","include_tag":"","exclude_tag":"","sort_by":"latest","date_format":"default","date_format_custom":"Y\/m\/d","force_normal_image_load":"","pagination_mode":"disable","pagination_nextprev_showtext":"","pagination_number_post":6,"pagination_scroll_limit":0,"boxed":"","boxed_shadow":"","el_id":"","el_class":"","scheme":"","column_width":"4","title_color":"","accent_color":"","alt_color":"","excerpt_color":"","css":"","compatible_column_notice":"","paged":1,"column_class":"jeg_col_1o3","class":"jnews_block_20"};</script>
+            </div></div></div></div></div><div class="row vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="jeg_wrapper "><div class="wpb_wrapper"><div  class="jeg_postblock_20 jeg_postblock jeg_module_hook jeg_pagination_disable jeg_col_1o3 jnews_module_707_7_60f941ebf0cc0   " data-unique="jnews_module_707_7_60f941ebf0cc0">
+                <div class="jeg_block_heading jeg_block_heading_6 jeg_subcat_right">
+                    <h3 class="jeg_block_title"><span>DU LỊCH</span></h3>
+                    
+                </div>
+                <div class="jeg_block_container">
+                
+                <div class="jeg_posts">
+                <article class="jeg_post jeg_pl_sm format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/tai-sao-nhat-ban-goi-la-dat-nuoc-mat-troi-moc/"><div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="Tai sao nhat ban co ten goi la xu so mat troi moc" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/Tai-sao-nhat-ban-co-ten-goi-la-xu-so-mat-troi-moc-2-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/Tai-sao-nhat-ban-co-ten-goi-la-xu-so-mat-troi-moc-2-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/06/Tai-sao-nhat-ban-co-ten-goi-la-xu-so-mat-troi-moc-2-350x250.jpg 350w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/tai-sao-nhat-ban-goi-la-dat-nuoc-mat-troi-moc/">Tại sao Nhật Bản gọi là đất nước mặt trời mọc?</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/tai-sao-nhat-ban-goi-la-dat-nuoc-mat-troi-moc/" ><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article>
+                <div class="jeg_postsmall jeg_load_more_flag">
+                    <article class="jeg_post jeg_pl_xs format-standard">
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/du-lich-han-quoc-mua-he-co-gi-dep/">Du lịch Hàn Quốc mùa hè có gì đẹp?</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/du-lich-han-quoc-mua-he-co-gi-dep/" ><i class="fa fa-clock-o"></i> 11 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article>
+                </div>
+            </div>
+                <div class='module-overlay'>
+                <div class='preloader_type preloader_dot'>
+                    <div class="module-preloader jeg_preloader dot">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="module-preloader jeg_preloader circle">
+                        <div class="jnews_preloader_circle_outer">
+                            <div class="jnews_preloader_circle_inner"></div>
+                        </div>
+                    </div>
+                    <div class="module-preloader jeg_preloader square">
+                        <div class="jeg_square"><div class="jeg_square_inner"></div></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="jeg_block_navigation">
+                <div class='navigation_overlay'><div class='module-preloader jeg_preloader'><span></span><span></span><span></span></div></div>
+                
+                
+            </div>
+                
+                <script type="rocketlazyloadscript">var jnews_module_707_7_60f941ebf0cc0 = {"header_icon":"","first_title":"DU L\u1ecaCH","second_title":"","url":"","header_type":"heading_6","header_background":"","header_secondary_background":"","header_text_color":"","header_line_color":"","header_accent_color":"","header_filter_category":"","header_filter_author":"","header_filter_tag":"","header_filter_text":"All","post_type":"post","content_type":"all","number_post":"4","post_offset":"0","unique_content":"disable","include_post":"","exclude_post":"","include_category":"102","exclude_category":"","include_author":"","include_tag":"","exclude_tag":"","sort_by":"latest","date_format":"default","date_format_custom":"Y\/m\/d","force_normal_image_load":"","pagination_mode":"disable","pagination_nextprev_showtext":"","pagination_number_post":6,"pagination_scroll_limit":0,"boxed":"","boxed_shadow":"","el_id":"","el_class":"","scheme":"","column_width":"4","title_color":"","accent_color":"","alt_color":"","excerpt_color":"","css":"","compatible_column_notice":"","paged":1,"column_class":"jeg_col_1o3","class":"jnews_block_20"};</script>
+            </div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="jeg_wrapper "><div class="wpb_wrapper"><div  class="jeg_postblock_20 jeg_postblock jeg_module_hook jeg_pagination_disable jeg_col_1o3 jnews_module_707_8_60f941ebf390c   " data-unique="jnews_module_707_8_60f941ebf390c">
+                <div class="jeg_block_heading jeg_block_heading_6 jeg_subcat_right">
+                    <h3 class="jeg_block_title"><span>LÀM ĐẸP</span></h3>
+                    
+                </div>
+                <div class="jeg_block_container">
+                
+                <div class="jeg_posts">
+                <article class="jeg_post jeg_pl_sm format-standard">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/4-phuong-phap-lam-toc-den-tro-lai-sau-khi-nhuom-hieu-qua-nhanh-chong-tai-nha/"><div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="Phương pháp làm tóc đen tại nhà" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/phuong-phap-giup-toc-den-tro-lai-sau-khi-nhuom-5-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/phuong-phap-giup-toc-den-tro-lai-sau-khi-nhuom-5-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/07/phuong-phap-giup-toc-den-tro-lai-sau-khi-nhuom-5-350x250.jpg 350w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/4-phuong-phap-lam-toc-den-tro-lai-sau-khi-nhuom-hieu-qua-nhanh-chong-tai-nha/">4 phương pháp làm tóc đen trở lại sau khi nhuộm hiệu quả nhanh chóng tại nhà</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/4-phuong-phap-lam-toc-den-tro-lai-sau-khi-nhuom-hieu-qua-nhanh-chong-tai-nha/" ><i class="fa fa-clock-o"></i> 22 Tháng Bảy, 2021</a></div></div>
+                </div>
+            </article>
+                <div class="jeg_postsmall jeg_load_more_flag">
+                    <article class="jeg_post jeg_pl_xs format-standard">
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/vet-mo-de-bao-lau-thi-lanh-han-cach-cham-soc-vet-mo-sau-sinh/">Vết mổ đẻ bao lâu thì lành hẳn &#8211; Cách chăm sóc vết mổ sau sinh</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/vet-mo-de-bao-lau-thi-lanh-han-cach-cham-soc-vet-mo-sau-sinh/" ><i class="fa fa-clock-o"></i> 16 Tháng Sáu, 2021</a></div></div>
+                </div>
+            </article><article class="jeg_post jeg_pl_xs format-standard">
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/cong-dung-cua-thuc-pham-chuc-nang/">Công dụng của thực phẩm chức năng</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/cong-dung-cua-thuc-pham-chuc-nang/" ><i class="fa fa-clock-o"></i> 14 Tháng Sáu, 2021</a></div></div>
+                </div>
+            </article><article class="jeg_post jeg_pl_xs format-standard">
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/cay-mi-sinh-hoc-nano-la-gi-tai-sao-nen-cay-mi-sinh-hoc-nano/">Cấy mi sinh học nano là gi? Tại sao nên cấy mi sinh học nano?</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/cay-mi-sinh-hoc-nano-la-gi-tai-sao-nen-cay-mi-sinh-hoc-nano/" ><i class="fa fa-clock-o"></i> 14 Tháng Sáu, 2021</a></div></div>
+                </div>
+            </article>
+                </div>
+            </div>
+                <div class='module-overlay'>
+                <div class='preloader_type preloader_dot'>
+                    <div class="module-preloader jeg_preloader dot">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="module-preloader jeg_preloader circle">
+                        <div class="jnews_preloader_circle_outer">
+                            <div class="jnews_preloader_circle_inner"></div>
+                        </div>
+                    </div>
+                    <div class="module-preloader jeg_preloader square">
+                        <div class="jeg_square"><div class="jeg_square_inner"></div></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="jeg_block_navigation">
+                <div class='navigation_overlay'><div class='module-preloader jeg_preloader'><span></span><span></span><span></span></div></div>
+                
+                
+            </div>
+                
+                <script type="rocketlazyloadscript">var jnews_module_707_8_60f941ebf390c = {"header_icon":"","first_title":"L\u00c0M \u0110\u1eb8P","second_title":"","url":"","header_type":"heading_6","header_background":"","header_secondary_background":"","header_text_color":"","header_line_color":"","header_accent_color":"","header_filter_category":"","header_filter_author":"","header_filter_tag":"","header_filter_text":"All","post_type":"post","content_type":"all","number_post":"4","post_offset":"0","unique_content":"disable","include_post":"","exclude_post":"","include_category":"111","exclude_category":"","include_author":"","include_tag":"","exclude_tag":"","sort_by":"latest","date_format":"default","date_format_custom":"Y\/m\/d","force_normal_image_load":"","pagination_mode":"disable","pagination_nextprev_showtext":"","pagination_number_post":6,"pagination_scroll_limit":0,"boxed":"","boxed_shadow":"","el_id":"","el_class":"","scheme":"","column_width":"4","title_color":"","accent_color":"","alt_color":"","excerpt_color":"","css":"","compatible_column_notice":"","paged":1,"column_class":"jeg_col_1o3","class":"jnews_block_20"};</script>
+            </div></div></div></div></div></div></div></div></div>
+            </div>
+
+                    </div>
+        <div class="jeg_ad jnews_above_footer_ads "><div class='ads-wrapper  '></div></div>    </div>
+</div>
+
+        <div class="footer-holder" id="footer" data-id="footer">
+            <div class="jeg_footer jeg_footer_3 dark">
+    <div class="jeg_footer_container jeg_container">
+        <div class="jeg_footer_content">
+            <div class="container">
+                <div class="row">
+                    <div class="jeg_footer_primary clearfix">
+                        <div class="col-md-3 footer_column">
+                            <div class="footer_widget widget_jnews_about" id="jnews_about-2"><div class="jeg_block_heading jeg_block_heading_6 jnews_module_707_0_60f941ec04a48">
+                    <h3 class="jeg_block_title"><span>GIỚI THIỆU VỀ CHÚNG TÔI</span></h3>
+                    <style scoped>.jnews_module_707_0_60f941ec04a48.jeg_block_heading_6 .jeg_block_title span, .jnews_module_707_0_60f941ec04a48.jeg_block_heading_6 .jeg_block_title i { color: #ffffff; }</style>
+				</div>        <div class="jeg_about ">
+			                <a class="footer_logo" href="https://24hexpress.vn/">
+                    <img class='lazyload'
+                         src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" data-src="https://24hexpress.vn/wp-content/uploads/2021/05/logo-nho.png"  data-srcset="https://24hexpress.vn/wp-content/uploads/2021/05/logo-nho.png 1x, https://24hexpress.vn/wp-content/uploads/2021/05/logo.png 2x"                         alt="24hExpress.vn" data-light-src="https://24hexpress.vn/wp-content/uploads/2021/05/logo-nho.png"  data-light-srcset="https://24hexpress.vn/wp-content/uploads/2021/05/logo-nho.png 1x, https://24hexpress.vn/wp-content/uploads/2021/05/logo.png 2x"  data-dark-src="https://24hexpress.vn/wp-content/uploads/2021/05/logo-nho.png"  data-dark-srcset="https://24hexpress.vn/wp-content/uploads/2021/05/logo-nho.png 1x, https://24hexpress.vn/wp-content/uploads/2021/05/logo.png 2x"                         data-pin-no-hover="true">
+                </a>
+									            <p>24hexpress.vn là trang thông tin tổng hợp chia sẻ về những kiến thức về đời sống xã hội, công nghệ, thể thao, giải trí, làm đẹp… Mang đến cho các bạn đọc nhiều thông tin hấp dẫn trong đời sống hằng ngày <br></p>
+
+			        </div>
+		</div>                        </div>
+
+                        <div class="col-md-3 footer_column">
+                            <div class="footer_widget widget_jnews_about" id="jnews_about-3"><div class="jeg_block_heading jeg_block_heading_6 jnews_module_707_0_60f941ec05414">
+                    <h3 class="jeg_block_title"><span>LIÊN HỆ CHÚNG TÔI</span></h3>
+                    <style scoped>.jnews_module_707_0_60f941ec05414.jeg_block_heading_6 .jeg_block_title span, .jnews_module_707_0_60f941ec05414.jeg_block_heading_6 .jeg_block_title i { color: #ffffff; }</style>
+				</div>        <div class="jeg_about ">
+									            <p><p style="ffont-size: 14px;font-weight: 450; line-height: 29px;color: hsl(0deg 0% 100% / 62%);";><br>Địa chỉ: Thạc Gián, Thanh Khê, Đà Nẵng, 550000<br>Email: 24hexpress.vn@gmail.com <br>Hotline: 0779561528<br></p><br><a href="//www.dmca.com/Protection/Status.aspx?id=30b1a63d-11aa-45a6-aacc-64c4f9c0870f" title="DMCA.com Protection Status" class="dmca-badge"> <img src="//images.dmca.com/Badges/dmca-badge-w150-5x1-01.png?ID=30b1a63d-11aa-45a6-aacc-64c4f9c0870f" alt="DMCA.com Protection Status"></a> <script type="rocketlazyloadscript" data-minify="1" src="https://24hexpress.vn/wp-content/cache/min/1/Badges/DMCABadgeHelper.min.js?ver=1626172259" defer> </script></p>
+
+			        </div>
+		</div><div class="footer_widget widget_jnews_social" id="jnews_social-2">
+        <div class="jeg_social_wrap ">
+			                <p>
+					<strong> FOLLOW CHÚNG TÔI </strong>                </p>
+			
+            <div class="socials_widget   rounded">
+				<a href="https://www.facebook.com/blog24hexpress" target="_blank" class="jeg_facebook">
+                                            <i class="fa fa-facebook"></i>
+                                            
+                                        </a><a href="#" target="_blank" class="jeg_twitter">
+                                            <i class="fa fa-twitter"></i>
+                                            
+                                        </a><a href="#" target="_blank" class="jeg_behance">
+                                            <i class="fa fa-behance"></i>
+                                            
+                                        </a><a href="https://www.youtube.com/channel/UCP3LAcfMwGul4UDrkoxYixA" target="_blank" class="jeg_youtube">
+                                            <i class="fa fa-youtube-play"></i>
+                                            
+                                        </a><a href="#" target="_blank" class="jeg_linkedin">
+                                            <i class="fa fa-linkedin"></i>
+                                            
+                                        </a>            </div>
+
+						<style scoped>#jnews_social-2 .jeg_social_wrap .socials_widget i{color:#dd3333;}</style>        </div>
+
+		</div>                        </div>
+
+                        <div class="col-md-3 footer_column">
+                            <div class="footer_widget widget_jnews_recent_news" id="jnews_recent_news-2"><div class="jeg_block_heading jeg_block_heading_6 jnews_module_707_0_60f941ec056c6">
+                    <h3 class="jeg_block_title"><span>BÀI VIẾT MỚI</span></h3>
+                    <style scoped>.jnews_module_707_0_60f941ec056c6.jeg_block_heading_6 .jeg_block_title span, .jnews_module_707_0_60f941ec056c6.jeg_block_heading_6 .jeg_block_title i { color: #ffffff; }</style>
+				</div>        <div class="jeg_postblock">
+                            <div class="jeg_post jeg_pl_sm post-2725 post type-post status-publish format-standard has-post-thumbnail hentry category-tieu-su category-tin-noi-bat">
+                    <div class="jeg_thumb">
+                                                <a href="https://24hexpress.vn/to-thi-thanh-hiep-la-ai/">
+                            <div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="Thanh Hiệp là ai" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/Thanh-Hiep-la-ai-3-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/Thanh-Hiep-la-ai-3-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/07/Thanh-Hiep-la-ai-3-350x250.jpg 350w" data-sizes="auto" data-expand="700" /></div>                        </a>
+                    </div>
+                    <div class="jeg_postblock_content">
+                        <h3 property="headline" class="jeg_post_title"><a property="url" href="https://24hexpress.vn/to-thi-thanh-hiep-la-ai/">Tô Thị Thanh Hiệp là ai? Cô gái ủng hộ bạn trai ngoại tình khiến bà mối Cát Tường hoang mang</a></h3>
+                                            <div class="jeg_post_meta">
+                            <div property="datePublished" class="jeg_meta_date"><i class="fa fa-clock-o"></i> 22 Tháng Bảy, 2021</div>
+                        </div>
+                                        </div>
+                </div>
+                                <div class="jeg_post jeg_pl_sm post-2714 post type-post status-publish format-standard has-post-thumbnail hentry category-lam-dep category-tin-noi-bat">
+                    <div class="jeg_thumb">
+                                                <a href="https://24hexpress.vn/4-phuong-phap-lam-toc-den-tro-lai-sau-khi-nhuom-hieu-qua-nhanh-chong-tai-nha/">
+                            <div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="Phương pháp làm tóc đen tại nhà" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/phuong-phap-giup-toc-den-tro-lai-sau-khi-nhuom-5-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/phuong-phap-giup-toc-den-tro-lai-sau-khi-nhuom-5-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/07/phuong-phap-giup-toc-den-tro-lai-sau-khi-nhuom-5-350x250.jpg 350w" data-sizes="auto" data-expand="700" /></div>                        </a>
+                    </div>
+                    <div class="jeg_postblock_content">
+                        <h3 property="headline" class="jeg_post_title"><a property="url" href="https://24hexpress.vn/4-phuong-phap-lam-toc-den-tro-lai-sau-khi-nhuom-hieu-qua-nhanh-chong-tai-nha/">4 phương pháp làm tóc đen trở lại sau khi nhuộm hiệu quả nhanh chóng tại nhà</a></h3>
+                                            <div class="jeg_post_meta">
+                            <div property="datePublished" class="jeg_meta_date"><i class="fa fa-clock-o"></i> 22 Tháng Bảy, 2021</div>
+                        </div>
+                                        </div>
+                </div>
+                                <div class="jeg_post jeg_pl_sm post-2708 post type-post status-publish format-standard has-post-thumbnail hentry category-the-gioi-cong-nghe category-tin-noi-bat">
+                    <div class="jeg_thumb">
+                                                <a href="https://24hexpress.vn/ios-14-7/">
+                            <div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="Hệ điều hành IOS 14.7" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/ios-14-7-2-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/ios-14-7-2-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/07/ios-14-7-2-350x250.jpg 350w" data-sizes="auto" data-expand="700" /></div>                        </a>
+                    </div>
+                    <div class="jeg_postblock_content">
+                        <h3 property="headline" class="jeg_post_title"><a property="url" href="https://24hexpress.vn/ios-14-7/">Apple chính thức phát hành bản cập nhật iOS 14.7 với nhiều cải tiến mới</a></h3>
+                                            <div class="jeg_post_meta">
+                            <div property="datePublished" class="jeg_meta_date"><i class="fa fa-clock-o"></i> 20 Tháng Bảy, 2021</div>
+                        </div>
+                                        </div>
+                </div>
+                                <div class="jeg_post jeg_pl_sm post-2686 post type-post status-publish format-standard has-post-thumbnail hentry category-tieu-su category-tin-noi-bat">
+                    <div class="jeg_thumb">
+                                                <a href="https://24hexpress.vn/tieu-su-ca-si-dan-truong/">
+                            <div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="Đan trường ly hôn với Thủy Tiên" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-dan-truong-3-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-dan-truong-3-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-dan-truong-3-300x216.jpg 300w, https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-dan-truong-3-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/07/tieu-su-dan-truong-3.jpg 700w" data-sizes="auto" data-expand="700" /></div>                        </a>
+                    </div>
+                    <div class="jeg_postblock_content">
+                        <h3 property="headline" class="jeg_post_title"><a property="url" href="https://24hexpress.vn/tieu-su-ca-si-dan-truong/">Tiểu sử và sự nghiệp của ca sĩ Đan Trường</a></h3>
+                                            <div class="jeg_post_meta">
+                            <div property="datePublished" class="jeg_meta_date"><i class="fa fa-clock-o"></i> 19 Tháng Bảy, 2021</div>
+                        </div>
+                                        </div>
+                </div>
+                        </div>
+        </div>                        </div>
+
+                        <div class="col-md-3 footer_column">
+                            <div class="footer_widget widget_jnews_module_block_3" id="jnews_module_block_3-2"><div id='fix-giao-dien' class="jeg_postblock_3 jeg_postblock jeg_module_hook jeg_pagination_disable jeg_col_1o3 jnews_module_707_9_60f941ec076b4  normal " data-unique="jnews_module_707_9_60f941ec076b4">
+                <div class="jeg_block_heading jeg_block_heading_6 jeg_subcat_right">
+                    <h3 class="jeg_block_title"><span>TOP CÁC VIDEO HÀI HƯỚC</span></h3>
+                    
+                </div>
+                <div class="jeg_posts jeg_block_container">
+                
+                <div class="jeg_posts jeg_load_more_flag">
+                <article class="jeg_post jeg_pl_md_2 format-video">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/pha-ca-khia-de-thuong-cua-chu-cho/"><div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="Con vật dễ thương" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/con-vat-de-thuong-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/con-vat-de-thuong-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/06/con-vat-de-thuong-350x250.jpg 350w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/pha-ca-khia-de-thuong-cua-chu-cho/">Pha cà khịa dễ thương của chú chó</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/pha-ca-khia-de-thuong-cua-chu-cho/"><i class="fa fa-clock-o"></i> 19 Tháng Sáu, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/pha-ca-khia-de-thuong-cua-chu-cho/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p></p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-video">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/cuoc-thi-an-giua-hai-chu-pet-xinh-xinh-va-phan-thang/"><div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="những con vật dễ thương" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/cuoc-thi-an-giua-hai-con-pet-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/cuoc-thi-an-giua-hai-con-pet-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/06/cuoc-thi-an-giua-hai-con-pet-350x250.jpg 350w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/cuoc-thi-an-giua-hai-chu-pet-xinh-xinh-va-phan-thang/">Cuộc thi ăn giữa hai chú pet xinh xinh và phần thắng&#8230;</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/cuoc-thi-an-giua-hai-chu-pet-xinh-xinh-va-phan-thang/"><i class="fa fa-clock-o"></i> 19 Tháng Sáu, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/cuoc-thi-an-giua-hai-chu-pet-xinh-xinh-va-phan-thang/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p></p>
+                    </div>
+                </div>
+            </article><article class="jeg_post jeg_pl_md_2 format-video">
+                <div class="jeg_thumb">
+                    
+                    <a href="https://24hexpress.vn/doi-ban-cung-lo/"><div class="thumbnail-container animate-lazy  size-715 "><img width="120" height="86" src="https://24hexpress.vn/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-120x86 size-jnews-120x86 lazyload wp-post-image" alt="Nhũng con vật dễ thương" loading="lazy" sizes="(max-width: 120px) 100vw, 120px" data-src="https://24hexpress.vn/wp-content/uploads/2021/06/doi-ban-than-dthg-120x86.jpg" data-srcset="https://24hexpress.vn/wp-content/uploads/2021/06/doi-ban-than-dthg-120x86.jpg 120w, https://24hexpress.vn/wp-content/uploads/2021/06/doi-ban-than-dthg-300x216.jpg 300w, https://24hexpress.vn/wp-content/uploads/2021/06/doi-ban-than-dthg-768x554.jpg 768w, https://24hexpress.vn/wp-content/uploads/2021/06/doi-ban-than-dthg-350x250.jpg 350w, https://24hexpress.vn/wp-content/uploads/2021/06/doi-ban-than-dthg-750x541.jpg 750w, https://24hexpress.vn/wp-content/uploads/2021/06/doi-ban-than-dthg.jpg 855w" data-sizes="auto" data-expand="700" /></div></a>
+                </div>
+                <div class="jeg_postblock_content">
+                    <h3 class="jeg_post_title">
+                        <a href="https://24hexpress.vn/doi-ban-cung-lo/">Đôi bàn cùng lớ&#8230;</a>
+                    </h3>
+                    <div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://24hexpress.vn/doi-ban-cung-lo/"><i class="fa fa-clock-o"></i> 14 Tháng Sáu, 2021</a></div><div class="jeg_meta_comment"><a href="https://24hexpress.vn/doi-ban-cung-lo/#comments" ><i class="fa fa-comment-o"></i> 0 </a></div></div>
+                    <div class="jeg_post_excerpt">
+                        <p></p>
+                    </div>
+                </div>
+            </article>
+            </div>
+                <div class='module-overlay'>
+                <div class='preloader_type preloader_dot'>
+                    <div class="module-preloader jeg_preloader dot">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="module-preloader jeg_preloader circle">
+                        <div class="jnews_preloader_circle_outer">
+                            <div class="jnews_preloader_circle_inner"></div>
+                        </div>
+                    </div>
+                    <div class="module-preloader jeg_preloader square">
+                        <div class="jeg_square"><div class="jeg_square_inner"></div></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="jeg_block_navigation">
+                <div class='navigation_overlay'><div class='module-preloader jeg_preloader'><span></span><span></span><span></span></div></div>
+                
+                
+            </div>
+                <style scoped>.jnews_module_707_9_60f941ec076b4 .jeg_block_heading_6 .jeg_block_title span, .jnews_module_707_9_60f941ec076b4 .jeg_block_heading_6 .jeg_block_title i { color: #ffffff; }</style>
+                <script type="rocketlazyloadscript">var jnews_module_707_9_60f941ec076b4 = {"header_icon":"","first_title":"TOP C\u00c1C VIDEO H\u00c0I H\u01af\u1edaC","second_title":"","url":"","header_type":"heading_6","header_background":"","header_secondary_background":"","header_text_color":"#ffffff","header_line_color":"","header_accent_color":"","header_filter_category":"","header_filter_author":"","header_filter_tag":"","header_filter_text":"All","post_type":"post","content_type":"all","number_post":"3","post_offset":"0","unique_content":"disable","include_post":"","exclude_post":"","include_category":"107","exclude_category":"","include_author":"","include_tag":"","exclude_tag":"","sort_by":"latest","date_format":"default","date_format_custom":"Y\/m\/d","excerpt_length":"6","excerpt_ellipsis":"...","force_normal_image_load":"0","pagination_mode":"disable","pagination_nextprev_showtext":"0","pagination_number_post":"4","pagination_scroll_limit":"0","ads_type":"disable","ads_position":"1","ads_random":"0","ads_image":"","ads_image_tablet":"","ads_image_phone":"","ads_image_link":"","ads_image_alt":"","ads_image_new_tab":"0","google_publisher_id":"","google_slot_id":"","google_desktop":"auto","google_tab":"auto","google_phone":"auto","content":"","ads_bottom_text":"0","boxed":"0","boxed_shadow":"0","el_id":"fix-giao-dien","el_class":"","scheme":"normal","column_width":"auto","title_color":"","accent_color":"","alt_color":"","excerpt_color":"","css":"","paged":1,"column_class":"jeg_col_1o3","class":"jnews_block_3"};</script>
+            </div></div>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="jeg_footer_bottom clearfix">
+            <div class="container">
+
+                <!-- secondary footer right -->
+
+                <div class="footer_right">
+
+                    <ul class="jeg_menu_footer"><li id="menu-item-980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-980"><a href="https://24hexpress.vn/chinh-sach-bao-mat/">Chính Sách Bảo Mật</a></li>
+<li id="menu-item-981" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-981"><a href="https://24hexpress.vn/quy-dinh-su-dung/">Quy Định Sử Dụng</a></li>
+<li id="menu-item-982" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-982"><a href="https://24hexpress.vn/gioi-thieu/">Giới Thiệu</a></li>
+<li id="menu-item-983" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-983"><a href="https://24hexpress.vn/lien-he/">Liên Hệ</a></li>
+</ul>
+                    
+                    
+                </div>
+
+                <!-- secondary footer left -->
+
+                
+                
+                                    <p class="copyright"> Copyright© 2021 The 24hExpress.vn </p>
+                
+            </div>
+        </div>
+
+            </div>
+</div><!-- /.footer -->        </div>
+
+        <div class="jscroll-to-top">
+        	<a href="#back-to-top" class="jscroll-to-top_link"><i class="fa fa-angle-up"></i></a>
+        </div>
+    </div>
+
+    <!-- Mobile Navigation
+    ============================================= -->
+<div id="jeg_off_canvas" class="normal">
+    <a href="#" class="jeg_menu_close"><i class="jegicon-cross"></i></a>
+    <div class="jeg_bg_overlay"></div>
+    <div class="jeg_mobile_wrapper">
+        <div class="nav_wrap">
+    <div class="item_main">
+        <!-- Search Form -->
+<div class="jeg_aside_item jeg_search_wrapper jeg_search_no_expand round">
+    <a href="#" class="jeg_search_toggle"><i class="fa fa-search"></i></a>
+    <form action="https://24hexpress.vn/" method="get" class="jeg_search_form" target="_top">
+    <input name="s" class="jeg_search_input" placeholder="Search..." type="text" value="" autocomplete="off">
+    <button type="submit" class="jeg_search_button btn"><i class="fa fa-search"></i></button>
+</form>
+<!-- jeg_search_hide with_result no_result -->
+<div class="jeg_search_result jeg_search_hide with_result">
+    <div class="search-result-wrapper">
+    </div>
+    <div class="search-link search-noresult">
+        No Result    </div>
+    <div class="search-link search-all-button">
+        <i class="fa fa-search"></i> View All Result    </div>
+</div></div><div class="jeg_aside_item">
+    <ul class="jeg_mobile_menu"><li id="menu-item-1741" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-707 current_page_item menu-item-1741"><a href="https://24hexpress.vn/" aria-current="page">Trang Chủ</a></li>
+<li id="menu-item-887" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-887"><a href="https://24hexpress.vn/star/">Star</a></li>
+<li id="menu-item-879" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-879"><a href="https://24hexpress.vn/am-nhac/">Âm Nhạc</a></li>
+<li id="menu-item-882" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-882"><a href="https://24hexpress.vn/giai-tri/">Giải Trí</a>
+<ul class="sub-menu">
+	<li id="menu-item-884" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-884"><a href="https://24hexpress.vn/giai-tri/clip-hai/">Clip Hài</a></li>
+	<li id="menu-item-885" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-885"><a href="https://24hexpress.vn/giai-tri/tieu-su/">Tiểu Sử</a></li>
+	<li id="menu-item-883" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-883"><a href="https://24hexpress.vn/giai-tri/anh-vui/">Ảnh Vui</a></li>
+</ul>
+</li>
+<li id="menu-item-886" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-886"><a href="https://24hexpress.vn/hoc-duong/">Học Đường</a></li>
+<li id="menu-item-888" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-888"><a href="https://24hexpress.vn/suc-khoe/">Sức Khỏe</a></li>
+<li id="menu-item-889" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-889"><a href="https://24hexpress.vn/the-thao/">Thể Thao</a></li>
+</ul></div>    </div>
+    <div class="item_bottom">
+        <div class="jeg_aside_item socials_widget rounded">
+    <a href="https://www.facebook.com/blog24hexpress" target='_blank' class="jeg_facebook"><i class="fa fa-facebook"></i> </a><a href="" target='_blank' class="jeg_tumblr"><i class="fa fa-tumblr"></i> </a><a href="" target='_blank' class="jeg_flickr"><i class="fa fa-flickr"></i> </a></div><div class="jeg_aside_item jeg_aside_copyright">
+	<p>Copyright© 2021 The 24hExpress.vn</p>
+</div>    </div>
+</div>    </div>
+</div><script type="rocketlazyloadscript" data-rocket-type="text/javascript">var jfla = []</script><script type="rocketlazyloadscript" data-rocket-type="text/html" id="wpb-modifications"></script><link rel='stylesheet' id='vc_font_awesome_5_shims-css'  href='https://24hexpress.vn/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/v4-shims.min.css?ver=6.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_font_awesome_5-css'  href='https://24hexpress.vn/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/all.min.css?ver=6.6.0' type='text/css' media='all' />
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="https://24hexpress.vn/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0" defer></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://24hexpress.vn/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0" defer></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://24hexpress.vn/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0" defer></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://24hexpress.vn/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4" defer></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://24hexpress.vn/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12" defer></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://24hexpress.vn/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2" defer></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="https://24hexpress.vn/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4" defer></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/24hexpress.vn\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-content/cache/min/1/wp-content/plugins/contact-form-7/includes/js/index.js?ver=1626172259' id='contact-form-7-js' defer></script>
+<script type='text/javascript' id='kk-star-ratings-js-extra'>
+/* <![CDATA[ */
+var kk_star_ratings = {"action":"kk-star-ratings","endpoint":"https:\/\/24hexpress.vn\/wp-admin\/admin-ajax.php","nonce":"b521b34d26"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-content/cache/min/1/wp-content/plugins/kk-star-ratings/public/js/kk-star-ratings.js?ver=1626172259' id='kk-star-ratings-js' defer></script>
+<script type='text/javascript' id='toc-front-js-extra'>
+/* <![CDATA[ */
+var tocplus = {"visibility_show":"Hi\u1ec7n","visibility_hide":"\u1ea8n","width":"100%"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2106' id='toc-front-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/24hexpress.vn","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-includes/js/comment-reply.min.js?ver=5.7.2' id='comment-reply-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='mediaelement-core-js-before'>
+var mejsL10n = {"language":"vi","strings":{"mejs.download-file":"T\u1ea3i v\u1ec1 t\u1eadp tin","mejs.install-flash":"B\u1ea1n \u0111ang s\u1eed d\u1ee5ng tr\u00ecnh duy\u1ec7t kh\u00f4ng h\u1ed7 tr\u1ee3 Flash player. Vui l\u00f2ng b\u1eadt ho\u1eb7c c\u00e0i \u0111\u1eb7t \n phi\u00ean b\u1ea3n m\u1edbi nh\u1ea5t t\u1ea1i https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"To\u00e0n m\u00e0n h\u00ecnh","mejs.play":"Ch\u1ea1y","mejs.pause":"T\u1ea1m d\u1eebng","mejs.time-slider":"Th\u1eddi gian tr\u00ecnh chi\u1ebfu","mejs.time-help-text":"S\u1eed d\u1ee5ng c\u00e1c ph\u00edm m\u0169i t\u00ean Tr\u00e1i\/Ph\u1ea3i \u0111\u1ec3 ti\u1ebfn m\u1ed9t gi\u00e2y, m\u0169i t\u00ean L\u00ean\/Xu\u1ed1ng \u0111\u1ec3 ti\u1ebfn m\u01b0\u1eddi gi\u00e2y.","mejs.live-broadcast":"Tr\u1ef1c ti\u1ebfp","mejs.volume-help-text":"S\u1eed d\u1ee5ng c\u00e1c ph\u00edm m\u0169i t\u00ean L\u00ean\/Xu\u1ed1ng \u0111\u1ec3 t\u0103ng ho\u1eb7c gi\u1ea3m \u00e2m l\u01b0\u1ee3ng.","mejs.unmute":"B\u1eadt ti\u1ebfng","mejs.mute":"T\u1eaft ti\u1ebfng","mejs.volume-slider":"\u00c2m l\u01b0\u1ee3ng Tr\u00ecnh chi\u1ebfu","mejs.video-player":"Tr\u00ecnh ch\u01a1i Video","mejs.audio-player":"Tr\u00ecnh ch\u01a1i Audio","mejs.captions-subtitles":"Ph\u1ee5 \u0111\u1ec1","mejs.captions-chapters":"C\u00e1c m\u1ee5c","mejs.none":"Tr\u1ed1ng","mejs.afrikaans":"Ti\u1ebfng Nam Phi","mejs.albanian":"Ti\u1ebfng Albani","mejs.arabic":"Ti\u1ebfng \u1ea2 R\u1eadp","mejs.belarusian":"Ti\u1ebfng Belarus","mejs.bulgarian":"Ti\u1ebfng Bulgari","mejs.catalan":"Ti\u1ebfng Catalan","mejs.chinese":"Ti\u1ebfng Trung Qu\u1ed1c","mejs.chinese-simplified":"Ti\u1ebfng Trung Qu\u1ed1c (gi\u1ea3n th\u1ec3)","mejs.chinese-traditional":"Ti\u1ebfng Trung ( Ph\u1ed3n th\u1ec3 )","mejs.croatian":"Ti\u1ebfng Croatia","mejs.czech":"Ti\u1ebfng S\u00e9c","mejs.danish":"Ti\u1ebfng \u0110an M\u1ea1ch","mejs.dutch":"Ti\u1ebfng H\u00e0 Lan","mejs.english":"Ti\u1ebfng Anh","mejs.estonian":"Ti\u1ebfng Estonia","mejs.filipino":"Ti\u1ebfng Philippin","mejs.finnish":"Ti\u1ebfng Ph\u1ea7n Lan","mejs.french":"Ti\u1ebfng Ph\u00e1p","mejs.galician":"Ti\u1ebfng Galicia","mejs.german":"Ti\u1ebfng \u0110\u1ee9c","mejs.greek":"Ti\u1ebfng Hy L\u1ea1p","mejs.haitian-creole":"Ti\u1ebfng Haiti","mejs.hebrew":"Ti\u1ebfng Do Th\u00e1i","mejs.hindi":"Ti\u1ebfng Hindu","mejs.hungarian":"Ti\u1ebfng Hungary","mejs.icelandic":"Ti\u1ebfng Ailen","mejs.indonesian":"Ti\u1ebfng Indonesia","mejs.irish":"Ti\u1ebfng Ailen","mejs.italian":"Ti\u1ebfng \u00dd","mejs.japanese":"Ti\u1ebfng Nh\u1eadt","mejs.korean":"Ti\u1ebfng H\u00e0n Qu\u1ed1c","mejs.latvian":"Ti\u1ebfng Latvia","mejs.lithuanian":"Ti\u1ebfng Lithuani","mejs.macedonian":"Ti\u1ebfng Macedonia","mejs.malay":"Ti\u1ebfng Malaysia","mejs.maltese":"Ti\u1ebfng Maltese","mejs.norwegian":"Ti\u1ebfng Na Uy","mejs.persian":"Ti\u1ebfng Ba T\u01b0","mejs.polish":"Ti\u1ebfng Ba Lan","mejs.portuguese":"Ti\u1ebfng B\u1ed3 \u0110\u00e0o Nha","mejs.romanian":"Ti\u1ebfng Romani","mejs.russian":"Ti\u1ebfng Nga","mejs.serbian":"Ti\u1ebfng Serbia","mejs.slovak":"Ti\u1ebfng Slovakia","mejs.slovenian":"Ti\u1ebfng Slovenia","mejs.spanish":"Ti\u1ebfng T\u00e2y Ban Nha","mejs.swahili":"Ti\u1ebfng Swahili","mejs.swedish":"Ti\u1ebfng Th\u1ee5y \u0110i\u1ec3n","mejs.tagalog":"Ti\u1ebfng Tagalog","mejs.thai":"Ti\u1ebfng Th\u00e1i","mejs.turkish":"Ti\u1ebfng Th\u1ed5 Nh\u0129 K\u00ec","mejs.ukrainian":"Ti\u1ebfng Ukraina","mejs.vietnamese":"Ti\u1ebfng Vi\u1ec7t","mejs.welsh":"Ti\u1ebfng Welsh","mejs.yiddish":"Ti\u1ebfng Yiddish"}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.16' id='mediaelement-core-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.7.2' id='mediaelement-migrate-js' defer></script>
+<script type='text/javascript' id='mediaelement-js-extra'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=5.7.2' id='wp-mediaelement-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-includes/js/hoverIntent.min.js?ver=1.8.1' id='hoverIntent-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js' defer></script>
+<script type='text/javascript' id='jnews-frontend-js-extra'>
+/* <![CDATA[ */
+var jnewsoption = {"login_reload":"https:\/\/24hexpress.vn","popup_script":"magnific","single_gallery":"","ismobile":"","isie":"","sidefeed_ajax":"","language":"vi","module_prefix":"jnews_module_ajax_","live_search":"1","postid":"0","isblog":"","admin_bar":"0","follow_video":"","follow_position":"top_right","rtl":"0","gif":"","lang":{"invalid_recaptcha":"Invalid Recaptcha!","empty_username":"Please enter your username!","empty_email":"Please enter your email!","empty_password":"Please enter your password!"},"recaptcha":"0","site_slug":"\/","site_domain":"24hexpress.vn","zoom_button":"0"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-content/themes/jnews/assets/dist/frontend.min.js?ver=7.0.8' id='jnews-frontend-js' defer></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://24hexpress.vn/wp-content/themes/jnews/assets/js/html5shiv.min.js?ver=7.0.8' id='html5shiv-js'></script>
+<![endif]-->
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-content/cache/min/1/wp-content/plugins/jnews-social-login/assets/js/plugin.js?ver=1626172259' id='jnews-social-login-style-js' defer></script>
+<script type='text/javascript' id='jnews-select-share-js-extra'>
+/* <![CDATA[ */
+var jnews_select_share = {"is_customize_preview":""};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-content/cache/min/1/wp-content/plugins/jnews-social-share/assets/js/plugin.js?ver=1626172259' id='jnews-select-share-js' defer></script>
+<script type='text/javascript' src='https://24hexpress.vn/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://24hexpress.vn/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.6.0' id='wpb_composer_front_js-js' defer></script>
+<div class="jeg_ad jnews_mobile_sticky_ads "></div><script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"ItemList","url":"https:\/\/24hexpress.vn","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"T\u00f4 Th\u1ecb Thanh Hi\u1ec7p l\u00e0 ai? C\u00f4 g\u00e1i \u1ee7ng h\u1ed9 b\u1ea1n trai ngo\u1ea1i t\u00ecnh khi\u1ebfn b\u00e0 m\u1ed1i C\u00e1t T\u01b0\u1eddng hoang mang","@id":"https:\/\/24hexpress.vn\/to-thi-thanh-hiep-la-ai\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2725","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/07\/Thanh-Hiep-la-ai-3.jpg"}},{"@type":"ListItem","position":2,"item":{"name":"4 ph\u01b0\u01a1ng ph\u00e1p l\u00e0m t\u00f3c \u0111en tr\u1edf l\u1ea1i sau khi nhu\u1ed9m hi\u1ec7u qu\u1ea3 nhanh ch\u00f3ng t\u1ea1i nh\u00e0","@id":"https:\/\/24hexpress.vn\/4-phuong-phap-lam-toc-den-tro-lai-sau-khi-nhuom-hieu-qua-nhanh-chong-tai-nha\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2714","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/07\/phuong-phap-giup-toc-den-tro-lai-sau-khi-nhuom-5.jpg"}},{"@type":"ListItem","position":3,"item":{"name":"Apple ch\u00ednh th\u1ee9c ph\u00e1t h\u00e0nh b\u1ea3n c\u1eadp nh\u1eadt iOS 14.7 v\u1edbi nhi\u1ec1u c\u1ea3i ti\u1ebfn m\u1edbi","@id":"https:\/\/24hexpress.vn\/ios-14-7\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2708","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/07\/ios-14-7-2.jpg"}},{"@type":"ListItem","position":4,"item":{"name":"Ti\u1ec3u s\u1eed v\u00e0 s\u1ef1 nghi\u1ec7p c\u1ee7a ca s\u0129 \u0110an Tr\u01b0\u1eddng","@id":"https:\/\/24hexpress.vn\/tieu-su-ca-si-dan-truong\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2686","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/07\/tieu-su-dan-truong-3.jpg"}},{"@type":"ListItem","position":5,"item":{"name":"V\u0169 Kh\u1eafc Ti\u1ec7p L\u00e0 ai? Ti\u1ec3u s\u1eed c\u1ee7a &#8220;\u0110\u1ea1i s\u1ee9 c\u00e1ch ly&#8221;","@id":"https:\/\/24hexpress.vn\/vu-khac-tiep-la-ai-tieu-su-cua-dai-su-cach-ly\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2651","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/07\/tieu-su-vu-khac-tiep-5.jpg"}},{"@type":"ListItem","position":6,"item":{"name":"M\u1ea1c V\u0103n Khoa l\u00e0 ai? Ti\u1ec3u s\u1eed v\u1ec1 di\u1ec5n vi\u00ean h\u00e0i M\u1ea1c V\u0103n Khoa","@id":"https:\/\/24hexpress.vn\/mac-van-khoa-la-ai\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2283","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/mac-van-khoa-la-ai-24hepxressvn.jpg"}},{"@type":"ListItem","position":7,"item":{"name":"Di\u1ec5n vi\u00ean Ho\u00e0ng Y\u1ebfn v\u1ec1 nh\u00e0 \u0111i con l\u00e0 ai","@id":"https:\/\/24hexpress.vn\/dien-vien-hoang-yen-la-ai\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2223","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/dien-vien-hoan-yen-ve-nha-di-con-la-ai-2.jpg"}},{"@type":"ListItem","position":8,"item":{"name":"Ph\u1ea1m Ng\u1ecdc H\u00e0 My l\u00e0 ai? Nhan s\u1eafc ng\u01b0\u1eddi \u0111\u1eb9p VTV24","@id":"https:\/\/24hexpress.vn\/pham-ngoc-ha-my-la-ai-nhan-sac-nguoi-dep-moi-vtv24\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2114","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/pham-ngoc-ha-my-vtv24-la-ai-11.jpg"}},{"@type":"ListItem","position":9,"item":{"name":"T\u1ea7n su\u1ea5t qu\u1ea3ng c\u00e1o l\u00e0 g\u00ec? L\u1eb7p l\u1ea1i qu\u1ea3ng c\u00e1o Facebook bao nhi\u00eau l\u00e0 \u0111\u1ee7?","@id":"https:\/\/24hexpress.vn\/tan-suat-quang-cao-la-gi-lap-lai-quang-cao-facebook-bao-nhieu-la-du\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2625","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/07\/tan-suat-quang-cao-la-gi.jpg"}},{"@type":"ListItem","position":10,"item":{"name":"K\u1ebft qu\u1ea3 b\u1ed1c th\u0103m v\u00f2ng lo\u1ea1i U23 Ch\u00e2u \u00c1 2022","@id":"https:\/\/24hexpress.vn\/ket-qua-boc-tham-vong-loai-u23-chau-a-2022\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2560","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/07\/ket-qua-boc-tham-vong-loai-u23-chau-a-1.jpg"}},{"@type":"ListItem","position":11,"item":{"name":"Ukm l\u00e0 g\u00ec? \u00dd ngh\u0129a c\u1ee7a t\u1eeb Ukm tr\u00ean Facebook?","@id":"https:\/\/24hexpress.vn\/ukm-la-gi-y-nghia-cua-tu-ukm-tren-facebook\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2542","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/07\/ukm-la-gi.jpg"}},{"@type":"ListItem","position":12,"item":{"name":"K\u1ebft qu\u1ea3 b\u1ed1c th\u0103m v\u00f2ng lo\u1ea1i WC th\u1ee9 3 2022 t\u1ea1i Malaysia","@id":"https:\/\/24hexpress.vn\/ket-qua-boc-tham-vong-loai-wc-thu-3-2022-tai-malaysia\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2459","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/07\/lich-thi-dau-doi-tuyen-viet-nam-vong-loai-thu-3-world-cup-2022.jpg"}},{"@type":"ListItem","position":13,"item":{"name":"Nh\u1eefng m\u1eabu b\u00e1nh kute khi\u1ebfn b\u1ea1n kh\u00f4ng mu\u1ed1n \u0103n","@id":"https:\/\/24hexpress.vn\/nhung-mau-banh-kute-khien-ban-khong-muon-an\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2428","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/nhung-mau-banh-de-thuong-7.jpg"}},{"@type":"ListItem","position":14,"item":{"name":"T\u1ed5ng h\u1ee3p nh\u1eefng c\u00e2u n\u00f3i hay v\u1ec1 cu\u1ed9c s\u1ed1ng gi\u00fap b\u1ea1n \u201cngh\u0129 kh\u00e1c \u0111i\u201d.","@id":"https:\/\/24hexpress.vn\/nhung-cau-noi-hay-ve-cuoc-song-giup-ban-nghi-khac-di\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2420","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/nhung-cau-noi-hay-trong-cuoc-song-4.jpg"}},{"@type":"ListItem","position":15,"item":{"name":"C\u00e1ch \u0111\u1eb7t t\u00ean cho con theo phong th\u1ee7y h\u1ee3p m\u1ec7nh b\u1ed1 m\u1eb9","@id":"https:\/\/24hexpress.vn\/cach-dat-ten-cho-con-theo-phong-thuy-hop-menh-bo-me\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2391","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/dat-ten-cho-con-theo-phong-thuy-ngu-hanh-4.jpg"}},{"@type":"ListItem","position":16,"item":{"name":"C\u00e1ch \u0111\u1eb7t t\u00ean cho con trai hay v\u00e0 \u00fd ngh\u0129a","@id":"https:\/\/24hexpress.vn\/cach-dat-ten-cho-con-trai-hay-va-y-nghia\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2361","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/cach-dat-ten-cho-con-trai-hay-va-y-nghia-1.jpg"}},{"@type":"ListItem","position":17,"item":{"name":"C\u00e1ch \u0111\u1eb7t t\u00ean cho con g\u00e1i hay v\u00e0 \u00fd ngh\u0129a","@id":"https:\/\/24hexpress.vn\/cach-dat-ten-cho-con-gai-hay-va-y-nghia\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2359","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/huong-dan-dat-ten-cho-con-gai-3.jpg"}},{"@type":"ListItem","position":18,"item":{"name":"Ngu\u1ed3n g\u1ed1c v\u00e0 \u00fd ngh\u0129a c\u1ee7a ng\u00e0y Gia \u0111\u00ecnh Vi\u1ec7t Nam 28-6","@id":"https:\/\/24hexpress.vn\/nguon-goc-va-y-nghia-cua-ngay-gia-dinh-viet-nam\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2341","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/ngay-gia-dinh-viet-nam-7.jpg"}},{"@type":"ListItem","position":19,"item":{"name":"V\u1ea3i thun Th\u00e1i l\u00e0 g\u00ec? V\u1ea3i cotton Th\u00e1i l\u00e0 g\u00ec? V\u1ea3i poly Th\u00e1i l\u00e0 g\u00ec?","@id":"https:\/\/24hexpress.vn\/vai-thun-cotton-poly-thai-la-gi\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2321","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/cac-loai-vai-cua-thai-lan.jpg"}},{"@type":"ListItem","position":20,"item":{"name":"T\u1ea1i sao Nh\u1eadt B\u1ea3n g\u1ecdi l\u00e0 \u0111\u1ea5t n\u01b0\u1edbc m\u1eb7t tr\u1eddi m\u1ecdc?","@id":"https:\/\/24hexpress.vn\/tai-sao-nhat-ban-goi-la-dat-nuoc-mat-troi-moc\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2216","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/Tai-sao-nhat-ban-co-ten-goi-la-xu-so-mat-troi-moc-2.jpg"}},{"@type":"ListItem","position":21,"item":{"name":"M\u1eabu b\u00e1nh sinh nh\u1eadt \u0111\u1eb9p t\u1eb7ng ng\u01b0\u1eddi y\u00eau","@id":"https:\/\/24hexpress.vn\/mau-banh-sinh-nhat-dep-tang-nguoi-yeu\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2159","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/anh-banh-sinh-nhat-dep-24hexpressvn.jpg"}},{"@type":"ListItem","position":22,"item":{"name":"Insight l\u00e0 g\u00ec? Th\u1ebf n\u00e0o l\u00e0 m\u1ed9t insight t\u1ed1t?","@id":"https:\/\/24hexpress.vn\/insight-la-gi-the-nao-la-mot-insight-tot\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2154","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/insight-la-gi-24hexpressvn-2.jpg"}},{"@type":"ListItem","position":23,"item":{"name":"Th\u1ea3o mai l\u00e0 g\u00ec? \u00dd ngh\u0129a v\u1ec1 t\u00ednh c\u00e1ch th\u1ea3o mai","@id":"https:\/\/24hexpress.vn\/thao-mai-la-gi-y-nghia-ve-tinh-cach-thao-mai\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2057","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/Thao-mai-la-gi-2.jpg"}},{"@type":"ListItem","position":24,"item":{"name":"L\u1eddi b\u00e0i h\u00e1t Playing With Fire &#8211; BLACKPINK","@id":"https:\/\/24hexpress.vn\/loi-bai-hat-playing-with-fire-blackpink\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2682","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/07\/blackpink-playing-with-fire.jpg"}},{"@type":"ListItem","position":25,"item":{"name":"Top 3 ph\u1ea7n m\u1ec1m gi\u1ea3 l\u1eadp android nh\u1eb9 nh\u1ea5t hi\u1ec7n nay","@id":"https:\/\/24hexpress.vn\/top-3-phan-mem-gia-lap-android-nhe-nhat-hien-nay\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2486","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/07\/3-phan-mem-gia-lap-android-nhe-nhat.jpg"}},{"@type":"ListItem","position":26,"item":{"name":"TPM 2.0 l\u00e0 g\u00ec? Fix l\u1ed7i TPM2","@id":"https:\/\/24hexpress.vn\/tpm-la-gi\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2257","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/tpm2-la-gi.jpg"}},{"@type":"ListItem","position":27,"item":{"name":"Ng\u01b0\u1eddi d\u00f9ng s\u1ebd \u0111\u01b0\u1ee3c n\u00e2ng c\u1ea5p l\u00ean Windows 11 mi\u1ec5n ph\u00ed, c\u00e1c t\u00ednh n\u0103ng ch\u00ednh c\u1ee7a Windows 11","@id":"https:\/\/24hexpress.vn\/nguoi-dung-se-duoc-nang-cap-len-windows-11-mien-phi-cac-tinh-nang-chinh-cua-windows-11\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2246","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/windown11-2-1.jpg"}},{"@type":"ListItem","position":28,"item":{"name":"L\u1eddi b\u00e0i h\u00e1t When I Was Your Man \u2013 Bruno Mars","@id":"https:\/\/24hexpress.vn\/loi-bai-hat-when-i-was-your-man-bruno-mars\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2647","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/07\/When-I-Was-Your-Man.jpg"}},{"@type":"ListItem","position":29,"item":{"name":"L\u1eddi b\u00e0i h\u00e1t Twinkle Twinkle Little Star \u2013 Jane Taylor","@id":"https:\/\/24hexpress.vn\/loi-bai-hat-twinkle-twinkle-little-star-jane-taylor\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2595","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/07\/Twinkle-Twinkle-Little-Star.jpg"}},{"@type":"ListItem","position":30,"item":{"name":"L\u1eddi b\u00e0i h\u00e1t Seasons In The Sun \u2013 Westlife","@id":"https:\/\/24hexpress.vn\/loi-bai-hat-seasons-in-the-sun-westlife\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=2548","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/07\/Seasons-In-The-Sun-\u2013-Westlife.jpg"}},{"@type":"ListItem","position":31,"item":{"name":"Du l\u1ecbch H\u00e0n Qu\u1ed1c m\u00f9a h\u00e8 c\u00f3 g\u00ec \u0111\u1eb9p?","@id":"https:\/\/24hexpress.vn\/du-lich-han-quoc-mua-he-co-gi-dep\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=1031","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/du-lich-han-quoc-mua-he-10.jpg"}},{"@type":"ListItem","position":32,"item":{"name":"V\u1ebft m\u1ed5 \u0111\u1ebb bao l\u00e2u th\u00ec l\u00e0nh h\u1eb3n &#8211; C\u00e1ch ch\u0103m s\u00f3c v\u1ebft m\u1ed5 sau sinh","@id":"https:\/\/24hexpress.vn\/vet-mo-de-bao-lau-thi-lanh-han-cach-cham-soc-vet-mo-sau-sinh\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=1827","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/vet-mo-de-bao-lau-thi-lanh.jpg"}},{"@type":"ListItem","position":33,"item":{"name":"C\u00f4ng d\u1ee5ng c\u1ee7a th\u1ef1c ph\u1ea9m ch\u1ee9c n\u0103ng","@id":"https:\/\/24hexpress.vn\/cong-dung-cua-thuc-pham-chuc-nang\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=1384","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/cong-dung-thuc-pham-chuc-nang-2.jpg"}},{"@type":"ListItem","position":34,"item":{"name":"C\u1ea5y mi sinh h\u1ecdc nano l\u00e0 gi? T\u1ea1i sao n\u00ean c\u1ea5y mi sinh h\u1ecdc nano?","@id":"https:\/\/24hexpress.vn\/cay-mi-sinh-hoc-nano-la-gi-tai-sao-nen-cay-mi-sinh-hoc-nano\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=1252","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/cay-mi-sinh-hoc-la-gi-2.jpg"}},{"@type":"ListItem","position":35,"item":{"name":"Pha c\u00e0 kh\u1ecba d\u1ec5 th\u01b0\u01a1ng c\u1ee7a ch\u00fa ch\u00f3","@id":"https:\/\/24hexpress.vn\/pha-ca-khia-de-thuong-cua-chu-cho\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=1976","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/con-vat-de-thuong.jpg"}},{"@type":"ListItem","position":36,"item":{"name":"Cu\u1ed9c thi \u0103n gi\u1eefa hai ch\u00fa pet xinh xinh v\u00e0 ph\u1ea7n th\u1eafng&#8230;","@id":"https:\/\/24hexpress.vn\/cuoc-thi-an-giua-hai-chu-pet-xinh-xinh-va-phan-thang\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=1973","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/cuoc-thi-an-giua-hai-con-pet.jpg"}},{"@type":"ListItem","position":37,"item":{"name":"\u0110\u00f4i b\u00e0n c\u00f9ng l\u1edb&#8230;","@id":"https:\/\/24hexpress.vn\/doi-ban-cung-lo\/","url":"https:\/\/24hexpress.vn\/?post_type=post&p=1606","image":"https:\/\/24hexpress.vn\/wp-content\/uploads\/2021\/06\/doi-ban-than-dthg.jpg"}}]}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Webpage","headline":"Blog Chia S\u1ebb Tin T\u1ee9c","url":"https:\/\/24hexpress.vn\/"}</script>
+<script>window.lazyLoadOptions={elements_selector:"iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://24hexpress.vn/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1626948076 -->

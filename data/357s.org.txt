@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>357 service</title>
+<meta name="description" content="">
+<meta name="coinguon" content="">
+
+
+<style>
+
+.ngaythang { grid-area: ngaythang; color:#FF33FF; }
+.hinhanh{ grid-area: hinhanh; }
+.ghichu{ grid-area: ghichu; color:#990099; }
+.thanhngu{ grid-area: thanhngu; color:#0000FF; }
+.dangnhap{ grid-area: dangnhap; color:#990000; }
+
+.grid-container {
+  display: grid;
+  grid:
+  'ngaythang ngaythang ngaythang ngaythang ngaythang'
+  'hinhanh hinhanh hinhanh hinhanh hinhanh'
+  'hinhanh hinhanh hinhanh hinhanh hinhanh'
+  'hinhanh hinhanh hinhanh hinhanh hinhanh'
+  'hinhanh hinhanh hinhanh hinhanh hinhanh'
+  'hinhanh hinhanh hinhanh hinhanh hinhanh'
+  'ghichu ghichu ghichu ghichu ghichu'
+  'thanhngu thanhngu thanhngu thanhngu thanhngu'
+  'dangnhap dangnhap dangnhap dangnhap dangnhap';
+  
+  grid-gap: 1 em;
+  background-color: #43CDCA ;
+  padding: 2px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+}
+.inputbox{
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #555;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+}
+.btn {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #555;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  background-color: #f3f3f3;
+}
+.btn.disabled {
+  cursor: not-allowed;
+  color: #ddd;
+  border-color: #ddd;
+}
+.btn-group {
+  padding: 15px 20px;
+  text-align: right;
+  background-color: #f5f6f8;
+}
+.btn-primary {
+  color: #fff;
+  border-color: #0066c0;
+  background-color: #0074d9;
+}
+.btn-primary:hover {
+  background-color: #0066c0;
+}
+.btn-danger {
+  color: #fff;
+  border-color: #ab3326;
+  background-color: #c0392b;
+}
+.btn-danger:hover {
+  background-color: #ab3326;
+}
+.btn-cancel {
+  color: #999;
+  border-color: #ddd;
+}
+.btn-cancel:hover {
+  background-color: #e6e6e6;
+}
+.site-dialog {
+  overflow: hidden;
+  width: 95%;
+  max-width: 500px;
+  padding: 0;
+  border-width: 0;
+  border-radius: 5px;
+  background: transparent;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.site-dialog h1 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  color: #fff;
+}
+.site-dialog p {
+  font-size: 14px;
+}
+.site-dialog .dialog-header {
+  padding: 12px 20px;
+  background-color: #434a54;
+}
+.site-dialog .dialog-content {
+  padding: 30px 20px;
+  color: #555;
+  background-color: #fff;
+}
+.site-dialog .dialog-content p:last-of-type,
+.site-dialog .dialog-content p:only-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+</style>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/lunar.js"></script> 
+<script type="text/javascript">
+  
+   
+    function sendPasswordReset() {
+      var email = document.getElementById('email').value;
+      // [START sendpasswordemail]
+      firebase.auth().sendPasswordResetEmail(email).then(function(){
+        // Password Reset Email Sent!
+        // [START_EXCLUDE]
+        alert('Vào thư điện tử của quý khách để cài lại mật khẩu!!');
+        // [END_EXCLUDE]
+      }).catch(function(error) {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        // [START_EXCLUDE]
+        if (errorCode == 'auth/invalid-email') {
+          alert(errorMessage);
+        } else if (errorCode == 'auth/user-not-found') {
+          alert(errorMessage);
+        }
+        console.log(error);
+        // [END_EXCLUDE]
+      });
+      // [END sendpasswordemail];
+    }
+    /**
+     * initApp handles setting up UI event listeners and registering Firebase auth listeners:
+     *  - firebase.auth().onAuthStateChanged: This listener is called when the user is signed in or
+     *    out, and that is where we update the UI.
+     */
+  
+     
+ 
+</script>
+
+
+<script type="text/javascript">
+ function validate() {
+ var phone = document.getElementById("phone");
+ var pass = document.getElementById("pass");
+//alert(phone.value);
+      if(phone_check(phone.value)&&pass_check(pass.value)) return true ;else return false ;
+ }
+//Hàm kiểm tra email
+function email_check(obj){
+
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/; 
+    if (!filter.test(obj)) { 
+           // alert("Hãy nhập Email hợp lệ .\nExample@gmail.com");
+             return false; 
+    }
+    else{ 
+            
+			 return true; 
+    } 
+}
+//Hàm kiểm tra pass
+function pass_check(obj){
+
+    var filter = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/; 
+    if (!filter.test(obj)) { 
+            document.getElementById('pass_info').innerHTML='Mật khẩu ít nhất có 6 ký tự, trong đó phải có 1 ký tự in HOA!';
+	     
+             return false; 
+    }
+    else{ 
+             return true; 
+    } 
+ 
+}
+function phone_check(obj) {
+        var sdt=obj;
+		//alert(sdt);
+        var filter =/((09|03|07|08|05)+([0-9]{8})\b)/g;
+        if (!filter.test(sdt)) 
+        { 
+             //alert("Số điện thoại không đủ");
+             document.getElementById('phone_info').innerHTML='Chưa đúng đầu số hay đủ số điện thoại!';
+             return false; 
+        }
+        else
+        {
+			
+             return true; 
+        } 
+   
+}
+
+</script>
+
+
+
+<div class="grid-container">
+   <div class="ngaythang">
+	  <div align="center">
+			  <table width="auto" border="0">
+			  <tr>
+				<td id="ngay" style="color:#660066"></td>
+				<td>&nbsp;</td>
+				<td id="thang"></td>
+				<td>&nbsp;</td>
+				<td id="nam" align="right"></td>
+			  </tr>
+			  <tr>
+				<td id="thu"></td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td id="gio" align="right" style="color: #0000FF">&nbsp;</td>
+			  </tr>
+			  <tr>
+				<td id="ngayam"></td>
+				<td>&nbsp;</td>
+				<td id="thangam"></td>
+				<td>&nbsp;</td>
+				<td id="namam" align="right">&nbsp;</td>
+			  </tr>
+			</table>
+	   </div>
+  </div>
+  <div class="hinhanh"><img width="320px" id="hinh"/></div>  
+  <div id="ghichu" class="ghichu" style="font-size:14px" >Ghi chú</div>
+  <div id="thanhngu" class="thanhngu" style="font-size:18px" >Thành ngữ</div>
+  <div class="dangnhap">
+  	 <form  onsubmit="return validate()" method="post">
+                     
+                                                   
+                           <!-- Phone input-->
+                          
+                               <div   align="center">
+							   <h5>Điện thoại:
+                               <input class="inputbox" id="phone" name="phone"  type="number" placeholder="Số điện thoại">
+								   <h6 style="color:#FF00FF" id="phone_info"></h6> 
+                               </div>
+							  
+                               
+                               <div  align="center">
+							   <h5>Mật  khẩu: 
+							   <input class="inputbox" type="password"  id="pass" name="pass" placeholder="Nhập mật khẩu" rows="5">
+                              	<h6 style="color:#FF00FF" id="pass_info"></h6>
+							   </div>
+                        
+                                <div  align="center" >
+                                   <button class=" btn btn-danger" type="submit" name="signin" >Đăng nhập</button>
+								
+								   <button  class="btn btn-cancel" type="submit" name="signup" >Đăng ký</button>
+								  </div>
+                           
+                      
+          </form>
+	        
+	
+  </div>
+</div>
+		
+   <script>
+		   var today = new Date();
+		   var gio = today.getHours();
+		   var phut = today.getMinutes();
+		   var ngay = today.getDate();
+		   var ngaythu = today.getDay();
+		   var thang=today.getMonth();
+		   var thang1=thang+1;
+		   var nam=today.getFullYear();
+		  
+		   
+		   var thu ='';
+		   var can ='';
+		   var chi ='';
+		   var hinh='https://357s.org/user_img/event/'+'1626251523'+'.jpg';
+		   var ghichu='';
+		  
+			 // Lấy tên thứ của ngày hiện tại
+			
+			switch (ngaythu) {
+			case 0:
+				thu = "Chủ nhật";
+				break;
+			case 1:
+				thu = "Thứ hai";
+				break;
+			case 2:
+				thu = "Thứ ba";
+				break;
+			case 3:
+				thu = "Thứ tư";
+				break;
+			case 4:
+				thu = "Thứ năm";
+				break;
+			case 5:
+				thu = "Thứ sáu";
+				break;
+			case 6:
+				thu = "Thứ bảy";
+			}
+ 
+
+		  
+		  // document.getElementsByClassName("thang").innerHTML =thang1;
+		  // document.getElementsByClassName("ngay").innerHTML = ngay;
+		  //document.getElementsByClassName("nam").innerHTML = nam;
+		  // document.getElementsByClassName("thu").innerHTML = thu;
+		   document.getElementById("hinh").src=hinh;
+		   $("#thang").html(thang1);
+		   $("#ngay").html(ngay);
+		   $("#nam").html(nam);
+		   
+		   $("#thu").html(thu);
+		   $("#ghichu").html(ghichu);
+		  
+			
+//
+
+//hàm chạy dồng hồ		   
+ setInterval(function(){
+
+        var currentTime = new Date();
+        var hours = currentTime.getHours();
+        var minutes = currentTime.getMinutes();
+        var seconds = currentTime.getSeconds();
+
+        // Add leading zeros
+        minutes = (minutes < 10 ? "0" : "") + minutes;
+        seconds = (seconds < 10 ? "0" : "") + seconds;
+        hours = (hours < 10 ? "0" : "") + hours;
+		ngaygio=currentTime +hours+":00:00"
+		
+        // Compose the string for display
+        var currentTimeString = hours + ":" + minutes + ":" + seconds;
+		
+		//Đổi sang giờ can chi
+
+// Phần này là chuyển giờ ra giờ Can Chi	
+	//Chuyển giờ qua địa chi, 23-1 luôn được tính "Tý"
+var giochi='';
+//alert(gio);
+if(gio>=21 && phut>=1 && gio<=23){giochi="Hợi";}
+if(gio>=23 && phut>=1 || gio<=1){giochi="Tý";}
+if(gio>=1 && phut>=1 && gio<=3){giochi="Sửu";}
+if(gio>=3 && phut>=1 && gio<=5){giochi="Dần";}
+if(gio>=5 && phut>=1 && gio<=7){giochi="Mão";}
+if(gio>=7 && phut>=1 && gio<=9){giochi="Thìn";}
+if(gio>=9 && phut>=1 && gio<=11){giochi="Tỵ";}
+if(gio>=11 && phut>=1 && gio<=13){giochi="Ngọ";}
+if(gio>=13 && phut>=1 && gio<=15){giochi="Mùi";}
+if(gio>=15 && phut>=1 && gio<=17){giochi="Thân";}
+if(gio>=17 && phut>=1 && gio<=19){giochi="Dậu";}
+if(gio>=19 && phut>=1 && gio<=21){giochi="Tuất";}
+	//Tính thiên can giờ theo can ngày
+var giocan='';
+if(ngaycan=='Giáp'||ngaycan=='Kỷ'){
+	switch (giochi) {
+			
+			case "Tý":
+				giocan = "Giáp";
+				break;
+			case "Sửu":
+				giocan = "Ất";
+				break;
+			case "Dần":
+				giocan = "Bính";
+				break;
+			case "Mão":
+				giocan = "Đinh";
+				break;
+			case "Thìn":
+				giocan = "Mậu";
+				break;
+			case "Tỵ":
+				giocan = "Kỷ";
+				break;
+			case "Ngọ":
+				giocan = "Canh";
+				break;
+			case "Mùi":
+				giocan = "Tân";
+				break;
+			case "Thân":
+				giocan = "Nhâm";
+				break;
+			case "Dậu":
+				giocan = "Quý";
+				break;
+			case "Tuất":
+				giocan = "Giáp";
+				break;
+			case "Hợi":
+				giocan = "Ất";
+				
+			}
+	}
+if(ngaycan=='Ất'||ngaycan=='Canh'){
+	switch (giochi) {
+			
+			case "Tý":
+				giocan = "Bính";
+				break;
+			case "Sửu":
+				giocan = "Đinh";
+				break;
+			case "Dần":
+				giocan = "Mậu";
+				break;
+			case "Mão":
+				giocan = "Kỷ";
+				break;
+			case "Thìn":
+				giocan = "Canh";
+				break;
+			case "Tỵ":
+				giocan = "Tân";
+				break;
+			case "Ngọ":
+				giocan = "Nhâm";
+				break;
+			case "Mùi":
+				giocan = "Quý";
+				break;
+			case "Thân":
+				giocan = "Giáp";
+				break;
+			case "Dậu":
+				giocan = "Ất";
+				break;
+			case "Tuất":
+				giocan = "Bính";
+				break;
+			case "Hợi":
+				giocan = "Đinh";
+				
+			}
+	}
+if(ngaycan=='Bính'||ngaycan=='Tân'){
+	switch (giochi) {
+			
+			case "Tý":
+				giocan = "Mậu";
+				break;
+			case "Sửu":
+				giocan = "Kỷ";
+				break;
+			case "Dần":
+				giocan = "Canh";
+				break;
+			case "Mão":
+				giocan = "Tân";
+				break;
+			case "Thìn":
+				giocan = "Nhâm";
+				break;
+			case "Tỵ":
+				giocan = "Quý";
+				break;
+			case "Ngọ":
+				giocan = "Giáp";
+				break;
+			case "Mùi":
+				giocan = "Ất";
+				break;
+			case "Thân":
+				giocan = "Bính";
+				break;
+			case "Dậu":
+				giocan = "Đinh";
+				break;
+			case "Tuất":
+				giocan = "Mậu";
+				break;
+			case "Hợi":
+				giocan = "Kỷ";
+				
+			}
+	}
+if(ngaycan=='Đinh'||ngaycan=='Nhâm'){
+	switch (giochi) {
+			
+			case "Tý":
+				giocan = "Canh";
+				break;
+			case "Sửu":
+				giocan = "Tân";
+				break;
+			case "Dần":
+				giocan = "Nhâm";
+				break;
+			case "Mão":
+				giocan = "Quý";
+				break;
+			case "Thìn":
+				giocan = "Giáp";
+				break;
+			case "Tỵ":
+				giocan = "Ất";
+				break;
+			case "Ngọ":
+				giocan = "Bính";
+				break;
+			case "Mùi":
+				giocan = "Đinh";
+				break;
+			case "Thân":
+				giocan = "Mậu";
+				break;
+			case "Dậu":
+				giocan = "Kỷ";
+				break;
+			case "Tuất":
+				giocan = "Canh";
+				break;
+			case "Hợi":
+				giocan = "Tân";
+				
+			}
+	}
+if(ngaycan=='Mậu'||ngaycan=='Quý'){
+	switch (giochi) {
+			
+			case "Tý":
+				giocan = "Nhâm";
+				break;
+			case "Sửu":
+				giocan = "Quí";
+				break;
+			case "Dần":
+				giocan = "Giáp";
+				break;
+			case "Mão":
+				giocan = "Ất";
+				break;
+			case "Thìn":
+				giocan = "Bính";
+				break;
+			case "Tỵ":
+				giocan = "Đinh";
+				break;
+			case "Ngọ":
+				giocan = "Mậu";
+				break;
+			case "Mùi":
+				giocan = "Kỷ";
+				break;
+			case "Thân":
+				giocan = "Canh";
+				break;
+			case "Dậu":
+				giocan = "Tân";
+				break;
+			case "Tuất":
+				giocan = "Nhâm";
+				break;
+			case "Hợi":
+				giocan = "Quý";
+				
+			}
+	}
+//alert(giocan+' '+giochi);
+
+//..sang giờ can chi
+		
+        $("#gio").html(currentTimeString+'('+giocan+' '+giochi+')');
+		
+		
+
+},1000);
+//...đồng hồ
+
+ function getTimestamp(date)
+{
+    var tp = Math.round(Date.parse(date) / 1000);
+    return tp;
+}  
+		   
+//Đổi dương ra âm lịch...
+	
+var PI = Math.PI;
+
+/* Discard the fractional part of a number, e.g., INT(3.2) = 3 */
+function INT(d) {
+	return Math.floor(d);
+}
+
+/* Compute the (integral) Julian day number of day dd/mm/yyyy, i.e., the number 
+ * of days between 1/1/4713 BC (Julian calendar) and dd/mm/yyyy. 
+ * Formula from http://www.tondering.dk/claus/calendar.html
+ */
+function jdFromDate(dd, mm, yy) {
+	var a, y, m, jd;
+	a = INT((14 - mm) / 12);
+	y = yy+4800-a;
+	m = mm+12*a-3;
+	jd = dd + INT((153*m+2)/5) + 365*y + INT(y/4) - INT(y/100) + INT(y/400) - 32045;
+	if (jd < 2299161) {
+		jd = dd + INT((153*m+2)/5) + 365*y + INT(y/4) - 32083;
+	}
+	return jd;
+}
+
+/* Convert a Julian day number to day/month/year. Parameter jd is an integer */
+function jdToDate(jd) {
+	var a, b, c, d, e, m, day, month, year;
+	if (jd > 2299160) { // After 5/10/1582, Gregorian calendar
+		a = jd + 32044;
+		b = INT((4*a+3)/146097);
+		c = a - INT((b*146097)/4);
+	} else {
+		b = 0;
+		c = jd + 32082;
+	}
+	d = INT((4*c+3)/1461);
+	e = c - INT((1461*d)/4);
+	m = INT((5*e+2)/153);
+	day = e - INT((153*m+2)/5) + 1;
+	month = m + 3 - 12*INT(m/10);
+	year = b*100 + d - 4800 + INT(m/10);
+	return new Array(day, month, year);
+}
+
+/* Compute the time of the k-th new moon after the new moon of 1/1/1900 13:52 UCT 
+ * (measured as the number of days since 1/1/4713 BC noon UCT, e.g., 2451545.125 is 1/1/2000 15:00 UTC).
+ * Returns a floating number, e.g., 2415079.9758617813 for k=2 or 2414961.935157746 for k=-2
+ * Algorithm from: "Astronomical Algorithms" by Jean Meeus, 1998
+ */
+function NewMoon(k) {
+	var T, T2, T3, dr, Jd1, M, Mpr, F, C1, deltat, JdNew;
+	T = k/1236.85; // Time in Julian centuries from 1900 January 0.5
+	T2 = T * T;
+	T3 = T2 * T;
+	dr = PI/180;
+	Jd1 = 2415020.75933 + 29.53058868*k + 0.0001178*T2 - 0.000000155*T3;
+	Jd1 = Jd1 + 0.00033*Math.sin((166.56 + 132.87*T - 0.009173*T2)*dr); // Mean new moon
+	M = 359.2242 + 29.10535608*k - 0.0000333*T2 - 0.00000347*T3; // Sun's mean anomaly
+	Mpr = 306.0253 + 385.81691806*k + 0.0107306*T2 + 0.00001236*T3; // Moon's mean anomaly
+	F = 21.2964 + 390.67050646*k - 0.0016528*T2 - 0.00000239*T3; // Moon's argument of latitude
+	C1=(0.1734 - 0.000393*T)*Math.sin(M*dr) + 0.0021*Math.sin(2*dr*M);
+	C1 = C1 - 0.4068*Math.sin(Mpr*dr) + 0.0161*Math.sin(dr*2*Mpr);
+	C1 = C1 - 0.0004*Math.sin(dr*3*Mpr);
+	C1 = C1 + 0.0104*Math.sin(dr*2*F) - 0.0051*Math.sin(dr*(M+Mpr));
+	C1 = C1 - 0.0074*Math.sin(dr*(M-Mpr)) + 0.0004*Math.sin(dr*(2*F+M));
+	C1 = C1 - 0.0004*Math.sin(dr*(2*F-M)) - 0.0006*Math.sin(dr*(2*F+Mpr));
+	C1 = C1 + 0.0010*Math.sin(dr*(2*F-Mpr)) + 0.0005*Math.sin(dr*(2*Mpr+M));
+	if (T < -11) {
+		deltat= 0.001 + 0.000839*T + 0.0002261*T2 - 0.00000845*T3 - 0.000000081*T*T3;
+	} else {
+		deltat= -0.000278 + 0.000265*T + 0.000262*T2;
+	};
+	JdNew = Jd1 + C1 - deltat;
+	return JdNew;
+}
+
+/* Compute the longitude of the sun at any time. 
+ * Parameter: floating number jdn, the number of days since 1/1/4713 BC noon
+ * Algorithm from: "Astronomical Algorithms" by Jean Meeus, 1998
+ */
+function SunLongitude(jdn) {
+	var T, T2, dr, M, L0, DL, L;
+	T = (jdn - 2451545.0 ) / 36525; // Time in Julian centuries from 2000-01-01 12:00:00 GMT
+	T2 = T*T;
+	dr = PI/180; // degree to radian
+	M = 357.52910 + 35999.05030*T - 0.0001559*T2 - 0.00000048*T*T2; // mean anomaly, degree
+	L0 = 280.46645 + 36000.76983*T + 0.0003032*T2; // mean longitude, degree
+	DL = (1.914600 - 0.004817*T - 0.000014*T2)*Math.sin(dr*M);
+	DL = DL + (0.019993 - 0.000101*T)*Math.sin(dr*2*M) + 0.000290*Math.sin(dr*3*M);
+	L = L0 + DL; // true longitude, degree
+	L = L*dr;
+	L = L - PI*2*(INT(L/(PI*2))); // Normalize to (0, 2*PI)
+	return L;
+}
+
+/* Compute sun position at midnight of the day with the given Julian day number. 
+ * The time zone if the time difference between local time and UTC: 7.0 for UTC+7:00.
+ * The function returns a number between 0 and 11. 
+ * From the day after March equinox and the 1st major term after March equinox, 0 is returned. 
+ * After that, return 1, 2, 3 ... 
+ */
+function getSunLongitude(dayNumber, timeZone) {
+	return INT(SunLongitude(dayNumber - 0.5 - timeZone/24)/PI*6);
+}
+
+/* Compute the day of the k-th new moon in the given time zone.
+ * The time zone if the time difference between local time and UTC: 7.0 for UTC+7:00
+ */
+function getNewMoonDay(k, timeZone) {
+	return INT(NewMoon(k) + 0.5 + timeZone/24);
+}
+
+/* Find the day that starts the luner month 11 of the given year for the given time zone */
+function getLunarMonth11(yy, timeZone) {
+	var k, off, nm, sunLong;
+	//off = jdFromDate(31, 12, yy) - 2415021.076998695;
+	off = jdFromDate(31, 12, yy) - 2415021;
+	k = INT(off / 29.530588853);
+	nm = getNewMoonDay(k, timeZone);
+	sunLong = getSunLongitude(nm, timeZone); // sun longitude at local midnight
+	if (sunLong >= 9) {
+		nm = getNewMoonDay(k-1, timeZone);
+	}
+	return nm;
+}
+
+/* Find the index of the leap month after the month starting on the day a11. */
+function getLeapMonthOffset(a11, timeZone) {
+	var k, last, arc, i;
+	k = INT((a11 - 2415021.076998695) / 29.530588853 + 0.5);
+	last = 0;
+	i = 1; // We start with the month following lunar month 11
+	arc = getSunLongitude(getNewMoonDay(k+i, timeZone), timeZone);
+	do {
+		last = arc;
+		i++;
+		arc = getSunLongitude(getNewMoonDay(k+i, timeZone), timeZone);
+	} while (arc != last && i < 14);
+	return i-1;
+}
+
+/* Comvert solar date dd/mm/yyyy to the corresponding lunar date */
+function convertSolar2Lunar(dd, mm, yy, timeZone) {
+	var k, dayNumber, monthStart, a11, b11, lunarDay, lunarMonth, lunarYear, lunarLeap;
+	dayNumber = jdFromDate(dd, mm, yy);
+	k = INT((dayNumber - 2415021.076998695) / 29.530588853);
+	monthStart = getNewMoonDay(k+1, timeZone);
+	if (monthStart > dayNumber) {
+		monthStart = getNewMoonDay(k, timeZone);
+	}
+	//alert(dayNumber+" -> "+monthStart);
+	a11 = getLunarMonth11(yy, timeZone);
+	b11 = a11;
+	if (a11 >= monthStart) {
+		lunarYear = yy;
+		a11 = getLunarMonth11(yy-1, timeZone);
+	} else {
+		lunarYear = yy+1;
+		b11 = getLunarMonth11(yy+1, timeZone);
+	}
+	lunarDay = dayNumber-monthStart+1;
+	diff = INT((monthStart - a11)/29);
+	lunarLeap = 0;
+	lunarMonth = diff+11;
+	if (b11 - a11 > 365) {
+		leapMonthDiff = getLeapMonthOffset(a11, timeZone);
+		if (diff >= leapMonthDiff) {
+			lunarMonth = diff + 10;
+			if (diff == leapMonthDiff) {
+				lunarLeap = 1;
+			}
+		}
+	}
+	if (lunarMonth > 12) {
+		lunarMonth = lunarMonth - 12;
+	}
+	if (lunarMonth >= 11 && diff < 4) {
+		lunarYear -= 1;
+	}
+	return new Array(lunarDay, lunarMonth, lunarYear, lunarLeap);
+	 
+	
+}
+
+/* Convert a lunar date to the corresponding solar date */
+function convertLunar2Solar(lunarDay, lunarMonth, lunarYear, lunarLeap, timeZone) {
+	var k, a11, b11, off, leapOff, leapMonth, monthStart;
+	if (lunarMonth < 11) {
+		a11 = getLunarMonth11(lunarYear-1, timeZone);
+		b11 = getLunarMonth11(lunarYear, timeZone);
+	} else {
+		a11 = getLunarMonth11(lunarYear, timeZone);
+		b11 = getLunarMonth11(lunarYear+1, timeZone);
+	}
+	k = INT(0.5 + (a11 - 2415021.076998695) / 29.530588853);
+	off = lunarMonth - 11;
+	if (off < 0) {
+		off += 12;
+	}
+	if (b11 - a11 > 365) {
+		leapOff = getLeapMonthOffset(a11, timeZone);
+		leapMonth = leapOff - 2;
+		if (leapMonth < 0) {
+			leapMonth += 12;
+		}
+		if (lunarLeap != 0 && lunarMonth != leapMonth) {
+			return new Array(0, 0, 0);
+		} else if (lunarLeap != 0 || off >= leapOff) {
+			off += 1;
+		}
+	}
+	monthStart = getNewMoonDay(k+off, timeZone);
+	return jdToDate(monthStart+lunarDay-1);
+}
+var ngayAL=convertSolar2Lunar(ngay, thang+1, nam,7)[0];	
+var thangAL=convertSolar2Lunar(ngay, thang+1, nam,7)[1];
+var namAL=convertSolar2Lunar(ngay, thang+1, nam,7)[2];
+var nam0=namAL-3;
+var nam1=nam0%10;
+var nam2=nam0%12;
+switch (nam1) {
+			case 1:
+				can = "Giáp";
+				break;
+			case 2:
+				can = "Ất";
+				break;
+			case 3:
+				can = "Bính";
+				break;
+			case 4:
+				can = "Đinh";
+				break;
+			case 5:
+				can = "Mậu";
+				break;
+			case 6:
+				can = "Kỷ";
+				break;
+			case 7:
+				can = "Canh";
+				break;
+			case 8:
+				can = "Tân";
+				break;
+			case 9:
+				can = "Nhâm";
+				break;
+			case 10:
+				can = "Quý";
+			}
+ switch (nam2) {
+			case 1:
+				chi = "Tý";
+				break;
+			case 2:
+				chi = "Sửu";
+				break;
+			case 3:
+				chi = "Dần";
+				break;
+			case 4:
+				chi = "Mão";
+				break;
+			case 5:
+				chi = "Thìn";
+				break;
+			case 6:
+				chi = "Tỵ";
+				break;
+			case 7:
+				chi = "Ngọ";
+				break;
+			case 8:
+				chi = "Mùi";
+				break;
+			case 9:
+				chi = "Thân";
+				break;
+			case 10:
+				chi = "Dâu";
+				break;
+			case 11:
+				chi = "Tuất";
+				break;
+			case 12:
+				chi = "Hợi";
+			}
+			
+// Phần này là chuyển tháng âm lịch ra tháng Can Chi	
+	//Chuyển tháng qua địa chi, tháng giêng luôn được tính "Dần"
+ switch (thangAL) {
+			
+			case 1:
+				thangchi = "Dần";
+				break;
+			case 2:
+				thangchi = "Mão";
+				break;
+			case 3:
+				thangchi = "Thìn";
+				break;
+			case 4:
+				thangchi = "Tỵ";
+				break;
+			case 5:
+				thangchi = "Ngọ";
+				break;
+			case 6:
+				thangchi = "Mùi";
+				break;
+			case 7:
+				thangchi = "Thân";
+				break;
+			case 8:
+				thangchi = "Dâu";
+				break;
+			case 9:
+				thangchi = "Tuất";
+				break;
+			case 10:
+				thangchi = "Hợi";
+				break;
+			case 11:
+				thangchi = "Tý";
+				break;
+			case 12:
+				thangchi = "Sửu";
+				
+			}
+			
+	//Tính thiên can tháng theo : canthang =( Tháng muốn tính-1)+[(can năm*2) + 1)]=tháng muốn tính -1 + chontinh
+var chontinh=0;
+
+	switch (can) {
+			
+			case "Giáp":
+				chontinh = 3;
+				break;
+			case "Ất":
+				chontinh = 5;
+				break;
+			case "Bính":
+				chontinh = 7;
+				break;
+			case "Đinh":
+				chontinh = 9;
+				break;
+			case "Mậu":
+				chontinh = 11;
+				break;
+			case "Kỷ":
+				chontinh = 13;
+				break;
+			case "Canh":
+				chontinh = 15;
+				break;
+			case "Tân":
+				chontinh = 17;
+				break;
+			case "Nhâm":
+				chontinh = 19;
+				break;
+			case "Quý":
+				chontinh = 21;
+			}
+var tinhcanthang=(thangAL-1+chontinh)%10;
+var canthang='';
+switch (tinhcanthang) {
+			case 1:
+				canthang = "Giáp";
+				break;
+			case 2:
+				canthang = "Ất";
+				break;
+			case 3:
+				canthang = "Bính";
+				break;
+			case 4:
+				canthang = "Đinh";
+				break;
+			case 5:
+				canthang = "Mậu";
+				break;
+			case 6:
+				canthang = "Kỷ";
+				break;
+			case 7:
+				canthang = "Canh";
+				break;
+			case 8:
+				canthang = "Tân";
+				break;
+			case 9:
+				canthang = "Nhâm";
+				break;
+			case 10:
+				canthang = "Quý";
+			}
+//Kết thúc chuyển tháng âm lịch sang Can Chi
+//Đổi ngày dương sang ngày can chi
+var day_start = new Date("Jan 01 1900");
+var day_now=thang1+' '+ngay+' '+nam;
+var day_end = new Date(day_now);
+var total_days = (day_end - day_start) / (1000 * 60 * 60 * 24);
+var ngaycan=' ';
+var ngaychi=' ';
+var tinhngaycan=Math.round(total_days)%10;
+var tinhngaychi=Math.round(total_days)%12;
+switch (tinhngaycan) {
+			case 0:
+				ngaycan = "Giáp";
+				break;
+			case 1:
+				ngaycan = "Ất";
+				break;
+			case 2:
+				ngaycan = "Bính";
+				break;
+			case 3:
+				ngaycan = "Đinh";
+				break;
+			case 4:
+				ngaycan = "Mậu";
+				break;
+			case 5:
+				ngaycan = "Kỷ";
+				break;
+			case 6:
+				ngaycan = "Canh";
+				break;
+			case 7:
+				ngaycan = "Tân";
+				break;
+			case 8:
+				ngaycan = "Nhâm";
+				break;
+			case 9:
+				ngaycan = "Quý";
+			}
+switch (tinhngaychi) {
+			case 2:
+				ngaychi = "Tý";
+				break;
+			case 3:
+				ngaychi = "Sửu";
+				break;
+			case 4:
+				ngaychi = "Dần";
+				break;
+			case 5:
+				ngaychi = "Mão";
+				break;
+			case 6:
+				ngaychi = "Thìn";
+				break;
+			case 7:
+				ngaychi = "Tỵ";
+				break;
+			case 8:
+				ngaychi = "Ngọ";
+				break;
+			case 9:
+				ngaychi = "Mùi";
+				break;
+			case 10:
+				ngaychi = "Thân";
+				break;
+			case 11:
+				ngaychi = "Dậu";
+				break;
+			case 0:
+				ngaychi = "Tuất";
+				break;
+			case 1:
+				ngaychi = "Hợi";
+			}
+
+//...dương sang ngày can chi
+
+
+
+document.getElementById("thangam").innerHTML ="Tháng "+thangAL+"("+canthang+" "+thangchi+")";
+document.getElementById("ngayam").innerHTML ="Ngày "+ ngayAL+"("+ngaycan+" "+ngaychi+")";
+		  // document.getElementById("namam").innerHTML = namAL;		
+$("#namam").html(can+' '+chi);
+//$(".giocanchi").html('Giờ:'+giocan+' '+giochi);
+	//...âm lịch
+	//
+	//Ngày giờ theo can chi
+	
+	
+	//..can chi
+	// Hiển thị thành ngữ theo ngày từ cơ sở dữ liệu
+	var dataString="thang="+thang1+"&ngay="+ngay+"&chon=";
+
+			$.ajax({
+				type: "POST",
+				url: "https://357s.org/calendar/thanhngu.php",
+				data: dataString,
+				crossDomain: true,
+				cache: false,
+				beforeSend: function(){},
+				success: function(ketqua){
+				$("#thanhngu").html(ketqua);	
+				}
+			});
+	//
+	//
+		</script> 
+    
+     
+	
+<!-- Footer Section -->
+<div id="footer">
+  <p><a href="https://357s.org/repass.php"><i>Quên mật khẩu ?</i></a>      </p>
+   <p><a href="https://357s.org/chinhsach"><i>Chính sách quyền riêng tư</i></a>      </p>
+
+    </p>
+</div>
+
+ 
+  
+</body>
+</html>

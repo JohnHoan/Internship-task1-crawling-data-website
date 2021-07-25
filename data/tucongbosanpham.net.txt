@@ -1,0 +1,1950 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]> <html lang="vi" class="ie9 loading-site no-js"> <![endif]-->
+<!--[if IE 8 ]> <html lang="vi" class="ie8 loading-site no-js"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="vi" class="loading-site no-js"> <!--<![endif]-->
+<head><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),this._loadEverythingNow()}async _loadEverythingNow(){this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{var n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){const n=e[t];Object.defineProperty(e,t,{get:n||function(){},set:n=>{e["rocket"+t]=n}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e?"rocket-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,r=document.createRange(),i=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),i.insertBefore(a,o)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mouseover","touchmove","touchstart","wheel"]);e._delayEventListeners(),e._delayJQueryReady(e),e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();
+</script>
+	<meta charset="UTF-8" />
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://tucongbosanpham.net/xmlrpc.php" />
+
+	<script type="rocketlazyloadscript">(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<!-- This site is optimized with the Yoast SEO plugin v16.4 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Trang chủ - C.A.O</title><style id="rocket-critical-css">.pt-cv-wrapper .col-md-2,.pt-cv-wrapper .col-md-4,.pt-cv-wrapper .col-sm-6,.pt-cv-wrapper .col-xs-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.pt-cv-wrapper .col-xs-12{float:left}.pt-cv-wrapper .col-xs-12{width:100%}@media (min-width:768px){.pt-cv-wrapper .col-sm-6{float:left}.pt-cv-wrapper .col-sm-6{width:50%}}@media (min-width:992px){.pt-cv-wrapper .col-md-2,.pt-cv-wrapper .col-md-4{float:left}.pt-cv-wrapper .col-md-4{width:33.33333333%}.pt-cv-wrapper .col-md-2{width:16.66666667%}}.pt-cv-view *,.pt-cv-view :after,.pt-cv-view :before{-webkit-box-sizing:border-box!important;-moz-box-sizing:border-box!important;box-sizing:border-box!important}.pt-cv-view{position:relative;clear:both}.pt-cv-view:after{clear:both;content:'';display:block}.pt-cv-page{position:relative}.pt-cv-colsys{margin-left:-15px;margin-right:-15px}@media (min-width:992px){.pt-cv-colsys [data-cvc="5"] .col-md-2:nth-child(5n+1){clear:left!important}}@media (min-width:768px) and (max-width:991px){.pt-cv-colsys .col-sm-6:nth-child(2n+1){clear:left!important}}@media (min-width:992px){.pt-cv-colsys [data-cvc="5"] .pt-cv-content-item{width:20%}}.pt-cv-colsys .pt-cv-content-item{flex:none;max-width:initial}.pt-cv-content-item{padding-bottom:15px;position:relative;overflow:hidden}.pt-cv-view .pt-cv-content-item>*{margin-bottom:10px}.pt-cv-view .pt-cv-ifield{margin-bottom:0!important}.pt-cv-ifield{overflow:hidden}.pt-cv-center *{text-align:center}.wpcf7 form .wpcf7-response-output{margin:2em 0.5em 1em;padding:0.2em 1em;border:2px solid #00a0d2}.wpcf7 form.init .wpcf7-response-output{display:none}@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}@font-face{font-family:'fl-icons';font-display:swap;src:url(https://tucongbosanpham.net/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot);src:url(https://tucongbosanpham.net/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot#iefix) format("embedded-opentype"),url(https://tucongbosanpham.net/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff2) format("woff2"),url(https://tucongbosanpham.net/wp-content/themes/flatsome/assets/css/icons/fl-icons.ttf) format("truetype"),url(https://tucongbosanpham.net/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff) format("woff"),url(https://tucongbosanpham.net/wp-content/themes/flatsome/assets/css/icons/fl-icons.svg#fl-icons) format("svg")}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}header,main,section{display:block}a{background-color:transparent}b,strong{font-weight:inherit}b,strong{font-weight:bolder}img{border-style:none}button,input{font:inherit}button,input{overflow:visible}button{text-transform:none}button,[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}button:-moz-focusring,input:-moz-focusring{outline:1px dotted ButtonText}[type="search"]{-webkit-appearance:textfield}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}*,*:before,*:after{-webkit-box-sizing:border-box;box-sizing:border-box}html{-webkit-box-sizing:border-box;box-sizing:border-box;background-attachment:fixed}body{color:#777;scroll-behavior:smooth;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}img{max-width:100%;height:auto;display:inline-block;vertical-align:middle}p:empty{display:none}a,button,input{-ms-touch-action:manipulation;touch-action:manipulation}.col{position:relative;margin:0;padding:0 15px 30px;width:100%}.col-inner{position:relative;margin-left:auto;margin-right:auto;width:100%;background-position:50% 50%;background-size:cover;background-repeat:no-repeat;-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}@media screen and (min-width:850px){.col:first-child .col-inner{margin-left:auto;margin-right:0}}@media screen and (max-width:849px){.col{padding-bottom:30px}}.align-middle{-webkit-box-align:center!important;-ms-flex-align:center!important;align-items:center!important;-ms-flex-item-align:center!important;align-self:center!important;vertical-align:middle!important}.align-center{-webkit-box-pack:center!important;-ms-flex-pack:center!important;justify-content:center!important}.small-12{max-width:100%;-ms-flex-preferred-size:100%;flex-basis:100%}@media screen and (min-width:850px){.large-12{max-width:100%;-ms-flex-preferred-size:100%;flex-basis:100%}}body,.container,.row{width:100%;margin-left:auto;margin-right:auto}.container{padding-left:15px;padding-right:15px}.container,.row{max-width:1080px}.flex-row{-js-display:flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%}.header .flex-row{height:100%}.flex-col{max-height:100%}.flex-grow{-webkit-box-flex:1;-ms-flex:1;flex:1;-ms-flex-negative:1;-ms-flex-preferred-size:auto!important}.flex-left{margin-right:auto}.flex-right{margin-left:auto}@media all and (-ms-high-contrast:none){.nav>li>a>i{top:-1px}}.row{width:100%;-js-display:flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap}.row .row:not(.row-collapse){padding-left:0;padding-right:0;margin-left:-15px;margin-right:-15px;width:auto}.section{padding:30px 0;position:relative;min-height:auto;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row;flex-flow:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.section-bg{overflow:hidden}.section-bg,.section-content{width:100%}.section-content{z-index:1}.nav-dropdown{position:absolute;min-width:260px;max-height:0;z-index:9;padding:20px 0 20px;opacity:0;margin:0;color:#777;background-color:#fff;text-align:left;display:table;left:-99999px}.nav-dropdown:after{visibility:hidden;display:block;content:"";clear:both;height:0}.nav-dropdown li{display:block;margin:0;vertical-align:top}.nav-dropdown>li.html{min-width:260px}.nav-dropdown>li>a{width:auto;display:block;padding:10px 20px;line-height:1.3}.nav-dropdown>li:last-child:not(.nav-dropdown-col)>a{border-bottom:0!important}.nav-dropdown.nav-dropdown-default>li>a{padding-left:0;padding-right:0;margin:0 10px;border-bottom:1px solid #ececec}.nav-dropdown-default{padding:20px}.nav-dropdown-has-arrow li.has-dropdown:after,.nav-dropdown-has-arrow li.has-dropdown:before{bottom:-2px;z-index:10;opacity:0;left:50%;border:solid transparent;content:'';height:0;width:0;position:absolute}.nav-dropdown-has-arrow li.has-dropdown:after{border-color:rgba(221,221,221,0);border-bottom-color:#fff;border-width:8px;margin-left:-8px}.nav-dropdown-has-arrow li.has-dropdown:before{z-index:-999;border-width:11px;margin-left:-11px}.nav-dropdown-has-shadow .nav-dropdown{-webkit-box-shadow:1px 1px 15px rgba(0,0,0,0.15);box-shadow:1px 1px 15px rgba(0,0,0,0.15)}.nav-dropdown-has-arrow.nav-dropdown-has-border li.has-dropdown:before{border-bottom-color:#ddd}.nav-dropdown-has-border .nav-dropdown{border:2px solid #ddd}.nav,.nav ul:not(.nav-dropdown){margin:0;padding:0}.nav{width:100%;position:relative;display:inline-block;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.nav>li{display:inline-block;list-style:none;margin:0;padding:0;position:relative;margin:0 7px}.nav>li>a{padding:10px 0;display:inline-block;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.nav-left{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.nav-right{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}.nav>li>a,.nav-dropdown>li>a{color:rgba(102,102,102,0.85)}.nav-dropdown>li>a{display:block}.nav>li.active>a{color:rgba(17,17,17,0.85)}.nav li:first-child{margin-left:0!important}.nav li:last-child{margin-right:0!important}.nav-uppercase>li>a{letter-spacing:.02em;text-transform:uppercase;font-weight:bolder}li.html form,li.html input{margin:0}.mobile-sidebar-levels-1 .nav-slide>li>ul.children,.mobile-sidebar-levels-1 .nav-slide>li>.sub-menu{position:fixed;top:0;bottom:0;width:100%;padding-top:20px;padding-right:0;padding-bottom:20px;left:100%;opacity:1.0;display:none;overflow:visible;overflow-y:auto;-webkit-transform:none;-ms-transform:none;transform:none;-webkit-overflow-scrolling:touch}.mobile-sidebar-levels-1 .nav-slide>li>ul.children>li,.mobile-sidebar-levels-1 .nav-slide>li>.sub-menu>li{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.nav-slide{height:100%;padding-top:20px;overflow:visible;overflow-y:auto;-webkit-overflow-scrolling:auto}.nav-slide>li{-ms-flex-negative:0;flex-shrink:0}.nav.nav-vertical{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column;flex-flow:column}.nav.nav-vertical li{list-style:none;margin:0;width:100%}.nav-vertical li li{font-size:1em;padding-left:.5em}.nav-vertical>li{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.nav-vertical>li ul{width:100%}.nav-vertical>li>ul>li a,.nav-vertical>li>a{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:auto;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.nav-vertical>li.html{padding-top:1em;padding-bottom:1em}.nav-vertical>li>ul li a{color:#666}.nav-vertical>li>ul{margin:0 0 2em;padding-left:1em}.nav .children{position:fixed;opacity:0;left:-99999px;-webkit-transform:translateX(-10px);-ms-transform:translateX(-10px);transform:translateX(-10px)}.nav-sidebar.nav-vertical>li+li{border-top:1px solid #ececec}.nav-vertical>li+li{border-top:1px solid #ececec}.banner{position:relative;background-color:#446084;width:100%;min-height:30px}.banner-bg{overflow:hidden}.banner-layers{max-height:100%;height:100%;position:relative}@media (max-width:549px){.banner-layers{overflow:auto;-webkit-overflow-scrolling:touch}}.banner-layers>*{position:absolute!important}.button,button{position:relative;display:inline-block;background-color:transparent;text-transform:uppercase;font-size:.97em;letter-spacing:.03em;font-weight:bolder;text-align:center;color:currentColor;text-decoration:none;border:1px solid transparent;vertical-align:middle;border-radius:0;margin-top:0;margin-right:1em;text-shadow:none;line-height:2.4em;min-height:2.5em;padding:0 1.2em;max-width:100%;text-rendering:optimizeLegibility;-webkit-box-sizing:border-box;box-sizing:border-box}.button span{display:inline-block;line-height:1.6}.button.is-outline{line-height:2.19em}.button{color:#fff;background-color:#446084;background-color:var(--primary-color);border-color:rgba(0,0,0,0.05)}.button.is-outline{border:2px solid currentColor;background-color:transparent}.dark .button{color:#fff}.is-shade{overflow:hidden}.is-shade:after{content:"";position:absolute;top:0;left:-25%;height:100%;width:150%;-webkit-box-shadow:inset 0 1.2em 0 0 rgba(255,255,255,0.1);box-shadow:inset 0 1.2em 0 0 rgba(255,255,255,0.1)}.is-shade:after{-webkit-box-shadow:inset 1px 1px 0 0 rgba(255,255,255,0.1),inset 0 2em 15px 0 rgba(255,255,255,0.2);box-shadow:inset 1px 1px 0 0 rgba(255,255,255,0.1),inset 0 2em 15px 0 rgba(255,255,255,0.2)}.is-outline{color:silver}.primary{background-color:#446084}.secondary{background-color:#d26e4b}.header-button{display:inline-block}.header-button .button{margin:0}.flex-col button,.flex-col .button,.flex-col input{margin-bottom:0}form{margin-bottom:0}input[type='search']{-webkit-box-sizing:border-box;box-sizing:border-box;border:1px solid #ddd;padding:0 .75em;height:2.507em;font-size:.97em;border-radius:0;max-width:100%;width:100%;vertical-align:middle;background-color:#fff;color:#333;-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);box-shadow:inset 0 1px 2px rgba(0,0,0,0.1)}input[type='search']{-webkit-appearance:none;-moz-appearance:none;appearance:none}i[class^="icon-"]{font-family:'fl-icons'!important;font-display:block;speak:none!important;margin:0;padding:0;display:inline-block;font-style:normal!important;font-weight:normal!important;font-variant:normal!important;text-transform:none!important;position:relative;line-height:1.2}button i,.button i{vertical-align:middle;top:-1.5px}.button.icon{margin-left:.12em;margin-right:.12em;min-width:2.5em;padding-left:.6em;padding-right:.6em;display:inline-block}.button.icon i{font-size:1.2em}.button.icon.is-small{border-width:1px}.button.icon.is-small i{top:-1px}.button.icon.circle{padding-left:0;padding-right:0}.button.icon.circle>i{margin:0 8px}.button.icon.circle>i:only-child{margin:0}.nav>li>a>i{vertical-align:middle;font-size:20px}.nav>li>a>i.icon-search{font-size:1.2em}.nav>li.has-icon>a>i{min-width:1em}.has-dropdown .icon-angle-down{font-size:16px;margin-left:.2em;opacity:.6}img{opacity:1}.overlay{position:absolute;top:0;bottom:0;height:100%;left:-1px;right:-1px;background-color:rgba(0,0,0,0.15)}.mfp-hide{display:none!important}.loading-spin{position:relative}.loading-spin{content:'';margin:0px auto;font-size:10px;text-indent:-9999em;border-top:3px solid rgba(0,0,0,0.1)!important;border-right:3px solid rgba(0,0,0,0.1)!important;border-bottom:3px solid rgba(0,0,0,0.1)!important;opacity:.8;border-left:3px solid #446084;-webkit-animation:spin .6s infinite linear;animation:spin .6s infinite linear;border-radius:50%;width:30px;height:30px}.dark.loading-spin{border-top:3px solid rgba(0,0,0,0.1)!important;border-right:3px solid rgba(0,0,0,0.1)!important;border-bottom:3px solid rgba(0,0,0,0.1)!important;border-left:3px solid #fff!important}.loading-spin.centered{position:absolute;top:50%;left:50%;margin-left:-15px;margin-top:-15px;z-index:99}.loading-spin{border-radius:50%;width:30px;height:30px}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.slider-wrapper{position:relative}.slider-wrapper:last-child{margin-bottom:0}.slider{position:relative;scrollbar-width:none}.slider:not(.flickity-enabled){white-space:nowrap;overflow-y:hidden;overflow-x:scroll;width:auto;-ms-overflow-style:-ms-autohiding-scrollbar}.slider::-webkit-scrollbar{width:0px!important;height:0px!important}.slider:not(.flickity-enabled)>*{display:inline-block!important;white-space:normal!important;vertical-align:top}.slider>div:not(.col){width:100%}.slider-nav-reveal{padding-top:0;overflow:hidden}.text-box{max-height:100%}.text-box .text-box-content{position:relative;z-index:10;-webkit-backface-visibility:hidden;backface-visibility:hidden}a{color:#334862;text-decoration:none}a.plain{color:currentColor}.dark a{color:currentColor}ul{list-style:disc}ul{margin-top:0;padding:0}ul ul{margin:1.5em 0 1.5em 3em}li{margin-bottom:.6em}.button,button,input{margin-bottom:1em}form,p,ul{margin-bottom:1.3em}body{line-height:1.6}h1,h2,h3,h4{color:#555;width:100%;margin-top:0;margin-bottom:.5em;text-rendering:optimizeSpeed}h1{font-size:1.7em;line-height:1.3}h2{font-size:1.6em;line-height:1.3}h3{font-size:1.25em}h4{font-size:1.125em}@media (max-width:549px){h1{font-size:1.4em}h2{font-size:1.2em}h3{font-size:1em}}p{margin-top:0}.uppercase{line-height:1.05;letter-spacing:.05em;text-transform:uppercase}.is-normal{font-weight:normal}.uppercase{line-height:1.2;text-transform:uppercase}.is-larger{font-size:1.3em}.is-small,.is-small.button{font-size:.8em}@media (max-width:549px){.is-larger{font-size:1.2em}}.banner .button{margin-top:.5em;margin-bottom:.5em}.banner h3{font-size:2em}.banner h3{padding:0;font-weight:normal;margin-top:.2em;margin-bottom:.2em;line-height:1}.banner h4{padding:0;font-size:1.5em;margin-top:.6em;margin-bottom:.6em}.banner p{padding:0;margin-top:1em;margin-bottom:1em}.nav>li>a{font-size:.8em}.nav>li.html{font-size:.85em}.container:after,.row:after{content:"";display:table;clear:both}@media (min-width:850px){.show-for-medium{display:none!important}}@media (max-width:849px){.hide-for-medium{display:none!important}}.full-width{width:100%!important;max-width:100%!important;padding-left:0!important;padding-right:0!important;display:block}.mb-0{margin-bottom:0!important}.last-reset *:last-child{margin-bottom:0}.text-left{text-align:left}.relative{position:relative!important}.fixed{position:fixed!important;z-index:12}.bottom{bottom:0}.fill{position:absolute;top:0;left:0;height:100%;right:0;bottom:0;padding:0!important;margin:0!important}.bg-fill{background-size:cover!important;background-repeat:no-repeat!important;background-position:50% 50%}.circle{border-radius:999px!important;-o-object-fit:cover;object-fit:cover}.round{border-radius:5px}.z-1{z-index:21}.z-top{z-index:9995}.no-scrollbar{-ms-overflow-style:-ms-autohiding-scrollbar;scrollbar-width:none}.no-scrollbar::-webkit-scrollbar{width:0px!important;height:0px!important}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}@media screen and (max-width:549px){.x5{left:5%}.y40{top:40%}.y50{top:50.3%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}}@media screen and (min-width:550px) and (max-width:849px){.md-x5{left:5%}.md-y50{top:50%;-webkit-transform:translateY(-50%)!important;-ms-transform:translateY(-50%)!important;transform:translateY(-50%)!important}}@media screen and (min-width:850px){.lg-x0{left:0%}.lg-y50{top:50%;-webkit-transform:translateY(-50%)!important;-ms-transform:translateY(-50%)!important;transform:translateY(-50%)!important}}.res-text{font-size:11px}@media screen and (min-width:550px){.res-text{font-size:1.8vw}}@media screen and (min-width:850px){.res-text{font-size:16px}}[data-animate],.slider [data-animate]{will-change:filter,transform,opacity;-webkit-backface-visibility:hidden;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;opacity:0!important}[data-animate="bounceInUp"],.slider [data-animate="bounceInUp"]{-webkit-transform:translate3d(0,70px,0);transform:translate3d(0,70px,0)}[data-animate="bounceInDown"],.slider [data-animate="bounceInDown"]{-webkit-transform:translate3d(0,-70px,0);transform:translate3d(0,-70px,0)}.box-shadow-4{-webkit-box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.1);box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.1)}.shade{content:" ";position:absolute;top:0;bottom:0;left:0;right:0;background:rgba(0,0,0,0.2);background:-webkit-gradient(linear,left bottom,left top,from(#323232),color-stop(33%,rgba(50,50,50,0)));background:-o-linear-gradient(bottom,#323232 0%,rgba(50,50,50,0) 33%);background:linear-gradient(to top,#323232 0%,rgba(50,50,50,0) 33%);opacity:.3;-webkit-backface-visibility:hidden;backface-visibility:hidden}.shade-top{opacity:.4;background:rgba(0,0,0,0.2);background:-webkit-gradient(linear,left top,left bottom,from(#000),color-stop(70%,rgba(0,0,0,0)));background:-o-linear-gradient(top,#000 0%,rgba(0,0,0,0) 70%);background:linear-gradient(to bottom,#000 0%,rgba(0,0,0,0) 70%)}.dark,.dark p{color:#f1f1f1}.dark h1,.dark h3{color:#fff}.nav-dark .nav>li>a{color:rgba(255,255,255,0.8)}.nav-dark .nav>li.active>a{color:#fff}.nav-dark .nav>li.header-divider,.nav-dark .header-divider:after{border-color:rgba(255,255,255,0.2)}.nav-dark .nav>li.html,.nav-dark .header-button{color:#fff}html{overflow-x:hidden}@media (max-width:849px){body{overflow-x:hidden}}#wrapper,#main{background-color:#fff;position:relative}.header,.header-wrapper{width:100%;z-index:30;position:relative;background-size:cover;background-position:50% 0}.header-bg-color{background-color:rgba(255,255,255,0.9)}.header.has-transparent,.header.transparent{position:absolute}.header.transparent:not(.stuck){left:auto;right:auto}.header.transparent .header-wrapper,.header.transparent .header-bg-image,.header.transparent .header-bg-color{-webkit-box-shadow:none;box-shadow:none;background-color:transparent;background-image:none!important}.header-bg-image,.header-bg-color{background-position:50% 0}.header-main{z-index:10;position:relative}.top-divider{margin-bottom:-1px;border-top:1px solid currentColor;opacity:0.1}.nav-dark .top-divider{display:none}.nav>li.header-divider{border-left:1px solid rgba(0,0,0,0.1);height:30px;vertical-align:middle;position:relative;margin:0 7.5px}.nav-dark .nav>li.header-divider{border-color:rgba(255,255,255,0.1)}@media (max-width:849px){.header-main li.html.custom{display:none}}.wpcf7 p{padding:0;margin:0}.wpcf7 br{display:none}.wpcf7 .wpcf7-response-output{margin:5px 0 0 0;border-radius:10px}html{background-color:#5b5b5b}.back-to-top{margin:0;opacity:0;bottom:20px;right:20px;-webkit-transform:translateY(30%);-ms-transform:translateY(30%);transform:translateY(30%)}.logo{line-height:1;margin:0}.logo a{text-decoration:none;display:block;color:#446084;font-size:32px;text-transform:uppercase;font-weight:bolder;margin:0}.logo img{display:block;width:auto}.header-logo-dark,.nav-dark .header-logo,.header-logo-sticky{display:none!important}.nav-dark .header-logo-dark{display:block!important}.nav-dark .logo a{color:#fff}.logo-left .logo{margin-left:0;margin-right:30px}@media screen and (max-width:849px){.header-inner .nav{-ms-flex-wrap:nowrap;flex-wrap:nowrap}.medium-logo-center .flex-left{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;-webkit-box-flex:1;-ms-flex:1 1 0px;flex:1 1 0}.medium-logo-center .logo{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2;text-align:center;margin:0 15px}.medium-logo-center .logo img{margin:0 auto}.medium-logo-center .flex-right{-webkit-box-flex:1;-ms-flex:1 1 0px;flex:1 1 0;-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}}.sidebar-menu .search-form{display:block!important}.searchform-wrapper form{margin-bottom:0}.sidebar-menu .search-form{padding:5px 0;width:100%}.searchform-wrapper:not(.form-flat) .submit-button{border-top-left-radius:0!important;border-bottom-left-radius:0!important}.searchform{position:relative}.searchform .button.icon{margin:0}.searchform .button.icon i{font-size:1.2em}.searchform-wrapper{width:100%}.header .search-form .live-search-results{text-align:left;color:#111;top:105%;-webkit-box-shadow:0 0 10px 0 rgba(0,0,0,0.1);box-shadow:0 0 10px 0 rgba(0,0,0,0.1);left:0;right:0;background-color:rgba(255,255,255,0.95);position:absolute}.header li .html .live-search-results{top:0;position:relative;-webkit-box-shadow:none;box-shadow:none;background-color:transparent}.section-title b{display:block;-webkit-box-flex:1;-ms-flex:1;flex:1;height:2px;opacity:.1;background-color:currentColor}.section-title-normal b{display:none}.icon-menu:before{content:"\e800"}.icon-angle-up:before{content:"\f106"}.icon-angle-down:before{content:"\f107"}.icon-search:before{content:"\e012"}</style><link rel="preload" data-no-minify=""  href="https://tucongbosanpham.net/wp-content/cache/used-css/1/efda4a55eea5aadf4c68afee36115ece/used.min.css?ver=1624460684" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="canonical" href="https://tucongbosanpham.net/" />
+	<meta property="og:locale" content="vi_VN" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Trang chủ - C.A.O" />
+	<meta property="og:url" content="https://tucongbosanpham.net/" />
+	<meta property="og:site_name" content="C.A.O" />
+	<meta property="article:modified_time" content="2021-06-09T14:45:43+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Ước tính thời gian đọc" />
+	<meta name="twitter:data1" content="6 phút" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://tucongbosanpham.net/#organization","name":"C.A.O MEDIA","url":"https://tucongbosanpham.net/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://tucongbosanpham.net/#logo","inLanguage":"vi","url":"https://tucongbosanpham.net/wp-content/uploads/2020/12/logo_red.png","contentUrl":"https://tucongbosanpham.net/wp-content/uploads/2020/12/logo_red.png","width":290,"height":86,"caption":"C.A.O MEDIA"},"image":{"@id":"https://tucongbosanpham.net/#logo"}},{"@type":"WebSite","@id":"https://tucongbosanpham.net/#website","url":"https://tucongbosanpham.net/","name":"C.A.O","description":"C.A.O MEDIA","publisher":{"@id":"https://tucongbosanpham.net/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://tucongbosanpham.net/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"vi"},{"@type":"WebPage","@id":"https://tucongbosanpham.net/#webpage","url":"https://tucongbosanpham.net/","name":"Trang ch\u1ee7 - C.A.O","isPartOf":{"@id":"https://tucongbosanpham.net/#website"},"about":{"@id":"https://tucongbosanpham.net/#organization"},"datePublished":"2020-12-24T07:20:17+00:00","dateModified":"2021-06-09T14:45:43+00:00","breadcrumb":{"@id":"https://tucongbosanpham.net/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://tucongbosanpham.net/"]}]},{"@type":"BreadcrumbList","@id":"https://tucongbosanpham.net/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://tucongbosanpham.net/#webpage"}}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin C.A.O &raquo;" href="https://tucongbosanpham.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dòng phản hồi C.A.O &raquo;" href="https://tucongbosanpham.net/comments/feed/" />
+
+
+
+
+
+<link rel='preload'   href='//fonts.googleapis.com/css?family=Roboto%3Aregular%2C700%2Cregular%2C700%7CDancing+Script%3Aregular%2C400&#038;display=swap&#038;ver=3.9' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://tucongbosanpham.net/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js' defer></script>
+<link rel="https://api.w.org/" href="https://tucongbosanpham.net/wp-json/" /><link rel="alternate" type="application/json" href="https://tucongbosanpham.net/wp-json/wp/v2/pages/27" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tucongbosanpham.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://tucongbosanpham.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<link rel='shortlink' href='https://tucongbosanpham.net/' />
+<link rel="alternate" type="application/json+oembed" href="https://tucongbosanpham.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftucongbosanpham.net%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://tucongbosanpham.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftucongbosanpham.net%2F&#038;format=xml" />
+<!--[if IE]><link rel="stylesheet" type="text/css" href="https://tucongbosanpham.net/wp-content/themes/flatsome/assets/css/ie-fallback.css"><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script><script>var head = document.getElementsByTagName('head')[0],style = document.createElement('style');style.type = 'text/css';style.styleSheet.cssText = ':before,:after{content:none !important';head.appendChild(style);setTimeout(function(){head.removeChild(style);}, 0);</script><script src="https://tucongbosanpham.net/wp-content/themes/flatsome/assets/libs/ie-flexibility.js"></script><![endif]-->		
+		<script type="rocketlazyloadscript">
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script></head>
+
+<body data-rsssl=1 class="home page-template page-template-page-transparent-header page-template-page-transparent-header-php page page-id-27 full-width lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border parallax-mobile mobile-submenu-slide mobile-submenu-slide-levels-1">
+
+
+<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+<div id="wrapper">
+
+	
+	<header id="header" class="header transparent has-transparent has-sticky sticky-jump">
+		<div class="header-wrapper">
+			<div id="masthead" class="header-main has-sticky-logo nav-dark">
+      <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
+
+          <!-- Logo -->
+          <div id="logo" class="flex-col logo">
+            <!-- Header logo -->
+<a href="https://tucongbosanpham.net/" title="C.A.O - C.A.O MEDIA" rel="home">
+    <img width="200" height="90" src="https://tucongbosanpham.net/wp-content/uploads/2020/12/logo_red.png" class="header-logo-sticky" alt="C.A.O"/><img width="200" height="90" src="https://tucongbosanpham.net/wp-content/uploads/2021/01/logo-light.png" class="header_logo header-logo" alt="C.A.O"/><img  width="200" height="90" src="https://tucongbosanpham.net/wp-content/uploads/2021/01/logo-light.png" class="header-logo-dark" alt="C.A.O"/></a>
+          </div>
+
+          <!-- Mobile Left Elements -->
+          <div class="flex-col show-for-medium flex-left">
+            <ul class="mobile-nav nav nav-left ">
+              <li class="nav-icon has-icon">
+  <div class="header-button">		<a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay" data-color="dark" class="icon primary button round is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
+		
+		  <i class="icon-menu" ></i>
+		  		</a>
+	 </div> </li>            </ul>
+          </div>
+
+          <!-- Left Elements -->
+          <div class="flex-col hide-for-medium flex-left
+            flex-grow">
+            <ul class="header-nav header-nav-main nav nav-left  nav-uppercase" >
+              <li id="menu-item-144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-27 current_page_item menu-item-144 active menu-item-design-default"><a href="https://tucongbosanpham.net/" aria-current="page" class="nav-top-link">Trang chủ</a></li>
+<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145 menu-item-design-default"><a href="https://tucongbosanpham.net/gioi-thieu/" class="nav-top-link">Giới thiệu</a></li>
+<li id="menu-item-284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-284 menu-item-design-default has-dropdown"><a href="https://tucongbosanpham.net/tin-tuc/" class="nav-top-link">Dịch vụ<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default">
+	<li id="menu-item-149" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-149"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/tu-cong-bo-san-pham/">Tự công bố sản phẩm</a></li>
+	<li id="menu-item-153" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-153"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-an-toan-ve-sinh-thuc-pham/">Giấy phép an toàn vệ sinh thực phẩm</a></li>
+	<li id="menu-item-158" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-158"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-luu-hanh-tu-do-cfs/">Giấy phép lưu hành tự do (CFS)</a></li>
+	<li id="menu-item-154" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-154"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-chung-nhan-y-te-hc/">Giấy chứng nhận y tế (HC)</a></li>
+	<li id="menu-item-156" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-156"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-kinh-doanh-ruou/">Giấy phép kinh doanh rượu</a></li>
+	<li id="menu-item-157" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-157"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-kinh-doanh-thuoc-la/">Giấy phép kinh doanh thuốc lá</a></li>
+	<li id="menu-item-151" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-151"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/dang-ky-ma-so-ma-vach/">Đăng ký mã số &#8211; mã vạch</a></li>
+	<li id="menu-item-150" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-150"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/dang-ky-logo-nhan-hieu/">Đăng ký logo &#8211; nhãn hiệu</a></li>
+	<li id="menu-item-152" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-152"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-an-ninh-trat-tu/">Giấy phép an ninh trật tự</a></li>
+	<li id="menu-item-148" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-148"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/dang-ky-ban-quyen-tac-gia/">Đăng ký bản quyền tác giả</a></li>
+	<li id="menu-item-155" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-155"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-kinh-doanh-khach-san/">Giấy phép kinh doanh khách sạn</a></li>
+	<li id="menu-item-159" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-159"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-quang-cao/">Giấy phép quảng cáo</a></li>
+</ul>
+</li>
+<li id="menu-item-1887" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1887 menu-item-design-default"><a href="https://tucongbosanpham.net/chuyen-muc/tin-tuc-moi/" class="nav-top-link">Tin tức</a></li>
+<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146 menu-item-design-default"><a href="https://tucongbosanpham.net/lien-he/" class="nav-top-link">Liên hệ</a></li>
+<li class="header-search header-search-dropdown has-icon has-dropdown menu-item-has-children">
+		<a href="#" aria-label="Search" class="is-small"><i class="icon-search" ></i></a>
+		<ul class="nav-dropdown nav-dropdown-default">
+	 	<li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper">
+		<div class="searchform-wrapper ux-search-box relative is-normal"><form method="get" class="searchform" action="https://tucongbosanpham.net/" role="search">
+		<div class="flex-row relative">
+			<div class="flex-col flex-grow">
+	   	   <input type="search" class="search-field mb-0" name="s" value="" id="s" placeholder="Search&hellip;" />
+			</div>
+			<div class="flex-col">
+				<button type="submit" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+					<i class="icon-search" ></i>				</button>
+			</div>
+		</div>
+    <div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li>	</ul>
+</li>
+            </ul>
+          </div>
+
+          <!-- Right Elements -->
+          <div class="flex-col hide-for-medium flex-right">
+            <ul class="header-nav header-nav-main nav nav-right  nav-uppercase">
+              <li class="header-divider"></li><li class="html custom html_topbar_left"><h3 class="hotline-custom"><a href="tel:02862750707">(028) 6275 0707 -</a>  
+<a href="tel:0903145175">0903 145 175</a></h3></li>            </ul>
+          </div>
+
+          <!-- Mobile Right Elements -->
+          <div class="flex-col show-for-medium flex-right">
+            <ul class="mobile-nav nav nav-right ">
+                          </ul>
+          </div>
+
+      </div>
+     
+            <div class="container"><div class="top-divider full-width"></div></div>
+      </div>
+<div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div><div class="shade shade-top hide-for-sticky fill"></div></div>		</div>
+	</header>
+
+	
+	<main id="main" class="">
+
+
+<div id="content" role="main">
+			
+					<section class="section" id="section_1888344679">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="slider-wrapper relative" id="slider-1262730802" >
+    <div class="slider slider-type-fade slider-nav-reveal slider-nav-normal slider-nav-light slider-nav-outside slider-style-normal"
+        data-flickity-options='{
+            "cellAlign": "center",
+            "imagesLoaded": true,
+            "lazyLoad": 1,
+            "freeScroll": false,
+            "wrapAround": true,
+            "autoPlay": 3500,
+            "pauseAutoPlayOnHover" : false,
+            "prevNextButtons": false,
+            "contain" : true,
+            "adaptiveHeight" : true,
+            "dragThreshold" : 10,
+            "percentPosition": true,
+            "pageDots": false,
+            "rightToLeft": false,
+            "draggable": false,
+            "selectedAttraction": 0.1,
+            "parallax" : 0,
+            "friction": 0.6        }'
+        >
+        
+
+  <div class="banner has-hover" id="banner-961469311">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill bg-loaded"></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-1896910457" class="text-box banner-layer x5 md-x5 lg-x0 y50 md-y50 lg-y50 res-text">
+                     <div data-animate="bounceInDown">           <div class="text-box-content text ">
+              
+              <div class="text-inner text-left">
+                  
+	<div id="text-2261606700" class="text">
+		
+<h3 class="uppercase"><strong>Tự công bố sản phẩm</strong></h3>
+<h4>Sản phẩm trong nước và nhập khẩu</h4>
+		
+
+	</div>
+	
+<a href="/chuyen-muc/dich-vu/giay-phep-kinh-doanh-khach-san/" target="_self" class="button primary is-shade is-larger box-shadow-4 box-shadow-5-hover"  style="border-radius:10px;">
+    <span>Tìm hiểu thêm</span>
+  </a>
+
+              </div>
+           </div>
+       </div>                     
+
+    </div>
+ 
+        </div>
+      </div>
+
+            
+
+  </div>
+
+
+
+  <div class="banner has-hover" id="banner-1749673687">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill bg-loaded"></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-625994082" class="text-box banner-layer x5 md-x5 lg-x0 y40 md-y50 lg-y50 res-text">
+                     <div data-animate="bounceInUp">           <div class="text-box-content text dark">
+              
+              <div class="text-inner text-left">
+                  
+<h3 class="uppercase"><strong>Giấy phép an toàn thực phẩm</strong></h3>
+<p>Doanh nghiệp của bạn đang sản xuất, kinh doanh thực phẩm</p>
+<p>chức năng và bạn muốn phố biến rộng rãi sản phẩm của mình.</p>
+<a href="/chuyen-muc/dich-vu/gcn-an-toan-thuc-pham/" target="_self" class="button primary is-shade is-larger box-shadow-4 box-shadow-5-hover"  style="border-radius:10px;">
+    <span>Liên hệ ngay</span>
+  </a>
+
+              </div>
+           </div>
+       </div>                     
+
+    </div>
+ 
+        </div>
+      </div>
+
+            
+
+  </div>
+
+
+
+  <div class="banner has-hover" id="banner-398278503">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill bg-loaded"></div>
+                        <div class="overlay"></div>            
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-1535225816" class="text-box banner-layer x5 md-x5 lg-x0 y50 md-y50 lg-y50 res-text">
+                     <div data-animate="bounceInUp">           <div class="text-box-content text dark">
+              
+              <div class="text-inner text-left">
+                  
+<h3 class="uppercase"><strong>Giấy phép xuất nhập khẩu sản phẩm</strong></h3>
+<p>Doanh nghiệp của bạn đang nhập khẩu hàng hóa, kinh doanh thực phẩm</p>
+<p>chức năng và bạn muốn phố biến rộng rãi sản phẩm của mình.</p>
+<a href="/chuyen-muc/dich-vu/gcn-an-toan-thuc-pham/" target="_self" class="button primary is-shade is-larger box-shadow-4 box-shadow-5-hover"  style="border-radius:10px;">
+    <span>Liên hệ ngay</span>
+  </a>
+
+              </div>
+           </div>
+       </div>                     
+
+    </div>
+ 
+        </div>
+      </div>
+
+            
+
+  </div>
+
+
+     </div>
+
+     <div class="loading-spin dark large centered"></div>
+
+     	</div>
+
+
+		</div>
+
+		
+
+	</section>
+	
+	<section class="section background-gra" id="section_189877646">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row align-middle align-center"  id="row-265452378">
+
+	<div id="col-117056645" class="col small-12 large-12"  >
+		<div class="col-inner dark"  >
+			
+			
+	<div id="text-3261998838" class="text">
+		
+<h1>C.A.O Media luôn đồng hành và phát triển cùng Quý doanh nghiệp</h1>
+		
+
+	</div>
+	
+		</div>
+		
+
+	</div>
+
+	
+</div>
+		</div>
+
+		
+
+	</section>
+	
+	<section class="section" id="section_1961293290">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-1829632483">
+
+	<div id="col-1215946446" class="col small-12 large-12"  >
+		<div class="col-inner"  >
+			
+			
+<h2 class="module-team_title">Dịch vụ tại C.A.O Media</h2>
+<p>C.A.O MEDIA có nhiều kinh nghiệm trong tất cả các ngành. Chúng tôi mang lại cho mỗi khách hàng sự kết hợp của kiến ​​thức ngành sâu và các quan điểm chuyên môn từ các ngành khác về thách thức đặt ra, để cung cấp cho khách hàng những quan điểm mới và những hiểu biết sâu sắc về kinh doanh.</p>
+<div class="row"  id="row-1658908266">
+
+	<div id="col-842590028" class="col small-12 large-12"  >
+		<div class="col-inner"  >
+			
+			
+<div class="pt-cv-wrapper"><div class="pt-cv-view pt-cv-grid pt-cv-colsys pt-cv-same-height pt-cv-center pt-cv-show-taxonomy" id="pt-cv-view-1528240rt5"><div data-id="pt-cv-page-1" class="pt-cv-page" data-cvc="5" data-cvct="2" data-cvcm="1"><div class="col-md-2 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="tu-cong-bo-san-pham"><div class='pt-cv-ifield'><div class="pt-cv-taso"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/tu-cong-bo-san-pham/" class="_self pt-cv-href-thumbnail cvplbd" target="_self" ><img width="780" height="480" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20780%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/43551f6a1f5dfe03a74c.jpg" class="lazy-load attachment-full size-full no-lazyload " alt="Trang chủ" loading="lazy" data-no-lazy="1" /></a><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/tu-cong-bo-san-pham/" class="_self pt-cv-tao cvplbd" target="_self" >Tự công bố sản phẩm</a><div class="pt-cv-content"></div></div></div></div>
+<div class="col-md-2 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="giay-phep-an-toan-ve-sinh-thuc-pham"><div class='pt-cv-ifield'><div class="pt-cv-taso"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-an-toan-ve-sinh-thuc-pham/" class="_self pt-cv-href-thumbnail cvplbd" target="_self" ><img width="780" height="480" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20780%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/attpp.jpg" class="lazy-load attachment-full size-full no-lazyload " alt="Trang chủ" loading="lazy" data-no-lazy="1" /></a><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-an-toan-ve-sinh-thuc-pham/" class="_self pt-cv-tao cvplbd" target="_self" >Giấy phép an toàn vệ sinh thực phẩm</a><div class="pt-cv-content"></div></div></div></div>
+<div class="col-md-2 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="kiem-nghiem-san-pham"><div class='pt-cv-ifield'><div class="pt-cv-taso"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/kiem-nghiem-san-pham/" class="_self pt-cv-href-thumbnail cvplbd" target="_self" ><img width="650" height="400" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20650%20400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/knsp.jpg" class="lazy-load attachment-full size-full no-lazyload " alt="Trang chủ" loading="lazy" data-no-lazy="1" /></a><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/kiem-nghiem-san-pham/" class="_self pt-cv-tao cvplbd" target="_self" >Kiểm nghiệm sản phẩm</a><div class="pt-cv-content"></div></div></div></div>
+<div class="col-md-2 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="giay-phep-luu-hanh-tu-do-cfs"><div class='pt-cv-ifield'><div class="pt-cv-taso"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-luu-hanh-tu-do-cfs/" class="_self pt-cv-href-thumbnail cvplbd" target="_self" ><img width="780" height="480" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20780%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/kdtd.jpg" class="lazy-load attachment-full size-full no-lazyload " alt="Trang chủ" loading="lazy" data-no-lazy="1" /></a><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-luu-hanh-tu-do-cfs/" class="_self pt-cv-tao cvplbd" target="_self" >Giấy phép lưu hành tự do (CFS)</a><div class="pt-cv-content"></div></div></div></div>
+<div class="col-md-4 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="giay-chung-nhan-y-te-hc"><div class='pt-cv-ifield'><div class="pt-cv-taso"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-chung-nhan-y-te-hc/" class="_self pt-cv-href-thumbnail cvplbd" target="_self" ><img width="590" height="370" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20590%20370%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/giay-chung-nhan-y-te-hc.png" class="lazy-load attachment-full size-full no-lazyload " alt="Trang chủ" loading="lazy" data-no-lazy="1" /></a><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-chung-nhan-y-te-hc/" class="_self pt-cv-tao cvplbd" target="_self" >Giấy chứng nhận y tế (HC)</a><div class="pt-cv-content"></div></div></div></div>
+<div class="col-md-2 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="giay-phep-kinh-doanh-ruou"><div class='pt-cv-ifield'><div class="pt-cv-taso"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-kinh-doanh-ruou/" class="_self pt-cv-href-thumbnail cvplbd" target="_self" ><img width="650" height="400" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20650%20400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/gpkdrb.jpg" class="lazy-load attachment-full size-full no-lazyload " alt="Trang chủ" loading="lazy" data-no-lazy="1" /></a><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-kinh-doanh-ruou/" class="_self pt-cv-tao cvplbd" target="_self" >Giấy phép kinh doanh rượu</a><div class="pt-cv-content"></div></div></div></div>
+<div class="col-md-2 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="giay-phep-kinh-doanh-thuoc-la"><div class='pt-cv-ifield'><div class="pt-cv-taso"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-kinh-doanh-thuoc-la/" class="_self pt-cv-href-thumbnail cvplbd" target="_self" ><img width="780" height="480" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20780%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/thuocla.jpg" class="lazy-load attachment-full size-full no-lazyload " alt="Trang chủ" loading="lazy" data-no-lazy="1" /></a><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-kinh-doanh-thuoc-la/" class="_self pt-cv-tao cvplbd" target="_self" >Giấy phép kinh doanh thuốc lá</a><div class="pt-cv-content"></div></div></div></div>
+<div class="col-md-2 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="giay-phep-kinh-doanh-khach-san"><div class='pt-cv-ifield'><div class="pt-cv-taso"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-kinh-doanh-khach-san/" class="_self pt-cv-href-thumbnail cvplbd" target="_self" ><img width="650" height="400" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20650%20400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/gcnks.jpg" class="lazy-load attachment-full size-full no-lazyload " alt="Trang chủ" loading="lazy" data-no-lazy="1" /></a><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-kinh-doanh-khach-san/" class="_self pt-cv-tao cvplbd" target="_self" >Giấy phép kinh doanh khách sạn</a><div class="pt-cv-content"></div></div></div></div>
+<div class="col-md-2 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="giay-phep-an-ninh-trat-tu"><div class='pt-cv-ifield'><div class="pt-cv-taso"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-an-ninh-trat-tu/" class="_self pt-cv-href-thumbnail cvplbd" target="_self" ><img width="650" height="400" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20650%20400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/ban-quyen-tac-gia-1.jpg" class="lazy-load attachment-full size-full no-lazyload " alt="Trang chủ" loading="lazy" data-no-lazy="1" /></a><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-an-ninh-trat-tu/" class="_self pt-cv-tao cvplbd" target="_self" >Giấy phép an ninh trật tự</a><div class="pt-cv-content"></div></div></div></div>
+<div class="col-md-4 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="giay-phep-quang-cao"><div class='pt-cv-ifield'><div class="pt-cv-taso"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-quang-cao/" class="_self pt-cv-href-thumbnail cvplbd" target="_self" ><img width="780" height="480" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20780%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/kdqc.jpg" class="lazy-load attachment-full size-full no-lazyload " alt="Trang chủ" loading="lazy" data-no-lazy="1" /></a><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-quang-cao/" class="_self pt-cv-tao cvplbd" target="_self" >Giấy phép quảng cáo</a><div class="pt-cv-content"></div></div></div></div>
+<div class="col-md-2 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="giay-thuc-hanh-san-xuat-tot-gmp"><div class='pt-cv-ifield'><div class="pt-cv-taso"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-thuc-hanh-san-xuat-tot-gmp/" class="_self pt-cv-href-thumbnail cvplbd" target="_self" ><img width="780" height="480" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20780%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/gcnxxt.jpg" class="lazy-load attachment-full size-full no-lazyload " alt="Trang chủ" loading="lazy" data-no-lazy="1" /></a><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-thuc-hanh-san-xuat-tot-gmp/" class="_self pt-cv-tao cvplbd" target="_self" >Giấy thực hành sản xuất tốt (GMP)</a><div class="pt-cv-content"></div></div></div></div>
+<div class="col-md-2 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="dang-ky-logo-nhan-hieu"><div class='pt-cv-ifield'><div class="pt-cv-taso"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/dang-ky-logo-nhan-hieu/" class="_self pt-cv-href-thumbnail cvplbd" target="_self" ><img width="780" height="480" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20780%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/C_A_O-MEDIA-1.png" class="lazy-load attachment-full size-full no-lazyload " alt="Trang chủ" loading="lazy" data-no-lazy="1" /></a><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/dang-ky-logo-nhan-hieu/" class="_self pt-cv-tao cvplbd" target="_self" >Đăng ký logo - nhãn hiệu</a><div class="pt-cv-content"></div></div></div></div>
+<div class="col-md-2 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="dang-ky-ma-so-ma-vach"><div class='pt-cv-ifield'><div class="pt-cv-taso"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/dang-ky-ma-so-ma-vach/" class="_self pt-cv-href-thumbnail cvplbd" target="_self" ><img width="780" height="480" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20780%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/e8bf23b6707b9025c96a.jpg" class="lazy-load attachment-full size-full no-lazyload " alt="Trang chủ" loading="lazy" data-no-lazy="1" /></a><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/dang-ky-ma-so-ma-vach/" class="_self pt-cv-tao cvplbd" target="_self" >Đăng ký mã số - mã vạch</a><div class="pt-cv-content"></div></div></div></div>
+<div class="col-md-2 col-sm-6 col-xs-12 pt-cv-content-item pt-cv-1-col"  data-pid="dang-ky-ban-quyen-tac-gia"><div class='pt-cv-ifield'><div class="pt-cv-taso"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/dang-ky-ban-quyen-tac-gia/" class="_self pt-cv-href-thumbnail cvplbd" target="_self" ><img width="780" height="480" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20780%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/ban-quyen-tac-gia.jpg" class="lazy-load attachment-full size-full no-lazyload " alt="Trang chủ" loading="lazy" data-no-lazy="1" /></a><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/dang-ky-ban-quyen-tac-gia/" class="_self pt-cv-tao cvplbd" target="_self" >Đăng ký bản quyền tác giả</a><div class="pt-cv-content"></div></div></div></div></div></div></div>			
+			
+		</div>
+			</div>
+
+	
+</div>
+		</div>
+			</div>
+
+	
+</div>
+<div class="row"  id="row-1013490553">
+
+	<div id="col-444767506" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" ><h3 class="section-title section-title-normal"><b></b><span class="section-title-main" style="font-size:75%;">Công bố sản phẩm nhập khẩu</span><b></b></h3></div>
+
+  
+    <div class="row large-columns-1 medium-columns- small-columns-1 has-shadow row-box-shadow-1">
+  		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/tu-cong-bo-san-pham-mi-udon/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-zoom image-cover" style="padding-top:50%;">
+  							<img width="590" height="370" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20590%20370%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/07/tu-cong-bo-san-pham-mi-udon.png" class="lazy-load attachment-medium size-medium wp-post-image" alt="" loading="lazy" />  							<div class="overlay" style="background-color: rgba(0, 0, 0, 0.17)"></div>  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left is-small" style="background-color:rgb(239, 239, 239);">
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large uppercase">Tự công bố sản phẩm mì udon nhập khẩu từ Nhật Bản</h5>
+					<div class="post-meta is-small op-8">21 Tháng Bảy, 2021</div>					<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Tự công bố sản phẩm mì udon thực hiện như thế nào? Để được nhập					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+</div>
+
+  
+    <div class="row large-columns-1 medium-columns-1 small-columns-1">
+  		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/tu-cong-bo-san-pham-mi-spaghetti/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:30%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="590" height="370" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20590%20370%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/07/tu-cong-bo-san-pham-mi-spaghetti.png" class="lazy-load attachment-medium size-medium wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left is-xsmall" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Tự công bố sản phẩm mì spaghetti nhập khẩu</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Tự công bố sản phẩm mì spaghetti về Việt Nam thực hiện như thế nào?					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/tu-cong-bo-san-pham-mi-y-nhap-khau/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:30%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="590" height="370" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20590%20370%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/07/tu-cong-bo-san-pham-mi-y-nhap-khau.png" class="lazy-load attachment-medium size-medium wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left is-xsmall" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Tự công bố sản phẩm mì ý nhập khẩu về Việt Nam</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Tự công bố sản phẩm mì ý nhập khẩu về Việt Nam thực hiện như					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/mau-ho-so-tu-cong-bo-theo-nghi-dinh-15-2018-nd-cp/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:30%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="590" height="370" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20590%20370%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/07/mau-ho-so-tu-cong-bo-theo-nghi-dinh-15-2018-nd-cp.png" class="lazy-load attachment-medium size-medium wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left is-xsmall" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Mẫu hồ sơ tự công bố theo Nghị định 15/2018/NĐ-CP</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Trong bài viết này. C.A.O Media sẽ cung cấp cho doanh nghiệp xem qua mẫu hồ sơ					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/tu-cong-bo-san-pham-3/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:30%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="590" height="370" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20590%20370%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/07/tu-cong-bo-san-pham-3.png" class="lazy-load attachment-medium size-medium wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left is-xsmall" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Những sản phẩm nào không thuộc tự công bố sản phẩm?</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Tự công bố sản phẩm căn cứ Nghị định số 15/2018/NĐ-CP của chính phủ; quy					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+</div>
+		</div>
+			</div>
+
+	
+
+	<div id="col-1245835164" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" ><h3 class="section-title section-title-normal"><b></b><span class="section-title-main" style="font-size:75%;">Công bố sản phẩm sản xuất tại Việt Nam</span><b></b></h3></div>
+
+  
+    <div class="row large-columns-1 medium-columns- small-columns-1 has-shadow row-box-shadow-1">
+  		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/cong-bo-chat-luong-san-pham-rong-bien/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-zoom image-cover" style="padding-top:50%;">
+  							<img width="590" height="370" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20590%20370%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/07/cong-bo-chat-luong-san-pham-rong-bien.png" class="lazy-load attachment-medium size-medium wp-post-image" alt="" loading="lazy" />  							<div class="overlay" style="background-color: rgba(0, 0, 0, 0.17)"></div>  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left is-small" style="background-color:rgb(239, 239, 239);">
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large uppercase">Công bố chất lượng sản phẩm rong biển căn cứ vào đâu?</h5>
+					<div class="post-meta is-small op-8">22 Tháng Bảy, 2021</div>					<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Công bố chất lượng sản phẩm rong biển căn cứ vào đâu? Theo Nghị định 15/2018/NĐ-CP					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+</div>
+
+  
+    <div class="row large-columns-1 medium-columns-1 small-columns-1">
+  		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/cong-bo-chat-luong-san-pham-nui/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:30%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="590" height="370" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20590%20370%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/07/cong-bo-chat-luong-san-pham-nui.png" class="lazy-load attachment-medium size-medium wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left is-xsmall" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Công bố chất lượng sản phẩm nui như thế nào?</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Công bố chất lượng sản phẩm nui căn cứ vào đâu? Theo Nghị định 15/2018/NĐ-CP của					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/tu-cong-bo-san-pham-mi-trung/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:30%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="590" height="370" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20590%20370%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/07/tu-cong-bo-san-pham-mi-trung.png" class="lazy-load attachment-medium size-medium wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left is-xsmall" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Tự công bố sản phẩm mì trứng do cơ quan nào cấp?</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Tự công bố sản phẩm mì trứng thực hiện như thế nào? Mì trứng là					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/tu-cong-bo-san-pham-chao-yen-mach/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:30%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="590" height="370" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20590%20370%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/07/tu-cong-bo-san-pham-chao-yen-mach.png" class="lazy-load attachment-medium size-medium wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left is-xsmall" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Tự công bố sản phẩm cháo yến mạch theo quy định nào?</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Tự công bố sản phẩm cháo yến mạch thực hiện như thế nào? Đã từ					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/mau-ho-so-tu-cong-bo-theo-nghi-dinh-15-2018-nd-cp/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:30%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="590" height="370" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20590%20370%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/07/mau-ho-so-tu-cong-bo-theo-nghi-dinh-15-2018-nd-cp.png" class="lazy-load attachment-medium size-medium wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left is-xsmall" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Mẫu hồ sơ tự công bố theo Nghị định 15/2018/NĐ-CP</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Trong bài viết này. C.A.O Media sẽ cung cấp cho doanh nghiệp xem qua mẫu hồ sơ					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+</div>
+		</div>
+			</div>
+
+	
+</div>
+		</div>
+
+		
+
+	</section>
+	
+	<section class="section" id="section_1078831878">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+
+  <div class="banner has-hover" id="banner-24664379">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill bg-loaded"></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-910830328" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text-box-content text dark">
+              
+              <div class="text-inner text-center">
+                  
+	<div id="text-554530474" class="text">
+		
+<h3 class="align-02"><strong><span class="gt3_font-weight">Công ty Dịch Vụ Tư Vấn Truyền Thông C.A.O</span></strong></h3>
+<p>C.A.O Media chuyên về hoạt động tư vấn thủ tục xin các giấy phép lưu hành sản phẩm, xuất nhập khẩu sản phẩm, hàng hoá<br />
+		
+
+	</div>
+	
+<a data-animate="bounceIn" href="/lien-he" target="_self" class="button primary is-gloss box-shadow-3 box-shadow-5-hover"  style="border-radius:5px;">
+    <span>liên hệ c.a.o media</span>
+  </a>
+
+              </div>
+           </div>
+                            
+
+    </div>
+ 
+        </div>
+      </div>
+
+            
+
+  </div>
+
+
+		</div>
+
+		
+
+	</section>
+	
+	<section class="section background-gra dark" id="section_784258420">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row row-large row-solid"  id="row-1660381544">
+
+	<div id="col-693347350" class="col medium-3 small-6 large-3"  >
+		<div class="col-inner"  >
+			
+			
+
+		<div class="icon-box featured-box icon-box-left text-left"  >
+					<div class="icon-box-img" style="width: 60px">
+				<div class="icon">
+					<div class="icon-inner" style="color:rgb(255, 255, 255);">
+						<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 512 512" width="512" height="512"><path d="M222.606,123.454l-5.8,33.311a6,6,0,0,0,8.69,6.345l29.965-15.661,29.889,15.806a6,6,0,0,0,8.721-6.3l-5.635-33.338,24.268-23.542a6,6,0,0,0-3.3-10.242L275.96,84.887,261.07,54.531a6,6,0,0,0-5.372-3.357h-.015a6,6,0,0,0-5.374,3.332L235.273,84.788,201.8,89.569a6,6,0,0,0-3.35,10.226Zm17.486-27.232a6,6,0,0,0,4.526-3.272l11.033-22.219L266.576,93a6,6,0,0,0,4.509,3.293l24.542,3.626L277.82,117.2a6,6,0,0,0-1.738,5.307l4.135,24.461-21.931-11.6a6,6,0,0,0-5.584-.013l-21.986,11.49,4.253-24.441a6,6,0,0,0-1.713-5.314l-17.722-17.36Z"/><path d="M378.493,145.448,373.4,174.713a6,6,0,0,0,8.69,6.346L408.416,167.3l26.258,13.886a6,6,0,0,0,8.721-6.3l-4.95-29.288,21.32-20.683a6,6,0,0,0-3.3-10.242l-29.384-4.342L414,83.659a6,6,0,0,0-5.373-3.357h-.014a6,6,0,0,0-5.374,3.332l-13.21,26.6-29.405,4.2a6,6,0,0,0-3.351,10.225Zm16.354-23.777a6,6,0,0,0,4.526-3.272l9.206-18.54,9.117,18.585a6,6,0,0,0,4.509,3.293l20.478,3.026-14.858,14.414a6,6,0,0,0-1.738,5.306l3.45,20.412-18.3-9.677a5.994,5.994,0,0,0-5.584-.014l-18.346,9.588,3.549-20.4a6,6,0,0,0-1.713-5.314L374.355,124.6Z"/><path d="M72.615,145.448l-5.092,29.265a6,6,0,0,0,8.691,6.346L102.539,167.3,128.8,181.186a6,6,0,0,0,8.722-6.3l-4.951-29.288,21.32-20.683a6,6,0,0,0-3.3-10.242L121.2,110.327,108.121,83.659a6,6,0,0,0-5.372-3.357h-.015a6,6,0,0,0-5.374,3.332l-13.21,26.6-29.405,4.2a6,6,0,0,0-3.35,10.225ZM88.97,121.671A6,6,0,0,0,93.5,118.4l9.207-18.54,9.116,18.585a6,6,0,0,0,4.51,3.293l20.478,3.026-14.858,14.414a6,6,0,0,0-1.739,5.306l3.45,20.412-18.3-9.677a5.994,5.994,0,0,0-5.584-.014L81.43,164.792l3.548-20.4a6,6,0,0,0-1.712-5.314L68.478,124.6Z"/><path d="M256,187.146a48.164,48.164,0,0,0-48.109,48.11v28.073a48.109,48.109,0,1,0,96.218,0V235.256A48.164,48.164,0,0,0,256,187.146Zm36.109,76.183a36.109,36.109,0,1,1-72.218,0V235.256a36.109,36.109,0,1,1,72.218,0Z"/><path d="M405.3,210.936a44.331,44.331,0,0,0-44.281,44.281v25.52a44.281,44.281,0,1,0,88.562,0v-25.52A44.331,44.331,0,0,0,405.3,210.936Zm32.281,69.8a32.281,32.281,0,1,1-64.562,0v-25.52a32.281,32.281,0,1,1,64.562,0Z"/><path d="M456.339,333.982H440.206a5.458,5.458,0,0,1-5.452-5.451,6,6,0,0,0-11.647-2.026l-6.416,17.876a12.014,12.014,0,0,1-22.667-.146l-6.135-17.8a6,6,0,0,0-9.915-2.287l-.145.144a6,6,0,0,0-1.757,4.242,5.458,5.458,0,0,1-5.452,5.451H354.255a51.134,51.134,0,0,0-7.737.59A54.853,54.853,0,0,0,312.146,322.5H294.4a6.6,6.6,0,0,1-6.6-6.6,6,6,0,0,0-11.647-2.026L269.1,333.539a13.816,13.816,0,0,1-26.066-.167l-6.749-19.585a6,6,0,0,0-9.92-2.282l-.159.159a6,6,0,0,0-1.752,4.237,6.6,6.6,0,0,1-6.6,6.6h-18a54.85,54.85,0,0,0-34.378,12.079,51.059,51.059,0,0,0-7.731-.595H141.612a5.458,5.458,0,0,1-5.452-5.451,6,6,0,0,0-11.647-2.026L118.1,344.381a12.015,12.015,0,0,1-22.668-.146l-6.135-17.8a6,6,0,0,0-9.917-2.286l-.144.144a6,6,0,0,0-1.756,4.241,5.457,5.457,0,0,1-5.451,5.451H55.662A50.72,50.72,0,0,0,5,384.644v70.182a6,6,0,0,0,6,6H501a6,6,0,0,0,6-6V384.644A50.719,50.719,0,0,0,456.339,333.982ZM144.727,377.626v71.2H17V384.644a38.706,38.706,0,0,1,38.662-38.662H72.027A17.356,17.356,0,0,0,82.208,342.7l1.877,5.449a24.015,24.015,0,0,0,45.307.288l2.055-5.725a17.363,17.363,0,0,0,9.6,3.265c.109,0,.22.008.331.008h13.374A54.808,54.808,0,0,0,144.727,377.626Zm210.546,71.2H156.727v-71.2A43.176,43.176,0,0,1,199.854,334.5h18a18.511,18.511,0,0,0,11.5-3.989l2.333,6.773a25.816,25.816,0,0,0,48.706.31l2.535-7.064a18.5,18.5,0,0,0,10.878,3.96c.112.007.225.01.338.01h18a43.176,43.176,0,0,1,43.127,43.128Zm139.727,0H367.273v-71.2a54.808,54.808,0,0,0-10.027-31.644H370.62A17.357,17.357,0,0,0,380.8,342.7l1.877,5.449a24.015,24.015,0,0,0,45.307.288l2.055-5.725a17.363,17.363,0,0,0,9.6,3.265c.109,0,.22.008.33.008h16.366A38.706,38.706,0,0,1,495,384.644Z"/><path d="M62.422,255.217v25.52a44.281,44.281,0,1,0,88.562,0v-25.52a44.281,44.281,0,0,0-88.562,0Zm76.562,0v25.52a32.281,32.281,0,1,1-64.562,0v-25.52a32.281,32.281,0,0,1,64.562,0Z"/></svg>
+					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+	<div id="text-2577901149" class="text">
+		
+<h1>2001</h1>
+<p>Khách hàng.<br />
+		
+
+	</div>
+	
+		</div>
+	</div>
+	
+	
+		</div>
+			</div>
+
+	
+
+	<div id="col-626761253" class="col medium-3 small-6 large-3"  >
+		<div class="col-inner"  >
+			
+			
+
+		<div class="icon-box featured-box icon-box-left text-left"  >
+					<div class="icon-box-img" style="width: 60px">
+				<div class="icon">
+					<div class="icon-inner" style="color:rgb(255, 255, 255);">
+						<svg height="512pt" viewBox="-41 0 511 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m290.941406 127.269531c-4.664062-4.660156-10.863281-7.230469-17.457031-7.230469s-12.792969 2.570313-17.453125 7.230469c-4.664062 4.664063-7.234375 10.863281-7.234375 17.457031s2.570313 12.792969 7.230469 17.453126l42.054687 42.054687c4.660157 4.660156 10.863281 7.230469 17.457031 7.230469s12.789063-2.570313 17.453126-7.230469l89.851562-89.851563c4.664062-4.664062 7.230469-10.863281 7.230469-17.453124 0-6.59375-2.566407-12.792969-7.230469-17.457032-4.660156-4.664062-10.863281-7.230468-17.457031-7.230468s-12.792969 2.566406-17.453125 7.230468l-9.90625 9.90625c-7.339844-5.601562-15.394532-10.09375-23.929688-13.34375v-11.230468c0-13.613282-11.074218-24.6875-24.683594-24.6875h-77.40625v-8.570313c0-17.394531-14.152343-31.546875-31.546874-31.546875h-86.324219c-17.394531 0-31.546875 14.152344-31.546875 31.546875v35.644531c0 9.664063 7.863281 17.527344 17.527344 17.527344h114.363281c9.664062 0 17.527343-7.863281 17.527343-17.527344v-12.050781h77.402344c5.328125 0 9.664063 4.335937 9.664063 9.664063v6.917968c-6.183594-1.25-12.511719-1.914062-18.914063-1.914062-52.613281 0-95.417968 42.804687-95.417968 95.417968 0 52.613282 42.804687 95.417969 95.417968 95.417969 6.417969 0 12.746094-.644531 18.914063-1.882812v228.554687c0 5.328125-4.335938 9.660156-9.664063 9.660156h-304.226562c-5.328125 0-9.660156-4.332031-9.660156-9.660156v-422.511718c0-5.328126 4.332031-9.664063 9.660156-9.664063h49.933594c4.148437 0 7.511718-3.363281 7.511718-7.511719 0-4.148437-3.363281-7.511718-7.511718-7.511718h-49.933594c-13.609375 0-24.683594 11.074218-24.683594 24.6875v422.511718c0 13.609375 11.074219 24.683594 24.683594 24.683594h304.230468c13.609376 0 24.683594-11.074219 24.683594-24.683594v-232.898437c11.960938-4.550781 22.992188-11.496094 32.429688-20.632813 17.84375-17.277344 28.144531-40.441406 28.996094-65.226562.140624-4.144532-3.101563-7.621094-7.25-7.765625-4.117188-.136719-7.621094 3.101562-7.765626 7.25-1.199218 34.886719-24.140624 63.691406-55.644531 73.742187-.433593.101563-.855469.234375-1.253906.410156-7.414063 2.230469-15.285156 3.425782-23.449219 3.425782-44.328125 0-80.394531-36.066406-80.394531-80.394532 0-44.328124 36.066406-80.394531 80.394531-80.394531 17.027344 0 33.484375 5.382813 47.136719 15.277344l-51.757813 51.761719zm-53.957031-60.078125c0 1.382813-1.121094 2.503906-2.503906 2.503906h-114.363281c-1.382813 0-2.503907-1.121093-2.503907-2.503906v-35.644531c0-9.113281 7.410157-16.523437 16.523438-16.523437h86.324219c9.109374 0 16.523437 7.410156 16.523437 16.523437zm161.574219 22.90625c1.824218-1.828125 4.25-2.832031 6.828125-2.832031 2.582031 0 5.007812 1.007813 6.835937 2.832031 3.765625 3.765625 3.765625 9.898438 0 13.664063l-89.855468 89.851562c-1.824219 1.824219-4.25 2.832031-6.832032 2.832031-2.582031 0-5.007812-1.007812-6.832031-2.832031l-42.054687-42.054687c-1.824219-1.824219-2.828126-4.25-2.828126-6.832032 0-2.582031 1.003907-5.007812 2.832032-6.832031 1.824218-1.824219 4.25-2.832031 6.832031-2.832031 2.578125 0 5.007813 1.007812 6.832031 2.832031l29.910156 29.910157c2.933594 2.933593 7.6875 2.933593 10.621094 0zm0 0"/><path d="m204.9375 188.546875h-91.527344c-4.148437 0-7.507812 3.363281-7.507812 7.511719 0 4.144531 3.359375 7.507812 7.507812 7.507812h91.527344c4.148438 0 7.511719-3.363281 7.511719-7.507812 0-4.148438-3.363281-7.511719-7.511719-7.511719zm0 0"/><path d="m99.074219 111.011719h-50.542969c-4.148438 0-7.511719 3.363281-7.511719 7.511719 0 4.148437 3.363281 7.511718 7.511719 7.511718h50.542969c4.148437 0 7.511719-3.363281 7.511719-7.511718 0-4.148438-3.363282-7.511719-7.511719-7.511719zm0 0"/><path d="m113.410156 238.414062h91.527344c4.148438 0 7.511719-3.363281 7.511719-7.511718 0-4.144532-3.363281-7.507813-7.511719-7.507813h-91.527344c-4.148437 0-7.507812 3.363281-7.507812 7.507813 0 4.148437 3.359375 7.511718 7.507812 7.511718zm0 0"/><path d="m236.554688 279.648438h-123.144532c-4.148437 0-7.507812 3.363281-7.507812 7.511718 0 4.148438 3.359375 7.511719 7.507812 7.511719h123.144532c4.148437 0 7.511718-3.363281 7.511718-7.511719 0-4.148437-3.363281-7.511718-7.511718-7.511718zm0 0"/><path d="m113.410156 329.519531h61.574219c4.148437 0 7.507813-3.363281 7.507813-7.511719 0-4.148437-3.359376-7.511718-7.507813-7.511718h-61.574219c-4.148437 0-7.507812 3.363281-7.507812 7.511718 0 4.148438 3.359375 7.511719 7.507812 7.511719zm0 0"/><path d="m113.410156 385.871094h91.527344c4.148438 0 7.511719-3.363282 7.511719-7.511719s-3.363281-7.511719-7.511719-7.511719h-91.527344c-4.148437 0-7.507812 3.363282-7.507812 7.511719s3.359375 7.511719 7.507812 7.511719zm0 0"/><path d="m113.410156 420.714844h123.144532c4.148437 0 7.511718-3.363282 7.511718-7.511719 0-4.144531-3.363281-7.507813-7.511718-7.507813h-123.144532c-4.148437 0-7.507812 3.363282-7.507812 7.507813 0 4.148437 3.359375 7.511719 7.507812 7.511719zm0 0"/><path d="m64.472656 182.035156c-16.730468 0-30.339844 13.609375-30.339844 30.339844s13.609376 30.339844 30.339844 30.339844c16.730469 0 30.339844-13.609375 30.339844-30.339844s-13.609375-30.339844-30.339844-30.339844zm0 45.65625c-8.445312 0-15.316406-6.871094-15.316406-15.316406s6.871094-15.316406 15.316406-15.316406c8.445313 0 15.316406 6.871094 15.316406 15.316406s-6.871093 15.316406-15.316406 15.316406zm0 0"/><path d="m64.472656 274.242188c-16.730468 0-30.339844 13.613281-30.339844 30.339843 0 16.730469 13.609376 30.339844 30.339844 30.339844 16.730469 0 30.339844-13.609375 30.339844-30.339844 0-16.726562-13.609375-30.339843-30.339844-30.339843zm0 45.660156c-8.445312 0-15.316406-6.871094-15.316406-15.316406 0-8.449219 6.871094-15.320313 15.316406-15.320313 8.445313 0 15.316406 6.871094 15.316406 15.320313 0 8.445312-6.871093 15.316406-15.316406 15.316406zm0 0"/><path d="m64.472656 365.441406c-16.730468 0-30.339844 13.609375-30.339844 30.339844s13.609376 30.339844 30.339844 30.339844c16.730469 0 30.339844-13.609375 30.339844-30.339844s-13.609375-30.339844-30.339844-30.339844zm0 45.65625c-8.445312 0-15.316406-6.871094-15.316406-15.316406s6.871094-15.316406 15.316406-15.316406c8.445313 0 15.316406 6.871094 15.316406 15.316406s-6.871093 15.316406-15.316406 15.316406zm0 0"/></svg>					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+	<div id="text-3827392616" class="text">
+		
+<h1>777</h1>
+<p>Dự án<br />
+		
+
+	</div>
+	
+		</div>
+	</div>
+	
+	
+		</div>
+			</div>
+
+	
+
+	<div id="col-1967169630" class="col medium-3 small-6 large-3"  >
+		<div class="col-inner"  >
+			
+			
+
+		<div class="icon-box featured-box icon-box-left text-left"  >
+					<div class="icon-box-img" style="width: 60px">
+				<div class="icon">
+					<div class="icon-inner" style="color:rgb(255, 255, 255);">
+						<svg id="_x33_0" enable-background="new 0 0 64 64" height="512" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m59.131 24.553c2.387-1.194 3.869-3.593 3.869-6.261v-5.292c0-3.716-2.911-6.766-6.573-6.987l-2.377-2.377c-1.699-1.7-3.96-2.636-6.363-2.636h-4.608c-3.904 0-7.079 3.175-7.079 7.079 0 2.162.968 4.176 2.657 5.527l1.701 1.361c-.351 2.917-.358 4.916-.358 5.033v1h2v.697c0 1.777.883 3.426 2.361 4.412.875.583 1.892.891 2.942.891h.271c.143 0 .284-.031.426-.042v3.622l-1.858.372c-.436.087-.836.322-1.125.66l-1.201 1.401c-1.245 1.452-2.253 3.069-3.029 4.787l-5.787 5.786v-3.771c0-3.984-1.72-7.773-4.718-10.396-2.518-2.205-5.749-3.419-9.097-3.419h-.185v-1.034c2.32-.171 4.337-1.615 5.211-3.802.524-1.308.789-2.685.789-4.094v-4.07c0-.707-.151-1.377-.417-1.987 1.526-1.444 2.417-3.479 2.417-5.599 0-1.179-.459-2.288-1.293-3.121-.833-.834-1.942-1.293-3.121-1.293h-8.05c-2.547 0-4.946.997-6.82 2.871-1.701 1.7-2.716 4.365-2.716 7.129 0 3.581 2.104 5.735 3.025 6.508.117 1.365.702 2.634 1.682 3.614l.293.292v4.598c-2.26.059-4.422.775-6.267 2.093-2.964 2.117-4.733 5.554-4.733 9.196v8.699c0 3.409 1.559 6.46 4 8.479v8.521h24v-6h2.687c2.404 0 4.664-.936 6.364-2.636l.95-.95v9.586h24v-25.146c0-1.368-.323-2.737-.935-3.959-.852-1.702-2.258-3.108-3.96-3.96l-1.106-.553v-3.764zm-19.225-12.509c-1.211-.969-1.906-2.415-1.906-3.965 0-2.801 2.278-5.079 5.079-5.079h4.608c1.87 0 3.627.728 4.95 2.05l2.949 2.95h.414c2.757 0 5 2.243 5 5v5.292c0 1.906-1.059 3.62-2.764 4.472l-1.996.998c-.487-.621-.837-1.32-1.017-2.057-.098-.401-.165-.797-.198-1.17.754-.545 1.975-1.707 1.975-3.535 0-2.206-1.794-4-4-4h-.136c-.197-.693-.606-1.316-1.224-1.861-1.107-.975-2.985-2.139-5.64-2.139-2.21 0-4.357 1.061-4.447 1.105l-.438.219-.096.479c-.128.64-.239 1.262-.337 1.862zm8.476 21.956h-1.386l.003-1.18 2.193-.438zm-1.097 11.454-1.254-2.257.857-7.197h1.31l1.429 6.43c-.676 1.082-1.457 2.095-2.342 3.024zm3.772-5.805-1.004-4.519 1.623-3.245 1.852-.37-1.73 6.054c-.204.713-.46 1.403-.741 2.08zm-1.057-13.029 3.196-.639-.393-1.961-4.582.917c-.212.042-.429.063-.647.063h-.271c-.654 0-1.288-.192-1.832-.555-.921-.613-1.471-1.641-1.471-2.748v-2.697h-1.971c.062-1.398.253-4.125.853-7.297.642-.263 1.899-.703 3.118-.703 2.031 0 3.469.892 4.318 1.64.472.416.682.835.682 1.36v1h2c1.103 0 2 .897 2 2 0 1.342-1.438 2.101-1.447 2.105l-.553.277v.618c0 .683.094 1.416.28 2.178.288 1.18.879 2.285 1.72 3.22v3.782l-5 1zm-5 8.121v.2l-.628 5.271-1.351-2.432c.553-1.073 1.214-2.09 1.979-3.039zm-12 5.074v5.771l-.535.535c-.559.559-1.333.879-2.123.879h-1.342v-6h-2v6h-.994c-.002 0-.003 0-.005 0-.001 0-.001 0-.001 0h-7v-2.802l6.356-15.437c1.312.495 2.536 1.223 3.609 2.162 2.564 2.244 4.035 5.485 4.035 8.892zm-4 12.293c.001.769-.299 1.495-.847 2.043-.544.545-1.263.845-2.026.849h-1.127v.001h-2v-6.001h2 1.006c1.648.003 2.991 1.354 2.994 3.108zm-9.618-24.108-1 2h-1.764l-1-2zm1.282 6.902-.624-3.746 1.569-3.137c.61.022 1.215.084 1.808.198zm-7.282-6.902 1.578 3.156-.497 2.98-2.862-6.082c.234-.018.464-.054.7-.054zm3.465 4h1.305l1.068 6.408-1.282 3.114-1.978-4.204zm8.153-14.93c0 1.153-.217 2.281-.646 3.351-.626 1.567-2.122 2.58-3.81 2.58-.813 0-1.6-.238-2.276-.689l-1.714-1.143-1.109 1.664 1.714 1.143c.568.378 1.191.644 1.84.814v1.21h-5v-5.414l-.879-.879c-.722-.723-1.12-1.685-1.12-2.707 0-.551.449-1 1-1h1v-3c0-1.654 1.346-3 3-3h5c1.654 0 3 1.346 3 3zm-14.428-1.828c-.72-.841-1.572-2.253-1.572-4.242 0-2.245.796-4.382 2.194-5.78 1.432-1.431 3.329-2.22 5.342-2.22h8.05c.635 0 1.258.258 1.707.707s.707 1.072.707 1.707c0 1.476-.589 2.891-1.598 3.944-.894-.836-2.085-1.358-3.402-1.358h-5c-2.757 0-5 2.243-5 5v1.171c-.578.205-1.074.583-1.428 1.071zm-7.572 30.758v-8.699c0-2.998 1.456-5.827 3.895-7.569.822-.587 1.721-1.023 2.667-1.315l7.438 15.807v2.776h-6v-6h-2v6c0 1.103.895 2 1.994 2h10.006v6.001l-9-.001c-4.962 0-9-4.037-9-9zm24 15h-20v-5.214c1.502.771 3.199 1.214 5 1.214l14.111.001h.001c.005 0 .01-.001.015-.001h.873zm9.636-8.05c-1.322 1.322-3.08 2.05-4.95 2.05h-1.656c.622-.841.972-1.855.97-2.989s-.395-2.17-1.032-3.011h.374c1.317 0 2.606-.534 3.538-1.465l5.551-5.551c-.275 1.324-.431 2.676-.431 4.044v4.558zm4.364-6.922c0-2.037.357-4.039 1.019-5.934l3.763 6.773c-.137.116-.266.239-.407.352l-.375.301v13.48h-4zm16.211-14.304c1.318.659 2.406 1.748 3.065 3.065.474.946.724 2.006.724 3.065v23.146h-6v-16h-2v16h-6v-12.526c3.238-2.712 5.557-6.283 6.721-10.355l2.013-7.045.126-.025z"/><circle cx="50" cy="56" r="1"/><circle cx="50" cy="52" r="1"/></g></svg>					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+	<div id="text-734854152" class="text">
+		
+<h1>79</h1>
+<p>Đối tác<br />
+		
+
+	</div>
+	
+		</div>
+	</div>
+	
+	
+		</div>
+			</div>
+
+	
+
+	<div id="col-255313357" class="col medium-3 small-6 large-3"  >
+		<div class="col-inner"  >
+			
+			
+
+		<div class="icon-box featured-box icon-box-left text-left"  >
+					<div class="icon-box-img" style="width: 60px">
+				<div class="icon">
+					<div class="icon-inner" style="color:rgb(255, 255, 255);">
+						<svg height="480pt" viewBox="0 0 480.08177 480" width="480pt" xmlns="http://www.w3.org/2000/svg"><path d="m479.199219 113.800781c-1.652344-6.144531-5.683594-11.382812-11.199219-14.558593-5.519531-3.191407-12.082031-4.054688-18.238281-2.402344-6.148438 1.65625-11.386719 5.683594-14.5625 11.199218l-4 6.960938c-3.800781-2.183594-8.65625-.898438-10.878907 2.882812l-20.320312 34.636719-6.960938-4c-1.84375-1.066406-4.039062-1.355469-6.09375-.800781-2.058593.558594-3.808593 1.910156-4.867187 3.761719-2.167969 3.824219-.847656 8.683593 2.960937 10.878906l6.960938 4-68 117.839844-16.800781 44.882812-8 14.957031c-4.683594 8.148438-4.183594 18.277344 1.28125 25.921876l-18 22.078124-5.039063-12.636718c-2.273437-5.632813-7.535156-9.492188-13.585937-9.964844-6.054688-.476562-11.855469 2.515625-14.976563 7.722656l-2.878906 4.878906-2.71875-32c-.625-7.570312-6.488281-13.65625-14.027344-14.570312-7.542968-.910156-14.683594 3.609375-17.09375 10.8125l-19.679687 59.039062c-1.375 4.175782.875 8.675782 5.039062 10.082032.78125.363281 1.621094.582031 2.480469.636718 3.4375.011719 6.5-2.179687 7.601562-5.4375l19.597657-59.039062 2.800781 32.476562c.578125 6.929688 5.558594 12.691407 12.332031 14.261719 6.773438 1.570313 13.78125-1.414062 17.347657-7.378906l2.960937-4.882813 4.960937 12.5625c2.105469 5.292969 6.867188 9.070313 12.503907 9.910157 5.636719.839843 11.292969-1.382813 14.855469-5.832031l18.640624-23.597657c2.0625.539063 4.1875.808594 6.320313.800781 8.574219.066407 16.535156-4.449218 20.878906-11.84375l8-13.359374 30.480469-37.039063 68.71875-119.28125 6.960938 4c1.855468 1.0625 3.207031 2.816406 3.757812 4.882813.554688 2.050781.265625 4.238281-.796875 6.078124l-32 55.441407c-1.207031 1.820312-1.617187 4.054687-1.132813 6.1875.484376 2.128906 1.816407 3.96875 3.691407 5.089843 1.84375 1.070313 4.039062 1.359376 6.09375.804688 2.058593-.558594 3.808593-1.910156 4.867187-3.761719l32-55.441406c3.191406-5.519531 4.054688-12.082031 2.398438-18.238281-1.65625-6.148438-5.683594-11.386719-11.199219-14.5625l-6.960937-4 20-34.640625c2.183593-3.800781.898437-8.652344-2.878907-10.878907l4-6.960937c3.277344-5.605469 4.144531-12.300781 2.398438-18.558594zm-30.160157 2.238281c1.058594-1.851562 2.816407-3.207031 4.882813-3.757812 2.054687-.507812 4.226563-.222656 6.078125.800781 1.855469 1.058594 3.207031 2.816407 3.761719 4.878907.507812 2.054687.222656 4.226562-.800781 6.078124l-4 6.960938-13.921876-8zm-109.039062 223.363282-4-2.320313-11.839844-6.882812 11.359375-30.398438 25.199219 14.558594zm-24 23.117187c-3.378906-2.355469-4.417969-6.886719-2.398438-10.480469l4-6.957031 13.917969 8-4 6.878907c-1.121093 1.945312-3.003906 3.328124-5.195312 3.816406-2.191407.484375-4.484375.03125-6.324219-1.257813zm53.839844-61.277343-27.679688-16 64-110.882813 27.679688 16zm72-124.722657-27.679688-16 16-27.679687 27.679688 16zm0 0"/><path d="m126.238281 358.519531-28.316406 28.242188-16.960937-16.960938c-3.121094-3.101562-8.160157-3.101562-11.28125 0-1.515626 1.503907-2.367188 3.546875-2.367188 5.679688 0 2.132812.851562 4.179687 2.367188 5.679687l16.960937 16.960938c3 2.976562 7.054687 4.644531 11.28125 4.640625 4.25.023437 8.339844-1.644531 11.359375-4.640625l28.238281-28.320313c2.71875-3.175781 2.535157-7.90625-.417969-10.859375-2.957031-2.957031-7.6875-3.140625-10.863281-.421875zm0 0"/><path d="m32 380.039062c0 37.558594 30.445312 68 68 68s68-30.441406 68-68c0-4.417968-3.582031-8-8-8s-8 3.582032-8 8c0 28.71875-23.28125 52-52 52s-52-23.28125-52-52 23.28125-52 52-52c11.257812-.03125 22.214844 3.621094 31.199219 10.402344 3.535156 2.652344 8.550781 1.933594 11.199219-1.601562 2.652343-3.535156 1.9375-8.546875-1.597657-11.199219-20.605469-15.453125-48.175781-17.9375-71.210937-6.421875-23.039063 11.519531-37.589844 35.066406-37.589844 60.820312zm0 0"/><path d="m288 64.039062c4.417969 0 8-3.578124 8-8 0-4.417968-3.582031-8-8-8h-208c-4.417969 0-8 3.582032-8 8v32c0 4.421876 3.582031 8 8 8h208c4.417969 0 8-3.578124 8-8 0-4.417968-3.582031-8-8-8h-200v-16zm0 0"/><path d="m104 112.039062c-4.417969 0-8 3.582032-8 8 0 4.421876 3.582031 8 8 8h160c4.417969 0 8-3.578124 8-8 0-4.417968-3.582031-8-8-8zm0 0"/><path d="m312 168.039062h-176c-4.417969 0-8 3.582032-8 8 0 4.421876 3.582031 8 8 8h176c4.417969 0 8-3.578124 8-8 0-4.417968-3.582031-8-8-8zm0 0"/><path d="m232 224.039062c0-4.417968-3.582031-8-8-8h-160c-4.417969 0-8 3.582032-8 8 0 4.421876 3.582031 8 8 8h160c4.417969 0 8-3.578124 8-8zm0 0"/><path d="m312 216.039062h-56c-4.417969 0-8 3.582032-8 8 0 4.421876 3.582031 8 8 8h56c4.417969 0 8-3.578124 8-8 0-4.417968-3.582031-8-8-8zm0 0"/><path d="m144 272.039062c4.417969 0 8-3.578124 8-8 0-4.417968-3.582031-8-8-8h-80c-4.417969 0-8 3.582032-8 8 0 4.421876 3.582031 8 8 8zm0 0"/><path d="m176 272.039062h56c4.417969 0 8-3.578124 8-8 0-4.417968-3.582031-8-8-8h-56c-4.417969 0-8 3.582032-8 8 0 4.421876 3.582031 8 8 8zm0 0"/><path d="m360 368.039062c-4.417969 0-8 3.582032-8 8v80c0 4.421876-3.582031 8-8 8h-320c-4.417969 0-8-3.578124-8-8v-432c0-4.417968 3.582031-8 8-8h320c4.417969 0 8 3.582032 8 8v150.242188c0 4.417969 3.582031 8 8 8s8-3.582031 8-8v-150.242188c0-13.253906-10.746094-23.9999995-24-23.9999995h-320c-13.253906 0-24 10.7460935-24 23.9999995v432c0 13.257813 10.746094 24 24 24h320c13.253906 0 24-10.742187 24-24v-80c0-4.417968-3.582031-8-8-8zm0 0"/></svg>					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+	<div id="text-2794304183" class="text">
+		
+<h1>510</h1>
+<p>Giấy phép<br />
+		
+
+	</div>
+	
+		</div>
+	</div>
+	
+	
+		</div>
+			</div>
+
+	
+</div>
+		</div>
+
+		
+
+	</section>
+	
+	<section class="section" id="section_1490565923">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			<div class="section-bg-overlay absolute fill"></div>
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row row-collapse row-full-width align-middle"  id="row-2036662345">
+
+	<div id="col-1540155244" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1365587449">
+								<div class="img-inner image-cover dark" style="padding-top:120%;">
+			<img width="1048" height="733" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201048%20733%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2020/12/2-2-1.jpg" class="lazy-load attachment-original size-original" alt="" loading="lazy" />						
+					</div>
+								
+
+	</div>
+	
+		</div>
+			</div>
+
+	
+
+	<div id="col-1081435382" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner text-left"  >
+			
+			
+	<div id="text-50548151" class="text">
+		
+<h2>Lí do chọn C.A.O Media</h2>
+		
+
+	</div>
+	
+
+		<div class="icon-box featured-box icon-box-left text-left"  style="margin:0px 0px 30px 0px;">
+					<div class="icon-box-img" style="width: 40px">
+				<div class="icon">
+					<div class="icon-inner" style="color:rgb(0, 145, 69);">
+						<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 511.998 511.998" style="enable-background:new 0 0 511.998 511.998;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M315.046,361.686h-28.067c-4.142,0-7.5,3.358-7.5,7.5c0,4.143,3.358,7.5,7.5,7.5h28.067c4.142,0,7.5-3.357,7.5-7.5
+			C322.546,365.044,319.188,361.686,315.046,361.686z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M480.248,281.394l-40.841-15.753l-20.823-20.823c-1.337-1.337-3.06-2.061-4.82-2.174v-16.569
+			c9.814-10.464,16.8-23.715,19.619-38.643c1.75,0.079,3.517-0.062,5.26-0.418c9.979-2.043,17.222-11.302,17.222-22.014v-5.469
+			c0-6.197-2.513-11.885-6.605-15.952c6.623-36.02,1.168-65.374-15.846-85.021c-16.457-19.003-42.971-28.086-76.672-26.263
+			c-31.136,1.683-51.236,16.009-57.604,21.25c-3.486,0.414-9.424,1.638-15.434,5.244c-8.33,4.998-18.259,15.497-18.259,37.13
+			c0,18.872,3.016,34.628,5.2,43.567c-7.32,3.566-12.217,11.294-12.217,20.129v5.384c0,10.712,7.243,19.971,17.222,22.014
+			c1.743,0.357,3.511,0.497,5.26,0.418c2.819,14.928,9.806,28.179,19.619,38.643v16.569c-1.76,0.113-3.484,0.837-4.82,2.174
+			l-20.823,20.823l-40.841,15.753c-3.533,1.362-6.908,3.129-10.03,5.25c-3.426,2.328-4.316,6.992-1.989,10.418
+			c1.451,2.136,3.81,3.286,6.21,3.286c1.451,0,2.917-0.421,4.208-1.297c2.177-1.479,4.532-2.711,6.999-3.663l37.903-14.62
+			l28.98,43.471c3.592,5.389,9.35,8.846,15.795,9.484c0.717,0.071,1.434,0.106,2.146,0.106c3.731,0,7.351-0.981,10.555-2.794
+			l-6.219,141.068c-0.183,4.138,3.024,7.641,7.163,7.823c0.112,0.005,0.224,0.007,0.336,0.007c3.99,0,7.31-3.145,7.487-7.17
+			l5.772-130.941h15.57l5.772,130.941c0.177,4.026,3.497,7.17,7.487,7.17c0.112,0,0.224-0.002,0.336-0.007
+			c4.138-0.182,7.345-3.685,7.163-7.823l-6.219-141.068c3.204,1.813,6.823,2.794,10.555,2.794c0.712,0,1.429-0.035,2.146-0.106
+			c6.445-0.638,12.202-4.095,15.795-9.484l28.98-43.471l37.903,14.62c5.316,2.05,9.892,5.321,13.49,9.402l-25.931,25.931
+			c-9.369,9.369-14.528,21.825-14.528,35.073v106.64c0,4.142,3.358,7.5,7.5,7.5c4.142,0,7.5-3.358,7.5-7.5v-106.64
+			c0-9.241,3.599-17.931,10.134-24.466l22.758-22.758c0.914,3.353,1.341,6.878,1.197,10.482l-5.809,143.078
+			c-0.168,4.139,3.051,7.63,7.189,7.799c0.104,0.004,0.207,0.006,0.31,0.006c4.001,0,7.325-3.161,7.488-7.195l5.811-143.082
+			C512.809,308.433,500.066,289.038,480.248,281.394z M295.592,184.339c-1.323-7.201-7.991-12.435-15.188-11.902
+			c-0.569,0.041-1.155,0.001-1.745-0.119c-2.982-0.61-5.231-3.757-5.231-7.318v-5.386c0-3.479,2.325-6.613,5.292-7.134
+			c2.504-0.44,4.902,0.479,6.419,2.458c1.377,1.795,3.214,3.079,5.311,3.711c3.072,0.928,6.459,0.383,9.063-1.455
+			c4.69-3.311,8.828-7.356,12.299-12.024c2.472-3.324,1.78-8.022-1.543-10.493c-3.325-2.472-8.022-1.781-10.494,1.543
+			c-1.731,2.328-3.687,4.441-5.84,6.311c-2.378-2.034-5.156-3.504-8.133-4.343c-1.927-7.382-5.357-23.197-5.357-42.271
+			c0-11.487,3.541-19.558,10.524-23.988c5.449-3.457,11.216-3.595,11.212-3.596c1.917,0,3.783-0.755,5.175-2.072
+			c0.183-0.172,18.62-17.282,50.194-18.989c28.902-1.56,51.214,5.736,64.523,21.104c13.414,15.49,17.881,39.271,13.035,69.036
+			c-2.009-0.071-4.208,0.081-6.397,0.446l-7.046-16.922c-1.438-3.452-5.204-5.316-8.822-4.373
+			c-0.697,0.182-69.958,17.74-98.999-18.416c-2.593-3.229-7.313-3.745-10.544-1.151c-3.229,2.594-3.745,7.314-1.15,10.544
+			c29.656,36.922,88.5,28.89,108.088,24.973l5.449,13.085c2.343,5.625,8.337,8.697,14.245,7.304
+			c2.425-0.571,4.742-0.584,5.612-0.412c3.033,0.604,5.32,3.629,5.32,7.039v5.47c0,3.562-2.249,6.708-5.231,7.318
+			c-0.589,0.121-1.178,0.161-1.745,0.119c-7.196-0.524-13.864,4.7-15.188,11.903c-5.456,29.704-31.343,51.264-61.554,51.264
+			C326.935,235.603,301.048,214.043,295.592,184.339z M328.863,316.915c-1.902,1.902-4.113,1.995-5.263,1.881
+			c-1.149-0.113-3.3-0.639-4.792-2.877l-29.195-43.792l11.741-11.741l44.82,39.218L328.863,316.915z M350.022,326.822l0.454-10.308
+			l6.669-6.669l6.669,6.669l0.454,10.308H350.022z M357.146,289.272l-41.617-36.415v-14.354c12.1,7.695,26.416,12.1,41.617,12.1
+			s29.518-4.405,41.618-12.1v14.354L357.146,289.272z M395.486,315.919c-1.493,2.239-3.644,2.764-4.792,2.877
+			c-1.151,0.114-3.362,0.021-5.264-1.882l-17.311-17.311l44.82-39.218l11.741,11.741L395.486,315.919z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M237.845,320.699l-36.622-15.985l-20.019-20.019c-1.341-1.342-3.065-2.062-4.82-2.174v-11.799
+			c17.109-11.243,29.629-29.124,33.652-50.431c1.97,0.088,3.959-0.101,5.919-0.564c9.597-2.271,16.562-11.468,16.562-21.868v-5.468
+			c0-7.598-3.77-14.433-9.611-18.443c1.718-6.806,2.594-13.769,2.594-20.778c0-31.072-16.796-58.44-42.113-74.154
+			c-0.27-25.933-22.405-46.953-49.588-46.953c-27.183,0-49.318,21.02-49.588,46.953C58.895,94.73,42.099,122.099,42.099,153.17
+			c0,6.988,0.87,13.931,2.578,20.718c-5.838,3.99-9.595,10.857-9.595,18.585v5.386c0,10.4,6.965,19.597,16.562,21.868
+			c1.96,0.464,3.948,0.652,5.919,0.564c4.023,21.307,16.544,39.188,33.653,50.431v11.799c-1.755,0.112-3.479,0.832-4.82,2.174
+			l-20.019,20.019l-36.621,15.985c-18.633,8.134-30.573,27.246-29.712,47.559l4.429,104.493c0.171,4.03,3.492,7.183,7.488,7.183
+			c0.107,0,0.215-0.002,0.323-0.007c4.139-0.175,7.351-3.672,7.176-7.811l-4.43-104.494c-0.285-6.733,1.465-13.266,4.755-18.889
+			l19.685,23.622c6.221,7.465,9.646,16.927,9.646,26.643v73.436c0,4.142,3.358,7.5,7.5,7.5c4.142,0,7.5-3.358,7.5-7.5v-73.436
+			c0-13.218-4.661-26.09-13.123-36.245L30.066,337.64c1.779-1.226,3.67-2.312,5.691-3.194l31.916-13.932l22.554,36.609
+			c2.227,3.615,5.909,6.066,10.103,6.726c0.754,0.119,1.51,0.177,2.263,0.177c3.429,0,6.769-1.215,9.417-3.475l14.292-12.195
+			v124.077c0,4.142,3.358,7.5,7.5,7.5s7.5-3.358,7.5-7.5V348.358l14.291,12.195c2.648,2.26,5.988,3.475,9.417,3.475
+			c0.752,0,1.509-0.059,2.263-0.177c4.194-0.66,7.876-3.111,10.103-6.726l22.554-36.61l31.916,13.932
+			c2.02,0.882,3.912,1.968,5.691,3.194l-20.927,25.113c-8.462,10.154-13.123,23.027-13.123,36.245v73.436c0,4.142,3.358,7.5,7.5,7.5
+			c4.142,0,7.5-3.358,7.5-7.5v-73.436c0-9.716,3.426-19.178,9.646-26.643l19.685-23.622c3.29,5.623,5.04,12.156,4.755,18.889
+			l-4.429,104.494c-0.175,4.138,3.037,7.635,7.176,7.811c0.108,0.005,0.215,0.007,0.323,0.007c3.996,0,7.317-3.152,7.488-7.183
+			l4.429-104.493C268.42,347.946,256.479,328.833,237.845,320.699z M133.801,47.063c15.956,0,29.418,10.179,33.399,23.971
+			c-10.354-3.908-21.62-6.057-33.399-6.057c-11.779,0-23.045,2.149-33.399,6.057C104.383,57.242,117.844,47.063,133.801,47.063z
+			 M72.246,217.2c-1.322-7.203-8.001-12.435-15.187-11.903c-0.637,0.045-1.295-0.009-1.959-0.167
+			c-2.86-0.677-5.017-3.803-5.017-7.271v-5.386c0-3.479,2.325-6.613,5.292-7.134c2.504-0.44,4.901,0.48,6.417,2.457
+			c1.377,1.796,3.214,3.08,5.313,3.714c3.071,0.928,6.46,0.383,9.062-1.456c4.619-3.26,8.703-7.234,12.139-11.81
+			c2.487-3.312,1.818-8.014-1.494-10.5c-3.313-2.487-8.014-1.818-10.501,1.494c-1.701,2.265-3.616,4.324-5.722,6.153
+			c-3.209-2.744-7.144-4.462-11.318-4.983c-1.437-5.649-2.172-11.426-2.172-17.237c0-40.358,34.408-73.193,76.702-73.193
+			c42.293,0,76.701,32.834,76.701,73.193c0,5.8-0.731,11.565-2.163,17.204c-1.974,0.157-3.98,0.48-5.837,0.962l-5.638-4.636
+			c-2.833-2.33-6.399-3.496-10.008-3.281c-11.024,0.651-67.482,2.142-96.448-32.524c-2.656-3.178-7.385-3.602-10.564-0.946
+			c-3.179,2.656-3.602,7.386-0.946,10.564c14.286,17.097,35.239,28.658,62.276,34.362c20.701,4.367,39.103,3.943,46.313,3.532
+			l8.796,7.233c2.421,1.991,5.816,2.272,8.527,0.694c1.272-0.693,5.532-1.355,7.391-0.984c3.033,0.603,5.319,3.629,5.319,7.04v5.468
+			c0,3.469-2.157,6.595-5.017,7.271c-0.663,0.157-1.322,0.214-1.959,0.166c-7.182-0.522-13.865,4.701-15.188,11.903
+			c-5.456,29.705-31.343,51.265-61.554,51.265C103.59,268.464,77.702,246.904,72.246,217.2z M102.702,348.776L80.144,312.16
+			L91.7,300.604l31.058,31.058L102.702,348.776z M133.801,321.491l-27.584-27.584v-15.516c8.611,3.278,17.916,5.073,27.584,5.073
+			c9.668,0,18.973-1.795,27.584-5.072v15.515L133.801,321.491z M164.9,348.776l-20.056-17.114l31.058-31.058l11.556,11.556
+			L164.9,348.776z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M105.734,394.766h-21.05c-4.142,0-7.5,3.358-7.5,7.5c0,4.142,3.358,7.5,7.5,7.5h21.05c4.142,0,7.5-3.358,7.5-7.5
+			C113.234,398.124,109.876,394.766,105.734,394.766z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+	<div id="text-3645846466" class="text">
+		
+<div class="gt3_icon_box-content-wrapper">
+<div class="gt3_icon_box__title">
+<h4 class="custom-11">Đội ngũ nhân viên kinh nghiệm</h4>
+</div>
+</div>
+<p>Chúng tôi là đội ngũ chuyên viên năng động, nhiệt huyết và nhiều năm kinh nghiệm<br />
+		
+
+	</div>
+	
+		</div>
+	</div>
+	
+	
+
+		<div class="icon-box featured-box icon-box-left text-left"  style="margin:0px 0px 30px 0px;">
+					<div class="icon-box-img" style="width: 40px">
+				<div class="icon">
+					<div class="icon-inner" style="color:rgb(0, 145, 69);">
+						<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 511.992 511.992" style="enable-background:new 0 0 511.992 511.992;" xml:space="preserve" width="512" height="512">
+<g id="XMLID_806_">
+	<g id="XMLID_386_">
+		<path id="XMLID_389_" d="M511.005,279.646c-4.597-46.238-25.254-89.829-58.168-122.744    c-28.128-28.127-62.556-46.202-98.782-54.239V77.255c14.796-3.681,25.794-17.074,25.794-32.993c0-18.748-15.252-34-34-34h-72    c-18.748,0-34,15.252-34,34c0,15.918,10.998,29.311,25.793,32.993v25.479c-36.115,8.071-70.429,26.121-98.477,54.169    c-6.138,6.138-11.798,12.577-16.979,19.269c-0.251-0.019-0.502-0.038-0.758-0.038H78.167c-5.522,0-10,4.477-10,10s4.478,10,10,10    h58.412c-7.332,12.275-13.244,25.166-17.744,38.436H10c-5.522,0-10,4.477-10,10s4.478,10,10,10h103.184    c-2.882,12.651-4.536,25.526-4.963,38.437H64c-5.522,0-10,4.477-10,10s4.478,10,10,10h44.54    c0.844,12.944,2.925,25.82,6.244,38.437H50c-5.522,0-10,4.477-10,10s4.478,10,10,10h71.166    c9.81,25.951,25.141,50.274,45.999,71.132c32.946,32.946,76.582,53.608,122.868,58.181c6.606,0.652,13.217,0.975,19.819,0.975    c39.022,0,77.548-11.293,110.238-32.581c4.628-3.014,5.937-9.209,2.923-13.837s-9.209-5.937-13.837-2.923    c-71.557,46.597-167.39,36.522-227.869-23.957c-70.962-70.962-70.962-186.425,0-257.388c70.961-70.961,186.424-70.961,257.387,0    c60.399,60.4,70.529,156.151,24.086,227.673c-3.008,4.632-1.691,10.826,2.94,13.833c4.634,3.008,10.826,1.691,13.833-2.941    C504.367,371.396,515.537,325.241,511.005,279.646z M259.849,44.263c0-7.72,6.28-14,14-14h72c7.72,0,14,6.28,14,14s-6.28,14-14,14    h-1.794h-68.413h-1.793C266.129,58.263,259.849,51.982,259.849,44.263z M285.642,99.296V78.263h48.413v20.997    C317.979,97.348,301.715,97.36,285.642,99.296z"/>
+		<path id="XMLID_391_" d="M445.77,425.5c-2.64,0-5.21,1.07-7.069,2.93c-1.87,1.86-2.931,4.44-2.931,7.07    c0,2.63,1.061,5.21,2.931,7.07c1.859,1.87,4.43,2.93,7.069,2.93c2.63,0,5.2-1.06,7.07-2.93c1.86-1.86,2.93-4.44,2.93-7.07    c0-2.63-1.069-5.21-2.93-7.07C450.97,426.57,448.399,425.5,445.77,425.5z"/>
+		<path id="XMLID_394_" d="M310.001,144.609c-85.538,0-155.129,69.59-155.129,155.129s69.591,155.129,155.129,155.129    s155.129-69.59,155.129-155.129S395.539,144.609,310.001,144.609z M310.001,434.867c-74.511,0-135.129-60.619-135.129-135.129    s60.618-135.129,135.129-135.129S445.13,225.228,445.13,299.738S384.512,434.867,310.001,434.867z"/>
+		<path id="XMLID_397_" d="M373.257,222.34l-49.53,49.529c-4.142-2.048-8.801-3.205-13.726-3.205c-4.926,0-9.584,1.157-13.726,3.205    l-22.167-22.167c-3.906-3.905-10.236-3.905-14.143,0c-3.905,3.905-3.905,10.237,0,14.142l22.167,22.167    c-2.049,4.142-3.205,8.801-3.205,13.726c0,17.134,13.939,31.074,31.074,31.074s31.074-13.94,31.074-31.074    c0-4.925-1.157-9.584-3.205-13.726l48.076-48.076v0l1.453-1.453c3.905-3.905,3.905-10.237,0-14.142    S377.164,218.435,373.257,222.34z M310.001,310.812c-6.106,0-11.074-4.968-11.074-11.074s4.968-11.074,11.074-11.074    s11.074,4.968,11.074,11.074S316.107,310.812,310.001,310.812z"/>
+		<path id="XMLID_398_" d="M416.92,289.86h-9.265c-5.522,0-10,4.477-10,10s4.478,10,10,10h9.265c5.522,0,10-4.477,10-10    S422.442,289.86,416.92,289.86z"/>
+		<path id="XMLID_399_" d="M212.346,289.616h-9.264c-5.522,0-10,4.477-10,10s4.478,10,10,10h9.264c5.522,0,10-4.477,10-10    S217.868,289.616,212.346,289.616z"/>
+		<path id="XMLID_400_" d="M310.123,212.083c5.522,0,10-4.477,10-10v-9.264c0-5.523-4.478-10-10-10s-10,4.477-10,10v9.264    C300.123,207.606,304.601,212.083,310.123,212.083z"/>
+		<path id="XMLID_424_" d="M309.879,387.393c-5.522,0-10,4.477-10,10v9.264c0,5.523,4.478,10,10,10s10-4.477,10-10v-9.264    C319.879,391.87,315.401,387.393,309.879,387.393z"/>
+		<path id="XMLID_425_" d="M10,351.44c-2.63,0-5.21,1.07-7.07,2.93c-1.86,1.86-2.93,4.44-2.93,7.07c0,2.64,1.069,5.21,2.93,7.07    s4.44,2.93,7.07,2.93s5.21-1.07,7.069-2.93c1.86-1.86,2.931-4.44,2.931-7.07s-1.07-5.21-2.931-7.07    C15.21,352.51,12.63,351.44,10,351.44z"/>
+	</g>
+</g>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</svg>
+					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+	<div id="text-2079759057" class="text">
+		
+<div class="gt3_icon_box-content-wrapper">
+<div class="gt3_icon_box__title">
+<h4 class="custom-11">Đáp ứng nhanh yêu cầu của bạn</h4>
+</div>
+</div>
+<p>Chúng tôi cung cấp dịch vụ yêu cầu trình diện đặc biệt 24 giờ nhanh chóng, dễ dàng và thuận tiện thông qua hệ thống trực tuyến hiện đại của chúng tôi<br />
+		
+
+	</div>
+	
+		</div>
+	</div>
+	
+	
+
+		<div class="icon-box featured-box icon-box-left text-left"  style="margin:0px 0px 30px 0px;">
+					<div class="icon-box-img" style="width: 40px">
+				<div class="icon">
+					<div class="icon-inner" style="color:rgb(0, 145, 69);">
+						<svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><g><path d="m452.42 210.226c10.146-15.543 8.272-35.766-4.557-49.18-5.654-5.912-8.017-14.218-6.323-22.22 3.847-18.159-5.206-36.34-22.015-44.213-7.408-3.47-12.612-10.362-13.923-18.436-2.973-18.322-17.983-32.005-36.5-33.275-8.161-.56-15.504-5.106-19.643-12.162-9.392-16.009-28.326-23.346-46.056-17.842-7.812 2.426-16.3.838-22.709-4.245-14.541-11.536-34.85-11.536-49.39 0-6.408 5.085-14.898 6.671-22.709 4.245-17.726-5.505-36.665 1.832-46.056 17.842-4.139 7.056-11.481 11.602-19.642 12.162-18.518 1.27-33.527 14.954-36.501 33.275-1.31 8.074-6.515 14.966-13.922 18.436-16.808 7.874-25.861 26.055-22.016 44.213 1.695 8.002-.669 16.309-6.322 22.221-12.828 13.414-14.703 33.638-4.557 49.181 4.471 6.849 5.268 15.449 2.131 23.004-7.117 17.142-1.558 36.677 13.516 47.505 6.644 4.773 10.493 12.504 10.297 20.681-.443 18.555 11.797 34.763 29.765 39.415 5.304 1.373 9.912 4.442 13.214 8.628l-41.324 99.763c-5.791 13.981 7.316 28.378 21.769 23.941l45.242-13.884c1.322-.403 2.748.188 3.395 1.407l22.173 41.808c7.093 13.374 26.538 12.43 32.322-1.535l43.071-103.981c.565-.019 1.13-.019 1.695 0l43.071 103.981c5.795 13.987 25.239 14.89 32.323 1.536l22.173-41.809c.646-1.22 2.073-1.811 3.395-1.406l45.241 13.884c14.461 4.439 27.558-9.968 21.77-23.941l-41.325-99.763c3.302-4.186 7.91-7.255 13.214-8.628 17.968-4.651 30.207-20.859 29.765-39.415-.196-8.177 3.654-15.908 10.298-20.68 15.075-10.829 20.632-30.364 13.515-47.506-3.132-7.558-2.335-16.158 2.135-23.007zm-254.196 284.993c-.941 2.272-4.067 2.411-5.214.248l-22.173-41.808c-4.011-7.563-12.862-11.227-21.045-8.717l-45.242 13.884c-2.347.718-4.452-1.594-3.512-3.863l36.662-88.513c8.272 11.331 22.1 17.646 36.657 15.946 8.124-.947 16.177 2.171 21.542 8.345 7.783 8.96 18.75 13.716 29.939 13.715 3.539 0 7.099-.495 10.589-1.464zm209.227-36.394-45.241-13.884c-8.183-2.51-17.036 1.155-21.046 8.717l-22.173 41.808c-1.145 2.161-4.275 2.021-5.215-.248l-38.195-92.209c14.519 4.03 30.278-.48 40.521-12.27 5.364-6.175 13.414-9.295 21.542-8.345 14.571 1.703 28.39-4.614 36.657-15.945l36.664 88.51c.942 2.278-1.175 4.581-3.514 3.866zm32.41-256.797c-7.182 11.003-8.462 24.817-3.424 36.953 4.43 10.671.971 22.831-8.414 29.573-10.672 7.666-16.856 20.085-16.542 33.22.276 11.552-7.344 21.642-18.53 24.537-10.463 2.709-19.249 9.519-24.518 18.728-.014.027-.029.053-.043.079-1.117 1.963-2.085 4.029-2.864 6.194-3.915 10.871-14.658 17.533-26.141 16.187-13.049-1.526-25.988 3.487-34.605 13.406-7.577 8.722-20.006 11.045-30.224 5.65-3.475-1.836-7.155-3.11-10.913-3.847-.031-.007-.062-.014-.093-.02-4.992-.967-10.122-.966-15.114.004-.018.004-.035.008-.053.011-3.767.737-7.454 2.013-10.937 3.852-10.218 5.396-22.646 3.072-30.223-5.65-7.598-8.745-18.551-13.675-29.982-13.675-1.534 0-3.079.089-4.624.27-11.472 1.343-22.227-5.315-26.142-16.187-.779-2.163-1.745-4.226-2.861-6.188-.017-.032-.034-.062-.051-.094-5.27-9.205-14.053-16.012-24.513-18.72-11.186-2.896-18.805-12.985-18.529-24.536.314-13.136-5.87-25.554-16.542-33.221-9.384-6.741-12.845-18.902-8.414-29.574 5.038-12.136 3.758-25.95-3.424-36.953-6.315-9.675-5.149-22.265 2.838-30.615 9.081-9.496 12.878-22.84 10.156-35.694-2.394-11.304 3.242-22.622 13.705-27.524 11.899-5.574 20.259-16.645 22.365-29.615 1.851-11.406 11.195-19.924 22.722-20.714 13.109-.899 24.905-8.202 31.553-19.537 5.847-9.966 17.639-14.532 28.67-11.106 12.549 3.897 26.186 1.348 36.48-6.819 9.05-7.182 21.694-7.182 30.747 0 10.293 8.166 23.928 10.717 36.479 6.819 11.035-3.427 22.825 1.141 28.67 11.106 6.648 11.334 18.444 18.637 31.553 19.537 11.527.791 20.871 9.309 22.722 20.714 2.106 12.97 10.467 24.041 22.365 29.616 10.464 4.901 16.099 16.219 13.705 27.523-2.722 12.854 1.074 26.198 10.156 35.694 7.983 8.35 9.149 20.94 2.834 30.616z"/><path d="m113.951 192.129c4.107.505 7.854-2.417 8.359-6.527 8.282-67.315 65.757-118.076 133.69-118.076 67.966 0 125.443 50.788 133.698 118.139.466 3.801 3.7 6.588 7.434 6.588.305 0 .612-.019.922-.057 4.111-.504 7.035-4.245 6.532-8.356-9.176-74.861-73.054-131.313-148.586-131.313-75.497 0-139.371 56.422-148.577 131.243-.505 4.111 2.417 7.853 6.528 8.359z"/><path d="m398.055 212.26c-4.099-.5-7.852 2.421-8.356 6.532-8.252 67.354-65.73 118.145-133.699 118.145-67.938 0-125.413-50.766-133.692-118.086-.505-4.11-4.245-7.031-8.359-6.528-4.11.505-7.034 4.248-6.528 8.359 9.202 74.827 73.076 131.253 148.578 131.253 75.536 0 139.414-56.455 148.586-131.32.505-4.11-2.419-7.851-6.53-8.355z"/><path d="m361.899 171.281c-1.906-5.866-7.12-9.8-13.285-10.021l-58.801-2.109-20.177-55.272c-2.115-5.794-7.467-9.538-13.635-9.538s-11.52 3.744-13.635 9.538l-20.177 55.272-58.801 2.109c-6.164.221-11.379 4.155-13.285 10.021s0 12.114 4.857 15.916l46.331 36.269-16.164 56.576c-1.695 5.931.435 12.106 5.426 15.732 4.985 3.622 11.516 3.746 16.637.298l48.81-32.857 48.811 32.855c5.115 3.444 11.646 3.328 16.637-.298 4.991-3.625 7.12-9.8 5.425-15.732l-16.164-56.575 46.331-36.269c4.858-3.802 6.765-10.049 4.859-15.915zm-60.69 40.574c-4.675 3.66-6.642 9.713-5.01 15.419l15.89 55.615-47.982-32.297c-2.463-1.658-5.285-2.487-8.107-2.487s-5.644.829-8.106 2.486l-47.983 32.297 15.89-55.614c1.631-5.708-.335-11.759-5.009-15.419l-45.546-35.654 57.805-2.074c5.932-.213 11.08-3.954 13.115-9.529l19.835-54.334 19.835 54.334c2.036 5.575 7.183 9.316 13.115 9.528l57.803 2.074z"/></g></g></svg>					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+	<div id="text-1843407278" class="text">
+		
+<div class="gt3_icon_box-content-wrapper">
+<div class="gt3_icon_box__title">
+<h4 class="custom-11">Cam kết chất lượng dịch vụ</h4>
+</div>
+</div>
+<p>Với đội ngũ chuyên viên giàu kinh nghiệm, Chúng tôi đảm bảo làm thủ tục hành chính nhanh chóng, chính xác. Tiết kiệm thời gian và mang lại lợi ích cho khách hàng<br />
+		
+
+	</div>
+	
+		</div>
+	</div>
+	
+	
+		</div>
+		
+
+	</div>
+
+	
+</div>
+		</div>
+
+		
+
+	</section>
+	
+	<section class="section" id="section_1267118683">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="container section-title-container" style="margin-top:30px;max-width:600px;"><h2 class="section-title section-title-center"><b></b><span class="section-title-main" style="color:rgb(0, 145, 69);">ý kiến khách hàng</span><b></b></h2></div>
+<div class="slider-wrapper relative" id="slider-1646894480" >
+    <div class="slider slider-nav-circle slider-nav-large slider-nav-light slider-style-normal"
+        data-flickity-options='{
+            "cellAlign": "center",
+            "imagesLoaded": true,
+            "lazyLoad": 1,
+            "freeScroll": false,
+            "wrapAround": true,
+            "autoPlay": 6000,
+            "pauseAutoPlayOnHover" : true,
+            "prevNextButtons": true,
+            "contain" : true,
+            "adaptiveHeight" : true,
+            "dragThreshold" : 10,
+            "percentPosition": true,
+            "pageDots": true,
+            "rightToLeft": false,
+            "draggable": true,
+            "selectedAttraction": 0.1,
+            "parallax" : 0,
+            "friction": 0.6        }'
+        >
+        
+
+  <div class="banner has-hover" id="banner-928075664">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill bg-loaded"></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-197484151" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text-box-content text dark">
+              
+              <div class="text-inner text-center">
+                  
+  <div class="icon-box testimonial-box icon-box-center text-center">
+                <div class="icon-box-img testimonial-image circle" style="width: 70px">
+              <img width="280" height="280" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20280%20280%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2020/12/screenshot-280x280.png" class="lazy-load attachment-thumbnail size-thumbnail" alt="" loading="lazy" />        </div>
+                <div class="icon-box-text p-last-0">
+          <div class="star-rating"><span style="width:100%"><strong class="rating"></strong></span></div>  				<div class="testimonial-text line-height-small italic test_text first-reset last-reset is-italic">
+            
+	<div id="text-4066603901" class="text">
+		
+<p class="lead"> “C.A.O Media là công ty xin giấy phép tốt nhất mà tôi đã tìm kiếm bấy lâu. Bất cứ khi nào cần dịch vụ giấy phép nào, tôi sẽ gọi cho C.A.O ngay lập tức bởi vì từ cách quản lý cho đến nhân viên, kỹ thuật và cả chất lượng dịch vụ đều làm tôi thật sự hài lòng”</p>
+		
+
+	</div>
+	
+          </div>
+          <div class="testimonial-meta pt-half">
+             <strong class="testimonial-name test_name">Mạnh Hùng</strong>
+                          <span class="testimonial-company test_company"></span>
+          </div>
+        </div>
+  </div>
+
+  
+              </div>
+           </div>
+                            
+
+    </div>
+ 
+        </div>
+      </div>
+
+            
+
+  </div>
+
+
+
+  <div class="banner has-hover" id="banner-1623971354">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill bg-loaded"></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-709456319" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text-box-content text dark">
+              
+              <div class="text-inner text-center">
+                  
+  <div class="icon-box testimonial-box icon-box-center text-center">
+                <div class="icon-box-img testimonial-image circle" style="width: 70px">
+              <img width="280" height="280" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20280%20280%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2020/12/hot-girl-nhat-ban-thuong-xuyen-gap-rac-roi-vi-ly-do-nay-hinh-5-280x280.jpg" class="lazy-load attachment-thumbnail size-thumbnail" alt="" loading="lazy" />        </div>
+                <div class="icon-box-text p-last-0">
+          <div class="star-rating"><span style="width:100%"><strong class="rating"></strong></span></div>  				<div class="testimonial-text line-height-small italic test_text first-reset last-reset is-italic">
+            
+<p class="lead"> “Chúng tôi đã sử dụng dịch vụ của C.A.O Media được 4 năm. Và điều duy nhất mà tôi có thể nói đó thực sự là công ty dịch vụ làm giấy phép tốt nhất mà chúng tôi đã từng sử dụng”</p>
+          </div>
+          <div class="testimonial-meta pt-half">
+             <strong class="testimonial-name test_name">Khánh Vy</strong>
+                          <span class="testimonial-company test_company"></span>
+          </div>
+        </div>
+  </div>
+
+  
+              </div>
+           </div>
+                            
+
+    </div>
+ 
+        </div>
+      </div>
+
+            
+
+  </div>
+
+
+
+  <div class="banner has-hover" id="banner-1079670676">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill bg-loaded"></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-770916288" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text-box-content text dark">
+              
+              <div class="text-inner text-center">
+                  
+  <div class="icon-box testimonial-box icon-box-center text-center">
+                <div class="icon-box-img testimonial-image circle" style="width: 70px">
+              <img width="280" height="280" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20280%20280%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2020/12/20191230161634-7423-280x280.jpg" class="lazy-load attachment-thumbnail size-thumbnail" alt="" loading="lazy" />        </div>
+                <div class="icon-box-text p-last-0">
+          <div class="star-rating"><span style="width:100%"><strong class="rating"></strong></span></div>  				<div class="testimonial-text line-height-small italic test_text first-reset last-reset is-italic">
+            
+<p class="lead"> Tôi rất tin tưởng ở C.A.O Media với dịch vụ rất chuyên nghiệp, đảm bảo thời gian nhanh chóng và đảm bảo quyền lợi cho khách hàng, chúng tôi sẽ tiếp tục đồng hành cùng với C.A.O.</p>
+          </div>
+          <div class="testimonial-meta pt-half">
+             <strong class="testimonial-name test_name">Lê Hiếu</strong>
+                          <span class="testimonial-company test_company"></span>
+          </div>
+        </div>
+  </div>
+
+  
+              </div>
+           </div>
+                            
+
+    </div>
+ 
+        </div>
+      </div>
+
+            
+
+  </div>
+
+
+     </div>
+
+     <div class="loading-spin dark large centered"></div>
+
+     	</div>
+
+
+		</div>
+
+		
+
+	</section>
+	
+	<section class="section" id="section_1661100614">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-631009430">
+
+	<div id="col-1530405130" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" ><h3 class="section-title section-title-normal"><b></b><span class="section-title-main" >Quy định mới</span><b></b></h3></div>
+
+  
+    <div class="row large-columns-1 medium-columns-1 small-columns-1">
+  		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/mau-ho-so-tu-cong-bo-theo-nghi-dinh-15-2018-nd-cp/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:20%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="280" height="280" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20280%20280%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/07/mau-ho-so-tu-cong-bo-theo-nghi-dinh-15-2018-nd-cp-280x280.png" class="lazy-load attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Mẫu hồ sơ tự công bố theo Nghị định 15/2018/NĐ-CP</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Trong bài viết này. C.A.O Media sẽ cung cấp cho doanh nghiệp xem qua mẫu hồ sơ					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/tu-cong-bo-san-pham-3/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:20%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="280" height="280" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20280%20280%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/07/tu-cong-bo-san-pham-3-280x280.png" class="lazy-load attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Những sản phẩm nào không thuộc tự công bố sản phẩm?</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Tự công bố sản phẩm căn cứ Nghị định số 15/2018/NĐ-CP của chính phủ; quy					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/ket-qua-tu-cong-bo-san-pham/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:20%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="280" height="280" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20280%20280%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/06/ket-qua-tu-cong-bo-san-pham-280x280.png" class="lazy-load attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Hướng dẫn kiểm tra kết quả tự công bố sản phẩm trên cổng thông tin điện tử</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Làm thế nào để kiểm tra kết quả tự công bố sản phẩm trên cổng thông tin					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/tu-cong-bo-chat-luong-duong-phen/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:20%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="280" height="280" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20280%20280%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/05/tu-cong-bo-chat-luong-duong-phen-280x280.png" class="lazy-load attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Tự công bố chất lượng đường phèn tại cơ quan nào?</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Để sản phẩm đường phèn được lưu hành ra thị trường đầy đủ về mặt pháp lý;					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+</div>
+		</div>
+			</div>
+
+	
+
+	<div id="col-192799779" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner"  >
+			
+			
+<div class="container section-title-container" ><h3 class="section-title section-title-normal"><b></b><span class="section-title-main" >Tin tức mới</span><b></b></h3></div>
+
+  
+    <div class="row large-columns-1 medium-columns-1 small-columns-1">
+  		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/lam-lai-tu-cong-bo-san-pham/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:20%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="280" height="280" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20280%20280%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/07/lam-lai-tu-cong-bo-san-pham-280x280.png" class="lazy-load attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Những trường hợp nào phải làm lại tự công bố sản phẩm?</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Những trường hợp nào phải làm lại tự công bố sản phẩm? Hiện nay, vấn					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/ket-qua-tu-cong-bo-san-pham/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:20%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="280" height="280" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20280%20280%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/06/ket-qua-tu-cong-bo-san-pham-280x280.png" class="lazy-load attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Hướng dẫn kiểm tra kết quả tự công bố sản phẩm trên cổng thông tin điện tử</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Làm thế nào để kiểm tra kết quả tự công bố sản phẩm trên cổng thông tin					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/doanh-nghiep-tu-cong-bo-san-pham/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:20%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="280" height="280" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20280%20280%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/04/doanh-nghiep-tu-cong-bo-san-pham-280x280.png" class="lazy-load attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">6 lợi ích khi doanh nghiệp tự công bố sản phẩm</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Doanh nghệp tự công bố sản phẩm căn cứ vào nghị định 15/2018/NĐ-CP đối với					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://tucongbosanpham.net/kie%cc%89m-tra-do%cc%a3t-xuat-co-so-kinh-doanh-thuc-pham-khong-phep/" class="plain">
+				<div class="box box-vertical box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" style="width:20%;">
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="280" height="280" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20280%20280%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2021/01/an-toan-thuc-pham-280x280.png" class="lazy-load attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" />  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-left" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">Kiểm tra đột xuất cơ sở kinh doanh thực phẩm không phép</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt ">Thực hiện chỉ đạo của Lãnh đạo Ban tại Tờ trình số 09/TTr-Đ6 ngày 07/01/2021					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+</div>
+		</div>
+			</div>
+
+	
+</div>
+		</div>
+
+		
+
+	</section>
+	
+	<section class="section" id="section_423782302">
+		<div class="bg section-bg fill bg-fill bg-loaded bg-loaded" >
+
+			
+			<div class="section-bg-overlay absolute fill"></div>
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row row-collapse row-full-width align-middle col-bg"  id="row-1262022257">
+
+	<div id="col-524067116" class="col medium-12 small-12 large-6"  >
+		<div class="col-inner dark" style="background-color:#009145;" >
+			
+			
+	<div id="text-1826910286" class="text">
+		
+<h2><span class="custom-color-02">Đăng ký tư vấn miễn phí</span></h2>
+<p>Liên hệ với công ty là miễn phí. Chúng tôi hiểu rằng các khó khăn mà doanh nghiệp của bạn có thể đang gặp phải. Mục tiêu của chúng tôi là tháo gỡ và đưa ra phương án giải quyết triệt để cho bạn.<br />
+		
+
+	</div>
+	
+<div role="form" class="wpcf7" id="wpcf7-f15-p27-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/#wpcf7-f15-p27-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="15" />
+<input type="hidden" name="_wpcf7_version" value="5.4.1" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f15-p27-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="27" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</div>
+<p><label>Họ Tên*</label><br />
+<span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></p>
+<p><label>Email*</label><br />
+<span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span> </p>
+<p><label>Email*</label><br />
+<span class="wpcf7-form-control-wrap tel-905"><input type="tel" name="tel-905" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" /></span> </p>
+<p><label>Yêu cầu</label><br />
+<span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
+<p><input type="submit" value="Gửi Liên Hệ" class="wpcf7-form-control wpcf7-submit button" /></p>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div>
+		</div>
+		
+
+	</div>
+
+	
+
+	<div id="col-79592470" class="col medium-12 small-12 large-6"  >
+		<div class="col-inner text-center"  >
+			
+			
+	<div id="text-3383387279" class="text">
+		
+<h1 style="color: #000;">Liên Hệ Tư Vấn Dịch Vụ</h1>
+		
+
+	</div>
+	
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_834131686">
+								<div class="img-inner dark" >
+			<img width="220" height="86" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20220%2086%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://tucongbosanpham.net/wp-content/uploads/2020/12/logo-dark.png" class="lazy-load attachment-original size-original" alt="" loading="lazy" />						
+					</div>
+								
+
+	</div>
+	
+	<div id="text-2793213059" class="text">
+		
+<h1><span style="color: #000000;"><a style="color: #000000;" href="tel:02862750707">(028) 6275 0707</a> &#8211; <a style="color: #000000;" href="tel:0903145175">0903 145 175</a></span></h1>
+		
+
+	</div>
+	
+		</div>
+		
+
+	</div>
+
+	
+
+
+</div>
+		</div>
+
+		
+
+	</section>
+	
+
+			</div>
+
+
+
+</main>
+
+<footer id="footer" class="footer-wrapper">
+
+	<div class="row row-large align-equal"  id="row-1742650903">
+
+
+	<div id="col-660987785" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner"  >
+			
+			
+
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1683675452">
+								<div class="img-inner dark" >
+			<img width="220" height="86" src="https://tucongbosanpham.net/wp-content/uploads/2020/12/logo-dark.png" class="attachment-large size-large" alt="" loading="lazy" />						
+					</div>
+								
+
+	</div>
+	
+
+	<div id="text-1920839049" class="text">
+		
+
+<h4 class="widget-title"><span style="color: #000000;">Công ty TNHH Dịch Vụ Tư Vấn Truyền Thông C.A.O</span></h4>
+<div class="textwidget">
+<p><span style="color: #000000;"><strong>Địa chỉ   </strong>: 44 Nguyễn Văn Dung, Phường 6, Quận Gò Vấp, TP. HCM</span><br /><span style="color: #000000;"><strong>Email     </strong>: <a style="color: #000000;" href="http://hotro@tuvangiayphepcao.com/">hotro@tuvangiayphepcao.com</a></span><br /><span style="color: #000000;"><strong>Phone    </strong>: <a style="color: #000000;" href="http://%28028%29%206275%200707/">(028) 6275 0707</a></span><br /><span style="color: #000000;"><strong>Hotline  </strong>: <a style="color: #000000;" href="tel:0903145175">0903 145 175</a> - <a style="color: #000000;" href="http://0936%20207%20619/">0936 207 619</a></span><br /><span style="color: #000000;"><strong>Website  </strong>: <a style="color: #000000;" href="http://tuvangiayphepcao.com/">www.tuvangiayphepcao.com</a>    </span><br /><span style="color: #000000;"><a style="color: #000000;" href="http://giayphepantoanthucpham.com/">www.giayphepantoanthucpham.com</a></span><br /><span style="color: #000000;"><a style="color: #000000;" href="http://giayphepkinhdoanhruou.com/">www.giayphepkinhdoanhruou.com</a> </span><br /><span style="color: #000000;"><strong>Skype</strong>    : caomedia</span><br /><span style="color: #000000;"><a style="color: #000000;" href="https://www.google.com/maps/place/C.A.O+Media/@10.8169871,106.6800616,17z/data=!4m13!1m7!3m6!1s0x317528e6acbb371d:0x56438d3796cf5b63!2zMzAgTmd1eeG7hW4gVHXDom4sIFBoxrDhu51uZyAzLCBHw7IgVuG6pXAsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!3b1!8m2!3d10.8169871!4d106.6822503!3m4!1s0x317528e6ad7d158b:0x976f3ccd901df310!8m2!3d10.816693!4d106.682332" target="_blank" rel="noopener">Bản đồ đường đi</a></span></p>
+</div>
+		
+
+	</div>
+	
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-2090349343" class="col medium-3 small-12 large-3"  >
+		<div class="col-inner"  >
+			
+			
+
+<div class="container section-title-container" ><h4 class="section-title section-title-normal"><b></b><span class="section-title-main" style="font-size:90%;">Liên Kết Nhanh</span><b></b></h4></div>
+
+	<div class="ux-menu stack stack-col justify-start ux-menu--divider-solid">
+		
+
+	<div class="ux-menu-link flex menu-item ux-menu-link--active">
+		<a class="ux-menu-link__link flex" href="https://tucongbosanpham.net/"  >
+						<span class="ux-menu-link__text">
+				Trang chủ			</span>
+		</a>
+	</div>
+	
+
+	<div class="ux-menu-link flex menu-item">
+		<a class="ux-menu-link__link flex" href="https://tucongbosanpham.net/gioi-thieu/"  >
+						<span class="ux-menu-link__text">
+				Giới thiệu			</span>
+		</a>
+	</div>
+	
+
+	<div class="ux-menu-link flex menu-item">
+		<a class="ux-menu-link__link flex" href="https://tucongbosanpham.net/dich-vu"  >
+						<span class="ux-menu-link__text">
+				Dịch vụ			</span>
+		</a>
+	</div>
+	
+
+	<div class="ux-menu-link flex menu-item">
+		<a class="ux-menu-link__link flex" href="https://tucongbosanpham.net/blog"  >
+						<span class="ux-menu-link__text">
+				Tin tức			</span>
+		</a>
+	</div>
+	
+
+
+	</div>
+	
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-720305013" class="col medium-3 small-12 large-3"  >
+		<div class="col-inner"  >
+			
+			
+
+<div class="container section-title-container" ><h4 class="section-title section-title-normal"><b></b><span class="section-title-main" style="font-size:90%;">Dịch vụ nổi bật</span><b></b></h4></div>
+
+	<div class="ux-menu stack stack-col justify-start ux-menu--divider-solid">
+		
+
+	<div class="ux-menu-link flex menu-item">
+		<a class="ux-menu-link__link flex" href="https://tucongbosanpham.net/chuyen-muc/dich-vu/cong-bo-chat-luong-san-pham/"  >
+						<span class="ux-menu-link__text">
+				Công Bố Chất Lượng Sản Phẩm			</span>
+		</a>
+	</div>
+	
+
+	<div class="ux-menu-link flex menu-item">
+		<a class="ux-menu-link__link flex" href="https://tucongbosanpham.net/chuyen-muc/dich-vu/gcn-an-toan-thuc-pham/"  >
+						<span class="ux-menu-link__text">
+				GCN An toàn thực phẩm			</span>
+		</a>
+	</div>
+	
+
+	<div class="ux-menu-link flex menu-item">
+		<a class="ux-menu-link__link flex" href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-chung-nhan-y-te/"  >
+						<span class="ux-menu-link__text">
+				GCN Y tế			</span>
+		</a>
+	</div>
+	
+
+	<div class="ux-menu-link flex menu-item">
+		<a class="ux-menu-link__link flex" href="https://tucongbosanpham.net/chuyen-muc/dich-vu/dang-ky-logo-nhan-hieu/"  >
+						<span class="ux-menu-link__text">
+				Đăng ký Logo - Thương hiệu			</span>
+		</a>
+	</div>
+	
+
+
+	</div>
+	
+
+		</div>
+			</div>
+
+	
+
+
+
+</div>
+<div class="absolute-footer dark medium-text-center text-center">
+  <div class="container clearfix">
+
+    
+    <div class="footer-primary pull-left">
+            <div class="copyright-footer">
+        <div class="absolute-footer-custom">Copyright 2021 © <strong>C.A.O MEDIA</strong></div>      </div>
+          </div>
+  </div>
+</div>
+<a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link"><i class="icon-angle-up" ></i></a>
+
+</footer>
+
+</div>
+
+<div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide mobile-sidebar-slide mobile-sidebar-levels-1" data-levels="1">
+	<div class="sidebar-menu no-scrollbar ">
+		<ul class="nav nav-sidebar nav-vertical nav-uppercase nav-slide">
+			<li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper">
+		<div class="searchform-wrapper ux-search-box relative is-normal"><form method="get" class="searchform" action="https://tucongbosanpham.net/" role="search">
+		<div class="flex-row relative">
+			<div class="flex-col flex-grow">
+	   	   <input type="search" class="search-field mb-0" name="s" value="" id="s" placeholder="Search&hellip;" />
+			</div>
+			<div class="flex-col">
+				<button type="submit" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+					<i class="icon-search" ></i>				</button>
+			</div>
+		</div>
+    <div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-27 current_page_item menu-item-144"><a href="https://tucongbosanpham.net/" aria-current="page">Trang chủ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a href="https://tucongbosanpham.net/gioi-thieu/">Giới thiệu</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-284"><a href="https://tucongbosanpham.net/tin-tuc/">Dịch vụ</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-149"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/tu-cong-bo-san-pham/">Tự công bố sản phẩm</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-153"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-an-toan-ve-sinh-thuc-pham/">Giấy phép an toàn vệ sinh thực phẩm</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-158"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-luu-hanh-tu-do-cfs/">Giấy phép lưu hành tự do (CFS)</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-154"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-chung-nhan-y-te-hc/">Giấy chứng nhận y tế (HC)</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-156"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-kinh-doanh-ruou/">Giấy phép kinh doanh rượu</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-157"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-kinh-doanh-thuoc-la/">Giấy phép kinh doanh thuốc lá</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-151"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/dang-ky-ma-so-ma-vach/">Đăng ký mã số &#8211; mã vạch</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-150"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/dang-ky-logo-nhan-hieu/">Đăng ký logo &#8211; nhãn hiệu</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-152"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-an-ninh-trat-tu/">Giấy phép an ninh trật tự</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-148"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/dang-ky-ban-quyen-tac-gia/">Đăng ký bản quyền tác giả</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-155"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-kinh-doanh-khach-san/">Giấy phép kinh doanh khách sạn</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-159"><a href="https://tucongbosanpham.net/chuyen-muc/dich-vu/giay-phep-quang-cao/">Giấy phép quảng cáo</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1887"><a href="https://tucongbosanpham.net/chuyen-muc/tin-tuc-moi/">Tin tức</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a href="https://tucongbosanpham.net/lien-he/">Liên hệ</a></li>
+		</ul>
+	</div>
+</div>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://tucongbosanpham.net/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="https://tucongbosanpham.net/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0" defer></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://tucongbosanpham.net/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0" defer></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://tucongbosanpham.net/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0" defer></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://tucongbosanpham.net/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4" defer></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://tucongbosanpham.net/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12" defer></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://tucongbosanpham.net/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2" defer></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="https://tucongbosanpham.net/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4" defer></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/tucongbosanpham.net\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://tucongbosanpham.net/wp-content/cache/min/1/wp-content/plugins/contact-form-7/includes/js/index.js?ver=1623309547' id='contact-form-7-js' defer></script>
+<script type='text/javascript' id='pt-cv-content-views-script-js-extra'>
+/* <![CDATA[ */
+var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"777c3652c6","is_admin":"","is_mobile":"","ajaxurl":"https:\/\/tucongbosanpham.net\/wp-admin\/admin-ajax.php","lang":"","loading_image_src":"data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw==","is_mobile_tablet":"","sf_no_post_found":"Kh\u00f4ng t\u00ecm th\u1ea5y b\u00e0i vi\u1ebft n\u00e0o.","lf__separator":","};
+var PT_CV_PAGINATION = {"first":"\u00ab","prev":"\u2039","next":"\u203a","last":"\u00bb","goto_first":"Go to first page","goto_prev":"Go to previous page","goto_next":"Go to next page","goto_last":"Go to last page","current_page":"Current page is","goto_page":"Go to page"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://tucongbosanpham.net/wp-content/cache/min/1/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js?ver=1623309547' id='pt-cv-content-views-script-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://tucongbosanpham.net/wp-content/plugins/pt-content-views-pro/public/assets/js/cvpro.min.js?ver=5.8.2' id='pt-cv-public-pro-script-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/tucongbosanpham.net","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://tucongbosanpham.net/wp-content/cache/min/1/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search.js?ver=1623309547' id='flatsome-live-search-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://tucongbosanpham.net/wp-includes/js/hoverIntent.min.js?ver=1.8.1' id='hoverIntent-js' defer></script>
+<script type='text/javascript' id='flatsome-js-js-extra'>
+/* <![CDATA[ */
+var flatsomeVars = {"ajaxurl":"https:\/\/tucongbosanpham.net\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"70","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Main Menu"},"options":{"cookie_notice_version":"1"}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://tucongbosanpham.net/wp-content/cache/min/1/wp-content/themes/flatsome/assets/js/flatsome.js?ver=1623309547' id='flatsome-js-js' defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://tucongbosanpham.net/wp-content/cache/min/1/wp-content/themes/flatsome/inc/extensions/flatsome-lazy-load/flatsome-lazy-load.js?ver=1623309547' id='flatsome-lazy-js' defer></script>
+<script type='text/javascript' src='https://tucongbosanpham.net/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js' defer></script>
+<!--[if IE]>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/nuxodin/ie11CustomProperties@4.0.1/ie11CustomProperties.min.js?ver=4.0.1' id='css-vars-polyfill-js'></script>
+<![endif]-->
+
+<script type="rocketlazyloadscript">"use strict";var wprRemoveCPCSS=function wprRemoveCPCSS(){var elem;document.querySelector('link[data-rocket-async="style"][rel="preload"]')?setTimeout(wprRemoveCPCSS,200):(elem=document.getElementById("rocket-critical-css"))&&"remove"in elem&&elem.remove()};window.addEventListener?window.addEventListener("load",wprRemoveCPCSS):window.attachEvent&&window.attachEvent("onload",wprRemoveCPCSS);</script><noscript><link rel="stylesheet" data-no-minify="" id="wpr-usedcss-css" href="https://tucongbosanpham.net/wp-content/cache/used-css/1/efda4a55eea5aadf4c68afee36115ece/used.min.css?ver=1624460684"><link rel='stylesheet' id='flatsome-googlefonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3Aregular%2C700%2Cregular%2C700%7CDancing+Script%3Aregular%2C400&#038;display=swap&#038;ver=3.9' type='text/css' media='all' /></noscript></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1626958672 -->

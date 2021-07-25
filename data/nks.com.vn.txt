@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="csrf-token" content="oIq3S9346WR0y4P1yF7hSFjWGSy3fnbCCSD3oKzn">
+	<title>Nâng tầm thương hiệu // NKS // Công ty TNHH GP CN Tri Thức Mới // nks.com.vn // nks.vn // timzita.com | Website App Development & Digital Agency at HCM, VN | NKS | nks.com.vn </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="NKS">
+  <meta name="keywords" content="thương hiệu, kết nối, giải pháp, công nghệ, chiến lược, kinh doanh, website, app, cloud, printing, digital">
+  <meta name="description" content="Giải pháp công nghệ giúp bạn KHẲNG ĐỊNH THƯƠNG HIỆU, KẾT NỐI KHÁCH HÀNG, GIA TĂNG DOANH THU" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<base href="https://nks.com.vn/">
+
+  <!-- Favicons-->
+  <link rel="shortcut icon" href="site/images/favicon-nks.png" type="image/x-icon">
+  <link rel="apple-touch-icon" type="image/x-icon" href="site/images/favicon-nks.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="site/images/favicon-nks.png">
+  <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="site/images/favicon-nks.png">
+
+  <!-- GOOGLE WEB FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,500,600,600i,800,900&display=swap" rel="stylesheet">
+
+  <!-- FACEBOOK -->
+  <meta property="og:url" content="https://nks.com.vn" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nâng tầm thương hiệu // NKS // Công ty TNHH GP CN Tri Thức Mới // nks.com.vn // nks.vn // timzita.com" />
+  <meta property="og:description" content="Giải pháp công nghệ giúp bạn KHẲNG ĐỊNH THƯƠNG HIỆU, KẾT NỐI KHÁCH HÀNG, GIA TĂNG DOANH THU" />
+  <meta property="og:image" content="http://nks.com.vn/site/images/pages/og_index_share.jpg" />
+  <meta property="og:image:alt" content="" />
+
+  <!-- REQUIRED CSS -->
+  <link rel="stylesheet" href="assets/plugins/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://assets.nks.vn/plugins/fontawesome-pro-5.14.0-web/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="https://assets.nks.vn/plugins/toastr-v2.1.3/css/toastr.min.css">
+
+  <!-- EMBED CSS -->
+    <link rel="stylesheet" type="text/css" href="site/css/style.css">
+  <link rel="stylesheet" type="text/css" href="site/css/site.css">
+
+	<!-- CUSTOM CSS -->
+  <link rel="stylesheet" type="text/css" href="site/css/facebook_sitehome_style.css">
+
+  <style>
+    .fb_dialog, .fb_customer_chat_bounce_in_v2, .fb_customer_chat_bounce_out_v2 {
+      right: 10pt !important;
+      left: auto !important;
+      bottom: 10pt !important;
+      display:none;
+    }
+  </style>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SWQ9MLFHCS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SWQ9MLFHCS');
+  </script>
+</head>
+<body>
+  <!-- Load Facebook SDK for JavaScript -->
+  
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '233768670502997',
+        xfbml      : true,
+        version    : 'v3.3'
+      });
+      FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+
+  </script>
+
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat"
+    attribution=setup_tool
+    page_id="313391375471023"
+    theme_color="#0077bb"
+    logged_in_greeting="Chúc bạn một ngày tốt lành, NKS giúp gì được cho bạn"
+    logged_out_greeting="Chúc bạn một ngày tốt lành, NKS giúp gì được cho bạn">
+  </div>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29866857-5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-29866857-5');
+  </script>
+  
+  <div id="page" class="site">
+    <header id="site-header" class="site-header header-style-3 sticky-header">
+  <!-- Top bar start -->
+  <div class="header-topbar">
+      <div class="octf-area-wrap" style="height: 21px">
+          <div class="container">             
+              <!-- Header Topbar Menus -->
+              <div class="topbar_menu">
+                  <ul id="menu-topbar-menu" class="menu clearfix">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">FAQ</a></li>
+                  </ul>
+              </div>                        
+              <!-- contact info -->
+              <ul class="topbar-info clearfix">
+                  <li><i class="fas fa-phone"></i> <a href="tel:+84932030958">(+84) 932 030 958</a></li>
+                  <li><i class="fas fa-envelope"></i> <a href="mail:info@nks.com.vn">info@nks.com.vn</a> </li>
+              </ul>
+              <!-- contact info close -->    
+          </div>
+      </div>
+  </div>
+  <!-- Top bar close -->
+
+  <!-- Main header start -->
+  <div class="octf-main-header">
+      <div class="octf-area-wrap">
+          <div class="container octf-mainbar-container">
+              <div class="octf-mainbar">
+                  <div class="octf-mainbar-row octf-row">
+                      <div class="octf-col">
+                          <div id="site-logo" class="site-logo">
+                              <a href="/">
+                                  <img class="logo-static" src="assets/images/logo-full.png" alt="NKS">
+                                  <img class="logo-scroll" src="assets/images/logo-full.png" alt="NKS">
+                              </a>
+                          </div>
+                      </div>
+                      <div class="octf-col text-right">
+                          <nav id="site-navigation" class="main-navigation">           
+                              <ul id="primary-menu" class="menu">
+                                  <li class="menu-item-has-children"><a href="services.html">Dịch vụ</a>
+                                      <ul class="sub-menu">
+                                          <li><a href="/brand-strategy.html">Brand Strategy</a></li>
+                                          <li><a href="/cloud-services.html">Cloud Services</a></li>
+                                          <li><a href="/website-development.html">Website Development</a></li>
+                                          <li><a href="/app-development.html">App Development</a></li>
+                                          <li><a href="/digital-marketing.html">Digital Marketing</a></li>
+                                          <li><a href="/printing.html">Printing</a></li>
+                                      </ul>
+                                  </li>
+                                  
+                              </ul>                             
+                          </nav><!-- #site-navigation -->
+                      </div>
+                      
+                      <div class="octf-col text-right">
+                          <!-- Call To Action -->
+                          <div class="octf-btn-cta">
+                              <div class="octf-header-module">
+                                  <div class="btn-cta-group btn-cta-header">
+                                      <a class="octf-btn octf-btn-third" href="contact.html">Liên hệ</a>
+                                  </div>
+                              </div>
+                              
+                          </div>                              
+                      </div>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>      
+  <!-- Main header close -->
+
+    <!-- Header mobile open -->
+    <div class="header_mobile">
+        <div class="container">
+            <div class="mlogo_wrapper clearfix">
+                <div class="mobile_logo">
+                    <a href="index.html"><img src="assets/images/logo-full.png" alt="NKS" data-lazy-src="assets/images/logo-full.png">
+                        <noscript><img src="assets/images/logo-full.png" alt="NKS"></noscript>
+                    </a>
+                </div>
+                <div id="mmenu_toggle">
+                    <button></button>
+                </div>
+            </div>
+            <div class="mmenu_wrapper">     
+                <div class="mobile_nav">
+                    <ul id="menu-main-menu" class="mobile_mainmenu">
+                        <li class="menu-item-has-children"><a href="services.html">Dịch vụ</a>
+                            <ul class="sub-menu">
+                                <li><a href="/brand-strategy.html">Brand Strategy</a></li>
+                                <li><a href="/cloud-services.html">Cloud Services</a></li>
+                                <li><a href="/website-development.html">Website Development</a></li>
+                                <li><a href="/app-development.html">App Development</a></li>
+                                <li><a href="/digital-marketing.html">Digital Marketing</a></li>
+                                <li><a href="/printing.html">Printing</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.html">Liên hệ</a>
+                        </li>
+                    </ul>        
+                </div>      
+            </div>
+        </div>
+    </div>
+    <!-- Header mobile close -->
+
+</header>    <main id="content" class="site-content">
+	<section class="home-top">
+		<div class="container">
+			<div class="flex-row m-lr0">
+				<div class="home-top-left align-self-center">
+					<h6>Thay đổi hình ảnh thương hiệu</h6>
+					<h2>KINH DOANH ONLINE HIỆU QUẢ</h2>
+					<p>Chúng tôi hợp nhất trí tưởng tượng và công nghệ để giúp các thương hiệu phát triển trong thời đại chuyển đổi kỹ thuật số.</p>
+					<div class="d-flex sm-justify-content-center">
+						<div class="ot-button align-self-center">
+							<a href="/contact.html" class="octf-btn octf-btn-primary octf-btn-icon"><span>Chia sẻ ý tưởng<i class="fas fa-chevron-right"></i></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="home-top-right">
+					<img src="site/images/pages/index-main-slider.png" alt="Marketing Company">
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="social-icons-wrapper">
+				<a class="social-icon" href="#" target="_blank"><i class="fab fa-twitter"></i>
+				<a class="social-icon" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+				<a class="social-icon" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+				<a class="social-icon" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+			</div>
+		</div>
+	</section>
+
+	<section class="search-engine">
+		<div class="container">
+			<div class="ot-heading text-center">
+				<h6><span>SERVICES</span></h6>
+				<h2 class="main-heading text-primary">GIẢI PHÁP KINH DOANH ONLINE TOÀN DIỆN</h2>
+			</div>
+			<div class="flex-row">
+				<div class="col-md-3 col-sm-6 col-xs-12 align-self-center">
+					<div class="icon-box s4 p-b60 m-r--60 sm-m-r0">
+						<div class="bg-s3"></div>
+						<div class="bg-before"></div>
+						<div class="bg-after"></div>
+						<div class="icon-main"><span class="fas fa-medal fa-3x"></span></div>
+						<div class="content-box">
+							<h5>Brand Strategy</h5>
+							<p>Định hướng hình ảnh thương hiệu</p>
+						</div>
+					</div>
+					<div class="icon-box p-b60 s4">
+						<div class="bg-s3"></div>
+						<div class="bg-before"></div>
+						<div class="bg-after"></div>
+						<div class="icon-main"><span class="fas fa-laptop fa-3x"></span></div>
+						<div class="content-box">
+							<h5>Web Development</h5>
+							<p>Giải pháp kinh doanh online</p>
+						</div>
+					</div>
+					<div class="icon-box s4 m-r--60 sm-m-r0 sm-m-b40">
+						<div class="bg-s3"></div>
+						<div class="bg-before"></div>
+						<div class="bg-after"></div>
+						<div class="icon-main"><span class="fas fa-bullhorn fa-3x"></span></div>
+						<div class="content-box">
+							<h5>Digital Marketing</h5>
+							<p>Chăm sóc khách hàng toàn diện</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12 text-center sm-order-last">
+					<img src="site/images/pages/index-services.png" alt="">
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 align-self-center">
+					<div class="icon-box s1 p-b60 m-l--60 sm-m-l0">
+						<div class="bg-s3"></div>
+						<div class="bg-before"></div>
+						<div class="bg-after"></div>
+						<div class="icon-main"><span class="fas fa-server fa-3x"></span></div>
+						<div class="content-box">
+							<h5>Cloud Services</h5>
+							<p>Giải pháp lưu trữ online</p>
+						</div>
+					</div>
+					<div class="icon-box s1 p-b60">
+						<div class="bg-s3"></div>
+						<div class="bg-before"></div>
+						<div class="bg-after"></div>
+						<div class="icon-main"><span class="fas fa-mobile-alt fa-3x"></span></div>
+						<div class="content-box">
+							<h5>App Development</h5>
+							<p>Kết nối khách hàng chuyên nghiệp</p>
+						</div>  
+					</div>
+					<div class="icon-box s1 m-l--60 sm-m-l0 sm-m-b40">
+						<div class="bg-s3"></div>
+						<div class="bg-before"></div>
+						<div class="bg-after"></div>
+						<div class="icon-main"><span class="fas fa-print fa-3x"></span></div>
+						<div class="content-box">
+							<h5>Printing</h5>
+							<p>Thiết kế in ấn tiết kiệm</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="home-vision particles-js" data-color="#0077bb,#0077bb,#0160e7" data-id="i5-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<h3 class="text-primary">SỨ MỆNH</h3>
+					<p class="m-b50">Nâng cao năng lực cạnh tranh cho doanh nghiệp Việt Nam</p>
+					<h3 class="text-primary">TẦM NHÌN</h3>
+					<p class="m-b50">NKS mong muốn trở thành công ty công nghệ hàng đầu Việt Nam về các giải pháp hỗ trợ hoạt động kinh doanh một cách chuyên nghiệp trong thời gian nhanh nhất, cung cấp môi trường làm việc tích cực để nhân viên phát triển kỹ năng, sáng tạo trong công việc và có cuộc sống đầy đủ về vật chất và tinh thần góp phần hưng thịnh quốc gia.</p>
+				</div>
+				<div class="col-md-8 col-xs-12">
+					<h3 class="text-primary">GIÁ TRỊ CỐT LÕI</h3>
+					<div class="row">
+						<div class="col-md-4 m-b50">
+							<i class="fas fa-medal fa-2x"></i> 
+							<h5 class="text-primary">TINH</h5>
+							<p>Xây dựng đội ngũ tinh gọn, tinh hoa, có đầy đủ đức và tài, nhân tố xuất sắc nhất</p>
+						</div>
+						<div class="col-md-4 m-b50">
+							<i class="fas fa-heart fa-2x"></i> 
+							<h5 class="text-primary">TÂM</h5>
+							<p>Luôn thay đổi để đem lại sự hài lòng và trải nghiệm tốt nhất trên từng sản phẩm</p>
+						</div>
+						<div class="col-md-4 m-b50">
+							<i class="fas fa-flag fa-2x"></i>
+							<h5 class="text-primary">TẦM</h5>
+							<p>Phát triển sản phẩm đa dạng, phong phú đón đầu nhu cầu của thị trường</p>
+						</div>
+						<div class="col-md-4 m-b50">
+							<i class="fas fa-users fa-2x"></i>
+							<h5 class="text-primary">TÔN</h5>
+							<p>Lắng nghe và nói thẳng cùng sự bao dung để tập thể ngày càng vững mạnh</p>
+						</div>
+						<div class="col-md-4 m-b50">
+							<i class="fas fa-gavel fa-2x"></i>
+							<h5 class="text-primary">TÍN</h5>
+							<p>Nâng cao hình ảnh, uy tín, minh bạch là tiêu chí để trụ vững trên thương trường</p>
+						</div>
+						<div class="col-md-4 m-b50">
+							<i class="fas fa-rocket fa-2x"></i>
+							<h5 class="text-primary">TỐC</h5>
+							<p>Đảm bảo tốc độ, hiệu quả trong từng hành động để có sản phẩm chất lượng nhất</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="home-nks">
+		<div class="container">
+			<div class="ot-heading text-center">
+				<h6><span>Chúng tôi chào đón các ứng viên có hoài bão, mong muốn làm việc trong môi trường năng động & sáng tạo</span></h6>
+				<h2 class="main-heading text-primary">XÂY DỰNG HỆ SINH THÁI KINH DOANH ĐỘC ĐÁO</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-xs-12 text-center">
+					<img src="site/images/pages/index-nks.png" alt="NKS" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+</main>
+    <footer class="site-footer site-footer-2">
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <figure><img src="assets/images/logo-full.png" height="56"></figure>
+            <p>Nâng cao năng lực cạnh tranh của doanh nghiệp Việt Nam</p>
+  
+            <ul class="list-unstyled w-75 list-socials mb-0">
+              <li><a href="/" class="fab facebook"></a></li>
+              <li><a href="/" class="fab twitter"></a></li>
+              <li><a href="/" class="fab linkedin"></a></li>
+              <li><a href="/" class="fab instagram"></a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mt-3 mt-lg-0">
+            <p class="title">Thông tin liên hệ</p>
+            <p>
+              <span class="ml-1"><b>CÔNG TY TNHH GIẢI PHÁP CÔNG NGHỆ TRI THỨC MỚI</b></span>
+              <br/>
+              Giấy chứng nhận đăng ký kinh doanh số 0313074497, cấp ngày 6/1/2015 bởi Sở Kế hoạch và Đầu tư TP. Hồ Chí Minh.
+            </p>
+            <p>
+              <span class="text-white-50">Địa chỉ:</span>
+              <span class="ml-1">222 Lê Văn Sỹ, phường 14, quận 3, TPHCM</span>
+            </p>
+    
+            <p>
+              <a href="tel:0931877866">
+                <span class="text-white-50">Số điện thoại:</span>
+                <span class="ml-1">(+84) 932 030 958</span>
+              </a>
+            </p>
+    
+            <p>
+              <a href="mailto:info@nks.com.vn">
+                <span class="text-white-50">Email:</span>
+                <span class="ml-1">info@nks.com.vn</span>
+              </a>
+            </p>
+    
+            <p>
+              <span class="text-white-50">Giờ làm việc:</span>
+              <span class="ml-1">Thứ 2 - Thứ 6 <br/> 09:00 - 18:00</span>
+            </p>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mt-3 mt-lg-0">
+            <div class="footer-widget">
+              <ul class="ft-menu-list">
+                  <li class="ft-menu-item">
+                      <a href="/chinh-sach-bao-mat.html">Chính sách bảo mật</a>
+                  </li>
+                  <li class="ft-menu-item">
+                      <a href="/quy-dinh-su-dung-dich-vu.html">Quy định sử dụng dịch vụ</a>
+                  </li>
+                  <li class="ft-menu-item">
+                      <a href="/quy-dinh-thanh-toan.html">Quy định thanh toán</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section-copyright">
+      <div class="container-fluid text-center">
+        © Copyright 2020 <a href="https://nks.com.vn/" class="text-primary">NKS</a>. All rights reserved.
+        
+      </div>
+    </section>
+  </footer>  </div>
+
+  
+  <div id="scrolltotop" class="frame">
+    <div class="loader">
+      <div class="loader-ring"></div>
+      
+      <div class="rocket-wrapper">
+        <div class="trail-wrapper">
+          <img src="site/images/scrolltotop/trail.png" alt="" class="trail" />
+        </div>
+        <img src="site/images/scrolltotop/small-rocket.png" alt="" class="rocket" />
+      </div>
+      
+      <div class="clouds-wrapper">        
+        <svg class="clouds" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 90.83">
+          <defs>
+            <clipPath id="clip-path" transform="translate(1.75)">
+              <circle cx="42.5" cy="42.5" r="42.5" fill="none" />
+            </clipPath>
+            <filter id="goo" color-interpolation-filters="sRGB">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -11" result="goo" />
+              <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+            <filter id="blurMe">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="0.9" />
+            </filter>
+          </defs>
+          <g clip-path="url(#clip-path)" fill="#eef2f3" filter="url(#goo)">
+            <g class="clouds-wrapper" filter="url(#blurMe)">
+              <ellipse class="cloud" cx="40" cy="61.83" rx="7" ry="7" />
+              <ellipse class="cloud" cx="81" cy="68.83" rx="8" ry="8" />
+              <ellipse class="cloud" cx="6" cy="63.83" rx="6" ry="6"/>
+              <ellipse class="cloud" cx="15" cy="70.83" rx="11" ry="11"  />
+              <ellipse class="cloud" cx="65" cy="74.83" rx="11" ry="11"  />
+              <ellipse class="cloud" cx="48" cy="71.83" rx="14" ry="14" />
+              <ellipse class="cloud" cx="34" cy="75.83" rx="16" ry="16" />
+            </g>
+          </g>
+        </svg>        
+      </div>  
+    </div>  
+  </div>
+  
+  
+  <!-- REQUIRED JS -->
+  <script src="assets/plugins/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <!-- EMBED JS -->
+    <script src="site/js/jquery.magnific-popup.min.js"></script>
+  <script src="https://assets.nks.vn/plugins/toastr-v2.1.3/js/toastr.min.js"></script>
+  <script src="site/js/scripts.js"></script>
+  <script src="site/js/google_site_script.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <!-- CUSTOM JS -->
+  
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-messaging.js"></script>
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-analytics.js"></script>
+
+  <!-- NOTIFY BUBBLES  -->
+  <!-- <script src="site/js/notify_func.js"></script> -->
+
+  <!--Start of AutoAds Tracking Code-->
+  <script id='autoAdsMaxLead-widget-script' src='https://cdn.autoads.asia/scripts/autoads-maxlead-widget.js?business_id=92AF03375B0D436994707709CB9ACE7A' type='text/javascript' charset='UTF-8' async></script>
+  <!--End of AutoAds Tracking Code-->
+  
+  <div class="zalo-chat-widget" data-oaid="91980451345700135" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="350" data-height="420"></div>
+  <script src="https://sp.zalo.me/plugins/sdk.js"></script>
+</body>
+</html>

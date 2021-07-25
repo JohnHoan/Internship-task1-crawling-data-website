@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head><meta charset="utf-8" />
+
+
+<title>
+	OnLand - Đăng Tin BĐS 
+</title>
+<!-- <div class="zalo-chat-widget" data-oaid="3798004116937397423" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="350" data-height="420"></div>
+
+<script src="https://sp.zalo.me/plugins/sdk.js"></script>
+<!-- Load Facebook SDK for JavaScript -->
+<<!-- div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+  FB.init({
+    xfbml            : true,
+    version          : 'v10.0'
+  });
+};
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your Chat Plugin code -->
+<div class="fb-customerchat"
+  attribution="install_email"
+  page_id="102194902030178">
+</div>
+    <link href="https://onlandtech.vn/style/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="/style/css/reset.css" rel="stylesheet" />
+    <link href="/style/css/Styles.min.css?v=20151126" rel="stylesheet" />
+    <link href="/style/css/jquery-ui.min.css" />
+    <link href="/style/css/shop-icon.css" rel="stylesheet" /> 
+    <!-- Scripts -->
+
+    <script src="/style/js/jquery-1.7.1.min.js"></script>
+    <script src="/style/js/jquery-ui.js"></script>
+    <script src="/style/js/jquery.excoloSlider.js"></script>
+    <link href="/style/css/jquery.excoloSlider.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/style/css/jquery.fancybox.css" media="all" />
+    <script src="/style/js/jquery.scrollToTop.min.js"></script> 
+    <script type="text/javascript" src="/style/js/jquery.fancybox.js"></script>
+    <script src="/style/js/Common.min.js?v=20151126"></script>
+    <script type="text/javascript" src="/style/js/jquery.placeholder.min.js"></script>
+    <script src="/style/js/jquery.cookie-1.4.1.js" type="text/javascript"></script>
+     
+
+    <script type="text/javascript">
+        var domainCookie = 'onlandtech.vn'
+        var productId = '';
+        var userId = '';
+        var base_url='https://onlandtech.vn/';
+    </script>
+
+    <meta name="keywords" content="nhà đất bán,nhà đất cho thuê,mua bán nhà đất,bất động sản,bất động sản việt nam,ban nha,ban dat,can thue nha,nhà đất hà nôi,bất động sản hà nội,cho thuê nhà hà nội,rao vặt nhà đất hà nội" />
+    <meta name="description" content="Kênh thông tin về bất động sản tại Việt Nam: mua bán nhà đất, cho thuê nhà đất, văn phòng, căn hộ, biệt thự, chung cư" />
+    <meta http-equiv="content-language" content="vi" />
+    <link rel="alternate" href="https://batdongsantop10.net" hreflang="vi-vn" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+<link media="only screen and (max-width: 640px)" rel="alternate" href="m.onlandtech.vn/" /><link media="handheld" rel="alternate" href="onlandtech.vn/" />
+
+
+
+</head>
+<body>  
+        <!-- Header -->
+        
+<div id="wr_header" class="header">
+    
+<div class="header-register" id="headerregister">
+    <div class="action">
+        
+                <div class="logon">
+            <a href="/thanh-vien/dang-nhap.html" rel="nofollow" title="Đăng nhập">
+                <span>Đăng nhập</span>
+            </a>
+        </div>
+        <div class="register">
+            <a href="/thanh-vien/dang-ky.html" rel="nofollow" title="Đăng ký">
+                <span>Đăng ký</span>
+            </a>
+        </div>
+                    
+
+        
+    </div>
+</div>
+
+    <div class="header-logo">
+        <div class="hdcontent">
+            <div class="content-logo">
+                <a href="/" title="mua bán nhà đất">
+                    <img src="/style/images/logo.png" alt="mua bán nhà đất"></a>
+            </div>
+             
+             
+        </div>
+    </div>
+    <script type="text/javascript">
+        var indexBanner = Math.ceil(Math.random() * 3);//alert(indexBanner);
+        $('.MultiBanner' + indexBanner).show();
+        setInterval(function () {
+            $('.content-banner').hide();
+            indexBanner = indexBanner <= 2 ? indexBanner + 1 : 1;
+            $('.MultiBanner' + indexBanner).toggle();
+        }, 8000);
+    </script>
+</div>
+
+        <!-- End Header -->
+        <!-- Me nú -->
+        
+<div class="menu">
+    <div class="menu-content">
+        <ul class="nav-menu">
+            <li class="lv0 active">
+                <a href="/" title="Trang chủ">Trang chủ
+                </a>
+            </li>
+             <li class="lv0 "><a href="/quy-hoach" title="XEM QUY HOẠCH">XEM QUY HOẠCH</a> 
+                    
+                </li> <li class="lv0 "><a href="/nha-dat-ban" title="BĐS bán">BĐS bán</a> 
+                    
+            <ul class="dropdown-menu">
+            <li class="lv1 "><a href="/ban-can-ho-chung-cu" title="Bán căn hộ chung cư">Bán căn hộ chung cư</a></li><li class="lv1 "><a href="/ban-nha-rieng" title="Bán nhà riêng">Bán nhà riêng</a></li><li class="lv1 "><a href="/ban-nha-biet-thu-lien-ke" title="Bán nhà biệt thự, liền kề">Bán nhà biệt thự, liền kề</a></li><li class="lv1 "><a href="/ban-nha-mat-pho" title="Bán nhà mặt phố">Bán nhà mặt phố</a></li><li class="lv1 "><a href="/ban-dat-nen-du-an" title="Bán đất nền dự án">Bán đất nền dự án</a></li><li class="lv1 "><a href="/ban-dat" title="Bán đất">Bán đất</a></li><li class="lv1 "><a href="/ban-trang-trai-khu-nghi-duong" title="Bán trang trại, khu nghỉ dưỡng">Bán trang trại, khu nghỉ dưỡng</a></li><li class="lv1 "><a href="/ban-kho-nha-xuong" title="Bán kho, nhà xưởng">Bán kho, nhà xưởng</a></li><li class="lv1 "><a href="/ban-loai-bat-dong-san-khac" title="Bán loại bất động sản khác">Bán loại bất động sản khác</a></li>            
+            </ul>
+            
+                </li> <li class="lv0 "><a href="/nha-dat-cho-thue" title="BĐS cho thuê">BĐS cho thuê</a> 
+                    
+            <ul class="dropdown-menu">
+            <li class="lv1 "><a href="/cho-thue-can-ho-chung-cu" title="Cho thuê căn hộ chung cư">Cho thuê căn hộ chung cư</a></li><li class="lv1 "><a href="/cho-thue-nha-rieng" title="Cho thuê nhà riêng">Cho thuê nhà riêng</a></li><li class="lv1 "><a href="/cho-thue-nha-mat-pho" title="Cho thuê nhà mặt phố">Cho thuê nhà mặt phố</a></li><li class="lv1 "><a href="/cho-thue-nha-tro-phong-tro" title="Cho thuê nhà trọ, phòng trọ">Cho thuê nhà trọ, phòng trọ</a></li><li class="lv1 "><a href="/cho-thue-van-phong" title="Cho thuê văn phòng">Cho thuê văn phòng</a></li><li class="lv1 "><a href="/cho-thue-cua-hang-ki-ot" title="Cho thuê cửa hàng, ki ốt">Cho thuê cửa hàng, ki ốt</a></li><li class="lv1 "><a href="/cho-thue-kho-nha-xuong-dat" title="Cho thuê kho, nhà xưởng, đất">Cho thuê kho, nhà xưởng, đất</a></li><li class="lv1 "><a href="/cho-thue-loai-bat-dong-san-khac" title="Cho thuê loại bất động sản khác">Cho thuê loại bất động sản khác</a></li>            
+            </ul>
+            
+                </li> <li class="lv0 "><a href="/tin-tuc" title="Tin tức">Tin tức</a> 
+                    
+            <ul class="dropdown-menu">
+            <li class="lv1 "><a href="/tin-thi-truong" title="Tin thị trường">Tin thị trường</a></li><li class="lv1 "><a href="/chinh-sach-quy-hoach" title="Chính sách - Quy Hoạch">Chính sách - Quy Hoạch</a></li><li class="lv1 "><a href="/tin-du-an" title="Tin dự án">Tin dự án</a></li><li class="lv1 "><a href="/bds-the-gioi" title="BĐS Thế giới">BĐS Thế giới</a></li>            
+            </ul>
+            
+                </li> <li class="lv0 "><a href="/khong-gian-song" title="Không gian sống">Không gian sống</a> 
+                    
+            <ul class="dropdown-menu">
+            <li class="lv1 "><a href="/nha-dep" title="Nhà đẹp">Nhà đẹp</a></li><li class="lv1 "><a href="/noi-that" title="Nội thất">Nội thất</a></li><li class="lv1 "><a href="/ngoai-that" title="Ngoại thất">Ngoại thất</a></li><li class="lv1 "><a href="/mach-ban" title="Mách bạn">Mách bạn</a></li>            
+            </ul>
+            
+                </li> <li class="lv0 "><a href="/phong-thuy" title="Phong thủy">Phong thủy</a> 
+                    
+                </li> <li class="lv0 "><a href="/du-an" title="Dự án">Dự án</a> 
+                    
+            <ul class="dropdown-menu">
+            <li class="lv1 "><a href="/cao-oc-van-phong" title="Cao ốc văn phòng">Cao ốc văn phòng</a></li><li class="lv1 "><a href="/khu-can-ho" title="Khu căn hộ">Khu căn hộ</a></li><li class="lv1 "><a href="/khu-do-thi-moi" title="Khu đô thị mới">Khu đô thị mới</a></li><li class="lv1 "><a href="/khu-thuong-mai-dich-vu" title="Khu thương mại dịch vụ">Khu thương mại dịch vụ</a></li><li class="lv1 "><a href="/khu-phuc-hop" title="Khu phức hợp">Khu phức hợp</a></li><li class="lv1 "><a href="/khu-dan-cu" title="Khu dân cư">Khu dân cư</a></li><li class="lv1 "><a href="/khu-du-lich-nghi-duong" title="Khu du lịch nghỉ dưỡng">Khu du lịch nghỉ dưỡng</a></li><li class="lv1 "><a href="/khu-cong-nghiep" title="Khu công nghiệp">Khu công nghiệp</a></li><li class="lv1 "><a href="/du-an-khac" title="Dự án khác">Dự án khác</a></li>            
+            </ul>
+            
+                </li>             
+            <li class="postnew lv0 "><a href="/dang-tin-ban-cho-thue-nha-dat" title="Đăng tin">ĐĂNG TIN</a></li>
+            
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    var href = window.location.pathname;
+    var a_return = new Array(); // Danh sách Url được active
+    var AllUrl = new Array(); // arr Url
+    var ElementUrl = $(".nav-menu li a");
+
+    var arrHref = href.split("/"); // phân tích current url 
+
+    for (var i = 0; i < ElementUrl.length; i++) {
+        var abc = ElementUrl[i].toString().split("/");
+        if (abc.length > 3) {
+            AllUrl.push(abc[3].replace(".htm", "")); // lấy được arr url
+        }
+    }
+
+    if (arrHref.length >= 2) {
+        var currentUrl = arrHref[1];
+        for (var i = 0; i < AllUrl.length; i++) {
+            var _index = currentUrl.search(AllUrl[i]); //Duyet chuoi danh sach Url de so sanh voi Current Url
+            if (_index != -1) {
+                a_return.push(AllUrl[i]); //Neu la tap con cua URL thi add vao array 
+            }
+        }
+    }
+
+    var return_data = "";
+    var return_index = 0;
+    for (x in a_return) {
+        if (a_return[x].length > return_index) {//so sanh do dai lon nhat trung` voi URL thi lay gia tri
+            return_index = a_return[x].length;
+            return_data = a_return[x]; //gia tri can lay (duy nhat 1 gia tri)
+        }
+    }
+    var taga = $('.nav-menu,.dropdown-menu').find('a[href=\'/' + return_data + '.htm\']');
+
+    if (taga.length > 0) {
+        setActiveClass(taga, 0);
+    }
+
+    function setActiveClass(tag, interval) {
+        $(".lv0").removeClass('active');
+        tag.addClass('active');
+        if (tag.hasClass('lv0')) {
+            return;
+        }
+        interval++;
+        if (interval <= 3) { // Menu dothi chỉ có 2 cấp, ul > li > ul > li. ra 3 cấp mới set được parrent
+            setActiveClass(tag.parent(), interval);
+        } else {
+        }
+    }
+</script>        <div class="wr_page">
+            
+    <!-- Box Search -->
+     
+<link href="/style/css/select2.min.css" rel="stylesheet" />
+<script src="/style/js/select2.full.min.js"></script>
+
+
+<style>
+.option-item{
+    text-align: left!important;
+}
+</style>
+<script type="text/javascript" > 
+function getDoiXe(HangXe){
+    
+    $.ajax
+    ({
+        
+       type: "POST",
+       url: "/dangtin/getDoiXe/"+HangXe,
+       success: function(response)
+       {   
+        
+          $("#ddlType").html('<option value="">Loại bất động sản</option>'+response);
+          $("#ddlType").select2('val', '');   
+          if(HangXe==449){
+             dataSoKM='<option value="Thỏa thuận">Thỏa thuận</option><option value="Triệu">Triệu</option><option value="Tỷ">Tỷ</option><option value="Cây vàng">Cây vàng</option><option value="USD">USD</option><option value="USD/m²">USD/m²</option><option value="Trăm nghìn/m²">Trăm nghìn/m²</option><option value="Triệu/m²">Triệu/m²</option><option value="Chỉ vàng/m²">Chỉ vàng/m²</option><option value="Cây vàng/m²">Cây vàng/m²</option>';
+          }
+          if(HangXe==451){
+             dataSoKM='<option value="Thỏa thuận">Thỏa thuận</option><option value="Trăm nghìn/tháng">Trăm nghìn/tháng</option><option value="Triệu/tháng">Triệu/tháng</option><option value="USD/tháng">USD/tháng</option><option value="USD/m²/tháng">USD/m²/tháng</option><option value="Trăm nghìn/m²/tháng">Trăm nghìn/m²/tháng</option><option value="Triệu/m²/tháng">Triệu/m²/tháng</option><option value="Nghìn/m²/tháng">Nghìn/m²/tháng</option> ';
+          }
+             $("#SoKM").html('<option value="">Đơn vị tính</option>'+dataSoKM);
+             $("#SoKM").select2(); 
+       }            
+    });
+}
+function autoSearch(){
+    if($("#divSell").hasClass('tab-active')){
+        $("#adminForm2").attr('action','/bds-ban');  
+    }else{
+        $("#adminForm2").attr('action','/bds-cho-thue');  
+    }
+    document.getElementById('adminForm2').submit();
+}
+
+
+
+
+</script>
+
+<!--POPUP-->
+
+
+
+<!---END-->
+<!-- Box Search -->
+<div class="search">
+    
+    <div class="search-tab">
+        <div class="search-tab-content">
+            <div class="tab-sell tab-active" id="divSell" onclick="getDoiXe(449);">
+                <h1>bất động sản bán</h1>
+            </div>
+            <div class="tab-rent " id="divRent" onclick="getDoiXe(451);">
+                <h2>bất động sản cho thuê</h2>
+            </div>
+             <div class="clear"></div>
+        </div>
+    </div>
+    <div class="search-content">
+      <form method="post" name="adminForm2" id="adminForm2">
+        <div class="search-content-input"> 
+            <div class="input1" id="KeyDownEnterHome">
+                <input name="TieuDe" type="text" class="ui-autocomplete-input" placeholder="Bạn muốn tìm bất động sản gì? Ví dụ: Bán nhà triều khúc thanh xuân..." autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" />
+
+            </div>
+            <div class="input1 paddingleft0">
+                <select id="ddlType" name="HangXe" class="option-item "> 
+                                    <option value="">Loại bất động sản</option>
+                </select> 
+                <select id="ddlCity" name="DoiXe" class="option-item">
+                            <option value="">Tỉnh/Thành phố</option> 
+                            
+    <option value="Hồ Chí Minh" data-key="SG"  >Hồ Chí Minh</option>    
+    <option value="Hà Nội" data-key="HN"  >Hà Nội</option>    
+    <option value="Bình Dương" data-key="BD"  >Bình Dương</option>    
+    <option value="Đà Nẵng" data-key="DDN"  >Đà Nẵng</option>    
+    <option value="Hải Phòng" data-key="HP"  >Hải Phòng</option>    
+    <option value="Long An" data-key="LA"  >Long An</option>    
+    <option value="Bà Rịa Vũng Tàu" data-key="VT"  >Bà Rịa Vũng Tàu</option>    
+    <option value="An Giang" data-key="AG"  >An Giang</option>    
+    <option value="Bắc Giang" data-key="BG"  >Bắc Giang</option>    
+    <option value="Bắc Kạn" data-key="BK"  >Bắc Kạn</option>    
+    <option value="Bạc Liêu" data-key="BL"  >Bạc Liêu</option>    
+    <option value="Bắc Ninh" data-key="BN"  >Bắc Ninh</option>    
+    <option value="Bến Tre" data-key="BTR"  >Bến Tre</option>    
+    <option value="Bình Định" data-key="BDD"  >Bình Định</option>    
+    <option value="Bình Phước" data-key="BP"  >Bình Phước</option>    
+    <option value="Bình Thuận  " data-key="BTH"  >Bình Thuận  </option>    
+    <option value="Cà Mau" data-key="CM"  >Cà Mau</option>    
+    <option value="Cần Thơ" data-key="CT"  >Cần Thơ</option>    
+    <option value="Cao Bằng" data-key="CB"  >Cao Bằng</option>    
+    <option value="Đắk Lắk" data-key="DDL"  >Đắk Lắk</option>    
+    <option value="Đắk Nông" data-key="DNO"  >Đắk Nông</option>    
+    <option value="Điện Biên" data-key="DDB"  >Điện Biên</option>    
+    <option value="Đồng Nai" data-key="DNA"  >Đồng Nai</option>    
+    <option value="Đồng Tháp" data-key="DDT"  >Đồng Tháp</option>    
+    <option value="Gia Lai" data-key="GL"  >Gia Lai</option>    
+    <option value="Hà Giang" data-key="HG"  >Hà Giang</option>    
+    <option value="Hà Nam" data-key="HNA"  >Hà Nam</option>    
+    <option value="Hà Tĩnh" data-key="HT"  >Hà Tĩnh</option>    
+    <option value="Hải Dương" data-key="HD"  >Hải Dương</option>    
+    <option value="Hậu Giang" data-key="HGI"  >Hậu Giang</option>    
+    <option value="Hòa Bình" data-key="HB"  >Hòa Bình</option>    
+    <option value="Hưng Yên" data-key="HY"  >Hưng Yên</option>    
+    <option value="Khánh Hòa" data-key="KH"  >Khánh Hòa</option>    
+    <option value="Kiên Giang" data-key="KG"  >Kiên Giang</option>    
+    <option value="Kon Tum" data-key="KT"  >Kon Tum</option>    
+    <option value="Lai Châu" data-key="LCH"  >Lai Châu</option>    
+    <option value="Lâm Đồng" data-key="LDD"  >Lâm Đồng</option>    
+    <option value="Lạng Sơn" data-key="LS"  >Lạng Sơn</option>    
+    <option value="Lào Cai" data-key="LCA"  >Lào Cai</option>    
+    <option value="Nam Định" data-key="NDD"  >Nam Định</option>    
+    <option value="Nghệ An" data-key="NA"  >Nghệ An</option>    
+    <option value="Ninh Bình" data-key="NB"  >Ninh Bình</option>    
+    <option value="Ninh Thuận" data-key="NT"  >Ninh Thuận</option>    
+    <option value="Phú Thọ" data-key="PT"  >Phú Thọ</option>    
+    <option value="Phú Yên" data-key="PY"  >Phú Yên</option>    
+    <option value="Quảng Bình" data-key="QB"  >Quảng Bình</option>    
+    <option value="Quảng Nam" data-key="QNA"  >Quảng Nam</option>    
+    <option value="Quảng Ngãi" data-key="QNG"  >Quảng Ngãi</option>    
+    <option value="Quảng Ninh" data-key="QNI"  >Quảng Ninh</option>    
+    <option value="Quảng Trị" data-key="QT"  >Quảng Trị</option>    
+    <option value="Sóc Trăng" data-key="ST"  >Sóc Trăng</option>    
+    <option value="Sơn La" data-key="SL"  >Sơn La</option>    
+    <option value="Tây Ninh" data-key="TNI"  >Tây Ninh</option>    
+    <option value="Thái Bình" data-key="TB"  >Thái Bình</option>    
+    <option value="Thái Nguyên" data-key="TN"  >Thái Nguyên</option>    
+    <option value="Thanh Hóa" data-key="TH"  >Thanh Hóa</option>    
+    <option value="Thừa Thiên Huế" data-key="TTH"  >Thừa Thiên Huế</option>    
+    <option value="Tiền Giang" data-key="TG"  >Tiền Giang</option>    
+    <option value="Trà Vinh" data-key="TV"  >Trà Vinh</option>    
+    <option value="Tuyên Quang" data-key="TQ"  >Tuyên Quang</option>    
+    <option value="Vĩnh Long" data-key="VL"  >Vĩnh Long</option>    
+    <option value="Vĩnh Phúc" data-key="VP"  >Vĩnh Phúc</option>    
+    <option value="Yên Bái" data-key="YB"  >Yên Bái</option>                            </select> 
+                <select id="ddlDistrict" name="NamSX" class="option-item">
+                                <option value="">Quận/Huyện</option>
+                </select> 
+                <select id="NgoaiThat" name="NgoaiThat" class="option-item">
+                                <option value="">Diện tích</option>
+                                
+                                      <option value='<30' >Dưới 30 m²</option>
+                                      
+                                      <option value='30-50' >Từ 30 đến 50 m²</option>
+                                      
+                                      <option value='50-80' >Từ 50 đến 80 m²</option>
+                                      
+                                      <option value='80-100' >Từ 80 đến 100 m²</option>
+                                      
+                                      <option value='100-150' >Từ 100 đến 150 m²</option>
+                                      
+                                      <option value='150-200' >Từ 150 đến 200 m²</option>
+                                      
+                                      <option value='200-250' >Từ 200 đến 250 m²</option>
+                                      
+                                      <option value='250-300' >Từ 250 đến 300 m²</option>
+                                      
+                                      <option value='300-500' >Từ 300 đến 500 m²</option>
+                                      
+                                      <option value='>500' >Trên 500 m²</option>
+                                                      </select> 
+                <select id="GiaTien" name="GiaTien" class="option-item">
+                                <option value="">Mức giá</option>
+                                
+                                      <option value='1-2' >Từ 1 đến 2</option>
+                                      
+                                      <option value='2-3' >Từ 2 đến 3</option>
+                                      
+                                      <option value='3-5' >Từ 3 đến 5</option>
+                                      
+                                      <option value='5-7' >Từ 5 đến 7</option>
+                                      
+                                      <option value='7-10' >Từ 7 đến 10</option>
+                                      
+                                      <option value='10-20' >Từ 10 đến 20</option>
+                                      
+                                      <option value='20-30' >Từ 20 đến 30</option>
+                                      
+                                      <option value='>30' >Lớn hơn 30</option>
+                                      
+                                      <option value='<500' >Nhỏ hơn 500</option>
+                                      
+                                      <option value='500-800' >Từ 500 đến 800</option>
+                                      
+                                      <option value='800-1000' >Từ 800 đến 1000</option>
+                                                      </select> 
+                <select id="SoKM" name="SoKM" class="option-item">
+                     
+                    </select>
+                
+
+
+            </div>
+            <div class="input1 paddingleft0 line2"> 
+                <select id="ddlWard" name="XuatXu" class="option-item" >
+                            <option value="">Phường/Xã</option>
+                        </select> 
+                <select id="ddlStreets" name="PhanHang" class="option-item">
+                            <option value="">Đường/Phố</option>
+                        </select>  
+                <select id="HeThongNapNhienLieu" name="HeThongNapNhienLieu" class="option-item" >
+                            <option value="">Số phòng ngủ</option>
+                            
+                                      <option value='1' >1+</option>
+                                      
+                                      <option value='2' >2+</option>
+                                      
+                                      <option value='3' >3+</option>
+                                      
+                                      <option value='4' >4+</option>
+                                      
+                                      <option value='5' >5+</option>
+                                                              </select>  
+                <select name="NoiThat" class="option-item ">
+                            <option value="">Hướng nhà</option>
+                            
+                                      <option value='Không xác định' >Không xác định</option>
+                                      
+                                      <option value='Đông' >Đông</option>
+                                      
+                                      <option value='Tây' >Tây</option>
+                                      
+                                      <option value='Nam' >Nam</option>
+                                      
+                                      <option value='Bắc' >Bắc</option>
+                                      
+                                      <option value='Đông-Bắc' >Đông-Bắc</option>
+                                      
+                                      <option value='Tây-Bắc' >Tây-Bắc</option>
+                                      
+                                      <option value='Tây-Nam' >Tây-Nam</option>
+                                      
+                                      <option value='Đông-Nam' >Đông-Nam</option>
+                                                                  
+                    </select> 
+                <select id="TinhTrang" name="TinhTrang" class="option-item" >
+                            <option value="">Dự án</option>
+                        </select> 
+                <a id="ContentPlaceHolder1_BoxSearch1_lbtSearch" class="btnsearch" onclick="autoSearch()" href="javascript://">
+                        <img src="/style/images/search.png" />
+                </a>
+            </div>
+
+        </div>
+       </form>
+    </div>
+    <div class="clear"></div>
+</div>
+<!-- End Box Search -->
+<script src="/style/js/BoxSearch.min.js?v=20151126" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function () {
+        var cnt = 0;
+        $("#KeyDownEnterHome").keyup(function (event) {
+            if (event.keyCode == 13) { 
+                autoSearch();
+            } 
+        });
+    });
+</script>
+
+    <div class="clear"></div>
+    <!-- End Box Search -->
+    <!-- Index Page -->
+    <div class="index-page">
+        <div class="content">
+            
+ <div class="news-default fl">
+    <div class="news-default-left">
+        
+        <a href="/phong-thuy/nhung-cong-viec-it-nguoi-biet-nhung-co-luong-cao-bat-ngo-992.html" title="Những công việc ít người biết nhưng có lương cao bất ngờ.">
+            <img src="https://znews-photo-td.zadn.vn/w1024/Uploaded/neg_efjpyye/2018_01_19/1_2.jpg" alt="Những công việc ít người biết nhưng có lương cao bất ngờ." />
+        </a>
+        <h2>
+            <a href="/phong-thuy/nhung-cong-viec-it-nguoi-biet-nhung-co-luong-cao-bat-ngo-992.html" title="Những công việc ít người biết nhưng có lương cao bất ngờ.">Những công việc ít người biết nhưng có lương cao bất ngờ.</a>
+        </h2>
+        
+    </div>
+    <div class="news-default-right">
+        <ul>
+            
+                 <li  class="first">
+                        <h3>
+                            <a href="/phong-thuy/hai-dong-san-pham-y-nghia-tu-tram-huong-hoang-giang-991.html" title="Hai dòng sản phẩm ý nghĩa từ trầm hương Hoàng Giang">
+                                Hai dòng sản phẩm ý nghĩa từ trầm hương Hoàng Giang
+                            </a>
+                        </h3>
+                    </li>
+                  
+                 <li >
+                        <h3>
+                            <a href="/phong-thuy/trang-suc-da-phong-thuy-thiet-ke-theo-cam-hung-co-tich-tai-gypsy-lala-990.html" title="Trang sức đá phong thủy, thiết kế theo cảm hứng cổ tích tại Gypsy.lala">
+                                Trang sức đá phong thủy, thiết kế theo cảm hứng cổ tích tại Gypsy.lala
+                            </a>
+                        </h3>
+                    </li>
+                  
+                 <li >
+                        <h3>
+                            <a href="/ngoai-that/can-canh-khu-do-thi-phuc-hop-duoc-cong-nhan-tot-nhat-vn-989.html" title="Cận cảnh khu đô thị phức hợp được công nhận tốt nhất VN">
+                                Cận cảnh khu đô thị phức hợp được công nhận tốt nhất VN
+                            </a>
+                        </h3>
+                    </li>
+                  
+                 <li >
+                        <h3>
+                            <a href="/nha-dep/can-ho-huong-song-nhieu-tien-ich-tai-dong-sai-gon-988.html" title="Căn hộ hướng sông nhiều tiện ích tại Đông Sài Gòn">
+                                Căn hộ hướng sông nhiều tiện ích tại Đông Sài Gòn
+                            </a>
+                        </h3>
+                    </li>
+                  
+                 <li >
+                        <h3>
+                            <a href="/ngoai-that/biet-thu-trieu-do-mo-phong-khong-gian-song-loai-rong-trong-huyen-thoai-987.html" title="Biệt thự triệu đô mô phỏng không gian sống loài rồng trong huyền thoại">
+                                Biệt thự triệu đô mô phỏng không gian sống loài rồng trong huyền thoại
+                            </a>
+                        </h3>
+                    </li>
+                                      
+                
+                    
+                
+        </ul>
+
+    </div>
+    <div class="clear"></div>
+</div> 
+
+
+        <div class="most-read">
+            <div class="title">
+                <h3>Tin xem nhiều</h3>
+            </div>
+            <ul>
+    
+               <li  class="first">
+                        <h4><a href="/phong-thuy/trang-suc-da-phong-thuy-thiet-ke-theo-cam-hung-co-tich-tai-gypsy-lala-990.html" title="Trang sức đá phong thủy, thiết kế theo cảm hứng cổ tích tại Gypsy.lala">Trang sức đá phong thủy, thiết kế theo cảm hứng cổ tích tại Gypsy.lala</a></h4>
+                    </li>
+    
+               <li >
+                        <h4><a href="/kien-thuc-xay-dung/khu-do-thi-thuong-mai-viva-park-co-gi-dac-biet-985.html" title="Khu đô thị thương mại Viva Park có gì đặc biệt?">Khu đô thị thương mại Viva Park có gì đặc biệt?</a></h4>
+                    </li>
+    
+               <li >
+                        <h4><a href="/kien-thuc-xay-dung/5-diem-khac-biet-cua-bien-hoa-new-city-981.html" title="5 điểm khác biệt của Bien Hoa New City">5 điểm khác biệt của Bien Hoa New City</a></h4>
+                    </li>
+    
+               <li >
+                        <h4><a href="/nha-dep/can-ho-huong-song-nhieu-tien-ich-tai-dong-sai-gon-988.html" title="Căn hộ hướng sông nhiều tiện ích tại Đông Sài Gòn">Căn hộ hướng sông nhiều tiện ích tại Đông Sài Gòn</a></h4>
+                    </li>
+    
+               <li >
+                        <h4><a href="/phong-thuy/hai-dong-san-pham-y-nghia-tu-tram-huong-hoang-giang-991.html" title="Hai dòng sản phẩm ý nghĩa từ trầm hương Hoàng Giang">Hai dòng sản phẩm ý nghĩa từ trầm hương Hoàng Giang</a></h4>
+                    </li>
+            
+        </ul> 
+    </div> 
+    
+
+<div class="mid-banner" id="Banner_KM_Mid">
+<!-- ads -->
+</div>
+
+           
+            <!-- Content Right -->
+            <div class="content-right">
+                
+          
+       
+           <div id="ContentPlaceHolder1_ProjectHome_divProject" class="project-hl">
+    <div class="hl-title">
+        <h3><a href="/du-an" title="Dự án nổi bật">Dự án nổi bật</a></h3>
+    </div>
+    <div class="wr_project">
+        <div class="wr_slide">
+            <div class="slideproject">
+                <div id="sliderA" class="slider">
+                    
+                 <div>
+                                <a href="/khu-du-lich-bien-cao-cap-ocean-dunes-pj63.html" title="Khu du lịch biển cao cấp Ocean Dunes">
+                                    <img src="/upload/photo/624x476/1486717611.jpg" alt="Khu du lịch biển cao cấp Ocean Dunes" />
+                                </a>
+                                <h4><a href="/khu-du-lich-bien-cao-cap-ocean-dunes-pj63.html" title="Khu du lịch biển cao cấp Ocean Dunes">Khu du lịch biển cao cấp Ocean Dunes</a></h4>
+                                <p>Phường Phú Thủy, Phan Thiết, Bình Thuận</p>
+                 </div>
+    
+                 <div>
+                                <a href="/celadon-city-pj62.html" title="CELADON CITY">
+                                    <img src="/upload/photo/624x476/1486029679.jpg" alt="CELADON CITY" />
+                                </a>
+                                <h4><a href="/celadon-city-pj62.html" title="CELADON CITY">CELADON CITY</a></h4>
+                                <p>Số 88 đường N1, phường Sơn Kỳ, quận Tân Phú, Tp.HCM</p>
+                 </div>
+    
+                 <div>
+                                <a href="/kdt-lang-quoc-te-thang-long-pj61.html" title="KĐT Làng quốc tế Thăng Long">
+                                    <img src="/upload/photo/624x476/1485138181.jpg" alt="KĐT Làng quốc tế Thăng Long" />
+                                </a>
+                                <h4><a href="/kdt-lang-quoc-te-thang-long-pj61.html" title="KĐT Làng quốc tế Thăng Long">KĐT Làng quốc tế Thăng Long</a></h4>
+                                <p>Đường Trần Đăng Ninh, Phường Dịch Vọng, Cầu Giấy, Hà Nội</p>
+                 </div>
+     
+                </div>
+            </div>
+        </div>
+        <div class="thumbSlide">
+            <div class="listproject">
+                
+                 <div rel="0" class="act item first">
+                            <a class="tt_project" href="/khu-du-lich-bien-cao-cap-ocean-dunes-pj63.html" title="Khu du lịch biển cao cấp Ocean Dunes">
+                                <img class="avatar" src="/upload/photo/170x115/1486717611.jpg" alt="Khu du lịch biển cao cấp Ocean Dunes" />
+                            </a>
+                            <div class="info_project">
+                                <a href="/khu-du-lich-bien-cao-cap-ocean-dunes-pj63.html" title="Khu du lịch biển cao cấp Ocean Dunes">Khu du lịch biển cao cấp Ocean Dunes</a>
+                                <p>Phường Phú Thủy, Phan Thiết, Bình Thuận</p>
+                            </div>
+                        </div>
+    
+                 <div rel="1" class="act item first">
+                            <a class="tt_project" href="/celadon-city-pj62.html" title="CELADON CITY">
+                                <img class="avatar" src="/upload/photo/170x115/1486029679.jpg" alt="CELADON CITY" />
+                            </a>
+                            <div class="info_project">
+                                <a href="/celadon-city-pj62.html" title="CELADON CITY">CELADON CITY</a>
+                                <p>Số 88 đường N1, phường Sơn Kỳ, quận Tân Phú, Tp.HCM</p>
+                            </div>
+                        </div>
+    
+                 <div rel="2" class="act item first">
+                            <a class="tt_project" href="/kdt-lang-quoc-te-thang-long-pj61.html" title="KĐT Làng quốc tế Thăng Long">
+                                <img class="avatar" src="/upload/photo/170x115/1485138181.jpg" alt="KĐT Làng quốc tế Thăng Long" />
+                            </a>
+                            <div class="info_project">
+                                <a href="/kdt-lang-quoc-te-thang-long-pj61.html" title="KĐT Làng quốc tế Thăng Long">KĐT Làng quốc tế Thăng Long</a>
+                                <p>Đường Trần Đăng Ninh, Phường Dịch Vọng, Cầu Giấy, Hà Nội</p>
+                            </div>
+                        </div>
+     
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <script>
+        $(function () {
+            $("#sliderA").excoloSlider();
+        });
+    </script>
+
+</div>     
+		
+				<!--ads adsense-->
+				
+		
+                <!--Lien ket noi bat-->
+                
+<div class="product-count">
+        <div class="pc-title"> 
+            <h3>Liên kết nổi bật</h3>
+        </div>
+        <div class="pc-content">
+            <ul id="ulBoxHotHome">
+                
+                            <li>
+                            <h3><a href="/ban-dat-buon-ma-thuot">Bán đất    Buôn Ma Thuột</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/ban-dat-duong-ama-jhao">Bán đất Đường  Ama Jhao Buôn Ma Thuột</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/ban-dat-duong-nguyen-chi-thanh-20">Bán đất Đường  Nguyễn Chí Thanh Buôn Ma Thuột</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/ban-dat-pho-ly-thuong-kiet-31">Bán đất Phố  Lý Thường Kiệt Buôn Ma Thuột</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/ban-dat-buon-ma-thuot">Bán đất    Buôn Ma Thuột</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/ban-dat-duong-cao-thang-14">Bán đất Đường  Cao Thắng Buôn Ma Thuột</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/ban-dat-ben-luc">Bán đất    Bến Lức</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/ban-dat-nha-be">Bán đất    Nhà Bè</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/ban-dat-duong-che-lan-vien-4">Bán đất Đường  Chế Lan Viên Buôn Ma Thuột</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/ban-dat-duong-pham-ngu-lao-19">Bán đất Đường  Phạm Ngũ Lão Buôn Ma Thuột</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/ban-dat-duong-quoc-lo-14-6">Bán đất Đường  Quốc lộ 14 Cư M'gar</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/cho-thue-van-phong-duong-nguyen-thi-minh-khai">Cho thuê văn phòng Đường  Nguyễn Thị Minh Khai Quận 1</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/ban-dat-duong-quoc-lo-1a-33">Bán đất Đường  Quốc lộ 1A Bắc Bình</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/ban-dat-duong-y-moan">Bán đất Đường  Y Moan Buôn Ma Thuột</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/ban-dat-duong-10-9">Bán đất Đường  10 Bình Chánh</a></h3>
+                        </li>
+                <li>
+                            <h3><a href="/ban-dat-duong-da-tuong-5">Bán đất Đường  Dã Tượng Buôn Ma Thuột</a></h3>
+                        </li>
+         
+            </ul>
+            
+            <div class="pc-extra" id="showBoxhotHome">
+                <a href="javascript:showBoxHotHome();" rel="nofollow">
+                    <img src="/style/images/xemtatca.png" />
+                </a>
+            </div>
+        </div>
+    </div>
+ 
+ 
+
+                <!-- Utility -->
+                
+<div class="utility">
+    <div class="utility-title">
+        <h3>Tính năng hỗ trợ</h3>
+    </div>
+    <div class="utility-content">
+        <ul>
+            <li class="email"><a rel="nofollow" href="javascript:" id="UtilityRegisterEmail" class="fancybox.ajax">Nhận tin bđs qua email</a></li>
+            <li class="lifengshui"><a  rel="nofollow" href="javascript:" id="UtilityFengShui" class="fancybox.ajax">Xem phong thủy theo tuổi</a></li>
+            
+            <li class="laixuat"><a  rel="nofollow" href="javascript:" id="UtilityInterest" class="fancybox.ajax">Tính lãi suất vay ngân hàng</a></li>
+            
+            <li class="vanban "><a  rel="nofollow" href="/van-ban-nganh-xay-dung">Văn bản ngành xây dựng</a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+                
+            </div>
+
+            
+            <!-- Content Left -->
+            <div class="content-left" style="margin-top: 0px;">
+                <div id="ContentPlaceHolder1_pnProduct">
+	
+<div class="for-user">
+    <div class="title">
+        <h3>tin rao dành cho bạn</h3>
+    </div>
+    <ul>
+                          	 					 <li>
+                    <a href="/ban-dat-buon-ma-thuot-dak-lak/dat-dau-tu-pr5140.html"><img id="ContentPlaceHolder1_ProductSearchResult1_rpProductList_imgAvatar_0" title="Đất đầu tư" width="140" height="104" src="/upload/photo/170x115/1619516521.jpg" alt="Đất đầu tư" /></a>
+                    <div class="desc">
+                        <h4>
+                            <a class="vipdb" title="Đất đầu tư" href="/ban-dat-buon-ma-thuot-dak-lak/dat-dau-tu-pr5140.html">Đất đầu tư</a></h4>
+                        <div class="other">
+                            <div class="price"><label>Giá<span>:</span></label>
+                                700 Triệu                            <i style="float: right;color: black;">Mã tin: 5140 </i>   
+                            </div>
+                            <div class="area"><label>Diện tích<span>:</span></label>
+                                50 m²</div>
+                            <div class="location"><label>Vị trí<span>:</span></label>
+                                Buôn Ma Thuột - Đắk Lắk</div>
+                        </div>
+                        <span class="date">
+                            27/04/2021</span>
+                    </div>
+                </li>                       
+			
+			                  	 					 <li>
+                    <a href="/ban-dat-buon-ma-thuot-dak-lak/can-ban-dat-hem-y-wuang-pr5147.html"><img id="ContentPlaceHolder1_ProductSearchResult1_rpProductList_imgAvatar_0" title="cần bán đất hem y wuang" width="140" height="104" src="/upload/photo/170x115/1619517192.jpg" alt="cần bán đất hem y wuang" /></a>
+                    <div class="desc">
+                        <h4>
+                            <a class="vipdb" title="cần bán đất hem y wuang" href="/ban-dat-buon-ma-thuot-dak-lak/can-ban-dat-hem-y-wuang-pr5147.html">cần bán đất hem y wuang</a></h4>
+                        <div class="other">
+                            <div class="price"><label>Giá<span>:</span></label>
+                                380 Triệu                            <i style="float: right;color: black;">Mã tin: 5147 </i>   
+                            </div>
+                            <div class="area"><label>Diện tích<span>:</span></label>
+                                6 m²</div>
+                            <div class="location"><label>Vị trí<span>:</span></label>
+                                Buôn Ma Thuột - Đắk Lắk</div>
+                        </div>
+                        <span class="date">
+                            27/04/2021</span>
+                    </div>
+                </li>                       
+			
+			                  	 					 <li>
+                    <a href="/ban-dat-buon-ma-thuot-dak-lak/mot-lo-duy-nhat-hem-nguyen-chi-thanh-pr5146.html"><img id="ContentPlaceHolder1_ProductSearchResult1_rpProductList_imgAvatar_0" title="Một lô duy nhất hẻm nguyễn chí thanh" width="140" height="104" src="/upload/photo/170x115/1619517120.jpg" alt="Một lô duy nhất hẻm nguyễn chí thanh" /></a>
+                    <div class="desc">
+                        <h4>
+                            <a class="vipdb" title="Một lô duy nhất hẻm nguyễn chí thanh" href="/ban-dat-buon-ma-thuot-dak-lak/mot-lo-duy-nhat-hem-nguyen-chi-thanh-pr5146.html">Một lô duy nhất hẻm nguyễn chí thanh</a></h4>
+                        <div class="other">
+                            <div class="price"><label>Giá<span>:</span></label>
+                                300 Triệu                            <i style="float: right;color: black;">Mã tin: 5146 </i>   
+                            </div>
+                            <div class="area"><label>Diện tích<span>:</span></label>
+                                40 m²</div>
+                            <div class="location"><label>Vị trí<span>:</span></label>
+                                Buôn Ma Thuột - Đắk Lắk</div>
+                        </div>
+                        <span class="date">
+                            27/04/2021</span>
+                    </div>
+                </li>                       
+			
+			                  	 					 <li>
+                    <a href="/ban-dat-ben-luc-long-an/can-ban-d-at-long-an-pr5145.html"><img id="ContentPlaceHolder1_ProductSearchResult1_rpProductList_imgAvatar_0" title="cân ban đ ất long an" width="140" height="104" src="/upload/photo/170x115/1619517100.jpg" alt="cân ban đ ất long an" /></a>
+                    <div class="desc">
+                        <h4>
+                            <a class="vipdb" title="cân ban đ ất long an" href="/ban-dat-ben-luc-long-an/can-ban-d-at-long-an-pr5145.html">cân ban đ ất long an</a></h4>
+                        <div class="other">
+                            <div class="price"><label>Giá<span>:</span></label>
+                                3 Tỷ                            <i style="float: right;color: black;">Mã tin: 5145 </i>   
+                            </div>
+                            <div class="area"><label>Diện tích<span>:</span></label>
+                                16 m²</div>
+                            <div class="location"><label>Vị trí<span>:</span></label>
+                                Bến Lức - Long An</div>
+                        </div>
+                        <span class="date">
+                            27/04/2021</span>
+                    </div>
+                </li>                       
+			
+			                  	 					 <li>
+                    <a href="/ban-dat-cu-mgar-dak-lak/ban-lo-dat-cuoc-dang-2-mat-tien-pr5144.html"><img id="ContentPlaceHolder1_ProductSearchResult1_rpProductList_imgAvatar_0" title="Bán lô đất Cuôc đăng 2 mặt tiền." width="140" height="104" src="/upload/photo/170x115/1619517003.jpg" alt="Bán lô đất Cuôc đăng 2 mặt tiền." /></a>
+                    <div class="desc">
+                        <h4>
+                            <a class="vipdb" title="Bán lô đất Cuôc đăng 2 mặt tiền." href="/ban-dat-cu-mgar-dak-lak/ban-lo-dat-cuoc-dang-2-mat-tien-pr5144.html">Bán lô đất Cuôc đăng 2 mặt tiền.</a></h4>
+                        <div class="other">
+                            <div class="price"><label>Giá<span>:</span></label>
+                                3 Tỷ                            <i style="float: right;color: black;">Mã tin: 5144 </i>   
+                            </div>
+                            <div class="area"><label>Diện tích<span>:</span></label>
+                                200 m²</div>
+                            <div class="location"><label>Vị trí<span>:</span></label>
+                                Cư M'gar - Đắk Lắk</div>
+                        </div>
+                        <span class="date">
+                            27/04/2021</span>
+                    </div>
+                </li>                       
+			
+			                  	 					 <li>
+                    <a href="/ban-dat-buon-ma-thuot-dak-lak/can-ban-2-lo-1k-hem-y-moan-pr5143.html"><img id="ContentPlaceHolder1_ProductSearchResult1_rpProductList_imgAvatar_0" title="cần bán 2 lô 1k hẻm y moan" width="140" height="104" src="/upload/photo/170x115/1619516988.jpg" alt="cần bán 2 lô 1k hẻm y moan" /></a>
+                    <div class="desc">
+                        <h4>
+                            <a class="vipdb" title="cần bán 2 lô 1k hẻm y moan" href="/ban-dat-buon-ma-thuot-dak-lak/can-ban-2-lo-1k-hem-y-moan-pr5143.html">cần bán 2 lô 1k hẻm y moan</a></h4>
+                        <div class="other">
+                            <div class="price"><label>Giá<span>:</span></label>
+                                1 Tỷ                            <i style="float: right;color: black;">Mã tin: 5143 </i>   
+                            </div>
+                            <div class="area"><label>Diện tích<span>:</span></label>
+                                5 m²</div>
+                            <div class="location"><label>Vị trí<span>:</span></label>
+                                Buôn Ma Thuột - Đắk Lắk</div>
+                        </div>
+                        <span class="date">
+                            27/04/2021</span>
+                    </div>
+                </li>                       
+			
+			                  	 					 <li>
+                    <a href="/ban-dat-buon-ma-thuot-dak-lak/dat-rong-lam-home-stay-hem-song-song-duong-ly-thuong-kiet-pr5142.html"><img id="ContentPlaceHolder1_ProductSearchResult1_rpProductList_imgAvatar_0" title="Đất rộng làm Home Stay hẻm song song đường Lý Thường Kiệt" width="140" height="104" src="/upload/photo/170x115/1619516848.jpg" alt="Đất rộng làm Home Stay hẻm song song đường Lý Thường Kiệt" /></a>
+                    <div class="desc">
+                        <h4>
+                            <a class="vipdb" title="Đất rộng làm Home Stay hẻm song song đường Lý Thường Kiệt" href="/ban-dat-buon-ma-thuot-dak-lak/dat-rong-lam-home-stay-hem-song-song-duong-ly-thuong-kiet-pr5142.html">Đất rộng làm Home Stay hẻm song song đường Lý Thường Kiệt</a></h4>
+                        <div class="other">
+                            <div class="price"><label>Giá<span>:</span></label>
+                                1 Tỷ                            <i style="float: right;color: black;">Mã tin: 5142 </i>   
+                            </div>
+                            <div class="area"><label>Diện tích<span>:</span></label>
+                                400 m²</div>
+                            <div class="location"><label>Vị trí<span>:</span></label>
+                                Buôn Ma Thuột - Đắk Lắk</div>
+                        </div>
+                        <span class="date">
+                            27/04/2021</span>
+                    </div>
+                </li>                       
+			
+			                  	 					 <li>
+                    <a href="/ban-dat-buon-ma-thuot-dak-lak/thon-4-cu-ebur-pr5139.html"><img id="ContentPlaceHolder1_ProductSearchResult1_rpProductList_imgAvatar_0" title="THÔN 4 CƯ EBUR" width="140" height="104" src="/upload/photo/170x115/1619516535.jpg" alt="THÔN 4 CƯ EBUR" /></a>
+                    <div class="desc">
+                        <h4>
+                            <a class="vipdb" title="THÔN 4 CƯ EBUR" href="/ban-dat-buon-ma-thuot-dak-lak/thon-4-cu-ebur-pr5139.html">THÔN 4 CƯ EBUR</a></h4>
+                        <div class="other">
+                            <div class="price"><label>Giá<span>:</span></label>
+                                5 Triệu                            <i style="float: right;color: black;">Mã tin: 5139 </i>   
+                            </div>
+                            <div class="area"><label>Diện tích<span>:</span></label>
+                                5 m²</div>
+                            <div class="location"><label>Vị trí<span>:</span></label>
+                                Buôn Ma Thuột - Đắk Lắk</div>
+                        </div>
+                        <span class="date">
+                            27/04/2021</span>
+                    </div>
+                </li>                       
+			
+			                  	 					 <li>
+                    <a href="/ban-dat-buon-ma-thuot-dak-lak/ban-re-lo-dat-loi-ngay-300-trieu-pr5138.html"><img id="ContentPlaceHolder1_ProductSearchResult1_rpProductList_imgAvatar_0" title="BÁN RẺ LÔ ĐẤT LỜI NGAY 300 triệu" width="140" height="104" src="/upload/photo/170x115/1619516304.jpg" alt="BÁN RẺ LÔ ĐẤT LỜI NGAY 300 triệu" /></a>
+                    <div class="desc">
+                        <h4>
+                            <a class="vipdb" title="BÁN RẺ LÔ ĐẤT LỜI NGAY 300 triệu" href="/ban-dat-buon-ma-thuot-dak-lak/ban-re-lo-dat-loi-ngay-300-trieu-pr5138.html">BÁN RẺ LÔ ĐẤT LỜI NGAY 300 triệu</a></h4>
+                        <div class="other">
+                            <div class="price"><label>Giá<span>:</span></label>
+                                4 Tỷ                            <i style="float: right;color: black;">Mã tin: 5138 </i>   
+                            </div>
+                            <div class="area"><label>Diện tích<span>:</span></label>
+                                75 m²</div>
+                            <div class="location"><label>Vị trí<span>:</span></label>
+                                Buôn Ma Thuột - Đắk Lắk</div>
+                        </div>
+                        <span class="date">
+                            27/04/2021</span>
+                    </div>
+                </li>                       
+			
+			                  	 					 <li>
+                    <a href="/ban-dat-buon-ma-thuot-dak-lak/ban-nhanh-pr5131.html"><img id="ContentPlaceHolder1_ProductSearchResult1_rpProductList_imgAvatar_0" title="bán nhanh" width="140" height="104" src="/upload/photo/170x115/1619514483.jpg" alt="bán nhanh" /></a>
+                    <div class="desc">
+                        <h4>
+                            <a class="vipdb" title="bán nhanh" href="/ban-dat-buon-ma-thuot-dak-lak/ban-nhanh-pr5131.html">bán nhanh</a></h4>
+                        <div class="other">
+                            <div class="price"><label>Giá<span>:</span></label>
+                                3 Tỷ                            <i style="float: right;color: black;">Mã tin: 5131 </i>   
+                            </div>
+                            <div class="area"><label>Diện tích<span>:</span></label>
+                                11 m²</div>
+                            <div class="location"><label>Vị trí<span>:</span></label>
+                                Buôn Ma Thuột - Đắk Lắk</div>
+                        </div>
+                        <span class="date">
+                            27/04/2021</span>
+                    </div>
+                </li>                       
+			
+						
+							     
+                                            
+    </ul>
+ 
+    <div class="extra-news">
+        <div class="extra-news-l">
+            Tin Nhà đất bán mới nhất:
+                            <span>
+                                <a href="/nha-dat-ban" title="Trang 1">1</a>
+                                <a rel="nofollow" href="/nha-dat-ban/2" title="Trang 2">2</a>
+                                <a rel="nofollow" href="/nha-dat-ban/3" title="Trang 3">3</a>
+                                <a rel="nofollow" href="/nha-dat-ban/4" title="Trang 4">4</a>
+                                <a rel="nofollow" href="/nha-dat-ban/5" title="Trang 5">5</a>
+                            </span>
+        </div>
+        <div class="extra-news-r">
+            Tin Nhà đất cho thuê mới nhất:
+                            <span>
+                                <a href="/nha-dat-cho-thue" title="Trang 1">1</a>
+                                <a rel="nofollow" href="/nha-dat-cho-thue/2" title="Trang 2">2</a>
+                                <a rel="nofollow" href="/nha-dat-cho-thue/3" title="Trang 3">3</a>
+                                <a rel="nofollow" href="/nha-dat-cho-thue/4" title="Trang 4">4</a>
+                                <a rel="nofollow" href="/nha-dat-cho-thue/5" title="Trang 5">5</a>
+                            </span>
+        </div>
+    </div>
+</div>
+
+</div>                
+                <!-- Banner -->
+              
+                <div class="clear"></div>
+                
+                                   <div class="home_fengshui ">
+                    
+
+<div class="fengshui">
+    <div class="fengshui-title">
+        <h3><a href="/phong-thuy" title="Phong thủy">Phong thủy</a></h3>
+    </div>
+    <div class="list_news">
+                <div class="news-hot">
+            <a href="/phong-thuy/nhung-cong-viec-it-nguoi-biet-nhung-co-luong-cao-bat-ngo-992.html" title="Những công việc ít người biết nhưng có lương cao bất ngờ.">
+                <img src="https://znews-photo-td.zadn.vn/w1024/Uploaded/neg_efjpyye/2018_01_19/1_2.jpg" alt="Những công việc ít người biết nhưng có lương cao bất ngờ.">
+            </a>
+            <h4>
+                <a href="/phong-thuy/nhung-cong-viec-it-nguoi-biet-nhung-co-luong-cao-bat-ngo-992.html" title="Những công việc ít người biết nhưng có lương cao bất ngờ.">Những công việc ít người biết nhưng có lương cao bất ngờ.</a>
+            </h4>
+        </div>
+         
+        <div class="list_top">
+            <ul>
+                
+                        
+                 <li>
+                            <a href="/phong-thuy/hai-dong-san-pham-y-nghia-tu-tram-huong-hoang-giang-991.html" title="Hai dòng sản phẩm ý nghĩa từ trầm hương Hoàng Giang">Hai dòng sản phẩm ý nghĩa từ trầm hương Hoàng Giang</a>
+                        </li>
+                  
+                 <li>
+                            <a href="/phong-thuy/trang-suc-da-phong-thuy-thiet-ke-theo-cam-hung-co-tich-tai-gypsy-lala-990.html" title="Trang sức đá phong thủy, thiết kế theo cảm hứng cổ tích tại Gypsy.lala">Trang sức đá phong thủy, thiết kế theo cảm hứng cổ tích tại Gypsy.lala</a>
+                        </li>
+                  
+                 <li>
+                            <a href="/phong-thuy/ha-tang-giao-thong-cu-hich-truc-tiep-cua-bds-tay-ho-tay-980.html" title="Hạ tầng giao thông - cú hích trực tiếp của BĐS Tây hồ Tây">Hạ tầng giao thông - cú hích trực tiếp của BĐS Tây hồ Tây</a>
+                        </li>
+                   
+                    
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+                </div>
+     
+      <div class="home_fengshui living_space">
+                    
+
+<div class="fengshui">
+    <div class="living-title">
+        <h3><a href="/khong-gian-song" title="Không gian sống">Không gian sống</a></h3>
+    </div>
+    <div class="list_news">
+                <div class="news-hot">
+            <a href="/ngoai-that/can-canh-khu-do-thi-phuc-hop-duoc-cong-nhan-tot-nhat-vn-989.html" title="Cận cảnh khu đô thị phức hợp được công nhận tốt nhất VN">
+                <img src="https://znews-photo-td.zadn.vn/w1024/Uploaded/wyhktpu/2018_06_07/anh_1_1.jpg" alt="Cận cảnh khu đô thị phức hợp được công nhận tốt nhất VN">
+            </a>
+            <h4>
+                <a href="/ngoai-that/can-canh-khu-do-thi-phuc-hop-duoc-cong-nhan-tot-nhat-vn-989.html" title="Cận cảnh khu đô thị phức hợp được công nhận tốt nhất VN">Cận cảnh khu đô thị phức hợp được công nhận tốt nhất VN</a>
+            </h4>
+        </div>
+         
+        <div class="list_top">
+            <ul>
+                
+                        
+                 <li>
+                            <a href="/nha-dep/can-ho-huong-song-nhieu-tien-ich-tai-dong-sai-gon-988.html" title="Căn hộ hướng sông nhiều tiện ích tại Đông Sài Gòn">Căn hộ hướng sông nhiều tiện ích tại Đông Sài Gòn</a>
+                        </li>
+                  
+                 <li>
+                            <a href="/ngoai-that/biet-thu-trieu-do-mo-phong-khong-gian-song-loai-rong-trong-huyen-thoai-987.html" title="Biệt thự triệu đô mô phỏng không gian sống loài rồng trong huyền thoại">Biệt thự triệu đô mô phỏng không gian sống loài rồng trong huyền thoại</a>
+                        </li>
+                  
+                 <li>
+                            <a href="/mach-ban/kham-pha-khong-gian-song-xanh-nho-thuc-te-ao-va-video-360-do-986.html" title="Khám phá không gian sống xanh nhờ thực tế ảo và video 360 độ">Khám phá không gian sống xanh nhờ thực tế ảo và video 360 độ</a>
+                        </li>
+                  
+                 <li>
+                            <a href="/noi-that/cac-mon-noi-that-giup-tiet-kiem-khong-gian-song-982.html" title="Các món nội thất giúp tiết kiệm không gian sống">Các món nội thất giúp tiết kiệm không gian sống</a>
+                        </li>
+                   
+                    
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+                </div>
+     
+     
+              
+                <!-- I News -->
+                 <div class="inews">
+                                
+<div class="inews-l">
+                        <div class="inews-l-title">
+                            <h3><a href="/tu-van-luat" title="Tư vấn luật">Tư vấn luật</a></h3>
+                        </div>
+                        <div class="inews-l-content">
+                                                    <div class="inews-l-content-hot">
+                                <a href="/tu-van-luat/tp-hcm-thu-hoi-hon-1-ha-dat-vang-tai-quan-7-983.html" title="TP.HCM thu hồi hơn 1 ha đất vàng tại quận 7">
+                                    <img src="https://znews-photo-td.zadn.vn/w660/Uploaded/kbunac2/2018_06_08/photo152842822881215284282288131954073330.jpg" alt="TP.HCM thu hồi hơn 1 ha đất vàng tại quận 7" />
+                                </a>
+                                <h3>
+                                    <a href="/tu-van-luat/tp-hcm-thu-hoi-hon-1-ha-dat-vang-tai-quan-7-983.html" title="TP.HCM thu hồi hơn 1 ha đất vàng tại quận 7">TP.HCM thu hồi hơn 1 ha đất vàng tại quận 7</a>
+                                </h3>
+                                
+                            </div>
+                            <div class="clear"></div>
+                             
+                            <ul>
+                                  
+                            </ul>
+                            <div class="clear"></div>
+                        </div> 
+                    </div> 
+   
+<div class="inews-r">
+                        <div class="inews-r-title">
+                            <h3><a href="/thiet-ke-kien-truc" title="Thiết kế kiến trúc">Thiết kế kiến trúc</a></h3>
+                        </div>
+                        <div class="inews-l-content">
+                                                    <div class="inews-l-content-hot">
+                                <a href="/kien-thuc-xay-dung/khu-do-thi-thuong-mai-viva-park-co-gi-dac-biet-985.html" title="Khu đô thị thương mại Viva Park có gì đặc biệt?">
+                                    <img src="https://znews-photo-td.zadn.vn/w660/Uploaded/wyhktpu/2018_08_13/image001_25.jpg" alt="Khu đô thị thương mại Viva Park có gì đặc biệt?" />
+                                </a>
+                                <h3>
+                                    <a href="/kien-thuc-xay-dung/khu-do-thi-thuong-mai-viva-park-co-gi-dac-biet-985.html" title="Khu đô thị thương mại Viva Park có gì đặc biệt?">Khu đô thị thương mại Viva Park có gì đặc biệt?</a>
+                                </h3>
+                                
+                            </div>
+                            <div class="clear"></div>
+                             
+                            <ul>
+                                
+                 <li>
+                            <a href="/kien-thuc-xay-dung/5-diem-khac-biet-cua-bien-hoa-new-city-981.html" title="5 điểm khác biệt của Bien Hoa New City">5 điểm khác biệt của Bien Hoa New City</a>
+                        </li>
+                    
+                            </ul>
+                            <div class="clear"></div>
+                        </div> 
+                    </div> 
+      
+                </div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- End Index Page -->
+   
+<script src="/style/js/PostNews.min.js?v=120151126" type="text/javascript"></script>
+<script type="text/javascript">
+
+    //$(document).ready(function () {
+    //    $(".various").fancybox({
+    //        type: 'iframe',
+    //        href: '/xem-truoc.htm',
+    //        maxWidth: 800,
+    //        maxHeight: 800,
+    //        fitToView: true,
+    //        width: '90%',
+    //        height: '90%',
+    //        autoSize: true,
+    //        closeClick: false,
+    //        openEffect: 'none',
+    //        closeEffect: 'none',
+    //        padding: 0
+    //    });
+    //});
+    $('select').select2({
+        matcher: function (params, data) {
+            if ($.trim(params.term) === '') {
+                return data;
+            }
+            var _keyword = UnicodeToKoDau(data.text.toLowerCase());
+            var _text = UnicodeToKoDau(params.term.toLowerCase());
+            if (_keyword.indexOf(_text) == 0) {
+                var modifiedData = $.extend({}, data, true);
+                modifiedData.text;
+                return modifiedData;
+            }
+            return null;
+        }
+    });
+    $('#ddlCity').on('change', function () {  
+        GetArea('GetDistrict','cityCode',$('option:selected', this).attr('data-key'),'ddlDistrict','Quận/Huyện',''); 
+    });
+    $('#ddlDistrict').on('change', function () { 
+        GetArea('GetWard','distId',$('option:selected', this).attr('data-key'),'ddlWard','Phường/Xã','');   
+        GetArea('GetStreet','distId',$('option:selected', this).attr('data-key'),'ddlStreets','Đường/Phố',''); 
+        GetArea('GetProject','distId',$('option:selected', this).attr('data-key'),'TinhTrang','-- Chọn Dự án --','');
+    }); 
+    $('#ddlWard').on('change', function () {
+        $("#hddcboWardP").val($('#ddlWard').find('option:selected').attr('data-key')); 
+        $("#hddWardPrefix").val($('#ddlWard').find('option:selected').attr('wardprefix')); 
+        $("#hddcboStreetP").val(-1);  
+    }); 
+    $('#ddlStreets').on('change', function () {
+        $("#hddcboStreetP").val($('#ddlStreets').find('option:selected').attr('data-key')); 
+        $('#hddStreetPrefix').val($('#ddlStreets').find('option:selected').attr('streetprefix'));  
+    });  
+
+    //// managage back button click (and backspace)
+    //var count = 0; // needed for safari
+    //window.onload = function () {
+    //    if (typeof history.pushState === "function") {
+    //        history.pushState("back", null, null);
+    //        window.onpopstate = function () {
+    //            history.pushState('back', null, null);
+    //            if (count == 1) { window.location = window.location; }
+    //        };
+    //    }
+    //}
+    //setTimeout(function () { count = 1; }, 200);
+    $("#divSell").click();
+</script>
+
+            <div class="clear"></div>
+        </div> <!-- Footer -->
+        
+<div class="footer">
+<div class="menu-bottom">
+        <ul>
+           
+                   <li><a href="/quy-che-hoat-dong" rel="nofollow">Quy chế hoạt động</a></li> 
+                   
+                   <li><a href="/huong-dan-su-dung" rel="nofollow">Hướng dẫn sử dụng</a></li> 
+                   
+                   <li><a href="/chinh-sach-bao-mat" rel="nofollow">Chính sách, bảo mật</a></li> 
+                   
+                   <li><a href="/tin-vip-mien-phi" rel="nofollow">Tin VIP miễn phí</a></li> 
+                   
+                   <li><a href="/co-che-giai-quyet-khieu-nai" rel="nofollow">Cơ chế giải quyết khiếu nại</a></li> 
+                   
+                   <li><a href="/lien-he" rel="nofollow">Liên hệ</a></li> 
+                    
+        </ul>
+        <div class="clear"></div>
+    </div>
+     
+    <div class="footer_bottom">
+        <div class="row_footer">
+            <div class="logo_footer">
+                <a href="/" title="mua bán nhà đất">
+                    <img src="/style/images/logo.png" alt="mua bán nhà đất"></a>
+            </div>
+            <div class="info_footer">
+                <p>CÔNG TY TNHH ĐẦU TƯ CAO NGUYÊN TECH</p>
+                <p>MST : 6001716365 | Cấp ngày 19/03/2021 | tại Phòng Đăng ký kinh doanh - Sở Kế hoạch và Đầu tư Tỉnh Đắk Lắk</p>
+                <p class="info_ct">
+                    <span>Hotline:  0388646666 </span>
+                </p>
+                <p class="info_ct">
+                     <a style="border:none;margin:0;padding:0" rel="nofollow" href="mailto:caonguyentechdl@gmail.com?Subject=Liên hệ-caonguyentechdl@gmail.com" target="_top">Email: caonguyentechdl@gmail.com</a>
+                    <a href="skype:onlandtech?chat" rel="nofollow">Skype: onlandtech</a>
+                    <!--<a href="ymsgr:sendim?" rel="nofollow">Yahoo: </a>-->
+                </p>
+                <p class="info_ct">
+                    <span>Địa chỉ: Số 39 Mai Xuân Thưởng, Phường Thành Nhất, TP.Buôn Ma Thuột, Tỉnh Đắk Lắk</span>
+                </p>
+            </div>
+          
+          
+   
+            
+            
+            
+            
+            
+            <div class="clear">
+            </div>
+            <div class="bd_footer"></div>
+        </div>
+       
+    </div>
+    <div class="clear"></div>
+</div>
+
+        <div id="boxProductSaved" style="">
+            <div class="titlebox">
+                <span class="title">Tin đã lưu</span> <span id="deleteAll" title="Xóa tất cả" onclick="deleteAllNews();"></span><span id="btn_close" class="hideAll"></span>
+            </div>
+            <div>
+                <ul class="listbox" style="width: 100%;">
+                </ul>
+            </div>
+        </div>
+        <!-- End Footer -->
+        <div id="SiteLeft" style="display: none">
+            <div class="ban_scroll" id="ban_left" style="width: 100px">
+                <div class="item">
+                 
+     
+                      
+                </div>
+            </div>
+        </div>
+        <div id="SiteRight" style="display: none">
+            <div class="ban_scroll" id="ban_right" style="width: 100px">
+                <div class="item">
+                 
+                     
+                </div>
+            </div>
+            
+       
+        </div>
+
+    </form>
+    <a href="#top" id="toTop" rel="nofollow" style="display: inline;"></a>
+
+	</body>
+
+
+	</html>

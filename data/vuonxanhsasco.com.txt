@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<link id="favicon" rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+<meta name="robots" content="noodp,index,follow" />
+<meta name="google" content="notranslate" />
+<meta name='revisit-after' content='1 days' />
+<meta name="ICBM" content="10.810547, 106.664724">
+<meta name="geo.position" content="10.810547, 106.664724">
+<meta name="geo.placename" content="Tòa nhà SASCO, 45 Trường Sơn, P2, Q Tân Bình, Tp.HCM">
+<meta name="author" content="CÔNG TY CỔ PHẦN PHÁT TRIỂN VƯỜN XANH">
+<base href="http://vuonxanhsasco.com/">
+
+
+<link href="custom.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<link href="css/jquery.selectbox.css" type="text/css" rel="stylesheet" />
+<link href="http://vuonxanhsasco.com/plugins/animate.css" type="text/css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="http://vuonxanhsasco.com/css/jquery.bxslider/jquery.bxslider.css">
+<script type="text/javascript" src="http://vuonxanhsasco.com/js/jquery.bxslider/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script>
+<script type="text/javascript" src="js/my_script.js"></script>
+<script type="text/javascript" src="js/jquery.lazyload.pack.js"></script>
+<script type="text/javascript" src="plugins/marquee/gistfile1.js"></script>
+<script type="text/javascript" src="js/ajax_custom.js"></script>
+<script type="text/javascript" src="plugins/parallax/jquery.stellar.js"></script>
+<script type="text/javascript" src="plugins/scrollmouse/plugins-scroll.js"></script>
+<link type="text/css" rel="stylesheet" href="http://vuonxanhsasco.com/plugins/colorbox/example1/colorbox.css">
+<script type="text/javascript" src="http://vuonxanhsasco.com/plugins/colorbox/jquery.colorbox.js"></script>
+<link type="text/css" rel="stylesheet" href="plugins/mmenu/jquery.mmenu.all.css" />
+<script type="text/javascript" src="plugins/mmenu/jquery.mmenu.min.all.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuEyN_EsRK35ge2xQi25ijpom5sBwcPbo"></script>
+
+
+<script src="js/main.js"></script> <!-- Gem jQuery -->
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="css/scroll.css"> <!-- Gem style -->
+
+
+<link type="text/css" rel="stylesheet" href="plugins/slick/slick.css" />
+<link type="text/css" rel="stylesheet" href="plugins/slick/slick-theme.css" />
+<script type="text/javascript" src="plugins/slick/slick.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="plugins/customscrollbar/jquery.mCustomScrollbar.css"/>
+<script src="plugins/customscrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+    function initialize() {
+        var myLatlng = new google.maps.LatLng(10.810547, 106.664724);
+        var mapOptions = {
+            zoom: 17,
+            center: myLatlng
+        };
+
+        var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+        map.panBy(300, -60); 
+
+        var contentString = "<p style='line-height: 30px;'><span style='color: #333; text-transform: uppercase; font-family: Arial; font-weight: bold; color: #008800;'>CÔNG TY CỔ PHẦN PHÁT TRIỂN VƯỜN XANH</span><br><span style='color: #333; font-family: Arial;'>Địa chỉ: Tòa nhà SASCO, 45 Trường Sơn, P2, Q Tân Bình, Tp.HCM</span><br><span style='color: #333; font-family: Arial;'>Điện thoại: </span><br><span style='color: #333; font-family: Arial;'>Email: honglehoa78@yahoo.com</span></p>";
+
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: "CÔNG TY CỔ PHẦN PHÁT TRIỂN VƯỜN XANH"
+        });
+        infowindow.open(map, marker);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+
+</script>
+<script>
+		function smoothScrolling() { /*-------------------------------------------------*/
+		/* =  smooth scroll in chrome
+			/*-------------------------------------------------*/
+		  try {
+			$.browserSelector();
+			// Adds window smooth scroll on chrome.
+			if ($("html").hasClass("chrome")) {
+			  $.smoothScroll();
+			}
+		  } catch (err) {
+
+		  }
+
+		}
+		$(document).ready(function(){
+			smoothScrolling();
+			$(window).stellar({
+				horizontalScrolling: true,
+				verticalScrolling:  true, 
+				hideDistantElements: false
+			});
+		})
+	</script>
+<script type="text/javascript">
+$(document).ready(function(e) {
+    var nav = $('.bgss');
+    
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 145) {
+            nav.addClass("f-nav");
+            $('#tt-banner').css('display','none');
+            $('#tt-header').css('min-height','65px');
+        } else {
+            nav.removeClass("f-nav");
+            $('#tt-banner').css('display','block');
+            $('#tt-header').css('min-height','141px');
+        }
+    });
+
+    $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+
+    $('nav#menu').mmenu();
+    var nav_lang = false;
+    $('#tt-lang-mobile').click(function() {
+    	if(nav_lang==false){
+    		$('#tt-lang-show').stop().animate({
+				    opacity: 1,
+				    height: "70"
+				  }, 1000);
+    		nav_lang=true;
+    	}else{
+    		$('#tt-lang-show').stop().animate({
+				    opacity: 0,
+				    height: "0"
+				  }, 1000);
+    		nav_lang=false;
+    	}
+    });
+});
+</script>
+
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5&appId=152550928441139";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<h1 class="the"></h1>
+<div id="tt-full">
+	<div id="tt-wrapper">
+		<section id="tt-header" class="bgss">
+			<div id="tt-banner">
+	<div class="container">
+		<div id="banner-left">
+			<a href="">
+				<img src="http://vuonxanhsasco.com/upload/hinhanh/logo-5404.png" alt="CÔNG TY CỔ PHẦN PHÁT TRIỂN VƯỜN XANH"/>
+			</a>
+		</div>
+		
+		<div id="banner-right">
+			<div class="tt-banner-top">
+				<div class="bannertop-left">
+					<a href="">
+						<img src="http://vuonxanhsasco.com/upload/hinhanh/banner-7610.png" alt="CÔNG TY CỔ PHẦN PHÁT TRIỂN VƯỜN XANH"/>
+					</a>
+				</div>
+				<div class="bannertop-right">
+<!-- 					<div class="lang">
+						<a href="ngon-ngu/vi.htm" title="Tiếng Việt"><img src="images/vi.png" alt="Tiếng Việt"></a>
+						<a href="ngon-ngu/en.htm" title="Tiếng Anh"><img src="images/en.png" alt="Tiếng Anh"></a>
+					</div> -->
+					<script type="text/javascript">
+		$(document).ready(function() {
+			var show_search = false;
+			$('.tt-btn-search').bind('click', function(evt) {
+				if(show_search == false){
+					$('.tt-showsearch').stop().animate({
+					    opacity: 1,
+					    width: "230"
+					  }, 1000);
+					$(this).addClass('click_search');
+					$('#keyword').val('');
+					document.getElementById("frm_header_search").reset();
+					show_search = true;
+				}else{
+					$('.tt-showsearch').stop().animate({
+					    opacity: 0,
+					    width: "0"
+					  }, 1000);
+					$(this).removeClass('click_search');
+					show_search = false;
+					onSearch(evt);
+				}
+			});
+			$('#keyword').keydown(function(evt) {
+			    if (evt.keyCode == 13) {
+			        onSearch(evt);
+			    }
+			 });
+		});
+	</script>
+<script type="text/javascript">
+	function onSearch(evt){
+		var keyword = $('#keyword').val();
+		if( keyword == ''){
+			return false;
+		}else{
+			var url = 'index.php?com=search&keyword='+keyword;
+	        window.location = url;
+	        return false;
+		}
+	}
+</script>
+<div id="search-form">
+    <form  id="frm_header_search" name="frm_header_search" method="get" onsubmit="return false;" action="index.php">
+	  <input type="text" name="keyword" id="keyword" class="element-search" value="" placeholder="Tìm kiếm sản phẩm">
+    </form>
+    <div class="btn" ></div>
+</div>
+<!-- #search -->
+					<div class="hotline">
+					<!-- 	<span> 0918956830</span>
+ -->					
+ 					<p>0918956830</p>
+ 					<p></p>
+ 					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+<div class="tt-menu" >
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#tt-nav li').hover(function(){
+			$(this).find('ul:first').css({visibility: "visible", display: "block"}).slideDown(500);	
+		}, function(){
+			$(this).find('ul:first').css({visibility: "hidden"}).hide(300);	
+		});
+	});
+</script>
+<div class="container">
+	<div class="menu">
+		<div id="tt-nav">
+			<ul>
+				<li class="active"><h2 class="transitionAll"><a href="http://vuonxanhsasco.com/" title="Trang chủ" class="">Trang chủ&nbsp;&nbsp;&nbsp;&nbsp;</a></h2></li>
+				<li class=""><h2 class="transitionAll"><a href="http://vuonxanhsasco.com/gioi-thieu.html" title="Giới thiệu" class="">Giới thiệu&nbsp;&nbsp;&nbsp;&nbsp;</a>
+											<ul>
+															<li><h2><a href="gioi-thieu/gioi-thieu"  title="GIỚI THIỆU">GIỚI THIỆU</a></h2></li>
+													</ul>
+									</h2></li>
+				<li class=""><h2 class="transitionAll"><a href="http://vuonxanhsasco.com/san-pham.html" title="Sản phẩm" class="">Sản phẩm&nbsp;&nbsp;&nbsp;</a></h2>
+										<ul>
+												<li>
+							<h2><a href="san-pham/cung-cap-cay-xanh" title="CUNG CẤP CÂY XANH">CUNG CẤP CÂY XANH</a></h2>
+														<ul>
+																<li><h2><a href="san-pham/cung-cap-cay-xanh/cay-de-ban" title="CÂY ĐỂ BÀN">CÂY ĐỂ BÀN</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/cung-cap-cay-xanh/cay-ngoai-that" title="CÂY NGOẠI THẤT">CÂY NGOẠI THẤT</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/cung-cap-cay-xanh/cay-noi-that" title="CÂY NỘI THẤT">CÂY NỘI THẤT</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/cung-cap-cay-xanh/cay-bonsai" title="CÂY BONSAI">CÂY BONSAI</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/cung-cap-cay-xanh/cay-choi-tet" title="CÂY CHƠI TẾT">CÂY CHƠI TẾT</a></h2>
+																	</li>
+															</ul>
+													</li>
+												<li>
+							<h2><a href="san-pham/hoa-tuoi" title="HOA TƯƠI">HOA TƯƠI</a></h2>
+														<ul>
+																<li><h2><a href="san-pham/hoa-tuoi/hoa-chuc-mung" title="HOA CHÚC MƯNG">HOA CHÚC MƯNG</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/hoa-tuoi/hoa-chia-buon" title="HOA CHIA BUỒN">HOA CHIA BUỒN</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/hoa-tuoi/hoa-su-kien" title="HOA SỰ KIỆN">HOA SỰ KIỆN</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/hoa-tuoi/hoa-cuoi" title="HOA CƯỚI">HOA CƯỚI</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/hoa-tuoi/dia-lan-nhap-khau" title="ĐỊA LAN NHẬP KHẨU">ĐỊA LAN NHẬP KHẨU</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/hoa-tuoi/lan-ho-diep-nhap-khau" title="LAN HỒ ĐIỆP NHẬP KHẨU">LAN HỒ ĐIỆP NHẬP KHẨU</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/hoa-tuoi/lan-mokara-nhap-khau" title="LAN MOKARA NHẬP KHẨU">LAN MOKARA NHẬP KHẨU</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/hoa-tuoi/lan-demo-nhap-khau" title="LAN DEMO NHẬP KHẨU">LAN DEMO NHẬP KHẨU</a></h2>
+																	</li>
+															</ul>
+													</li>
+												<li>
+							<h2><a href="san-pham/trai-cay" title="TRÁI CÂY">TRÁI CÂY</a></h2>
+														<ul>
+																<li><h2><a href="san-pham/trai-cay/trai-cay-nhap-khau" title="TRÁI CÂY NHẬP KHẨU">TRÁI CÂY NHẬP KHẨU</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/trai-cay/gio-trai-cay" title="GIỎ TRÁI CÂY">GIỎ TRÁI CÂY</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/trai-cay/trai-cay-trong-nuoc" title="TRÁI CÂY TRONG NƯỚC">TRÁI CÂY TRONG NƯỚC</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/trai-cay/trai-cay-dip-tet" title="TRÁI CÂY DỊP TẾT">TRÁI CÂY DỊP TẾT</a></h2>
+																	</li>
+															</ul>
+													</li>
+												<li>
+							<h2><a href="san-pham/banh-pia" title="BÁNH PÍA">BÁNH PÍA</a></h2>
+														<ul>
+																<li><h2><a href="san-pham/banh-pia/dac-san-ca-mau" title="ĐẶC SẢN CÀ MAU">ĐẶC SẢN CÀ MAU</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/banh-pia/dac-san-tien-giang" title="ĐẶC SẢN TIỀN GIANG">ĐẶC SẢN TIỀN GIANG</a></h2>
+																	</li>
+																<li><h2><a href="san-pham/banh-pia/dac-san-soc-trang" title="ĐẶC SẢN SÓC TRĂNG">ĐẶC SẢN SÓC TRĂNG</a></h2>
+																	</li>
+															</ul>
+													</li>
+											</ul>
+									</li>		
+
+		<!-- 		<li class=""><h2 class="transitionAll"><a href="http://vuonxanhsasco.com/cong-trinh-thiet-ke.html" title="Công trình thi công" class="">Công trình thi công</a></h2></li> -->
+				<li class=" an"><h2 class="transitionAll"><a href="http://vuonxanhsasco.com/dich-vu.html" title="Dịch vụ" class="">Dịch vụ &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h2></li>
+
+				<li class=" an"><h2 class="transitionAll"><a href="http://vuonxanhsasco.com/tin-tuc.html" title="Tin tức sự kiện" class="">Tin tức sự kiện</a></h2></li>
+				<li class=" an"><h2 class="transitionAll"><a href="http://vuonxanhsasco.com/tuyen-dung.html" title="Tuyển dụng" class="">Tuyển dụng</a></h2></li>
+				<li class=""><h2 class="transitionAll"><a href="http://vuonxanhsasco.com/lien-he.html" title="	&nbsp; Liên hệ " class="">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Liên hệ </a></h2></li>
+			</ul>
+		</div>
+		
+<!-- 		<div class="tt-search">
+			<div class="tt-btn-search">
+				
+			</div>
+			<div class="tt-showsearch">
+							</div>
+		</div> -->
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('li.active').prev().css('background','none');
+	});
+</script>	
+</div>
+		</section>
+		<section id="tt-slider">
+			<div id="tt-menu-mobile">
+	<a href="#menu"></a>
+</div>
+<nav id="menu" class="mm-menu mm-offcanvas">
+	<ul>
+		<li><a href="http://vuonxanhsasco.com/" title="Trang chủ">Trang chủ</a></li>
+		<li><a href="http://vuonxanhsasco.com/gioi-thieu.html" title="Giới thiệu">Giới thiệu</a></li>
+		<li><a href="http://vuonxanhsasco.com/san-pham.html" title="Sản phẩm">Sản phẩm</a>
+					</li>
+		<li><a href="http://vuonxanhsasco.com/dich-vu.html" title="Dịch vụ">Dịch vụ</a></li>
+		<li><a href="http://vuonxanhsasco.com/cong-trinh-thiet-ke.html" title="Công trình thi công">Công trình thi công</a></li>
+		<li><a href="http://vuonxanhsasco.com/bang-gia.html" title="Bảng giá">Bảng giá</a></li>
+		<li><a href="http://vuonxanhsasco.com/lien-he.html" title="Liên hệ">Liên hệ</a></li>
+	</ul>
+</nav>			<div id="tt-lang-mobile"></div>
+			<div id="tt-lang-show">
+				<a href="ngon-ngu/vi.htm" title="Tiếng Việt"><img src="images/vi.png" alt="Tiếng Việt"></a>
+				<a href="ngon-ngu/en.htm" title="Tiếng Anh"><img src="images/en.png" alt="Tiếng Anh"></a>
+			</div>
+			
+			<script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+    <!-- use jssor.slider.debug.js instead for debug -->
+
+<script>
+
+    jQuery(document).ready(function ($) {
+        var jssor_1_SlideshowTransitions = [
+              {$Duration:1000,$Opacity:2,$Brother:{$Duration:1500,$Opacity:2}}
+            ];
+        var _CaptionTransitions = [];
+        _CaptionTransitions["L"] = {$Duration:900,x:0.6,$Easing:{$Left:$JssorEasing$.$EaseInOutSine},$Opacity:2};
+        _CaptionTransitions["T"] = {$Duration:900,y:0.6,$Easing:{$Top:$JssorEasing$.$EaseInOutSine},$Opacity:2};
+        _CaptionTransitions["BL"] = {$Duration:900,x:0.6,y:-0.6,$Easing:{$Left:$JssorEasing$.$EaseInOutSine,$Top:$JssorEasing$.$EaseInOutSine},$Opacity:2};
+        _CaptionTransitions["B_C"] = {$Duration:900,y:-0.6,$Clip:3,$Easing:$JssorEasing$.$EaseInCubic,$Opacity:2};
+
+        var options = {
+            $AutoPlay: true, 
+            $AutoPlaySteps: 1, 
+            $AutoPlayInterval: 4000, 
+            $PauseOnHover: 1,
+            $ArrowKeyNavigation: true, 
+            $SlideDuration: 500, 
+            $MinDragOffsetToSlide: 20,
+            $SlideSpacing: 0,
+            $DisplayPieces: 1,
+            $ParkingPosition: 0, 
+            $UISearchMode: 1,   
+            $PlayOrientation: 1,
+            $DragOrientation: 3,   
+            $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+            $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlider$,
+                $Transitions: _CaptionTransitions,
+                $PlayInMode: 1,
+                $PlayOutMode: 3  
+              },
+
+            $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$, 
+                $ChanceToShow: 1,
+                $AutoCenter: 2, 
+                $Steps: 1
+            },
+
+            $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$, 
+                $ChanceToShow: 2,
+
+                $ActionMode: 1,
+                $AutoCenter: 3,
+                $Lanes: 1, 
+                $SpacingX: 3,
+                $SpacingY: 3,
+                $DisplayPieces: 9,
+                $ParkingPosition: 260,
+                $Orientation: 1, 
+                $DisableDrag: false
+            },
+           $BulletNavigatorOptions: {
+                  $Class: $JssorBulletNavigator$
+              }
+
+        };
+
+        var jssor_slider2 = new $JssorSlider$("slider2_container", options);
+        //responsive code begin
+        //you can remove responsive code if you don't want the slider scales while window resizes
+        function ScaleSlider() {
+            var parentWidth = jssor_slider2.$Elmt.parentNode.clientWidth;
+            if (parentWidth)
+                jssor_slider2.$ScaleWidth(Math.min(parentWidth, 870));
+            else
+                window.setTimeout(ScaleSlider, 30);
+        }
+        ScaleSlider();
+
+        $(window).bind("load", ScaleSlider);
+        $(window).bind("resize", ScaleSlider);
+        $(window).bind("orientationchange", ScaleSlider);
+        //responsive code end
+    });
+</script>
+<div id="tt-slider">
+  <div id="slider2_container" style="position: relative; width: 870px; height: 370px; overflow: hidden; visibility: visible; margin: 0 auto;">
+
+      <!-- Loading Screen -->
+    <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+        <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+            background-color: #000000; top: 0px; left: 0px;width: 100%;height:100%;">
+        </div>
+        <div style="position: absolute; display: block; background: url(images/loading.gif) no-repeat center center;
+            top: 0px; left: 0px;width: 100%;height:100%;">
+        </div>
+    </div>
+
+    <!-- Slides Container -->
+    <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 870px; height: 370px; overflow: hidden;">
+                <div>
+            <img u="image" src="upload/hinhanh/098959795292782_1366x628.jpg" />
+            <img u="thumb" src="upload/hinhanh/098959795292782_1366x628.jpg" />
+        </div>
+                <div>
+            <img u="image" src="upload/hinhanh/461216200610012_1366x628.jpg" />
+            <img u="thumb" src="upload/hinhanh/461216200610012_1366x628.jpg" />
+        </div>
+                <div>
+            <img u="image" src="upload/hinhanh/801675726373365_1366x628.jpg" />
+            <img u="thumb" src="upload/hinhanh/801675726373365_1366x628.jpg" />
+        </div>
+            </div>
+      
+     
+      <style>
+         /* jssor slider bullet navigator skin 05 css */
+            /*
+            .jssorb05 div           (normal)
+            .jssorb05 div:hover     (normal mouseover)
+            .jssorb05 .av           (active)
+            .jssorb05 .av:hover     (active mouseover)
+            .jssorb05 .dn           (mousedown)
+            */
+            .jssorb05 {
+                position: absolute;
+            }
+            .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+                position: absolute;
+                /* size of bullet elment */
+                width: 16px;
+                height: 16px;
+                background: url(images/b05.png) no-repeat;
+                overflow: hidden;
+                cursor: pointer;
+            }
+            .jssorb05 div { background-position: -7px -7px; }
+            .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+            .jssorb05 .av { background-position: -67px -7px; }
+            .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+
+          .jssora02l, .jssora02r {
+              display: block;
+              position: absolute;
+              /* size of arrow element */
+              width: 88px;
+              height: 88px;
+              cursor: pointer;
+              /*background: url(images/a02.png) no-repeat;*/
+              overflow: hidden;
+          }
+          .jssora02l { background-position: -3px -33px; }
+          .jssora02r { background-position: -63px -33px; }
+          .jssora02l:hover { background-position: -123px -33px; }
+          .jssora02r:hover { background-position: -183px -33px; }
+          .jssora02l.jssora02ldn { background-position: -3px -33px; }
+          .jssora02r.jssora02rdn { background-position: -63px -33px; }
+      </style>
+       <!-- bullet navigator container -->
+        <div u="navigator" class="jssorb05" style="bottom: 16px; right: 6px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div u="prototype"></div>
+        </div>
+
+
+      <span u="arrowleft" class="jssora02l" style="top: 123px; left: 8px;"><img src="images/prev.png" alt="Preview">
+      </span>
+     
+      <span u="arrowright" class="jssora02r" style="top: 123px; right: 8px;"><img src="images/next.png" alt="Next">
+      </span>
+   
+  </div>
+  <div class="slogan" >
+      Sức sống xanh - Fresh Fruit  </div>
+</div>
+
+
+<div class="hinhquangcao" >
+  <div class="chay-slick">
+              <a href="" ><img src="upload/hinhanh/404034771391339_475x465.jpg" title="hoa xinh"></a>
+              <a href="" ><img src="upload/hinhanh/002007514499563_475x465.jpg" title="A"></a>
+              <a href="https://www.youtube.com/watch?v=NwOHfjczNtg" ><img src="upload/hinhanh/003517995134268_475x465.jpg" title="sp2"></a>
+       
+    </div>
+</div>
+ <script type="text/javascript">
+  $(document).ready(function() {
+    $('.chay-slick').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      vertical:true, 
+      autoplay: true,
+      autoplaySpeed: 4000,
+      arrows:false
+    });
+  }); 
+</script> 
+
+
+			
+		</section>
+					<div class="gioithieu_top">
+				<div class="container" >
+	<div class="tieude-gioithieu" >
+		<h3>Giới Thiệu</h3>
+	</div>
+	<div class="desc-gioithieu" >
+		<div class="mota_gioithieu" >
+			Kính gửi Quý Khách Hàng!
+
+
+
+Công ty CP phát triển Vườn Xanh được hình thành từ phòng sản xuất kinh doanh trang trại của Công ty Dich vụ Hàng không sân bay Tân Sơn Nhất (Sasco).
+
+Nhằm mục đích phát triển Công ty lên tầm cao, phục vụ tốt hơn nữa nhu cầu ngày càng cao của xã hội về hoa, cây kiểng. Công ty CP Phát Triển Vườn Xanh ra đời nhằm đáp ứng nhu cầu tất yếu đó.		</div>
+		<div class="hinhanh_gioithieu" >
+			<img src="upload/baiviet/sasco8268-8518.jpg">
+		</div>
+	</div>
+	<div class="xemthem-gioithieu" > <a href="gioi-thieu.html">Xem thêm</a></div>
+</div>			</div>
+			<div class="sanpham-noibat">
+				<link rel="stylesheet" href="plugins/owl/owl.carousel.css">
+<script src="plugins/owl/owl.carousel.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+
+		$('.owl-carousel').owlCarousel({
+
+		    loop:true,
+		    margin:23,
+		    responsiveClass:true,
+		    autoplay: true,
+		    autoplayTimeout:1000,
+		    stopOnHover:true,
+		    responsive:{
+		        0:{
+		            items:2,
+		            nav:false
+		        },
+		        400:{
+		            items:2,
+		            nav:false
+		        },
+		        600:{
+		            items:3,
+		            nav:false
+		        },
+		        1000:{
+		            items:4,
+		            nav:false,
+		            loop:true
+		        }
+		    }
+		});
+	});		
+</script>
+
+<div class="tieude-spnoibat" >
+	<h3>Sản Phẩm Nổi Bật</h3>
+</div>
+<div class="canh-spnoibat">
+	<div class="owl-carousel caroll_sp">
+		<div class="item">
+		<div class="box_caroll_sp">
+			<div class="caroll_sp_img">
+				<a href="san-pham/413/dao-nhat-tan.html" title="ĐÀO NHẬT TÂN">
+					<img src="upload/product/d-8596_265x265.jpg" alt="ĐÀO NHẬT TÂN">
+				</a>
+			</div>
+			<div class="caroll_sp_title">
+				<h3><a href="san-pham/413/dao-nhat-tan.html" title="ĐÀO NHẬT TÂN">ĐÀO NHẬT TÂN</a></h3>
+			</div>
+			<div class="caroll_sp_desc">
+								<div class="caroll_sp_right">
+					<p class="price">Giá: Liên hệ</p>
+				</div>
+							</div>
+					</div>
+	</div>
+		<div class="item">
+		<div class="box_caroll_sp">
+			<div class="caroll_sp_img">
+				<a href="san-pham/412/mai-vang.html" title="MAI VÀNG">
+					<img src="upload/product/mv1-5946_265x265.jpg" alt="MAI VÀNG">
+				</a>
+			</div>
+			<div class="caroll_sp_title">
+				<h3><a href="san-pham/412/mai-vang.html" title="MAI VÀNG">MAI VÀNG</a></h3>
+			</div>
+			<div class="caroll_sp_desc">
+								<div class="caroll_sp_right">
+					<p class="price">Giá: Liên hệ</p>
+				</div>
+							</div>
+					</div>
+	</div>
+		<div class="item">
+		<div class="box_caroll_sp">
+			<div class="caroll_sp_img">
+				<a href="san-pham/528/xoai-cat-hoa-loc-loai-1.html" title="Xoài cát hòa lộc loại 1">
+					<img src="upload/product/xoaihl1-934_265x265.jpg" alt="Xoài cát hòa lộc loại 1">
+				</a>
+			</div>
+			<div class="caroll_sp_title">
+				<h3><a href="san-pham/528/xoai-cat-hoa-loc-loai-1.html" title="Xoài cát hòa lộc loại 1">Xoài cát hòa lộc loại 1</a></h3>
+			</div>
+			<div class="caroll_sp_desc">
+								<div class="caroll_sp_right">
+					<p class="price">Giá: 98.000 đ</p>
+				</div>
+							</div>
+					</div>
+	</div>
+		<div class="item">
+		<div class="box_caroll_sp">
+			<div class="caroll_sp_img">
+				<a href="san-pham/531/buoi-da-xanh-ben-tre.html" title="Bưởi da xanh Bến Tre">
+					<img src="upload/product/buoi-da-xanh-ben-tre-9700_265x265.jpg" alt="Bưởi da xanh Bến Tre">
+				</a>
+			</div>
+			<div class="caroll_sp_title">
+				<h3><a href="san-pham/531/buoi-da-xanh-ben-tre.html" title="Bưởi da xanh Bến Tre">Bưởi da xanh Bến Tre</a></h3>
+			</div>
+			<div class="caroll_sp_desc">
+								<div class="caroll_sp_right">
+					<p class="price">Giá: 85.000 đ</p>
+				</div>
+							</div>
+					</div>
+	</div>
+		<div class="item">
+		<div class="box_caroll_sp">
+			<div class="caroll_sp_img">
+				<a href="san-pham/554/hoang-kim-quasan-pham-moi.html" title="Hoàng Kim Quả(Sản phẩm mới)">
+					<img src="upload/product/hoang-kim-qua-4909_265x265.jpg" alt="Hoàng Kim Quả(Sản phẩm mới)">
+				</a>
+			</div>
+			<div class="caroll_sp_title">
+				<h3><a href="san-pham/554/hoang-kim-quasan-pham-moi.html" title="Hoàng Kim Quả(Sản phẩm mới)">Hoàng Kim Quả(Sản phẩm mới)</a></h3>
+			</div>
+			<div class="caroll_sp_desc">
+								<div class="caroll_sp_right">
+					<p class="price">Giá: Liên hệ</p>
+				</div>
+							</div>
+					</div>
+	</div>
+		<div class="item">
+		<div class="box_caroll_sp">
+			<div class="caroll_sp_img">
+				<a href="san-pham/555/oi-giong-dai-loan-ruot-hong.html" title="Ổi giống Đài Loan Ruột Hồng">
+					<img src="upload/product/oi1-5603_265x265.jpg" alt="Ổi giống Đài Loan Ruột Hồng">
+				</a>
+			</div>
+			<div class="caroll_sp_title">
+				<h3><a href="san-pham/555/oi-giong-dai-loan-ruot-hong.html" title="Ổi giống Đài Loan Ruột Hồng">Ổi giống Đài Loan Ruột Hồng</a></h3>
+			</div>
+			<div class="caroll_sp_desc">
+								<div class="caroll_sp_right">
+					<p class="price">Giá: 51.000 đ</p>
+				</div>
+							</div>
+					</div>
+	</div>
+		<div class="item">
+		<div class="box_caroll_sp">
+			<div class="caroll_sp_img">
+				<a href="san-pham/390/phat-tai-mehico.html" title="PHÁT TÀI MEHICO">
+					<img src="upload/product/pt1-1078_265x265.jpg" alt="PHÁT TÀI MEHICO">
+				</a>
+			</div>
+			<div class="caroll_sp_title">
+				<h3><a href="san-pham/390/phat-tai-mehico.html" title="PHÁT TÀI MEHICO">PHÁT TÀI MEHICO</a></h3>
+			</div>
+			<div class="caroll_sp_desc">
+								<div class="caroll_sp_right">
+					<p class="price">Giá: Liên hệ</p>
+				</div>
+							</div>
+					</div>
+	</div>
+		<div class="item">
+		<div class="box_caroll_sp">
+			<div class="caroll_sp_img">
+				<a href="san-pham/389/cay-may-man.html" title="CÂY MAY MẮN">
+					<img src="upload/product/tl3-5142_265x265.jpg" alt="CÂY MAY MẮN">
+				</a>
+			</div>
+			<div class="caroll_sp_title">
+				<h3><a href="san-pham/389/cay-may-man.html" title="CÂY MAY MẮN">CÂY MAY MẮN</a></h3>
+			</div>
+			<div class="caroll_sp_desc">
+								<div class="caroll_sp_right">
+					<p class="price">Giá: Liên hệ</p>
+				</div>
+							</div>
+					</div>
+	</div>
+	</div>
+</div>			</div>
+			<div class="danhmuc-sanpham">
+				<div class="canh-danhmuc">
+					<!-- <script src='js/jquery.kwicks.js' type='text/javascript'></script>
+<link rel='stylesheet' type='text/css' href='css/jquery.kwicks.css' />
+
+
+<div class="kwicks ">
+			<a href="san-pham/cung-cap-cay-xanh" title="danhmuc_menu[$i]['ten_'.$lang]" >
+			<div class="khung-hinhdm">
+				<img src="upload/product/mau11-598.jpg">
+				<div class=ten-dm >
+					<h3>CUNG CẤP CÂY XANH</h3>
+				</div>
+			</div>
+		</a>
+			<a href="san-pham/hoa-tuoi" title="danhmuc_menu[$i]['ten_'.$lang]" >
+			<div class="khung-hinhdm">
+				<img src="upload/product/dienhoatinhyeu-4464.jpg">
+				<div class=ten-dm >
+					<h3>HOA TƯƠI</h3>
+				</div>
+			</div>
+		</a>
+			<a href="san-pham/trai-cay" title="danhmuc_menu[$i]['ten_'.$lang]" >
+			<div class="khung-hinhdm">
+				<img src="upload/product/mua-ban-hoa-quahoc-tieng-trung-4719.jpg">
+				<div class=ten-dm >
+					<h3>TRÁI CÂY</h3>
+				</div>
+			</div>
+		</a>
+			<a href="san-pham/banh-pia" title="danhmuc_menu[$i]['ten_'.$lang]" >
+			<div class="khung-hinhdm">
+				<img src="upload/product/binhtra-rrrr-9756.jpg">
+				<div class=ten-dm >
+					<h3>BÁNH PÍA</h3>
+				</div>
+			</div>
+		</a>
+	</div>
+
+<script type='text/javascript'>
+	$(function() {
+		$('.kwicks').kwicks({
+			maxSize : '30%',
+			spacing : 0,
+			behavior: 'menu'
+		});
+	});
+</script>  -->
+<div class="canh-danhmuclist">
+	<div class="tieude-danhmuc" >
+		<h3>Danh Mục</h3>
+	</div>
+	<div class="menu-dinh">
+		<ul>
+		 			  		<li style="background: url(upload/product/mau11-598.jpg)no-repeat top center; background-size: auto 100%; ">
+		  			<h3><a href="san-pham/cung-cap-cay-xanh" title="danhmuc_menu[$i]['ten_'.$lang]" >CUNG CẤP CÂY XANH</a></h3>
+		  		</li>
+		  			  		<li style="background: url(upload/product/dienhoatinhyeu-4464.jpg)no-repeat top center; background-size: auto 100%; ">
+		  			<h3><a href="san-pham/hoa-tuoi" title="danhmuc_menu[$i]['ten_'.$lang]" >HOA TƯƠI</a></h3>
+		  		</li>
+		  			  		<li style="background: url(upload/product/mua-ban-hoa-quahoc-tieng-trung-4719.jpg)no-repeat top center; background-size: auto 100%; ">
+		  			<h3><a href="san-pham/trai-cay" title="danhmuc_menu[$i]['ten_'.$lang]" >TRÁI CÂY</a></h3>
+		  		</li>
+		  			  		<li style="background: url(upload/product/binhtra-rrrr-9756.jpg)no-repeat top center; background-size: auto 100%; ">
+		  			<h3><a href="san-pham/banh-pia" title="danhmuc_menu[$i]['ten_'.$lang]" >BÁNH PÍA</a></h3>
+		  		</li>
+		  			</ul>
+	</div>
+</div>
+				</div>
+			</div>
+			<div class="hinhanh-kinhnghiem">
+				<div class="canh-khunganh" > 	
+	<div class="hinhanh" >
+		<div class="tieude-hinnh" >
+			<h3 style="width: 370px;">Thư Viện Hình Ảnh</h3>
+		</div>
+
+		<div class="load-hinhanh" >
+			<div class="bxslider">
+				 
+					<div class="hinhanh-album" >
+						<img src="upload/album/vung-baupquoc-3748_265x275.jpg" alt="KHU DU LỊCH SINH THÁI BÀU CÁT - PHÚ QUỐC" >
+						<div class="ten-hinhanh" >
+							<h3><a href="thu-vien-anh/khu-du-lich-sinh-thai-bau-cat-phu-quoc" >KHU DU LỊCH SINH THÁI BÀU CÁT - PHÚ QUỐC</a></h3>
+						</div>
+					</div>
+				 
+					<div class="hinhanh-album" >
+						<img src="upload/album/suoi-hoadalat-3096_265x275.jpg" alt="KHU DU LỊCH SINH THÁI SUỐI HOA - ĐÀ LẠT" >
+						<div class="ten-hinhanh" >
+							<h3><a href="thu-vien-anh/khu-du-lich-sinh-thai-suoi-hoa-da-lat" >KHU DU LỊCH SINH THÁI SUỐI HOA - ĐÀ LẠT</a></h3>
+						</div>
+					</div>
+				 
+					<div class="hinhanh-album" >
+						<img src="upload/album/khu-dl-st-nghi-duong-camranh-3001_265x275.jpg" alt="KHU DU LỊCH SINH THÁI NGHỈ DƯỠNG CAM RANH - SASCO" >
+						<div class="ten-hinhanh" >
+							<h3><a href="thu-vien-anh/khu-du-lich-sinh-thai-nghi-duong-cam-ranh-sasco" >KHU DU LỊCH SINH THÁI NGHỈ DƯỠNG CAM RANH - SASCO</a></h3>
+						</div>
+					</div>
+				 
+					<div class="hinhanh-album" >
+						<img src="upload/album/nhon-trachdong-nai-729_265x275.jpg" alt="KHU CÔNG NGHIỆP NHƠN TRẠCH - ĐỒNG NAI" >
+						<div class="ten-hinhanh" >
+							<h3><a href="thu-vien-anh/khu-cong-nghiep-nhon-trach-dong-nai" >KHU CÔNG NGHIỆP NHƠN TRẠCH - ĐỒNG NAI</a></h3>
+						</div>
+					</div>
+				 
+					<div class="hinhanh-album" >
+						<img src="upload/album/khach-san-4-saonha-trang-9449_265x275.jpg" alt="KHÁCH SẠN 4 SAO NHA TRANG -KHÁNH HÒA" >
+						<div class="ten-hinhanh" >
+							<h3><a href="thu-vien-anh/khach-san-4-sao-nha-trang-khanh-hoa" >KHÁCH SẠN 4 SAO NHA TRANG -KHÁNH HÒA</a></h3>
+						</div>
+					</div>
+				 
+					<div class="hinhanh-album" >
+						<img src="upload/album/blue-lagoon-5130_265x275.jpg" alt="KHU NGHỈ DƯỠNG BLUE LAGOON SASCO" >
+						<div class="ten-hinhanh" >
+							<h3><a href="thu-vien-anh/khu-nghi-duong-blue-lagoon-sasco" >KHU NGHỈ DƯỠNG BLUE LAGOON SASCO</a></h3>
+						</div>
+					</div>
+				 
+					<div class="hinhanh-album" >
+						<img src="upload/album/13-2511_265x275.jpg" alt="KHÁCH SẠN 4 SAO - KIÊN GIANG" >
+						<div class="ten-hinhanh" >
+							<h3><a href="thu-vien-anh/khach-san-4-sao-kien-giang" >KHÁCH SẠN 4 SAO - KIÊN GIANG</a></h3>
+						</div>
+					</div>
+				 
+					<div class="hinhanh-album" >
+						<img src="upload/album/toanhatrungtamthuongmai-8182_265x275.jpg" alt="TÒA NHÀ TRUNG TÂM THƯƠNG MẠI VÀ VĂN PHÒNG SASCO - PHÚ NHUẬN" >
+						<div class="ten-hinhanh" >
+							<h3><a href="thu-vien-anh/toa-nha-trung-tam-thuong-mai-va-van-phong-sasco-phu-nhuan" >TÒA NHÀ TRUNG TÂM THƯƠNG MẠI VÀ VĂN PHÒNG SASCO - PHÚ NHUẬN</a></h3>
+						</div>
+					</div>
+				 
+					<div class="hinhanh-album" >
+						<img src="upload/album/9-5823_265x275.jpg" alt="CÔNG TY BEN MEYER - BÌNH DƯƠNG" >
+						<div class="ten-hinhanh" >
+							<h3><a href="thu-vien-anh/cong-ty-ben-meyer-binh-duong" >CÔNG TY BEN MEYER - BÌNH DƯƠNG</a></h3>
+						</div>
+					</div>
+							</div>
+		</div>
+	</div>
+	<div class="kinhnghiem" >
+		<div class="tieude-hinnh" >
+			<h3>Kinh Nghiệm</h3>
+		</div>
+	<!-- 	images/img-a.png -->
+		<div class="load-kinhnghiem" >
+			<div class="chay-kinhnghiem">
+									<p><img src="upload/baiviet/trai-cay-hh1-299.jpg" alt="icon li"><a href="kinh-nghiem/nhung-loai-trai-cay-tot-tu-vo-den-ruot-87.html" >Những loại trái cây tốt từ vỏ đến ruột </a></p>
+									<p><img src="upload/baiviet/traisorivanhungcongdungbatngodoivoisuckhoe3-3471.jpg" alt="icon li"><a href="kinh-nghiem/cong-dung-cua-trai-so-ri-86.html" >Công dụng của trái Sơ ri</a></p>
+									<p><img src="upload/baiviet/nhungnguoikhongnenansaurieng1t-9445.jpg" alt="icon li"><a href="kinh-nghiem/trai-cay-viet-nam-cach-chon-lua-the-nao-cho-ngon--82.html" >Trái cây Việt nam - Cách chọn lựa thế nào cho ngon ?</a></p>
+									<p><img src="upload/baiviet/cachchonbuoidaxanhngon2-196.jpg" alt="icon li"><a href="kinh-nghiem/bi-quyet-chon-cam-buoi-ngon-nhieu-nuoc-81.html" >Bí quyết chọn cam bưởi ngon, nhiều nước</a></p>
+									<p><img src="upload/baiviet/hongtimcalimero21-3831.jpg" alt="icon li"><a href="kinh-nghiem/hoc-10-cach-cam-hoa-co-ban-va-don-gian-nen-biet-66.html" >Học 10 cách cắm hoa cơ bản và đơn giản nên biết</a></p>
+									<p><img src="upload/baiviet/traubata0051-9426.jpg" alt="icon li"><a href="kinh-nghiem/mot-so-luu-y-khi-cham-soc-cay-canh-trong-nha-75.html" >Một số lưu ý khi chăm sóc cây cảnh trong nhà</a></p>
+							</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.bxslider').bxSlider({
+			slideWidth:265,
+			auto:true,
+			maxSlides:3,
+			minSlides:1,
+			moveSlides:1,
+			slideMargin:5,
+			pager:false,
+			responsive:true,
+			controls:false
+
+		});
+		$('.chay-kinhnghiem').bxSlider({
+			slideWidth:265,
+			auto:true,
+			maxSlides:10,
+			minSlides:10,
+			moveSlides:1,
+			slideMargin:5,
+			pager:false,
+			mode:'vertical',
+			responsive:true,
+			controls:false
+
+		});
+	});
+</script>
+			</div>
+			<div class="back-tin" >
+				<div class="tintuc-videoclip">
+					<div class="tintuc-video">
+	<div class="tin-tuc" >
+		<div class="tieude-tintuc" >
+			<h3>Tin tức & sự kiện</h3>
+		</div>
+		<div class="load-tintuc">
+							<div class="dong-tin">
+					<div class="hinhanh-tin" >
+						<a href="tin-tuc/cho-thue-mai-tet-84.html" ><img src="upload/baiviet/mai-vang-4-7566_345x255.jpg" title="Cho thuê mai tết "></a>
+					</div>
+					<div class="noidung-text">
+						<h3>Cho thuê mai tết </h3>
+						<p> nguyên đán. Khách hàng có thể lựa chọn và thuê mai tết đẹp để trang trí, trưng bày trong văn phòng công ty, sảnh tòa nhà, căn hộ, biệt thự hay chính ngôi nhà của mình với mức chi phí hợp lý nhất.</p>
+					</div>
+				</div>
+							<div class="dong-tin">
+					<div class="hinhanh-tin" >
+						<a href="tin-tuc/nhung-loi-ich-cua-cay-xanh-trong-phong-lam-viec-83.html" ><img src="upload/baiviet/ggg-1089_345x255.jpg" title="Những lợi ích của cây xanh trong phòng làm việc"></a>
+					</div>
+					<div class="noidung-text">
+						<h3>Những lợi ích của cây xanh trong phòng làm việc</h3>
+						<p>ong thực tế, nghiên cứu cho thấy cây xanh trong văn phòng có tác dụng giảm căng thẳng, giúp tinh thần sảng khoái và hưng phấn nên năng suất làm việc cũng cao hơn. Ngoài ra cây xanh văn phòng còn góp phần cải thiện chất lượng không khí.</p>
+					</div>
+				</div>
+							<div class="dong-tin">
+					<div class="hinhanh-tin" >
+						<a href="tin-tuc/7-loai-cay-de-ban-hut-buc-xa-may-tinh-cuc-tot-80.html" ><img src="upload/baiviet/chaucanhxuongrong-2201_345x255.jpg" title="7 loại cây để bàn hút bức xạ máy tính cực tốt "></a>
+					</div>
+					<div class="noidung-text">
+						<h3>7 loại cây để bàn hút bức xạ máy tính cực tốt </h3>
+						<p>g thẳng thần kinh, đau đầu, nhức mỏi mắt, khô da…khi sử dụng máy vi tính liên tục.</p>
+					</div>
+				</div>
+					</div>
+	</div>
+	<div class="video-load" >
+		<div class="tieude-tintuc" >
+			<h3>Video clip</h3>
+		</div>
+		<div class="load-video">
+				<div class="khung-video-load">
+					<div class="video_id">
+						<a class="youtube" id="video_youtube" href="http://www.youtube.com/embed/CjpeuK_s-zY?rel=0&amp;wmode=transparent&amp;autoplay=1" title="Làm sao cho hoa mai ra đúng dịp tết ?"><img id="img_youtube" style="width: 100%;max-height: 220px;
+						" src="upload/video/canhmaingaytet-63.jpg" alt="Làm sao cho hoa mai ra đúng dịp tết ?">
+							<div class="back-img">
+								
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="khung-select-video">	
+					<div class="khung-anh-chon" id="list_video">
+						<div class="chay-khung">
+														<div class="click-img" data-val="CjpeuK_s-zY|http://vuonxanhsasco.com/upload/video/canhmaingaytet-63_295x195.jpg">
+								<img src="upload/video/canhmaingaytet-63_295x195.jpg" alt="Làm sao cho hoa mai ra đúng dịp tết ?">
+								<div class="back-img1" ></div>
+							</div>
+														<div class="click-img" data-val="f_v4YMWkC-g|http://vuonxanhsasco.com/upload/video/mai-150-canh-9092_295x195.jpg">
+								<img src="upload/video/mai-150-canh-9092_295x195.jpg" alt="MAI VÀNG 150 CÁNH">
+								<div class="back-img1" ></div>
+							</div>
+													</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.load-tintuc').slick({
+		  slidesToShow: 2,
+		  slidesToScroll: 1,
+		  vertical:true, 
+		  autoplay: true,
+		  arrows:false
+
+		});
+
+		$('.chay-khung').slick({
+		  slidesToShow: 2,
+		  slidesToScroll: 1,
+		  vertical:true, 
+		  autoplay: true,
+		  arrows:false
+
+		});
+	});
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.click-img').click(function() {
+			var vals = $(this).attr('data-val');
+			var res = vals.split("|");
+			$('#video_youtube').attr('href', 'http://www.youtube.com/embed/' + res[0] + '?rel=0&amp;wmode=transparent&amp;autoplay=1');
+			$('#img_youtube').attr('src', res[1]);
+		});
+	});
+</script>				</div>
+			</div>
+			<div class="provider-index">
+				<script type="text/javascript">
+	$(document).ready(function() {
+		
+			$('.chay-doitac').slick({
+			slidesToShow: 5,
+			useCSS:true,
+			autoplay:true,
+			autospeed:2000,
+			arrows:true,
+			responsive: [
+			    {
+			      breakpoint: 769,
+			      settings: {
+			        arrows: true,
+			        slidesToShow: 3
+			      }
+			    },
+			    {
+			      breakpoint: 480,
+			      settings: {
+			        arrows: true,
+			        slidesToShow: 1
+			      }
+			    }
+			  ]
+			});
+	});	
+</script> 
+
+<div class="canh-giua-provider">
+	<div class="provider-desc">
+		<div class="chay-doitac">
+							<div>
+					<div class="item-doitac">
+						<div class="item-doitac-img">
+							<img src="upload/hinhanh/197091634874758_1366x628.jpg" alt="Công ty Dịch Vụ Hàng Không Sân Bay Tân Sơn Nhất (SASCO)">
+							<!-- <h3><a href="san-pham/-134.html">Công ty Dịch Vụ Hàng Không Sân Bay Tân Sơn Nhất (SASCO)</a></h3> -->
+						</div>
+					</div>
+				</div>
+							<div>
+					<div class="item-doitac">
+						<div class="item-doitac-img">
+							<img src="upload/hinhanh/468188875876227_1366x628.jpg" alt="Tổng Công ty Thương Mại Sài GÒn - TNHH MTV">
+							<!-- <h3><a href="san-pham/-133.html">Tổng Công ty Thương Mại Sài GÒn - TNHH MTV</a></h3> -->
+						</div>
+					</div>
+				</div>
+							<div>
+					<div class="item-doitac">
+						<div class="item-doitac-img">
+							<img src="upload/hinhanh/037847910497962_1366x628.jpg" alt="Công ty Cổ Phần Thương Mại Xăng Dầu Tân Sơn Nhất (TAPETCO)">
+							<!-- <h3><a href="san-pham/-35.html">Công ty Cổ Phần Thương Mại Xăng Dầu Tân Sơn Nhất (TAPETCO)</a></h3> -->
+						</div>
+					</div>
+				</div>
+							<div>
+					<div class="item-doitac">
+						<div class="item-doitac-img">
+							<img src="upload/hinhanh/819628516093725_1366x628.jpg" alt="Công ty Cổ Phần Tập Đoàn Trung Nguyên">
+							<!-- <h3><a href="san-pham/-34.html">Công ty Cổ Phần Tập Đoàn Trung Nguyên</a></h3> -->
+						</div>
+					</div>
+				</div>
+					</div>
+	</div>
+</div>			</div>
+				<!-- 		<section id="show_product_index">
+			<div class="container">
+				<div class="site-content">
+					<div class="tt-center">
+    <div class="tt-title">
+        <h2>Sản phẩm mới</h2>
+    </div>
+    <div class="tt-desc">
+        <div id="hien_sp">
+                        <div class="tt-product-item">
+                <div class="tt-product">
+                    <div class="tt-product-img">
+                        <a href="/310/cam-sanh.html" title="CAM SÀNH">
+                            <img src="upload/product/cam1-5482_265x265.jpg" alt="CAM SÀNH">
+                        </a>
+                    </div>
+                    <div class="tt-product-title">
+                        <h4><a href="/310/cam-sanh.html" title="CAM SÀNH">
+                            CAM SÀNH                        </a></h4>
+                    </div>
+                    
+                    <div class="tt-product-desc">
+                                              <p>
+                           Giá bán:<span class="price"> 50.000 VNĐ</span>
+                           <br>
+                           Giá cũ:<span class="price-old"> 60.000 VNĐ</span>
+                       </p>
+                                           </div>
+                </div>
+            </div>
+                    </div>
+        <div class="pagination"></div>
+    </div>
+</div>				</div>
+			</div>
+		</section> -->
+								<div class="hotro-tructuyen" >
+			<div class="canh-hotro-tructuyen" >	
+	<ul>
+		<li>
+			<h3>Hổ trợ trực tuyến</h3>
+			<div class="noidung" >
+				<p>Mrs Hoa:<span>0918956830</span></p>
+				<p>Yahoo:<a rel="nofollow" href="ymsgr:sendim?"> <img src="images/yahoo-online.png" alt="Hình onlune"> </a><img src="images/yahoo.png" alt="Hình Yahoo"></p>
+				<p>Skype:<a rel="nofollow" href="SKYPE:?CHAT"><img src="images/skyper-online.png" alt="Hình online"></a> <img src="images/sky.png" alt="Hình Skype"></p>
+				<p>Mail:honglehoa78@yahoo.com</p>
+			</div>
+		</li>
+		<li>
+			<h3>Đăng ký nhận tin</h3>
+			<p>Đăng ký để nhận thông tin từ Vườn Xanh. co.,ltd</p>
+			<p><script language="javascript">
+function js_submit5(){
+	if(isEmpty(document.getElementById('emailkhachhang'), 'Nhập email của bạn')){
+		document.getElementById('emailkhachhang').focus();
+		return false;
+	}
+		
+	if(!check_email(document.nhanemail.emailkhachhang.value)){
+		
+		alert('Email không hợp lệ');
+		document.nhanemail.emailkhachhang.focus();
+		return false;
+	}
+	
+	document.nhanemail.submit();
+}
+</script>
+
+<div id="header-mail">
+    <form name="nhanemail" id="nhanemail" method="post" action="index.php">
+        <input type="text" class="bgmail" name="emailkhachhang" id="emailkhachhang" placeholder="Nhập email để nhận tin..."/>
+        <input type="hidden" name="mail5" id="mail5" />
+        <input type="button" name="guimail5" id="guimail5" class="btn1" onclick="js_submit5()" value="Đăng ký"/>
+    </form>
+</div>
+<!-- #search --></p>
+		</li>
+		<li>
+			<h3 style="padding-top:50px;" >Liên kết website</h3>
+			<select name="" id="lienketqweb" onchange="window.open(this.value, this.value)">
+								<option value="http://www.sonongnghiep.hochiminhcity.gov.vn/">SỞ NÔNG NGHIỆP</option>
+								<option value="http://www.ppd.gov.vn/">Cục BVTV</option>
+								<option value="http://dantri.com.vn/">Dân Trí</option>
+								<option value="http://www.cayxanhtruclam.com/">Cây xanh đô thị</option>
+								<option value="http://www.gameviet.vn">Game</option>
+								<option value="http://www.google.com.vn">Google</option>
+							</select>
+		</li>
+		<li>
+			<h3>Thống Kê Truy Cập</h3>
+			<div class="thong-ke" >
+				<p><img src="images/online.png" alt="Hình thống kê">Đang online:3 </p>
+				<p><img src="images/tuan.png" alt="Hình thống kê">Truy cập tuần:850</p>
+				<p><img src="images/thang.png" alt="Hình thống kê">Truy cập tháng:4471</p>
+				<p><img src="images/tong.png" alt="Hình thống kê">Tổng truy cập:365828</p>
+			</div>
+		</li>
+	</ul>
+</div>		</div>
+		<div class="load-maps" >
+			<div id="map_canvas" style="width: 100%; height: 300px; margin-top: 10px; margin: 10px auto;">
+</div>			<div class="canh-fanpage" >
+				<div class="fanpage" >
+					<div class="fb-page" data-href="https://www.facebook.com/dangtin247/ " data-tabs="timeline" data-width="600" data-height="400"  data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/dangtin247/"><a href="https://www.facebook.com/dangtin247/">FOLLOW US FACEBOOK</a></blockquote></div></div>
+				</div>
+			</div>
+		</div>
+		<footer id="tt-footer">
+			<div class="container">
+	<div class="tt-sfooter">
+		<p>
+			<div class="tieude-footer">
+				<!-- <a target="_blank" href="http://nina.vn" title="Copyright &copy; 2016 CÔNG TY TNHH trang trí nội thất Tao Đàn. Design by Nina.vn "> -->Copyright &copy; 2016 by VƯỜN XANH.All rights reserved. Design by Nina <!-- </a> -->
+			</div>
+			<div class="mang-xahoi-footer">
+									<a href="https://www.facebook.com/kimvinh.kimvinh.79?fref=ts" title="Facebook">
+						<img src="upload/hinhanh/871349220560438.png" alt="Facebook" align="absmiddle">
+					</a>		
+									<a href="http://quatangbatngo.com/#theme/11/1/Làm+quen.html" title="google plus">
+						<img src="upload/hinhanh/420617301358796.png" alt="google plus" align="absmiddle">
+					</a>		
+									<a href="" title="Skyper">
+						<img src="upload/hinhanh/473730716794810.png" alt="Skyper" align="absmiddle">
+					</a>		
+									<a href="http://quatangbatngo.com/#theme/11/1/Làm+quen.html" title="Youtube">
+						<img src="upload/hinhanh/486684886927967.png" alt="Youtube" align="absmiddle">
+					</a>		
+									<a href="http://quatangbatngo.com/#theme/11/1/Làm+quen.html" title="Yahoo">
+						<img src="upload/hinhanh/304852805327470.png" alt="Yahoo" align="absmiddle">
+					</a>		
+							</div>
+		</p>
+	</div>
+</div>
+
+		</footer>
+	</div>
+</div>
+
+<a href="#0" class="cd-top"><img src="images/backto-top.png.png" alt="Scroll"></a>
+
+<div class="call-widget">
+  <link href="css/widget1.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+	.call-widget{    opacity: 0;
+    transition: all 0.6s;
+    position: relative;
+    bottom: 0px;}
+    .coccoc-alo-phone
+    {
+        bottom:10px;
+    	left: 20px;
+    	z-index: 2000000 !important;
+    }
+
+    .coccoc-alo-phone.coccoc-alo-green .coccoc-alo-ph-img-circle 
+    {
+        background-color: rgba(255, 255, 0, 0.62);
+    }
+
+    @media (max-width: 1230px) {
+        .coccoc-alo-phone
+        {
+            width: 180px;
+            height: 180px;
+            top: inherit;
+            right: inherit;
+            bottom: -50px !important;
+            left: -60px !important;
+        }
+        .call-widget{opacity: 1;transition: all 0.6s;}
+        .coccoc-alo-ph-circle 
+        {
+            width: 150px;
+            height: 150px;
+        }
+        .coccoc-alo-ph-circle-fill 
+        {
+            width: 90px;
+            height: 90px;
+        }
+        .coccoc-alo-ph-img-circle 
+        {
+            width: 50px;
+            height: 50px; 
+        }
+    }
+</style>
+	<a href="tel:0918956830">
+	    <div class="coccoc-alo-phone coccoc-alo-green coccoc-alo-show" id="coccoc-alo-phoneIcon">
+	        <div class="coccoc-alo-ph-circle"></div>
+	        <div class="coccoc-alo-ph-circle-fill"></div>
+	        <div class="coccoc-alo-ph-img-circle"></div>
+	    </div>
+	</a>
+</div>
+
+<script src="plugins/WOW-master/dist/wow.js"></script>
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+  </script>
+</body>
+</html>

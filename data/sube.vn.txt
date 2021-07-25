@@ -1,0 +1,1634 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="facebook-domain-verification" content="lx4ytmou43v1bfkkn6dkjrr433tzcj" />
+    <!-- META FOR FACEBOOK -->
+<meta content="1392259424196459" property="fb:app_id"/>
+<meta content="Trang chủ" property="og:site_name"/>
+<meta property="og:url" itemprop="url" content="https://sube.vn"/>
+<meta property="og:image" itemprop="thumbnailUrl" content="https://sube.vn/assets/backend/img/square-logo.jpg"/>
+<meta content="Sube Việt Nam | Kênh phân phối đồ gia dụng và phụ kiện điện thoại thông minh" itemprop="headline" property="og:title"/>
+<meta content="Phân phối sản phẩm nhập khẩu chính hãng thương hiệu Bear, Remax, WK Desing,... kenh mua sắm phụ kiện điện thoại, gia dụng nhà bếp giá tốt nhất thị trường!" itemprop="description" property="og:description"/>
+<meta content="product" property="og:type"/>
+<!-- END META FOR FACEBOOK -->
+<!-- Twitter Card -->
+<meta name="twitter:card" value="summary">
+<meta name="twitter:url" content="https://sube.vn">
+<meta name="twitter:title" content="Trang chủ">
+<meta name="twitter:description" content="Phân phối sản phẩm nhập khẩu chính hãng thương hiệu Bear, Remax, WK Desing,... kenh mua sắm phụ kiện điện thoại, gia dụng nhà bếp giá tốt nhất thị trường!">
+<meta name="twitter:image" content="https://sube.vn/assets/backend/img/square-logo.jpg"/>
+<meta name="twitter:site" content="Sube">
+<meta name="twitter:creator" content="BCTech">
+<!-- End Twitter Card -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://sube.vn/assets/favicon.ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="https://sube.vn/assets/favicon.ico/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://sube.vn/assets/favicon.ico/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://sube.vn/assets/favicon.ico/site.webmanifest">
+    <title>Trang chủ | Sube Việt Nam | Kênh phân phối đồ gia dụng và phụ kiện điện thoại thông minh</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://sube.vn/assets/frontend/html-web-sube/assets/css/bootstrap.min.css?v=1.3" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://sube.vn/assets/frontend/html-web-sube/assets/css/style.css?v=1.9" rel="stylesheet">
+    <link href="https://sube.vn/assets/frontend/html-web-sube/assets/izitoast/css/iziToast.min.css" rel="stylesheet">
+    <style type="text/css">.element{height:100%;position:fixed;width:100%;text-align:center;background:rgba(255,255,255,.4);z-index:999999999999999999999999999}.loading1{height:100px;position:relative;width:80px;display:inline-block;top:45%}.loading1>div{background-color:#FFF;height:30px;position:absolute;width:12px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;-webkit-transform:scale(.4);-moz-transform:scale(.4);-o-transform:scale(.4);-webkit-animation-name:loading1;-webkit-animation-duration:1.04s;-webkit-animation-iteration-count:infinite;-webkit-animation-direction:linear;-moz-animation-name:loading1;-moz-animation-duration:1.04s;-moz-animation-iteration-count:infinite;-moz-animation-direction:linear;-o-animation-name:loading1;-o-animation-duration:1.04s;-o-animation-iteration-count:infinite;-o-animation-direction:linear}.loading1>div:nth-child(1){left:0;top:36px;-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-o-transform:rotate(-90deg);-webkit-animation-delay:0.39s;-moz-animation-delay:0.39s;-o-animation-delay:0.39s}.loading1>div:nth-child(2){left:10px;top:13px;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);-webkit-animation-delay:0.52s;-moz-animation-delay:0.52s;-o-animation-delay:0.52s}.loading1>div:nth-child(3){left:34px;top:4px;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-webkit-animation-delay:0.65s;-moz-animation-delay:0.65s;-o-animation-delay:0.65s}.loading1>div:nth-child(4){right:10px;top:13px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);-webkit-animation-delay:0.78s;-moz-animation-delay:0.78s;-o-animation-delay:0.78s}.loading1>div:nth-child(5){right:0;top:36px;-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-o-transform:rotate(90deg);-webkit-animation-delay:0.91s;-moz-animation-delay:0.91s;-o-animation-delay:0.91s}.loading1>div:nth-child(6){right:10px;bottom:9px;-webkit-transform:rotate(135deg);-moz-transform:rotate(135deg);-o-transform:rotate(135deg);-webkit-animation-delay:1.04s;-moz-animation-delay:1.04s;-o-animation-delay:1.04s}.loading1>div:nth-child(7){bottom:0;left:34px;-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-o-transform:rotate(180deg);-webkit-animation-delay:1.17s;-moz-animation-delay:1.17s;-o-animation-delay:1.17s}.loading1>div:nth-child(8){left:10px;bottom:9px;-webkit-transform:rotate(-135deg);-moz-transform:rotate(-135deg);-o-transform:rotate(-135deg);-webkit-animation-delay:1.3s;-moz-animation-delay:1.3s;-o-animation-delay:1.3s}@-webkit-keyframes loading1{0%{background-color:#5D2F7B}100%{background-color:#FFF}}@-moz-keyframes loading1{0%{background-color:#5D2F7B}100%{background-color:#FFF}}@-o-keyframes loading1{0%{background-color:#5D2F7B}100%{background-color:#FFF}} .name-product-mb{font-size: 16px !important;font-weight: 400 !important;}.tag-freeship {font-size: 13px;}
+    </style>
+        <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '915744328985926');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=915744328985926&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+<body class="rs">
+    <div class="element" style="display: none;">
+        <div class="loading1">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="wrapper-home-sube">
+        <header>
+                        <a href="https://sube.vn/chuong-trinh-khuyen-mai.html" class="img-top"><img src="https://sube.vn/assets/media/images/banners/below-slider/sale-ram-ro-do-bo-cuoi-nam_1614929015.png" class="w-100"></a>
+            <div class="top-header">
+                <div class="fixCen main-header">
+                    <a href="https://sube.vn" class="logo">Logo Sube</a>
+                    <div class="box-search">
+                        <form action="https://sube.vn/tim-kiem.html" method="GET" autocomplete="off">
+                            <input name="keyword" type="text" placeholder="Nhập tên sản phẩm" class="input-search" autocomplete="off">
+                            <button class="btn-search"></button>
+                        </form>
+                        <div class="lst-search">
+                        </div>
+                    </div>
+                    <div class="box-account-right d-flex align-items-center">
+                                                <a href="https://sube.vn/gio-hang/thong-tin-don-hang.html" class="d-flex align-items-center box-cart">Giỏ hàng <span class="img-cart"><span class="number-cart">0</span></span></a>
+                                                    <div href="javascript:void(0);" class="d-flex align-items-center box-account" id="btn-account">Tài khoản <span class="img-user"></span>
+                                <div class="box-login" id="popup-login">
+                                    <a href="#pills-login" class="btn-login" data-toggle="modal" data-target="#popup-login23">Đăng nhập</a>
+                                    <a href="#pills-register" class="btn-login" data-toggle="modal" data-target="#popup-login23">Đăng ký</a>
+                                    <a href="https://sube.vn/google" class="btn-gg-login"><span class="icon"></span><span class="name-login">Đăng nhập bằng Google</span></a>
+                                    <a href="https://sube.vn/facebook" class="btn-fb-login"><span class="icon"></span><span class="name-login">Đăng nhập bằng Facebook</span></a>
+                                    
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </header>
+                <main class="fixCen">
+            <div class="box-top-main mb-30">
+    <div class="block-carousel">
+        <div class="owl-slider">
+            <div id="carousel" class="owl-carousel">
+                                    <div class="item">
+                        <a href="https://www.facebook.com/bearvietnam.vn/posts/341097794205585">
+                            <img class="owl-lazy" data-src="https://sube.vn/assets/media/images/sliders/khuyen-mai-bear-t7-tong-hop_01_07_2021.png" alt="Khuyến mãi Bear T7 tổng hợp">
+                        </a>
+                    </div>
+                                    <div class="item">
+                        <a href="https://www.facebook.com/bearvietnam.vn/posts/341570434158321">
+                            <img class="owl-lazy" data-src="https://sube.vn/assets/media/images/sliders/may-tron-bot-bear-t7_01_07_2021.png" alt="Máy trộn bột Bear T7">
+                        </a>
+                    </div>
+                            </div>
+        </div>
+    </div>
+    <div class="block-product">
+                            <a href="https://sube.vn/may-hut-chan-khong-bear-fkj-a01f1-589.html" title="banner giảm 15%"><img title="banner giảm 15%" alt="banner giảm 15%" src="https://sube.vn/assets/media/images/banners/below-slider/banner-giam-15_1625216324.png"/></a>
+                            <a href="https://sube.vn/noi-com-dien-thong-minh-bear-sube015-dfb-b20a1-709.html" title="15%"><img title="15%" alt="15%" src="https://sube.vn/assets/media/images/banners/below-slider/15_1625216140.png"/></a>
+            </div>
+</div>
+
+<div class="box-menu-home mb-30">
+    <h3 class="rs title-menu" style="font-size: 18px;">Danh mục</h3>
+    <div class="list-menu-home">
+                    <a href="https://sube.vn/danh-muc/gia-dung-nha-bep-1.html" class="item-menu">
+                <span class="icon-menu"><img class="w-100" src="https://sube.vn/assets/media/images/product_categories/cat-gia-dung-nha-bep_1607935960.png"></span>
+                <span class="menu-name" style="text-transform: none;">Gia dụng <br />
+nhà bếp</span>
+            </a>
+                    <a href="https://sube.vn/danh-muc/phu-kien-dien-thoai-2.html" class="item-menu">
+                <span class="icon-menu"><img class="w-100" src="https://sube.vn/assets/media/images/product_categories/phu-kien-dien-thoai_1604038263.png"></span>
+                <span class="menu-name" style="text-transform: none;">Phụ kiện <br />
+điện thoại</span>
+            </a>
+                    <a href="https://sube.vn/danh-muc/nha-cua-doi-song-3.html" class="item-menu">
+                <span class="icon-menu"><img class="w-100" src="https://sube.vn/assets/media/images/product_categories/nha-cua-doi-song_1604038256.png"></span>
+                <span class="menu-name" style="text-transform: none;">Nhà cửa <br />
+đời sống</span>
+            </a>
+                    <a href="https://sube.vn/danh-muc/do-choi-cong-nghe-4.html" class="item-menu">
+                <span class="icon-menu"><img class="w-100" src="https://sube.vn/assets/media/images/product_categories/do-choi-cong-nghe_1604038249.png"></span>
+                <span class="menu-name" style="text-transform: none;">Đồ chơi <br />
+công nghệ</span>
+            </a>
+                    <a href="https://sube.vn/danh-muc/phu-kien-o-to-5.html" class="item-menu">
+                <span class="icon-menu"><img class="w-100" src="https://sube.vn/assets/media/images/product_categories/phu-kien-o-to_1604038224.png"></span>
+                <span class="menu-name" style="text-transform: none;">Phụ kiện <br />
+ô tô</span>
+            </a>
+                    <a href="https://sube.vn/danh-muc/suc-khoe-va-lam-dep-6.html" class="item-menu">
+                <span class="icon-menu"><img class="w-100" src="https://sube.vn/assets/media/images/product_categories/suc-khoe-va-lam-dep_1604038206.png"></span>
+                <span class="menu-name" style="text-transform: none;">Sức khỏe và <br />
+làm đẹp</span>
+            </a>
+            </div>
+</div>
+<div class="banner">
+                <a href="https://sube.vn/thuong-hieu/bear-2.html" title=""><img alt="" title="" class="w-100" src="https://sube.vn/assets/media/images/banners/below-slider/gia-dung-thong-minh_1614928992.png"/></a>
+    </div>
+    <div class="box-product mb-30 product-vew-top">
+        <div class="title-top">
+            <h3 class="rs title-menu" style="font-size: 18px; font-weight: bold; text-transform: uppercase; padding-left: 20px;">Được xem nhiều nhất</h3>
+                    </div>
+        <div class="list-product">
+                                                        <a href="https://sube.vn/danh-muc/tai-nghe-24.html" class="item" style1="width: 246px!important;">
+                    <div class="info-detail">
+                        <h6 class="rs">Tai nghe</h6>
+                        <p class="rs">28 sản phẩm</p>
+                    </div>
+                    <span class="img-product"><img src="https://sube.vn/assets/media/images/product_categories/cat-tai-nghe_1607938077.jpg"/></span>
+                </a>
+                                            <a href="https://sube.vn/danh-muc/loa-bluetooth-25.html" class="item" style1="width: 246px!important;">
+                    <div class="info-detail">
+                        <h6 class="rs">Loa Bluetooth</h6>
+                        <p class="rs">14 sản phẩm</p>
+                    </div>
+                    <span class="img-product"><img src="https://sube.vn/assets/media/images/product_categories/cat-loa-bluetooth_1608257301.png"/></span>
+                </a>
+                                            <a href="https://sube.vn/danh-muc/cu-sac-22.html" class="item" style1="width: 246px!important;">
+                    <div class="info-detail">
+                        <h6 class="rs">Củ sạc</h6>
+                        <p class="rs">16 sản phẩm</p>
+                    </div>
+                    <span class="img-product"><img src="https://sube.vn/assets/media/images/product_categories/cat-cu-sac_1608257234.png"/></span>
+                </a>
+                                            <a href="https://sube.vn/danh-muc/cap-sac-21.html" class="item" style1="width: 246px!important;">
+                    <div class="info-detail">
+                        <h6 class="rs">Cáp sạc</h6>
+                        <p class="rs">24 sản phẩm</p>
+                    </div>
+                    <span class="img-product"><img src="https://sube.vn/assets/media/images/product_categories/cat-cap-sac_1608257152.png"/></span>
+                </a>
+                                            <a href="https://sube.vn/danh-muc/do-bep-thong-minh-12.html" class="item" style1="width: 246px!important;">
+                    <div class="info-detail">
+                        <h6 class="rs">Đồ bếp thông minh</h6>
+                        <p class="rs">4 sản phẩm</p>
+                    </div>
+                    <span class="img-product"><img src="https://sube.vn/assets/media/images/product_categories/cat-do-bep-thong-minh_1608257000.png"/></span>
+                </a>
+                                    </div>
+    </div>
+    <div class="box-product mb-30 product-bd10">
+        <div class="title-top">
+            <h3 class="rs title-menu" style="font-size: 18px; font-weight: bold; text-transform: uppercase; padding-left: 20px;">Sản phẩm bán chạy</h3>
+            <ul class="nav nav-pills nav-filter-product" id="pills-tab" role="tablist">
+                                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-new-tab" data-toggle="pill" href="#pills-new" role="tab" aria-controls="pills-new" aria-selected="true">Mới nhất</a>
+                    </li>
+                                                    <li class="nav-item">
+                        <a class="nav-link " id="pills-sale-tab" data-toggle="pill" href="#pills-sale" role="tab" aria-controls="pills-sale" aria-selected="false">Bán chạy</a>
+                    </li>
+                            </ul>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-new" role="tabpanel" aria-labelledby="pills-new-tab">
+                <div class="lst-product-item">
+                                                                    <a href="https://sube.vn/may-tron-bot-5l-bear-dm-b50v1-hmj-a50b1-762.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/may-tron-bot-5l-bear-dm-b50v1-hmj-a50b1_14062021.png" alt="Máy trộn bột 5L Bear DM-B50V1 (HMJ-A50B1)">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Máy trộn bột 5L Bear DM-B50V1 (HMJ-A50B1)
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">1,890,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                            </span>
+                                    <span>Đã bán 11</span>
+                                </span>
+                            </span>
+                        </a>
+                                                                    <a href="https://sube.vn/may-pha-ca-phe-bear-kfj-a15l1-cf-b15v1-764.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/may-pha-ca-phe-bear-kfj-a15l1-cf-b15v1_26062021.png" alt="Máy pha cà phê Bear KFJ-A15L1 (CF-B15V1)">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Máy pha cà phê Bear KFJ-A15L1 (CF-B15V1)
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">2,990,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                            </span>
+                                    <span>Đã bán 8</span>
+                                </span>
+                            </span>
+                        </a>
+                                                                    <a href="https://sube.vn/noi-lau-uyen-uong-bear-sube006-quoc-te-533.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/noi-lau-uyen-uong-bear-sube006-quoc-te_1610350707.jpg" alt="Nồi lẩu uyên ương Bear SUBE006 (Quốc Tế)">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Nồi lẩu uyên ương Bear SUBE006 (Quốc Tế)
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">1,090,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart active"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                                    <i></i>
+                                                                                    <i></i>
+                                                                                    <i></i>
+                                                                                    <i></i>
+                                                                                    <i></i>
+                                                                            </span>
+                                    <span>Đã bán 77</span>
+                                </span>
+                            </span>
+                        </a>
+                                                                    <a href="https://sube.vn/noi-lau-uyen-uong-bear-dhg-b60r6-95.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/noi-lau-uyen-uong-bear-dhg-b60r6_03122020.jpg" alt="Nồi lẩu uyên ương Bear DHG-B60R6">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Nồi lẩu uyên ương Bear DHG-B60R6
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">1,090,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart active"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                            </span>
+                                    <span>Đã bán 34</span>
+                                </span>
+                            </span>
+                        </a>
+                                                                    <a href="https://sube.vn/may-vat-cam-bear-czj-a04b1-694.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/may-vat-cam-bear-czj-a04b1_10042021.jpg" alt="Máy vắt cam Bear CZJ-A04B1">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Máy vắt cam Bear CZJ-A04B1
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">499,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                            </span>
+                                    <span>Đã bán 53</span>
+                                </span>
+                            </span>
+                        </a>
+                                                                    <a href="https://sube.vn/binh-thuy-dien-thong-minh-bear-zdh-h30b1-ke-b30v1-763.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/binh-thuy-dien-thong-minh-bear-zdh-h30b1-ke-b30v1_14062021.jpg" alt="Bình thủy điện thông minh Bear ZDH-H30B1 (KE-B30V1)">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Bình thủy điện thông minh Bear ZDH-H30B1 (KE-B30V1)
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">1,390,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                            </span>
+                                    <span>Đã bán 11</span>
+                                </span>
+                            </span>
+                        </a>
+                                                                    <a href="https://sube.vn/may-kep-nuong-banh-da-nang-bear-dbc-p06n2-88.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/may-kep-nuong-banh-da-nang-bear-dbc-p06n2_03122020.jpg" alt="Máy kẹp nướng bánh đa năng Bear DBC-P06N2">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Máy kẹp nướng bánh đa năng Bear DBC-P06N2
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">790,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                            </span>
+                                    <span>Đã bán 80</span>
+                                </span>
+                            </span>
+                        </a>
+                                                                    <a href="https://sube.vn/ban-chai-danh-rang-chu-u-remax-gh-05-742.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/ban-chai-danh-rang-chu-u-remax-gh-05_01062021.jpg" alt="Bàn chải đánh răng chữ U Remax GH-05">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Bàn chải đánh răng chữ U Remax GH-05
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">690,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart active"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                            </span>
+                                    <span>Đã bán 16</span>
+                                </span>
+                            </span>
+                        </a>
+                                                                    <a href="https://sube.vn/may-massage-cam-tay-remax-gh-04-655.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/may-massage-cam-tay-remax-gh-04_1614822377.jpg" alt="Máy Massage Cầm Tay Remax GH-04">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Máy Massage Cầm Tay Remax GH-04
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">1,800,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                            </span>
+                                    <span>Đã bán 1</span>
+                                </span>
+                            </span>
+                        </a>
+                                                                    <a href="https://sube.vn/may-pha-ca-phe-espresso-bear-cf-b02v1-kfj-a02n1-92.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/may-pha-ca-phe-espresso-bear-cf-b02v1-kfj-a02n1_1624613298.png" alt="Máy pha cà phê Espresso Bear CF-B02V1 (KFJ-A02N1)">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Máy pha cà phê Espresso Bear CF-B02V1 (KFJ-A02N1)
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">1,390,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart active"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                            </span>
+                                    <span>Đã bán 2</span>
+                                </span>
+                            </span>
+                        </a>
+                                                                    <a href="https://sube.vn/de-ham-nong-kem-coc-bear-drbd-a16b1-648.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/de-ham-nong-kem-coc-bear-drbd-a16b1_05022021.jpg" alt="Đế Hâm Nóng Kèm Cốc Bear DRBD-A16B1">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Đế Hâm Nóng Kèm Cốc Bear DRBD-A16B1
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">500,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                            </span>
+                                    <span>Đã bán 67</span>
+                                </span>
+                            </span>
+                        </a>
+                                                                    <a href="https://sube.vn/cu-sac-1usb-21a-remax-rp-u110-328.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/cu-sac-1usb-21a-remax-rp-u110_09122020.jpg" alt="Củ Sạc 1USB 2.1A Remax RP-U110">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Củ Sạc 1USB 2.1A Remax RP-U110
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">150,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                            </span>
+                                    <span>Đã bán 8</span>
+                                </span>
+                            </span>
+                        </a>
+                                                                    <a href="https://sube.vn/cu-sac-nhanh-pd-remax-rp-u70-659.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/cu-sac-nhanh-pd-remax-rp-70_08022021.jpg" alt="Củ sạc nhanh PD Remax RP-U70">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Củ sạc nhanh PD Remax RP-U70
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">250,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                            </span>
+                                    <span>Đã bán 11</span>
+                                </span>
+                            </span>
+                        </a>
+                                                                    <a href="https://sube.vn/may-pha-tra-bear-sube011-ysh-c15q5-93.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/may-pha-tra-bear-ysh-c15q5_03122020.jpg" alt="Máy Pha Trà Bear SUBE011 (YSH-C15Q5)">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Máy Pha Trà Bear SUBE011 (YSH-C15Q5)
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">1,090,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                            </span>
+                                    <span>Đã bán 13</span>
+                                </span>
+                            </span>
+                        </a>
+                                                                    <a href="https://sube.vn/loa-bluetooth-keo-ngoai-troi-remax-rb-x3-281.html" class="item-product">
+                            <span class="thumb-product">
+                                <img src="https://sube.vn/assets/media/images/products/loa-bluetooth-keo-ngoai-troi-remax-rb-x3_08122020.jpg" alt="Loa Bluetooth kéo ngoài trời Remax RB-X3">
+                                                                                                                            </span>
+                            <h4 class="rs name-product-mb">
+                                Loa Bluetooth kéo ngoài trời Remax RB-X3
+                            </h4>
+                            <div class="box-price">
+                                <div class="d-flex align-items-center justify-content-between">
+                                                                                                                        <span class="new-price">1,950,000 đ</span>
+                                                                                                            </div>
+                                                            </div>
+                            <span class="bottom-react">
+                                                                    <button class="icon-heart"></button>
+                                                                <span class="rate">
+                                    <span class="box-rate">
+                                                                            </span>
+                                    <span>Đã bán 0</span>
+                                </span>
+                            </span>
+                        </a>
+                                    </div>
+                <a href="https://sube.vn/san-pham-ban-chay.html" class="btn-xemthem-lst button-color-default">Xem thêm</a>
+            </div>
+                                        <div class="tab-pane fade " id="pills-sale" role="tabpanel" aria-labelledby="pills-sale-tab">
+                    <div class="lst-product-item">
+                                                                                <a href="https://sube.vn/noi-lau-uyen-uong-bear-sube006-quoc-te-533.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/noi-lau-uyen-uong-bear-sube006-quoc-te_1610350707.jpg" alt="Nồi lẩu uyên ương Bear SUBE006 (Quốc Tế)">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Nồi lẩu uyên ương Bear SUBE006 (Quốc Tế)
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">1,090,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart active"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                            <i></i>
+                                                                                            <i></i>
+                                                                                            <i></i>
+                                                                                            <i></i>
+                                                                                            <i></i>
+                                                                                    </span>
+                                        <span>Đã bán 77</span>
+                                    </span>
+                                </span>
+                            </a>
+                                                                                <a href="https://sube.vn/noi-lau-uyen-uong-bear-dhg-b60r6-95.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/noi-lau-uyen-uong-bear-dhg-b60r6_03122020.jpg" alt="Nồi lẩu uyên ương Bear DHG-B60R6">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Nồi lẩu uyên ương Bear DHG-B60R6
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">1,090,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart active"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                    </span>
+                                        <span>Đã bán 34</span>
+                                    </span>
+                                </span>
+                            </a>
+                                                                                <a href="https://sube.vn/may-vat-cam-bear-czj-a04b1-694.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/may-vat-cam-bear-czj-a04b1_10042021.jpg" alt="Máy vắt cam Bear CZJ-A04B1">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Máy vắt cam Bear CZJ-A04B1
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">499,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                    </span>
+                                        <span>Đã bán 53</span>
+                                    </span>
+                                </span>
+                            </a>
+                                                                                <a href="https://sube.vn/binh-thuy-dien-thong-minh-bear-zdh-h30b1-ke-b30v1-763.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/binh-thuy-dien-thong-minh-bear-zdh-h30b1-ke-b30v1_14062021.jpg" alt="Bình thủy điện thông minh Bear ZDH-H30B1 (KE-B30V1)">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Bình thủy điện thông minh Bear ZDH-H30B1 (KE-B30V1)
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">1,390,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                    </span>
+                                        <span>Đã bán 11</span>
+                                    </span>
+                                </span>
+                            </a>
+                                                                                <a href="https://sube.vn/may-kep-nuong-banh-da-nang-bear-dbc-p06n2-88.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/may-kep-nuong-banh-da-nang-bear-dbc-p06n2_03122020.jpg" alt="Máy kẹp nướng bánh đa năng Bear DBC-P06N2">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Máy kẹp nướng bánh đa năng Bear DBC-P06N2
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">790,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                    </span>
+                                        <span>Đã bán 80</span>
+                                    </span>
+                                </span>
+                            </a>
+                                                                                <a href="https://sube.vn/ban-chai-danh-rang-chu-u-remax-gh-05-742.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/ban-chai-danh-rang-chu-u-remax-gh-05_01062021.jpg" alt="Bàn chải đánh răng chữ U Remax GH-05">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Bàn chải đánh răng chữ U Remax GH-05
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">690,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart active"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                    </span>
+                                        <span>Đã bán 16</span>
+                                    </span>
+                                </span>
+                            </a>
+                                                                                <a href="https://sube.vn/may-massage-cam-tay-remax-gh-04-655.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/may-massage-cam-tay-remax-gh-04_1614822377.jpg" alt="Máy Massage Cầm Tay Remax GH-04">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Máy Massage Cầm Tay Remax GH-04
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">1,800,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                    </span>
+                                        <span>Đã bán 1</span>
+                                    </span>
+                                </span>
+                            </a>
+                                                                                <a href="https://sube.vn/may-pha-ca-phe-espresso-bear-cf-b02v1-kfj-a02n1-92.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/may-pha-ca-phe-espresso-bear-cf-b02v1-kfj-a02n1_1624613298.png" alt="Máy pha cà phê Espresso Bear CF-B02V1 (KFJ-A02N1)">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Máy pha cà phê Espresso Bear CF-B02V1 (KFJ-A02N1)
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">1,390,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart active"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                    </span>
+                                        <span>Đã bán 2</span>
+                                    </span>
+                                </span>
+                            </a>
+                                                                                <a href="https://sube.vn/de-ham-nong-kem-coc-bear-drbd-a16b1-648.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/de-ham-nong-kem-coc-bear-drbd-a16b1_05022021.jpg" alt="Đế Hâm Nóng Kèm Cốc Bear DRBD-A16B1">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Đế Hâm Nóng Kèm Cốc Bear DRBD-A16B1
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">500,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                    </span>
+                                        <span>Đã bán 67</span>
+                                    </span>
+                                </span>
+                            </a>
+                                                                                <a href="https://sube.vn/cu-sac-nhanh-pd-remax-rp-u70-659.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/cu-sac-nhanh-pd-remax-rp-70_08022021.jpg" alt="Củ sạc nhanh PD Remax RP-U70">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Củ sạc nhanh PD Remax RP-U70
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">250,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                    </span>
+                                        <span>Đã bán 11</span>
+                                    </span>
+                                </span>
+                            </a>
+                                                                                <a href="https://sube.vn/cu-sac-1usb-21a-remax-rp-u110-328.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/cu-sac-1usb-21a-remax-rp-u110_09122020.jpg" alt="Củ Sạc 1USB 2.1A Remax RP-U110">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Củ Sạc 1USB 2.1A Remax RP-U110
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">150,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                    </span>
+                                        <span>Đã bán 8</span>
+                                    </span>
+                                </span>
+                            </a>
+                                                                                <a href="https://sube.vn/may-pha-tra-bear-sube011-ysh-c15q5-93.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/may-pha-tra-bear-ysh-c15q5_03122020.jpg" alt="Máy Pha Trà Bear SUBE011 (YSH-C15Q5)">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Máy Pha Trà Bear SUBE011 (YSH-C15Q5)
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">1,090,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                    </span>
+                                        <span>Đã bán 13</span>
+                                    </span>
+                                </span>
+                            </a>
+                                                                                <a href="https://sube.vn/loa-bluetooth-keo-ngoai-troi-remax-rb-x3-281.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/loa-bluetooth-keo-ngoai-troi-remax-rb-x3_08122020.jpg" alt="Loa Bluetooth kéo ngoài trời Remax RB-X3">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Loa Bluetooth kéo ngoài trời Remax RB-X3
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">1,950,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                    </span>
+                                        <span>Đã bán 0</span>
+                                    </span>
+                                </span>
+                            </a>
+                                                                                <a href="https://sube.vn/den-led-remax-rllt12-402.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/den-led-remax-rllt12_10122020.jpg" alt="Đèn Led Remax RLLT12">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Đèn Led Remax RLLT12
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">450,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                    </span>
+                                        <span>Đã bán 2</span>
+                                    </span>
+                                </span>
+                            </a>
+                                                                                <a href="https://sube.vn/loa-bluetooth-remax-rb-m33-290.html" class="item-product">
+                                <span class="thumb-product">
+                                    <img src="https://sube.vn/assets/media/images/products/loa-bluetooth-remax-rb-m33_08122020.jpg" alt="Loa Bluetooth Remax RB-M33">
+                                                                                                                                            </span>
+                                <h4 class="rs name-product-mb">
+                                    Loa Bluetooth Remax RB-M33
+                                </h4>
+                                <div class="box-price">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                                                                                                                    <span class="new-price">600,000 đ</span>
+                                                                                                                        </div>
+                                                                    </div>
+                                <span class="bottom-react">
+                                                                            <button class="icon-heart"></button>
+                                                                        <span class="rate">
+                                        <span class="box-rate">
+                                                                                    </span>
+                                        <span>Đã bán 0</span>
+                                    </span>
+                                </span>
+                            </a>
+                                            </div>
+                    
+                </div>
+                    </div>
+    </div>
+    <div class="box-product mb-30 product-bd10" style="margin-bottom: 50px;">
+        <div class="title-top">
+            <h3 class="rs title-menu" style="font-size: 18px; font-weight: bold; text-transform: uppercase; padding-left: 20px;">Dành cho bạn</h3>
+            
+        </div>
+        <div id="carousel-foryou" class="owl-carousel lst-product-item">
+                                            <a href="https://sube.vn/may-tron-bot-5l-bear-dm-b50v1-hmj-a50b1-762.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/may-tron-bot-5l-bear-dm-b50v1-hmj-a50b1_14062021.png" alt="Máy trộn bột 5L Bear DM-B50V1 (HMJ-A50B1)">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Máy trộn bột 5L Bear DM-B50V1 (HMJ-A50B1)
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">1,890,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                            </span>
+                            <span>Đã bán 11</span>
+                        </span>
+                    </span>
+                </a>
+                                            <a href="https://sube.vn/noi-lau-uyen-uong-bear-sube006-quoc-te-533.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/noi-lau-uyen-uong-bear-sube006-quoc-te_1610350707.jpg" alt="Nồi lẩu uyên ương Bear SUBE006 (Quốc Tế)">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Nồi lẩu uyên ương Bear SUBE006 (Quốc Tế)
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">1,090,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart active"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                                    <i></i>
+                                                                    <i></i>
+                                                                    <i></i>
+                                                                    <i></i>
+                                                                    <i></i>
+                                                            </span>
+                            <span>Đã bán 77</span>
+                        </span>
+                    </span>
+                </a>
+                                            <a href="https://sube.vn/noi-lau-uyen-uong-bear-dhg-b60r6-95.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/noi-lau-uyen-uong-bear-dhg-b60r6_03122020.jpg" alt="Nồi lẩu uyên ương Bear DHG-B60R6">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Nồi lẩu uyên ương Bear DHG-B60R6
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">1,090,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart active"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                            </span>
+                            <span>Đã bán 34</span>
+                        </span>
+                    </span>
+                </a>
+                                            <a href="https://sube.vn/may-vat-cam-bear-czj-a04b1-694.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/may-vat-cam-bear-czj-a04b1_10042021.jpg" alt="Máy vắt cam Bear CZJ-A04B1">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Máy vắt cam Bear CZJ-A04B1
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">499,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                            </span>
+                            <span>Đã bán 53</span>
+                        </span>
+                    </span>
+                </a>
+                                            <a href="https://sube.vn/binh-thuy-dien-thong-minh-bear-zdh-h30b1-ke-b30v1-763.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/binh-thuy-dien-thong-minh-bear-zdh-h30b1-ke-b30v1_14062021.jpg" alt="Bình thủy điện thông minh Bear ZDH-H30B1 (KE-B30V1)">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Bình thủy điện thông minh Bear ZDH-H30B1 (KE-B30V1)
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">1,390,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                            </span>
+                            <span>Đã bán 11</span>
+                        </span>
+                    </span>
+                </a>
+                                            <a href="https://sube.vn/ban-chai-danh-rang-chu-u-remax-gh-05-742.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/ban-chai-danh-rang-chu-u-remax-gh-05_01062021.jpg" alt="Bàn chải đánh răng chữ U Remax GH-05">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Bàn chải đánh răng chữ U Remax GH-05
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">690,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart active"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                            </span>
+                            <span>Đã bán 16</span>
+                        </span>
+                    </span>
+                </a>
+                                            <a href="https://sube.vn/may-kep-nuong-banh-da-nang-bear-dbc-p06n2-88.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/may-kep-nuong-banh-da-nang-bear-dbc-p06n2_03122020.jpg" alt="Máy kẹp nướng bánh đa năng Bear DBC-P06N2">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Máy kẹp nướng bánh đa năng Bear DBC-P06N2
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">790,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                            </span>
+                            <span>Đã bán 80</span>
+                        </span>
+                    </span>
+                </a>
+                                            <a href="https://sube.vn/may-massage-cam-tay-remax-gh-04-655.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/may-massage-cam-tay-remax-gh-04_1614822377.jpg" alt="Máy Massage Cầm Tay Remax GH-04">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Máy Massage Cầm Tay Remax GH-04
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">1,800,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                            </span>
+                            <span>Đã bán 1</span>
+                        </span>
+                    </span>
+                </a>
+                                            <a href="https://sube.vn/may-pha-ca-phe-espresso-bear-cf-b02v1-kfj-a02n1-92.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/may-pha-ca-phe-espresso-bear-cf-b02v1-kfj-a02n1_1624613298.png" alt="Máy pha cà phê Espresso Bear CF-B02V1 (KFJ-A02N1)">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Máy pha cà phê Espresso Bear CF-B02V1 (KFJ-A02N1)
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">1,390,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart active"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                            </span>
+                            <span>Đã bán 2</span>
+                        </span>
+                    </span>
+                </a>
+                                            <a href="https://sube.vn/de-ham-nong-kem-coc-bear-drbd-a16b1-648.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/de-ham-nong-kem-coc-bear-drbd-a16b1_05022021.jpg" alt="Đế Hâm Nóng Kèm Cốc Bear DRBD-A16B1">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Đế Hâm Nóng Kèm Cốc Bear DRBD-A16B1
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">500,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                            </span>
+                            <span>Đã bán 67</span>
+                        </span>
+                    </span>
+                </a>
+                                            <a href="https://sube.vn/cu-sac-nhanh-pd-remax-rp-u70-659.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/cu-sac-nhanh-pd-remax-rp-70_08022021.jpg" alt="Củ sạc nhanh PD Remax RP-U70">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Củ sạc nhanh PD Remax RP-U70
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">250,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                            </span>
+                            <span>Đã bán 11</span>
+                        </span>
+                    </span>
+                </a>
+                                            <a href="https://sube.vn/cu-sac-1usb-21a-remax-rp-u110-328.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/cu-sac-1usb-21a-remax-rp-u110_09122020.jpg" alt="Củ Sạc 1USB 2.1A Remax RP-U110">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Củ Sạc 1USB 2.1A Remax RP-U110
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">150,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                            </span>
+                            <span>Đã bán 8</span>
+                        </span>
+                    </span>
+                </a>
+                                            <a href="https://sube.vn/may-pha-tra-bear-sube011-ysh-c15q5-93.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/may-pha-tra-bear-ysh-c15q5_03122020.jpg" alt="Máy Pha Trà Bear SUBE011 (YSH-C15Q5)">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Máy Pha Trà Bear SUBE011 (YSH-C15Q5)
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">1,090,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                            </span>
+                            <span>Đã bán 13</span>
+                        </span>
+                    </span>
+                </a>
+                                            <a href="https://sube.vn/loa-bluetooth-keo-ngoai-troi-remax-rb-x3-281.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/loa-bluetooth-keo-ngoai-troi-remax-rb-x3_08122020.jpg" alt="Loa Bluetooth kéo ngoài trời Remax RB-X3">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Loa Bluetooth kéo ngoài trời Remax RB-X3
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">1,950,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                            </span>
+                            <span>Đã bán 0</span>
+                        </span>
+                    </span>
+                </a>
+                                            <a href="https://sube.vn/cu-sac-o-to-24a-remax-rcc-230-381.html" class="item-product">
+                    <span class="thumb-product">
+                        <img src="https://sube.vn/assets/media/images/products/cu-sac-o-to-24a-remax-rcc-230_09122020.jpg" alt="Củ sạc ô tô 2.4A Remax RCC-230">
+                                                                                            </span>
+                    <h4 class="rs name-product-mb">
+                        Củ sạc ô tô 2.4A Remax RCC-230
+                    </h4>
+                    <div class="box-price flex-column align-items-start">
+                        <div class="d-flex align-items-center justify-content-between">
+                                                                                                <span class="new-price">300,000 đ</span>
+                                                                
+                                                    </div>
+                                            </div>
+                    <span class="bottom-react">
+                                                    <button class="icon-heart"></button>
+                                                <span class="rate">
+                            <span class="box-rate">
+                                                            </span>
+                            <span>Đã bán 1</span>
+                        </span>
+                    </span>
+                </a>
+                    </div>
+    </div>
+<div class="banner">
+                <a href="https://sube.vn/thuong-hieu/remax-3.html" title=""><img alt="" title="" class="w-100" src="https://sube.vn/assets/media/images/banners/below-slider/sieu-pham-cong-nghe_1614928982.png"/></a>
+    </div>
+    <div class="box-product mb-30 product-vew-top">
+        <div class="title-top">
+            <h3 class="rs title-menu" style="font-size: 18px; font-weight: bold; text-transform: uppercase; padding-left: 20px;">Top thương hiệu</h3>
+        </div>
+        <div class="list-product owl-carousel" id="carousel-brand">
+                            <a href="https://sube.vn/thuong-hieu/bear-2.html" class="item" title="Bear">
+                    <img src="https://sube.vn/assets/media/images/brands/bear_1615258541.png" alt="Bear" />
+                </a>
+                            <a href="https://sube.vn/thuong-hieu/wk-design-4.html" class="item" title="WK Design">
+                    <img src="https://sube.vn/assets/media/images/brands/wk-design_1604396610.jpg" alt="WK Design" />
+                </a>
+                            <a href="https://sube.vn/thuong-hieu/remax-life-5.html" class="item" title="Remax Life">
+                    <img src="https://sube.vn/assets/media/images/brands/remax-life_1604396625.jpg" alt="Remax Life" />
+                </a>
+                            <a href="https://sube.vn/thuong-hieu/remax-3.html" class="item" title="Remax">
+                    <img src="https://sube.vn/assets/media/images/brands/remax_1604396384.jpg" alt="Remax" />
+                </a>
+                    </div>
+    </div>
+<div class="box-description mb-30">
+    <div class="item-descript">
+        <span class="thumb-img"><img src="https://sube.vn/assets/frontend/html-web-sube/assets/img/Path_23.png"/></span>
+        <h6 class="rs">Đổi hàng</h6>
+        <p class="rs">Trong vòng 30 ngày nếu có lỗi từ nhà sản xuất</p>
+    </div>
+    <div class="item-descript">
+        <span class="thumb-img"><img src="https://sube.vn/assets/frontend/html-web-sube/assets/img/surface1.png"/></span>
+        <h6 class="rs">Hàng chính hãng</h6>
+        <p class="rs">Nhập khẩu 100% từ thương hiệu Bear, Remax, WK Design</p>
+    </div>
+    <div class="item-descript">
+        <span class="thumb-img"><img src="https://sube.vn/assets/frontend/html-web-sube/assets/img/baohanh-01.png"/></span>
+        <h6 class="rs">Đóng gói cẩn thận</h6>
+        <p class="rs">Đóng gói trước khi giao hàng</p>
+    </div>
+    <div class="item-descript">
+        <span class="thumb-img"><img src="https://sube.vn/assets/frontend/html-web-sube/assets/img/delivery.png"/></span>
+        <h6 class="rs">Vận chuyển</h6>
+        <p class="rs">Các đơn vị vận chuyển uy tín</p>
+    </div>
+    <div class="item-descript">
+        <span class="thumb-img"><img src="https://sube.vn/assets/frontend/html-web-sube/assets/img/SB.png"/></span>
+        <h6 class="rs">Uy tín chất lượng</h6>
+        <p class="rs">Sube đã được mọi người tin dùng</p>
+    </div>
+</div>        </main>
+        <footer>
+            <div class="fixCen main-footer">
+                                                    <div class="item-ft">
+                        <h4 class="rs">VỀ SUBE</h4>
+                        <ul class="rs lst-ft">
+                                                            <li><a href="https://sube.vn/bai-viet/gioi-thieu-sube-1.html">Giới thiệu Sube</a></li>
+                                                            <li><a href="https://sube.vn/bai-viet/dang-ky-lam-ctv-4.html">Đăng ký làm CTV</a></li>
+                                                            <li><a href="https://sube.vn/bai-viet/chinh-sach-thanh-vien-5.html">Chính sách thành viên</a></li>
+                                                    </ul>
+                    </div>
+                                    <div class="item-ft">
+                        <h4 class="rs">BÁN HÀNG CÙNG SUBE</h4>
+                        <ul class="rs lst-ft">
+                                                            <li><a href="https://sube.vn/bai-viet/chinh-sach-van-chuyen-2.html">Chính sách vận chuyển</a></li>
+                                                            <li><a href="https://sube.vn/bai-viet/chinh-sach-bao-hanhdoi-tra-3.html">Chính sách bảo hành/đổi trả</a></li>
+                                                            <li><a href="https://sube.vn/bai-viet/chinh-sach-bao-ve-thong-tin-ca-nhan-6.html">Chính sách bảo vệ thông tin cá nhân</a></li>
+                                                            <li><a href="https://sube.vn/bai-viet/quy-dinh-thanh-toan-7.html">Quy định thanh toán</a></li>
+                                                            <li><a href="https://sube.vn/bai-viet/chinh-sach-bao-mat-8.html">Chính sách bảo mật</a></li>
+                                                    </ul>
+                    </div>
+                                <div class="item-ft">
+                    <h4 class="rs">Thanh toán</h4>
+                    <div class="list-pay">
+                        <a href="#"><img src="https://sube.vn/assets/frontend/html-web-sube/assets/img/vnpay.png"/></a>
+                        <a href="#"><img src="https://sube.vn/assets/frontend/html-web-sube/assets/img/1280px-Visa.svg.png"/></a>
+                        <a href="#"><img src="https://sube.vn/assets/frontend/html-web-sube/assets/img/Mastercard-logo.png"/></a>
+                        <a href="#"><img src="https://sube.vn/assets/frontend/html-web-sube/assets/img/logo-momo.png"/></a>
+                    </div>
+                    <h5 class="rs">Ứng dụng điện thoại</h5>
+                    <div class="lst-download">
+                        <a href="#" class="btn-ggplay"></a>
+                        <a href="#" class="btn-ios"></a>
+                    </div>
+                </div>
+                <div class="item-ft" style="width: 50%;">
+                    <h4 class="rs">CÔNG TY CỔ PHẦN SUBE VIỆT NAM</h4>
+                    <div class="lst-social">
+                        <a href="https://facebook.com/Sube/" class="icon-fb"></a>
+                        <a href="https://facebook.com/Sube/" class="icon-insta"></a>
+                        <a href="https://www.youtube.com/channel/UC90l54YrNRUPNsvb5G81cfg" class="icon-youtube"></a>
+                        <a href="https://zalo.me/091.555.8989" class="icon-zalo"></a>
+                    </div>
+                    <p class="rs">Hotline: 18006161</p>
+                    <p class="rs">Email: info@sube.vn</p>
+                    <p class="rs">Địa chỉ: 458 Minh Khai, Hai Bà Trưng, Hà Nội</p>
+                    <p class="rs">MST: 0108085048 - Ngày cấp: 06/12/2017</p>
+                    <p class="rs">Nơi cấp: sở Kế hoạch và đầu tư TP. Hà Nội</p>
+                    <p class="rs">Đại diện: Ông Lê Anh Tuấn - Chức vụ: Tổng Giám Đốc</p>
+                </div>
+                <div class="item-ft" style="width1: 100%;">
+                    <br/>
+                    <div class="lst-download">
+                        <a style="height: 60px;" href='http://online.gov.vn/Home/WebDetails/83698' target="_blank" class="btn-moit"></a>
+                        <a style="height: 60px;" href="#" class="btn-dmca"></a>
+                    </div>
+                    <br/>
+                    Copyright 2020 © Sube Việt Nam
+                </div>
+            </div>
+            
+        </footer>
+        <a href="javascript:void(0);" id="btn-top"></a>
+        <div class="lst-social-bottom">
+            <a href="tel:18006161" class="icon-phone"></a>
+            <a href="https://www.messenger.com/t/SubeVietnam" class="icon-mess"></a>
+            <a href="https://zalo.me/091.555.8989" class="icon-zalo"></a>
+        </div>
+        <div class="menu-fix-bottom">
+            <a href="https://sube.vn" class="menu-bottom">
+                <span class="icon-menu icon-home"></span>
+                <span class="name-menu">Trang chủ</span>
+            </a>
+            <a href="#" class="menu-bottom">
+                <span class="icon-menu icon-list"></span>
+                <span class="name-menu">Danh mục</span>
+            </a>
+            <a href="#" class="menu-bottom">
+                <span class="icon-menu icon-search"></span>
+                <span class="name-menu">Tìm kiếm</span>
+            </a>
+            <a href="#" class="menu-bottom">
+                <span class="icon-menu icon-info"></span>
+                <span class="name-menu">Thông báo</span>
+            </a>
+            <a href="#" class="menu-bottom">
+                <span class="icon-menu icon-account"></span>
+                <span class="name-menu">Cá nhân</span>
+            </a>
+        </div>
+                    <div class="modal fade popup-login" id="popup-login23" tabindex="-1" role="dialog" aria-labelledby="rateModal" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <ul class="nav nav-pills lst-login" id="pills-tab-login" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="pills-login-tab" data-toggle="pill" href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="true"><span>Đăng nhập</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-register-tab" data-toggle="pill" href="#pills-register" role="tab" aria-controls="pills-register" aria-selected="false"><span>Đăng ký</span></a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="pills-login-tab">
+                                    <div>
+                                        <div class="item-input">
+                                            <input class="form-control1" placeholder="Email / Tên đăng nhập" id="login_email" name="email" type="text">
+                                            <label class="login_email_msg" style="display: none;"></label>
+                                        </div>
+                                        <div class="item-input">
+                                            <input class="form-control1" placeholder="Mật khẩu đăng nhập của bạn" id="login_password" name="password" type="password" value="">
+                                            <label class="login_password_msg" style="display: none;"></label>
+                                            <a href="javascript:void(0);" class="btn-show-pass"></a>
+                                        </div>
+                                        <div class="d-flex justify-content-end mb-3">
+                                            <a href="javascript:void(0);" class="forget-password" data-toggle="modal" data-target="#popup-password">Lấy lại mật khẩu</a>
+                                        </div>
+                                        <div class="d-flex justify-content-end mb-3">
+                                            <button type="button" class="btn btn-back" data-dismiss="modal">Trở lại</button>
+                                            <button type="button" class="btn btn-rate" id="login">Đăng nhập</button>
+                                        </div>
+                                        <div class="label-login d-flex justify-content-center">
+                                            <span>Hoặc</span>
+                                        </div>
+                                        <div class="d-flex justify-content-center flex-wrap login-suggest">
+                                            <a href="https://sube.vn/facebook" class="btn-fb-login"><span class="icon"></span><span class="name-login">Đăng nhập bằng Facebook</span></a>
+                                            <a href="https://sube.vn/google" class="btn-gg-login"><span class="icon"></span><span class="name-login">Đăng nhập bằng Google</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="pills-register-tab">
+                                    <div>
+                                        <div class="item-input">
+                                            <span class="title-form">Họ và tên</span>
+                                            <input class="form-control" placeholder="Họ tên đầy đủ của bạn" id="register_fullname" name="fullname" type="text">
+                                            <label class="register_fullname_msg" style="display: none;"></label>
+                                        </div>
+                                        <div class="item-input">
+                                            <span class="title-form">Email</span>
+                                            <input class="form-control" placeholder="Email / Tên đăng nhập" id="register_email" name="email" type="text">
+                                            <label class="register_email_msg" style="display: none;"></label>
+                                        </div>
+                                        <div class="item-input">
+                                            <span class="title-form">Mật khẩu</span>
+                                            <input class="form-control" placeholder="Mật khẩu đăng nhập của bạn" id="register_password" name="password" type="password" value="">
+                                            <label class="register_password_msg" style="display: none;"></label>
+                                        </div>
+                                        <div class="item-input">
+                                            <span class="title-form">Xác nhận</span>
+                                            <input class="form-control" placeholder="Mật khẩu đăng nhập của bạn" id="register_re_password" name="re_password" type="password" value="">
+                                            <label class="register_re_password_msg" style="display: none;"></label>
+                                        </div>
+                                        <div class="d-flex justify-content-end mb-3  pt-3">
+                                            <button type="button" class="btn btn-back" data-dismiss="modal">Trở lại</button>
+                                            <button type="button" id="register" class="btn btn-rate">Đăng ký</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal lấy lại mật khẩu -->
+            <div class="modal fade popup-login" id="popup-password" tabindex="-1" role="dialog" aria-labelledby="rateModal" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <ul class="nav nav-pills lst-login" id="pills-tab-login-2" role="tablist">
+                                <li class="nav-item w-100">
+                                    <a class="nav-link active text-uppercase" id="pills-login-tab-1" data-toggle="pill" href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="true"><span>Đặt lại mật khẩu</span></a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent-2">
+                                <div class="tab-pane fade show active" id="pills-register-2" role="tabpanel" aria-labelledby="pills-register-tab">
+                                    <form>
+                                        <div class="item-input">
+                                            <span class="title-form">Email của bạn</span>
+                                            <input type="text" id="reset_email" name="reset_email" placeholder="Vui lòng nhập địa chỉ email của bạn"/>
+                                            <label class="reset_email_msg" style="display: none;"></label>
+                                        </div>
+                                        <div class="d-flex justify-content-end mb-3  pt-3">
+                                            <button type="button" class="btn btn-back" data-dismiss="modal">Trở lại</button>
+                                            <button type="button" class="btn btn-rate bt-resend-password">Gửi email kích hoạt</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal đặt lại mật khẩu -->
+            <div class="modal fade popup-login" id="popup-set-password" tabindex="-1" role="dialog" aria-labelledby="rateModal" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <ul class="nav nav-pills lst-login" id="pills-tab-login-2" role="tablist">
+                                <li class="nav-item w-100">
+                                    <a class="nav-link active text-uppercase" id="pills-login-tab-1" data-toggle="pill" href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="true"><span>Đặt lại mật khẩu</span></a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent-2">
+                                <div class="tab-pane fade show active" id="pills-register-2" role="tabpanel" aria-labelledby="pills-register-tab">
+                                    <form>
+                                        <div class="item-input">
+                                            <span class="title-form">Mật khẩu</span>
+                                            <input type="password" id="recover_password" name="recover_password" placeholder="Vui lòng nhập mật khẩu mới"/>
+                                            <label class="recover_password_msg" style="display: none;"></label>
+                                        </div>
+                                        <div class="item-input">
+                                            <span class="title-form">Xác nhận mật khẩu</span>
+                                            <input type="password" id="re_recover_password" name="re_recover_password" placeholder="Vui lòng xác nhận mật khẩu trên"/>
+                                            <label class="re_recover_password_msg" style="display: none;"></label>
+                                        </div>
+                                        <div class="d-flex justify-content-end mb-3  pt-3">
+                                            <button type="button" class="btn btn-back" data-dismiss="modal">Trở lại</button>
+                                            <button type="button" class="btn btn-rate bt-set-password">Cập nhật</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="modal show fade popup-login" id="popup-tb" tabindex="-1" role="dialog" aria-labelledby="rateModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <ul class="nav nav-pills lst-login" id="pills-tab-login-3" role="tablist">
+                            <li class="nav-item w-100">
+                                <a class="nav-link active text-uppercase" id="pills-login-tab-3" data-toggle="pill" href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="true"><span>THÔNG BÁO</span></a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent-3">
+                            <div class="tab-pane fade show active " id="pills-register-3" role="tabpanel" aria-labelledby="pills-register-tab">
+                                <div class="d-flex flex-column align-items-center">
+                                    <p class="rs"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://sube.vn/assets/frontend/html-web-sube/assets/js/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://sube.vn/assets/frontend/html-web-sube/assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="https://sube.vn/assets/frontend/html-web-sube/assets/js/modernizr.custom.53451.js?v=1.2"></script>
+    <script type="text/javascript" src="https://sube.vn/assets/frontend/html-web-sube/assets/js/jquery.gallery.js?v=1.2"></script>
+    <script src="https://sube.vn/assets/frontend/html-web-sube/assets/js/page_all.js?v=1.6"></script>
+    <script type="text/javascript" src="https://sube.vn/assets/frontend/html-web-sube/assets/js/common.js?v=1.2"></script>
+    <script src="https://sube.vn/assets/frontend/html-web-sube/assets/izitoast/js/iziToast.min.js"></script>
+    <script>
+        $("input[name='keyword']").on('input', function() {
+            $.ajax({
+                url: "https://sube.vn/suggest",
+                type: 'POST',
+                data: { keyword: $(this).val() },
+                datatype: 'json',
+                headers: {'X-CSRF-Token': "EuyR8fAqaEQjCA0ox61eCIm0G6fl8rOMYPrVGOQZ"},
+                success: function(data) {
+                    $(".lst-search").html(data.message);
+                },
+                error: function(obj, status, err) {
+                }
+            }).always(function() {
+            });
+        });
+        function validateEmail(e){return/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(e)}function sleep(e){for(var t=(new Date).getTime(),a=0;a<1e7&&!((new Date).getTime()-t>e);a++);}
+                                $("#login_password").on('input', function() {$(".login_password_msg").css('display', 'none').html("");});
+        $("#login_email").on('input', function() {$(".login_email_msg").css('display', 'none').html("");});
+        $("#register_fullname").on('input', function() {$(".register_fullname_msg").css('display', 'none').html(""); });
+        $("#register_email").on('input', function() {$(".register_email_msg").css('display', 'none').html("");});
+        $("#register_password").on('input', function() {$(".register_password_msg").css('display', 'none').html("");});
+        $("#register_re_password").on('input', function() {$(".register_re_password_msg").css('display', 'none').html("");});
+        $("#reset_email").on('input', function() {$(".reset_email_msg").css('display', 'none').html("");});
+        $(".btn-show-pass").click(function(event) {
+            var input = $(this).siblings('input');
+            if (input.attr("type") == "password") {
+                input.attr("type", "text");
+            } else {
+                input.attr("type", "password");
+            }
+        });
+        $(".bt-resend-password").click(function(event) {
+            var email = $.trim($("input[name='reset_email']").val());
+            if (!validateEmail(email)) {
+                $(".reset_email_msg").css('display', 'block').html("Email không đúng định dạng")
+                return false;
+            }
+            $(".element").show();
+            $.ajax({
+                url: "https://sube.vn/recover",
+                data: { email: email },
+                type: "POST",
+                datatype: "json",
+                headers: { "X-CSRF-Token": "EuyR8fAqaEQjCA0ox61eCIm0G6fl8rOMYPrVGOQZ" },
+                success: function(e) {
+                    window.location.reload();
+                },
+                error: function(e, r, a) {
+                    var t = $.parseJSON(e.responseText);
+                    $(".reset_email_msg").css('display', 'block').html(t.message)
+                }
+            }).always(function() {
+                $(".element").hide();
+            });
+        });
+        $("#login").click(function(e) {
+            var r = $.trim($("#login_email").val());
+            return validateEmail(r) ? $.trim($("#login_password").val()).length < 6 || $.trim($("#login_password").val()).length > 20 ? ($(".login_password_msg").css('display', 'block').html("Mật khẩu dài từ 6-20 kí tự."), !1) : ($(".element").show(), $.ajax({
+                url: "https://sube.vn/ajax/login",
+                data: {
+                    email: r,
+                    password: $("#login_password").val()
+                },
+                type: "POST",
+                datatype: "json",
+                headers: {
+                    "X-CSRF-Token": "EuyR8fAqaEQjCA0ox61eCIm0G6fl8rOMYPrVGOQZ"
+                },
+                success: function(e) {
+                    window.location.reload(!0)
+                },
+                error: function(e, r, a) {
+                    var error = $.parseJSON(e.responseText);
+                    if (error.password) {
+                        $(".login_email_msg").css('display', 'none').html("");
+                        $(".login_password_msg").css('display', 'block').html(error.message);
+                    } else {
+                        $(".login_password_msg").css('display', 'none').html("");
+                        $(".login_email_msg").css('display', 'block').html(error.message);
+                    }
+                }
+            }).always(function() {
+                return $(".element").hide(), !1
+            }), !1) : ($(".login_email_msg").css('display', 'block').html("Email không đúng định dạng"), !1)
+        }), $("#register").click(function(e) {
+            if (!$.trim($("#register_fullname").val())) {
+                $(".register_fullname_msg").css('display', 'block').html("Vui lòng nhập họ tên đầy đủ của bạn.");
+                return !1
+            }
+            var r = $.trim($("#register_email").val());
+            return validateEmail(r) ? $.trim($("#register_password").val()).length < 6 || $.trim($("#register_password").val()).length > 20 ? (
+                $(".register_password_msg").css('display', 'block').html("Mật khẩu dài từ 6-20 kí tự."), !1) : $.trim($("#register_password").val()) != $.trim($("#register_re_password").val()) ? (
+                $(".register_re_password_msg").css('display', 'block').html("Xác nhận mật khẩu không đúng."), !1) : ($(".element").show(), $.ajax({
+                url: "https://sube.vn/ajax/register",
+                data: {
+                    fullname: $.trim($("#register_fullname").val()),
+                    email: r,
+                    password: $.trim($("#register_password").val())
+                },
+                type: "POST",
+                datatype: "json",
+                headers: {
+                    "X-CSRF-Token": "EuyR8fAqaEQjCA0ox61eCIm0G6fl8rOMYPrVGOQZ"
+                },
+                success: function(e) {
+                    window.location.reload(!0)
+                },
+                error: function(e, r, a) {
+                    var t = $.parseJSON(e.responseText);
+                    $(".register_email_msg").css('display', 'block').html(t.message)
+                }
+            }).always(function() {
+                return $(".element").hide(), !1
+            }), !1) : ($(".register_email_msg").css('display', 'block').html("Email không đúng định dạng"), !1)
+        });
+            </script>
+    </body>
+</html>

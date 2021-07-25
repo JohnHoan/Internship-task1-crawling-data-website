@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:locale" content="vi_VN" />
+    <meta http-equiv="content-language" content="vi" />
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="ruqro3eZH529wmkjGQsR6Wumys4hFeqOHz8KE5m0">
+        <title> Miniwood Design</title>
+    <meta name="robots" content="index, follow"/>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="p:domain_verify" content="24b5dbd3983a2d69a1fb2436c44f115a"/>
+    <link rel="icon" href="https://miniwooddesign.com/assets/images/favicon.png" />
+    <link rel="canonical" href="https://miniwooddesign.com" reflang="vi-vn" />
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="https://miniwooddesign.com" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="Miniwood Design" />
+    <meta property="fb:app_id" content="" />
+
+    
+    <link rel="stylesheet" href="/css/app.css?id=b2392b81b5e7d81040bc" />
+<link rel="stylesheet" href="/assets/web/css/main.css?id=85f38d2857b5a2cc3abf" />
+    <link rel="stylesheet" href="/assets/web/css/pages/home.css?id=2dbfed88349a5f0ab09c" />
+    
+    <meta name="p:domain_verify" content="24b5dbd3983a2d69a1fb2436c44f115a"/>
+</head>
+
+<body class="bootstrap">
+    
+    <div id="app" style="overflow-x: hidden; min-height: calc(100vh - 282px);">
+        
+        <!-- Login Modal -->
+        <div id="loginModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content" style="background-color: transparent;">
+                    
+                    <div class="modal-body">
+                        <div class="login-container " id="login-container">
+                            <div class="form-container sign-up-container">
+                                <form method="POST" action="https://miniwooddesign.com/register" accept-charset="UTF-8" role="form" class="js-signup-form" autocomplete="off" novalidate="novalidate"><input name="_token" type="hidden" value="ruqro3eZH529wmkjGQsR6Wumys4hFeqOHz8KE5m0">
+                                    <input name="singup" type="hidden" value="1">
+                                    <h1>Create Account</h1>
+                                    <div class="social-container">
+                                        <a href="https://miniwooddesign.com/social/facebook/redirect" class="social"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://miniwooddesign.com/social/google/redirect" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                        
+                                    </div>
+                                    <span style="padding-bottom: 10px;">or use your email for registration</span>
+                                    <div class="form-group ">
+                                        <input class="form-control" required autofocus placeholder="Name" name="name" type="text">
+                                        <span class="help-block"></span>
+                                    </div>
+                                    <div class="form-group ">
+                                        <input id="email" class="form-control" required autofocus placeholder="Email" name="email" type="email">
+                                        <span class="help-block"></span>
+                                    </div>
+                                    <div class="form-group ">
+                                        <input class="form-control" required placeholder="Mật khẩu" name="password" type="password" value="">
+                                        <span class="help-block"></span>
+                                    </div>
+                                    <div class="form-group ">
+                                        <input class="form-control" required placeholder="Nhập lại Password" name="password_confirmation" type="password" value="">
+                                        <span class="help-block"></span>
+                                    </div>
+                                    <div class="form-group" style="margin-bottom: 10px;">
+                                        <div style="display: flex;">
+                                            <input id="agree_terms" type="checkbox" class="checkbox">
+                                            <label for="agree_terms" style="margin: 7px 10px 0px;">I agree to the <a href="#">terms</a></label>
+                                        </div>
+                                    </div>
+                                    <button type="submit">Sign Up</button>
+                                    <a href="" class="signIn">Bạn đã có tài khoản? Đăng nhập.</a>
+                                </form>
+                            </div>
+                            <div class="form-container sign-in-container">
+                                <form method="POST" action="https://miniwooddesign.com/dang-nhap" accept-charset="UTF-8" role="form" class="js-signin-form" autocomplete="off" novalidate="novalidate"><input name="_token" type="hidden" value="ruqro3eZH529wmkjGQsR6Wumys4hFeqOHz8KE5m0">
+                                    <input name="signin" type="hidden" value="1">
+                                    <h1>Sign in</h1>
+                                    <div class="social-container">
+                                        <a href="https://miniwooddesign.com/social/facebook/redirect" class="social"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://miniwooddesign.com/social/google/redirect" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                        
+                                    </div>
+                                    <span style="padding-bottom: 10px;">or use your account</span>
+                                    <div class="form-group ">
+                                        <input class="form-control" required autofocus placeholder="Email" name="email" type="email">
+                                        <span class="help-block"></span>
+                                    </div>
+                                    <div class="form-group ">
+                                        <input class="form-control" required placeholder="Mật khẩu" name="password" type="password" value="">
+                                        <span class="help-block"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div style="display: flex;">
+                                            <input id="remember_me" class="checkbox" name="remember" type="checkbox">
+                                            <label for="remember_me" style="margin: 7px 10px 0px;">Nhớ mật khẩu</label>
+                                        </div>
+                                    </div>
+                                    <a href="https://miniwooddesign.com/password/reset">Forgot your password?</a>
+                                    <button type="submit">Sign In</button>
+                                    <a href="" class="signUp">Bạn chưa có tài khoản? Đăng ký.</a>
+                                </form>
+                            </div>
+                            <div class="overlay-container">
+                                <div class="overlay">
+                                    <div class="overlay-panel overlay-left">
+                                        <h1 style="color: #fff;">Welcome Back!</h1>
+                                        <p>To keep connected with us please login with your personal info</p>
+                                        <button type="button" class="ghost signIn">Sign In</button>
+                                    </div>
+                                    <div class="overlay-panel overlay-right">
+                                        <h1 style="color: #fff;">Hello, Friend!</h1>
+                                        <p>Enter your personal details and start journey with us</p>
+                                        <button type="button" class="ghost signUp">Sign Up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <header class="bootstrap">
+    <input id="menu-checkbox" class="hide" type="checkbox" name="menu-checkbox" onchange="
+        var className = this.checked ? 'add' : 'remove';
+        document.querySelector('html').classList[className]('no-scroll')
+    " />
+    <div class="common-ribbon hidden-xs">
+        <div class="event-ribbon hide flex v-center">
+            <div class="relative text-center pl2 pr2"></div><a class="close-btn text-center absolute" href="javascript:void(0)"><i data-icon="&#xe642;" aria-hidden="true"></i><span class="screen-reader-text">Close</span></a>
+        </div>
+    </div>
+    <div class="text-center relative navigation-header header-wrapper visible-xs" style="max-height: 80px; overflow: hidden">
+        <a href="https://miniwooddesign.com" title="MiniWood">
+            <img class="header-wrapper-logo" src="https://miniwooddesign.com/assets/images/miniwood-logo.png" alt="MiniWood logo" style="height: 75%; margin-top:1.5%" loading="lazy" important="high" />
+        </a>
+        <div class="hamburger-button-wrapper burger-menu visible-xs pull-left absolute">
+            <label class="hamburger-button navbar-toggle collapsed" for="menu-checkbox" role="navigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="sr-only">Toggle navigation</span>
+            </label>
+        </div>
+        <div class="nav-buttons relative shopping-cart-button-wrapper">
+            <div class="nav-button relative cart-nav shopping-cart-button">
+    <a href="https://miniwooddesign.com/checkout/cart" class="cart-icon " >
+        <img src="https://miniwooddesign.com/assets/images/cart.svg" alt="cart icon" height="25">
+    </a>
+    
+</div>
+        </div>
+    </div>
+    <nav class="relative menu-container">
+        <div class="desktop-logo hidden-xs">
+            <a href="https://miniwooddesign.com" title="MiniWood">
+                <img class="header-wrapper-logo" src="https://miniwooddesign.com/assets/images/miniwood-logo.png" alt="MiniWood logo" loading="lazy" importance="high" />
+            </a>
+        </div>
+        <div class="container text-center">
+            <div class="login-mobile visible-xs">
+                                    <a class="login-mobile-btn" style="display: block; font-size: 14px; font-weight: bold; margin-top: 20px; cursor: pointer;">
+                        Đăng nhập / Sign Up
+                    </a>
+                            </div>
+            <div class="mobile-search">
+                <i class="fas fa-search" style="font-size: 18px; color: #999999; margin-top: 15px;"></i>
+                <form method="get" action="/">
+                    <input type="text" placeholder="Search" aria-label="Search" />
+                </form>
+            </div>
+            <ul class="reset-list menu-list">
+                <li class="menu-item sub-menu ">
+                    <label for="cb-NAV_MENU_STUDIO">
+                        <a href="https://miniwooddesign.com/custom-studio/product-step" title="Custom Studio">Custom Studio</a>
+                    </label>
+                </li>
+                                    <li class="menu-item sub-menu ">
+                        <input class="hide" type="checkbox" id="cb-op-dien-thoai" name="cb-op-dien-thoai" />
+                        <label for="cb-op-dien-thoai">
+                            <a href="https://miniwooddesign.com/san-pham/op-dien-thoai" title="Phone">Ốp điện thoại</a>
+                        </label>
+                                                    <div class="absolute">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-sm-offset-2 col-sm-8 sub-menu-container text-left">
+                                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                                    <li class="list-menu-header text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/iphone" title="Iphone">Iphone</a>
+</li>
+    <ul class="list-unstyled" style="flex: 1; padding-left: 00px;">
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/iphone-78" title="Iphone 7/8">Iphone 7/8</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/iphone-78-1" title="Iphone 7+/8+">Iphone 7+/8+</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/iphone-xxs" title="Iphone X/Xs">Iphone X/Xs</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/iphone-xs-max" title="Iphone Xs max">Iphone Xs max</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/iphone-11-pro-max" title="Iphone 11 pro max">Iphone 11 pro max</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/iphone-1212-pro" title="Iphone 12/12 pro">Iphone 12/12 pro</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/iphone-xr" title="Iphone Xr">Iphone Xr</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/iphone-11" title="Iphone 11">Iphone 11</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/iphone-11-pro" title="iPhone 11 Pro">iPhone 11 Pro</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/iphone-12-mini" title="Iphone 12 mini">Iphone 12 mini</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/iphone-12-pro-max" title="Iphone 12 pro max">Iphone 12 pro max</a>
+</li>
+            </ul>
+                                                </ul>
+                                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                                    <li class="list-menu-header text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung" title="Samsung">Samsung</a>
+</li>
+    <ul class="list-unstyled" style="flex: 1; padding-left: 00px;">
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-s9-1" title="Samsung S9+">Samsung S9+</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-s10-1" title="Samsung S10">Samsung S10</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-s20-1" title="Samsung S20+">Samsung S20+</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-s20-ultra" title="Samsung S20 Ultra">Samsung S20 Ultra</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-note-9" title="Samsung Note 9">Samsung Note 9</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-note-10-1" title="Samsung Note 10">Samsung Note 10</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-s7e" title="Samsung S7E">Samsung S7E</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-s8" title="Samsung S8+">Samsung S8+</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-s8-1" title="Samsung S8">Samsung S8</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-note-10" title="Samsung Note 10+">Samsung Note 10+</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-s20" title="Samsung S20">Samsung S20</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-s9" title="Samsung S9">Samsung S9</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-s10" title="Samsung S10+">Samsung S10+</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-s10-lite" title="Samsung S10 Lite">Samsung S10 Lite</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/samsung-note-20-ultra" title="Samsung Note 20 Ultra">Samsung Note 20 Ultra</a>
+</li>
+            </ul>
+                                                </ul>
+                                                                                        <div class="hidden-xs text-center" style="flex: 1;">
+                                                <a href="">
+                                                    <img class="webP-cms" width="170px" src="https://miniwooddesign.com/storage/uploads/images/1/wooden-phonecasejpg-1621066971_300x300.jpg" loading="lazy" importance="low" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                            </li>
+                                    <li class="menu-item sub-menu ">
+                        <input class="hide" type="checkbox" id="cb-phu-kien" name="cb-phu-kien" />
+                        <label for="cb-phu-kien">
+                            <a href="https://miniwooddesign.com/san-pham/phu-kien" title="Phone">Phụ kiện</a>
+                        </label>
+                                                    <div class="absolute">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-sm-offset-2 col-sm-8 sub-menu-container text-left">
+                                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                                    <li class="list-menu-header text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/kinh" title="Kính">Kính</a>
+</li>
+    <ul class="list-unstyled" style="flex: 1; padding-left: 00px;">
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/kinh-ram" title="Kính râm">Kính râm</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/kinh-can" title="Kính cận">Kính cận</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/hop-dung-kinh" title="Hộp đựng kính">Hộp đựng kính</a>
+</li>
+            </ul>
+                                                </ul>
+                                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/dong-ho" title="Đồng hồ">Đồng hồ</a>
+</li>
+                                                </ul>
+                                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/vong-tay" title="Vòng tay">Vòng tay</a>
+</li>
+                                                </ul>
+                                                                                        <div class="hidden-xs text-center" style="flex: 1;">
+                                                <a href="">
+                                                    <img class="webP-cms" width="170px" src="https://miniwooddesign.com/storage/uploads/images/1/0f9a7336-1623732420_300x300.jpg" loading="lazy" importance="low" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                            </li>
+                                    <li class="menu-item sub-menu ">
+                        <input class="hide" type="checkbox" id="cb-san-pham-khac" name="cb-san-pham-khac" />
+                        <label for="cb-san-pham-khac">
+                            <a href="https://miniwooddesign.com/san-pham/san-pham-khac" title="Phone">Sản phẩm khác</a>
+                        </label>
+                                                    <div class="absolute">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-sm-offset-2 col-sm-8 sub-menu-container text-left">
+                                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                                    <li class="list-menu-header text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/so-but" title="Sổ bút">Sổ bút</a>
+</li>
+    <ul class="list-unstyled" style="flex: 1; padding-left: 00px;">
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/so-go" title="Sổ gỗ">Sổ gỗ</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/but" title="Bút">Bút</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/hop-but" title="Hộp bút">Hộp bút</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/thuoc-ke" title="Thước kẻ">Thước kẻ</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/hop-dung-the" title="Hộp đựng thẻ">Hộp đựng thẻ</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/kep-but" title="Kẹp Bút">Kẹp Bút</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/custom-so-go" title="Custom Sổ gỗ">Custom Sổ gỗ</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/but-bi-nap-dong-xoay" title="Bút Bi Nắp Đồng Xoay">Bút Bi Nắp Đồng Xoay</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/but-bi-nap-ma-dong" title="Bút Bi Nắp Mạ Đồng">Bút Bi Nắp Mạ Đồng</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/but-bi-nap-bac-vo-go" title="Bút Bi Nắp Bạc Vỏ Gỗ">Bút Bi Nắp Bạc Vỏ Gỗ</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/but-bi-xoay" title="Bút Bi Xoay">Bút Bi Xoay</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/but-bi-go-than-vang-xoay" title="Bút Bi Gỗ Thân Vàng Xoay">Bút Bi Gỗ Thân Vàng Xoay</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/but-bi-go-ky" title="Bút Bi Gỗ Ký">Bút Bi Gỗ Ký</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/but-may-ky" title="Bút Máy Ký">Bút Máy Ký</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/but-bi-go" title="Bút Bi Gỗ">Bút Bi Gỗ</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/but-bi-go-huy-hieu" title="Bút Bi Gỗ Huy Hiệu">Bút Bi Gỗ Huy Hiệu</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/but-may-nap-bac-vo-go" title="Bút Máy Nắp Bạc Vỏ Gỗ">Bút Máy Nắp Bạc Vỏ Gỗ</a>
+</li>
+            </ul>
+                                                </ul>
+                                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                                    <li class="list-menu-header text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/do-trang-tri" title="Đồ trang trí">Đồ trang trí</a>
+</li>
+    <ul class="list-unstyled" style="flex: 1; padding-left: 00px;">
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/loa" title="Loa">Loa</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/dock-dung-the" title="Dock đựng thẻ">Dock đựng thẻ</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/gia-dien-thoai" title="Giá điện thoại">Giá điện thoại</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/lot-coc" title="Lót cốc">Lót cốc</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/moc-khoa-go" title="Móc khóa gỗ">Móc khóa gỗ</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/lo-hoa-go" title="Lọ Hoa Gỗ">Lọ Hoa Gỗ</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/moc-khoa-da-go" title="Móc khóa da gỗ">Móc khóa da gỗ</a>
+</li>
+            </ul>
+                                                </ul>
+                                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                                    <li class="list-menu-header text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/do-choi" title="Đồ chơi">Đồ chơi</a>
+</li>
+    <ul class="list-unstyled" style="flex: 1; padding-left: 00px;">
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/con-quay" title="Con quay">Con quay</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/lego" title="Lego">Lego</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/do-choi-thu-mau" title="Đồ Chơi Thú Màu">Đồ Chơi Thú Màu</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/bowling" title="Bowling">Bowling</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/xuc-xac-go" title="Xúc Xắc Gỗ">Xúc Xắc Gỗ</a>
+</li>
+            </ul>
+                                                </ul>
+                                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                                    <li class="list-menu-header text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/phu-kien-thuoc-la" title="Phụ kiện thuốc lá">Phụ kiện thuốc lá</a>
+</li>
+    <ul class="list-unstyled" style="flex: 1; padding-left: 00px;">
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/hop-thuoc-la" title="Hộp thuốc lá">Hộp thuốc lá</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/bat-lua" title="Bật lửa">Bật lửa</a>
+</li>
+            </ul>
+                                                </ul>
+                                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                                    <li class="list-menu-header text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/do-dung-bep" title="Đồ dùng bếp">Đồ dùng bếp</a>
+</li>
+    <ul class="list-unstyled" style="flex: 1; padding-left: 00px;">
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/dia-go" title="Đĩa gỗ">Đĩa gỗ</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/khay-go" title="Khay gỗ">Khay gỗ</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/thia-go" title="Thìa gỗ">Thìa gỗ</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/set-tui-thia-dia-dua-go" title="Set Túi Thìa Dĩa Đũa Gỗ">Set Túi Thìa Dĩa Đũa Gỗ</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/vat-dung-khac" title="Vật dụng khác">Vật dụng khác</a>
+</li>
+                    <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/san-pham/coc-go" title="Cốc Gỗ">Cốc Gỗ</a>
+</li>
+            </ul>
+                                                </ul>
+                                                                                        <div class="hidden-xs text-center" style="flex: 1;">
+                                                <a href="">
+                                                    <img class="webP-cms" width="170px" src="https://miniwooddesign.com/storage/uploads/images/1/wooden-stationaryjpg-1622099131_300x300.jpg" loading="lazy" importance="low" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                            </li>
+                
+                <li class="menu-item sub-menu">
+                    <input class="hide" type="checkbox" id="cb-NAV_MENU_COLLECTION" name="cb-NAV_MENU_COLLECTION" />
+                    <label for="cb-NAV_MENU_COLLECTION">
+                        <a style="cursor: pointer" title="COLLECTIONS">COLLECTIONS</a>
+                    </label>
+                    <div class="absolute">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm-offset-2 col-sm-8 sub-menu-container text-left">
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/dong-vat" title="Động vật">Động vật</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/cung-hoang-dao" title="Cung Hoàng Đạo">Cung Hoàng Đạo</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/tinh-yeu" title="Tình Yêu">Tình Yêu</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/12-con-giap" title="12 Con Giáp">12 Con Giáp</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/phim-anh" title="Phim ảnh">Phim ảnh</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/du-lich" title="Du Lịch">Du Lịch</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/vu-tru" title="Vũ trụ">Vũ trụ</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/christmas" title="Christmas">Christmas</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/camera" title="Camera">Camera</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/hinh-ve-tay" title="Hình vẽ tay">Hình vẽ tay</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/meme" title="Meme">Meme</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/thuong-hieu" title="Thương hiệu">Thương hiệu</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/ten-chu-ky" title="Tên - Chữ Ký">Tên - Chữ Ký</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/ngay-nha-giao" title="Ngày nhà giáo">Ngày nhà giáo</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/pattern" title="Pattern">Pattern</a>
+</li>
+                                        </ul>
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bo-suu-tap/thien-nhien" title="Thiên nhiên">Thiên nhiên</a>
+</li>
+                                        </ul>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="menu-item sub-menu">
+                    <input class="hide" type="checkbox" id="cb-NAV_MENU_BLOG" name="cb-NAV_MENU_BLOG" />
+                    <label for="cb-NAV_MENU_BLOG">
+                        <a style="cursor: pointer" title="BLOGS">BLOGS</a>
+                    </label>
+                    <div class="absolute">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm-offset-2 col-sm-8 sub-menu-container text-left">
+                                                                            <ul class="list-unstyled" style="flex: 1;">
+                                            <li class=" text-dark">
+    <a class="text-dark" href="https://miniwooddesign.com/bai-viet/sang-chanh" title="Sang chảnh">Sang chảnh</a>
+</li>
+                                        </ul>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="menu-item sub-menu visible-xs">
+                    <input class="hide" type="checkbox" id="cb-language-change" name="cb-language-change" />
+                    <label for="cb-language-change">
+                        <a href="javascript:void(0)" title="Language">
+                            <img src="https://miniwooddesign.com/assets/images/flag-icon/4x3/vi.svg" alt="Việt Nam" loading="lazy" height="20" importance="low" />
+                            &nbsp;&nbsp; Việt Nam
+                        </a>
+                    </label>
+                    <div class="absolute">
+                        <div class="container">
+                            <div class="col-sm-offset-2 col-sm-8 sub-menu-container text-left">
+                                <ul class="list-unstyled">
+                                                                            
+                                            <li class="padding-top-xs-m padding-bottom-xs-m">
+                                                <a class="text-dark" href="https://miniwooddesign.com/change-language/en">
+                                                    <img src="https://miniwooddesign.com/assets/images/flag-icon/4x3/en.svg" loading="lazy" importance="low" height="20" alt="English" />
+                                                    &nbsp;&nbsp;&nbsp;&nbsp; English
+                                                </a>
+                                            </li>
+                                        
+                                                                            
+                                            <li class="padding-top-xs-m padding-bottom-xs-m">
+                                                <a class="text-dark" href="https://miniwooddesign.com/change-language/vi">
+                                                    <img src="https://miniwooddesign.com/assets/images/flag-icon/4x3/vi.svg" loading="lazy" importance="low" height="20" alt="Việt Nam" />
+                                                    &nbsp;&nbsp;&nbsp;&nbsp; Việt Nam
+                                                </a>
+                                            </li>
+                                        
+                                                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="visible-xs sns padding-top-xs-1 text-left">
+                                    <a class="sns-icon" href="https://www.instagram.com/miniwooddesign/?hl=vi" target="_blank" alt="Instagram" rel="nofollow" aria-label="MiniWood Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                                                    <a class="sns-icon" href="https://www.facebook.com/MiniwoodDesign" target="_blank" alt="Facebook" rel="nofollow" aria-label="MiniWood Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                                                                    <a class="sns-icon" href="https://www.youtube.com/channel/UC4Fl2S1d_TiD0k3jZB6EmeQ" target="_blank" alt="Youtube" rel="nofollow" aria-label="MiniWood Youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                                                    <a class="sns-icon" href="https://www.tiktok.com/@miniwood_design?lang=vi-VN" target="_blank" alt="Tiktok" rel="nofollow" aria-label="MiniWood Tiktok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                            </div>
+        </div>
+        <div class="search-box">
+            <button class="dismiss"><i class="fa fa-times"></i></button>
+            <form id="searchForm" action="" role="search" method="get">
+                <input type="search" class="form-control" autocomplete="off" name="q" placeholder="Tìm kiếm" required>
+            </form>
+        </div>
+        <div class="hidden-xs nav-buttons relative">
+            <div class="nav-button relative language-nav">
+                <a href="javascript:void(0)" title="Language">
+                    <img src="https://miniwooddesign.com/assets/images/flag-icon/4x3/vi.svg" alt="Việt Nam" loading="lazy" height="20" importance="low" />
+                </a>
+                <ul class="list-unstyled language-panel">
+                                            
+                            <li>
+                                <a href="https://miniwooddesign.com/change-language/en">
+                                    <img src="https://miniwooddesign.com/assets/images/flag-icon/4x3/en.svg" loading="lazy" importance="low" height="20" alt="English" />
+                                    &nbsp;&nbsp; English
+                                </a>
+                            </li>
+                        
+                                            
+                            <li>
+                                <a href="https://miniwooddesign.com/change-language/vi">
+                                    <img src="https://miniwooddesign.com/assets/images/flag-icon/4x3/vi.svg" loading="lazy" importance="low" height="20" alt="Việt Nam" />
+                                    &nbsp;&nbsp; Việt Nam
+                                </a>
+                            </li>
+                        
+                                    </ul>
+            </div>
+            <div class="nav-button relative search-nav">
+                <a href="javascript:void" title="Search" id="search">
+                    <img src="https://miniwooddesign.com/assets/images/search.svg" alt="Search" height="35" loading="lazy" />
+                </a>
+            </div>
+            <div class="nav-button relative cart-nav shopping-cart-button">
+    <a href="https://miniwooddesign.com/checkout/cart" class="cart-icon " >
+        <img src="https://miniwooddesign.com/assets/images/cart.svg" alt="cart icon" height="25">
+    </a>
+    
+</div>
+            <div class="nav-button relative show-login-panel hidden-xs">
+                                    <a href="#" rel="nofollow" aria-label="Sign Up" data-toggle="modal" data-target="#loginModal">
+                        <img src="https://miniwooddesign.com/assets/images/user.svg" alt="user icon" height="35" style="margin-bottom: -7px;" />
+                    </a>
+                            </div>
+        </div>
+    </nav>
+</header>
+
+        
+            <div class="bootstrap landing-page">
+        <section class="banner-section">
+        <div id="landing-top-banners">
+            <div class="main-slider">
+                                    <div class="item image">
+    <div class="top-banner relative">
+        <a href="https://miniwooddesign.com/san-pham/op-dien-thoai">
+            <div class="slide-image slide-media" style="background-image:url('https://miniwooddesign.com/storage/uploads/library/slides/0f9a80901-1623726353.jpg');">
+                <img data-lazy="https://miniwooddesign.com/storage/uploads/library/slides/0f9a80901-1623726353.jpg" class="image-entity" />
+            </div>
+        </a>
+    </div>
+    <div class="banner-header">
+        <h2>Độc đáo</h2>
+    </div>
+    <div class="banner-buttons" style="display:flex;justify-content:center;align-items:center">
+        <a class="inline-block text-center" style="padding:0 1em" href="https://miniwooddesign.com/san-pham/op-dien-thoai">
+            <button class="banner-cta-button btn btn-brown">SHOP NOW</button>
+        </a>
+    </div>
+</div>
+                                    <div class="item image">
+    <div class="top-banner relative">
+        <a href="https://miniwooddesign.com/san-pham/kinh-ram">
+            <div class="slide-image slide-media" style="background-image:url('https://miniwooddesign.com/storage/uploads/library/slides/0f9a7245-1624002567.jpg');">
+                <img data-lazy="https://miniwooddesign.com/storage/uploads/library/slides/0f9a7245-1624002567.jpg" class="image-entity" />
+            </div>
+        </a>
+    </div>
+    <div class="banner-header">
+        <h2>Khác biệt</h2>
+    </div>
+    <div class="banner-buttons" style="display:flex;justify-content:center;align-items:center">
+        <a class="inline-block text-center" style="padding:0 1em" href="https://miniwooddesign.com/san-pham/kinh-ram">
+            <button class="banner-cta-button btn btn-brown">SHOP NOW</button>
+        </a>
+    </div>
+</div>
+                                    <div class="item image">
+    <div class="top-banner relative">
+        <a href="https://miniwooddesign.com/san-pham/do-choi">
+            <div class="slide-image slide-media" style="background-image:url('https://miniwooddesign.com/storage/uploads/library/slides/0f9a7410-1624002444.jpg');">
+                <img data-lazy="https://miniwooddesign.com/storage/uploads/library/slides/0f9a7410-1624002444.jpg" class="image-entity" />
+            </div>
+        </a>
+    </div>
+    <div class="banner-header">
+        <h2>Tinh tế</h2>
+    </div>
+    <div class="banner-buttons" style="display:flex;justify-content:center;align-items:center">
+        <a class="inline-block text-center" style="padding:0 1em" href="https://miniwooddesign.com/san-pham/do-choi">
+            <button class="banner-cta-button btn btn-brown">SHOP NOW</button>
+        </a>
+    </div>
+</div>
+                                    <div class="item image">
+    <div class="top-banner relative">
+        <a href="https://miniwooddesign.com/san-pham/so-but?page=1">
+            <div class="slide-image slide-media" style="background-image:url('https://miniwooddesign.com/storage/uploads/library/slides/0f9a7132-1623842140.jpg');">
+                <img data-lazy="https://miniwooddesign.com/storage/uploads/library/slides/0f9a7132-1623842140.jpg" class="image-entity" />
+            </div>
+        </a>
+    </div>
+    <div class="banner-header">
+        <h2>Tối giản</h2>
+    </div>
+    <div class="banner-buttons" style="display:flex;justify-content:center;align-items:center">
+        <a class="inline-block text-center" style="padding:0 1em" href="https://miniwooddesign.com/san-pham/so-but?page=1">
+            <button class="banner-cta-button btn btn-brown">SHOP NOW</button>
+        </a>
+    </div>
+</div>
+                            </div>
+        </div>
+    </section>
+        <section class="spot-light">
+        <div class="container padding-top-sm-1 padding-bottom-sm-2 padding-top-xs-2 padding-bottom-xs-2 padding-left-sm-1 padding-right-sm-1">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 padding-left-xs-1 padding-right-xs-1 padding-top-sm-1">
+                    <h1 class="text-center margin-bottom-sm-2 margin-bottom-xs-1 padding-left-sm-1 padding-right-sm-1">
+                        Miniwood
+                    </h1>
+                    <p class="text-center margin-bottom-sm-1 margin-bottom-xs-1">
+                        Bạn có thể tìm thấy rất nhiều món đồ ở đây, miễn là nó thỏa mãn 2 tiêu chí: Đồ gỗ &amp; Nhỏ.
+Miniwood có nghĩa là &quot;Đồ gỗ nhỏ&quot;. Nhưng ước mơ và tham vọng của chúng tôi thì không bao giờ là nhỏ bé!
+                    </p>
+                    <div class="text-center margin-top-sm-2">
+                        <a class="text-center btn btn-brown hidden-xs" href="https://miniwooddesign.com/san-pham/san-pham-khac" title="Shop iPhone 11 Pro Max Cases">
+                            Xem thêm các sản phẩm
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 padding-left-xs-1 padding-right-xs-1 padding-left-sm-2 padding-right-sm-2 padding-top-sm-1">
+                    <video class="b-lazy" src="https://miniwooddesign.com/storage/uploads/library/default/miniwood-design-the-wooden-case-trim-1624004502.mp4" muted autoplay loop playsinline width="100%"></video>
+                    <div class="visible-xs text-center margin-top-xs-1">
+                        <a class="text-center btn btn-brown" href="https://miniwooddesign.com/san-pham/san-pham-khac">
+                            Xem thêm các sản phẩm
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section class="cares">
+        <div class="container padding-top-sm-1 padding-bottom-sm-1 padding-top-xs-1 padding-bottom-xs-1 padding-left-xs-0 padding-right-xs-0 padding-left-sm-3 padding-right-sm-3">
+            <h2 class="text-center text-black margin-top-sm-0 margin-bottom-sm-m margin-bottom-xs-m">#Trending Designs</h2>
+            <p class="text-gray-darker text-center margin-bottom-sm-1 margin-bottom-xs-1 margin-left-xs-1 margin-right-xs-1">At MiniWood, we stand up for what we believe in by supporting causes that matter to us and our global community.</p>
+            <div class="cares-container owl-carousel owl-theme">
+                                    <a class="padding-bottom-sm-1 padding-bottom-xs-1" href="https://miniwooddesign.com/ban-mau/gong-kinh-vuong-full-go-kinh-can" alt="Gọng Kính Vuông Full Gỗ">
+                                                    <img class="b-lazy b-loaded" width="100%" src="https://miniwooddesign.com/storage/uploads/library/product_theme/64/wooden-glassesjpg-1622699936_300x300.jpg" alt="Gọng Kính Vuông Full Gỗ">
+                                                <div class="small margin-top-sm-1 margin-top-xs-1 text-center text-black">
+                            <div class="title">
+                                Gọng Kính Vuông Full...
+                            </div>
+                            
+                            <div class="text-center">
+                                <p class="price">
+                                                                       <span class="text-danger">
+                                        590,000 VND
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="more">SHOP NOW</div>
+                        </div>
+                    </a>
+                                    <a class="padding-bottom-sm-1 padding-bottom-xs-1" href="https://miniwooddesign.com/ban-mau/so-go-so-go" alt="Sổ Gỗ">
+                                                    <img class="b-lazy b-loaded" width="100%" src="https://miniwooddesign.com/storage/uploads/library/product_theme/59/wooden-notebookjpg-1622699906_300x300.jpg" alt="Sổ Gỗ">
+                                                <div class="small margin-top-sm-1 margin-top-xs-1 text-center text-black">
+                            <div class="title">
+                                Sổ Gỗ
+                            </div>
+                            
+                            <div class="text-center">
+                                <p class="price">
+                                                                       <span class="text-danger">
+                                        220,000 VND
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="more">SHOP NOW</div>
+                        </div>
+                    </a>
+                                    <a class="padding-bottom-sm-1 padding-bottom-xs-1" href="https://miniwooddesign.com/ban-mau/but-bi-go-but" alt="Bút Bi Gỗ">
+                                                    <img class="b-lazy b-loaded" width="100%" src="https://miniwooddesign.com/storage/uploads/library/product_theme/67/wooden-ballpointpenjpg-1622620358_300x300.jpg" alt="Bút Bi Gỗ">
+                                                <div class="small margin-top-sm-1 margin-top-xs-1 text-center text-black">
+                            <div class="title">
+                                Bút Bi Gỗ
+                            </div>
+                            
+                            <div class="text-center">
+                                <p class="price">
+                                                                       <span class="text-danger">
+                                        180,000 VND
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="more">SHOP NOW</div>
+                        </div>
+                    </a>
+                            </div>
+        </div>
+    </section>
+        <section class="grids padding-top-sm-0 padding-bottom-sm-1 padding-top-xs-1 padding-bottom-xs-1">
+        <h2 class="text-center text-black margin-top-sm-1 margin-bottom-sm-m">#Key Products</h2>
+        <div class="button-group filters-button-group">
+            <button class="button is-checked" data-filter="*" id="grid_group_all">Tất cả</button>
+                            <button class="button" data-filter=".grid_group_1">Ốp điện thoại gỗ</button>
+                            <button class="button" data-filter=".grid_group_3">Gọng Kính Gỗ</button>
+                            <button class="button" data-filter=".grid_group_4">Đồ chơi gỗ</button>
+                            <button class="button" data-filter=".grid_group_6">Lọ Hoa Gỗ</button>
+                    </div>
+
+        <div id="grid-container" class="transitions-enabled fluid masonry js-masonry grid">
+                            <article class="grid_group_1 people sea">
+                    <div class="hover-blur">
+                        <a href="https://miniwooddesign.com/san-pham/op-dien-thoai" title="Ốp Điện Thoại Gỗ">
+                            <img src="https://miniwooddesign.com/storage/uploads/library/grids/600e81dee4c68.jpg" alt="Ốp Điện Thoại Gỗ" class="img-responsive" />
+                            <h2><span class="text-white">Ốp Điện Thoại Gỗ</span></h2>
+                        </a>
+                        <h4 class="text-center text-center visible-xs" style="margin: 20px 0 0;">Ốp Điện Thoại Gỗ</h4>
+                    </div>
+                </article>
+                            <article class="grid_group_4 people sea">
+                    <div class="hover-blur">
+                        <a href="https://miniwooddesign.com/ban-mau/bo-con-quay-go-con-quay" title="Đồ Chơi Gỗ">
+                            <img src="https://miniwooddesign.com/storage/uploads/library/grids/dsc04214-11-1623729289.jpg" alt="Đồ Chơi Gỗ" class="img-responsive" />
+                            <h2><span class="text-white">Đồ Chơi Gỗ</span></h2>
+                        </a>
+                        <h4 class="text-center text-center visible-xs" style="margin: 20px 0 0;">Đồ Chơi Gỗ</h4>
+                    </div>
+                </article>
+                            <article class="grid_group_3 people sea">
+                    <div class="hover-blur">
+                        <a href="https://miniwooddesign.com/ban-mau/gong-kinh-vuong-full-go-kinh-can" title="Gọng Kính Gỗ">
+                            <img src="https://miniwooddesign.com/storage/uploads/library/grids/600e820e4ad60.jpg" alt="Gọng Kính Gỗ" class="img-responsive" />
+                            <h2><span class="text-white">Gọng Kính Gỗ</span></h2>
+                        </a>
+                        <h4 class="text-center text-center visible-xs" style="margin: 20px 0 0;">Gọng Kính Gỗ</h4>
+                    </div>
+                </article>
+                            <article class="grid_group_6 people sea">
+                    <div class="hover-blur">
+                        <a href="https://miniwooddesign.com/san-pham/lo-hoa-go" title="Lọ Hoa Gỗ">
+                            <img src="https://miniwooddesign.com/storage/uploads/library/grids/600e836480a99.jpg" alt="Lọ Hoa Gỗ" class="img-responsive" />
+                            <h2><span class="text-white">Lọ Hoa Gỗ</span></h2>
+                        </a>
+                        <h4 class="text-center text-center visible-xs" style="margin: 20px 0 0;">Lọ Hoa Gỗ</h4>
+                    </div>
+                </article>
+                    </div>
+    </section>
+
+            <section class="ig-shop">
+        <hr>
+        <div class="container padding-top-sm-0 padding-bottom-sm-1 padding-top-xs-0 padding-bottom-xs-1">
+            <h2 class="text-center text-black margin-top-sm-1 margin-bottom-sm-1 margin-bottom-xs-h">#Feedback</h2>
+            <div id="instagramShowcase" class="margin-top-xs-0 margin-top-sm-0" style="overflow:hidden">
+                <div class="showcases">
+                    <div class="row">
+                                                                                                                        <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+    <a href="https://miniwooddesign.com/san-pham/so-but?page=1">
+        <div
+            class="b-lazy showcase-item b-loaded"
+            data-src="https://miniwooddesign.com/storage/uploads/images/1/wooden-stationaryjpg-1622460227_700x700.jpg"
+            style="background-image: url(https://miniwooddesign.com/storage/uploads/images/1/wooden-stationaryjpg-1622460227_700x700.jpg);"
+        ></div>
+    </a>
+</div>
+                                                                                                                                                <div class="col-xs-12 col-md-4">
+                                    <div class="row row-pad-12">
+                                                                                    <div class="col-xs-6" style="margin-bottom: 20px;">
+    <a href="https://miniwooddesign.com/ban-mau/bat-lua-go-bat-lua">
+        <div
+            class="b-lazy showcase-item b-loaded"
+            data-src="https://miniwooddesign.com/storage/uploads/images/1/0f9a8771-1623661480_700x700.jpg"
+            style="background-image: url(https://miniwooddesign.com/storage/uploads/images/1/0f9a8771-1623661480_700x700.jpg);"
+        ></div>
+    </a>
+</div>
+                                                                                    <div class="col-xs-6" style="margin-bottom: 20px;">
+    <a href="https://miniwooddesign.com/ban-mau/dock-card-go-walnut-dock-dung-the">
+        <div
+            class="b-lazy showcase-item b-loaded"
+            data-src="https://miniwooddesign.com/storage/uploads/images/1/0f9a6159-1-1623662008_700x700.jpg"
+            style="background-image: url(https://miniwooddesign.com/storage/uploads/images/1/0f9a6159-1-1623662008_700x700.jpg);"
+        ></div>
+    </a>
+</div>
+                                                                                    <div class="col-xs-6" style="margin-bottom: 20px;">
+    <a href="https://miniwooddesign.com/ban-mau/den-decor-go-loa">
+        <div
+            class="b-lazy showcase-item b-loaded"
+            data-src="https://miniwooddesign.com/storage/uploads/images/1/wooden-speakerjpg-1622460196_700x700.jpg"
+            style="background-image: url(https://miniwooddesign.com/storage/uploads/images/1/wooden-speakerjpg-1622460196_700x700.jpg);"
+        ></div>
+    </a>
+</div>
+                                                                                    <div class="col-xs-6" style="margin-bottom: 20px;">
+    <a href="https://miniwooddesign.com/ban-mau/moc-khoa-go-sat-den-moc-khoa-go">
+        <div
+            class="b-lazy showcase-item b-loaded"
+            data-src="https://miniwooddesign.com/storage/uploads/images/1/0f9a7271-1623662374_700x700.jpg"
+            style="background-image: url(https://miniwooddesign.com/storage/uploads/images/1/0f9a7271-1623662374_700x700.jpg);"
+        ></div>
+    </a>
+</div>
+                                                                            </div>
+                                </div>
+                                                                                                                                                    <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+    <a href="https://miniwooddesign.com/ban-mau/lo-hoa-go-hinh-bau-ruou-lo-hoa-go">
+        <div
+            class="b-lazy showcase-item b-loaded"
+            data-src="https://miniwooddesign.com/storage/uploads/images/1/120825468-1997916883673202-8261204485376066972-n-1-1623662513_700x700.jpg"
+            style="background-image: url(https://miniwooddesign.com/storage/uploads/images/1/120825468-1997916883673202-8261204485376066972-n-1-1623662513_700x700.jpg);"
+        ></div>
+    </a>
+</div>
+                                                                                                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    </div>
+
+    <footer class="main-footer bootstrap" data-impx-name="footer-section">
+    <div class="container padding-top-sm-2 padding-bottom-sm-1 padding-top-xs-2 padding-bottom-xs-1">
+        <div class="col-xs-12 col-sm-5">
+            <div class="text-white text-xs-left h3">
+                Kết nối với chúng tôi
+            </div>
+                        <a class="sns-icon" href="https://www.instagram.com/miniwooddesign/?hl=vi" target="_blank" alt="Instagram" rel="nofollow" aria-label="MiniWood Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+                                    <a class="sns-icon" href="https://www.facebook.com/MiniwoodDesign" target="_blank" alt="Facebook" rel="nofollow" aria-label="MiniWood Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+                                                <a class="sns-icon" href="https://www.youtube.com/channel/UC4Fl2S1d_TiD0k3jZB6EmeQ" target="_blank" alt="Youtube" rel="nofollow" aria-label="MiniWood Youtube">
+                <i class="fab fa-youtube"></i>
+            </a>
+                                    <a class="sns-icon" href="https://www.tiktok.com/@miniwood_design?lang=vi-VN" target="_blank" alt="Tiktok" rel="nofollow" aria-label="MiniWood Tiktok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+                                    <a class="sns-icon" href="https://shopee.vn/miniwooddesign" target="_blank" alt="Shopee" rel="nofollow" aria-label="MiniWood Shopee">
+                <img src="https://miniwooddesign.com/assets/images/shoppe.png" alt="Shopee" style="width: 100%; vertical-align: baseline; border-radius: 50%;">
+            </a>
+                                    <div class="text-white text-xs-left margin-bottom-xs-m padding-right-sm-3" style="margin-top: 10px;">
+                <p><span style="font-size: 14px;">Miniwood Design cung cấp những m&oacute;n qu&agrave; tặng doanh nghiệp &yacute; nghĩa, g&oacute;i gh&eacute;m v&agrave; trao gửi một c&aacute;ch tr&acirc;n trọng.</span></p><p><span style="font-size: 14px;">Bạn c&oacute; thể chọn mua trực tiếp tại cửa h&agrave;ng hoặc đặt qu&agrave; online để được chuyển trực tiếp đến người nhận <strong>trong ng&agrave;y&nbsp;</strong>tại <strong>H&agrave; Nội&nbsp;</strong>v&agrave; từ 2 đến 5 ng&agrave;y với khu vực kh&aacute;c tr&ecirc;n To&agrave;n Quốc.&nbsp;</span></p>
+            </div>
+                    </div>
+        <div class="col-sm-2 hidden-xs">
+            <div class="text-white text-xs-left h3">Products</div>
+            <ul class="list-unstyled product-list">
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/san-pham/iphone" title="Iphone">Iphone</a>
+                    </li>
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/san-pham/samsung" title="Samsung">Samsung</a>
+                    </li>
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/san-pham/kinh" title="Kính">Kính</a>
+                    </li>
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/san-pham/dong-ho" title="Đồng hồ">Đồng hồ</a>
+                    </li>
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/san-pham/vong-tay" title="Vòng tay">Vòng tay</a>
+                    </li>
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/san-pham/so-but" title="Sổ bút">Sổ bút</a>
+                    </li>
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/san-pham/do-trang-tri" title="Đồ trang trí">Đồ trang trí</a>
+                    </li>
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/san-pham/do-choi" title="Đồ chơi">Đồ chơi</a>
+                    </li>
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/san-pham/phu-kien-thuoc-la" title="Phụ kiện thuốc lá">Phụ kiện thuốc lá</a>
+                    </li>
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/san-pham/do-dung-bep" title="Đồ dùng bếp">Đồ dùng bếp</a>
+                    </li>
+                            </ul>
+        </div>
+        <div class="col-sm-2 hidden-xs">
+            <div class="text-white text-xs-left h3">Blogs</div>
+            <ul class="list-unstyled support-list">
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/bai-viet/sang-chanh" title="Sang chảnh">Sang chảnh</a>
+                    </li>
+                            </ul>
+        </div>
+        <div class="col-sm-3 hidden-xs">
+            <div class="text-white text-xs-left h3">Support</div>
+            <ul class="list-unstyled support-list">
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/ho-tro/1/ve-chung-toi" title="Về chúng tôi">Về chúng tôi</a>
+                    </li>
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/ho-tro/3/chinh-sach-bao-hanh" title="Chính sách bảo hành">Chính sách bảo hành</a>
+                    </li>
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/ho-tro/4/chinh-sach-doi-tra" title="Chính sách đổi trả">Chính sách đổi trả</a>
+                    </li>
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/ho-tro/5/chinh-sach-thanh-toan" title="Chính sách thanh toán">Chính sách thanh toán</a>
+                    </li>
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/ho-tro/6/chinh-sach-van-chuyen" title="Chính sách vận chuyển">Chính sách vận chuyển</a>
+                    </li>
+                                    <li class="margin-bottom-sm-m margin-bottom-xs-m">
+                        <a href="https://miniwooddesign.com/ho-tro/7/chinh-sach-bao-mat" title="Chính sách bảo mật">Chính sách bảo mật</a>
+                    </li>
+                            </ul>
+        </div>
+        <div class="col-xs-12 visible-xs">
+            <hr>
+            <ul class="list-unstyled support-list">
+                <li class="margin-bottom-xs-h">
+                    <a href="/">Home</a>
+                </li>
+                <li class="margin-bottom-xs-h">
+                    <span style="color: #bbb;">Products:</span>
+                </li>
+                                    <li class="margin-bottom-xs-h">
+                        <a style="margin-left: 5px;" href="https://miniwooddesign.com/san-pham/iphone" title="Iphone">Iphone</a>
+                    </li>
+                                    <li class="margin-bottom-xs-h">
+                        <a style="margin-left: 5px;" href="https://miniwooddesign.com/san-pham/samsung" title="Samsung">Samsung</a>
+                    </li>
+                                    <li class="margin-bottom-xs-h">
+                        <a style="margin-left: 5px;" href="https://miniwooddesign.com/san-pham/kinh" title="Kính">Kính</a>
+                    </li>
+                                    <li class="margin-bottom-xs-h">
+                        <a style="margin-left: 5px;" href="https://miniwooddesign.com/san-pham/dong-ho" title="Đồng hồ">Đồng hồ</a>
+                    </li>
+                                    <li class="margin-bottom-xs-h">
+                        <a style="margin-left: 5px;" href="https://miniwooddesign.com/san-pham/vong-tay" title="Vòng tay">Vòng tay</a>
+                    </li>
+                                    <li class="margin-bottom-xs-h">
+                        <a style="margin-left: 5px;" href="https://miniwooddesign.com/san-pham/so-but" title="Sổ bút">Sổ bút</a>
+                    </li>
+                                    <li class="margin-bottom-xs-h">
+                        <a style="margin-left: 5px;" href="https://miniwooddesign.com/san-pham/do-trang-tri" title="Đồ trang trí">Đồ trang trí</a>
+                    </li>
+                                    <li class="margin-bottom-xs-h">
+                        <a style="margin-left: 5px;" href="https://miniwooddesign.com/san-pham/do-choi" title="Đồ chơi">Đồ chơi</a>
+                    </li>
+                                    <li class="margin-bottom-xs-h">
+                        <a style="margin-left: 5px;" href="https://miniwooddesign.com/san-pham/phu-kien-thuoc-la" title="Phụ kiện thuốc lá">Phụ kiện thuốc lá</a>
+                    </li>
+                                    <li class="margin-bottom-xs-h">
+                        <a style="margin-left: 5px;" href="https://miniwooddesign.com/san-pham/do-dung-bep" title="Đồ dùng bếp">Đồ dùng bếp</a>
+                    </li>
+                                <li class="margin-bottom-xs-h">
+                    <span style="color: #bbb;">Blogs:</span>
+                </li>
+                                    <li class="margin-bottom-xs-h">
+                        <a style="margin-left: 5px;" href="https://miniwooddesign.com/bai-viet/sang-chanh">Sang chảnh</a>
+                    </li>
+                                <li class="margin-bottom-xs-h relative" style="text-align: right;">
+                    <a href="javascript:void(0)" style="pointer-events: none;">Language: </a>
+                    <select class="text-white" id="mobile-language" name="mobile-language" aria-label="Select Language">
+                                                    <option value="https://miniwooddesign.com/change-language/en" >English</option>
+                                                    <option value="https://miniwooddesign.com/change-language/vi" selected>Việt Nam</option>
+                                            </select>
+                </li>
+            </ul>
+            <p class="text-center text-white margin-top-xs-2">Copyright © 2020 Miniwood Design</p>
+        </div>
+    </div>
+        <div class="container hidden-xs">
+        <div class="col-sm-12 text-white text-center">
+            <hr />
+            <p><span style="font-family: Verdana, Geneva, sans-serif; font-size: 14px;">C&ocirc;ng ty cổ phần sản xuất thương mại v&agrave; dịch vụ Ho&agrave;ng Minh Việt Nam</span></p><p><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 14px;">Giấy chứng nhận đăng k&yacute; kinh doanh số 0109361357</span></span></p><p><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 14px;">Do Sở Kế hoạch v&agrave; Đầu tư th&agrave;nh phố H&agrave; Nội cấp ng&agrave;y 26/01/2021</span></span></p><p><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 14px;">Trụ sở ch&iacute;nh: 40 ng&otilde; 379 Đội cấn, Liễu Giai, Ba Đ&igrave;nh, H&agrave; Nội, Việt Nam</span></span></p><p><span style="font-family: Verdana,Geneva,sans-serif;"><span style="font-size: 14px;">SĐT: 0915 79 77 19</span></span></p><p><span style="font-family: Verdana, Geneva, sans-serif; font-size: 14px;">Email: miniwooddesign@gmail.com</span></p>
+        </div>
+    </div>
+        <div class="container hidden-xs footer-remark padding-bottom-sm-1">
+        <div class="col-sm-12">
+            <span class="text-white">Copyright © 2020 Miniwood Design</span>
+            <div class="pull-right relative language-select">
+                <span class="text-white">
+                    <img src="https://miniwooddesign.com/assets/images/flag-icon/4x3/vi.svg" alt="Việt Nam" loading="lazy" height="20" importance="low" />&nbsp; Việt Nam
+                </span>
+                <ul class="reset-list absolute">
+                                            
+                            <li>
+                                <a class="text-black" href="https://miniwooddesign.com/change-language/en">
+                                    <img src="https://miniwooddesign.com/assets/images/flag-icon/4x3/en.svg" loading="lazy" importance="low" height="20" alt="English" />
+                                    &nbsp;&nbsp; English
+                                </a>
+                            </li>
+                        
+                                            
+                            <li>
+                                <a class="text-black" href="https://miniwooddesign.com/change-language/vi">
+                                    <img src="https://miniwooddesign.com/assets/images/flag-icon/4x3/vi.svg" loading="lazy" importance="low" height="20" alt="Việt Nam" />
+                                    &nbsp;&nbsp; Việt Nam
+                                </a>
+                            </li>
+                        
+                                    </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <a href="javascript:;" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+    <!-- <div id="preloader"></div> -->
+
+    <script src="/js/app.js?id=3f9bf3a41f3ac1f5be72"></script>
+<script src="/assets/web/js/vendors.js?id=88b10281c31b862b6af8"></script>
+<script src="/assets/web/js/main.js?id=3af61fb99fefb6394c30"></script>
+        
+        <script src="https://miniwooddesign.com/assets/vendors/web/isotope.min.js"></script>
+        <script>
+            $(function() {
+                var $grid = $('.grid').isotope({
+                    itemSelector: 'article'
+                });
+
+                // filter buttons
+                $('.filters-button-group').on('click', 'button', function() {
+                    var filterValue = $(this).attr('data-filter');
+
+                    $(this).siblings().removeClass('is-checked');
+                    $(this).addClass('is-checked');
+                    $grid.isotope({ filter: filterValue });
+                });
+            });
+
+            // debounce so filtering doesn't happen every millisecond
+            // function debounce(fn, threshold) {
+            //     var timeout;
+            //     return function debounced() {
+            //         if (timeout) {
+            //             clearTimeout(timeout);
+            //         }
+
+            //         function delayed() {
+            //             fn();
+            //             timeout = null;
+            //         }
+            //         timeout = setTimeout(delayed, threshold || 100);
+            //     }
+            // }
+
+            $(window).bind("load", function() {
+                $('#grid_group_all').click();
+            });
+        </script>
+        <script src="/assets/web/js/pages/home.js?id=b41ecf415f878348187e"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(document).on('click', '.login-mobile-btn', function(e) {
+                e.preventDefault();
+                $('.hamburger-button').trigger('click');
+
+                $('#loginModal').modal('show');
+            })
+
+            $('.signUp').on('click', function(e) {
+                e.preventDefault();
+                $('#login-container').addClass('right-panel-active');
+            })
+
+            $('.signIn').on('click', function(e) {
+                e.preventDefault();
+                $('#login-container').removeClass('right-panel-active');
+            })
+        });
+    </script>
+    <script src="/assets/web/js/pages/auth.js?id=94d31adfc80b8716c6e2"></script>
+</body>
+
+</html>

@@ -1,0 +1,1050 @@
+
+<!DOCTYPE html PUBLIC>
+<html lang="vi" itemscope itemtype="http://schema.org/WebPage">
+<head>
+<meta charset="UTF-8">
+
+
+<base href="http://hoangminhsaigon.com/">
+<link id="favicon" rel="shortcut icon" href="upload/hinhanh/logo-5525_40x18.922155688623.jpg" type="image/x-icon" />
+<link rel="canonical" href="http://hoangminhsaigon.com/" />
+<title></title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+<meta name="robots" content="noodp,index,follow" />
+<meta name="google" content="notranslate" />
+<meta name='revisit-after' content='1 days' />
+<meta name="geo.placename" content="30 Đường DC6, Phường Sơn Kỳ,Quận Tân Phú, TPHCM">
+<meta name="author" content="Công ty TNHH Hoàng Minh Sài Gòn">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1" />
+
+<link rel="stylesheet" type="text/css" href="css/map.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css?ver=1626965346" media="screen"/>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-theme.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="wowslider/style.css" rel="stylesheet">
+<link type="text/css" href="css/magiczoomplus.css" media="all" rel="stylesheet" />
+<link type="text/css" href="css/magicscroll.css" media="all" rel="stylesheet" />
+ <link href="css/animate.css" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="amazing/amazingslider-1.css"/>
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/><script type="text/javascript" src="js/jquery.js"></script> 
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146621197-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146621197-1');
+</script>
+<meta name="google-site-verification" content="Tu39cv919yGqWgMOyGu4G_6MGsruoft-gvvtUH8SKqw" />
+
+</head>
+<body >
+ <h1 class="vcard fn h1_tieude"></h1>  
+<div id="wrapper"> 
+    <div id="rib"><div class="maxwidth"><p><img src="images/icon-diachi.png" alt="icon-diachi" />Đ/c: 30 Đường DC6, Phường Sơn Kỳ,Quận Tân Phú, TPHCM</p>
+<p><img src="images/icon-hotline.png" alt="icon-hotline" />Tell: 0909487538</p>
+<ul>
+	   
+	 	<li><a href="https://www.facebook.com/" target="_blank"><img src="thumb/2-16-16/upload/hinhanh/iconin-3295.png" alt="Twitter" /></a></li>
+	   
+	 	<li><a href="https://www.youtube.com/" target="_blank"><img src="thumb/2-16-16/upload/hinhanh/iconpin-9934.png" alt="Youtube" /></a></li>
+	   
+	 	<li><a href="https://www.facebook.com" target="_blank"><img src="thumb/2-16-16/upload/hinhanh/iconfacebook-6089.png" alt="Facebook" /></a></li>
+	   
+	 	<li><a href="https://www.google.com/" target="_blank"><img src="thumb/2-16-16/upload/hinhanh/icongoogle-7957.png" alt="Google" /></a></li>
+	 </ul>
+<div class="clear"></div></div></div> 
+    <div id="header">
+      <div class="maxwidth">
+        <div id="logo"><a href="index.html"><img class="img_max" src="thumb/2-167-79/upload/hinhanh/logo-5061.jpg" alt="logo-5061.jpg" /></a>
+</div>  
+        
+<div id="timkiem">     
+    <input type="text" name="keyword" id="keyword" value="Tìm kiếm" onblur="textboxChange(this,false,'Tìm kiếm')" onfocus="textboxChange(this,true,'Tìm kiếm')" onkeypress="doEnter(event,'keyword');" class="timkiem"/>           
+    <input type="button" onclick="onSearch(event,'keyword');" class="bt-timkiem" value=""/> 
+</div>
+<script type="text/javascript">
+function textboxChange(tb, f, sb) 
+{
+    if (!f) 
+    {
+        if (tb.value == "") 
+        {
+            tb.value = sb;
+        }
+    }
+    else 
+    {
+        if (tb.value == sb)
+        {
+            tb.value = "";
+        }
+    }
+}
+function doEnter(evt){
+    // IE                   // Netscape/Firefox/Opera
+    var key;
+    if(evt.keyCode == 13 || evt.which == 13){
+        onSearch(evt);
+    }
+}
+function onSearch(evt) {            
+
+        var keyword = document.getElementById("keyword").value;
+        if(keyword=='' || keyword=='Tìm kiếm')
+            alert('Bạn chưa nhập từ khóa tìm kiếm!');
+        else{
+        //var encoded = Base64.encode(keyword);
+        location.href = "tim-kiem.html/keyword="+keyword;
+        loadPage(document.location);            
+        }
+}   
+
+</script>        <div id="hotline">
+	<img src="images/icon-phone.jpg" alt="icon-phone" />
+	<p>hoangminhsaigon88@gmail.com<br>0909487538<br>0909487538</p>
+</div>        <div class="clear"></div>
+      </div>
+    </div>
+    <div id="menu-top"><div class="maxwidth"><div id="box-cap">
+    <div id="soxuong">Danh mục sản phẩm<i class="fa fa-bars"></i></div>
+    <ul id="nav-ul">
+                <li class="nav-li"><a class="nav-a" href="san-pham/dong-phuc.html">Đồng phục<img src="images/icon-list.png" alt="icon-list" /></a>
+                        <ul class="nav-ul-child">
+                                    <li class="nav-li-child">
+                        <a class="nav-a" href="san-pham/dong-phuc/ao-thun.htm">Áo thun</a>
+                    </li>
+                                    <li class="nav-li-child">
+                        <a class="nav-a" href="san-pham/dong-phuc/non.htm">Nón</a>
+                    </li>
+                                    <li class="nav-li-child">
+                        <a class="nav-a" href="san-pham/dong-phuc/bao-ho-lao-dong.htm">Bảo hộ lao động</a>
+                    </li>
+                                    <li class="nav-li-child">
+                        <a class="nav-a" href="san-pham/dong-phuc/ao-khoac.htm">Áo khoác</a>
+                    </li>
+                            </ul>
+                    </li>
+                <li class="nav-li"><a class="nav-a" href="san-pham/ao-mua.html">Áo mưa<img src="images/icon-list.png" alt="icon-list" /></a>
+                        <ul class="nav-ul-child">
+                                    <li class="nav-li-child">
+                        <a class="nav-a" href="san-pham/ao-mua/honda.htm">Honda</a>
+                    </li>
+                            </ul>
+                    </li>
+                <li class="nav-li"><a class="nav-a" href="san-pham/balo-tui-xach.html">Balo - Túi xách<img src="images/icon-list.png" alt="icon-list" /></a>
+                        <ul class="nav-ul-child">
+                                    <li class="nav-li-child">
+                        <a class="nav-a" href="san-pham/balo-tui-xach/loai-1.htm">Loại 1</a>
+                    </li>
+                                    <li class="nav-li-child">
+                        <a class="nav-a" href="san-pham/balo-tui-xach/loai-2.htm">Loại 2</a>
+                    </li>
+                            </ul>
+                    </li>
+                <li class="nav-li"><a class="nav-a" href="san-pham/qua-tang.html">Quà tặng<img src="images/icon-list.png" alt="icon-list" /></a>
+                    </li>
+                <li class="nav-li"><a class="nav-a" href="san-pham/thoi-trang.html">Thời trang<img src="images/icon-list.png" alt="icon-list" /></a>
+                    </li>
+            </ul>
+</div>
+<ul class="menu-parent">
+    <li class="active2"><a class="text-a" href="index.html">Trang chủ</a></li>
+    <li class="menu"><a class="text-a" href="gioi-thieu.html">Giới thiệu</a></li>
+    <li class="menu"><a class="text-a" href="san-pham.html">Sản phẩm</a>
+                <ul class="ul-child">
+                    <li class="li-child"><a href="san-pham/dong-phuc.html">Đồng phục</a>
+                                <ul class="ul-child-child">
+                                    <li class="li-child-child"><a href="san-pham/dong-phuc/ao-thun.htm">Áo thun</a></li>
+                                    <li class="li-child-child"><a href="san-pham/dong-phuc/non.htm">Nón</a></li>
+                                    <li class="li-child-child"><a href="san-pham/dong-phuc/bao-ho-lao-dong.htm">Bảo hộ lao động</a></li>
+                                    <li class="li-child-child"><a href="san-pham/dong-phuc/ao-khoac.htm">Áo khoác</a></li>
+                                </ul>
+                            </li>
+                    <li class="li-child"><a href="san-pham/ao-mua.html">Áo mưa</a>
+                                <ul class="ul-child-child">
+                                    <li class="li-child-child"><a href="san-pham/ao-mua/honda.htm">Honda</a></li>
+                                </ul>
+                            </li>
+                    <li class="li-child"><a href="san-pham/balo-tui-xach.html">Balo - Túi xách</a>
+                                <ul class="ul-child-child">
+                                    <li class="li-child-child"><a href="san-pham/balo-tui-xach/loai-1.htm">Loại 1</a></li>
+                                    <li class="li-child-child"><a href="san-pham/balo-tui-xach/loai-2.htm">Loại 2</a></li>
+                                </ul>
+                            </li>
+                    <li class="li-child"><a href="san-pham/qua-tang.html">Quà tặng</a>
+                            </li>
+                    <li class="li-child"><a href="san-pham/thoi-trang.html">Thời trang</a>
+                            </li>
+                </ul>
+            </li>
+    <li class="menu"><a class="text-a" href="tin-tuc.html">Tin tức</a></li>
+    <li class="menu"><a class="text-a" href="tuyen-dung.html">Tuyển dụng</a></li>
+    <li class="menu"><a class="text-a" href="lien-he.html">Liên hệ</a></li> 
+</ul>    
+<div class="clear"></div>
+</div></div>
+    <div id="menu-top-rp"><link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+<script type="text/javascript" src="js/jquery.mmenu.all.js"></script>
+<div id="box-timkiem_m"><a id="btn-lg" href="#menu" class="glyphicon glyphicon-align-justify"></a>
+<div id="timkiem_m">
+    <input type="text" name="keyword2" id="keyword2" value="Tìm kiếm" onblur="textboxChange(this,false,'Tìm kiếm')" onfocus="textboxChange(this,true,'Tìm kiếm')" onkeypress="doEnter2(event,'keyword2');" class="timkiem_m"/>  
+    <input type="button" onclick="onSearch2(event,'keyword2');" class="bt-timkiem_m" value=""/> 
+</div>
+<script type="text/javascript">
+function textboxChange(tb, f, sb) 
+{
+    if (!f) 
+    {
+        if (tb.value == "") 
+        {
+            tb.value = sb;
+        }
+    }
+    else 
+    {
+        if (tb.value == sb)
+        {
+            tb.value = "";
+        }
+    }
+}
+function doEnter2(evt){
+  // IE         // Netscape/Firefox/Opera
+  var key;
+  if(evt.keyCode == 13 || evt.which == 13){
+    onSearch2(evt);
+  }
+}
+function onSearch2(evt) {      
+
+    var keyword2 = document.getElementById("keyword2").value;
+    if(keyword2=='' || keyword2=='Tìm kiếm')
+      alert('Bạn chưa nhập từ khóa tìm kiếm!');
+    else{
+    //var encoded = Base64.encode(keyword2);
+    location.href = "tim-kiem.html/keyword="+keyword2;
+    loadPage(document.location);      
+    }
+} 
+
+</script></div> 
+<nav id="menu">
+    <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+        <li><a href="san-pham.html">Sản phẩm</a>
+                        <ul>
+                            <li><a href="san-pham/dong-phuc.html">Đồng phục</a>
+                                        <ul>
+                                            <li><a href="san-pham/dong-phuc/ao-thun.htm">Áo thun</a></li>
+                                            <li><a href="san-pham/dong-phuc/non.htm">Nón</a></li>
+                                            <li><a href="san-pham/dong-phuc/bao-ho-lao-dong.htm">Bảo hộ lao động</a></li>
+                                            <li><a href="san-pham/dong-phuc/ao-khoac.htm">Áo khoác</a></li>
+                                        </ul>
+                                    </li>
+                            <li><a href="san-pham/ao-mua.html">Áo mưa</a>
+                                        <ul>
+                                            <li><a href="san-pham/ao-mua/honda.htm">Honda</a></li>
+                                        </ul>
+                                    </li>
+                            <li><a href="san-pham/balo-tui-xach.html">Balo - Túi xách</a>
+                                        <ul>
+                                            <li><a href="san-pham/balo-tui-xach/loai-1.htm">Loại 1</a></li>
+                                            <li><a href="san-pham/balo-tui-xach/loai-2.htm">Loại 2</a></li>
+                                        </ul>
+                                    </li>
+                            <li><a href="san-pham/qua-tang.html">Quà tặng</a>
+                                    </li>
+                            <li><a href="san-pham/thoi-trang.html">Thời trang</a>
+                                    </li>
+                        </ul>
+                    </li>
+        <li><a href="tin-tuc.html">Tin tức</a></li>
+        <li><a href="tuyen-dung.html">Tuyển dụng</a></li>
+        <li><a href="lien-he.html">Liên hệ</a></li>  
+    </ul>             
+</nav>
+<script type="text/javascript">
+  $(window).scroll(function(){
+        var cach_top = $(window).scrollTop();
+        if(cach_top >= 87){
+          $('#menu-top-rp').css({position: 'fixed', top: '0px',left:'0px',right:'0px'});
+        }else{
+          $('#menu-top-rp').css({position: 'relative', top: '0px'});
+        }
+      });
+</script>      
+<script type="text/javascript">
+$(document).ready(function() {
+    $('nav#menu').mmenu({
+        extensions  : [ 'theme-white',"position-front","pagedim-black" ],
+    });
+});
+</script></div>
+    <div class="clear"></div>
+          <div id="slide_trung">
+        <div class="maxwidth">
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class='col-md-9'><div id="wowslider-container1">
+    <div class="ws_images">
+        <ul>
+                        <li><a href=""><img src="thumb/1-902-351/upload/hinhanh/3763565750371570.png" alt="Slide2"/></a></li>
+                        <li><a href=""><img src="thumb/1-902-351/upload/hinhanh/9417559748038730.jpg" alt="Hình 1"/></a></li>
+                    </ul>
+    </div>
+</div>  
+</div>
+          </div>
+        </div>
+      </div> 
+      <div id="content-top"><div class="maxwidth"><div class="row row20">
+  <div class="col-md-3 col-sm-4 padding20">
+    <div id="box-hotro">
+      <div class="list-hotro">
+                <div class="box-hotro">
+            <p class="ten-hotro">Mr Dũng</p>
+            <p class="dienthoai-hotro"><img src="images/icon-dienthoai.png" alt="icon-dienthoai" /> 0909487538</p>  
+            <p class="mail-hotro"><img src="images/icon-mail.png" alt="icon-mail" /> hoangminhsaigon88@gmail.com</p>                  
+        </div>
+                <div class="box-hotro">
+            <p class="ten-hotro">Mr Minh</p>
+            <p class="dienthoai-hotro"><img src="images/icon-dienthoai.png" alt="icon-dienthoai" /> 0985223555</p>  
+            <p class="mail-hotro"><img src="images/icon-mail.png" alt="icon-mail" /> lehuuminh@gmail.com</p>                  
+        </div>
+                <div class="box-hotro">
+            <p class="ten-hotro">Hotline</p>
+            <p class="dienthoai-hotro"><img src="images/icon-dienthoai.png" alt="icon-dienthoai" /> 02838164564</p>  
+            <p class="mail-hotro"><img src="images/icon-mail.png" alt="icon-mail" /> hoangminhsaigon88@gmail.com</p>                  
+        </div>
+              </div>
+    </div>
+  </div>
+  <div class="col-md-9 col-sm-8 padding20">
+    <div class="bg-tieude">
+      <h2>Sản phẩm nổi bật</h2>
+    </div>
+    <div class="owl-carousel owl-carousel2">
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/dong-phuc-the-thao-tri-duc.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/dong-phuc-the-thao-tri-duc-7100.jpg" border="0" alt="Đồng phục thể thao Trí Đức" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/dong-phuc-the-thao-tri-duc.htm">Đồng phục thể thao Trí Đức</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-m104.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/f4c2275d2354c40a9d45-3691.jpg" border="0" alt="Balo M104" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-m104.htm">Balo M104</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-m86.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/ed9fb869bc605b3e0271-1441.jpg" border="0" alt="Balo M86" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-m86.htm">Balo M86</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-kim-diep.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/f2fde62eef2708795136-6593.jpg" border="0" alt="Balo Kim Điệp" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-kim-diep.htm">Balo Kim Điệp</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-xe-dien-bay-chi.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/e834926f98667f382677-824.jpg" border="0" alt="Balo Xe Điện Bảy Chi" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-xe-dien-bay-chi.htm">Balo Xe Điện Bảy Chi</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-fe-credit.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/df481e2b1922fe7ca733-1904.jpg" border="0" alt="Balo FE CREDIT" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-fe-credit.htm">Balo FE CREDIT</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-m45-xam.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/d8b13236363fd161882e-6705.jpg" border="0" alt="Balo M45 Xám" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-m45-xam.htm">Balo M45 Xám</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-m53-den.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/b619e9cbedc20a9c53d3-5109.jpg" border="0" alt="Balo M53 Đen" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-m53-den.htm">Balo M53 Đen</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-m85-xam.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/b38dd364d76d3033697c-3824.jpg" border="0" alt="Balo M85 Xám" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-m85-xam.htm">Balo M85 Xám</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-m56-xanh.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/95626fbc6bb58cebd5a4-5697.jpg" border="0" alt="Balo M56 Xanh " /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-m56-xanh.htm">Balo M56 Xanh </a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-m54-xam.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/962accfac8f32fad76e2-6033.jpg" border="0" alt="Balo M54 Xám" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-m54-xam.htm">Balo M54 Xám</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-m46-xanh.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/680ed989dd803ade6391-5662.jpg" border="0" alt="Balo M46 Xanh" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-m46-xanh.htm">Balo M46 Xanh</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-m55-do.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/140d1bdc1fd5f88ba1c4-9892.jpg" border="0" alt="Balo M55 Đỏ" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-m55-do.htm">Balo M55 Đỏ</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-m47-den.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/6dfdb978bd715a2f0360-2985.jpg" border="0" alt="Balo M47 Đen" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-m47-den.htm">Balo M47 Đen</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-m106-xanh.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/3c4441d445dda283fbcc-8438.jpg" border="0" alt="Balo M106 Xanh" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-m106-xanh.htm">Balo M106 Xanh</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/balo-m105-xam.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/3a6d60f364fa83a4daeb-978.jpg" border="0" alt="Balo M105 Xám " /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/balo-m105-xam.htm">Balo M105 Xám </a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/ao-mua-sacombank.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/420757205b29bc77e538-595.jpg" border="0" alt="Áo mưa Sacombank" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/ao-mua-sacombank.htm">Áo mưa Sacombank</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/ao-mua-nam-anh.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/ee43dbf5adfc4aa213ed-8021.jpg" border="0" alt="Áo mưa Nam Anh" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/ao-mua-nam-anh.htm">Áo mưa Nam Anh</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/ao-mua-trang-do.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/f992cee3bdea5ab403fb-610.jpg" border="0" alt="Áo mưa trắng đỏ" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/ao-mua-trang-do.htm">Áo mưa trắng đỏ</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/ao-mua-1.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/6dd51455665c8102d84d-8988.jpg" border="0" alt="Áo mưa 1" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/ao-mua-1.htm">Áo mưa 1</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/ao-khoac-winner-x-the-he-moi.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/84c5c5c7bbce5c9005df-6232.jpg" border="0" alt="Áo khoác Winner X Thế hệ mới" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/ao-khoac-winner-x-the-he-moi.htm">Áo khoác Winner X Thế hệ mới</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/ao-thun-winner-x.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/1e73fe8989806ede3791-2662.jpg" border="0" alt="Áo thun Winner X" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/ao-thun-winner-x.htm">Áo thun Winner X</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/ao-khoac-honda-mat-trong.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/d1fc9dbae4b303ed5aa2-8765.jpg" border="0" alt="Áo khoác Honda Mặt trong" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/ao-khoac-honda-mat-trong.htm">Áo khoác Honda Mặt trong</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/ao-thun-honda.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/2beeda5fa15646081f47-3025.jpg" border="0" alt="Áo thun Honda" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/ao-thun-honda.htm">Áo thun Honda</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/ao-khoac-tuan-loan.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/f181b128ce21297f7030-2201.jpg" border="0" alt="Áo khoác Tuấn Loan" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/ao-khoac-tuan-loan.htm">Áo khoác Tuấn Loan</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/ao-thun-winner-thu-linh.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/bafa6ed019d9fe87a7c8-7176.jpg" border="0" alt="Áo thun Winner Thủ Lĩnh" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/ao-thun-winner-thu-linh.htm">Áo thun Winner Thủ Lĩnh</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/ao-khoac-honda-mat-ngoai.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/edfaecd495dd72832bcc-6860.jpg" border="0" alt="Áo khoác Honda mặt ngoài" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/ao-khoac-honda-mat-ngoai.htm">Áo khoác Honda mặt ngoài</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+                <div class="product">
+            <div class="hinh-product">
+              <a href="san-pham/ao-thun-wanek.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/52314a83318ad6d48f9b-9971.jpg" border="0" alt="Áo thun Wanek" /></a>
+            </div>  
+            <h3 class='ten-product'><a href="san-pham/ao-thun-wanek.htm">Áo thun Wanek</a></h3>
+            <div class="gia-product">Liên hệ</div>
+                        </div>             
+          </div>
+  </div>
+</div>
+</div></div>
+    	    <div id="content">
+	      <div class="maxwidth"> <div class="info_deals usual"> 
+<div class="bg-tieude">
+  <h2><span>01</span>Đồng phục</h2>
+  <ul class="tab_content3"> 
+            <li><a href="#tab10">Áo thun</a></li>      
+            <li><a href="#tab11">Nón</a></li>      
+            <li><a href="#tab12">Bảo hộ lao động</a></li>      
+            <li><a href="#tab16">Áo khoác</a></li>      
+                   
+  </ul> 
+</div>
+<div id="tab10" class="content_tab2">
+  <div class="product-all row row20">
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/dong-phuc-the-thao-tri-duc.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/dong-phuc-the-thao-tri-duc-7100.jpg" border="0" alt="Đồng phục thể thao Trí Đức" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/dong-phuc-the-thao-tri-duc.htm">Đồng phục thể thao Trí Đức</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/ao-thun-winner-x.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/1e73fe8989806ede3791-2662.jpg" border="0" alt="Áo thun Winner X" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/ao-thun-winner-x.htm">Áo thun Winner X</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/ao-thun-honda.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/2beeda5fa15646081f47-3025.jpg" border="0" alt="Áo thun Honda" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/ao-thun-honda.htm">Áo thun Honda</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/ao-thun-winner-thu-linh.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/bafa6ed019d9fe87a7c8-7176.jpg" border="0" alt="Áo thun Winner Thủ Lĩnh" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/ao-thun-winner-thu-linh.htm">Áo thun Winner Thủ Lĩnh</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/ao-thun-wanek.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/52314a83318ad6d48f9b-9971.jpg" border="0" alt="Áo thun Wanek" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/ao-thun-wanek.htm">Áo thun Wanek</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+      </div>
+  <div class="box-xemthem"><a class='xemthem' href="san-pham/dong-phuc/ao-thun.htm">Xem tất cả</a></div>
+  <a href="san-pham/dong-phuc.html" class="quangcao"><img class="img_max" src="thumb/1-1200-280/upload/product/b1-5100.PNG" border="0" alt="Đồng phục" /></a>
+</div>
+<div id="tab11" class="content_tab2">
+  <div class="product-all row row20">
+      </div>
+  <div class="box-xemthem"><a class='xemthem' href="san-pham/dong-phuc/non.htm">Xem tất cả</a></div>
+  <a href="san-pham/dong-phuc.html" class="quangcao"><img class="img_max" src="thumb/1-1200-280/upload/product/b1-5100.PNG" border="0" alt="Đồng phục" /></a>
+</div>
+<div id="tab12" class="content_tab2">
+  <div class="product-all row row20">
+      </div>
+  <div class="box-xemthem"><a class='xemthem' href="san-pham/dong-phuc/bao-ho-lao-dong.htm">Xem tất cả</a></div>
+  <a href="san-pham/dong-phuc.html" class="quangcao"><img class="img_max" src="thumb/1-1200-280/upload/product/b1-5100.PNG" border="0" alt="Đồng phục" /></a>
+</div>
+<div id="tab16" class="content_tab2">
+  <div class="product-all row row20">
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/ao-khoac-winner-x-the-he-moi.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/84c5c5c7bbce5c9005df-6232.jpg" border="0" alt="Áo khoác Winner X Thế hệ mới" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/ao-khoac-winner-x-the-he-moi.htm">Áo khoác Winner X Thế hệ mới</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/ao-khoac-honda-mat-trong.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/d1fc9dbae4b303ed5aa2-8765.jpg" border="0" alt="Áo khoác Honda Mặt trong" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/ao-khoac-honda-mat-trong.htm">Áo khoác Honda Mặt trong</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/ao-khoac-tuan-loan.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/f181b128ce21297f7030-2201.jpg" border="0" alt="Áo khoác Tuấn Loan" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/ao-khoac-tuan-loan.htm">Áo khoác Tuấn Loan</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/ao-khoac-honda-mat-ngoai.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/edfaecd495dd72832bcc-6860.jpg" border="0" alt="Áo khoác Honda mặt ngoài" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/ao-khoac-honda-mat-ngoai.htm">Áo khoác Honda mặt ngoài</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+      </div>
+  <div class="box-xemthem"><a class='xemthem' href="san-pham/dong-phuc/ao-khoac.htm">Xem tất cả</a></div>
+  <a href="san-pham/dong-phuc.html" class="quangcao"><img class="img_max" src="thumb/1-1200-280/upload/product/b1-5100.PNG" border="0" alt="Đồng phục" /></a>
+</div>
+<div class="bg-tieude">
+  <h2><span>02</span>Áo mưa</h2>
+  <ul class="tab_content3"> 
+            <li><a href="#tab13">Honda</a></li>      
+                   
+  </ul> 
+</div>
+<div id="tab13" class="content_tab2">
+  <div class="product-all row row20">
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/ao-mua-sacombank.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/420757205b29bc77e538-595.jpg" border="0" alt="Áo mưa Sacombank" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/ao-mua-sacombank.htm">Áo mưa Sacombank</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/ao-mua-nam-anh.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/ee43dbf5adfc4aa213ed-8021.jpg" border="0" alt="Áo mưa Nam Anh" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/ao-mua-nam-anh.htm">Áo mưa Nam Anh</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/ao-mua-trang-do.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/f992cee3bdea5ab403fb-610.jpg" border="0" alt="Áo mưa trắng đỏ" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/ao-mua-trang-do.htm">Áo mưa trắng đỏ</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/ao-mua-1.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/6dd51455665c8102d84d-8988.jpg" border="0" alt="Áo mưa 1" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/ao-mua-1.htm">Áo mưa 1</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+      </div>
+  <div class="box-xemthem"><a class='xemthem' href="san-pham/ao-mua/honda.htm">Xem tất cả</a></div>
+  <a href="san-pham/ao-mua.html" class="quangcao"><img class="img_max" src="thumb/1-1200-280/upload/product/quangcao-3617.jpg" border="0" alt="Áo mưa" /></a>
+</div>
+<div class="bg-tieude">
+  <h2><span>03</span>Balo - Túi xách</h2>
+  <ul class="tab_content3"> 
+            <li><a href="#tab14">Loại 1</a></li>      
+            <li><a href="#tab15">Loại 2</a></li>      
+                   
+  </ul> 
+</div>
+<div id="tab14" class="content_tab2">
+  <div class="product-all row row20">
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/balo-m104.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/f4c2275d2354c40a9d45-3691.jpg" border="0" alt="Balo M104" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/balo-m104.htm">Balo M104</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/balo-m86.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/ed9fb869bc605b3e0271-1441.jpg" border="0" alt="Balo M86" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/balo-m86.htm">Balo M86</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/balo-kim-diep.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/f2fde62eef2708795136-6593.jpg" border="0" alt="Balo Kim Điệp" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/balo-kim-diep.htm">Balo Kim Điệp</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/balo-xe-dien-bay-chi.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/e834926f98667f382677-824.jpg" border="0" alt="Balo Xe Điện Bảy Chi" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/balo-xe-dien-bay-chi.htm">Balo Xe Điện Bảy Chi</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/balo-fe-credit.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/df481e2b1922fe7ca733-1904.jpg" border="0" alt="Balo FE CREDIT" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/balo-fe-credit.htm">Balo FE CREDIT</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/balo-m45-xam.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/d8b13236363fd161882e-6705.jpg" border="0" alt="Balo M45 Xám" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/balo-m45-xam.htm">Balo M45 Xám</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/balo-m53-den.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/b619e9cbedc20a9c53d3-5109.jpg" border="0" alt="Balo M53 Đen" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/balo-m53-den.htm">Balo M53 Đen</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/balo-m85-xam.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/b38dd364d76d3033697c-3824.jpg" border="0" alt="Balo M85 Xám" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/balo-m85-xam.htm">Balo M85 Xám</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/balo-m56-xanh.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/95626fbc6bb58cebd5a4-5697.jpg" border="0" alt="Balo M56 Xanh " /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/balo-m56-xanh.htm">Balo M56 Xanh </a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+        <div class="col-md-3 col-sm-6 col-xs-6 product-item padding20">
+        <div class="product">
+          <div class="hinh-product">
+            <a href="san-pham/balo-m54-xam.htm"><img class="transition img_max" src="thumb/2-400-500/upload/product/962accfac8f32fad76e2-6033.jpg" border="0" alt="Balo M54 Xám" /></a>
+          </div>  
+          <h3 class='ten-product'><a href="san-pham/balo-m54-xam.htm">Balo M54 Xám</a></h3>
+          <div class="gia-product">Liên hệ</div>
+                    </div>  
+      </div>            
+      </div>
+  <div class="box-xemthem"><a class='xemthem' href="san-pham/balo-tui-xach/loai-1.htm">Xem tất cả</a></div>
+  <a href="san-pham/balo-tui-xach.html" class="quangcao"><img class="img_max" src="thumb/1-1200-280/upload/product/b2-4615.PNG" border="0" alt="Balo - Túi xách" /></a>
+</div>
+<div id="tab15" class="content_tab2">
+  <div class="product-all row row20">
+      </div>
+  <div class="box-xemthem"><a class='xemthem' href="san-pham/balo-tui-xach/loai-2.htm">Xem tất cả</a></div>
+  <a href="san-pham/balo-tui-xach.html" class="quangcao"><img class="img_max" src="thumb/1-1200-280/upload/product/b2-4615.PNG" border="0" alt="Balo - Túi xách" /></a>
+</div>
+</div></div>
+	    </div>
+          <div id="content-mid"><div class="maxwidth"><div class="bg-tieudesanpham"><h2>Tin tức sự kiện mới</h2></div>
+<div class="owl-carousel owl-carousel3">
+  <div class="news-noibat">
+    <a href="tin-tuc/chuong-trinh-uu-dai-voi-so-luong-1000-ao-thun-cho-khach-hang.htm"><img class="img_max" src="thumb/1-280-200/upload/baiviet/6dfdb978bd715a2f0360-776.jpg" border="0" alt="CHƯƠNG TRÌNH ƯU ĐÃI VỚI SỐ LƯỢNG 1000 ÁO THUN CHO KHÁCH HÀNG" /></a>  
+    <div class='bgdate'>28/08/2019</div>
+    <h3><a href="tin-tuc/chuong-trinh-uu-dai-voi-so-luong-1000-ao-thun-cho-khach-hang.htm">CHƯƠNG TRÌNH ƯU ĐÃI VỚI SỐ LƯỢNG 1000 ÁO THUN CHO KHÁCH HÀNG</a></h3>
+    <p>LIÊN HỆ NGAY VỚI CHÚNG TÔI: 0909487538</p>
+  </div> 
+  <div class="news-noibat">
+    <a href="tin-tuc/viet-nam-vo-dich-bong-da-nu-dong-nam-a-2019.htm"><img class="img_max" src="thumb/1-280-200/upload/baiviet/11-4968.png" border="0" alt="Việt Nam vô địch bóng đá nữ Đông Nam Á 2019" /></a>  
+    <div class='bgdate'>28/08/2019</div>
+    <h3><a href="tin-tuc/viet-nam-vo-dich-bong-da-nu-dong-nam-a-2019.htm">Việt Nam vô địch bóng đá nữ Đông Nam Á 2019</a></h3>
+    <p>Việt Nam đánh bại đương kim vô địch, chủ nhà Thái Lan với tỷ số 1-0 ở chung kết chiều 27/8.</p>
+  </div> 
+</div>
+<div class="clear30"></div>
+<div class="row">
+  <div class="col-md-5 col-sm-5 box-fanpage">
+    <div class="fb-page" data-href="https://www.facebook.com/Duy-Hiếu-page-227461551409943/" data-tabs="timeline" data-width="500" data-height="407" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Duy-Hiếu-page-227461551409943/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Duy-Hiếu-page-227461551409943/">Facebook</a></blockquote></div>
+  </div>
+  <div class="col-md-7 col-sm-7">
+    <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:687px;padding-left:0px; padding-right:144px;margin:0px auto 0px;">
+          <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                                <li><img src="http://img.youtube.com/vi/1kyQbGbHBVI&feature/0.jpg" alt="In chuyển nhiệt">
+                  <video preload="none" src="https://www.youtube.com/embed/1kyQbGbHBVI&feature?v=1kyQbGbHBVI&feature" ></video>
+                  </li>
+                                    <li><img src="http://img.youtube.com/vi/Zx0aeCoGSjQ/0.jpg" alt="Đối đầu, so sánh Honda WINNER X vs EXCITER vs RAIDER: pé GẤU thử thách Đại Nam TRACK!">
+                  <video preload="none" src="https://www.youtube.com/embed/Zx0aeCoGSjQ?v=Zx0aeCoGSjQ" ></video>
+                  </li>
+                                    <li><img src="http://img.youtube.com/vi/7bL-3xZahM8/0.jpg" alt="Đánh giá nhanh Honda Winner X 2019 tại Việt Nam">
+                  <video preload="none" src="https://www.youtube.com/embed/7bL-3xZahM8?v=7bL-3xZahM8" ></video>
+                  </li>
+                                </ul>
+              <ul class="amazingslider-thumbnails" style="display:none;">
+                                  <li><img src="http://img.youtube.com/vi/1kyQbGbHBVI&feature/0.jpg" alt="In chuyển nhiệt"></li>
+                                    <li><img src="http://img.youtube.com/vi/Zx0aeCoGSjQ/0.jpg" alt="Đối đầu, so sánh Honda WINNER X vs EXCITER vs RAIDER: pé GẤU thử thách Đại Nam TRACK!"></li>
+                                    <li><img src="http://img.youtube.com/vi/7bL-3xZahM8/0.jpg" alt="Đánh giá nhanh Honda Winner X 2019 tại Việt Nam"></li>
+                              </ul>
+          </div>
+        </div>
+  </div>
+</div>
+</div></div>
+      <div id="box-doitac"><div class="maxwidth"><script type="text/javascript" src="js/crawler.js"></script>
+
+<script type="text/javascript">
+marqueeInit({
+	uniqueid: 'mycrawler2',
+	style: {
+		'padding-left': '0px',
+		
+	},
+	inc: 5, //speed - pixel increment for each iteration of this marquee's movement
+	mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
+	moveatleast: 1,
+	neutral: 150,
+	savedirection: true,
+	random: true
+});
+</script>
+<div class="marquee" id="mycrawler2">
+	<a href=""><img src="thumb/2-150-100/upload/hinhanh/5495475278382320.jpg" alt="5495475278382320.jpg" /></a>
+<a href=""><img src="thumb/2-150-100/upload/hinhanh/0927141282444430.jpg" alt="0927141282444430.jpg" /></a>
+<a href=""><img src="thumb/2-150-100/upload/hinhanh/6835609457826060.jpg" alt="6835609457826060.jpg" /></a>
+<a href=""><img src="thumb/2-150-100/upload/hinhanh/3532178500200590.jpg" alt="3532178500200590.jpg" /></a>
+<a href=""><img src="thumb/2-150-100/upload/hinhanh/2425198100870510.jpg" alt="2425198100870510.jpg" /></a>
+<a href=""><img src="thumb/2-150-100/upload/hinhanh/383225456195111.jpg" alt="383225456195111.jpg" /></a>
+</div>				
+	
+
+
+
+    
+ 
+</div></div>
+        
+<div id="footer">
+  <div class="maxwidth">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 thongtin">
+          <h2 class="tieude-footer">Thông tin công ty</h2>
+          <div class="noidung"><p><span style="font-size:18px;"><span style="font-family:times new roman,times,serif;">CÔNG TY TNHH HOÀNG MINH SÀI GÒN</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:times new roman,times,serif;">GPDKKD số: 0311915289 - Cấp ngày: 08/08/2012 - Nơi cấp: Hồ Chí Minh</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:times new roman,times,serif;">Địa chỉ: 73 Phạm Đăng Giảng, Bình Hưng Hòa, Bình Tân, TPHCM</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:times new roman,times,serif;">Địa chỉ VP: 30 Đường DC6, P. Sơn Kỳ, Tân Phú, TPHCM</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:times new roman,times,serif;">Số Điện Thoại: 0909487538 </span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:times new roman,times,serif;">Website: hoangminhsaigon.com</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:times new roman,times,serif;">Email: hoangminhsaigon88@gmail.com</span></span></p>
+</div>
+        </div>
+        <div class="col-md-4 col-sm-6 thongtin">
+          <h2 class="tieude-footer">Chính sách khách hàng</h2>
+          <ul>
+                          <li><a href="chinh-sach/chinh-sach-bao-mat-thong-tin.htm">Chính sách bảo mật thông tin</a></li>
+                          <li><a href="chinh-sach/giao-hang-tan-noi.htm">Giao hàng tận nơi</a></li>
+                          <li><a href="chinh-sach/chuong-trinh-uu-dai.htm">Chương trình ưu đãi</a></li>
+                          <li><a href="chinh-sach/huong-dan-mua-hang.htm">Hướng dẫn mua hàng</a></li>
+                      </ul>
+           
+          <div class="clear10"></div>
+          <a href="http://online.gov.vn/Home/WebDetails/84396" target="_blank"><img class="img_max" src="images/logoSaleNoti.png"  width="180" /></a>
+           
+        </div>
+        
+        <div class="col-md-4 col-sm-6 thongtin">
+          <h2 class="tieude-footer">Fanpage</h2>
+          <div class="fb-page" data-href="https://www.facebook.com/Duy-Hiếu-page-227461551409943/" data-tabs="timeline" data-width="500" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Duy-Hiếu-page-227461551409943/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Duy-Hiếu-page-227461551409943/">Facebook</a></blockquote></div>
+        </div>
+      </div>
+  </div>
+</div>
+                
+                
+                
+
+                    
+    <div id="copyright">
+	<div class="maxwidth">
+		<p class="copy">2019 Copyright © <a href="index.html">Công ty TNHH Hoàng Minh Sài Gòn</a> All rights reserved. Design by NINA Co.,Ltd</p>
+		<div class="thongke"> 
+			<p>Đang online: <font>1</font></p>  
+			<p>Truy cập ngày: <font>23</font></p>
+			<p>Tổng truy cập: <font>45245</font></p>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>    <div id="map_canvas1"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.061441299324!2d106.60937164979565!3d10.806606292263258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bee75d945e1%3A0x2f92b81434192ff5!2zMzAgxJDGsOG7nW5nIERDNiwgU8ahbiBLw70sIFTDom4gUGjDuiwgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1566967573260!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+</div>
+    <script type="text/javascript">
+	  $(window).scroll(function(){
+	        var cach_top = $(window).scrollTop();
+	        if(cach_top >= 149){
+	          $('#menu-top').css({position: 'fixed','text-align':'center'});
+            $('#box-cap').hide();
+	        }else{
+	          $('#menu-top').css({position: 'relative','text-align':'none'});
+            $('#box-cap').show();
+	        }
+	      });
+	</script> 
+<div id="backtotop" class="transition"><div class="scrollup2"><img src="images/back-to-top.png" alt="back-to-top.png" /></div></div>
+ <script type='text/javascript'>$(function(){$(window).scroll(function(){if($(this).scrollTop()!=0){$('.scrollup2').fadeIn();}else{$('.scrollup2').fadeOut();}});$('.scrollup2').click(function(){$('body,html').animate({scrollTop:0},800);});});</script>	
+ <script type="text/javascript" src="wowslider/wowslider.js"></script>
+ <script type="text/javascript" src="wowslider/script.js"></script>
+
+<script type="text/javascript" src="js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/magiczoomplus.js"></script>
+<script type="text/javascript" src="js/magicscroll.js"></script>
+<script src="js/owl.carousel.js"></script> 
+<script type="text/javascript" src="amazing/amazingslider.js"></script>
+<script type="text/javascript" src="amazing/initslider-1.js"></script>
+<script type="text/javascript" src="js/unitegallery.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LegErUUAAAAAJciB7Nk0X2gZbEXQnFXD6lRVnUn"></script>
+<script>
+grecaptcha.ready(function () {
+grecaptcha.execute('6LegErUUAAAAAJciB7Nk0X2gZbEXQnFXD6lRVnUn', { action: 'nindex' }).then(function (token) {
+var recaptchaResponse = document.getElementsByClassName('recaptchaResponse');
+for(var i = 0; i < recaptchaResponse.length; i++) {
+recaptchaResponse[i].value = token;
+}
+});
+});
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function() {  
+    jQuery(".info_deals ul").idTabs();   
+});
+</script>
+<script type="text/javascript">
+  $('.owl-carousel2').owlCarousel({
+      margin: 20,
+      loop:true,
+      responsiveClass:true,
+      autoplay:true,    
+      responsive:{
+          0:{
+              items:1,
+              nav:false,
+          },
+          375:{
+              items:2,
+              nav:false,
+          },
+          600:{
+              items:3,
+              nav:false,
+          },
+          1000:{
+              items:4,
+              nav:false,
+          }
+      }
+  })
+</script>
+<script type="text/javascript">
+  $('.owl-carousel3').owlCarousel({
+      margin: 27,
+      loop:false,
+      responsiveClass:true,
+      autoplay:true,    
+      responsive:{
+          0:{
+              items:1,
+              nav:false,
+          },
+          375:{
+              items:2,
+              nav:false,
+          },
+          600:{
+              items:3,
+              nav:false,
+          },
+          1000:{
+              items:4,
+              nav:false,
+          }
+      }
+  })
+</script>
+<script src="https://sp.zalo.me/plugins/sdk.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js" ></script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script></body>
+</html>

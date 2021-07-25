@@ -1,0 +1,2446 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="https://sabi.com.vn/uploads/files/Logo%20SABI.png">
+			<meta name="robots" content="noindex, nofollow">
+		<title>CÔNG TY CỔ PHẦN TẬP ĐOÀN SABI PHARMA</title>
+<meta name="description" content="CÔNG TY CỔ PHẦN TẬP ĐOÀN SABI PHARMA">
+<meta name="keywords" content="CÔNG TY CỔ PHẦN TẬP ĐOÀN SABI PHARMA">
+<meta property="og:locale" content="vi" />
+<meta property="og:type" content="article" />
+<meta property="og:author" content="GCO-GROUP" />
+<meta property="og:title" content="CÔNG TY CỔ PHẦN TẬP ĐOÀN SABI PHARMA" />
+<meta property="og:description" content="CÔNG TY CỔ PHẦN TẬP ĐOÀN SABI PHARMA" />
+<meta property="og:image" content="/uploads/images/Logo%20SABI.png" />
+<meta property="og:image:height" content="400" />
+<meta property="og:image:width" content="400" />
+
+<meta name="twitter:title" content="CÔNG TY CỔ PHẦN TẬP ĐOÀN SABI PHARMA" />
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebPage","name":"C\u00d4NG TY C\u1ed4 PH\u1ea6N T\u1eacP \u0110O\u00c0N SABI PHARMA"}</script>
+	<meta name='revisit-after' content='1 days' />
+	<meta name="copyright" content="GCO" />
+	<meta http-equiv="content-language" content="vi" />
+	<meta name="geo.region" content="VN" />
+    <meta name="geo.position" content="10.764338, 106.69208" />
+    <meta name="geo.placename" content="Hà Nội" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+ 	<meta name="_token" content="tQM2arqQtJzz80FjYa64xMahRMpoNbwRkJHeFn3f" />
+ 	<link rel="canonical" href="https://sabi.com.vn">
+
+
+	 <!--link css-->
+
+	<link rel="stylesheet" type="text/css" title="" href="https://sabi.com.vn/public/frontend/librarys/bootstrap/css/bootstrap-4.1.3-.min.css">
+
+	<link rel="stylesheet" type="text/css" title="" href="https://sabi.com.vn/public/frontend/librarys/fontawesome/css/font-awesome-pro-5.5.0.min.css">
+
+	<link rel="stylesheet" type="text/css" title="" href="https://sabi.com.vn/public/frontend/librarys/slick/css/slick.css">
+
+	<link rel="stylesheet" type="text/css" title="" href="https://sabi.com.vn/public/frontend/librarys/slick/css/slick-theme.css">
+	
+	<link rel="stylesheet" type="text/css" title="" href="https://sabi.com.vn/public/frontend/css/main.min.css">
+
+	<link rel="stylesheet" type="text/css" title="" href="https://sabi.com.vn/public/frontend/css/upgrade.min.css">
+
+	<link rel="stylesheet" type="text/css" title="" href="https://sabi.com.vn/public/frontend/css/custom.css">
+	<link rel="stylesheet" type="text/css" title="" href="https://sabi.com.vn/public/frontend/css/style-upgrade.css">
+	<link rel="stylesheet" type="text/css" title="" href="https://sabi.com.vn/public/frontend/css/toastr.min.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<style>
+		.cslder {
+		   display: block;
+		   text-align: center;
+		   height: 20px;
+		   position: relative;
+		   display: none;
+		   clear: both
+	   }
+
+	   .cslder .cswrap {
+		   position: absolute;
+		   top: 50%;
+		   left: 50%;
+		   -webkit-transform: translate(-50%,-50%);
+		   transform: translate(-50%,-50%)
+	   }
+
+	   .csdot {
+		   width: 5px;
+		   height: 5px;
+		   border: 1px solid #00a850;
+		   background: #00a850;
+		   border-radius: 50%;
+		   float: left;
+		   margin: 0 2px;
+		   -webkit-transform: scale(0);
+		   transform: scale(0);
+		   -webkit-animation: fx 1000ms ease infinite 0ms;
+		   animation: fx 1000ms ease infinite 0ms
+	   }
+
+	   .csdot:nth-child(2) {
+		   -webkit-animation: fx 1000ms ease infinite 300ms;
+		   animation: fx 1000ms ease infinite 300ms
+	   }
+
+	   .csdot:nth-child(3) {
+		   -webkit-animation: fx 1000ms ease infinite 600ms;
+		   animation: fx 1000ms ease infinite 600ms
+	   }
+
+	   .csslder {
+		   display: block;
+		   text-align: center;
+		   height: 20px;
+		   position: relative;
+		   clear: both
+	   }
+
+	   .csslder .csswrap {
+		   position: absolute;
+		   top: 50%;
+		   left: 50%;
+		   -webkit-transform: translate(-50%,-50%);
+		   transform: translate(-50%,-50%)
+	   }
+
+	   .cssdot {
+		   width: 10px;
+		   height: 10px;
+		   border: 1px solid #00a850;
+		   background: #00a850;
+		   border-radius: 50%;
+		   float: left;
+		   margin: 0 5px;
+		   -webkit-transform: scale(0);
+		   transform: scale(0);
+		   -webkit-animation: fx 1000ms ease infinite 0ms;
+		   animation: fx 1000ms ease infinite 0ms
+	   }
+
+	   .cssdot:nth-child(2) {
+		   -webkit-animation: fx 1000ms ease infinite 300ms;
+		   animation: fx 1000ms ease infinite 300ms
+	   }
+
+	   .cssdot:nth-child(3) {
+		   -webkit-animation: fx 1000ms ease infinite 600ms;
+		   animation: fx 1000ms ease infinite 600ms
+	   }
+	   .loadingcover {
+		   position: fixed;
+		   top: 0;
+		   left: 0;
+		   right: 0;
+		   bottom: 0;
+		   background-color: rgba(255,255,255,.75);
+		   z-index: 9999999;
+	   }
+
+	   .loadingcover .csslder {
+		   top: 50%
+	   }
+
+	   @-webkit-keyframes fx {
+		   50% {
+			   -webkit-transform: scale(1);
+			   transform: scale(1);
+			   opacity: 1
+		   }
+
+		   100% {
+			   opacity: 0
+		   }
+	   }
+
+	   @keyframes  fx {
+		   50% {
+			   -webkit-transform: scale(1);
+			   transform: scale(1);
+			   opacity: 1
+		   }
+
+		   100% {
+			   opacity: 0
+		   }
+	   }
+	</style>
+ 	
+
+ 	
+</head> 
+	<body class="">
+		
+		<div class="loadingcover" style="display: none;">
+			<p class="csslder">
+				<span class="csswrap">
+					<span class="cssdot"></span>
+					<span class="cssdot"></span>
+					<span class="cssdot"></span>
+				</span>
+			</p>
+		</div>
+
+		<header id="header">
+        <div class="header__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header__top">
+                                                    <a href="#" class="header__top--text">
+                                Khuyến mãi 20% từ ngày 15/07 - 15/09/2021
+                            </a>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="header__baner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header__banner-group">
+                        
+                        <button class="toggleMenu">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="header__baner-logo">
+                            <a href="https://sabi.com.vn" class="header__baner-link">
+                                <img src="/uploads/images/Logo%20SABI.png" alt="icon menu">
+                            </a>
+                        </div>
+                        <div class="header__baner-menu">
+                            <button class="backMenu">
+                                <i class="fas fa-arrow-left"></i>
+                            </button>
+                            <nav class="header__menu">
+                                                                                                                                                    <li class="header__menu-item  active">
+                                            <a href="https://sabi.com.vn" class="header__menu-link">Trang chủ</a>
+                                                                                    </li>
+                                                                                                                                                                                                                                        <li class="header__menu-item  ">
+                                            <a href="https://sabi.com.vn/story" class="header__menu-link">Về SABI</a>
+                                                                                    </li>
+                                                                                                                                                                                                                                        <li class="header__menu-item page-product ">
+                                            <a href="https://sabi.com.vn/san-pham" class="header__menu-link">Sản Phẩm</a>
+                                                                                            <div class="menu__omega">
+                                                    <div class="menu__omega-item">
+                                                        
+                                                        <ul class="menu__omega-item--pr">
+                                                                                                                        <li class="menu__omega-item--list">
+                                                                <a href="https://sabi.com.vn/danh-muc-san-pham/tinh-dau-nuoc-hoa-vung-kin" class="menu__omega-item--link">
+                                                                    <i class="fas fa-angle-double-right"></i> Tinh dầu nước hoa vùng kín
+                                                                </a>
+                                                                
+                                                                                                                            </li>
+                                                                                                                        <li class="menu__omega-item--list">
+                                                                <a href="https://sabi.com.vn/danh-muc-san-pham/gel-ve-sinh-vung-kin" class="menu__omega-item--link">
+                                                                    <i class="fas fa-angle-double-right"></i> Gel vệ sinh vùng kín
+                                                                </a>
+                                                                
+                                                                                                                            </li>
+                                                                                                                        <li class="menu__omega-item--list">
+                                                                <a href="https://sabi.com.vn/danh-muc-san-pham/bo-xit-rua-phu-khoa" class="menu__omega-item--link">
+                                                                    <i class="fas fa-angle-double-right"></i> Bộ xịt rửa Phụ khoa
+                                                                </a>
+                                                                
+                                                                                                                            </li>
+                                                                                                                        <li class="menu__omega-item--list">
+                                                                <a href="https://sabi.com.vn/danh-muc-san-pham/vien-se-khit-sach-hong" class="menu__omega-item--link">
+                                                                    <i class="fas fa-angle-double-right"></i> Viên Se khít sạch hồng
+                                                                </a>
+                                                                
+                                                                                                                            </li>
+                                                                                                                        <li class="menu__omega-item--list">
+                                                                <a href="https://sabi.com.vn/danh-muc-san-pham/stvt-khoa-hoc" class="menu__omega-item--link">
+                                                                    <i class="fas fa-angle-double-right"></i> Sinh trắc Vân tay
+                                                                </a>
+                                                                
+                                                                                                                            </li>
+                                                                                                                        <li class="menu__omega-item--list">
+                                                                <a href="https://sabi.com.vn/danh-muc-san-pham/khoa-hoc" class="menu__omega-item--link">
+                                                                    <i class="fas fa-angle-double-right"></i> Khóa học - Huấn luyện kinh doanh
+                                                                </a>
+                                                                
+                                                                                                                            </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                </div>
+                                                                                    </li>
+                                                                                                                                                                                                                                        <li class="header__menu-item page-gift ">
+                                            <a href="https://sabi.com.vn/gift" class="header__menu-link">Quà tặng</a>
+                                                                                    </li>
+                                                                                                                                                                                                                                        <li class="header__menu-item page-handbook ">
+                                            <a href="https://sabi.com.vn/cam-nang" class="header__menu-link">Cẩm nang</a>
+                                                                                    </li>
+                                                                                                                                                                                                                                        <li class="header__menu-item page-agency ">
+                                            <a href="https://sabi.com.vn/dai-ly" class="header__menu-link">Đại lý</a>
+                                                                                    </li>
+                                                                                                                                                                                                                                        <li class="header__menu-item page-blog ">
+                                            <a href="https://sabi.com.vn/tin-tuc" class="header__menu-link">Thông tin hữu ích</a>
+                                                                                    </li>
+                                                                                                                                                            <li class="header__menu-item  ">
+                                            <a href="https://sabi.com.vn/lien-he" class="header__menu-link">Liên hệ</a>
+                                                                                    </li>
+                                                                                                                                        </nav>
+                        </div>
+                        <div class="header__cart-search">
+                            <a href="https://sabi.com.vn/gio-hang" class="header__card">
+                                <span class="icons__card">
+                                    <i class="fas fa-shopping-basket"></i>
+                                </span>
+                                <span class="text__name">
+                                    Giỏ hàng
+                                </span>
+                                <span class="text__totals">0</span>
+                            </a>
+                            <div class="header__search">
+                                <form action="https://sabi.com.vn/tim-kiem" method="GET">
+                                    <div class="header__search-group">
+                                        <button class="btn__search">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                        <input type="text" name="q" value="" class="header__search-input">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>			<main id="main" class="main-index">
+				    <section class="slide__home">
+        <div class="slide__home_item">
+            <div class="slide__home-slick">
+                                <a href="#" class="d-block">
+                    <div class="slide__home-link">
+                        <p class="container">
+                            
+                        </p>
+                        <div class="slide__home-image" style="background-image: url('/uploads/files/Sabi_banner_2-01.jpg');"></div>
+                        <div class="slide__home-image-mb" style="background-image: url('/uploads/images/Sabi_Mobile_2-01.jpg');"></div>
+                    </div>
+                </a>
+                                <a href="#" class="d-block">
+                    <div class="slide__home-link">
+                        <p class="container">
+                            
+                        </p>
+                        <div class="slide__home-image" style="background-image: url('/uploads/files/Banner/Sabi_banner_8-01.jpg');"></div>
+                        <div class="slide__home-image-mb" style="background-image: url('/uploads/images/Sabi_Mobile_8-01.jpg');"></div>
+                    </div>
+                </a>
+                            </div>
+        </div>
+    </section>
+        <section class="product__sabi">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="product__sabi-header">
+                        <h2 class="title">
+                            SẢN PHẨM CỦA SABI
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                                                <div class="col-12  col-lg-4 pl-3 pr-3">
+                    <div class="product__sabi-list">
+                        <div class="product__sabi-avata">
+                            <img src="/uploads/files/Sabi%20Sup%20(3).png" alt="Vệ sinh hàng ngày" class="product__sabi-img">
+                        </div>
+                        <div class="product__sabi-content">
+                            <h3 class="product__sabi-title">
+                                Vệ sinh hàng ngày
+                            </h3>
+                            <p class="product__sabi-desc">
+                                Dùng SABI để vệ sinh vùng kín vô cùng dịu nhẹ và an toàn, loại bỏ bụi bẩn, loại bỏ chất nhầy, khí hư bám dính, mùi hôi...giữ cho vùng kín khô thoáng mát thơm suốt cả ngày dài. Đặc biệt, với những thành phần an toàn hữu hiệu, cơ chế chuẩn y khoa, dùng hàng ngày hàng tháng liên tục sẽ giúp &quot;cô bé&quot; của chị em luôn khỏe mạnh, tươi trẻ, khít hồng như  thời thanh xuân.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-12  col-lg-4 pl-3 pr-3">
+                    <div class="product__sabi-list">
+                        <div class="product__sabi-avata">
+                            <img src="/uploads/files/z2049730881006_53f17626b1e67ac0702cc0fbb0ebbe0d.jpg" alt="Hỗ trợ Điều trị" class="product__sabi-img">
+                        </div>
+                        <div class="product__sabi-content">
+                            <h3 class="product__sabi-title">
+                                Hỗ trợ Điều trị
+                            </h3>
+                            <p class="product__sabi-desc">
+                                SABI góp phần quan trọng trong phòng ngừa và hỗ trợ điều trị các vấn đề về Phụ khoa thường gặp như: mùi hôi tanh, ngứa ngáy khó chịu, khí hư, chất dịch nhầy nhiều một cách bất thường, rong huyết, bí tắc kinh, viêm nhiễm thông thường, viêm lộ tuyến cổ tử cung, vô sinh hiếm muộn, u - nang...và các vấn đề phần phụ khác của Phụ nữ
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-12  col-lg-4 pl-3 pr-3">
+                    <div class="product__sabi-list">
+                        <div class="product__sabi-avata">
+                            <img src="/uploads/files/Sabi%20Sup%20(9).png" alt="Trẻ hóa &quot;Cô bé&quot;" class="product__sabi-img">
+                        </div>
+                        <div class="product__sabi-content">
+                            <h3 class="product__sabi-title">
+                                Trẻ hóa &quot;Cô bé&quot;
+                            </h3>
+                            <p class="product__sabi-desc">
+                                Qua thời gian, quan hệ vợ chồng, sinh đẻ, &quot;cô bé&quot; của chị em không tránh khỏi các vấn đề thâm, nhăn, teo, rộng, khô, chai lì... SABI có cơ chế chuẩn y khoa góp phần giúp chị em khôi phục và trẻ hóa một cách tự nhiên,  không cần phải phẩu thuật, xâm lấn. Tự chăm sóc ở nhà giúp cô bé được phục hồi và trẻ hóa; chị em  trở nên quyến rũ và Hạnh phúc hơn.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                                            </div>
+        </div>
+    </section>
+    <section class="product__result">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="product__result-header">
+                        <h2 class="title">
+                            KẾT QUẢ ĐẠT ĐƯỢC SAU KHI SỬ DỤNG SẢN PHẨM CỦA SABI
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="product__result-video">
+                        <div class="product__result-control">
+                            <button onclick="playPause()">
+                                <i class="fab fa-youtube"></i>
+                            </button></div>
+                        <div class="thumbnail-video">
+                            <img src="/uploads/files/__thumbs/maxresdefault(2).jpg/maxresdefault(2)__800x450.jpg" alt="">
+                        </div>
+                        <iframe id="video1" class="video__controls" src="https://www.youtube.com/embed/V3SkGMA0KXc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="product__result-slide">
+                        <div class="product__result-slick">
+                                                                                    <a href="#" class="product__result-item">
+                                <img src="/uploads/files/102428356_270783010930606_7226752603573948074_o.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/102426582_270782987597275_6234133533146038993_o.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/101962514_270783050930602_8093471992282428068_o.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/101883441_270783004263940_1776258839007350981_o.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/070968e5653f9861c12e.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/00d0591c54c6a998f0d7.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/4a98d358de8223dc7a93.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/2809ab34d6712f2f7660.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/87b382668fbc72e22bad.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/7d5c29305b74a22afb65.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/63fc7a2d77f78aa9d3e6.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/88b88fd6fd9204cc5d83.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/963b4d523f16c6489f07.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/bdeec5ddb89841c61889.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/cfcfc133cce931b768f8.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/d0aaebc2998660d83997.jpg" alt="image">
+                            </a>
+                                                        <a href="#" class="product__result-item">
+                                <img src="/uploads/files/d87ca012da5623087a47.jpg" alt="image">
+                            </a>
+                                                                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product__tab">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="product__tab-header">
+                        <h2 class="title">
+                            Sản phẩm
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link" id="product__all-tab" data-toggle="tab" href="#product__all" role="tab" aria-controls="product__all" aria-selected="true">Tất cả sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="product__hot-tab" data-toggle="tab" href="#product__hot" role="tab" aria-controls="product__hot" aria-selected="true">Sản phẩm bán chạy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="product__new-hot" data-toggle="tab" href="#product__new" role="tab" aria-controls="product__new" aria-selected="false">Sản phẩm mới</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="productLine__table-3" data-toggle="tab" href="#product__sale" role="tab" aria-controls="product__sale" aria-selected="false">
+                                Sản phẩm sale
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade" id="product__all" role="tabpanel" aria-labelledby="product__all-tab">
+                            <div class="product__group">
+                                                                                                <div class="product__item">
+	<div class="product__box" title="Com bo mua 2 tặng 1">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/com-bo-mua-2-tang-1" class="product__avata d-block" style="background-image: url('/uploads/files/135659733_1256031231464291_1786161727118363112_n.jpg')"></a>
+			<a href="https://sabi.com.vn/san-pham/com-bo-mua-2-tang-1" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Com bo mua 2 tặng 1
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						0 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                                                                <div class="product__item">
+	<div class="product__box" title="SABI Love">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/sabi-love" class="product__avata d-block" style="background-image: url('/uploads/files/d64a19d81736e968b027.jpg')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabi-love" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					SABI Love
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						99.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon"></i>
+    <i class="fas fa-star icon"></i>
+    <i class="fas fa-star icon"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                                                                <div class="product__item">
+	<div class="product__box" title="SABI Queen">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/sabi-queen" class="product__avata d-block" style="background-image: url('/uploads/files/Sabi%20love%20(9).png')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabi-queen" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					SABI Queen
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						0 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                                                                <div class="product__item">
+	<div class="product__box" title="Bột xịt rửa Âm đạo SABI Sup">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/sabisup-1" class="product__avata d-block" style="background-image: url('/uploads/files/z2049731595665_e8da2c3cc266ac831cb82ed99a40543b.jpg')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabisup-1" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Bột xịt rửa Âm đạo SABI Sup
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						399.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                                                                <div class="product__item">
+	<div class="product__box" title="Gel vệ sinh SABI Clear">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/gel-ve-sinh-sabi-clear" class="product__avata d-block" style="background-image: url('/uploads/files/z2049731478379_43d51b0086e3bb40821880d98a63a43e.jpg')"></a>
+			<a href="https://sabi.com.vn/san-pham/gel-ve-sinh-sabi-clear" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Gel vệ sinh SABI Clear
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						150.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                                                                <div class="product__item">
+	<div class="product__box" title="Gel vệ sinh SABI Clear Vulva">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/sabiclear" class="product__avata d-block" style="background-image: url('/uploads/files/sabi%20clear.JPG')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabiclear" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Gel vệ sinh SABI Clear Vulva
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						199.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                                                                <div class="product__item">
+	<div class="product__box" title="Tinh dầu nước hoa vùng kín SABI Love Charm Secret">
+		<div class="product__box-header">
+							<span class="icon__sale" style="background-image: url(https://sabi.com.vn/public/frontend/images/icon__sale.png);">
+					- 24%
+				</span>
+						<a href="https://sabi.com.vn/san-pham/sabilove" class="product__avata d-block" style="background-image: url('/uploads/files/mockup%20sabi%20love%20secret.JPG')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabilove" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Tinh dầu nước hoa vùng kín SABI Love Charm Secret
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__sale">
+						129.000 vnđ
+					</span>
+					<span class="number__price">
+						99.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon"></i>
+    <i class="fas fa-star icon"></i>
+    <i class="fas fa-star icon"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                                                                <div class="product__item">
+	<div class="product__box" title="Bộ xịt rửa Phụ khoa SABI Queen Plus+">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/sabisup" class="product__avata d-block" style="background-image: url('/uploads/files/3-1.JPG')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabisup" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Bộ xịt rửa Phụ khoa SABI Queen Plus+
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						249.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                                                                                                                                                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="product__hot" role="tabpanel" aria-labelledby="product__hot-tab">
+                            <div class="product__group">
+                                                                                                                                                                                                                                                                                                <div class="product__item">
+	<div class="product__box" title="Bột xịt rửa Âm đạo SABI Sup">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/sabisup-1" class="product__avata d-block" style="background-image: url('/uploads/files/z2049731595665_e8da2c3cc266ac831cb82ed99a40543b.jpg')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabisup-1" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Bột xịt rửa Âm đạo SABI Sup
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						399.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                                                                <div class="product__item">
+	<div class="product__box" title="Gel vệ sinh SABI Clear">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/gel-ve-sinh-sabi-clear" class="product__avata d-block" style="background-image: url('/uploads/files/z2049731478379_43d51b0086e3bb40821880d98a63a43e.jpg')"></a>
+			<a href="https://sabi.com.vn/san-pham/gel-ve-sinh-sabi-clear" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Gel vệ sinh SABI Clear
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						150.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                                                                                                                                                                                                                                                                                                                                                            </div>
+                        </div>
+                        <div class="tab-pane fade show active" id="product__new" role="tabpanel" aria-labelledby="product__new-hot">
+                            <div class="product__group">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="product__item">
+	<div class="product__box" title="Tinh dầu nước hoa vùng kín SABI Love Charm Secret">
+		<div class="product__box-header">
+							<span class="icon__sale" style="background-image: url(https://sabi.com.vn/public/frontend/images/icon__sale.png);">
+					- 24%
+				</span>
+						<a href="https://sabi.com.vn/san-pham/sabilove" class="product__avata d-block" style="background-image: url('/uploads/files/mockup%20sabi%20love%20secret.JPG')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabilove" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Tinh dầu nước hoa vùng kín SABI Love Charm Secret
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__sale">
+						129.000 vnđ
+					</span>
+					<span class="number__price">
+						99.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon"></i>
+    <i class="fas fa-star icon"></i>
+    <i class="fas fa-star icon"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                                                                                                                                                                                                                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="product__sale" role="tabpanel" aria-labelledby="product__sale-tab">
+                            <div class="product__group">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="product__item">
+	<div class="product__box" title="Tinh dầu nước hoa vùng kín SABI Love Charm Secret">
+		<div class="product__box-header">
+							<span class="icon__sale" style="background-image: url(https://sabi.com.vn/public/frontend/images/icon__sale.png);">
+					- 24%
+				</span>
+						<a href="https://sabi.com.vn/san-pham/sabilove" class="product__avata d-block" style="background-image: url('/uploads/files/mockup%20sabi%20love%20secret.JPG')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabilove" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Tinh dầu nước hoa vùng kín SABI Love Charm Secret
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__sale">
+						129.000 vnđ
+					</span>
+					<span class="number__price">
+						99.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon"></i>
+    <i class="fas fa-star icon"></i>
+    <i class="fas fa-star icon"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                                                                                                                                                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advertisement">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="advertisement__group">
+                        <div class="advertisement__item">
+                            <div class="advertisement__item-img">
+                                <a href="sabi.com.vn">
+                                <img src="/uploads/images/qc__1.jpg" alt="qc-1">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="advertisement__item">
+                            <div class="advertisement__item-img">
+                                <a href="#">
+                                <img src="/uploads/files/z2272193499109_d341ea8d0c3b12b173484d7f32fc1d0b.jpg" alt="qc-1">
+                                </a>
+                            </div>
+                            <div class="advertisement__item-img">
+                                <a href="#">
+                                <img src="/uploads/files/z2272183100452_0772a28c66c5c1765e72ab9a77084452.jpg" alt="qc-1">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="onlineSupport">
+        <div class="container">
+            <div class="module moduel__onlineSupport">
+                <div class="module__header">
+                    <h2 class="title title__global">
+                        Hỗ trợ trực tuyến
+                    </h2>
+                </div>
+                <div class="module__content">
+                    <div class="row">
+                                                                                <div class="col-12 col-sm-4 col-md-4">
+                                <div class="support">
+                                    <div class="support__avata">
+                                            <img src="/uploads/images/avata__1.jpg">
+                                            
+                                    </div>
+                                    <div class="support__content">
+                                        <h2>
+                                            Chuyên gia Thu Hiền
+                                        </h2>
+                                        <a href="https://zalo.me/0982331299" target="_blank">
+                                            <img src="/uploads/images/icon__mesage-f.png" alt="Nhắn tin ngay" width="20px" height="20px">
+                                            
+                                            <span>
+                                                Nhắn tin ngay
+                                            </span>
+                                        </a> 
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="col-12 col-sm-4 col-md-4">
+                                <div class="support">
+                                    <div class="support__avata">
+                                            <img src="/uploads/images/avata.jpg">
+                                            
+                                    </div>
+                                    <div class="support__content">
+                                        <h2>
+                                            Chuyên gia Trần Hồng
+                                        </h2>
+                                        <a href="https://zalo.me/0003445789" target="_blank">
+                                            <img src="/uploads/images/icon__zalo_f.png" alt="Nhắn tin ngay" width="20px" height="20px">
+                                            
+                                            <span>
+                                                Nhắn tin ngay
+                                            </span>
+                                        </a> 
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="col-12 col-sm-4 col-md-4">
+                                <div class="support">
+                                    <div class="support__avata">
+                                            <img src="/uploads/images/avata.jpg">
+                                            
+                                    </div>
+                                    <div class="support__content">
+                                        <h2>
+                                            Chuyên gia Trần Hồng
+                                        </h2>
+                                        <a href="https://zalo.me/0982337913" target="_blank">
+                                            <img src="/uploads/images/icon__mesage-f.png" alt="Nhắn tin ngay" width="20px" height="20px">
+                                            
+                                            <span>
+                                                Nhắn tin ngay
+                                            </span>
+                                        </a> 
+                                    </div>
+                                </div>
+                            </div>
+                                                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="whyChooseUs">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="whyChooseUs__header">
+                        <h2 class="title">
+                            Tại sao chọn chúng tôi
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="whyChooseUs__group">
+                                                                        <div class="whyChooseUs__group-item">
+                            <div class="whyChooseUs__icon">
+                                <img class="whChooeUs__img" src="/uploads/images/icon__phone.png" alt="icon phone">
+                            </div>
+                            <div class="whyChooseUs__info">
+                                <p>
+                                    Không ôm hàng
+                                </p>
+                                <p>
+                                    Khi có đơn, liên hệ Trung tâm SABI gần nhất với khách hàng/đại lý để đặt đơn và ship luôn.
+                                </p>
+                            </div>
+                        </div>
+                                                <div class="whyChooseUs__group-item">
+                            <div class="whyChooseUs__icon">
+                                <img class="whChooeUs__img" src="/uploads/images/icon__vehicle.png" alt="icon phone">
+                            </div>
+                            <div class="whyChooseUs__info">
+                                <p>
+                                    Tiện lợi - Nhanh chóng
+                                </p>
+                                <p>
+                                    Trên 100 Trung tâm phân phối có mặt mọi nơi trên toàn quốc. Đặt hàng nơi gần nhất để nhận hàng nhanh, ship rẻ.
+                                </p>
+                            </div>
+                        </div>
+                                                <div class="whyChooseUs__group-item">
+                            <div class="whyChooseUs__icon">
+                                <img class="whChooeUs__img" src="/uploads/images/icon__price.png" alt="icon phone">
+                            </div>
+                            <div class="whyChooseUs__info">
+                                <p>
+                                    Thu nhập cao -  bền vững
+                                </p>
+                                <p>
+                                    Chiết khấu quyền lợi cao, có lương cứng, đóng BHXH, BHNT... Hàng trăm người đã mua nhà, mua xe, có sổ tiết kiệm...
+                                </p>
+                            </div>
+                        </div>
+                                                <div class="whyChooseUs__group-item">
+                            <div class="whyChooseUs__icon">
+                                <img class="whChooeUs__img" src="/uploads/images/icon__advisory.png" alt="icon phone">
+                            </div>
+                            <div class="whyChooseUs__info">
+                                <p>
+                                    Đào tạo - Huấn luyện
+                                </p>
+                                <p>
+                                    Liên tục đào tạo - huấn luyện phát triển bản thân, kinh doanh, bán hàng từ A đến Z trực tiếp từ CEO - Co Founder SABI.
+                                </p>
+                            </div>
+                        </div>
+                                                                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="productLine">
+        <div class="container">
+            <div class="module module__productLine">
+                                    <div class="module__header">
+                        <h2 class="title title__global">
+                            Tinh dầu nước hoa vùng kín
+                        </h2>
+                    </div>
+                    <div class="module__content">    
+                        <div class="product__group">
+                                                                                                    <div class="product__item">
+	<div class="product__box" title="SABI Love">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/sabi-love" class="product__avata d-block" style="background-image: url('/uploads/files/d64a19d81736e968b027.jpg')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabi-love" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					SABI Love
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						99.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon"></i>
+    <i class="fas fa-star icon"></i>
+    <i class="fas fa-star icon"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                    <div class="product__item">
+	<div class="product__box" title="Tinh dầu nước hoa vùng kín SABI Love Charm Secret">
+		<div class="product__box-header">
+							<span class="icon__sale" style="background-image: url(https://sabi.com.vn/public/frontend/images/icon__sale.png);">
+					- 24%
+				</span>
+						<a href="https://sabi.com.vn/san-pham/sabilove" class="product__avata d-block" style="background-image: url('/uploads/files/mockup%20sabi%20love%20secret.JPG')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabilove" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Tinh dầu nước hoa vùng kín SABI Love Charm Secret
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__sale">
+						129.000 vnđ
+					</span>
+					<span class="number__price">
+						99.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon"></i>
+    <i class="fas fa-star icon"></i>
+    <i class="fas fa-star icon"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                            
+                        </div>
+                    </div>
+
+                                    <div class="module__header">
+                        <h2 class="title title__global">
+                            Gel vệ sinh vùng kín
+                        </h2>
+                    </div>
+                    <div class="module__content">    
+                        <div class="product__group">
+                                                                                                    <div class="product__item">
+	<div class="product__box" title="Gel vệ sinh SABI Clear">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/gel-ve-sinh-sabi-clear" class="product__avata d-block" style="background-image: url('/uploads/files/z2049731478379_43d51b0086e3bb40821880d98a63a43e.jpg')"></a>
+			<a href="https://sabi.com.vn/san-pham/gel-ve-sinh-sabi-clear" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Gel vệ sinh SABI Clear
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						150.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                    <div class="product__item">
+	<div class="product__box" title="Gel vệ sinh SABI Clear Vulva">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/sabiclear" class="product__avata d-block" style="background-image: url('/uploads/files/sabi%20clear.JPG')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabiclear" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Gel vệ sinh SABI Clear Vulva
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						199.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                            
+                        </div>
+                    </div>
+
+                                    <div class="module__header">
+                        <h2 class="title title__global">
+                            Bộ xịt rửa Phụ khoa
+                        </h2>
+                    </div>
+                    <div class="module__content">    
+                        <div class="product__group">
+                                                                                                    <div class="product__item">
+	<div class="product__box" title="Bột xịt rửa Âm đạo SABI Sup">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/sabisup-1" class="product__avata d-block" style="background-image: url('/uploads/files/z2049731595665_e8da2c3cc266ac831cb82ed99a40543b.jpg')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabisup-1" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Bột xịt rửa Âm đạo SABI Sup
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						399.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                    <div class="product__item">
+	<div class="product__box" title="Bộ xịt rửa Phụ khoa SABI Queen Plus+">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/sabisup" class="product__avata d-block" style="background-image: url('/uploads/files/3-1.JPG')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabisup" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					Bộ xịt rửa Phụ khoa SABI Queen Plus+
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						249.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                            
+                        </div>
+                    </div>
+
+                                    <div class="module__header">
+                        <h2 class="title title__global">
+                            Viên Se khít sạch hồng
+                        </h2>
+                    </div>
+                    <div class="module__content">    
+                        <div class="product__group">
+                                                                                                    <div class="product__item">
+	<div class="product__box" title="SABI Queen">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/sabi-queen" class="product__avata d-block" style="background-image: url('/uploads/files/Sabi%20love%20(9).png')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabi-queen" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					SABI Queen
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						0 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                    <div class="product__item">
+	<div class="product__box" title="SABI Queen&#039;s Secret">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/sabiqueen" class="product__avata d-block" style="background-image: url('/uploads/files/4.JPG')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabiqueen" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					SABI Queen&#039;s Secret
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						459.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+				<i class="fal fa-star"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                            
+                        </div>
+                    </div>
+
+                                    <div class="module__header">
+                        <h2 class="title title__global">
+                            Sinh trắc Vân tay - Khóa học
+                        </h2>
+                    </div>
+                    <div class="module__content">    
+                        <div class="product__group">
+                                                                                                    <div class="product__item">
+	<div class="product__box" title="SABI Talent - Sinh trắc học vân tay">
+		<div class="product__box-header">
+						<a href="https://sabi.com.vn/san-pham/sabitalent" class="product__avata d-block" style="background-image: url('/uploads/files/z2294794729246_e43a62a3c7f3eb4b8f8d44d3ec32f8eb.jpg')"></a>
+			<a href="https://sabi.com.vn/san-pham/sabitalent" class="product__view">Xem chi tiết</a>
+		</div>
+		<div class="product__box-content">
+			<h3 class="product__title">
+				<span class="product__en">
+					SABI Talent - Sinh trắc học vân tay
+				</span>
+				
+			</h3>
+							<p class="product__price">
+					<span class="number__price">
+						2.500.000 vnđ
+					</span>
+				</p>
+												<p class="product__star">
+				<i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon active"></i>
+    <i class="fas fa-star icon"></i>
+    <i class="fas fa-star icon"></i>
+    <i class="fas fa-star icon"></i>
+			</p>
+					</div>
+	</div>
+</div>                                                                                            
+                        </div>
+                    </div>
+
+                            </div>
+        </div>
+        <!-- end front end -->
+    </section>
+    <section class="handbook" style="background-image: url(https://sabi.com.vn/public/frontend/images/handbook__bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="handbook__header">
+                        <h2 class="title">
+                            Cẩm nang
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="handbook__group">
+                                                                        <div class="handbook__group-item">
+                            <a href="https://sabi.com.vn/cam-nang/vungkin" class="handbook__group-box">
+                                <div class="handbook__group-img">
+                                    <img src="/uploads/files/z2272190829668_9a3b4b0c2d97f5b2a6017983213163b4.jpg" alt="22 điều về vùng kín có thể khiến bạn kinh ngạc" title="22 điều về vùng kín có thể khiến bạn kinh ngạc">
+                                </div>
+                                <div class="handbook__group-content">
+                                    <h3 class="handbook__group-title">
+                                        22 điều về vùng kín có thể khiến bạn kinh ngạc
+                                    </h3>
+                                </div>
+                            </a>
+                        </div>
+                                                                                                                        <div class="handbook__group-item">
+                                                                                                                                            <a href="https://sabi.com.vn/cam-nang/lam-the-nao-de-se-khit-vung-kin" class="handbook__group-box">
+                                <div class="handbook__group-img">
+                                    <img src="/uploads/files/3-1.JPG" alt="Thụt rửa âm đạo đúng cách" title="Thụt rửa âm đạo đúng cách">
+                                </div>
+                                <div class="handbook__group-content">
+                                    <h3 class="handbook__group-title">
+                                        Thụt rửa âm đạo đúng cách
+                                    </h3>
+                                </div>
+                            </a>
+                                                                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="achievements">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="achievements__header">
+                        <h2 class="title">
+                            SỰ KIỆN - ĐÀO TẠO - TEAMBUIDING
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="achievements__group">
+                        <div class="achievements__group-item">
+                            <div class="achievements__group-box">
+                                <div class="achievements__group-avata">
+                                    <img src="/uploads/files/_J9A7322.JPG" alt="achievements 1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="achievements__group-item">
+                            <div class="achievements__group-box">
+                                <div class="achievements__group-avata">
+                                    <img src="/uploads/files/IMG_7561.jpg" alt="achievements 1">
+                                </div>
+                            </div>
+                            <div class="achievements__group-box">
+                                <div class="achievements__group-avata">
+                                    <img src="/uploads/files/WhatsApp-Image-2019-09-17-at-11_57_33-1-1.jpeg" alt="achievements 1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review__agency">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="review">
+                        <div class="review__header">
+                            <h3 class="title">
+                                Ý kiến khách hàng - đối tác
+                            </h3>
+                        </div>
+                        <div class="review__body">
+                            <div class="review__slick">
+                                                                                                <div class="review__item">
+                                    <p class="review__desc">
+                                        Tôi là Dược sỹ và có Nhà thuốc riêng. Hàng ngày phải tư vấn cho rất nhiều trường hợp chị em bị các vấn đề viêm nấm âm đạo. Tôi cũng thử nhiều loại sản phẩm cho khách hàng bao gồm cả tân dược lẫn thảo dược đông y. Tuy nhiên nhiều lúc tôi cũng buồn và áp lực vì khách dùng không khỏi triệt để.  Từ ngày biết đến bộ sản phẩm SABI, tôi đã hướng dẫn hàng trăm khách hàng dùng và có kết quả rất tuyệt vời. Không chỉ hết viêm, sạch ngứa mà âm đạo chị em còn được se khít, trẻ hóa, cải thiện quan hệ vợ chồng rõ rệt. Vì vậy mà tôi quyết định chia sẻ SABI cho nhiều Dược sỹ, bác sỹ để nhiều chị em phụ nữ được khỏe mạnh và hạnh phúc hơn. Cảm ơn SABI!
+                                    </p>
+                                    <div class="review__avata" style="background-image: url('/uploads/files/71834792_870712986659494_2612995198795382784_o.jpg')">
+                                    </div>
+                                    <h3 class="review_name">
+                                        Dược sỹ. Trần Ánh Hồng
+                                    </h3>
+                                    <p class="review__info">
+                                        Thanh Hóa
+                                    </p>
+                                </div>
+                                                                <div class="review__item">
+                                    <p class="review__desc">
+                                        Tôi là bác sỹ Phụ khoa và có mở phòng khám tại nhà. Trước đây mỗi lần điều trị cho bệnh nhân là tôi đều rùng mình vì âm đạo Phụ nữ khi bị viêm nhiễm thường có nhiều tổn thương và nhiều dịch nhầy, ổ nấm mà họ cũng không được tự thụt rửa vì rất nguy hiểm. Một lần tôi được một chị đồng nghiệp giới thiệu dùng Bộ xịt rửa SABI Sup là trang thiết bị Y tế loại A chuyên dùng để xịt rửa âm đạo. Tôi cho bệnh nhân xịt rửa âm đạo bằng  bộ SABI Sup để dội rửa toàn bộ các chất bẩn, dịch nhầy, tạp chất bên trong âm đạo ra ngoài. Tôi thấy vừa sạch sẽ, an toàn, chuyên dụng mà tác dụng điều trị viêm nhiễm phụ khoa lại nhanh hơn gấp 5 lần. Vì vậy mà tôi đã hướng dẫn chị em là hàng ngày, hàng tháng cần dùng đầy đủ bộ SABI để âm đạo lúc nào cũng được khỏe mạnh.
+                                    </p>
+                                    <div class="review__avata" style="background-image: url('/uploads/files/73033376_2445742815671433_7827429561674498048_n.jpg')">
+                                    </div>
+                                    <h3 class="review_name">
+                                        Bác sỹ. Nguyễn Oanh
+                                    </h3>
+                                    <p class="review__info">
+                                        Hà Nội
+                                    </p>
+                                </div>
+                                                                <div class="review__item">
+                                    <p class="review__desc">
+                                        Phụ nữ thì ai cũng muốn mình là người luôn có sức hấp dẫn đối với chồng, luôn phải đẹp dù cho sinh đẻ nhiều hay làm công việc gì.  Vì vậy mà sau khi sinh em bé là tôi phải tìm ngay biện pháp để khôi phục cô bé của mình. Tôi dùng gel SABI rửa hàng ngày, dùng viên SABI Queen và xịt rửa SABI Sup mỗi tháng 3-5 lần và ngày nào cũng dùng tinh dầu nước hoa vùng kín SABI Love.  Giờ trở thành thói quen rồi, không ngày nào, tháng nào là thiếu SABI. Thế nên cô bé của tôi dù mấy lần sinh con vẫn ngon như thời son trẻ. Sản phẩm tốt nên tôi vừa dùng vừa kinh doanh luôn.
+                                    </p>
+                                    <div class="review__avata" style="background-image: url('/uploads/files/135659733_1256031231464291_1786161727118363112_n.jpg')">
+                                    </div>
+                                    <h3 class="review_name">
+                                        Doanh nhân. Huyền Trang
+                                    </h3>
+                                    <p class="review__info">
+                                        Hưng Yên
+                                    </p>
+                                </div>
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="agency">
+                        <div class="agency__header">
+                            <h3 class="title">
+                                đăng ký làm đại lý
+                            </h3>
+                            <p class="agency__info">
+                                
+                            </p>
+                        </div>
+                        <div class="agency__body">
+                            <form id="frm_agency" action="https://sabi.com.vn/dang-ky-dai-ly" method="POST">
+                                <input type="hidden" name="_token" value="tQM2arqQtJzz80FjYa64xMahRMpoNbwRkJHeFn3f">                                <div class="form-group row">
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" name="name" placeholder="Họ tên">
+                                        <p class="text__error">
+                                            <span class="fr-error" id="error_name"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="form-group set__group row">
+                                    <div class=" col-12 col-lg-6">
+                                        <input type="text" class="form-control" name="phone" placeholder="Số điện thoại">
+                                        <p class="text__error">
+                                            <span class="fr-error" id="error_phone"></span>
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <input type="email" class="form-control" name="email" placeholder="Email">
+                                        <p class="text__error">
+                                            <span class="fr-error" id="error_email"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-12">
+                                        <textarea class="form-control" placeholder="Nội dung" name="content"></textarea>
+                                        <span class="fr-error" id="error_content"></span>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn__sen">GỬi</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news__home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="news__home-header">
+                        <h2 class="title">
+                            Tin Tức
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="custome-m">
+                        <div class="news__home-group newsSlide">
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/xit-phu-khoa-loai-nao-tot-ava.jpg" alt="Bộ xịt phụ khoa loại nào tốt nhất? " title="Bộ xịt phụ khoa loại nào tốt nhất? ">
+                                            <a href="https://sabi.com.vn/tin-tuc/bo-xit-phu-khoa-loai-nao-tot-nhat" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    20/07/2021
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/bo-xit-phu-khoa-loai-nao-tot-nhat" class="news__home-link">
+                                                    Bộ xịt phụ khoa loại nào tốt nhất? 
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Chăm sóc “cô bé” được coi là một nhiệm vụ quan trọng của các chị em. Khác với việc chăm sóc da ở các vùng khác, vùng kín luôn là vùng da dễ tổn thương và cần phải chăm sóc đặc biệt. Vậy bạn đã biết đến bộ xịt rửa phụ khoa? Xịt phụ khoa loại nào tốt?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/1-ngay-nen-ve-sinh-vung-kin-may-lan-1.jpg" alt="Vệ sinh vùng kín mấy lần 1 ngày mới đúng?" title="Vệ sinh vùng kín mấy lần 1 ngày mới đúng?">
+                                            <a href="https://sabi.com.vn/tin-tuc/ve-sinh-vung-kin-may-lan-1-ngay-moi-dung" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    20/07/2021
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/ve-sinh-vung-kin-may-lan-1-ngay-moi-dung" class="news__home-link">
+                                                    Vệ sinh vùng kín mấy lần 1 ngày mới đúng?
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Vệ sinh vùng kín luôn là một trong những chủ đề được các chị em quan tâm hàng đầu. Là một người phụ nữ trong thời đại mới, bạn đã bao giờ đặt ra câu hỏi vệ sinh vùng kín mấy lần 1 ngày mới đúng? Để giải đáp cho băn khoăn này, hãy cùng Sabi tìm hiểu những thông tin quan trọng ngay trong bài viết dưới đây.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/ve-sinh-vung-kin-khi-bi-viem-ava.jpg" alt="Làm sao để vệ sinh vùng kín khi bị viêm?" title="Làm sao để vệ sinh vùng kín khi bị viêm?">
+                                            <a href="https://sabi.com.vn/tin-tuc/lam-sao-de-ve-sinh-vung-kin-khi-bi-viem" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    20/07/2021
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/lam-sao-de-ve-sinh-vung-kin-khi-bi-viem" class="news__home-link">
+                                                    Làm sao để vệ sinh vùng kín khi bị viêm?
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Khu vực vùng kín của phụ nữ rất dễ bị nhiễm bẩn, nhiễm khuẩn nếu không được vệ sinh sạch sẽ hằng ngày. Tuy nhiên, vẫn còn khá nhiều chị em xem nhẹ và không thực hiện đúng cách dẫn đến mắc một số bệnh viêm nhiễm phụ khoa. Vậy hãy để SABI hướng dẫn các bạn các bước vệ sinh vùng kín khi bị viêm đúng cách nhé. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/ve-sinh-vung-kin-khong-dung-cach-ava.jpeg" alt="Hậu quả nghiêm trọng khi vệ sinh vùng kín không đúng cách " title="Hậu quả nghiêm trọng khi vệ sinh vùng kín không đúng cách ">
+                                            <a href="https://sabi.com.vn/tin-tuc/hau-qua-nghiem-trong-khi-ve-sinh-vung-kin-khong-dung-cach" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    20/07/2021
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/hau-qua-nghiem-trong-khi-ve-sinh-vung-kin-khong-dung-cach" class="news__home-link">
+                                                    Hậu quả nghiêm trọng khi vệ sinh vùng kín không đúng cách 
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Vệ sinh vùng kín là việc làm quan trọng đối với các chị em phụ nữ mà cần phải thường xuyên thực hiện mỗi ngày. Tuy nhiên nếu vệ sinh vùng kín không đúng cách thì sẽ rất dễ gây ra những chứng bệnh nguy hiểm, tạo cơ hội cho các loại mầm bệnh phát triển ảnh hưởng đến sức khỏe vùng kín của nữ giới. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/cach-ve-sinh-vung-kin-truoc-khi-quan-he-2.jpg" alt="Mách bạn cách vệ sinh vùng kín đúng cách trước khi quan hệ" title="Mách bạn cách vệ sinh vùng kín đúng cách trước khi quan hệ">
+                                            <a href="https://sabi.com.vn/tin-tuc/mach-ban-cach-ve-sinh-vung-kin-dung-cach-truoc-khi-quan-he" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    20/07/2021
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/mach-ban-cach-ve-sinh-vung-kin-dung-cach-truoc-khi-quan-he" class="news__home-link">
+                                                    Mách bạn cách vệ sinh vùng kín đúng cách trước khi quan hệ
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Cuộc sống chăn gối của vợ chồng luôn được phái nữ quan tâm nhiều hơn cánh đàn ông. Hơn nữa, vùng kín của chị em chúng ta rất nhạy cảm, nếu không biết cách chăm sóc sẽ ảnh hưởng đến chuyện &quot;yêu&quot; của các cặp đôi. Thấu hiểu được tâm lý đó, Sabi sẽ mách bạn cách vệ sinh vùng kín đúng cách trước khi quan hệ dưới đây. Cùng tìm hiểu ngay để thăng hoa hơn trong các lần gần gũi nhé!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/dung-dich-ve-sinh-vung-kin-nao-tot-ava.jpg" alt="Dung dịch vệ sinh vùng kín nào tốt nhất hiện nay?" title="Dung dịch vệ sinh vùng kín nào tốt nhất hiện nay?">
+                                            <a href="https://sabi.com.vn/tin-tuc/dung-dich-ve-sinh-vung-kin-nao-tot-nhat-hien-nay" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    19/07/2021
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/dung-dich-ve-sinh-vung-kin-nao-tot-nhat-hien-nay" class="news__home-link">
+                                                    Dung dịch vệ sinh vùng kín nào tốt nhất hiện nay?
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Nhiều người sử dụng dung dịch vệ sinh phụ nữ với hy vọng vùng kín được sạch sẽ và tươi mát. Những sản phẩm này có thực sự giúp duy trì sức khỏe bộ phận nhạy cảm không? Dung dịch vệ sinh vùng kín nào tốt?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/gel-ve-sinh-vung-kin-ava.jpg" alt="Những điều cần biết khi sử dụng gel vệ sinh vùng kín" title="Những điều cần biết khi sử dụng gel vệ sinh vùng kín">
+                                            <a href="https://sabi.com.vn/tin-tuc/nhung-dieu-can-biet-khi-su-dung-gel-ve-sinh-vung-kin" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    19/07/2021
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/nhung-dieu-can-biet-khi-su-dung-gel-ve-sinh-vung-kin" class="news__home-link">
+                                                    Những điều cần biết khi sử dụng gel vệ sinh vùng kín
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Nhiều phụ nữ không coi trọng việc vệ sinh vùng kín như thói quen vệ sinh hằng ngày. Tuy nhiên, vùng kín của bạn rất mỏng manh và có thể dễ bị nhiễm trùng, cho nên chị em cần sử dụng những biện pháp vệ sinh vùng kín an toàn hằng ngày như gel vệ sinh vùng kín.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/cach-khu-mui-vung-kin-1.jpg" alt="Gợi ý cách khử mùi vùng kín phụ nữ ngay tại nhà" title="Gợi ý cách khử mùi vùng kín phụ nữ ngay tại nhà">
+                                            <a href="https://sabi.com.vn/tin-tuc/goi-y-cach-khu-mui-vung-kin-phu-nu-ngay-tai-nha" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    19/07/2021
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/goi-y-cach-khu-mui-vung-kin-phu-nu-ngay-tai-nha" class="news__home-link">
+                                                    Gợi ý cách khử mùi vùng kín phụ nữ ngay tại nhà
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Mùi âm đạo là một mối quan tâm lớn đối với các chị em phụ nữ, tuy nhiên, nhiều người lại ngại chia sẻ những điều này, và để tình trạng ngày càng nghiêm trọng. Chính vì vậy, trong bài viết này sẽ gợi ý cho chị em một số cách khử mùi vùng kín hiệu quả ngay tại nhà. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/nu%E1%BB%9Bc%20hoa%20vung%20kin%20t%E1%BB%91t%20nh%E1%BA%A5t.jpg" alt="Nước hoa vùng kín loại nào tốt nhất cho nữ?" title="Nước hoa vùng kín loại nào tốt nhất cho nữ?">
+                                            <a href="https://sabi.com.vn/tin-tuc/nuoc-hoa-vung-kin-loai-nao-tot-nhat-cho-nu" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    16/07/2021
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/nuoc-hoa-vung-kin-loai-nao-tot-nhat-cho-nu" class="news__home-link">
+                                                    Nước hoa vùng kín loại nào tốt nhất cho nữ?
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Hiện nay trên thị trường có rất nhiều thương hiệu nước hoa vùng kín của chị em phụ nữ với vô số mẫu mã và công dụng khác nhau. Vậy nước hoa vùng kín loại nào tốt nhất?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/nuoc-hoa-vung-kin-mua-o-dau-ava.jpg" alt="Nước hoa vùng kín có tốt không? Mua ở đâu chính hãng" title="Nước hoa vùng kín có tốt không? Mua ở đâu chính hãng">
+                                            <a href="https://sabi.com.vn/tin-tuc/nuoc-hoa-vung-kin-co-tot-khong-mua-o-dau-chinh-hang" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    16/07/2021
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/nuoc-hoa-vung-kin-co-tot-khong-mua-o-dau-chinh-hang" class="news__home-link">
+                                                    Nước hoa vùng kín có tốt không? Mua ở đâu chính hãng
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Tất cả chúng ta đều muốn vùng kín của mình có mùi dễ chịu nhất có thể, và nó có thể khiến bạn bối rối và lo lắng khi tự hỏi liệu mùi thơm đặc biệt của bạn có phải là bình thường hay không. Nước hoa vùng kín chính là giải pháp tốt nhất giúp chị em phụ nữ giải quyết được những lo lắng này. Vậy nước hoa vùng kín mua ở đâu uy tín?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/nuoc-hoa-vung-kin-la-gi-al.jpg" alt="Nước hoa vùng kín Sabi Love - hương thơm quyến rũ khiến chàng ngất ngây" title="Nước hoa vùng kín Sabi Love - hương thơm quyến rũ khiến chàng ngất ngây">
+                                            <a href="https://sabi.com.vn/tin-tuc/nuoc-hoa-vung-kin-sabi-love-huong-thom-quyen-ru-khien-chang-ngat-ngay" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    16/07/2021
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/nuoc-hoa-vung-kin-sabi-love-huong-thom-quyen-ru-khien-chang-ngat-ngay" class="news__home-link">
+                                                    Nước hoa vùng kín Sabi Love - hương thơm quyến rũ khiến chàng ngất ngây
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Bạn muốn vùng kín có mùi thơm quyến rũ? Bạn có muốn làm sạch “cô bé” một cách nhẹ nhàng, tinh tế và an toàn? Nước hoa vùng kín là giải pháp hoàn hảo được rất nhiều chị em lựa chọn. Dưới đây là những loại nước hoa vùng kín được hàng nghìn chị em tin dùng khi mang lại hiệu quả vượt ngoài mong đợi.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/cau%20chuy%E1%BB%87n%20SABI-1.jpg" alt="KẺ THÙ THẦM LẶNG PHÁ HOẠI HẠNH PHÚC GIA ĐÌNH" title="KẺ THÙ THẦM LẶNG PHÁ HOẠI HẠNH PHÚC GIA ĐÌNH">
+                                            <a href="https://sabi.com.vn/tin-tuc/ke-thu-tham-lang-pha-hoai-hanh-phuc-gia-dinh" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    12/07/2021
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/ke-thu-tham-lang-pha-hoai-hanh-phuc-gia-dinh" class="news__home-link">
+                                                    KẺ THÙ THẦM LẶNG PHÁ HOẠI HẠNH PHÚC GIA ĐÌNH
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Trong cuộc sống hôn nhân gia đình, có rất nhiều yếu tố, tác nhân làm ảnh hưởng đến hạnh phúc của vợ chồng. Vậy làm thế nào để giải quyết những vấn đề này?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/All(1).jpg" alt="Top 4 sản phẩm vùng kín phổ biến nhất hiện nay" title="Top 4 sản phẩm vùng kín phổ biến nhất hiện nay">
+                                            <a href="https://sabi.com.vn/tin-tuc/top-4-san-pham-vung-kin-pho-bien-nhat-hien-nay" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    12/07/2021
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/top-4-san-pham-vung-kin-pho-bien-nhat-hien-nay" class="news__home-link">
+                                                    Top 4 sản phẩm vùng kín phổ biến nhất hiện nay
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Hiện nay, trên thị trường có rất nhiều loại sản phẩm vùng kín có công dụng khác nhau như: vệ sinh, chăm sóc, điều trị,... Vậy sản phẩm nào tốt nhất và được nhiều người tin dùng?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/DSC01299.jpg" alt="5 ngôn ngữ tình yêu cần biết để hạnh phúc lâu dài" title="5 ngôn ngữ tình yêu cần biết để hạnh phúc lâu dài">
+                                            <a href="https://sabi.com.vn/tin-tuc/tesst" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    15/12/2020
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/tesst" class="news__home-link">
+                                                    5 ngôn ngữ tình yêu cần biết để hạnh phúc lâu dài
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Bạn không nhất thiết phải có đủ 5 “ngôn ngữ” trong tình yêu để duy trì một mối quan hệ hạnh phúc. Điều quan trọng để duy trì mối quan hệ nằm ở việc hai người phải cùng nói chung một “ngôn ngữ”.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/d64a19d81736e968b027.jpg" alt="Chiêu trị chồng ngoại tình &#039;không chiến mà thắng&#039; của đàn bà thông minh Chiêu trị chồng ngoại tình &#039;không chiến mà thắng&#039; của đàn bà thông minh" title="Chiêu trị chồng ngoại tình &#039;không chiến mà thắng&#039; của đàn bà thông minh Chiêu trị chồng ngoại tình &#039;không chiến mà thắng&#039; của đàn bà thông minh">
+                                            <a href="https://sabi.com.vn/tin-tuc/ngoaitinh" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    08/12/2020
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/ngoaitinh" class="news__home-link">
+                                                    Chiêu trị chồng ngoại tình &#039;không chiến mà thắng&#039; của đàn bà thông minh Chiêu trị chồng ngoại tình &#039;không chiến mà thắng&#039; của đàn bà thông minh
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Chồng ngoại tình, đàn bà ai chẳng đau. Nhưng với mỗi người lại có cách ứng phó và đối diện khác nhau với chuyện này... Đây là cách của một người đàn bà thông minh!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                        <div class="item__slide">
+                                <div class="news__home-item">
+                                    <div class="news__home-box">
+                                        <div class="news__home-avata">
+                                            <img src="/uploads/files/z2049731515638_8b9520c95b2883abf262dbfd24d95fe4.jpg" alt="Chuyên gia phụ khoa hướng dẫn cách vệ sinh vùng kín bị viêm nhiễm" title="Chuyên gia phụ khoa hướng dẫn cách vệ sinh vùng kín bị viêm nhiễm">
+                                            <a href="https://sabi.com.vn/tin-tuc/vesinh" class="news__home-view">
+                                                Xem chi tiết
+                                            </a>
+                                        </div>
+                                        <div class="news__home-content">
+                                            <p class="news__home-time">
+                                                <span class="icon__time">
+                                                    <i class="fal fa-calendar-alt"></i>
+                                                </span>
+                                                <span class="time__name">
+                                                    08/12/2020
+                                                </span>
+                                            </p>
+                                            <h3 class="news__home-title">
+                                                <a href="https://sabi.com.vn/tin-tuc/vesinh" class="news__home-link">
+                                                    Chuyên gia phụ khoa hướng dẫn cách vệ sinh vùng kín bị viêm nhiễm
+                                                </a>
+                                            </h3>
+                                            <p class="news__home-desc">
+                                                Khi vùng kín bị viêm nhiễm, bên cạnh việc đặt thuốc theo sự chỉ định, hướng dẫn của thầy thuốc thì vệ sinh vùng kín đúng cách hàng ngày vốn rất quan trọng lại càng cần được chú trọng hơn nữa.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <div class="modal__sale " >
+        <div class="sale__cotnainer">
+            <button class="btn__clos">
+                <img src="https://sabi.com.vn/uploads/images/icon__cols.png" alt="icon__cols__2.png">
+            </button>
+            <div class="sale__group">
+                <div class="group__item">
+                    <div class="group__header">
+                        <h2 class="title">
+                            Ra mắt PHIÊN BẢN MỚI
+                        </h2>
+                        <p class="text__sale">
+                            Giảm
+                        </p>
+                        <p class="text__number">
+                            20%
+                        </p>
+                        <p class="text__info">
+                            Trên tổng hóa đơn thanh toán
+                        </p>
+                        <p class="text__hotline">
+                            Hotline: 0997889336
+                        </p>
+                    </div>
+                    <div class="group__body">
+                        <form action="" class="form" id="frm_info">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="name" placeholder="Họ tên">
+                                <p class="text__error" id="error_name_info"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="phone" placeholder="Số điện thoại">
+                                <p class="text__error" id="error_phone_info"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="email" placeholder="Email">
+                                <p class="text__error" id="error_email_info"></p>
+                            </div>
+                            <span class="dk">
+                                * Đăng ký để nhận khuyến mãi
+                            </span>
+                            <div class="text-center">
+                                <div class="button">
+                                    <button class="btn btn__top">
+                                        Gửi
+                                    </button>
+                                    <input type="hidden" name="type" value="info_custom">
+                                    <div class="click-btn">
+                                        <span class=""><img src="https://sabi.com.vn/uploads/images/rotate-pulsating-loading-animation.gif" alt="loading"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="group__item">
+                    <div class="frame">
+                        <img src="/uploads/images/All-Popup%20(1).jpg" alt="bg__sale.jpg">
+                    </div>
+                    <a href="https://sabi.com.vn/tin-tuc/top-4-san-pham-vung-kin-pho-bien-nhat-hien-nay" class="btn link">
+                        Tìm hiểu thêm
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    			</main>
+
+		<footer id="footer">
+    <div class="footer__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <a href="https://sabi.com.vn" class="footer__logo">
+                        <img src="/uploads/images/logo%20sabi%20footer.png" alt="logo">
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__body">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer__body-group">
+                        <div class="footer__body-item">
+                            <div class="box">
+                                <span class="icon">
+                                    <img src="https://sabi.com.vn/uploads/images/icon__phone-footer.png" alt="icon phone">
+                                </span>
+                                <h3 class="title">
+                                    Điện thoại
+                                </h3>
+                                <p class="phone">
+                                    0997889336<br />
+                                    
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer__body-item">
+                            <div class="box">
+                                <span class="icon">
+                                    <img src="https://sabi.com.vn/uploads/images/icon__email.png" alt="icon email">
+                                </span>
+                                <h3 class="title">
+                                    email
+                                </h3>
+                                <p class="phone">
+                                    sabipharmagroup@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer__body-item">
+                            <div class="box">
+                                <span class="icon">
+                                    <img src="https://sabi.com.vn/uploads/images/icon__home.png" alt="icon page">
+                                </span>
+                                <h3 class="title">
+                                    Địa chỉ
+                                </h3>
+                                <p class="phone">
+                                    Số 38, tổ 12, phường Thạch Bàn, quận Long Biên, Hà Nội
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer__body-item">
+                            <div class="box">
+                                <span class="icon">
+                                    <img src="https://sabi.com.vn/uploads/images/icon__page-footer.png" alt="icon page">
+
+                                </span>
+                                <h3 class="title">
+                                    Chính sách
+                                </h3>
+                                <ul class="list text-left d-inline-block">
+																													<li class="list__item">
+											<a href="#" class="list__item-link">
+												Chính sách bảo mật
+											</a>
+										</li>
+																				<li class="list__item">
+											<a href="#" class="list__item-link">
+												Chính sách vận chuyển
+											</a>
+										</li>
+																				<li class="list__item">
+											<a href="#" class="list__item-link">
+												Chính sách đổi trả
+											</a>
+										</li>
+																				<li class="list__item">
+											<a href="#" class="list__item-link">
+												Điều khoản dịch vụ
+											</a>
+										</li>
+																			                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__control">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer__group">
+                        <ul class="menu__group">
+                                                            <li class="menu__item"><a href="https://sabi.com.vn" class="menu__list">Trang chủ</a></li>
+                                                            <li class="menu__item"><a href="https://sabi.com.vn/story" class="menu__list">Về SABI</a></li>
+                                                            <li class="menu__item"><a href="https://sabi.com.vn/san-pham" class="menu__list">Sản Phẩm</a></li>
+                                                            <li class="menu__item"><a href="https://sabi.com.vn/gift" class="menu__list">Quà tặng</a></li>
+                                                            <li class="menu__item"><a href="https://sabi.com.vn/cam-nang" class="menu__list">Cẩm nang</a></li>
+                                                            <li class="menu__item"><a href="https://sabi.com.vn/dai-ly" class="menu__list">Đại lý</a></li>
+                                                            <li class="menu__item"><a href="https://sabi.com.vn/thong-tin-huu-ich" class="menu__list">Thông tin hữu ích</a></li>
+                                                            <li class="menu__item"><a href="https://sabi.com.vn/lien-he" class="menu__list">Liên hệ</a></li>
+                                                    </ul>
+                        <div class="share">
+																							<a href="www.facebook.com/phukhoasabi/" class="item">
+									<img src="/uploads/images/icon__facebook.png" alt="Facebook">
+								</a>
+																<a href="0997889336" class="item">
+									<img src="/uploads/images/icon__zalo.png" alt="Zalo">
+								</a>
+																<a href="phukhoasabi" class="item">
+									<img src="/uploads/images/icon__instagram.png" alt="Instagram">
+								</a>
+															                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+		<button type="button" class="back-top">
+			<i class="fal fa-angle-double-right"></i>
+		</button>
+		
+		<!-- zalo, message facebook, phone -->
+		<div class="control__network">
+			<div class="control__network-item">
+				<a href="https://zalo.me/0997889336" class="control__network-item--link" target="_blank">
+					<img src="https://sabi.com.vn/uploads/images/icon__zalo_f.png" alt="Zalo">
+				</a>
+			</div>
+			<div class="control__network-item">
+				<a href="tel:0997889336" class="control__network-item--link">
+					<img src="https://sabi.com.vn/uploads/images/icon__phone-f.png" alt="0997889336" title="0997889336">
+				</a>
+			</div>
+			<div class="control__network-item">
+				<a href="https://www.facebook.com/sabi.com.vn/" class="control__network-item--link" target="_blank">
+					<img src="https://sabi.com.vn/uploads/images/icon__mesage-f.png" alt="icon__mesage-f.png">
+				</a>
+			</div>
+		</div>
+
+		<!--Link js-->
+
+		<script type="text/javascript" src="https://sabi.com.vn/public/frontend/librarys/jquery/jquery-3.5.1.min.js"></script> 
+
+		<script type="text/javascript" src="https://sabi.com.vn/public/frontend/librarys/bootstrap/js/bootstrap-4.1.3-.min.js"></script>
+
+		<script type="text/javascript" src="https://sabi.com.vn/public/frontend/librarys/bootstrap/js/bootstrap-input-spinner.js"></script>
+
+		<script type="text/javascript" src="https://sabi.com.vn/public/frontend/librarys/fontawesome/js/fontawesome-pro-5.5.0.min.js"></script>
+
+		<script type="text/javascript" src="https://sabi.com.vn/public/frontend/librarys/slick/js/slick.min.js"></script>
+			
+		<script type="text/javascript" src="https://sabi.com.vn/public/frontend/js/main.js"></script>
+		
+
+		<script type="text/javascript" src="https://sabi.com.vn/public/frontend/js/toastr.min.js"></script>
+<script type="text/javascript" src="https://sabi.com.vn/public/frontend/js/jquery.sticky.js"></script>
+		
+
+		    <script>
+        function more(slug) {
+            var url = "https://sabi.com.vn/danh-muc-san-pham";
+            var link = url + '/' + slug;
+            $('#link_slug').attr('href', link);
+        }
+
+        var urlInfoCustom = "https://sabi.com.vn/lien-he";
+
+        function modalSale() {
+            $('.btn__clos').click(function() {
+                $('.modal__sale').addClass('active');
+                $('body').removeClass('modal-open');
+            });
+            $(document).click(function(e) {
+                var container = $('.sale__cotnainer');
+                if (!container.is(e.target) && container.has(e.target).length === 0) {
+                    $('.modal__sale').addClass('active');
+                    $('body').removeClass('modal-open');
+                }
+            })
+        }
+        modalSale();
+
+        function newSlide() {
+            $('.newsSlide').slick({
+                dots: false,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                nextArrow: "<button type='button' class='next__arrow'><i class='fas fa-angle-right'></i></button>",
+                prevArrow: "<button type='button' class='prev__arrow'><i class='fas fa-angle-left'></i></button>",
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 3,
+                            infinite: true
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+
+                ]
+            })
+        }
+        newSlide()
+    </script>
+
+		<script>
+			
+"use strict";
+
+    var Sticky = new hcSticky('aside', {
+      stickTo: '#sticker',
+      responsive: {
+        980: {
+          disable: true
+        }
+      }
+    });
+   
+			var urlAgency = "https://sabi.com.vn/dang-ky-dai-ly";
+			var myVideo = document.getElementById("video1");
+			
+			function playPause() {
+				if (myVideo.paused)
+					myVideo.play();
+				else
+					myVideo.pause();
+			}
+			$(document).ready(function() {
+				function slideHome() {
+					$('.slide__home-slick').slick({
+						dots: true,
+						autoplay: true,
+						speed: 1000,
+						arrow: false,
+						infinite: false,
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						adaptiveHeight: true,
+						fade: true
+					})
+				}
+				slideHome();
+			
+				function slideProducResult() {
+					$('.product__result-slick').slick({
+						dots: false,
+						autoplay: true,
+						speed: 1000,
+						arrow: true,
+						infinite: false,
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						adaptiveHeight: true,
+						nextArrow: "<button type='button' class='next__arrow'><i class='fas fa-angle-right'></i></button>",
+						prevArrow: "<button type='button' class='prev__arrow'><i class='fas fa-angle-left'></i></button>"
+					})
+				}
+				slideProducResult();
+			
+				function slideReview() {
+					$('.review__slick').slick({
+						dots: false,
+						autoplay: true,
+						speed: 1000,
+						arrow: true,
+						infinite: false,
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						adaptiveHeight: true,
+						nextArrow: "<button type='button' class='next__arrow'><i class='fas fa-angle-right'></i></button>",
+						prevArrow: "<button type='button' class='prev__arrow'><i class='fas fa-angle-left'></i></button>"
+					})
+				}
+				slideReview();
+			
+				function thumbrPlay() {
+					$('.product__result-control button').click(function() {
+						$('.thumbnail-video').addClass('active');
+						$('.product__result-control').css('display',"none");
+					})
+				}
+				thumbrPlay();
+			});
+		</script>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				toastr.options = {
+					"closeButton": false,
+					"debug": false,
+					"newestOnTop": false,
+					"progressBar": false,
+					"positionClass": "toast-top-right",
+					"preventDuplicates": false,
+					"onclick": null,
+					"showDuration": "300",
+					"hideDuration": "1000",
+					"timeOut": "5000",
+					"extendedTimeOut": "1000",
+					"showEasing": "swing",
+					"hideEasing": "linear",
+					"showMethod": "fadeIn",
+					"hideMethod": "fadeOut"
+				}
+			});
+		</script>
+
+			</body>
+</html>

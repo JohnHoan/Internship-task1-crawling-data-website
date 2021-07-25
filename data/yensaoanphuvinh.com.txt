@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <!-- Basehref -->
+<base href="http://yensaoanphuvinh.com/"/>
+
+<!-- UTF-8 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- Title, Keywords, Description -->
+<title>Yến Sào An Phú Vinh | Yến Sào Bảo Lộc | YẾN SÀO LÂM ĐỒNG</title>
+<meta name="keywords" content="yến sào bảo lộc, yen sao bao loc, yến sào an phú vinh, yến sào lâm đồng"/>
+<meta name="description" content="yến sào bảo lộc là cơ sở chuyên cung cấp yến sào chất lượng an toàn từ thiên nhiên yến sào an phú vinh chung tôi còn nhận tư vấn thiết kế thi công ....."/>
+
+<!-- Robots -->
+<meta name="robots" content="index,follow" />
+
+<!-- Favicon -->
+<link href="upload/photo/logo-4928.png" rel="shortcut icon" type="image/x-icon" />
+
+<!-- Webmaster Tool -->
+
+<!-- GEO -->
+<meta name="geo.region" content="VN" />
+<meta name="geo.placename" content="Hồ Chí Minh" />
+<meta name="geo.position" content="10.823099;106.629664" />
+<meta name="ICBM" content="10.823099, 106.629664" />
+
+<!-- Author - Copyright -->
+<meta name='revisit-after' content='1 days' />
+<meta name="author" content="YẾN SÀO BẢO LỘC - Yến Sào An Phú Vinh " />
+<meta name="copyright" content="YẾN SÀO BẢO LỘC - Yến Sào An Phú Vinh  - [anphuvinh1986@gmail.com]" />
+
+<!-- Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="YẾN SÀO BẢO LỘC - Yến Sào An Phú Vinh " />
+<meta property="og:title" content="Yến Sào An Phú Vinh | Yến Sào Bảo Lộc | YẾN SÀO LÂM ĐỒNG" />
+<meta property="og:description" content="yến sào bảo lộc là cơ sở chuyên cung cấp yến sào chất lượng an toàn từ thiên nhiên yến sào an phú vinh chung tôi còn nhận tư vấn thiết kế thi công ....." />
+<meta property="og:url" content="http://yensaoanphuvinh.com/" />
+<meta property="og:image" content="http://yensaoanphuvinh.com/thumbs/500x500x2/upload/photo/z2361518516506ddcd8e094f16148926685b03129bd4b9-5420.png" />
+<meta property="og:image:alt" content="Yến Sào An Phú Vinh | Yến Sào Bảo Lộc | YẾN SÀO LÂM ĐỒNG" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="500" />
+<meta property="og:image:height" content="500" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="anphuvinh1986@gmail.com" />
+<meta name="twitter:creator" content="YẾN SÀO BẢO LỘC - Yến Sào An Phú Vinh " />
+<meta property="og:url" content="http://yensaoanphuvinh.com/" />
+<meta property="og:title" content="Yến Sào An Phú Vinh | Yến Sào Bảo Lộc | YẾN SÀO LÂM ĐỒNG" />
+<meta property="og:description" content="yến sào bảo lộc là cơ sở chuyên cung cấp yến sào chất lượng an toàn từ thiên nhiên yến sào an phú vinh chung tôi còn nhận tư vấn thiết kế thi công ....." />
+<meta property="og:image" content="http://yensaoanphuvinh.com/thumbs/500x500x2/upload/photo/z2361518516506ddcd8e094f16148926685b03129bd4b9-5420.png" />
+
+<!-- Canonical -->
+<link rel="canonical" href="http://yensaoanphuvinh.com/" />
+
+<!-- Chống đổi màu trên IOS -->
+<meta name="format-detection" content="telephone=no">
+
+<!-- Viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">    <!-- Css Files -->
+<link href="./assets/css/animate.min_desktop.css?v=Ul5cMHF3Dk" rel="stylesheet">
+<link href="./assets/bootstrap/bootstrap.css?v=14SVqbaNue" rel="stylesheet">
+<link href="./assets/fontawesome512/all.css?v=vPbS9b3W72" rel="stylesheet">
+<link href="./assets/mmenu/mmenu.css?v=rsqKCSf9WR" rel="stylesheet">
+<link href="./assets/fancybox3/jquery.fancybox.css?v=ABl40LdQY9" rel="stylesheet">
+<link href="./assets/fancybox3/jquery.fancybox.style.css?v=jcc4BAS1yW" rel="stylesheet">
+<link href="./assets/css/cart.css?v=ZSZG39VeNq" rel="stylesheet">
+<link href="./assets/photobox/photobox.css?v=Ovypfyues8" rel="stylesheet">
+<link href="./assets/slick/slick.css?v=zrtuOkEkaC" rel="stylesheet">
+<link href="./assets/slick/slick-theme.css?v=0glFa8vOv" rel="stylesheet">
+<link href="./assets/slick/slick-style.css?v=7oCe7e6lk0" rel="stylesheet">
+<link href="./assets/simplyscroll/jquery.simplyscroll.css?v=2KmEMnakbB" rel="stylesheet">
+<link href="./assets/simplyscroll/jquery.simplyscroll-style.css?v=3ebzJSY7QM" rel="stylesheet">
+<link href="./assets/fotorama/fotorama.css?v=PYgYpfqRGS" rel="stylesheet">
+<link href="./assets/fotorama/fotorama-style.css?v=sSOLwRwt0x" rel="stylesheet">
+<link href="./assets/magiczoomplus/magiczoomplus.css?v=2xHDDi3w0D" rel="stylesheet">
+<link href="./assets/owlcarousel2/owl.carousel.css?v=zinioXLWSu" rel="stylesheet">
+<link href="./assets/owlcarousel2/owl.theme.default.css?v=1irEcyqKu3" rel="stylesheet">
+<link href="./assets/css/style.css?v=crBaqtqFA" rel="stylesheet">
+<link href="./assets/swiper/swiper.css?v=AcyRPrO7T" rel="stylesheet">
+<link href="./assets/css/responsive.css?v=9a2LieUvHa" rel="stylesheet">
+
+<!-- Background -->
+
+<!-- Js Google Analytic -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WHK164J285"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WHK164J285');
+</script>
+<!-- Js Head -->
+</head>
+<body>
+    <ul class="h-card hidden">
+    <li class="h-fn fn">YẾN SÀO BẢO LỘC - Yến Sào An Phú Vinh </li>
+    <li class="h-org org">YẾN SÀO BẢO LỘC - Yến Sào An Phú Vinh </li>
+    <li class="h-tel tel">0983902917</li>
+    <li><a class="u-url ul" href="http://yensaoanphuvinh.com/">http://yensaoanphuvinh.com/</a></li>
+</ul>
+<h1 class="hidden-seoh">Yến Sào An Phú Vinh | Yến Sào Bảo Lộc | YẾN SÀO LÂM ĐỒNG</h1><div id="header">
+	<div class="maxwidth">
+		<a id="logo" href="index.php">
+			<img onerror="this.src='thumbs/129x129x2/assets/images/noimage.png';" src="thumbs/129x129x2/upload/photo/z2361518516506ddcd8e094f16148926685b03129bd4b9-5420.png"/>
+		</a>
+		<div id="header-right" class="hidden-lg hidden-md hidden-sm hidden-xs">
+			<div class="box-why">
+				<div class="owl-carousel owl-theme owl-why">
+											<div class="why-item">
+							<a>
+								<div class="pic-why">
+									<img class="w-100" onerror="this.src='thumbs/33x33x1/assets/images/noimage.png';" src="thumbs/33x33x1/upload/news/tieuchi4-1161.png" alt="Giao Hàng">
+								</div>
+								<div class="info-why">
+									<h2>Giao Hàng</h2>
+									<p>Nhanh chóng, chuyên nghiệp</p>
+								</div>
+							</a>
+						</div>
+											<div class="why-item">
+							<a>
+								<div class="pic-why">
+									<img class="w-100" onerror="this.src='thumbs/33x33x1/assets/images/noimage.png';" src="thumbs/33x33x1/upload/news/tieuchitop3-7509.png" alt="Hàng Giả">
+								</div>
+								<div class="info-why">
+									<h2>Hàng Giả</h2>
+									<p>Bồi thường gấp đôi</p>
+								</div>
+							</a>
+						</div>
+											<div class="why-item">
+							<a>
+								<div class="pic-why">
+									<img class="w-100" onerror="this.src='thumbs/33x33x1/assets/images/noimage.png';" src="thumbs/33x33x1/upload/news/tieuchitop2-2637.png" alt="Thượng Phẩm">
+								</div>
+								<div class="info-why">
+									<h2>Thượng Phẩm</h2>
+									<p>Chất lượng cao</p>
+								</div>
+							</a>
+						</div>
+											<div class="why-item">
+							<a>
+								<div class="pic-why">
+									<img class="w-100" onerror="this.src='thumbs/33x33x1/assets/images/noimage.png';" src="thumbs/33x33x1/upload/news/tieuchitop1-3151.png" alt="100% Nguyên Chất">
+								</div>
+								<div class="info-why">
+									<h2>100% Nguyên Chất</h2>
+									<p>Không tẩm ướp</p>
+								</div>
+							</a>
+						</div>
+									</div>
+			</div>
+			<div class="box-info">
+				<p> Kỹ Thuật:  0983 902 917</p>
+				<p>Bán hàng: 0345 556 341</p>
+			</div>
+			<div class="box-cart">
+				<a href="gio-hang">
+					<img src="assets/images/ic-cart.png" alt="icon cart">
+					<div class="info-cart">
+						<h3>GIỎ HÀNG</h3>
+						<p><span>0</span> Sản phẩm</p>
+					</div>
+				</a>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div><div class="menu hidden-lg hidden-md hidden-sm hidden-xs wow FadeInUp" data-wow-duration="2s">
+    <div class="maxwidth">
+       <ul>
+            <li><a class="transition text-menu active" href="trang-chu" title="Trang chủ"><i class="fa fa-home"></i></a></li>
+            <li><a class="transition text-menu " href="gioi-thieu" title="Giới thiệu">Giới thiệu</a></li>
+            <li><a class="transition text-menu " href="dich-vu" title="Dịch vụ">Dịch vụ</a></li>
+            <li>
+                <a class="transition text-menu " href="san-pham" title="San phẩm">Sản phẩm</a>
+                                    <ul>
+                                                    <li>
+                                <a class="transition" title="Yến Thô" href="yen-tho">Yến Thô</a>
+                                                            </li>
+                                                    <li>
+                                <a class="transition" title="Yến Tinh Chế" href="yen-tinh-che">Yến Tinh Chế</a>
+                                                            </li>
+                                            </ul>
+                            </li>
+            <li>
+                <a class="transition text-menu " href="thiet-bi-nha-yen" title="Thiết bị nhà yến">Thiết bị nhà yến</a>
+                                    <ul>
+                                                    <li>
+                                <a class="transition" title="Thiết Bị Âm Thanh" href="thiet-bi-am-thanh">Thiết Bị Âm Thanh</a>
+                                                            </li>
+                                                    <li>
+                                <a class="transition" title="Phun Sương Tạo Ẩm" href="phun-suong-tao-am">Phun Sương Tạo Ẩm</a>
+                                                            </li>
+                                            </ul>
+                            </li>
+            <li><a class="transition text-menu " href="du-an" title="Dự án">Dự án</a></li>
+            <li>
+                <a class="transition text-menu " href="tin-tuc" title="Tin tức">Tin tức</a>
+            </li>
+            <li><a class="transition text-menu " href="lien-he" title="Liên hệ">Liên hệ</a></li>
+            <div class="clear"></div>
+        </ul>
+        <div class="search_desktop">
+            <p class="icon-search_desktop transition"><i class="fa fa-search"></i></p>
+            <div class="search-grid_desktop w-clear">
+                <input type="text" id="keyword" placeholder="Nhập từ khóa cần tìm..." onkeypress="doEnter(event,'keyword');"/>
+                <p onclick="onSearch('keyword');"><i class="fas fa-search"></i></p>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div><div class="menu-res hidden-xl">
+    <div class="menu-bar-res">
+        <a id="hamburger" href="#menu" title="Menu"><span></span></a>
+        <div class="search-res">
+            <p class="icon-search transition"><i class="fa fa-search"></i></p>
+            <div class="search-grid w-clear">
+                <input type="text" name="keyword2" id="keyword2" placeholder="Nhập từ khóa cần tìm..." onkeypress="doEnter(event,'keyword2');"/>
+                <p onclick="onSearch('keyword2');"><i class="fa fa-search"></i></p>
+            </div>
+        </div>
+    </div>
+    <nav id="menu">
+        <ul>
+        <li><a href="trang-chu" title="Trang chủ"><i class="fa fa-home"></i></a></li>
+        <li><a href="gioi-thieu" title="Giới thiệu">Giới thiệu</a></li>
+        <li><a href="dich-vu" title="Dịch vụ">Dịch vụ</a></li>
+        <li>
+            <a href="san-pham" title="San phẩm">Sản phẩm</a>
+                            <ul>
+                                            <li>
+                            <a title="Yến Thô" href="yen-tho">Yến Thô</a>
+                                                    </li>
+                                            <li>
+                            <a title="Yến Tinh Chế" href="yen-tinh-che">Yến Tinh Chế</a>
+                                                    </li>
+                                    </ul>
+                    </li>
+        <li>
+            <a href="thiet-bi-nha-yen" title="Thiết bị nhà yến">Thiết bị nhà yến</a>
+                            <ul>
+                                            <li>
+                            <a title="Thiết Bị Âm Thanh" href="thiet-bi-am-thanh">Thiết Bị Âm Thanh</a>
+                                                    </li>
+                                            <li>
+                            <a title="Phun Sương Tạo Ẩm" href="phun-suong-tao-am">Phun Sương Tạo Ẩm</a>
+                                                    </li>
+                                    </ul>
+                    </li>
+        <li><a href="du-an" title="Dự án">Dự án</a></li>
+        <li>
+            <a href="tin-tuc" title="Tin tức">Tin tức</a>
+        </li>
+        <li><a href="lien-he" title="Liên hệ">Liên hệ</a></li>
+    </ul>
+    </nav>
+</div>    <div class="slideshow">
+        <p class="control-slideshow prev-slideshow transition"><i class="fas fa-chevron-left"></i></p>
+        <div class="owl-carousel owl-theme owl-slideshow">
+                            <div>
+                    <a href="" target="_blank" title=""><img class="w-100" onerror="this.src='thumbs/1366x570x2/assets/images/noimage.png';" src="thumbs/1366x570x1/upload/photo/slider-anh4-69650.png" alt="" title=""/></a>
+                </div>
+                            <div>
+                    <a href="" target="_blank" title=""><img class="w-100" onerror="this.src='thumbs/1366x570x2/assets/images/noimage.png';" src="thumbs/1366x570x1/upload/photo/slider-2-anh-5730.png" alt="" title=""/></a>
+                </div>
+                    </div>
+        <p class="control-slideshow next-slideshow transition"><i class="fas fa-chevron-right"></i></p>
+    </div>
+    <div id="main" class="wrap-main"><section id="service-main">	
+	<div class="maxwidth">
+		<div class="owl-carousel owl-theme owl-service"> 
+							<div class='item'>
+					<a class="service_home-normal" href="tu-van-thiet-ke-nha-yen" title="Tư Vấn Nhà Yến">
+						<div class="box-in relative">
+							<p class="pic-service_home-normal scale-img"><img class="w-100" onerror="this.src='thumbs/350x230x1/assets/images/noimage.png';" src="thumbs/350x230x1/upload/news/z2396939245007732671cbae3fb37e2132a1508fa70e7c-9174.jpg" alt="Tư Vấn Nhà Yến"></p>
+							<div class="info-service_home-normal">
+								<h3 class="name-service_home text-split">Tư Vấn Nhà Yến</h3>
+								<p class="desc-service_home text-split"></p>
+							</div>
+						</div>
+					</a>
+				</div>
+							<div class='item'>
+					<a class="service_home-normal" href="thiet-ke-nha-yen" title="Thiết Kế Nhà Yến">
+						<div class="box-in relative">
+							<p class="pic-service_home-normal scale-img"><img class="w-100" onerror="this.src='thumbs/350x230x1/assets/images/noimage.png';" src="thumbs/350x230x1/upload/news/z23969392696442b9edfb90943f2217cbcf7c03285700d-8602.jpg" alt="Thiết Kế Nhà Yến"></p>
+							<div class="info-service_home-normal">
+								<h3 class="name-service_home text-split">Thiết Kế Nhà Yến</h3>
+								<p class="desc-service_home text-split"></p>
+							</div>
+						</div>
+					</a>
+				</div>
+							<div class='item'>
+					<a class="service_home-normal" href="thi-cong-nha-yen" title="Thi Công Nhà Yến">
+						<div class="box-in relative">
+							<p class="pic-service_home-normal scale-img"><img class="w-100" onerror="this.src='thumbs/350x230x1/assets/images/noimage.png';" src="thumbs/350x230x1/upload/news/z239693925387981350fd9f8ae765efbd87b33f57c52c4-5053.jpg" alt="Thi Công Nhà Yến"></p>
+							<div class="info-service_home-normal">
+								<h3 class="name-service_home text-split">Thi Công Nhà Yến</h3>
+								<p class="desc-service_home text-split"></p>
+							</div>
+						</div>
+					</a>
+				</div>
+					</div>
+	</div>
+</section>
+<section id="construct-main">	
+	<div class="maxwidth">
+		<div class="title-main">
+			<h2>CÔNG TRÌNH NHÀ YẾN</h2>
+			<p>Chúng tôi cung cấp thiết bị nhà yến với chất lượng tốt nhất cho nhà yến của bạn</p>
+		</div>
+		<div class="row"> 
+							<div class='col-md-4 col-sm-6 col-12'>
+					<a class="construct_home-normal" href="nha-yen-eka-52-daklak" title="Nhà Yến Eka 52, Đaklak">
+						<p class="pic-construct_home-normal scale-img"><img class="w-100" onerror="this.src='thumbs/385x250x1/assets/images/noimage.png';" src="thumbs/350x230x1/upload/news/z2403925448074f0dbc88e4c5136f55548d14bcaf88527-3269.jpg" alt="Nhà Yến Eka 52, Đaklak"></p>
+						<div class="info-construct_home-normal">
+							<h3 class="name-construct_home text-split">Nhà Yến Eka 52, Đaklak</h3>
+						</div>
+					</a>
+				</div>
+							<div class='col-md-4 col-sm-6 col-12'>
+					<a class="construct_home-normal" href="nha-yen-daklak" title="Nhà Yến Đaklak">
+						<p class="pic-construct_home-normal scale-img"><img class="w-100" onerror="this.src='thumbs/385x250x1/assets/images/noimage.png';" src="thumbs/350x230x1/upload/news/z2403925476711b7e014167aea5c4fe8cf818adb1a9078-1-8150.jpg" alt="Nhà Yến Đaklak"></p>
+						<div class="info-construct_home-normal">
+							<h3 class="name-construct_home text-split">Nhà Yến Đaklak</h3>
+						</div>
+					</a>
+				</div>
+							<div class='col-md-4 col-sm-6 col-12'>
+					<a class="construct_home-normal" href="nha-yen-go-cong-tien-giang" title="Nhà Yến Gò Công, Tiền Giang">
+						<p class="pic-construct_home-normal scale-img"><img class="w-100" onerror="this.src='thumbs/385x250x1/assets/images/noimage.png';" src="thumbs/350x230x1/upload/news/z24039254522182dc046075456d495160aa00e679d48fe-2562.jpg" alt="Nhà Yến Gò Công, Tiền Giang"></p>
+						<div class="info-construct_home-normal">
+							<h3 class="name-construct_home text-split">Nhà Yến Gò Công, Tiền Giang</h3>
+						</div>
+					</a>
+				</div>
+							<div class='col-md-4 col-sm-6 col-12'>
+					<a class="construct_home-normal" href="nha-yen-ket-hop-nha-o-bao-loc" title="Nhà Yến Kết Hợp Nhà Ở Bảo Lộc">
+						<p class="pic-construct_home-normal scale-img"><img class="w-100" onerror="this.src='thumbs/385x250x1/assets/images/noimage.png';" src="thumbs/350x230x1/upload/news/z24039519524110f564a38ae5e4a30c513ec5b1b17fb10-7860.jpg" alt="Nhà Yến Kết Hợp Nhà Ở Bảo Lộc"></p>
+						<div class="info-construct_home-normal">
+							<h3 class="name-construct_home text-split">Nhà Yến Kết Hợp Nhà Ở Bảo Lộc</h3>
+						</div>
+					</a>
+				</div>
+							<div class='col-md-4 col-sm-6 col-12'>
+					<a class="construct_home-normal" href="nha-yen-loc-phat-lam-dong" title="Nhà Yến Lộc Phát, Lâm Đồng">
+						<p class="pic-construct_home-normal scale-img"><img class="w-100" onerror="this.src='thumbs/385x250x1/assets/images/noimage.png';" src="thumbs/350x230x1/upload/news/z2403951953656475fa978a380b9eb34dce9edb14a6e5f-6191.jpg" alt="Nhà Yến Lộc Phát, Lâm Đồng"></p>
+						<div class="info-construct_home-normal">
+							<h3 class="name-construct_home text-split">Nhà Yến Lộc Phát, Lâm Đồng</h3>
+						</div>
+					</a>
+				</div>
+							<div class='col-md-4 col-sm-6 col-12'>
+					<a class="construct_home-normal" href="nha-yen-dau-day-dong-nai" title="Nhà Yến Dầu Dây, Đồng Nai">
+						<p class="pic-construct_home-normal scale-img"><img class="w-100" onerror="this.src='thumbs/385x250x1/assets/images/noimage.png';" src="thumbs/350x230x1/upload/news/z24039519541876c03b73ecf21471ff440d616c76dcfc8-3582.jpg" alt="Nhà Yến Dầu Dây, Đồng Nai"></p>
+						<div class="info-construct_home-normal">
+							<h3 class="name-construct_home text-split">Nhà Yến Dầu Dây, Đồng Nai</h3>
+						</div>
+					</a>
+				</div>
+							<div class='col-md-4 col-sm-6 col-12'>
+					<a class="construct_home-normal" href="nha-yen-di-linh-lam-dong" title="Nhà Yến Di Linh, Lâm Đồng">
+						<p class="pic-construct_home-normal scale-img"><img class="w-100" onerror="this.src='thumbs/385x250x1/assets/images/noimage.png';" src="thumbs/350x230x1/upload/news/z2529916324589724c356e2c0a1b0e59e231b18782f535-1601.jpg" alt="Nhà Yến Di Linh, Lâm Đồng"></p>
+						<div class="info-construct_home-normal">
+							<h3 class="name-construct_home text-split">Nhà Yến Di Linh, Lâm Đồng</h3>
+						</div>
+					</a>
+				</div>
+					</div>
+				<div class="text-center">
+			<a class="link-more" href="du-an">Xem tất cả</a>
+		</div>
+			</div>
+</section>
+<section id="list-product">
+	<div class="maxwidth">
+		<div class="title-main">
+			<h2>THIẾT BỊ NHÀ YẾN</h2>
+			<p>Chúng tôi cung cấp thiết bị nhà yến với chất lượng tốt nhất cho nhà yến của bạn</p>
+		</div>
+		<div class="content-tab">
+			<ul class="ul-tabs-pro_list">
+								<li data-tabs="listid0" class="item_tab_index active"><a>Thiết Bị Âm Thanh</a></li>
+								<li data-tabs="listid1" class="item_tab_index "><a>Phun Sương Tạo Ẩm</a></li>
+							</ul>
+						<div class="content-tabs-pro_list listid0 active">
+				<div class="paging-product-category paging-product-category-8" data-list="8"></div>
+			</div>
+						<div class="content-tabs-pro_list listid1 ">
+				<div class="paging-product-category paging-product-category-9" data-list="9"></div>
+			</div>
+					</div>	
+	</div>
+</section>
+<section id="tieuchi">
+	<div class="maxwidth">
+		<div class="owl-carousel owl-theme owl-carousel_tieuchi">
+							<div class="tieuchi-items">
+					<a>
+						<div class="tieuchi-items__img">
+							<img onerror="this.src='thumbs/58x42x2/assets/images/noimage.png';" src="thumbs/58x42x2/upload/news/ic-tieuchi-9335.png" alt="Free Ship">
+							<h3>Free Ship</h3>
+						</div>
+						<div class="tieuchi-items__content">
+							<p>Miễn phí vận chuyển đơn hàng từ Website</p>
+						</div>
+					</a>
+				</div>
+							<div class="tieuchi-items">
+					<a>
+						<div class="tieuchi-items__img">
+							<img onerror="this.src='thumbs/58x42x2/assets/images/noimage.png';" src="thumbs/58x42x2/upload/news/ic-tieuchi-6625.png" alt="Nội thành Bảo Lộc">
+							<h3>Nội thành Bảo Lộc</h3>
+						</div>
+						<div class="tieuchi-items__content">
+							<p>Giao nhanh trong ngày</p>
+						</div>
+					</a>
+				</div>
+							<div class="tieuchi-items">
+					<a>
+						<div class="tieuchi-items__img">
+							<img onerror="this.src='thumbs/58x42x2/assets/images/noimage.png';" src="thumbs/58x42x2/upload/news/ic-tieuchi-5912.png" alt="Các Tỉnh Lân Cận">
+							<h3>Các Tỉnh Lân Cận</h3>
+						</div>
+						<div class="tieuchi-items__content">
+							<p>Giao trong 2-3 ngày</p>
+						</div>
+					</a>
+				</div>
+					</div>
+	</div>
+</section><section id="list-product">
+	<div class="maxwidth">
+		<div class="title-main">
+			<h2>SẢN PHẨM TIÊU BIỂU</h2>
+			<p>Yến Sào Thượng Hạng, Món Quà Của Thiên Nhiên</p>
+		</div>
+		<div class="box-list-product">
+					<div class="row justify-content-between mb-2 mb-sm-5 flex-md-row-reverse">
+				<div class="col-md-6">
+					<div class="relative mb-xs-3 pl-md-5">
+						<img class="transition w-100" onerror="this.src='thumbs/490x600x2/assets/images/noimage.png';" alt="Yến Tinh Chế" src="thumbs/490x600x1/upload/product/00de8624d3049e86e10507b1857852d5-4959.jpg">
+							<h3 class="title-list">Yến Tinh Chế</h3>
+					</div>
+				</div>
+				<div class="col-md-6">
+								<div class="owl-carousel owl-theme owl-product"> 
+										<div class="item">
+							            <div class="product transition ">
+		            			                <a href="yen-tinh-che-loai-1-100g">
+		                	<div class="product_img">
+			                    <img class="transition w-100" onerror="this.src='thumbs/285x230x1/assets/images/noimage.png';" alt="Yến Tinh Chế Loại 1- 100G" src="watermark/product/285x230x1/upload/product/00de8624d3049e86e10507b1857852d5-9122.jpg">
+			                </div>
+		                    <div class="ten-product transition">
+		                        <h3>Yến Tinh Chế Loại 1- 100G</h3>
+		                    </div>
+		                    <div class="flex-product">
+			                    <div class="gia-product">
+			                    	<span>3.500.000đ</span>
+		                    	</div>
+			                    			                </div>
+		                </a>
+		                 <p class="cart-product">
+							<span class="cart-add addcart transition" data-id="11" data-action="addnow">Đặt hàng</span>
+						</p>  
+		            </div>
+		           
+							            <div class="product transition ">
+		            			                <a href="yen-tinh-che-loai-1-50g">
+		                	<div class="product_img">
+			                    <img class="transition w-100" onerror="this.src='thumbs/285x230x1/assets/images/noimage.png';" alt="Yến Tinh Chế Loại 1 - 50G" src="watermark/product/285x230x1/upload/product/sp-1-led-1-9426.png">
+			                </div>
+		                    <div class="ten-product transition">
+		                        <h3>Yến Tinh Chế Loại 1 - 50G</h3>
+		                    </div>
+		                    <div class="flex-product">
+			                    <div class="gia-product">
+			                    	<span>1.750.000đ</span>
+		                    	</div>
+			                    			                </div>
+		                </a>
+		                 <p class="cart-product">
+							<span class="cart-add addcart transition" data-id="26" data-action="addnow">Đặt hàng</span>
+						</p>  
+		            </div>
+		           
+					 
+		        </div>              
+								<div class="item">
+							            <div class="product transition ">
+		            			                <a href="yen-tinh-che-loai-2-100g">
+		                	<div class="product_img">
+			                    <img class="transition w-100" onerror="this.src='thumbs/285x230x1/assets/images/noimage.png';" alt="Yến Tinh Chế Loại 2 - 100G" src="watermark/product/285x230x1/upload/product/anh-7659.png">
+			                </div>
+		                    <div class="ten-product transition">
+		                        <h3>Yến Tinh Chế Loại 2 - 100G</h3>
+		                    </div>
+		                    <div class="flex-product">
+			                    <div class="gia-product">
+			                    	<span>3.300.000đ</span>
+		                    	</div>
+			                    			                </div>
+		                </a>
+		                 <p class="cart-product">
+							<span class="cart-add addcart transition" data-id="13" data-action="addnow">Đặt hàng</span>
+						</p>  
+		            </div>
+		           
+							            <div class="product transition ">
+		            			                <a href="yen-tinh-che-loai-2-50g">
+		                	<div class="product_img">
+			                    <img class="transition w-100" onerror="this.src='thumbs/285x230x1/assets/images/noimage.png';" alt="Yến Tinh Chế Loại 2 - 50G" src="watermark/product/285x230x1/upload/product/sp-31-4464.png">
+			                </div>
+		                    <div class="ten-product transition">
+		                        <h3>Yến Tinh Chế Loại 2 - 50G</h3>
+		                    </div>
+		                    <div class="flex-product">
+			                    <div class="gia-product">
+			                    	<span>1.650.000đ</span>
+		                    	</div>
+			                    			                </div>
+		                </a>
+		                 <p class="cart-product">
+							<span class="cart-add addcart transition" data-id="12" data-action="addnow">Đặt hàng</span>
+						</p>  
+		            </div>
+		           
+					 
+		        </div>              
+								<div class="item">
+							            <div class="product transition ">
+		            			                <a href="yen-baby-100g">
+		                	<div class="product_img">
+			                    <img class="transition w-100" onerror="this.src='thumbs/285x230x1/assets/images/noimage.png';" alt="YẾN BABY -100G" src="watermark/product/285x230x1/upload/product/z255359356308088ed280b584c66f085f49c67bc232a43-4326.jpg">
+			                </div>
+		                    <div class="ten-product transition">
+		                        <h3>YẾN BABY -100G</h3>
+		                    </div>
+		                    <div class="flex-product">
+			                    <div class="gia-product">
+			                    	<span>2.900.000đ</span>
+		                    	</div>
+			                    			                </div>
+		                </a>
+		                 <p class="cart-product">
+							<span class="cart-add addcart transition" data-id="39" data-action="addnow">Đặt hàng</span>
+						</p>  
+		            </div>
+		           
+					 
+		        </div>              
+							</div>
+						</div>
+			</div>
+					<div class="row justify-content-between mb-2 mb-sm-5 ">
+				<div class="col-md-6">
+					<div class="relative mb-xs-3 pr-md-5">
+						<img class="transition w-100" onerror="this.src='thumbs/490x600x2/assets/images/noimage.png';" alt="Yến Thô" src="thumbs/490x600x1/upload/product/hinh-yen-1-9284.jpg">
+							<h3 class="title-list">Yến Thô</h3>
+					</div>
+				</div>
+				<div class="col-md-6">
+								<div class="owl-carousel owl-theme owl-product"> 
+										<div class="item">
+							            <div class="product transition ">
+		            			                <a href="yen-tho-loai-1-100g">
+		                	<div class="product_img">
+			                    <img class="transition w-100" onerror="this.src='thumbs/285x230x1/assets/images/noimage.png';" alt="Yến Thô Loại 1-100g" src="watermark/product/285x230x1/upload/product/hinh-4-5272.jpg">
+			                </div>
+		                    <div class="ten-product transition">
+		                        <h3>Yến Thô Loại 1-100g</h3>
+		                    </div>
+		                    <div class="flex-product">
+			                    <div class="gia-product">
+			                    	<span>2.500.000đ</span>
+		                    	</div>
+			                    			                </div>
+		                </a>
+		                 <p class="cart-product">
+							<span class="cart-add addcart transition" data-id="14" data-action="addnow">Đặt hàng</span>
+						</p>  
+		            </div>
+		           
+							            <div class="product transition ">
+		            			                <a href="yen-tho-loai-1-50g">
+		                	<div class="product_img">
+			                    <img class="transition w-100" onerror="this.src='thumbs/285x230x1/assets/images/noimage.png';" alt="yến thô loại 1- 50g" src="watermark/product/285x230x1/upload/product/ggggg-3121.jpg">
+			                </div>
+		                    <div class="ten-product transition">
+		                        <h3>yến thô loại 1- 50g</h3>
+		                    </div>
+		                    <div class="flex-product">
+			                    <div class="gia-product">
+			                    	<span>1.250.000đ</span>
+		                    	</div>
+			                    			                </div>
+		                </a>
+		                 <p class="cart-product">
+							<span class="cart-add addcart transition" data-id="27" data-action="addnow">Đặt hàng</span>
+						</p>  
+		            </div>
+		           
+					 
+		        </div>              
+								<div class="item">
+							            <div class="product transition ">
+		            			                <a href="yen-tho-loai-2-100g">
+		                	<div class="product_img">
+			                    <img class="transition w-100" onerror="this.src='thumbs/285x230x1/assets/images/noimage.png';" alt="Yến Thô Loại 2-100g" src="watermark/product/285x230x1/upload/product/hinh-3-5314.jpg">
+			                </div>
+		                    <div class="ten-product transition">
+		                        <h3>Yến Thô Loại 2-100g</h3>
+		                    </div>
+		                    <div class="flex-product">
+			                    <div class="gia-product">
+			                    	<span>2.400.000đ</span>
+		                    	</div>
+			                    			                </div>
+		                </a>
+		                 <p class="cart-product">
+							<span class="cart-add addcart transition" data-id="15" data-action="addnow">Đặt hàng</span>
+						</p>  
+		            </div>
+		           
+							            <div class="product transition ">
+		            			                <a href="yen-tho-loai-2-50g">
+		                	<div class="product_img">
+			                    <img class="transition w-100" onerror="this.src='thumbs/285x230x1/assets/images/noimage.png';" alt="yến thô loại 2-50g" src="watermark/product/285x230x1/upload/product/kk-4671.jpg">
+			                </div>
+		                    <div class="ten-product transition">
+		                        <h3>yến thô loại 2-50g</h3>
+		                    </div>
+		                    <div class="flex-product">
+			                    <div class="gia-product">
+			                    	<span>1.200.000đ</span>
+		                    	</div>
+			                    			                </div>
+		                </a>
+		                 <p class="cart-product">
+							<span class="cart-add addcart transition" data-id="28" data-action="addnow">Đặt hàng</span>
+						</p>  
+		            </div>
+		           
+					 
+		        </div>              
+							</div>
+						</div>
+			</div>
+				</div>
+	</div>
+</section>
+<section id="video-news">
+	<div class="maxwidth">
+		<div class="row">
+			<div class="col-md-6 col-sm-12 col-12">
+				<p class="title-intro"><span>KIẾN THỨC VỀ YẾN SÀO</span></p>
+				<div class="newshome-intro w-clear">
+					<div class="newshome-scroll">
+						<ul>
+								<li>
+																<a class="news text-decoration-none w-clear" href="ban-yen-sao-bao-loc-uy-tin" title="Bán yến sào bảo lộc uy tín">
+							            <p class="pic-news scale-img"><img onerror="this.src='thumbs/130x105x1/assets/images/noimage.png';" src="thumbs/130x105x1/upload/news/sp-2-1-7219.png" alt="Bán yến sào bảo lộc uy tín"></p>
+							            <div class="info-news">
+							                <h3 class="name-news">Bán yến sào bảo lộc uy tín</h3>
+							                <div class="desc-news text-split">Yến sào là một loại thực phẩm có giá trị dinh dưỡng...</div>
+							            </div>
+							        </a>
+																<a class="news text-decoration-none w-clear" href="cach-che-bien-yen-sao" title="CÁCH CHẾ BIẾN YẾN SÀO">
+							            <p class="pic-news scale-img"><img onerror="this.src='thumbs/130x105x1/assets/images/noimage.png';" src="thumbs/130x105x1/upload/news/4-2-8223.jpg" alt="CÁCH CHẾ BIẾN YẾN SÀO"></p>
+							            <div class="info-news">
+							                <h3 class="name-news">CÁCH CHẾ BIẾN YẾN SÀO</h3>
+							                <div class="desc-news text-split"></div>
+							            </div>
+							        </a>
+																<a class="news text-decoration-none w-clear" href="gia-tri-dinh-duong-trong-yen-sao" title="GIÁ TRỊ DINH DƯỠNG TRONG YẾN SÀO">
+							            <p class="pic-news scale-img"><img onerror="this.src='thumbs/130x105x1/assets/images/noimage.png';" src="thumbs/130x105x1/upload/news/20200421141741359346to-yenmax-800x800-9044.jpg" alt="GIÁ TRỊ DINH DƯỠNG TRONG YẾN SÀO"></p>
+							            <div class="info-news">
+							                <h3 class="name-news">GIÁ TRỊ DINH DƯỠNG TRONG YẾN SÀO</h3>
+							                <div class="desc-news text-split"></div>
+							            </div>
+							        </a>
+																<a class="news text-decoration-none w-clear" href="cach-chong-doi-vao-nha-yen-va-loai-doi-an-thit-yen" title="Cách chống dơi vào nhà yến và loài dơi ăn thịt yến">
+							            <p class="pic-news scale-img"><img onerror="this.src='thumbs/130x105x1/assets/images/noimage.png';" src="thumbs/130x105x1/upload/news/tai-xuong-2-3312.jpg" alt="Cách chống dơi vào nhà yến và loài dơi ăn thịt yến"></p>
+							            <div class="info-news">
+							                <h3 class="name-news">Cách chống dơi vào nhà yến và loài dơi ăn thịt yến</h3>
+							                <div class="desc-news text-split">Phòng chống dơi gây tổn hại đến nhà yến</div>
+							            </div>
+							        </a>
+																<a class="news text-decoration-none w-clear" href="nhung-loai-amply-nha-yen-pho-bien-hien-nay" title="Những loại amply nhà yến phổ biến hiện nay">
+							            <p class="pic-news scale-img"><img onerror="this.src='thumbs/130x105x1/assets/images/noimage.png';" src="thumbs/130x105x1/upload/news/tai-xuong-2346.jpg" alt="Những loại amply nhà yến phổ biến hiện nay"></p>
+							            <div class="info-news">
+							                <h3 class="name-news">Những loại amply nhà yến phổ biến hiện nay</h3>
+							                <div class="desc-news text-split">Amply nhà yến hiện nay vô cùng phong phú, đa dạng với nhiều...</div>
+							            </div>
+							        </a>
+																<a class="news text-decoration-none w-clear" href="diet-chuot" title="Cách diệt chuột không độc hại với xi măng">
+							            <p class="pic-news scale-img"><img onerror="this.src='thumbs/130x105x1/assets/images/noimage.png';" src="thumbs/130x105x1/upload/news/tai-xuong-1-2613.jpg" alt="Cách diệt chuột không độc hại với xi măng"></p>
+							            <div class="info-news">
+							                <h3 class="name-news">Cách diệt chuột không độc hại với xi măng</h3>
+							                <div class="desc-news text-split">Cùng với ruồi, muỗi, chuột là loài vật gây hại đối với...</div>
+							            </div>
+							        </a>
+															</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12 col-12">
+				<p class="title-intro"><span>Video clip</span></p>
+				<div class="videohome-intro">
+					<div id="video-fotorama"></div>				</div>
+			</div>
+		</div>
+	</div>
+</section><section id="service-main"> 
+    <div class="maxwidth">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="title-connect">
+                    Kết nối với chúng tôi
+                </div>
+                <div class="desc-connect">
+                    <p><i>liên hệ với chứng tôi qua các kenh dưới đây</i></p>
+
+
+
+<p> </p>
+
+                </div>
+                <div class="row">
+                                            <div class="col-6 mb-3">
+                            <a href="https://www.facebook.com/Y%E1%BA%BFn-S%C3%A0o-An-Ph%C3%BA-Vinh-101392478418929/" target="_blank" title=""><img onerror="this.src='thumbs/250x85x2/assets/images/noimage.png';" src="thumbs/250x85x2/upload/photo/icon-facebook-8998.png" alt="" title=""/></a>
+                        </div>
+                                            <div class="col-6 mb-3">
+                            <a href="" target="_blank" title=""><img onerror="this.src='thumbs/250x85x2/assets/images/noimage.png';" src="thumbs/250x85x2/upload/photo/icon-youtube-5850.png" alt="" title=""/></a>
+                        </div>
+                                            <div class="col-6 mb-3">
+                            <a href="https://vt.tiktok.com/ZSJ2vNPSv/" target="_blank" title=""><img onerror="this.src='thumbs/250x85x2/assets/images/noimage.png';" src="thumbs/250x85x2/upload/photo/35506-65218-tiktok-logo-ldymu-8935.png" alt="" title=""/></a>
+                        </div>
+                                    </div>
+            </div>
+            <div class="col-sm-6">
+                <div id="footer-map"></div>            </div>
+        </div>
+    </div>
+</section>
+</div>
+    <div id="footer">
+    <div class="footer-article">
+        <div class="maxwidth">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a id="logo-footer" href="index.php">
+                                <img onerror="this.src='thumbs/129x129x2/assets/images/noimage.png';" src="thumbs/129x129x2/upload/photo/z2361518516506ddcd8e094f16148926685b03129bd4b9-5420.png"/>
+                            </a>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="footer-news">
+                                <div class="info-footer"><h1><span style="font-family:Tahoma,Geneva,sans-serif;"><span class="segui"><span style="font-size:24px;"><strong>YẾN SÀO AN PHÚ VINH</strong></span></span></span></h1>
+
+<p><span style="font-size:16px;"><img alt="" src="http://yensaoanphuvinh.com/upload/elfinder/%E1%BA%A3nh%20y%E1%BA%BFn/New%20folder/sldER%201.png" style="width: 25px; height: 25px;" /> 88/9 Phan Chu Trinh, Phường Lộc Tiến, Thành phố Bảo Lộc, Lâm Đồng</span></p>
+
+<p> </p>
+
+<p><span style="font-size:16px;"><img alt="" src="http://yensaoanphuvinh.com/upload/elfinder/%E1%BA%A3nh%20y%E1%BA%BFn/New%20folder/%3Dr1.png" style="width: 25px; height: 25px;" /> <strong>Tư Vấn Mua Hàng</strong>: 0345556341 <strong> </strong></span></p>
+
+<p><span style="font-size:16px;"><strong>        Hỗ Trợ Kỹ Thuật: </strong>0983902917</span></p>
+
+<p> </p>
+
+<p><span style="font-size:16px;"><img alt="" src="http://yensaoanphuvinh.com/upload/elfinder/%E1%BA%A3nh%20y%E1%BA%BFn/New%20folder/e1.png" style="width: 25px; height: 25px;" /> anphuvinh1986@gmail.com </span></p>
+
+<p> </p>
+
+<p><span style="font-size:16px;"><img alt="" src="http://yensaoanphuvinh.com/upload/elfinder/%E1%BA%A3nh%20y%E1%BA%BFn/New%20folder/w1.png" style="width: 25px; height: 25px;" /> yensaoanphuvinh.com</span></p>
+</div>
+                            </div>
+                            <div class="footer-powered">
+                                <p class="copyright">2020 Copyright YẾN SÀO BẢO LỘC - Yến Sào An Phú Vinh . Design by Nina.vn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-news">
+                        <h2 class="title-footer">Chính sách hỗ trợ</h2>
+                        <ul class="footer-ul">
+                                                            <li><a class="text-decoration-none" href="chinh-sach-bao-mat-thong-tin" title="Chính Sách Bảo Mật Thông Tin">Chính Sách Bảo Mật Thông Tin</a></li>
+                                                            <li><a class="text-decoration-none" href="hinh-thuc-thanh-toan" title="Hình Thức Thanh Toán">Hình Thức Thanh Toán</a></li>
+                                                            <li><a class="text-decoration-none" href="huong-dan-mua-hang" title="Hướng Dẫn Mua Hàng">Hướng Dẫn Mua Hàng</a></li>
+                                                            <li><a class="text-decoration-none" href="chish-sach-doi-tra" title="Chính Sách Đổi Trả">Chính Sách Đổi Trả</a></li>
+                                                            <li><a class="text-decoration-none" href="chinh-sach-giao-hang" title="Chính Sách Giao Hàng">Chính Sách Giao Hàng</a></li>
+                                                    </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer-news">
+                        <h2 class="title-footer">Fanpage</h2>
+                        <ul class="footer-ul">
+                            <li><a class="text-decoration-none"><img src="assets/images/tk1.png">Đang online: 1</a></li>
+                            <li><a class="text-decoration-none"><img src="assets/images/tk2.png">Trong ngày: 14</a></li>
+                            <li><a class="text-decoration-none"><img src="assets/images/tk3.png">Trong tháng: 498</a></li>
+                            <li><a class="text-decoration-none"><img src="assets/images/tk4.png">Tổng truy cập2744</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="messages-facebook"></div><a class="btn-zalo btn-frame text-decoration-none hidden-xs" target="_blank" href="https://zalo.me/0983902917">
+    <div class="animated infinite zoomIn kenit-alo-circle"></div>
+    <div class="animated infinite pulse kenit-alo-circle-fill"></div>
+    <i><img src="assets/images/zl.png" alt="Zalo"></i>
+</a>
+<a class="btn-phone btn-frame text-decoration-none hidden-xs" href="tel:0983902917">
+    <div class="animated infinite zoomIn kenit-alo-circle"></div>
+    <div class="animated infinite pulse kenit-alo-circle-fill"></div>
+    <i><img src="assets/images/hl.png" alt="Hotline"></i>
+</a>
+
+<a class="cart-fixed text-decoration-none hidden-xs" href="gio-hang" title="Giỏ hàng">
+    <i class="fas fa-shopping-bag"></i>
+    <span class="count-cart">0</span>
+</a>
+<!-- Modal notify -->
+<div class="modal modal-custom fade" id="popup-notify" tabindex="-1" role="dialog" aria-labelledby="popup-notify-label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-top modal-md" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h6 class="modal-title" id="popup-notify-label">Thông báo</h6>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body"></div>
+			<div class="modal-footer justify-content-center">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Thoát</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal cart -->
+<div class="modal fade" id="popup-cart" tabindex="-1" role="dialog" aria-labelledby="popup-cart-label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-top modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h6 class="modal-title" id="popup-cart-label">Giỏ hàng của bạn</h6>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body"></div>
+		</div>
+	</div>
+</div>
+
+<!-- Js Config -->
+<script type="text/javascript">
+    var NN_FRAMEWORK = NN_FRAMEWORK || {};
+    var CONFIG_BASE = 'http://yensaoanphuvinh.com/';
+    var WEBSITE_NAME = 'YẾN SÀO BẢO LỘC - Yến Sào An Phú Vinh ';
+    var TIMENOW = '22/07/2021';
+    var SHIP_CART = false;
+    var GOTOP = 'assets/images/top.png';
+    var LANG = {
+        'no_keywords': 'Chưa nhập từ khóa tìm kiếm',
+        'delete_product_from_cart': 'Bạn muốn xóa sản phẩm này khỏi giỏ hàng ? ',
+        'no_products_in_cart': 'Không tồn tại sản phẩm nào trong giỏ hàng !',
+        'wards': 'Phường/xã',
+        'back_to_home': 'Về trang chủ',
+    };
+</script>
+
+<!-- Js Files -->
+<script type="text/javascript" src="./assets/js/jquery.min.js?v=5vjXEyiYWE"></script>
+<script type="text/javascript" src="./assets/bootstrap/bootstrap.js?v=iFYGSkBKMk"></script>
+<script type="text/javascript" src="./assets/js/wow.min.js?v=geG0qjY1g1"></script>
+<script type="text/javascript" src="./assets/mmenu/mmenu.js?v=ghD2ZHot5g"></script>
+<script type="text/javascript" src="./assets/simplyscroll/jquery.simplyscroll.js?v=QcMIxqikOT"></script>
+<script type="text/javascript" src="./assets/fotorama/fotorama.js?v=31DX3WDrjg"></script>
+<script type="text/javascript" src="./assets/owlcarousel2/owl.carousel.js?v=EmdNFAvh5e"></script>
+<script type="text/javascript" src="./assets/magiczoomplus/magiczoomplus.js?v=2HRLwFGpFw"></script>
+<script type="text/javascript" src="./assets/slick/slick.js?v=hmPj0hoIW"></script>
+<script type="text/javascript" src="./assets/fancybox3/jquery.fancybox.js?v=1n5PIw0YNH"></script>
+<script type="text/javascript" src="./assets/photobox/photobox.js?v=IlIrRak99"></script>
+<script type="text/javascript" src="./assets/datetimepicker/php-date-formatter.min.js?v=6Tzgmi3uwG"></script>
+<script type="text/javascript" src="./assets/datetimepicker/jquery.mousewheel.js?v=BGwtWfGok4"></script>
+<script type="text/javascript" src="./assets/datetimepicker/jquery.datetimepicker.js?v=ZufGYl0Cf"></script>
+<script type="text/javascript" src="./assets/toc/toc.js?v=bNV1IOVGOE"></script>
+<script type="text/javascript" src="./assets/js/functions.js?v=tsedoKtd6o"></script>
+<script type="text/javascript" src="./assets/swiper/swiper.js?v=Kl4UpAWxM"></script>
+<script type="text/javascript" src="./assets/js/apps.js?v=D1j3mBRxTa"></script>
+
+
+
+<!-- Js Structdata -->
+    <!-- General -->
+    <script type="application/ld+json">
+        {
+            "@context" : "https://schema.org",
+            "@type" : "Organization",
+            "name" : "YẾN SÀO BẢO LỘC - Yến Sào An Phú Vinh ",
+            "url" : "http://yensaoanphuvinh.com/",
+            "sameAs" :
+            [
+                                    "https://www.facebook.com/Y%E1%BA%BFn-S%C3%A0o-An-Ph%C3%BA-Vinh-101392478418929/",                                    "",                                    "https://vt.tiktok.com/ZSJ2vNPSv/"                            ],
+            "address":
+            {
+                "@type": "PostalAddress",
+                "streetAddress": "Địa chỉ",
+                "addressRegion": "Ho Chi Minh",
+                "postalCode": "70000",
+                "addressCountry": "vi"
+            }
+        }
+    </script>
+
+<!-- Js Addons -->
+<div id="script-main"></div><script type="text/javascript">$(function(){var a=!1;$(window).scroll(function(){$(window).scrollTop()>10 && !a&&($("#video-fotorama").load("ajax/ajax_addons.php?type=video-fotorama"),a=!0)})});</script><script type="text/javascript">$(function(){var a=!1;$(window).scroll(function(){$(window).scrollTop()>10 && !a&&($("#footer-map").load("ajax/ajax_addons.php?type=footer-map"),a=!0)})});</script><script type="text/javascript">$(function(){var a=!1;$(window).scroll(function(){$(window).scrollTop()>10 && !a&&($("#messages-facebook").load("ajax/ajax_addons.php?type=messages-facebook"),a=!0)})});</script><script type="text/javascript">$(function(){var a=!1;$(window).scroll(function(){$(window).scrollTop()>0.5 && !a&&($("#script-main").load("ajax/ajax_addons.php?type=script-main"),a=!0)})});</script>
+<!-- Js Body -->
+</body>
+</html>

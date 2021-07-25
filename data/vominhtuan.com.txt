@@ -1,0 +1,890 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="vi"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="vi"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="vi"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10" lang="vi"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="vi"> <!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=yes' />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://vominhtuan.com/xmlrpc.php" />
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<meta property="og:type" content="website">
+<meta property="og:title" content="Võ Minh Tuấn Blog | Chuyên trang chia sẻ WordPress">
+<meta property="og:site_name" content="Võ Minh Tuấn Blog">
+<meta property="og:description" content="JTNDc2NyaXB0JTIwYXN5bmMlMjBzcmMlM0QlMjJodHRwcyUzQSUyRiUyRnBhZ2VhZDIuZ29vZ2xlc3luZGljYXRpb24uY29tJTJGcGFnZWFkJTJGanMlMkZhZHNieWdvb2dsZS5qcyUyMiUzRSUzQyUyRnNjcmlwdCUzRSUwQSUzQyUyMS0tJTIwTmdhbmclMjB0aCVDMyVBRGNoJTIwJUUxJUJCJUE5bmclMjAtLSUzRSUwQSUzQ2lucyUyMGN">
+<meta property="og:url" content="https://vominhtuan.com">
+<meta property="og:image" content="https://vominhtuan.com/wp-content/uploads/2020/11/Anh-noi-bat-Vo-Minh-Tuan-Blog.jpg">
+<meta property="og:image:height" content="720">
+<meta property="og:image:width" content="1280">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://vominhtuan.com">
+<meta name="twitter:title" content="Võ Minh Tuấn Blog | Chuyên trang chia sẻ WordPress">
+<meta name="twitter:description" content="JTNDc2NyaXB0JTIwYXN5bmMlMjBzcmMlM0QlMjJodHRwcyUzQSUyRiUyRnBhZ2VhZDIuZ29vZ2xlc3luZGljYXRpb24uY29tJTJGcGFnZWFkJTJGanMlMkZhZHNieWdvb2dsZS5qcyUyMiUzRSUzQyUyRnNjcmlwdCUzRSUwQSUzQyUyMS0tJTIwTmdhbmclMjB0aCVDMyVBRGNoJTIwJUUxJUJCJUE5bmclMjAtLSUzRSUwQSUzQ2lucyUyMGNsYXNzJTNEJTIyYWRzYnlnb29nbGUlMjIlMEElMjAlMjAlMjAlMjAlMjBzdHlsZSUzRCUyMmRpc3BsYXklM0FibG9jayUyMiUwQSUyMCUyMCUyMCUyMCUyMGRhdGEtYWQtY2xpZW50JTNEJTIyY2EtcHViLTk2MTAxNDY0MzMwNDU4MTklMjIlMEElMjAlMjAlMjAlMjAlMjBkYXRhLWFkLXNsb3QlM0QlMjI0ODI4MjU0MjI4JTIyJTBBJTIwJTIwJTIwJTIwJTIwZGF0YS1hZC1mb3JtYXQlM0QlMjJhdXRvJTIyJTBBJTIwJTIwJTIwJTIwJTIwZGF0YS1mdWxsLXdpZHRoLXJlc3BvbnNpdmUlM0QlMjJ0cnVlJTIyJTNFJTNDJTJGaW5zJTNFJTBBJTNDc2NyaXB0JTNFJTBBJTIwJTIwJTIwJTIwJTIwJTI4YWRzYnlnb29nbGUlMjAlM0QlMjB3aW5kb3cuYWRzYnlnb29nbGUlMjAlN0MlN0MlMjAlNUIlNUQlMjkucHVzaCUyOCU3QiU3RCUyOSUzQiUwQSUzQyUyRnNjcmlwdCUzRQ==JTNDc2NyaXB0JTIwYXN5bmMlMjBzcmMlM0QlMjJodHRwcyUzQSUyRiUyRnBhZ2VhZDIuZ29vZ2xlc3luZGljYXRpb24uY29tJTJGcGFnZWFkJTJGanMlMkZhZHNieWdvb2dsZS5qcyUyMiUzRSUzQyUyRnNjcmlwdCUzRSUwQSUzQyUyMS0tJTIwTmdhbmclMjB0aCVDMyVBRGNoJTIwJUUxJUJCJUE5bmclMjAtLSUzRSUwQSUzQ2lucyUyMGNsYXNzJTNEJTIyYWRzYnlnb29nbGUlMjIlMEElMjAlMjAlMjAlMjAlMjBzdHlsZSUzRCUyMmRpc3BsYXklM0FibG9jayUyMiUwQSUyMCUyMCUyMCUyMCUyMGRhdGEtYWQtY2xpZW50JTNEJTIyY2EtcHViLTk2MTAxNDY0MzMwNDU4MTklMjIlMEElMjAlMjAlMjAlMjAlMjBkYXRhLWFkLXNsb3QlM0QlMjI0ODI4MjU0MjI4JTIyJTBBJTIwJTIwJTIwJTIwJTIwZGF0YS1hZC1mb3JtYXQlM0QlMjJhdXRvJTIyJTBBJTIwJTIwJTIwJTIwJTIwZGF0YS1mdWxsLXdpZHRoLXJlc3BvbnNpdmUlM0QlMjJ0cnVlJTIyJTNFJTNDJTJGaW5zJTNFJTBBJTNDc2NyaXB0JTNFJTBBJTIwJTIwJTIwJTIwJTIwJTI4YWRzYnlnb29nbGUlMjAlM0QlMjB3aW5kb3cuYWRzYnlnb29nbGUlMjAlN0MlN0MlMjAlNUIlNUQlMjkucHVzaCUyOCU3QiU3RCUyOSUzQiUwQSUzQyUyRnNjcmlwdCUzRQ==">
+<meta name="twitter:image:src" content="https://vominhtuan.com/wp-content/uploads/2020/11/Anh-noi-bat-Vo-Minh-Tuan-Blog.jpg">
+<meta name="twitter:image:width" content="1280">
+<meta name="twitter:image:height" content="720">
+<script type="text/javascript">
+              var jnews_ajax_url = '/?ajax-request=jnews'
+			</script>
+<script type="text/javascript">;window.jnews=window.jnews||{},window.jnews.library=window.jnews.library||{},window.jnews.library=function(){"use strict";var t=this;t.win=window,t.doc=document,t.globalBody=t.doc.getElementsByTagName("body")[0],t.globalBody=t.globalBody?t.globalBody:t.doc,t.win.jnewsDataStorage=t.win.jnewsDataStorage||{_storage:new WeakMap,put:function(t,e,n){this._storage.has(t)||this._storage.set(t,new Map),this._storage.get(t).set(e,n)},get:function(t,e){return this._storage.get(t).get(e)},has:function(t,e){return this._storage.has(t)&&this._storage.get(t).has(e)},remove:function(t,e){var n=this._storage.get(t).delete(e);return 0===!this._storage.get(t).size&&this._storage.delete(t),n}},t.windowWidth=function(){return t.win.innerWidth||t.docEl.clientWidth||t.globalBody.clientWidth},t.windowHeight=function(){return t.win.innerHeight||t.docEl.clientHeight||t.globalBody.clientHeight},t.requestAnimationFrame=t.win.requestAnimationFrame||t.win.webkitRequestAnimationFrame||t.win.mozRequestAnimationFrame||t.win.msRequestAnimationFrame||window.oRequestAnimationFrame||function(t){return setTimeout(t,1e3/60)},t.cancelAnimationFrame=t.win.cancelAnimationFrame||t.win.webkitCancelAnimationFrame||t.win.webkitCancelRequestAnimationFrame||t.win.mozCancelAnimationFrame||t.win.msCancelRequestAnimationFrame||t.win.oCancelRequestAnimationFrame||function(t){clearTimeout(t)},t.classListSupport="classList"in document.createElement("_"),t.hasClass=t.classListSupport?function(t,e){return t.classList.contains(e)}:function(t,e){return t.className.indexOf(e)>=0},t.addClass=t.classListSupport?function(e,n){t.hasClass(e,n)||e.classList.add(n)}:function(e,n){t.hasClass(e,n)||(e.className+=" "+n)},t.removeClass=t.classListSupport?function(e,n){t.hasClass(e,n)&&e.classList.remove(n)}:function(e,n){t.hasClass(e,n)&&(e.className=e.className.replace(n,""))},t.objKeys=function(t){var e=[];for(var n in t)Object.prototype.hasOwnProperty.call(t,n)&&e.push(n);return e},t.isObjectSame=function(t,e){var n=!0;return JSON.stringify(t)!==JSON.stringify(e)&&(n=!1),n},t.extend=function(){for(var t,e,n,i=arguments[0]||{},o=1,a=arguments.length;o<a;o++)if(null!==(t=arguments[o]))for(e in t)i!==(n=t[e])&&void 0!==n&&(i[e]=n);return i},t.dataStorage=t.win.jnewsDataStorage,t.isVisible=function(t){return 0!==t.offsetWidth&&0!==t.offsetHeight||t.getBoundingClientRect().length},t.getHeight=function(t){return t.offsetHeight||t.clientHeight||t.getBoundingClientRect().height},t.getWidth=function(t){return t.offsetWidth||t.clientWidth||t.getBoundingClientRect().width},t.supportsPassive=!1;try{var e=Object.defineProperty({},"passive",{get:function(){t.supportsPassive=!0}});"createEvent"in t.doc?t.win.addEventListener("test",null,e):"fireEvent"in t.doc&&t.win.attachEvent("test",null)}catch(t){}t.passiveOption=!!t.supportsPassive&&{passive:!0},t.addEvents=function(e,n,i){for(var o in n){var a=["touchstart","touchmove"].indexOf(o)>=0&&!i&&t.passiveOption;"createEvent"in t.doc?e.addEventListener(o,n[o],a):"fireEvent"in t.doc&&e.attachEvent("on"+o,n[o])}},t.removeEvents=function(e,n){for(var i in n)"createEvent"in t.doc?e.removeEventListener(i,n[i]):"fireEvent"in t.doc&&e.detachEvent("on"+i,n[i])},t.triggerEvents=function(e,n,i){var o;i=i||{detail:null};return"createEvent"in t.doc?(!(o=t.doc.createEvent("CustomEvent")||new CustomEvent(n)).initCustomEvent||o.initCustomEvent(n,!0,!1,i),void e.dispatchEvent(o)):"fireEvent"in t.doc?((o=t.doc.createEventObject()).eventType=n,void e.fireEvent("on"+o.eventType,o)):void 0},t.getParents=function(e,n){void 0===n&&(n=t.doc);for(var i=[],o=e.parentNode,a=!1;!a;)if(o){var s=o;s.querySelectorAll(n).length?a=!0:(i.push(s),o=s.parentNode)}else i=[],a=!0;return i},t.forEach=function(t,e,n){for(var i=0,o=t.length;i<o;i++)e.call(n,t[i],i)},t.getText=function(t){return t.innerText||t.textContent},t.setText=function(t,e){var n="object"==typeof e?e.innerText||e.textContent:e;t.innerText&&(t.innerText=n),t.textContent&&(t.textContent=n)},t.httpBuildQuery=function(e){return t.objKeys(e).reduce(function e(n){var i=arguments.length>1&&void 0!==arguments[1]?arguments[1]:null;return function(o,a){var s=n[a];a=encodeURIComponent(a);var r=i?"".concat(i,"[").concat(a,"]"):a;return null==s||"function"==typeof s?(o.push("".concat(r,"=")),o):["number","boolean","string"].includes(typeof s)?(o.push("".concat(r,"=").concat(encodeURIComponent(s))),o):(o.push(t.objKeys(s).reduce(e(s,r),[]).join("&")),o)}}(e),[]).join("&")},t.scrollTo=function(e,n,i){function o(t,e,n){this.start=this.position(),this.change=t-this.start,this.currentTime=0,this.increment=20,this.duration=void 0===n?500:n,this.callback=e,this.finish=!1,this.animateScroll()}return Math.easeInOutQuad=function(t,e,n,i){return(t/=i/2)<1?n/2*t*t+e:-n/2*(--t*(t-2)-1)+e},o.prototype.stop=function(){this.finish=!0},o.prototype.move=function(e){t.doc.documentElement.scrollTop=e,t.globalBody.parentNode.scrollTop=e,t.globalBody.scrollTop=e},o.prototype.position=function(){return t.doc.documentElement.scrollTop||t.globalBody.parentNode.scrollTop||t.globalBody.scrollTop},o.prototype.animateScroll=function(){this.currentTime+=this.increment;var e=Math.easeInOutQuad(this.currentTime,this.start,this.change,this.duration);this.move(e),this.currentTime<this.duration&&!this.finish?t.requestAnimationFrame.call(t.win,this.animateScroll.bind(this)):this.callback&&"function"==typeof this.callback&&this.callback()},new o(e,n,i)},t.unwrap=function(e){var n,i=e;t.forEach(e,(function(t,e){n?n+=t:n=t})),i.replaceWith(n)},t.performance={start:function(t){performance.mark(t+"Start")},stop:function(t){performance.mark(t+"End"),performance.measure(t,t+"Start",t+"End")}},t.fps=function(){var e=0,n=0,i=0;!function(){var o=e=0,a=0,s=0,r=document.getElementById("fpsTable"),c=function(e){void 0===document.getElementsByTagName("body")[0]?t.requestAnimationFrame.call(t.win,(function(){c(e)})):document.getElementsByTagName("body")[0].appendChild(e)};null===r&&((r=document.createElement("div")).style.position="fixed",r.style.top="120px",r.style.left="10px",r.style.width="100px",r.style.height="20px",r.style.border="1px solid black",r.style.fontSize="11px",r.style.zIndex="100000",r.style.backgroundColor="white",r.id="fpsTable",c(r));var l=function(){i++,n=Date.now(),(a=(i/(s=(n-e)/1e3)).toPrecision(2))!=o&&(o=a,r.innerHTML=o+"fps"),1<s&&(e=n,i=0),t.requestAnimationFrame.call(t.win,l)};l()}()},t.instr=function(t,e){for(var n=0;n<e.length;n++)if(-1!==t.toLowerCase().indexOf(e[n].toLowerCase()))return!0},t.winLoad=function(e,n){function i(i){if("complete"===t.doc.readyState||"interactive"===t.doc.readyState)return!i||n?setTimeout(e,n||1):e(i),1}i()||t.addEvents(t.win,{load:i})},t.docReady=function(e,n){function i(i){if("complete"===t.doc.readyState||"interactive"===t.doc.readyState)return!i||n?setTimeout(e,n||1):e(i),1}i()||t.addEvents(t.doc,{DOMContentLoaded:i})},t.fireOnce=function(){t.docReady((function(){t.assets=t.assets||[],t.assets.length&&(t.boot(),t.load_assets())}),50)},t.boot=function(){t.length&&t.doc.querySelectorAll("style[media]").forEach((function(t){"not all"==t.getAttribute("media")&&t.removeAttribute("media")}))},t.create_js=function(e,n){var i=t.doc.createElement("script");switch(i.setAttribute("src",e),n){case"defer":i.setAttribute("defer",!0);break;case"async":i.setAttribute("async",!0);break;case"deferasync":i.setAttribute("defer",!0),i.setAttribute("async",!0)}t.globalBody.appendChild(i)},t.load_assets=function(){"object"==typeof t.assets&&t.forEach(t.assets.slice(0),(function(e,n){var i="";e.defer&&(i+="defer"),e.async&&(i+="async"),t.create_js(e.url,i);var o=t.assets.indexOf(e);o>-1&&t.assets.splice(o,1)})),t.assets=jnewsoption.au_scripts=window.jnewsads=[]},t.docReady((function(){t.globalBody=t.globalBody==t.doc?t.doc.getElementsByTagName("body")[0]:t.globalBody,t.globalBody=t.globalBody?t.globalBody:t.doc}))},window.jnews.library=new window.jnews.library;</script>
+
+<title>Võ Minh Tuấn Blog | Chuyên trang chia sẻ WordPress</title>
+<meta name="description" content="Chuyên trang chia sẻ kiến thức Wordpress, kiếm tiền MMO và các thủ thuật hay khác. Cung cấp Theme &amp; Plugin WordPress [GPL] miễn phí." />
+<link rel="canonical" href="https://vominhtuan.com/" />
+<meta property="og:locale" content="vi_VN" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Võ Minh Tuấn Blog | Chuyên trang chia sẻ WordPress" />
+<meta property="og:description" content="Chuyên trang chia sẻ kiến thức Wordpress, kiếm tiền MMO và các thủ thuật hay khác. Cung cấp Theme &amp; Plugin WordPress [GPL] miễn phí." />
+<meta property="og:url" content="https://vominhtuan.com/" />
+<meta property="og:site_name" content="Võ Minh Tuấn Blog" />
+<meta property="article:publisher" content="https://facebook.com/vominhtuanblog" />
+<meta property="article:modified_time" content="2021-07-16T04:57:36+00:00" />
+<meta property="og:image" content="https://vominhtuan.com/wp-content/uploads/2020/11/Anh-noi-bat-Vo-Minh-Tuan-Blog.jpg" />
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="720" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@vominhtuan24" />
+<meta name="twitter:label1" content="Ước tính thời gian đọc" />
+<meta name="twitter:data1" content="1 phút" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://vominhtuan.com/#/schema/person/743bb5c4bb3e1de3219d16cb9c0c7ac8","name":"V\u00f5 Minh Tu\u1ea5n","image":{"@type":"ImageObject","@id":"https://vominhtuan.com/#personlogo","inLanguage":"vi","url":"https://vominhtuan.com/wp-content/uploads/2020/11/Logo-vominhtuan.png","contentUrl":"https://vominhtuan.com/wp-content/uploads/2020/11/Logo-vominhtuan.png","width":200,"height":91,"caption":"V\u00f5 Minh Tu\u1ea5n"},"logo":{"@id":"https://vominhtuan.com/#personlogo"},"description":"Sau nhi\u1ec1u ng\u00e0y t\u00ecm t\u00f2 &amp; h\u1ecdc h\u1ecfi m\u00ecnh c\u0169ng \u0111\u00e3 cho ra \u0111\u1eddi m\u1ed9t Weblog mang t\u00ean m\u00ecnh nh\u1eb1m chia s\u1ebb \u0111\u1ebfn c\u00e1c b\u1ea1n nh\u1eefng ki\u1ebfn th\u1ee9c m\u00e0 m\u00ecnh bi\u1ebft v\u1edbi ph\u01b0\u01a1ng ch\u00e2m m\u00e3i m\u00e3i l\u00e0 mi\u1ec5n ph\u00ed.","sameAs":["https://vominhtuan.com","https://facebook.com/vominhtuanblog","https://pinterest.com/vominhtuanblog","https://twitter.com/https://twitter.com/vominhtuan24","https://youtube.com/vominhtuan"]},{"@type":"WebSite","@id":"https://vominhtuan.com/#website","url":"https://vominhtuan.com/","name":"V\u00f5 Minh Tu\u1ea5n Blog","description":"Chuy\u00ean trang chia s\u1ebb ki\u1ebfn th\u1ee9c Wordpress, ki\u1ebfm ti\u1ec1n MMO v\u00e0 c\u00e1c th\u1ee7 thu\u1eadt hay kh\u00e1c.","publisher":{"@id":"https://vominhtuan.com/#/schema/person/743bb5c4bb3e1de3219d16cb9c0c7ac8"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://vominhtuan.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"vi"},{"@type":"ImageObject","@id":"https://vominhtuan.com/#primaryimage","inLanguage":"vi","url":"https://vominhtuan.com/wp-content/uploads/2020/11/Anh-noi-bat-Vo-Minh-Tuan-Blog.jpg","contentUrl":"https://vominhtuan.com/wp-content/uploads/2020/11/Anh-noi-bat-Vo-Minh-Tuan-Blog.jpg","width":1280,"height":720},{"@type":"WebPage","@id":"https://vominhtuan.com/#webpage","url":"https://vominhtuan.com/","name":"V\u00f5 Minh Tu\u1ea5n Blog | Chuy\u00ean trang chia s\u1ebb WordPress","isPartOf":{"@id":"https://vominhtuan.com/#website"},"about":{"@id":"https://vominhtuan.com/#/schema/person/743bb5c4bb3e1de3219d16cb9c0c7ac8"},"primaryImageOfPage":{"@id":"https://vominhtuan.com/#primaryimage"},"datePublished":"2021-04-27T11:54:12+00:00","dateModified":"2021-07-16T04:57:36+00:00","description":"Chuy\u00ean trang chia s\u1ebb ki\u1ebfn th\u1ee9c Wordpress, ki\u1ebfm ti\u1ec1n MMO v\u00e0 c\u00e1c th\u1ee7 thu\u1eadt hay kh\u00e1c. Cung c\u1ea5p Theme & Plugin WordPress [GPL] mi\u1ec5n ph\u00ed.","breadcrumb":{"@id":"https://vominhtuan.com/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://vominhtuan.com/"]}]},{"@type":"BreadcrumbList","@id":"https://vominhtuan.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Trang ch\u1ee7"}]}]}</script>
+<meta name="msvalidate.01" content="6bc8481655464516948b04a206b3bbec" />
+<meta name="google-site-verification" content="TvKyW6gyeABQ6c9R5MH-t2pE-uY0_ib_1ZltzJvQWd0" />
+<meta name="p:domain_verify" content="2995776ce12c436c52472c55ca02461a" />
+<meta name="yandex-verification" content="0a54add8a208fa24" />
+
+<link rel="amphtml" href="https://vominhtuan.com/amp/" /><link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin Võ Minh Tuấn Blog &raquo;" href="https://vominhtuan.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dòng phản hồi Võ Minh Tuấn Blog &raquo;" href="https://vominhtuan.com/comments/feed/" />
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/vominhtuan.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='vmt-ext-css' href='https://vominhtuan.com/wp-content/plugins/vmt-external-links/css/vmt-external-links.css?ver=24.3.98' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://vominhtuan.com/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-login-form-block-css' href='https://vominhtuan.com/wp-content/plugins/buddypress/bp-core/css/blocks/login-form.min.css?ver=9.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-member-block-css' href='https://vominhtuan.com/wp-content/plugins/buddypress/bp-members/css/blocks/member.min.css?ver=9.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-members-block-css' href='https://vominhtuan.com/wp-content/plugins/buddypress/bp-members/css/blocks/members.min.css?ver=9.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-dynamic-members-block-css' href='https://vominhtuan.com/wp-content/plugins/buddypress/bp-members/css/blocks/dynamic-members.min.css?ver=9.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-latest-activities-block-css' href='https://vominhtuan.com/wp-content/plugins/buddypress/bp-activity/css/blocks/latest-activities.min.css?ver=9.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-friends-block-css' href='https://vominhtuan.com/wp-content/plugins/buddypress/bp-friends/css/blocks/friends.min.css?ver=9.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-group-block-css' href='https://vominhtuan.com/wp-content/plugins/buddypress/bp-groups/css/blocks/group.min.css?ver=9.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-groups-block-css' href='https://vominhtuan.com/wp-content/plugins/buddypress/bp-groups/css/blocks/groups.min.css?ver=9.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-dynamic-groups-block-css' href='https://vominhtuan.com/wp-content/plugins/buddypress/bp-groups/css/blocks/dynamic-groups.min.css?ver=9.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-sitewide-notices-block-css' href='https://vominhtuan.com/wp-content/plugins/buddypress/bp-messages/css/blocks/sitewide-notices.min.css?ver=9.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://vominhtuan.com/wp-includes/css/dashicons.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-nouveau-css' href='https://vominhtuan.com/wp-content/plugins/buddypress/bp-templates/bp-nouveau/css/buddypress.min.css?ver=9.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='jnews-subscribe-css' href='https://vominhtuan.com/wp-content/plugins/jnews-subscribe-to-download/assets/css/plugin.css?ver=9.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css' href='https://vominhtuan.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jnews-frontend-css' href='https://vominhtuan.com/wp-content/themes/jnews/assets/dist/frontend.min.css?ver=9.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jnews-style-css' href='https://vominhtuan.com/wp-content/themes/jnews/style.css?ver=9.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jnews-darkmode-css' href='https://vominhtuan.com/wp-content/themes/jnews/assets/css/darkmode.css?ver=9.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jnews-scheme-css' href='https://vominhtuan.com/wp-content/themes/jnews/data/import/fashion-blog/scheme.css?ver=9.0.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://vominhtuan.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://vominhtuan.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='jquery-js-after'>
+
+			!function(a,o){"use strict";try{a(o).on("load",function(){setTimeout(function(){a(".loader-wrap").addClass("available")},1000)})}catch(o){console.log(o),a(".loader-wrap").addClass("available")}}(jQuery,window);
+			
+</script>
+<script type='text/javascript' src='https://vominhtuan.com/wp-content/plugins/buddypress/bp-core/js/widget-members.min.js?ver=9.0.0' id='bp-widget-members-js'></script>
+<script type='text/javascript' src='https://vominhtuan.com/wp-content/plugins/buddypress/bp-core/js/jquery-query.min.js?ver=9.0.0' id='bp-jquery-query-js'></script>
+<script type='text/javascript' src='https://vominhtuan.com/wp-content/plugins/buddypress/bp-core/js/vendor/jquery-cookie.min.js?ver=9.0.0' id='bp-jquery-cookie-js'></script>
+<script type='text/javascript' src='https://vominhtuan.com/wp-content/plugins/buddypress/bp-core/js/vendor/jquery-scroll-to.min.js?ver=9.0.0' id='bp-jquery-scroll-to-js'></script>
+<script type='text/javascript' src='https://www.googletagmanager.com/gtag/js?id=UA-181393469-1' id='google_gtagjs-js' async></script>
+<script type='text/javascript' id='google_gtagjs-js-after'>
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('set', 'linker', {"domains":["vominhtuan.com"]} );
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "UA-181393469-1", {"anonymize_ip":true});
+</script>
+<link rel="https://api.w.org/" href="https://vominhtuan.com/wp-json/" /><link rel="alternate" type="application/json" href="https://vominhtuan.com/wp-json/wp/v2/pages/2910" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://vominhtuan.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://vominhtuan.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 5.7.2" />
+<link rel='shortlink' href='https://vominhtuan.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://vominhtuan.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvominhtuan.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://vominhtuan.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvominhtuan.com%2F&#038;format=xml" />
+<script type="text/javascript">var ajaxurl = 'https://vominhtuan.com/wp-admin/admin-ajax.php';</script>
+<meta name="generator" content="Site Kit by Google 1.37.0" /><style id="wp_loading_page">.loader-wrap.available {
+    animation: loaderHide;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.loader-wrap {
+    display: flex;
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.94901960784314);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    transition: .3s ease-in-out;
+}
+
+.loader {
+    border-radius: 50%;
+    position: relative;
+    margin: 50px;
+    display: inline-block;
+    height: 0px;
+    width: 0px;
+}
+
+.loader span {
+    position: absolute;
+    display: block;
+    background: #ddd;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    top: -20px;
+    perspective: 100000px;
+}
+
+.loader span:nth-child(1) {
+    left: 60px;
+    animation: bounce2 1s cubic-bezier(0.04, 0.35, 0, 1) infinite;
+    animation-delay: 0s;
+    background: rgba(66, 133, 244, 1);
+}
+
+.loader span:nth-child(2) {
+    left: 20px;
+    animation: bounce2 1s cubic-bezier(0.04, 0.35, 0, 1) infinite;
+    animation-delay: .2s;
+    background: rgba(234, 67, 53, 1);
+}
+
+.loader span:nth-child(3) {
+    left: -20px;
+    animation: bounce2 1s cubic-bezier(0.04, 0.35, 0, 1) infinite;
+    animation-delay: .4s;
+    background: rgba(251, 188, 5, 1);
+}
+
+.loader span:nth-child(4) {
+    left: -60px;
+    animation: bounce2 1s cubic-bezier(0.04, 0.35, 0, 1) infinite;
+    animation-delay: .6s;
+    background: rgba(52, 168, 83, 1);
+}
+
+@keyframes bounce2 {
+    0%, 75%, 100% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-30px);
+    }
+}
+
+
+@keyframes loaderHide {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+</style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({"google_ad_client":"ca-pub-9610146433045819","enable_page_level_ads":true,"tag_partner":"site_kit"});</script> <script>
+		if(screen.width<769){
+        	window.location = "https://vominhtuan.com/amp/";
+        }
+    	</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","@id":"https:\/\/vominhtuan.com\/#organization","url":"https:\/\/vominhtuan.com\/","name":"V\u00f5 Minh Tu\u1ea5n Blog","logo":{"@type":"ImageObject","url":"https:\/\/vominhtuan.com\/wp-content\/uploads\/2020\/11\/cropped-Icon-Vo-Minh-Tuan-Blog-1.png"},"sameAs":["http:\/\/facebook.com\/vominhtuanblog","\/feed"]}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"https:\/\/vominhtuan.com\/#website","url":"https:\/\/vominhtuan.com\/","name":"V\u00f5 Minh Tu\u1ea5n Blog","potentialAction":{"@type":"SearchAction","target":"https:\/\/vominhtuan.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<link rel="icon" href="https://vominhtuan.com/wp-content/uploads/2020/11/cropped-Icon-Vo-Minh-Tuan-Blog-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://vominhtuan.com/wp-content/uploads/2020/11/cropped-Icon-Vo-Minh-Tuan-Blog-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://vominhtuan.com/wp-content/uploads/2020/11/cropped-Icon-Vo-Minh-Tuan-Blog-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://vominhtuan.com/wp-content/uploads/2020/11/cropped-Icon-Vo-Minh-Tuan-Blog-1-270x270.png" />
+<style id="jeg_dynamic_css" type="text/css" data-type="jeg_custom-css">body { --j-body-color : #252627; --j-accent-color : #1e73be; --j-alt-color : #252627; --j-heading-color : #252627; } body,.jeg_newsfeed_list .tns-outer .tns-controls button,.jeg_filter_button,.owl-carousel .owl-nav div,.jeg_readmore,.jeg_hero_style_7 .jeg_post_meta a,.widget_calendar thead th,.widget_calendar tfoot a,.jeg_socialcounter a,.entry-header .jeg_meta_like a,.entry-header .jeg_meta_comment a,.entry-content tbody tr:hover,.entry-content th,.jeg_splitpost_nav li:hover a,#breadcrumbs a,.jeg_author_socials a:hover,.jeg_footer_content a,.jeg_footer_bottom a,.jeg_cartcontent,.woocommerce .woocommerce-breadcrumb a { color : #252627; } a, .jeg_menu_style_5>li>a:hover, .jeg_menu_style_5>li.sfHover>a, .jeg_menu_style_5>li.current-menu-item>a, .jeg_menu_style_5>li.current-menu-ancestor>a, .jeg_navbar .jeg_menu:not(.jeg_main_menu)>li>a:hover, .jeg_midbar .jeg_menu:not(.jeg_main_menu)>li>a:hover, .jeg_side_tabs li.active, .jeg_block_heading_5 strong, .jeg_block_heading_6 strong, .jeg_block_heading_7 strong, .jeg_block_heading_8 strong, .jeg_subcat_list li a:hover, .jeg_subcat_list li button:hover, .jeg_pl_lg_7 .jeg_thumb .jeg_post_category a, .jeg_pl_xs_2:before, .jeg_pl_xs_4 .jeg_postblock_content:before, .jeg_postblock .jeg_post_title a:hover, .jeg_hero_style_6 .jeg_post_title a:hover, .jeg_sidefeed .jeg_pl_xs_3 .jeg_post_title a:hover, .widget_jnews_popular .jeg_post_title a:hover, .jeg_meta_author a, .widget_archive li a:hover, .widget_pages li a:hover, .widget_meta li a:hover, .widget_recent_entries li a:hover, .widget_rss li a:hover, .widget_rss cite, .widget_categories li a:hover, .widget_categories li.current-cat>a, #breadcrumbs a:hover, .jeg_share_count .counts, .commentlist .bypostauthor>.comment-body>.comment-author>.fn, span.required, .jeg_review_title, .bestprice .price, .authorlink a:hover, .jeg_vertical_playlist .jeg_video_playlist_play_icon, .jeg_vertical_playlist .jeg_video_playlist_item.active .jeg_video_playlist_thumbnail:before, .jeg_horizontal_playlist .jeg_video_playlist_play, .woocommerce li.product .pricegroup .button, .widget_display_forums li a:hover, .widget_display_topics li:before, .widget_display_replies li:before, .widget_display_views li:before, .bbp-breadcrumb a:hover, .jeg_mobile_menu li.sfHover>a, .jeg_mobile_menu li a:hover, .split-template-6 .pagenum, .jeg_mobile_menu_style_5>li>a:hover, .jeg_mobile_menu_style_5>li.sfHover>a, .jeg_mobile_menu_style_5>li.current-menu-item>a, .jeg_mobile_menu_style_5>li.current-menu-ancestor>a { color : #1e73be; } .jeg_menu_style_1>li>a:before, .jeg_menu_style_2>li>a:before, .jeg_menu_style_3>li>a:before, .jeg_side_toggle, .jeg_slide_caption .jeg_post_category a, .jeg_slider_type_1_wrapper .tns-controls button.tns-next, .jeg_block_heading_1 .jeg_block_title span, .jeg_block_heading_2 .jeg_block_title span, .jeg_block_heading_3, .jeg_block_heading_4 .jeg_block_title span, .jeg_block_heading_6:after, .jeg_pl_lg_box .jeg_post_category a, .jeg_pl_md_box .jeg_post_category a, .jeg_readmore:hover, .jeg_thumb .jeg_post_category a, .jeg_block_loadmore a:hover, .jeg_postblock.alt .jeg_block_loadmore a:hover, .jeg_block_loadmore a.active, .jeg_postblock_carousel_2 .jeg_post_category a, .jeg_heroblock .jeg_post_category a, .jeg_pagenav_1 .page_number.active, .jeg_pagenav_1 .page_number.active:hover, input[type="submit"], .btn, .button, .widget_tag_cloud a:hover, .popularpost_item:hover .jeg_post_title a:before, .jeg_splitpost_4 .page_nav, .jeg_splitpost_5 .page_nav, .jeg_post_via a:hover, .jeg_post_source a:hover, .jeg_post_tags a:hover, .comment-reply-title small a:before, .comment-reply-title small a:after, .jeg_storelist .productlink, .authorlink li.active a:before, .jeg_footer.dark .socials_widget:not(.nobg) a:hover .fa, div.jeg_breakingnews_title, .jeg_overlay_slider_bottom_wrapper .tns-controls button, .jeg_overlay_slider_bottom_wrapper .tns-controls button:hover, .jeg_vertical_playlist .jeg_video_playlist_current, .woocommerce span.onsale, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .jeg_popup_post .caption, .jeg_footer.dark input[type="submit"], .jeg_footer.dark .btn, .jeg_footer.dark .button, .footer_widget.widget_tag_cloud a:hover, .jeg_inner_content .content-inner .jeg_post_category a:hover, #buddypress .standard-form button, #buddypress a.button, #buddypress input[type="submit"], #buddypress input[type="button"], #buddypress input[type="reset"], #buddypress ul.button-nav li a, #buddypress .generic-button a, #buddypress .generic-button button, #buddypress .comment-reply-link, #buddypress a.bp-title-button, #buddypress.buddypress-wrap .members-list li .user-update .activity-read-more a, div#buddypress .standard-form button:hover, div#buddypress a.button:hover, div#buddypress input[type="submit"]:hover, div#buddypress input[type="button"]:hover, div#buddypress input[type="reset"]:hover, div#buddypress ul.button-nav li a:hover, div#buddypress .generic-button a:hover, div#buddypress .generic-button button:hover, div#buddypress .comment-reply-link:hover, div#buddypress a.bp-title-button:hover, div#buddypress.buddypress-wrap .members-list li .user-update .activity-read-more a:hover, #buddypress #item-nav .item-list-tabs ul li a:before, .jeg_inner_content .jeg_meta_container .follow-wrapper a { background-color : #1e73be; } .jeg_block_heading_7 .jeg_block_title span, .jeg_readmore:hover, .jeg_block_loadmore a:hover, .jeg_block_loadmore a.active, .jeg_pagenav_1 .page_number.active, .jeg_pagenav_1 .page_number.active:hover, .jeg_pagenav_3 .page_number:hover, .jeg_prevnext_post a:hover h3, .jeg_overlay_slider .jeg_post_category, .jeg_sidefeed .jeg_post.active, .jeg_vertical_playlist.jeg_vertical_playlist .jeg_video_playlist_item.active .jeg_video_playlist_thumbnail img, .jeg_horizontal_playlist .jeg_video_playlist_item.active { border-color : #1e73be; } .jeg_tabpost_nav li.active, .woocommerce div.product .woocommerce-tabs ul.tabs li.active, .jeg_mobile_menu_style_1>li.current-menu-item a, .jeg_mobile_menu_style_1>li.current-menu-ancestor a, .jeg_mobile_menu_style_2>li.current-menu-item::after, .jeg_mobile_menu_style_2>li.current-menu-ancestor::after, .jeg_mobile_menu_style_3>li.current-menu-item::before, .jeg_mobile_menu_style_3>li.current-menu-ancestor::before { border-bottom-color : #1e73be; } .jeg_post_meta .fa, .entry-header .jeg_post_meta .fa, .jeg_review_stars, .jeg_price_review_list { color : #252627; } .jeg_share_button.share-float.share-monocrhome a { background-color : #252627; } h1,h2,h3,h4,h5,h6,.jeg_post_title a,.entry-header .jeg_post_title,.jeg_hero_style_7 .jeg_post_title a,.jeg_block_title,.jeg_splitpost_bar .current_title,.jeg_video_playlist_title,.gallery-caption,.jeg_push_notification_button>a.button { color : #252627; } .split-template-9 .pagenum, .split-template-10 .pagenum, .split-template-11 .pagenum, .split-template-12 .pagenum, .split-template-13 .pagenum, .split-template-15 .pagenum, .split-template-18 .pagenum, .split-template-20 .pagenum, .split-template-19 .current_title span, .split-template-20 .current_title span { background-color : #252627; } .jeg_topbar .jeg_nav_row, .jeg_topbar .jeg_search_no_expand .jeg_search_input { line-height : 36px; } .jeg_topbar .jeg_nav_row, .jeg_topbar .jeg_nav_icon { height : 36px; } .jeg_midbar { height : 130px; } .jeg_header .jeg_bottombar.jeg_navbar,.jeg_bottombar .jeg_nav_icon { height : 50px; } .jeg_header .jeg_bottombar.jeg_navbar, .jeg_header .jeg_bottombar .jeg_main_menu:not(.jeg_menu_style_1) > li > a, .jeg_header .jeg_bottombar .jeg_menu_style_1 > li, .jeg_header .jeg_bottombar .jeg_menu:not(.jeg_main_menu) > li > a { line-height : 50px; } .jeg_header .jeg_bottombar, .jeg_header .jeg_bottombar.jeg_navbar_dark, .jeg_bottombar.jeg_navbar_boxed .jeg_nav_row, .jeg_bottombar.jeg_navbar_dark.jeg_navbar_boxed .jeg_nav_row { border-top-width : 0px; } .jeg_mobile_bottombar { height : 79px; line-height : 79px; } .jeg_mobile_midbar, .jeg_mobile_midbar.dark { background : #252627; } .jeg_header .socials_widget > a > i.fa:before { color : #ffffff; } .jeg_header .socials_widget.nobg > a > span.jeg-icon svg { fill : #ffffff; } .jeg_header .socials_widget > a > span.jeg-icon svg { fill : #ffffff; } .jeg_nav_search { width : 25%; } .jeg_header .jeg_search_wrapper.jeg_search_no_expand .jeg_search_form .jeg_search_input { color : #f5f5f5; } .jeg_header .jeg_search_no_expand .jeg_search_result, .jeg_header .jeg_search_no_expand .jeg_search_result .search-link { border-color : #eeeeee; } .jeg_header .jeg_search_no_expand .jeg_search_result a, .jeg_header .jeg_search_no_expand .jeg_search_result .search-link { color : #212121; } .jeg_header .jeg_menu.jeg_main_menu > li > a { color : #212121; } .jeg_footer_content,.jeg_footer.dark .jeg_footer_content { background-color : #ffffff; } body,input,textarea,select,.chosen-container-single .chosen-single,.btn,.button { font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;font-size: 13px; line-height: 22px;  } .jeg_header, .jeg_mobile_wrapper { font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; } .jeg_main_menu > li > a { font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; } .jeg_post_title, .entry-header .jeg_post_title, .jeg_single_tpl_2 .entry-header .jeg_post_title, .jeg_single_tpl_3 .entry-header .jeg_post_title, .jeg_single_tpl_6 .entry-header .jeg_post_title, .jeg_content .jeg_custom_title_wrapper .jeg_post_title { font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; } h3.jeg_block_title, .jeg_footer .jeg_footer_heading h3, .jeg_footer .widget h2, .jeg_tabpost_nav li { font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; } .jeg_post_excerpt p, .content-inner p { font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;color : #22222;  } </style><style type="text/css">
+					.no_thumbnail .jeg_thumb,
+					.thumbnail-container.no_thumbnail {
+					    display: none !important;
+					}
+					.jeg_search_result .jeg_pl_xs_3.no_thumbnail .jeg_postblock_content,
+					.jeg_sidefeed .jeg_pl_xs_3.no_thumbnail .jeg_postblock_content,
+					.jeg_pl_sm.no_thumbnail .jeg_postblock_content {
+					    margin-left: 0;
+					}
+					.jeg_postblock_11 .no_thumbnail .jeg_postblock_content,
+					.jeg_postblock_12 .no_thumbnail .jeg_postblock_content,
+					.jeg_postblock_12.jeg_col_3o3 .no_thumbnail .jeg_postblock_content  {
+					    margin-top: 0;
+					}
+					.jeg_postblock_15 .jeg_pl_md_box.no_thumbnail .jeg_postblock_content,
+					.jeg_postblock_19 .jeg_pl_md_box.no_thumbnail .jeg_postblock_content,
+					.jeg_postblock_24 .jeg_pl_md_box.no_thumbnail .jeg_postblock_content,
+					.jeg_sidefeed .jeg_pl_md_box .jeg_postblock_content {
+					    position: relative;
+					}
+					.jeg_postblock_carousel_2 .no_thumbnail .jeg_post_title a,
+					.jeg_postblock_carousel_2 .no_thumbnail .jeg_post_title a:hover,
+					.jeg_postblock_carousel_2 .no_thumbnail .jeg_post_meta .fa {
+					    color: #212121 !important;
+					} 
+				</style><style id="jeg_vc_shortcodes_css" type="text/css" data-type="jeg_vc_shortcodes_custom-css">.vc_custom_1623849489281{margin-bottom: 60px !important;border-bottom-width: 1px !important;border-bottom-color: #eeeeee !important;border-bottom-style: dashed !important;}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1623849489281{margin-bottom: 60px !important;border-bottom-width: 1px !important;border-bottom-color: #eeeeee !important;border-bottom-style: dashed !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body data-rsssl=1 class="home-page bp-nouveau home page-template page-template-template-builder page-template-template-builder-php page page-id-2910 wp-embed-responsive jeg_toggle_dark jnews jsc_normal wpb-js-composer js-comp-ver-6.6.0 vc_responsive no-js"><div id="wp-page-loader" class="loader-wrap">
+<div class="loader">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+<div class="jeg_ad jeg_ad_top jnews_header_top_ads">
+<div class='ads-wrapper  '></div> </div>
+
+<div class="jeg_viewport">
+<div class="jeg_header_wrapper">
+<div class="jeg_header_instagram_wrapper">
+</div>
+
+<div class="jeg_header normal">
+<div class="jeg_midbar jeg_container normal">
+<div class="container">
+<div class="jeg_nav_row">
+<div class="jeg_nav_col jeg_nav_left jeg_nav_normal">
+<div class="item_wrap jeg_nav_alignleft">
+<div class="jeg_nav_item jeg_logo jeg_desktop_logo">
+<h1 class="site-title">
+<a href="https://vominhtuan.com/" style="padding: 0 0 0 0;">
+<img class='jeg_logo_img' src="https://vominhtuan.com/wp-content/uploads/2021/04/vmt.png" alt="Võ Minh Tuấn Blog" data-light-src="https://vominhtuan.com/wp-content/uploads/2021/04/vmt.png" data-light-srcset="https://vominhtuan.com/wp-content/uploads/2021/04/vmt.png 1x,  2x" data-dark-src="https://vominhtuan.com/wp-content/uploads/2021/04/vmt.png" data-dark-srcset="https://vominhtuan.com/wp-content/uploads/2021/04/vmt.png 1x,  2x"> </a>
+</h1>
+</div> </div>
+</div>
+<div class="jeg_nav_col jeg_nav_center jeg_nav_normal">
+<div class="item_wrap jeg_nav_aligncenter">
+</div>
+</div>
+<div class="jeg_nav_col jeg_nav_right jeg_nav_grow">
+<div class="item_wrap jeg_nav_alignright">
+<div class="jeg_nav_item jeg_ad jeg_ad_top jnews_header_ads">
+<div class='ads-wrapper  '><div class="ads_google_ads">
+<style type='text/css' scoped>
+                                .adsslot_g56lmJ2NaZ{ width:728px !important; height:90px !important; }
+@media (max-width:1199px) { .adsslot_g56lmJ2NaZ{ width:468px !important; height:60px !important; } }
+@media (max-width:767px) { .adsslot_g56lmJ2NaZ{ width:320px !important; height:50px !important; } }
+
+                            </style>
+<ins class="adsbygoogle adsslot_g56lmJ2NaZ" style="display:inline-block;" data-ad-client="ca-pub-9610146433045819" data-ad-slot="4828254228"></ins>
+<script async defer src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div></div></div> </div>
+</div>
+</div>
+</div>
+</div><div class="jeg_bottombar jeg_navbar jeg_container jeg_navbar_wrapper jeg_navbar_normal jeg_navbar_normal">
+<div class="container">
+<div class="jeg_nav_row">
+<div class="jeg_nav_col jeg_nav_left jeg_nav_grow">
+<div class="item_wrap jeg_nav_alignleft">
+<div class="jeg_nav_item jeg_main_menu_wrapper">
+<div class="jeg_mainmenu_wrap"><ul class="jeg_menu jeg_main_menu jeg_menu_style_1" data-animation="animate"><li id="menu-item-2973" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-2973 bgnav" data-item-row="default"><a href="/">Trang chủ</a></li>
+<li id="menu-item-2815" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2815 bgnav" data-item-row="default"><a href="https://vominhtuan.com/theme-wordpress/">Theme WordPress</a></li>
+<li id="menu-item-2816" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2816 bgnav" data-item-row="default"><a href="https://vominhtuan.com/plugin-wordpress/">Plugin WordPress</a></li>
+<li id="menu-item-2817" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2817 bgnav" data-item-row="default"><a href="https://vominhtuan.com/huong-dan/">Hướng dẫn</a></li>
+<li id="menu-item-2835" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2835 bgnav" data-item-row="default"><a href="https://vominhtuan.com/may-tinh">Máy tính</a></li>
+<li id="menu-item-2978" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2978 bgnav" data-item-row="default"><a href="https://vominhtuan.com/photoshop-online/">Photoshop Online</a></li>
+<li id="menu-item-2818" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2818 bgnav" data-item-row="default"><a>Dịch vụ</a>
+<ul class="sub-menu">
+<li id="menu-item-2819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2819 bgnav" data-item-row="default"><a href="https://vominhtuan.com/web-hosting/">Đăng ký Hosting</a></li>
+<li id="menu-item-2820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2820 bgnav" data-item-row="default"><a href="https://vominhtuan.com/dang-ky-ten-mien/">Đăng ký tên miền</a></li>
+<li id="menu-item-2821" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2821 bgnav" data-item-row="default"><a href="https://vominhtuan.com/email-ten-mien-nang-cao-uy-tin-khang-dinh-thuong-hieu/">Email tên miền</a></li>
+<li id="menu-item-2822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2822 bgnav" data-item-row="default"><a href="https://vominhtuan.com/vps/">Cloud VPS</a></li>
+</ul>
+</li>
+<li id="menu-item-3213" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3213 bgnav" data-item-row="default"><a href="https://minishop.adpia.vn/vmt-store/store">VMT STORE</a></li>
+</ul></div></div>
+</div>
+</div>
+<div class="jeg_nav_col jeg_nav_center jeg_nav_normal">
+<div class="item_wrap jeg_nav_aligncenter">
+</div>
+</div>
+<div class="jeg_nav_col jeg_nav_right jeg_nav_normal">
+<div class="item_wrap jeg_nav_alignright">
+
+<div class="jeg_nav_item jeg_search_wrapper search_icon jeg_search_popup_expand">
+<a href="#" class="jeg_search_toggle"><i class="fa fa-search"></i></a>
+<form action="https://vominhtuan.com/" method="get" class="jeg_search_form" target="_top">
+<input name="s" class="jeg_search_input" placeholder="Tìm kiếm..." type="text" value="" autocomplete="off">
+<button aria-label="Search Button" type="submit" class="jeg_search_button btn"><i class="fa fa-search"></i></button>
+</form>
+
+<div class="jeg_search_result jeg_search_hide with_result">
+<div class="search-result-wrapper">
+</div>
+<div class="search-link search-noresult">
+Không kết quả </div>
+<div class="search-link search-all-button">
+<i class="fa fa-search"></i> Xem tất cả kết quả </div>
+</div></div> </div>
+</div>
+</div>
+</div>
+</div></div> </div>
+<div class="jeg_header_sticky">
+<div class="sticky_blankspace"></div>
+<div class="jeg_header normal">
+<div class="jeg_container">
+<div data-mode="scroll" class="jeg_stickybar jeg_navbar jeg_navbar_wrapper jeg_navbar_normal jeg_navbar_normal">
+<div class="container">
+<div class="jeg_nav_row">
+<div class="jeg_nav_col jeg_nav_left jeg_nav_grow">
+<div class="item_wrap jeg_nav_alignleft">
+<div class="jeg_nav_item jeg_main_menu_wrapper">
+<div class="jeg_mainmenu_wrap"><ul class="jeg_menu jeg_main_menu jeg_menu_style_1" data-animation="animate"><li id="menu-item-2973" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-2973 bgnav" data-item-row="default"><a href="/">Trang chủ</a></li>
+<li id="menu-item-2815" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2815 bgnav" data-item-row="default"><a href="https://vominhtuan.com/theme-wordpress/">Theme WordPress</a></li>
+<li id="menu-item-2816" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2816 bgnav" data-item-row="default"><a href="https://vominhtuan.com/plugin-wordpress/">Plugin WordPress</a></li>
+<li id="menu-item-2817" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2817 bgnav" data-item-row="default"><a href="https://vominhtuan.com/huong-dan/">Hướng dẫn</a></li>
+<li id="menu-item-2835" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2835 bgnav" data-item-row="default"><a href="https://vominhtuan.com/may-tinh">Máy tính</a></li>
+<li id="menu-item-2978" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2978 bgnav" data-item-row="default"><a href="https://vominhtuan.com/photoshop-online/">Photoshop Online</a></li>
+<li id="menu-item-2818" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2818 bgnav" data-item-row="default"><a>Dịch vụ</a>
+<ul class="sub-menu">
+<li id="menu-item-2819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2819 bgnav" data-item-row="default"><a href="https://vominhtuan.com/web-hosting/">Đăng ký Hosting</a></li>
+<li id="menu-item-2820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2820 bgnav" data-item-row="default"><a href="https://vominhtuan.com/dang-ky-ten-mien/">Đăng ký tên miền</a></li>
+<li id="menu-item-2821" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2821 bgnav" data-item-row="default"><a href="https://vominhtuan.com/email-ten-mien-nang-cao-uy-tin-khang-dinh-thuong-hieu/">Email tên miền</a></li>
+<li id="menu-item-2822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2822 bgnav" data-item-row="default"><a href="https://vominhtuan.com/vps/">Cloud VPS</a></li>
+</ul>
+</li>
+<li id="menu-item-3213" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3213 bgnav" data-item-row="default"><a href="https://minishop.adpia.vn/vmt-store/store">VMT STORE</a></li>
+</ul></div></div>
+</div>
+</div>
+<div class="jeg_nav_col jeg_nav_center jeg_nav_normal">
+<div class="item_wrap jeg_nav_aligncenter">
+</div>
+</div>
+<div class="jeg_nav_col jeg_nav_right jeg_nav_normal">
+<div class="item_wrap jeg_nav_alignright">
+
+<div class="jeg_nav_item jeg_search_wrapper search_icon jeg_search_popup_expand">
+<a href="#" class="jeg_search_toggle"><i class="fa fa-search"></i></a>
+<form action="https://vominhtuan.com/" method="get" class="jeg_search_form" target="_top">
+<input name="s" class="jeg_search_input" placeholder="Tìm kiếm..." type="text" value="" autocomplete="off">
+<button aria-label="Search Button" type="submit" class="jeg_search_button btn"><i class="fa fa-search"></i></button>
+</form>
+
+<div class="jeg_search_result jeg_search_hide with_result">
+<div class="search-result-wrapper">
+</div>
+<div class="search-link search-noresult">
+Không kết quả </div>
+<div class="search-link search-all-button">
+<i class="fa fa-search"></i> Xem tất cả kết quả </div>
+</div></div> </div>
+</div>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+<div class="jeg_navbar_mobile_wrapper">
+<div class="jeg_navbar_mobile" data-mode="scroll">
+<div class="jeg_mobile_bottombar jeg_mobile_midbar jeg_container dark">
+<div class="container">
+<div class="jeg_nav_row">
+<div class="jeg_nav_col jeg_nav_left jeg_nav_normal">
+<div class="item_wrap jeg_nav_alignleft">
+<div class="jeg_nav_item">
+<a href="#" class="toggle_btn jeg_mobile_toggle"><i class="fa fa-bars"></i></a>
+</div> </div>
+</div>
+<div class="jeg_nav_col jeg_nav_center jeg_nav_grow">
+<div class="item_wrap jeg_nav_aligncenter">
+<div class="jeg_nav_item jeg_mobile_logo">
+<div class="site-title">
+<a href="https://vominhtuan.com/">
+<img class='jeg_logo_img' src="https://vominhtuan.com/wp-content/uploads/2021/04/vmt.png" alt="Võ Minh Tuấn Blog" data-light-src="https://vominhtuan.com/wp-content/uploads/2021/04/vmt.png" data-light-srcset="https://vominhtuan.com/wp-content/uploads/2021/04/vmt.png 1x,  2x" data-dark-src="https://vominhtuan.com/wp-content/uploads/2021/04/vmt.png" data-dark-srcset="https://vominhtuan.com/wp-content/uploads/2021/04/vmt.png 1x,  2x"> </a>
+</div>
+</div> </div>
+</div>
+<div class="jeg_nav_col jeg_nav_right jeg_nav_normal">
+<div class="item_wrap jeg_nav_alignright">
+<div class="jeg_nav_item jeg_search_wrapper jeg_search_popup_expand">
+<a href="#" class="jeg_search_toggle"><i class="fa fa-search"></i></a>
+<form action="https://vominhtuan.com/" method="get" class="jeg_search_form" target="_top">
+<input name="s" class="jeg_search_input" placeholder="Tìm kiếm..." type="text" value="" autocomplete="off">
+<button aria-label="Search Button" type="submit" class="jeg_search_button btn"><i class="fa fa-search"></i></button>
+</form>
+
+<div class="jeg_search_result jeg_search_hide with_result">
+<div class="search-result-wrapper">
+</div>
+<div class="search-link search-noresult">
+Không kết quả </div>
+<div class="search-link search-all-button">
+<i class="fa fa-search"></i> Xem tất cả kết quả </div>
+</div></div> </div>
+</div>
+</div>
+</div>
+</div></div>
+<div class="sticky_blankspace" style="height: 79px;"></div> </div>
+<div class="jeg_main">
+<div class="jeg_container">
+<div class="jeg_content">
+<div class="jeg_vc_content">
+<div class="row vc_row wpb_row vc_row-fluid vc_custom_1623849489281 vc_row-has-fill vc_row-has-border"><div class="jeg-vc-wrapper"><div class="wpb_column jeg_column vc_column_container vc_col-sm-4 jeg_main_content"><div class="jeg_wrapper wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="https://vominhtuan.com/theme-wordpress/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey local-link"><img width="250" height="170" src="https://vominhtuan.com/wp-content/uploads/2021/06/Theme-WordPewss-Home.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" /></a>
+</figure><div class='code-block code-block-17' style='margin: 8px 0; clear: both;'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-7t+ey-4-4z+97" data-ad-client="ca-pub-9610146433045819" data-ad-slot="9892883180"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+</div>
+</div></div><div class="wpb_column jeg_column vc_column_container vc_col-sm-4 jeg_main_content"><div class="jeg_wrapper wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="https://vominhtuan.com/plugin-wordpress/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey local-link"><img width="250" height="170" src="https://vominhtuan.com/wp-content/uploads/2021/06/Plugin-WordPress-Home.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" /></a>
+</figure><div class='code-block code-block-18' style='margin: 8px 0; clear: both;'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-7t+ey-4-4z+97" data-ad-client="ca-pub-9610146433045819" data-ad-slot="9892883180"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+</div>
+</div></div><div class="wpb_column jeg_column vc_column_container vc_col-sm-4 jeg_main_content"><div class="jeg_wrapper wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="https://vominhtuan.com/huong-dan" target="_self" class="vc_single_image-wrapper   vc_box_border_grey local-link"><img width="250" height="170" src="https://vominhtuan.com/wp-content/uploads/2021/06/Tips-WordPress-Home.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" /></a>
+</figure><div class='code-block code-block-19' style='margin: 8px 0; clear: both;'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-7t+ey-4-4z+97" data-ad-client="ca-pub-9610146433045819" data-ad-slot="9892883180"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+</div>
+</div></div></div></div><div class="row vc_row wpb_row vc_row-fluid"><div class="jeg-vc-wrapper"><div class="wpb_column jeg_column vc_column_container vc_col-sm-12 jeg_main_content"><div class="jeg_wrapper wpb_wrapper"></div></div></div></div><div class="row vc_row wpb_row vc_row-fluid"><div class="jeg-vc-wrapper"><div class="wpb_column jeg_column vc_column_container vc_col-sm-12 jeg_main_content"><div class="jeg_wrapper wpb_wrapper"><div class="jeg_postblock_37 jeg_postblock jeg_module_hook jeg_pagination_disable jeg_col_3o3 jnews_module_2910_0_60f98414e0075   " data-unique="jnews_module_2910_0_60f98414e0075">
+<div class="jeg_block_container">
+<div class="jeg_posts_wrap">
+<div class="jeg_posts jeg_load_more_flag">
+<article class="jeg_post  format-standard">
+<div class='box_wrap'>
+<div class="jeg_thumb">
+<a href="https://vominhtuan.com/share-plugin-master-popups-tao-popup-cho-wordpress-dang-ky-email/" class="local-link"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://vominhtuan.com/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Popup Plugin for WordPress &amp; Popup Editor - Master Popups for Email Subscription" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://vominhtuan.com/wp-content/uploads/2021/07/Popup-Plugin-for-WordPress-Popup-Editor-Master-Popups-for-Email-Subscription-350x250.jpg" data-srcset="https://vominhtuan.com/wp-content/uploads/2021/07/Popup-Plugin-for-WordPress-Popup-Editor-Master-Popups-for-Email-Subscription-350x250.jpg 350w, https://vominhtuan.com/wp-content/uploads/2021/07/Popup-Plugin-for-WordPress-Popup-Editor-Master-Popups-for-Email-Subscription-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+<div class="jeg_post_category">
+<span><a href="https://vominhtuan.com/plugin-wordpress/" class="category-plugin-wordpress local-link">Plugin Wordpress</a></span>
+</div>
+</div>
+<div class="jeg_postblock_content">
+<h3 class="jeg_post_title">
+<a href="https://vominhtuan.com/share-plugin-master-popups-tao-popup-cho-wordpress-dang-ky-email/" class="local-link">Share plugin Master Popups &#8211; Tạo popup cho wordpress đăng ký email</a>
+</h3>
+<div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://vominhtuan.com/share-plugin-master-popups-tao-popup-cho-wordpress-dang-ky-email/" class="local-link"><i class="fa fa-clock-o"></i> 10/07/2021</a></div></div>
+</div>
+</div>
+</article><article class="jeg_post  format-standard">
+<div class='box_wrap'>
+<div class="jeg_thumb">
+<a href="https://vominhtuan.com/share-theme-consulting-nganh-kinh-doanh-tai-chinh/" class="local-link"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://vominhtuan.com/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Download free theme Consulting" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://vominhtuan.com/wp-content/uploads/2021/07/Download-free-theme-Consulting-350x250.png" data-srcset="https://vominhtuan.com/wp-content/uploads/2021/07/Download-free-theme-Consulting-350x250.png 350w, https://vominhtuan.com/wp-content/uploads/2021/07/Download-free-theme-Consulting-120x86.png 120w" data-sizes="auto" data-expand="700" /></div></a>
+<div class="jeg_post_category">
+<span><a href="https://vominhtuan.com/theme-wordpress/" class="category-theme-wordpress local-link">Theme Wordpress</a></span>
+</div>
+</div>
+<div class="jeg_postblock_content">
+<h3 class="jeg_post_title">
+<a href="https://vominhtuan.com/share-theme-consulting-nganh-kinh-doanh-tai-chinh/" class="local-link">Share theme Consulting &#8211; Ngành kinh doanh tài chính</a>
+</h3>
+<div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://vominhtuan.com/share-theme-consulting-nganh-kinh-doanh-tai-chinh/" class="local-link"><i class="fa fa-clock-o"></i> 08/07/2021</a></div></div>
+</div>
+</div>
+</article><article class="jeg_post  format-standard">
+<div class='box_wrap'>
+<div class="jeg_thumb">
+<a href="https://vominhtuan.com/share-plugin-stellar-plugin-danh-gia-sao-cho-wordpress/" class="local-link"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://vominhtuan.com/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Share Plugin Stellar Miễn Phí" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://vominhtuan.com/wp-content/uploads/2021/06/Share-Plugin-Stellar-350x250.jpg" data-srcset="https://vominhtuan.com/wp-content/uploads/2021/06/Share-Plugin-Stellar-350x250.jpg 350w, https://vominhtuan.com/wp-content/uploads/2021/06/Share-Plugin-Stellar-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+<div class="jeg_post_category">
+<span><a href="https://vominhtuan.com/plugin-wordpress/" class="category-plugin-wordpress local-link">Plugin Wordpress</a></span>
+</div>
+</div>
+<div class="jeg_postblock_content">
+<h3 class="jeg_post_title">
+<a href="https://vominhtuan.com/share-plugin-stellar-plugin-danh-gia-sao-cho-wordpress/" class="local-link">Share Plugin Stellar &#8211; Plugin đánh giá sao cho WordPress</a>
+</h3>
+<div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://vominhtuan.com/share-plugin-stellar-plugin-danh-gia-sao-cho-wordpress/" class="local-link"><i class="fa fa-clock-o"></i> 25/06/2021</a></div></div>
+</div>
+</div>
+</article><article class="jeg_post  format-standard">
+<div class='box_wrap'>
+<div class="jeg_thumb">
+<a href="https://vominhtuan.com/share-plugin-wp-hide-pro-security-enhancer-bao-mat-website/" class="local-link"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://vominhtuan.com/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Share Plugin WP Hide Pro &#038; Security Enhancer &#8211; Bảo mật website" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://vominhtuan.com/wp-content/uploads/2021/06/Share-Plugin-WP-Hide-Pro-Security-Enhancer-350x250.jpg" data-srcset="https://vominhtuan.com/wp-content/uploads/2021/06/Share-Plugin-WP-Hide-Pro-Security-Enhancer-350x250.jpg 350w, https://vominhtuan.com/wp-content/uploads/2021/06/Share-Plugin-WP-Hide-Pro-Security-Enhancer-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+<div class="jeg_post_category">
+<span><a href="https://vominhtuan.com/plugin-wordpress/" class="category-plugin-wordpress local-link">Plugin Wordpress</a></span>
+</div>
+</div>
+<div class="jeg_postblock_content">
+<h3 class="jeg_post_title">
+<a href="https://vominhtuan.com/share-plugin-wp-hide-pro-security-enhancer-bao-mat-website/" class="local-link">Share Plugin WP Hide Pro &#038; Security Enhancer &#8211; Bảo mật website</a>
+</h3>
+<div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://vominhtuan.com/share-plugin-wp-hide-pro-security-enhancer-bao-mat-website/" class="local-link"><i class="fa fa-clock-o"></i> 19/06/2021</a></div></div>
+</div>
+</div>
+</article><article class="jeg_post  format-standard">
+<div class='box_wrap'>
+<div class="jeg_thumb">
+<a href="https://vominhtuan.com/share-theme-avada-website-builder-for-wordpress-woocommerce/" class="local-link"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://vominhtuan.com/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Share theme Avada &#8211; Website Builder For WordPress &#038; WooCommerce" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://vominhtuan.com/wp-content/uploads/2021/06/Share-theme-Avada-350x250.jpg" data-srcset="https://vominhtuan.com/wp-content/uploads/2021/06/Share-theme-Avada-350x250.jpg 350w, https://vominhtuan.com/wp-content/uploads/2021/06/Share-theme-Avada-120x86.jpg 120w" data-sizes="auto" data-expand="700" /><div class='code-block code-block-20' style='margin: 8px 0; clear: both;'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-7t+ey-4-4z+97" data-ad-client="ca-pub-9610146433045819" data-ad-slot="9892883180"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+</div></a>
+<div class="jeg_post_category">
+<span><a href="https://vominhtuan.com/theme-wordpress/" class="category-theme-wordpress local-link">Theme Wordpress</a></span>
+</div>
+</div>
+<div class="jeg_postblock_content">
+<h3 class="jeg_post_title">
+<a href="https://vominhtuan.com/share-theme-avada-website-builder-for-wordpress-woocommerce/" class="local-link">Share theme Avada &#8211; Website Builder For WordPress &#038; WooCommerce</a>
+</h3>
+<div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://vominhtuan.com/share-theme-avada-website-builder-for-wordpress-woocommerce/" class="local-link"><i class="fa fa-clock-o"></i> 16/06/2021</a></div></div>
+</div>
+</div>
+</article><article class="jeg_post  format-standard">
+<div class='box_wrap'>
+<div class="jeg_thumb">
+<a href="https://vominhtuan.com/share-plugin-ad-inserter-pro-chen-quang-cao-adsense-vao-wordpress/" class="local-link"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://vominhtuan.com/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Share plugin Ad Inserter Pro &#8211; Chèn quảng cáo Adsense vào WordPress" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://vominhtuan.com/wp-content/uploads/2021/06/Share-plugin-Ad-Inserter-Pro-350x250.jpg" data-srcset="https://vominhtuan.com/wp-content/uploads/2021/06/Share-plugin-Ad-Inserter-Pro-350x250.jpg 350w, https://vominhtuan.com/wp-content/uploads/2021/06/Share-plugin-Ad-Inserter-Pro-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+<div class="jeg_post_category">
+<span><a href="https://vominhtuan.com/plugin-wordpress/" class="category-plugin-wordpress local-link">Plugin Wordpress</a></span>
+</div>
+</div>
+<div class="jeg_postblock_content">
+<h3 class="jeg_post_title">
+<a href="https://vominhtuan.com/share-plugin-ad-inserter-pro-chen-quang-cao-adsense-vao-wordpress/" class="local-link">Share plugin Ad Inserter Pro &#8211; Chèn quảng cáo Adsense vào WordPress</a>
+</h3>
+<div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://vominhtuan.com/share-plugin-ad-inserter-pro-chen-quang-cao-adsense-vao-wordpress/" class="local-link"><i class="fa fa-clock-o"></i> 16/06/2021</a></div></div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<div class='module-overlay'>
+<div class='preloader_type preloader_dot'>
+<div class="module-preloader jeg_preloader dot">
+<span></span><span></span><span></span>
+</div>
+<div class="module-preloader jeg_preloader circle">
+<div class="jnews_preloader_circle_outer">
+<div class="jnews_preloader_circle_inner"></div>
+</div>
+</div>
+<div class="module-preloader jeg_preloader square">
+<div class="jeg_square">
+<div class="jeg_square_inner"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jeg_block_navigation">
+<div class='navigation_overlay'><div class='module-preloader jeg_preloader'><span></span><span></span><span></span></div></div>
+</div>
+<script>var jnews_module_2910_0_60f98414e0075 = {"header_icon":"","first_title":"","second_title":"","url":"","header_type":"heading_6","header_background":"","header_secondary_background":"","header_text_color":"","header_line_color":"","header_accent_color":"","header_filter_category":"","header_filter_author":"","header_filter_tag":"","header_filter_text":"All","post_type":"post","content_type":"all","number_post":"6","post_offset":"0","unique_content":"disable","include_post":"","exclude_post":"","include_category":"","exclude_category":"","include_author":"","include_tag":"","exclude_tag":"","sort_by":"latest","date_format":"default","date_format_custom":"Y\/m\/d","force_normal_image_load":"","pagination_mode":"disable","pagination_nextprev_showtext":"","pagination_number_post":4,"pagination_scroll_limit":0,"el_id":"","el_class":"","scheme":"","column_width":"auto","title_color":"","accent_color":"","alt_color":"","block_background":"","box_shadow":false,"css":"","compatible_column_notice":"","paged":1,"column_class":"jeg_col_3o3","class":"jnews_block_37"};</script>
+</div></div></div></div></div><div class="row vc_row wpb_row vc_row-fluid"><div class="jeg-vc-wrapper"><div class="wpb_column jeg_column vc_column_container vc_col-sm-12 jeg_main_content"><div class="jeg_wrapper wpb_wrapper">
+<div class="wpb_raw_code wpb_content_element wpb_raw_html">
+<div class="wpb_wrapper">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9610146433045819" data-ad-slot="4828254228" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+<div class="jeg_postblock_37 jeg_postblock jeg_module_hook jeg_pagination_loadmore jeg_col_3o3 jnews_module_2910_1_60f98414e7b3b   " data-unique="jnews_module_2910_1_60f98414e7b3b">
+<div class="jeg_block_container">
+<div class="jeg_posts_wrap">
+<div class="jeg_posts jeg_load_more_flag">
+<article class="jeg_post  format-standard">
+<div class='box_wrap'>
+<div class="jeg_thumb">
+<a href="https://vominhtuan.com/share-plugin-notificationx-pro-thong-bao-day-cho-wordpress/" class="local-link"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://vominhtuan.com/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Share plugin NotificationX Pro &#8211; Thông báo đẩy cho WordPress" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://vominhtuan.com/wp-content/uploads/2021/06/Share-plugin-NotificationX-Pro-350x250.jpg" data-srcset="https://vominhtuan.com/wp-content/uploads/2021/06/Share-plugin-NotificationX-Pro-350x250.jpg 350w, https://vominhtuan.com/wp-content/uploads/2021/06/Share-plugin-NotificationX-Pro-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+<div class="jeg_post_category">
+<span><a href="https://vominhtuan.com/plugin-wordpress/" class="category-plugin-wordpress local-link">Plugin Wordpress</a></span>
+</div>
+</div>
+<div class="jeg_postblock_content">
+<h3 class="jeg_post_title">
+<a href="https://vominhtuan.com/share-plugin-notificationx-pro-thong-bao-day-cho-wordpress/" class="local-link">Share plugin NotificationX Pro &#8211; Thông báo đẩy cho WordPress</a>
+</h3>
+<div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://vominhtuan.com/share-plugin-notificationx-pro-thong-bao-day-cho-wordpress/" class="local-link"><i class="fa fa-clock-o"></i> 16/06/2021</a></div></div>
+</div>
+</div>
+</article><article class="jeg_post  format-standard">
+<div class='box_wrap'>
+<div class="jeg_thumb">
+<a href="https://vominhtuan.com/share-pretty-links-pro-plugin-rut-gon-link-cho-ten-mien-trong-wordpress/" class="local-link"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://vominhtuan.com/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Share Pretty Links Pro - Plugin rút gọn link cho tên miền trong WordPress" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://vominhtuan.com/wp-content/uploads/2021/06/Share-Pretty-Links-Pro-Plugin-rut-gon-link-cho-ten-mien-trong-WordPress-350x250.jpg" data-srcset="https://vominhtuan.com/wp-content/uploads/2021/06/Share-Pretty-Links-Pro-Plugin-rut-gon-link-cho-ten-mien-trong-WordPress-350x250.jpg 350w, https://vominhtuan.com/wp-content/uploads/2021/06/Share-Pretty-Links-Pro-Plugin-rut-gon-link-cho-ten-mien-trong-WordPress-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+<div class="jeg_post_category">
+<span><a href="https://vominhtuan.com/plugin-wordpress/" class="category-plugin-wordpress local-link">Plugin Wordpress</a></span>
+</div>
+</div>
+<div class="jeg_postblock_content">
+<h3 class="jeg_post_title">
+<a href="https://vominhtuan.com/share-pretty-links-pro-plugin-rut-gon-link-cho-ten-mien-trong-wordpress/" class="local-link">Share Pretty Links Pro &#8211; Plugin rút gọn link cho tên miền trong WordPress</a>
+</h3>
+<div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://vominhtuan.com/share-pretty-links-pro-plugin-rut-gon-link-cho-ten-mien-trong-wordpress/" class="local-link"><i class="fa fa-clock-o"></i> 16/06/2021</a></div></div>
+</div>
+</div>
+</article><article class="jeg_post  format-standard">
+<div class='box_wrap'>
+<div class="jeg_thumb">
+<a href="https://vominhtuan.com/share-theme-emarket-multi-vendor-marketplace-wordpress-theme/" class="local-link"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://vominhtuan.com/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Share theme eMarket - Multi Vendor MarketPlace WordPress Theme" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://vominhtuan.com/wp-content/uploads/2021/06/Share-theme-eMarket-Multi-Vendor-MarketPlace-WordPress-Theme-350x250.jpg" data-srcset="https://vominhtuan.com/wp-content/uploads/2021/06/Share-theme-eMarket-Multi-Vendor-MarketPlace-WordPress-Theme-350x250.jpg 350w, https://vominhtuan.com/wp-content/uploads/2021/06/Share-theme-eMarket-Multi-Vendor-MarketPlace-WordPress-Theme-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+<div class="jeg_post_category">
+<span><a href="https://vominhtuan.com/theme-wordpress/" class="category-theme-wordpress local-link">Theme Wordpress</a></span>
+</div>
+</div>
+<div class="jeg_postblock_content">
+<h3 class="jeg_post_title">
+<a href="https://vominhtuan.com/share-theme-emarket-multi-vendor-marketplace-wordpress-theme/" class="local-link">Share theme eMarket &#8211; Multi Vendor MarketPlace WordPress Theme</a>
+</h3>
+<div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://vominhtuan.com/share-theme-emarket-multi-vendor-marketplace-wordpress-theme/" class="local-link"><i class="fa fa-clock-o"></i> 16/06/2021</a></div></div>
+</div>
+</div>
+</article><article class="jeg_post  format-standard">
+<div class='box_wrap'>
+<div class="jeg_thumb">
+<a href="https://vominhtuan.com/share-piotnet-forms-pro-trinh-tao-bieu-mau-wordpress-tuy-chinh-cao/" class="local-link"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://vominhtuan.com/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Share Piotnet Forms Pro &#8211; Trình tạo biểu mẫu WordPress tùy chỉnh cao" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://vominhtuan.com/wp-content/uploads/2021/05/Share-Piotnet-Forms-ProTrinh-tao-bieu-mau-WordPress-tuy-chinh-cao-350x250.jpg" data-srcset="https://vominhtuan.com/wp-content/uploads/2021/05/Share-Piotnet-Forms-ProTrinh-tao-bieu-mau-WordPress-tuy-chinh-cao-350x250.jpg 350w, https://vominhtuan.com/wp-content/uploads/2021/05/Share-Piotnet-Forms-ProTrinh-tao-bieu-mau-WordPress-tuy-chinh-cao-120x86.jpg 120w" data-sizes="auto" data-expand="700" /><div class='code-block code-block-21' style='margin: 8px 0; clear: both;'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-7t+ey-4-4z+97" data-ad-client="ca-pub-9610146433045819" data-ad-slot="9892883180"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+</div></a>
+<div class="jeg_post_category">
+<span><a href="https://vominhtuan.com/plugin-wordpress/" class="category-plugin-wordpress local-link">Plugin Wordpress</a></span>
+</div>
+</div>
+<div class="jeg_postblock_content">
+<h3 class="jeg_post_title">
+<a href="https://vominhtuan.com/share-piotnet-forms-pro-trinh-tao-bieu-mau-wordpress-tuy-chinh-cao/" class="local-link">Share Piotnet Forms Pro &#8211; Trình tạo biểu mẫu WordPress tùy chỉnh cao</a>
+</h3>
+<div class="jeg_post_meta"><div class="jeg_meta_trending"><a href="https://vominhtuan.com/share-piotnet-forms-pro-trinh-tao-bieu-mau-wordpress-tuy-chinh-cao/" class="local-link"><i class="fa fa-bolt"></i></a></div><div class="jeg_meta_date"><a href="https://vominhtuan.com/share-piotnet-forms-pro-trinh-tao-bieu-mau-wordpress-tuy-chinh-cao/" class="local-link"><i class="fa fa-clock-o"></i> 16/06/2021</a></div></div>
+</div>
+</div>
+</article><article class="jeg_post  format-standard">
+<div class='box_wrap'>
+<div class="jeg_thumb">
+<a href="https://vominhtuan.com/cach-tao-trang-chuyen-huong-roi-khoi-wordpress-co-thoi-gian-doi/" class="local-link"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://vominhtuan.com/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Cách tạo trang chuyển hướng rediIrect page" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://vominhtuan.com/wp-content/uploads/2021/05/Cach-tao-trang-chuyen-huong-rediIrect-page-350x250.jpg" data-srcset="https://vominhtuan.com/wp-content/uploads/2021/05/Cach-tao-trang-chuyen-huong-rediIrect-page-350x250.jpg 350w, https://vominhtuan.com/wp-content/uploads/2021/05/Cach-tao-trang-chuyen-huong-rediIrect-page-120x86.jpg 120w" data-sizes="auto" data-expand="700" /></div></a>
+<div class="jeg_post_category">
+<span><a href="https://vominhtuan.com/huong-dan/" class="category-huong-dan local-link">Hướng dẫn</a></span>
+</div>
+</div>
+<div class="jeg_postblock_content">
+<h3 class="jeg_post_title">
+<a href="https://vominhtuan.com/cach-tao-trang-chuyen-huong-roi-khoi-wordpress-co-thoi-gian-doi/" class="local-link">Cách tạo trang chuyển hướng rời khỏi WordPress có thời gian đợi</a>
+</h3>
+<div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://vominhtuan.com/cach-tao-trang-chuyen-huong-roi-khoi-wordpress-co-thoi-gian-doi/" class="local-link"><i class="fa fa-clock-o"></i> 07/07/2021</a></div></div>
+</div>
+</div>
+</article><article class="jeg_post  format-standard">
+<div class='box_wrap'>
+<div class="jeg_thumb">
+<a href="https://vominhtuan.com/share-wp-mail-smtp-pro-1-wordpress-smtp-plugin/" class="local-link"><div class="thumbnail-container animate-lazy  size-715 "><img width="350" height="250" src="https://vominhtuan.com/wp-content/themes/jnews/assets/img/jeg-empty.png" class="attachment-jnews-350x250 size-jnews-350x250 lazyload wp-post-image" alt="Share WP Mail SMTP Pro" loading="lazy" sizes="(max-width: 350px) 100vw, 350px" data-src="https://vominhtuan.com/wp-content/uploads/2021/05/Share-WP-Mail-SMTP-Pro-350x250.jpg" data-srcset="https://vominhtuan.com/wp-content/uploads/2021/05/Share-WP-Mail-SMTP-Pro-350x250.jpg 350w, https://vominhtuan.com/wp-content/uploads/2021/05/Share-WP-Mail-SMTP-Pro-120x86.jpg 120w" data-sizes="auto" data-expand="700" /><div class='code-block code-block-22' style='margin: 8px 0; clear: both;'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-7t+ey-4-4z+97" data-ad-client="ca-pub-9610146433045819" data-ad-slot="9892883180"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+</div></a>
+<div class="jeg_post_category">
+<span><a href="https://vominhtuan.com/plugin-wordpress/" class="category-plugin-wordpress local-link">Plugin Wordpress</a></span>
+</div>
+</div>
+<div class="jeg_postblock_content">
+<h3 class="jeg_post_title">
+<a href="https://vominhtuan.com/share-wp-mail-smtp-pro-1-wordpress-smtp-plugin/" class="local-link">Share WP Mail SMTP Pro &#8211; #1 WordPress SMTP Plugin</a>
+</h3>
+<div class="jeg_post_meta"><div class="jeg_meta_date"><a href="https://vominhtuan.com/share-wp-mail-smtp-pro-1-wordpress-smtp-plugin/" class="local-link"><i class="fa fa-clock-o"></i> 16/06/2021</a></div></div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<div class='module-overlay'>
+ <div class='preloader_type preloader_dot'>
+<div class="module-preloader jeg_preloader dot">
+<span></span><span></span><span></span>
+</div>
+<div class="module-preloader jeg_preloader circle">
+<div class="jnews_preloader_circle_outer">
+<div class="jnews_preloader_circle_inner"></div>
+</div>
+</div>
+<div class="module-preloader jeg_preloader square">
+<div class="jeg_square">
+<div class="jeg_square_inner"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jeg_block_navigation">
+<div class='navigation_overlay'><div class='module-preloader jeg_preloader'><span></span><span></span><span></span></div></div>
+<div class="jeg_block_loadmore ">
+<a href="#" class='' data-load='Tải thêm' data-loading='Đang tải...'> Tải thêm</a>
+</div>
+</div>
+<script>var jnews_module_2910_1_60f98414e7b3b = {"header_icon":"","first_title":"","second_title":"","url":"","header_type":"heading_6","header_background":"","header_secondary_background":"","header_text_color":"","header_line_color":"","header_accent_color":"","header_filter_category":"","header_filter_author":"","header_filter_tag":"","header_filter_text":"All","post_type":"post","content_type":"all","number_post":"6","post_offset":"6","unique_content":"disable","include_post":"","exclude_post":"","include_category":"","exclude_category":"","include_author":"","include_tag":"","exclude_tag":"","sort_by":"latest","date_format":"default","date_format_custom":"Y\/m\/d","force_normal_image_load":"","pagination_mode":"loadmore","pagination_nextprev_showtext":"","pagination_number_post":"6","pagination_scroll_limit":0,"el_id":"","el_class":"","scheme":"","column_width":"auto","title_color":"","accent_color":"","alt_color":"","block_background":"","box_shadow":"","css":"","compatible_column_notice":"","paged":1,"column_class":"jeg_col_3o3","class":"jnews_block_37"};</script>
+</div></div></div></div></div><div class="row vc_row wpb_row vc_row-fluid"><div class="jeg-vc-wrapper"><div class="wpb_column jeg_column vc_column_container vc_col-sm-12 jeg_main_content"><div class="jeg_wrapper wpb_wrapper">
+<div class="wpb_raw_code wpb_content_element wpb_raw_html">
+<div class="wpb_wrapper">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9610146433045819" data-ad-slot="4828254228" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div></div></div></div><div class="row vc_row wpb_row vc_row-fluid"><div class="jeg-vc-wrapper"><div class="wpb_column jeg_column vc_column_container vc_col-sm-12 jeg_main_content"><div class="jeg_wrapper wpb_wrapper"></div></div></div></div>
+
+</div>
+</div>
+<div class="jeg_ad jnews_above_footer_ads "><div class='ads-wrapper  '></div></div> </div>
+</div>
+<div class="footer-holder" id="footer" data-id="footer">
+<div class="jeg_footer jeg_footer_4 normal">
+<div class="jeg_footer_container jeg_container">
+<div class="jeg_footer_content">
+<div class="container">
+<div class="row">
+<div class="jeg_footer_primary clearfix">
+<div class="col-md-9 footer_column">
+<ul class="jeg_menu_footer"><li id="menu-item-1883" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1883"><a href="https://vominhtuan.com/" aria-current="page">Trang chủ</a></li>
+<li id="menu-item-1881" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1881"><a href="https://vominhtuan.com/gioi-thieu/">Giới thiệu</a></li>
+<li id="menu-item-1880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1880"><a href="https://vominhtuan.com/lien-he/">Liên hệ</a></li>
+<li id="menu-item-1882" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1882"><a href="https://vominhtuan.com/ban-quyen/">Bản quyền</a></li>
+<li id="menu-item-1884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1884"><a href="https://vominhtuan.com/chinh-sach-bao-mat/">Chính sách bảo mật</a></li>
+</ul> </div>
+<div class="col-md-3 footer_column footer_right">
+<div class="footer-text">
+<a href="//www.dmca.com/Protection/Status.aspx?ID=793817cf-9053-4b0f-9a18-fda35889376f" title="DMCA.com Protection Status" class="dmca-badge"> <img src="https://images.dmca.com/Badges/_dmca_premi_badge_5.png?ID=793817cf-9053-4b0f-9a18-fda35889376f" alt="DMCA.com Protection Status" /></a> </div>
+</div>
+</div>
+<div class="jeg_footer_secondary clearfix">
+<div class="col-md-9 footer_column">
+<p class="copyright"> © 2020-2021 <a href="https://vominhtuan.com/" title="Võ Minh Tuấn Blog">Võ Minh Tuấn Blog - All Right Reserved.</a> </p>
+</div>
+<div class="col-md-3 footer_column footer_right">
+<div class="jeg_social_icon_block socials_widget nobg">
+<a href="https://facebook.com/vominhtuanblog" target='_blank' rel='external noopener nofollow' class="jeg_facebook"><i class="fa fa-facebook"></i> </a><a href="/feed" target='_blank' rel='external noopener nofollow' class="jeg_rss"><i class="fa fa-rss"></i> </a> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> </div>
+<div class="jscroll-to-top">
+<a href="#back-to-top" class="jscroll-to-top_link"><i class="fa fa-angle-up"></i></a>
+</div>
+</div>
+
+<div id="jeg_off_canvas" class="normal">
+<a href="#" class="jeg_menu_close"><i class="jegicon-cross"></i></a>
+<div class="jeg_bg_overlay"></div>
+<div class="jeg_mobile_wrapper">
+<div class="nav_wrap">
+<div class="item_main">
+
+<div class="jeg_aside_item jeg_search_wrapper jeg_search_no_expand square">
+<a href="#" class="jeg_search_toggle"><i class="fa fa-search"></i></a>
+<form action="https://vominhtuan.com/" method="get" class="jeg_search_form" target="_top">
+<input name="s" class="jeg_search_input" placeholder="Tìm kiếm..." type="text" value="" autocomplete="off">
+<button aria-label="Search Button" type="submit" class="jeg_search_button btn"><i class="fa fa-search"></i></button>
+</form>
+
+<div class="jeg_search_result jeg_search_hide with_result">
+<div class="search-result-wrapper">
+</div>
+<div class="search-link search-noresult">
+Không kết quả </div>
+<div class="search-link search-all-button">
+<i class="fa fa-search"></i> Xem tất cả kết quả </div>
+</div></div><div class="jeg_aside_item">
+<ul class="jeg_mobile_menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-2973"><a href="/" aria-current="page">Trang chủ</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2815"><a href="https://vominhtuan.com/theme-wordpress/">Theme WordPress</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2816"><a href="https://vominhtuan.com/plugin-wordpress/">Plugin WordPress</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2817"><a href="https://vominhtuan.com/huong-dan/">Hướng dẫn</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2835"><a href="https://vominhtuan.com/may-tinh">Máy tính</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2978"><a href="https://vominhtuan.com/photoshop-online/">Photoshop Online</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2818"><a>Dịch vụ</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2819"><a href="https://vominhtuan.com/web-hosting/">Đăng ký Hosting</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2820"><a href="https://vominhtuan.com/dang-ky-ten-mien/">Đăng ký tên miền</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2821"><a href="https://vominhtuan.com/email-ten-mien-nang-cao-uy-tin-khang-dinh-thuong-hieu/">Email tên miền</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2822"><a href="https://vominhtuan.com/vps/">Cloud VPS</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3213"><a href="https://minishop.adpia.vn/vmt-store/store">VMT STORE</a></li>
+</ul></div> </div>
+<div class="item_bottom">
+<div class="jeg_aside_item socials_widget nobg">
+<a href="https://facebook.com/vominhtuanblog" target='_blank' rel='external noopener nofollow' class="jeg_facebook"><i class="fa fa-facebook"></i> </a><a href="/feed" target='_blank' rel='external noopener nofollow' class="jeg_rss"><i class="fa fa-rss"></i> </a></div><div class="jeg_aside_item jeg_aside_copyright">
+<p>© 2020-2021 <a href="https://vominhtuan.com/" title="Võ Minh Tuấn Blog">Võ Minh Tuấn Blog - All Right Reserved.</a></p>
+</div> </div>
+</div> </div>
+</div><script type="text/javascript">var jfla = []</script><script type="text/html" id="wpb-modifications"></script><script type='text/javascript' id='bp-nouveau-js-extra'>
+/* <![CDATA[ */
+var BP_Nouveau = {"ajaxurl":"https:\/\/vominhtuan.com\/wp-admin\/admin-ajax.php","confirm":"B\u1ea1n c\u00f3 ch\u1eafc kh\u00f4ng?","show_x_comments":"Hi\u1ec3n th\u1ecb t\u1ea5t c\u1ea3 b\u00ecnh lu\u1eadn trong %d","unsaved_changes":"H\u1ed3 s\u1ee3 b\u1ea1n hi\u00ean \u0111ang c\u00f3 c\u00e1c ch\u1ec9nh s\u1eeda ch\u01b0a \u0111\u01b0\u1ee3c l\u01b0u.  N\u1ebfu b\u1ea1n r\u1eddi trang n\u00e0y, nh\u1eefng ch\u1ec9nh s\u1eeda n\u00e0y s\u1ebd b\u1ecb m\u1ea5t.","object_nav_parent":"#buddypress","objects":["activity","members","groups","blogs","xprofile","friends","messages","settings","notifications","group_members","group_requests"],"nonces":{"activity":"a3ee73f8c3","members":"5e14af6090","groups":"26f8bcbad0","blogs":"99eeeb64b5","xprofile":"d889aebdbf","friends":"d83c2b2b60","messages":"28579ac186","settings":"513250a06c","notifications":"5e8d3f44ea"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://vominhtuan.com/wp-content/plugins/buddypress/bp-templates/bp-nouveau/js/buddypress-nouveau.min.js?ver=9.0.0' id='bp-nouveau-js'></script>
+<script type='text/javascript' src='https://vominhtuan.com/wp-includes/js/comment-reply.min.js?ver=5.7.2' id='comment-reply-js'></script>
+<script type='text/javascript' id='jnews-subscribe-js-extra'>
+/* <![CDATA[ */
+var jnews_subscribe = {"action_failed":"There was an error. Please try again later"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://vominhtuan.com/wp-content/plugins/jnews-subscribe-to-download/assets/js/jquery.jnews-subscribe.js?ver=9.0.0' id='jnews-subscribe-js'></script>
+<script type='text/javascript' src='https://vominhtuan.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1' id='hoverIntent-js'></script>
+<script type='text/javascript' src='https://vominhtuan.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script type='text/javascript' id='jnews-frontend-js-extra'>
+/* <![CDATA[ */
+var jnewsoption = {"login_reload":"https:\/\/vominhtuan.com","popup_script":"magnific","single_gallery":"","ismobile":"","isie":"","sidefeed_ajax":"","language":"vi","module_prefix":"jnews_module_ajax_","live_search":"1","postid":"0","isblog":"","admin_bar":"0","follow_video":"","follow_position":"top_right","rtl":"0","gif":"","lang":{"invalid_recaptcha":"Recaptcha kh\u00f4ng h\u1ee3p l\u1ec7!","empty_username":"Xin h\u00e3y \u0111i\u1ec1n t\u00ean \u0111\u0103ng nh\u1eadp!","empty_email":"Vui l\u00f2ng nh\u1eadp email!","empty_password":"Vui l\u00f2ng nh\u1eadp m\u1eadt kh\u1ea9u c\u1ee7a b\u1ea1n!"},"recaptcha":"0","site_slug":"\/","site_domain":"vominhtuan.com","zoom_button":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://vominhtuan.com/wp-content/themes/jnews/assets/dist/frontend.min.js?ver=9.0.3' id='jnews-frontend-js'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://vominhtuan.com/wp-content/themes/jnews/assets/js/html5shiv.min.js?ver=9.0.3' id='html5shiv-js'></script>
+<![endif]-->
+<script type='text/javascript' src='https://vominhtuan.com/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://vominhtuan.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.6.0' id='wpb_composer_front_js-js'></script>
+<div class="jeg_ad jnews_mobile_sticky_ads "></div><script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"ItemList","url":"https:\/\/vominhtuan.com","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Share plugin Master Popups &#8211; T\u1ea1o popup cho wordpress \u0111\u0103ng k\u00fd email","@id":"https:\/\/vominhtuan.com\/share-plugin-master-popups-tao-popup-cho-wordpress-dang-ky-email\/","url":"https:\/\/vominhtuan.com\/?post_type=post&p=3165","image":"https:\/\/vominhtuan.com\/wp-content\/uploads\/2021\/07\/Popup-Plugin-for-WordPress-Popup-Editor-Master-Popups-for-Email-Subscription.jpg"}},{"@type":"ListItem","position":2,"item":{"name":"Share theme Consulting &#8211; Ng\u00e0nh kinh doanh t\u00e0i ch\u00ednh","@id":"https:\/\/vominhtuan.com\/share-theme-consulting-nganh-kinh-doanh-tai-chinh\/","url":"https:\/\/vominhtuan.com\/?post_type=post&p=3146","image":"https:\/\/vominhtuan.com\/wp-content\/uploads\/2021\/07\/Download-free-theme-Consulting.png"}},{"@type":"ListItem","position":3,"item":{"name":"Share Plugin Stellar &#8211; Plugin \u0111\u00e1nh gi\u00e1 sao cho WordPress","@id":"https:\/\/vominhtuan.com\/share-plugin-stellar-plugin-danh-gia-sao-cho-wordpress\/","url":"https:\/\/vominhtuan.com\/?post_type=post&p=3122","image":"https:\/\/vominhtuan.com\/wp-content\/uploads\/2021\/06\/Share-Plugin-Stellar.jpg"}},{"@type":"ListItem","position":4,"item":{"name":"Share Plugin WP Hide Pro &#038; Security Enhancer &#8211; B\u1ea3o m\u1eadt website","@id":"https:\/\/vominhtuan.com\/share-plugin-wp-hide-pro-security-enhancer-bao-mat-website\/","url":"https:\/\/vominhtuan.com\/?post_type=post&p=3119","image":"https:\/\/vominhtuan.com\/wp-content\/uploads\/2021\/06\/Share-Plugin-WP-Hide-Pro-Security-Enhancer.jpg"}},{"@type":"ListItem","position":5,"item":{"name":"Share theme Avada &#8211; Website Builder For WordPress &#038; WooCommerce","@id":"https:\/\/vominhtuan.com\/share-theme-avada-website-builder-for-wordpress-woocommerce\/","url":"https:\/\/vominhtuan.com\/?post_type=post&p=2614","image":"https:\/\/vominhtuan.com\/wp-content\/uploads\/2021\/06\/Share-theme-Avada.jpg"}},{"@type":"ListItem","position":6,"item":{"name":"Share plugin Ad Inserter Pro &#8211; Ch\u00e8n qu\u1ea3ng c\u00e1o Adsense v\u00e0o WordPress","@id":"https:\/\/vominhtuan.com\/share-plugin-ad-inserter-pro-chen-quang-cao-adsense-vao-wordpress\/","url":"https:\/\/vominhtuan.com\/?post_type=post&p=2594","image":"https:\/\/vominhtuan.com\/wp-content\/uploads\/2021\/06\/Share-plugin-Ad-Inserter-Pro.jpg"}},{"@type":"ListItem","position":7,"item":{"name":"Share plugin NotificationX Pro &#8211; Th\u00f4ng b\u00e1o \u0111\u1ea9y cho WordPress","@id":"https:\/\/vominhtuan.com\/share-plugin-notificationx-pro-thong-bao-day-cho-wordpress\/","url":"https:\/\/vominhtuan.com\/?post_type=post&p=2574","image":"https:\/\/vominhtuan.com\/wp-content\/uploads\/2021\/06\/Share-plugin-NotificationX-Pro.jpg"}},{"@type":"ListItem","position":8,"item":{"name":"Share Pretty Links Pro &#8211; Plugin r\u00fat g\u1ecdn link cho t\u00ean mi\u1ec1n trong WordPress","@id":"https:\/\/vominhtuan.com\/share-pretty-links-pro-plugin-rut-gon-link-cho-ten-mien-trong-wordpress\/","url":"https:\/\/vominhtuan.com\/?post_type=post&p=2335","image":"https:\/\/vominhtuan.com\/wp-content\/uploads\/2021\/06\/Share-Pretty-Links-Pro-Plugin-rut-gon-link-cho-ten-mien-trong-WordPress.jpg"}},{"@type":"ListItem","position":9,"item":{"name":"Share theme eMarket &#8211;  Multi Vendor MarketPlace WordPress Theme","@id":"https:\/\/vominhtuan.com\/share-theme-emarket-multi-vendor-marketplace-wordpress-theme\/","url":"https:\/\/vominhtuan.com\/?post_type=post&p=2298","image":"https:\/\/vominhtuan.com\/wp-content\/uploads\/2021\/06\/Share-theme-eMarket-Multi-Vendor-MarketPlace-WordPress-Theme.jpg"}},{"@type":"ListItem","position":10,"item":{"name":"Share Piotnet Forms Pro &#8211; Tr\u00ecnh t\u1ea1o bi\u1ec3u m\u1eabu WordPress t\u00f9y ch\u1ec9nh cao","@id":"https:\/\/vominhtuan.com\/share-piotnet-forms-pro-trinh-tao-bieu-mau-wordpress-tuy-chinh-cao\/","url":"https:\/\/vominhtuan.com\/?post_type=post&p=2268","image":"https:\/\/vominhtuan.com\/wp-content\/uploads\/2021\/05\/Share-Piotnet-Forms-ProTrinh-tao-bieu-mau-WordPress-tuy-chinh-cao.jpg"}},{"@type":"ListItem","position":11,"item":{"name":"C\u00e1ch t\u1ea1o trang chuy\u1ec3n h\u01b0\u1edbng r\u1eddi kh\u1ecfi WordPress c\u00f3 th\u1eddi gian \u0111\u1ee3i","@id":"https:\/\/vominhtuan.com\/cach-tao-trang-chuyen-huong-roi-khoi-wordpress-co-thoi-gian-doi\/","url":"https:\/\/vominhtuan.com\/?post_type=post&p=2247","image":"https:\/\/vominhtuan.com\/wp-content\/uploads\/2021\/05\/Cach-tao-trang-chuyen-huong-rediIrect-page.jpg"}},{"@type":"ListItem","position":12,"item":{"name":"Share WP Mail SMTP Pro &#8211; #1 WordPress SMTP Plugin","@id":"https:\/\/vominhtuan.com\/share-wp-mail-smtp-pro-1-wordpress-smtp-plugin\/","url":"https:\/\/vominhtuan.com\/?post_type=post&p=2209","image":"https:\/\/vominhtuan.com\/wp-content\/uploads\/2021\/05\/Share-WP-Mail-SMTP-Pro.jpg"}}]}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Webpage","headline":"V\u00f5 Minh Tu\u1ea5n Blog | Chuy\u00ean trang chia s\u1ebb WordPress","url":"https:\/\/vominhtuan.com\/","image":{"@type":"ImageObject","url":"https:\/\/vominhtuan.com\/wp-content\/uploads\/2020\/11\/Anh-noi-bat-Vo-Minh-Tuan-Blog.jpg","width":1280,"height":720}}</script>
+<script type="text/javascript">;!function(){"use strict";window.jnews=window.jnews||{},window.jnews.first_load=window.jnews.first_load||{},window.jnews.first_load=function(){var e=this,t=jnews.library,n="object"==typeof jnews&&"object"==typeof jnews.library;e.data=null,e.run_ajax=!0,e.run_loginregister=!0,e.clear=function(){e.run_ajax=!0,e.run_loginregister=!0,e.data=null},e.init=function(){n&&(t.globalBody.querySelectorAll(".jeg_popup_account").length&&jnews.loginregister&&e.run_loginregister&&(e.run_loginregister=!1,jnews.loginregister.init(),jnews.loginregister.hook_form()),jfla.length&&e.run_ajax&&(e.run_ajax=!1,e.do_ajax({action:"jnews_first_load_action",jnews_id:jnewsoption.postid,load_action:jfla})))},e.update_counter=function(){if(n){var o={total_view:t.globalBody.querySelectorAll(".jeg_share_stats .jeg_views_count .counts"),total_share:t.globalBody.querySelectorAll(".jeg_share_stats .jeg_share_count .counts"),total_comment:t.globalBody.querySelectorAll(".jeg_meta_comment a span")};t.forEach(e.data.counter,(function(e,n){o[n].length&&t.forEach(o[n],(function(n,o){t.setText(n,e)}))}))}},e.do_ajax=function(o){if(n){var a=new XMLHttpRequest;a.onreadystatechange=function(){XMLHttpRequest.DONE===a.readyState&&200==a.status&&(e.data=JSON.parse(a.responseText),e.data.counter&&"object"==typeof e.data.counter&&e.update_counter())},a.open("POST",jnews_ajax_url,!0),a.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8"),a.send(t.httpBuildQuery(o))}}},window.jnews.first_load=new window.jnews.first_load,jnews.first_load.init()}();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"672d710b5fa5d9ac","version":"2021.7.0","r":1,"token":"a1ea6c49155949eb89e9261ecde6bb9f","si":10}'></script>
+</body>
+</html>

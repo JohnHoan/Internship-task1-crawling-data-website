@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+    <meta name="robots" content="index,follow">
+    <title>Học tiếng Anh trực tuyến, thực hành kỹ năng giao tiếp tiếng Anh, với Giáo viên nước ngoài | Globish</title>
+  <meta name="description" content="Học viên Anh ngữ Trực tuyến, nơi bạn có thể học tiếng Anh tương tác TRỰC TIẾP với giáo viên nước ngoài. Thực hành" />
+  <meta name="keywords" content="Học tiếng Anh, Học tiếng Anh trực tuyến, Globish, Thực hành tiếng Anh, Học viên Anh ngữ" />
+  <meta property="og:image" content="https://www.globish-academia.com/front/img/landing-page/pic-globish-og.png" />
+  <meta name="format-detection" content="telephone=no">
+  <meta name="google-site-verification" content="KS1EzlhwMyWCD0BbcqpKq6L_fO_SLY_voY2aC9JhGr0" />
+  <meta name="facebook-domain-verification" content="cg21kqskuj73arpjeo8yyrbnqrtpqy" />
+  <meta name="title" content="Học tiếng Anh trực tuyến, thực hành kỹ năng giao tiếp tiếng Anh, với Giáo viên nước ngoài | Globish">
+
+  <script defer src="https://www.globish-academia.com/front/js/lazysizes.min.js" async=""></script>
+  
+  <style>
+    .txt-concept {color: #F46500;line-height: 24px;}
+    @media  only screen and (max-width: 440px) { .font-variant-concept {font-size: 12px;}}
+    @media  only screen and (max-width: 720px) {
+      section.top-banner .content .sub-topic {top: 0;font-size: 24px;line-height: 30px;padding-left: 0;}
+      .form-text-index {font-size: 18px;line-height: 26px;color: #414141;}
+    }
+    @media (max-width: 767px) {
+      .visible-xs,
+      .visible-xs-block {display: block !important;}
+    }
+    .font-medium {font-weight: 500;}
+    .font-variant-concept {font-size: 16px;}
+    .font-normal {font-weight: 400;}
+    .txt-gray {position: relative;color: #414141;}
+    .font-light {font-weight: 300;}
+    .call-center-wrapper {
+      background: #4776e6; background: -webkit-linear-gradient(right, #4776e6, #8e54e9); background: linear-gradient(to left, #4776e6, #8e54e9); line-height: 24px; height: 75px; overflow: hidden; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; padding: 10px 2%
+    }
+    .text-center { text-align: center;}
+    .call-center-banner {overflow: hidden;opacity: 0;}
+    .txt-globish { color: #F46500 !important; font-weight: 500 !important;}
+    section.top-banner .content .topic {font-size: 60px !important;line-height: 60px !important;letter-spacing: 0px !important;}
+    .txt-gray {position: relative;color: #5f5f5f !important;}
+    .opacity-0 {opacity: 0;}
+    .what-globish-list-wrapper ul li:before {
+      font-family: globish-font-icon;
+    }
+  </style>
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5KR5GVM');</script>
+<!-- End Google Tag Manager -->    <script src="https://www.globish-academia.com/front/js/jquery-2.1.4.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/front/index/mar_2019_onscreen.d79a69b638d969a5f06a.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Open Sans', sans-serif !important;
+    }
+  </style>
+</head>
+
+<body class="landing-page" id="top" ontouchstart="">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KR5GVM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+      <nav class="top-nav" id="topNav" onscroll="topNavOnScroll()">
+  <div class="globish-logo-wrapper" id="globishLogoBar">
+    <a class="" href="https://www.globish-academia.com">
+      <img class="lazyload globish-logo white" data-src="https://www.globish-academia.com/front/img/globish-logo-white.svg" height="32" />
+      <img class="lazyload globish-logo dark" data-src="https://www.globish-academia.com/front/img/globish-logo-dark.svg" height="32" />
+    </a>
+  </div>
+  <ul class="main-menu" id="mainMenu">
+    <li class="menu-item" onmouseover="showMenuBox('courses');" onmouseout="hideMenuBox('courses');"
+      onclick="toggleMenuBox(this, 'courses')">
+      <div class="menu-text">
+        <span>Các khóa học</span>
+        <img class="lazyload arrow white" data-src="https://www.globish-academia.com/front/img/arrow-down.svg" />
+        <img class="lazyload arrow dark" data-src="https://www.globish-academia.com/front/img/arrow-down-dark.svg" />
+      </div>
+      <div class="menu-box courses" id="menuBoxCourses">
+        <div class="globish-adult">
+          <a class="course hover-area" href="https://www.globish-academia.com/courses?category=general">
+            <div class="cover">
+              <picture>
+                <source
+                  data-srcset="https://www.globish-academia.com/front/img/cover-general-english.webp, https://www.globish-academia.com/front/img/cover-general-english@2x.webp 2x, https://www.globish-academia.com/front/img/cover-general-english@3x.webp 3x"
+                  type="image/webp">
+                <img class="lazyload"
+                  data-src="https://www.globish-academia.com/front/img/cover-general-english.png"
+                  data-srcset="https://www.globish-academia.com/front/img/cover-general-english@2x.png 2x, https://www.globish-academia.com/front/img/cover-general-english@3x.png 3x"
+                  width="64" />
+              </picture>
+            </div>
+            <div class="info">
+              <span class="heading link-hilight">Tiếng Anh Tổng Quan</span>
+              <span class="sub">Tiếng Anh cho giao tiếp hàng ngày</span>
+            </div>
+          </a>
+
+          <a class="course hover-area" href="https://www.globish-academia.com/courses?category=business">
+            <div class="cover">
+              <picture>
+                <source
+                  data-srcset="https://www.globish-academia.com/front/img/cover-business-english.webp, https://www.globish-academia.com/front/img/cover-business-english@2x.webp 2x, https://www.globish-academia.com/front/img/cover-business-english@3x.webp 3x"
+                  type="image/webp">
+                <img class="lazyload"
+                  data-src="https://www.globish-academia.com/front/img/cover-business-english.png"
+                  data-srcset="https://www.globish-academia.com/front/img/cover-business-english@2x.png 2x, https://www.globish-academia.com/front/img/cover-business-english@3x.png 3x"
+                  width="64" />
+              </picture>
+            </div>
+            <div class="info">
+              <span class="heading link-hilight">Tiếng Anh Thương Mại</span>
+              <span class="sub">Tiếng Anh cho công sở</span>
+            </div>
+          </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </li>
+    <li class="menu-item" onmouseover="showMenuBox('getting-to-know-globish');"
+      onmouseout="hideMenuBox('getting-to-know-globish');" onclick="toggleMenuBox(this, 'getting-to-know-globish')">
+      <div class="menu-text">
+        <span>Về Globish</span>
+        <img class="lazyload arrow white" data-src="https://www.globish-academia.com/front/img/arrow-down.svg" />
+        <img class="lazyload arrow dark" data-src="https://www.globish-academia.com/front/img/arrow-down-dark.svg" />
+      </div>
+      <div class="menu-box getting-to-know-globish" id="menuBoxGettingToKnowGlobish">
+        <div class="menus">
+          <a class="menu hover-area" href="https://www.globish-academia.com/about">
+            <span class="heading link-hilight">Giới thiệu</span>
+            <span class="sub">Globish là gì? Tại sao bạn nên học tiếng Anh với chúng tôi?</span>
+          </a>
+          <a class="menu hover-area" href="https://www.globish-academia.com/contact-us">
+            <span class="heading link-hilight">Liên hệ với chúng tôi</span>
+            <span class="sub">Để biết thêm thông tin về chúng tôi và các dịch vụ sản phẩm chúng tôi cung cấp</span>
+          </a>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </ul>
+
+  <ul class="right-menu" id="rightMenu">
+    <li class="menu-item" onmouseover="showMenuBox('');" onmouseout="hideMenuBox('');">
+      <a class="menu-text" href="https://student.globish-academia.com/login">
+        <span>Đăng nhập</span>
+      </a>
+    </li>
+    <li class="menu-item" onmouseover="showMenuBox('');" onmouseout="hideMenuBox('');">
+      <a class="menu-text" href="https://www.globish-academia.com/courses">
+        <span>Mua khóa học</span>
+      </a>
+    </li>
+  </ul>
+
+  
+    
+      
+        
+      
+    
+    
+      
+      
+        
+        
+        
+      
+      
+        
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+        
+      
+    
+  
+
+  <button type="button" class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span>
+  </button>
+
+  <div class="bg-animate"></div>
+</nav>
+
+<noscript id="deferred-styles-nav">
+  <link rel="stylesheet" type="text/css" href="/front/index/nav_transparent_remaining.d79a69b638d969a5f06a.css">
+</noscript>
+
+<link rel="stylesheet" type="text/css" href="/front/index/nav_transparent_onscreen.d79a69b638d969a5f06a.css">
+
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js" integrity="sha256-7/yoZS3548fXSRXqc/xYzjsmuW3sFKzuvOCHd06Pmps=" crossorigin="anonymous"></script>
+<script>
+  var menuIdMap = {
+    "courses": document.getElementById("menuBoxCourses"),
+    "getting-to-know-globish": document.getElementById("menuBoxGettingToKnowGlobish"),
+    "learn": document.getElementById("menuBoxLearn"),
+    "register": document.getElementById("menuBoxRegister")
+  }
+
+  function showMenuBox(menuId) {
+    if(document.getElementById("topNav").classList.contains("small-screen-expand")) {
+      return;
+    }
+    if(menuIdMap[menuId] != undefined) {
+      menuIdMap[menuId].classList.add("show");
+    }
+    document.getElementById("mainMenu").classList.add("active");
+    document.getElementById("rightMenu").classList.add("active");
+  }
+
+  function hideMenuBox(menuId) {
+    if(document.getElementById("topNav").classList.contains("small-screen-expand")) {
+      return;
+    }
+    if(menuIdMap[menuId] != undefined) {
+      menuIdMap[menuId].classList.remove("show");
+    }
+    document.getElementById("mainMenu").classList.remove("active");
+    document.getElementById("rightMenu").classList.remove("active");
+  }
+
+  function hideAllMenuBoxExcept(menuIdToExclude) {
+    for(var menuId in menuIdMap) {
+      if(menuId != menuIdToExclude) {
+        menuIdMap[menuId].classList.remove("show-small-screen");
+        menuIdMap[menuId].parentElement.classList.remove("active-small-screen");
+      }
+    }
+  }
+
+  function toggleMenuBox(target, menuId) {
+    if(menuIdMap[menuId] != undefined) {
+      menuIdMap[menuId].classList.toggle("show-small-screen");
+      if(menuIdMap[menuId].classList.contains("show-small-screen")) {
+        target.classList.add("active-small-screen");
+        hideAllMenuBoxExcept(menuId);
+
+        document.getElementById("mainMenu").classList.add("active-small-screen");
+        document.getElementById("rightMenu").classList.add("active-small-screen");
+      } else {
+        target.classList.remove("active-small-screen");
+
+        document.getElementById("mainMenu").classList.remove("active-small-screen");
+        document.getElementById("rightMenu").classList.remove("active-small-screen");
+      }
+    }
+  }
+
+  function showMenu() {
+    document.getElementById("topNav").classList.add("small-screen-expand");
+    document.getElementById("hamburger").classList.add("active");
+
+    document.getElementsByTagName("body")[0].classList.add("nav-bar-expand");
+    document.getElementsByTagName("html")[0].classList.add("nav-bar-expand");
+
+  }
+
+  function hideMenu() {
+    document.getElementById("topNav").classList.remove("small-screen-expand");
+    document.getElementById("hamburger").classList.remove("active");
+
+    document.getElementsByTagName("body")[0].classList.remove("nav-bar-expand");
+    document.getElementsByTagName("html")[0].classList.remove("nav-bar-expand");
+    hideAllMenuBoxExcept('');
+  }
+
+  function toggleMenu() {
+    var topNavEl = document.getElementById("topNav");
+    if(topNavEl.classList.contains("small-screen-expand")) {
+      hideMenu();
+    } else {
+      showMenu();
+    }
+  }
+
+  var topNavOnScroll = _.debounce(function () {
+    var topNavEl = document.getElementById("topNav");
+    var topNavScrollTop = topNav.scrollTop;
+    var globishLogoBarEl = document.getElementById("globishLogoBar");
+    var globishLogoBarHeight = globishLogoBarEl.offsetHeight;
+
+    if(topNavScrollTop >= globishLogoBarHeight - 40) {
+      globishLogoBarEl.classList.add("with-bg");
+    } else {
+      globishLogoBarEl.classList.remove("with-bg");
+    }
+  }, 10);
+
+  var onWindowResize = function () {
+    if(document.body.clientWidth >= 650) {
+      var topNavEl = document.getElementById("topNav");
+      if(topNavEl.classList.contains("small-screen-expand")) {
+        hideMenu();
+      }
+    }
+  }
+
+  window.addEventListener("resize", _.debounce(onWindowResize, 100));
+
+  // Defer CSS
+  var loadDeferredStyles = function (el_id) {
+    var addStylesNode = document.getElementById(el_id);
+    var replacement = document.createElement("div");
+    replacement.innerHTML = addStylesNode.textContent;
+    document.body.appendChild(replacement)
+    addStylesNode.parentElement.removeChild(addStylesNode);
+    document.getElementById("top").classList.remove("opacity-0");
+  };
+  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+    webkitRequestAnimationFrame || msRequestAnimationFrame;
+  if (raf) raf(function () {
+    window.setTimeout(function() {
+      loadDeferredStyles("deferred-styles-nav")
+    }, 0);
+  });
+  else window.addEventListener('load', function() {
+    loadDeferredStyles("deferred-styles-nav")
+  });
+</script>    <div class="container-fluid">
+    <section class="row hero-banner" id="heroBanner">
+      <div class="text-over">
+        <h1>Tiếng Anh dành cho <br class="eng-for-breakpoint"><strong>người đi làm</strong></h1>
+        <h2>Chinh phục tiếng Anh giao tiếp,
+          và <br> phát triển các kỹ năng tiếng Anh <br> cần thiết cho nhà quản lý</h2>
+        <br>
+        <div class="button-group">
+          <a href="#student-service"><button class="btn-primary-custom"
+              style="margin-right: 20px;">Tìm hiểu thêm</button></a>
+          <a href="https://www.globish-academia.com/courses"><button class="btn-secondary-custom">Đăng ký ngay</button></a>
+        </div>
+        <br>
+        <a class="opacity-effect" href="https://www.globish-academia.com/courses">
+          <span class="text-link">Xem tất cả các khóa học
+            <img class="lazyload"
+              data-src="https://www.globish-academia.com/front/img/landing-page/link-icon.svg" height="16">
+          </span>
+        </a>
+      </div>
+      <div class="mouse-scroll">
+        <img class="lazyload" data-src="https://www.globish-academia.com/front/img/landing-page/mouse-scrolling-icon.svg" height="39">
+      </div>
+      <div class="hero-image">
+        <picture>
+          <source
+            srcset="https://www.globish-academia.com/front/img/landing-page/hero-image-3-xs.webp, https://www.globish-academia.com/front/img/landing-page/hero-image-3-xs@2x.webp 2x, https://www.globish-academia.com/front/img/landing-page/hero-image-3-xs@3x.webp 3x"
+            type="image/webp"
+            media="(max-width: 500px)">
+          <source
+            srcset="https://www.globish-academia.com/front/img/landing-page/hero-image-3.webp, https://www.globish-academia.com/front/img/landing-page/hero-image-3@2x.webp 2x, https://www.globish-academia.com/front/img/landing-page/hero-image-3@3x.webp 3x"
+            type="image/webp">
+          <img class=""
+            src="https://www.globish-academia.com/front/img/landing-page/hero-image-3.jpg"
+            srcset="https://www.globish-academia.com/front/img/landing-page/hero-image-3@2x.jpg 2x, https://www.globish-academia.com/front/img/landing-page/hero-image-3@3x.jpg 3x"
+            height="800">
+        </picture>
+      </div>
+    </section>
+    <section class="row globish-in-media">
+      <div class="col-xs-12">
+        <div class="content">
+          <h2>Chương trình Anh ngữ được xây dựng phù hợp với người Việt Nam theo tiêu chuẩn quốc tế</h2>
+          <div class="medias">
+            <a href="http://www.forbes.com/sites/frederickallen/2012/03/01/a-new-international-business-language-globish/#40eba7723c78"
+              target="_blank">
+              <picture>
+                <source
+                  data-srcset="https://www.globish-academia.com/front/img/press-media/forbes.webp, https://www.globish-academia.com/front/img/press-media/forbes@2x.webp 2x, https://www.globish-academia.com/front/img/press-media/forbes@3x.webp 3x"
+                  type="image/webp">
+                <img class="lazyload"
+                  data-src="https://www.globish-academia.com/front/img/press-media/forbes.png"
+                  data-srcset="https://www.globish-academia.com/front/img/press-media/forbes@2x.png 2x, https://www.globish-academia.com/front/img/press-media/forbes@3x.png 3x"
+                  height="60">
+              </picture>
+            </a>
+            <a href="http://news.bbc.co.uk/2/hi/programmes/from_our_own_correspondent/7844192.stm" target="_blank">
+              <picture>
+                <source
+                  data-srcset="https://www.globish-academia.com/front/img/press-media/bbc.webp, https://www.globish-academia.com/front/img/press-media/bbc@2x.webp 2x, https://www.globish-academia.com/front/img/press-media/bbc@3x.webp 3x"
+                  type="image/webp">
+                <img class="lazyload"
+                  data-src="https://www.globish-academia.com/front/img/press-media/bbc.png"
+                  data-srcset="https://www.globish-academia.com/front/img/press-media/bbc@2x.png 2x, https://www.globish-academia.com/front/img/press-media/bbc@3x.png 3x"
+                  height="60">
+              </picture>
+            </a>
+            <a href="http://blog.oxforddictionaries.com/2015/05/the-rise-of-global-english/" target="_blank">
+              <picture>
+                <source
+                  data-srcset="https://www.globish-academia.com/front/img/press-media/oxford-dictionaries.webp, https://www.globish-academia.com/front/img/press-media/oxford-dictionaries@2x.webp 2x, https://www.globish-academia.com/front/img/press-media/oxford-dictionaries@3x.webp 3x"
+                  type="image/webp">
+                <img 
+                  class="lazyload"
+                  data-src="https://www.globish-academia.com/front/img/press-media/oxford-dictionaries.png"
+                  data-srcset="https://www.globish-academia.com/front/img/press-media/oxford-dictionaries@2x.png 2x, https://www.globish-academia.com/front/img/press-media/oxford-dictionaries@3x.png 3x"
+                  height="60">
+              </picture>
+            </a>
+
+
+
+
+
+
+
+
+
+
+
+            <a href="http://www.newsweek.com/all-world-speaks-globish-72941" target="_blank">
+              <picture>
+                <source
+                  data-srcset="https://www.globish-academia.com/front/img/press-media/newsweek.webp, https://www.globish-academia.com/front/img/press-media/newsweek@2x.webp 2x, https://www.globish-academia.com/front/img/press-media/newsweek@3x.webp 3x"
+                  type="image/webp">
+                <img
+                  class="lazyload" 
+                  data-src="https://www.globish-academia.com/front/img/press-media/newsweek.png"
+                  data-srcset="https://www.globish-academia.com/front/img/press-media/newsweek@2x.png 2x, https://www.globish-academia.com/front/img/press-media/newsweek@3x.png 3x"
+                  height="60">
+              </picture>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row what-globish" id="what-globish">
+      <header class="topic text-center"><br><br>
+        <div class="hidden-lg hidden-md">
+          <h1 class="txt-free">Chương trình học trực tuyến đa dạng</h1> <span
+            class="txt-what">Bằng việc kết nối với hàng ngàn giáo viên bản ngữ trên thế giới, GLOBISH tạo ra một môi
+trường học tập tiếng Anh hiện đại nhất dành cho người đi làm</span> <br><br>
+        </div>
+        <div class="hidden-xs">
+          <h1 class="txt-free">Chương trình học trực tuyến đa dạng</h1>
+          <span class="txt-what">Bằng việc kết nối với hàng ngàn giáo viên bản ngữ trên thế giới, GLOBISH tạo ra một môi <br> trường học tập tiếng Anh hiện đại nhất dành cho người đi làm</span><br><br>
+        </div>
+      </header>
+      <section class="container">
+        <div class="col-md-3">
+          <div class="group-img-wrapper-small center-block max-width350" align="center">
+            <picture>
+              <source
+                data-srcset="https://www.globish-academia.com/front/img/landing-page/download.webp, https://www.globish-academia.com/front/img/landing-page/download.webp 2x, https://www.globish-academia.com/front/img/landing-page/download.webp 3x"
+                type="image/webp">
+              <img class="img-responsive max-width220 lazyload" 
+                data-src="https://www.globish-academia.com/front/img/landing-page/download.png"
+                data-srcset="https://www.globish-academia.com/front/img/landing-page/download.png 2x, https://www.globish-academia.com/front/img/landing-page/download.png 3x">
+            </picture>
+          </div>
+          <div class="content what-globish-list-wrapper">
+            <h3 style="font-size: 20px;" align="center" class="text">Học trực tuyến 1-1 với <br>giáo viên quốc tế</h3><br>
+            <p class="font-light why-content">Nâng cao kỹ năng giao tiếp tiếng Anh với lớp học 1-1.
+              Học mọi lúc 24/7 với hàng trăm giáo viên quốc tế.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="group-img-wrapper-small center-block max-width350" align="center">
+            <picture>
+              <source
+                data-srcset="https://www.globish-academia.com/front/img/landing-page/download-1.webp, https://www.globish-academia.com/front/img/landing-page/download-1.webp 2x, https://www.globish-academia.com/front/img/landing-page/download-1.webp 3x"
+                type="image/webp">
+              <img class="img-responsive max-width220 lazyload" 
+                data-src="https://www.globish-academia.com/front/img/landing-page/download-1.png"
+                data-srcset="https://www.globish-academia.com/front/img/landing-page/download-1.png 2x, https://www.globish-academia.com/front/img/landing-page/download-1.png 3x">
+            </picture>
+          </div>
+          <div class="content">
+            <h3 style="font-size: 20px;" align="center" class="text">Thực hành kỹ năng nói với nhóm bạn cùng trình độ</h3> <br>
+            <p class="font-light why-content">Cải thiện kỹ năng giao tiếp thực tế với Lớp thảo luận, tự tin tương tác và bàn luận với bạn học khác về các chủ đề khác nhau</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="group-img-wrapper-small center-block max-width350" align="center">
+            <picture>
+              <source
+                data-srcset="https://www.globish-academia.com/front/img/landing-page/download-2.webp, https://www.globish-academia.com/front/img/landing-page/download-2.webp 2x, https://www.globish-academia.com/front/img/landing-page/download-2.webp 3x"
+                type="image/webp">
+              <img class="img-responsive max-width220 lazyload" 
+                data-src="https://www.globish-academia.com/front/img/landing-page/download-2.png"
+                data-srcset="https://www.globish-academia.com/front/img/landing-page/download-2.png 2x, https://www.globish-academia.com/front/img/landing-page/download-2.png 3x">
+            </picture>
+          </div>
+          <div class="content">
+            <h3 style="font-size: 20px;" align="center" class="text">Học cùng chuyên gia <br>(Trực tuyến)</h3> <br>
+            <p class="font-light why-content">Học các kỹ năng quan trọng trong công việc, như viết email và phỏng vấn xin việc với các chuyên gia quốc tế từ các lĩnh vực khác nhau</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="group-img-wrapper-small center-block max-width350" align="center">
+            <picture>
+              <source
+                data-srcset="https://www.globish-academia.com/front/img/landing-page/download-3.webp, https://www.globish-academia.com/front/img/landing-page/download-3.webp 2x, https://www.globish-academia.com/front/img/landing-page/download-3.webp 3x"
+                type="image/webp">
+              <img class="img-responsive max-width220 lazyload" 
+                data-src="https://www.globish-academia.com/front/img/landing-page/download-3.png"
+                data-srcset="https://www.globish-academia.com/front/img/landing-page/download-3.png 2x, https://www.globish-academia.com/front/img/landing-page/download-3.png 3x">
+            </picture>
+          </div>
+          <div class="content">
+            <h3 style="font-size: 20px;" align="center" class="text">Học E-Learning <br>không giới hạn</h3> <br>
+            <p class="font-light why-content">Chủ động luyện tập mọi lúc mọi nơi với các bài học E-learning đa dạng: Video, Podcast, Kiểm tra trực tuyến, v.v...</p>
+          </div>
+        </div>
+      </section>
+      <section class="what-globish-2 what-globish-list-wrapper remove-margin-top-xs section-iframe">
+        <div class="group-img-wrapper div-dec-iframe"> <iframe src="https://www.globish-academia.com/front/img/vdo/Booking/index.html"
+            scrolling="no" frameborder="0" allowfullscreen class="iframe-com"></iframe> </div>
+        <div class="group-img-wrapper-small center-block" align="center"> <iframe
+            class="embed-responsive-item iframe-mobile" src="https://www.globish-academia.com/front/img/vdo/Booking/mobile/index.html"
+            scrolling="no" frameborder="0"></iframe> </div>
+        <div class="content padding-top0">
+          <h2>Chọn ngày và giờ học phù hợp với thời gian biểu của bạn</h2> <br><span class="font-light txt-bigRed">
+            <ul class="list-custom">
+              <li><span class="text-list txt-color5F6A7D">Đăng ký lịch học thông qua trang web dù bạn đang ở đâu</span></li>
+              <li class="txt-margin-top15"><span class="text-list txt-color5F6A7D">Chọn khung giờ học linh hoạt thích hợp với bạn</span></li>
+              <li class="txt-margin-top15"><span class="text-list txt-color5F6A7D">Tham dự lớp học "Trực tuyến 1-1" ngay tại nhà bằng điện thoại thông minh hoặc máy tính cá nhân</span></li>
+              <li class="txt-margin-top15"><span class="text-list txt-color5F6A7D">Tự luyện tập với kho E-Learning đa dạng: kiểm tra trực tuyến, video, podcast...</span></li>
+            </ul>
+          </span> <br><a class="" href="https://www.globish-academia.com/courses"> <button
+              class="btn btn-red btn-register">Đăng ký ngay</button> </a> <br><br><br>
+        </div>
+      </section>
+    </section>
+    <section class="i-speak-globish row bg-carousel">
+      <header class="topic text-center"><br><br>
+        <h1 class="font-bold txt-iSpeak">I Speak Globish!</h1>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+              <div class="carousel-inner text-center">
+                <div class="item active">
+                  <blockquote>
+                    <div class="row div-carousel">
+                      <div class="col-sm-8 col-sm-offset-2">
+                        <p>“ Tiếng Anh giúp tôi có nhiều cơ hội trong công việc. Globish không chỉ dạy tiếng Anh mà còn tạo cho tôi một thói quen sử dụng tiếng Anh hàng ngày. Tôi không còn phải suy nghĩ quá nhiều đến việc sử dụng thì nào, phủ định thế, chủ ngữ vị ngữ tân ngữ... mà mọi thứ cứ như đã ở trong đầu tôi từ lâu rồi, chỉ cần là điều tôi muốn nói, tôi đều có thể nói ra được, thật là tuyệt vời. ”</p>
+                        <small>Anh Nguyễn Hoàng - Chuyên viên tư vấn tài chính, 29 tuổi </small>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+              </div>
+              <ol class="carousel-indicators li-carousel">
+                <li data-target="#quote-carousel" data-slide-to="0" class="active">
+                  <img class="img-responsive lazyload" id="img_pat"
+                    src="https://www.globish-academia.com/front/img/loader.gif"
+                    data-src="https://www.globish-academia.com/front/img/testimonial/Khun_A.png" alt="">
+                </li>
+
+
+
+
+
+
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row what-globish courses" id="courses">
+      <header class="topic text-center"><br><br>
+        <h1 class="font-bold txt-free">Các khóa học</h1>
+        <!-- <span class="txt-what">คอร์สเรียน</span>  -->
+        <br><br>
+      </header>
+      <section class="row courses-group section-course">
+        <!-- BEGIN COURSE CARD: MAKE NEW FRIENDS -->
+        <div class="col-md-5 col-md-offset-1">
+          <div class="card course center-block">
+            <div class="">
+              <picture>
+                <source
+                  data-srcset="https://www.globish-academia.com/img/product-cate/general.webp, https://www.globish-academia.com/img/product-cate/general.webp 2x, https://www.globish-academia.com/img/product-cate/general.webp 3x"
+                  type="image/webp">
+                <img class="img-responsive full-width lazyload" 
+                  data-src="https://www.globish-academia.com/img/product-cate/general.jpg"
+                  data-srcset="https://www.globish-academia.com/img/product-cate/general.jpg 2x, https://www.globish-academia.com/img/product-cate/general.jpg 3x"
+                  height="60">
+              </picture>
+            </div>
+            <div class="card-content">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="cate">
+                    <h3 class="package-title">Tiếng Anh Tổng Quan</h3>
+                    <h4>Dành cho giao tiếp hàng ngày</h4>
+                    <!-- <hr> -->
+                    <div class="detail">
+                      Mục tiêu giúp học viên giao tiếp tiếng Anh rõ ràng, chuẩn chỉnh và chính xác. Đồng thời biết cách tương tác và phản xạ bằng tiếng Anh trong các tình huống giao tiếp xã hội hàng ngày
+                    </div> <br>
+                    <a href="https://www.globish-academia.com/courses?category=general" class="btn red-btn btnSubmit btn-all-course">
+                      Chi tiết các khóa học</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="card center-block">
+            <div class="">
+              <picture>
+                <source
+                  data-srcset="https://www.globish-academia.com/img/product-cate/business.webp, https://www.globish-academia.com/img/product-cate/business.webp 2x, https://www.globish-academia.com/img/product-cate/business.webp 3x"
+                  type="image/webp">
+                <img class="img-responsive full-width lazyload" 
+                  data-src="https://www.globish-academia.com/img/product-cate/business.jpg"
+                  data-srcset="https://www.globish-academia.com/img/product-cate/business.jpg 2x, https://www.globish-academia.com/img/product-cate/business.jpg 3x"
+                  height="60">
+              </picture>
+            </div>
+            <div class="card-content">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="cate">
+                    <h3 class="package-title">Tiếng Anh Thương Mại</h3>
+                    <h4>Dành cho giao tiếp công sở</h4>
+                    <!-- <hr> -->
+                    <div class="detail">
+                      Phù hợp với học viên muốn cải thiện tiếng Anh dành cho công việc. Mỗi một bài học mô phỏng lại một tình huống diễn ra trong công sở. Học viên sẽ được áp dụng lý thuyết vào thực tế, tự tin khi giao tiếp với sếp và đồng nghiệp tại công ty
+                    </div> <br>
+                    <a href="https://www.globish-academia.com/courses?category=business" class="btn red-btn btnSubmit btn-all-course">
+                      Chi tiết các khóa học</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </section>
+    </section>
+    <section class="row customer-service bg-main-sectiond" id="student-service" style="padding-top: 60px; padding-bottom: 60px;">
+  <div class="col-xs-12">
+    <div class="center-container">
+      <div class="form-wrapper">
+        <h2>Tìm khóa học phù hợp với bạn</h2>
+        <span>Đăng ký để biết thêm thông tin hoặc nhận tư vấn về các khóa học của chúng tôi</span>
+        
+        <br><br>
+
+        <form class="row" id="contact-us-form" role="form">
+          <input type="hidden" class="referrer" name="referrer" value="">
+          <input type="hidden" name="_token" value="tPOyLcC9mPmrcdAHufFBtRGQjYFOBeT4v2VvlYwV">
+          <div class="form-group col-xs-12 col-md-6">
+            <label id="input-label" for="contact_us_name">Họ và tên*</label>
+            <input type="text" class="form-control" name="contact_us_name" id="contact_us_name" placeholder="Họ và tên"
+              required>
+            <label class="warning-desc"></label>
+          </div>
+          <div class="form-group col-xs-12 col-md-6">
+            <label id="input-label" for="contact_us_tel">Số điện thoại*</label>
+            <input type="text" class="form-control" name="contact_us_tel" id="contact_us_tel" placeholder="Số điện thoại"
+              required>
+            <label class="warning-desc"></label>
+            <input type="hidden" name="contact_us_from_page" id="contact_us_from_page" value="index">
+            <input type="hidden" name="contact_us_path" value="/">
+          </div>
+          <div class="form-group col-xs-12">
+            <button type="submit" class="btn red-btn submit-btn lead-btn-submit" name="submit_form" id="submit_form"
+              value="Submit">Đăng ký
+            </button>
+            <span class="nbsp">&nbsp;&nbsp;&nbsp;&nbsp;</span>Hoặc&nbsp;&nbsp;
+            <span class="font-medium lead-color-red">gọi đến...
+              <a class="tel-visible-xs lead-decoration lead-color-red" href="tel:+(84)906.830.230">+(84)906.830.230</a>
+              <span class="hidden-xs lead-decoration">+(84)906.830.230</span>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<link rel="stylesheet" type="text/css" href="/front/index/lead_form.d79a69b638d969a5f06a.css">
+<script src="/front/js/lead_form.9ea279d2653746909190b3c10c5a60e8.js"></script>  </div>
+  <footer class="footer version-2 footer-tag">
+  <div class="container-fluid padding-left-right-xs paddingT35-B30-footer">
+    <div class="row div-footer-section">
+      <div class="col-xs-12 col-sm-7 col-sm-push-5 col-md-7 col-md-push-5 font-15 link-wrapper">
+        <div class="row">
+          <div class="col-xs-6 col-md-4 font-light footer-marginB7">
+            <span class="font-medium footer-marginB7 footer-display-b">Tìm hiểu thêm</span>
+            <a class="pointer" id="footer_index" href="https://www.globish-academia.com">Trang chủ</a>
+            <br>
+            <a class="pointer" id="footer_course" href="https://www.globish-academia.com/courses">Các khóa học</a>
+            <br>
+
+
+            <a class="pointer" id="footer_faq" href="https://www.globish-academia.com/faq">FAQ</a>
+            <br>
+
+          </div>
+          <div class="col-xs-6 col-md-4 font-light footer-marginB7">
+            <span class="font-medium footer-marginB7 footer-display-b">Tài khoản</span>
+            <a class="pointer" id="footer_transfer" href="https://student.globish-academia.com/payment/transfer-confirm">Xác nhận thanh toán</a>
+            <br>
+            <a class="pointer" id="footer_login" href="https://student.globish-academia.com/login">Đăng nhập</a>
+            <br>
+            <a class="pointer" id="footer_registerCourse" href="https://www.globish-academia.com/courses">Các khóa học</a>
+            <br>
+
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 font-light contact-us footer-marginB7">
+            <span class="font-medium footer-marginB7 footer-display-b">Liên hệ</span>
+            <a class="facebook-link pointer footer-marginR15" id="footer_facebook"
+              href="https://www.facebook.com/globishvietnam/" target="_new" rel="nofollow">
+              <span class="icon-facebook footer-icon"></span>
+              &nbsp;Facebook</a><span class="hidden-xs"><br></span>
+
+
+
+            <br>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-5 col-sm-pull-7 col-md-5 col-md-pull-7 font-15 text-left footer-font-fam">
+        <span class="font-light footer-color909090">
+          <div>Globish là Học viện Anh ngữ trực tuyến với phương châm chú trọng vào kỹ 
+          năng giao tiếp tiếng Anh. Chúng tôi cung cấp các khóa học Tiếng Anh giao tiếp hàng ngày và Tiếng 
+          Anh giao tiếp công sở trực tuyến mọi lúc 24/7 với hàng trăm giáo viên quốc tế. Nói đến Tiếng Anh 
+          trực tuyến là nói đến Globish, Học viện Anh ngữ triển vọng tại Thái Lan.                        <div class="lead-marginT15 certificate-footer">
+              <div class="row col-md-2 col-xs-3 col-sm-3 img-max-height">
+                <picture>
+                  <source
+                    data-srcset="https://www.globish-academia.com/front/img/kid/cefr-globish.co.th.webp, https://www.globish-academia.com/front/img/kid/cefr-globish.co.th.webp 2x, https://www.globish-academia.com/front/img/kid/cefr-globish.co.th.webp 3x"
+                    type="image/webp">
+                  <img class="img-responsive lazyload" 
+                    data-src="https://www.globish-academia.com/front/img/kid/cefr-globish.co.th.png"
+                    data-srcset="https://www.globish-academia.com/front/img/kid/cefr-globish.co.th.png 2x, https://www.globish-academia.com/front/img/kid/cefr-globish.co.th.png 3x"
+                    alt="CEFR มาตรฐานการวัดระดับภาษาสากล">
+                </picture>
+              </div>
+              <div class="row col-md-1 hidden-xs col-sm-2"></div>
+              <div class="row col-md-2 col-xs-3 col-sm-3 img-max-height">
+                <a href="https://kokoa.io/products/globish-academia" target="_blank">
+                  <picture>
+                    <source
+                      data-srcset="https://www.globish-academia.com/front/img/EAF_Certificate_Blue_2018-Kokoa-Globish-small.webp, https://www.globish-academia.com/front/img/EAF_Certificate_Blue_2018-Kokoa-Globish-small.webp 2x, https://www.globish-academia.com/front/img/EAF_Certificate_Blue_2018-Kokoa-Globish-small.webp 3x"
+                      type="image/webp">
+                    <img class="img-responsive lazyload" 
+                      data-src="https://www.globish-academia.com/front/img/EAF_Certificate_Blue_2018-Kokoa-Globish-small.png"
+                      data-srcset="https://www.globish-academia.com/front/img/EAF_Certificate_Blue_2018-Kokoa-Globish-small.png 2x, https://www.globish-academia.com/front/img/EAF_Certificate_Blue_2018-Kokoa-Globish-small.png 3x"
+                      alt="KOKOA สถาบันประเมิณคุณภาพและมาตรฐาน ด้านการศึกษาจากประเทศฟินแลนด์">
+                  </picture>
+                </a>
+              </div>
+              <div class="row col-md-7 col-xs-6 col-sm-4 img-max-height">
+                <script
+                  src="https://www.trustmarkthai.com/callbackData/initialize.js?t=4cdc7599-34-5-f6bc05a8953e0529c0cab1f47745370864a07"
+                  id="dbd-init">
+                </script>
+                <div id="Certificate-banners"></div>
+              </div>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid padding-left-right-xs footer-color-ececec">
+    <div class="row font-14 footer-section-copy">
+      <div class="col-sm-12">
+        Copyright © 2020 Globish Academia
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+footer.footer.version-2 {
+   position: relative !important;
+   bottom: unset;
+}
+</style></body>
+
+<noscript id="deferred-styles">
+  <link rel='shortcut icon' type='image/x-icon' href="https://www.globish-academia.com/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="https://www.globish-academia.com/front/css/global.css">
+  <link rel="stylesheet" type="text/css" href="https://www.globish-academia.com/front/index/global.css">
+  <link rel="stylesheet" type="text/css" href="/front/index/mar_2019_remaining.d79a69b638d969a5f06a.css">
+  <link rel="stylesheet" type="text/css" href="/front/global-sticky-bars.d79a69b638d969a5f06a.css">
+</noscript>
+
+<script defer src="https://www.globish-academia.com/front/js/bootstrap.min.js"></script>
+<script defer src="/front/js/landing-page.610a7ff9bc9c33b2ee8ba2fe7783a88e.js"></script>
+<script defer src="/front/js/global-no-top-banner.944f1cee5f3fd58c437785def247d9e5.js"></script>
+<script defer src="/front/js/index-mar-2019.e5af69b6f6f7131cd0e8b3a1952ed00d.js"></script>
+
+<script>
+  var loadDeferredStyles = function (el_id) {
+    var addStylesNode = document.getElementById(el_id);
+    var replacement = document.createElement("div");
+    replacement.innerHTML = addStylesNode.textContent;
+    document.body.appendChild(replacement)
+    addStylesNode.parentElement.removeChild(addStylesNode);
+    document.getElementById("top").classList.remove("opacity-0");
+  };
+  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+    webkitRequestAnimationFrame || msRequestAnimationFrame;
+  if (raf) raf(function () {
+    window.setTimeout(function() {
+      loadDeferredStyles("deferred-styles")
+    }, 0);
+  });
+  else window.addEventListener('load', function() {
+    loadDeferredStyles("deferred-styles")
+  });
+</script>
+<!-- begin olark code -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end olark code -->
+</html>

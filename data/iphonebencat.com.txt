@@ -1,0 +1,1202 @@
+ 
+<!doctype html>
+<html lang="vi">
+
+<head itemscope itemtype="http://schema.org/WebSite">
+	<base href="https://iphonebencat.com/" />
+	<meta name="viewport" content="width=1300">   
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="SHORTCUT ICON" href="upload/hinhanh/apple-logo-png-71773159_29x32.png" type="image/x-icon" />
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW" />
+<meta name="author" content="THUẬN STORE " />
+<meta name="copyright" content="THUẬN STORE  [vitinhhaithuan@gmail.com]" />
+<!--Meta seo web-->
+<title> IPHONE BẾN CÁT  | LAPTOP BẾN CÁT</title>
+<meta name="keywords" content=" IPHONE BẾN CÁT  | LAPTOP BẾN CÁT" />
+<meta name="description" content=" IPHONE BẾN CÁT  | LAPTOP BẾN CÁT" />
+<!--Meta seo web-->
+<!--Meta Geo-->
+<meta name="DC.title" content=" IPHONE BẾN CÁT  | LAPTOP BẾN CÁT" />
+<meta name="geo.region" content="VN" />
+<meta name="geo.placename" content="Địa chỉ: Số 83 - Đường N5 - Đối diện chợ Mỹ Phước 1 - P. Thới Hoà - Tx Bến Cát - Bình Dương" />
+<meta name="geo.position" content="10.853741418142036:106.62834708220907" />
+<meta name="ICBM" content="10.853741418142036,106.62834708220907" />
+<meta name="DC.identifier" content="https://iphonebencat.com/" />
+<!--Meta Geo-->
+
+<!--Meta facebook-->
+<meta property="og:image" content="" />
+<meta property="og:title" content="" />
+<meta property="og:url" content="" />
+<meta property="og:site_name" content="https://iphonebencat.com/" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="THUẬN STORE " /> 
+
+<link rel="canonical" href="https://iphonebencat.com/" />
+
+<!--Meta facebook-->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id; js.async=true;
+  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--Meta facebook-->        
+	<link href="css/default.css" type="text/css" rel="stylesheet" />
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link href="css/popup.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+<link href="fontawesome/fontawesome-all.css" type="text/css" rel="stylesheet" />
+<link href="css/css_jssor_slider.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144227485-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144227485-1');
+</script>
+<!-- 
+<script type="text/javascript" src="https://itexpress.vn/API/files/it.snow.js"></script>
+-->
+
+<script type='text/javascript'>
+//<![CDATA[
+var pictureSrc ="https://1.bp.blogspot.com/-CXx9jt2JMRk/Vq-Lh5fm88I/AAAAAAAASwo/XivooDn_oSY/s1600/hoamai.png"; //Link ?nh hoa mu?n hi?n th? trên web
+var pictureWidth = 15; //Chi?u r?ng c?a hoa mai or đào
+var pictureHeight = 15; //Chi?u cao c?a hoa mai or đào
+var numFlakes = 10; //S? bông hoa xu?t hi?n cùng m?t lúc trên trang web
+var downSpeed = 0.01; //T?c đ? rơi c?a hoa
+var lrFlakes = 10; //T?c đ? các bông hoa giao đ?ng t? bên trai sang bên ph?i và ngư?c l?i
+
+
+if( typeof( numFlakes ) != 'number' || Math.round( numFlakes ) != numFlakes || numFlakes < 1 ) { numFlakes = 10; }
+
+//draw the snowflakes
+for( var x = 0; x < numFlakes; x++ ) {
+if( document.layers ) { //releave NS4 bug
+document.write('<layer id="snFlkDiv'+x+'"><imgsrc="'+pictureSrc+'" height="'+pictureHeight+'"width="'+pictureWidth+'" alt="*" border="0"></layer>');
+} else {
+document.write('<div style="position:absolute; z-index:9999;"id="snFlkDiv'+x+'"><img src="'+pictureSrc+'"height="'+pictureHeight+'" width="'+pictureWidth+'" alt="*"border="0"></div>');
+}
+}
+
+//calculate initial positions (in portions of browser window size)
+var xcoords = new Array(), ycoords = new Array(), snFlkTemp;
+for( var x = 0; x < numFlakes; x++ ) {
+xcoords[x] = ( x + 1 ) / ( numFlakes + 1 );
+do { snFlkTemp = Math.round( ( numFlakes - 1 ) * Math.random() );
+} while( typeof( ycoords[snFlkTemp] ) == 'number' );
+ycoords[snFlkTemp] = x / numFlakes;
+}
+
+//now animate
+function flakeFall() {
+if( !getRefToDivNest('snFlkDiv0') ) { return; }
+var scrWidth = 0, scrHeight = 0, scrollHeight = 0, scrollWidth = 0;
+//find screen settings for all variations. doing this every time allows for resizing and scrolling
+if( typeof( window.innerWidth ) == 'number' ) { scrWidth = window.innerWidth; scrHeight = window.innerHeight; } else {
+if( document.documentElement && (document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+scrWidth = document.documentElement.clientWidth; scrHeight = document.documentElement.clientHeight; } else {
+if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+scrWidth = document.body.clientWidth; scrHeight = document.body.clientHeight; } } }
+if( typeof( window.pageYOffset ) == 'number' ) { scrollHeight = pageYOffset; scrollWidth = pageXOffset; } else {
+if( document.body && ( document.body.scrollLeft ||document.body.scrollTop ) ) { scrollHeight = document.body.scrollTop;scrollWidth = document.body.scrollLeft; } else {
+if(document.documentElement && (document.documentElement.scrollLeft ||document.documentElement.scrollTop ) ) { scrollHeight =document.documentElement.scrollTop; scrollWidth =document.documentElement.scrollLeft; } }
+}
+//move the snowflakes to their new position
+for( var x = 0; x < numFlakes; x++ ) {
+if( ycoords[x] * scrHeight > scrHeight - pictureHeight ) { ycoords[x] = 0; }
+var divRef = getRefToDivNest('snFlkDiv'+x); if( !divRef ) { return; }
+if( divRef.style ) { divRef = divRef.style; } var oPix = document.childNodes ? 'px' : 0;
+divRef.top = ( Math.round( ycoords[x] * scrHeight ) + scrollHeight ) + oPix;
+divRef.left = ( Math.round( ( ( xcoords[x] * scrWidth ) - (pictureWidth / 2 ) ) + ( ( scrWidth / ( ( numFlakes + 1 ) * 4 ) ) * (Math.sin( lrFlakes * ycoords[x] ) - Math.sin( 3 * lrFlakes * ycoords[x]) ) ) ) + scrollWidth ) + oPix;
+ycoords[x] += downSpeed;
+}
+}
+
+//DHTML handlers
+function getRefToDivNest(divName) {
+if( document.layers ) { return document.layers[divName]; } //NS4
+if( document[divName] ) { return document[divName]; } //NS4 also
+if( document.getElementById ) { return document.getElementById(divName); } //DOM (IE5+, NS6+, Mozilla0.9+, Opera)
+if( document.all ) { return document.all[divName]; } //Proprietary DOM - IE4
+return false;
+}
+
+window.setInterval('flakeFall();',100);
+//]]>
+</script>
+
+
+<script data-ad-client="ca-pub-3793194132342194" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+       
+</head>
+
+<body >
+<ol itemscope itemtype="http://schema.org/BreadcrumbList"></ol>
+<h1 style="position:absolute; top:-1000px;"> IPHONE BẾN CÁT  | LAPTOP BẾN CÁT</h1><h2 style="position:absolute; top:-1000px;"> IPHONE BẾN CÁT  | LAPTOP BẾN CÁT</h2><h3 style="position:absolute; top:-1000px;"> IPHONE BẾN CÁT  | LAPTOP BẾN CÁT</h3>
+
+<div id="wapper">
+	<style>
+#header{background: url(upload/hinhanh/bannerip-7889.png)no-repeat top center;background-size: cover;}   
+</style>
+<div id="header">
+    <div class="wap_1200 clearfix">
+    	<div class="logos"><a href=""><img src="thumb/98x107/1/upload/hinhanh/logo-1555.png" alt="THUẬN STORE " /></a></div>
+        <div class="banner"><a href=""><img src="thumb/365x70/1/upload/hinhanh/logo-5065.png" alt="THUẬN STORE " /></a></div>
+        <div class="bghl">0988 096 547 </div>
+    </div>
+</div>          
+	<div class="wap_menu">  
+    <div class="menu">
+        <ul>
+            <li class="line"></li>
+            <li><a class="active" href="">Trang chủ</a></li>
+            <li class="line"></li>
+            <li><a class="" href="gioi-thieu.html">Giới thiệu</a></li>
+            <li class="line"></li>
+            <li><a class="" href="san-pham.html">Sản phẩm</a>
+                <ul><li><a href="san-pham/ipad-12">IPAD </a><ul><li><a href="san-pham/ipad-air-24/">IPAD AIR </a></li><li><a href="san-pham/ipad-4-25/">IPAD 4 </a></li></ul></li><li><a href="san-pham/dong-ho-apple-watch-11">ĐỒNG HỒ APPLE WATCH </a><ul><li><a href="san-pham/list-apple-watch-series-3-17/">LIST APPLE WATCH SERIES 3 </a></li><li><a href="san-pham/list-apple-watch-series-4-19/">LIST APPLE WATCH SERIES 4</a></li><li><a href="san-pham/list-apple-watch-series-5-20/">LIST APPLE WATCH SERIES 5</a></li><li><a href="san-pham/list-apple-watch-series-6-21/">LIST APPLE WATCH SERIES 6</a></li><li><a href="san-pham/list-apple-watch-series-se-22/">LIST APPLE WATCH SERIES SE</a></li></ul></li><li><a href="san-pham/iphone-4">IPHONE </a><ul><li><a href="san-pham/iphone-x-7/">IPHONE X</a></li><li><a href="san-pham/iphone-8g8-plus-8/">IPHONE 8G/8 PLUS</a></li><li><a href="san-pham/iphone-7g7-plus-9/">IPHONE 7G/7 PLUS</a></li><li><a href="san-pham/iphone-6g6s-10/">IPHONE 6G/6S</a></li><li><a href="san-pham/iphone-xs-max-11/">IPHONE XS MAX</a></li><li><a href="san-pham/iphone-11-pro-max-15/">IPHONE 11 Pro Max </a></li><li><a href="san-pham/iphone-xs-16/">IPHONE XS </a><ul><li><a href="san-pham/iphone-xs-64gb/2">IPHONE XS 64GB</a></ul></li><li><a href="san-pham/iphone-12-series-23/">IPHONE 12 SERIES </a><ul><li><a href="san-pham/iphone-12-pro-max/3">IPHONE 12 PRO MAX </a><li><a href="san-pham/iphone-12-pro/4">IPHONE 12 PRO </a><li><a href="san-pham/iphone-12/5">IPHONE 12</a><li><a href="san-pham/iphone-12-mini/6">IPHONE 12 MINI</a></ul></li></ul></li><li><a href="san-pham/laptop-8">LAPTOP </a></li><li><a href="san-pham/may-tinh-choi-game-9">MÁY TÍNH CHƠI GAME</a></li><li><a href="san-pham/camera-5">CAMERA</a></li></ul>            </li>
+            <li class="line"></li>
+            <li><a class="" href="tu-van.html">Tư vấn</a></li>
+            <li class="line"></li>
+            <li><a class="" href="tin-tuc.html">Tin tức</a></li>
+            <li class="line"></li>
+            <li><a class="" href="lien-he.html">Liên hệ</a></li>
+            <li class="line"></li>
+        </ul>
+        <div class="search">
+            <input type="text" name="keyword" id="keyword" class="keyword" onKeyPress="doEnter(event,'keyword');" value="Nhập từ khóa tìm kiếm..." onclick="if(this.value=='Nhập từ khóa tìm kiếm...'){this.value=''}" onblur="if(this.value==''){this.value='Nhập từ khóa tìm kiếm...'}">
+            <i class="fa fa-search" aria-hidden="true" onclick="onSearch(event,'keyword');"></i>
+        </div><!---END #search-->
+        <span class="line"></span>
+    </div>
+</div><!---END .wap_menu-->     <div id="slider">
+<div id="slider1_container" style="position: relative;width: 1366px; height: 490px;overflow: hidden;">
+    <!-- Slides Container -->
+    <div u="slides" style="cursor: move;width: 1366px; height: 490px;overflow: hidden;">
+                    <div>
+                <a href="https://iphonebencat.com/san-pham/iphone-11-pro-max-15/"><img u="image" src="thumb/1366x490/1/upload/hinhanh/slider1-8305.png" alt="" /></a>
+            </div>
+                    <div>
+                <a href="https://iphonebencat.com/san-pham/iphone-12-pro-max-256gb-new-130.html"><img u="image" src="thumb/1366x490/1/upload/hinhanh/ms_banner_img1-5157.jpg" alt="" /></a>
+            </div>
+                    <div>
+                <a href=""><img u="image" src="thumb/1366x490/1/upload/hinhanh/banner1-1961.png" alt="banner iphone 12 Pro Max" /></a>
+            </div>
+                    <div>
+                <a href=""><img u="image" src="thumb/1366x490/1/upload/hinhanh/banner-8176.png" alt="banner tết điện thoại" /></a>
+            </div>
+                    <div>
+                <a href=""><img u="image" src="thumb/1366x490/1/upload/hinhanh/bannerip12-4699.png" alt="Iphone 12 tại bến cát" /></a>
+            </div>
+                    <div>
+                <a href=""><img u="image" src="thumb/1366x490/1/upload/hinhanh/slider2-5299.jpg" alt="banner iphone đẹp" /></a>
+            </div>
+                    <div>
+                <a href=""><img u="image" src="thumb/1366x490/1/upload/hinhanh/slider-9183-2089-21650.png" alt="banner bán điện thoại" /></a>
+            </div>
+                    <div>
+                <a href=""><img u="image" src="thumb/1366x490/1/upload/hinhanh/banner-hero-giveback-support.image_.large_2x-1300.png" alt="banner appo đẹp" /></a>
+            </div>
+                    <div>
+                <a href=""><img u="image" src="thumb/1366x490/1/upload/hinhanh/apple-watch-series-3_web-banner-5538.jpg" alt="" /></a>
+            </div>
+                    <div>
+                <a href=""><img u="image" src="thumb/1366x490/1/upload/hinhanh/iphone11-coming-soon-banner2-9332.jpg" alt="" /></a>
+            </div>
+                    <div>
+                <a href=""><img u="image" src="thumb/1366x490/1/upload/hinhanh/iphone-6s-banner-2038.png" alt="" /></a>
+            </div>
+                    <div>
+                <a href=""><img u="image" src="thumb/1366x490/1/upload/hinhanh/plugdevices-iphone7-webbanner-8422.png" alt="" /></a>
+            </div>
+                    <div>
+                <a href=""><img u="image" src="thumb/1366x490/1/upload/hinhanh/hd-ip-banner-5607.png" alt="" /></a>
+            </div>
+                    <div>
+                <a href=""><img u="image" src="thumb/1366x490/1/upload/hinhanh/bannertrangchu-3707.jpg" alt="" /></a>
+            </div>
+                        
+    </div>
+    <!-- Trigger -->
+          
+    <!-- Arrow Left -->
+    <span u="arrowleft" class="jssora05l" style="top:40%;"></span>
+    <!-- Arrow Right -->
+    <span u="arrowright" class="jssora05r" style="top:40%;"></span>
+</div><!-- Jssor Slider End -->
+</div><!---END #slider-->
+    <div id="main_content" class="wap_1200 clearfix">
+        <div class="slick_tieubieu border">
+	        <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-x-64gb-99-39.html" title="iPhone X 64GB 99%">
+                <img src="thumb/230x220/2/upload/sanpham/iphone-x-64gb-cu-gia-re-g428-1531961760691-6391.jpg" alt="iPhone X 64GB 99%" />
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/iphone-x-64gb-99-39.html" title="iPhone X 64GB 99%" >iPhone X 64GB 99%</a></h3>
+            <p class="sp_gia">
+                <span class="giakm"></span>
+                <span class="gia ">8.900.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp">Thông số kỹ thuật
+Màn hình:	OLED, 5.8", Super Retina
+Hệ điều...</p>
+        </div>
+            <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/ipad-air-2-16gb-163.html" title="IPAD AIR 2 16GB ">
+                <img src="thumb/230x220/2/upload/sanpham/ipad-air-2-1425.jpg" alt="IPAD AIR 2 16GB " />
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/ipad-air-2-16gb-163.html" title="IPAD AIR 2 16GB " >IPAD AIR 2 16GB </a></h3>
+            <p class="sp_gia">
+                <span class="giakm"></span>
+                <span class="gia ">6.500.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp"></p>
+        </div>
+            <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/ipad-4-16gb-162.html" title="IPAD 4 16GB ">
+                <img src="thumb/230x220/2/upload/sanpham/ipad-4-0703.jpg" alt="IPAD 4 16GB " />
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/ipad-4-16gb-162.html" title="IPAD 4 16GB " >IPAD 4 16GB </a></h3>
+            <p class="sp_gia">
+                <span class="giakm"></span>
+                <span class="gia ">3.950.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp"></p>
+        </div>
+            <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/macbook-air-2017-9999-154.html" title="Macbook Air 2017 99.99%">
+                <img src="thumb/230x220/2/upload/sanpham/165062955_1610769525786513_266415689862118470_o-5882.jpg" alt="Macbook Air 2017 99.99%" />
+                                <span class="phantram">-2%</span>
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/macbook-air-2017-9999-154.html" title="Macbook Air 2017 99.99%" >Macbook Air 2017 99.99%</a></h3>
+            <p class="sp_gia">
+                <span class="giakm">16.900.000  <b>đ</b></span>
+                <span class="gia giacu">17.200.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp">Macbook Air 2017 Còn BH 8 tháng FPT
+Full Box Phụ Kiện + hàng lướt...</p>
+        </div>
+            <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-11-64gb-new-100-136.html" title="IPHONE 11 64GB NEW 100%">
+                <img src="thumb/230x220/2/upload/sanpham/iphon11-5709.jpg" alt="IPHONE 11 64GB NEW 100%" />
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/iphone-11-64gb-new-100-136.html" title="IPHONE 11 64GB NEW 100%" >IPHONE 11 64GB NEW 100%</a></h3>
+            <p class="sp_gia">
+                <span class="giakm"></span>
+                <span class="gia ">16.500.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp">Điện thoại iPhone 11  – Camera nâng cấp, màu sắc trẻ trung
+iPhone...</p>
+        </div>
+            <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-11-pro-64gb-like-new-99-135.html" title="IPHONE 11 PRO 64GB LIKE NEW 99%">
+                <img src="thumb/230x220/2/upload/sanpham/apple-iphone-11-pro-max-2-sim-64gb-01568625931-9424.jpg" alt="IPHONE 11 PRO 64GB LIKE NEW 99%" />
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/iphone-11-pro-64gb-like-new-99-135.html" title="IPHONE 11 PRO 64GB LIKE NEW 99%" >IPHONE 11 PRO 64GB LIKE NEW 99...</a></h3>
+            <p class="sp_gia">
+                <span class="giakm"></span>
+                <span class="gia ">16.300.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp">iPhone 11 Pro - Siêu phẩm 3 camera chụp ảnh chuyên nghiệp
+iPhone...</p>
+        </div>
+            <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-12-128gb-new-100-133.html" title="iPhone 12 128Gb New 100%">
+                <img src="thumb/230x220/2/upload/sanpham/broshop-iphone-12-mini-8488.jpg" alt="iPhone 12 128Gb New 100%" />
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/iphone-12-128gb-new-100-133.html" title="iPhone 12 128Gb New 100%" >iPhone 12 128Gb New 100%</a></h3>
+            <p class="sp_gia">
+                <span class="giakm"></span>
+                <span class="gia ">22.500.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp">Điện thoại iPhone 12 - "Siêu phẩm" iPhone khẳng định đẳng...</p>
+        </div>
+            <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-12-64gb-new-131.html" title="iPhone 12  64Gb New">
+                <img src="thumb/230x220/2/upload/sanpham/broshop-iphone-12-mini-1679.jpg" alt="iPhone 12  64Gb New" />
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/iphone-12-64gb-new-131.html" title="iPhone 12  64Gb New" >iPhone 12  64Gb New</a></h3>
+            <p class="sp_gia">
+                <span class="giakm"></span>
+                <span class="gia ">20.900.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp">Điện thoại iPhone 12 - "Siêu phẩm" iPhone khẳng định đẳng...</p>
+        </div>
+            <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-12-pro-max-256gb-new-130.html" title="iPhone 12 Pro Max 256Gb New ">
+                <img src="thumb/230x220/2/upload/sanpham/5-0427.jpg" alt="iPhone 12 Pro Max 256Gb New " />
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/iphone-12-pro-max-256gb-new-130.html" title="iPhone 12 Pro Max 256Gb New " >iPhone 12 Pro Max 256Gb New </a></h3>
+            <p class="sp_gia">
+                <span class="giakm"></span>
+                <span class="gia ">31.500.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp">Điện thoại iPhone 12 Pro Max: Nâng tầm đẳng cấp sử dụng
+Cứ...</p>
+        </div>
+            <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-12-pro-128gb-129.html" title="iPhone 12 Pro 128Gb ">
+                <img src="thumb/230x220/2/upload/sanpham/5-3392.jpg" alt="iPhone 12 Pro 128Gb " />
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/iphone-12-pro-128gb-129.html" title="iPhone 12 Pro 128Gb " >iPhone 12 Pro 128Gb </a></h3>
+            <p class="sp_gia">
+                <span class="giakm"></span>
+                <span class="gia ">26.700.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp">Điện thoại iPhone 12 Pro - Đột phá về thiết kế, hiệu năng...</p>
+        </div>
+            <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-12-pro-max-128gb-new-128.html" title="iPhone 12 Pro Max 128Gb New ">
+                <img src="thumb/230x220/2/upload/sanpham/5-4845.jpg" alt="iPhone 12 Pro Max 128Gb New " />
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/iphone-12-pro-max-128gb-new-128.html" title="iPhone 12 Pro Max 128Gb New " >iPhone 12 Pro Max 128Gb New </a></h3>
+            <p class="sp_gia">
+                <span class="giakm"></span>
+                <span class="gia ">29.000.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp">Điện thoại iPhone 12 Pro Max: Nâng tầm đẳng cấp sử dụng
+Cứ...</p>
+        </div>
+            <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/apple-watch-se-44mm-new-100-124.html" title="Apple Watch SE 44MM New 100% ">
+                <img src="thumb/230x220/2/upload/sanpham/se-7511.png" alt="Apple Watch SE 44MM New 100% " />
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/apple-watch-se-44mm-new-100-124.html" title="Apple Watch SE 44MM New 100% " >Apple Watch SE 44MM New 100% </a></h3>
+            <p class="sp_gia">
+                <span class="giakm"></span>
+                <span class="gia ">9.300.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp"></p>
+        </div>
+            <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/apple-watch-se-40mm-new-100-123.html" title="Apple Watch SE 40MM New 100% ">
+                <img src="thumb/230x220/2/upload/sanpham/se-8247.png" alt="Apple Watch SE 40MM New 100% " />
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/apple-watch-se-40mm-new-100-123.html" title="Apple Watch SE 40MM New 100% " >Apple Watch SE 40MM New 100% </a></h3>
+            <p class="sp_gia">
+                <span class="giakm"></span>
+                <span class="gia ">8.300.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp"></p>
+        </div>
+            <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/apple-watch-series-6-44mm-new-100-122.html" title="Apple Watch Series 6 44MM New 100% ">
+                <img src="thumb/230x220/2/upload/sanpham/series-6-0512.jpg" alt="Apple Watch Series 6 44MM New 100% " />
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/apple-watch-series-6-44mm-new-100-122.html" title="Apple Watch Series 6 44MM New 100% " >Apple Watch Series 6 44MM New 100%...</a></h3>
+            <p class="sp_gia">
+                <span class="giakm"></span>
+                <span class="gia ">10.900.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp"></p>
+        </div>
+            <div class="item1">
+            <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/apple-watch-series-6-40mm-new-100-121.html" title="Apple Watch Series 6 40MM New 100% ">
+                <img src="thumb/230x220/2/upload/sanpham/series-6-6304.jpg" alt="Apple Watch Series 6 40MM New 100% " />
+                            </a></p>
+            <h3 class="sp_name"><a href="san-pham/apple-watch-series-6-40mm-new-100-121.html" title="Apple Watch Series 6 40MM New 100% " >Apple Watch Series 6 40MM New 100%...</a></h3>
+            <p class="sp_gia">
+                <span class="giakm"></span>
+                <span class="gia ">9.700.000 <b>đ</b></span>
+            </p>
+            <p class="mtsp"></p>
+        </div>
+     
+</div>
+<div class="qc zoom_hinh sp_img"><a href="" title="" target="_blank"><img src="thumb/1200x200/1/upload/hinhanh/" alt="THUẬN STORE " /></a></div>
+<div class="clearfix">
+            <div class="wap_dmc1 clearfix">
+        <div class="td clearfix">
+            <span class="td1" style="background: url(thumb/26x26/1/upload/sanpham/apple_logo-512-7396.png)no-repeat left center;">IPHONE </span>
+            <a href="san-pham/iphone-4">Xem tất cả</a>
+        </div>
+        <div class="border wap_sp clearfix">
+            <div class="leftsp"><p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-4.html" title="IPHONE "><img src="thumb/482x350/1/upload/sanpham/dm1-3702.jpg" alt="IPHONE " /></a></p></div>
+            <div class="rightsp clearfix">
+                                    <div class="item2">
+                        <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-x-64gb-99-39.html" title="iPhone X 64GB 99%">
+                            <img src="thumb/230x220/2/upload/sanpham/iphone-x-64gb-cu-gia-re-g428-1531961760691-6391.jpg" alt="iPhone X 64GB 99%" />
+                                                    </a></p>
+                        <h3 class="sp_name"><a href="san-pham/iphone-x-64gb-99-39.html" title="iPhone X 64GB 99%" >iPhone X 64GB 99%</a></h3>
+                        <p class="sp_gia">
+                            <span class="giakm"></span>
+                            <span class="gia ">8.900.000 <b>đ</b></span>
+                        </p>
+                        <p class="mtsp">Thông số kỹ thuật
+Màn hình:	OLED, 5.8", Super Retina
+Hệ...</p>
+                    </div>
+                                    <div class="item2">
+                        <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-11-64gb-new-100-136.html" title="IPHONE 11 64GB NEW 100%">
+                            <img src="thumb/230x220/2/upload/sanpham/iphon11-5709.jpg" alt="IPHONE 11 64GB NEW 100%" />
+                                                    </a></p>
+                        <h3 class="sp_name"><a href="san-pham/iphone-11-64gb-new-100-136.html" title="IPHONE 11 64GB NEW 100%" >IPHONE 11 64GB NEW 100%</a></h3>
+                        <p class="sp_gia">
+                            <span class="giakm"></span>
+                            <span class="gia ">16.500.000 <b>đ</b></span>
+                        </p>
+                        <p class="mtsp">Điện thoại iPhone 11  – Camera nâng cấp, màu sắc...</p>
+                    </div>
+                                    <div class="item2">
+                        <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-11-pro-64gb-like-new-99-135.html" title="IPHONE 11 PRO 64GB LIKE NEW 99%">
+                            <img src="thumb/230x220/2/upload/sanpham/apple-iphone-11-pro-max-2-sim-64gb-01568625931-9424.jpg" alt="IPHONE 11 PRO 64GB LIKE NEW 99%" />
+                                                    </a></p>
+                        <h3 class="sp_name"><a href="san-pham/iphone-11-pro-64gb-like-new-99-135.html" title="IPHONE 11 PRO 64GB LIKE NEW 99%" >IPHONE 11 PRO 64GB LIKE NEW...</a></h3>
+                        <p class="sp_gia">
+                            <span class="giakm"></span>
+                            <span class="gia ">16.300.000 <b>đ</b></span>
+                        </p>
+                        <p class="mtsp">iPhone 11 Pro - Siêu phẩm 3 camera chụp ảnh chuyên nghiệp
+iPhone...</p>
+                    </div>
+                 
+            </div>
+        </div>
+        <div class="wapsp clearfix">
+                            <div class="item">
+                    <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-12-128gb-new-100-133.html" title="iPhone 12 128Gb New 100%">
+                        <img src="thumb/230x220/2/upload/sanpham/broshop-iphone-12-mini-8488.jpg" alt="iPhone 12 128Gb New 100%" />
+                                            </a></p>
+                    <h3 class="sp_name"><a href="san-pham/iphone-12-128gb-new-100-133.html" title="iPhone 12 128Gb New 100%" >iPhone 12 128Gb New 100%</a></h3>
+                    <p class="sp_gia">
+                        <span class="giakm"></span>
+                        <span class="gia ">22.500.000 <b>đ</b></span>
+                    </p>
+                    <p class="mtsp">Điện thoại iPhone 12 - "Siêu phẩm" iPhone khẳng định đẳng...</p>
+                </div>
+                            <div class="item">
+                    <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-12-64gb-new-131.html" title="iPhone 12  64Gb New">
+                        <img src="thumb/230x220/2/upload/sanpham/broshop-iphone-12-mini-1679.jpg" alt="iPhone 12  64Gb New" />
+                                            </a></p>
+                    <h3 class="sp_name"><a href="san-pham/iphone-12-64gb-new-131.html" title="iPhone 12  64Gb New" >iPhone 12  64Gb New</a></h3>
+                    <p class="sp_gia">
+                        <span class="giakm"></span>
+                        <span class="gia ">20.900.000 <b>đ</b></span>
+                    </p>
+                    <p class="mtsp">Điện thoại iPhone 12 - "Siêu phẩm" iPhone khẳng định đẳng...</p>
+                </div>
+                            <div class="item">
+                    <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-12-pro-max-256gb-new-130.html" title="iPhone 12 Pro Max 256Gb New ">
+                        <img src="thumb/230x220/2/upload/sanpham/5-0427.jpg" alt="iPhone 12 Pro Max 256Gb New " />
+                                            </a></p>
+                    <h3 class="sp_name"><a href="san-pham/iphone-12-pro-max-256gb-new-130.html" title="iPhone 12 Pro Max 256Gb New " >iPhone 12 Pro Max 256Gb New </a></h3>
+                    <p class="sp_gia">
+                        <span class="giakm"></span>
+                        <span class="gia ">31.500.000 <b>đ</b></span>
+                    </p>
+                    <p class="mtsp">Điện thoại iPhone 12 Pro Max: Nâng tầm đẳng cấp sử dụng
+Cứ...</p>
+                </div>
+                            <div class="item">
+                    <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-12-pro-128gb-129.html" title="iPhone 12 Pro 128Gb ">
+                        <img src="thumb/230x220/2/upload/sanpham/5-3392.jpg" alt="iPhone 12 Pro 128Gb " />
+                                            </a></p>
+                    <h3 class="sp_name"><a href="san-pham/iphone-12-pro-128gb-129.html" title="iPhone 12 Pro 128Gb " >iPhone 12 Pro 128Gb </a></h3>
+                    <p class="sp_gia">
+                        <span class="giakm"></span>
+                        <span class="gia ">26.700.000 <b>đ</b></span>
+                    </p>
+                    <p class="mtsp">Điện thoại iPhone 12 Pro - Đột phá về thiết kế, hiệu năng...</p>
+                </div>
+                            <div class="item">
+                    <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/iphone-12-pro-max-128gb-new-128.html" title="iPhone 12 Pro Max 128Gb New ">
+                        <img src="thumb/230x220/2/upload/sanpham/5-4845.jpg" alt="iPhone 12 Pro Max 128Gb New " />
+                                            </a></p>
+                    <h3 class="sp_name"><a href="san-pham/iphone-12-pro-max-128gb-new-128.html" title="iPhone 12 Pro Max 128Gb New " >iPhone 12 Pro Max 128Gb New </a></h3>
+                    <p class="sp_gia">
+                        <span class="giakm"></span>
+                        <span class="gia ">29.000.000 <b>đ</b></span>
+                    </p>
+                    <p class="mtsp">Điện thoại iPhone 12 Pro Max: Nâng tầm đẳng cấp sử dụng
+Cứ...</p>
+                </div>
+             
+        </div>
+    </div>
+                <div class="wap_dmc1 clearfix">
+        <div class="td clearfix">
+            <span class="td1" style="background: url(thumb/26x26/1/upload/sanpham/53919172_1031025523760919_6074875208877998080_n-1243.jpg)no-repeat left center;">LAPTOP </span>
+            <a href="san-pham/laptop-8">Xem tất cả</a>
+        </div>
+        <div class="border wap_sp clearfix">
+            <div class="leftsp"><p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/laptop-8.html" title="LAPTOP "><img src="thumb/482x350/1/upload/sanpham/53919172_1031025523760919_6074875208877998080_n-4978.jpg" alt="LAPTOP " /></a></p></div>
+            <div class="rightsp clearfix">
+                                    <div class="item2">
+                        <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/laptop-hp-zbook-15-may-tram-do-hoa-155.html" title="LAPTOP HP ZBOOK 15 Máy Trạm Đồ Hoạ ">
+                            <img src="thumb/230x220/2/upload/sanpham/165946909_3784877601566193_1273906259005300313_n-2249.jpg" alt="LAPTOP HP ZBOOK 15 Máy Trạm Đồ Hoạ " />
+                                                    </a></p>
+                        <h3 class="sp_name"><a href="san-pham/laptop-hp-zbook-15-may-tram-do-hoa-155.html" title="LAPTOP HP ZBOOK 15 Máy Trạm Đồ Hoạ " >LAPTOP HP ZBOOK 15 Máy Trạm...</a></h3>
+                        <p class="sp_gia">
+                            <span class="giakm"></span>
+                            <span class="gia ">13.800.000 <b>đ</b></span>
+                        </p>
+                        <p class="mtsp">LAPTOP HP ZBOOK 15 Máy Trạm Đồ Hoạ 
+
+- Core i7 Gen...</p>
+                    </div>
+                                    <div class="item2">
+                        <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/macbook-air-2017-9999-154.html" title="Macbook Air 2017 99.99%">
+                            <img src="thumb/230x220/2/upload/sanpham/165062955_1610769525786513_266415689862118470_o-5882.jpg" alt="Macbook Air 2017 99.99%" />
+                                                        <span class="phantram">-2%</span>
+                                                    </a></p>
+                        <h3 class="sp_name"><a href="san-pham/macbook-air-2017-9999-154.html" title="Macbook Air 2017 99.99%" >Macbook Air 2017 99.99%</a></h3>
+                        <p class="sp_gia">
+                            <span class="giakm">16.900.000  <b>đ</b></span>
+                            <span class="gia giacu">17.200.000 <b>đ</b></span>
+                        </p>
+                        <p class="mtsp">Macbook Air 2017 Còn BH 8 tháng FPT
+Full Box Phụ Kiện...</p>
+                    </div>
+                                    <div class="item2">
+                        <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/laptop-hp-840-g2-141.html" title="LAPTOP HP 840 G2">
+                            <img src="thumb/230x220/2/upload/sanpham/c3e17af808a3fafda3b2-9792.jpg" alt="LAPTOP HP 840 G2" />
+                                                    </a></p>
+                        <h3 class="sp_name"><a href="san-pham/laptop-hp-840-g2-141.html" title="LAPTOP HP 840 G2" >LAPTOP HP 840 G2</a></h3>
+                        <p class="sp_gia">
+                            <span class="giakm"></span>
+                            <span class="gia ">7.500.000 <b>đ</b></span>
+                        </p>
+                        <p class="mtsp">LAPTOP HP 840 G2
+ CPU I5 THẾ HỆ  5
+Ram : 4GB upto 8GB
+Ssd...</p>
+                    </div>
+                 
+            </div>
+        </div>
+        <div class="wapsp clearfix">
+                            <div class="item">
+                    <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/laptop-dell-e5450-140.html" title="LAPTOP DELL E5450">
+                        <img src="thumb/230x220/2/upload/sanpham/b21e7c040e5ffc01a54e-6237.jpg" alt="LAPTOP DELL E5450" />
+                                            </a></p>
+                    <h3 class="sp_name"><a href="san-pham/laptop-dell-e5450-140.html" title="LAPTOP DELL E5450" >LAPTOP DELL E5450</a></h3>
+                    <p class="sp_gia">
+                        <span class="giakm"></span>
+                        <span class="gia ">7.400.000 <b>đ</b></span>
+                    </p>
+                    <p class="mtsp">CPU I5 THẾ HỆ  5
+ Ram : 4GB upto 8GB
+Ssd 128gb
+Card onboard
+Màn...</p>
+                </div>
+                            <div class="item">
+                    <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/laptop-hp-1040-g1-139.html" title="LAPTOP HP 1040 G1">
+                        <img src="thumb/230x220/2/upload/sanpham/70b370aa02f1f0afa9e0-0586.jpg" alt="LAPTOP HP 1040 G1" />
+                                            </a></p>
+                    <h3 class="sp_name"><a href="san-pham/laptop-hp-1040-g1-139.html" title="LAPTOP HP 1040 G1" >LAPTOP HP 1040 G1</a></h3>
+                    <p class="sp_gia">
+                        <span class="giakm"></span>
+                        <span class="gia ">8.500.000 <b>đ</b></span>
+                    </p>
+                    <p class="mtsp"> - CPU I7 THẾ HỆ  4
+ Ram : 4GB upto 8GB
+Ssd 240gb
+Card onboard
+...</p>
+                </div>
+                            <div class="item">
+                    <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/laptop-dell-e7240-137.html" title="LAPTOP DELL E7240">
+                        <img src="thumb/230x220/2/upload/sanpham/8c85fc9f8ec47c9a25d5-1096.jpg" alt="LAPTOP DELL E7240" />
+                                            </a></p>
+                    <h3 class="sp_name"><a href="san-pham/laptop-dell-e7240-137.html" title="LAPTOP DELL E7240" >LAPTOP DELL E7240</a></h3>
+                    <p class="sp_gia">
+                        <span class="giakm"></span>
+                        <span class="gia ">6.800.000 <b>đ</b></span>
+                    </p>
+                    <p class="mtsp">LAPTOP DELL E7240
+ - CPU I5 THẾ HỆ  4
+Ram : 4GB upto 8GB
+Ssd 128gb
+Card...</p>
+                </div>
+             
+        </div>
+    </div>
+                <div class="wap_dmc1 clearfix">
+        <div class="td clearfix">
+            <span class="td1" style="background: url(thumb/26x26/1/images/noimage.png)no-repeat left center;">MÁY TÍNH CHƠI GAME</span>
+            <a href="san-pham/may-tinh-choi-game-9">Xem tất cả</a>
+        </div>
+        <div class="border wap_sp clearfix">
+            <div class="leftsp"><p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/may-tinh-choi-game-9.html" title="MÁY TÍNH CHƠI GAME"><img src="thumb/482x350/1/upload/sanpham/maxresdefault_qfoi-7847.jpg" alt="MÁY TÍNH CHƠI GAME" /></a></p></div>
+            <div class="rightsp clearfix">
+                                    <div class="item2">
+                        <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/ghe-choi-game-vip-zero-chinh-hang-80.html" title="Ghế chơi game VIP ZERO Chính Hãng">
+                            <img src="thumb/230x220/2/upload/sanpham/121806650_2053660334767815_3162241229948500600_n-2573.jpg" alt="Ghế chơi game VIP ZERO Chính Hãng" />
+                                                    </a></p>
+                        <h3 class="sp_name"><a href="san-pham/ghe-choi-game-vip-zero-chinh-hang-80.html" title="Ghế chơi game VIP ZERO Chính Hãng" >Ghế chơi game VIP ZERO...</a></h3>
+                        <p class="sp_gia">
+                            <span class="giakm"></span>
+                            <span class="gia ">2.700.000 <b>đ</b></span>
+                        </p>
+                        <p class="mtsp"></p>
+                    </div>
+                                    <div class="item2">
+                        <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/ghe-gaming-choi-game-zero-chinh-hang-71.html" title="Ghế Gaming chơi game ZERO Chính Hãng">
+                            <img src="thumb/230x220/2/upload/sanpham/121806650_2053660334767815_3162241229948500600_n-6474.jpg" alt="Ghế Gaming chơi game ZERO Chính Hãng" />
+                                                    </a></p>
+                        <h3 class="sp_name"><a href="san-pham/ghe-gaming-choi-game-zero-chinh-hang-71.html" title="Ghế Gaming chơi game ZERO Chính Hãng" >Ghế Gaming chơi game ZERO...</a></h3>
+                        <p class="sp_gia">
+                            <span class="giakm"></span>
+                            <span class="gia ">2.700.000 <b>đ</b></span>
+                        </p>
+                        <p class="mtsp"></p>
+                    </div>
+                                    <div class="item2">
+                        <p class="sp_img zoom_hinh hover_sang3"><a href="/-.html" title="">
+                            <img src="thumb/230x220/2/images/noimage.png" alt="" />
+                                                    </a></p>
+                        <h3 class="sp_name"><a href="/-.html" title="" ></a></h3>
+                        <p class="sp_gia">
+                            <span class="giakm"></span>
+                            <span class="gia ">Liên hệ</span>
+                        </p>
+                        <p class="mtsp"></p>
+                    </div>
+                 
+            </div>
+        </div>
+        <div class="wapsp clearfix">
+             
+        </div>
+    </div>
+                <div class="wap_dmc1 clearfix">
+        <div class="td clearfix">
+            <span class="td1" style="background: url(thumb/26x26/1/upload/sanpham/ic-3867.png)no-repeat left center;">CAMERA</span>
+            <a href="san-pham/camera-5">Xem tất cả</a>
+        </div>
+        <div class="border wap_sp clearfix">
+            <div class="leftsp"><p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/camera-5.html" title="CAMERA"><img src="thumb/482x350/1/upload/sanpham/camera-quan-sat-9156.jpg" alt="CAMERA" /></a></p></div>
+            <div class="rightsp clearfix">
+                                    <div class="item2">
+                        <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/camera-quan-sat-52.html" title="camera quan sat">
+                            <img src="thumb/230x220/2/upload/sanpham/camera-tai-hue-camera-quan-sat-ahdh-vantech-vp114ahdh-toan-gia-phat-8751.jpg" alt="camera quan sat" />
+                                                    </a></p>
+                        <h3 class="sp_name"><a href="san-pham/camera-quan-sat-52.html" title="camera quan sat" >camera quan sat</a></h3>
+                        <p class="sp_gia">
+                            <span class="giakm"></span>
+                            <span class="gia ">750.000 <b>đ</b></span>
+                        </p>
+                        <p class="mtsp"></p>
+                    </div>
+                                    <div class="item2">
+                        <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/camera-quan-sat-51.html" title="camera quan sat">
+                            <img src="thumb/230x220/2/upload/sanpham/26402_hac_hdw1200e-6444.jpg" alt="camera quan sat" />
+                                                    </a></p>
+                        <h3 class="sp_name"><a href="san-pham/camera-quan-sat-51.html" title="camera quan sat" >camera quan sat</a></h3>
+                        <p class="sp_gia">
+                            <span class="giakm"></span>
+                            <span class="gia ">Liên hệ</span>
+                        </p>
+                        <p class="mtsp"></p>
+                    </div>
+                                    <div class="item2">
+                        <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/camera-quan-sat-50.html" title="camera quan sat">
+                            <img src="thumb/230x220/2/upload/sanpham/camera-tai-hue-camera-quan-sat-ahdh-vantech-vp114ahdh-toan-gia-phat-8927.jpg" alt="camera quan sat" />
+                                                    </a></p>
+                        <h3 class="sp_name"><a href="san-pham/camera-quan-sat-50.html" title="camera quan sat" >camera quan sat</a></h3>
+                        <p class="sp_gia">
+                            <span class="giakm"></span>
+                            <span class="gia ">Liên hệ</span>
+                        </p>
+                        <p class="mtsp"></p>
+                    </div>
+                 
+            </div>
+        </div>
+        <div class="wapsp clearfix">
+                            <div class="item">
+                    <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/camera-quan-sat-hik-vision-49.html" title="camera quan sat HIK VISION">
+                        <img src="thumb/230x220/2/upload/sanpham/26664-1-3578.jpg" alt="camera quan sat HIK VISION" />
+                                            </a></p>
+                    <h3 class="sp_name"><a href="san-pham/camera-quan-sat-hik-vision-49.html" title="camera quan sat HIK VISION" >camera quan sat HIK VISION</a></h3>
+                    <p class="sp_gia">
+                        <span class="giakm"></span>
+                        <span class="gia ">8.500.000 <b>đ</b></span>
+                    </p>
+                    <p class="mtsp"></p>
+                </div>
+                            <div class="item">
+                    <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/camera-quan-sat-48.html" title="camera quan sat">
+                        <img src="thumb/230x220/2/upload/sanpham/camera-hikvision_1-4504.jpg" alt="camera quan sat" />
+                                            </a></p>
+                    <h3 class="sp_name"><a href="san-pham/camera-quan-sat-48.html" title="camera quan sat" >camera quan sat</a></h3>
+                    <p class="sp_gia">
+                        <span class="giakm"></span>
+                        <span class="gia ">Liên hệ</span>
+                    </p>
+                    <p class="mtsp">camera quan sat</p>
+                </div>
+                            <div class="item">
+                    <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/camera-quan-sat-47.html" title="camera quan sat">
+                        <img src="thumb/230x220/2/upload/sanpham/camera-quan-sat-samsung-sco-2080p_s2702-1-9866.jpg" alt="camera quan sat" />
+                                            </a></p>
+                    <h3 class="sp_name"><a href="san-pham/camera-quan-sat-47.html" title="camera quan sat" >camera quan sat</a></h3>
+                    <p class="sp_gia">
+                        <span class="giakm"></span>
+                        <span class="gia ">800.000 <b>đ</b></span>
+                    </p>
+                    <p class="mtsp"></p>
+                </div>
+                            <div class="item">
+                    <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/camera-quan-sat-46.html" title="camera quan sat">
+                        <img src="thumb/230x220/2/upload/sanpham/weatherproof-camera-1-300x240-1733.jpg" alt="camera quan sat" />
+                                            </a></p>
+                    <h3 class="sp_name"><a href="san-pham/camera-quan-sat-46.html" title="camera quan sat" >camera quan sat</a></h3>
+                    <p class="sp_gia">
+                        <span class="giakm"></span>
+                        <span class="gia ">850.000 <b>đ</b></span>
+                    </p>
+                    <p class="mtsp"></p>
+                </div>
+                            <div class="item">
+                    <p class="sp_img zoom_hinh hover_sang3"><a href="san-pham/camera-quan-sat-45.html" title="camera quan sat">
+                        <img src="thumb/230x220/2/upload/sanpham/camera-quan-sat-ip-hd-wit-6032hdk-1284.jpg" alt="camera quan sat" />
+                                            </a></p>
+                    <h3 class="sp_name"><a href="san-pham/camera-quan-sat-45.html" title="camera quan sat" >camera quan sat</a></h3>
+                    <p class="sp_gia">
+                        <span class="giakm"></span>
+                        <span class="gia ">850.000 <b>đ</b></span>
+                    </p>
+                    <p class="mtsp"></p>
+                </div>
+             
+        </div>
+    </div>
+        </div>
+<div class="qc zoom_hinh sp_img"><a href="" title="" target="_blank"><img src="thumb/1200x200/1/upload/hinhanh/" alt="THUẬN STORE " /></a></div>
+<div class="clearfix">
+    <div class="tintucnb clearfix">
+        <div class="tieude_giua">Tin tức - sự kiện</div>
+        <p class="p1">Cập nhật những thông tin, tin tức mới nhất</p>
+        <div class="ttleft">
+            <p class="sp_img zoom_hinh"><a href="tin-tuc/cach-su-dung-but-apple-pencil-nay-tren-bat-cu-iphone-ipad-nao-18.html"><img src="thumb/360x200/1/upload/news/meo-hack-but-apple-pencil-don-gian-den-khong-ngo-de-su-dung-voi-iphone-va-ipad-doi-cu_8-9580.jpg" alt="Cách sử dụng bút Apple Pencil này trên bất cứ iPhone, iPad nào" /></a></p>
+            <h3 class="sp_name"><a class="catchuoi1" href="tin-tuc/cach-su-dung-but-apple-pencil-nay-tren-bat-cu-iphone-ipad-nao-18.html">Cách sử dụng bút Apple Pencil này trên bất cứ iPhone, iPad nào</a></h3>
+            <p class="mota catchuoi3">Apple Pencil có giá bán là 99 USD và nó chỉ sử dụng được cho iPad Pro (10,5 inch và 12,9 inch) và iPad 6. Nhưng chỉ với một tờ giấy ăn ẩm ướt, bạn có thể sử dụng chiếc bút này trên bất cứ iPhone, iPad nào. Hãy xem cách “hack” nhé (thủ thuật của trang iDevice Help)</p>
+            <p class="pxt"><a href="tin-tuc/cach-su-dung-but-apple-pencil-nay-tren-bat-cu-iphone-ipad-nao-18.html">Xem thêm</a></p>
+        </div>
+        <div class="ttright">
+                            <div class="item_tt">
+                    <p class="img_tt sp_img zoom_hinh"><a href="tin-tuc/may-tinh-bang-ipad-pro-97inch-moi-ra-mat-19.html"><img src="thumb/150x110/1/upload/news/may-tinh-bang-ipad-pro-97-inch-moi-ra-mat_471-0950.jpeg" alt="Máy tính bảng iPad Pro 9,7-inch mới ra m​ắt" /></a></p>
+                    <p class="ngaytao"><i class="far fa-calendar"></i> 28-08-2018</p>
+                    <h3 class="mota"><a href="tin-tuc/may-tinh-bang-ipad-pro-97inch-moi-ra-mat-19.html">Máy tính bảng iPad Pro 9,7-inch mới ra m​ắt</a></h3>
+                </div>
+                            <div class="item_tt">
+                    <p class="img_tt sp_img zoom_hinh"><a href="tin-tuc/tren-tay-hp-elitebook-x360-1030-g2-mong-nhe-nhung-chac-chan-tinh-bao-mat-cao-20.html"><img src="thumb/150x110/1/upload/news/tren-tay-hp-elitebook-x360-1030-g2-mong-nhe-nhung-chac-chan-tinh-bao-mat-cao_2-4633.jpg" alt="Trên tay HP EliteBook x360 1030 G2 – Mỏng nhẹ nhưng chắc chắn, tính bảo mật cao" /></a></p>
+                    <p class="ngaytao"><i class="far fa-calendar"></i> 28-08-2018</p>
+                    <h3 class="mota"><a href="tin-tuc/tren-tay-hp-elitebook-x360-1030-g2-mong-nhe-nhung-chac-chan-tinh-bao-mat-cao-20.html">Trên tay HP EliteBook x360 1030 G2 – Mỏng nhẹ nhưng chắc chắn, tính bảo mật cao</a></h3>
+                </div>
+                            <div class="item_tt">
+                    <p class="img_tt sp_img zoom_hinh"><a href="tin-tuc/anker-tung-combo-6-mon-phu-kien-meo-u-sieu-de-thuong-danh-cho-iphone-12-26.html"><img src="thumb/150x110/1/upload/news/gsmarena000-16043333711361872875825-3618.jpg" alt="Anker tung combo 6 món phụ kiện "mèo ú" siêu dễ thương dành cho iPhone 12" /></a></p>
+                    <p class="ngaytao"><i class="far fa-calendar"></i> 03-11-2020</p>
+                    <h3 class="mota"><a href="tin-tuc/anker-tung-combo-6-mon-phu-kien-meo-u-sieu-de-thuong-danh-cho-iphone-12-26.html">Anker tung combo 6 món phụ kiện "mèo ú" siêu dễ thương dành cho iPhone 12</a></h3>
+                </div>
+                            <div class="item_tt">
+                    <p class="img_tt sp_img zoom_hinh"><a href="tin-tuc/nguoi-mua-iphone-12-nhan-hang-luc-nua-dem-27.html"><img src="thumb/150x110/1/upload/news/126901660-390042968915174-2266769517847182481-n-1606416571-7794.jpg" alt="Người mua iPhone 12 nhận hàng lúc nửa đêm" /></a></p>
+                    <p class="ngaytao"><i class="far fa-calendar"></i> 27-11-2020</p>
+                    <h3 class="mota"><a href="tin-tuc/nguoi-mua-iphone-12-nhan-hang-luc-nua-dem-27.html">Người mua iPhone 12 nhận hàng lúc nửa đêm</a></h3>
+                </div>
+                    </div>
+    </div>
+    <div class="video">
+        <div class="tieude_giua">video - clips</div>
+        <p class="p1">Cập nhật những video, clips mới nhất</p>
+        <link href="css/fotorama.css" rel="stylesheet">
+        <script src="js/fotorama.js" type="text/javascript"></script>
+        <div class="fotorama" data-nav="thumbs" data-width="700" data-arrows="true" data-thumbwidth="130" data-thumbheight="90" data-loop="true" data-autoplay="40000" data-fit="contain" data-allowfullscreen="true" data-stopautoplayontouch="false"> 
+                            <a href="https://www.youtube.com/watch?v=tS0PFs0orJQ">iPhone 8 Plus vs Galaxy Note 9 Speed Test!</a>
+                            <a href="https://www.youtube.com/watch?v=vSR5XZCIEq4">iPhone 2018 có tên chính thức: iPhone 9/ iPhone Xs/ Xs Plus</a>
+                            <a href="https://www.youtube.com/watch?v=zcYqtSk5twk">CÁCH TẠO TÀI KHOẢN ICLOUD CHO IPHONE ĐƠN GIẢN DỄ HIỂU NHẤ</a>
+                            <a href="https://www.youtube.com/watch?v=EGK-DBSlaxg">iPhone 2018: Dấu chấm hết cho một kỉ nguyên thống trị!</a>
+                    </div>
+    </div>
+</div>
+ 
+    </div>    
+   	<div class="wap_doitac">
+    <div class="wap_1200">
+        <div class="slick_doitac">
+                        <div class="doitac">
+                <a href="" title="" target="_blank"><img src="thumb/186x90/2/upload/hinhanh/logo-vantech1-3853.jpg" alt="THUẬN STORE " /></a>
+            </div>
+                        <div class="doitac">
+                <a href="" title="" target="_blank"><img src="thumb/186x90/2/upload/hinhanh/logo-kbvision1-8439.jpg" alt="THUẬN STORE " /></a>
+            </div>
+                        <div class="doitac">
+                <a href="" title="" target="_blank"><img src="thumb/186x90/2/upload/hinhanh/brasol.vn-logo-sony-sony-logo-7554.png" alt="THUẬN STORE " /></a>
+            </div>
+                        <div class="doitac">
+                <a href="" title="" target="_blank"><img src="thumb/186x90/2/upload/hinhanh/logo-asus-6191.jpg" alt="THUẬN STORE " /></a>
+            </div>
+                        <div class="doitac">
+                <a href="" title="" target="_blank"><img src="thumb/186x90/2/upload/hinhanh/hp_new_logo_2d.svg-7628.png" alt="THUẬN STORE " /></a>
+            </div>
+                        <div class="doitac">
+                <a href="" title="" target="_blank"><img src="thumb/186x90/2/upload/hinhanh/1024px-dell_logo.svg-4546.png" alt="THUẬN STORE " /></a>
+            </div>
+                        <div class="doitac">
+                <a href="" title="" target="_blank"><img src="thumb/186x90/2/upload/hinhanh/6a00d834515c5f69e201bb09ab8f8e970d-800wi-3506.png" alt="THUẬN STORE " /></a>
+            </div>
+                    </div>
+    </div>
+</div>
+<div class="wap_1200 clearfix">
+    <div class="leftdk">
+        <div class="tieude">đăng ký nhận tin</div>
+        <p>Nhập thông tin của bạn để nhận những tin tức mới nhất</p>
+    </div>
+    <div class="dknt">
+        <script type="text/javascript" language="javascript">
+	function nhantin(){
+		if(isEmpty($('#email_nhantin').val(), "Nhập email của bạn"))
+			{
+				$('#email_nhantin').focus();
+				return false;
+			}
+			if(isEmail($('#email_nhantin').val(), "Email không hợp lệ"))
+			{
+				$('#email_nhantin').focus();
+				return false;
+			}	
+		document.frm_dknt.submit();
+	}
+</script>
+<div id="dknt">
+    <form name="frm_dknt" id="frm_dknt" class="clearfix" method="post" action="" >
+        <input type="email" name="email_nhantin" id="email_nhantin" placeholder="Nhập email của bạn" />
+        <input type="button" name="submit_nhantin" id="submit_nhantin" onclick="nhantin()" value="đăng ký" />
+    </form>
+</div>    </div>
+    <div class="mxh">
+                    <a href="http://google.com" target="_blank" title="google.com"><img src="thumb/45x45/1/upload/khac/gg-8412.png" alt="google.com" /></a>
+                    <a href="http://tiwtter.com" target="_blank" title="tiwtter.com"><img src="thumb/45x45/1/upload/khac/ww-3946.png" alt="tiwtter.com" /></a>
+                    <a href="http://youtube.com" target="_blank" title="youtube.com"><img src="thumb/45x45/1/upload/khac/in-6188.png" alt="youtube.com" /></a>
+                    <a href="http://facebook.com" target="_blank" title="facebook.com"><img src="thumb/45x45/1/upload/khac/fb-5362.png" alt="facebook.com" /></a>
+            </div>
+</div>
+<div id="wap_footer">
+    <div class="wap_1200 clearfix">
+        <div id="main_footer">
+            <p><strong><span style="font-size:20px;"><span style="font-family:helvetica;">CỬA HÀNG ĐTDĐ - MÁY TÍNH THUẬN 2</span></span></strong></p>
+
+<p><span style="font-family:times new roman,times,serif;"><strong>MST: 46C8030795</strong><em> - Đăng ký lần đầu, ngày 10 tháng 03 năm 2020</em><br />
+<strong>Người đại diện: Trương Văn Thoại</strong></span><br />
+<br />
+<span style="font-family:times new roman,times,serif;"><span style="font-size: 16px; white-space: pre-wrap;">Địa chỉ : Số 83 đường N5 - KP. 6, P. Thới Hòa, TX. Bến Cát, Bình Dương </span><br />
+<span style="white-space: pre-wrap; font-size: 16px;">Hotline: 0967111218 - 0868555561 </span><br />
+<span style="white-space: pre-wrap; font-size: 16px;">CN 2 : Ngã Tư Cổng Sau Mỹ Phước 2 - QL13 - Thới Hoà - Bến Cát </span><br />
+<span style="white-space: pre-wrap; font-size: 16px;">Hotline: 0971555561 - 0982555561</span><br />
+<span style="font-size: 16px;">Email: vitinhhaithuan@gmail.com</span><br />
+<span style="font-size: 16px;">Website: ThuanStore.net - iphonebencat.com - Laptopbencat.com</span></span></p>
+
+<p> </p>
+
+<p><iframe allowfullscreen="" aria-hidden="false" frameborder="0" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.8318673625677!2d106.60152021410781!3d11.125896755689679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174cde298bd0c5b%3A0x9d83d4af29586230!2zVGh14bqtbiBTdG9yZSAyIC0gaVBob25lIELhur9uIEPDoXQgLSBCw6xuaCBExrDGoW5n!5e0!3m2!1svi!2s!4v1602294553094!5m2!1svi!2s" style="border:0;" tabindex="0" width="100%"></iframe></p>
+
+<p> </p>
+        </div>
+        <div class="chinhsach">
+            <div class="td_ft">chính sách</div>
+                            <p><a href="chinh-sach/chinh-sach-bao-mat-thong-tin-21.html" title="Chính sách bảo mật thông tin">Chính sách bảo mật thông tin</a></p>
+                            <p><a href="chinh-sach/chinh-sach-doi-tra-hang-22.html" title="Chính sách đổi, trả hàng">Chính sách đổi, trả hàng</a></p>
+                            <p><a href="chinh-sach/chinh-sach-bao-hanh-23.html" title="Chính sách bảo hành">Chính sách bảo hành</a></p>
+                            <p><a href="chinh-sach/hinh-thuc-thanh-toan-24.html" title="Hình thức thanh toán">Hình thức thanh toán</a></p>
+                         
+        </div>
+        <div class="fanpage">
+            <div class="fb-page" data-height="225" data-width="345" data-href="https://www.facebook.com/Iphone-B%E1%BA%BFn-C%C3%A1t-B%C3%ACnh-D%C6%B0%C6%A1ng-1341481799261048/?hc_ref=ARRlgTnYOtU62KU5FFBYsAFbePOxEwR8hEO9bcroWE_zPv4TE7XXW45YzuJOoCGTg6A&fref=nf&__tn__=kC-R" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"></div></div>  
+        </div>
+    </div></div><div class="copy-right">
+    <div class="wap_1200 clearfix">
+        <div class="cop-l">2018 Copyright © <span>THUẬN STORE </span>.Web Design by nina.vn</div>
+        <div class="cop-r">
+        Đang online: <span>6</span>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        Tổng truy cập: <span>294537</span>
+        </div>
+    </div>
+</div>  
+ 
+</div>
+ 
+    
+ 	
+<style>
+	div.chat_facebook
+	{
+		position:fixed;
+		right:0;
+		bottom:0;
+		width:250px;
+		z-index:777777;
+	}
+	div.tieude_chat
+	{
+		background: #3B5998;
+		color: #fff;
+		width: 50%;
+		padding: 3px 7px;
+		font-size: 15px;
+		cursor:pointer;
+	}
+	@media screen and (max-width: 800px) {
+		div.chat_facebook
+		{
+			position:fixed;
+			right:-110px;
+			bottom:-300px;
+			width:250px;
+			z-index:777777;
+		}
+	}
+</style>
+<div class="chat_facebook"><div class="tieude_chat">Facebook chat</div>
+	<div class='fb-page chat-item' data-adapt-container-width='true' data-height='300' data-hide-cover='false' data-href='https://www.facebook.com/Iphone-B%E1%BA%BFn-C%C3%A1t-B%C3%ACnh-D%C6%B0%C6%A1ng-1341481799261048/?hc_ref=ARRlgTnYOtU62KU5FFBYsAFbePOxEwR8hEO9bcroWE_zPv4TE7XXW45YzuJOoCGTg6A&fref=nf&__tn__=kC-R' data-show-facepile='true' data-show-posts='false' data-small-header='false' data-tabs='messages' data-width='250'></div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function(e) {
+        $('.tieude_chat').click(function(){
+			if($('.chat_facebook').css('right')=='0px')
+			{
+				$('.chat_facebook').animate({bottom:-300},500).animate({right:-110},300);
+			}
+			else
+			{
+				$('.chat_facebook').animate({right:0},300).animate({bottom:0},500);
+			}
+			$.ajax({
+				url:'ajax/tao_session.php',
+				success:function(kq){
+					console.log(kq);
+				}
+			});
+		});
+    });
+</script>
+
+
+<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js" ></script>
+<script type="text/javascript" src="js/my_script.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/jssor.js"></script>
+<script type="text/javascript" src="js/jssor.slider.js"></script>
+<script type="text/javascript" src="js/js_jssor_slider.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.slick_doitac').slick({
+		  	lazyLoad: 'ondemand',
+        	infinite: true,//Hiển thì 2 mũi tên
+			accessibility:true,
+			vertical:false,//Chay dọc
+		  	slidesToShow: 6,    //Số item hiển thị
+		  	slidesToScroll: 1, //Số item cuộn khi chạy
+		  	autoplay:true,  //Tự động chạy
+			autoplaySpeed:3000,  //Tốc độ chạy
+			speed:1000,
+			arrows:false, //Hiển thị mũi tên
+			centerMode:false,  //item nằm giữa
+			dots:false,  //Hiển thị dấu chấm
+			draggable:false,  //Kích hoạt tính năng kéo chuột
+			//mobileFirst:true
+      });
+      $('.slick_tieubieu').slick({
+		  	lazyLoad: 'ondemand',
+        	infinite: true,//Hiển thì 2 mũi tên
+			accessibility:true,
+			vertical:false,//Chay dọc
+		  	slidesToShow: 5,    //Số item hiển thị
+		  	slidesToScroll: 1, //Số item cuộn khi chạy
+		  	autoplay:true,  //Tự động chạy
+			autoplaySpeed:3000,  //Tốc độ chạy
+			speed:1000,
+			arrows:false, //Hiển thị mũi tên
+			centerMode:false,  //item nằm giữa
+			dots:false,  //Hiển thị dấu chấm
+			draggable:false,  //Kích hoạt tính năng kéo chuột
+			//mobileFirst:true
+      });
+      $('.ttright').slick({
+		  	lazyLoad: 'ondemand',
+        	infinite: true,//Hiển thì 2 mũi tên
+			accessibility:true,
+			vertical:true,//Chay dọc
+		  	slidesToShow: 3,    //Số item hiển thị
+		  	slidesToScroll: 1, //Số item cuộn khi chạy
+		  	autoplay:true,  //Tự động chạy
+			autoplaySpeed:3000,  //Tốc độ chạy
+			speed:1000,
+			arrows:false, //Hiển thị mũi tên
+			centerMode:false,  //item nằm giữa
+			dots:false,  //Hiển thị dấu chấm
+			draggable:false,  //Kích hoạt tính năng kéo chuột
+			//mobileFirst:true
+      });
+	});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function(e) {
+		
+		$('a.themgiohang').click(function(){
+				var size = '';
+				var mausac = '';
+				var act = "dathang";
+				var id = $(this).attr('rel');
+				var soluong = 1;
+				
+				$.ajax({
+					type:'post',
+					url:'ajax/cart.php',
+					dataType:'json',
+					data:{id:id,size:size,mausac:mausac,soluong:soluong,act:act},
+					beforeSend: function() {
+						$('.thongbao').html('<p><img src="images/loader_p.gif"></p>');  
+					},
+					error: function(){
+						add_popup('Hệ thống bị lỗi, xin quý khách chuyển sang mục khác.');
+					},
+					success:function(kq){
+						document.getElementById('themhang').style.opacity =1
+						setTimeout(function() {
+						document.getElementById('themhang').style.opacity =0
+						}, 700);
+					}
+				});
+				
+			return false;
+		});
+	});
+</script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	$(document).ready(function(e) {		
+		//tạo menu mobile
+		var menu_mobi = $('.wap_menu ul').html();
+		$('.menu_mobi_add').append('<span class="close_menu">X</span><ul>'+menu_mobi+'</ul>');
+		$(".menu_mobi_add ul li a").click(function(){
+			if($(this).parent('li').children('ul').length>0){
+				$(".menu_m ul li ul").hide(0);
+				$(this).parents('li').children('ul').show(300);
+				return false;
+			}
+		});
+		
+		$('.icon_menu_mobi,.close_menu,.menu_baophu').click(function(){
+			if($('.menu_mobi_add').hasClass('menu_mobi_active'))
+			{
+				$('.menu_mobi_add').removeClass('menu_mobi_active');
+				$('.menu_baophu').fadeOut(300);
+			}
+			else
+			{
+				$('.menu_mobi_add').addClass('menu_mobi_active');
+				$('.menu_baophu').fadeIn(300);
+			}
+			return false;
+		});
+		
+		//Hover vào menu xổ xuống
+		$(".menu ul li").hover(function(){
+			$(this).find('ul:first').css({visibility: "visible",display: "none"}).show(300); 
+			},function(){ 
+			$(this).find('ul:first').css({visibility: "hidden"});
+			}); 
+		$(".menu ul li").hover(function(){
+				$(this).find('>a').addClass('active2'); 
+			},function(){ 
+				$(this).find('>a').removeClass('active2'); 
+		});
+		
+		$("#danhmuc > ul > li > a").click(function(){
+			if($(this).parents('li').children('ul').find('li').length>0)
+			{
+				$("#danhmuc ul li ul").hide(300);
+				
+				if($(this).hasClass('active'))
+				{
+					$("#danhmuc ul li a").removeClass('active');
+					$(this).parents('li').find('ul:first').hide(300); 
+					$(this).removeClass('active');
+				}
+				else
+				{
+					$("#danhmuc ul li a").removeClass('active');
+					$(this).parents('li').find('ul:first').show(300); 
+					$(this).addClass('active');
+				}
+				return false;
+			}
+		});
+		//Thêm alt cho hình ảnh
+        $('img').each(function(index, element) {
+			if(!$(this).attr('alt') || $(this).attr('alt')=='')
+			{
+				$(this).attr('alt','THUẬN STORE ');
+			}
+        });
+    });
+</script>
+
+<script language="javascript"> 
+    function doEnter(evt){
+		var key;
+		if(evt.keyCode == 13 || evt.which == 13){
+			onSearch(evt);
+		}
+	}
+	function onSearch(evt) {			
+	
+		var keyword = document.getElementById("keyword").value;
+		if(keyword=='' || keyword=='Nhập từ khóa tìm kiếm...')
+		{
+			add_popup_ok('Bạn chưa nhập từ khóa tìm kiếm.'); 
+		}
+		else{
+			location.href = "tim-kiem.html&keyword="+keyword;
+			loadPage(document.location);			
+		}
+	}		
+</script>   
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(window).scroll(function(){
+			var cach_top = $(window).scrollTop();
+			var heaigt_header = $('#header').height();
+
+			if(cach_top >= heaigt_header){
+				$('.wap_menu').addClass('wap_mnfix');
+			}else{
+				$('.wap_menu').removeClass('wap_mnfix');
+			}
+		});
+	});
+ </script>
+
+
+
+
+
+
+
+</body>
+</html>

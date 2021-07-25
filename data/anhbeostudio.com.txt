@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html lang="vi" class="ie9 loading-site no-js"> <![endif]-->
+<!--[if IE 8 ]><html lang="vi" class="ie8 loading-site no-js"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="vi" class="loading-site no-js"> <!--<![endif]--><head><meta charset="UTF-8" /><link rel="profile" href="http://gmpg.org/xfn/11" /><link rel="pingback" href="https://anhbeostudio.com/xmlrpc.php" /> <script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script> <style type="text/css" media="screen">#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active:hover,body #booked-profile-page input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar thead,body table.booked-calendar thead th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .booked-tabs li.active a,body #booked-profile-page .booked-tabs li.active a:hover,body #booked-profile-page .appt-block .google-cal-button > a:hover,#ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header{ background:#364732 !important; }body #booked-profile-page input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .appt-block .google-cal-button > a:hover{ border-color:#364732 !important; }body table.booked-calendar tr.days,body table.booked-calendar tr.days th,body .booked-calendarSwitcher.calendar,body #booked-profile-page .booked-tabs,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead th{ background:#004201 !important; }body table.booked-calendar tr.days th,body #booked-profile-page .booked-tabs{ border-color:#004201 !important; }#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a:hover,body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block,body #booked-profile-page .appt-block .google-cal-button > a,body .booked-modal p.booked-title-bar,body table.booked-calendar td:hover .date span,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover,.booked-ms-modal .booked-book-appt /* Multi-Slot Booking */{ background:#56C477; }body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body #booked-profile-page .appt-block .google-cal-button > a,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover{ border-color:#56C477; }body .booked-modal .bm-window p i.fa,body .booked-modal .bm-window a,body .booked-appt-list .booked-public-appointment-title,body .booked-modal .bm-window p.appointment-title,.booked-ms-modal.visible:hover .booked-book-appt{ color:#56C477; }.booked-appt-list .timeslot.has-title .booked-public-appointment-title { color:inherit; }</style><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><title>Trang chủ - Tiệm ảnh Anh Béo</title><meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" /><link rel="canonical" href="https://anhbeostudio.com/" /><meta property="og:locale" content="vi_VN" /><meta property="og:type" content="website" /><meta property="og:title" content="Trang chủ - Tiệm ảnh Anh Béo" /><meta property="og:url" content="https://anhbeostudio.com/" /><meta property="og:site_name" content="Tiệm ảnh Anh Béo" /><meta property="article:publisher" content="https://fb.com/anhbeostudio" /><meta property="article:modified_time" content="2021-03-12T03:34:22+00:00" /><meta property="og:image" content="https://anhbeostudio.com/wp-content/uploads/2020/12/80130210_139656024121457_3175527741525065728_o.jpg" /><meta property="og:image:width" content="1440" /><meta property="og:image:height" content="1440" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:label1" content="Ước tính thời gian đọc"><meta name="twitter:data1" content="4 phút"> <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://anhbeostudio.com/#organization","name":"Ti\u1ec7m \u1ea3nh Anh B\u00e9o","url":"https://anhbeostudio.com/","sameAs":["https://fb.com/anhbeostudio","https://instagram.com/anhbeostudio"],"logo":{"@type":"ImageObject","@id":"https://anhbeostudio.com/#logo","inLanguage":"vi","url":"https://anhbeostudio.com/wp-content/uploads/2021/01/91056291_207307374022988_6162605855838568448_o.png","width":2048,"height":2048,"caption":"Ti\u1ec7m \u1ea3nh Anh B\u00e9o"},"image":{"@id":"https://anhbeostudio.com/#logo"}},{"@type":"WebSite","@id":"https://anhbeostudio.com/#website","url":"https://anhbeostudio.com/","name":"Ti\u1ec7m \u1ea3nh Anh B\u00e9o - AB Media","description":"Ch\u1ee5p \u1ea3nh k\u1ef7 y\u1ebfu","publisher":{"@id":"https://anhbeostudio.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://anhbeostudio.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"vi"},{"@type":"ImageObject","@id":"https://anhbeostudio.com/#primaryimage","inLanguage":"vi","url":"https://anhbeostudio.com/wp-content/uploads/2020/12/80130210_139656024121457_3175527741525065728_o.jpg","width":1440,"height":1440},{"@type":"WebPage","@id":"https://anhbeostudio.com/#webpage","url":"https://anhbeostudio.com/","name":"Trang ch\u1ee7 - Ti\u1ec7m \u1ea3nh Anh B\u00e9o","isPartOf":{"@id":"https://anhbeostudio.com/#website"},"about":{"@id":"https://anhbeostudio.com/#organization"},"primaryImageOfPage":{"@id":"https://anhbeostudio.com/#primaryimage"},"datePublished":"2013-08-06T20:13:19+00:00","dateModified":"2021-03-12T03:34:22+00:00","inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://anhbeostudio.com/"]}]}]}</script> <meta name="google-site-verification" content="nE50d9BovwhitrQwK4lWgaPaW2hcLTDbUNPU7spi_24" /><link rel='dns-prefetch' href='//fonts.googleapis.com' /><link rel='dns-prefetch' href='//s.w.org' /><link rel="alternate" type="application/rss+xml" title="Dòng thông tin Tiệm ảnh Anh Béo &raquo;" href="https://anhbeostudio.com/feed/" /><link rel="alternate" type="application/rss+xml" title="Dòng phản hồi Tiệm ảnh Anh Béo &raquo;" href="https://anhbeostudio.com/comments/feed/" /> <script type="text/javascript">window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/anhbeostudio.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);</script> <style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style><link data-optimized="1" rel='stylesheet' id='wp-block-library-css'  href='https://anhbeostudio.com/wp-content/litespeed/cssjs/4edbc.css?f2b7b' type='text/css' media='all' /><link data-optimized="1" rel='stylesheet' id='booked-icons-css'  href='https://anhbeostudio.com/wp-content/litespeed/cssjs/90733.css?25462' type='text/css' media='all' /><link data-optimized="1" rel='stylesheet' id='booked-tooltipster-css'  href='https://anhbeostudio.com/wp-content/litespeed/cssjs/5f8d9.css?3432c' type='text/css' media='all' /><link data-optimized="1" rel='stylesheet' id='booked-tooltipster-theme-css'  href='https://anhbeostudio.com/wp-content/litespeed/cssjs/01d4a.css?5de2a' type='text/css' media='all' /><link data-optimized="1" rel='stylesheet' id='booked-animations-css'  href='https://anhbeostudio.com/wp-content/litespeed/cssjs/b84ed.css?30cc0' type='text/css' media='all' /><link data-optimized="1" rel='stylesheet' id='booked-css-css'  href='https://anhbeostudio.com/wp-content/litespeed/cssjs/6a0c4.css?37749' type='text/css' media='all' /><link data-optimized="1" rel='stylesheet' id='contact-form-7-css'  href='https://anhbeostudio.com/wp-content/litespeed/cssjs/8cec1.css?8400d' type='text/css' media='all' /><link data-optimized="1" rel='stylesheet' id='toc-screen-css'  href='https://anhbeostudio.com/wp-content/litespeed/cssjs/46162.css?92391' type='text/css' media='all' /><link data-optimized="1" rel='stylesheet' id='hpr-style-css'  href='https://anhbeostudio.com/wp-content/litespeed/cssjs/f7a89.css?8bb21' type='text/css' media='all' /><link data-optimized="1" rel='stylesheet' id='flatsome-icons-css'  href='https://anhbeostudio.com/wp-content/litespeed/cssjs/ceb45.css?9e34f' type='text/css' media='all' /><link data-optimized="1" rel='stylesheet' id='flatsome-main-css'  href='https://anhbeostudio.com/wp-content/litespeed/cssjs/c7341.css?4e4bc' type='text/css' media='all' /><link data-optimized="1" rel='stylesheet' id='flatsome-style-css'  href='https://anhbeostudio.com/wp-content/litespeed/cssjs/1c927.css?f3e66' type='text/css' media='all' /><link rel='stylesheet' id='flatsome-googlefonts-css'  href='//fonts.googleapis.com/css?family=Archivo%3Aregular%2Cregular%2Cregular%2C700%2Cregular&#038;display=swap&#038;ver=3.9' type='text/css' media='all' /> <script type="text/javascript">(function(a,d){if(a._nsl===d){a._nsl=[];var c=function(){if(a.jQuery===d)setTimeout(c,33);else{for(var b=0;b<a._nsl.length;b++)a._nsl[b].call(a,a.jQuery);a._nsl={push:function(b){b.call(a,a.jQuery)}}}};c()}})(window);</script><script type='text/javascript' src='https://anhbeostudio.com/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script> <script type='text/javascript' src='https://anhbeostudio.com/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script> <link rel="https://api.w.org/" href="https://anhbeostudio.com/wp-json/" /><link rel="alternate" type="application/json" href="https://anhbeostudio.com/wp-json/wp/v2/pages/97" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://anhbeostudio.com/xmlrpc.php?rsd" /><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://anhbeostudio.com/wp-includes/wlwmanifest.xml" /><meta name="generator" content="WordPress 5.6.4" /><link rel='shortlink' href='https://anhbeostudio.com/' /><link rel="alternate" type="application/json+oembed" href="https://anhbeostudio.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fanhbeostudio.com%2F" /><link rel="alternate" type="text/xml+oembed" href="https://anhbeostudio.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fanhbeostudio.com%2F&#038;format=xml" /><style>.hotline-phone-ring-circle {
+				border-color: #2c892a;
+			}
+			.hotline-phone-ring-circle-fill, .hotline-phone-ring-img-circle, .hotline-bar {
+				background-color: #2c892a;
+			}</style><style>.hotline-bar {
+				background: rgb( 44, 137, 42, .7 );
+			}</style><style>.bg{opacity: 0; transition: opacity 1s; -webkit-transition: opacity 1s;} .bg-loaded{opacity: 1;}</style><!--[if IE]><link rel="stylesheet" type="text/css" href="https://anhbeostudio.com/wp-content/themes/flatsome/assets/css/ie-fallback.css"><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script><script>var head = document.getElementsByTagName('head')[0],style = document.createElement('style');style.type = 'text/css';style.styleSheet.cssText = ':before,:after{content:none !important';head.appendChild(style);setTimeout(function(){head.removeChild(style);}, 0);</script><script src="https://anhbeostudio.com/wp-content/themes/flatsome/assets/libs/ie-flexibility.js"></script><![endif]--><link rel="icon" href="https://anhbeostudio.com/wp-content/uploads/2020/12/cropped-logowebicon-32x32.png" sizes="32x32" /><link rel="icon" href="https://anhbeostudio.com/wp-content/uploads/2020/12/cropped-logowebicon-192x192.png" sizes="192x192" /><link rel="apple-touch-icon" href="https://anhbeostudio.com/wp-content/uploads/2020/12/cropped-logowebicon-180x180.png" /><meta name="msapplication-TileImage" content="https://anhbeostudio.com/wp-content/uploads/2020/12/cropped-logowebicon-270x270.png" /><style id="custom-css" type="text/css">:root {--primary-color: #598343;}.header-main{height: 90px}#logo img{max-height: 90px}#logo{width:235px;}.header-bottom{min-height: 55px}.header-top{min-height: 30px}.transparent .header-main{height: 90px}.transparent #logo img{max-height: 90px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 90px;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.header-bottom {background-color: #f1f1f1}.header-bottom-nav > li > a{line-height: 16px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #598343;}/* Color !important */[data-text-color="primary"]{color: #598343!important;}/* Background Color */[data-text-bg="primary"]{background-color: #598343;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #598343;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #598343}.nav-tabs > li.active > a{border-top-color: #598343}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #598343 }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #598343 }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #598343;}body{font-size: 100%;}body{font-family:"Archivo", sans-serif}body{font-weight: 0}.nav > li > a {font-family:"Archivo", sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family:"Archivo", sans-serif;}.nav > li > a {font-weight: 700;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Archivo", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 0;}.alt-font{font-family: "Archivo", sans-serif;}.alt-font{font-weight: 0!important;}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}</style><style type="text/css">#wpadminbar, #wpadminbar .menupop .ab-sub-wrapper, .ab-sub-secondary, #wpadminbar .quicklinks .menupop ul.ab-sub-secondary,#wpadminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu {background:#1c1e26}#wpadminbar a.ab-item, #wpadminbar>#wp-toolbar span.ab-label, #wpadminbar>#wp-toolbar span.noticon, #wpadminbar .ab-icon:before,#wpadminbar .ab-item:before {color:#bfc3c9}#wpadminbar .quicklinks .menupop ul li a, #wpadminbar .quicklinks .menupop ul li a strong, #wpadminbar .quicklinks .menupop.hover ul li a,#wpadminbar.nojs .quicklinks .menupop:hover ul li a {color:#bfc3c9; font-size:13px !important }#wpadminbar:not(.mobile)>#wp-toolbar a:focus span.ab-label,#wpadminbar:not(.mobile)>#wp-toolbar li:hover span.ab-label,#wpadminbar>#wp-toolbar li.hover span.ab-label, #wpadminbar.mobile .quicklinks .hover .ab-icon:before,#wpadminbar.mobile .quicklinks .hover .ab-item:before, #wpadminbar .quicklinks .menupop .ab-sub-secondary>li .ab-item:focus a,#wpadminbar .quicklinks .menupop .ab-sub-secondary>li>a:hover {color:#efefef}#wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a,#wpadminbar .quicklinks .menupop ul li a:focus,#wpadminbar .quicklinks .menupop ul li a:focus strong,#wpadminbar .quicklinks .menupop ul li a:hover,#wpadminbar .quicklinks .menupop ul li a:hover strong,#wpadminbar .quicklinks .menupop.hover ul li a:focus,#wpadminbar .quicklinks .menupop.hover ul li a:hover,#wpadminbar li #adminbarsearch.adminbar-focused:before,#wpadminbar li .ab-item:focus:before,#wpadminbar li a:focus .ab-icon:before,#wpadminbar li.hover .ab-icon:before,#wpadminbar li.hover .ab-item:before,#wpadminbar li:hover #adminbarsearch:before,#wpadminbar li:hover .ab-icon:before,#wpadminbar li:hover .ab-item:before,#wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus,#wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover, #wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a .blavatar,#wpadminbar .quicklinks li a:focus .blavatar,#wpadminbar .quicklinks li a:hover .blavatar{color:#efefef}#wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input {background:#f4f4f4}#wpadminbar .ab-submenu .ab-item, #wpadminbar .quicklinks .menupop ul.ab-submenu li a,#wpadminbar .quicklinks .menupop ul.ab-submenu li a.ab-item {color:#666666}#wpadminbar .ab-submenu .ab-item:hover, #wpadminbar .quicklinks .menupop ul.ab-submenu li a:hover,#wpadminbar .quicklinks .menupop ul.ab-submenu li a.ab-item:hover {color:#333333}.quicklinks li.wpshapere_site_title a{ outline:none; border:none;}.quicklinks li.wpshapere_site_title {width:180px !important;}.quicklinks li.wpshapere_site_title a{outline:none; border:none;}.quicklinks li.wpshapere_site_title a, .quicklinks li.wpshapere_site_title a:hover, .quicklinks li.wpshapere_site_title a:focus {background-size:contain!important;}#adminmenuwrap{-webkit-box-shadow:0px 4px 16px 0px rgba(0,0,0,0.3);-moz-box-shadow:0px 4px 16px 0px rgba(0,0,0,0.3);box-shadow:0px 4px 16px 0px rgba(0,0,0,0.3);}ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu>li.current>a.current:after{border-right-color:transparent;}#wpadminbar * .ab-sub-wrapper {transition:all 280ms cubic-bezier(.4,0,.2,1) !important;}#wp-toolbar > ul > li > .ab-sub-wrapper {-webkit-transform:scale(.25,0);transform:scale(.25,0);-webkit-transition:all 280ms cubic-bezier(.4,0,.2,1);transition:all 280ms cubic-bezier(.4,0,.2,1);-webkit-transform-origin:50% 0 !important;transform-origin:50% 0 !important;display:block !important;opacity:0 !important;}#wp-toolbar > ul > li.hover > .ab-sub-wrapper {-webkit-transform:scale(1,1);transform:scale(1,1);opacity:1 !important;}#wp-toolbar > ul > li > .ab-sub-wrapper:before {position:absolute;top:-8px;left:20%;content:"";display:block;border:6px solid transparent;border-bottom-color:transparent;border-bottom-color:#f4f4f4;transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-webkit-transition:all 0.2s ease-in-out;}#wp-toolbar > ul > li.hover > .ab-sub-wrapper:before {top:-12px;}#wp-toolbar > ul > li#wp-admin-bar-my-account > .ab-sub-wrapper:before{left:60%}#wpadminbar .ab-top-menu>li.hover>.ab-item,#wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,#wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item,#wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus{background:#1c1e26; color:#bfc3c9}</style></head><body class="home page-template page-template-page-blank page-template-page-blank-php page page-id-97 full-width lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border"><a class="skip-link screen-reader-text" href="#main">Skip to content</a><div id="wrapper"><header id="header" class="header has-sticky sticky-jump"><div class="header-wrapper"><div id="masthead" class="header-main "><div class="header-inner flex-row container logo-left medium-logo-center" role="navigation"><div id="logo" class="flex-col logo">
+<a href="https://anhbeostudio.com/" title="Tiệm ảnh Anh Béo - Chụp ảnh kỷ yếu" rel="home">
+<img width="235" height="90" src="https://anhbeostudio.com/wp-content/uploads/2021/01/logoweb-copy.png" class="header_logo header-logo" alt="Tiệm ảnh Anh Béo"/><img  width="235" height="90" src="https://anhbeostudio.com/wp-content/uploads/2021/01/logoweb-trang.png" class="header-logo-dark" alt="Tiệm ảnh Anh Béo"/></a></div><div class="flex-col show-for-medium flex-left"><ul class="mobile-nav nav nav-left "><li class="nav-icon has-icon"><div class="header-button">		<a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay" data-color="" class="icon primary button circle is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
+<i class="icon-menu" ></i>
+<span class="menu-title uppercase hide-for-small">Menu</span>		</a></div></li></ul></div><div class="flex-col hide-for-medium flex-left
+flex-grow"><ul class="header-nav header-nav-main nav nav-left  nav-uppercase" ><li class="header-search header-search-dropdown has-icon has-dropdown menu-item-has-children">
+<a href="#" aria-label="Search" class="is-small"><i class="icon-search" ></i></a><ul class="nav-dropdown nav-dropdown-default"><li class="header-search-form search-form html relative has-icon"><div class="header-search-form-wrapper"><div class="searchform-wrapper ux-search-box relative is-normal"><form method="get" class="searchform" action="https://anhbeostudio.com/" role="search"><div class="flex-row relative"><div class="flex-col flex-grow">
+<input type="search" class="search-field mb-0" name="s" value="" id="s" placeholder="Search&hellip;" /></div><div class="flex-col">
+<button type="submit" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+<i class="icon-search" ></i>				</button></div></div><div class="live-search-results text-left z-top"></div></form></div></div></li></ul></li><li id="menu-item-312" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-312 active menu-item-design-default"><a href="https://anhbeostudio.com" aria-current="page" class="nav-top-link">TRANG CHỦ</a></li><li id="menu-item-313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-313 menu-item-design-default has-dropdown"><a href="https://anhbeostudio.com/dich-vu/" class="nav-top-link">DỊCH VỤ<i class="icon-angle-down" ></i></a><ul class="sub-menu nav-dropdown nav-dropdown-default"><li id="menu-item-318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-318"><a href="https://anhbeostudio.com/chup-anh-ki-yeu/">CHỤP ẢNH KỶ YẾU</a></li><li id="menu-item-319" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-319"><a href="https://anhbeostudio.com/chup-anh-su-kien/">CHỤP ẢNH SỰ KIỆN</a></li><li id="menu-item-687" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-687"><a href="https://anhbeostudio.com/chup-anh-rieng-le-2/">CHỤP ẢNH RIÊNG LẺ</a></li><li id="menu-item-699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699"><a href="https://anhbeostudio.com/quay-phim-rieng-le-2/">QUAY PHIM RIÊNG LẺ</a></li><li id="menu-item-700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-700"><a href="https://anhbeostudio.com/thu-am-edit-am-thanh-2/">THU ÂM, EDIT ÂM THANH</a></li><li id="menu-item-701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-701"><a href="https://anhbeostudio.com/makeup-ky-yeu-2/">MAKEUP KỶ YẾU</a></li><li id="menu-item-702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-702"><a href="https://anhbeostudio.com/makeup-su-kien-2/">MAKEUP SỰ KIỆN</a></li><li id="menu-item-703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-703"><a href="https://anhbeostudio.com/thue-trang-phuc-2/">THUÊ TRANG PHỤC</a></li></ul></li><li id="menu-item-315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315 menu-item-design-default"><a href="https://anhbeostudio.com/booking/" class="nav-top-link">BOOKING</a></li><li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314 menu-item-design-default"><a href="https://anhbeostudio.com/bang-gia/" class="nav-top-link">BẢNG GIÁ</a></li><li id="menu-item-623" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-623 menu-item-design-default"><a href="https://anhbeostudio.com/blog/" class="nav-top-link">Blog</a></li><li id="menu-item-316" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-316 menu-item-design-default"><a href="https://anhbeostudio.com/ho-tro/" class="nav-top-link">HỖ TRỢ</a></li><li id="menu-item-317" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-317 menu-item-design-default"><a href="https://anhbeostudio.com/ve-chung-toi/" class="nav-top-link">VỀ CHÚNG TÔI</a></li></ul></div><div class="flex-col hide-for-medium flex-right"><ul class="header-nav header-nav-main nav nav-right  nav-uppercase"><li class="html header-button-1"><div class="header-button">
+<a href="https://anhbeostudio.com/wp-admin" class="button success is-outline is-small box-shadow-1 box-shadow-4-hover"  style="border-radius:99px;">
+<span>ĐĂNG NHẬP</span>
+</a></div></li></ul></div><div class="flex-col show-for-medium flex-right"><ul class="mobile-nav nav nav-right "></ul></div></div><div class="container"><div class="top-divider full-width"></div></div></div><div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div></div></header><main id="main" class=""><div id="content" role="main" class="content-area"><div class="slider-wrapper relative show-for-medium" id="slider-2121873014" ><div class="slider slider-nav-circle slider-nav-large slider-nav-light slider-style-normal"
+data-flickity-options='{
+"cellAlign": "center",
+"imagesLoaded": true,
+"lazyLoad": 1,
+"freeScroll": false,
+"wrapAround": true,
+"autoPlay": 6000,
+"pauseAutoPlayOnHover" : true,
+"prevNextButtons": true,
+"contain" : true,
+"adaptiveHeight" : true,
+"dragThreshold" : 10,
+"percentPosition": true,
+"pageDots": true,
+"rightToLeft": false,
+"draggable": true,
+"selectedAttraction": 0.1,
+"parallax" : 0,
+"friction": 0.6        }'
+><div class="banner has-hover" id="banner-1519899768"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div><div class="overlay"></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-1519899768 {
+  padding-top: 400px;
+}
+#banner-1519899768 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/71917692_100233301397063_4356970852634329088_o-1-1200x800.jpg);
+}
+#banner-1519899768 .overlay {
+  background-color: rgba(0, 0, 0, 0);
+}
+#banner-1519899768 .bg {
+  background-position: 30%;
+}
+@media (min-width:550px) {
+  #banner-1519899768 .overlay {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+@media (min-width:850px) {
+  #banner-1519899768 .overlay {
+    background-color: rgba(0,0,0,.5);
+  }
+}</style></div><div class="banner has-hover" id="banner-2100754073"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div><div class="overlay"></div><div class="effect-sparkle bg-effect fill no-click"></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-2100754073 {
+  padding-top: 400px;
+}
+#banner-2100754073 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/80130210_139656024121457_3175527741525065728_o-800x800.jpg);
+}
+#banner-2100754073 .overlay {
+  background-color: rgba(0, 0, 0, 0);
+}
+@media (min-width:550px) {
+  #banner-2100754073 .overlay {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+@media (min-width:850px) {
+  #banner-2100754073 .overlay {
+    background-color: rgba(0,0,0,.5);
+  }
+}</style></div><div class="banner has-hover" id="banner-645229006"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div><div class="overlay"></div><div class="effect-sparkle bg-effect fill no-click"></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-645229006 {
+  padding-top: 400px;
+}
+#banner-645229006 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/IMG_5031-1005x800.jpg);
+}
+#banner-645229006 .overlay {
+  background-color: rgba(0, 0, 0, 0);
+}
+@media (min-width:550px) {
+  #banner-645229006 .overlay {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+@media (min-width:850px) {
+  #banner-645229006 .overlay {
+    background-color: rgba(0,0,0,.5);
+  }
+}</style></div></div><div class="loading-spin dark large centered"></div></div><div class="slider-wrapper relative hide-for-medium" id="slider-1721021089" ><div class="slider slider-nav-circle slider-nav-large slider-nav-light slider-style-normal"
+data-flickity-options='{
+"cellAlign": "center",
+"imagesLoaded": true,
+"lazyLoad": 1,
+"freeScroll": false,
+"wrapAround": true,
+"autoPlay": 6000,
+"pauseAutoPlayOnHover" : true,
+"prevNextButtons": true,
+"contain" : true,
+"adaptiveHeight" : true,
+"dragThreshold" : 10,
+"percentPosition": true,
+"pageDots": true,
+"rightToLeft": false,
+"draggable": true,
+"selectedAttraction": 0.1,
+"parallax" : 0,
+"friction": 0.6        }'
+><div class="banner has-hover" id="banner-1742828789"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div><div class="overlay"></div><div class="effect-sparkle bg-effect fill no-click"></div></div><div class="banner-layers container"><div class="fill banner-link"></div><div id="text-box-1014683492" class="text-box banner-layer x0 md-x0 lg-x0 y60 md-y60 lg-y60 res-text"><div data-animate="none"><div class="text dark text-shadow-2"><div class="text-inner text-left"><h5><span style="font-size: 180%;">ƯU ĐÃI MÙA KỈ YẾU 2021</span></h5><p>Mùa kỉ yếu 2021 này AB Media &#8211; Tiệm ảnh Anh Béo có rất nhiều chương trình khuyến mãi và rất nhiều quà tặng cho các bạn học sinh, sinh viên.</p>
+<a data-animate="blurIn" class="button success box-shadow-3"  style="border-radius:10px;">
+<span>TÌM HIỂU NGAY</span>
+</a></div></div></div><style>#text-box-1014683492 {
+  width: 79%;
+}
+#text-box-1014683492 .text {
+  font-size: 104%;
+}</style></div></div></div><style>#banner-1742828789 {
+  padding-top: 738px;
+}
+#banner-1742828789 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/71917692_100233301397063_4356970852634329088_o-1.jpg);
+}
+#banner-1742828789 .overlay {
+  background-color: rgba(0,0,0,.5);
+}</style></div><div class="banner has-hover" id="banner-1262973872"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div><div class="overlay"></div><div class="effect-sparkle bg-effect fill no-click"></div></div><div class="banner-layers container"><div class="fill banner-link"></div><div id="text-box-610810963" class="text-box banner-layer x0 md-x0 lg-x0 y60 md-y60 lg-y60 res-text"><div data-animate="fadeInLeft"><div class="text dark text-shadow-2"><div class="text-inner text-left"><h5><span style="font-size: 180%;">HOT HOT HOT MÙA CÚC HỌA MI</span></h5><p>Mùa đông đã về và cũng là thời điểm của hoa cúc họa mi nở, là thời gian đẹp nhất để chụp những bộ ảnh đẹp, chờ đợi gì nữa book ngay kẻo hoa héo mất!!.</p>
+<a data-animate="blurIn" class="button success"  style="border-radius:10px;">
+<span>TÌM HIỂU NGAY</span>
+</a></div></div></div><style>#text-box-610810963 {
+  width: 79%;
+}
+#text-box-610810963 .text {
+  font-size: 104%;
+}</style></div></div></div><style>#banner-1262973872 {
+  padding-top: 738px;
+}
+#banner-1262973872 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/IMG_5031.jpg);
+}
+#banner-1262973872 .overlay {
+  background-color: rgba(0,0,0,.5);
+}
+#banner-1262973872 .bg {
+  background-position: 0% 68%;
+}</style></div><div class="banner has-hover" id="banner-627034779"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div><div class="overlay"></div><div class="effect-sparkle bg-effect fill no-click"></div></div><div class="banner-layers container"><div class="fill banner-link"></div><div id="text-box-1367057193" class="text-box banner-layer x0 md-x0 lg-x0 y60 md-y60 lg-y60 res-text"><div data-animate="fadeInLeft"><div class="text dark text-shadow-2"><div class="text-inner text-left"><h5><span style="font-size: 180%;">ƯU ĐÃI MÙA KỈ YẾU 2021</span></h5><p>Mùa kỉ yếu 2021 này AB Media &#8211; Tiệm ảnh Anh Béo có rất nhiều chương trình khuyến mãi và rất nhiều quà tặng cho các bạn học sinh, sinh viên.</p>
+<a data-animate="blurIn" class="button success"  style="border-radius:10px;">
+<span>TÌM HIỂU NGAY</span>
+</a></div></div></div><style>#text-box-1367057193 {
+  width: 79%;
+}
+#text-box-1367057193 .text {
+  font-size: 104%;
+}</style></div></div></div><style>#banner-627034779 {
+  padding-top: 738px;
+}
+#banner-627034779 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/60728057_405953196657860_6238962883938484224_o.jpg);
+}
+#banner-627034779 .overlay {
+  background-color: rgba(0,0,0,.5);
+}
+#banner-627034779 .bg {
+  background-position: 0% 30%;
+}</style></div></div><div class="loading-spin dark large centered"></div></div><section class="section hide-for-medium" id="section_1456781077"><div class="bg section-bg fill bg-fill  bg-loaded" ></div><div class="section-content relative"><div id="gap-1162995909" class="gap-element clearfix" style="display:block; height:auto;"><style>#gap-1162995909 {
+  padding-top: 40px;
+}</style></div><div class="row align-center"  id="row-1450834907"><div id="col-833336854" class="col medium-7 small-10 large-7"  ><div class="col-inner text-center"  ><h2>LƯU GIỮ THANH XUÂN&#8230;</h2><p>Tại thời khắc những con thuyền sắp phải trôi qua một dòng sông mới, ai ai cũng hối hả trao nhau những kỷ niệm khó quên.</p></div></div></div><div class="banner-grid-wrapper"><div id="banner-grid-1141092711" class="banner-grid row row-grid row-small" data-packery-options=""><div class="col grid-col small-12 large-4 grid-col-1" data-animate="none"><div class="col-inner"><div class="banner has-hover" id="banner-1198250372"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div><div class="effect-sparkle bg-effect fill no-click"></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-1198250372 {
+  padding-top: 500px;
+}
+#banner-1198250372 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/122751540_361694911917566_6503187920359631379_o-533x800.jpg);
+}</style></div></div></div><div class="col grid-col small-12 large-4 grid-col-1-2" data-animate="none"><div class="col-inner"><div class="banner has-hover" id="banner-1813250382"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div><div class="effect-sparkle bg-effect fill no-click"></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-1813250382 {
+  padding-top: 500px;
+}
+#banner-1813250382 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/53700302_374009983185515_3622367592015986688_o-1088x800.jpg);
+}</style></div></div></div><div class="col grid-col small-12 large-4 grid-col-1" data-animate="none"><div class="col-inner"><div class="banner has-hover" id="banner-1819030759"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div><div class="effect-sparkle bg-effect fill no-click"></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-1819030759 {
+  padding-top: 500px;
+}
+#banner-1819030759 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/60728057_405953196657860_6238962883938484224_o-1341x800.jpg);
+}</style></div></div></div><div class="col grid-col small-13 large-4 grid-col-2-3" data-animate="none"><div class="col-inner"><div class="banner has-hover" id="banner-1559740810"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div><div class="effect-sparkle bg-effect fill no-click"></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-1559740810 {
+  padding-top: 500px;
+}
+#banner-1559740810 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/53681374_374009953185518_7990448172130369536_o-1200x800.jpg);
+}</style></div></div></div></div><style>#banner-grid-1141092711 .grid-col-1{height: 600px}
+    #banner-grid-1141092711 .grid-col-1-2{height: 300px}
+    #banner-grid-1141092711 .grid-col-1-3{height:200px}
+    #banner-grid-1141092711 .grid-col-2-3{height: 400px}
+    #banner-grid-1141092711 .grid-col-1-4{height: 150px}
+    #banner-grid-1141092711 .grid-col-3-4{height: 450px}</style></div></div><style>#section_1456781077 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width:550px) {
+  #section_1456781077 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}</style></section><section class="section show-for-medium" id="section_1445518486"><div class="bg section-bg fill bg-fill  bg-loaded" ></div><div class="section-content relative"><div id="gap-2022923341" class="gap-element clearfix" style="display:block; height:auto;"><style>#gap-2022923341 {
+  padding-top: 40px;
+}</style></div><div class="row align-center"  id="row-528494251"><div id="col-1163611310" class="col medium-7 small-10 large-7"  ><div class="col-inner text-center"  ><h2>LƯU GIỮ THANH XUÂN&#8230;</h2><p>Tại thời khắc những con thuyền sắp phải trôi qua một dòng sông mới, ai ai cũng hối hả trao nhau những kỷ niệm khó quên.</p></div></div></div><div class="banner-grid-wrapper"><div id="banner-grid-592810292" class="banner-grid row row-grid row-small" data-packery-options=""><div class="col grid-col small-12 large-4 grid-col-1" data-animate="none"><div class="col-inner"><div class="banner has-hover" id="banner-1164695150"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-1164695150 {
+  padding-top: 500px;
+}
+#banner-1164695150 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/122751540_361694911917566_6503187920359631379_o-533x800.jpg);
+}</style></div></div></div><div class="col grid-col small-12 large-4 grid-col-1-2" data-animate="none"><div class="col-inner"><div class="banner has-hover" id="banner-1852362764"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-1852362764 {
+  padding-top: 500px;
+}
+#banner-1852362764 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/53700302_374009983185515_3622367592015986688_o-1088x800.jpg);
+}</style></div></div></div><div class="col grid-col small-12 large-4 grid-col-1" data-animate="none"><div class="col-inner"><div class="banner has-hover" id="banner-1342830960"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-1342830960 {
+  padding-top: 500px;
+}
+#banner-1342830960 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/60728057_405953196657860_6238962883938484224_o-1341x800.jpg);
+}</style></div></div></div></div><style>#banner-grid-592810292 .grid-col-1{height: 600px}
+    #banner-grid-592810292 .grid-col-1-2{height: 300px}
+    #banner-grid-592810292 .grid-col-1-3{height:200px}
+    #banner-grid-592810292 .grid-col-2-3{height: 400px}
+    #banner-grid-592810292 .grid-col-1-4{height: 150px}
+    #banner-grid-592810292 .grid-col-3-4{height: 450px}</style></div></div><style>#section_1445518486 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width:550px) {
+  #section_1445518486 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}</style></section><section class="section" id="section_1909839503"><div class="bg section-bg fill bg-fill  bg-loaded" ></div><div class="section-content relative"><div class="row row-large align-middle align-center" style="max-width:1400px" id="row-2084269893"><div id="col-1869876634" class="col medium-8 small-12 large-6"  ><div class="col-inner"  ><div class="row row-collapse align-center"  id="row-1702390314"><div id="col-1611264123" class="col medium-10 small-9 large-11"  ><div class="col-inner"  ><div class="banner has-hover" id="banner-2047967862"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-2047967862 {
+  padding-top: 200px;
+  background-color: rgb(203, 155, 174);
+}
+#banner-2047967862 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/58574622_392107181375795_3273290555915763712_o-1138x800.jpg);
+}
+#banner-2047967862 .bg {
+  background-position: 0% 100%;
+}
+@media (min-width:550px) {
+  #banner-2047967862 {
+    padding-top: 250px;
+  }
+}
+@media (min-width:850px) {
+  #banner-2047967862 {
+    padding-top: 65%;
+  }
+}</style></div></div><style>#col-1611264123 > .col-inner {
+  margin: 0px 0px 0px -56px;
+}</style></div><div id="col-846641685" class="col medium-10 small-9 large-11"  ><div class="col-inner"  ><div class="banner has-hover" id="banner-1350800445"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-1350800445 {
+  padding-top: 200px;
+  background-color: rgb(203, 155, 174);
+}
+#banner-1350800445 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/80130210_139656024121457_3175527741525065728_o-800x800.jpg);
+}
+@media (min-width:550px) {
+  #banner-1350800445 {
+    padding-top: 250px;
+  }
+}
+@media (min-width:850px) {
+  #banner-1350800445 {
+    padding-top: 374px;
+  }
+}</style></div></div><style>#col-846641685 > .col-inner {
+  margin: -86px 0 0px 88px;
+}</style></div></div></div></div><div id="col-1043869526" class="col medium-8 small-10 large-6 medium-col-first"  ><div class="col-inner text-right"  ><div class="row align-middle align-center"  id="row-1147018355"><div id="col-465060534" class="col medium-12 small-12 large-10"  ><div class="col-inner text-left"  ><h3><span style="font-size: 180%;">SỨ MỆNH CỦA AB MEDIA</span></h3><p>ABSTUDIO ra đời với mong muốn giúp các bạn học sinh &#8211; sinh viên ghi lại câu chuyện tuổi học trò bằng những bộ ảnh và video kỷ yếu lớp học thật đặc biệt để mai này, có chia xa, có nhớ nhau cũng có cái gọi là&#8230;</p>
+<a data-animate="blurIn" class="button success"  style="border-radius:10px;">
+<span>VỀ CHÚNG TÔI</span>
+</a></div></div></div></div></div></div></div><style>#section_1909839503 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(255, 255, 255);
+}
+@media (min-width:550px) {
+  #section_1909839503 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media (min-width:850px) {
+  #section_1909839503 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}</style></section><section class="section" id="section_312710436"><div class="bg section-bg fill bg-fill  bg-loaded" ></div><div class="section-content relative"><div id="gap-55032838" class="gap-element clearfix" style="display:block; height:auto;"><style>#gap-55032838 {
+  padding-top: 30px;
+}
+@media (min-width:550px) {
+  #gap-55032838 {
+    padding-top: 30px;
+  }
+}
+@media (min-width:850px) {
+  #gap-55032838 {
+    padding-top: 45px;
+  }
+}</style></div><div class="row align-center"  id="row-1213562926"><div id="col-373223786" class="col medium-8 small-12 large-8"  ><div class="col-inner text-center"  ><h2><span style="font-size: 130%;">&#8220;Kỉ niệm chỉ đi qua một lần, tuy không thể quay lại nhưng có thể lưu giữ.&#8221;</span></h2><div class="is-divider divider clearfix" style="max-width:15%;height:1px;background-color:rgb(39, 54, 71);"></div></div></div></div></div><style>#section_312710436 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}</style></section><section class="section" id="section_511192231"><div class="bg section-bg fill bg-fill  bg-loaded" ></div><div class="section-content relative"><div class="row row-collapse row-full-width"  id="row-1728812172"><div id="col-198198254" class="col medium-12 small-12 large-6"  ><div class="col-inner"  ><div class="banner has-hover bg-zoom" id="banner-1846522268"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div><div class="overlay"></div></div><div class="banner-layers container">
+<a class="fill" href="#"  ><div class="fill banner-link"></div></a><div id="text-box-804903463" class="text-box banner-layer x5 md-x0 lg-x0 y75 md-y75 lg-y90 res-text"><div class="text dark"><div class="text-inner text-center"></div></div><style>#text-box-804903463 .text-inner {
+  padding: 0px 20px 0px 0px;
+}
+#text-box-804903463 {
+  width: 10%;
+}
+#text-box-804903463 .text {
+  font-size: 100%;
+  transform: rotate(90deg);
+}</style></div><div id="text-box-1826851095" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text"><div class="hover-bounce"><div class="text dark"><div class="text-inner text-center"><h1>Kỉ yếu</h1></div></div></div><style>#text-box-1826851095 {
+  width: 60%;
+}
+#text-box-1826851095 .text {
+  font-size: 100%;
+}</style></div></div></div><style>#banner-1846522268 {
+  padding-top: 250px;
+}
+#banner-1846522268 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/122751540_361694911917566_6503187920359631379_o-533x800.jpg);
+}
+#banner-1846522268 .overlay {
+  background-color: rgba(0,0,0,.5);
+}
+#banner-1846522268 .bg {
+  background-position: 15% 39%;
+}
+@media (min-width:550px) {
+  #banner-1846522268 {
+    padding-top: 400px;
+  }
+}
+@media (min-width:850px) {
+  #banner-1846522268 {
+    padding-top: 900px;
+  }
+}</style></div></div></div><div id="col-2080830168" class="col medium-12 small-12 large-6"  ><div class="col-inner"  ><div class="banner has-hover bg-zoom" id="banner-1025619845"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div><div class="overlay"></div></div><div class="banner-layers container">
+<a class="fill" href="#"  ><div class="fill banner-link"></div></a><div id="text-box-2033314224" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text"><div class="hover-bounce"><div class="text dark"><div class="text-inner text-center"><h1>Sự kiện</h1></div></div></div><style>#text-box-2033314224 {
+  width: 60%;
+}
+#text-box-2033314224 .text {
+  font-size: 100%;
+}</style></div></div></div><style>#banner-1025619845 {
+  padding-top: 250px;
+}
+#banner-1025619845 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/60728057_405953196657860_6238962883938484224_o-1341x800.jpg);
+}
+#banner-1025619845 .overlay {
+  background-color: rgba(0,0,0,.5);
+}
+#banner-1025619845 .bg {
+  background-position: 45% 62%;
+}
+@media (min-width:550px) {
+  #banner-1025619845 {
+    padding-top: 450px;
+  }
+}</style></div><div class="banner has-hover bg-zoom" id="banner-759501781"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div><div class="overlay"></div></div><div class="banner-layers container">
+<a class="fill" href="#"  ><div class="fill banner-link"></div></a><div id="text-box-894699709" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text"><div class="hover-bounce"><div class="text dark"><div class="text-inner text-center"><h1>Makeup, Trang phục</h1></div></div></div><style>#text-box-894699709 {
+  width: 60%;
+}
+#text-box-894699709 .text {
+  font-size: 100%;
+}</style></div></div></div><style>#banner-759501781 {
+  padding-top: 250px;
+}
+#banner-759501781 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/71917692_100233301397063_4356970852634329088_o-1-1200x800.jpg);
+}
+#banner-759501781 .overlay {
+  background-color: rgba(0,0,0,.5);
+}
+#banner-759501781 .bg {
+  background-position: 35% 35%;
+}
+@media (min-width:550px) {
+  #banner-759501781 {
+    padding-top: 450px;
+  }
+}</style></div></div></div></div></div><style>#section_511192231 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}</style></section><section class="section" id="section_1342401906"><div class="bg section-bg fill bg-fill  bg-loaded" ></div><div class="section-content relative"><div id="gap-1119128900" class="gap-element clearfix" style="display:block; height:auto;"><style>#gap-1119128900 {
+  padding-top: 55px;
+}</style></div><div class="row align-center"  id="row-23180462"><div id="col-2023091966" class="col medium-7 small-10 large-7"  ><div class="col-inner text-center"  ><h1>PORTFOLIO</h1><p><span style="font-size: 95%;">Những bức ảnh được chụp bởi đội ngũ AB Media</span></p></div></div></div></div><style>#section_1342401906 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}</style></section><section class="section" id="section_1389230430"><div class="bg section-bg fill bg-fill  bg-loaded" ></div><div class="section-content relative"><div class="banner-grid-wrapper"><div id="banner-grid-1672508802" class="banner-grid row row-grid row-collapse row-full-width" data-packery-options=""><div class="col grid-col small-14 large-4 grid-col-2-3" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-103365847"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-103365847 {
+  padding-top: 500px;
+}
+#banner-103365847 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/122751540_361694911917566_6503187920359631379_o-533x800.jpg);
+}</style></div></div></div><div class="col grid-col small-13 large-4 grid-col-1-2" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-1782326744"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-1782326744 {
+  padding-top: 500px;
+}
+#banner-1782326744 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/58574622_392107181375795_3273290555915763712_o-1138x800.jpg);
+}</style></div></div></div><div class="col grid-col small-12 large-4 grid-col-2-3" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-2067656964"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-2067656964 {
+  padding-top: 500px;
+}
+#banner-2067656964 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/54256406_376032142983299_7248270242764292096_o-1198x800.jpg);
+}</style></div></div></div><div class="col grid-col small-13 large-4 grid-col-2-3" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-987244157"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-987244157 {
+  padding-top: 500px;
+}
+#banner-987244157 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/55637099_380411325878714_274823588492607488_o-1298x800.jpg);
+}</style></div></div></div><div class="col grid-col small-12 large-4 grid-col-2-3" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-951708522"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-951708522 {
+  padding-top: 500px;
+}
+#banner-951708522 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/53482227_371632016756645_7234827330135261184_o-1200x800.jpg);
+}</style></div></div></div><div class="col grid-col small-15 large-4 grid-col-2-3" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-1049704312"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-1049704312 {
+  padding-top: 500px;
+}
+#banner-1049704312 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/60728057_405953196657860_6238962883938484224_o-1341x800.jpg);
+}</style></div></div></div><div class="col grid-col small-14 large-4 grid-col-2-3" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-1985387276"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-1985387276 {
+  padding-top: 500px;
+}
+#banner-1985387276 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/53700302_374009983185515_3622367592015986688_o-1088x800.jpg);
+}</style></div></div></div><div class="col grid-col small-12 large-4 grid-col-2-3" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-1748732522"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-1748732522 {
+  padding-top: 500px;
+}
+#banner-1748732522 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/53679352_373730806546766_998535834250510336_o-1233x800.jpg);
+}</style></div></div></div><div class="col grid-col small-13 large-4 grid-col-2-3" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-508400486"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-508400486 {
+  padding-top: 500px;
+}
+#banner-508400486 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/53717341_373730796546767_2162391470894481408_o-1200x800.jpg);
+}</style></div></div></div><div class="col grid-col small-12 large-4 grid-col-2-3" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-804365709"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-804365709 {
+  padding-top: 500px;
+}
+#banner-804365709 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/chandra-oh-wQQ9MC83Nog-unsplash-1200x800.jpg);
+}</style></div></div></div><div class="col grid-col small-12 large-4 grid-col-2-3" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-268844896"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-268844896 {
+  padding-top: 500px;
+}
+#banner-268844896 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/122466029_361950461892011_7492526822271343375_o-580x800.jpg);
+}
+#banner-268844896 .bg {
+  background-position: 0% 90%;
+}</style></div></div></div><div class="col grid-col small-13 large-4 grid-col-2-3" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-2000888665"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-2000888665 {
+  padding-top: 500px;
+}
+#banner-2000888665 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/80130210_139656024121457_3175527741525065728_o-800x800.jpg);
+}</style></div></div></div><div class="col grid-col small-14 large-4 grid-col-2-3" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-1194433440"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-1194433440 {
+  padding-top: 500px;
+}
+#banner-1194433440 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/122977461_361950368558687_7195393520226108230_o-533x800.jpg);
+}
+#banner-1194433440 .bg {
+  background-position: 0% 90%;
+}</style></div></div></div><div class="col grid-col small-13 large-4 grid-col-1-2" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-525281228"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-525281228 {
+  padding-top: 500px;
+}
+#banner-525281228 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/57355565_389862468266933_8701529266963087360_o-533x800.jpg);
+}</style></div></div></div><div class="col grid-col small-13 large-4 grid-col-1-2" data-animate="none"><div class="col-inner"><div class="banner has-hover bg-zoom" id="banner-234324830"><div class="banner-inner fill"><div class="banner-bg fill" ><div class="bg fill bg-fill "></div></div><div class="banner-layers container"><div class="fill banner-link"></div></div></div><style>#banner-234324830 {
+  padding-top: 500px;
+}
+#banner-234324830 .bg.bg-loaded {
+  background-image: url(https://anhbeostudio.com/wp-content/uploads/2020/12/57314224_389862434933603_9148093814345302016_o-1201x800.jpg);
+}</style></div></div></div></div><style>#banner-grid-1672508802 .grid-col-1{height: 600px}
+    #banner-grid-1672508802 .grid-col-1-2{height: 300px}
+    #banner-grid-1672508802 .grid-col-1-3{height:200px}
+    #banner-grid-1672508802 .grid-col-2-3{height: 400px}
+    #banner-grid-1672508802 .grid-col-1-4{height: 150px}
+    #banner-grid-1672508802 .grid-col-3-4{height: 450px}</style></div></div><style>#section_1389230430 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: rgb(32, 32, 32);
+}</style></section><div id="gap-150686442" class="gap-element clearfix" style="display:block; height:auto;"><style>#gap-150686442 {
+  padding-top: 19px;
+}</style></div></div></main><footer id="footer" class="footer-wrapper"><section class="section dark" id="section_247605771"><div class="bg section-bg fill bg-fill  bg-loaded" ></div><div class="section-content relative"><div id="gap-1789372497" class="gap-element clearfix" style="display:block; height:auto;"><style>#gap-1789372497 {
+  padding-top: 30px;
+}</style></div><div class="row"  id="row-1414588967"><div id="col-596246669" class="col medium-12 small-12 large-4"  data-animate="blurIn"><div class="col-inner"  ><div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1082080115"><div data-animate="blurIn"><div class="img-inner dark" >
+<img width="1020" height="247" src="https://anhbeostudio.com/wp-content/uploads/2021/01/logoweb-trang-1400x339.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://anhbeostudio.com/wp-content/uploads/2021/01/logoweb-trang-1400x339.png 1400w, https://anhbeostudio.com/wp-content/uploads/2021/01/logoweb-trang-800x194.png 800w, https://anhbeostudio.com/wp-content/uploads/2021/01/logoweb-trang-768x186.png 768w, https://anhbeostudio.com/wp-content/uploads/2021/01/logoweb-trang-1536x372.png 1536w, https://anhbeostudio.com/wp-content/uploads/2021/01/logoweb-trang.png 1667w" sizes="(max-width: 1020px) 100vw, 1020px" /></div></div><style>#image_1082080115 {
+  width: 60%;
+}
+@media (min-width:550px) {
+  #image_1082080115 {
+    width: 30%;
+  }
+}
+@media (min-width:850px) {
+  #image_1082080115 {
+    width: 84%;
+  }
+}</style></div><div id="gap-1787035668" class="gap-element clearfix" style="display:block; height:auto;"><style>#gap-1787035668 {
+  padding-top: 10px;
+}</style></div><p>AB MEDIA<br />Đơn vị cung cấp dịch vụ về chụp hình, quay video kỉ yếu, sự kiện.</p>
+<a class="button white is-link is-small"  >
+<i class="icon-phone" ></i>  <span>Liên hệ</span>
+</a><a class="button white is-link is-small"  >
+<i class="icon-envelop" ></i>  <span>E-mail</span>
+</a><div class="row"  id="row-851148197"><div id="col-717427100" class="col medium-6 small-12 large-6"  ><div class="col-inner"  ><p><a href="//www.dmca.com/Protection/Status.aspx?ID=99ed3dab-2f50-4f18-88d1-ddc0a89812f7" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/DMCA_logo-grn-btn120w.png?ID=99ed3dab-2f50-4f18-88d1-ddc0a89812f7"alt="DMCA.com Protection Status" /></a><script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script></p><p>MST: 8696223579</p><h4> </h4></div></div><div id="col-1516796963" class="col medium-6 small-12 large-6"  ><div class="col-inner"  ></div></div></div></div></div><div id="col-602055212" class="col medium-12 small-12 large-8"  data-animate="fadeInRight"><div class="col-inner"  ><div class="row row-small"  id="row-294814449"><div id="col-1725302435" class="col medium-4 small-12 large-4"  ><div class="col-inner"  ><h4>Dịch vụ</h4><ul><li class="bullet-arrow"><strong><a href="https://anhbeostudio.com/chup-anh-ki-yeu/"><span style="font-size: 90%;">Chụp ảnh kỉ yếu</span></a></strong></li><li class="bullet-arrow"><strong><span style="font-size: 90%;"><a href="https://anhbeostudio.com/chup-anh-su-kien/">Chụp ảnh sự kiện</a></span></strong></li><li class="bullet-arrow"><strong><span style="font-size: 90%;"><a href="https://anhbeostudio.com/makeup-ky-yeu-2/">Makeup kỉ yếu</a></span></strong></li><li class="bullet-arrow"><strong><span style="font-size: 90%;"><a href="https://anhbeostudio.com/makeup-su-kien-2/">Makup sự kiện </a></span></strong></li><li class="bullet-arrow"><strong><a href="https://anhbeostudio.com/thue-trang-phuc-2/"><span style="font-size: 14px;">Thuê trang phục</span></a></strong></li></ul></div></div><div id="col-812631972" class="col medium-4 small-12 large-4"  ><div class="col-inner"  ><h4>Liên hệ, hỗ trợ</h4><ul><li class="bullet-arrow"><strong><span style="font-size: 90%;"><a href="https://anhbeostudio.com/ho-tro/">Khiếu nại</a></span></strong></li><li class="bullet-arrow"><strong><span style="font-size: 14px;"><a href="https://anhbeostudio.com/chinh-sach-dieu-khoan/">Chính sách</a></strong></li></ul><div id="gtx-trans" style="position: absolute; left: 34px; top: 99.2812px;"><div class="gtx-trans-icon"> </div></div></div></div><div id="col-687592928" class="col medium-4 small-12 large-4"  ><div class="col-inner"  ><h4>Về chúng tôi</h4><ul><li class="bullet-arrow"><strong><span style="font-size: 90%;"><a href="https://anhbeostudio.com/ve-chung-toi/">Thông tin</a></span></strong></li><li class="bullet-arrow"><strong><span style="font-size: 90%;"><a href="https://anhbeostudio.com/ve-chung-toi/">Thông tin thành viên</a></span></strong></li><li class="bullet-arrow"><strong><span style="font-size: 90%;"><a href="https://anhbeostudio.com/blog/">Blog</a></span></strong></li></ul><div id="gtx-trans" style="position: absolute; left: 2px; top: 34.2812px;"><div class="gtx-trans-icon"> </div></div></div></div></div></div></div></div><div class="row"  id="row-1084189241"><div id="col-1127677850" class="col small-12 large-12"  ><div class="col-inner"  ><div class="is-divider divider clearfix" style="max-width:100%;height:2px;background-color:rgb(255, 255, 255);"></div></div><style>#col-1127677850 > .col-inner {
+  margin: -30px 0px -30px 0px;
+}</style></div></div></div><style>#section_247605771 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(52, 61, 54);
+}
+@media (min-width:550px) {
+  #section_247605771 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}</style></section><div class="absolute-footer dark medium-text-center small-text-center"><div class="container clearfix"><div class="footer-primary pull-left"><div class="menu-secondary-container"><ul id="menu-secondary" class="links footer-nav uppercase"><li id="menu-item-325" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-325"><a href="https://fb.com/anhbeostudio">Facebook</a></li><li id="menu-item-324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="https://anhbeostudio.com/lien-he-ho-tro/">Liên hệ hỗ trợ</a></li><li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267"><a href="https://anhbeostudio.com/datamember/">LINK ẢNH</a></li></ul></div><div class="copyright-footer">
+Copyright 2021 © <strong>AB Media - Tiệm ảnh Anh Béo.</strong><div id="fb-root"></div> <script>window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v9.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script> <div class="fb-customerchat"
+attribution="setup_tool"
+page_id="100214034732323"
+theme_color="#67b868"
+logged_in_greeting="Hey Bro!!! Chúng tôi có thể giúp gì cho bạn."
+logged_out_greeting="Hey Bro!!! Chúng tôi có thể giúp gì cho bạn."></div></div></div></div></div></footer></div><div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide"><div class="sidebar-menu no-scrollbar "><ul class="nav nav-sidebar nav-vertical nav-uppercase"><li class="header-search-form search-form html relative has-icon"><div class="header-search-form-wrapper"><div class="searchform-wrapper ux-search-box relative is-normal"><form method="get" class="searchform" action="https://anhbeostudio.com/" role="search"><div class="flex-row relative"><div class="flex-col flex-grow">
+<input type="search" class="search-field mb-0" name="s" value="" id="s" placeholder="Search&hellip;" /></div><div class="flex-col">
+<button type="submit" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+<i class="icon-search" ></i>				</button></div></div><div class="live-search-results text-left z-top"></div></form></div></div></li><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-312"><a href="https://anhbeostudio.com" aria-current="page">TRANG CHỦ</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-313"><a href="https://anhbeostudio.com/dich-vu/">DỊCH VỤ</a><ul class="sub-menu nav-sidebar-ul children"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-318"><a href="https://anhbeostudio.com/chup-anh-ki-yeu/">CHỤP ẢNH KỶ YẾU</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-319"><a href="https://anhbeostudio.com/chup-anh-su-kien/">CHỤP ẢNH SỰ KIỆN</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-687"><a href="https://anhbeostudio.com/chup-anh-rieng-le-2/">CHỤP ẢNH RIÊNG LẺ</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699"><a href="https://anhbeostudio.com/quay-phim-rieng-le-2/">QUAY PHIM RIÊNG LẺ</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-700"><a href="https://anhbeostudio.com/thu-am-edit-am-thanh-2/">THU ÂM, EDIT ÂM THANH</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-701"><a href="https://anhbeostudio.com/makeup-ky-yeu-2/">MAKEUP KỶ YẾU</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-702"><a href="https://anhbeostudio.com/makeup-su-kien-2/">MAKEUP SỰ KIỆN</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-703"><a href="https://anhbeostudio.com/thue-trang-phuc-2/">THUÊ TRANG PHỤC</a></li></ul></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315"><a href="https://anhbeostudio.com/booking/">BOOKING</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314"><a href="https://anhbeostudio.com/bang-gia/">BẢNG GIÁ</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-623"><a href="https://anhbeostudio.com/blog/">Blog</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-316"><a href="https://anhbeostudio.com/ho-tro/">HỖ TRỢ</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-317"><a href="https://anhbeostudio.com/ve-chung-toi/">VỀ CHÚNG TÔI</a></li><li class="html header-social-icons ml-0"><div class="social-icons follow-icons" ><a href="http://url" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Follow on Facebook"><i class="icon-facebook" ></i></a><a href="http://url" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Follow on Instagram"><i class="icon-instagram" ></i></a><a href="http://url" target="_blank"  data-label="Twitter"  rel="noopener noreferrer nofollow" class="icon plain  twitter tooltip" title="Follow on Twitter"><i class="icon-twitter" ></i></a><a href="mailto:your@email" data-label="E-mail"  rel="nofollow" class="icon plain  email tooltip" title="Send us an email"><i class="icon-envelop" ></i></a></div></li></ul></div></div><div class="hotline-phone-ring-wrap"><div class="hotline-phone-ring"><div class="hotline-phone-ring-circle"></div><div class="hotline-phone-ring-circle-fill"></div><div class="hotline-phone-ring-img-circle">
+<a href="tel:0964710413" class="pps-btn-img">
+<img src="https://anhbeostudio.com/wp-content/plugins/hotline-phone-ring/assets/images/icon-1.png" alt="Số điện thoại" width="50" />
+</a></div></div></div><link data-optimized="1" rel='stylesheet' id='flatsome-effects-css'  href='https://anhbeostudio.com/wp-content/litespeed/cssjs/b7ee2.css?fabe8' type='text/css' media='all' /> <script type='text/javascript' src='https://anhbeostudio.com/wp-includes/js/jquery/ui/core.min.js' id='jquery-ui-core-js'></script> <script type='text/javascript' src='https://anhbeostudio.com/wp-includes/js/jquery/ui/datepicker.min.js' id='jquery-ui-datepicker-js'></script> <script type='text/javascript' id='jquery-ui-datepicker-js-after'>jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"\u0110\u00f3ng","currentText":"H\u00f4m nay","monthNames":["Th\u00e1ng M\u1ed9t","Th\u00e1ng Hai","Th\u00e1ng Ba","Th\u00e1ng T\u01b0","Th\u00e1ng N\u0103m","Th\u00e1ng S\u00e1u","Th\u00e1ng B\u1ea3y","Th\u00e1ng T\u00e1m","Th\u00e1ng Ch\u00edn","Th\u00e1ng M\u01b0\u1eddi","Th\u00e1ng M\u01b0\u1eddi M\u1ed9t","Th\u00e1ng M\u01b0\u1eddi Hai"],"monthNamesShort":["Th1","Th2","Th3","Th4","Th5","Th6","Th7","Th8","Th9","Th10","Th11","Th12"],"nextText":"Ti\u1ebfp theo","prevText":"Quay v\u1ec1","dayNames":["Ch\u1ee7 Nh\u1eadt","Th\u1ee9 Hai","Th\u1ee9 Ba","Th\u1ee9 T\u01b0","Th\u1ee9 N\u0103m","Th\u1ee9 S\u00e1u","Th\u1ee9 B\u1ea3y"],"dayNamesShort":["CN","T2","T3","T4","T5","T6","T7"],"dayNamesMin":["C","H","B","T","N","S","B"],"dateFormat":"dd\/mm\/yy","firstDay":1,"isRTL":false});});</script> <script type='text/javascript' src='https://anhbeostudio.com/wp-content/plugins/booked/assets/js/spin.min.js' id='booked-spin-js-js'></script> <script type='text/javascript' src='https://anhbeostudio.com/wp-content/plugins/booked/assets/js/spin.jquery.js' id='booked-spin-jquery-js'></script> <script type='text/javascript' src='https://anhbeostudio.com/wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min.js' id='booked-tooltipster-js'></script> <script type='text/javascript' id='booked-functions-js-extra'>/*  */
+var booked_js_vars = {"ajax_url":"https:\/\/anhbeostudio.com\/wp-admin\/admin-ajax.php","profilePage":"https:\/\/anhbeostudio.com\/thank\/","publicAppointments":"","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_please_wait":"Please wait ...","i18n_wrong_username_pass":"Wrong username\/password combination.","i18n_fill_out_required_fields":"Please fill out all required fields.","i18n_guest_appt_required_fields":"Please enter your name to book an appointment.","i18n_appt_required_fields":"Please enter your name, your email address and choose a password to book an appointment.","i18n_appt_required_fields_guest":"Please fill in all \"Information\" fields.","i18n_password_reset":"Please check your email for instructions on resetting your password.","i18n_password_reset_error":"That username or email is not recognized."};
+/*  */</script> <script type='text/javascript' src='https://anhbeostudio.com/wp-content/plugins/booked/assets/js/functions.js' id='booked-functions-js'></script> <script type='text/javascript' id='contact-form-7-js-extra'>/*  */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/anhbeostudio.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/*  */</script> <script type='text/javascript' src='https://anhbeostudio.com/wp-content/plugins/contact-form-7/includes/js/scripts.js' id='contact-form-7-js'></script> <script type='text/javascript' id='toc-front-js-extra'>/*  */
+var tocplus = {"visibility_show":"Hi\u1ec7n th\u00eam","visibility_hide":"\u1ea8n b\u1edbt","width":"Auto"};
+/*  */</script> <script type='text/javascript' src='https://anhbeostudio.com/wp-content/plugins/table-of-contents-plus/front.min.js' id='toc-front-js'></script> <script type='text/javascript' id='booked-fea-js-js-extra'>/*  */
+var booked_fea_vars = {"ajax_url":"https:\/\/anhbeostudio.com\/wp-admin\/admin-ajax.php","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_confirm_appt_approve":"Are you sure you want to approve this appointment?"};
+/*  */</script> <script type='text/javascript' src='https://anhbeostudio.com/wp-content/plugins/booked/includes/add-ons/frontend-agents/js/functions.js' id='booked-fea-js-js'></script> <script type='text/javascript' src='https://anhbeostudio.com/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search.js' id='flatsome-live-search-js'></script> <script type='text/javascript' src='https://anhbeostudio.com/wp-includes/js/hoverIntent.min.js' id='hoverIntent-js'></script> <script type='text/javascript' id='flatsome-js-js-extra'>/*  */
+var flatsomeVars = {"ajaxurl":"https:\/\/anhbeostudio.com\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"70","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Main Menu"},"options":{"cookie_notice_version":"1"}};
+/*  */</script> <script type='text/javascript' src='https://anhbeostudio.com/wp-content/themes/flatsome/assets/js/flatsome.js' id='flatsome-js-js'></script> <script type='text/javascript' src='https://anhbeostudio.com/wp-includes/js/wp-embed.min.js' id='wp-embed-js'></script> <script type='text/javascript' src='https://anhbeostudio.com/wp-content/themes/flatsome/assets/libs/packery.pkgd.min.js' id='flatsome-masonry-js-js'></script> </body></html>
+<!-- Page optimized by LiteSpeed Cache @2021-07-19 17:17:13 -->
+<!-- Page generated by LiteSpeed Cache 3.6.4 on 2021-07-20 00:17:13 -->

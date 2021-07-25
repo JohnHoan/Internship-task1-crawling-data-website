@@ -1,0 +1,322 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+<head id="head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><meta name="robots" content="index, follow, all" /><link rel="icon" href="favicon.png" type="image/x-icon" /><meta name="dmca-site-verification" content="NklCa29nck9IYUdSNHh4bzlDeTZXdz090" /><link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen" /><link href="css/style.css" rel="stylesheet" type="text/css" /><link href="//fonts.googleapis.com/css?family=Roboto:400,300,300italic,700,400italic,700italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!--<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script> -->
+<script src="js/jd.menu.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".tab_content").hide();
+        $(".tab_content:first").show();
+        $("ul.tabs li").click(function () {
+            $("ul.tabs li").removeClass("active");
+            $(this).addClass("active");
+            $(".tab_content").hide();
+            var activeTab = $(this).attr("rel");
+            $("#" + activeTab).fadeIn();
+        });
+    });
+</script> 
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#form3').submit(function (event) {
+            event.preventDefault();
+            location.href = $(this).attr('action') + $('input[name=keyword]').val()
+        });
+    });
+</script><link href="css/style1.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="css/zoomslider.css" />
+<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/menu-vertical.js" type="text/javascript"></script>
+    <meta property="fb:app_id" content="289660321503390" /><meta property="fb:admins" content="100002385380517" /><meta name="description" /><meta name="keywords" /><title>
+	Chính sách bảo mật 
+</title></head>
+<body>
+   <div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8&appId=289660321503390";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Header -->
+    <form name="ctl00" method="post" action="" id="ctl00">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTY2OTMzMDgxOGRkTjP7F5qplIb0+Ti+ugsUIV+GIG5M2xfS68weOt7l+FA=" />
+
+
+<script src="/ScriptResource.axd?d=1Hayxe91blZQOM8XD4g25RqigaMpgPMI-g2kMRGoiKoV2jBctGTmAyZ3lDvEMXeYKZ6GDLCs5108HXSbF-2hXQfVfawBz7lVafKQO5IRJ5TjLl6QevO8a1aZ-ZmUXKf4P5cxoSVdaOOfYxydWYrVKmByapzisg1BF2lQalT3ySS-sJvcIE1kKOnWsYeL3V8b0&amp;t=348b0da" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var PageMethods = function() {
+PageMethods.initializeBase(this);
+this._timeout = 0;
+this._userContext = null;
+this._succeeded = null;
+this._failed = null;
+}
+PageMethods.prototype = {
+_get_path:function() {
+ var p = this.get_path();
+ if (p) return p;
+ else return PageMethods._staticInstance.get_path();},
+GetCities:function(id,title,gia,succeededCallback, failedCallback, userContext) {
+/// <param name="id" type="String">System.String</param>
+/// <param name="title" type="String">System.String</param>
+/// <param name="gia" type="String">System.String</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+return this._invoke(this._get_path(), 'GetCities',false,{id:id,title:title,gia:gia},succeededCallback,failedCallback,userContext); }}
+PageMethods.registerClass('PageMethods',Sys.Net.WebServiceProxy);
+PageMethods._staticInstance = new PageMethods();
+PageMethods.set_path = function(value) {
+PageMethods._staticInstance.set_path(value); }
+PageMethods.get_path = function() { 
+/// <value type="String" mayBeNull="true">The service url.</value>
+return PageMethods._staticInstance.get_path();}
+PageMethods.set_timeout = function(value) {
+PageMethods._staticInstance.set_timeout(value); }
+PageMethods.get_timeout = function() { 
+/// <value type="Number">The service timeout.</value>
+return PageMethods._staticInstance.get_timeout(); }
+PageMethods.set_defaultUserContext = function(value) { 
+PageMethods._staticInstance.set_defaultUserContext(value); }
+PageMethods.get_defaultUserContext = function() { 
+/// <value mayBeNull="true">The service default user context.</value>
+return PageMethods._staticInstance.get_defaultUserContext(); }
+PageMethods.set_defaultSucceededCallback = function(value) { 
+ PageMethods._staticInstance.set_defaultSucceededCallback(value); }
+PageMethods.get_defaultSucceededCallback = function() { 
+/// <value type="Function" mayBeNull="true">The service default succeeded callback.</value>
+return PageMethods._staticInstance.get_defaultSucceededCallback(); }
+PageMethods.set_defaultFailedCallback = function(value) { 
+PageMethods._staticInstance.set_defaultFailedCallback(value); }
+PageMethods.get_defaultFailedCallback = function() { 
+/// <value type="Function" mayBeNull="true">The service default failed callback.</value>
+return PageMethods._staticInstance.get_defaultFailedCallback(); }
+PageMethods.set_enableJsonp = function(value) { PageMethods._staticInstance.set_enableJsonp(value); }
+PageMethods.get_enableJsonp = function() { 
+/// <value type="Boolean">Specifies whether the service supports JSONP for cross domain calling.</value>
+return PageMethods._staticInstance.get_enableJsonp(); }
+PageMethods.set_jsonpCallbackParameter = function(value) { PageMethods._staticInstance.set_jsonpCallbackParameter(value); }
+PageMethods.get_jsonpCallbackParameter = function() { 
+/// <value type="String">Specifies the parameter name that contains the callback function name for a JSONP request.</value>
+return PageMethods._staticInstance.get_jsonpCallbackParameter(); }
+PageMethods.set_path("Default.aspx");
+PageMethods.GetCities= function(id,title,gia,onSuccess,onFailed,userContext) {
+/// <param name="id" type="String">System.String</param>
+/// <param name="title" type="String">System.String</param>
+/// <param name="gia" type="String">System.String</param>
+/// <param name="succeededCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="failedCallback" type="Function" optional="true" mayBeNull="true"></param>
+/// <param name="userContext" optional="true" mayBeNull="true"></param>
+PageMethods._staticInstance.GetCities(id,title,gia,onSuccess,onFailed,userContext); }
+//]]>
+</script>
+
+        
+        <!--main-->
+        <div id="container">
+            <div id="main">
+        	<div id="main_in">
+                <div id="box_header">
+                     <div id="box_header_in" class="container">
+                <div id="header">
+                	<div class="banner">
+                    	<div class="logo">
+                            <a title='Banner' href='http://nhglimitedcompany.com/'><img alt='Banner' src='http://nhgvietnam.com/UploadFile/44544398Banner_NHG_3.png'/></a>
+                        </div>
+                        
+						
+					                
+                    </div>
+            </div>
+          </div>
+
+		  
+<div class="box_menu"> 
+             <div class="navigation">
+                         	<ul class="menu" id="menu"> 
+<li><a class='mt_it active' href='/' target='_self'><img src='images/ico_home.png' style='float:left; margin-top:11px; position:relative;'>Trang chủ</a></li><li><a  class='mt_it' href='default.aspx?act=sanpham&i1=31'>Giới thiệu</a></li><li><a class='mt_it' href='san-pham.htm'>Sản phẩm</a><ul><li class='sub_it'><a href='default.aspx?act=sanpham&i1=63'>THUỐC PHỤ KHOA</a></li><li class='sub_it'><a href='default.aspx?act=sanpham&i1=62'>THUỐC BỔ CHO MẸ BẦU</a></li><li class='sub_it'><a href='default.aspx?act=sanpham&i1=61'>THUỐC HO - LONG ĐỜM</a></li><li class='sub_it'><a href='default.aspx?act=sanpham&i1=60'>HỖ TRỢ HIẾM MUỘN</a></li><li class='sub_it'><a href='default.aspx?act=sanpham&i1=28'>THUỐC BỔ CHỐNG BIẾNG ĂN</a><ul class='sub2'><li class='sub_it'><a href='default.aspx?act=sanpham&i1=28&i2=250'>Dicolacto - Men tiêu hóa</a></li><li class='sub_it'><a href='default.aspx?act=sanpham&i1=28&i2=248'>aaaa</a></li></ul></li></ul></li><li><a  class='mt_it' href='default.aspx?act=sanpham&i1=39'>Kiến thức y khoa</a></li><li><a  class='mt_it' href='default.aspx?act=sanpham&i1=64'>Hoạt động chung của công ty</a></li><li><a  class='mt_it' href='default.aspx?act=sanpham&i1=68'>Chính sách </a></li><li><a  class='mt_it' href='default.aspx?act=sanpham&i1=71'>Chính sách bảo mật </a></li><li><a  class='mt_it' href='default.aspx?act=sanpham&i1=35'>Hỏi đáp</a></li><li><a class='mt_it' href='default.aspx?act=contactus&IntroID=96' title='Liên hệ'>Liên hệ</a></li>
+                                 </ul>
+                 </div>
+    <script type="text/javascript">
+        var menu = new menu.dd('menu');
+        menu.init('menu', 'menuhover');
+							</script> 
+    </div>
+	
+                    </div>
+                <div class="clear"></div>
+<div class="menu_mobi">
+<a class="toggleMenu" href="#" rel="nofollow"><img src="images/menu_splash.png" alt="menu" /></a>
+    <ul class="navmobi">
+        <li class='active'><a href='/' target='_self'>Trang chủ</a></li><li><a href='default.aspx?act=sanpham&i1=31'>Giới thiệu</a></li><li class='test'><a class='mt_it' href='san-pham.htm'>Sản phẩm</a><ul><li><a href='default.aspx?act=sanpham&i1=63'>THUỐC PHỤ KHOA</a></li><li><a href='default.aspx?act=sanpham&i1=62'>THUỐC BỔ CHO MẸ BẦU</a></li><li><a href='default.aspx?act=sanpham&i1=61'>THUỐC HO - LONG ĐỜM</a></li><li><a href='default.aspx?act=sanpham&i1=60'>HỖ TRỢ HIẾM MUỘN</a></li><li><a href='default.aspx?act=sanpham&i1=28'>THUỐC BỔ CHỐNG BIẾNG ĂN</a><ul class='sub2'><li class='sub_it'><a href='default.aspx?act=sanpham&i1=28&i2=250'>Dicolacto - Men tiêu hóa</a></li><li class='sub_it'><a href='default.aspx?act=sanpham&i1=28&i2=248'>aaaa</a></li></ul></li></ul></li><li><a href='default.aspx?act=sanpham&i1=39'>Kiến thức y khoa</a></li><li><a href='default.aspx?act=sanpham&i1=64'>Hoạt động chung của công ty</a></li><li><a href='default.aspx?act=sanpham&i1=68'>Chính sách </a></li><li><a href='default.aspx?act=sanpham&i1=71'>Chính sách bảo mật </a></li><li><a href='default.aspx?act=sanpham&i1=35'>Hỏi đáp</a></li><li class='last'><a href='default.aspx?act=contactus&IntroID=96' title='Liên hệ'>Liên hệ</a></li>
+        </ul>
+    <script type="text/javascript" src="js/script.js"></script>
+    <div class="logo_mmm">
+        <a title='Banner' href='http://nhglimitedcompany.com/'><img alt='Banner' src='http://nhgvietnam.com/UploadFile/44544398Banner_NHG_3.png'/></a>
+    </div>
+    </div>
+<div class="height_mn"></div>
+                <div class="clear"></div> 
+ <div>
+<div class="container">
+    <div class="col-xs-12 col-sm-12 col-md-8">
+        <div class="row">
+<div id='demo-1' data-zs-src='["http://nhgvietnam.com/UploadFile/ảnh_đại_diện.jpg"]' data-zs-overlay='dots'></div>
+        </div>
+        </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 hidden-xs">
+        <div class="grounp-tuychinh-right row">
+            <div class='adphai col-md-12 col-sm-12 col-xs-12'><div class='row'><a href='' title='Qc Trái 3'><img style='width: 100%;' src='http://nhgvietnam.com/UploadFile/557332d0ba32586c0123.jpg' alt='Qc Trái 3'/></a></div></div><div class='adphai col-md-12 col-sm-12 col-xs-12'><div class='row'><a href='' title='Slide phải 2'><img style='width: 100%;' src='http://nhgvietnam.com/UploadFile/muon-di-nhanh-hay-di-mot-minh-muon-di-xa-hay-di-cung-nhau.jpg' alt='Slide phải 2'/></a></div></div>
+            </div>
+        </div>
+</div>
+	<script type="text/javascript" src="js/jquery.zoomslider.min.js"></script></div>
+<div class="clear10"></div>
+                <div id="home">
+<div class="container">
+    <div class="content"> 
+        <section class="box-collection">
+		<div class="modcontent">
+<div class="row">
+    <div class="col-md-3 col-sm-4 col-xs-12 hidden-xs">
+        <div class="title_pro_hot2">
+				<h2>DANH MỤC SẢN PHẨM</h2>
+			</div>
+<div class="box-colection">
+						<ul id="menu-v">
+<li><a href='default.aspx?act=sanpham&i1=63'>THUỐC PHỤ KHOA</a></li><li><a href='default.aspx?act=sanpham&i1=62'>THUỐC BỔ CHO MẸ BẦU</a></li><li><a href='default.aspx?act=sanpham&i1=61'>THUỐC HO - LONG ĐỜM</a></li><li><a href='default.aspx?act=sanpham&i1=60'>HỖ TRỢ HIẾM MUỘN</a></li><li><a href='default.aspx?act=sanpham&i1=28'>THUỐC BỔ CHỐNG BIẾNG ĂN</a><ul class='dl-submenu'><li><a href='default.aspx?act=sanpham&i1=28&i2=250'>» Dicolacto - Men tiêu hóa</a></li></ul></li>
+                            </ul>
+    </div>
+          <div class="title_pro_hot2">
+				<h2>HỖ TRỢ TRỰC TUYẾN</h2>
+			</div>
+        <div class="widget-container">	
+                            		<div class="textwidget">
+                                        <p>
+<img border='0' src='images/phone.jpg' style='width:20px;'>&nbsp;&nbsp;<font color='#ff0000' size='4' style='line-height: 40px;'><b style='color:#ff0000'>0963.526.626</b></font><br><img border='0' src='images/phone.jpg' style='width:20px;'>&nbsp;&nbsp;<font color='#ff0000' size='4' style='line-height: 40px;'><b style='color:#ff0000'>0973.369.654</b></font><br><img border='0' src='images/email.jpg' style='width:20px;'>&nbsp;&nbsp;<font size='2' style='line-height: 30px;'><b><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d0beb8b7a6b9b5a4beb1bdb3bfbda0b1bea990b7bdb1b9bcfeb3bfbd">[email&#160;protected]</a><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript'></script></b></font><br><img border='0' src='images/address.jpg' style='width:20px;'>&nbsp;&nbsp;<font size='2' style='line-height: 30px;'><b>Số 9D Ngõ 22 - Lĩnh Nam - Mai Động - Hoàng Mai - Hà Nội</b></font><br>
+                                        </p>
+                            		</div>
+		</div>
+        <div class="title_pro_hot2">
+				<h2><span>FANPAGE</h2>
+			</div>
+        <div class="pre-text hidden-xs">
+          <div class='fb-page' data-href='' data-height='220' data-small-header='false' data-adapt-container-width='true' data-hide-cover='false' data-show-facepile='true'><blockquote cite='' class='fb-xfbml-parse-ignore'><a href=''>Điều Hòa</a></blockquote></div>
+        </div>    
+ <div class="widget-container">	
+                            		<div class="textwidget">
+  
+                            		</div>
+		</div>              
+        </div>
+ <div class="col-md-9 col-sm-8 col-xs-12"> 
+					<div class="noidunghome">  
+<div><div class='col-md-12 col-sm-12 col-xs-12'><div class='row'><div class='title_pro_hot2'><h2><a href='default.aspx?act=sanpham&i1=64'>Hoạt động chung của công ty</a></h2></div><div class='gach_duoi_home'></div><div class='box_c'><div class='col-md-6 col-sm-6 col-xs-12'><div class='row'><div class='topimg'><a class='news-image' href='default.aspx?act=chitiet&i=1032' title='MÙA XUÂN CỦA NHG '><img src='http://nhgvietnam.com/UploadFile/z2435360149531_dc8e876998bf3679d1ba2db976fae513.jpg' alt='MÙA XUÂN CỦA NHG ' title='MÙA XUÂN CỦA NHG '></a></div><div class='topinfo'><h2 class='product_name'><a href='default.aspx?act=chitiet&i=1032' title='MÙA XUÂN CỦA NHG '>MÙA XUÂN CỦA NHG </a></h2><span class='mota'> Đón chào năm mới, NHG Việt Nam như thường niên, tổ chức đi du xuân - Lễ chùa đầu năm Tân Sửu 2021 cho toàn thể cán bộ nhân viên.
+</span></div></div></div><div class='col-md-6 col-sm-6 col-xs-12'><div class='row'><div class='col-md-8 col-sm-8 col-xs-12'><div class='botinfo'><h3 class='product_name'><img class='icon' src='images/iconnews1.png' alt='icon'/><a href='default.aspx?act=chitiet&i=1030' title='  NGÀY 8 THÁNG 3 TẠI NHG VIỆT NAM '>  NGÀY 8 THÁNG 3 TẠI NHG VIỆT NAM </a></h3><span class='mota'>Nhân dịp kỷ niệm 107 năm ngày Quốc tế Phụ nữ 8/3, công ty TNHH NHG Việt Nam tổ chức buổi giao lưu tôn vinh ngày phụ nữ Việt Nam với chị em nhân viên.</span></div></div><div class='col-md-4 col-sm-4 col-xs-12'><div class='row'><div class='botimg'><a class='news-image' href='default.aspx?act=chitiet&i=1030' title='  NGÀY 8 THÁNG 3 TẠI NHG VIỆT NAM '><img src='http://nhgvietnam.com/UploadFile/z2369783658040_40edc25157694b8b5d7301bab62cee87.jpg' alt='  NGÀY 8 THÁNG 3 TẠI NHG VIỆT NAM ' title='  NGÀY 8 THÁNG 3 TẠI NHG VIỆT NAM '></a></div></div></div></div></div><div class='col-md-6 col-sm-6 col-xs-12'><div class='row'><div class='col-md-8 col-sm-8 col-xs-12'><div class='botinfo'><h3 class='product_name'><img class='icon' src='images/iconnews1.png' alt='icon'/><a href='default.aspx?act=chitiet&i=1027' title='  NGÀY 20 THÁNG 10  TẠI NHG VIỆT NAM '>  NGÀY 20 THÁNG 10  TẠI NHG VIỆT NAM </a></h3><span class='mota'> Hòa theo không khí rộn ràng ấy vào chiều ngày 20/10/2020, công ty TNHH NHG Việt Nam tổ chức buổi giao lưu tôn vinh ngày phụ nữ Việt Nam  với chị em nhân viên.</span></div></div><div class='col-md-4 col-sm-4 col-xs-12'><div class='row'><div class='botimg'><a class='news-image' href='default.aspx?act=chitiet&i=1027' title='  NGÀY 20 THÁNG 10  TẠI NHG VIỆT NAM '><img src='http://nhgvietnam.com/UploadFile/495a26c205f4fbaaa2e5.jpg' alt='  NGÀY 20 THÁNG 10  TẠI NHG VIỆT NAM ' title='  NGÀY 20 THÁNG 10  TẠI NHG VIỆT NAM '></a></div></div></div></div></div><div class='col-md-6 col-sm-6 col-xs-12'><div class='row'><div class='col-md-8 col-sm-8 col-xs-12'><div class='botinfo'><h3 class='product_name'><img class='icon' src='images/iconnews1.png' alt='icon'/><a href='default.aspx?act=chitiet&i=1017' title='DU LỊCH VỚI NHG VIỆT NAM '>DU LỊCH VỚI NHG VIỆT NAM </a></h3><span class='mota'>   Du lịch luôn là truyền thống hằng năm của NHG Việt Nam. </span></div></div><div class='col-md-4 col-sm-4 col-xs-12'><div class='row'><div class='botimg'><a class='news-image' href='default.aspx?act=chitiet&i=1017' title='DU LỊCH VỚI NHG VIỆT NAM '><img src='http://nhgvietnam.com/UploadFile/69035353du_lịch.jpg' alt='DU LỊCH VỚI NHG VIỆT NAM ' title='DU LỊCH VỚI NHG VIỆT NAM '></a></div></div></div></div></div><div class='col-md-6 col-sm-6 col-xs-12'><div class='row'><div class='col-md-8 col-sm-8 col-xs-12'><div class='botinfo'><h3 class='product_name'><img class='icon' src='images/iconnews1.png' alt='icon'/><a href='default.aspx?act=chitiet&i=1004' title='NHG VIỆT NAM VÀ  THƯỞNG DOANH SỐ '>NHG VIỆT NAM VÀ  THƯỞNG DOANH SỐ </a></h3><span class='mota'>THƯỞNG DOANH SỐ QUÝ 3 NĂM 2020</span></div></div><div class='col-md-4 col-sm-4 col-xs-12'><div class='row'><div class='botimg'><a class='news-image' href='default.aspx?act=chitiet&i=1004' title='NHG VIỆT NAM VÀ  THƯỞNG DOANH SỐ '><img src='http://nhgvietnam.com/UploadFile/bf4c77d44ae5b4bbedf4.jpg' alt='NHG VIỆT NAM VÀ  THƯỞNG DOANH SỐ ' title='NHG VIỆT NAM VÀ  THƯỞNG DOANH SỐ '></a></div></div></div></div></div></div></div></div><div class='col-md-6 col-sm-6 col-xs-12'><div class='row'><div class='title_pro_hot2'><h2><a href='default.aspx?act=sanpham&i1=39'>Kiến thức y khoa</a></h2></div><div class='gach_duoi_home'></div><div class='box_c'><div class='col-md-5 col-sm-5 col-xs-12'><div class='row'><div class='btopimg'><a class='news-image' href='default.aspx?act=chitiet&i=651' title=' 10 nguyên nhân hàng đầu gây vô sinh ở phụ nữ'><img src='http://nhgvietnam.com/UploadFile/a8.jpg' alt=' 10 nguyên nhân hàng đầu gây vô sinh ở phụ nữ' title=' 10 nguyên nhân hàng đầu gây vô sinh ở phụ nữ'></a></div></div></div><div class='col-md-7 col-sm-7 col-xs-12'><div class='btopinfo'><h2 class='product_name'><a href='default.aspx?act=chitiet&i=651' title=' 10 nguyên nhân hàng đầu gây vô sinh ở phụ nữ'> 10 nguyên nhân hàng đầu gây vô sinh ở phụ nữ</a></h2><span class='mota'></span></div></div><div class='col-md-12 col-sm-12 col-xs-12'><div class='bbotinfo'><h3 class='product_name'><img class='icon' src='images/iconnews1.png' alt='icon'/><a href='default.aspx?act=chitiet&i=650' title=' Di chuyển nhiều cũng là nguyên nhân gây hiếm muộn'> Di chuyển nhiều cũng là nguyên nhân gây hiếm muộn</a></h3></div></div><div class='col-md-12 col-sm-12 col-xs-12'><div class='bbotinfo'><h3 class='product_name'><img class='icon' src='images/iconnews1.png' alt='icon'/><a href='default.aspx?act=chitiet&i=649' title='Rối loạn kinh nguyệt có thể gây vô sinh ở nữ giới'>Rối loạn kinh nguyệt có thể gây vô sinh ở nữ giới</a></h3></div></div><div class='col-md-12 col-sm-12 col-xs-12'><div class='bbotinfo'><h3 class='product_name'><img class='icon' src='images/iconnews1.png' alt='icon'/><a href='default.aspx?act=chitiet&i=993' title='8 nguyên nhân khiến đàn ông hiếm muộn'>8 nguyên nhân khiến đàn ông hiếm muộn</a></h3></div></div><div class='col-md-12 col-sm-12 col-xs-12'><div class='bbotinfo'><h3 class='product_name'><img class='icon' src='images/iconnews1.png' alt='icon'/><a href='default.aspx?act=chitiet&i=992' title=' Béo phì và bệnh hiếm muộn'> Béo phì và bệnh hiếm muộn</a></h3></div></div><div class='col-md-12 col-sm-12 col-xs-12'><div class='bbotinfo'><h3 class='product_name'><img class='icon' src='images/iconnews1.png' alt='icon'/><a href='default.aspx?act=chitiet&i=991' title='Ăn kiêng làm giảm khả năng sinh con'>Ăn kiêng làm giảm khả năng sinh con</a></h3></div></div></div></div></div><div class='col-md-6 col-sm-6 col-xs-12'><div class='row'><div class='title_pro_hot2'><h2><a href='default.aspx?act=sanpham&i1=35'>Hỏi đáp</a></h2></div><div class='gach_duoi_home'></div><div class='box_c'><div class='col-md-5 col-sm-5 col-xs-12'><div class='row'><div class='btopimg'><a class='news-image' href='default.aspx?act=chitiet&i=837' title='Nghi ngờ khó có con vì bị bệnh răng miệng'><img src='http://nhgvietnam.com/UploadFile/a13.jpg' alt='Nghi ngờ khó có con vì bị bệnh răng miệng' title='Nghi ngờ khó có con vì bị bệnh răng miệng'></a></div></div></div><div class='col-md-7 col-sm-7 col-xs-12'><div class='btopinfo'><h2 class='product_name'><a href='default.aspx?act=chitiet&i=837' title='Nghi ngờ khó có con vì bị bệnh răng miệng'>Nghi ngờ khó có con vì bị bệnh răng miệng</a></h2><span class='mota'></span></div></div><div class='col-md-12 col-sm-12 col-xs-12'><div class='bbotinfo'><h3 class='product_name'><img class='icon' src='images/iconnews1.png' alt='icon'/><a href='default.aspx?act=chitiet&i=631' title=' Thiếu hụt dinh dưỡng có thể dẫn tới vô sinh'> Thiếu hụt dinh dưỡng có thể dẫn tới vô sinh</a></h3></div></div></div></div></div><div class='col-md-6 col-sm-6 col-xs-12'><div class='row'><div class='title_pro_hot2'><h2><a href='default.aspx?act=sanpham&i1=31'>Giới thiệu</a></h2></div><div class='gach_duoi_home'></div><div class='box_c'><div class='col-md-5 col-sm-5 col-xs-12'><div class='row'><div class='btopimg'><a class='news-image' href='default.aspx?act=chitiet&i=640' title='GIỚI THIỆU CHUNG'><img src='http://nhgvietnam.com/UploadFile/35283665logo_NHG.png' alt='GIỚI THIỆU CHUNG' title='GIỚI THIỆU CHUNG'></a></div></div></div><div class='col-md-7 col-sm-7 col-xs-12'><div class='btopinfo'><h2 class='product_name'><a href='default.aspx?act=chitiet&i=640' title='GIỚI THIỆU CHUNG'>GIỚI THIỆU CHUNG</a></h2><span class='mota'>GIỚI THIỆU CHUNG VỀ CÔNG TY TNHH NHG VIỆT NAM </span></div></div></div></div></div>                               
+     
+        
+    
+        </div>                                             
+                        </div>
+				
+     </div> 
+         
+    </div>
+            </div>
+    </section>
+        </div>  
+    <div class="clear10"></div>
+ 
+     </div>
+    </div> 
+<div class="clear20"></div>
+   <div id="footer">
+					<div class="container">                	
+                    <div class="box_home_bottom_ss">     
+<div class="col-md-8 col-sm-8 col-xs-12">					
+<strong>CÔNG TY TNHH NHG VIỆT NAM </strong><br />
+Địa chỉ: Số 9D Ngõ 22 - Lĩnh Nam&nbsp; - Mai Động - Hoàng Mai - Hà Nội<br />
+GPĐKKD số 0107558118 do sở KHĐT TP Hà Nội cấp ngày 12/09/2016<br />
+Điện thoại: 02434.835.544<br />
+Email:<u> <strong><a href="/cdn-cgi/l/email-protection#650b0d02130c00110b0408060a0815040b1c250208040c094b060a08" target="_blank"><span class="__cf_email__" data-cfemail="cba5a3acbda2aebfa5aaa6a8a4a6bbaaa5b28baca6aaa2a7e5a8a4a6">[email&#160;protected]</span></a></strong></u><br />
+Website: <u><strong><a href="http://nhgvietnam.com/">http://nhgvietnam.com/</a></strong></u><br />
+Người đại diện theo pháp luật: <strong>NGUYỄN VĂN ĐIỆP</strong><br />
+<br />
+   
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12">	
+<div>
+	&nbsp;</div>
+<a target="_blank" href="https://www.dmca.com/compliance/nhgvietnam.com" title="DMCA Compliance information for nhgvietnam.com"><img src="https://www.dmca.com/img/dmca-compliant-white-bg.png" /></a>
+<a target="_blank" href="//www.dmca.com/Protection/Status.aspx?ID=77d061ae-2567-4437-a61d-9e138fa3967d" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120l.png?ID=77d061ae-2567-4437-a61d-9e138fa3967d"  alt="DMCA.com Protection Status" /></a>  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+</div>
+                </div></div>
+                 </div>                 
+                <div class="box_footer_bottom">
+                	<div class="container">
+                      <div class="footer_bottom">
+<div class="copy">2018 Copyright © NHG Việt Nam Company .All rights reserved</div>
+                     <div class="truycap"> Tổng truy cập: <span class="sao"><b>98212</b></div>
+                      </div>
+                    </div>  
+                </div>    
+			<div class="clear"></div>
+            </div>
+                 </div> 
+             </div>
+<div id="back-to-top" class="show"><a href="#" title="Back to top">↑</a></div>
+        <script async='async' type="text/javascript" src="js/scrolltopcontrol.js"></script> 
+<script type="text/javascript">
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >= 200) {
+            $('.box_menu').addClass('get-fix2');
+        } else {
+            $('.box_menu').removeClass('get-fix2');
+        }
+    });
+</script>
+<div class="hotline_mobi">
+     <a href='tel:0973.369.654'><div class='duyanh-alo-phone'><div class='animated infinite zoomIn duyanh-alo-ph-circle'></div><div class='animated infinite pulse duyanh-alo-ph-circle-fill'></div><div class='animated infinite tada duyanh-alo-ph-img-circle'></div></div></a>
+									</div>
+    </form>
+    <script type="text/javascript">
+        function addcart(ids, tittle, gia) {
+            PageMethods.GetCities(ids, tittle, gia);
+            document.getElementById(ids).innerText = 'ok';
+            document.getElementById(ids).style.background = '#FF3600';
+        }
+        function removecart(key) {
+            PageMethods.GetCities(ids, tittle, gia);
+            document.getElementById(ids).innerText = 'ok';
+            document.getElementById(ids).style.background = '#000';
+        }
+    </script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b02a78c731fc43e"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5b2c8053d0b5a54796820fcc/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+</body>
+</html>

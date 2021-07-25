@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>NEWEE | TRANG CHỦ</title>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:url" content="https://newee.asia" />
+    <meta property="og:title" content="Newee Asia" />
+    <meta property="og:image" content="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618304713/ladipage/1%20logo/luo2uj167jnu0cxe1idl.png" />
+    <meta property="og:description" content="Newee là hệ thống đối tác bán hàng dựa trên các nền tảng thương mại điện tử giúp mọi người gia tăng thu nhập một cách hiệu quả.
+" />
+
+
+    <link rel="shortcut icon" href="img/icon.jpg">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./asset/bootstrap/bootstrap.min.css" />
+    <script src="./asset/js/bootstrap.bundle.min.js"></script>
+    <script src="asset/jquery/jquery-3.5.1.slim.min.js"></script>
+    <script src="asset/jquery/popper.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./asset/css/styles.css" />
+    <link rel="stylesheet" href="./asset/css/media.css">
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GRZRR3DXTY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-GRZRR3DXTY');
+    </script>
+
+</head>
+
+
+<body>
+
+
+
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "102256238212554");
+        chatbox.setAttribute("attribution", "biz_inbox");
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v10.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Messenger Plugin chat Code -->
+
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid px-2 px-xl-4">
+                <a class="navbar-brand logo" href="https://newee.asia">
+                    <img src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618304713/ladipage/1%20logo/luo2uj167jnu0cxe1idl.png" alt="logo" />
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+                    <ul class="navbar-nav mt-2 mt-lg-0">
+                        <li class="nav-item px-1 active px-md-0 d-lg-none d-xl-block">
+                            <a class="nav-link" href="https://newee.asia/">Trang chủ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item px-2 px-lg-0">
+                            <a class="nav-link" href="https://newee.asia/#about">Về chúng tôi</a>
+                        </li>
+                        <li class="nav-item px-2 px-lg-0">
+                            <a class="nav-link" href="https://newee.asia/#register">Hướng dẫn</a>
+                        </li>
+
+                        <li class="nav-item px-2 px-lg-0">
+                            <a class="nav-link" href="https://newee.asia/policy/policy.html">Điều khoản</a>
+                        
+                        </li>
+                        <li class="nav-item px-2 px-lg-0 ">
+                            <a class="nav-link text-success btn-outline-success border-success" style="font-weight: 600;" href="https://newee.asia/doanhnghiep.html">Dành Cho Doanh Nghiệp</a>
+                        </li>
+
+                        <li class="nav-item px-2 px-lg-1">
+                            <button class="btn btn-primary btns my-2 my-sm-0 px-4 btn-animation" type="submit">
+                          <a href="https://newee.asia/dangnhap.html" style="color: #FFF">Đăng nhập</a>
+                        </button>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-img">
+                <img src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618304714/ladipage/1%20logo/tlng0psrdw1mpcnx8ncs.png" alt="hero-img" />
+            </div>
+
+            <div class="row">
+                <div class="col-xl-6 col-lg-12 col-12 mb-4 my-sm-2">
+                    <h2 class="hero">Newee</h2>
+                    <h4 class="hero">NỀN TẢNG PHÁT TRIỂN NHÀ BÁN HÀNG ONLINE</h4>
+                    <p class="content-p-regular">
+                       Là nền tảng phát triển Nhà bán hàng Online toàn diện thông qua Thương mại điện tử và Mạng xã hội giúp thúc đẩy thu nhập một cách vượt trội.
+
+                    </p>
+                    <div class="hero-btns d-flex">
+                        <!-- <button class="btn btn-primary btns my-2 my-sm-0 px-4" type="submit">
+                Tìm hiểu thêm
+              </button> -->
+                <button class="btn btn-primary btns my-2 my-sm-0 px-4 btn-register" type="submit">
+                    <a href="https://newee.asia/dangky.html" style="color: #FFF">Đăng ký</a>
+                </button>
+                <button class="btn btn-primary btns my-2 my-sm-0 px-4 btn-register ml-2" id="btn-play-video" type="button">
+                    <span style="color: #FFF">Hướng dẫn đăng ký</span>
+                </button>
+                        <div class="video-popup">
+                            <div class="video-popup-inner">
+                                <div class="video-popup-close">
+                                    <img class="video-popup-img" width="24px" height="24px" src="./img/button/times-solid.svg" alt="Newee btn-cancel-video"></img>
+
+
+
+                                </div>
+
+                                <div class="iframe-box">
+                                    <iframe id="player-1" src="https://www.youtube.com/embed/9oGhAkQLfI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <button class="btn btn-primary btns my-2 my-sm-0 px-4 btn-register" style="display: none" type="button" > 
+
+              <div id="shareBtn" class="clearfix">Share FB</div> 
+
+                <script>
+                  document.getElementById('shareBtn').onclick = function() {
+                      FB.ui({
+                        display: 'popup',
+                        method: 'share',
+                        
+                        media: ["https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1621522766/0521/seller/banner/atxhytim2vxldflnsy7b.jpg", "https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1621522766/0521/seller/banner/atxhytim2vxldflnsy7b.jpg"],
+                      
+                      }, function(response){console.log(response)});
+                    }
+                </script>
+
+              </button> -->
+
+                        <!-- <button class="btn btn-primary btns my-2 my-sm-0 px-4 btn-register" type="submit">
+                <a href="https://newee.asia/register/register.html" style="color: #FFF">Đăng ký</a>
+              </button> -->
+
+
+                        <!-- <button class="btn btn-primary btns-trans btns my-2 my-sm-0 px-4 btn-register" type="button">
+                <a href="https://newee.asia/validator/index.html" style="color: #FFF">
+                Đăng ký nhanh
+                </a>
+              </button> -->
+
+
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-12 my-sm-2">
+                    <div class="hero-box">
+                        <img src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618304714/ladipage/1%20logo/v11uvawr2dcizemw4ouk.png" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-img">
+            <img src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618567157/ladipage/8%20background/sottvklq6mx2mmf6vmpx.png" alt="1"></img>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="about-img-left">
+                        <img class="img-fluid" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618308649/ladipage/2%20about/ljhrvy27o5rmzdn6wj76.png" alt="1" />
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 m-auto">
+                    <img style="width: 245px; height: 100px" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618304713/ladipage/1%20logo/luo2uj167jnu0cxe1idl.png" alt="logo" />
+                    <h4 class="about-title">Về chúng tôi</h4>
+                    <p class="about-content-p">
+                        <span class="about-span">Newee </span> là hệ thống đối tác bán nhà bán hàng online dựa trên các nền tảng thương mại điện tử giúp mọi người gia tăng thu nhập một cách hiệu quả. <br /> Mức phí chiết khấu hoa hồng cho sản phẩm lên
+                        tới <span class="about-span">30%</span>.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rule">
+        <div class="container">
+            <div class="rule-text-center">
+                <p class="rule-title text-center">Newee hoạt động</p>
+                <p class="rule-title text-center">dựa trên 4 nguyên tắc</p>
+            </div>
+            <div class="row justify-content-center mt-lg-3">
+                <div class="rule-col col-xl-4 col-lg-5 col-md-6 col-12 mx-lg-2 mx-xl-5">
+                    <div class="card">
+                        <div style="background-color: #81c000">
+                            <img class="m-auto card-img-top pt-4" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618309777/ladipage/3%20rule/hbpbykwec9kbeytv33eq.png" style="width: 100px; height: 100px; color: blue" />
+                            <h3 class="card-subtitle w-75 pt-4 pb-3 text-center rule-h3">
+                                Đối tác tin cậy
+                            </h3>
+                        </div>
+                        <div class="card-body py-2" style="background-color: #9acd33">
+                            <div class="row rule-content">
+                                <div class="col-6 text-right rule-card">
+                                    <p class="content-p pt-3">
+                                        Các doanh nghiệp hợp tác với Newee đều có giấy phép kinh doanh cũng như hồ sơ chứng minh nguồn gốc sản phẩm, phù hợp với pháp luật Việt Nam.
+                                    </p>
+                                </div>
+                                <div class="col-6 text-left">
+                                    <p class="content-p pt-3">
+                                        Các nhà bán hàng cộng tác với Newee đều được ký hợp đồng để đảm bảo quyền lợi của hai bên và bảo vệ mỗi cá nhân nếu xảy ra tranh chấp.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rule-col col-xl-4 col-lg-5 col-md-6 col-12 mx-lg-2 mx-xl-5">
+                    <div class="card">
+                        <div style="background-color: #337ac8">
+                            <img class="m-auto card-img-top pt-4" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618309777/ladipage/3%20rule/hpcrt9lp2mu4p51qnehn.png" style="width: 100px; height: 100px; color: blue" />
+                            <h3 class="card-subtitle w-75 pt-4 pb-3 text-center rule-h3">
+                                Chính sách hợp tác đơn giản và rõ ràng
+                            </h3>
+                        </div>
+                        <div class="card-body py-1" style="background-color: #5c95d3">
+                            <div class="row">
+                                <div class="col-6 text-right rule-card">
+                                    <p class="content-p pt-3">
+                                        Newee chủ trương minh bạch với nhà bán hàng trong các thông tin về tình trạng đơn hàng, phần trăm chiết khấu, doanh thu cá nhân.
+                                    </p>
+                                </div>
+                                <div class="col-6 text-left">
+                                    <p class="content-p pt-3">
+                                        Chính sách hợp tác một cấp giúp nhà bán hàng có mức phần trăm hoa hồng cao hơn.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3 mt-lg-5">
+                <div class="rule-col col-xl-4 col-lg-5 col-md-6 col-12 mx-lg-2 mx-xl-5">
+                    <div class="card">
+                        <div style="background-color: #337ac8">
+                            <img class="m-auto card-img-top pt-4" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618309777/ladipage/3%20rule/hd6pq53vet7xbeis5vld.png" style="width: 100px; height: 100px; color: blue" />
+                            <h3 class="card-subtitle w-75 pt-4 pb-3 text-center rule-h3">
+                                Dễ dàng sử dụng các công cụ quản lý
+                            </h3>
+                        </div>
+                        <div class="card-body py-1" style="background-color: #5c95d3">
+                            <div class="row">
+                                <div class="col-6 text-right rule-card">
+                                    <p class="content-p pt-3">
+                                        Newee xây dựng hệ thống đặt hàng đơn giản, dễ thao tác, thể hiện đầy đủ các thông tin cần thiết cho nhà bán hàng.
+                                    </p>
+                                </div>
+                                <div class="col-6 text-left">
+                                    <p class="content-p pt-3">
+                                        Newee sản xuất và cung cấp nội dung (hình ảnh, mô tả, video) về sản phẩm cho nhà bán hàng.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rule-col col-xl-4 col-lg-5 col-md-6 col-12 mx-lg-2 mx-xl-5">
+                    <div class="card card-primary">
+                        <div style="background-color: #81c000">
+                            <img class="m-auto card-img-top pt-4" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618309777/ladipage/3%20rule/vaoy76dxsrgdvrzshikx.png" style="width: 100px; height: 100px; color: blue" />
+                            <h3 class="card-subtitle w-75 pt-4 pb-3 text-center rule-h3">
+                                Đa dạng cơ hội để kiếm thêm thu nhập
+                            </h3>
+                        </div>
+                        <div class="card-body py-1" style="background-color: #9acd33">
+                            <div class="row">
+                                <div class="col-6 text-right rule-card">
+                                    <p class="content-p pt-3">
+                                        Newee luôn luôn cố gắng đa dạng ngành hàng và loại sản phẩm cho nhà bán hàng chọn lựa.
+                                    </p>
+                                </div>
+                                <div class="col-6 text-left">
+                                    <p class="content-p pt-3">
+                                        nhà bán hàng có thể tự do bán hàng ở bất cứ nền tảng nào mà cá nhân nhà bán hàng xây dựng được.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="customer" class="py-4">
+        <div class="customer-img">
+            <img src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618566139/ladipage/8%20background/gkvmueuregjhhw45hveo.png" alt="hero-img" />
+        </div>
+        <div class="container">
+            <div class="row ">
+                <div class="px-lg-5 col-lg-5 col-md-5 col-12 d-flex flex-column justify-content-center align-content-center">
+                    <h2 class="about-title">NEWEE <br /> DÀNH CHO <br /> ĐỐI TƯỢNG <br /> NÀO?</h2>
+                    <p class="customer-content-p">
+                        + Các bạn đã và đang có mong muốn bắt đầu kinh doanh online các mặt hàng: thời trang, mỹ phẩm, thực phẩm, đồ gia dụng...
+                    </p>
+                    <p class="customer-content-p">
+                        + Nhân viên văn phòng, công sở có thời gian nhàn rỗi và mong muốn gia tăng thu nhập ngoài giờ.
+                    </p>
+                    <p class="customer-content-p">+ Sinh viên các trường đại học và cao đẳng, trung cấp có nhu cầu kiếm thêm thu nhập nhằm cải thiện đời sống.
+                    </p>
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-4"><img class="img-customer" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618327988/ladipage/4%20customer/zm6foa7uo8b3jsu3wrc9.png" alt="1"></img>
+                            </div>
+                            <div><img class="img-customer" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618327988/ladipage/4%20customer/qx0hky7vfskkaz27atcf.png" alt="1"></img>
+                            </div>
+                        </div>
+                        <div class="col-6 m-auto">
+                            <div><img class="img-customer" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618327989/ladipage/4%20customer/kggpbviftkbppjs3gm6z.png" alt="1"></img>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="guide" class="py-4">
+        <div class="container">
+            <div class="guide-container col-md-12">
+                <h2 class="text-center py-4 h2-title guide-title m-auto">CÁCH NEWEE NETWORK VẬN HÀNH</h2>
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <div class="card-deck">
+                            <div class="card pr-lg-4">
+                                <div class="card-body">
+                                    <h5 class="card-title primary">Newee</h5>
+                                    <p class="card-text guide-p">
+                                        Đóng vai trò là một đơn vị trung gian hỗ trợ giữa doanh nghiệp và nhà bán hàng online.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card pl-lg-4">
+                                <div class="card-body ">
+                                    <h5 class="card-title primary display-none" style="opacity: 0;">Newee</h5>
+                                    <p class="card-text guide-p">
+                                        Quản lý Nhà bán hàng thông qua Webapp và các chính sách hợp tác.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3  m-auto">
+                        <div class="card-deck">
+                            <div class="card text-lg-right">
+                                <div class="card-body">
+                                    <h5 class="card-title success">Buyer</h5>
+                                    <p class="card-text guide-p">
+                                        Người mua hàng cuối cùng.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618329354/ladipage/5%20huong%20dan/uvwzhfizotlvaeodf4vn.png"></img>
+                    </div>
+                    <div class="col-lg-3  m-auto">
+                        <div class="card-deck">
+                            <div class="card">
+
+                                <div class="card-body">
+                                    <h5 class="card-title success-2"> NEWEE NETWORK WEBAPP
+                                    </h5>
+                                    <p class="card-text guide-p">
+                                        Nền tảng giúp nhà bán hàng đặt hàng, kiểm soát và theo dõi các đơn hàng cũng như quản lý phần doanh thu, hoa hồng đạt được.
+                                        <br></br>
+                                        Nền tảng giúp Newee cập nhật sản phẩm mới, xử lý đơn hàng từ nhà bán hàng.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-6">
+                        <div class="card-deck">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title warning">NHÀ BÁN HÀNG ONLINE</h5>
+                                    <p class="card-text guide-p">
+                                        Nhà bán hàng hoạt động trực thuộc NEWEE network. <br></br>
+                                        Nhà bán hàng xử lý và chốt đơn hàng dựa theo thỏa thuận hợp tác, chính sách bán hàng của Newee.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title warning" style="opacity: 0;">NHÀ BÁN HÀNG ONLINE</h5>
+                                    <p class="card-text guide-p">
+                                        Nhà bán hàng đăng ký tài khoản trên hệ thống Webapp và bắt đầu đặt hàng trên hệ thống này.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="rank">
+        <div class="container-fluid rank-shadow">
+            <div id="carouselExample" class="carousel slide col-10 px-4 m-auto" data-ride="carousel" data-interval="1000000">
+                <div class="carousel-inner row w-100 mx-auto py-4" role="listbox">
+
+                    <!-- // mr o -->
+                    <div class="carousel-item col-md-2 col-md-2 active">
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail">
+                                <a href="#" title="image 1" class="thumb">
+                                    <img class="img-fluid mx-auto d-block" src="img/brand/mrO.jpg" alt="slide 1">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- nano -->
+                    <div class="carousel-item col-md-2 ">
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail">
+                                <a href="#" title="image 3" class="thumb">
+                                    <img class="img-fluid mx-auto d-block" src="img/brand/nano.jpg" alt="slide 2">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- da lan -->
+                    <div class="carousel-item col-md-2 ">
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail">
+                                <a href="#" title="image 3" class="thumb">
+                                    <img class="img-fluid mx-auto d-block" src="img/brand/dalan.jpg" alt="slide 2">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ino -->
+                    <div class="carousel-item col-md-2">
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail">
+                                <a href="#" title="image 3" class="thumb">
+                                    <img class="img-fluid mx-auto d-block" src="img/brand/ino.jpg" alt="slide 2">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- duc thien -->
+                    <div class="carousel-item col-md-2">
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail">
+                                <a href="#" title="image 4" class="thumb">
+                                    <img class="img-fluid mx-auto d-block" src="img/brand/ducthien.jpg" alt="slide 3">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ruou 3h mask -->
+                    <div class="carousel-item col-md-2 ">
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail">
+                                <a href="#" title="image 5" class="thumb">
+                                    <img class="img-fluid mx-auto d-block" src="img/brand/3hMask.jpg" alt="3H MASK">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- "ROHTO V5", -->
+
+
+                    <!-- "ROHTO V5", -->
+                    <div class="carousel-item col-md-2">
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail">
+                                <a href="#" title="image 5" class="thumb">
+                                    <img class="img-fluid mx-auto d-block" src="img/brand/rohtov5.jpg" alt="slide 4">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- "AlcoFree", -->
+                    <div class="carousel-item col-md-2">
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail">
+                                <a href="#" title="image 5" class="thumb">
+                                    <img class="img-fluid mx-auto d-block" src="img/brand/alcofree.jpg" alt="slide 4">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- "Blossomy", -->
+                    <div class="carousel-item col-md-2">
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail">
+                                <a href="#" title="image 5" class="thumb">
+                                    <img class="img-fluid mx-auto d-block" src="img/brand/blossomy.jpg" alt="slide 4">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- "Hakita", -->
+                    <div class="carousel-item col-md-2">
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail">
+                                <a href="#" title="image 5" class="thumb">
+                                    <img class="img-fluid mx-auto d-block" src="img/brand/hakita.jpg" alt="slide 4">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+					<!-- "Hakita", -->
+                    <div class="carousel-item col-md-2">
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail">
+                                <a href="#" title="image 5" class="thumb">
+                                    <img class="img-fluid mx-auto d-block" src="img/brand/10.jpg" alt="slide 4">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+					<!-- "Hakita", -->
+                    <div class="carousel-item col-md-2">
+                        <div class="panel panel-default">
+                            <div class="panel-thumbnail">
+                                <a href="#" title="image 5" class="thumb">
+                                    <img class="img-fluid mx-auto d-block" src="img/brand/11.png" alt="slide 4">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- nano -->
+                    <!-- <div class="carousel-item col-md-3 ">
+              <div class="panel panel-default">
+                <div class="panel-thumbnail">
+                  <a href="#" title="image 3" class="thumb">
+                    <img class="img-fluid mx-auto d-block" 
+                    src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1617724775/newee/newee%200604/afsyfynyzppqfez5ym3p.png" alt="slide 2">
+                  </a>
+                </div>
+              </div>
+            </div> -->
+
+                    <!-- <div class="carousel-item col-md-3 ">
+              <div class="panel panel-default">
+                <div class="panel-thumbnail">
+                  <a href="#" title="image 1" class="thumb">
+                    <img class="img-fluid mx-auto d-block" 
+                    src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1617724775/newee/newee%200604/tchfupekmkramqnk27i4.png" alt="slide 1">
+                  </a>
+                </div>
+              </div>
+            </div> -->
+
+
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                    <img class="carousel-control-prev-icon" style="width: 24px; height: 24px;" src="img/button/left-arrow.png" alt="1"></img>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                    <img class="carousel-control-next-icon" style="width: 24px; height: 24px;" src="img/button/right-arrow.png" alt="1"></img>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="register" class="text-center">
+        <div class="about-img">
+            <img src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618567157/ladipage/8%20background/sottvklq6mx2mmf6vmpx.png" alt="1"></img>
+        </div>
+        <div class="container">
+            <div class="register-container">
+                <!-- <h2 class="text-center register-title">CÁCH ĐĂNG KÝ TRỞ THÀNH SELLER</h2>
+          <p class="register-content-p">Gia tăng thu nhập chỉ với 3 bước đơn giản</p> -->
+
+                <!-- <div class="card-deck col-md-12">
+            <div class="card col-md-4">
+              <div class="card-body ">
+                <h5 class="mb-0">ĐĂNG KÝ TÀI KHOẢN SELLER</h5>
+              </div>
+            </div>
+            <div class="img-arrow d-none d-lg-block">
+              <img style="width: 49px; height: 49px"
+                src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618332274/ladipage/6%20register/s1xvrrzmma00kth6dixf.png"
+                alt="1"></img>
+            </div>
+            <div class="card col-md-4">
+              <div class="card-body">
+                <h5 class="mb-0">XÁC THỰC TÀI KHOẢN</h5>
+              </div>
+            </div>
+            <div class="img-arrow d-none d-lg-block">
+              <img style="width: 49px; height: 49px"
+                src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618332274/ladipage/6%20register/s1xvrrzmma00kth6dixf.png"
+                alt="1"></img>
+            </div>
+            <div class="card col-md-4">
+              <div class="card-body ">
+                <h5 class="mb-0">KÝ HỢP ĐỒNG ĐIỆN TỬ</h5>
+              </div>
+            </div>
+          </div> -->
+
+                <div class="col-lg-8 col-12 m-auto ">
+                    <div class="layout-container m-auto">
+                        <div class="register-img">
+                            <img src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618566463/ladipage/8%20background/bg66z9erq1qcvptrynor.png" alt="1"></img>
+                        </div>
+
+                        <h2 class="register-title text-center px-lg-5 mb-3">Đăng ký để trở thành Nhà bán hàng của Newee ngay hôm nay
+                            </h5>
+                            <div class="row">
+                                <div class="col-lg-5 col-md-5 col-12">
+                                    <p class="register-p-strong">HOTLINE</p>
+                                    <a href="#" style="font-weight: 600; color: #000">0337 456 729</a>
+                                </div>
+
+                                <div class="col-lg-6 col-md-5 col-12">
+                                    <p>Hoặc qua địa chỉ Email</p>
+                                    <a href="#" style="font-weight: 600; color: #000">SELLER@NEWEE.ASIA</a>
+                                </div>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="apps">
+        <div class="container">
+            <div class="apps-container text-center">
+                <h2 class="apps-title">TRẢI NGHIỆM NGAY NỀN TẢNG NEWEE</h2>
+                <p class="content-p">Ứng dụng sẽ cập nhập trong thời gian sớm nhất.</p>
+                <div class="row d-flex justify-content-center">
+                    <div class="mr-lg-2 mr-md-0 mb-lg-3 col-md-5 col-5 m-md-0"><img src="./img/footer/apple-store.png" alt="1"></img>
+                    </div>
+                    <div class="mr-lg-2 mr-md-0 mb-lg-3 col-md-5 col-5 m-md-0"><img src="./img/footer/gg-play.png" alt="1"></img>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <section>
+      <div class="btn-scroll-top">
+      <button class="btn btns btn-top"><a href="#hero">TOP</a></button>
+    </div>
+    </section> -->
+    <footer id="footer">
+        <div class="hero-img">
+            <img src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618304714/ladipage/1%20logo/tlng0psrdw1mpcnx8ncs.png" alt="hero-img" />
+        </div>
+        <!-- <div class="customer-imgs">
+        <img src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618304714/ladipage/1%20logo/tlng0psrdw1mpcnx8ncs.png" alt="1"></img>
+      </div> -->
+        <div class="container">
+            <div class="row footer d-flex justify-content-between align-content-start">
+                <div class="col-lg-5 col-md-5 col-12">
+                    <div class="footer-logo">
+                        <img class="footer-img" width="120px" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618388162/ladipage/7%20footer/yaigfrhco3pvjyn1ydu8.png" alt="footer"></img>
+                    </div>
+                    <div class="header-text">
+                        <!-- <p class="p-title">Kết nối</p> -->
+                        <p class="p-title">CÔNG TY TNHH TIẾP THỊ SÁNG TẠO ĐIỂM</p>
+                    </div>
+
+                    <p class="content-desc footer-content-p">
+                        77 Trần Bình Trọng, Phường 01, Quận Gò Vấp, Thành phố Hồ Chí Minh</p>
+                    <p class="footer-content-p">Điện thoại: <strong>033 745 6729</strong>
+                    </p>
+                    <p class="footer-content-p">Mã số thuế: <strong>0316606005</strong></p>
+                </div>
+                <div class="col-lg-3 col-md-5 col-12">
+                    <div class="footer-logo">
+                        <img class="footer-img" width="120px" style="opacity: 0;" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618388162/ladipage/7%20footer/yaigfrhco3pvjyn1ydu8.png" alt="footer"></img>
+                    </div>
+                    <div class="header-text">
+                        <p class="p-title">NEWEE NETWORK</p>
+                        <!-- <p class="p-title">NETWORK</p> -->
+                    </div>
+                    <a href="#">Trang chủ</a>
+                    <a href="#about">Về chúng tôi</a>
+                    <a href="#guide">Hướng dẫn</a>
+                    <a href="/policy/policy.html">Điều khoản</a>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="footer-logo">
+                        <img class="footer-img" width="120px" style="opacity: 0;" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618388162/ladipage/7%20footer/yaigfrhco3pvjyn1ydu8.png" alt="footer"></img>
+                    </div>
+                    <div class="header-text">
+                        <p class="p-title">Kết nối</p>
+                        <p class="p-title">Với chúng tôi</p>
+                    </div>
+                    <div class="row social">
+                        <!-- <a class="a-img" href="#"><img class="footer-social"  src="/img/footer/tw.png" ></img></a> -->
+                        <a class="a-img" href="https://www.facebook.com/newee.asia">
+                            <img class="footer-social" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1617739064/newee/newee%200604/s9fiy6660kbyd4sywwg7.png"></img>
+
+                        </a>
+                        <a class="a-img" href="https://www.youtube.com/channel/UCBXO3aEBAhRZJucrNikEZ3w"><img class="footer-social" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1617739064/newee/newee%200604/si0yxjqcf5pw8glnzonh.png"></img>
+                        </a>
+                        <a class="a-img" href="https://www.facebook.com/newee.asia"><img class="footer-social" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1617739064/newee/newee%200604/jgescdp8kmp87tw6svio.png"></img>
+                        </a>
+                        <a class="a-img" href="https://www.tiktok.com/@newee_social">
+                            <img class="footer-social" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1619058806/ladipage/social/d9isqzuetdq7af0a0abq.png"></img>
+                        </a>
+
+                    </div>
+                    <!-- <a class="a-img" href="https://www.facebook.com/newee.asia">
+                <img class="footer-social" src="/img/footer/fb.png" ></img>
+              
+              </a>
+              <a class="a-img" href="#"><img class="footer-social"  src="/img/footer/Insta.png"></img></a>
+              <a class="a-img" href="#"><img class="footer-social"  src="/img/footer/in.png"></img></a>
+            </div> -->
+                    <div class="row d-flex justify-content-sm-around align-content-start flex-column ">
+
+                        <div style="width: 120px; margin-top: 12px; margin-bottom: 12px;"><img class="footer-social" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618338040/ladipage/7%20footer/uadlq64utkagcbvh1tag.png" alt="1"></img>
+                        </div>
+                        <div style="width: 120px"><img class="footer-social" src="https://res.cloudinary.com/cv-thav-herokuapp-com/image/upload/v1618338040/ladipage/7%20footer/pmrtgy4v3ydm3qilmy0d.png" alt="1"></img>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+    <!-- <div class="zalo-share-button" data-href="" 
+    data-oaid="2034578395725306502" data-layout="2" data-color="blue" data-customize="false" 
+    style="overflow: hidden;display: inline-block;width: 20px;height: 20px;position: absolute;z-index: 1000;">
+    <iframe frameborder="0" allowfullscreen="" scrolling="no" width="20px" height="20px" src="https://sp.zalo.me/plugins/share?dev=null&amp;color=blue&amp;oaid=2034578395725306502&amp;href=https%3A%2F%2Fnewee.asia%2F&amp;layout=2&amp;customize=false&amp;callback=null&amp;id=e6c3197f-eb8e-41bd-9c19-99160d7f2aae&amp;domain=newee.asia&amp;android=false&amp;ios=false"></iframe>
+  </div> -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js" integrity="sha512-otOZr2EcknK9a5aa3BbMR9XOjYKtxxscwyRHN6zmdXuRfJ5uApkHB7cz1laWk2g8RKLzV9qv/fl3RPwfCuoxHQ==" crossorigin="anonymous"></script>
+
+    <script src="asset/js/index.js"></script>
+
+
+</body>
+
+</html>

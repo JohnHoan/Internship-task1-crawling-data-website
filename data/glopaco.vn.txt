@@ -1,0 +1,1735 @@
+ <!DOCTYPE html>
+<html lang="vi"  itemscope itemtype="https://schema.org/Website">
+
+<head>
+	<base href="https://glopaco.vn/"  />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">   
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="SHORTCUT ICON" href="upload/hinhanh/logo-glopaco4787_32x11.png" type="image/x-icon" />
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW" />
+<meta name="author" content=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " />
+<meta name="copyright" content=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN  [chinh.pham@glopaco.vn]" />
+<!--Meta seo web-->
+<title>CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN CẦU | Glopaco | bao bi</title>
+<meta name="keywords" content="bao jumbo, bao bi, san xuat bao bi, cong ty bao san xuat bao bi, cong ty bao bi, bao pp det, bao lua giong, Bao Jumbo đáy đóng, Bao Jumbo ống nạp, Bao Jumbo nắp trùm, Bao Jumbo nắp mở 3 biên, Bao Jumbo đáy xả, PP dệt ghép màng BOPP, PP dệt tráng keo PP, PP dệt ghép giấy in offset," />
+<meta name="description" content="bao jumbo, bao bi, san xuat bao bi, cong ty bao san xuat bao bi, cong ty bao bi, bao pp det, bao lua giong, Bao Jumbo đáy đóng, Bao Jumbo ống nạp, Bao Jumbo " />
+<!--Meta seo web-->
+<!--Meta Geo-->
+<meta name="DC.title" content="CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN CẦU | Glopaco | bao bi" />
+<meta name="geo.region" content="VN" />
+<meta name="geo.placename" content="B20, KDC số 2, Phường Long Bình, TP. BiênHòa, T. Đồng Nai" />
+<meta name="geo.position" content="10.9398332:106.88352179999993" />
+<meta name="ICBM" content="10.9398332,106.88352179999993" />
+<meta name="DC.identifier" content="https://glopaco.vn/" />
+<!--Meta Geo-->
+<!--Meta Ngôn ngữ-->
+<!--Meta Ngôn ngữ-->
+<!--Meta facebook-->
+<meta property="og:image" content="" />
+<meta property="og:title" content="" />
+<meta property="og:url" content="" />
+<meta property="og:site_name" content="https://glopaco.vn/" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " />
+<link rel="canonical" href="https://glopaco.vn/" />
+<!--Meta facebook-->
+	<link href="css/popup.css" type="text/css" rel="stylesheet" />
+<link href="css/default.css" type="text/css" rel="stylesheet" />
+<link href="style.css" type="text/css" rel="stylesheet" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js" ></script>
+<script type="text/javascript" src="js/my_script.js"></script>
+<script src="js/plugins-scroll.js" type="text/javascript" ></script>
+<link href="fontawesome/css/font-awesome.css" type="text/css" rel="stylesheet" />
+
+
+<link href="css/animate.css" type="text/css" rel="stylesheet" />
+<!--<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript">
+ 	new WOW().init();
+</script>
+<!--animate hiệu ứng-->
+
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+<script type="text/javascript" src="js/slick.min.js"></script>
+
+
+<!--Tooltip hình ảnh-->
+<script type="text/javascript" src="js/ImageTooltip.js"></script>
+<!--Tooltip hình ảnh-->
+
+<!--Tooltip có nội dung
+<script src="Toolstip/ajax.js" type="text/javascript"></script>
+<script src="Toolstip/ajax-dynamic-content.js" type="text/javascript"></script>
+<script src="Toolstip/home.js" type="text/javascript"></script>
+<link href="Toolstip/tootstip.css" rel="stylesheet" type="text/css" />
+Tooltip có nội dung-->
+
+<script type="text/javascript" src="js/ImageScroller.js"></script>
+
+
+
+<!--Thêm alt cho hình ảnh-->
+<script type="text/javascript">
+	$(document).ready(function(e) {
+        $('img').each(function(index, element) {
+			if(!$(this).attr('alt') || $(this).attr('alt')=='')
+			{
+				$(this).attr('alt',' CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN ');
+			}
+        });
+    });
+</script>
+<!--Thêm alt cho hình ảnh-->
+
+<!--Tim kiem-->
+<script language="javascript"> 
+    function doEnter(evt){
+	var key;
+	if(evt.keyCode == 13 || evt.which == 13){
+		onSearch(evt);
+	}
+	}
+	function onSearch(evt) {			
+	
+			var keyword = document.getElementById("keyword").value;
+			if(keyword=='' || keyword=='Nhập từ khóa tìm kiếm...')
+			{
+				alert('Bạn chưa nhập từ khóa tìm kiếm');
+			}
+			else{
+				location.href = "tim-kiem.html&keyword="+keyword;
+				loadPage(document.location);			
+			}
+		}		
+</script>   
+<!--Tim kiem-->
+
+<!--Code gữ thanh menu trên cùng-->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(window).scroll(function(){
+			var cach_top = $(window).scrollTop();
+			var heaigt_header = $('#header').height();
+
+			if(cach_top >= heaigt_header){
+				$('#wap_menu').css({position: 'fixed', top: '0px', zIndex:99});
+			}else{
+				$('#wap_menu').css({position: 'relative'});
+			}
+		});
+	});
+ </script>
+
+<script type="text/javascript" src="js/lazyload.min.js"></script>
+<script>
+	$(document).ready(function(){
+		  var myLazyLoad = new LazyLoad({
+		    elements_selector: ".lazy"
+		  });
+	});
+</script>
+<!--Code gữ thanh menu trên cùng-->
+
+ 
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5c47f253ab5284048d0e24ac/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->       
+</head>
+
+<body onLoad="" >
+<div id="pre-loader"><div class="loader"></div></div>
+<h1 class=" " style="position:absolute; top:-1000px;"></h1>
+<h2 style="position:absolute; top:-1000px;"></h2>
+<h3 style="position:absolute; top:-1000px;"></h3>
+
+
+<div id="wapper">
+	<div id="header">
+		
+
+<div class="content_header">
+
+
+	<a href="" ><img data-src="upload/hinhanh/logo-1547.jpg" class="logo_dk lazy"/></a>
+
+
+<img class="logo lazy" data-src="upload/hinhanh/banner-8434-46680.jpg" />
+
+<a href=""><img data-src="upload/hinhanh/baner-dien-thoai-6495.jpg" class="logo_mobi lazy wow wow bounce" /></a>
+
+<img src="images/saolaplanh.png" class="start-animate sang_header" alt="Sáng lấp lánh" />
+
+<div id="lang"> 
+    <a href="index.php?com=ngonngu&lang=en" title="English"><img src="images/en.png" alt="English" /> </a>
+    <a href="index.php?com=ngonngu&lang=" title="Việt Nam"><img src="images/vi.png" alt="Việt Nam" /></a>
+</div><!--END #lang-->
+
+
+<div class="box_hotline_top"> 
+	<div class="dthoai"><span>0911 62 89 99</span></div>
+	<div class="email">chinh.pham@glopaco.vn<br>chinhpham1704@gmail.com</div>
+
+	<div id="search">
+	    <input type="text" name="keyword" id="keyword" onKeyPress="doEnter(event,'keyword');" value="Nhập từ khóa tìm kiếm..." onclick="if(this.value=='Nhập từ khóa tìm kiếm...'){this.value=''}" onblur="if(this.value==''){this.value='Nhập từ khóa tìm kiếm...'}">
+	    <i class="fa fa-search" aria-hidden="true" onclick="onSearch(event,'keyword');"></i>
+	</div><!---END #search-->
+</div>
+
+
+
+
+</div>    </div><!---END #header-->
+    <div id="wap_menu">
+        <div id="menu">
+              <!--Hover menu-->
+<script language="javascript" type="text/javascript">
+	$(document).ready(function() { 
+		//Hover vào menu xổ xuống
+		$("#menu ul li").hover(function(){
+			$(this).find('ul:first').css({visibility: "visible",display: "none"}).show(300); 
+			},function(){ 
+			$(this).find('ul:first').css({visibility: "hidden"});
+			}); 
+		$("#menu ul li").hover(function(){
+				$(this).find('>a').addClass('active2'); 
+			},function(){ 
+				$(this).find('>a').removeClass('active2'); 
+		}); 
+		//Hover vào danh mục xổ xuống
+		/*$("#danhmuc ul li").hover(function(){
+			$(this).find('ul:first').show(300); 
+		},function(){ 
+			$(this).find('ul:first').hide(300);
+		}); */
+		//Click vào danh mục xổ xuống
+		/* $("#danhmuc ul li a").click(function(){
+			if($(this).parents('li').children('ul').find('li').length>0)
+			{
+				$("#danhmuc ul li ul").hide(300);
+				
+				if($(this).hasClass('active'))
+				{
+					$("#danhmuc ul li a").removeClass('active');
+					$(this).parents('li').find('ul:first').hide(300); 
+					$(this).removeClass('active');
+				}
+				else
+				{
+					$("#danhmuc ul li a").removeClass('active');
+					$(this).parents('li').find('ul:first').show(300); 
+					$(this).addClass('active');
+				}
+				return false;
+			}
+		}); */
+	});  
+</script>
+<!--Hover menu-->
+
+<ul>	
+    <li><a class="active" href="index.php">Trang chủ</a></li>
+    <li class="line"></li>
+    <li><a class="" href="gioi-thieu.html">Giới thiệu</a></li>
+    <li class="line"></li>
+    <li><a class="" href="san-pham.html">Sản phẩm</a>
+    	    	<ul>
+			            <li><a href="san-pham/bao-bi-pp-det-11">BAO BÌ PP DỆT</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/bao-pp-det-ghep-mang-bopp-17/">Bao PP Dệt Ghép Màng BOPP</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-trang-keo-pp-18/">Bao PP Dệt Tráng Keo PP</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-ghep-giay-kraft-19/">Bao PP Dệt Ghép Giấy Kraft</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-ghep-giay-fore-in-offset-20/">Bao PP Dệt Ghép Giấy Fore In Offset</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-dung-gao-40/">Bao PP Dệt Đựng Gạo</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-dung-phan-bon-41/">Bao PP Dệt Đựng Phân Bón</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-dung-thuc-an-gia-suc-42/">Bao PP Dệt Đựng Thức Ăn Gia Súc</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-ghep-mang-metalize-43/">Bao PP Dệt ghép màng metalize</a></li>
+                                              </ul>
+                                 </li>
+                            <li><a href="san-pham/bao-bi-mem-mang-ghep-18">BAO BÌ MỀM MÀNG GHÉP</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/tui-dung-gao-pa-1kg-2kg-5kg-26/">Túi đựng gạo PA 1kg, 2kg, 5kg</a></li>
+                                                         <li><a href="san-pham/bao-bi-thuc-pham-44/">Bao bì thực phẩm</a></li>
+                                                         <li><a href="san-pham/bao-bi-thuoc-thu-y-45/">Bao bì thuốc thú y</a></li>
+                                                         <li><a href="san-pham/bao-bi-thuoc-bao-ve-thuc-vat-46/">Bao bì thuốc bảo vệ thực vật</a></li>
+                                                         <li><a href="san-pham/bao-bi-nganh-may-mac-47/">Bao bì ngành may mặc</a></li>
+                                              </ul>
+                                 </li>
+                            <li><a href="san-pham/bao-jumbo-bao-big-bag-12">BAO JUMBO (BAO BIG BAG)</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/bao-jumbo-nap-trum-21/">Bao Jumbo nắp trùm</a></li>
+                                                         <li><a href="san-pham/bao-jumbo-nap-mo-3-bien-22/">Bao Jumbo nắp mở 3 biên</a></li>
+                                                         <li><a href="san-pham/bao-jumbo-nap-gan-ong-nap-23/">Bao Jumbo nắp gắn ống nạp</a></li>
+                                                         <li><a href="san-pham/bao-jumbo-day-gan-ong-xa-48/">Bao Jumbo đáy gắn ống xả</a></li>
+                                                         <li><a href="san-pham/bao-jumbo-day-phang-24/">Bao Jumbo đáy phẳng</a></li>
+                                                         <li><a href="san-pham/bao-sling-25/">Bao Sling</a></li>
+                                              </ul>
+                                 </li>
+                            <li><a href="san-pham/bao-mung-thoi-14">BAO MÙNG THỔI</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/bao-mung-dung-gao-49/">Bao Mùng Đựng Gạo</a></li>
+                                                         <li><a href="san-pham/bao-mung-dung-cafe-50/">Bao Mùng Đựng Cafe</a></li>
+                                                         <li><a href="san-pham/bao-mung-dung-mun-cua-51/">Bao Mùng Đựng Mùn Cưa</a></li>
+                                              </ul>
+                                 </li>
+                            <li><a href="san-pham/tui-leno-dung-nong-san-15">TÚI LENO ĐỰNG NÔNG SẢN</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/tui-leno-38/">Túi leno</a></li>
+                                              </ul>
+                                 </li>
+                            </ul>	
+            </li>
+	
+	<li class="line"></li>
+    <li><a class="" href="cong-nghe-san-xuat.html">Công nghệ sản xuất</a>
+		<ul>    
+			 				<li><a href="cong-nghe-san-xuat/cong-nghe-in-7">CÔNG NGHỆ IN</a>
+
+										<ul>
+												<li><a href="cong-nghe-san-xuat/cong-nghe-in-ong-dong-61.html">CÔNG NGHỆ IN ỐNG ĐỒNG</a></li>
+												<li><a href="cong-nghe-san-xuat/cong-nghe-in-flexo-22.html">CÔNG NGHỆ IN FLEXO</a></li>
+						
+					</ul>
+					
+									</li>
+			 				<li><a href="cong-nghe-san-xuat/quy-trinh-san-xuat-9">QUY TRÌNH SẢN XUẤT</a>
+
+										<ul>
+												<li><a href="cong-nghe-san-xuat/pp-det-ghep-mang-bopp-in-ong-dong-23.html">PP DỆT GHÉP MÀNG BOPP IN ỐNG ĐỒNG</a></li>
+												<li><a href="cong-nghe-san-xuat/pp-det-in-flexo-57.html">PP DỆT IN FLEXO</a></li>
+												<li><a href="cong-nghe-san-xuat/mang-ghep-phuc-hop-in-ong-dong-58.html">MÀNG GHÉP PHỨC HỢP IN ỐNG ĐỒNG</a></li>
+												<li><a href="cong-nghe-san-xuat/pp-det-ghep-giay-kraft-in-flexo-59.html">PP DỆT GHÉP GIẤY KRAFT IN FLEXO</a></li>
+												<li><a href="cong-nghe-san-xuat/bao-bi-jumbo-in-flexo-60.html">BAO BÌ JUMBO IN FLEXO</a></li>
+						
+					</ul>
+					
+									</li>
+			 				<li><a href="cong-nghe-san-xuat/may-keo-chi-10">MÁY KÉO CHỈ</a>
+
+									</li>
+			 				<li><a href="cong-nghe-san-xuat/may-det-8">MÁY DỆT</a>
+
+									</li>
+			 				<li><a href="cong-nghe-san-xuat/may-trang-ghep-11">MÁY TRÁNG GHÉP</a>
+
+									</li>
+			 				<li><a href="cong-nghe-san-xuat/cat-may-tu-dong-12">CẮT MAY TỰ ĐỘNG</a>
+
+									</li>
+			         </ul>
+	</a>
+		    	<ul>
+			            <li><a href="san-pham/bao-bi-pp-det-11">BAO BÌ PP DỆT</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/bao-pp-det-ghep-mang-bopp-17/">Bao PP Dệt Ghép Màng BOPP</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-trang-keo-pp-18/">Bao PP Dệt Tráng Keo PP</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-ghep-giay-kraft-19/">Bao PP Dệt Ghép Giấy Kraft</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-ghep-giay-fore-in-offset-20/">Bao PP Dệt Ghép Giấy Fore In Offset</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-dung-gao-40/">Bao PP Dệt Đựng Gạo</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-dung-phan-bon-41/">Bao PP Dệt Đựng Phân Bón</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-dung-thuc-an-gia-suc-42/">Bao PP Dệt Đựng Thức Ăn Gia Súc</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-ghep-mang-metalize-43/">Bao PP Dệt ghép màng metalize</a></li>
+                                              </ul>
+                                 </li>
+                            <li><a href="san-pham/bao-bi-mem-mang-ghep-18">BAO BÌ MỀM MÀNG GHÉP</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/tui-dung-gao-pa-1kg-2kg-5kg-26/">Túi đựng gạo PA 1kg, 2kg, 5kg</a></li>
+                                                         <li><a href="san-pham/bao-bi-thuc-pham-44/">Bao bì thực phẩm</a></li>
+                                                         <li><a href="san-pham/bao-bi-thuoc-thu-y-45/">Bao bì thuốc thú y</a></li>
+                                                         <li><a href="san-pham/bao-bi-thuoc-bao-ve-thuc-vat-46/">Bao bì thuốc bảo vệ thực vật</a></li>
+                                                         <li><a href="san-pham/bao-bi-nganh-may-mac-47/">Bao bì ngành may mặc</a></li>
+                                              </ul>
+                                 </li>
+                            <li><a href="san-pham/bao-jumbo-bao-big-bag-12">BAO JUMBO (BAO BIG BAG)</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/bao-jumbo-nap-trum-21/">Bao Jumbo nắp trùm</a></li>
+                                                         <li><a href="san-pham/bao-jumbo-nap-mo-3-bien-22/">Bao Jumbo nắp mở 3 biên</a></li>
+                                                         <li><a href="san-pham/bao-jumbo-nap-gan-ong-nap-23/">Bao Jumbo nắp gắn ống nạp</a></li>
+                                                         <li><a href="san-pham/bao-jumbo-day-gan-ong-xa-48/">Bao Jumbo đáy gắn ống xả</a></li>
+                                                         <li><a href="san-pham/bao-jumbo-day-phang-24/">Bao Jumbo đáy phẳng</a></li>
+                                                         <li><a href="san-pham/bao-sling-25/">Bao Sling</a></li>
+                                              </ul>
+                                 </li>
+                            <li><a href="san-pham/bao-mung-thoi-14">BAO MÙNG THỔI</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/bao-mung-dung-gao-49/">Bao Mùng Đựng Gạo</a></li>
+                                                         <li><a href="san-pham/bao-mung-dung-cafe-50/">Bao Mùng Đựng Cafe</a></li>
+                                                         <li><a href="san-pham/bao-mung-dung-mun-cua-51/">Bao Mùng Đựng Mùn Cưa</a></li>
+                                              </ul>
+                                 </li>
+                            <li><a href="san-pham/tui-leno-dung-nong-san-15">TÚI LENO ĐỰNG NÔNG SẢN</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/tui-leno-38/">Túi leno</a></li>
+                                              </ul>
+                                 </li>
+                            </ul>	
+        	</li>
+    <li class="line"></li>
+    <li><a class="" href="danh-hieu.html">Danh hiệu</a></li>
+	
+    <li class="line"></li>
+    <li><a class="" href="tin-tuc.html">Tin tức</a>
+		<ul>    
+			 				<li><a href="tin-tuc/du-an-bao-bi-lon-da-thuc-hien-5">Dự án bao bì lớn đã thực hiện</a></li>
+			 				<li><a href="tin-tuc/tin-noi-bo-2">Tin nội bộ</a></li>
+			 				<li><a href="tin-tuc/tin-xa-hoi-3">Tin xã hội</a></li>
+			         </ul>
+	</li>
+	
+	 <li class="line"></li>
+    <li><a class="" href="hoi-dap.html">Hỏi đáp</a></li>
+	
+	 <li class="line"></li>
+    <li><a class="" href="tuyen-dung.html">Tuyển dụng</a></li>
+    
+    <li class="line"></li>
+    <li><a class="" href="lien-he.html">Liên hệ</a></li>
+</ul>
+        </div><!---END #menu-->
+    </div><!---END #wap_menu-->	
+    
+    <div id="menu_mobi"> 
+        <!--Tim kiem-->
+<script language="javascript"> 
+    function doEnter2(evt){
+	var key;
+	if(evt.keyCode == 13 || evt.which == 13){
+		onSearch2(evt);
+	}
+	}
+	function onSearch2(evt) {			
+	
+			var keyword2 = document.getElementById("keyword2").value;
+			if(keyword2=='' || keyword2=='Nhập từ khóa tìm kiếm...')
+			{
+				alert('Bạn chưa nhập từ khóa tìm kiếm');
+			}
+			else{
+				location.href = "tim-kiem.html&keyword="+keyword2;
+				loadPage(document.location);			
+			}
+		}		
+</script>   
+<!--Tim kiem-->
+
+<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+<script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('.hien_menu').click(function(){
+			$('nav#menu_mobi').css({height: "auto"});
+		});
+		$('.user .fa-user-plus').toggle(function(){
+			$('.user ul').slideDown(300);
+		},function(){
+			$('.user ul').slideUp(300);
+		});
+		$('nav#menu_mobi').mmenu({
+			extensions	: [ 'effect-slide-menu', 'pageshadow' ],
+			searchfield	: true,
+			counters	: true,
+			navbar 		: {
+				title		: 'Menu'
+			},
+			navbars		: [
+				{
+					position	: 'top',
+					content		: [ 'searchfield' ]
+				}, {
+					position	: 'top',
+					content		: [
+						'prev',
+						'title',
+						'close'
+					]
+				}, {
+					position	: 'bottom',
+					content		: [
+						'<a>Online : 7</a>',
+						'<a>Tổng truy cập : 1857354</a>'
+					]
+				}
+			]
+		});
+	});
+</script>
+
+<div class="header"><a href="#menu_mobi" class="hien_menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+Menu
+<div id="lang_mb"> 
+    <a href="index.php?com=ngonngu&lang=en" title="English"><img src="images/en.png" alt="English" /> </a>
+    <a href="index.php?com=ngonngu&lang=" title="Việt Nam"><img src="images/vi.png" alt="Việt Nam" /></a>
+</div><!--END #lang-->
+</div> 
+<nav id="menu_mobi" style="height:0; overflow:hidden;">
+    <ul>	
+    	<div id="search_mobi">
+            <input type="text" name="keyword2" id="keyword2" onKeyPress="doEnter2(event,'keyword2');" value="Nhập từ khóa tìm kiếm..." onclick="if(this.value=='Nhập từ khóa tìm kiếm...'){this.value=''}" onblur="if(this.value==''){this.value='Nhập từ khóa tìm kiếm...'}">
+            <i class="fa fa-search" aria-hidden="true" onclick="onSearch2(event,'keyword2');"></i>
+    	</div><!---END #search-->
+
+    <li><a class="active" href="">Trang chủ</a></li>
+    <li class="line"></li>
+    <li><a class="" href="gioi-thieu.html">Giới thiệu</a></li>
+    <li class="line"></li>
+    <li><a class="" href="san-pham.html">Sản phẩm</a>
+    	    	<ul>
+			            <li><a href="san-pham/bao-bi-pp-det-11">BAO BÌ PP DỆT</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/bao-pp-det-ghep-mang-bopp-17/">Bao PP Dệt Ghép Màng BOPP</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-trang-keo-pp-18/">Bao PP Dệt Tráng Keo PP</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-ghep-giay-kraft-19/">Bao PP Dệt Ghép Giấy Kraft</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-ghep-giay-fore-in-offset-20/">Bao PP Dệt Ghép Giấy Fore In Offset</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-dung-gao-40/">Bao PP Dệt Đựng Gạo</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-dung-phan-bon-41/">Bao PP Dệt Đựng Phân Bón</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-dung-thuc-an-gia-suc-42/">Bao PP Dệt Đựng Thức Ăn Gia Súc</a></li>
+                                                         <li><a href="san-pham/bao-pp-det-ghep-mang-metalize-43/">Bao PP Dệt ghép màng metalize</a></li>
+                                              </ul>
+                                 </li>
+                            <li><a href="san-pham/bao-bi-mem-mang-ghep-18">BAO BÌ MỀM MÀNG GHÉP</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/tui-dung-gao-pa-1kg-2kg-5kg-26/">Túi đựng gạo PA 1kg, 2kg, 5kg</a></li>
+                                                         <li><a href="san-pham/bao-bi-thuc-pham-44/">Bao bì thực phẩm</a></li>
+                                                         <li><a href="san-pham/bao-bi-thuoc-thu-y-45/">Bao bì thuốc thú y</a></li>
+                                                         <li><a href="san-pham/bao-bi-thuoc-bao-ve-thuc-vat-46/">Bao bì thuốc bảo vệ thực vật</a></li>
+                                                         <li><a href="san-pham/bao-bi-nganh-may-mac-47/">Bao bì ngành may mặc</a></li>
+                                              </ul>
+                                 </li>
+                            <li><a href="san-pham/bao-jumbo-bao-big-bag-12">BAO JUMBO (BAO BIG BAG)</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/bao-jumbo-nap-trum-21/">Bao Jumbo nắp trùm</a></li>
+                                                         <li><a href="san-pham/bao-jumbo-nap-mo-3-bien-22/">Bao Jumbo nắp mở 3 biên</a></li>
+                                                         <li><a href="san-pham/bao-jumbo-nap-gan-ong-nap-23/">Bao Jumbo nắp gắn ống nạp</a></li>
+                                                         <li><a href="san-pham/bao-jumbo-day-gan-ong-xa-48/">Bao Jumbo đáy gắn ống xả</a></li>
+                                                         <li><a href="san-pham/bao-jumbo-day-phang-24/">Bao Jumbo đáy phẳng</a></li>
+                                                         <li><a href="san-pham/bao-sling-25/">Bao Sling</a></li>
+                                              </ul>
+                                 </li>
+                            <li><a href="san-pham/bao-mung-thoi-14">BAO MÙNG THỔI</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/bao-mung-dung-gao-49/">Bao Mùng Đựng Gạo</a></li>
+                                                         <li><a href="san-pham/bao-mung-dung-cafe-50/">Bao Mùng Đựng Cafe</a></li>
+                                                         <li><a href="san-pham/bao-mung-dung-mun-cua-51/">Bao Mùng Đựng Mùn Cưa</a></li>
+                                              </ul>
+                                 </li>
+                            <li><a href="san-pham/tui-leno-dung-nong-san-15">TÚI LENO ĐỰNG NÔNG SẢN</a>
+            	                    <ul>    
+						                                 <li><a href="san-pham/tui-leno-38/">Túi leno</a></li>
+                                              </ul>
+                                 </li>
+                            </ul>	
+            </li>
+	
+	<li class="line"></li>
+    <li><a class="" href="cong-nghe-san-xuat.html">Công nghệ sản xuất</a></li>
+    <li class="line"></li>
+    <li><a class="" href="danh-hieu.html">Danh hiệu</a></li>
+	
+    <li class="line"></li>
+    <li><a class="" href="tin-tuc.html">Tin tức</a></li>
+	
+	 <li class="line"></li>
+    <li><a class="" href="hoi-dap.html">Hỏi đáp</a></li>
+	
+	 <li class="line"></li>
+    <li><a class="" href="tuyen-dung.html">Tuyển dụng</a></li>
+    
+    <li class="line"></li>
+    <li><a class="" href="lien-he.html">Liên hệ</a></li>
+    </ul>
+</nav>    </div><!---END #menu_mobi-->   
+
+    
+    <div id="slider">
+        <div class="main_page">
+	
+	<div class="wap_slider">
+		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+<script type="text/javascript" src="js/slick.min.js"></script>
+
+<div id="slider_slick">
+	        				            <img src="upload/hinhanh/04-3430.jpg" title="" />
+		            <a href="http://glopaco.vn/" target="_blank">				            <img src="upload/hinhanh/nha-may-san-xuat-vai-cuon-pp-4130.jpg" title="Bao bì Glopaco" />
+		</a>            				            <img src="upload/hinhanh/cong-ty-bao-bi-toan-cau-3176.jpg" title="Công ty bao bì toàn cầu" />
+		            				            <img src="upload/hinhanh/02-4626.jpg" title="" />
+		            				            <img src="upload/hinhanh/03-6915.jpg" title="" />
+		            				            <img src="upload/hinhanh/011-1118.jpg" title="" />
+		            				            <img src="upload/hinhanh/bao-bi-glopaco-9258.jpg" title="Bao bì glopaco" />
+		            				            <img src="upload/hinhanh/nha-may-san-xuat-bao-bi-glopaco-0995.jpg" title="Nhà máy sản xuất bao bì glopaco" />
+		            				            <img src="upload/hinhanh/bao-bi-glopaco-toan-cau-3756.jpg" title="Bao bì glopaco toàn cầu" />
+		            				            <img src="upload/hinhanh/bao-bi-cong-nghiep-4579.jpg" title="Bao bì công nghiệp" />
+		            <a href="http://glopaco.vn/" target="_blank">				            <img src="upload/hinhanh/hinh-xuong-bao-bi-1721.jpg" title="Bao Bì Glopaco" />
+		</a>    </div>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('#slider_slick').slick({
+        	infinite: true,
+			accessibility:true,
+		  	slidesToShow:1,    //Số item hiển thị
+		  	slidesToScroll: 1, //Số item cuộn khi chạy
+		  	autoplay:true,  //Tự động chạy
+			autoplaySpeed:3000,  //Tốc độ chạy
+			arrows:true, //Hiển thị mũi tên
+			centerMode:false,  //item nằm giữa
+			dots:false,  //Hiển thị dấu chấm
+			draggable:true,  //Kích hoạt tính năng kéo chuột
+			mobileFirst:true,
+			
+      });
+    });
+  </script>
+ 		<div class="clear"></div>
+	</div>
+	<div class="wap_video">
+		<div id="video">
+			<div class="load_video">
+			<script type="text/javascript">
+				$(document).ready(function(e) {
+					$(window).scroll(function(){
+						if(!$('.load_video').hasClass('load_video2'))
+						{
+							$('.load_video').addClass('load_video2');
+							$('.load_video').load( "ajax/video.php");
+						}
+					 });
+				});
+			</script>
+			</div><!---END .load_video-->
+		</div><!---END #video-->
+	</div>
+    <div class="clear"></div>
+</div>
+    
+     </div><!---END #slider-->
+  
+    <div id="doitac">
+        <script src="js/hiei.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+marqueeInit({
+	uniqueid: 'mycrawler2',
+	style: {'width': '100% !important'},
+	inc: 5, //speed - pixel increment for each iteration of this marquee's movement
+	mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
+	moveatleast:1,
+	neutral: 150,
+	savedirection: true,
+	random: true
+});
+</script>    
+
+<div class="marquee" id="mycrawler2">
+	    	<a href="" title="" target="_blank"><img src="upload/hinhanh/webimage-ea9b0558-169e-4b4c-bf8186de753c6be5-4431.png" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/vinafood1-1779.png" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/unnamed-6899.png" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/unnamed-3614.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/thanh-chau-4884.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/tai-xuong-8751.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/que-lam-9472.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/phuong-nam-9770.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/phuong-nam-3310.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/olam-logo-vector-download-400x400-7607.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/logo-4691.png" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/logo-5981.gif" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/logo-thai-binh-8633.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/logo-song-gianh-1381.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/logo-obi-9142.png" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/logo-dat-xanh-9422.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/logo-adn-0085.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/logo-1-5717.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/65cade68ebd7118948c6-3557.jpg" alt="Phoenix" /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/2000px-posco_logo-4942.jpg" alt="Olam" /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/29346_logo_0_73387-8991.png" alt="Gentraco" /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/ac546df65849a217fb58-9070.jpg" alt="Lương thực Cần Thơ" /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/ant-0599.jpg" alt="Vina Food 1" /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/cong_ty_luong_thuc_mien_nam_jrwb-0413.jpg" alt="Tập Đoàn Lộc Trời" /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/grobest-200x250-5228.jpg" alt="Quế Lâm" /></a>
+        	<a href="" title="" target="_blank"><img src="upload/hinhanh/huybao-7972.jpg" alt="Sông Gianh" /></a>
+    </div>
+    </div><!---END #slider-->
+
+    <div id="main_content">
+        <div id="right">
+        	
+
+<div class="wap_item_h">
+<div class="tieude_giua"><span>BAO BÌ PP DỆT</span>
+<p class="xthem"><a href="san-pham/bao-bi-pp-det-11">Xem thêm</a></p>
+</div>
+<div class="wap_hang">
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/bao-pp-det-ghep-mang-metalize-in-flexo-246.html" title="Bao PP Dệt ghép màng metalize in flexo">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/bao-pp-det-ghep-mang-metalize-1875.jpg" alt="Bao PP Dệt ghép màng metalize in flexo" onmouseover="doTooltip(event, &#39;upload/sanpham/bao-pp-det-ghep-mang-metalize-1875.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/bao-pp-det-ghep-mang-metalize-in-flexo-246.html" title="Bao PP Dệt ghép màng metalize in flexo">Bao PP Dệt ghép màng metalize in flexo</a></h3>           			
+    </div><!---END .item-->
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/bao-pp-ghep-mang-opp-dung-phan-bon-102.html" title="Bao PP ghép màng OPP đựng phân bón">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/bao-pp-phan-bon-2282.jpg" alt="Bao PP ghép màng OPP đựng phân bón" onmouseover="doTooltip(event, &#39;upload/sanpham/bao-pp-phan-bon-2282.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/bao-pp-ghep-mang-opp-dung-phan-bon-102.html" title="Bao PP ghép màng OPP đựng phân bón">Bao PP ghép màng OPP đựng phân bón</a></h3>           			
+    </div><!---END .item-->
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/bao-dung-gao-quai-xach-du-87.html" title="bao đựng gạo quai xách dù">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/bao-gao-ghep-mang-opp-quai-du-do-9538.jpg" alt="bao đựng gạo quai xách dù" onmouseover="doTooltip(event, &#39;upload/sanpham/bao-gao-ghep-mang-opp-quai-du-do-9538.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/bao-dung-gao-quai-xach-du-87.html" title="bao đựng gạo quai xách dù">bao đựng gạo quai xách dù</a></h3>           			
+    </div><!---END .item-->
+</div>
+</div><!---END .wap_item-->
+<div class="clear"></div>
+
+<div class="wap_item_h">
+<div class="tieude_giua"><span>BAO BÌ MỀM MÀNG GHÉP</span>
+<p class="xthem"><a href="san-pham/bao-bi-mem-mang-ghep-18">Xem thêm</a></p>
+</div>
+<div class="wap_hang">
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/tui-nhom-mang-mo-266.html" title="Túi nhôm màng mờ">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/tui-nhom-day-dung-zipper-mang-mo-1661.jpg" alt="Túi nhôm màng mờ" onmouseover="doTooltip(event, &#39;upload/sanpham/tui-nhom-day-dung-zipper-mang-mo-1661.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/tui-nhom-mang-mo-266.html" title="Túi nhôm màng mờ">Túi nhôm màng mờ</a></h3>           			
+    </div><!---END .item-->
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/tui-gao-1kg-xep-hong-188.html" title="Túi gạo 1kg xếp hông">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/tui-gao-1kg-in-muc-nhu-0016.jpg" alt="Túi gạo 1kg xếp hông" onmouseover="doTooltip(event, &#39;upload/sanpham/tui-gao-1kg-in-muc-nhu-0016.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/tui-gao-1kg-xep-hong-188.html" title="Túi gạo 1kg xếp hông">Túi gạo 1kg xếp hông</a></h3>           			
+    </div><!---END .item-->
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/tui-zipper-tra-sua-71.html" title="Túi zipper trà sữa">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/tui-cat-dinh-hinh-con-gau-3231.jpg" alt="Túi zipper trà sữa" onmouseover="doTooltip(event, &#39;upload/sanpham/tui-cat-dinh-hinh-con-gau-3231.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/tui-zipper-tra-sua-71.html" title="Túi zipper trà sữa">Túi zipper trà sữa</a></h3>           			
+    </div><!---END .item-->
+</div>
+</div><!---END .wap_item-->
+<div class="clear"></div>
+
+<div class="wap_item_h">
+<div class="tieude_giua"><span>BAO JUMBO (BAO BIG BAG)</span>
+<p class="xthem"><a href="san-pham/bao-jumbo-bao-big-bag-12">Xem thêm</a></p>
+</div>
+<div class="wap_hang">
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/bao-jumbo-nap-trum-168.html" title="Bao Jumbo Nắp Trùm">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/0521-8171.jpg" alt="Bao Jumbo Nắp Trùm" onmouseover="doTooltip(event, &#39;upload/sanpham/0521-8171.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/bao-jumbo-nap-trum-168.html" title="Bao Jumbo Nắp Trùm">Bao Jumbo Nắp Trùm</a></h3>           			
+    </div><!---END .item-->
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/bao-sling-175.html" title="Bao Sling">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/0422-8837.jpg" alt="Bao Sling" onmouseover="doTooltip(event, &#39;upload/sanpham/0422-8837.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/bao-sling-175.html" title="Bao Sling">Bao Sling</a></h3>           			
+    </div><!---END .item-->
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/bao-jumbo-nap-mo-3-bien-165.html" title="Bao Jumbo Nắp Mở 3 Biên">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/0722-0461.jpg" alt="Bao Jumbo Nắp Mở 3 Biên" onmouseover="doTooltip(event, &#39;upload/sanpham/0722-0461.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/bao-jumbo-nap-mo-3-bien-165.html" title="Bao Jumbo Nắp Mở 3 Biên">Bao Jumbo Nắp Mở 3 Biên</a></h3>           			
+    </div><!---END .item-->
+</div>
+</div><!---END .wap_item-->
+<div class="clear"></div>
+
+<div class="wap_item_h">
+<div class="tieude_giua"><span>BAO MÙNG THỔI</span>
+<p class="xthem"><a href="san-pham/bao-mung-thoi-14">Xem thêm</a></p>
+</div>
+<div class="wap_hang">
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/bao-mung-dung-gao-208.html" title="Bao Mùng Đựng Gạo">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/0323-2301.jpg" alt="Bao Mùng Đựng Gạo" onmouseover="doTooltip(event, &#39;upload/sanpham/0323-2301.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/bao-mung-dung-gao-208.html" title="Bao Mùng Đựng Gạo">Bao Mùng Đựng Gạo</a></h3>           			
+    </div><!---END .item-->
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/bao-mung-dung-cafe-216.html" title="Bao Mùng Đựng Cafe">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/0526-8314.jpg" alt="Bao Mùng Đựng Cafe" onmouseover="doTooltip(event, &#39;upload/sanpham/0526-8314.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/bao-mung-dung-cafe-216.html" title="Bao Mùng Đựng Cafe">Bao Mùng Đựng Cafe</a></h3>           			
+    </div><!---END .item-->
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/bao-mung-dung-mun-cua-224.html" title="Bao Mùng Đựng Mùn Cưa">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/0428-0394.jpg" alt="Bao Mùng Đựng Mùn Cưa" onmouseover="doTooltip(event, &#39;upload/sanpham/0428-0394.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/bao-mung-dung-mun-cua-224.html" title="Bao Mùng Đựng Mùn Cưa">Bao Mùng Đựng Mùn Cưa</a></h3>           			
+    </div><!---END .item-->
+</div>
+</div><!---END .wap_item-->
+<div class="clear"></div>
+
+<div class="wap_item_h">
+<div class="tieude_giua"><span>TÚI LENO ĐỰNG NÔNG SẢN</span>
+<p class="xthem"><a href="san-pham/tui-leno-dung-nong-san-15">Xem thêm</a></p>
+</div>
+<div class="wap_hang">
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/tui-leno-156.html" title="Túi Leno">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/0621-5025.jpg" alt="Túi Leno" onmouseover="doTooltip(event, &#39;upload/sanpham/0621-5025.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/tui-leno-156.html" title="Túi Leno">Túi Leno</a></h3>           			
+    </div><!---END .item-->
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/tui-leno-157.html" title="Túi Leno">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/0622-4059.jpg" alt="Túi Leno" onmouseover="doTooltip(event, &#39;upload/sanpham/0622-4059.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/tui-leno-157.html" title="Túi Leno">Túi Leno</a></h3>           			
+    </div><!---END .item-->
+    <div class="item">
+            <p class="sp_img"><a href="san-pham/tui-leno-158.html" title="Túi Leno">
+            <img class="lazy" data-src="thumb/270x300/1/upload/sanpham/0623-6352.jpg" alt="Túi Leno" onmouseover="doTooltip(event, &#39;upload/sanpham/0623-6352.jpg&#39;)" onmouseout="hideTip()"/></a></p>
+            <h3 class="sp_name"><a href="san-pham/tui-leno-158.html" title="Túi Leno">Túi Leno</a></h3>           			
+    </div><!---END .item-->
+</div>
+</div><!---END .wap_item-->
+<div class="clear"></div>
+ 
+        </div><!---END #right-->
+        
+        <div id="left">
+            
+<div id="danhmuc" class="danhmuc">
+<div class="tieude">Danh mục sản phẩm</div>
+        <ul>
+                <li><a href="san-pham/bao-bi-pp-det-11">BAO BÌ PP DỆT</a>
+                            <ul>    
+                                                 <li><a href="san-pham/bao-pp-det-ghep-mang-bopp-17/">Bao PP Dệt Ghép Màng BOPP</a></li>
+                                                 <li><a href="san-pham/bao-pp-det-trang-keo-pp-18/">Bao PP Dệt Tráng Keo PP</a></li>
+                                                 <li><a href="san-pham/bao-pp-det-ghep-giay-kraft-19/">Bao PP Dệt Ghép Giấy Kraft</a></li>
+                                                 <li><a href="san-pham/bao-pp-det-ghep-giay-fore-in-offset-20/">Bao PP Dệt Ghép Giấy Fore In Offset</a></li>
+                                                 <li><a href="san-pham/bao-pp-det-dung-gao-40/">Bao PP Dệt Đựng Gạo</a></li>
+                                                 <li><a href="san-pham/bao-pp-det-dung-phan-bon-41/">Bao PP Dệt Đựng Phân Bón</a></li>
+                                                 <li><a href="san-pham/bao-pp-det-dung-thuc-an-gia-suc-42/">Bao PP Dệt Đựng Thức Ăn Gia Súc</a></li>
+                                                 <li><a href="san-pham/bao-pp-det-ghep-mang-metalize-43/">Bao PP Dệt ghép màng metalize</a></li>
+                                      </ul>
+                         </li>
+                    <li><a href="san-pham/bao-bi-mem-mang-ghep-18">BAO BÌ MỀM MÀNG GHÉP</a>
+                            <ul>    
+                                                 <li><a href="san-pham/tui-dung-gao-pa-1kg-2kg-5kg-26/">Túi đựng gạo PA 1kg, 2kg, 5kg</a></li>
+                                                 <li><a href="san-pham/bao-bi-thuc-pham-44/">Bao bì thực phẩm</a></li>
+                                                 <li><a href="san-pham/bao-bi-thuoc-thu-y-45/">Bao bì thuốc thú y</a></li>
+                                                 <li><a href="san-pham/bao-bi-thuoc-bao-ve-thuc-vat-46/">Bao bì thuốc bảo vệ thực vật</a></li>
+                                                 <li><a href="san-pham/bao-bi-nganh-may-mac-47/">Bao bì ngành may mặc</a></li>
+                                      </ul>
+                         </li>
+                    <li><a href="san-pham/bao-jumbo-bao-big-bag-12">BAO JUMBO (BAO BIG BAG)</a>
+                            <ul>    
+                                                 <li><a href="san-pham/bao-jumbo-nap-trum-21/">Bao Jumbo nắp trùm</a></li>
+                                                 <li><a href="san-pham/bao-jumbo-nap-mo-3-bien-22/">Bao Jumbo nắp mở 3 biên</a></li>
+                                                 <li><a href="san-pham/bao-jumbo-nap-gan-ong-nap-23/">Bao Jumbo nắp gắn ống nạp</a></li>
+                                                 <li><a href="san-pham/bao-jumbo-day-gan-ong-xa-48/">Bao Jumbo đáy gắn ống xả</a></li>
+                                                 <li><a href="san-pham/bao-jumbo-day-phang-24/">Bao Jumbo đáy phẳng</a></li>
+                                                 <li><a href="san-pham/bao-sling-25/">Bao Sling</a></li>
+                                      </ul>
+                         </li>
+                    <li><a href="san-pham/bao-mung-thoi-14">BAO MÙNG THỔI</a>
+                            <ul>    
+                                                 <li><a href="san-pham/bao-mung-dung-gao-49/">Bao Mùng Đựng Gạo</a></li>
+                                                 <li><a href="san-pham/bao-mung-dung-cafe-50/">Bao Mùng Đựng Cafe</a></li>
+                                                 <li><a href="san-pham/bao-mung-dung-mun-cua-51/">Bao Mùng Đựng Mùn Cưa</a></li>
+                                      </ul>
+                         </li>
+                    <li><a href="san-pham/tui-leno-dung-nong-san-15">TÚI LENO ĐỰNG NÔNG SẢN</a>
+                            <ul>    
+                                                 <li><a href="san-pham/tui-leno-38/">Túi leno</a></li>
+                                      </ul>
+                         </li>
+                    </ul>	
+    </div><!---END #danhmuc-->
+
+
+<div id="webcon" class="danhmuc">
+<div class="tieude">Website sản phẩm</div>
+	<select onchange="window.open(this.value,'_Blank');" style="width:90%; height:27px; line-height:27px; border:1px solid #BBB; border-radius:3px; margin:10px 5%;">
+        <option value="">Liên kết Website</option>
+                     <option value="http://vnexpress.net/">vnexpress.net</option>
+                     <option value="http://tuoitre.vn/">tuoitre.vn</option>
+                     <option value="http://nina.vn/">Thiết kế web Nina</option>
+            </select> 	
+</div><!---END #video-->
+
+<div class="dkynt">
+<script type="text/javascript" language="javascript">
+	function nhantin(){
+		if(isEmpty($('#email_nhantin').val(), "Nhập email của bạn"))
+			{
+				$('#email_nhantin').focus();
+				return false;
+			}
+			if(isEmail($('#email_nhantin').val(), "Email không hợp lệ"))
+			{
+				$('#email_nhantin').focus();
+				return false;
+			}	
+		document.frm_dknt.submit();
+	}
+</script>
+<div id="dknt">
+    <form name="frm_dknt" id="frm_dknt" method="post" action="" >
+        <input type="text" name="email_nhantin" id="email_nhantin" placeholder="Nhập email của bạn" />
+        <input type="button" name="submit_nhantin" id="submit_nhantin" onclick="nhantin()" value="Gửi" />
+    </form>
+</div>
+
+
+</div>
+
+<div id="quangcao" class="danhmuc">
+<div class="tieude">Sự kiện công ty</div>
+    <div id="ctsdiv" style="text-align:center; position:relative; height:635px; overflow:hidden">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" id="ctstbl" style="position:relative; margin:0px">  
+                      <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/z2092037653602_c1d144e194a4dd7587cdb5c36aa1974d-3549.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/tonggiamdoc-1615.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7818-9761.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7817-2540.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7816-7371.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7815-8361.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7813-2540.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7812-7311.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7810-6787.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7805-6022.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7802-2533.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7800-0899.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7797-4439.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7796-5305.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/bg-8601.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/z2092037653602_c1d144e194a4dd7587cdb5c36aa1974d-8101.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/z2092091379037_bd400dc02e75d784ddbbf724d99b98e4-5273.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7701-9653.JPG" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7741-0309.JPG" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7649-5645.JPG" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/img_7722-6348.JPG" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/20200830_101429-3733.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/83d1be3bbdfb47a51eea-3771.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/ddgdg-5694.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/0f8aceaf-19f8-4055-bde3-a167e44770d0-3146.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/20200830_102039-4760.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/20200830_092904-4849.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/57b0cfa3-9886-4d8c-8169-33c461b1f1dd-2732.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/4b162da0-8d92-4414-8070-40fa47fe8ac8-6102.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/23a7d5d9-74a2-468c-b53e-39a11b4676b3-0963.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/b24af9273dcac7949edb-4816.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/wuta_2020-08-30_09-46-00-3303.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/20200830_100944-0895.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/20200830_100317-7873.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/20200830_101429-8943.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/20200830_095414-7298.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/hoat-dong-1-0396.PNG" alt="Hoạt động 1" /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/20200830_094655-1984.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/20200830_094838-7223.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+                     <tr>
+                 <td valign="top">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                       <tr>
+                           <td valign="top">     	  
+                          		<a href=""><img src="upload/hinhanh/20200830_103141-7993.jpg" alt=" CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN " /></a></td>
+                      </tr>
+                   </table>
+                </td>      
+            </tr>  
+            
+        </table>
+     </div>
+<script type="text/javascript">createScroller("myScroller", "ctsdiv", "ctstbl",0,70,2,0,1);</script> 
+</div><!---END #danhmuc-->
+        </div><!---END #left-->
+        <div class="clear"></div>
+    </div><!---END #main_content-->
+
+
+    <div id="hotrott">
+		<div class="main_page">
+			
+<div id="hotro">
+    		<div class="box_hotro">
+			<p class="hinh_tt">
+				<img src="upload/khac/hoa-7394.jpg" alt=" Ms. Hoa" />
+			</p>
+			<div class="thongtin_ht">
+				<p class="ten_ht"> Ms. Hoa</p>
+				<p>0912643499</p>
+				<p>Sales13.glopaco@gmail.com</p>
+				<p><a style="text-decoration:none; color:#111;" href="skype:sales13.glopaco?call" title="Hỗ Trợ Skype"><img style="float:left;" src="images/skype.png" />sales13.glopaco</a></p>
+			</div>
+		</div>
+    		<div class="box_hotro">
+			<p class="hinh_tt">
+				<img src="upload/khac/vang_ho-tro-truc-tuyen-8035.jpg" alt=" Mr. Vang" />
+			</p>
+			<div class="thongtin_ht">
+				<p class="ten_ht"> Mr. Vang</p>
+				<p>0916 420 799</p>
+				<p>sales08.glopaco@gmail.com</p>
+				<p><a style="text-decoration:none; color:#111;" href="skype:sales08.glopaco?call" title="Hỗ Trợ Skype"><img style="float:left;" src="images/skype.png" />sales08.glopaco</a></p>
+			</div>
+		</div>
+    		<div class="box_hotro">
+			<p class="hinh_tt">
+				<img src="upload/khac/mr-tung-1674.jpg" alt=" Mr. Tùng" />
+			</p>
+			<div class="thongtin_ht">
+				<p class="ten_ht"> Mr. Tùng</p>
+				<p>0918.218.028</p>
+				<p>sales09.glopaco@gmail.com</p>
+				<p><a style="text-decoration:none; color:#111;" href="skype:sales09.glopaco?call" title="Hỗ Trợ Skype"><img style="float:left;" src="images/skype.png" />sales09.glopaco</a></p>
+			</div>
+		</div>
+    		<div class="box_hotro">
+			<p class="hinh_tt">
+				<img src="upload/khac/lan-1422.jpg" alt="Ms. Lan" />
+			</p>
+			<div class="thongtin_ht">
+				<p class="ten_ht">Ms. Lan</p>
+				<p>0915613499</p>
+				<p>sales11.glopaco@gmail.com</p>
+				<p><a style="text-decoration:none; color:#111;" href="skype:sales11.glopaco?call" title="Hỗ Trợ Skype"><img style="float:left;" src="images/skype.png" />sales11.glopaco</a></p>
+			</div>
+		</div>
+    		<div class="box_hotro">
+			<p class="hinh_tt">
+				<img src="upload/khac/miss-yen-8734.jpg" alt=" Ms. Yến" />
+			</p>
+			<div class="thongtin_ht">
+				<p class="ten_ht"> Ms. Yến</p>
+				<p>0908 636 601</p>
+				<p>sales01.glopaco@gmail.com</p>
+				<p><a style="text-decoration:none; color:#111;" href="skype:sales01.glopaco?call" title="Hỗ Trợ Skype"><img style="float:left;" src="images/skype.png" />sales01.glopaco</a></p>
+			</div>
+		</div>
+    		<div class="box_hotro">
+			<p class="hinh_tt">
+				<img src="upload/khac/trieu-5865.jpg" alt=" Mr. Triều" />
+			</p>
+			<div class="thongtin_ht">
+				<p class="ten_ht"> Mr. Triều</p>
+				<p>0919.077.992</p>
+				<p>buiminhtrieu@gmail.com</p>
+				<p><a style="text-decoration:none; color:#111;" href="skype:trieubm?call" title="Hỗ Trợ Skype"><img style="float:left;" src="images/skype.png" />trieubm</a></p>
+			</div>
+		</div>
+    		<div class="box_hotro">
+			<p class="hinh_tt">
+				<img src="upload/khac/z2151877910209_ff8f0c2d31bc85ad70b246908d2bc3b8-(1)-2647.jpg" alt="Ms. Xuân" />
+			</p>
+			<div class="thongtin_ht">
+				<p class="ten_ht">Ms. Xuân</p>
+				<p>0915 413 499</p>
+				<p>sales05.glopaco@gmail.com</p>
+				<p><a style="text-decoration:none; color:#111;" href="skype:sales05.glopaco?call" title="Hỗ Trợ Skype"><img style="float:left;" src="images/skype.png" />sales05.glopaco</a></p>
+			</div>
+		</div>
+    		<div class="box_hotro">
+			<p class="hinh_tt">
+				<img src="upload/khac/miss-han-1920.jpg" alt=" Ms. Hân" />
+			</p>
+			<div class="thongtin_ht">
+				<p class="ten_ht"> Ms. Hân</p>
+				<p>0914.002.599</p>
+				<p>sales03@glopaco.vn</p>
+				<p><a style="text-decoration:none; color:#111;" href="skype:sales03.glopaco?call" title="Hỗ Trợ Skype"><img style="float:left;" src="images/skype.png" />sales03.glopaco</a></p>
+			</div>
+		</div>
+    	<div class="clear"></div>
+</div><!---END #danhmuc-->		</div>
+    </div><!---END #left-->
+    
+    <div id="tintuc">
+		<div class="main_page">
+			
+
+<div class="wap_item_tin" >
+<div class="tieude_tin"><span>Dự án bao bì lớn đã thực hiện</span></div>
+        <div class="box_news_tc">
+            <a href="tin-tuc/mau-bao-bi-moi-nhat-theo-su-huong-nam-2021-29.html" title="Mẫu Bao Bì Mới Nhất Theo su hướng năm 2021"><img src="upload/news/3d-tui-10kg3517_229x200.jpg" alt="Mẫu Bao Bì Mới Nhất Theo su hướng năm 2021" /></a>      
+            <h3><a href="tin-tuc/mau-bao-bi-moi-nhat-theo-su-huong-nam-2021-29.html" title="Mẫu Bao Bì Mới Nhất Theo su hướng năm 2021">Mẫu Bao Bì Mới Nhất Theo su hướng năm 2021</a></h3>
+            <div class="mota">Đây là mẫu bao bì Glopaco thiết kế</div>  
+            <div class="clear"></div>         
+        </div><!---END .box_new-->
+		
+		<div class="box_ten_bv">
+			<ul>
+									<li><a href="tin-tuc/mau-bao-bi-moi-nhat-theo-su-huong-nam-2021-29.html" title="Mẫu Bao Bì Mới Nhất Theo su hướng năm 2021">Mẫu Bao Bì Mới Nhất Theo su hướng năm 2021</a></li>
+									<li><a href="tin-tuc/glopaco-don-nhan-danh-hieu-doanh-nghiep-doi-moi-sang-tao-19.html" title="GLOPACO đón nhận danh hiệu: Doanh nghiệp đổi mới - sáng tạo">GLOPACO đón nhận danh hiệu: Doanh nghiệp đổi mới - sáng tạo</a></li>
+									<li><a href="tin-tuc/cac-luu-y-khi-lam-bao-bi-xuat-khau-34.html" title="Các lưu ý khi làm bao bì xuất khẩu">Các lưu ý khi làm bao bì xuất khẩu</a></li>
+									<li><a href="tin-tuc/bao-bi-glopaco-khang-dinh-niem-tin-chat-luong-20.html" title="Bao bì Glopaco - Khẳng định niềm tin, chất lượng">Bao bì Glopaco - Khẳng định niềm tin, chất lượng</a></li>
+							</ul>
+		</div>
+</div><!---END .wap_item-->
+
+<div class="wap_item_tin" >
+<div class="tieude_tin"><span>Tin nội bộ</span></div>
+        <div class="box_news_tc">
+            <a href="tin-tuc/hieu-qua-tiep-thi-tu-viec-phat-trien-mau-ma-bao-bi-33.html" title="Hiệu quả tiếp thị từ việc phát triển mẫu mã bao bì"><img src="upload/news/mo-hinh-marketing-hieu-qua7549_250x188.jpg" alt="Hiệu quả tiếp thị từ việc phát triển mẫu mã bao bì" /></a>      
+            <h3><a href="tin-tuc/hieu-qua-tiep-thi-tu-viec-phat-trien-mau-ma-bao-bi-33.html" title="Hiệu quả tiếp thị từ việc phát triển mẫu mã bao bì">Hiệu quả tiếp thị từ việc phát triển mẫu mã bao bì</a></h3>
+            <div class="mota">Hiệu quả từ mẫu mã bao bì :
+               Theo đánh giá của các tổ chức nghiên cứu kinh tế thế giới, những năm gần...</div>  
+            <div class="clear"></div>         
+        </div><!---END .box_new-->
+		
+		<div class="box_ten_bv">
+			<ul>
+									<li><a href="tin-tuc/hieu-qua-tiep-thi-tu-viec-phat-trien-mau-ma-bao-bi-33.html" title="Hiệu quả tiếp thị từ việc phát triển mẫu mã bao bì">Hiệu quả tiếp thị từ việc phát triển mẫu mã bao bì</a></li>
+									<li><a href="tin-tuc/cung-cap-giai-phap-bao-bi-toan-dien-buoc-dot-pha-lon-cua-glopaco-32.html" title="Cung cấp giải pháp bao bì toàn diện – Bước đột phá lớn của Glopaco">Cung cấp giải pháp bao bì toàn diện – Bước đột phá lớn của Glopaco</a></li>
+									<li><a href="tin-tuc/bao-bi-phuong-thuc-quang-cao-hieu-qua-31.html" title="Bao bì - Phương thức quảng cáo hiệu quả">Bao bì - Phương thức quảng cáo hiệu quả</a></li>
+									<li><a href="tin-tuc/nhung-luu-y-khi-lam-bao-bi-hang-hoa-xuat-khau-30.html" title="Những lưu ý khi làm bao bì hàng hóa xuất khẩu">Những lưu ý khi làm bao bì hàng hóa xuất khẩu</a></li>
+							</ul>
+		</div>
+</div><!---END .wap_item-->
+
+<div class="wap_item_tin" style="margin-right:0px;">
+<div class="tieude_tin"><span>Tin xã hội</span></div>
+        <div class="box_news_tc">
+            <a href="tin-tuc/viet-nam-dang-tro-lai-vi-tri-xuat-khau-gao-so-1-the-gioi-39.html" title="Việt Nam đang trở lại vị trí xuất khẩu gạo số 1 thế giới"><img src="upload/news/xkgao1339_250x148.jpg" alt="Việt Nam đang trở lại vị trí xuất khẩu gạo số 1 thế giới" /></a>      
+            <h3><a href="tin-tuc/viet-nam-dang-tro-lai-vi-tri-xuat-khau-gao-so-1-the-gioi-39.html" title="Việt Nam đang trở lại vị trí xuất khẩu gạo số 1 thế giới">Việt Nam đang trở lại vị trí xuất khẩu gạo số 1 thế giới</a></h3>
+            <div class="mota">Việt Nam đang trở lại vị trí xuất khẩu gạo số 1 thế giới</div>  
+            <div class="clear"></div>         
+        </div><!---END .box_new-->
+		
+		<div class="box_ten_bv">
+			<ul>
+									<li><a href="tin-tuc/viet-nam-dang-tro-lai-vi-tri-xuat-khau-gao-so-1-the-gioi-39.html" title="Việt Nam đang trở lại vị trí xuất khẩu gạo số 1 thế giới">Việt Nam đang trở lại vị trí xuất khẩu gạo số 1 thế giới</a></li>
+									<li><a href="tin-tuc/bi-kip-giu-suc-khoe-cho-nhan-vien-van-phong-40.html" title="Bí kíp giữ sức khỏe cho nhân viên văn phòng">Bí kíp giữ sức khỏe cho nhân viên văn phòng</a></li>
+									<li><a href="tin-tuc/ngan-hang-bat-tay-voi-sieu-thi-kich-cau-41.html" title="Ngân hàng “bắt tay” với siêu thị kích cầu">Ngân hàng “bắt tay” với siêu thị kích cầu</a></li>
+									<li><a href="tin-tuc/nguoi-viet-thuong-thuc-ca-phe-42.html" title="Người Việt thưởng thức cà phê">Người Việt thưởng thức cà phê</a></li>
+							</ul>
+		</div>
+</div><!---END .wap_item-->
+<div class="clear"></div>
+		</div>
+    </div><!---END #left-->
+	
+		
+    <div id="wap_footer">        
+       <div id="footer">
+	<div id="main_footer">
+					<div class="box_footer" >
+				<div class="ten_dchi">Trụ sở chính</div> 
+				<div class="mota"><ul style="padding-right: 0px; padding-left: 0px; list-style: none; margin: 0px; color: rgb(0, 0, 0); font-family: Tahoma, Geneva, sans-serif; font-size: 12px;">
+	<li><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">Địa chỉ:</strong><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;"> </strong><span style="font-family: tahoma, sans-serif;">547/60, Tổ 4, KP1, Phường Long Bình, TP. Biên Hòa, Tỉnh Đồng Nai</span></li>
+	<li>
+	<p><span style="font-family: tahoma, sans-serif;"><strong>ĐT </strong>:  (0251) 3 88 69 69</span></p>
+
+	<p><span style="font-family: tahoma, sans-serif;"><strong>Fax</strong>:  (0251) 3 89 33 65</span></p>
+	</li>
+	<li>
+	<p><span style="font-family: tahoma, sans-serif;"><strong>Email</strong>: </span><span style="color: rgb(0, 0, 0); font-family: tahoma, sans-serif; font-size: 12px;">chinh.pham@glopaco.vn</span></p>
+	</li>
+	<li> </li>
+</ul>
+</div> 
+				<img src="upload/news/sfss-7626.jpg" alt="Trụ sở chính" />                 
+				<div class="clear"></div>         
+			</div><!---END .box_new--> 
+					<div class="box_footer" >
+				<div class="ten_dchi">Nhà máy sản xuất vải cuộn PP</div> 
+				<div class="mota"><ul style="padding-right: 0px; padding-left: 0px; list-style: none; margin: 0px; color: rgb(0, 0, 0); font-family: Tahoma, Geneva, sans-serif; font-size: 12px;">
+	<li><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">Địa chỉ:</strong><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;"> </strong><span style="color: rgb(0, 0, 0); font-family: tahoma, sans-serif; font-size: 12px;">20 Đoàn Văn Cự, Ấp Vàm, Xã Thiện Tân, Cụm KCN Thiện Tân,</span>
+	<p style="color: rgb(0, 0, 0); font-family: Tahoma, Geneva, sans-serif; font-size: 12px;"><span style="color: rgb(0, 0, 0); font-family: tahoma, sans-serif; font-size: 12px;">H. Vĩnh Cửu,T. ĐồngNai</span></p>
+	</li>
+	<li>
+	<p style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px;"><span style="font-family: tahoma, sans-serif;"><strong>ĐT </strong>:  (0251) 3 88 69 69</span></p>
+
+	<p style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px;"><span style="font-family: tahoma, sans-serif;"><strong>Fax</strong>:  (0251) 3 89 33 65</span></p>
+	</li>
+	<li>
+	<p><span style="font-family:tahoma,sans-serif;"><strong>Email</strong>: </span><span style="color: rgb(0, 0, 0); font-family: tahoma, sans-serif; font-size: 12px;">chinh.pham@glopaco.vn</span></p>
+	</li>
+	<li>
+	<p> </p>
+	</li>
+</ul>
+</div> 
+				<img src="upload/news/adadd-1226.jpg" alt="Nhà máy sản xuất vải cuộn PP" />                 
+				<div class="clear"></div>         
+			</div><!---END .box_new--> 
+					<div class="box_footer" style="margin-right:0px;">
+				<div class="ten_dchi">Nhà máy sản xuất ghép màng BOPP</div> 
+				<div class="mota"><ul style="padding-right: 0px; padding-left: 0px; list-style: none; margin: 0px; color: rgb(0, 0, 0); font-family: Tahoma, Geneva, sans-serif; font-size: 12px;">
+	<li><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">Địa chỉ:</strong><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;"> </strong><span style="font-family: tahoma, sans-serif;">547/60 Khu phố 1, Phường Long Bình, TP. Biên Hòa</span>
+	<p><span style="font-family: tahoma, sans-serif;">T. Đồng Nai</span></p>
+	</li>
+	<li>
+	<p style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px;"><span style="font-family: tahoma, sans-serif;"><strong>ĐT </strong>:  (0251) 3 88 69 69</span></p>
+
+	<p style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px;"><span style="font-family: tahoma, sans-serif;"><strong>Fax</strong>:  (0251) 3 89 33 65</span></p>
+	</li>
+	<li>
+	<p><span style="font-family: tahoma, sans-serif;"><strong>Email</strong>: </span><span style="color: rgb(0, 0, 0); font-family: tahoma, sans-serif; font-size: 12px;">chinh.pham@glopaco.vn</span></p>
+	</li>
+	<li> </li>
+</ul>
+</div> 
+				<img src="upload/news/ss-5327.jpg" alt="Nhà máy sản xuất ghép màng BOPP" />                 
+				<div class="clear"></div>         
+			</div><!---END .box_new--> 
+					<div class="box_footer" >
+				<div class="ten_dchi">Nhà máy sản xuất ghép màng phức hợp</div> 
+				<div class="mota"><ul style="padding-right: 0px; padding-left: 0px; list-style: none; margin: 0px; color: rgb(0, 0, 0); font-size: 12px;">
+	<li style=""><strong style="font-family: Tahoma, Geneva, sans-serif; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">Địa chỉ:</strong><strong style="font-family: Tahoma, Geneva, sans-serif; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;"> </strong>Ấp Rừng Sến, Mỹ Hạnh Bắc, H. Đức Hòa, T. Long An</li>
+	<li style="font-family: Tahoma, Geneva, sans-serif;">
+	<p><span style="font-family: tahoma, sans-serif;"><strong>Email</strong>: </span><span style="font-family: tahoma, sans-serif;">chinh.pham@glopaco.vn</span></p>
+	</li>
+</ul>
+</div> 
+				<img src="upload/news/03-8248.jpg" alt="Nhà máy sản xuất ghép màng phức hợp" />                 
+				<div class="clear"></div>         
+			</div><!---END .box_new--> 
+					<div class="box_footer" >
+				<div class="ten_dchi">Nhà máy sản xuất bao bì jumbo</div> 
+				<div class="mota"><ul style="padding-right: 0px; padding-left: 0px; list-style: none; margin: 0px; color: rgb(0, 0, 0); font-family: Tahoma, Geneva, sans-serif; font-size: 12px;">
+	<li><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">Địa chỉ:</strong><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;"> </strong>Thị Trấn Kiên Lương, H. Kiên Lương, T. Kiên Giang</li>
+	<li>
+	<p><span style="font-family: tahoma, sans-serif;"><strong>Email</strong>: </span><span style="font-family: tahoma, sans-serif;">chinh.pham@glopaco.vn</span></p>
+	</li>
+</ul>
+</div> 
+				<img src="upload/news/sss-5967.jpg" alt="Nhà máy sản xuất bao bì jumbo" />                 
+				<div class="clear"></div>         
+			</div><!---END .box_new--> 
+					<div class="box_footer" style="margin-right:0px;">
+				<div class="ten_dchi">NHÀ MÁY SẢN XUẤT BAO BÌ KRAFT</div> 
+				<div class="mota"><ul style="padding-right: 0px; padding-left: 0px; list-style: none; margin: 0px; font-family: Tahoma, Geneva, sans-serif; font-size: 12px;">
+	<li><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Địa chỉ:</strong><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"> </strong><span style="font-family: tahoma, sans-serif;"> Đường Số 10, KCN Hố Nai 3, Trảng Bom, T. Đồng Nai</span></li>
+	<li>
+	<p><span style="font-family: tahoma, sans-serif;"><strong>Email</strong>: </span><span style="font-family: tahoma, sans-serif;">chinh.pham@glopaco.vn</span></p>
+	</li>
+</ul>
+</div> 
+				<img src="upload/news/dasd-2668.jpg" alt="NHÀ MÁY SẢN XUẤT BAO BÌ KRAFT" />                 
+				<div class="clear"></div>         
+			</div><!---END .box_new--> 
+			</div>
+
+
+	<div id="thongke">
+		<div class="truycap">
+			<ul>
+				<li>Online: <span>7</span>|</li>
+				<li>Ngày hôm nay: <span>879</span>|</li>
+				<li>Thống kê tuần: <span>3138</span>|</li>
+				<li>Thống kê tháng: <span>16209</span>|</li>
+				<li>Tổng truy cập: <span>1857354</span></li>            
+			</ul>
+		</div>
+		<div class="lienket">
+			<a href="https://www.facebook.com/Bopp-rice-bag-bao-b%C3%AC-g%E1%BA%A1o-bopp-in-%E1%BB%91ng-%C4%91%E1%BB%93ng-102844274946626" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a>
+			<a href="https://www.youtube.com" target="_blank"><img src="images/tt.png" alt="tiwtter" /></a>
+			<a href="https://www.google.com" target="_blank"><img src="images/google.png" alt="google" /></a>
+		</div>
+		<div class="clear"></div>
+	</div><!---END #thongke-->
+	<div class="clear"></div>
+</div><!---END #footer--> 
+<div class="chinhsach">
+			<a href="chinh-sach/hinh-thuc-thanh-toan-76.html"> - Hình Thức Thanh Toán</a>
+			<a href="chinh-sach/chinh-sach-va-quy-dinh-chung-75.html"> - Chính Sách và quy định chung</a>
+			<a href="chinh-sach/chinh-sach-bao-mat-63.html"> - Chính sách bảo mật</a>
+			<a href="chinh-sach/chinh-sach-doi-tra-hoan-tien-64.html"> - Chính sách đổi trả hoàn tiền </a>
+			<a href="chinh-sach/van-chuyen-va-giao-nhan-73.html"> - Vận chuyển và giao nhận </a>
+			<a href="chinh-sach/chinh-sach-bao-hanh-74.html"> - Chính sách bảo hành </a>
+	</div>
+<div class="thongtindangky"><p><span style="font-size:24px;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 12px; vertical-align: baseline; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-family: Tahoma, Geneva, sans-serif;">CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN CẦU - GLOPACO </strong></span></p>
+
+<p><span style="font-size:20px;"><strong>Mã số doanh nghiệp : 3602601927 </strong></span></p>
+
+<p><span style="font-size:20px;"><strong>Đăng ký thay đổi lần thứ 6, Ngày 17 Tháng 8 Năm 2019</strong></span></p>
+
+<p><span style="font-size:20px;"><strong>Địa chỉ: </strong>547/60, Tổ 4, KP1, Phường Long Bình, TP. Biên Hòa, Tỉnh Đồng Nai </span></p>
+
+<p><span style="font-size:20px;"><strong>ĐT :  </strong>(0251) 3 88 69 69       Fax:  (0251) 3 89 33 65 </span></p>
+
+<p><span style="font-size:20px;"><strong>Email:</strong> chinh.pham@glopaco.vn</span></p>
+
+<p> </p>
+</div>
+
+<div class="end">
+© Copyright © 2016 <span> GLOPACO - Giải pháp bao bì chuyên nghiệp</span>.  Website được thiết kế độc quyền bởi Glopaco. Nghiêm cấm sao chép website trên mọi hình thức
+</div>
+    </div><!---END #wap_footer-->
+</div><!---END #wapper-->
+
+<a class="btn-zalo btn-frame text-decoration-none" target="_blank" href="https://zalo.me/0911628999">
+    <div class="animated infinite zoomIn kenit-alo-circle"></div>
+    <div class="animated infinite pulse kenit-alo-circle-fill"></div>
+    <i><img src="images/zl.png" alt="Zalo"></i>
+</a>
+<div class="js-facebook-messenger-box onApp rotate bottom-right cfm rubberBand animated" data-anim="rubberBand">
+	<svg id="fb-msng-icon" data-name="messenger icon" xmlns="//www.w3.org/2000/svg" viewBox="0 0 30.47 30.66"><path d="M29.56,14.34c-8.41,0-15.23,6.35-15.23,14.19A13.83,13.83,0,0,0,20,39.59V45l5.19-2.86a16.27,16.27,0,0,0,4.37.59c8.41,0,15.23-6.35,15.23-14.19S38,14.34,29.56,14.34Zm1.51,19.11-3.88-4.16-7.57,4.16,8.33-8.89,4,4.16,7.48-4.16Z" transform="translate(-14.32 -14.34)" style="fill:#fff"></path></svg>
+	<svg id="close-icon" data-name="close icon" xmlns="//www.w3.org/2000/svg" viewBox="0 0 39.98 39.99"><path d="M48.88,11.14a3.87,3.87,0,0,0-5.44,0L30,24.58,16.58,11.14a3.84,3.84,0,1,0-5.44,5.44L24.58,30,11.14,43.45a3.87,3.87,0,0,0,0,5.44,3.84,3.84,0,0,0,5.44,0L30,35.45,43.45,48.88a3.84,3.84,0,0,0,5.44,0,3.87,3.87,0,0,0,0-5.44L35.45,30,48.88,16.58A3.87,3.87,0,0,0,48.88,11.14Z" transform="translate(-10.02 -10.02)" style="fill:#fff"></path></svg>
+</div>
+<div class="js-facebook-messenger-container">
+	<div class="js-facebook-messenger-top-header">
+		<span></span>
+	</div>
+	<div class="fb-page" data-href="https://www.facebook.com/Bopp-rice-bag-bao-b%C3%AC-g%E1%BA%A1o-bopp-in-%E1%BB%91ng-%C4%91%E1%BB%93ng-102844274946626" data-tabs="messages" data-small-header="true" data-height="300" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Bopp-rice-bag-bao-b%C3%AC-g%E1%BA%A1o-bopp-in-%E1%BB%91ng-%C4%91%E1%BB%93ng-102844274946626" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Bopp-rice-bag-bao-b%C3%AC-g%E1%BA%A1o-bopp-in-%E1%BB%91ng-%C4%91%E1%BB%93ng-102844274946626">Facebook</a></blockquote></div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".js-facebook-messenger-box").on("click", function(){
+		$(".js-facebook-messenger-box, .js-facebook-messenger-container").toggleClass("open"), $(".js-facebook-messenger-tooltip").length && $(".js-facebook-messenger-tooltip").toggle()
+	}), $(".js-facebook-messenger-box").hasClass("cfm") && setTimeout(function(){
+		$(".js-facebook-messenger-box").addClass("rubberBand animated")
+	}, 3500), $(".js-facebook-messenger-tooltip").length && ($(".js-facebook-messenger-tooltip").hasClass("fixed") ? $(".js-facebook-messenger-tooltip").show() : $(".js-facebook-messenger-box").on("hover", function(){
+		$(".js-facebook-messenger-tooltip").show()
+	}), $(".js-facebook-messenger-close-tooltip").on("click", function(){
+		$(".js-facebook-messenger-tooltip").addClass("closed")
+	}))
+	$(".search_open").click(function(){
+		$(".search_box_hide").toggleClass('opening');
+	});
+});
+</script><div class="goimb">
+	<div id="footer1" style="z-index:1000;position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;">
+      <table style="width:100%;text-align:center;margin:auto;background: #3777BC;
+  border: 3px solid #e8e8e8;" cellpadding="0" cellspacing="0">
+    <tbody>
+          <tr>
+        <td><a class="link_title blink_me ui-link" href="tel:0911 62 89 99"><img src="images/call.png"/> Gọi điện</a></td>		
+		 <td height="50"><a class="link_title ui-link" target="_blank" href="sms:0911 62 89 99"><img src="images/fa.png" /> SMS</a></td>   
+		 <td><a class="link_title ui-link" href="lien-he.html"><img src="images/chiduong.png"/>Chỉ Đường</a></td>
+      </tr>
+        </tbody>
+  </table>
+</div>
+
+<style>
+#footer1 img {
+    width: 30%;
+    max-width: 35px;
+    vertical-align: middle;
+}
+#footer1 a {
+    color: #fff;
+	text-decoration:none;
+}
+.blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+</style>
+<script src="https://sp.zalo.me/plugins/sdk.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id; js.async=true;
+	js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.6";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": " CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN ",
+  "url": "https://glopaco.vn"
+}
+</script>
+
+<script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "Organization",
+      "name" : " CÔNG TY CỔ PHẦN SẢN XUẤT BAO BÌ CÔNG NGHIỆP TOÀN ",
+      "url" : "https://glopaco.vn",
+      "sameAs" : [
+      	https://www.facebook.com/Bopp-rice-bag-bao-b%C3%AC-g%E1%BA%A1o-bopp-in-%E1%BB%91ng-%C4%91%E1%BB%93ng-102844274946626,https://www.youtube.com,https://www.google.com       ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "B20, KDC số 2, Phường Long Bình, TP. BiênHòa, T. Đồng Nai",
+        "addressRegion": "Ho Chi Minh",
+        "postalCode": "70000",
+        "addressCountry": "vi"
+      }
+    }
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Homepage : Phát Triển Thần Tốc - Liên minh đa ngành hỗ trợ DN VN phát triển (công nghệ, tài chính, bảo hiểm, quảng cáo, chuyển đổi số,...)</title>
+    <meta name="description" content="PHÁT TRIỂN THẦN TỐC  là chương trình liên minh của các doanh nghiệp lớn đa lĩnh vực: Tài chính, Bảo hiểm, Công nghệ, Viễn thông,..nhằm hợp tác và cung cấp các giải pháp giúp các nhà kinh doanh nhỏ lẻ hay các doanh nghiệp lớn giải quyết các khó khăn trong quá trình vận hành doanh nghiệp." />
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=0' name='viewport' />
+    <!-- Robots -->
+    <link href="https://phattrienthantoc.com/image/logo/logo.png" rel="shortcut icon" type="image/x-icon" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://phattrienthantoc.com/" />
+    <!-- Webmaster Tool -->
+    <!-- Global site tag (gtag.js) - Google Ads: 409091406 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-409091406"></script>
+    
+    <meta name="google-site-verification" content="MIovhTaryg3WX4MED7b2_6TvDHUGpERD_wgRZl4AeEs" />
+    
+    
+    <link href="https://phattrienthantoc.com/css/style.css" rel="stylesheet">
+    <link href="https://phattrienthantoc.com/css/member.css" rel="stylesheet">
+    <link href="https://phattrienthantoc.com/css/theme-responsive.css" rel="stylesheet">
+    <link href="https://phattrienthantoc.com/css/intro.css" rel="stylesheet">
+    <link href="https://phattrienthantoc.com/plugin/slick/slick.css" rel="stylesheet">
+    <link href="https://phattrienthantoc.com/css/setting-style.css" rel="stylesheet">
+    <link href="https://phattrienthantoc.com/css/pigma.css" rel="stylesheet">
+    <link href="https://phattrienthantoc.com/css/cart.css" rel="stylesheet">
+    <link href="https://phattrienthantoc.com/css/tc.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://phattrienthantoc.com/js/theme-js.js"></script>
+    <script src="https://phattrienthantoc.com/js/scroll.js"></script>
+    <script src="https://phattrienthantoc.com/plugin/slick/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://phattrienthantoc.com/plugin/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//hstatic.net/0/0/global/design/plugins/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="eduHome index">
+    <header class="header_area">
+    <div class="center">
+        <div class="header_content">
+            <div class="row menu-large">
+                <div class="col-md-2 col-sm-2">
+                    <div class="logo">
+                        <h1>
+                            <a href="https://phattrienthantoc.com">
+                                <img src="https://phattrienthantoc.com/image/logo/logo.png" alt="">
+                                <h2 class="title-logo-header">Phát triển thần tốc</h2>
+                            </a>
+                        </h1>
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cold-md-10 col-sm-10">
+                    <nav class="main-menu">
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="https://phattrienthantoc.com" class=" link-home  active" title="home">
+                                        <span class="i-normal"><img src="https://phattrienthantoc.com/image/icon/ihome.png" alt=""></span>
+                                        <span class="i-active"><img src="https://phattrienthantoc.com/image/icon/ihome-active.png" alt=""></span>
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://phattrienthantoc.com/gioi-thieu" class="link-intro " title="Giới thiệu">
+                                        <span class="i-normal"><img src="https://phattrienthantoc.com/image/icon/imember.png" alt=""></span>
+                                        <span class="i-active"><img src="https://phattrienthantoc.com/image/icon/imember-active.png" alt=""></span>
+                                        Giới thiệu
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://phattrienthantoc.com/thanh-vien"  class="link-member " title="Thành viên">
+                                        <span class="i-normal"><img src="https://phattrienthantoc.com/image/icon/imembers.png" alt=""></span>
+                                        <span class="i-active"><img src="https://phattrienthantoc.com/image/icon/imembers-active.png" alt=""></span>
+                                        Thành viên</a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="https://phattrienthantoc.com/danh-muc-dich-vu" class="link-service " title="Danh mục dịch vụ">
+                                        <span class="i-normal"><img src="https://phattrienthantoc.com/image/icon/itag.png" alt=""></span>
+                                        <span class="i-active"><img src="https://phattrienthantoc.com/image/icon/itag-active.png" alt=""></span>
+                                        Danh mục dịch vụ</a>
+                                </li>
+                                <li>
+                                    <a href="https://phattrienthantoc.com/hoi-dap.html" class="link-question " title="Hỏi đáp">
+                                        <span class="i-normal"><img src="https://phattrienthantoc.com/image/icon/iquestion.png" alt=""></span>
+                                        <span class="i-active"><img src="https://phattrienthantoc.com/image/icon/iquestion-active.png" alt=""></span>
+                                        Hỏi đáp</a>
+                                </li>
+                                <li>
+                                                                            <a href="https://phattrienthantoc.com/dang-nhap.html" class="link-question " title="Đăng nhập">
+                                            <span class="icon-login"><i class="fa fa-user"></i></span>
+                                            Đăng nhập
+                                        </a>
+                                                                    </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="menu-small">
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="https://phattrienthantoc.com" class=" link-home  active" title="home">
+                        <span class="i-normal"><img src="https://phattrienthantoc.com/image/icon/ihome.png" alt=""></span>
+                        <span class="i-active"><img src="https://phattrienthantoc.com/image/icon/ihome-active.png" alt=""></span>
+                        Home
+                    </a>
+                    <a href="https://phattrienthantoc.com/gioi-thieu" class="link-intro " title="Giới thiệu">
+                        <span class="i-normal"><img src="https://phattrienthantoc.com/image/icon/imember.png" alt=""></span>
+                        <span class="i-active"><img src="https://phattrienthantoc.com/image/icon/imember-active.png" alt=""></span>
+                        Giới thiệu
+                    </a>
+                    <a href="https://phattrienthantoc.com/thanh-vien"  class="link-member " title="Thành viên">
+                        <span class="i-normal"><img src="https://phattrienthantoc.com/image/icon/imembers.png" alt=""></span>
+                        <span class="i-active"><img src="https://phattrienthantoc.com/image/icon/imembers-active.png" alt=""></span>
+                        Thành viên
+                    </a>
+                    <a href="https://phattrienthantoc.com/danh-muc-dich-vu" class="link-service " title="Danh mục dịch vụ">
+                        <span class="i-normal"><img src="https://phattrienthantoc.com/image/icon/itag.png" alt=""></span>
+                        <span class="i-active"><img src="https://phattrienthantoc.com/image/icon/itag-active.png" alt=""></span>
+                        Danh mục dịch vụ
+                    </a>
+                    <a href="https://phattrienthantoc.com/hoi-dap.html" class="link-question " title="Hỏi đáp">
+                        <span class="i-normal"><img src="https://phattrienthantoc.com/image/icon/iquestion.png" alt=""></span>
+                        <span class="i-active"><img src="https://phattrienthantoc.com/image/icon/iquestion-active.png" alt=""></span>
+                        Hỏi đáp
+                    </a>
+                                            <a href="https://phattrienthantoc.com/dang-nhap.html" class="link-question " title="Đăng nhập">
+                            <span class="icon-login"><i class="fa fa-user"></i></span>
+                            Đăng nhập
+                        </a>
+                                    </div>
+                <div id="main">
+                    <div class="logo">
+                        <h1>
+                            <a href="https://phattrienthantoc.com">
+                                <img src="https://phattrienthantoc.com/image/logo/logo.png" alt="">
+                                <h2 class="title-logo-header">Phát triển thần tốc</h2>
+                            </a>
+                        </h1>
+                        <div class="navbar-header">
+                            <button class="openbtn" onclick="openNav()">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "220px";
+      document.getElementById("main").style.marginRight = "220px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginRight= "0";
+    }
+</script>           <div class="box-slide">
+  <div class="center container-slide">
+    <section class="key_to_success_area ">
+      <div class="key_to_success row " style="display:flex">
+          <div class="key2seccess_txt title-intro-home">
+              <h3 class="lbl-intro-home">Giới thiệu</h3>
+              <h1>Phát Triển Thần Tốc</h1>
+              <p class="subhead">
+                Chúng tôi là liên minh đa ngành (Viễn Thông, Công Nghệ Thông Tin, Kế Toán, Tài Chính, Bảo Hiểm, Quảng Cáo, Y Tế, Đào Tạo…), mục tiêu là giúp DN có những gói dịch vụ hữu ích và thực dụng nhất, ứng dụng được ngay lập tức, tiết kiệm chi phí DN, tăng thêm lợi ích cho nhân viên, hỗ trợ chuyển đổi số vào hoạt động quản lý/kinh doanh, góp phần giúp DN có được sự phát triển thần tốc.
+              </p>
+              <div class="key2seccess_action">
+                <p>
+                  hotline:
+                    <a href="tel:0899909778" class="hotline">0899909778</a>
+                </p>
+                <a href="https://phattrienthantoc.com/danh-muc-dich-vu" class="btn_more_header btn-hover-vertical rm_btn">Đăng ký tư vấn ngay</a>
+              </div>
+          </div>
+          
+      </div>
+    </section>
+  </div>
+</div>    <section id="gioithieu" class="home_mainBrand" >
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-12">
+                <div class="groupBrand_trusted">
+                    <h4>NHỮNG ĐỐI TÁC <br> ĐÃ LIÊN KẾT VỚI PHÁT TRIỂN THẦN TỐC</h4>
+                    <div class="groupBrand_content">
+                        <div class="listing_brands_logo">
+                           <div class="brand_logo">
+                              <div class="brand_logo__block">
+                                 <img src="https://phattrienthantoc.com/image/logo/haravan.png" alt="Haravan">
+                              </div>
+                           </div>
+                           <div class="brand_logo">
+                              <div class="brand_logo__block">
+                                 <img src="https://phattrienthantoc.com/image/logo/fibo.png" alt="Fibo">
+                              </div>
+                            </div>
+                           <div class="brand_logo">
+                              <div class="brand_logo__block">
+                                 <img src="https://phattrienthantoc.com/image/logo/jetcare.png" alt="jetcare">
+                              </div>
+                           </div>
+                           <div class="brand_logo">
+                              <div class="brand_logo__block">
+                                 <img src="https://phattrienthantoc.com/image/logo/vib.png" alt="vib">
+                              </div>
+                           </div>
+                           <div class="brand_logo">
+                              <div class="brand_logo__block">
+                                 <img src="https://phattrienthantoc.com/image/logo/mobifone.png" alt="mobifone">
+                              </div>
+                           </div>
+                           <div class="brand_logo">
+                              <div class="brand_logo__block">
+                                 <img src="https://phattrienthantoc.com/image/logo/vinahost.png" alt="vinahost">
+                              </div>
+                           </div>
+                           <div class="brand_logo">
+                              <div class="brand_logo__block">
+                                 <img src="https://phattrienthantoc.com/image/logo/zalo.png" alt="zalo">
+                              </div>
+                           </div>
+                           <div class="brand_logo">
+                              <div class="brand_logo__block">
+                                 <img src="https://phattrienthantoc.com/image/logo/swifi.png" alt="swifi">
+                              </div>
+                           </div>
+                           <div class="brand_logo">
+                              <div class="brand_logo__block">
+                                 <img src="https://phattrienthantoc.com/image/logo/getfly.png" alt="zalo">
+                              </div>
+                           </div>
+                           <div class="brand_logo">
+                              <div class="brand_logo__block text-box-update">
+                                 <img src="https://phattrienthantoc.com/image/logo/nhmp.PNG" alt="">
+                              </div>
+                           </div>
+                           <div class="brand_logo">
+                              <div class="brand_logo__block text-box-update">
+                                 <img src="https://phattrienthantoc.com/image/logo/bhmp.PNG" alt="">
+                              </div>
+                           </div>
+                           <div class="brand_logo box-partner-update">
+                              <div class="brand_logo__block box-partner-update text-box-update">
+                                 <img src="https://phattrienthantoc.com/image/logo/medr.png" alt="">
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    <section class="intro-partner">
+    <div class="center clearfix">
+      <p class="describe-partner">Chúng tôi có bề dày kinh nghiệm, am hiểu sâu sắc lĩnh vực chuyên môn, xử lý được nhiều tình huống khó, đồng thời thấu hiểu hoạt động của DN và phương pháp ứng dụng các giải pháp vào hoạt động hàng ngày</p>
+      <div class="row">
+          <div class="col-12 box-contract">
+             <div class="col-inner">
+                <div class="box has-hover has-hover box-text-bottom">
+                   <h2 class="name-partner">
+                     <span class="quote-slogan-left"> <img src="https://phattrienthantoc.com/image/icon/i-next.png" alt=""> <img src="https://phattrienthantoc.com/image/icon/i-next.png" alt=""></span> 
+                     <p class="content-slogan">  Chúng tôi là những nhà cung cấp dịch vụ DN <br> chuyên nghiệp bật nhất Việt Nam </p>
+                     <span class="quote-slogan-right"><img src="https://phattrienthantoc.com/image/icon/i-prev.png" alt=""><img src="https://phattrienthantoc.com/image/icon/i-prev.png" alt=""></span>
+                   </h2>
+                   <div class="des-contract">
+                     <h3> <label class="title-main-partner">  Fibo </label> Giải pháp truyền thông/ viễn thông (tin nhắn SMS/Zalo ; OTP, tổng đài VoIP, Topup)
+                     </h3>
+                     <h3> <label class="title-main-partner"> Haravan</label>  Giải pháp bán hàng Thương mại điện tử (web TMDT, facebook, chatbot)</h3>
+                     <h3><label class="title-main-partner">  Getfly </label> Hệ thống quản trị mối quan hệ khách hàng (CRM)</h3>
+                     <h3><label class="title-main-partner">  Zalo </label> Giải pháp cskh/quảng cáo đến cộng đồng người dùng Zalo</h3>
+                     <h3><label class="title-main-partner">  Vinahost </label> Giải pháp domain/hosting/email và website giới thiệu DN.</h3>
+                     <h3><label class="title-main-partner">  Mobifone </label> Giải pháp Wifi Internet 4G </h3>
+                     <h3><label class="title-main-partner"> Jetcare </label> Giải pháp công nghệ bảo hiểm (insurtech).</h3>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div class="col-12 box-contract">
+             <div class="col-inner">
+                <div class="box has-hover has-hover box-text-bottom">
+                   <h2 class="name-partner">
+                     <span class="quote-slogan-left"> <img src="https://phattrienthantoc.com/image/icon/i-next.png" alt=""> <img src="https://phattrienthantoc.com/image/icon/i-next.png" alt=""></span> 
+                     <p class="content-slogan">  Giải pháp hỗ trợ từ các đơn vị Tài Chính <br> (Ngân Hàng/Bảo Hiểm) hàng đầu Việt Nam  </p>
+                     <span class="quote-slogan-right"><img src="https://phattrienthantoc.com/image/icon/i-prev.png" alt=""><img src="https://phattrienthantoc.com/image/icon/i-prev.png" alt=""></span>
+                   </h2>
+                   <div class="des-contract">
+                     <div class="row">
+                        <div class="box-item-partner-infor col-md-4 col-12">
+                           <h2><label class="title-main-partner"> Ngân hàng miễn phí </label></h2>
+                           <p>	Miễn phí toàn diện dịch vụ ngân hàng cho DN và NV: phí duy trì, phí sms, phí rút tiền ATM cùng ngân hàng/khác ngân hàng, phí chuyển tiền cùng ngân hàng/khác ngân hàng. </p>
+                        </div>
+                        <div class="box-item-partner-infor col-md-4 col-12">
+                           <h2><label class="title-main-partner"> Bảo hiểm miễn phí </label></h2>
+                           <p> Miễn phí bảo hiểm Tai Nạn( bồi thường 100 triệu ) và bảo hiểm TNDS Xe Máy cho toàn bộ nhân viên DN</p>
+                        </div>
+                        <div class="box-item-partner-infor col-md-4 col-12">
+                           <h2><label class="title-main-partner"> VIB: Tặng 43 triệu vnd sử dụng Grab </label></h2>
+                           <p>Miễn phí cấp thẻ</p>
+                           <p>Miễn phí duy trì thẻ</p>
+                           <p>Tặng 43tr để sử dụng mọi dv của Grab</p>
+                           <p>Mua sắm chiết khấu lên đến 10-20-30% tại các điểm mua sắm Offline/Online</p>
+                        </div>
+                     </div>
+                  </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+</section>
+    <section class="our_courses_area list-member-main-home">
+    <div class="center">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section_heading">
+                    <h2>Ưu đãi từ Phát triển thần tốc</h2>
+                    <p>Bạn sẽ được nhận tất cả ưu đãi này </p>
+                </div>
+            </div>
+        </div>
+        <div class="row all_our_courses">
+                                                <div class="col-md-4 col-sm-6 col-6 single_our_course-column ">
+                        <div class=" single_our_course single_our_course_main item-member-main">
+                            <div class="sing_course_thumb">
+                                                                    <a href="https://phattrienthantoc.com/thanh-vien/thanh-vien-fibo.html">
+                                        <img src="https://admin.phattrienthantoc.com/images/provider-promotion/1623056311.png" alt="FIBO">
+                                    </a>
+                                                            </div>
+                            <div class="sing_course_txt_main ">
+                                                                    <a class="name-member" href="https://phattrienthantoc.com/thanh-vien/thanh-vien-fibo.html" title="FIBO">FIBO</a>
+                                                                <div class="text-split text-split-4 discount-member"><p><span class="lbl-free" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; position: relative;"><u>Miễn phí</u></span>&nbsp;hệ thống tổng đài doanh nghiệp, hệ thống quản lý tin nhắn SMS/Zalo và <u>tặng thêm 5 triệu vnd</u> để nhắn tin Zalo.<br></p></div>
+                            </div>  
+                        </div>
+                    </div>
+                                                                <div class="col-md-4 col-sm-6 col-6 single_our_course-column ">
+                        <div class=" single_our_course single_our_course_main item-member-main">
+                            <div class="sing_course_thumb">
+                                                                    <a href="https://phattrienthantoc.com/thanh-vien/thanh-vien-mobifone.html">
+                                        <img src="https://admin.phattrienthantoc.com/images/provider-promotion/1623056993.png" alt="MOBIFONE">
+                                    </a>
+                                                            </div>
+                            <div class="sing_course_txt_main ">
+                                                                    <a class="name-member" href="https://phattrienthantoc.com/thanh-vien/thanh-vien-mobifone.html" title="MOBIFONE">MOBIFONE</a>
+                                                                <div class="text-split text-split-4 discount-member"><p><u>Miễn phí</u>&nbsp;Internet Wifi di động tốc độ cao 4G (không giới hạn dung lượng, không giới hạn băng thông)</p></div>
+                            </div>  
+                        </div>
+                    </div>
+                                                                <div class="col-md-4 col-sm-6 col-6 single_our_course-column ">
+                        <div class=" single_our_course single_our_course_main item-member-main">
+                            <div class="sing_course_thumb">
+                                                                    <a href="https://phattrienthantoc.com/thanh-vien/thanh-vien-vinahost.html">
+                                        <img src="https://admin.phattrienthantoc.com/images/provider-promotion/1623057274.png" alt="VINAHOST">
+                                    </a>
+                                                            </div>
+                            <div class="sing_course_txt_main ">
+                                                                    <a class="name-member" href="https://phattrienthantoc.com/thanh-vien/thanh-vien-vinahost.html" title="VINAHOST">VINAHOST</a>
+                                                                <div class="text-split text-split-4 discount-member"><p><span class="lbl-free" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; position: relative;"><u>Miễn phí</u> </span>dịch vụ Hosting Pro và Email Biz chuyên dụng cho DN. <u>Miễn phí</u> hệ thống Web Builder để làm website (giới thiệu DN, bán hàng E-Commerce, blog, Forum, Social Networking,...)</p></div>
+                            </div>  
+                        </div>
+                    </div>
+                                                                <div class="col-md-4 col-sm-6 col-6 single_our_course-column ">
+                        <div class=" single_our_course single_our_course_main item-member-main">
+                            <div class="sing_course_thumb">
+                                                                    <a href="https://phattrienthantoc.com/thanh-vien/thanh-vien-zalo.html">
+                                        <img src="https://admin.phattrienthantoc.com/images/provider-promotion/1623057417.png" alt="ZALO">
+                                    </a>
+                                                            </div>
+                            <div class="sing_course_txt_main ">
+                                                                    <a class="name-member" href="https://phattrienthantoc.com/thanh-vien/thanh-vien-zalo.html" title="ZALO">ZALO</a>
+                                                                <div class="text-split text-split-4 discount-member"><p><u>Tặng 5tr vnd</u> để gửi tin nhắn CSKH và Quảng Cáo trong Zalo .<br></p></div>
+                            </div>  
+                        </div>
+                    </div>
+                                                                <div class="col-md-4 col-sm-6 col-6 single_our_course-column ">
+                        <div class=" single_our_course single_our_course_main item-member-main">
+                            <div class="sing_course_thumb">
+                                                                    <a href="https://phattrienthantoc.com/thanh-vien/thanh-vien-haravan.html">
+                                        <img src="https://admin.phattrienthantoc.com/images/provider-promotion/1623057571.png" alt="HARAVAN">
+                                    </a>
+                                                            </div>
+                            <div class="sing_course_txt_main ">
+                                                                    <a class="name-member" href="https://phattrienthantoc.com/thanh-vien/thanh-vien-haravan.html" title="HARAVAN">HARAVAN</a>
+                                                                <div class="text-split text-split-4 discount-member"><p><span class="lbl-free" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; position: relative;"><u>Miễn phí</u></span>&nbsp;website TMDT, đào tạo kinh doanh TMDT, hệ thống quản lý giao nhận tại 10 DN vận chuyển lớn nhất VN.<br></p></div>
+                            </div>  
+                        </div>
+                    </div>
+                                                                <div class="col-md-4 col-sm-6 col-6 single_our_course-column ">
+                        <div class=" single_our_course single_our_course_main item-member-main">
+                            <div class="sing_course_thumb">
+                                                                    <a href="https://phattrienthantoc.com/thanh-vien/thanh-vien-vib.html">
+                                        <img src="https://admin.phattrienthantoc.com/images/provider-promotion/1623057676.png" alt="VIB">
+                                    </a>
+                                                            </div>
+                            <div class="sing_course_txt_main ">
+                                                                    <a class="name-member" href="https://phattrienthantoc.com/thanh-vien/thanh-vien-vib.html" title="VIB">VIB</a>
+                                                                <div class="text-split text-split-4 discount-member"><u><span class="lbl-free" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; position: relative;">Tặng </span>43 triệu vnd</u> để xài <b>Grab</b>.<br></div>
+                            </div>  
+                        </div>
+                    </div>
+                                                                <div class="col-md-4 col-sm-6 col-6 single_our_course-column ">
+                        <div class=" single_our_course single_our_course_main item-member-main">
+                            <div class="sing_course_thumb">
+                                                                    <a href="https://phattrienthantoc.com/thanh-vien/thanh-vien-bank-offer.html">
+                                        <img src="https://admin.phattrienthantoc.com/images/provider-promotion/1624845452.png" alt="NGÂN HÀNG MIỄN PHÍ">
+                                    </a>
+                                                            </div>
+                            <div class="sing_course_txt_main ">
+                                                                    <a class="name-member" href="https://phattrienthantoc.com/thanh-vien/thanh-vien-bank-offer.html" title="NGÂN HÀNG MIỄN PHÍ">NGÂN HÀNG MIỄN PHÍ</a>
+                                                                <div class="text-split text-split-4 discount-member"><p><span class="lbl-free" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; position: relative;"><u>Miễn phí</u></span>&nbsp;toàn diện dịch vụ ngân hàng cho DN và NV: phí duy trì, phí sms, phí rút tiền ATM cùng ngân hàng/khác ngân hàng, phí chuyển tiền cùng ngân hàng/khác ngân hàng.<br></p></div>
+                            </div>  
+                        </div>
+                    </div>
+                                                                <div class="col-md-4 col-sm-6 col-6 single_our_course-column ">
+                        <div class=" single_our_course single_our_course_main item-member-main">
+                            <div class="sing_course_thumb">
+                                                                    <a href="https://phattrienthantoc.com/thanh-vien/thanh-vien-getfly.html">
+                                        <img src="https://admin.phattrienthantoc.com/images/provider-promotion/1623057923.png" alt="GETFLY">
+                                    </a>
+                                                            </div>
+                            <div class="sing_course_txt_main ">
+                                                                    <a class="name-member" href="https://phattrienthantoc.com/thanh-vien/thanh-vien-getfly.html" title="GETFLY">GETFLY</a>
+                                                                <div class="text-split text-split-4 discount-member"><p><span class="lbl-free" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; position: relative;"><u>Miễn phí</u></span>&nbsp;gói CRM tiêu chuẩn dành cho DN nhỏ trong thời gian 1 năm<br></p></div>
+                            </div>  
+                        </div>
+                    </div>
+                                                                <div class="col-md-4 col-sm-6 col-6 single_our_course-column ">
+                        <div class=" single_our_course single_our_course_main item-member-main">
+                            <div class="sing_course_thumb">
+                                                                    <a href="https://phattrienthantoc.com/thanh-vien/thanh-vien-jetcare.html">
+                                        <img src="https://admin.phattrienthantoc.com/images/provider-promotion/1623058319.png" alt="JETCARE">
+                                    </a>
+                                                            </div>
+                            <div class="sing_course_txt_main ">
+                                                                    <a class="name-member" href="https://phattrienthantoc.com/thanh-vien/thanh-vien-jetcare.html" title="JETCARE">JETCARE</a>
+                                                                <div class="text-split text-split-4 discount-member"><p><span class="lbl-free" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; position: relative;"><u><u><span class="lbl-free" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; position: relative;">M</span><span class="lbl-free" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; position: relative;">iễn phí</span>&nbsp;</u>BH Tai Nạn, BH TNDS Xe máy<br>Q</u></span><u>uyền mua </u>bảo hiểm tai nạn, mức bồi thường 100 triệu vnd với <b>giá tượng trưng 1usd</b> (25k/năm/người)&nbsp;<u><span class="lbl-free" style="border: 0px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; position: relative;">cho người thân trong gia đình</span></u><br></p></div>
+                            </div>  
+                        </div>
+                    </div>
+                                                                <div class="col-md-4 col-sm-6 col-6 single_our_course-column ">
+                        <div class=" single_our_course single_our_course_main item-member-main">
+                            <div class="sing_course_thumb">
+                                                                    <a href="https://phattrienthantoc.com/thanh-vien/thanh-vien-medr.html">
+                                        <img src="https://admin.phattrienthantoc.com/images/provider-promotion/1624689581.png" alt="MEDR">
+                                    </a>
+                                                            </div>
+                            <div class="sing_course_txt_main ">
+                                                                    <a class="name-member" href="https://phattrienthantoc.com/thanh-vien/thanh-vien-medr.html" title="MEDR">MEDR</a>
+                                                                <div class="text-split text-split-4 discount-member"><p><u style="color: rgb(51, 51, 51); font-family: Montserrat, sans-serif; font-size: 14px;">Miễn phí</u><span style="color: rgb(51, 51, 51); font-family: Montserrat, sans-serif; font-size: 14px;">&nbsp;khám bệnh tại&nbsp;</span><span style="font-weight: 700; color: rgb(51, 51, 51); font-family: Montserrat, sans-serif; font-size: 14px;">Phòng Khám Tư chất lượng 4 sao</span><span style="color: rgb(51, 51, 51); font-family: Montserrat, sans-serif; font-size: 14px;">&nbsp;(tự chọn 1 trong 6 chuyên khoa thông dụng:&nbsp;</span><span style="font-weight: 700; color: rgb(51, 51, 51); font-family: Montserrat, sans-serif; font-size: 14px;">Khoa Nội, Khoa Ngoại, Khoa Sản Phụ, Khoa Nhi, Tai Mũi Họng, Cận Lâm Sàng</span><span style="color: rgb(51, 51, 51); font-family: Montserrat, sans-serif; font-size: 14px;">)</span></p></div>
+                            </div>  
+                        </div>
+                    </div>
+                                    </div>
+    </div>
+</section>    <section class="why_choose_us_area section-padding box-benefit">
+        <div class="container">
+           <div class="row">
+              <div class="col-12">
+                 <div class="why_choose_us_txt">
+                    <h1>LỢI ÍCH</h1>
+                    <p>
+                       Phát triển thần tốc giúp doanh nghiệp tiết kiệm hàng trăm triệu đồng với nhiều ưu đãi vượt giới hạn từ các nhà cung cấp lớn, vừa giúp DN vượt khó trong giai đoạn khởi nghiệp vừa giúp DN có được nhà cung cấp chất lượng cùng đồng hành trong quá trình kinh doanh.
+                    </p>
+                    <p>
+                       Chúng tôi tin rằng, với sự hỗ trợ của mình, các DN sẽ còn phát triển vượt bậc hơn nữa. 
+                    </p>
+                    <h3 class="note-outstanding">3 đặt điểm khiến Phát Triển Thần Tốc chính là giải pháp lý tưởng cho DN.</h3>
+                    <div class="list-icon-support">
+                       <div class="item-icon-support">
+                          <div class="single_why_choose">
+                             <div class="single_why_choose_icon">
+                                <img src="https://phattrienthantoc.com/image/icon/i-cost.png" alt="Chi phí tối thiểu">
+                             </div>
+                             <h3>Chi phí tối thiểu</h3>
+                          </div>
+                       </div>
+                       <div class="item-icon-support">
+                          <div class="single_why_choose">
+                             <div class="single_why_choose_icon">
+                                <img src="https://phattrienthantoc.com/image/icon/i-round.png" alt="Hiệu quả tối đa">
+                             </div>
+                             <h3>Hiệu quả tối đa</h3>
+                          </div>
+                       </div>
+                       <div class="item-icon-support">
+                          <div class="single_why_choose">
+                             <div class="single_why_choose_icon">
+                                <img src="https://phattrienthantoc.com/image/icon/i-support.png" alt="Hỗ trợ tận tình">
+                             </div>
+                             <h3>Hỗ trợ tận tình</h3>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+    <section class="call_to_action_area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-8 col-sm-8">
+                <div class="call2action_txt">
+                    <h2>Bạn có muốn đồng hành cùng <br> <span class="name-company-banner"> PHÁT TRIỂN THẦN TỐC </span></h2>
+                    <p>Bạn còn chờ gì nữa ! Hãy đăng ký ngay để nhận được nhiều ưu đãi từ chúng tôi..</p>
+                </div>
+            </div>
+            <div class=" col-md-2 col-sm-4">
+                <div class="call2action_btn">
+                    <a href="https://phattrienthantoc.com/danh-muc-dich-vu" > Đăng kí ngay</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    <section class="our_faculties_area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_heading title-advice">
+                    <h2>BAN CỐ VẤN CHƯƠNG TRÌNH</h2>
+                    <p>Những Doanh nhân - Chuyên gia giàu kinh nghiệm trong nghề</p>
+                </div>
+            </div>
+        </div>
+        <div class="big-screen">
+            <div class="row">
+                <div class="all-advices">
+                   <div class="item-advice">
+                      <div class="single_our_facult ">
+                         <div class="sing_our_facult_photo">
+                            <a href="">
+                            <img src="https://phattrienthantoc.com/image/intro/ndhv.png" alt="">
+                            </a>
+                         </div>
+                         <div class="sing_our_facult_txt">
+                            <a href="">
+                               <h3>MR.Nguyễn Dương Huy Vũ</h3>
+                            </a>
+                            <p>CEO  Fibo</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="item-advice">
+                      <div class="single_our_facult">
+                         <div class="sing_our_facult_photo">
+                            <a href="">
+                            <img src="https://phattrienthantoc.com/image/intro/ab2.png" alt="">
+                            </a>
+                         </div>
+                         <div class="sing_our_facult_txt">
+                            <a href="">
+                               <h3>Mr. Huỳnh Lâm Hồ</h3>
+                            </a>
+                            <p>CEO Haravan</p>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="item-advice">
+                      <div class="single_our_facult ">
+                         <div class="sing_our_facult_photo">
+                            <a href="">
+                            <img src="https://phattrienthantoc.com/image/intro/ab3.png" alt="">
+                            </a>
+                         </div>
+                         <div class="sing_our_facult_txt">
+                            <a href="">
+                               <h3>Mr. Nguyễn Bảo Toàn</h3>
+                            </a>
+                            <p>CEO SPT/ SWifi</p>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="row small-screen">
+            <div class="all-advices">
+                <div class="container-slick clearfix">
+                    <div>
+                        <div class="wrap-arrow-slick">
+                            <div class="arow-slick prev-slick  prev-guarantee">
+                                <i class="fa fa-chevron-left"></i>
+                            </div>
+                            <div class="arow-slick next-slick next-guarantee">
+                                <i class="fa fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <div class="slide-slick multiple-items">
+                            <div class="item-slick box-employee d-none">
+                                <div class="item-advice">
+                                    <div class="single_our_facult ">
+                                        <div class="sing_our_facult_photo">
+                                            <a href="">
+                                                <img src="https://phattrienthantoc.com/image/intro/ndhv.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="sing_our_facult_txt">
+                                            <a href=""><h3>MR.Nguyễn Dương Huy Vũ</h3></a>
+                                            <p>CEO  Fibo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-slick box-employee">
+                                <div class="item-advice">
+                                    <div class="single_our_facult">
+                                        <div class="sing_our_facult_photo">
+                                            <a href="">
+                                                <img src="https://phattrienthantoc.com/image/intro/ab2.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="sing_our_facult_txt">
+                                            <a href=""><h3>Mr. Huỳnh Lâm Hồ</h3></a>
+                                            <p>CEO Haravan</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-slick box-employee">
+                                <div class="item-advice">
+                                    <div class="single_our_facult ">
+                                        <div class="sing_our_facult_photo">
+                                            <a href="">
+                                                <img src="https://phattrienthantoc.com/image/intro/ab3.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="sing_our_facult_txt">
+                                            <a href=""><h3>Mr. Nguyễn Bảo Toàn</h3></a>
+                                            <p>CEO SPT/ SWifi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap-dot-slick"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    <footer class="footer-area">
+    <div class="footer_top">
+        <div class="center">
+            <div class="menu-footer row">
+                <div class="logo-footer ">
+                    <img src="https://phattrienthantoc.com/image/logo/logo-footer.png" alt=""><br>
+                    <h2 class="title-logo-footer">Phát triển thần tốc</h2>
+                </div>
+                <div class="link-footer ">
+                    <ul class="">
+                        <li>
+                            <a href="https://phattrienthantoc.com" class=" active" title="home">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://phattrienthantoc.com/gioi-thieu" class="" title="Giói thiệu">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="https://phattrienthantoc.com/thanh-vien" class="" title="Thành viên">Thành viên</a>
+                            
+                        </li>
+                        <li>
+                            <a href="https://phattrienthantoc.com/danh-muc-dich-vu" class="" title="Danh mục dịch vụ">Danh mục dịch vụ</a>
+                        </li>
+                        <li>
+                            <a href="https://phattrienthantoc.com/hoi-dap.html" class="" title="Hỏi đáp">Hỏi đáp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="footer_widgets">
+                    <div class="col-md-6 col-12 footer-content-left">
+                        <div class="single_footer_widget">
+                            <h2 class="widget_title">
+                                Về chúng tôi
+                            </h2>
+                            <p>PTTT là liên minh đa ngành (viễn thông, công nghệ thông tin, tài chính, bảo hiểm, quảng cáo, kế toán, tài chính, y tế) do Fibo khởi xướng và được nhiều DN ủng hộ. Mục tiêu của PTTT là giúp DN có những gói dịch vụ hữu ích và thực dụng nhất, ứng dụng được ngay lập tức, giúp DN chuyển đổi số thành công, vượt qua các khó khăn hiện tại và phát triển thần tốc.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 footer-content-right">
+                        <div class="widget_title">
+                            <span>Liên hệ</span>
+                            <ul class="footer_social">
+                                <li>
+                                    <a class="icon-facebook" href="">
+                                        <img src="https://phattrienthantoc.com/image/icon/i-face.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="icon-insta" href="">
+                                        <img src="https://phattrienthantoc.com/image/icon/i-instagram.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="icon-google" href="">
+                                        <img src="https://phattrienthantoc.com/image/icon/i-google.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="icon-add" href="">
+                                        <img src="https://phattrienthantoc.com/image/icon/i-add.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="footer_contact">
+                            <li>
+                                <i class="fa fa-home"></i> Cty Fibo (Đại diện chương trình PHÁT TRIỂN THẦN TỐC).
+                            </li>
+                            <li>
+                                <i class="fa fa-map-marker"></i> Tầng 2, tòa nhà RubyLand, 4 Lê Quát, Phường Tân Thới Hòa, Quận Tân Phú, Tp HCM.
+                            </li>
+                            
+                            <li>
+                                <i class="fa fa-phone"></i> 0899.909.778
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i> hoptac@phattrienthantoc.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="center">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 text-center">
+                    <p>
+                        © Bản quyền thuộc về 
+                        <a href=""  target="_blank"> phattrienthantoc.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>    <button class="btn btn-primary scroll-top" data-scroll="up" type="button">
+        <i class="fa fa-chevron-up"></i>
+    </button>
+    <script>
+        $('.slide-slick').slick({
+            infinite: true,
+            speed: 500,
+            fade: true,
+            autoplay:true,
+            autospeed:1500,
+            cssEase: 'linear',
+            nextArrow: '.prev-slick',
+            prevArrow: '.next-slick'
+        });
+    </script>
+</body>
+</html>

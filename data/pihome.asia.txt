@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name = "viewport" content = "user-scalable=no, width=device-width">
+    <meta name="description" content="Pihome phần mềm quản lý tòa nhà chung cư trên nền tảng web và app di động được sử dụng rộng rãi tại Châu Á" />
+    <meta name="keywords" content="Phần mềm quản lý tòa nhà chung cư" />
+
+    <meta name="robots" content="noodp,index,follow" />
+    <link rel="canonical" href="https://pihome.asia"/>
+    <link href="https://pihome.asia/storage/images/basic/1625627964-logo-vertical-iconnic-at-2x-1.png" rel="shortcut icon" type="image/x-icon" />
+    <title>Pihome - Phần mềm quản lý tòa nhà chung cư 4.0</title>
+
+    <meta property="og:locale" content="vi_VN">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pihome - Phần mềm quản lý tòa nhà chung cư 4.0">
+    <meta property="og:description" content="Pihome phần mềm quản lý tòa nhà chung cư trên nền tảng web và app di động được sử dụng rộng rãi tại Châu Á">
+    <meta property="og:url" content="https://pihome.asia">
+    <meta property="og:site_name" content="Pihome - Phần mềm quản lý tòa nhà chung cư 4.0">
+            <meta property="og:image" content="https://pihome.asia/storage/images/basic/1598427963-cover-thumnail-phan-mem-quan-ly-chung-cu-pihome.png">
+    <meta property="og:image:secure_url" content="https://pihome.asia/storage/images/basic/1598427963-cover-thumnail-phan-mem-quan-ly-chung-cu-pihome.png">
+    <meta property="og:image:width" content="250">
+    <meta property="og:image:height" content="250">
+    <meta property="og:image:alt" content="Pihome - Phần mềm quản lý tòa nhà chung cư 4.0 | ">
+
+    <meta http-equiv="Content-Security-Policy">
+
+    <!-- CSS -->
+    <!-- Bootstrap core CSS -->
+<link href="https://pihome.asia/pihome/css/bootstrap.min.css" rel="stylesheet">
+<!-- Select2 -->
+<link href="https://pihome.asia/pihome/css/select2.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link href="https://pihome.asia/pihome/css/font-awesome.min.css" rel="stylesheet">
+<!-- Iconmoon -->
+<link href="https://pihome.asia/pihome/css/iconmoon.css" rel="stylesheet">
+<!-- Owl Carousel -->
+<link href="https://pihome.asia/pihome/css/owl.carousel.min.css" rel="stylesheet">
+<!-- Video Popup -->
+<link href="https://pihome.asia/pihome/css/magnific-popup.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="https://pihome.asia/pihome/css/custom.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!-- <link rel="stylesheet" href="/pihome/assets/all.css?id=29cb68b17bbdcf4a9a1d"> -->
+    <style type="text/css">
+    .slide1 {
+        background: url("https://pihome.asia/storage/images/field")no-repeat center center / cover!important;
+    }
+    .slide2 {
+        background: url("https://pihome.asia/storage/images/field")no-repeat center center / cover;
+    }
+    .slide3 {
+        background: url("https://pihome.asia/storage/images/field")no-repeat center center / cover;
+    }
+</style>
+        <style>
+        #fb-root .fb_dialog .fb_dialog_content iframe {
+            bottom: 10px !important;
+            right: 60px !important;
+        }
+    </style>
+    <!-- CSS -->
+
+            <!-- Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'G-ZKQK8JWBKM', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+        <!-- End Google Analytics -->
+    
+            <meta name="google-site-verification" content="Google site verication, dùng cho google search console">
+    
+            <!-- Google Tag Manager -->
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T8VR65N');
+        </script>
+        <!-- End Google Tag Manager -->
+    
+            <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '715472119208817');
+            fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=715472119208817&ev=PageView&noscript=1"/></noscript>
+    
+    <script src="https://sp.zalo.me/plugins/sdk.js"></script>
+    <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebSite","url":"https:\/\/pihome.asia","name":"Pihome - Phần mềm quản lý tòa nhà chung cư 4.0"}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/pihome.asia","sameAs":"https:\/\/pihome.asia#organization","logo":"https:\/\/pihome.asia\/storage\/images\/basic\/1625627964-logo-vertical-iconnic-at-2x-1.png"}</script>
+</head>
+<body>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0&appId=905289606491665&autoLogAppEvents=1" nonce="PI2SxqL4"></script>
+    <!-- ==============================================
+**Preloader**
+=================================================== -->
+<div id="loader">
+	<div id="element">
+		<div class="circ-one"></div>
+		<div class="circ-two"></div>
+	</div>
+</div>
+<!-- ==============================================
+**Header**
+=================================================== -->
+<header>
+	<!-- Start Header top Bar -->
+	<div class="header-top">
+		<div class="container d-flex justify-content-between align-items-center w-100">
+			<div class="lang-wrapper d-md-block d-none">
+								<a href="https://pihome.asia/setlocale?language=en"><img src="https://pihome.asia/image/en.png" alt="en" width="31"></a>
+			</div>
+			<div class="right-block clearfix">
+				<ul class="top-nav hidden-xs  list-unstyled">
+					<li><a href="https://pihome.asia/gioi-thieu" class=" ">Giới thiệu</a></li>
+					<li><a href="https://pihome.asia/ho-tro" class=" ">Hỗ trợ</a></li>
+					<li><a href="https://pihome.asia/tuyen-dung" class=" ">Tuyển dụng</a></li>
+					<li><a href="https://pihome.asia/faq"  class="">FAQs</a></li>
+					<li>
+						<a href="https://pihome.asia/lien-he">Liên hệ</a>
+					</li>
+				</ul>
+				<ul class="follow-us hidden-xs list-unstyled">
+										<li><a href="https://www.facebook.com/pihome.asia" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+																				<li><a href="https://www.linkedin.com/in/th%C3%ACn-tr%E1%BA%A7n-francis-37a623145/detail/recent-activity/shares/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+																				<li><a href="https://www.youtube.com/channel/UCdd-1m4zKTigWjNo7dXY7GA?view_as=subscriber" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+															<li><a href="https://www.facebook.com/groups/249049812992387/?source_id=2317565948530043" target="_blank"><i class="material-icons">group</i></a></li>
+									</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End Header top Bar --> 
+
+	<!-- Start Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container">
+						<a class="navbar-brand" href="https://pihome.asia"><img src="https://pihome.asia/storage/images/basic/1625627905-logo-harizontal-web-at-2x.png" class="img-fluid" alt="Trụ sở chính: G001D Cao Ốc Phú Nhuận, 20 Hoàng Minh Giám, Phường 9, Q. Phú Nhuận, TP HCM, VN" width="192"></a>
+			<div class="d-flex align-items-center">
+				<div class="lang-wrapper d-md-none d-block">
+										<a href="https://pihome.asia/setlocale?language=en"><img src="https://pihome.asia/image/en.png" alt="en" width="31"></a>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			</div>
+			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+				<ul class="navbar-nav mx-auto  list-unstyled">
+					<li class="nav-item"> 
+						<a class="nav-link active" aria-expanded="false" href="https://pihome.asia">Trang chủ</a>
+					</li>
+					<li class="nav-item d-md-none"><a href="https://pihome.asia/gioi-thieu" class="nav-link  ">Giới thiệu</a></li>
+					<li class="nav-item"> 
+						<a class="nav-link " aria-expanded="false" href="https://pihome.asia/tinh-nang">Tính năng</a>
+					</li>
+					<li class="nav-item d-md-none"><a href="https://pihome.asia/ho-tro" class="nav-link  ">Hỗ trợ</a></li>
+					<li class="nav-item"> 
+						<a class="nav-link " aria-expanded="false" href="https://pihome.asia/giai-phap">Giải pháp</a>
+					</li>
+					<li class="nav-item d-md-none"><a href="https://pihome.asia/tuyen-dung" class="nav-link  ">Tuyển dụng</a></li>
+					<li class="nav-item"> 
+						<a class="nav-link " aria-expanded="false" href="https://pihome.asia/bang-gia">Bảng giá</a>
+					</li>
+					<li class="nav-item d-md-none"><a href="https://pihome.asia/faq"  class="nav-link ">FAQs</a></li>
+					<li class="nav-item"> 
+						<a class="nav-link  " aria-expanded="false" href="https://pihome.asia/khach-hang">Khách hàng</a>
+					</li>
+					<li class="nav-item d-md-none">
+						<a href="https://pihome.asia/lien-he" class="nav-link ">Liên hệ</a>
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link  " aria-expanded="false" href="https://pihome.asia/tin-tuc">Tin tức</a>
+					</li>
+
+				</ul>
+				<ul class="navbar-right d-flex list-unstyled">
+					<li><a href="https://pihome.asia/lien-he" target="_blank">Đăng ký</a></li>
+					<li><a href="http://qlcc.pihome.asia/" target="_blank">Đăng nhập</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- End Navigation --> 
+</header>
+
+    <content id="content" class="w-100">
+        <!-- ==============================================
+**Banner Slider**
+=================================================== -->
+<section class="banner-outer">
+    <div class="banner-slider">
+                        <div class="banner banner2 slide1">
+            <div class="container">
+                <div class="row cnt-block">
+                    <div class="col-md-6">
+                        <div class="left">
+                            <h2 class="animated fadeInRight delay-02s">Nền tảng quản lý &amp; vận hành chung cư 4.0</h2>
+                            <p class="animated fadeInRight delay-03s">Kiến tạo hệ sinh thái cư dân số thông minh hiện đại</p>
+                            <div class="row cnt-row2">
+                                <div class="col-md-12 col-lg-12">
+                                    <div class="right-sec animated fadeInRight delay-05s">
+                                        <p class="hidden-xs"></p>
+                                        <a href="https://pihome.asia/lien-he" class="get-started">Đăng ký ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mobile-img">
+                        <figure class="animated fadeInUp delay-06s"><img src="https://pihome.asia/storage/images/general/580x650-1598271963-580x650-1596552854-580x650-1594280407-banner-img2.png" class="img-fluid" alt="Nền tảng quản lý &amp; vận hành chung cư 4.0"></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+                                                        <div class="banner slide2">
+            <div class="container">
+                <div class="row cnt-block">
+                    <div class="col-md-7">
+                        <div class="left">
+                            <h2 class="animated fadeInLeft delay-02s">Nền tảng Web - App dành riêng cho Ban quản lý &amp; cư dân</h2>
+                            <p class="animated fadeInLeft delay-03s">Vì một không gian sống văn minh, tiện nghi.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 right-sec">
+                        <a href="https://pihome.asia/lien-he" class="get-started animated fadeInRight delay-02s">Đăng ký ngay</a>
+                        <p class="animated fadeInRight delay-04s">Nhanh chóng - An toàn - Ưu việt</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <figure class="animated fadeInUp delay-05s"><img src="https://pihome.asia/storage/images/general/870x410-1598007933-870x410-1594280476-banner-slide2-12.png" class="img-fluid" alt="Nền tảng Web - App dành riêng cho Ban quản lý &amp; cư dân"></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+                                                        <div class="banner slide3">
+            <div class="container">
+                <div class="row cnt-block">
+                    <div class="col-md-12">
+                        <div class="left">
+                            <h2 class="animated fadeInDown delay-02s">Quản lý đồng thời nhiều dự án, chung cư trên cùng một hệ thống.</h2>
+                            <p class="animated fadeInDown delay-03s">Hệ thống với cấu trúc hạ tầng chuyên sâu đáp ứng mọi nhu cầu quản lý &amp; vận hành</p>
+                            <a href="https://pihome.asia/lien-he" class="get-started animated fadeInDown delay-04s">Đăng ký ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <figure class="animated fadeInUp delay-05s"><img src="https://pihome.asia/storage/images/general/870x410-1598008009-764x600-1594279401-seo-reports.png" class="img-fluid" alt="Quản lý đồng thời nhiều dự án, chung cư trên cùng một hệ thống."></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    </div>
+</section>
+<!-- ==============================================
+**Content Marketing opt1**
+=================================================== -->
+<section class="content-marketing padding-lg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="head-block">
+                    <h2>PIHOME - CHÚNG TÔI LÀ</h2>
+                    <p>Nền tảng quản lý và vận hành chung cư 4.0 giúp kết nối trực tiếp Ban quản lý và cư dân mọi lúc, mọi nơi; đảm bảo quá trình vận hành xuyên suốt của chung cư; góp phần nâng cao chất lượng cuộc sống của cư dân. Với đội ngũ dày dạn kinh nghiệm trong công nghệ &amp; chuyển đổi số, PiHome hướng đến sự đột phá trong sản phẩm, tư duy khác biệt trong cách vận hành doanh nghiệp, hứa hẹn mang đến một nền tảng vươn tầm ra thế giới.</p>
+                </div>
+            </div>
+        </div>
+                <ul class="row marketing-list">
+                        <li class="col-md">
+                <div class="inner">
+                    <figure><img src="https://pihome.asia/storage/images/general/186x124-1598070907-scalable-link-ico.png" class="img-fluid" alt="Quản lý &amp; vận hành chuyên nghiệp"></figure>
+                    <h3>Quản lý &amp; vận hành chuyên nghiệp</h3>
+                    <p class="equal-hight">PiHome mang lại mô hình quản lý tập trung; theo dõi, giám sát dễ dàng cho đơn vị quản lý, ban quản lý, ban quản trị, các quản lý.</p>
+                    <a href="#" class="know-more">Tìm hiểu thêm</a>
+                </div>
+            </li>
+                        <li class="col-md">
+                <div class="inner">
+                    <figure><img src="https://pihome.asia/storage/images/general/186x124-1598071180-content-marketing-ico.png" class="img-fluid" alt="Giao dịch, thanh toán nhanh chóng, an toàn"></figure>
+                    <h3>Giao dịch, thanh toán nhanh chóng, an toàn</h3>
+                    <p class="equal-hight">Trải nghiệm thanh toán nhanh chóng, thuận tiện, an toàn các chi phí hàng tháng cho cư dân bởi các nền tảng liên kết hàng đầu</p>
+                    <a href="#" class="know-more">Tìm hiểu thêm</a>
+                </div>
+            </li>
+                        <li class="col-md">
+                <div class="inner">
+                    <figure><img src="https://pihome.asia/storage/images/general/186x124-1598071161-seo-success-ico.png" class="img-fluid" alt="Mở ra nhiều cơ hội hợp tác mới"></figure>
+                    <h3>Mở ra nhiều cơ hội hợp tác mới</h3>
+                    <p class="equal-hight">Tích hợp các dịch vụ khác nhằm tăng trải nghiệm, nâng cao chất lượng cuộc sống cho cư dân và mang lại nguồn doanh thu cho đơn vị quản lý.</p>
+                    <a href="#" class="know-more">Tìm hiểu thêm</a>
+                </div>
+            </li>
+                    </ul>
+            </div>
+</section>
+
+<!-- ==============================================
+**Create SEO Reports**
+=================================================== -->
+<section class="seo-reports">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 cnt-block">
+                <h2>Nền tảng Web - Hệ thống quản lý tập trung nhiều dự án trong cùng một thời điểm</h2>
+                <p class="pr-0 pr-lg-3">Quản lý đồng thời nhiều dự án chung cư, tòa nhà trên cùng một nền tảng - Kiểm soát, phân chia nhiệm vụ, tính năng rõ ràng, minh bạch cho từng phòng ban, nhân sự thông qua tính năng &quot;Phân quyền hệ thống&quot; phù hợp với quy trình, đặc tính của mỗi công ty quản lý - Ở PiHome, chúng tôi đặt vấn đề an ninh dữ liệu lên hàng đầu; đảm bảo tuyệt mật thông tin và quyền riêng tư của cư dân</p>
+                <a href="#" class="know-more">Tìm hiểu thêm</a>
+            </div>
+            <div class="col-lg-7">
+                <figure class="img"><img src="https://pihome.asia/storage/images/field/764x600-1598858027-macbook-air-on-table-mockup.jpg" class="img-fluid" alt="Nền tảng Web - Hệ thống quản lý tập trung nhiều dự án trong cùng một thời điểm"></figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==============================================
+**Generate Forms**
+=================================================== -->
+<section class="generate-forms padding-lg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <h2>Nền tảng App - Ứng dụng điện thoại thông minh cho cư dân</h2>
+                <p>PiHome cung cấp đầy đủ ứng dụng mobile trên cả 2 nền tảng Android &amp; iOS giúp cư dân dễ dàng trong việc - Tiện lợi theo dõi chi phí hàng tháng thông qua tính năng nhận thông báo phí - Thanh toán dễ dàng, an toàn qua các nền tảng liên kết uy tín như Momo, ViettelPay, VnPay - Đặt dịch vụ tiện ích nhanh chóng -Thảo luận, phản hồi cộng đồng một cách trực quan thông qua tính năng &quot;Thảo luận&quot;</p>
+                <figure class="img"><img src="https://pihome.asia/storage/images/field/945x380-1598072348-945x380-1596773075-945x380-1594279455-generate-forms.png" class="img-fluid" alt="Nền tảng App - Ứng dụng điện thoại thông minh cho cư dân"></figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==============================================
+**Simple Editor**
+=================================================== -->
+<section class="simple-editor padding-lg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 order-lg-2 cnt-block">
+                <h2>Nền tảng App - ứng dụng điện thoại thông minh Ban Quản lý</h2>
+                <p class="pr-0 pr-lg-3">PiHome cung cấp ứng dụng mobile cho đơn vị quản lý, ban quản lý, ban quản trị, các quản lý theo dõi, giám sát mọi hoạt động vận hành chung cư một cách hiệu quả, chuyên nghiệp, kịp thời như - Quản lý thông tin nhân khẩu của cư dân một cách nhanh chóng, trực quan - Theo dõi các chi phí hàng tháng cho cư dân thông qua tính năng cập nhật tự động - Tiếp nhận, phản ứng nhanh chóng các vấn đề cư dân gặp phải - Tối ưu hóa nguồn nhân lực, tiết kiệm chi phí quản lý.</p>
+                <a href="#" class="know-more">Tìm hiểu thêm</a>
+            </div>
+            <div class="col-lg-7 right">
+                <figure class="img"><img src="https://pihome.asia/storage/images/field/655x432-1598072390-655x432-1596772033-655x432-1594279493-simple-editor.png" class="img-fluid" alt="Nền tảng App - ứng dụng điện thoại thông minh Ban Quản lý"></figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==============================================
+**Choose Pack**
+=================================================== -->
+<section class="choose-pack padding-lg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <h2>Chọn gói giải pháp phù hợp</h2>
+                <p>Liên hệ ngay với PiHome để được tư vấn gói phù hợp nhất với dự án của bạn!</p>
+            </div>
+        </div>
+        <ul class="row">
+                        <li class="col-md">
+                <div class="inner">
+                    <div class="head-block">
+                        <div class="plan-title">
+                            <span>PUBLIC SAAS</span>
+                            <h3>Thuê bao thương hiệu chung</h3>
+                        </div>
+                        <div class="price">
+                            <div class="graph"><span class="org"></span><span class=""></span><span class=""></span></div>
+                            <div class="right">
+                                <div class="amt">LH<sup></sup></div>
+                                <div class="month">Theo nhu cầu</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cnt-block">
+                                                <ul class=" list-unstyled">
+                                                        <li>Nền tảng quản lý tập trung</li>
+                                                        <li>Mobile app cho cư dân</li>
+                                                        <li>Mobile app cho ban quản lý</li>
+                                                        <li>Miễn phí hạ tầng đám mây</li>
+                                                        <li>Thương hiệu chung PiHome</li>
+                                                        <li>Mã nguồn chung</li>
+                                                    </ul>
+                        <span class="you-choose">Dùng thử ngay 01 tháng miễn phí</span>
+                        <a href="https://pihome.asia/lien-he" class="btn get-started">Bắt đầu ngay</a>
+                    </div>
+                </div>
+            </li>
+                        <li class="col-md">
+                <div class="inner">
+                    <div class="head-block">
+                        <div class="plan-title">
+                            <span>PRIVATE SAAS</span>
+                            <h3>Thuê bao thương hiệu riêng</h3>
+                        </div>
+                        <div class="price">
+                            <div class="graph"><span class="org"></span><span class="org"></span><span class=""></span></div>
+                            <div class="right">
+                                <div class="amt">LH<sup></sup></div>
+                                <div class="month">Theo nhu cầu</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cnt-block">
+                                                <ul class=" list-unstyled">
+                                                        <li>Hệ thống quản lý tập trung</li>
+                                                        <li>Mobile apps cho cư dân</li>
+                                                        <li>Mobile app cho ban quản lý</li>
+                                                        <li>Hạ tầng riêng</li>
+                                                        <li>Đồng thương hiệu</li>
+                                                        <li>Mã nguồn riêng</li>
+                                                    </ul>
+                        <span class="you-choose">Làm nổi bật thương hiệu của bạn</span>
+                        <a href="https://pihome.asia/lien-he" class="btn get-started">Bắt đầu ngay</a>
+                    </div>
+                </div>
+            </li>
+                        <li class="col-md">
+                <div class="inner">
+                    <div class="head-block">
+                        <div class="plan-title">
+                            <span>ENTERPRISE</span>
+                            <h3>Bản quyền trọn gói</h3>
+                        </div>
+                        <div class="price">
+                            <div class="graph"><span class="org"></span><span class="org"></span><span class="org"></span></div>
+                            <div class="right">
+                                <div class="amt">LH<sup></sup></div>
+                                <div class="month">Theo nhu cầu</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cnt-block">
+                                                <ul class=" list-unstyled">
+                                                        <li>Hệ thống quản lý tập trung</li>
+                                                        <li>Mobile apps cho cư dân</li>
+                                                        <li>Mobile apps cho BQL</li>
+                                                        <li>Hạ tầng riêng theo yêu cầu</li>
+                                                        <li>Thương hiệu riêng</li>
+                                                        <li>Mã nguồn riêng</li>
+                                                    </ul>
+                        <span class="you-choose">Không giới hạn số lượng sử dụng</span>
+                        <a href="https://pihome.asia/lien-he" class="btn get-started">Bắt đầu ngay</a>
+                    </div>
+                </div>
+            </li>
+                    </ul>
+    </div>
+</section>
+<!-- ==============================================
+**Client Speak opt1**
+=================================================== -->
+<section class="client-speak carousel1 padding-lg">
+    <div class="container">
+        <div class="row justify-content-center head-block">
+            <div class="col-md-10"> <span>Khách hàng nói gì về PiHome</span>
+                <h2>Khách hàng nói về PiHome</h2>
+                <p class="hidden-xs">Quản lý &amp; vận hành chung cư là một ngành nghề đặc thù với nhiều tác vụ mỗi ngày. Và thực tế có rất nhiều vấn đề phát sinh gây áp lực cho đội ngũ  quản lý &amp; vận hành. Để đáp ứng và giải quyết triệt để các vấn đề đó đòi hỏi Ban quản lý phải có sự tiếp nhận, tương tác, phản ứng với nguồn thông tin thật nhanh. Thấu hiểu được nhưng trăn trở trong ngành, PiHome liên tục cải tiến toàn diện về sản phẩm để đưa ra các các giải pháp, phương thức hỗ trợ Ban quản lý, cư dân nhằm mang lại những trải nghiệm tốt nhất. Mọi phản hồi, ý kiến đóng góp của đối tác đều là nguồn động lực để đội ngũ PiHome hoàn thiện và phát triển mỗi ngày.</p>
+            </div>
+        </div>
+        <ul class="speak-listing opt1 owl-carousel">
+                        <li>
+                <div class="inner">
+                    <figure><img src="https://pihome.asia/storage/images/general/100x100-1598072943-c67f05113646da188357.jpg" class="img-fluid rounded-circle" alt="Anh Nguyễn Thành Nhất"></figure>
+                    <span class="icon-quote"></span>
+                    <div class="client-detail">
+                        <h4>Anh Nguyễn Thành Nhất</h4>
+                        <span class="designation">IT Manager</span>
+                    </div>
+                    <p>Hệ thống phần mềm quản lý tòa nhà chung cư Pihome đáp ứng đầy đủ các tính năng nghiệp vụ của Hoàng Quân Group với một tiêu chuẩn cao, dẫn đầu công nghệ, tính năng nghiệp vụ thông minh phù hợp. Sản phẩm và giải pháp của Pihome có rất nhiều sự khác biệt so với các sản phẩm trên thị trường hiện nay. Chúng tôi rất hài lòng và sẽ triển khai cho tất cả dự án của Tập Đoàn Hoàng Quân ở 12 tỉnh thành trên cả nước.</p>
+                </div>
+            </li>
+                        <li>
+                <div class="inner">
+                    <figure><img src="https://pihome.asia/storage/images/general/100x100-1598072813-thanh-sgpm.jpg" class="img-fluid rounded-circle" alt="Anh Lê Xuân Thành"></figure>
+                    <span class="icon-quote"></span>
+                    <div class="client-detail">
+                        <h4>Anh Lê Xuân Thành</h4>
+                        <span class="designation">Giám đốc đơn vị vận hành</span>
+                    </div>
+                    <p>Công nghệ là ưu tiên chiến lược của chúng tôi trong giai đoạn hiện nay và tầm nhìn tương lai. Chúng tôi tin tưởng Pihome với một tầm nhìn đúng đắn, cam kết mạnh mẽ và sản phẩm phù hợp, tiên phong trên thị trường hiện nay sẽ là đối tác đồng hành với chúng tôi trong quá trình phát triển. Chúng tôi đã áp dụng cho các chung cư đang vận hành và thu được kết quả bước đầu rất khả quan.</p>
+                </div>
+            </li>
+                        <li>
+                <div class="inner">
+                    <figure><img src="https://pihome.asia/storage/images/general/100x100-1598072825-phung.jpg" class="img-fluid rounded-circle" alt="Chị Bùi Thị Hoài Phụng"></figure>
+                    <span class="icon-quote"></span>
+                    <div class="client-detail">
+                        <h4>Chị Bùi Thị Hoài Phụng</h4>
+                        <span class="designation">Giám đốc đơn vị quản lý vận hành</span>
+                    </div>
+                    <p>Là một đơn vị lớn nhiều năm kinh nghiệm, chúng tôi hiểu tầm quan trọng của việc ứng dụng công nghệ vào quản lý. Sau khi tham khảo nhiều đối tác một cách kỹ càng, chúng tôi tin tưởng vào trình độ công nghệ &amp; hệ thống mà phần mềm quản lý tòa nhà chung cư PiHome cung cấp. Các dự án Pihome đang triển khai rất dễ dàng thuận tiện với nhiều phản hồi tốt từ cư dân và đối tác.</p>
+                </div>
+            </li>
+                        <li>
+                <div class="inner">
+                    <figure><img src="https://pihome.asia/storage/images/general/100x100-1598072838-d5d7db541a03f05da912.jpg" class="img-fluid rounded-circle" alt="Chị Nguyễn Giang"></figure>
+                    <span class="icon-quote"></span>
+                    <div class="client-detail">
+                        <h4>Chị Nguyễn Giang</h4>
+                        <span class="designation">Kế toán trưởng đơn vị vận hành</span>
+                    </div>
+                    <p>Ban đầu khi nhắc đến áp dụng công nghệ các bộ phận vận hành đều e ngại nhưng từ khi sử dụng hệ thống do PiHome cung cấp, đội ngũ vận hành đã tiết giảm được rất nhiều chi phí liên quan và thao tác trên hệ thống thực sự dễ dàng, nhanh chóng, tiết kiệm thời gian, giảm thiểu được tối đa sai sót. Đội ngũ chúng tôi thực sự yên tâm hơn với sự hỗ trợ nhiệt tình trên nhiều kênh hỗ trợ từ Pihome.</p>
+                </div>
+            </li>
+                    </ul>
+    </div>
+</section>
+<!-- ==============================================
+**Latest Stories**
+=================================================== -->
+<section class="latest-stories padding-lg">
+    <div class="container">
+        <div class="card-deck blog-blocks">
+            <div class="card bg-none">
+                <div class="card-body">
+                    <h4>Tin tức</h4>
+                    <h2>Các thông tin mới nhất của PiHome</h2>
+                    <p>Cùng chia sẻ những câu chuyện, sự kiện, kiến thức giúp công việc của bạn dễ dàng hơn</p>
+                    <a href="#" class="know-more">Tìm hiểu thêm</a>
+                </div>
+            </div>
+                        <div class="card">
+                <figure><img src="https://pihome.asia/storage/images/general/358x190-1625630672-dau-la-giai-doan-danh-gia-nang-luc-ban-quan-ly-toa-nha.png" class="img-fluid" alt="ĐÂU LÀ GIAI ĐOẠN ĐÁNH GIÁ NĂNG LỰC CỦA BAN QUẢN LÝ TÒA NHÀ?"></figure>
+                <div class="card-body">
+                    <h3><a href="https://pihome.asia/tin-tuc/dau-la-giai-doan-danh-gia-nang-luc-cua-ban-quan-ly-toa-nha">ĐÂU LÀ GIAI ĐOẠN ĐÁNH GIÁ NĂNG LỰC CỦA BAN QUẢN LÝ TÒA NHÀ?</a></h3>
+                                        <span class="date">2021-07-07</span>
+                </div>
+            </div>
+                    </div>
+    </div>
+</section>
+
+<!-- ==============================================
+**Partners**
+=================================================== -->
+<section class="brands">
+    <div class="container">
+        <ul class="owl-carousel clearfix">
+                        <li><a href=""><img src="https://pihome.asia/storage/images/general/1598323563-6.jpg" class="img-fluid" alt="logo"></a></li>
+                        <li><a href="#"><img src="https://pihome.asia/storage/images/general/1598323441-5.jpg" class="img-fluid" alt="logo"></a></li>
+                        <li><a href=""><img src="https://pihome.asia/storage/images/general/1598323372-4.jpg" class="img-fluid" alt="logo"></a></li>
+                        <li><a href=""><img src="https://pihome.asia/storage/images/general/1598323285-untitled-2.jpg" class="img-fluid" alt="logo"></a></li>
+                        <li><a href=""><img src="https://pihome.asia/storage/images/general/1598323338-3.jpg" class="img-fluid" alt="logo"></a></li>
+                        <li><a href=""><img src="https://pihome.asia/storage/images/general/1598323110-1.jpg" class="img-fluid" alt="KhaServices"></a></li>
+                    </ul>
+    </div>
+</section>
+    </content>
+    <!-- ==============================================
+**Signup Section**
+=================================================== -->
+<section class="signup-outer gradient-bg padding-lg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <h4 class="text-cente text-white mb-5">Liên hệ</h4>
+                <div class="signup-form">
+                    <form action="https://pihome.asia/lien-he" method="post">
+                        <input type="hidden" name="_token" value="elQ7xhT6RJw9F0s9V44mzn89YrtAOOP0QIq3etwo">
+                        <div class="name mb-4">
+                            <input name="name" type="text" placeholder="Tên" required>
+                        </div>
+                        <div class="email mb-4">
+                            <input name="email" type="email" placeholder="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required>
+                        </div>
+                        <div class="phone mb-5">
+                            <input name="phone" type="text" placeholder="Điện thoại"  required minlength="10" maxlength="10" pattern="[0-9]{10}">
+                        </div>
+                        <div class="content mb-5">
+                            <input name="content" type="text" placeholder="Lời nhắn">
+                        </div>
+                        <button class="signup-btn">Gửi liên hệ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==============================================
+**Footer opt1**
+=================================================== -->
+<footer class="footer">
+    <div class="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-3">
+                    <div class="quick-links">
+                        <h4>Đường dẫn</h4>
+                        <ul class=" list-unstyled">
+                            <li><a href="https://pihome.asia">Trang chủ</a></li>
+                            <li><a href="https://pihome.asia/tin-tuc">Tin tức</a></li>
+                            <li><a href="https://pihome.asia/gioi-thieu">Giới thiệu</a></li>
+                            <li><a href="https://pihome.asia/giai-phap">Giải pháp</a></li>
+                            <li><a href="https://pihome.asia/tinh-nang">Tính năng</a></li>
+                            <li><a href="https://pihome.asia/faq">FAQ</a></li>
+                            <li><a href="https://pihome.asia/khach-hang">Khách hàng</a></li>
+                            <li><a href="https://pihome.asia/tuyen-dung">Tuyển dụng</a></li>
+                            <li><a href="https://pihome.asia/bang-gia">Bảng giá</a></li>
+                            <li><a href="https://pihome.asia/ho-tro">Hỗ trợ</a></li>
+                            <li><a href="https://pihome.asia/lien-he">Liên hệ</a></li>
+                            <li><a href="https://pihome.asia/chinh-sach-bao-mat">Chính sách bảo mật</a></li>
+                        </ul>
+                    </div>
+                    <div class="connect-outer">
+                        <h4>Liên hệ với chúng tôi</h4>
+                        <ul class="connect-us  list-unstyled">
+                                                        <li><a href="https://www.facebook.com/pihome.asia" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                                                                                <li><a href="https://www.linkedin.com/in/th%C3%ACn-tr%E1%BA%A7n-francis-37a623145/detail/recent-activity/shares/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                                                                                                <li><a href="https://www.youtube.com/channel/UCdd-1m4zKTigWjNo7dXY7GA?view_as=subscriber" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                                                                    <li><a href="https://www.facebook.com/groups/249049812992387/?source_id=2317565948530043" target="_blank"><i class="material-icons">group</i></a></li>
+                                                    </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="recent-post">
+                        <h4>Bài viết mới nhất</h4>
+                        <ul class="list-unstyled">
+                                                        <li class="media">
+                                <a href="https://pihome.asia/tin-tuc/phu-nu-mang-thai-dang-cho-con-bu-co-nen-tiem-vac-xin-covid-19-hay-khong" class="media">
+                                    <figure class="d-flex"><img src="https://pihome.asia/storage/images/general/62x62-1625823075-phu-nu-mang-thai-va-cho-con-bu-co-nen-tiem-vac-xin-covid-19-hay-khong.png" class="img-fluid" alt="Phụ nữ mang thai, đang cho con bú có nên tiêm Vắc xin COVID - 19 hay không"></figure>
+                                    <div class="media-body">
+                                        <h5>Phụ nữ mang thai, đang cho con bú có nên tiêm Vắc xin COVID - 19 hay không</h5>
+                                                                                <p><span>2021-07-09</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li class="media">
+                                <a href="https://pihome.asia/tin-tuc/nhung-van-de-can-luu-y-khi-tiem-vac-xin-phong-ngua-covid-19" class="media">
+                                    <figure class="d-flex"><img src="https://pihome.asia/storage/images/general/62x62-1625719863-nhung-van-de-can-luu-y-khi-tiem-vac-xin-phong-ngua-covid-19.png" class="img-fluid" alt="Những vấn đề cần lưu ý khi tiêm vắc xin phòng ngừa Covid - 19"></figure>
+                                    <div class="media-body">
+                                        <h5>Những vấn đề cần lưu ý khi tiêm vắc xin phòng ngừa Covid - 19</h5>
+                                                                                <p><span>2021-07-08</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            <li class="media">
+                                <a href="https://pihome.asia/tin-tuc/dau-la-giai-doan-danh-gia-nang-luc-cua-ban-quan-ly-toa-nha" class="media">
+                                    <figure class="d-flex"><img src="https://pihome.asia/storage/images/general/62x62-1625630672-dau-la-giai-doan-danh-gia-nang-luc-ban-quan-ly-toa-nha.png" class="img-fluid" alt="ĐÂU LÀ GIAI ĐOẠN ĐÁNH GIÁ NĂNG LỰC CỦA BAN QUẢN LÝ TÒA NHÀ?"></figure>
+                                    <div class="media-body">
+                                        <h5>ĐÂU LÀ GIAI ĐOẠN ĐÁNH GIÁ NĂNG LỰC CỦA BAN QUẢN LÝ TÒA NHÀ?</h5>
+                                                                                <p><span>2021-07-07</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            </ul>
+                        </div>
+                    </div>
+                                        <div class="col-md-4 col-lg-5">
+                        <div class="subscribe">
+                            <h4>Nhận tin từ chúng tôi</h4>
+                            <p class="hidden-xs">Đăng ký email để nhận thông tin cập nhật từ chúng tôi</p>
+                            <div class="input-outer clearfix"> 
+                                <!-- Begin MailChimp Signup Form -->
+                                <div id="mc_embed_signup">
+                                    <form id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
+                                        <input type="hidden" name="_token" value="elQ7xhT6RJw9F0s9V44mzn89YrtAOOP0QIq3etwo">
+                                        <div id="mc_embed_signup_scroll">
+                                            <input type="email" value="" name="email" class="email" placeholder="email address" required>
+                                            <div class="clear">
+                                                <input type="submit" value="Subscribe" name="subscribe" class="button">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!--End mc_embed_signup--> 
+                            </div>
+                        </div>
+                        <div class="tweet clearfix">
+                            <div class="right-cnt">
+                                <p>Địa chỉ liên hệ:</p>
+                                <div class="sourse">HQ HCM: G001D Cao Ốc Phú Nhuận, 20 Hoàng Minh Giám, Phường 9, Q. Phú Nhuận, HCM<span>HN: CT17 Green House, 43 Nguyễn Cao Luyện, P. Việt Hưng, Q. Long Biên, Hà Nội</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">Copyright © 2020 PiHome Technology JSC. All Rights Reserved.</div>
+        </div>
+        <div id="popup-contact-success" class="white-popup popup__inner hidden">
+            <div class="product-link_shop">
+                <label>Thành công</label>
+                <p>Thông tin đã được gửi! Chúng tôi sẽ liên hệ với bạn khi nhận được thông tin.</p>
+                <a href="https://pihome.asia" class="btn">Quay về trang chủ</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top --> 
+    <a href="#" class="scroll-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>    <!-- JS -->
+<script src="/pihome/assets/all.js?id=fe279125c06eb8f77dd5" type="text/javascript" charset="utf-8"></script>
+<script>
+    $('.custom_select').change(function(event) {
+        var selected = $(this).find(':selected').val();
+          $("#form_change_locale").submit();
+    });
+</script>
+<!-- JS -->
+                <!-- Messenger Plugin chat Code -->
+        <div id="fb-root"></div>
+
+        <!-- Your Plugin chat code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
+    
+        <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "2317565948530043");
+            chatbox.setAttribute("attribution", "biz_inbox");
+            window.fbAsyncInit = function() {
+                FB.init({
+                    xfbml            : true,
+                    version          : 'v11.0'
+                });
+            };
+        
+            (function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+    
+    	    <div class="zalo-chat-widget" data-right="80" data-oaid="3422839316852183695" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="350" data-height="420"></div>
+    
+            <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8VR65N"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    </body>
+</html>

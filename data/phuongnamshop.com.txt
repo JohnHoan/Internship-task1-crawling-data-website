@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+		    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Rất tiếc, sản phẩm này hiện không tồn tại. Hãy chọn một phương thức kết hợp khác.</p>
+</script>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<script>window._wca = window._wca || [];</script>
+
+	<!-- This site is optimized with the Yoast SEO plugin v16.7 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Shop - Phuong Nam Shop</title>
+	<link rel="canonical" href="https://phuongnamshop.com/" />
+	<meta property="og:locale" content="vi_VN" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Shop - Phuong Nam Shop" />
+	<meta property="og:url" content="https://phuongnamshop.com/" />
+	<meta property="og:site_name" content="Phuong Nam Shop" />
+	<meta property="article:publisher" content="https://www.facebook.com/PhuongNamShopping" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@phuongnamshop" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://phuongnamshop.com/#organization","name":"Phuong Nam Shop","url":"https://phuongnamshop.com/","sameAs":["https://www.facebook.com/PhuongNamShopping","https://www.instagram.com/anhphuong.bguyen/","https://www.linkedin.com/company/phuong-nam-shop","https://www.youtube.com/channel/UCo-jS7i4LGYqKBk-hkoE-Ew","https://www.pinterest.com/phuongnamshop","https://vi.wikipedia.org/wiki/Th\u00e0nh_vi\u00ean:Anhphuongnn","https://twitter.com/phuongnamshop"],"logo":{"@type":"ImageObject","@id":"https://phuongnamshop.com/#logo","inLanguage":"vi","url":"https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/logo-500px.png?fit=500%2C159&ssl=1","contentUrl":"https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/logo-500px.png?fit=500%2C159&ssl=1","width":500,"height":159,"caption":"Phuong Nam Shop"},"image":{"@id":"https://phuongnamshop.com/#logo"}},{"@type":"WebSite","@id":"https://phuongnamshop.com/#website","url":"https://phuongnamshop.com/","name":"Phuong Nam Shop","description":"Phuong Nam Shop - Solar Light","publisher":{"@id":"https://phuongnamshop.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://phuongnamshop.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"vi"},{"@type":"WebPage","@id":"https://phuongnamshop.com/#webpage","url":"https://phuongnamshop.com/","name":"Shop - Phuong Nam Shop","isPartOf":{"@id":"https://phuongnamshop.com/#website"},"about":{"@id":"https://phuongnamshop.com/#organization"},"datePublished":"2021-06-11T08:51:22+00:00","dateModified":"2021-06-11T08:51:22+00:00","breadcrumb":{"@id":"https://phuongnamshop.com/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://phuongnamshop.com/"]}]},{"@type":"BreadcrumbList","@id":"https://phuongnamshop.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Trang ch\u1ee7"}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+	    <style id="tf_lazy_style">
+		[data-tf-src]{opacity:0}.tf_svg_lazy{transition:filter .3s linear!important;filter:blur(25px);opacity:1;transform:translateZ(0)}.tf_svg_lazy_loaded{filter:blur(0)}.module[data-lazy],.module[data-lazy] .ui,.module_row[data-lazy]:not(.tb_first),.module_row[data-lazy]:not(.tb_first)>.row_inner,.module_row:not(.tb_first) .module_column[data-lazy],.module_subrow[data-lazy]>.subrow_inner{background-image:none!important}
+	    </style>
+	    <noscript><style>[data-tf-src]{display:none!important}.tf_svg_lazy{filter:none!important;opacity:1!important}</style></noscript>
+	    	    <style id="tf_lazy_common">
+							/*chrome bug,prevent run transition on the page loading*/
+				body:not(.page-loaded),body:not(.page-loaded) #header,body:not(.page-loaded) a,body:not(.page-loaded) img,body:not(.page-loaded) figure,body:not(.page-loaded) div,body:not(.page-loaded) i,body:not(.page-loaded) li,body:not(.page-loaded) span,body:not(.page-loaded) ul{animation:none!important;transition:none!important}body:not(.page-loaded) #main-nav li .sub-menu{display:none}
+				img{max-width:100%;height:auto}
+						.tf_fa{display:inline-block;width:1em;height:1em;stroke-width:0;stroke:currentColor;overflow:visible;fill:currentColor;pointer-events:none;vertical-align:middle}#tf_svg symbol{overflow:visible}.tf_lazy{position:relative;visibility:visible;display:block;opacity:.3}.wow .tf_lazy{visibility:hidden;opacity:1;position:static;display:inline}div.tf_audio_lazy audio{visibility:hidden;height:0;display:inline}.mejs-container{visibility:visible}.tf_iframe_lazy{transition:opacity .3s ease-in-out;min-height:10px}.tf_carousel .swiper-wrapper{display:flex}.tf_carousel .swiper-slide{flex-shrink:0;opacity:0}.tf_carousel .tf_lazy{contain:none}.swiper-wrapper>br,.tf_lazy.swiper-wrapper .tf_lazy:after,.tf_lazy.swiper-wrapper .tf_lazy:before{display:none}.tf_lazy:after,.tf_lazy:before{content:'';display:inline-block;position:absolute;width:10px!important;height:10px!important;margin:0 3px;top:50%!important;right:50%!important;left:auto!important;border-radius:100%;background-color:currentColor;visibility:visible;animation:tf-hrz-loader infinite .75s cubic-bezier(.2,.68,.18,1.08)}.tf_lazy:after{width:6px!important;height:6px!important;right:auto!important;left:50%!important;margin-top:3px;animation-delay:-.4s}@keyframes tf-hrz-loader{0%{transform:scale(1);opacity:1}50%{transform:scale(.1);opacity:.6}100%{transform:scale(1);opacity:1}}.tf_lazy_lightbox{position:fixed;background:rgba(11,11,11,.8);color:#ccc;top:0;left:0;display:flex;align-items:center;justify-content:center;z-index:999}.tf_lazy_lightbox .tf_lazy:after,.tf_lazy_lightbox .tf_lazy:before{background:#fff}.tf_video_lazy video{width:100%;height:100%;position:static;object-fit:cover}
+		</style>
+			<noscript><style>body:not(.page-loaded) #main-nav li .sub-menu{display:block}</style></noscript>
+    
+
+<link href="https://phuongnamshop.com/wp-content/uploads/2021/06/favicon-32x32-1.png" rel="shortcut icon" /> 	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+		<link rel="dns-prefetch" href="//www.google-analytics.com"/>
+	<link rel="preload" href="https://phuongnamshop.com/wp-content/uploads/themify-css/concate/3610316932/themify-concate-1028872852.min.css" as="style"><link id="themify_concate-css" rel="stylesheet" href="https://phuongnamshop.com/wp-content/uploads/themify-css/concate/3610316932/themify-concate-1028872852.min.css"><link rel="preload" href="https://phuongnamshop.com/wp-content/uploads/themify-css/concate/3610316932/themify-mobile-472224222.min.css" as="style" media="screen and (max-width:900px)"><link id="themify_mobile_concate-css" rel="stylesheet" href="https://phuongnamshop.com/wp-content/uploads/themify-css/concate/3610316932/themify-mobile-472224222.min.css" media="screen and (max-width:900px)"><link rel="preload" href="http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.5.1" media="only screen and (max-width: 768px)" as="style"><link id="woocommerce-smallscreen-css" rel="stylesheet" href="http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.5.1" media="only screen and (max-width: 768px)"><link rel="alternate" type="application/rss+xml" title="Dòng thông tin Phuong Nam Shop &raquo;" href="https://phuongnamshop.com/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Dòng phản hồi Phuong Nam Shop &raquo;" href="https://phuongnamshop.com/?feed=comments-rss2" />
+<link rel="alternate" type="application/rss+xml" title="Nguồn tin Phuong Nam Shop &raquo; Sản phẩm" href="https://phuongnamshop.com/?post_type=product&#038;feed=rss2" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v7.18.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=UA-5336315-36"  type="text/javascript" data-cfasync="false" async></script>
+			<script type="text/javascript" data-cfasync="false">
+				var mi_version = '7.18.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStr = 'ga-disable-UA-5336315-36';
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					return document.cookie.indexOf( disableStr + '=true' ) > - 1;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if ( __gtagTrackerIsOptedOut() ) {
+					window[disableStr] = true;
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+					window[disableStr] = true;
+				}
+
+				if ( 'undefined' === typeof gaOptout ) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+				if ( mi_track_user ) {
+					function __gtagTracker() {dataLayer.push( arguments );}
+					__gtagTracker( 'js', new Date() );
+					__gtagTracker( 'set', {
+						'developer_id.dZGIzZG' : true,
+						                    });
+					__gtagTracker( 'config', 'UA-5336315-36', {
+						forceSSL:true,link_attribution:true,					} );
+										window.gtag = __gtagTracker;										(
+						function () {
+							/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+							/* ga and __gaTracker compatibility shim. */
+							var noopfn = function () {
+								return null;
+							};
+							var newtracker = function () {
+								return new Tracker();
+							};
+							var Tracker = function () {
+								return null;
+							};
+							var p = Tracker.prototype;
+							p.get = noopfn;
+							p.set = noopfn;
+							p.send = function (){
+								var args = Array.prototype.slice.call(arguments);
+								args.unshift( 'send' );
+								__gaTracker.apply(null, args);
+							};
+							var __gaTracker = function () {
+								var len = arguments.length;
+								if ( len === 0 ) {
+									return;
+								}
+								var f = arguments[len - 1];
+								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+									if ( 'send' === arguments[0] ) {
+										var hitConverted, hitObject = false, action;
+										if ( 'event' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[3] ) {
+												hitObject = {
+													'eventAction': arguments[3],
+													'eventCategory': arguments[2],
+													'eventLabel': arguments[4],
+													'value': arguments[5] ? arguments[5] : 1,
+												}
+											}
+										}
+										if ( 'pageview' === arguments[1] ) {
+											if ( 'undefined' !== typeof arguments[2] ) {
+												hitObject = {
+													'eventAction': 'page_view',
+													'page_path' : arguments[2],
+												}
+											}
+										}
+										if ( typeof arguments[2] === 'object' ) {
+											hitObject = arguments[2];
+										}
+										if ( typeof arguments[5] === 'object' ) {
+											Object.assign( hitObject, arguments[5] );
+										}
+										if ( 'undefined' !== typeof arguments[1].hitType ) {
+											hitObject = arguments[1];
+											if ( 'pageview' === hitObject.hitType ) {
+												hitObject.eventAction = 'page_view';
+											}
+										}
+										if ( hitObject ) {
+											action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+											hitConverted = mapArgs( hitObject );
+											__gtagTracker( 'event', action, hitConverted );
+										}
+									}
+									return;
+								}
+
+								function mapArgs( args ) {
+									var arg, hit = {};
+									var gaMap = {
+										'eventCategory': 'event_category',
+										'eventAction': 'event_action',
+										'eventLabel': 'event_label',
+										'eventValue': 'event_value',
+										'nonInteraction': 'non_interaction',
+										'timingCategory': 'event_category',
+										'timingVar': 'name',
+										'timingValue': 'value',
+										'timingLabel': 'event_label',
+										'page' : 'page_path',
+										'location' : 'page_location',
+										'title' : 'page_title',
+									};
+									for ( arg in args ) {
+										if ( args.hasOwnProperty(arg) && gaMap.hasOwnProperty(arg) ) {
+											hit[gaMap[arg]] = args[arg];
+										} else {
+											hit[arg] = args[arg];
+										}
+									}
+									return hit;
+								}
+
+								try {
+									f.hitCallback();
+								} catch ( ex ) {
+								}
+							};
+							__gaTracker.create = newtracker;
+							__gaTracker.getByName = newtracker;
+							__gaTracker.getAll = function () {
+								return [];
+							};
+							__gaTracker.remove = noopfn;
+							__gaTracker.loaded = true;
+							window['__gaTracker'] = __gaTracker;
+						}
+					)();
+									} else {
+										console.log( "" );
+					( function () {
+							function __gtagTracker() {
+								return null;
+							}
+							window['__gtagTracker'] = __gtagTracker;
+							window['gtag'] = __gtagTracker;
+					} )();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<style id='ce4wp-subscribe-style-inline-css'>
+.wp-block-ce4wp-subscribe{max-width:840px;margin:0 auto}.wp-block-ce4wp-subscribe .title{margin-bottom:0}.wp-block-ce4wp-subscribe .subTitle{margin-top:0;font-size:0.8em}.wp-block-ce4wp-subscribe .disclaimer{margin-top:5px;font-size:0.8em}.wp-block-ce4wp-subscribe .disclaimer .disclaimer-label{margin-left:10px}.wp-block-ce4wp-subscribe .inputBlock{width:100%;margin-bottom:10px}.wp-block-ce4wp-subscribe .inputBlock input{width:100%}.wp-block-ce4wp-subscribe .inputBlock label{display:inline-block}.wp-block-ce4wp-subscribe .submit-button{margin-top:25px;display:block}.wp-block-ce4wp-subscribe .required-text{display:inline-block;margin:0;padding:0;margin-left:0.3em}.wp-block-ce4wp-subscribe .onSubmission{height:0;max-width:840px;margin:0 auto}.wp-block-ce4wp-subscribe .firstNameSummary .lastNameSummary{text-transform:capitalize}.wp-block-ce4wp-subscribe .ce4wp-inline-notification{display:flex;flex-direction:row;align-items:center;padding:13px 10px;width:100%;height:40px;border-style:solid;border-color:orange;border-width:1px;border-left-width:4px;border-radius:3px;background:rgba(255,133,15,0.1);flex:none;order:0;flex-grow:1;margin:0px 0px}.wp-block-ce4wp-subscribe .ce4wp-inline-warning-text{font-style:normal;font-weight:normal;font-size:16px;line-height:20px;display:flex;align-items:center;color:#571600;margin-left:9px}.wp-block-ce4wp-subscribe .ce4wp-inline-warning-icon{color:orange}.wp-block-ce4wp-subscribe .ce4wp-inline-warning-arrow{color:#571600;margin-left:auto}.wp-block-ce4wp-subscribe .ce4wp-banner-clickable{cursor:pointer}.ce4wp-link{cursor:pointer}
+
+.no-flex{display:block}.sub-header{margin-bottom:1em}
+
+
+</style>
+<link rel="preload" href="http://phuongnamshop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=5.3.2" as="style" /><link rel='stylesheet' id='wc-block-vendors-style-css'  href='http://phuongnamshop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=5.3.2' media='all' />
+<link rel="preload" href="http://phuongnamshop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=5.3.2" as="style" /><link rel='stylesheet' id='wc-block-style-css'  href='http://phuongnamshop.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=5.3.2' media='all' />
+<style id='woocommerce-inline-inline-css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel="preload" href="http://phuongnamshop.com/wp-content/plugins/jetpack/css/jetpack.css?ver=9.9.1" as="style" /><link rel='stylesheet' id='jetpack_css-css'  href='http://phuongnamshop.com/wp-content/plugins/jetpack/css/jetpack.css?ver=9.9.1' media='all' />
+<script src='http://phuongnamshop.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script id='monsterinsights-frontend-script-js-extra'>
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/phuongnamshop.com","hash_tracking":"false","ua":"UA-5336315-36"};
+</script>
+<script src='http://phuongnamshop.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=7.18.0' id='monsterinsights-frontend-script-js'></script>
+<script defer src='https://stats.wp.com/s-202129.js' id='woocommerce-analytics-js'></script>
+<link rel="https://api.w.org/" href="https://phuongnamshop.com/index.php?rest_route=/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://phuongnamshop.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://phuongnamshop.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8" />
+<meta name="generator" content="WooCommerce 5.5.1" />
+<style type='text/css'>img#wpstats{display:none}</style>
+			<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+				<script  type="text/javascript">
+				!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+					n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+					n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+					t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+					document,'script','https://connect.facebook.net/en_US/fbevents.js');
+			</script>
+			<!-- WooCommerce Facebook Integration Begin -->
+			<script  type="text/javascript">
+
+				fbq('init', '908674496363326', {}, {
+    "agent": "woocommerce-5.5.1-2.6.1"
+});
+
+				fbq( 'track', 'PageView', {
+    "source": "woocommerce",
+    "version": "5.5.1",
+    "pluginVersion": "2.6.1"
+} );
+
+				document.addEventListener( 'DOMContentLoaded', function() {
+					jQuery && jQuery( function( $ ) {
+						// Insert placeholder for events injected when a product is added to the cart through AJAX.
+						$( document.body ).append( '<div class=\"wc-facebook-pixel-event-placeholder\"></div>' );
+					} );
+				}, false );
+
+			</script>
+			<!-- WooCommerce Facebook Integration End -->
+			<style id="tb_inline_styles">.tb_animation_on{overflow-x:hidden}.themify_builder .wow{visibility:hidden;animation-fill-mode:both}.themify_builder .tf_lax_done{transition-duration:.8s;transition-timing-function:cubic-bezier(.165,.84,.44,1)}.wow.tf_lax_done{animation-fill-mode:backwards}[data-sticky-active].tb_sticky_scroll_active{z-index:1}[data-sticky-active].tb_sticky_scroll_active .hide-on-stick{display:none}@media screen and (min-width:1025px){.hide-desktop{width:0!important;height:0!important;padding:0!important;visibility:hidden!important;margin:0!important;display:table-column!important}}@media screen and (min-width:769px) and (max-width:1024px){.hide-tablet_landscape{width:0!important;height:0!important;padding:0!important;visibility:hidden!important;margin:0!important;display:table-column!important}}@media screen and (min-width:601px) and (max-width:768px){.hide-tablet{width:0!important;height:0!important;padding:0!important;visibility:hidden!important;margin:0!important;display:table-column!important}}@media screen and (max-width:600px){.hide-mobile{width:0!important;height:0!important;padding:0!important;visibility:hidden!important;margin:0!important;display:table-column!important}}</style><noscript><style>.themify_builder .wow,.wow .tf_lazy{visibility:visible!important}</style></noscript><link rel="icon" href="https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/cropped-cropped-logo-phuongnam.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/cropped-cropped-logo-phuongnam.png?fit=192%2C192&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/cropped-cropped-logo-phuongnam.png?fit=180%2C180&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/cropped-cropped-logo-phuongnam.png?fit=270%2C270&#038;ssl=1" />
+<!-- WooCommerce Google Analytics Integration -->
+		<script type='text/javascript'>
+			var gaProperty = 'UA-5336315-36';
+			var disableStr = 'ga-disable-' + gaProperty;
+			if ( document.cookie.indexOf( disableStr + '=true' ) > -1 ) {
+				window[disableStr] = true;
+			}
+			function gaOptout() {
+				document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+				window[disableStr] = true;
+			}
+		</script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-5336315-36"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('set', 'developer_id.dOGY3NW', true);
+
+		gtag('config', 'UA-5336315-36', {
+			'allow_google_signals': true,
+			'link_attribution': true,
+			'anonymize_ip': true,
+			'custom_map': {
+				'dimension1': 'logged_in'
+			},
+			'logged_in': 'no'
+		} );
+
+		
+		</script>
+		
+		<!-- /WooCommerce Google Analytics Integration -->    </head>
+    <body class="home archive post-type-archive post-type-archive-product theme-themify-shoppe woocommerce-shop woocommerce woocommerce-page woocommerce-demo-store woocommerce-no-js skin-default default_width sidebar-none tb_animation_on header-logo-center cart-style-dropdown wc-cart-empty fixed-header-enabled footer-block filter-hover-none filter-featured-only">
+
+	<div class="search-lightbox-wrap tf_hide tf_w tf_scrollbar">
+	<div class="search-lightbox">
+		<div class="searchform-wrap">
+			<form method="get" id="searchform" action="https://phuongnamshop.com/">
+
+	<div class="icon-search"><svg  aria-label="Search" role="img" class="tf_fa tf-ti-search"><use href="#tf-ti-search"></use></svg></div>
+	<span class="tf_loader tf_hide"></span>
+
+	<input type="text" name="s" id="s" title="Search" placeholder="Search" value="" />
+
+	
+</form>
+		</div>
+		<!-- /searchform wrap -->
+		<div class="search-results-wrap tf_rel"></div>
+	</div>
+	<a class="close-search-box tf_close" href="#"><span class="screen-reader-text">Close</span></a>
+</div>
+<!-- /search-lightbox -->
+	<div id="pagewrap" class="tf_box hfeed site">
+        <a class="screen-reader-text skip-to-content" href="#content">Skip to content</a>
+        
+		    	    <div id="headerwrap"  class=' tf_box tf_w'>
+		    <div class="top-bar-widgets tf_box">
+	<div class="top-bar-widget-inner pagewidth tf_box tf_clearfix">
+		<div class="top-bar-left tf_left tf_textl">
+					</div>
+		<div class="top-bar-right tf_right tf_textr">
+			<div id="themify-social-links-2" class="widget themify-social-links"><h4 class="widgettitle">Social Links</h4><ul class="social-links horizontal">
+							<li class="social-link-item facebook font-icon icon-medium">
+								<a href="https://www.facebook.com/PhuongNamShopping" aria-label="facebook" target="_blank" rel="noopener"><i style="color: rgba(23, 133, 235, 1);"><svg  aria-label="Facebook" role="img" class="tf_fa tf-fab-facebook"><use href="#tf-fab-facebook"></use></svg></i>  </a>
+							</li>
+							<!-- /themify-link-item -->
+							<li class="social-link-item youtube font-icon icon-medium">
+								<a href="https://www.youtube.com/channel/UCo-jS7i4LGYqKBk-hkoE-Ew" aria-label="youtube" target="_blank" rel="noopener"><i style="color: rgba(247, 19, 19, 1);"><svg  aria-label="YouTube" role="img" class="tf_fa tf-fab-youtube"><use href="#tf-fab-youtube"></use></svg></i>  </a>
+							</li>
+							<!-- /themify-link-item -->
+							<li class="social-link-item pinterest font-icon icon-medium">
+								<a href="https://www.pinterest.com/phuongnamshop" aria-label="pinterest" target="_blank" rel="noopener"><i style="color: rgba(240, 87, 87, 1);"><svg  aria-label="Pinterest" role="img" class="tf_fa tf-fab-pinterest"><use href="#tf-fab-pinterest"></use></svg></i>  </a>
+							</li>
+							<!-- /themify-link-item -->
+							<li class="social-link-item instagram font-icon icon-medium">
+								<a href="https://www.instagram.com/phuongnamshop/" aria-label="instagram" target="_blank" rel="noopener"><i style="color: rgba(240, 88, 220, 1);"><svg  aria-label="Instagram" role="img" class="tf_fa tf-ti-instagram"><use href="#tf-ti-instagram"></use></svg></i>  </a>
+							</li>
+							<!-- /themify-link-item -->
+							<li class="social-link-item twitter font-icon icon-medium">
+								<a href="https://twitter.com/phuongnamshop" aria-label="twitter" target="_blank" rel="noopener"><i style="color: rgba(9, 160, 235, 1);"><svg  aria-label="Twitter" role="img" class="tf_fa tf-fab-twitter"><use href="#tf-fab-twitter"></use></svg></i>  </a>
+							</li>
+							<!-- /themify-link-item --></ul></div>		</div>
+		<!-- /.top-bar-widget-inner -->
+	</div>
+</div>
+<!-- /.top-bar-widget -->    		<!-- /Top bar widgets -->
+
+		    
+    		<header id="header" class="pagewidth tf_box tf_rel tf_clearfix" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+
+			
+						    				<div id="cart-link-mobile" class="tf_hide tf_text_dec">
+				    <a  class="icon-menu tf_right" href="https://phuongnamshop.com/?page_id=6">
+					<i class="icon-shopping-cart">
+					    <svg  aria-label="Shopping Cart" role="img" class="tf_fa tf-ti-shopping-cart"><use href="#tf-ti-shopping-cart"></use></svg>					</i>
+					<span class="icon-menu-count cart_empty">0</span>
+				    </a>
+				    
+<div class="shopdock">
+		<div class="tf_textc empty-shopdock">Your cart is empty. Go to <a href="https://phuongnamshop.com/">Shop</a>.</div>	
+	</div>
+				</div>
+			    			    <a id="menu-icon" class="tf_text_dec tf_box" href="#mobile-menu"><span class="menu-icon-inner tf_vmiddle tf_inline_b tf_rel tf_box"></span><span class="screen-reader-text">Menu</span></a>
+			
+    		    <div class="logo-wrap tf_inline_b tf_rel">
+			    <div id="site-logo"><a href="https://phuongnamshop.com" title="Phuong Nam Shop"><img decoding="async" data-tf-not-load="1" src="https://phuongnamshop.com/wp-content/uploads/2021/06/logo-500px.png" alt="Phuong Nam Shop" title="Phuong Nam Shop Logo" width="" height="" class="site-logo-image"></a></div><div id="site-description" class="site-description"><span>Phuong Nam Shop - Solar Light</span></div>    		    </div>
+								
+			<div id="mobile-menu" class="sidemenu sidemenu-off tf_scrollbar">
+			    			    <div class="header-icons">
+    <div class="top-icon-wrap">
+			    <ul class="icon-menu">
+		    			<li class="wishlist">
+			    <a class="tools_button" href="https://phuongnamshop.com/?page_id=100">
+				<i class="icon-heart"><svg  aria-label="Whishlist" role="img" class="tf_fa tf-ti-heart"><use href="#tf-ti-heart"></use></svg></i>
+				<span class="icon-menu-count wishlist_empty"></span>
+				<span class="tooltip">Wishlist</span>
+			    </a>
+			</li>
+		    		    						<li id="cart-icon-count" class="cart empty-cart">
+			    <a  href="https://phuongnamshop.com/?page_id=6">
+				<i class="icon-shopping-cart"><svg  aria-label="Shopping Cart" role="img" class="tf_fa tf-ti-shopping-cart"><use href="#tf-ti-shopping-cart"></use></svg></i>
+				<span class="icon-menu-count cart_empty">0</span>
+				<span class="tooltip">Cart</span>
+			    </a>
+			    
+<div class="shopdock">
+		<div class="tf_textc empty-shopdock">Your cart is empty. Go to <a href="https://phuongnamshop.com/">Shop</a>.</div>	
+	</div>
+
+			</li>
+		    	    </ul>
+	    </div>
+            <a class="search-button tf_box" href="#"><svg  aria-label="Search" role="img" class="tf_fa tf-ti-search"><use href="#tf-ti-search"></use></svg><span class="screen-reader-text">Search</span></a>
+        <!-- /search-button -->
+    </div>
+                                                <nav id="main-nav-wrap" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+                    <ul id="main-nav" class="main-nav tf_clearfix tf_box"><li class="menu-item-page-37 menu-item menu-item-type-post_type menu-item-object-page menu-item-96" ><a  href="https://phuongnamshop.com/?page_id=37">Home</a> </li>
+<li class="current-menu-item menu-item-page-5 current_page_item menu-item menu-item-type-post_type menu-item-object-page menu-item-home   menu-item-92" ><a  href="https://phuongnamshop.com/">Shop</a> </li>
+<li class="menu-item-page-39 menu-item menu-item-type-post_type menu-item-object-page menu-item-95" ><a  href="https://phuongnamshop.com/?page_id=39">Giới thiệu</a> </li>
+<li class="menu-item-page-8 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub-menu menu-item-97"  aria-haspopup="true"><a  href="https://phuongnamshop.com/?page_id=8">My account<span class="child-arrow"></span></a> <ul class="sub-menu"><li class="menu-item-page-100 menu-item menu-item-type-post_type menu-item-object-page menu-item-101 menu-page-100-parent-97" ><a  href="https://phuongnamshop.com/?page_id=100">Wishlist</a> </li>
+<li class="menu-item-page-6 menu-item menu-item-type-post_type menu-item-object-page menu-item-93 menu-page-6-parent-97" ><a  href="https://phuongnamshop.com/?page_id=6">Cart</a> </li>
+<li class="menu-item-page-7 menu-item menu-item-type-post_type menu-item-object-page menu-item-94 menu-page-7-parent-97" ><a  href="https://phuongnamshop.com/?page_id=7">Checkout</a> </li>
+<li class="menu-item-custom-142 menu-item menu-item-type-custom menu-item-object-custom menu-item-142 menu-custom-142-parent-97" ><a  href="https://phuongnamshop.com/?page_id=8&amp;orders">Đơn hàng</a> </li>
+<li class="menu-item-custom-143 menu-item menu-item-type-custom menu-item-object-custom menu-item-143 menu-custom-143-parent-97" ><a  href="https://phuongnamshop.com/?page_id=8&amp;edit-address">Địa chỉ</a> </li>
+<li class="menu-item-custom-144 menu-item menu-item-type-custom menu-item-object-custom menu-item-144 menu-custom-144-parent-97" ><a  href="https://phuongnamshop.com/?page_id=8&amp;edit-account">Tài khoản</a> </li>
+<li class="menu-item-custom-145 menu-item menu-item-type-custom menu-item-object-custom menu-item-145 menu-custom-145-parent-97" ><a  href="https://phuongnamshop.com/?page_id=8&amp;lost-password">Quên mật khẩu</a> </li>
+</ul></li>
+</ul>                    <!-- /#main-nav -->
+                </nav>
+                                <a id="menu-icon-close" class="tf_hide tf_text_dec tf_close" aria-label="Close menu" href="#mobile-menu"><span class="screen-reader-text">Close Menu</span></a>
+
+                			    			</div>
+			    		    <!-- /#mobile-menu -->
+
+			
+			
+    		</header>
+    		<!-- /#header -->
+
+		    
+    	    </div>
+	    	    <!-- /#headerwrap -->
+
+	    <div id="body" class="tf_clear tf_box tf_mw tf_clearfix">
+			<!-- layout -->
+	<div id="layout" class="pagewidth tf_box tf_clearfix">
+	    	    <!-- content -->
+	    <main id="content" class="tf_box tf_clearfix">
+	    <header class="woocommerce-products-header">
+			<h1 class="woocommerce-products-header__title page-title">Shop</h1>
+	
+	<div class="page-description"><div class="product-description"></div><!-- /.product-description --></div><!--themify_builder_content-->
+<div id="themify_builder_content-5" data-postid="5" class="themify_builder_content themify_builder_content-5 themify_builder tf_clear">
+    </div>
+<!--/themify_builder_content-->
+</header>
+<form class="woocommerce-ordering" method="get">
+	<select name="orderby" class="orderby" aria-label="Đơn hàng của cửa hàng">
+					<option value="popularity" >Thứ tự theo mức độ phổ biến</option>
+					<option value="rating" >Thứ tự theo điểm đánh giá</option>
+					<option value="date"  selected='selected'>Mới nhất</option>
+					<option value="price" >Thứ tự theo giá: thấp đến cao</option>
+					<option value="price-desc" >Thứ tự theo giá: cao xuống thấp</option>
+			</select>
+	<input type="hidden" name="paged" value="1" />
+	</form>
+<div class="woocommerce-notices-wrapper"></div>
+<p class="woocommerce-result-count">
+	Hiển thị kết quả duy nhất</p>
+<ul  id="loops-wrapper" class="loops-wrapper products infinite masonry tf_rel grid4 tf_clear tf_clearfix" data-lazy="1">
+<li class="has-post-title has-post-date has-post-category has-post-tag has-post-comment has-post-author product type-product post-80 status-publish first instock product_cat-solar-light product_tag-den-nang-luong-mat-troi product_tag-den-nang-luong-mat-troi-300w product_tag-den-nang-luong-ngoai-troi product_tag-den-nang-mat-troi-chong-nuoc product_tag-den-ngoai-troi has-post-thumbnail sale purchasable product-type-simple">
+			<figure data-product-slider="80" data-w="300" data-h="300" data-link="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-300w" class="post-image product-image product-slider">
+							
+	<span class="onsale">Giảm giá!</span>
+							            <a href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-300w">
+            				<img decoding="async" data-tf-not-load="1" src="https://phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-300w-300x300.jpeg" width="300" height="300" class="wp-post-image wp-image-81" title="phuongnamshop-300w" alt="den nang luong mat troi 300w" srcset="https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-300w.jpeg?resize=300%2C300&amp;ssl=1 300w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-300w.jpeg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-300w.jpeg?resize=324%2C324&amp;ssl=1 324w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-300w.jpeg?resize=416%2C416&amp;ssl=1 416w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-300w.jpeg?resize=100%2C100&amp;ssl=1 100w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-300w.jpeg?resize=28%2C28&amp;ssl=1 28w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-300w.jpeg?w=750&amp;ssl=1 750w" sizes="(max-width: 300px) 100vw, 300px" />			
+						            </a>
+		    		</figure>
+			    <div class="product-content">
+		    <div class="product-content-inner-wrapper">
+			    <div class="product-content-inner">
+	    <h3 class="product_title"><a href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-300w">Đèn năng lượng mặt trời 300W</a></h3>
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>3.000.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>2.300.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+<a href="?add-to-cart=80" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="80" data-product_sku="S015-300w" aria-label="Thêm &ldquo;Đèn năng lượng mặt trời 300W&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>		<div class="product-share-wrap tf_inline_b tf_vmiddle">
+						<div class="wishlist-wrap tf_inline_b tf_vmiddle">
+			<a data-id="80" onclick="javascript:void(0)" class="wishlist-button tf_inline_b tf_textc" href="#" rel="nofollow">
+				<svg  aria-label="Wishlist" role="img" class="tf_fa tf-ti-heart"><use href="#tf-ti-heart"></use></svg><span class="tooltip">Wishlist</span>			</a>
+		</div> 
+        									 <a onclick="return false;" class="quick-look themify-lightbox" href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-300w" rel="nofollow"><svg  aria-label="Quick Look" role="img" class="tf_fa tf-ti-zoom-in"><use href="#tf-ti-zoom-in"></use></svg><span class="tooltip">Quick Look</span></a>
+													<div class="share-wrap">
+	<a class="share-button" href="javascript:void(0);"><svg  aria-label="Share" role="img" class="tf_fa tf-ti-export"><use href="#tf-ti-export"></use></svg><span class="screen-reader-text">Share</span></a>
+	<div class="social-share">
+				    <a onclick="window.open('//twitter.com/intent/tweet?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-300w&#038;text=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+300W','twitter','toolbar=0, status=0, width=650, height=360')" title="Twitter" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Twitter" role="img" class="tf_fa tf-ti-twitter-alt"><use href="#tf-ti-twitter-alt"></use></svg>		    </a>
+				    <a onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-300w&#038;t=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+300W&#038;original_referer=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-300w','facebook','toolbar=0, status=0, width=900, height=500')" title="Facebook" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Facebook" role="img" class="tf_fa tf-ti-facebook"><use href="#tf-ti-facebook"></use></svg>		    </a>
+				    <a onclick="window.open('//pinterest.com/pin/create/button/?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-300w&#038;description=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+300W&#038;media=https%3A%2F%2Fi2.wp.com%2Fphuongnamshop.com%2Fwp-content%2Fuploads%2F2021%2F06%2Fphuongnamshop-300w.jpeg%3Ffit%3D750%252C750%26ssl%3D1','pinterest','toolbar=no,width=700,height=300')" title="Pinterest" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Pinterest" role="img" class="tf_fa tf-ti-pinterest"><use href="#tf-ti-pinterest"></use></svg>		    </a>
+				    <a onclick="window.open('//www.linkedin.com/cws/share?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-300w&#038;token=&#038;isFramed=true','linkedin','toolbar=no,width=550,height=550')" title="LinkedIn" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="LinkedIn" role="img" class="tf_fa tf-ti-linkedin"><use href="#tf-ti-linkedin"></use></svg>		    </a>
+			</div>
+</div>
+<!-- .post-share -->
+							</div>
+							
+				</div>
+			</div>
+		</div>
+		</li>
+<li class="has-post-title has-post-date has-post-category has-post-tag has-post-comment has-post-author product type-product post-78 status-publish instock product_cat-solar-light product_tag-den-nang-luong-mat-troi product_tag-den-nang-luong-mat-troi-200w product_tag-den-nang-mat-troi-chong-nuoc product_tag-den-ngoai-troi has-post-thumbnail sale purchasable product-type-simple">
+			<figure data-product-slider="78" data-w="300" data-h="300" data-link="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-200w" class="post-image product-image product-slider">
+							
+	<span class="onsale">Giảm giá!</span>
+							            <a href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-200w">
+            				<img decoding="async" loading="lazy" src="https://phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-200w-1-300x300.jpeg" width="300" height="300" class="wp-post-image wp-image-87" title="phuongnamshop-200w-1" alt="den nang luong mat troi 200w" srcset="https://i0.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-200w-1.jpeg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-200w-1.jpeg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-200w-1.jpeg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-200w-1.jpeg?resize=28%2C28&amp;ssl=1 28w, https://i0.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-200w-1.jpeg?w=239&amp;ssl=1 239w" sizes="(max-width: 300px) 100vw, 300px" />			
+						            </a>
+		    		</figure>
+			    <div class="product-content">
+		    <div class="product-content-inner-wrapper">
+			    <div class="product-content-inner">
+	    <h3 class="product_title"><a href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-200w">Đèn năng lượng mặt trời 200W</a></h3><div class="star-rating" role="img" aria-label="Được xếp hạng 5.00 5 sao"><span style="width:100%">Được xếp hạng <strong class="rating">5.00</strong> 5 sao</span></div>
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>2.500.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>2.000.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+<a href="?add-to-cart=78" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="78" data-product_sku="S015-200w" aria-label="Thêm &ldquo;Đèn năng lượng mặt trời 200W&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>		<div class="product-share-wrap tf_inline_b tf_vmiddle">
+						<div class="wishlist-wrap tf_inline_b tf_vmiddle">
+			<a data-id="78" onclick="javascript:void(0)" class="wishlist-button tf_inline_b tf_textc" href="#" rel="nofollow">
+				<svg  aria-label="Wishlist" role="img" class="tf_fa tf-ti-heart"><use href="#tf-ti-heart"></use></svg><span class="tooltip">Wishlist</span>			</a>
+		</div> 
+        									 <a onclick="return false;" class="quick-look themify-lightbox" href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-200w" rel="nofollow"><svg  aria-label="Quick Look" role="img" class="tf_fa tf-ti-zoom-in"><use href="#tf-ti-zoom-in"></use></svg><span class="tooltip">Quick Look</span></a>
+													<div class="share-wrap">
+	<a class="share-button" href="javascript:void(0);"><svg  aria-label="Share" role="img" class="tf_fa tf-ti-export"><use href="#tf-ti-export"></use></svg><span class="screen-reader-text">Share</span></a>
+	<div class="social-share">
+				    <a onclick="window.open('//twitter.com/intent/tweet?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-200w&#038;text=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+200W','twitter','toolbar=0, status=0, width=650, height=360')" title="Twitter" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Twitter" role="img" class="tf_fa tf-ti-twitter-alt"><use href="#tf-ti-twitter-alt"></use></svg>		    </a>
+				    <a onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-200w&#038;t=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+200W&#038;original_referer=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-200w','facebook','toolbar=0, status=0, width=900, height=500')" title="Facebook" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Facebook" role="img" class="tf_fa tf-ti-facebook"><use href="#tf-ti-facebook"></use></svg>		    </a>
+				    <a onclick="window.open('//pinterest.com/pin/create/button/?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-200w&#038;description=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+200W&#038;media=https%3A%2F%2Fi0.wp.com%2Fphuongnamshop.com%2Fwp-content%2Fuploads%2F2021%2F06%2Fphuongnamshop-200w-1.jpeg%3Ffit%3D239%252C239%26ssl%3D1','pinterest','toolbar=no,width=700,height=300')" title="Pinterest" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Pinterest" role="img" class="tf_fa tf-ti-pinterest"><use href="#tf-ti-pinterest"></use></svg>		    </a>
+				    <a onclick="window.open('//www.linkedin.com/cws/share?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-200w&#038;token=&#038;isFramed=true','linkedin','toolbar=no,width=550,height=550')" title="LinkedIn" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="LinkedIn" role="img" class="tf_fa tf-ti-linkedin"><use href="#tf-ti-linkedin"></use></svg>		    </a>
+			</div>
+</div>
+<!-- .post-share -->
+							</div>
+							
+				</div>
+			</div>
+		</div>
+		</li>
+<li class="has-post-title has-post-date has-post-category has-post-tag has-post-comment has-post-author product type-product post-72 status-publish last instock product_cat-solar-light product_tag-den-nang-luong-mat-troi product_tag-den-nang-luong-mat-troi-100w product_tag-den-nang-luong-ngoai-troi product_tag-den-ngoai-troi has-post-thumbnail sale purchasable product-type-simple">
+			<figure data-product-slider="72" data-w="300" data-h="300" data-link="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-100w" class="post-image product-image product-slider">
+							
+	<span class="onsale">Giảm giá!</span>
+							            <a href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-100w">
+            				<img decoding="async" loading="lazy" src="https://phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-100w-300x300.jpeg" width="300" height="300" class="wp-post-image wp-image-77" title="phuongnamshop-100w" alt="den nang luong mat troi 100w" srcset="https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-100w.jpeg?resize=300%2C300&amp;ssl=1 300w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-100w.jpeg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-100w.jpeg?resize=324%2C324&amp;ssl=1 324w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-100w.jpeg?resize=416%2C416&amp;ssl=1 416w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-100w.jpeg?resize=100%2C100&amp;ssl=1 100w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-100w.jpeg?resize=28%2C28&amp;ssl=1 28w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-100w.jpeg?w=750&amp;ssl=1 750w" sizes="(max-width: 300px) 100vw, 300px" />			
+						            </a>
+		    		</figure>
+			    <div class="product-content">
+		    <div class="product-content-inner-wrapper">
+			    <div class="product-content-inner">
+	    <h3 class="product_title"><a href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-100w">Đèn năng lượng mặt trời 100w</a></h3>
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1.200.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>1.000.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+<a href="?add-to-cart=72" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="72" data-product_sku="S015-100w" aria-label="Thêm &ldquo;Đèn năng lượng mặt trời 100w&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>		<div class="product-share-wrap tf_inline_b tf_vmiddle">
+						<div class="wishlist-wrap tf_inline_b tf_vmiddle">
+			<a data-id="72" onclick="javascript:void(0)" class="wishlist-button tf_inline_b tf_textc" href="#" rel="nofollow">
+				<svg  aria-label="Wishlist" role="img" class="tf_fa tf-ti-heart"><use href="#tf-ti-heart"></use></svg><span class="tooltip">Wishlist</span>			</a>
+		</div> 
+        									 <a onclick="return false;" class="quick-look themify-lightbox" href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-100w" rel="nofollow"><svg  aria-label="Quick Look" role="img" class="tf_fa tf-ti-zoom-in"><use href="#tf-ti-zoom-in"></use></svg><span class="tooltip">Quick Look</span></a>
+													<div class="share-wrap">
+	<a class="share-button" href="javascript:void(0);"><svg  aria-label="Share" role="img" class="tf_fa tf-ti-export"><use href="#tf-ti-export"></use></svg><span class="screen-reader-text">Share</span></a>
+	<div class="social-share">
+				    <a onclick="window.open('//twitter.com/intent/tweet?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-100w&#038;text=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+100w','twitter','toolbar=0, status=0, width=650, height=360')" title="Twitter" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Twitter" role="img" class="tf_fa tf-ti-twitter-alt"><use href="#tf-ti-twitter-alt"></use></svg>		    </a>
+				    <a onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-100w&#038;t=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+100w&#038;original_referer=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-100w','facebook','toolbar=0, status=0, width=900, height=500')" title="Facebook" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Facebook" role="img" class="tf_fa tf-ti-facebook"><use href="#tf-ti-facebook"></use></svg>		    </a>
+				    <a onclick="window.open('//pinterest.com/pin/create/button/?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-100w&#038;description=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+100w&#038;media=https%3A%2F%2Fi2.wp.com%2Fphuongnamshop.com%2Fwp-content%2Fuploads%2F2021%2F06%2Fphuongnamshop-100w.jpeg%3Ffit%3D750%252C750%26ssl%3D1','pinterest','toolbar=no,width=700,height=300')" title="Pinterest" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Pinterest" role="img" class="tf_fa tf-ti-pinterest"><use href="#tf-ti-pinterest"></use></svg>		    </a>
+				    <a onclick="window.open('//www.linkedin.com/cws/share?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-100w&#038;token=&#038;isFramed=true','linkedin','toolbar=no,width=550,height=550')" title="LinkedIn" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="LinkedIn" role="img" class="tf_fa tf-ti-linkedin"><use href="#tf-ti-linkedin"></use></svg>		    </a>
+			</div>
+</div>
+<!-- .post-share -->
+							</div>
+							
+				</div>
+			</div>
+		</div>
+		</li>
+<li class="has-post-title has-post-date has-post-category has-post-tag has-post-comment has-post-author product type-product post-61 status-publish first instock product_cat-solar-light product_tag-den-nang-luong-mat-troi-60w product_tag-den-nang-luong-ngoai-troi product_tag-den-ngoai-troi has-post-thumbnail sale purchasable product-type-simple">
+			<figure data-product-slider="61" data-w="300" data-h="300" data-link="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-60w" class="post-image product-image product-slider">
+							
+	<span class="onsale">Giảm giá!</span>
+							            <a href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-60w">
+            				<img decoding="async" loading="lazy" src="https://phuongnamshop.com/wp-content/uploads/2021/06/60w-1-300x300.jpeg" width="300" height="300" class="wp-post-image wp-image-82" title="60w-1" alt="den nang luong mat troi 60w 1 khoi" srcset="https://i1.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/60w-1.jpeg?resize=300%2C300&amp;ssl=1 300w, https://i1.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/60w-1.jpeg?resize=150%2C150&amp;ssl=1 150w, https://i1.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/60w-1.jpeg?resize=768%2C768&amp;ssl=1 768w, https://i1.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/60w-1.jpeg?resize=324%2C324&amp;ssl=1 324w, https://i1.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/60w-1.jpeg?resize=416%2C416&amp;ssl=1 416w, https://i1.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/60w-1.jpeg?resize=100%2C100&amp;ssl=1 100w, https://i1.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/60w-1.jpeg?resize=28%2C28&amp;ssl=1 28w, https://i1.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/60w-1.jpeg?w=1000&amp;ssl=1 1000w" sizes="(max-width: 300px) 100vw, 300px" />			
+						            </a>
+		    		</figure>
+			    <div class="product-content">
+		    <div class="product-content-inner-wrapper">
+			    <div class="product-content-inner">
+	    <h3 class="product_title"><a href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-60w">Đèn năng lượng mặt trời 60W</a></h3>
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1.000.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>800.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+<a href="?add-to-cart=61" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="61" data-product_sku="" aria-label="Thêm &ldquo;Đèn năng lượng mặt trời 60W&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>		<div class="product-share-wrap tf_inline_b tf_vmiddle">
+						<div class="wishlist-wrap tf_inline_b tf_vmiddle">
+			<a data-id="61" onclick="javascript:void(0)" class="wishlist-button tf_inline_b tf_textc" href="#" rel="nofollow">
+				<svg  aria-label="Wishlist" role="img" class="tf_fa tf-ti-heart"><use href="#tf-ti-heart"></use></svg><span class="tooltip">Wishlist</span>			</a>
+		</div> 
+        									 <a onclick="return false;" class="quick-look themify-lightbox" href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-60w" rel="nofollow"><svg  aria-label="Quick Look" role="img" class="tf_fa tf-ti-zoom-in"><use href="#tf-ti-zoom-in"></use></svg><span class="tooltip">Quick Look</span></a>
+													<div class="share-wrap">
+	<a class="share-button" href="javascript:void(0);"><svg  aria-label="Share" role="img" class="tf_fa tf-ti-export"><use href="#tf-ti-export"></use></svg><span class="screen-reader-text">Share</span></a>
+	<div class="social-share">
+				    <a onclick="window.open('//twitter.com/intent/tweet?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-60w&#038;text=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+60W','twitter','toolbar=0, status=0, width=650, height=360')" title="Twitter" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Twitter" role="img" class="tf_fa tf-ti-twitter-alt"><use href="#tf-ti-twitter-alt"></use></svg>		    </a>
+				    <a onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-60w&#038;t=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+60W&#038;original_referer=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-60w','facebook','toolbar=0, status=0, width=900, height=500')" title="Facebook" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Facebook" role="img" class="tf_fa tf-ti-facebook"><use href="#tf-ti-facebook"></use></svg>		    </a>
+				    <a onclick="window.open('//pinterest.com/pin/create/button/?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-60w&#038;description=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+60W&#038;media=https%3A%2F%2Fi1.wp.com%2Fphuongnamshop.com%2Fwp-content%2Fuploads%2F2021%2F06%2F60w-1.jpeg%3Ffit%3D1000%252C1000%26ssl%3D1','pinterest','toolbar=no,width=700,height=300')" title="Pinterest" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Pinterest" role="img" class="tf_fa tf-ti-pinterest"><use href="#tf-ti-pinterest"></use></svg>		    </a>
+				    <a onclick="window.open('//www.linkedin.com/cws/share?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-60w&#038;token=&#038;isFramed=true','linkedin','toolbar=no,width=550,height=550')" title="LinkedIn" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="LinkedIn" role="img" class="tf_fa tf-ti-linkedin"><use href="#tf-ti-linkedin"></use></svg>		    </a>
+			</div>
+</div>
+<!-- .post-share -->
+							</div>
+							
+				</div>
+			</div>
+		</div>
+		</li>
+<li class="has-post-title has-post-date has-post-category has-post-tag has-post-comment has-post-author product type-product post-48 status-publish instock product_cat-solar-light product_tag-50w product_tag-den-nang-luong-mat-troi-50w product_tag-den-nang-luong-ngoai-troi product_tag-den-ngoai-troi has-post-thumbnail sale purchasable product-type-simple">
+			<figure data-product-slider="48" data-w="300" data-h="300" data-link="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-50w" class="post-image product-image product-slider">
+							
+	<span class="onsale">Giảm giá!</span>
+							            <a href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-50w">
+            				<img decoding="async" loading="lazy" src="https://phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-50w-5-300x300.jpeg" width="300" height="300" class="wp-post-image wp-image-53" title="phuongnamshop-50w-5" alt="50 den nang luong mat troi" srcset="https://i0.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-50w-5.jpeg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-50w-5.jpeg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-50w-5.jpeg?resize=324%2C324&amp;ssl=1 324w, https://i0.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-50w-5.jpeg?resize=416%2C416&amp;ssl=1 416w, https://i0.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-50w-5.jpeg?resize=100%2C100&amp;ssl=1 100w, https://i0.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-50w-5.jpeg?resize=28%2C28&amp;ssl=1 28w, https://i0.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-50w-5.jpeg?w=750&amp;ssl=1 750w" sizes="(max-width: 300px) 100vw, 300px" />			
+						            </a>
+		    		</figure>
+			    <div class="product-content">
+		    <div class="product-content-inner-wrapper">
+			    <div class="product-content-inner">
+	    <h3 class="product_title"><a href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-50w">Đèn năng lượng mặt trời 50W</a></h3>
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1.000.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>800.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+<a href="?add-to-cart=48" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="48" data-product_sku="S015-50w" aria-label="Thêm &ldquo;Đèn năng lượng mặt trời 50W&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>		<div class="product-share-wrap tf_inline_b tf_vmiddle">
+						<div class="wishlist-wrap tf_inline_b tf_vmiddle">
+			<a data-id="48" onclick="javascript:void(0)" class="wishlist-button tf_inline_b tf_textc" href="#" rel="nofollow">
+				<svg  aria-label="Wishlist" role="img" class="tf_fa tf-ti-heart"><use href="#tf-ti-heart"></use></svg><span class="tooltip">Wishlist</span>			</a>
+		</div> 
+        									 <a onclick="return false;" class="quick-look themify-lightbox" href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-50w" rel="nofollow"><svg  aria-label="Quick Look" role="img" class="tf_fa tf-ti-zoom-in"><use href="#tf-ti-zoom-in"></use></svg><span class="tooltip">Quick Look</span></a>
+													<div class="share-wrap">
+	<a class="share-button" href="javascript:void(0);"><svg  aria-label="Share" role="img" class="tf_fa tf-ti-export"><use href="#tf-ti-export"></use></svg><span class="screen-reader-text">Share</span></a>
+	<div class="social-share">
+				    <a onclick="window.open('//twitter.com/intent/tweet?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-50w&#038;text=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+50W','twitter','toolbar=0, status=0, width=650, height=360')" title="Twitter" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Twitter" role="img" class="tf_fa tf-ti-twitter-alt"><use href="#tf-ti-twitter-alt"></use></svg>		    </a>
+				    <a onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-50w&#038;t=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+50W&#038;original_referer=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-50w','facebook','toolbar=0, status=0, width=900, height=500')" title="Facebook" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Facebook" role="img" class="tf_fa tf-ti-facebook"><use href="#tf-ti-facebook"></use></svg>		    </a>
+				    <a onclick="window.open('//pinterest.com/pin/create/button/?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-50w&#038;description=%C4%90%C3%A8n+n%C4%83ng+l%C6%B0%E1%BB%A3ng+m%E1%BA%B7t+tr%E1%BB%9Di+50W&#038;media=https%3A%2F%2Fi0.wp.com%2Fphuongnamshop.com%2Fwp-content%2Fuploads%2F2021%2F06%2Fphuongnamshop-50w-5.jpeg%3Ffit%3D750%252C750%26ssl%3D1','pinterest','toolbar=no,width=700,height=300')" title="Pinterest" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Pinterest" role="img" class="tf_fa tf-ti-pinterest"><use href="#tf-ti-pinterest"></use></svg>		    </a>
+				    <a onclick="window.open('//www.linkedin.com/cws/share?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-50w&#038;token=&#038;isFramed=true','linkedin','toolbar=no,width=550,height=550')" title="LinkedIn" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="LinkedIn" role="img" class="tf_fa tf-ti-linkedin"><use href="#tf-ti-linkedin"></use></svg>		    </a>
+			</div>
+</div>
+<!-- .post-share -->
+							</div>
+							
+				</div>
+			</div>
+		</div>
+		</li>
+<li class="has-post-title has-post-date has-post-category has-post-tag has-post-comment has-post-author product type-product post-13 status-publish last instock product_cat-solar-light product_tag-den-nang-luong-mat-troi-30wden-nang-luong-mat-troi-30w has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+			<figure data-product-slider="13" data-w="300" data-h="300" data-link="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-30w" class="post-image product-image product-slider">
+							
+	<span class="onsale">Giảm giá!</span>
+							            <a href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-30w">
+            				<img decoding="async" loading="lazy" data-lazy="1" src="https://phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-30w-1-300x300.jpeg" width="300" height="300" class="tf_svg_lazy wp-post-image wp-image-14" title="phuongnamshop-30w-1" alt="Den nang luong mat troi 30w" srcset="https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-30w-1.jpeg?resize=300%2C300&amp;ssl=1 300w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-30w-1.jpeg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-30w-1.jpeg?resize=324%2C324&amp;ssl=1 324w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-30w-1.jpeg?resize=416%2C416&amp;ssl=1 416w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-30w-1.jpeg?resize=100%2C100&amp;ssl=1 100w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-30w-1.jpeg?resize=28%2C28&amp;ssl=1 28w, https://i2.wp.com/phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-30w-1.jpeg?w=750&amp;ssl=1 750w" sizes="(max-width: 300px) 100vw, 300px" />			
+						            </a>
+		    		</figure>
+			    <div class="product-content">
+		    <div class="product-content-inner-wrapper">
+			    <div class="product-content-inner">
+	    <h3 class="product_title"><a href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-30w">Đèn Năng Lượng Mặt Trời 30W</a></h3>
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>700.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>500.000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+<a href="?add-to-cart=13" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="13" data-product_sku="S015-30w" aria-label="Thêm &ldquo;Đèn Năng Lượng Mặt Trời 30W&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>		<div class="product-share-wrap tf_inline_b tf_vmiddle">
+						<div class="wishlist-wrap tf_inline_b tf_vmiddle">
+			<a data-id="13" onclick="javascript:void(0)" class="wishlist-button tf_inline_b tf_textc" href="#" rel="nofollow">
+				<svg  aria-label="Wishlist" role="img" class="tf_fa tf-ti-heart"><use href="#tf-ti-heart"></use></svg><span class="tooltip">Wishlist</span>			</a>
+		</div> 
+        									 <a onclick="return false;" class="quick-look themify-lightbox" href="https://phuongnamshop.com/?product=den-nang-luong-mat-troi-30w" rel="nofollow"><svg  aria-label="Quick Look" role="img" class="tf_fa tf-ti-zoom-in"><use href="#tf-ti-zoom-in"></use></svg><span class="tooltip">Quick Look</span></a>
+													<div class="share-wrap">
+	<a class="share-button" href="javascript:void(0);"><svg  aria-label="Share" role="img" class="tf_fa tf-ti-export"><use href="#tf-ti-export"></use></svg><span class="screen-reader-text">Share</span></a>
+	<div class="social-share">
+				    <a onclick="window.open('//twitter.com/intent/tweet?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-30w&#038;text=%C4%90%C3%A8n+N%C4%83ng+L%C6%B0%E1%BB%A3ng+M%E1%BA%B7t+Tr%E1%BB%9Di+30W','twitter','toolbar=0, status=0, width=650, height=360')" title="Twitter" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Twitter" role="img" class="tf_fa tf-ti-twitter-alt"><use href="#tf-ti-twitter-alt"></use></svg>		    </a>
+				    <a onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-30w&#038;t=%C4%90%C3%A8n+N%C4%83ng+L%C6%B0%E1%BB%A3ng+M%E1%BA%B7t+Tr%E1%BB%9Di+30W&#038;original_referer=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-30w','facebook','toolbar=0, status=0, width=900, height=500')" title="Facebook" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Facebook" role="img" class="tf_fa tf-ti-facebook"><use href="#tf-ti-facebook"></use></svg>		    </a>
+				    <a onclick="window.open('//pinterest.com/pin/create/button/?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-30w&#038;description=%C4%90%C3%A8n+N%C4%83ng+L%C6%B0%E1%BB%A3ng+M%E1%BA%B7t+Tr%E1%BB%9Di+30W&#038;media=https%3A%2F%2Fi2.wp.com%2Fphuongnamshop.com%2Fwp-content%2Fuploads%2F2021%2F06%2Fphuongnamshop-30w-1.jpeg%3Ffit%3D750%252C750%26ssl%3D1','pinterest','toolbar=no,width=700,height=300')" title="Pinterest" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="Pinterest" role="img" class="tf_fa tf-ti-pinterest"><use href="#tf-ti-pinterest"></use></svg>		    </a>
+				    <a onclick="window.open('//www.linkedin.com/cws/share?url=https%3A%2F%2Fphuongnamshop.com%2F%3Fproduct%3Dden-nang-luong-mat-troi-30w&#038;token=&#038;isFramed=true','linkedin','toolbar=no,width=550,height=550')" title="LinkedIn" rel="nofollow" href="javascript:void(0);" class="share">
+			<svg  aria-label="LinkedIn" role="img" class="tf_fa tf-ti-linkedin"><use href="#tf-ti-linkedin"></use></svg>		    </a>
+			</div>
+</div>
+<!-- .post-share -->
+							</div>
+							
+				</div>
+			</div>
+		</div>
+		</li>
+</ul>
+	    </main>
+	    <!-- /#content -->
+		</div><!-- /#layout -->
+	    </div>
+<!-- /body -->
+        <div id="footerwrap" class="tf_clear tf_box">
+
+	    
+	    		<div class="footer-social-wrap tf_w tf_overflow">
+																																																															</div>
+
+
+	    <footer id="footer" class="pagewidth tf_box tf_clearfix" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
+
+		    
+		    <div class="footer-column-wrap tf_clear tf_clearfix">
+			    <div class="footer-logo-wrap tf_left">
+				    					    <div id="footer-logo"><a href="https://phuongnamshop.com" title="Phuong Nam Shop"><img decoding="async" loading="lazy" data-lazy="1" src="https://phuongnamshop.com/wp-content/uploads/2021/06/logo-500px.png" alt="Phuong Nam Shop" title="Phuong Nam Shop Logo" width="300" height="" class="tf_svg_lazy site-logo-image"></a></div>																	  
+					    <!-- /footer-logo -->
+				    				    					    <div class="below-logo-widget">
+						    <div id="themify-social-links-3" class="widget themify-social-links"><strong class="widgettitle">Social Links</strong><ul class="social-links horizontal">
+							<li class="social-link-item facebook font-icon icon-medium">
+								<a href="https://www.facebook.com/PhuongNamShopping" aria-label="facebook" target="_blank" rel="noopener"><i style="color: rgba(23, 133, 235, 1);"><svg  aria-label="Facebook" role="img" class="tf_fa tf-fab-facebook"><use href="#tf-fab-facebook"></use></svg></i>  </a>
+							</li>
+							<!-- /themify-link-item -->
+							<li class="social-link-item youtube font-icon icon-medium">
+								<a href="https://www.youtube.com/channel/UCo-jS7i4LGYqKBk-hkoE-Ew" aria-label="youtube" target="_blank" rel="noopener"><i style="color: rgba(247, 19, 19, 1);"><svg  aria-label="YouTube" role="img" class="tf_fa tf-fab-youtube"><use href="#tf-fab-youtube"></use></svg></i>  </a>
+							</li>
+							<!-- /themify-link-item -->
+							<li class="social-link-item pinterest font-icon icon-medium">
+								<a href="https://www.pinterest.com/phuongnamshop" aria-label="pinterest" target="_blank" rel="noopener"><i style="color: rgba(240, 87, 87, 1);"><svg  aria-label="Pinterest" role="img" class="tf_fa tf-fab-pinterest"><use href="#tf-fab-pinterest"></use></svg></i>  </a>
+							</li>
+							<!-- /themify-link-item -->
+							<li class="social-link-item instagram font-icon icon-medium">
+								<a href="https://www.instagram.com/phuongnamshop/" aria-label="instagram" target="_blank" rel="noopener"><i style="color: rgba(240, 88, 220, 1);"><svg  aria-label="Instagram" role="img" class="tf_fa tf-ti-instagram"><use href="#tf-ti-instagram"></use></svg></i>  </a>
+							</li>
+							<!-- /themify-link-item -->
+							<li class="social-link-item twitter font-icon icon-medium">
+								<a href="https://twitter.com/phuongnamshop" aria-label="twitter" target="_blank" rel="noopener"><i style="color: rgba(9, 160, 235, 1);"><svg  aria-label="Twitter" role="img" class="tf_fa tf-fab-twitter"><use href="#tf-fab-twitter"></use></svg></i>  </a>
+							</li>
+							<!-- /themify-link-item --></ul></div>					    </div>
+					    <!-- /.below-logo-widget -->
+				    			    </div>
+
+
+			    <!-- /footer-logo-wrap -->
+			    
+				    <div class="footer-widgets-wrap tf_left"> 
+					        
+	<div class="footer-widgets tf_clear tf_clearfix">
+								<div class="col3-1 first">
+							</div>
+								<div class="col3-1">
+							</div>
+								<div class="col3-1">
+							</div>
+		
+	</div>
+	<!-- /.footer-widgets -->
+
+				    </div>
+				    <!-- /footer-widgets-wrap -->
+			    
+			    				    				    <div class="footer-nav-wrap tf_clear tf_textc">
+					    <ul id="footer-nav" class="footer-nav"><li id="menu-item-141" class="menu-item-page-139 menu-item menu-item-type-post_type menu-item-object-page menu-item-141"><a href="https://phuongnamshop.com/?page_id=139">Thông Tin Liên Hệ</a></li>
+<li id="menu-item-129" class="menu-item-page-125 menu-item menu-item-type-post_type menu-item-object-page menu-item-129"><a href="https://phuongnamshop.com/?page_id=125">Đổi và trả hàng</a></li>
+<li id="menu-item-130" class="menu-item-page-3 menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-130"><a href="https://phuongnamshop.com/?page_id=3">Chính sách bảo mật</a></li>
+</ul>				    </div>
+				    <!-- /.footer-nav-wrap -->
+			    
+				    <div class="footer-text-outer tf_w">
+
+					    <div class="back-top tf_vmiddle tf_inline_b tf_textc tf_clearfix "><div class="arrow-up"><a aria-label="Back to top" rel="nofollow" href="#header"><span class="screen-reader-text">Back to top</span></a></div></div>
+						<div class="footer-text tf_vmiddle tf_inline_b tf_clearfix">
+															<div class="one">&copy; <a href="https://phuongnamshop.com">Phuong Nam Shop</a> 2021</div><div class="two">Powered by <a href="http://wordpress.org">WordPress</a> &bull; <a href="https://themify.me">Themify WordPress Themes</a></div>													</div>
+						<!-- /.footer-text -->
+
+				    </div>
+
+		    </div>
+
+		    	    </footer>
+	    	    <!-- /#footer -->
+
+	    
+    </div>
+    <!-- /#footerwrap -->
+    </div>
+<!-- /#pagewrap -->
+
+<!-- SCHEMA BEGIN --><script type="application/ld+json">[{"@context":"https:\/\/schema.org","@type":"Product","name":"\u0110\u00e8n n\u0103ng l\u01b0\u1ee3ng m\u1eb7t tr\u1eddi 300W","description":"C\u00f4ng Su\u1ea5t: 300W\r\nS\u1ed1 Led: 420 c\u00e1i\r\nV\u1ecf nh\u00f4m\r\n\u0110\u00e8n b\u00e1o % pin\r\nTh\u1eddi gian s\u00e1ng: 10-12 gi\u1edd\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -11px; top: 32px;\">\r\n<div class=\"gtx-trans-icon\"><\/div>\r\n<\/div>","sku":"S015-300w","brand":"","offers":{"@type":"Offer","price":"2300000","priceCurrency":"VND","priceValidUntil":"","availability":"https:\/\/schema.org\/InStock","url":"https:\/\/phuongnamshop.com\/?product=den-nang-luong-mat-troi-300w"},"image":{"@type":"ImageObject","url":"https:\/\/i2.wp.com\/phuongnamshop.com\/wp-content\/uploads\/2021\/06\/phuongnamshop-300w.jpeg?fit=750%2C750&ssl=1","width":750,"height":750}},{"@context":"https:\/\/schema.org","@type":"Product","name":"\u0110\u00e8n n\u0103ng l\u01b0\u1ee3ng m\u1eb7t tr\u1eddi 200W","description":"C\u00f4ng Su\u1ea5t: 200W\r\nS\u1ed1 Led: 224 c\u00e1i\r\nV\u1ecf nh\u00f4m\r\n\u0110\u00e8n b\u00e1o % pin\r\nTh\u1eddi gian s\u00e1ng: 10-12 gi\u1edd\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -60px; top: 32px;\">\r\n<div class=\"gtx-trans-icon\"><\/div>\r\n<\/div>","sku":"S015-200w","brand":"","offers":{"@type":"Offer","price":"2000000","priceCurrency":"VND","priceValidUntil":"","availability":"https:\/\/schema.org\/InStock","url":"https:\/\/phuongnamshop.com\/?product=den-nang-luong-mat-troi-200w"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"5.00","reviewCount":1},"image":{"@type":"ImageObject","url":"https:\/\/i0.wp.com\/phuongnamshop.com\/wp-content\/uploads\/2021\/06\/phuongnamshop-200w-1.jpeg?fit=239%2C239&ssl=1","width":239,"height":239}},{"@context":"https:\/\/schema.org","@type":"Product","name":"\u0110\u00e8n n\u0103ng l\u01b0\u1ee3ng m\u1eb7t tr\u1eddi 100w","description":"C\u00f4ng Su\u1ea5t: 100W\r\nS\u1ed1 Led: 144 c\u00e1i\r\nV\u1ecf nh\u00f4m\r\n\u0110\u00e8n b\u00e1o % pin\r\nTh\u1eddi gian s\u00e1ng: 10-12 gi\u1edd\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -21px; top: -17px;\">\r\n<div class=\"gtx-trans-icon\"><\/div>\r\n<\/div>","sku":"S015-100w","brand":"","offers":{"@type":"Offer","price":"1000000","priceCurrency":"VND","priceValidUntil":"","availability":"https:\/\/schema.org\/InStock","url":"https:\/\/phuongnamshop.com\/?product=den-nang-luong-mat-troi-100w"},"image":{"@type":"ImageObject","url":"https:\/\/i2.wp.com\/phuongnamshop.com\/wp-content\/uploads\/2021\/06\/phuongnamshop-100w.jpeg?fit=750%2C750&ssl=1","width":750,"height":750}},{"@context":"https:\/\/schema.org","@type":"Product","name":"\u0110\u00e8n n\u0103ng l\u01b0\u1ee3ng m\u1eb7t tr\u1eddi 60W","description":"C\u00f4ng Su\u1ea5t: 60W\r\nS\u1ed1 Led: 175 c\u00e1i\r\nV\u1ecf nh\u00f4m\r\n\u0110\u00e8n b\u00e1o pin\r\nTh\u1eddi gian s\u00e1ng: 10-12 gi\u1edd\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -32px; top: 8px;\">\r\n<div class=\"gtx-trans-icon\"><\/div>\r\n<\/div>","sku":"","brand":"","offers":{"@type":"Offer","price":"800000","priceCurrency":"VND","priceValidUntil":"","availability":"https:\/\/schema.org\/InStock","url":"https:\/\/phuongnamshop.com\/?product=den-nang-luong-mat-troi-60w"},"image":{"@type":"ImageObject","url":"https:\/\/i1.wp.com\/phuongnamshop.com\/wp-content\/uploads\/2021\/06\/60w-1.jpeg?fit=1000%2C1000&ssl=1","width":1000,"height":1000}},{"@context":"https:\/\/schema.org","@type":"Product","name":"\u0110\u00e8n n\u0103ng l\u01b0\u1ee3ng m\u1eb7t tr\u1eddi 50W","description":"C\u00f4ng Su\u1ea5t: 50W\r\nS\u1ed1 Led: 100 c\u00e1i\r\nV\u1ecf nh\u00f4m\r\n\u0110\u00e8n b\u00e1o % pin\r\nTh\u1eddi gian s\u00e1ng: 10-12 gi\u1edd","sku":"S015-50w","brand":"","offers":{"@type":"Offer","price":"800000","priceCurrency":"VND","priceValidUntil":"","availability":"https:\/\/schema.org\/InStock","url":"https:\/\/phuongnamshop.com\/?product=den-nang-luong-mat-troi-50w"},"image":{"@type":"ImageObject","url":"https:\/\/i0.wp.com\/phuongnamshop.com\/wp-content\/uploads\/2021\/06\/phuongnamshop-50w-5.jpeg?fit=750%2C750&ssl=1","width":750,"height":750}},{"@context":"https:\/\/schema.org","@type":"Product","name":"\u0110\u00e8n N\u0103ng L\u01b0\u1ee3ng M\u1eb7t Tr\u1eddi 30W","description":"<p class=\"p1\">C\u00f4ng Su\u1ea5t: 30W<\/p>\r\n<p class=\"p1\">T\u1ea5m Pin: 6V\/9W<\/p>\r\n<p class=\"p1\">Th\u1eddi gian s\u00e1ng: 10-12 gi\u1edd<\/p>\r\n\r\n<div id=\"gtx-trans\" style=\"position: absolute; left: -42px; top: 173.562px;\">\r\n<div class=\"gtx-trans-icon\"><\/div>\r\n<\/div>","sku":"S015-30w","brand":"","offers":{"@type":"Offer","price":"500000","priceCurrency":"VND","priceValidUntil":"","availability":"https:\/\/schema.org\/InStock","url":"https:\/\/phuongnamshop.com\/?product=den-nang-luong-mat-troi-30w"},"image":{"@type":"ImageObject","url":"https:\/\/i2.wp.com\/phuongnamshop.com\/wp-content\/uploads\/2021\/06\/phuongnamshop-30w-1.jpeg?fit=750%2C750&ssl=1","width":750,"height":750}}]</script><!-- /SCHEMA END -->		
+<!-- wp_footer -->
+
+        <div id='fb-root'></div>
+          <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v6.0&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+          <div class='fb-customerchat'
+            attribution='wordpress'
+            attribution_version='2.2'
+            page_id=314009698654664
+          >
+        </div>
+        <p class="woocommerce-store-notice demo_store" data-notice-id="1cbaad9ff8f95b2fa85ccddb3e3cf2cd" style="display:none;">Khuyến mãi giám giá tất cả sản phẩm từ ngày 10/07/2021 đến hết ngày 31/08/2021 <a href="#" class="woocommerce-store-notice__dismiss-link">Bỏ qua</a></p><script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/917e7e9166c591d6eb19281b6/d681af34277da39186a1c3932.js");</script><script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@graph":[{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Trang ch\u1ee7","@id":"https:\/\/phuongnamshop.com"}}]},{"@context":"https:\/\/schema.org\/","@type":"WebSite","name":"Phuong Nam Shop","url":"https:\/\/phuongnamshop.com","potentialAction":{"@type":"SearchAction","target":"https:\/\/phuongnamshop.com\/?s={search_term_string}&amp;post_type=product","query-input":"required name=search_term_string"}}]}</script>			<!-- Facebook Pixel Code -->
+			<noscript>
+				<img decoding="async" height="1" width="1" style="display:none" alt="fbpx" src="https://www.facebook.com/tr?id=908674496363326&ev=PageView&noscript=1" />
+			</noscript>
+			<!-- End Facebook Pixel Code -->
+						<!--googleoff:all-->
+			<!--noindex-->
+			<script type="text/template" id="tf_vars">
+				var themifyScript = {"sticky_header":"","headerType":"header-logo-center","infiniteURL":"1","autoInfinite":"auto","sparkling_color":"#dcaa2e","redirect":"","lng":{"add_to":"Added to Cart","keep_shop":"Keep Shopping","checkout":"Checkout"},"checkout_url":"https:\/\/phuongnamshop.com\/?page_id=7","is_default_gallery":"1","wc_css_url":"http:\/\/phuongnamshop.com\/wp-content\/themes\/themify-shoppe\/styles\/wc\/modules\/","placeholder":"https:\/\/i0.wp.com\/phuongnamshop.com\/wp-content\/uploads\/woocommerce-placeholder.png?resize=300%2C300&ssl=1","wishlist":{"no_items":"There is no wishlist item.","cookie":"themify_wishlist","expiration":1629591400,"cookie_path":"\/","domain":""}};
+var tbLocalScript = {"builder_url":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder","css_module_url":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/css/modules/","js_module_url":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/","js_modules":{"fwr":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/fullwidthRows.js","bgs":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/backgroundSlider.js","fwv":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/fullwidthvideo.js","feature":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/feature.js","parallax":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/parallax.js","bgzs":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/bgzoom_scroll.js","bgzoom":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/bgzoom.js","gallery":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/gallery.js","menu":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/menu.js","read":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/readMore.js","sticky":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/sticky.js","alert":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/alert.js","tab":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/tab.js","accordion":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/accordion.js","oc":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/overlay-content.js","video":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/modules/video.js","sh":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/themify-builder/js/themify.scroll-highlight.js"},"breakpoints":{"tablet_landscape":[769,1024],"tablet":[601,768],"mobile":600},"fullwidth_support":"","addons":[]};
+var themify_vars = {"version":"5.2.2","url":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify","wp":"5.8","ajax_url":"https://phuongnamshop.com/wp-admin/admin-ajax.php","map_key":"AIzaSyAxjx5edc9Y2Lj1BE37W6C0SFi7He1Wv9g","includesURL":"http://phuongnamshop.com/wp-includes/","emailSub":"Check this out!","lightbox":{"i18n":{"tCounter":"%curr% of %total%"}},"s_v":"5.3.7","a_v":"3.6.2","i_v":"4.1.4","js_modules":{"fxh":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/fixedheader.js","lb":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/lightbox.min.js","gal":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/themify.gallery.js","sw":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/swiper/swiper.min.js","tc":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/themify.carousel.js","map":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/map.js","img":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/jquery.imagesloaded.min.js","at":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/autoTiles.js","iso":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/isotop.js","inf":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/infinite.js","lax":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/lax.js","video":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/video-player.js","audio":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/audio-player.js","side":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/themify.sidemenu.js","edge":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/edge.Menu.js","wow":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/tf_wow.js","share":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/sharer.js","mega":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/megamenu/js/themify.mega-menu.js","drop":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/themify.dropdown.js","wc":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/wc.js","stb":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/sticky-buy.js"},"css_modules":{"sw":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/css/swiper/swiper.css","an":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/css/animate.min.css","video":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/css/modules/video.css","audio":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/css/modules/audio.css","drop":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/css/modules/dropdown.css","lb":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/css/lightbox.css","mega":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/megamenu/css/megamenu.css","stb":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/css/modules/sticky-buy.css"},"is_min":"1","wp_embed":"https://phuongnamshop.com/wp-includes/js/wp-embed.min.js","theme_js":"http://phuongnamshop.com/wp-content/themes/themify-shoppe/js/themify.script.js","theme_v":"5.2.6","theme_url":"http://phuongnamshop.com/wp-content/themes/themify-shoppe","menu_point":"900","wc_version":"5.5.1","wc_js":{"js-cookie":"http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4","wc-add-to-cart":"http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js","wc-add-to-cart-variation":"http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js","wc-cart-fragments":"http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js","woocommerce":"http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js","wc-single-product":"http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js"},"photoswipe":{"main":"http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css","skin":"http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css"},"done":{"tb_parallax":true,"tf_grid_theme_grid4":true,"tf_grid_grid4":true}};			</script>
+			<!--/noindex-->
+			<!--googleon:all-->
+			<script nomodule defer src="http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/fallback.js"></script>
+			<script id='ce4wp_form_submit-js-extra'>
+var ce4wp_form_submit_data = {"siteUrl":"http:\/\/phuongnamshop.com","url":"https:\/\/phuongnamshop.com\/wp-admin\/admin-ajax.php","nonce":"9c85163938","listNonce":"2cd930e192","activatedNonce":"79baab64f9"};
+</script>
+<script src='http://phuongnamshop.com/wp-content/plugins/creative-mail-by-constant-contact/assets/js/block/submit.js?ver=1626731043' id='ce4wp_form_submit-js'></script>
+<script defer="defer" src='http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/main.js?ver=5.2.2' id='themify-main-script-js'></script>
+<script src='http://phuongnamshop.com/wp-content/plugins/jetpack/_inc/build/photon/photon.min.js?ver=20191001' id='jetpack-photon-js'></script>
+<script id='mailchimp-woocommerce-js-extra'>
+var mailchimp_public_data = {"site_url":"http:\/\/phuongnamshop.com","ajax_url":"https:\/\/phuongnamshop.com\/wp-admin\/admin-ajax.php","language":"vi"};
+</script>
+<script src='http://phuongnamshop.com/wp-content/plugins/mailchimp-for-woocommerce/public/js/mailchimp-woocommerce-public.min.js?ver=2.5.1' id='mailchimp-woocommerce-js'></script>
+<script defer="defer" src='http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70' id='jquery-blockui-js'></script>
+<script defer="defer" src='http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2' id='flexslider-js'></script>
+<script defer="defer" src='http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1' id='photoswipe-js'></script>
+<script defer="defer" src='http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1' id='photoswipe-ui-default-js'></script>
+<script defer="defer" src='http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21' id='zoom-js'></script>
+<!-- WooCommerce JavaScript -->
+<script type="text/javascript">
+jQuery(function($) { 
+
+			gtag( 'event', 'view_item_list', { 'items': [ {
+				'id': '80',
+				'name': 'Đèn năng lượng mặt trời 300W',
+				'category': 'Đèn năng lượng mặt trời',
+				'list': 'Product List',
+				'list_position': '1'
+			} ] } );
+		
+
+
+			$( '.products .post-80 a' ).on('click', function() {
+				if ( true === $(this).hasClass( 'add_to_cart_button' ) ) {
+					return;
+				}
+				gtag( 'event', 'select_content', {
+					'content_type': 'product',
+					'items': [ {
+						'id': '80',
+						'name': 'Đèn năng lượng mặt trời 300W',
+						'category': 'Đèn năng lượng mặt trời',
+						'list_position': '1'
+					} ],
+				} );
+			});
+		
+
+
+			gtag( 'event', 'view_item_list', { 'items': [ {
+				'id': '78',
+				'name': 'Đèn năng lượng mặt trời 200W',
+				'category': 'Đèn năng lượng mặt trời',
+				'list': 'Product List',
+				'list_position': '2'
+			} ] } );
+		
+
+
+			$( '.products .post-78 a' ).on('click', function() {
+				if ( true === $(this).hasClass( 'add_to_cart_button' ) ) {
+					return;
+				}
+				gtag( 'event', 'select_content', {
+					'content_type': 'product',
+					'items': [ {
+						'id': '78',
+						'name': 'Đèn năng lượng mặt trời 200W',
+						'category': 'Đèn năng lượng mặt trời',
+						'list_position': '2'
+					} ],
+				} );
+			});
+		
+
+
+			gtag( 'event', 'view_item_list', { 'items': [ {
+				'id': '72',
+				'name': 'Đèn năng lượng mặt trời 100w',
+				'category': 'Đèn năng lượng mặt trời',
+				'list': 'Product List',
+				'list_position': '3'
+			} ] } );
+		
+
+
+			$( '.products .post-72 a' ).on('click', function() {
+				if ( true === $(this).hasClass( 'add_to_cart_button' ) ) {
+					return;
+				}
+				gtag( 'event', 'select_content', {
+					'content_type': 'product',
+					'items': [ {
+						'id': '72',
+						'name': 'Đèn năng lượng mặt trời 100w',
+						'category': 'Đèn năng lượng mặt trời',
+						'list_position': '3'
+					} ],
+				} );
+			});
+		
+
+
+			gtag( 'event', 'view_item_list', { 'items': [ {
+				'id': '61',
+				'name': 'Đèn năng lượng mặt trời 60W',
+				'category': 'Đèn năng lượng mặt trời',
+				'list': 'Product List',
+				'list_position': '4'
+			} ] } );
+		
+
+
+			$( '.products .post-61 a' ).on('click', function() {
+				if ( true === $(this).hasClass( 'add_to_cart_button' ) ) {
+					return;
+				}
+				gtag( 'event', 'select_content', {
+					'content_type': 'product',
+					'items': [ {
+						'id': '61',
+						'name': 'Đèn năng lượng mặt trời 60W',
+						'category': 'Đèn năng lượng mặt trời',
+						'list_position': '4'
+					} ],
+				} );
+			});
+		
+
+
+			gtag( 'event', 'view_item_list', { 'items': [ {
+				'id': '48',
+				'name': 'Đèn năng lượng mặt trời 50W',
+				'category': 'Đèn năng lượng mặt trời',
+				'list': 'Product List',
+				'list_position': '5'
+			} ] } );
+		
+
+
+			$( '.products .post-48 a' ).on('click', function() {
+				if ( true === $(this).hasClass( 'add_to_cart_button' ) ) {
+					return;
+				}
+				gtag( 'event', 'select_content', {
+					'content_type': 'product',
+					'items': [ {
+						'id': '48',
+						'name': 'Đèn năng lượng mặt trời 50W',
+						'category': 'Đèn năng lượng mặt trời',
+						'list_position': '5'
+					} ],
+				} );
+			});
+		
+
+
+			gtag( 'event', 'view_item_list', { 'items': [ {
+				'id': '13',
+				'name': 'Đèn Năng Lượng Mặt Trời 30W',
+				'category': 'Đèn năng lượng mặt trời',
+				'list': 'Product List',
+				'list_position': '6'
+			} ] } );
+		
+
+
+			$( '.products .post-13 a' ).on('click', function() {
+				if ( true === $(this).hasClass( 'add_to_cart_button' ) ) {
+					return;
+				}
+				gtag( 'event', 'select_content', {
+					'content_type': 'product',
+					'items': [ {
+						'id': '13',
+						'name': 'Đèn Năng Lượng Mặt Trời 30W',
+						'category': 'Đèn năng lượng mặt trời',
+						'list_position': '6'
+					} ],
+				} );
+			});
+		
+
+
+			$( '.add_to_cart_button:not(.product_type_variable, .product_type_grouped)' ).on( 'click', function() {
+				gtag( 'event', 'add_to_cart', { 'event_category': 'ecommerce', 'event_label': ($(this).data('product_sku')) ? ($(this).data('product_sku')) : ('#' + $(this).data('product_id')), 'items': [ {'id': ($(this).data('product_sku')) ? ($(this).data('product_sku')) : ('#' + $(this).data('product_id')),'quantity': $(this).data('quantity')} ] } );
+			});
+		
+ });
+</script>
+<svg id="tf_svg" style="display:none"><defs><symbol id="tf-ti-search" viewBox="0 0 32 32"><path d="M31.25 29.875l-1.313 1.313-9.75-9.75c-2.125 1.875-4.938 3-7.938 3-6.75 0-12.25-5.5-12.25-12.25 0-3.25 1.25-6.375 3.563-8.688C5.875 1.25 8.937-.063 12.25-.063c6.75 0 12.25 5.5 12.25 12.25 0 3-1.125 5.813-3 7.938zm-19-7.312c5.688 0 10.313-4.688 10.313-10.375S17.938 1.813 12.25 1.813c-2.813 0-5.375 1.125-7.313 3.063-2 1.938-3.063 4.563-3.063 7.313 0 5.688 4.625 10.375 10.375 10.375z"></path></symbol><symbol id="tf-fab-facebook" viewBox="0 0 17 32"><path d="M13.5 5.313q-1.125 0-1.781.375t-.844.938-.188 1.438v3.938H16l-.75 5.688h-4.563v14.313H4.812V17.69H-.001v-5.688h4.813v-4.5q0-3.563 2-5.531T12.125.002q2.688 0 4.375.25v5.063h-3z"></path></symbol><symbol id="tf-fab-youtube" viewBox="0 0 36 32"><path d="M34.375 7.75q.188.75.344 1.875t.219 2.219.094 2.031.031 1.563v.563q0 5.625-.688 8.313-.313 1.063-1.125 1.875t-1.938 1.125q-1.188.313-4.5.469t-6.063.219h-2.75q-10.688 0-13.313-.688-2.438-.688-3.063-3-.313-1.188-.469-3.281t-.219-3.531v-1.5q0-5.563.688-8.25.313-1.125 1.125-1.938t1.938-1.125q1.188-.313 4.5-.469t6.063-.219h2.75q10.688 0 13.313.688 1.125.313 1.938 1.125t1.125 1.938zM14.5 21.125L23.438 16 14.5 10.937v10.188z"></path></symbol><symbol id="tf-fab-pinterest" viewBox="0 0 31 32"><path d="M31 16q0 6.438-4.531 10.969T15.5 31.5q-2.375 0-4.563-.688 1.5-2.5 1.875-4.063l1-3.688q.375.75 1.375 1.25t2.188.5q3.438 0 5.719-2.781t2.281-6.844q0-3.813-2.75-6.375t-6.813-2.563q-4.75 0-7.469 2.75t-2.719 6.625q0 1.813.875 3.594t2.25 2.406q.438.188.5-.188.063-.125.219-.844t.219-.906q.063-.25-.125-.438-1.125-1.438-1.125-3.563 0-2.688 1.906-4.719t5.094-2.031q2.875 0 4.688 1.781t1.813 4.531q0 2.063-.656 3.688t-1.781 2.531-2.438.906q-1.188 0-1.875-.844t-.438-1.969q.125-.625.5-1.75t.563-1.969.188-1.469q0-.563-.188-1.063t-.656-.781-1.094-.281q-1.188 0-2 1.063t-.813 2.688q0 .25.031.531t.063.5.094.438.094.344.094.25.063.188l.063.063q-1.563 6.438-1.875 7.688-.313 1.563 0 4.438-4.438-1.688-7.156-5.625T.002 15.998q0-6.438 4.531-10.969T15.502.498t10.969 4.531 4.531 10.969z"></path></symbol><symbol id="tf-ti-instagram" viewBox="0 0 32 32"><path d="M24.5 0C28.625 0 32 3.375 32 7.5v17c0 4.125-3.375 7.5-7.5 7.5h-17C3.375 32 0 28.625 0 24.5v-17C0 3.375 3.375 0 7.5 0h17zm5.625 24.5V13.187h-6.063c.563 1.125.875 2.375.875 3.75 0 4.938-4 8.938-8.938 8.938s-8.938-4-8.938-8.938c0-1.375.313-2.625.875-3.75H1.873V24.5c0 3.063 2.563 5.625 5.625 5.625h17c3.063 0 5.625-2.563 5.625-5.625zm-7.062-7.562c0-3.875-3.188-7.063-7.063-7.063s-7.063 3.188-7.063 7.063 3.188 7.063 7.063 7.063 7.063-3.188 7.063-7.063zm-.188-5.625h7.25V7.5c0-3.063-2.563-5.625-5.625-5.625h-17c-3.063 0-5.625 2.563-5.625 5.625v3.813h7.25C10.75 9.313 13.25 8 16 8s5.25 1.313 6.875 3.313zm4.313-6.188c0-.563-.438-1-1-1h-2.563c-.563 0-1.063.438-1.063 1v2.438c0 .563.5 1 1.063 1h2.563c.563 0 1-.438 1-1V5.125z"></path></symbol><symbol id="tf-fab-twitter" viewBox="0 0 32 32"><path d="M28.688 9.5q.063.25.063.813 0 3.313-1.25 6.594t-3.531 6-5.906 4.406-8 1.688q-5.5 0-10.063-2.938.688.063 1.563.063 4.563 0 8.188-2.813-2.188 0-3.844-1.281t-2.281-3.219q.625.063 1.188.063.875 0 1.75-.188-1.5-.313-2.688-1.25t-1.875-2.281-.688-2.906v-.125q1.375.813 2.938.875-2.938-2-2.938-5.5 0-1.75.938-3.313Q4.69 7.251 8.221 9.063t7.531 2q-.125-.75-.125-1.5 0-2.688 1.906-4.625T22.127 3q2.875 0 4.813 2.063 2.25-.438 4.188-1.563-.75 2.313-2.875 3.625 1.875-.25 3.75-1.063-1.375 2-3.313 3.438z"></path></symbol><symbol id="tf-ti-shopping-cart" viewBox="0 0 32 32"><path d="M5.188 23.5c1.813 0 3.313 1.5 3.313 3.313s-1.5 3.313-3.313 3.313-3.313-1.5-3.313-3.313 1.5-3.313 3.313-3.313zm0 4.75c.75 0 1.375-.625 1.375-1.438 0-.75-.625-1.375-1.375-1.375-.813 0-1.438.625-1.438 1.375 0 .813.625 1.438 1.438 1.438zm16-4.75c1.813 0 3.313 1.5 3.313 3.313s-1.5 3.313-3.313 3.313-3.313-1.5-3.313-3.313 1.5-3.313 3.313-3.313zm0 4.75c.75 0 1.375-.625 1.375-1.438 0-.75-.625-1.375-1.375-1.375-.813 0-1.438.625-1.438 1.375 0 .813.625 1.438 1.438 1.438zm4-24.5h6.813v1.875h-5.188l-.5 3-1.938 14H1.937L-.126 7.5h24.75zm-.875 5.688H2l.313 1.875h21.75zM3.625 20.75H22.75l1.063-7.563H2.563z"></path></symbol><symbol id="tf-ti-heart" viewBox="0 0 32 32"><path d="M23.5 1.25c4.688 0 8.5 3.813 8.5 8.438 0 .688-.063 1.313-.25 2.063l-.25.688c-1.875 7.563-14.375 17.688-14.938 18.125l-.563.438-.563-.438c-.5-.438-12.25-9.875-14.938-18.063l-.188-.688C.06 11-.003 10.375-.003 9.688c0-4.625 3.813-8.438 8.5-8.438 3.25 0 6.063 1.875 7.5 4.563 1.438-2.688 4.25-4.563 7.5-4.563zm6.438 10c.125-.563.188-1.063.188-1.563 0-3.625-2.938-6.563-6.625-6.563-3.625 0-6.563 2.938-6.563 6.563v.5h-1.875v-.5c0-3.625-2.938-6.563-6.563-6.563-3.688 0-6.625 2.938-6.625 6.563 0 .5.063 1 .25 1.625l.188.563c2.188 6.688 11.25 14.688 13.688 16.75 2.5-2.125 12.188-10.563 13.688-16.688z"></path></symbol><symbol id="tf-ti-zoom-in" viewBox="0 0 32 32"><path d="M31.25 29.938l-1.313 1.313-9.75-9.75c-2.125 1.875-4.938 3-7.938 3-6.75 0-12.25-5.5-12.25-12.25 0-3.313 1.25-6.375 3.563-8.688S8.937 0 12.25 0C19 0 24.5 5.5 24.5 12.25c0 3-1.125 5.813-3 7.938zm-19-7.375c5.688 0 10.313-4.625 10.313-10.313 0-5.75-4.625-10.375-10.313-10.375-2.813 0-5.375 1.063-7.313 3.063-2 1.938-3.063 4.5-3.063 7.313 0 5.688 4.625 10.313 10.375 10.313zm.938-11.25V7.5h-1.875v3.813H7.5v1.875h3.813v3.75h1.875v-3.75h3.75v-1.875h-3.75z"></path></symbol><symbol id="tf-ti-export" viewBox="0 0 32 32"><path d="M8.188 11.188l6.875-7.063v20.313h1.875V4.125l6.875 7.063 1.313-1.313L16.001.5 6.876 9.875zM30.125 17H32v12.188c0 1.563-1.25 2.813-2.813 2.813H2.812c-1.563 0-2.813-1.25-2.813-2.813V17h1.875v12.188c0 .5.438.938.938.938h26.375c.5 0 .938-.438.938-.938V17z"></path></symbol><symbol id="tf-ti-twitter-alt" viewBox="0 0 32 32"><path d="M28.688 9.5c1.313-.938 2.438-2.125 3.313-3.438-1.188.563-2.438.875-3.75 1.063C29.564 6.312 30.626 5 31.126 3.5c-1.25.75-2.688 1.313-4.188 1.563C25.75 3.813 24.063 3 22.125 3c-3.625 0-6.563 2.938-6.563 6.563 0 .5.063 1 .188 1.5-5.438-.25-10.313-2.875-13.5-6.875-.563 1-.938 2.125-.938 3.313 0 2.313 1.188 4.313 2.938 5.5-1.063-.063-2.063-.375-2.938-.875v.125c0 3.188 2.25 5.813 5.25 6.438-.563.125-1.125.188-1.75.188-.375 0-.813-.063-1.188-.125.813 2.625 3.188 4.5 6.125 4.563-2.25 1.813-5.125 2.813-8.188 2.813-.5 0-1.063 0-1.563-.063 2.875 1.875 6.375 2.938 10.063 2.938 12.063 0 18.688-10 18.688-18.688 0-.25 0-.563-.063-.813z"></path></symbol><symbol id="tf-ti-facebook" viewBox="0 0 32 32"><path d="M23.438 10.5h-5V7.75c0-1.438.188-2.25 2.25-2.25h2.75V0H19c-5.313 0-7.125 2.688-7.125 7.188v3.313H8.562v5.5h3.313v16h6.563v-16h4.438z"></path></symbol><symbol id="tf-ti-pinterest" viewBox="0 0 32 32"><path d="M28.313 11.688c0-5.375-4.625-10.438-11.625-10.438C8 1.25 3.625 7.5 3.625 12.688c0 3.125 1.25 5.938 3.75 7 .438.125.813 0 .938-.5.063-.313.25-1.125.375-1.438.125-.5.063-.625-.25-1-.75-.938-1.25-2-1.25-3.625 0-4.625 3.438-8.75 9-8.75 4.938 0 7.625 3 7.625 7 0 5.25-2.313 9.75-5.813 9.75-1.875 0-3.313-1.625-2.875-3.563.563-2.313 1.625-4.813 1.625-6.438 0-1.5-.813-2.813-2.5-2.813-1.938 0-3.5 2.063-3.5 4.75 0 0 0 1.75.563 2.938C9.313 24.437 9 25.937 9 25.937c-.375 1.375-.375 2.938-.313 4.188 0 0 .188 2.188 2.125.75.688-1.063 1.5-2.5 1.875-3.875 0 0 .188-.813 1.25-5 .625 1.188 2.5 2.25 4.5 2.25 5.875 0 9.875-5.313 9.875-12.563z"></path></symbol><symbol id="tf-ti-linkedin" viewBox="0 0 32 32"><path d="M1.313 10.938v19.438h6.5V10.938h-6.5zm3.25-9.313c2.25 0 3.625 1.438 3.625 3.313S6.813 8.313 4.563 8.313H4.5c-2.188 0-3.563-1.5-3.563-3.375s1.438-3.313 3.625-3.313zM23.625 10.5c4.25 0 7.438 2.813 7.438 8.75v11.125h-6.438V20c0-2.625-.938-4.375-3.313-4.375-1.75 0-2.813 1.188-3.313 2.313-.125.438-.188 1-.188 1.625v10.813h-6.438c.063-17.563 0-19.438 0-19.438h6.438v2.813c.813-1.375 2.375-3.25 5.813-3.25z"></path></symbol><style id="tf_fonts_style">.tf_fa.tf-fab-facebook{width:0.98em}.tf_fa.tf-fab-youtube{width:1.125em}.tf_fa.tf-fab-pinterest{width:0.96875em}.tf_fa.tf-fab-twitter{width:0.998046875em}</style></defs></svg>			<link rel="preload" href="http://phuongnamshop.com/wp-content/themes/themify-shoppe/js/themify.script.js?ver=5.2.6" as="script"/> 
+						<link rel="preload" href="http://phuongnamshop.com/wp-content/themes/themify-shoppe/js/modules/themify.shop.js?ver=5.2.6" as="script"/> 
+						<link rel="prefetch" href="http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/themify.sidemenu.js?ver=5.2.2" as="script"/> 
+						<link rel="prefetch" href="http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/isotop.js?ver=5.2.2" as="script"/> 
+						<link rel="prefetch" href="http://phuongnamshop.com/wp-content/themes/themify-shoppe/themify/js/modules/jquery.imagesloaded.min.js?ver=4.1.4" as="script"/> 
+						<link rel="preload" href="https://phuongnamshop.com/wp-content/uploads/2021/06/logo-500px.png" as="image"/> 
+						<link rel="preload" href="https://phuongnamshop.com/wp-content/uploads/2021/06/phuongnamshop-300w-300x300.jpeg" as="image"/> 
+						<link rel="preload" href="http://phuongnamshop.com/wp-content/plugins/woocommerce/assets/fonts/star.woff" as="font" type="font/woff" crossorigin /> 
+			
+
+<link rel="preload" as="style" href="http://fonts.googleapis.com/css?family=Libre+Franklin:400,300,500,600,700&display=swap"/><link id="themify-google-fonts-css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Libre+Franklin:400,300,500,600,700&display=swap"/>			<script>
+				var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Xem gi\u1ecf h\u00e0ng","cart_url":"https:\/\/phuongnamshop.com\/?page_id=6","is_cart":"","cart_redirect_after_add":"no"};var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"R\u1ea5t ti\u1ebfc, kh\u00f4ng c\u00f3 s\u1ea3n ph\u1ea9m n\u00e0o ph\u00f9 h\u1ee3p v\u1edbi l\u1ef1a ch\u1ecdn c\u1ee7a b\u1ea1n. H\u00e3y ch\u1ecdn m\u1ed9t ph\u01b0\u01a1ng th\u1ee9c k\u1ebft h\u1ee3p kh\u00e1c.","i18n_make_a_selection_text":"Ch\u1ecdn c\u00e1c t\u00f9y ch\u1ecdn cho s\u1ea3n ph\u1ea9m tr\u01b0\u1edbc khi cho s\u1ea3n ph\u1ea9m v\u00e0o gi\u1ecf h\u00e0ng c\u1ee7a b\u1ea1n.","i18n_unavailable_text":"R\u1ea5t ti\u1ebfc, s\u1ea3n ph\u1ea9m n\u00e0y hi\u1ec7n kh\u00f4ng t\u1ed3n t\u1ea1i. H\u00e3y ch\u1ecdn m\u1ed9t ph\u01b0\u01a1ng th\u1ee9c k\u1ebft h\u1ee3p kh\u00e1c."};var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_29cc46512884580bb7e3fd1e58a4b122","fragment_name":"wc_fragments_29cc46512884580bb7e3fd1e58a4b122","request_timeout":"5000"};var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};var wc_single_product_params = {"i18n_required_rating_text":"Vui l\u00f2ng ch\u1ecdn m\u1ed9t m\u1ee9c \u0111\u00e1nh gi\u00e1","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"1","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};			</script>
+		<script src='https://stats.wp.com/e-202129.js' defer></script>
+<script>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:9.9.1',blog:'147630033',post:'0',tz:'7',srv:'phuongnamshop.com'} ]);
+	_stq.push([ 'clickTrackerInit', '147630033', '0' ]);
+</script>
+	</body>
+</html>

@@ -1,0 +1,1223 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Công ty TNHH Thiết bị đào tạo & Phát triển Công nghệ Ngọc Huy
+</title>
+
+    
+           
+    <style>
+        .hide{
+            display:none;
+        }
+    </style>
+    <script src= "https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+
+            crossorigin="anonymous"></script>
+
+<script>
+    if (localStorage.getItem("fbchatclose") == 1) {
+
+        jQuery('.fb-page').toggleClass('hide');
+
+        jQuery('#closefbchat').html('<i class="fa fa-comments fa-2x"></i> Hỗ Trợ Khách Hàng').css({ 'bottom': 0 });
+    }
+
+    setTimeout(function () {
+        $("#closefbchat").removeClass("hide");
+    }, 1000);
+
+
+    jQuery('#closefbchat').click(function () {
+        jQuery('.fb-page').toggleClass('hide');
+        if (jQuery('.fb-page').hasClass('hide')) {
+            localStorage.setItem("fbchatclose", 1);
+           
+            jQuery('#closefbchat').html('<i class="fa fa-comments fa-2x"></i> Hỗ Trợ Khách Hàng').css({ 'bottom': 0 });
+        }
+        else {
+            localStorage.setItem("fbchatclose", 0);
+            jQuery('#closefbchat').text('Tắt Hỗ Trợ').css({ 'bottom': 299 });
+        }
+    });
+    </script>
+
+     
+
+
+    
+    <link href="Styles/style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="http://YOURSITE.COM/favicon.ico" type="image/x-icon" />
+<link href="Styles/style.css" rel="stylesheet" type="text/css" /><link href="Styles/nivo-slider.css" rel="stylesheet" type="text/css" /><link href="Styles/default/default.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script src="Scripts/myjs.js" type="text/javascript"></script>
+    <link href="/Styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/css_dangky.css" rel="stylesheet" type="text/css" /></head>
+
+<body >
+    <form method="post" action="./" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyOTAzMDM4ODAPZBYCZg9kFgICAw9kFgYCBQ9kFgJmDxYCHgRUZXh0BYwDPG9iamVjdCB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCc+IDxwYXJhbSBuYW1lPSdtb3ZpZScgdmFsdWU9J2h0dHA6Ly93d3cueW91dHViZS5jb20vdi9HZjgycGZsXy1uNCc+PC9wYXJhbT4gPHBhcmFtIG5hbWU9J2FsbG93RnVsbFNjcmVlbicgdmFsdWU9J3RydWUnPjwvcGFyYW0+IDxwYXJhbSBuYW1lPSdhbGxvd3NjcmlwdGFjY2VzcycgdmFsdWU9J2Fsd2F5cyc+PC9wYXJhbT4gPGVtYmVkIHNyYz0naHR0cDovL3d3dy55b3V0dWJlLmNvbS92L0dmODJwZmxfLW40JyB0eXBlPSdhcHBsaWNhdGlvbi94LXNob2Nrd2F2ZS1mbGFzaCcgYWxsb3dzY3JpcHRhY2Nlc3M9J2Fsd2F5cycgYWxsb3dmdWxsc2NyZWVuPSd0cnVlJyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCc+IDwvZW1iZWQ+PC9vYmplY3Q+ZAIJD2QWFAIBDzwrAAkBAA8WBB4IRGF0YUtleXMWAB4LXyFJdGVtQ291bnQCBGQWCGYPZBYCZg8VBDVDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTExNCZ1cmw9Y2hpdGlldC5pbWFnZXMvU2FuUGhhbS8wMSBEQ04vMTQtQm9tYXlwaGF0ZGllbjNwaGEuanBnOULhu5kgdGjDrSBuZ2hp4buHbSBtw6F5IHBow6F0IMSRaeG7h24geG9heSBjaGnhu4F1IGJhIHBoYTVDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTExNCZ1cmw9Y2hpdGlldGQCAQ9kFgJmDxUENUNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTE1JnVybD1jaGl0aWV0NGltYWdlcy9TYW5QaGFtLzAxIERDTi8xNS1Cb1RIbWF5cGhhdGRpZW5tb3RjaGlldS5qcGczQuG7mSB0aMOtIG5naGnhu4dtIG3DoXkgcGjDoXQgxJFp4buHbiBt4buZdCBjaGnhu4F1NUNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTE1JnVybD1jaGl0aWV0ZAICD2QWAmYPFQQ1Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xMTcmdXJsPWNoaXRpZXQyaW1hZ2VzL1NhblBoYW0vMDEgRENOLzE3LUJvdGhkb25nY29yb3RvZGF5cXVhbi5qcGc3QuG7mSB0aMOtIG5naGnhu4dtIMSR4buZbmcgY8ahIDMgcGhhIHLDtCB0byBkw6J5IHF14bqlbjVDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTExNyZ1cmw9Y2hpdGlldGQCAw9kFgJmDxUENUNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTE5JnVybD1jaGl0aWV0N2ltYWdlcy9TYW5QaGFtLzAxIERDTi8xOS1CYW50aHVjaGFuaGRpZXVraGllbmRvbmdjby5qcGctQsOgbiB0aOG7sWMgaMOgbmggxJFp4buBdSBraGnhu4NuIMSR4buZbmcgY8ahNUNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTE5JnVybD1jaGl0aWV0ZAIDDzwrAAkBAA8WBB8BFgAfAgIFZBYKZg9kFgJmDxUENUNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MzAwJnVybD1jaGl0aWV0Pi9pbWFnZXMvU2FuUGhhbS8wMyBUdWRvbmdob2EvbmV3L21vIGhpbmggbmhhIGRlIHhlIHR1IGRvbmcuanBnI03DtCBow6xuaCBuaMOgIMSR4buDIHhlIHRow7RuZyBtaW5oNUNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MzAwJnVybD1jaGl0aWV0ZAIBD2QWAmYPFQQ1Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0zMDEmdXJsPWNoaXRpZXROL2ltYWdlcy9TYW5QaGFtLzAzIFR1ZG9uZ2hvYS9uZXcvbW8gaGluaCB0aHVjIGhhbmggZGlldSBraGllbiBkaWVuIGtoaSBuZW4uanBnNkLhu5kgdGjDrSBuZ2hp4buHbSDEkWnhu4F1IGtoaeG7g24gxJFp4buHbiAtIGtow60gbsOpbjVDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTMwMSZ1cmw9Y2hpdGlldGQCAg9kFgJmDxUENUNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MzA4JnVybD1jaGl0aWV0NC9pbWFnZXMvU2FuUGhhbS8wMyBUdWRvbmdob2EvbmV3L3JvYm90cGhhbmxvYWlzcC5qcGcyTcO0IGjDrG5oIMSRaeG7gXUga2hp4buDbiBybyBi4buRdCBraG9hbiBraMOtIG7DqW41Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0zMDgmdXJsPWNoaXRpZXRkAgMPZBYCZg8VBDVDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTMwOSZ1cmw9Y2hpdGlldD8vaW1hZ2VzL1NhblBoYW0vMDMgVHVkb25naG9hL25ldy9tbyBoaW5oIG1heSBwaGF5IGNuYyBtaSBuaS5qcGcXTcO0IGjDrG5oIG3DoXkgcGhheSBDTkM1Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0zMDkmdXJsPWNoaXRpZXRkAgQPZBYCZg8VBDVDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTMxMiZ1cmw9Y2hpdGlldEcvaW1hZ2VzL1NhblBoYW0vMDMgVHVkb25naG9hL25ldy90aHVjIGhhbmggczczMDAga2V0IG5vaSBtYW5nIHNsYXZlLmpwZz5Cw6BuIHRo4buxYyBow6BuaCBr4bq/dCBu4buRaSBt4bqhbmcgUzctMzAwIG7hu5FpIG3huqFuZyBzbGF2ZTVDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTMxMiZ1cmw9Y2hpdGlldGQCBQ88KwAJAQAPFgQfARYAHwICBGQWCGYPZBYCZg8VBDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE2MDAmdXJsPWNoaXRpZXQ4L2ltYWdlcy9TYW5QaGFtLzE2IGdpYSBjb25nIGNvIGtoaS9naWEgY29uZyBkb3QgY2hhbi5qcGcaR2lhIGPDtG5nIMSR4buZdCBk4bqtcCBDTkM2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNjAwJnVybD1jaGl0aWV0ZAIBD2QWAmYPFQQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNjAxJnVybD1jaGl0aWV0Ly9pbWFnZXMvU2FuUGhhbS8xNiBnaWEgY29uZyBjbyBraGkvY2hhbiBnYXAuanBnF0dpYSBjw7RuZyBjaOG6pW4sIGfhuqVwNkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTYwMSZ1cmw9Y2hpdGlldGQCAg9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTYwMyZ1cmw9Y2hpdGlldDQvaW1hZ2VzL1NhblBoYW0vMTYgZ2lhIGNvbmcgY28ga2hpL2xhc2VyIGN1dHRpbmcuanBnFUdpYSBjw7RuZyBj4bqvdCBsYXNlcjZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE2MDMmdXJsPWNoaXRpZXRkAgMPZBYCZg8VBDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE2MDQmdXJsPWNoaXRpZXQ0L2ltYWdlcy9TYW5QaGFtLzE2IGdpYSBjb25nIGNvIGtoaS9kanUxNDMzMzgyNTY3LmpwZxhHaWEgY8O0bmcgbOG7lyBtYSB0cuG6rW42Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNjA0JnVybD1jaGl0aWV0ZAIHDzwrAAkBAA8WBB8BFgAfAgIEZBYIZg9kFgJmDxUEM0NoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MSZ1cmw9Y2hpdGlldC8vaW1hZ2VzL1NhblBoYW0vMTUgVGhhbmdtYW5nY2FwL3RoYW5nIGNhcCAyLmpwZwpUaGFuZyBjw6FwM0NoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MSZ1cmw9Y2hpdGlldGQCAQ9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTcwMSZ1cmw9Y2hpdGlldC4vaW1hZ2VzL1NhblBoYW0vMTUgVGhhbmdtYW5nY2FwL21hbmcgY2FwIDYuanBnCk3DoW5nIGPDoXA2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzAxJnVybD1jaGl0aWV0ZAICD2QWAmYPFQQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzAyJnVybD1jaGl0aWV0Li9pbWFnZXMvU2FuUGhhbS8xNSBUaGFuZ21hbmdjYXAvbWFuZyBjYXAgMi5qcGcKTcOhbmcgY8OhcDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3MDImdXJsPWNoaXRpZXRkAgMPZBYCZg8VBDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3MDMmdXJsPWNoaXRpZXQvL2ltYWdlcy9TYW5QaGFtLzE1IFRoYW5nbWFuZ2NhcC90aGFuZyBjYXAgMy5qcGcKVGhhbmcgY8OhcDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3MDMmdXJsPWNoaXRpZXRkAgkPPCsACQEADxYEHwEWAB8CAgNkFgZmD2QWAmYPFQQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xODAwJnVybD1jaGl0aWV0My9pbWFnZXMvU2FuUGhhbS8xNiBnaWEgY29uZyBjbyBraGkva2V0IGNhdSB0aGVwLnBuZxxLaHVuZyBuaMOgIGvhur90IGPhuqV1IHRow6lwNkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTgwMCZ1cmw9Y2hpdGlldGQCAQ9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTgwMSZ1cmw9Y2hpdGlldDgvaW1hZ2VzL1NhblBoYW0vMTYgZ2lhIGNvbmcgY28ga2hpL25oYSB0aGVwIHRpZW4gY2hlLmpwZyFUaGkgY8O0bmcgbmjDoCB0aMOpcCB0aeG7gW4gY2jhur82Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xODAxJnVybD1jaGl0aWV0ZAICD2QWAmYPFQQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xODAzJnVybD1jaGl0aWV0Ii9pbWFnZXMvU2FuUGhhbS8xMiBDb2toaS9mb290MS5qcGcXS2h1bmcgY2jhu6lhIGLDrG5oIGtow602Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xODAzJnVybD1jaGl0aWV0ZAILDzwrAAkBAA8WBB8BFgAfAgIaZBY0Zg9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTcxNyZ1cmw9Y2hpdGlldEAvaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvTWF5IGNhdCBTIDI1MzIvbWF5IGNoYW4gczI1MzIuanBnFk3DoXkgY+G6r3QgdMO0biBTIDI1MzI2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzE3JnVybD1jaGl0aWV0ZAIBD2QWAmYPFQQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzE4JnVybD1jaGl0aWV0NC9pbWFnZXMvU2FuUGhhbS8xOSBtYXkgY29uZyBjdS9NYXkgY2F0IFMgMzA2NS9tMS5qcGcWTcOheSBj4bqvdCB0w7RuIFMgMzA2NTZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3MTgmdXJsPWNoaXRpZXRkAgIPZBYCZg8VBDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3MTkmdXJsPWNoaXRpZXRbL2ltYWdlcy9TYW5QaGFtLzE5IG1heSBjb25nIGN1L0FQTCAxMTAzMS96NjMxNzE0NjcwMjU0X2RiYjkxN2M5MTBjYzBmZTdlOTg5ODU5ODBiZTE0OWQ3LmpwZxpNw6F5IGNo4bqlbiB0w7RuIEFBQSAxMTAzMTZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3MTkmdXJsPWNoaXRpZXRkAgMPZBYCZg8VBDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3MjAmdXJsPWNoaXRpZXQuL2ltYWdlcy9TYW5QaGFtLzE5IG1heSBjb25nIGN1L1BFR0EgMzQ1L1AxLmpwZxRNw6F5IMSR4buZdCBQRUdBIDM0NTZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3MjAmdXJsPWNoaXRpZXRkAgQPZBYCZg8VBDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3MzAmdXJsPWNoaXRpZXQzL2ltYWdlcy9TYW5QaGFtLzE5IG1heSBjb25nIGN1L2tvbWF0c3UgMTAyNS9rbTEuanBnH03DoXkgY2jhuqVuIGtvbWF0c3UgUEhTIDExMHgyNTU2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzMwJnVybD1jaGl0aWV0ZAIFD2QWAmYPFQQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzMxJnVybD1jaGl0aWV0Oi9pbWFnZXMvU2FuUGhhbS8xOSBtYXkgY29uZyBjdS9uaXNzaGluYm8gMTI1LTMxMDAvbnMwMS5qcGceTcOheSBjaOG6pW4gTmlzc2hpbmJvIDEyNS0zMTAwNkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTczMSZ1cmw9Y2hpdGlldGQCBg9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTczMyZ1cmw9Y2hpdGlldDAvaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvQVBYIDgwMjUvYXB4MS5qcGcbTcOheSBjaOG6pW4gdMO0biBhbWFkYSA4MDI1NkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTczMyZ1cmw9Y2hpdGlldGQCBw9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTczNCZ1cmw9Y2hpdGlldDIvaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvQVdCSyAxMDB4MjU1L2ExLmpwZx1Nw6F5IGNo4bqlbiB0w7RuIEFXQksgMTAweDI1NTZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3MzQmdXJsPWNoaXRpZXRkAggPZBYCZg8VBDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3MzUmdXJsPWNoaXRpZXRCL2ltYWdlcy9TYW5QaGFtLzE5IG1heSBjb25nIGN1LzIwMTgvMDEuIE1heSBjYXQgQU1BREEgTTIwNDUvTTEuanBnHE3DoXkgY+G6r3QgdMO0biBBTUFEQSBNLTIwNDU2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzM1JnVybD1jaGl0aWV0ZAIJD2QWAmYPFQQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzM2JnVybD1jaGl0aWV0OC9pbWFnZXMvU2FuUGhhbS8xOSBtYXkgY29uZyBjdS8yMDE4LzAyLiBMRksgQ1AxMDAvZjEuanBnHU3DoXkgY2jhuqVuIHTDtG4gTEZLIENQMTAwLTI2NkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTczNiZ1cmw9Y2hpdGlldGQCCg9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTczNyZ1cmw9Y2hpdGlldEQvaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvMjAxOC8wMy4gbWF5IGNhdCBnb2MgY3NoIC0gMjAwL00xLmpwZxVNw6F5IGPhuq90IGfDs2MgQW1hZGE2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzM3JnVybD1jaGl0aWV0ZAILD2QWAmYPFQQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzM4JnVybD1jaGl0aWV0Qi9pbWFnZXMvU2FuUGhhbS8xOSBtYXkgY29uZyBjdS8yMDE4LzA0LiBNYXkgY2F0IG1hdHVla2lrYWkvbWMxLmpwZyJNw6F5IGPhuq90IFRo4buneSBs4buxYyBNYXR1ZWtpa2FpNkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTczOCZ1cmw9Y2hpdGlldGQCDA9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTczOSZ1cmw9Y2hpdGlldD8vaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvMjAxOC8wNS4gTWF5IGNhdCBZdXRha2FpL01jMS5qcGcWTcOheSBj4bqvdCB0w7RuIFlVVEFLQTZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3MzkmdXJsPWNoaXRpZXRkAg0PZBYCZg8VBDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3NDAmdXJsPWNoaXRpZXQ9L2ltYWdlcy9TYW5QaGFtLzE5IG1heSBjb25nIGN1LzIwMTgvMDYuIEtvbWF0c3UgODB4MjU1L0sxLmpwZx9Nw6F5IGNo4bqlbiB0w7RuIEtvbWF0c3UgODB4MjAwNkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTc0MCZ1cmw9Y2hpdGlldGQCDg9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTc0MSZ1cmw9Y2hpdGlldDcvaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvMjAxOC8wNy4gSEZCIDIyMDMvaDEuanBnFE3DoXkgY2jhuqVuIEhGQiAyMjAzNkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTc0MSZ1cmw9Y2hpdGlldGQCDw9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTc0MiZ1cmw9Y2hpdGlldDovaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvMjAxOC8wOC4gUlQyNTUtNDEwMC9SdDEuanBnJk3DoXkgY2jhuqVuIHTDtG4gTmlzc2hpbmJvIFJUIDIyNS00MTAwNkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTc0MiZ1cmw9Y2hpdGlldGQCEA9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTc0MyZ1cmw9Y2hpdGlldDwvaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvMjAxOC8wOS4gTlNCIDE2MC00MTAwL05TMS5qcGcnTcOheSBjaOG6pW4gdMO0biBOaXNzaGluYm8gTlNCIDE2MC00MTAwNkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTc0MyZ1cmw9Y2hpdGlldGQCEQ9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTc0NCZ1cmw9Y2hpdGlldDcvaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvMjAxOC8xMC4gUGVnYSAyNDQvUDEuanBnHk3DoXkgxJHhu5l0IENOQyBBbWFkYSBQZWdhIDI0NDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3NDQmdXJsPWNoaXRpZXRkAhIPZBYCZg8VBDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3NDUmdXJsPWNoaXRpZXQ3L2ltYWdlcy9TYW5QaGFtLzE5IG1heSBjb25nIGN1LzIwMTgvMTEuIE1DIE0yMDYwL20xLmpwZxtNw6F5IGPhuq90IHTDtG4gQW1hZGEgTTIwNjA2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzQ1JnVybD1jaGl0aWV0ZAITD2QWAmYPFQQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzQ2JnVybD1jaGl0aWV0Oi9pbWFnZXMvU2FuUGhhbS8xOSBtYXkgY29uZyBjdS8yMDE4LzEyLiBNQyBOUyAyNTM1L21jMS5qcGcYTcOheSBj4bqvdCB0w7RuIE5TIDI1MzUgNkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTc0NiZ1cmw9Y2hpdGlldGQCFA9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTc1MyZ1cmw9Y2hpdGlldC4vaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvUEIxNzAzLzE3MDMuanBnH03DoXkgY2jhuqVuIHTDtG4gQU1BREEgSEZCIDE3MDM2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzUzJnVybD1jaGl0aWV0ZAIVD2QWAmYPFQQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzYzJnVybD1jaGl0aWV0NC9pbWFnZXMvU2FuUGhhbS8xOSBtYXkgY29uZyBjdS9OQyA5RVgvbWFjIGRhIGJhbi5qcGcWTcOheSBjaOG6pW4gdMO0biBOQzlFWDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3NjMmdXJsPWNoaXRpZXRkAhYPZBYCZg8VBDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3NjQmdXJsPWNoaXRpZXQ5L2ltYWdlcy9TYW5QaGFtLzE5IG1heSBjb25nIGN1L21heSBsb2MgdG9uL21hYyBkYSBiYW4uanBnD03DoXkgbOG7kWMgdMO0bjZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3NjQmdXJsPWNoaXRpZXRkAhcPZBYCZg8VBDZDaGlUaWV0U2FuUGhhbS5hc3B4P2FjdGlvbj1jaGl0aWV0JmlkPTE3NjUmdXJsPWNoaXRpZXQtL2ltYWdlcy9TYW5QaGFtLzE5IG1heSBjb25nIGN1L01jIDI1NjAvTTAuanBnGk3DoXkgY+G6r3QgdMO0biBBbWFkYSAyNTYwNkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTc2NSZ1cmw9Y2hpdGlldGQCGA9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTc2NiZ1cmw9Y2hpdGlldDAvaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvSEZCIDE3MDQvMTcwNC5qcGcUTcOheSBjaOG6pW4gSEZCLTE3MDQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzY2JnVybD1jaGl0aWV0ZAIZD2QWAmYPFQQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzY3JnVybD1jaGl0aWV0PC9pbWFnZXMvU2FuUGhhbS8xOSBtYXkgY29uZyBjdS9Lb21hdHN1IDgweDI1NS9tYWMgZGEgYmFuLmpwZx5Nw6F5IGNo4bqlbiBLb21hdHN1IFBIUyA4MHgyNTU2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xNzY3JnVybD1jaGl0aWV0ZAINDzwrAAkBAA8WBB8BFgAfAgIHZBYOZg9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTkwMSZ1cmw9Y2hpdGlldD0vaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvY2hheSBjb2kgY2hhbi9kYW8gY29pIGNoYW4uanBnHENow6B5LCBj4buRaSBjaG8gbcOheSBjaOG6pW42Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xOTAxJnVybD1jaGl0aWV0ZAIBD2QWAmYPFQQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xOTAyJnVybD1jaGl0aWV0Mi9pbWFnZXMvU2FuUGhhbS8xOSBtYXkgY29uZyBjdS9QdW5jaGluZyB0b29sIDIuanBnIENow6B5LCBj4buRaSBjaG8gbcOheSDEkeG7mXQgQ05DNkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTkwMiZ1cmw9Y2hpdGlldGQCAg9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTkwMyZ1cmw9Y2hpdGlldDIvaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvUHVuY2hpbmcgdG9vbCAzLmpwZxxDw7RuZyBj4bulIG3DoXkgxJHhu5l0IEFNQURBNkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTkwMyZ1cmw9Y2hpdGlldGQCAw9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTkwNCZ1cmw9Y2hpdGlldDIvaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvUHVuY2hpbmcgdG9vbCAxLmdpZhlDaMOgeSwgY+G7kWkgxJHhu5l0IEFNQURBNkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTkwNCZ1cmw9Y2hpdGlldGQCBA9kFgJmDxUENkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTkwNSZ1cmw9Y2hpdGlldCwvaW1hZ2VzL1NhblBoYW0vMTkgbWF5IGNvbmcgY3UvY29pIGRvdCAzLmpwZwxD4buRaSDEkeG7mXQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xOTA1JnVybD1jaGl0aWV0ZAIFD2QWAmYPFQQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xOTA2JnVybD1jaGl0aWV0OS9pbWFnZXMvU2FuUGhhbS8xOSBtYXkgY29uZyBjdS9jaGF5IGNvaSBjaGFuL2NvaSBjaGFuLmpwZwxD4buRaSBjaOG6pW42Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xOTA2JnVybD1jaGl0aWV0ZAIGD2QWAmYPFQQ2Q2hpVGlldFNhblBoYW0uYXNweD9hY3Rpb249Y2hpdGlldCZpZD0xOTA3JnVybD1jaGl0aWV0Li9pbWFnZXMvU2FuUGhhbS8xOSBtYXkgY29uZyBjdS9jb2kgY2hhbi9DMS5qcGcYQ+G7kWkgY2jhuqVuIGPDoWMgbG/huqFpNkNoaVRpZXRTYW5QaGFtLmFzcHg/YWN0aW9uPWNoaXRpZXQmaWQ9MTkwNyZ1cmw9Y2hpdGlldGQCDw88KwAJAQAPFgQfARYAHwJmZGQCEQ88KwAJAQAPFgQfARYAHwJmZGQCEw88KwAJAQAPFgQfARYAHwJmZGQCCw9kFgJmDxYCHwICBBYIZg9kFgJmDxUDGHd3dy50aGlldGJpZGFvdGFvLmNvbS52bgZfQmxhbmsSdGVrdHJvbml4LWxvZ28uZ2lmZAIBD2QWAmYPFQMYd3d3LnRoaWV0YmlkYW90YW8uY29tLnZuBl9CbGFuawpHYXN0ZWMuanBnZAICD2QWAmYPFQMYd3d3LnRoaWV0YmlkYW90YW8uY29tLnZuBl9CbGFuaxFsb2dvX2t5b3JpdHN1LmpwZ2QCAw9kFgJmDxUDGHd3dy50aGlldGJpZGFvdGFvLmNvbS52bgZfQmxhbmsNQmVnYS1sb2dvLmpwZ2QYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFEmN0bDAwJEltYWdlQnV0dG9uMVAyOuy3R14UsT8a8cwhLIDy52iUqR/NSDYBaKh5MHiv" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAkJg6EVaQEe49GiGeca4kGd4+3WpZQNb82rzs2KnT3rhw+M2a8V/drjpciMdUshk0IQOYxg+7wqLbAA9wTVC5BimtUYQxwpqBGSJpZFGJ5dUDeW0AmSoegDDj+0q+23ZiT6f0zWk0DD4RyL9k6J9KegiRZUWZZPaF1javhMkVDJOXu8tGmRCyyhLg21yXTAmyUEAMAjs5n+4pj8vzL3uoGARFUeZat3cU4WxlC832ZdVw==" />
+    	
+	
+	<div id="wrapper" >
+    	<div id="header_top">
+        	
+            
+            
+        </div>
+        <div id="banner">
+        	<div>
+            	<img src="Skins/banner.jpg" alt = "www.thietbidaotao.com.vn" style="width: 1024px; height: 150px"/>
+               
+            </div>
+            
+           
+            
+            
+            
+        </div>
+        <div id="navigation" style="z-index:999;">
+        	 <ul id="nav" style="width:100%; ">
+
+                                            <li> <a href="TrangChu.aspx">TRANG CHỦ</a></li>
+
+                                            
+
+                                            <li><a href="#">NÓI VỀ CHÚNG TÔI</a>
+
+                                                <ul>
+
+                                                    <li><a href="GioiThieu.aspx?gioithieu=2">Thư ngỏ &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                                                    </li>
+
+                                                    <li><a href="GioiThieu.aspx?gioithieu=3">Lĩnh vực hoạt động  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                                                    </li>
+                                                    <li><a href="GioiThieu.aspx?gioithieu=4">Quan hệ đối tác &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                                                        
+                                                    </li>
+                                                    <li><a href="GioiThieu.aspx?gioithieu=6">Cơ hội nghề nghiệp &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</a>
+
+                                                        
+                                                    </li>
+                                                </ul>
+
+                                            </li>
+                                            <li><a href="TinTuc.aspx">TIN TỨC - SỰ KIỆN</a>
+                                                
+                                             </li>
+                                            
+                                            <li><a href="#">THƯ VIỆN DOWNLOAD</a>
+                                                <ul>
+
+                                                        <li><a href="ThuVienDownload.aspx?thuvien=1">DM thiết bị dạy nghề tối thiểu</a></li>
+                                                        <li><a href="ThuVienDownload.aspx?thuvien=2">Chương trình khung</a></li>
+                                                                                                               
+                                                 </ul>
+                                            </li>
+                                            <li><a href="XemVideo.aspx">VIDEO HOẠT ĐỘNG</a>
+                                                
+                                             </li>
+                                            
+                                            <li1>
+                                                   <input name="ctl00$txtSearch" type="text" value="Nhập vào tên sản phẩm cần tìm" id="txtSearch" class="search_query" />
+                                        
+                                           </li1>
+                                            <li1><input type="image" name="ctl00$ImageButton1" id="ImageButton1" class="search_query" src="Skins/timkiem.png" /></li1>
+
+        
+
+                                        </ul>
+        	
+        </div>
+       
+       
+        <div style="height:10px">
+            
+        </div>
+        <div id="content">
+        	
+            <div style="clear:both; width:100%; height:10px"></div>
+             <div id="menutrai">
+            	<div >
+                	
+<link rel="stylesheet" type="text/css" href="sdmenu/sdmenu.css" />
+	<script type="text/javascript" src="sdmenu/sdmenu.js">
+		/***********************************************
+		* Slashdot Menu script- By DimX
+		* Submitted to Dynamic Drive DHTML code library: http://www.dynamicdrive.com
+		* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+		***********************************************/
+	</script>
+	<script type="text/javascript">
+	    // <![CDATA[
+	    var myMenu;
+	    window.onload = function () {
+	        myMenu = new SDMenu("my_menu");
+	        myMenu.init();
+	    };
+	    // ]]>
+	</script>
+
+ 
+<div style="float: left" id="my_menu" class="sdmenu">
+      <div>
+        <span>Thiết bị dạy nghề - đào tạo</span>
+        <a href="DanhMucSanPham.aspx?loaisp=0">Điện công nghiệp (31)</a>
+        <a href="DanhMucSanPham.aspx?loaisp=1">Điện dân dụng (31)</a>
+        <a href="DanhMucSanPham.aspx?loaisp=2">Tự động hóa (13)</a>
+        <a href="DanhMucSanPham.aspx?loaisp=3">Điện tử công nghiệp (10)</a>
+        <a href="DanhMucSanPham.aspx?loaisp=4">Điện tử dân dụng (8)</a>
+      
+          <a href="DanhMucSanPham.aspx?loaisp=6">Điện lạnh – kỹ thuật nhiệt (20)</a>
+          <a href="DanhMucSanPham.aspx?loaisp=7">Nước – môi trường (12)</a>
+          <a href="DanhMucSanPham.aspx?loaisp=8">Kỹ thuật lắp đặt điện (9)</a>
+          <a href="DanhMucSanPham.aspx?loaisp=9">Ô tô – xe máy (10)</a>
+          <a href="DanhMucSanPham.aspx?loaisp=10">Hàn (5)</a>
+          <a href="DanhMucSanPham.aspx?loaisp=11">Xây dựng (6)</a>
+          <a href="DanhMucSanPham.aspx?loaisp=12">Cơ khí (4)</a>
+          <a href="DanhMucSanPham.aspx?loaisp=13">Máy nông nghiệp (7)</a>
+          <a href="DanhMucSanPham.aspx?loaisp=14">Điện – máy tàu thủy (4)</a>
+          
+      </div>
+     
+      <div>
+        <span>Sửa chữa, buôn bán Máy</span>
+        <a href="DanhMucSanPham.aspx?loaisp=18">Máy công cụ (35)</a>
+        <a href="DanhMucSanPham.aspx?loaisp=19">Phụ kiện máy công cụ (7)</a>
+        
+        
+      </div>
+     <div>
+        <span>Gia công cơ khí</span>
+        <a href="DanhMucSanPham.aspx?loaisp=15">Gia công tấm (9)</a>
+        <a href="DanhMucSanPham.aspx?loaisp=16">Thang cáp, máng cáp (4)</a>
+        <a href="DanhMucSanPham.aspx?loaisp=17">Thi công kết cấu (5)</a>
+      </div>
+      <div>
+        <span>Đào tạo, chuyển giao CN</span>
+        <a href="DanhMucSanPham.aspx?loaisp=20">Lập trình PLC (0)</a>
+        <a href="DanhMucSanPham.aspx?loaisp=21">Điều khiển CNC (0)</a>
+        <a href="DanhMucSanPham.aspx?loaisp=22">Hàn (0)</a>
+       
+      </div>
+     
+    </div>
+  <div style="height:200px;width:200px">
+      <table style="height:200px;width:200px">
+          <tr>
+              <td style="height:25px; background:#f7941d/*url(../sdmenu/title.gif) repeat-x*/;border-radius:5px" align="center" colspan="3">
+            <span style="width:100%;height:25px ;color: #000 ;font-weight:bold ; font-family:Tahoma ;font-size:12px;">Xem video hoạt động</span>
+        </td>
+          </tr>
+           <tr>
+              
+               <td style="height:200px;width:200px">
+                        <object width='200' height='200'> <param name='movie' value='http://www.youtube.com/v/Gf82pfl_-n4'></param> <param name='allowFullScreen' value='true'></param> <param name='allowscriptaccess' value='always'></param> <embed src='http://www.youtube.com/v/Gf82pfl_-n4' type='application/x-shockwave-flash' allowscriptaccess='always' allowfullscreen='true' width='200' height='200'> </embed></object>
+                    </td> 
+           </tr>
+          
+          
+            
+      </table>
+      
+       
+      <div style="float: left" id="my_menu1" class="sdmenu">
+      <div>
+        <span>Thành viên</span>
+        <a href="QuanLy.aspx">Đăng nhập</a>
+        <a href="#">Quên mật khẩu</a>
+        
+          
+      </div>
+     
+      
+     
+
+       <div>
+        <span>Liên hệ với chúng tôi</span>
+        <a href="https://www.facebook.com/thietbidaynghe/">-Fanpage: facebook.com/thietbidaynghe/</a>
+         <a href="https://www.facebook.com/ngochuymachinery/">-	Fanpage: facebook.com/ngochuymachinery/</a>
+           <a href="http://thietbidaynghe.net/ ">-	Website: http://thietbidaynghe.net/ </a>
+      
+      </div>
+     
+      
+     
+    </div> 
+      
+  </div>
+ 
+  
+                    
+                </div>
+            	 
+            </div>
+            
+             <div id="center_content" >
+                  <div style="box-shadow: 5px 5px 5px #666;">
+                    
+     <div id="slider_holder" class="theme-default">
+        	<div id="slider" class="nivoSlider">
+           	 <img src="Skins/slide1.jpg" data-thumb="Skins/slide1.jpg" alt="" />
+                <a href="Skins/slide2.jpg"><img src="Skins/slide2.jpg" data-thumb="Skins/CTN1.jpg" alt="" /></a>
+                <img src="Skins/slide3.jpg" data-thumb="Skins/slide3.jpg" alt="" data-transition="slideInLeft" />
+                <img src="Skins/slide4.jpg" data-thumb="Skins/slide4.jpg" alt="" data-transition="slideInLeft"/>
+                <img src="Skins/slide5.jpg" data-thumb="Skins/slide5.jpg" alt="" data-transition="slideInLeft"/>
+                <img src="Skins/slide6.jpg" data-thumb="Skins/slide6.jpg" alt="" data-transition="slideInLeft"/>
+                <img src="Skins/slide7.jpg" data-thumb="Skins/slide7.jpg" alt="" data-transition="slideInLeft"/>
+                <img src="Skins/slide8.jpg" data-thumb="Skins/slide8.jpg" alt="" data-transition="slideInLeft"/>
+                <img src="Skins/slide9.jpg" data-thumb="Skins/slide9.jpg" alt="" data-transition="slideInLeft"/>
+                <img src="Skins/slide10.jpg" data-thumb="Skins/slide10.jpg" alt="" />
+
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>Phong cách</strong> ấn tượng <em> và </em> cá tính với <a href="SanPham.aspx?url=hot">sản phẩm nổi bật</a>. 
+            </div>
+        </div>
+    <div>
+
+    </div>
+   
+ 
+                   </div>
+            	<div class="list" style="box-shadow: 5px 5px 5px #666;">
+                	 
+    
+                <h3>THÔNG TIN SẢN PHẨM</h3>
+           
+    <div class="pb_label_home">
+            <div class="tabbar">
+              <h4 style="font-weight:bold;color:#000">Điện công nghiệp</h4>
+            </div>           
+            <div class="tabbar2"></div>
+        
+     </div> 
+    
+    <table id="ContentPlaceHolder1_dtlSanPham" cellspacing="0">
+	<tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=114&url=chitiet"><img src="images/SanPham/01 DCN/14-Bomayphatdien3pha.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Bộ thí nghiệm máy phát điện xoay chiều ba pha</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=114&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=115&url=chitiet"><img src="images/SanPham/01 DCN/15-BoTHmayphatdienmotchieu.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Bộ thí nghiệm máy phát điện một chiều</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=115&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=117&url=chitiet"><img src="images/SanPham/01 DCN/17-Bothdongcorotodayquan.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Bộ thí nghiệm động cơ 3 pha rô to dây quấn</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=117&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=119&url=chitiet"><img src="images/SanPham/01 DCN/19-Banthuchanhdieukhiendongco.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Bàn thực hành điều khiển động cơ</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=119&url=chitiet">Chi tiết...</a>
+        </div>
+        </td>
+	</tr>
+</table>
+     
+    <div class="pb_label_home">
+            <div class="tabbar">
+                <h4 style="font-weight:bold;color:#000">Tự động hóa</h4>
+                </div>           
+            <div class="tabbar2"></div>
+         </div> 
+    <table id="ContentPlaceHolder1_DataList2" cellspacing="0">
+	<tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=300&url=chitiet"><img src="/images/SanPham/03 Tudonghoa/new/mo hinh nha de xe tu dong.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Mô hình nhà để xe thông minh</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=300&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=301&url=chitiet"><img src="/images/SanPham/03 Tudonghoa/new/mo hinh thuc hanh dieu khien dien khi nen.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Bộ thí nghiệm điều khiển điện - khí nén</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=301&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=308&url=chitiet"><img src="/images/SanPham/03 Tudonghoa/new/robotphanloaisp.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Mô hình điều khiển ro bốt khoan khí nén</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=308&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=309&url=chitiet"><img src="/images/SanPham/03 Tudonghoa/new/mo hinh may phay cnc mi ni.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Mô hình máy phay CNC</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=309&url=chitiet">Chi tiết...</a>
+        </div>
+        </td>
+	</tr><tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=312&url=chitiet"><img src="/images/SanPham/03 Tudonghoa/new/thuc hanh s7300 ket noi mang slave.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Bàn thực hành kết nối mạng S7-300 nối mạng slave</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=312&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td></td><td></td><td></td>
+	</tr>
+</table>
+     
+   
+    
+     <div class="pb_label_home">
+            <div class="tabbar">
+                <h4 style="font-weight:bold;color:#000">Gia công tấm</h4>
+             </div>           
+            <div class="tabbar2"></div>
+         </div>
+    <table id="ContentPlaceHolder1_DataList15" cellspacing="0">
+	<tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1600&url=chitiet"><img src="/images/SanPham/16 gia cong co khi/gia cong dot chan.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Gia công đột dập CNC</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1600&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1601&url=chitiet"><img src="/images/SanPham/16 gia cong co khi/chan gap.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Gia công chấn, gấp</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1601&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1603&url=chitiet"><img src="/images/SanPham/16 gia cong co khi/laser cutting.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Gia công cắt laser</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1603&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1604&url=chitiet"><img src="/images/SanPham/16 gia cong co khi/dju1433382567.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Gia công lỗ ma trận</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1604&url=chitiet">Chi tiết...</a>
+        </div>
+        </td>
+	</tr>
+</table>
+    <div class="pb_label_home">
+            <div class="tabbar">
+                <h4 style="font-weight:bold;color:#000">Thang cáp, máng cáp</h4>
+             </div>           
+            <div class="tabbar2"></div>
+         </div>
+    <table id="ContentPlaceHolder1_DataList16" cellspacing="0">
+	<tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1&url=chitiet"><img src="/images/SanPham/15 Thangmangcap/thang cap 2.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Thang cáp</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1701&url=chitiet"><img src="/images/SanPham/15 Thangmangcap/mang cap 6.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máng cáp</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1701&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1702&url=chitiet"><img src="/images/SanPham/15 Thangmangcap/mang cap 2.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máng cáp</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1702&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1703&url=chitiet"><img src="/images/SanPham/15 Thangmangcap/thang cap 3.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Thang cáp</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1703&url=chitiet">Chi tiết...</a>
+        </div>
+        </td>
+	</tr>
+</table>
+    <div class="pb_label_home">
+            <div class="tabbar">
+                <h4 style="font-weight:bold;color:#000">Thi công kết cấu</h4>
+              </div>           
+            <div class="tabbar2"></div>
+         </div>
+    <table id="ContentPlaceHolder1_DataList17" cellspacing="0">
+	<tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1800&url=chitiet"><img src="/images/SanPham/16 gia cong co khi/ket cau thep.png" alt="" /></a>
+                <p style="font-weight:normal;">Khung nhà kết cấu thép</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1800&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1801&url=chitiet"><img src="/images/SanPham/16 gia cong co khi/nha thep tien che.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Thi công nhà thép tiền chế</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1801&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1803&url=chitiet"><img src="/images/SanPham/12 Cokhi/foot1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Khung chứa bình khí</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1803&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td></td>
+	</tr>
+</table>
+    <div class="pb_label_home">
+            <div class="tabbar">
+             <h4 style="font-weight:bold;color:#000">Máy công cụ</h4>
+            </div>           
+            <div class="tabbar2"></div>
+         </div>
+    <table id="ContentPlaceHolder1_DataList18" cellspacing="0">
+	<tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1717&url=chitiet"><img src="/images/SanPham/19 may cong cu/May cat S 2532/may chan s2532.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy cắt tôn S 2532</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1717&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1718&url=chitiet"><img src="/images/SanPham/19 may cong cu/May cat S 3065/m1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy cắt tôn S 3065</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1718&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1719&url=chitiet"><img src="/images/SanPham/19 may cong cu/APL 11031/z631714670254_dbb917c910cc0fe7e98985980be149d7.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy chấn tôn AAA 11031</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1719&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1720&url=chitiet"><img src="/images/SanPham/19 may cong cu/PEGA 345/P1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy đột PEGA 345</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1720&url=chitiet">Chi tiết...</a>
+        </div>
+        </td>
+	</tr><tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1730&url=chitiet"><img src="/images/SanPham/19 may cong cu/komatsu 1025/km1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy chấn komatsu PHS 110x255</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1730&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1731&url=chitiet"><img src="/images/SanPham/19 may cong cu/nisshinbo 125-3100/ns01.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy chấn Nisshinbo 125-3100</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1731&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1733&url=chitiet"><img src="/images/SanPham/19 may cong cu/APX 8025/apx1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy chấn tôn amada 8025</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1733&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1734&url=chitiet"><img src="/images/SanPham/19 may cong cu/AWBK 100x255/a1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy chấn tôn AWBK 100x255</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1734&url=chitiet">Chi tiết...</a>
+        </div>
+        </td>
+	</tr><tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1735&url=chitiet"><img src="/images/SanPham/19 may cong cu/2018/01. May cat AMADA M2045/M1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy cắt tôn AMADA M-2045</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1735&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1736&url=chitiet"><img src="/images/SanPham/19 may cong cu/2018/02. LFK CP100/f1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy chấn tôn LFK CP100-26</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1736&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1737&url=chitiet"><img src="/images/SanPham/19 may cong cu/2018/03. may cat goc csh - 200/M1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy cắt góc Amada</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1737&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1738&url=chitiet"><img src="/images/SanPham/19 may cong cu/2018/04. May cat matuekikai/mc1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy cắt Thủy lực Matuekikai</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1738&url=chitiet">Chi tiết...</a>
+        </div>
+        </td>
+	</tr><tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1739&url=chitiet"><img src="/images/SanPham/19 may cong cu/2018/05. May cat Yutakai/Mc1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy cắt tôn YUTAKA</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1739&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1740&url=chitiet"><img src="/images/SanPham/19 may cong cu/2018/06. Komatsu 80x255/K1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy chấn tôn Komatsu 80x200</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1740&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1741&url=chitiet"><img src="/images/SanPham/19 may cong cu/2018/07. HFB 2203/h1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy chấn HFB 2203</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1741&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1742&url=chitiet"><img src="/images/SanPham/19 may cong cu/2018/08. RT255-4100/Rt1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy chấn tôn Nisshinbo RT 225-4100</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1742&url=chitiet">Chi tiết...</a>
+        </div>
+        </td>
+	</tr><tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1743&url=chitiet"><img src="/images/SanPham/19 may cong cu/2018/09. NSB 160-4100/NS1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy chấn tôn Nisshinbo NSB 160-4100</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1743&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1744&url=chitiet"><img src="/images/SanPham/19 may cong cu/2018/10. Pega 244/P1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy đột CNC Amada Pega 244</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1744&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1745&url=chitiet"><img src="/images/SanPham/19 may cong cu/2018/11. MC M2060/m1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy cắt tôn Amada M2060</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1745&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1746&url=chitiet"><img src="/images/SanPham/19 may cong cu/2018/12. MC NS 2535/mc1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy cắt tôn NS 2535 </p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1746&url=chitiet">Chi tiết...</a>
+        </div>
+        </td>
+	</tr><tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1753&url=chitiet"><img src="/images/SanPham/19 may cong cu/PB1703/1703.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy chấn tôn AMADA HFB 1703</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1753&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1763&url=chitiet"><img src="/images/SanPham/19 may cong cu/NC 9EX/mac da ban.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy chấn tôn NC9EX</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1763&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1764&url=chitiet"><img src="/images/SanPham/19 may cong cu/may loc ton/mac da ban.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy lốc tôn</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1764&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1765&url=chitiet"><img src="/images/SanPham/19 may cong cu/Mc 2560/M0.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy cắt tôn Amada 2560</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1765&url=chitiet">Chi tiết...</a>
+        </div>
+        </td>
+	</tr><tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1766&url=chitiet"><img src="/images/SanPham/19 may cong cu/HFB 1704/1704.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy chấn HFB-1704</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1766&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1767&url=chitiet"><img src="/images/SanPham/19 may cong cu/Komatsu 80x255/mac da ban.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Máy chấn Komatsu PHS 80x255</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1767&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td></td><td></td>
+	</tr>
+</table>
+    <div class="pb_label_home">
+            <div class="tabbar">
+                <h4 style="font-weight:bold;color:#000">Phụ kiện máy công cụ</h4>
+             </div>           
+            <div class="tabbar2"></div>
+         </div>
+    <table id="ContentPlaceHolder1_DataList19" cellspacing="0">
+	<tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1901&url=chitiet"><img src="/images/SanPham/19 may cong cu/chay coi chan/dao coi chan.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Chày, cối cho máy chấn</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1901&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1902&url=chitiet"><img src="/images/SanPham/19 may cong cu/Punching tool 2.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Chày, cối cho máy đột CNC</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1902&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1903&url=chitiet"><img src="/images/SanPham/19 may cong cu/Punching tool 3.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Công cụ máy đột AMADA</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1903&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1904&url=chitiet"><img src="/images/SanPham/19 may cong cu/Punching tool 1.gif" alt="" /></a>
+                <p style="font-weight:normal;">Chày, cối đột AMADA</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1904&url=chitiet">Chi tiết...</a>
+        </div>
+        </td>
+	</tr><tr>
+		<td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1905&url=chitiet"><img src="/images/SanPham/19 may cong cu/coi dot 3.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Cối đột</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1905&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1906&url=chitiet"><img src="/images/SanPham/19 may cong cu/chay coi chan/coi chan.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Cối chấn</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1906&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td>
+         <div class="products">
+                
+                <a class="thumb" href="ChiTietSanPham.aspx?action=chitiet&id=1907&url=chitiet"><img src="/images/SanPham/19 may cong cu/coi chan/C1.jpg" alt="" /></a>
+                <p style="font-weight:normal;">Cối chấn các loại</p>
+               
+                
+                <a style="margin:10px;text-decoration:none; color:red;" href="ChiTietSanPham.aspx?action=chitiet&id=1907&url=chitiet">Chi tiết...</a>
+        </div>
+        </td><td></td>
+	</tr>
+</table>
+    <div class="pb_label_home">
+            <div class="tabbar">
+                <h4 style="font-weight:bold;color:#000">Lập trình PLC</h4>
+              </div>           
+            <div class="tabbar2"></div>
+         </div>
+    
+    <div class="pb_label_home">
+            <div class="tabbar">
+                    <h4 style="font-weight:bold;color:#000">Điều khiển CNC</h4>
+            </div>           
+            <div class="tabbar2"></div>
+         </div>
+    
+    <div class="pb_label_home">
+            <div class="tabbar">
+                <h4 style="font-weight:bold;color:#000">Công nghệ Hàn</h4>
+              </div>           
+            <div class="tabbar2"></div>
+         </div>
+    
+
+                </div>
+            	 
+            </div>
+           <div id="menuphai" style="z-index:999">
+         
+                <div>
+                     
+
+
+
+
+
+<table  style="border:#000 1px; border-radius:5px; background:#ffffff;">
+   
+         <td style="height:25px; background:url(../sdmenu/title.gif) repeat-x;border-radius:5px" align="center" colspan="5">
+            <span style="width:100%;height:25px ;color: #fff ;font-weight:bold ; font-family:Tahoma ;font-size:12px;">HỖ TRỢ TRỰC TUYẾN</span>
+        </td>
+     <tr>
+        
+            <tr>
+            <td  style="background:#fff;padding:5px 0 0 0" align="center" colspan="5">
+                <span style="width:100%;height:50px ;color: #ff6a00 ;font-weight:bold ; font-family:Tahoma ; font-size:12px;">KINH DOANH - DỰ ÁN</span>
+              </td>
+              </tr>
+            <tr>
+                <td  style="background:#fff;padding:5px 0 0 0" align="center" colspan="5">
+                <span style="width:100%;height:50px ;color: #006599 ;font-weight:bold ; font-family:Tahoma ; font-size:11px;">NGUYỄN QUỐC ĐÔN</span>
+               </td>
+                </tr> 
+         <tr>
+            <td  style="background:#fff;padding:5px 0 0 0" align="center" colspan="5">
+                <span style="width:100%;height:50px ;color: #000 ;font-weight:bold ; font-family:Tahoma ; font-size:11px;padding:0 0 0 10px">Mobile: 0988 017 286</span>
+                </td>
+                </tr> 
+          <tr>
+            <td  style="background:#fff;padding:5px 0 0 0" align="center" colspan="5">
+                <span style="width:100%;height:50px ;color: #000 ;font-weight:bold ; font-family:Tahoma ; font-size:11px;padding:0 0 0 10px">Tel: 04 3961 0239</span>
+                </td>
+                </tr> 
+          <tr>
+            <td  style="background:#fff;padding:5px 0 0 0" align="center" colspan="5">
+                <span style="width:100%;height:50px ;color: #000 ;font-weight:bold ; font-family:Tahoma ; font-size:11px;padding:0 0 0 10px">Email: don.ngochuy@gmail.com</span>
+                 </td>
+                </tr>
+         <tr>
+            <td  style="background:#fff;padding:5px 0 0 0" align="center" colspan="5">
+                <span style="width:100%;height:50px ;color: #006599 ;font-weight:bold ; font-family:Tahoma ; font-size:11px;">ĐẶNG THANH TIÊN</span>
+                 </td>
+                </tr>
+          <tr>
+            <td  style="background:#fff;padding:5px 0 0 0" align="center" colspan="5">
+                <span style="width:100%;height:50px ;color: #000 ;font-weight:bold ; font-family:Tahoma ; font-size:11px;padding:0 0 0 10px">Mobile: 0986 212 556</span>               
+                 </td>
+                </tr>
+         <tr>
+            <td  style="background:#fff;padding:5px 0 0 0" align="center" colspan="5">
+                <span style="width:100%;height:25px ;color: #000 ;font-weight:bold ; font-family:Tahoma ; font-size:11px;padding:0 0 0 10px">dangthanhtien278@gmail.com</span>
+                 </td>
+                </tr>
+         
+          <tr>
+            <td  style="background:#fff;padding:5px 0 0 0" align="center" colspan="5">
+                <span style="width:100%;height:25px ;color: #ff6a00 ;font-weight:bold ; font-family:Tahoma ; font-size:12px">PHỤ TRÁCH KỸ THUẬT</span>
+                 </td>
+                </tr>
+                 <tr>
+            <td  style="background:#fff;padding:5px 0 0 0" align="center" colspan="5">
+                <span style="width:100%;height:25px ;color: #006599 ;font-weight:bold ; font-family:Tahoma ; font-size:11px;">NGUYỄN VIẾT NGỌC</span>
+                 </td>
+                </tr>
+         <tr>
+            <td  style="background:#fff;padding:5px 0 0 0" align="center" colspan="5">
+                <span style="width:100%;height:25px ;color: #000 ;font-weight:bold ; font-family:Tahoma ; font-size:11px;padding:0 0 0 10px">Mobile: 0976 389 232</span>               
+                 </td>
+                </tr>
+         <tr>
+            <td  style="background:#fff;padding:5px 0 0 0" align="center" colspan="5">
+                <span style="width:100%;height:25px ;color: #000 ;font-weight:bold ; font-family:Tahoma ; font-size:11px;padding:0 0 0 10px">Email: mrngoc2286@gmail.com</span>
+                  </td>
+                </tr>
+                    
+   </tr>
+
+  
+     <tr>
+          <td style="height:30px; background:url(../sdmenu/title.gif) repeat-x;border-radius:5px" align="center" colspan="5">
+            <span style="width:100%;height:30px ;color: #fff ;font-weight:bold ; font-family:Tahoma ;font-size:14px;">ĐỐI TÁC</span>
+        </td>
+         </tr>
+      <tr>
+            <td align="center" bgcolor="#FFF4F8" colspan="5">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                    
+                            <tr>
+                                <td align="center">
+                                    <a href="www.thietbidaotao.com.vn" target="_Blank"><img style="border:0px;" src="Images/Albumdoitac/tektronix-logo.gif" width="197px" /></a></td>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td align="center">
+                                    <a href="www.thietbidaotao.com.vn" target="_Blank"><img style="border:0px;" src="Images/Albumdoitac/Gastec.jpg" width="197px" /></a></td>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td align="center">
+                                    <a href="www.thietbidaotao.com.vn" target="_Blank"><img style="border:0px;" src="Images/Albumdoitac/logo_kyoritsu.jpg" width="197px" /></a></td>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td align="center">
+                                    <a href="www.thietbidaotao.com.vn" target="_Blank"><img style="border:0px;" src="Images/Albumdoitac/Bega-logo.jpg" width="197px" /></a></td>
+                                </td>
+                            </tr>
+                        
+                </table>
+             </td>
+          </tr>
+       
+    
+
+
+    <tr>
+        <td style="height:30px; background:url(../sdmenu/title.gif) repeat-x;border-radius:5px" align="center" colspan="5">
+            <span style="width:100%;height:25px ;color: #fff ;font-weight:bold ; font-family:Tahoma ;font-size:11px">Gửi thông tin cho chúng tôi</span>
+        </td>
+    </tr>
+     <tr>
+         <td align="center" colspan="5">Người gửi</td>
+     </tr> 
+     <tr>
+         <td align="center" colspan="5">
+             &nbsp;
+         </td>
+         
+     </tr> 
+     <tr>
+         <td align="center" colspan="5"><input name="ctl00$mainright$txtnguoigui" type="text" id="mainright_txtnguoigui" /> </td>
+     </tr> 
+     <tr>
+         <td align="center" colspan="5">Địa chỉ</td>
+     </tr>  
+     <tr>
+         <td align="center" colspan="3"><input name="ctl00$mainright$txtdiachi" type="text" id="mainright_txtdiachi" /> </td>
+         
+     </tr> 
+     <tr>
+         <td align="center" colspan="5">Số điện thoại</td>
+     </tr>  
+     <tr>
+         <td align="center" colspan="5">
+             &nbsp;
+         </td>
+         
+     </tr>
+     <tr>
+         <td align="center" colspan="5"><input name="ctl00$mainright$txtSDT" type="text" id="mainright_txtSDT" /> </td>
+         
+     </tr> 
+     <tr>
+         <td align="center" colspan="5">Email</td>
+     </tr>  
+     <tr>
+         <td align="center" colspan="5"><input name="ctl00$mainright$txtEmail" type="text" id="mainright_txtEmail" /> </td>
+         
+     </tr>  
+     <tr>
+         <td align="center" colspan="5">Nội dung</td>
+     </tr>  
+     <tr>
+         <td align="center" colspan="5"><textarea name="ctl00$mainright$txtnoidung" rows="2" cols="20" id="mainright_txtnoidung">
+</textarea></td>
+         
+     </tr>  
+     <tr>
+         <td align="center" colspan="5"><input type="submit" name="ctl00$mainright$butgui" value="Gửi" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$mainright$butgui&quot;, &quot;&quot;, true, &quot;CapNhat&quot;, &quot;&quot;, false, false))" id="mainright_butgui" /></td>
+         
+     </tr>
+    <tr>
+         <td align="center" colspan="5"> </td>
+         
+     </tr>  
+     <tr>
+          <td style="height:30px; background:url(../sdmenu/title.gif) repeat-x;border-radius:5px" align="center" colspan="5">
+            <span style="width:100%;height:30px ;color: #fff ;font-weight:bold ; font-family:Tahoma ;font-size:14px;">Thống kê</span>
+        </td>
+         </tr>
+     
+       
+            
+           
+            <tr>
+                <td style="height:20px;width:20px"><img id="mainright_im1" src="Skins/user.jpg" src="" height="20" width="20" /></td>
+                <td align="left" style="height:20px">Đang xem</td>
+                <td>
+                3</td>
+            </tr>
+            <tr>
+                <td style="height:20px;width:20px"><img id="mainright_Image2" src="Skins/online.jpg" src="" height="20" width="20" /></td>
+                <td align="left" style="height:20px">Hôm nay</td>
+               <td >
+                 107</td>
+            </tr>
+     <tr>
+                <td style="height:20px;width:20px"><img id="mainright_Image3" src="Skins/homqua.jpg" src="" height="20" width="20" /></td>
+                <td align="left" style="height:20px">Hôm qua</td>
+               <td>
+                 89</td>
+            </tr>
+     <tr>
+                <td style="height:20px;width:20px"><img id="mainright_Image4" src="Skins/tuannay.jpg" src="" height="20" width="20" /></td>
+                <td align="left" style="height:20px">Tuần này</td>
+                <td>
+                 451</td>
+            </tr>
+     <tr>
+                <td style="height:20px;width:20px"><img id="mainright_Image5" src="Skins/tuantruoc.jpg" src="" height="20" width="20" /></td>
+                <td align="left" style="height:20px">Tuần trước</td>
+                <td>
+                 659</td>
+            </tr>
+    <tr>
+                <td style="height:20px;width:20px"><img id="mainright_Image6" src="Skins/thangnay.jpg" src="" height="20" width="20" /></td>
+                <td align="left" style="height:20px">Tháng này</td>
+                 <td>
+                 19,252</td>
+            </tr>
+    <tr>
+                <td style="height:20px;width:20px"><img id="mainright_Image7" src="Skins/online.jpg" src="" height="20" width="20" /></td>
+                <td align="left" style="height:20px">Tháng trước</td>
+                 <td>
+                 21,384</td>
+            </tr>
+            <tr>
+                <td style="height:20px;width:20px"><img id="mainright_Image1" src="Skins/sum.jpg" src="" height="20" width="20" /> 
+                <td align="left" style="height:20px">Số lượt truy cập</td>
+                <td>
+                 197,410</td>
+            </tr>
+               
+               
+                   
+                   
+
+          
+     
+ 
+   
+    </table>
+
+                </div>
+            	
+            </div>
+             
+        	
+           
+        </div>
+       
+    </div>
+    <div  style="width:100%;background:#555555 0 0 repeat-x;min-height:50px;float:left;">
+        
+    	<div id="footer_inline" >
+        	<div id="footer-column-1">
+                <p style="color:#ff9933; font-size:16px; font-weight:bold">THÔNG TIN LIÊN HỆ</p>
+                <p style="color:#fff">Công ty TNHH Thiết bị đào tạo & Phát triển Công nghệ Ngọc Huy</p>
+                <p style="color:#fff">Du Ngoại, Mai Lâm, Đông Anh, Hà Nội</p>
+                <p style="color:#fff">Tell: 0243 961 0239</p>
+                <p style="color:#fff">Email: ngochuy.edu@gmail.com</p>
+                <p style="color:#fff">Website: thietbidaotao.com.vn</p>
+                <p style="color:#fff">Mã số doanh nghiệp: 0101452443</p>
+                <p style="color:#fff">Đăng ký lần đầu: 24/02/2004</p>
+                <p style="color:#fff">Đăng ký thay đổi lần thứ 3: 11/05/2012</p>
+            </div> 
+            <div id="footer-column-2">
+              <p style="color:#ff9933; font-size:16px; font-weight:bold">CHÍNH SÁCH CÔNG TY</p>
+                
+               <a href="GioiThieu.aspx?gioithieu=7">Chính sách & quy định chung</a>
+                <br />
+                <a href="GioiThieu.aspx?gioithieu=8">Quy định & hình thức thanh toán</a>
+                <br />
+                <a href="GioiThieu.aspx?gioithieu=9">Chính sách vận chuyển/giao nhận/cài đặt</a>
+                <br />
+                <a href="GioiThieu.aspx?gioithieu=10">Chính sách bảo hành/bảo trì</a>
+                <br />
+                <a href="GioiThieu.aspx?gioithieu=11">Chính sách đổi/trả hàng và hoàn tiền</a>
+                <br />
+                <a href="GioiThieu.aspx?gioithieu=12">Chính sách bảo vệ thông tin của người tiêu dùng</a>
+                <br />
+                <a href="GioiThieu.aspx?gioithieu=13">Quy định chính sách xử lý khiếu nại</a>
+            </div>
+             <div id="footer-column-3">
+              <p style="color:#ff9933; font-size:16px; font-weight:bold">BẢN ĐỒ CÔNG TY</p>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59573.18501907744!2d105.8849890197609!3d21.05971531095243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a9dc36e88725%3A0xac98d7b1d2c92c8d!2zQ8O0bmcgdHkgVE5ISCBUaGnhur90IGLhu4sgxJHDoG8gdOG6oW8gdsOgIFBow6F0IHRyaeG7g24gY8O0bmcgbmdo4buHIE5n4buNYyBIdXk!5e0!3m2!1svi!2s!4v1625800225219!5m2!1svi!2s" width=400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+       
+       
+    </div>
+     <div style="width:100%;background-color :#000000;height:20px;float:left;padding:10px"><p style="color:#fff; text-align:center ">Copyright 2013 © Công ty TNHH Thiết bị đào tạo & Phát triển Công nghệ Ngọc Huy</p></div>
+       
+   
+    </form>
+     
+</body>
+    
+   
+
+
+    
+    <div id="fb-root"></div>
+        <script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.10";
+          fjs.parentNode.insertBefore(js, fjs);
+
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!--<div class="fbchatbox hidden-xs" style="position:fixed;right:10px;bottom:0;z-index:9999">
+            <div class="fb-page" data-href="https://www.facebook.com/thietbidaynghe/" data-small-header="true" data-adapt-container-width="false" data-height="300" data-width="300" data-hide-cover="true" data-show-facepile="true" data-show-posts="false" data-tabs="messages"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/thietbidaynghe/"><a href="https://www.facebook.com/thietbidaynghe/">https://www.facebook.com/thietbidaynghe/</a></blockquote></div></div>
+            <span class="hide" id="closefbchat" style="right:0px;white-space: nowrap;position:absolute;bottom:299px;width:300px;padding:7px; background: #44619D;color: #fff;cursor: pointer;">Tắt Hỗ Trợ</span>
+</div>-->
+    
+</html>

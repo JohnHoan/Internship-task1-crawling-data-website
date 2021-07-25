@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="vi-VN" prefix="og: http://ogp.me/ns#">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	
+		
+	 <link href="https://tuankhangmedical.com/wp-content/themes/TuanKhang/icon.jpg" rel="shortcut icon" type="image/x-icon" />
+	
+	<link rel="stylesheet" href="https://tuankhangmedical.com/wp-content/themes/TuanKhang/style.css">
+	
+	<link rel="pingback" href="https://tuankhangmedical.com/xmlrpc.php">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+    <title></title>
+   
+    <link rel='stylesheet' href='https://tuankhangmedical.com/wp-content/themes/TuanKhang/css/core.css' type='text/css' media='all' property='stylesheet' />
+    <link rel='stylesheet' href='https://tuankhangmedical.com/wp-content/themes/TuanKhang/css/font-awesome.min.css' type='text/css' media='all' property='stylesheet' />
+    <link rel='stylesheet' href='https://tuankhangmedical.com/wp-content/themes/TuanKhang/css/uikit.modify.css' type='text/css' media='all' property='stylesheet' />
+    <link rel='stylesheet' href='https://tuankhangmedical.com/wp-content/themes/TuanKhang/css/reset.css' type='text/css' media='all' property='stylesheet' /> 
+    <link rel='stylesheet' href='https://tuankhangmedical.com/wp-content/themes/TuanKhang/css/flexslider.css' type='text/css' media='all' property='stylesheet' />
+    <link rel='stylesheet' href='https://tuankhangmedical.com/wp-content/themes/TuanKhang/css/slick.css' type='text/css' media='all' property='stylesheet' />
+    <link rel='stylesheet' href='https://tuankhangmedical.com/wp-content/themes/TuanKhang/css/slick-theme.css' type='text/css' media='all' property='stylesheet' />
+    <link rel='stylesheet' href='https://tuankhangmedical.com/wp-content/themes/TuanKhang/css/library.css' type='text/css' media='all' property='stylesheet' />
+    <link rel='stylesheet' href='https://tuankhangmedical.com/wp-content/themes/TuanKhang/css/style.css' type='text/css' media='all' property='stylesheet' />
+    <link rel='stylesheet' href='https://tuankhangmedical.com/wp-content/themes/TuanKhang/css/owl.carousel.css' type='text/css' media='all' property='stylesheet' />
+
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/jquery.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/jquery-migrate-1.2.1.min.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/uikit.min.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/owl.carousel.js'></script>
+	<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin Công ty TNHH Dược và Thiết bị y tế Tuấn Khang &raquo;" href="https://tuankhangmedical.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="Dòng phản hồi Công ty TNHH Dược và Thiết bị y tế Tuấn Khang &raquo;" href="https://tuankhangmedical.com/comments/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/tuankhangmedical.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://tuankhangmedical.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://tuankhangmedical.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='https://tuankhangmedical.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js?ver=5.8' id='jquery-js'></script>
+<link rel="https://api.w.org/" href="https://tuankhangmedical.com/wp-json/" /></head>
+<body>
+
+	<!-- PC HEADER -->
+<header class="pc-header uk-visible-large">
+	<section class="topbar">
+		<div class="uk-container uk-container-center">
+			<div class="uk-flex uk-flex-middle uk-flex-space-between">
+				<div class="uk-clearfix header-contact">
+					<div class="hotline">
+						<span class="label"><i class="lotus-icon-phone"></i> Hotline: </span>
+						<a href="tel: 0902 10 2228" title="Hotline">0902 10 2228</a>
+					</div>
+					<div class="email">
+						<span class="label"><i class="fa fa-envelope-o"></i> Email: </span>
+						<a href="mailto:tuankhangdental@gmail.com" title="Email">tuankhangdental@gmail.com</a>
+					</div>
+				</div>
+				
+				<div class="uk-clearfix header-toolbox">
+					<div class="uk-button-dropdown pc-language" data-uk-dropdown="{mode:'click', pos : 'bottom-center'}">
+				        <a class="uk-button btn open-language" title="English"><span>Ngôn ngữ</span></a>
+				        <div class="uk-dropdown box">
+<ul class="uk-list menu-lang">
+	<li class="vi"><a href="#" title="Vietnamese">Vietnamese</a></li>
+	<li class="en"><a href="#" title="English">English</a></li>
+</ul>
+				        </div>
+				    </div>
+
+				    <div class="uk-button-dropdown pc-search" data-uk-dropdown="{mode:'click', pos : 'bottom-right'}">
+				        <a class="uk-button btn open-search" title="Tìm kiếm<"><span>Tìm kiếm</span></a>
+			        	<div class="uk-dropdown wrap-form">
+       	                 <form action="https://tuankhangmedical.com" method="get" class="uk-form form">
+							<input type="text" name="s" id="s" class="uk-width-1-1 input-text" placeholder="Nhập từ khóa tìm kiếm ..." />
+							<button type="submit" name="" value="" class="btn-submit">Tìm</button>
+						</form>
+				        </div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="upper" data-uk-sticky="">
+		<div class="uk-container uk-container-center">
+			<div class="uk-flex uk-flex-middle">
+				<!-- Các trang về tour dung logo-1.png -->
+								<p class="logo"><a href="https://tuankhangmedical.com" title="Công ty TNHH Dược và Thiết bị y tế Tuấn Khang"><img src="https://tuankhangmedical.com/wp-content/themes/TuanKhang/image/logo.png" alt="Công ty TNHH Dược và Thiết bị y tế Tuấn Khang" /></a><span class="uk-hidden">Công ty TNHH Dược và Thiết bị y tế Tuấn Khang</span></p>
+												<nav class="main-nav">
+                    
+<ul class="uk-navbar-nav uk-clearfix main-menu">
+
+
+ <li> <a href="https://tuankhangmedical.com/" title="Trang chủ">Trang chủ</a><div class="dropdown-menu"><ul class="uk-list submenu"></ul></li><li> <a href="https://tuankhangmedical.com/gioi-thieu" title="Giới thiệu">Giới thiệu</a><div class="dropdown-menu"><ul class="uk-list submenu"></ul></li><li> <a href="https://tuankhangmedical.com/san-pham" title="Sản phẩm">Sản phẩm</a><div class="dropdown-menu"><ul class="uk-list submenu"><li> <a href="https://tuankhangmedical.com/implant" title="Implant">Implant</a><ul class="uk-list uk-clearfix submenu list-subchild"><li> <a href="https://tuankhangmedical.com/yes-biotech-han-quoc" title="Yes Biotech (Hàn Quốc)">Yes Biotech (Hàn Quốc)</a></li><li> <a href="https://tuankhangmedical.com/brat-phap" title="Brat (Pháp)">Brat (Pháp)</a></li><li> <a href="https://tuankhangmedical.com/my-q" title="My Q (Hàn Quốc)">My Q (Hàn Quốc)</a></li><li> <a href="https://tuankhangmedical.com/multysystem" title="Multysystem (Italy)">Multysystem (Italy)</a></li></ul></li><li> <a href="https://tuankhangmedical.com/vat-lieu-nha-khoa" title="Vật liệu nha khoa">Vật liệu nha khoa</a><ul class="uk-list uk-clearfix submenu list-subchild"><li> <a href="https://tuankhangmedical.com/bot-xuong-mang-xuong" title="Bột xương, màng xương">Bột xương, màng xương</a></li><li> <a href="https://tuankhangmedical.com/vat-lieu-dem-ham" title="Vật liệu đệm hàm">Vật liệu đệm hàm</a></li><li> <a href="https://tuankhangmedical.com/vat-lieu-han-composite" title="Vật liệu hàn composite">Vật liệu hàn composite</a></li><li> <a href="https://tuankhangmedical.com/vat-lieu-noi-nha" title="Vật liệu nội nha">Vật liệu nội nha</a></li><li> <a href="https://tuankhangmedical.com/vat-lieu-chinh-nha" title="Vật liệu chỉnh nha">Vật liệu chỉnh nha</a></li><li> <a href="https://tuankhangmedical.com/vat-lieu-chong-e-buot" title="Vật liệu chống ê buốt">Vật liệu chống ê buốt</a></li><li> <a href="https://tuankhangmedical.com/vat-lieu-gan-rang" title="Vật liệu gắn răng">Vật liệu gắn răng</a></li><li> <a href="https://tuankhangmedical.com/chat-lay-dau" title="Chất lấy dấu">Chất lấy dấu</a></li><li> <a href="https://tuankhangmedical.com/chot-thach-anh" title="Chốt thạch anh">Chốt thạch anh</a></li></ul></li><li> <a href="https://tuankhangmedical.com/thiet-bi-nha-khoa" title="Thiết bị nha khoa">Thiết bị nha khoa</a><ul class="uk-list uk-clearfix submenu list-subchild"><li> <a href="https://tuankhangmedical.com/may-cay-implant" title="Máy cấy Implant">Máy cấy Implant</a></li><li> <a href="https://tuankhangmedical.com/may-chup-phim-x-quang" title="Máy chụp phim X-quang">Máy chụp phim X-quang</a></li><li> <a href="https://tuankhangmedical.com/may-ct-conbeam" title="Máy CT Conbeam">Máy CT Conbeam</a></li><li> <a href="https://tuankhangmedical.com/may-cat-xuong" title="Máy cắt xương">Máy cắt xương</a></li><li> <a href="https://tuankhangmedical.com/may-laser" title="Máy Laser">Máy Laser</a></li></ul></li></ul></li><li> <a href="#" title="Dịch Vụ">Dịch Vụ</a><div class="dropdown-menu"><ul class="uk-list submenu"><li> <a href="https://tuankhangmedical.com/dich-vu-ho-tro-phau-thuat" title="Dịch vụ hỗ trợ phẫu thuật">Dịch vụ hỗ trợ phẫu thuật</a><ul class="uk-list uk-clearfix submenu list-subchild"></ul></li><li> <a href="https://tuankhangmedical.com/dich-vu-huong-dan-khach-hang-su-dung-san-pham-tai-phong-kham-va-cong-ty" title="Hướng dẫn sử dụng sản phẩm">Hướng dẫn sử dụng sản phẩm</a><ul class="uk-list uk-clearfix submenu list-subchild"></ul></li></ul></li><li> <a href="https://tuankhangmedical.com/du-an" title="Dự án">Dự án</a><div class="dropdown-menu"><ul class="uk-list submenu"></ul></li><li> <a href="https://tuankhangmedical.com/tin-tuc" title="Tin tức">Tin tức</a><div class="dropdown-menu"><ul class="uk-list submenu"></ul></li><li> <a href="https://tuankhangmedical.com/tuyen-dung" title="Tuyển dụng">Tuyển dụng</a><div class="dropdown-menu"><ul class="uk-list submenu"></ul></li><li> <a href="https://tuankhangmedical.com/lien-he" title="Liên hệ">Liên hệ</a><div class="dropdown-menu"><ul class="uk-list submenu"></ul></li></ul>
+</nav>
+</div>
+		</div>
+		<div class="upper-bg"></div>
+	</section>
+</header><!-- .pc-header -->
+
+<!-- MOBILE HEADER -->
+
+<section class="uk-hidden-large mobile-header" data-uk-sticky="">
+	<section class="upper">
+		<a class="open-offcanvas" href="#" class="offcanvas" data-uk-offcanvas="{target:'#offcanvas'}">
+			<span>Menu</span>
+		</a>
+		<div class="logo"><a href="https://tuankhangmedical.com" title="Công ty TNHH Dược và Thiết bị y tế Tuấn Khang"><img src="https://tuankhangmedical.com/wp-content/themes/TuanKhang/image/logo.png" alt="Công ty TNHH Dược và Thiết bị y tế Tuấn Khang" /></a></div>
+	</section>
+
+</section>
+	<section id="body">
+				<div id="homepage" class="page-body">
+	<section class="slide-1">
+			<section class="main-slideshow">
+		<div class="uk-slidenav-position" data-uk-slideshow="{autoplay: true, autoplayInterval: 2500, animation: 'fade'}">
+			<ul class="uk-slideshow">
+ 
+				<li>
+					<a href="#" title="Công ty TNHH Dược và Thiết bị y tế Tuấn Khang" class="image img-cover"><img alt="Công ty TNHH Dược và Thiết bị y tế Tuấn Khang"  src="http://tuankhangmedical.com/wp-content/themes/TuanKhang/image/banner-b1-2-.jpg" /></a>
+				</li>
+ 
+				<li>
+					<a href="#" title="Công ty TNHH Dược và Thiết bị y tế Tuấn Khang" class="image img-cover"><img alt="Công ty TNHH Dược và Thiết bị y tế Tuấn Khang"  src="http://tuankhangmedical.com/wp-content/themes/TuanKhang/image/banner-b1-1-.png" /></a>
+				</li>
+							</ul>
+			<a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+			<a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+		</div>
+	</section>
+		</section>
+
+	<section class="homepage-about">
+		<div class="uk-grid  uk-grid-collapse uk-grid uk-grid-width-large-1-2">
+												
+			<section class="aboutus">
+				<div class="panel-body">
+					<article class="intro">
+						<h3 class="title"><a href="#" title="CÂU CHUYỆN VỀ TUẤN KHANG">CÂU CHUYỆN VỀ TUẤN KHANG</a></h3>
+						<div class="description" style="font-size: 12pt;color: #ffffff;line-height: 140%;" id="cauchuyentuankhangx">
+                            <p><em>Bằng khát vọng nâng cao chất lượng dịch vụ, cung cấp các sản phẩm tốt, phù hợp với nhu cầu và khả năng của khách hàng, Công ty TNHH Dược và Thiết bị Y tế Tuấn Khang nỗ lực mang đến cộng đồng những sản phẩm uy tín, chất lượng bằng chính trách nhiệm, sự chân thành, tình yêu và sự trân trọng. Chúng tôi phấn đấu trở thành đơn vị phân phối độc quyền, uy tín, là bạn hàng tin cậy, lâu dài và bền vững.</em></p>
+<p><strong>Với TUẤN KHANG, kinh doanh không chỉ là việc bán hàng, đó còn là việc thấu hiểu và sẻ chia khó khăn với bạn hàng; tư vấn, giúp đỡ và giải quyết vướng mắc cho khách hàng; đó là sự đồng hành và thu phục lòng người. Chúng tôi coi trọng giá trị nhân văn, tin vào giá trị tốt đẹp được tạo nên từ hiệu quả đóng góp cho xã hội, từ sự hài lòng của khách hàng hơn là khẩu hiệu suông về phương châm sống và làm việc.</strong></p>
+                        </div>
+						<div class="readmore" style="padding-top: 25px;padding-bottom: 10px;">
+							<a href="https://tuankhangmedical.com/gioi-thieu" title="CÂU CHUYỆN VỀ TUẤN KHANG" class="btn-readmore">
+								Xem thêm
+							</a>
+						</div>
+					</article>
+				</div>
+			</section>
+											</div>
+	</section>
+<style>
+#cauchuyentuankhangx p {
+    margin: 20px auto 0px;
+    text-align: justify;
+}
+</style>
+
+
+
+				
+	<section class="h-product">
+		<div class="uk-container uk-container-center">
+			<div class="h-panel-head">
+				<h3 class="heading-2"><a href="https://tuankhangmedical.com/san-pham" title="Sản phẩm">Sản phẩm</a></h3>
+				<p></p>
+			</div>
+
+						<div id="product-solution" data-scroll="scroll2">
+				<div class="grid">
+					<div class="grid-sizer"></div>
+					<div class="grid-item">
+						<div class="inner">
+                            <div class="image">
+                                <a href="https://tuankhangmedical.com/implant-yes-biotech.html"><img alt="Implant Yes Biotech"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/IMG_7108-wpcf_170x240.jpg" /></a>
+                            </div>
+							<h3><a title="Implant Yes Biotech" href="https://tuankhangmedical.com/implant-yes-biotech.html">Implant Yes Biotech</a></h3>
+							<div class="view-more">
+								<a title="Implant Yes Biotech" href="https://tuankhangmedical.com/implant-yes-biotech.html">Xem thêm</a>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item">
+						<div class="inner">
+                            <div class="image">
+                                <a href="https://tuankhangmedical.com/brat-implant.html"><img alt="Brat Implant"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/add-brat1-wpcf_169x240.png" /></a>
+                            </div>
+							<h3><a title="Brat Implant" href="https://tuankhangmedical.com/brat-implant.html">Brat Implant</a></h3>
+							<div class="view-more">
+								<a title="Brat Implant" href="https://tuankhangmedical.com/brat-implant.html">Xem thêm</a>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item">
+						<div class="inner">
+                            <div class="image">
+                                <a href="https://tuankhangmedical.com/implant-my-q-tissue-level.html"><img alt="MY - Q Implant"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/myq-wpcf_137x240.jpg" /></a>
+                            </div>
+							<h3><a title="MY - Q Implant" href="https://tuankhangmedical.com/implant-my-q-tissue-level.html">MY - Q Implant</a></h3>
+							<div class="view-more">
+								<a title="MY - Q Implant" href="https://tuankhangmedical.com/implant-my-q-tissue-level.html">Xem thêm</a>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item">
+						<div class="inner">
+                            <div class="image">
+                                <a href="https://tuankhangmedical.com/may-chup-x-quang-nha-khoa-cam-tay-x-cam-hdx.html"><img alt="Máy chụp X-quang nha khoa cầm tay X CAM (HDX)"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/IMG_7524-scaled-wpcf_180x240.jpg" /></a>
+                            </div>
+							<h3><a title="Máy chụp X-quang nha khoa cầm tay X CAM (HDX)" href="https://tuankhangmedical.com/may-chup-x-quang-nha-khoa-cam-tay-x-cam-hdx.html">Máy chụp X-quang nha khoa cầm tay X CAM (HDX)</a></h3>
+							<div class="view-more">
+								<a title="Máy chụp X-quang nha khoa cầm tay X CAM (HDX)" href="https://tuankhangmedical.com/may-chup-x-quang-nha-khoa-cam-tay-x-cam-hdx.html">Xem thêm</a>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item">
+						<div class="inner">
+                            <div class="image">
+                                <a href="https://tuankhangmedical.com/implant-multysystem.html"><img alt="Implant MultySystem"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/Untitled-18-wpcf_436x240.png" /></a>
+                            </div>
+							<h3><a title="Implant MultySystem" href="https://tuankhangmedical.com/implant-multysystem.html">Implant MultySystem</a></h3>
+							<div class="view-more">
+								<a title="Implant MultySystem" href="https://tuankhangmedical.com/implant-multysystem.html">Xem thêm</a>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item">
+						<div class="inner">
+                            <div class="image">
+                                <a href="https://tuankhangmedical.com/mang-collagen-tu-tieu-inter-collagen-guide.html"><img alt="Màng Collagen tự tiêu Inter Collagen® Guide"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/mang-colaagen-tu-tieu-e1623830176886-wpcf_353x240.png" /></a>
+                            </div>
+							<h3><a title="Màng Collagen tự tiêu Inter Collagen® Guide" href="https://tuankhangmedical.com/mang-collagen-tu-tieu-inter-collagen-guide.html">Màng Collagen tự tiêu Inter Collagen® Guide</a></h3>
+							<div class="view-more">
+								<a title="Màng Collagen tự tiêu Inter Collagen® Guide" href="https://tuankhangmedical.com/mang-collagen-tu-tieu-inter-collagen-guide.html">Xem thêm</a>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item">
+						<div class="inner">
+                            <div class="image">
+                                <a href="https://tuankhangmedical.com/bot-xuong-xop-vo-co-inteross-syringe.html"><img alt="Bột xương xốp vô cơ InterOss® Syringe"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/bot-xuong-xop-vo-co-syringe1-wpcf_454x240.png" /></a>
+                            </div>
+							<h3><a title="Bột xương xốp vô cơ InterOss® Syringe" href="https://tuankhangmedical.com/bot-xuong-xop-vo-co-inteross-syringe.html">Bột xương xốp vô cơ InterOss® Syringe</a></h3>
+							<div class="view-more">
+								<a title="Bột xương xốp vô cơ InterOss® Syringe" href="https://tuankhangmedical.com/bot-xuong-xop-vo-co-inteross-syringe.html">Xem thêm</a>
+							</div>
+						</div>
+					</div>
+					<div class="grid-item">
+						<div class="inner">
+                            <div class="image">
+                                <a href="https://tuankhangmedical.com/tokuyama-rebase-ii-vat-lieu-dem-ham-truc-tiep.html"><img alt="TOKUYAMA REBASE II - Vật liệu đệm hàm trực tiếp"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/dem-ham-tt-2-wpcf_320x240.png" /></a>
+                            </div>
+							<h3><a title="TOKUYAMA REBASE II - Vật liệu đệm hàm trực tiếp" href="https://tuankhangmedical.com/tokuyama-rebase-ii-vat-lieu-dem-ham-truc-tiep.html">TOKUYAMA REBASE II - Vật liệu đệm hàm trực tiếp</a></h3>
+							<div class="view-more">
+								<a title="TOKUYAMA REBASE II - Vật liệu đệm hàm trực tiếp" href="https://tuankhangmedical.com/tokuyama-rebase-ii-vat-lieu-dem-ham-truc-tiep.html">Xem thêm</a>
+							</div>
+						</div>
+					</div>
+                    
+                </div>
+				<div class="text-center">
+					<a title="Sản phẩm" class="btn-all text-uppercase" href="https://tuankhangmedical.com/san-pham">Xem toàn bộ sản phẩm</a>
+				</div>
+			</div>
+					</div><!-- panel-body -->
+	</section><!-- h-product -->
+	
+                            <section class="system-new">
+                <div class="uk-container uk-container-center">
+                    <div class="uk-grid uk-grid-small uk-grid-small-1-1 uk-grid-width-medium-1-2">
+                        <div class="box-left">
+                            <div class="thumb">
+                                <img src="https://tuankhangmedical.com/wp-content/themes/TuanKhang/image/vnn-2.png" alt="Phân Phối">
+                            </div>
+                        </div>
+                        <div class="box-right">
+                            <div class="panel-head">
+                                <h3 class="heading-2"><a href="#" title="Hệ thống phân phối">HỆ THỐNG PHÂN PHỐI</a></h3>
+
+                            </div>
+                            <div class="panel-body"><p style="text-align: left;"><strong>Công ty TNHH Dược và Thiết bị Y tế Tuấn Khang được thành lập vào tháng 6 năm 2018. Chúng tôi hoạt động trong lĩnh vực nhập khẩu, Phân phối các sản phẩm về Dược phẩm, Thiết bị y tế, Thiết bị nha khoa, công nghệ cấy ghép nha khoa, chỉnh hình răng …</strong></p>
+<p style="text-align: left;">Mong muốn khẳng định niềm tin, tạo dựng uy tín và đưa các công nghệ tân tiến, hiện đại nhất thế giới trong lĩnh vực y khoa ở các nước phát triển như: Pháp, Đức, Ý, Thuỵ Sỹ, Mỹ, Nhật Bản, Hàn Quốc,.. nhằm cung cấp cho các chuyên gia, Y bác sĩ, bệnh viện, phòng khám trên toàn quốc, đáp ứng kịp thời xu hướng và nhu cầu của đông đảo khách hàng.</p>
+<p style="text-align: left;">Bên cạnh đó, Công ty không ngừng tìm kiếm, đóng góp cho ngành nha khoa và đưa ra những giải pháp cùng sản phẩm phù hợp với xu thế hiện nay.</p>
+<p style="text-align: left;">Công ty luôn tự hào và vinh dự khi được trở thành nhà phân phối độc quyền của hãng<em> Implant Brat Pháp, Implant Platon Nhật Bản, Implant YesBiotech Hàn Quốc, Tập đoàn Nha khoa Tokuyama Japan.</em></p>
+<p style="text-align: left;">Với phương châm “<strong><em>Trao Niềm Tin &#8211; Nhận Giá Trị  </em></strong>”, Công ty Chúng tôi luôn đặt Chất lượng Sản phẩm, Chất lượng dịch vụ làm trọng tâm, coi khách hàng là Người Thân với mục tiêu trở thành Công ty có tên tuổi trong lĩnh vực Y tế hoàn hảo nhất tại Việt Nam.</p>
+</div>
+                        </div><!-- box-right -->
+                    </div>
+                </div><!-- container -->
+            </section>
+    
+
+	    <section class="h-news home-box-office">
+        <div class="uk-container uk-container-center">
+            <div class="h-panel-head">
+                <h3 class="heading-2">Hành trình thực hiện ước mơ</h3>
+            </div>
+            <div class="home-box-content zing-content text-center">
+                            </div>
+            <div class="home-office-list">
+                <div class="home-office-item">
+                    <p>
+                        <span class="counter" data-count="5000">5000</span>+
+                    </p>
+                    <p>Khách Hàng</p>
+                </div>
+                <div class="home-office-item">
+                    <p>
+                        <span class="counter" data-count="30">30</span>+
+                    </p>
+                    <p>HÃNG SẢN XUẤT</p>
+                </div>
+                <div class="home-office-item">
+                    <p>
+                        <span class="counter" data-count="35">35</span>+
+                    </p>
+                    <p>CONTAINER MỖI NĂM</p>
+                </div>
+				<div class="home-office-item">
+                    <p>
+                        <span class="counter" data-count="24">24</span>/<span class="counter" data-count="7">7</span>
+                    </p>
+                    <p>Hỗ trợ</p>
+                </div>
+                <div class="home-office-item">
+                    <p>
+                        <span class="counter" data-count="10">10</span>+
+                    </p>
+                    <p>Năm Kinh nghiệm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/counterup-min.js"></script>
+    <script>
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    </script>
+
+				
+	<section class="h-news h-project">
+		<div class="uk-container uk-container-center">
+			<div class="h-panel-head">
+				<h3 class="heading-2">Dự án</h3>
+				<p></p>
+			</div>
+						<div class="panel-body">
+				<ul class="uk-list uk-clearfix uk-grid uk-grid-medium list-news">
+              										
+<li class="uk-width-large-1-3 uk-width-small-1-1 uk-width-meidum-1-3">
+	<div class="panel-box">
+		<div class="img-cover image">
+			<img alt="Dự Án Bệnh Viện Hà Nam"  src="http://tuankhangmedical.com/wp-content/themes/TuanKhang/image/project-1.png" />		</div>
+		<div class="heading-1 uk-text-center">
+            <a style="color:#333;font-size:14px;" href="#" title="Dự Án Bệnh Viện Hà Nam">Dự Án Bệnh Viện Hà Nam</a>
+        </div>
+	</div>
+</li>
+              										
+<li class="uk-width-large-1-3 uk-width-small-1-1 uk-width-meidum-1-3">
+	<div class="panel-box">
+		<div class="img-cover image">
+			<img alt="Dự Án Bệnh Viện Dân Y"  src="https://tuankhangmedical.com:443/wp-content/themes/TuanKhang/image/du-an-tai-benh-vien-dan-y-120-bac-lieu-1--wpcf_383x250.jpg" />		</div>
+		<div class="heading-1 uk-text-center">
+            <a style="color:#333;font-size:14px;" href="#" title="Dự Án Bệnh Viện Dân Y">Dự Án Bệnh Viện Dân Y</a>
+        </div>
+	</div>
+</li>
+              										
+<li class="uk-width-large-1-3 uk-width-small-1-1 uk-width-meidum-1-3">
+	<div class="panel-box">
+		<div class="img-cover image">
+			<img alt="DỰ ÁN TẠI BỆNH VIỆN PHỤ SẢN TRUNG ƯƠNG"  src="https://tuankhangmedical.com:443/wp-content/themes/TuanKhang/image/du-an-benh-vien-trung-uong-hue-wpcf_383x250.jpg" />		</div>
+		<div class="heading-1 uk-text-center">
+            <a style="color:#333;font-size:14px;" href="#" title="DỰ ÁN TẠI BỆNH VIỆN PHỤ SẢN TRUNG ƯƠNG">DỰ ÁN TẠI BỆNH VIỆN PHỤ SẢN TRUNG ƯƠNG</a>
+        </div>
+	</div>
+</li>
+              										
+<li class="uk-width-large-1-3 uk-width-small-1-1 uk-width-meidum-1-3">
+	<div class="panel-box">
+		<div class="img-cover image">
+			<img alt="DỰ ÁN BỆNH VIỆN ĐA KHOA QUỐC TẾ THU CÚC"  src="https://tuankhangmedical.com:443/wp-content/themes/TuanKhang/image/benh-vien-thu-cuc-wpcf_383x250.jpg" />		</div>
+		<div class="heading-1 uk-text-center">
+            <a style="color:#333;font-size:14px;" href="#" title="DỰ ÁN BỆNH VIỆN ĐA KHOA QUỐC TẾ THU CÚC">DỰ ÁN BỆNH VIỆN ĐA KHOA QUỐC TẾ THU CÚC</a>
+        </div>
+	</div>
+</li>
+              										
+<li class="uk-width-large-1-3 uk-width-small-1-1 uk-width-meidum-1-3">
+	<div class="panel-box">
+		<div class="img-cover image">
+			<img alt="DỰ ÁN TẠI BỆNH VIỆN THẨM MỸ KANGNAM"  src="https://tuankhangmedical.com:443/wp-content/themes/TuanKhang/image/5a605c47938572db2b94-wpcf_383x250.jpg" />		</div>
+		<div class="heading-1 uk-text-center">
+            <a style="color:#333;font-size:14px;" href="#" title="DỰ ÁN TẠI BỆNH VIỆN THẨM MỸ KANGNAM">DỰ ÁN TẠI BỆNH VIỆN THẨM MỸ KANGNAM</a>
+        </div>
+	</div>
+</li>
+              										
+<li class="uk-width-large-1-3 uk-width-small-1-1 uk-width-meidum-1-3">
+	<div class="panel-box">
+		<div class="img-cover image">
+			<img alt="BỆNH VIỆN BÍCH NGỌC"  src="https://tuankhangmedical.com:443/wp-content/themes/TuanKhang/image/benh-vien-bich-ngoc-nam-dinh-wpcf_383x250.jpg" />		</div>
+		<div class="heading-1 uk-text-center">
+            <a style="color:#333;font-size:14px;" href="#" title="BỆNH VIỆN BÍCH NGỌC">BỆNH VIỆN BÍCH NGỌC</a>
+        </div>
+	</div>
+</li>
+  
+				</ul>
+			</div><!-- panel-body -->
+					</div>
+	</section><!-- h-news -->
+	    <section class="h-partner">
+        <div class="partner">
+            <div class="uk-container uk-container-center">
+                <div class="h-panel-head">
+                    <h3 class="heading-2">Đối tác của TUẤN KHANG</h3>
+                </div>
+                                                    <section class="partner-section">
+                        <div class="uk-container uk-container-center">
+                            <section class="panel-body">
+                                <div class="uk-slidenav-position">
+                                    <div class="uk-slider-container">
+                                        <ul class="uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-small-1-3 uk-grid-width-medium-1-4 uk-grid-width-large-1-5 uk-grid-width-xlarge-1-6">
+ 
+<li>
+    <div class="thumb">
+        <a class="image img-scaledown" href="#" title="Đối tác của Tuấn Khang"><img alt="Đối tác của Tuấn Khang"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/doi-tac-cam-tu-dental-wpcf_95x95.jpg" /></a>
+    </div>
+</li>
+ 
+<li>
+    <div class="thumb">
+        <a class="image img-scaledown" href="#" title="Đối tác của Tuấn Khang"><img alt="Đối tác của Tuấn Khang"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/61659833_2118506248248455_3292309551570747392_n-wpcf_95x95.jpg" /></a>
+    </div>
+</li>
+ 
+<li>
+    <div class="thumb">
+        <a class="image img-scaledown" href="#" title="Đối tác của Tuấn Khang"><img alt="Đối tác của Tuấn Khang"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/22045593_1062349673868596_5532610515613069391_n-wpcf_95x95.jpg" /></a>
+    </div>
+</li>
+ 
+<li>
+    <div class="thumb">
+        <a class="image img-scaledown" href="#" title="Đối tác của Tuấn Khang"><img alt="Đối tác của Tuấn Khang"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/66220804_1132158790300644_5619640028763258880_n-wpcf_95x95.png" /></a>
+    </div>
+</li>
+ 
+<li>
+    <div class="thumb">
+        <a class="image img-scaledown" href="#" title="Đối tác của Tuấn Khang"><img alt="Đối tác của Tuấn Khang"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/143471721_100909641995513_7094059410130163259_n-wpcf_95x95.jpg" /></a>
+    </div>
+</li>
+ 
+<li>
+    <div class="thumb">
+        <a class="image img-scaledown" href="#" title="Đối tác của Tuấn Khang"><img alt="Đối tác của Tuấn Khang"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/novocol_1.png" /></a>
+    </div>
+</li>
+ 
+<li>
+    <div class="thumb">
+        <a class="image img-scaledown" href="#" title="Đối tác của Tuấn Khang"><img alt="Đối tác của Tuấn Khang"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/dentsply_1.png" /></a>
+    </div>
+</li>
+ 
+<li>
+    <div class="thumb">
+        <a class="image img-scaledown" href="#" title="Đối tác của Tuấn Khang"><img alt="Đối tác của Tuấn Khang"  src="https://tuankhangmedical.com/wp-content/uploads/2021/06/25443059_311862582637011_7268522831584467444_n-wpcf_95x95.png" /></a>
+    </div>
+</li>
+ 
+<li>
+    <div class="thumb">
+        <a class="image img-scaledown" href="#" title="Đối tác của Tuấn Khang"></a>
+    </div>
+</li>
+ 
+<li>
+    <div class="thumb">
+        <a class="image img-scaledown" href="#" title="Đối tác của Tuấn Khang"></a>
+    </div>
+</li>
+                                         </ul>
+                                    </div>
+                                </div><!-- .slider -->
+                            </section>
+                        </div>
+                    </section><!-- .partner-section -->
+                            </div>
+        </div>
+    </section>
+</div>
+	</section><!-- #body -->
+
+	<footer id="footer">
+	<section class="ft-middle">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid uk-grid-medium">
+				<div class="uk-width-large-1-3 uk-width-medium-1-4 uk-width-small-1-1">
+					<ul class="uk-list uk-clearfix">
+						<li class="ft-head">
+							Công ty TNHH Dược và Thiết bị Y tế Tuấn Khang
+						</li>
+						<li class="ft-address">
+							Trụ sở: Số 11, Ngõ 59 Hoàng Hoa Thám, Phường Ngọc Hà, Quận Ba Đình, Thành phố Hà Nội                        </li>
+						<li class="ft-web">Mã số thuế: 0108344655 - Ngày cấp: 28/06/2018 - Nơi cấp: Sở Kế Hoạch Và Đầu Tư Tp.Hà Nội</li>
+                        <li class="ft-phone">
+							<span>Hotline: <a href="tel:0902 10 2228" title="Hà Nội">0902 10 2228</a></span>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="uk-width-large-1-4 uk-width-medium-1-4 uk-width-small-1-1">
+						<ul class="uk-list uk-clearfix">
+							<li class="ft-head">
+								Văn Phòng Giao Dịch
+							</li>
+							<li class="ft-address">
+								Số 44, Ngõ 120 Trường Chinh, Quận Đống Đa, Thành phố Hà Nội</li>
+							<li class="ft-phone">
+								<span>ĐT: <a href="tel:0247 303 9993" title="Văn Phòng Giao Dịch">0247 303 9993</a></span>
+							</li>
+							<li class="ft-email">Email: <a href="mailto:tuankhangdental@gmail.com" title="Tp Hồ chí minh">tuankhangdental@gmail.com</a></li>
+						</ul>
+				</div>
+
+				<div class="uk-width-large-1-4 uk-width-medium-1-4 uk-width-small-1-1">
+						<ul class="uk-list uk-clearfix">
+							<li class="ft-head">
+								Chính sách
+							</li>
+     <li class="ft-web"><a href="https://tuankhangmedical.com/huong-dan-mua-hang">Hướng dẫn mua hàng</a></li>
+    <li class="ft-web"><a href="https://tuankhangmedical.com/chinh-sach-giao-nhan-va-thanh-toan">Chính sách giao nhận và thanh toán</a></li>
+    <li class="ft-web"><a href="https://tuankhangmedical.com/chinh-sach-bao-hanh">Chính sách bảo hành</a></li>
+    <li class="ft-web"><a href="https://tuankhangmedical.com/chinh-sach-doi-tra-hang-va-hoan-tien">Chính sách đổi trả hàng và hoàn tiền</a></li>
+    <li class="ft-web"><a href="https://tuankhangmedical.com/chinh-sach-bao-mat">Chính sách bảo mật</a></li>
+						</ul>
+				</div>
+			</div><!-- uk-grid uk-grid-medium -->
+			<div class="uk-grid uk-grid-large mt20">
+				<div class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-1">
+					<div class="ft-sosical">
+						<div class="sl-head">
+							Kết nối với chúng tôi qua
+						</div>
+						<div class="uk-flex uk-flex-middle sl-icon">
+							<a href="https://www.facebook.com/tuankhangmedical" title="Fanpage Facebook"><img src="https://tuankhangmedical.com/wp-content/themes/TuanKhang/image/icon-1.png" alt="Fanpage"></a>
+							<a href="#" title="Twitter"><img src="https://tuankhangmedical.com/wp-content/themes/TuanKhang/image/icon-2.png" alt="Twitter"></a>
+							<a href="#" title="Google Plus"><img src="https://tuankhangmedical.com/wp-content/themes/TuanKhang/image/icon-3.png" alt="Google Plus"></a>
+							<a href="#" title="Instagram"><img src="https://tuankhangmedical.com/wp-content/themes/TuanKhang/image/icon-4.png" alt="Instagram"></a>
+							<a href="#" title="Kênh Youtube"><img src="https://tuankhangmedical.com/wp-content/themes/TuanKhang/image/icon-5.png" alt="Kênh Youtube"></a>
+						</div>
+					</div><!-- ft-sosical -->
+				</div>
+			</div>
+		</div>
+	</section><!-- ft-middle -->
+	<section class="ft-bottom">
+		<div class="uk-container uk-container-center">
+			<span>© Copyright 2021 by TUẤN KHANG. All Rights Reserved.</span>
+		</div>
+	</section><!-- ft-bottom -->
+</footer>
+
+<a class="ring-alo-phone uk-hidden-large" href="tel:0902 10 2228" title="Hotline">
+	<div class="animated infinite zoomIn ring-alo-ph-circle"></div>
+	<div class="animated infinite pulse ring-alo-ph-circle-fill"></div>
+	<div class="animated infinite tada ring-alo-ph-img-circle"></div>
+</a>
+	<div id="offcanvas" class="uk-offcanvas offcanvas">
+	<div class="uk-offcanvas-bar">
+		<form class="uk-search" action="#" data-uk-search="{}">
+		    <input class="uk-search-field" type="search" name="s" id="s" placeholder="Tìm kiếm...">
+        </form>		         
+<ul class="uk-nav uk-nav-offcanvas uk-nav uk-nav-parent-icon" data-uk-nav>		         
+<li><a href="https://tuankhangmedical.com/" aria-current="page">Trang chủ</a></li><li><a href="https://tuankhangmedical.com/gioi-thieu">Giới thiệu</a></li><li class=" uk-parent " ><a href="#" data-toggle="dropdown" class="dropdown-toggle">Sản phẩm</a><ul class="uk-nav-sub"><li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Implant</a><ul class="uk-nav-sub"><li><a href="https://tuankhangmedical.com/yes-biotech-han-quoc">Yes Biotech (Hàn Quốc)</a></li><li><a href="https://tuankhangmedical.com/brat-phap">Brat (Pháp)</a></li><li><a href="https://tuankhangmedical.com/my-q">My Q (Hàn Quốc)</a></li><li><a href="https://tuankhangmedical.com/multysystem">Multysystem (Italy)</a></li></ul></li><li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Vật liệu nha khoa</a><ul class="uk-nav-sub"><li><a href="https://tuankhangmedical.com/bot-xuong-mang-xuong">Bột xương, màng xương</a></li><li><a href="https://tuankhangmedical.com/vat-lieu-dem-ham">Vật liệu đệm hàm</a></li><li><a href="https://tuankhangmedical.com/vat-lieu-han-composite">Vật liệu hàn composite</a></li><li><a href="https://tuankhangmedical.com/vat-lieu-noi-nha">Vật liệu nội nha</a></li><li><a href="https://tuankhangmedical.com/vat-lieu-chinh-nha">Vật liệu chỉnh nha</a></li><li><a href="https://tuankhangmedical.com/vat-lieu-chong-e-buot">Vật liệu chống ê buốt</a></li><li><a href="https://tuankhangmedical.com/vat-lieu-gan-rang">Vật liệu gắn răng</a></li><li><a href="https://tuankhangmedical.com/chat-lay-dau">Chất lấy dấu</a></li><li><a href="https://tuankhangmedical.com/chot-thach-anh">Chốt thạch anh</a></li></ul></li><li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Thiết bị nha khoa</a><ul class="uk-nav-sub"><li><a href="https://tuankhangmedical.com/may-cay-implant">Máy cấy Implant</a></li><li><a href="https://tuankhangmedical.com/may-chup-phim-x-quang">Máy chụp phim X-quang</a></li><li><a href="https://tuankhangmedical.com/may-ct-conbeam">Máy CT Conbeam</a></li><li><a href="https://tuankhangmedical.com/may-cat-xuong">Máy cắt xương</a></li><li><a href="https://tuankhangmedical.com/may-laser">Máy Laser</a></li></ul></li></ul></li><li class=" uk-parent " ><a href="#" data-toggle="dropdown" class="dropdown-toggle">Dịch Vụ</a><ul class="uk-nav-sub"><li><a href="https://tuankhangmedical.com/dich-vu-ho-tro-phau-thuat">Dịch vụ hỗ trợ phẫu thuật</a></li><li><a href="https://tuankhangmedical.com/dich-vu-huong-dan-khach-hang-su-dung-san-pham-tai-phong-kham-va-cong-ty">Hướng dẫn sử dụng sản phẩm</a></li></ul></li><li><a href="https://tuankhangmedical.com/du-an">Dự án</a></li><li><a href="https://tuankhangmedical.com/tin-tuc">Tin tức</a></li><li><a href="https://tuankhangmedical.com/tuyen-dung">Tuyển dụng</a></li><li><a href="https://tuankhangmedical.com/lien-he">Liên hệ</a></li></ul>
+			</div>
+</div><!-- #offcanvas -->
+
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/slider.min.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/slideshow.min.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/slideset.min.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/tooltip.min.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/sticky.min.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/switcher.min.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/accordion.min.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/lightbox.min.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/scrollspy.min.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/slick.min.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/function.js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/themes/TuanKhang/js/library.js'></script>
+<!-- Your Plugin chat code -->
+<div id="fb-customer-chat" class="fb-customerchat"></div>
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "108890274790969");
+  chatbox.setAttribute("attribution", "biz_inbox");
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v11.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+	<script type='text/javascript' src='https://tuankhangmedical.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/tuankhangmedical.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4.1' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://tuankhangmedical.com/wp-includes/js/wp-embed.min.js?ver=5.8' id='wp-embed-js'></script>
+	
+	<!-- Don't forget analytics -->
+
+</body>
+</html>

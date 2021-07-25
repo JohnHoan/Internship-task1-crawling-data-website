@@ -1,0 +1,575 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<title>Tra cứu</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+<link href="/Content/bxslider/jquery.bxslider.css" rel="stylesheet" />
+<link href="/Content/Site.css?_v1247823178" rel="stylesheet" />
+<link href="/Content/easy-callnow-public.css" rel="stylesheet" />
+<link href="/Content/emojione.min.css" rel="stylesheet" />
+<link href="/Content/wow/animate.css" rel="stylesheet" />
+<link href="/Content/tracuu.css?_v1247823178" rel="stylesheet" />
+<link href="/Content/tracuunn.css?_v1247823178" rel="stylesheet" />
+<script src="/Content/wow/wow.min.js"></script>
+<script src="/Scripts/jquery-1.9.1.min.js"></script>
+<script src="/Scripts/bootstrap.min.js"></script>
+<script src="/Content/bxslider/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/Scripts/easy-callnow-public.js"></script>
+<script type="text/javascript" src="/Scripts/emojione.min.js"></script>
+<script src="/Content/select2/select2.min.js"></script>
+<script>
+        $("#caption1").attr("data-description", "CÔNG NGHIỆP LẮP RÁP, PHỤ TRỢ");
+        $("#caption2").attr("data-description", "MỸ PHẨM CHĂM SÓC SẮC ĐẸP VÀ SỨC KHỎE");
+        $("#caption3").attr("data-description", "SẢN PHẨM ĐIỆN ĐIỆN TỬ & PHỤ KIỆN");
+        $("#caption4").attr("data-description", "THỰC PHẨM VÀ ĐỒ UỐNG");
+    </script>
+<script>new WOW().init();</script>
+<style>
+    .title-error{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .body-error{
+        word-break: break-word;
+        height: 500px;
+        overflow: auto;
+    }
+</style>
+<div class="modal fade" id="PopupErrorDetail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" style="width: 700px;">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title"></h4>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+</div>
+<div class="col-xs-12 modal-body">
+<p class="title-error">Thông báo lỗi</p>
+<div class="col-xs-12 body-error">
+</div>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    var __app = {};
+    $(document).ajaxStart(function () {
+        if ($("#show-loading").length > 0) {
+            $("#show-loading").remove();
+        }
+
+        if ($("#show-loading").length === 0) {
+            var div = $("<div id='show-loading' style='position: fixed; z-index: 999999; top: 0; left: 0; height: 100%; width: 100%; background: rgba( 236, 236, 236, .5 ) url(/Images/indicatorbig.gif) 50% 50% no-repeat'/>");
+            div.appendTo('body');
+        }
+        $("#show-loading").fadeIn(50000);
+    });
+
+    $(document).ajaxStop(function () {
+        $("#show-loading").hide();
+    });
+    function _showErrorMsg123(msg, detail) {
+        $("#PopupErrorDetail .body-error").html(detail);
+        $('#PopupErrorDetail').modal('show');
+    }
+    function ShowLoading() {
+        if ($("#show-loading").length > 0) {
+            $("#show-loading").remove();
+        }
+
+        if ($("#show-loading").length === 0) {
+            var div = $("<div id='show-loading' style='position: fixed; z-index: 999999; top: 0; left: 0; height: 100%; width: 100%; background: rgba( 236, 236, 236, .5 ) url(/Images/indicatorbig.gif) 50% 50% no-repeat'/>");
+            div.appendTo('body');
+        }
+        $("#show-loading").fadeIn(50000);
+    }
+    function HideLoading() {
+        $("#show-loading").hide();
+    }
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HQFVPTDL59"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HQFVPTDL59');
+    </script>
+</head>
+<body>
+<div class="header">
+<nav class="navbar navbar-default">
+<div class="container">
+<div class="navbar-header" style="width: 100%; background-color: white;">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/tc" style="padding: 0">
+<img class="logo" src="/Images/logoTEM.svg" />
+</a>
+</div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<a class="navbar-brand hidden-sm hidden-xs" href="/tc" style="padding: 0">
+<img class="logo" src="/Images/logoTEM.svg" style="height: 40px;" />
+</a>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="/tc"><img class="icon-menu" src="/Images/tracuu.svg" />&nbsp;&nbsp;Tra cứu</a></li>
+<li><a href="/html/dich-vu/1"><img class="icon-menu" src="/Images/dichvu.svg" />&nbsp;&nbsp;Dịch vụ</a></li>
+<li><a href="/html/giai-phap/3"><img class="icon-menu" src="/Images/giaiphap.svg" />&nbsp;&nbsp;Giải pháp</a></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><img class="icon-menu" src="/Images/tintuc.svg" />&nbsp;&nbsp;Tin tức</a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/tin-tuc/cong-nghiep-phu-tro/4"><b>Công nghiệp phụ trợ</b></a></li>
+<li><a href="/tin-tuc/san-pham-dien-dan-dung/1"><b>Sản phẩm điện dân dụng</b></a></li>
+<li><a href="/tin-tuc/my-pham/3"><b>Mỹ phẩm</b></a></li>
+<li><a href="/tin-tuc/cac-nganh-khac/2"><b>Các ngành khác</b></a></li>
+</ul>
+</li>
+<li><a href="/Home"><img class="icon-menu" src="/Images/gioithieu.svg" />&nbsp;&nbsp;Giới thiệu</a></li>
+<li><a href="/html/gioi-thieu/2"><img class="icon-menu" src="/Images/lienhe.svg" />&nbsp;&nbsp;Liên hệ</a></li>
+<li class="hidden-sm hidden-xs" style="padding: 0;padding-top: 11px; width: 160px">
+<input type="text" name="txtSearch" id="txtSearch" placeholder="Tìm kiếm" style="width: 100%;font-size: 14px; border-width: 1px; border-radius: 20px; background: url(/Images/SearchGrey.svg) #fff no-repeat 10px; padding-left: 35px;">
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</div> 
+<div id="render">
+<div class="row no-margin" style="position: relative" id="tracuu">
+<div class="tracuu-timkiem">
+<h3 id="titletracuu">Hệ thống kiểm tra sản phẩm chính hãng</h3>
+<div class="form-inline" id="form-horizontal">
+<br />
+ <div class="" style="text-align: center;">
+<img class="icon-logo-mobile" src="/Images/logoTEM.svg" style="display: none;" />
+</div>
+<div class="container div-search">
+<div class="form-group" id="searchcode">
+<input placeholder="Nhập MÃ SP in trên tem" id="ProdID" name="ProdID" class="form-control ProdID" type="text" autocomplete="off" value="" onkeydown="EnterKichHoat()">
+<button class="button-tracuu btn-tracuu" onclick="KichHoat()">Kiểm tra</button>
+</div>
+</div>
+<div id="qrcodescanner" class="display-none">
+<div class="row">
+<div class="col-md-12" style="text-align: center;margin-bottom: 20px;">
+<div id="reader" style="display: inline-block;"></div>
+<div class="empty"></div>
+<div id="scanned-result"></div>
+</div>
+</div>
+<script type="text/javascript" src="/Scripts/jsqrcode/highlight.min.js"></script>
+<script type="text/javascript" src="/Scripts/jsqrcode/jsqrcode-combined.js"></script>
+<script type="text/javascript" src="/Scripts/jsqrcode/LazaSoftScanner.js"></script>
+<script type="text/javascript" src="/Scripts/jsqrcode/html5-qrcode.js"></script>
+<script>
+    function docReady(fn) {
+        //debugger;
+        // see if DOM is already available
+        if (document.readyState === "complete" || document.readyState === "interactive") {
+            //alert('2');
+            // call on next available tick
+            setTimeout(fn, 1);
+        } else {
+            document.addEventListener("DOMContentLoaded", fn);
+        }
+    }
+    docReady(function () {
+        //debugger;
+        hljs.initHighlightingOnLoad();
+        var results = document.getElementById('scanned-result');
+        var lastMessage;
+        var codesFound = 0;
+        function onScanSuccess(qrCodeMessage) {
+            debugger;
+            //alert('1');
+            window.location.href = qrCodeMessage;
+
+            
+
+            //if (lastMessage !== qrCodeMessage) {
+            //    lastMessage = qrCodeMessage;
+            //    ++codesFound;
+            //    results.innerHTML += `<div>[${codesFound}] - ${qrCodeMessage}</div>`;
+            //}
+        }
+        var html5QrcodeScanner = new Html5QrcodeScanner(
+            "reader", { fps: 10, qrbox: 250 }, /* verbose= */ true);
+        html5QrcodeScanner.render(onScanSuccess);
+    });
+</script>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="Box" id="Box" value="" />
+<input type="hidden" name="Carton" id="Carton" value="" />
+<input type="hidden" name="PIN" id="PIN" value="" />
+<input type="hidden" name="UTC" id="UTC" value="" />
+<input type="hidden" name="IPAddress" id="IPAddress" value="" />
+<input type="hidden" name="MapLongitude" id="MapLongitude" value="" />
+<input type="hidden" name="MapLatitude" id="MapLatitude" value="" />
+<div id="infodata" style="min-height: 150px;"></div>
+
+<div class="modal" id="ModalHDTC" tabindex="-1" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="CloseModalHDTC()">&times;</button>
+<h4 class="modal-title">Hướng dẫn tra cứu thông tin sản phẩm</h4>
+</div>
+<div class="modal-body" style="line-height: 26px;">
+<div class="row no-margin col-xs-12 margin-bottom-10">
+<p>
+<span style="color: #000;">Bước 1:</span> <strong> Tìm mã sản phẩm chứa 15 kí tự sau chữ "Mã SP" ở phía dưới tem như hình vẽ</strong>
+</p>
+<img src="/Images/temngoai.png" alt="Tem ngoài" class="img-responsive" />
+<br />
+</div>
+<div class="row no-margin col-xs-12 margin-bottom-10">
+<p>
+<span style="color: #000;">Bước 2:</span> <strong> Nhập mã sản phẩm vào ô và nhấn nút <span style="color: red;">Kiểm tra</span></strong>
+</p>
+<img src="/Images/nhapmasp.png" alt="Nhập mã sản phẩm" class="img-responsive" />
+</div>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    function ShowHDTC() {
+        $("#ModalHDTC").show();
+    }
+    function CloseModalHDTC() {
+        $("#ModalHDTC").hide();
+    }
+</script>
+
+
+<div class="modal" id="ModalHDTP" tabindex="-1" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="CloseModalHDTP()">&times;</button>
+<h4 class="modal-title">Hướng dẫn kích hoạt mã pin</h4>
+</div>
+<div class="modal-body" style="line-height: 26px;">
+<div class="row no-margin col-xs-12 margin-bottom-10">
+<p>
+<span style="color: #000;">Bước 1:</span> <strong> Tìm mã pin chứa 2 kí tự, sau chữ "PIN" như hình vẽ</strong>
+</p>
+<img src="/Images/temtrong.png" alt="Tem trong" class="img-responsive" style="height: 15em; margin: auto;" />
+</div>
+<div class="row no-margin col-xs-12 margin-bottom-10">
+<p>
+<span style="color: #000;">Bước 2:</span> <strong> Nhập mã pin vào ô và nhấn nút <span style="color: #098850;">Kiểm tra</span></strong>
+</p>
+<img src="/Images/Nhapmapin.png" alt="Nhập mã pin" class="img-responsive m-img" style="margin: auto;width: 60%;" />
+</div>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    function ShowHDTP() {
+        $("#ModalHDTP").show();
+    }
+    function CloseModalHDTP() {
+        $("#ModalHDTP").hide();
+    }
+</script>
+
+<script type="text/javascript">
+    function ClearAllText() {
+        $("#ProdID").val('');
+        $("#ProdID").focus();
+        $(".clear-all-text").hide();
+    }
+    var inputSearch = document.getElementById("ProdID");
+    inputSearch.addEventListener('input', function (event) {
+        const key = event.key; // const {key} = event; ES6+
+        if (window.innerWidth <= 480) {
+            if ($("#ProdID").val().length === 0) {
+                $(".clear-all-text").hide();
+            } else {
+                $(".clear-all-text").show();
+            }
+        }
+    });
+    function UploadImage() {
+        if ($('#qrcodescanner').length > 0) {
+            if ($('#qrcodescanner').hasClass('display-none')) {
+                $('#qrcodescanner').removeClass('display-none');
+            }
+        }
+    }
+    function pad(value) {
+        return value < 10 ? '0' + value : value;
+    }
+    function createOffset(date) {
+        var sign = (date.getTimezoneOffset() > 0) ? "-" : "+";
+        var offset = Math.abs(date.getTimezoneOffset());
+        var hours = pad(Math.floor(offset / 60));
+        var minutes = pad(offset % 60);
+        return sign + hours + "." + minutes;
+    }
+    function GetTimeZone() {
+        var d = new Date();
+        var n = createOffset(d);
+        $("#UTC").val(n);
+    }
+    function GetIPAddress() {
+        //$.get('https://www.cloudflare.com/cdn-cgi/trace', function (data) {
+        //    debugger;
+        //    console.log(JSON.stringify(data, null, 2));
+        //});
+        /*
+         * https://stackoverflow.com/questions/391979/how-to-get-clients-ip-address-using-javascript
+         Get IPAddress
+         1. 150 requests per minute
+         2. No SSL (https) with the free plan
+         */
+        $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function (data) {
+            //debugger;
+            if (data !== null && data !== undefined) {
+                var ipaddress = data.ip;
+                //var long = data.lon;
+                //var lat = data.lat;
+                $("#IPAddress").val(ipaddress);
+                //$("#MapLongitude").val(long);
+                //$("#MapLatitude").val(lat);
+            }
+        });
+    }
+    function KichHoat() {
+        var ProdID = $('#ProdID').val().replace(/ /g, '');
+        var PIN = $('#PIN').val();
+        var UTC = $('#UTC').val();
+        var url = '/tc/KichHoat';
+        $.ajax({
+            type: 'post',
+            data: {
+                ProdID: ProdID,
+                PIN: PIN,
+                UTC: UTC
+            },
+            url: url,
+            dataType: 'json',
+            //async: false,
+            beforeSend: function () {
+            }
+        }).done(function (objResult) {
+            if (objResult.Success) {
+                $('#infodata').html(objResult.HtmlPromotion);
+                $("#ProdID").val(ProdID);
+            } else {
+
+            }
+        }).fail(function (jqXHR, textStatus, errorThrown) {
+
+        }).always(function () {
+
+        });
+    }
+    $(document).ready(function () {
+        GetTimeZone();
+        GetIPAddress();
+        setTimeout(function () {
+            KichHoat();
+        }, 100);
+    });
+    function CheckPin(idForm) {
+        var pin = $("#" + idForm).find("#PIN").val();
+        $("#PIN").val(pin);
+        if (pin !== null && pin !== "" && pin !== undefined) {
+            KichHoat();
+        } else {
+            alert("Vui lòng nhập PIN ghi trên tem trong để kiểm tra!");
+            return false;
+            $(event).preventDefault()
+        }
+    }
+    $(window).keypress(function (event) {
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if (keycode == '13') {
+            KichHoat();
+        }
+    });
+</script>
+<script>
+    function Showserial(thiz) {
+        //debugger;
+        var idno = $(thiz).attr('idno');
+        var UTC = $('#UTC').val();
+        $('#listproduct .product').removeClass('show');
+
+        if ($(thiz).hasClass('flag-query')) {
+            $('#listproduct .product').addClass('display-none');
+            $('#listproduct').find('[idno="' + idno + '"]').addClass('show');
+        } else {
+            var url = '/tc/RenderInfoTab';
+            //thực hiện gọi hàm lấy t.tin sản phẩm đổ ra các tab
+            $.ajax({
+                type: 'post',
+                data: {
+                    idno: idno,
+                    UTC: UTC
+                },
+                url: url,
+                dataType: 'json',
+                //async: false,
+                beforeSend: function () {
+                }
+            }).done(function (objResult) {
+                debugger;
+                if (objResult.Success) {
+                    $('#listproduct').append(objResult.Html);
+                    $(thiz).addClass('flag-query');
+                } else {
+                    if (objResult.Detail !== undefined && objResult.Detail !== null && objResult.Detail.toString().trim().length > 0) {
+                        _showErrorMsg123('Lỗi!', objResult.Detail);
+                    }
+                }
+            }).fail(function (jqXHR, textStatus, errorThrown) {
+
+            }).always(function () {
+
+            });
+        }
+    }
+</script>
+
+<div class="modal fade in" id="modalFlagPIN3" tabindex="-1" role="dialog" aria-labelledby="modalFlagPIN3" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">Thông báo</h4>
+</div>
+<div class="modal-body">
+<p>
+Mã SP của quý khách không tồn tại.
+<br />
+Vui lòng kiểm tra lại hoặc liên hệ với nhà cung cấp để được hỗ trợ.
+<br />Trân trọng cảm ơn !
+</p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-save" onclick="Alert3()"><i class="fa fa-check"></i> OK</button>
+</div>
+</div>
+</div>
+</div>
+<script>
+    var flagInvalid = '';
+    if (flagInvalid !== "" && flagInvalid !== null && flagInvalid !== undefined && flagInvalid === '1') {
+        $(document).ready(function () {
+            $("#modalFlagPIN3").show();
+        });
+    }
+    function Alert3() {
+        $("#modalFlagPIN3").hide();
+    }
+</script>
+<script>
+    function isNullOrEmpty(value) {
+        if (value !== undefined && value !== null && value.toString().trim().length > 0) {
+            return false;
+        }
+        return true;
+    };
+</script>
+<script>
+    function Showserial(thiz) {
+        var idno = $(thiz).attr('idno');
+        $('#listproduct .product').removeClass('show');
+
+        $('#listproduct').find('[idno="' + idno + '"]').addClass('show');
+    }
+</script>
+</div>
+<div class="row no-margin col-xs-12 no-padding footer-mobile" style="display: none;">
+<h4 style="margin-bottom: 20px;font-size: 15px;"><span style="font-weight: bold;">Hoặc cài ứng dụng <span style="color:#D32027 ;">e</span><span style="color:#098850 ;">TEM</span> để quét mã tự động</span></h4>
+<div class="col-xs-6">
+<a target="_blank" href="https://apps.apple.com/us/app/id1511656259"><img src="/Images/logo_appstore.png" alt="Alternate Text" class="logo-app" /></a>
+</div>
+<div class="col-xs-6">
+<a target="_blank" href="https://play.google.com/store/apps/details?id=com.longquang.etem"><img src="/Images/logo_googleplay.png" alt="Alternate Text" class="logo-app" /></a>
+</div>
+</div>
+<div class="fix_tel" style="display: none;">
+<div class="ring-alo-phone ring-alo-green ring-alo-show" id="ring-alo-phoneIcon" style="right: 150px; bottom: -12px;">
+<div class="ring-alo-ph-circle"></div>
+<div class="ring-alo-ph-circle-fill"></div>
+<div class="ring-alo-ph-img-circle">
+<a href="tel:024 6682 9843">
+<img class="lazy" src="/Images/phone-ring.png" alt="Call now">
+<noscript>&amp;amp;amp;amp;lt;img src="http://inbrand.vn/Images/phone-ring.png" alt=""&amp;amp;amp;amp;gt;</noscript>
+</a>
+</div>
+</div>
+<div class="tel">
+<p class="fone">024 6682 9843</p>
+</div>
+</div>
+</body>
+</html>
+<script>
+    $(window).scroll(function (event) {
+        var scrollTop = $(window).scrollTop();
+        if (scrollTop > 0) {
+            $('#BusinessHotline').addClass('fix-position');
+        }
+        else {
+            $('#BusinessHotline').removeClass('fix-position');
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    function ShowAgent(thiz) {
+        var code = $(thiz).attr("code");
+        var a = "item_" + code;
+        $(".items").each(function () {
+            if (!$(this).hasClass(a)) {
+                $(this).hide("slow");
+            }
+        });
+        $(".item_" + code).toggle("slow");
+    }
+</script>
+<form action="/Home/Search" class="form-horizontal " id="formSearch" method="get"> <input type="hidden" name="tukhoa" id="key" />
+</form><script>
+    function Search() {
+        var key = $('input[name="txtSearch"]').val();
+        if (key != null && key != "") {
+            $("#formSearch #key").val(key);
+            $("#formSearch").submit();
+        }
+    }
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(window).keypress(function (event) {
+            var keycode = (event.keyCode ? event.keyCode : event.which);
+            if (keycode == '13') {
+                Search();
+            }
+        });
+    })
+</script>
+

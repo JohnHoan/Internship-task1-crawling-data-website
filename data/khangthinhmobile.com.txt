@@ -1,0 +1,2093 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	 
+	<meta charset="UTF-8">
+	<base href="http://khangthinhmobile.com/">
+	<link rel="canonical" href="http://khangthinhmobile.com/" />
+	<link id="favicon" rel="shortcut icon" href="upload/hinhanh/logo-301_40x22.191780821918.png" type="image/x-icon" />
+
+	<title>KHANG THỊNH MOBILE- CHUYÊN CUNG CẤP- SỬA CHỮA ĐIỆN THOẠI, LAPTOP, CAMERA</title>
+	<meta name="description" content="CỬA HÀNG ĐIỆN THOẠI DI ĐỘNG KHANG THỊNH, KHANG THINH MOBILE, CHUYÊN SỬA CHỮA, THAY THẾ LINH KIỆN ĐIỆN THOẠI, SỬA CHỮA ĐIỆN THOẠI IPHONE, UNLOCK, SAMSUNG,SỬA CHỮA ĐIỆN THOẠI, LAPTOP, CAMERA">
+	<meta name="keywords" content="CỬA HÀNG ĐIỆN THOẠI DI ĐỘNG KHANG THỊNH, KHANG THINH MOBILE, CHUYÊN SỬA CHỮA, THAY THẾ LINH KIỆN ĐIỆN THOẠI, SỬA CHỮA ĐIỆN THOẠI IPHONE, UNLOCK, SAMSUNG">
+
+	<meta name="robots" content="noodp,index,follow" />
+	<meta name="google" content="notranslate" />
+	<meta name='revisit-after' content='1 days' />
+	<meta name="ICBM" content="10.908724, 106.854912">
+	<meta name="geo.position" content="10.908724, 106.854912">
+	<meta name="geo.placename" content="145 TRẦN QUANG KHẢI,PHƯỜNG TÂN ĐỊNH, QUẬN 1, TP.HCM">
+	<meta name="author" content="KHANG THỊNH MOBILE">
+
+	<meta property="og:url" content="http://khangthinhmobile.com/" /><meta property="og:type" content="website" /><meta property="og:title" content="KHANG THỊNH MOBILE" /><meta property="og:description" content="CỬA HÀNG ĐIỆN THOẠI DI ĐỘNG KHANG THỊNH, KHANG THINH MOBILE, CHUYÊN SỬA CHỮA, THAY THẾ LINH KIỆN ĐIỆN THOẠI, SỬA CHỮA ĐIỆN THOẠI IPHONE, UNLOCK, SAMSUNG,SỬA CHỮA ĐIỆN THOẠI, LAPTOP, CAMERA" /><meta property="og:image" content="http://khangthinhmobile.com/upload/hinhanh/logo-301_40x22.191780821918.png" />
+	<!-- Dublin Core-->
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" >
+	<meta name="DC.title" content="KHANG THỊNH MOBILE- CHUYÊN CUNG CẤP- SỬA CHỮA ĐIỆN THOẠI, LAPTOP, CAMERA">
+	<meta name="DC.identifier" content="http://khangthinhmobile.com/">
+	<meta name="DC.description" content="CỬA HÀNG ĐIỆN THOẠI DI ĐỘNG KHANG THỊNH, KHANG THINH MOBILE, CHUYÊN SỬA CHỮA, THAY THẾ LINH KIỆN ĐIỆN THOẠI, SỬA CHỮA ĐIỆN THOẠI IPHONE, UNLOCK, SAMSUNG,SỬA CHỮA ĐIỆN THOẠI, LAPTOP, CAMERA">
+	<meta name="DC.subject" content="KHANG THỊNH MOBILE- CHUYÊN CUNG CẤP- SỬA CHỮA ĐIỆN THOẠI, LAPTOP, CAMERA">
+	<meta name="DC.language" scheme="UTF-8" content="vi">
+	<meta name="viewport" content="width=1200">
+
+	<!--Geo Meta Tags-->
+	<meta name="geo.region" content="VN" />
+	<meta name="geo.position" content="10.908724, 106.854912">
+	<meta name="geo.placename" content="145 TRẦN QUANG KHẢI,PHƯỜNG TÂN ĐỊNH, QUẬN 1, TP.HCM">
+	<meta name="ICBM" content="10.908724, 106.854912">
+	<meta name="author" content="KHANG THỊNH MOBILE- CHUYÊN CUNG CẤP- SỬA CHỮA ĐIỆN THOẠI, LAPTOP, CAMERA">
+
+	<!-- Thẻ Twitter Card -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="KHANG THỊNH MOBILE- CHUYÊN CUNG CẤP- SỬA CHỮA ĐIỆN THOẠI, LAPTOP, CAMERA" />
+	<meta name="twitter:description" content="CỬA HÀNG ĐIỆN THOẠI DI ĐỘNG KHANG THỊNH, KHANG THINH MOBILE, CHUYÊN SỬA CHỮA, THAY THẾ LINH KIỆN ĐIỆN THOẠI, SỬA CHỮA ĐIỆN THOẠI IPHONE, UNLOCK, SAMSUNG,SỬA CHỮA ĐIỆN THOẠI, LAPTOP, CAMERA" />
+	<!-- Thẻ Canonical -->
+	<link rel="canonical" href="http://khangthinhmobile.com/" />
+
+
+	<script language="javascript" type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/ddsmoothmenu-v.css" />
+	<link rel="stylesheet" type="text/css" href="js/ddsmoothmenu.css" />
+	<link rel="stylesheet" href="css/muangay.css">
+
+	<script type="text/javascript" src="js/ddsmoothmenu.js"></script>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/elements.css">
+
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/slick.css"/>
+	<script type="text/javascript">
+		$().ready(function(){
+			$('.slickgt').slick({
+				dots: false,
+				infinite: true,
+				speed: 1500,
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				autoplay: true,
+				vertical:true,
+				arrows:false,
+			});
+		});
+
+	</script>
+	<script>
+		$().ready(function(){
+			$(window).scroll(function(){
+				if($(window).scrollTop()>25){
+					$("#banner").css("top","0");
+				}else{
+					$("#banner").css("top","25px");
+				}
+			});
+		});
+	</script>
+
+
+
+	<script type="text/javascript">
+			ddsmoothmenu.init({
+				mainmenuid: "smoothmenu1", //menu DIV id
+				orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+				classname: 'ddsmoothmenu', //class added to menu's outer DIV
+				//customtheme: ["#1c5a80", "#18374a"],
+				contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+			})
+	</script>
+
+	<style type="text/css">
+		body{
+			font-family: Arial;
+			font-size:14px;
+			line-height:1.5;
+			/*background:url(upload/hinhanh/103270562167605.png) no-repeat top center;
+			background-color:#ffffff;
+			background-attachment:fixed;*/
+			height: 100%;
+			min-width: 1200px;
+		}
+	</style>
+<address class="vcard" style='display: none'>
+	<span class="org">KHANG THỊNH MOBILE</span>,
+	<span class="adr">145 TRẦN QUANG KHẢI,PHƯỜNG TÂN ĐỊNH, QUẬN 1, TP.HCM</span>
+	<span class="street-address">145 TRẦN QUANG KHẢI,PHƯỜNG TÂN ĐỊNH, QUẬN 1, TP.HCM</span>,
+	<span class="locality">10.908724, 106.854912</span>,
+	<span class="postal-code"></span>,
+	<span class="country-name">Việt Nam</span>.
+	<span class="tel">0937337733</span>
+</address>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+	 
+	<div id="container">
+
+		<header id="header">
+			
+<div class="box_header">
+    <div class="margin_auto">
+        <ul>
+            <li><img src="images/ha1.png" alt="0937337733"> Hotline : 0937337733</li>
+        </ul>
+        
+<nav id="smoothmenu1" class="ddsmoothmenu">
+  <ul>
+    <li class="icon "><a href="gioi-thieu.html">Giới thiệu</a></li>
+    <li class="icon "><a href="bang-gia.html">Bảng giá</a></li>
+    <li class=""><a href="lien-he.html">Liên hệ</a></li>
+  </ul>
+</nav>        
+    </div>
+</div>
+<div class="clear"></div>
+<div id="banner">
+    <div class="margin_auto">
+        <div id="logo">
+            <a href="index.html" >
+                <img src="thumb/355x69/1/upload/hinhanh/logo-1851_355x69.png" alt="Banner">
+            </a>
+        </div>
+        <script type="text/javascript">
+  $(document).ready(function() {
+       $('.frm_timkiem').submit(function(){
+          var timkiem = $('#name_tk').val();
+          if(!timkiem){
+            alert('Bạn chưa nhập từ khóa . ');
+          } else {
+            window.location.href="tim-kiem.html&keywords="+timkiem;
+          }
+          return false;
+      })
+  });
+</script>
+
+ <div id="timkiem">
+       <form action="tim-kiem.html" method="" name="frm2" class="frm_timkiem">
+                <input type="text" name="timkiem" id="name_tk" class="input" placeholder="Từ khóa tìm kiếm .">
+                <button type="submit" value="" class="nut_tim"></button>
+        </form>
+  </div>        <div class="menu_head">
+            <ul>
+                <li><a href="uy-tin.html" title="uy tín"><img src="thumb/42x42/1/images/uytin.png" alt="uy tín">uy tín</a></li>
+                <li><a href="chat-luong.html" title="chất lượng"><img src="thumb/42x42/1/images/chatluong.png" alt="chất lượng">chất lượng</a></li>
+                <li><a href="phat-trien-ben-vung.html" title="phát triển bền vững"><img src="thumb/42x42/1/images/phattrien.png" alt="phát triển bền vững">phát triển bền vững</a></li>
+            </ul>
+        </div>
+
+
+    <div class="clear"></div>
+
+    </div>
+</div>
+
+<div class="clear"></div>
+
+
+
+
+
+
+
+
+
+
+		</header>
+		<div class="clear"></div>
+
+		<div id="slide_show">
+			<div class="margin_auto">
+				<div class="content_slider">
+					<script type="text/javascript" src="js/jquery.hoverIntent.minified.js"></script>
+<script type="text/javascript" src="js/jquery.dcjqaccordion.2.7.js"></script>
+
+<script>
+  $().ready(function(e) {
+        $('.accordion-2').dcAccordion({
+      eventType: 'hover',
+      autoClose: true,
+      menuClose   : true,  
+      classExpand : 'dcjq-current-parent',
+      saveState: false,
+      disableLink: false,
+      showCount: false,
+      hoverDelay   : 50,
+      speed: 'slow'
+    });
+
+    });
+</script>
+<div id="left">
+
+  <div class="danhmuc">
+    <div class="menu-left" >
+     <ul class="accordion accordion-2">
+            
+      <li ><a class="show" href="thu-mua-may-cu-gia-cao.html">THU MUA MÁY CŨ GIÁ CAO</a>
+
+        <ul class="hide">
+                    </ul>
+
+        </li>
+              
+      <li ><a class="show" href="sua-chua-dtdd-gia-re.html">SỬA CHỮA ĐTDĐ GIÁ RẺ</a>
+
+        <ul class="hide">
+                    </ul>
+
+        </li>
+              
+      <li ><a class="show" href="dien-thoai.html">ĐIỆN THOẠI</a>
+
+        <ul class="hide">
+                      <li><a href="iphone-apple.html">Iphone (Apple)</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="oppo.html">Oppo</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="samsung.html">SamSung</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="htc.html">HTC</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="sony.html">SONY</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="nokia.html">NOKIA</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="zenfone.html">ZÈNFONE</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="motorola.html">MOTOROLA</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="lenovo.html">LENOVO</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="huawei.html">HUAWEI</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="mobell.html">MOBELL</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="vivo.html">VIVO</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="bkav.html">BKAV</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="itel.html">ITEL</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="mobiistar.html">MOBIISTAR</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="xiaomi.html">XIAOMI</a>
+                <ul>
+                                  </ul>
+            </li>
+                      </ul>
+
+        </li>
+              
+      <li ><a class="show" href="phu-kien.html">PHỤ KIỆN</a>
+
+        <ul class="hide">
+                    </ul>
+
+        </li>
+              
+      <li ><a class="show" href="thay-mat-kinh.html">THAY MẶT KÍNH</a>
+
+        <ul class="hide">
+                      <li><a href="dien-thoai.html">ĐIỆN THOẠI</a>
+                <ul>
+                                  </ul>
+            </li>
+                        <li><a href="may-tinh.html">MÁY TÍNH</a>
+                <ul>
+                                  </ul>
+            </li>
+                      </ul>
+
+        </li>
+              
+      <li ><a class="show" href="unlock.html">UNLOCK</a>
+
+        <ul class="hide">
+                    </ul>
+
+        </li>
+              </ul>
+
+  </div>
+</div>
+
+
+
+</div>					
+
+<script type="text/javascript" src="js/jssor.js"></script>
+<script type="text/javascript" src="js/jssor.slider.js"></script>
+<script type="text/javascript" src="js/jquery.slider.js"></script>
+<link type="text/css" rel="stylesheet" href="css/style_slider.css" />
+
+<div class="slider" data-role="content">
+
+ <div id="slider1_container" style="position: relative; top: 0px; width: 930px;height:465px; overflow: hidden; margin:0 auto;">  
+  <div u="slides" style="cursor: move; position: absolute;margin:0 auto;  top: 0px; width: 930px; height: 465px; overflow: hidden;">
+        <div>
+      <a  u=image href="" target="_blank">
+      <img u=image src="thumb/930x465/1/upload/hinhanh/353437862657218_930x465.jpg"  alt="slider" />
+      </a>   
+      <div u="caption" t="L" t2="R" class="caption-slider" style="position: absolute; color:#000; top: 30px; left: 50px;  width: 600px;height:465px; ">
+        <div style="height:100%;width:100%;">
+           
+        </div>
+      </div> 
+    </div>
+        <div>
+      <a  u=image href="" target="_blank">
+      <img u=image src="thumb/930x465/1/upload/hinhanh/135698357434034_930x465.jpg"  alt="slider" />
+      </a>   
+      <div u="caption" t="L" t2="R" class="caption-slider" style="position: absolute; color:#000; top: 30px; left: 50px;  width: 600px;height:465px; ">
+        <div style="height:100%;width:100%;">
+           
+        </div>
+      </div> 
+    </div>
+        <div>
+      <a  u=image href="http://khangthinhmobile.com/dien-thoai-iphone-x-256gb.html" target="_blank">
+      <img u=image src="thumb/930x465/1/upload/hinhanh/504518942180223_930x465.png"  alt="slider" />
+      </a>   
+      <div u="caption" t="L" t2="R" class="caption-slider" style="position: absolute; color:#000; top: 30px; left: 50px;  width: 600px;height:465px; ">
+        <div style="height:100%;width:100%;">
+           
+        </div>
+      </div> 
+    </div>
+      </div> 
+</div> 
+<div class="clear"></div>
+</div>					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+					<div class="margin_auto">
+				
+<div id="info">  
+  <div id="sanpham">               
+      <ul class="tabs3" id="tab">              
+            <div class="menu_sp"> 
+              <li><a href="#" title="tab_sphot">sản phẩm hot</a></li>
+              <li><a href="#" title="tab_moinhat">sản phẩm mới nhất</a></li>
+              <li><a href="#" title="tab_khuyenmai">sản phẩm khuyến mãi</a></li>
+            </div>   
+      </ul>          
+  </div>
+  <div class="clear"></div>
+          <div class="khung">
+            <div id="contenttabs">              
+
+                <div class="hidden_a" id="tab_sphot">            
+                                        <div class="slick_sp">
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="sua-chua-dtdd-gia-re.html"><img src="thumb/200x200/1/upload/product/anhbia-6044_200x200.jpg" alt="Sửa Chữa ĐTDĐ Giá Rẻ" /></a>
+                                    </div>
+                                    <a href="sua-chua-dtdd-gia-re.html"><h3>Sửa Chữa ĐTDĐ Giá Rẻ</h3></a>
+                                    <p>Mã SP : I</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-iphone-x-256gb.html"><img src="thumb/200x200/1/upload/product/iphonex256gbh12300x300-8724_200x200.jpg" alt="Điện thoại iPhone X 256GB" /></a>
+                                    </div>
+                                    <a href="dien-thoai-iphone-x-256gb.html"><h3>Điện thoại iPhone X 256GB</h3></a>
+                                    <p>Mã SP : 1</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-iphone-x-64gb.html"><img src="thumb/200x200/1/upload/product/iphonex64gb16300x300-1168_200x200.jpg" alt=" Điện thoại iPhone X 64GB" /></a>
+                                    </div>
+                                    <a href="dien-thoai-iphone-x-64gb.html"><h3> Điện thoại iPhone X 64GB</h3></a>
+                                    <p>Mã SP : 2</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-iphone-8-plus-64gb.html"><img src="thumb/200x200/1/upload/product/iphone8plusa300x300-4975_200x200.jpg" alt="Điện thoại iPhone 8 Plus 64GB" /></a>
+                                    </div>
+                                    <a href="dien-thoai-iphone-8-plus-64gb.html"><h3>Điện thoại iPhone 8 Plus 64GB</h3></a>
+                                    <p>Mã SP : 3</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-samsung-galaxy-note-8.html"><img src="thumb/200x200/1/upload/product/samsunggalaxynote81300x300-6717_200x200.jpg" alt="Điện thoại Samsung Galaxy Note 8" /></a>
+                                    </div>
+                                    <a href="dien-thoai-samsung-galaxy-note-8.html"><h3>Điện thoại Samsung Galaxy Note 8</h3></a>
+                                    <p>Mã SP : 4</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-iphone-7-256gb.html"><img src="thumb/200x200/1/upload/product/iphone7256gb12300x300-1714_200x200.jpg" alt="Điện thoại iPhone 7 256GB" /></a>
+                                    </div>
+                                    <a href="dien-thoai-iphone-7-256gb.html"><h3>Điện thoại iPhone 7 256GB</h3></a>
+                                    <p>Mã SP : 5</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-iphone-7-128gb.html"><img src="thumb/200x200/1/upload/product/1-4742_200x200.jpg" alt="Điện thoại iPhone 7 128GB" /></a>
+                                    </div>
+                                    <a href="dien-thoai-iphone-7-128gb.html"><h3>Điện thoại iPhone 7 128GB</h3></a>
+                                    <p>Mã SP : 7</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-samsung-galaxy-s8-plus.html"><img src="thumb/200x200/1/upload/product/quytrinhsuadienthoaididong-1367_200x200.jpg" alt="Điện thoại Samsung Galaxy S8 Plus" /></a>
+                                    </div>
+                                    <a href="dien-thoai-samsung-galaxy-s8-plus.html"><h3>Điện thoại Samsung Galaxy S8 Plus</h3></a>
+                                    <p>Mã SP : 11</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-samsung-galaxy-j7-pro.html"><img src="thumb/200x200/1/upload/product/samsunggalaxyj7pro2323400x460-5503_200x200.png" alt="Điện thoại Samsung Galaxy J7 Pro" /></a>
+                                    </div>
+                                    <a href="dien-thoai-samsung-galaxy-j7-pro.html"><h3>Điện thoại Samsung Galaxy J7 Pro</h3></a>
+                                    <p>Mã SP : 15</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-samsung-galaxy-j7-prime.html"><img src="thumb/200x200/1/upload/product/1-3340_200x200.png" alt="Điện thoại Samsung Galaxy J7 Prime" /></a>
+                                    </div>
+                                    <a href="dien-thoai-samsung-galaxy-j7-prime.html"><h3>Điện thoại Samsung Galaxy J7 Prime</h3></a>
+                                    <p>Mã SP : 16</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="oppo-f3-plus.html"><img src="thumb/200x200/1/upload/product/oppof3plusvangdong1300x300-7428_200x200.png" alt="OPPO F3 Plus" /></a>
+                                    </div>
+                                    <a href="oppo-f3-plus.html"><h3>OPPO F3 Plus</h3></a>
+                                    <p>Mã SP : 18</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-oppo-f5-youth.html"><img src="thumb/200x200/1/upload/product/oppof5youtha1300x300-6328_200x200.jpg" alt="Điện thoại OPPO F5 Youth" /></a>
+                                    </div>
+                                    <a href="dien-thoai-oppo-f5-youth.html"><h3>Điện thoại OPPO F5 Youth</h3></a>
+                                    <p>Mã SP : 20</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-oppo-f3-lite-a57.html"><img src="thumb/200x200/1/upload/product/oppoa5714300x300-8638_200x200.jpg" alt="Điện thoại OPPO F3 Lite (A57)" /></a>
+                                    </div>
+                                    <a href="dien-thoai-oppo-f3-lite-a57.html"><h3>Điện thoại OPPO F3 Lite (A57)</h3></a>
+                                    <p>Mã SP : 21</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-oppo-a71.html"><img src="thumb/200x200/1/upload/product/oppoa711300x300-5649_200x200.jpg" alt="Điện thoại OPPO A71" /></a>
+                                    </div>
+                                    <a href="dien-thoai-oppo-a71.html"><h3>Điện thoại OPPO A71</h3></a>
+                                    <p>Mã SP : 22</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-oppo-a37-a37fw.html"><img src="thumb/200x200/1/upload/product/oppoa37a37fwpp300x300-7372_200x200.jpg" alt="Điện thoại OPPO A37 (A37fw)" /></a>
+                                    </div>
+                                    <a href="dien-thoai-oppo-a37-a37fw.html"><h3>Điện thoại OPPO A37 (A37fw)</h3></a>
+                                    <p>Mã SP : 23</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-samsung-galaxy-j3-lte.html"><img src="thumb/200x200/1/upload/product/samsunggalaxyj3ltemauvangup111300x300-2310_200x200.jpg" alt="Điện thoại Samsung Galaxy J3 LTE" /></a>
+                                    </div>
+                                    <a href="dien-thoai-samsung-galaxy-j3-lte.html"><h3>Điện thoại Samsung Galaxy J3 LTE</h3></a>
+                                    <p>Mã SP : 24</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                    <div>
+                              <div class="item4" >
+                                    <div class="product_img">
+                                      <a href="dien-thoai-samsung-galaxy-j2-prime.html"><img src="thumb/200x200/1/upload/product/samsunggalaxyj2prime1300x300-9784_200x200.jpg" alt="Điện thoại Samsung Galaxy J2 Prime" /></a>
+                                    </div>
+                                    <a href="dien-thoai-samsung-galaxy-j2-prime.html"><h3>Điện thoại Samsung Galaxy J2 Prime</h3></a>
+                                    <p>Mã SP : 25</p>
+  
+                                                                            <div class="gia">
+                                          <div class="giaban">
+                                               <span>Liên hệ</span>             
+                                          </div>                    
+                                        </div>
+                                                                       
+                                </div> 
+                          </div>
+                          <!-- </div> -->
+                                                </div>  
+                                    <div class="clear"></div>
+                </div>
+
+                <div class="hidden_a" id="tab_moinhat">            
+                                            <div class="slick_sp">
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-iphone-x-256gb.html"><img src="thumb/200x200/1/upload/product/iphonex256gbh12300x300-8724_200x200.jpg" alt="Điện thoại iPhone X 256GB" /></a>
+                                        </div>
+                                        <a href="dien-thoai-iphone-x-256gb.html"><h3>Điện thoại iPhone X 256GB</h3></a>
+                                        <p>Mã SP : 1</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                          <!-- </div> -->
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-iphone-x-64gb.html"><img src="thumb/200x200/1/upload/product/iphonex64gb16300x300-1168_200x200.jpg" alt=" Điện thoại iPhone X 64GB" /></a>
+                                        </div>
+                                        <a href="dien-thoai-iphone-x-64gb.html"><h3> Điện thoại iPhone X 64GB</h3></a>
+                                        <p>Mã SP : 2</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                          <!-- </div> -->
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-iphone-8-plus-64gb.html"><img src="thumb/200x200/1/upload/product/iphone8plusa300x300-4975_200x200.jpg" alt="Điện thoại iPhone 8 Plus 64GB" /></a>
+                                        </div>
+                                        <a href="dien-thoai-iphone-8-plus-64gb.html"><h3>Điện thoại iPhone 8 Plus 64GB</h3></a>
+                                        <p>Mã SP : 3</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                          <!-- </div> -->
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-samsung-galaxy-note-8.html"><img src="thumb/200x200/1/upload/product/samsunggalaxynote81300x300-6717_200x200.jpg" alt="Điện thoại Samsung Galaxy Note 8" /></a>
+                                        </div>
+                                        <a href="dien-thoai-samsung-galaxy-note-8.html"><h3>Điện thoại Samsung Galaxy Note 8</h3></a>
+                                        <p>Mã SP : 4</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                          <!-- </div> -->
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-htc-u11.html"><img src="thumb/200x200/1/upload/product/4-5884_200x200.jpg" alt="Điện thoại HTC U11" /></a>
+                                        </div>
+                                        <a href="dien-thoai-htc-u11.html"><h3>Điện thoại HTC U11</h3></a>
+                                        <p>Mã SP : 6</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                          <!-- </div> -->
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-samsung-galaxy-s8-plus.html"><img src="thumb/200x200/1/upload/product/quytrinhsuadienthoaididong-1367_200x200.jpg" alt="Điện thoại Samsung Galaxy S8 Plus" /></a>
+                                        </div>
+                                        <a href="dien-thoai-samsung-galaxy-s8-plus.html"><h3>Điện thoại Samsung Galaxy S8 Plus</h3></a>
+                                        <p>Mã SP : 11</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                          <!-- </div> -->
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-samsung-galaxy-s8.html"><img src="thumb/200x200/1/upload/product/samsunggalaxys84300x300-1575_200x200.jpg" alt="Điện thoại Samsung Galaxy S8" /></a>
+                                        </div>
+                                        <a href="dien-thoai-samsung-galaxy-s8.html"><h3>Điện thoại Samsung Galaxy S8</h3></a>
+                                        <p>Mã SP : 12</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                          <!-- </div> -->
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-samsung-galaxy-note-fe.html"><img src="thumb/200x200/1/upload/product/samsunggalaxynotefeha400x460-5907_200x200.png" alt="Điện thoại Samsung Galaxy Note FE" /></a>
+                                        </div>
+                                        <a href="dien-thoai-samsung-galaxy-note-fe.html"><h3>Điện thoại Samsung Galaxy Note FE</h3></a>
+                                        <p>Mã SP : 13</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                          <!-- </div> -->
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="oppo-f3-plus.html"><img src="thumb/200x200/1/upload/product/oppof3plusvangdong1300x300-7428_200x200.png" alt="OPPO F3 Plus" /></a>
+                                        </div>
+                                        <a href="oppo-f3-plus.html"><h3>OPPO F3 Plus</h3></a>
+                                        <p>Mã SP : 18</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                          <!-- </div> -->
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-oppo-f5-6gb.html"><img src="thumb/200x200/1/upload/product/oppof56gba1300x300-567_200x200.jpg" alt="Điện thoại OPPO F5 6GB" /></a>
+                                        </div>
+                                        <a href="dien-thoai-oppo-f5-6gb.html"><h3>Điện thoại OPPO F5 6GB</h3></a>
+                                        <p>Mã SP : 18</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                          <!-- </div> -->
+                                                </div>  
+                                        <div class="clear"></div>
+                </div>
+
+                <div class="hidden_a" id="tab_khuyenmai">            
+                                            <div class="slick_sp">
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-sony-xperia-xz1.html"><img src="thumb/200x200/1/upload/product/sonyxperiaxz113300x300-4384_200x200.jpg" alt="Điện thoại Sony Xperia XZ1" /></a>
+                                        </div>
+                                        <a href="dien-thoai-sony-xperia-xz1.html"><h3>Điện thoại Sony Xperia XZ1</h3></a>
+                                        <p>Mã SP : 8</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-sony-xperia-xz-premium-pink-gold.html"><img src="thumb/200x200/1/upload/product/sonyxperiaxzpremiumpinkgold400x460-8201_200x200.png" alt="Điện thoại Sony Xperia XZ Premium Pink Gold" /></a>
+                                        </div>
+                                        <a href="dien-thoai-sony-xperia-xz-premium-pink-gold.html"><h3>Điện thoại Sony Xperia XZ Premium Pink Gold</h3></a>
+                                        <p>Mã SP : 9</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-samsung-galaxy-j7.html"><img src="thumb/200x200/1/upload/product/samsunggalaxyj7plus1400x460-6047_200x200.png" alt="Điện thoại Samsung Galaxy J7+" /></a>
+                                        </div>
+                                        <a href="dien-thoai-samsung-galaxy-j7.html"><h3>Điện thoại Samsung Galaxy J7+</h3></a>
+                                        <p>Mã SP : 14</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-samsung-galaxy-j7-pro.html"><img src="thumb/200x200/1/upload/product/samsunggalaxyj7pro2323400x460-5503_200x200.png" alt="Điện thoại Samsung Galaxy J7 Pro" /></a>
+                                        </div>
+                                        <a href="dien-thoai-samsung-galaxy-j7-pro.html"><h3>Điện thoại Samsung Galaxy J7 Pro</h3></a>
+                                        <p>Mã SP : 15</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-samsung-galaxy-j7-prime.html"><img src="thumb/200x200/1/upload/product/1-3340_200x200.png" alt="Điện thoại Samsung Galaxy J7 Prime" /></a>
+                                        </div>
+                                        <a href="dien-thoai-samsung-galaxy-j7-prime.html"><h3>Điện thoại Samsung Galaxy J7 Prime</h3></a>
+                                        <p>Mã SP : 16</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-samsung-galaxy-j3-pro.html"><img src="thumb/200x200/1/upload/product/samsunggalaxyj32017xanhduong180x125-1650_200x200.png" alt="Điện thoại Samsung Galaxy J3 Pro" /></a>
+                                        </div>
+                                        <a href="dien-thoai-samsung-galaxy-j3-pro.html"><h3>Điện thoại Samsung Galaxy J3 Pro</h3></a>
+                                        <p>Mã SP : 17</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="oppo-f3-plus.html"><img src="thumb/200x200/1/upload/product/oppof3plusvangdong1300x300-7428_200x200.png" alt="OPPO F3 Plus" /></a>
+                                        </div>
+                                        <a href="oppo-f3-plus.html"><h3>OPPO F3 Plus</h3></a>
+                                        <p>Mã SP : 18</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-oppo-f5-6gb.html"><img src="thumb/200x200/1/upload/product/oppof56gba1300x300-567_200x200.jpg" alt="Điện thoại OPPO F5 6GB" /></a>
+                                        </div>
+                                        <a href="dien-thoai-oppo-f5-6gb.html"><h3>Điện thoại OPPO F5 6GB</h3></a>
+                                        <p>Mã SP : 18</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-oppo-f5.html"><img src="thumb/200x200/1/upload/product/oppof5h21300x300-2373_200x200.jpg" alt="Điện thoại Oppo F5" /></a>
+                                        </div>
+                                        <a href="dien-thoai-oppo-f5.html"><h3>Điện thoại Oppo F5</h3></a>
+                                        <p>Mã SP : 19</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-oppo-f5-youth.html"><img src="thumb/200x200/1/upload/product/oppof5youtha1300x300-6328_200x200.jpg" alt="Điện thoại OPPO F5 Youth" /></a>
+                                        </div>
+                                        <a href="dien-thoai-oppo-f5-youth.html"><h3>Điện thoại OPPO F5 Youth</h3></a>
+                                        <p>Mã SP : 20</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-oppo-f3-lite-a57.html"><img src="thumb/200x200/1/upload/product/oppoa5714300x300-8638_200x200.jpg" alt="Điện thoại OPPO F3 Lite (A57)" /></a>
+                                        </div>
+                                        <a href="dien-thoai-oppo-f3-lite-a57.html"><h3>Điện thoại OPPO F3 Lite (A57)</h3></a>
+                                        <p>Mã SP : 21</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-oppo-a71.html"><img src="thumb/200x200/1/upload/product/oppoa711300x300-5649_200x200.jpg" alt="Điện thoại OPPO A71" /></a>
+                                        </div>
+                                        <a href="dien-thoai-oppo-a71.html"><h3>Điện thoại OPPO A71</h3></a>
+                                        <p>Mã SP : 22</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-oppo-a37-a37fw.html"><img src="thumb/200x200/1/upload/product/oppoa37a37fwpp300x300-7372_200x200.jpg" alt="Điện thoại OPPO A37 (A37fw)" /></a>
+                                        </div>
+                                        <a href="dien-thoai-oppo-a37-a37fw.html"><h3>Điện thoại OPPO A37 (A37fw)</h3></a>
+                                        <p>Mã SP : 23</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-samsung-galaxy-j3-lte.html"><img src="thumb/200x200/1/upload/product/samsunggalaxyj3ltemauvangup111300x300-2310_200x200.jpg" alt="Điện thoại Samsung Galaxy J3 LTE" /></a>
+                                        </div>
+                                        <a href="dien-thoai-samsung-galaxy-j3-lte.html"><h3>Điện thoại Samsung Galaxy J3 LTE</h3></a>
+                                        <p>Mã SP : 24</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                        <div>
+                                  <div class="item4" >
+                                        <div class="product_img">
+                                          <a href="dien-thoai-samsung-galaxy-j2-prime.html"><img src="thumb/200x200/1/upload/product/samsunggalaxyj2prime1300x300-9784_200x200.jpg" alt="Điện thoại Samsung Galaxy J2 Prime" /></a>
+                                        </div>
+                                        <a href="dien-thoai-samsung-galaxy-j2-prime.html"><h3>Điện thoại Samsung Galaxy J2 Prime</h3></a>
+                                        <p>Mã SP : 25</p>
+
+                                                                                    <div class="gia">
+                                              <div class="giaban">
+                                                   <span>Liên hệ</span>             
+                                              </div>                    
+                                            </div>
+                                                                               
+                                    </div> 
+                              </div>
+                                                </div>  
+                                    <div class="clear"></div>
+                </div>
+            </div>
+
+      </div>
+
+</div>
+<h1 class="visit_hidden">KHANG THỊNH MOBILE</h1>
+
+<script>
+  $(document).ready(function() {
+    $("#contenttabs .hidden_a").hide(); // Initially hide all contenttabs3
+    $("#tab li:first").attr("class","current"); // Activate first tab
+    $("#contenttabs div.hidden_a:first").fadeIn(); // Show first tab content
+    
+    $(document).on('click', '#tab a', function(event) { 
+      event.preventDefault();        
+        $("#contenttabs .hidden_a").hide(); //Hide all conten#tab
+        $("#tab li").attr("class",""); //Reset id's
+        $(this).parent().attr("class","current"); // Activate this
+        $('#' + $(this).attr('title')).fadeIn(); // Show contenttabs3 for current tab
+
+      });
+  })
+</script>
+
+<script type="text/javascript" charset="utf-8" >
+  $(document).ready(function() {
+    $('.slick_sp').slick({
+      dots: false,
+      speed: 1500,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      vertical:false,
+      autoplay:true,
+      arrows:true,
+    });
+
+  });
+</script>			</div>
+				
+
+		<main id="main">
+			<div class="margin_auto">
+				<section id="content">
+					<script language="javascript">
+  function addtocart(pid){
+    document.form_giohang.productid.value=pid;
+    document.form_giohang.command.value='add';
+    document.form_giohang.submit();
+  }
+</script>
+<form name="form_giohang" action="index.php" method="post">
+  <input type="hidden" name="productid" />
+  <input type="hidden" name="command" />
+</form>
+<div id="info">
+  <div id="sanpham">
+          
+        <div class="thanh_title"><h2>THU MUA MÁY CŨ GIÁ CAO</h2> </div>
+        <div class="khung">
+                          <div class="slick_spc">
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-samsung-galaxy-j2-prime.html"><img src="thumb/200x200/1/upload/product/samsunggalaxyj2prime1300x300-9784_200x200.jpg" alt="Điện thoại Samsung Galaxy J2 Prime" /></a>
+                            </div>
+                            <a href="dien-thoai-samsung-galaxy-j2-prime.html"><h3>Điện thoại Samsung Galaxy J2 Prime</h3></a>
+                            <p>Mã SP : 25</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                </div>
+                        <div class="clear"></div>
+          </div>
+          
+        <div class="thanh_title"><h2>SỬA CHỮA ĐTDĐ GIÁ RẺ</h2> </div>
+        <div class="khung">
+                          <div class="slick_spc">
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="sua-chua-dtdd-gia-re.html"><img src="thumb/200x200/1/upload/product/anhbia-6044_200x200.jpg" alt="Sửa Chữa ĐTDĐ Giá Rẻ" /></a>
+                            </div>
+                            <a href="sua-chua-dtdd-gia-re.html"><h3>Sửa Chữa ĐTDĐ Giá Rẻ</h3></a>
+                            <p>Mã SP : I</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                </div>
+                        <div class="clear"></div>
+          </div>
+          
+        <div class="thanh_title"><h2>ĐIỆN THOẠI</h2> </div>
+        <div class="khung">
+                          <div class="slick_spc">
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-iphone-x-256gb.html"><img src="thumb/200x200/1/upload/product/iphonex256gbh12300x300-8724_200x200.jpg" alt="Điện thoại iPhone X 256GB" /></a>
+                            </div>
+                            <a href="dien-thoai-iphone-x-256gb.html"><h3>Điện thoại iPhone X 256GB</h3></a>
+                            <p>Mã SP : 1</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-iphone-x-64gb.html"><img src="thumb/200x200/1/upload/product/iphonex64gb16300x300-1168_200x200.jpg" alt=" Điện thoại iPhone X 64GB" /></a>
+                            </div>
+                            <a href="dien-thoai-iphone-x-64gb.html"><h3> Điện thoại iPhone X 64GB</h3></a>
+                            <p>Mã SP : 2</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-iphone-8-plus-64gb.html"><img src="thumb/200x200/1/upload/product/iphone8plusa300x300-4975_200x200.jpg" alt="Điện thoại iPhone 8 Plus 64GB" /></a>
+                            </div>
+                            <a href="dien-thoai-iphone-8-plus-64gb.html"><h3>Điện thoại iPhone 8 Plus 64GB</h3></a>
+                            <p>Mã SP : 3</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-samsung-galaxy-note-8.html"><img src="thumb/200x200/1/upload/product/samsunggalaxynote81300x300-6717_200x200.jpg" alt="Điện thoại Samsung Galaxy Note 8" /></a>
+                            </div>
+                            <a href="dien-thoai-samsung-galaxy-note-8.html"><h3>Điện thoại Samsung Galaxy Note 8</h3></a>
+                            <p>Mã SP : 4</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-iphone-7-256gb.html"><img src="thumb/200x200/1/upload/product/iphone7256gb12300x300-1714_200x200.jpg" alt="Điện thoại iPhone 7 256GB" /></a>
+                            </div>
+                            <a href="dien-thoai-iphone-7-256gb.html"><h3>Điện thoại iPhone 7 256GB</h3></a>
+                            <p>Mã SP : 5</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-htc-u11.html"><img src="thumb/200x200/1/upload/product/4-5884_200x200.jpg" alt="Điện thoại HTC U11" /></a>
+                            </div>
+                            <a href="dien-thoai-htc-u11.html"><h3>Điện thoại HTC U11</h3></a>
+                            <p>Mã SP : 6</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-iphone-7-128gb.html"><img src="thumb/200x200/1/upload/product/1-4742_200x200.jpg" alt="Điện thoại iPhone 7 128GB" /></a>
+                            </div>
+                            <a href="dien-thoai-iphone-7-128gb.html"><h3>Điện thoại iPhone 7 128GB</h3></a>
+                            <p>Mã SP : 7</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-sony-xperia-xz1.html"><img src="thumb/200x200/1/upload/product/sonyxperiaxz113300x300-4384_200x200.jpg" alt="Điện thoại Sony Xperia XZ1" /></a>
+                            </div>
+                            <a href="dien-thoai-sony-xperia-xz1.html"><h3>Điện thoại Sony Xperia XZ1</h3></a>
+                            <p>Mã SP : 8</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-sony-xperia-xz-premium-pink-gold.html"><img src="thumb/200x200/1/upload/product/sonyxperiaxzpremiumpinkgold400x460-8201_200x200.png" alt="Điện thoại Sony Xperia XZ Premium Pink Gold" /></a>
+                            </div>
+                            <a href="dien-thoai-sony-xperia-xz-premium-pink-gold.html"><h3>Điện thoại Sony Xperia XZ Premium Pink Gold</h3></a>
+                            <p>Mã SP : 9</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-samsung-galaxy-s8-plus.html"><img src="thumb/200x200/1/upload/product/quytrinhsuadienthoaididong-1367_200x200.jpg" alt="Điện thoại Samsung Galaxy S8 Plus" /></a>
+                            </div>
+                            <a href="dien-thoai-samsung-galaxy-s8-plus.html"><h3>Điện thoại Samsung Galaxy S8 Plus</h3></a>
+                            <p>Mã SP : 11</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-samsung-galaxy-s8.html"><img src="thumb/200x200/1/upload/product/samsunggalaxys84300x300-1575_200x200.jpg" alt="Điện thoại Samsung Galaxy S8" /></a>
+                            </div>
+                            <a href="dien-thoai-samsung-galaxy-s8.html"><h3>Điện thoại Samsung Galaxy S8</h3></a>
+                            <p>Mã SP : 12</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-samsung-galaxy-note-fe.html"><img src="thumb/200x200/1/upload/product/samsunggalaxynotefeha400x460-5907_200x200.png" alt="Điện thoại Samsung Galaxy Note FE" /></a>
+                            </div>
+                            <a href="dien-thoai-samsung-galaxy-note-fe.html"><h3>Điện thoại Samsung Galaxy Note FE</h3></a>
+                            <p>Mã SP : 13</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-samsung-galaxy-j7.html"><img src="thumb/200x200/1/upload/product/samsunggalaxyj7plus1400x460-6047_200x200.png" alt="Điện thoại Samsung Galaxy J7+" /></a>
+                            </div>
+                            <a href="dien-thoai-samsung-galaxy-j7.html"><h3>Điện thoại Samsung Galaxy J7+</h3></a>
+                            <p>Mã SP : 14</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-samsung-galaxy-j7-pro.html"><img src="thumb/200x200/1/upload/product/samsunggalaxyj7pro2323400x460-5503_200x200.png" alt="Điện thoại Samsung Galaxy J7 Pro" /></a>
+                            </div>
+                            <a href="dien-thoai-samsung-galaxy-j7-pro.html"><h3>Điện thoại Samsung Galaxy J7 Pro</h3></a>
+                            <p>Mã SP : 15</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-samsung-galaxy-j7-prime.html"><img src="thumb/200x200/1/upload/product/1-3340_200x200.png" alt="Điện thoại Samsung Galaxy J7 Prime" /></a>
+                            </div>
+                            <a href="dien-thoai-samsung-galaxy-j7-prime.html"><h3>Điện thoại Samsung Galaxy J7 Prime</h3></a>
+                            <p>Mã SP : 16</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-samsung-galaxy-j3-pro.html"><img src="thumb/200x200/1/upload/product/samsunggalaxyj32017xanhduong180x125-1650_200x200.png" alt="Điện thoại Samsung Galaxy J3 Pro" /></a>
+                            </div>
+                            <a href="dien-thoai-samsung-galaxy-j3-pro.html"><h3>Điện thoại Samsung Galaxy J3 Pro</h3></a>
+                            <p>Mã SP : 17</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="oppo-f3-plus.html"><img src="thumb/200x200/1/upload/product/oppof3plusvangdong1300x300-7428_200x200.png" alt="OPPO F3 Plus" /></a>
+                            </div>
+                            <a href="oppo-f3-plus.html"><h3>OPPO F3 Plus</h3></a>
+                            <p>Mã SP : 18</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-oppo-f5-6gb.html"><img src="thumb/200x200/1/upload/product/oppof56gba1300x300-567_200x200.jpg" alt="Điện thoại OPPO F5 6GB" /></a>
+                            </div>
+                            <a href="dien-thoai-oppo-f5-6gb.html"><h3>Điện thoại OPPO F5 6GB</h3></a>
+                            <p>Mã SP : 18</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-oppo-f5.html"><img src="thumb/200x200/1/upload/product/oppof5h21300x300-2373_200x200.jpg" alt="Điện thoại Oppo F5" /></a>
+                            </div>
+                            <a href="dien-thoai-oppo-f5.html"><h3>Điện thoại Oppo F5</h3></a>
+                            <p>Mã SP : 19</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-oppo-f5-youth.html"><img src="thumb/200x200/1/upload/product/oppof5youtha1300x300-6328_200x200.jpg" alt="Điện thoại OPPO F5 Youth" /></a>
+                            </div>
+                            <a href="dien-thoai-oppo-f5-youth.html"><h3>Điện thoại OPPO F5 Youth</h3></a>
+                            <p>Mã SP : 20</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-oppo-f3-lite-a57.html"><img src="thumb/200x200/1/upload/product/oppoa5714300x300-8638_200x200.jpg" alt="Điện thoại OPPO F3 Lite (A57)" /></a>
+                            </div>
+                            <a href="dien-thoai-oppo-f3-lite-a57.html"><h3>Điện thoại OPPO F3 Lite (A57)</h3></a>
+                            <p>Mã SP : 21</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-oppo-a71.html"><img src="thumb/200x200/1/upload/product/oppoa711300x300-5649_200x200.jpg" alt="Điện thoại OPPO A71" /></a>
+                            </div>
+                            <a href="dien-thoai-oppo-a71.html"><h3>Điện thoại OPPO A71</h3></a>
+                            <p>Mã SP : 22</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-oppo-a37-a37fw.html"><img src="thumb/200x200/1/upload/product/oppoa37a37fwpp300x300-7372_200x200.jpg" alt="Điện thoại OPPO A37 (A37fw)" /></a>
+                            </div>
+                            <a href="dien-thoai-oppo-a37-a37fw.html"><h3>Điện thoại OPPO A37 (A37fw)</h3></a>
+                            <p>Mã SP : 23</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                      <div>
+                        <div class="item4" >
+                            <div class="product_img">
+                              <a href="dien-thoai-samsung-galaxy-j3-lte.html"><img src="thumb/200x200/1/upload/product/samsunggalaxyj3ltemauvangup111300x300-2310_200x200.jpg" alt="Điện thoại Samsung Galaxy J3 LTE" /></a>
+                            </div>
+                            <a href="dien-thoai-samsung-galaxy-j3-lte.html"><h3>Điện thoại Samsung Galaxy J3 LTE</h3></a>
+                            <p>Mã SP : 24</p>
+
+                                                            <div class="gia">
+                                  <div class="giaban">
+                                       <span>Liên hệ</span>             
+                                  </div>                    
+                                </div>
+                                                       
+                        </div> 
+                    </div>
+                                </div>
+                        <div class="clear"></div>
+          </div>
+                        </div>
+</div>
+<h1 class="visit_hidden">KHANG THỊNH MOBILE</h1>
+
+<script>
+  $(document).ready(function() {
+    $("#contenttabs .hidden").hide(); // Initially hide all contenttabs
+    $("#tabs li:first").attr("id","current"); // Activate first tab
+    $("#contenttabs div.hidden:first").fadeIn(); // Show first tab content
+    
+    $('#tabs a').click(function(e) {
+      e.preventDefault();        
+        $("#contenttabs .hidden").hide(); //Hide all contenttabs
+        $("#tabs li").attr("id",""); //Reset id's
+        $(this).parent().attr("id","current"); // Activate this
+        $('#' + $(this).attr('title')).fadeIn(); // Show contenttabs for current tab
+      });
+  })
+</script>
+
+<script type="text/javascript" charset="utf-8" >
+  $(document).ready(function() {
+    $('.slick_spc').slick({
+      dots: false,
+      speed: 1500,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      vertical:false,
+      autoplay:true,
+      arrows:true,
+    });
+
+  });
+</script>					<div class="clear"></div>
+				</section>
+			</div>
+		</main>
+					<div class="margin_auto">
+				
+
+<link rel="stylesheet" type="text/css" href="js/jquery.simplyscroll.css"/>
+<script type="text/javascript" src="js/jquery.simplyscroll.js"></script>
+<script type="text/javascript"> 
+  (function($) {
+    $(function() {
+      $("#scroller").simplyScroll({
+        orientation:'vertical',
+        customClass:'vert'
+      });
+    });
+  })(jQuery);
+</script> 
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.video_lienquan').change(function (){
+      var str = $(this).val(); 
+      if(str != '')
+        $('#box_video').load("js/ajax_video.php?id="+str);
+      return false;
+    });
+  });
+</script>
+<style type="text/css" media="screen">
+    
+</style>
+
+<div class="margin_auto">
+  <div id="center">
+  
+
+    <div class="video-clip">
+      <div class="thanh_title"><h2> VIDEO CLIP</h2></div>
+      <div class="conten_center_video">
+        <div class="video_slider">
+
+
+          <div id="box_video" style="width:100%;">
+                        <iframe width="100%" height="270px" src="https://www.youtube.com/embed/T1ktYeGrLPE" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+          <div class="select_video"  >
+            <div class="slick_video">
+                            <div>
+                <div class="Box_vi">
+                  <img data-href="https://www.youtube.com/embed/T1ktYeGrLPE" src="http://img.youtube.com/vi/T1ktYeGrLPE/1.jpg" border="0"/>
+                </div>
+              </div>
+                            <div>
+                <div class="Box_vi">
+                  <img data-href="https://www.youtube.com/embed/VElEv-wieT4" src="http://img.youtube.com/vi/VElEv-wieT4/1.jpg" border="0"/>
+                </div>
+              </div>
+                            <div>
+                <div class="Box_vi">
+                  <img data-href="https://www.youtube.com/embed/1rmWuwZKgeI" src="http://img.youtube.com/vi/1rmWuwZKgeI/1.jpg" border="0"/>
+                </div>
+              </div>
+                          </div>
+          </div> 
+          <div class="clear"></div>
+        </div><!-- End .video_slider --> 
+      </div>
+    </div><!-- .End video-clip -->
+
+
+    <div class="content_tintuc">
+      <div class="thanh_title"><h2>Dịch vụ - tin tức mới nhất</h2></div>
+      <div class="tin_b_n">
+        <div class="tin_b_n_img effect-v1">
+          <a href="thu-mua-dien-thoai-smartphone-cu-gia-cao-tai-tphcm.html" title="">
+            <img src="thumb/250x172/1/upload/baiviet/iphone12promax-7052_370x210.jpg" alt="Thu mua Điện thoại Smartphone cũ giá cao tại TPHCM"  />
+          </a>
+        </div>
+        <h4>Thu mua Điện thoại Smartphone cũ giá cao tại TPHCM</h4>
+        <p style=" color:rgba(153,153,153,1);"><img src="images/lich.png" alt="lich" style="margin-top: -3px;margin-right: 10px">30/06/2021 - 3:17 PM</p>
+        <p>Bạn cần bán Điện thoại Smartphone cũ của mình với nhiều lý do:
+
+Được tặng, dư dùng không xài tới, bỏ không thì phí (đồ công nghệ để lâu ngày không xài tới cũng hư).
+Lên đời Điện thoại mới, thời trang và phù hợp với công việc...</p>
+        <div class="clear"></div>        
+      </div>
+
+      <div class="conten-center">
+         <div class="tintucmoi slick_tintuc">
+                      <div>
+              <div class="box_tintucmoi">
+               <div class="hinhtt">
+                 <a href="hang-xach-tay-la-gi.html">
+                   <img src="thumb/184x120/1/upload/baiviet/thumuadienthoaicugiacao-1968_370x210.jpg" alt="Hàng xách tay là gì? "  /></a>
+                 </div><!--hinhtt-->
+                 <div class="infott">
+                   <a href="hang-xach-tay-la-gi.html">Hàng xách tay là gì? </a>
+                   <div class="clear"></div>
+                    <p style=" color:rgba(153,153,153,1);"><img src="images/lich.png" alt="lich" style="margin-right: 10px;float: left;">30/06/2021 - 3:17 PM</p>
+                 </div><!--infott-->
+                 <div class="clear"></div>
+               </div>
+           </div>
+                       <div>
+              <div class="box_tintucmoi">
+               <div class="hinhtt">
+                 <a href="dung-luong-pin-cua-redmi-5-cuc-trau-dap-ung-duoc-nguoi-dung-trong-ca-ngay.html">
+                   <img src="thumb/184x120/1/upload/baiviet/3-9206_370x210.jpg" alt="Dung lượng pin của Redmi 5 cực trâu, đáp ứng được người dùng trong cả ngày"  /></a>
+                 </div><!--hinhtt-->
+                 <div class="infott">
+                   <a href="dung-luong-pin-cua-redmi-5-cuc-trau-dap-ung-duoc-nguoi-dung-trong-ca-ngay.html">Dung lượng pin của Redmi 5 cực trâu, đáp ứng được người dùng trong cả ngày</a>
+                   <div class="clear"></div>
+                    <p style=" color:rgba(153,153,153,1);"><img src="images/lich.png" alt="lich" style="margin-right: 10px;float: left;">30/06/2021 - 3:17 PM</p>
+                 </div><!--infott-->
+                 <div class="clear"></div>
+               </div>
+           </div>
+                       <div>
+              <div class="box_tintucmoi">
+               <div class="hinhtt">
+                 <a href="android-chay-nhanh-nhu-moi-mua-nho-9-meo-tang-toc.html">
+                   <img src="thumb/184x120/1/upload/baiviet/meo1800x450-1527_370x210.jpg" alt="Android chạy nhanh như mới mua nhờ 9 mẹo tăng tốc"  /></a>
+                 </div><!--hinhtt-->
+                 <div class="infott">
+                   <a href="android-chay-nhanh-nhu-moi-mua-nho-9-meo-tang-toc.html">Android chạy nhanh như mới mua nhờ 9 mẹo tăng tốc</a>
+                   <div class="clear"></div>
+                    <p style=" color:rgba(153,153,153,1);"><img src="images/lich.png" alt="lich" style="margin-right: 10px;float: left;">30/06/2021 - 3:17 PM</p>
+                 </div><!--infott-->
+                 <div class="clear"></div>
+               </div>
+           </div>
+                      
+        </div>    
+      </div>
+      <div class="clear"></div>
+    </div><!-- .End video-clip -->
+
+
+
+
+
+
+    <div class="clear"></div>
+  </div><!-- . End center -->
+</div><!-- margin -->
+<div class="clear"></div>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.Box_vi img').click(function (){
+      var str = $(this).attr('data-href'); 
+      // var ten =   $(this).attr('data-href')   ;
+      $('#box_video iframe').attr('src', str);
+      return false;
+    });
+
+    $('.slick_video').slick({
+      dots: false,
+      infinite: true,
+      speed: 1500,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      arrows:false
+    });
+
+    $('.slick_tintuc').slick({
+      dots: false,
+      infinite: true,
+      speed: 1500,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      arrows:false
+    });
+  });
+</script>			</div>
+				
+		<div class="clear"></div>
+		<footer id="footer">
+			
+
+<div class="mangxahoi">
+	<div class="margin_auto">
+		<div class="mxh_left">
+			
+<div class="lienket">
+	<h4>Liên kết mạng xã hội</h4>
+			<a href="https://www.facebook.com/profile.php?id=100000361821983&fref=ts" target="_blank"><img src="thumb/42x42/1/upload/hinhanh/ftmxh1-4493.png" alt="" /></a>
+			<a href="https://www.facebook.com/profile.php?id=100000361821983&fref=ts" target="_blank"><img src="thumb/42x42/1/upload/hinhanh/ftmxh2-6184.png" alt="" /></a>
+			<a href="https://www.youtube.com/watch?v=erVi72V2eq4&list=RDerVi72V2eq4&t=4" target="_blank"><img src="thumb/42x42/1/upload/hinhanh/ftmxh4-5364.png" alt="" /></a>
+	</div>
+			<div class="hotro">
+				<h4> Hỗ trợ trực tuyến</h4>
+				<p>
+					<div style="float: left;margin-right: 20px;padding-top: 6px;"><img style="margin-right: 10px" src="images/hotro.png" alt="hỗ trợ">HOTLINE : 09373377 33</div>					
+					<div><a href="skype:?chat" title="Chat với tôi"><img src="images/sky.png" /></a></div>
+					<div><a href="viber:?chat" title="Chat với tôi"><img src="images/viber.png" /></a></div>
+					<div><a href="zalo:?chat" title="Chat với tôi"><img src="images/zalo.png" /></a></div>
+				</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="mxh_right">
+			<script type="text/javascript">
+	$(document).ready(function() {
+		$('.dangkymail').submit(function(event) {
+			var email = $('.dangkymail input').val();
+			if(email==''){
+				alert('Bạn chưa nhập email');
+				$('.dangkymail input').focus();
+			} else {
+				$.ajax ({
+					type: "POST",
+					url: "ajax/dangky_email.php",
+					data: {email:email},
+					success: function(result) { 
+						if(result==0){
+							$('.dangkymail input').attr('value','');
+							alert('Đăng ký thành công ! ');
+							$('.dangkymail input').attr('value','');
+						} else if(result==1){
+							alert('Email đã được đăng ký ! ');
+							$('.dangkymail input').attr('value','');
+						} else if(result==2){
+							alert(' ! Đăng ký không thành công . Vui lòng thử lại ');
+						}
+					}
+				});
+			}
+			return false;
+		});
+	});
+</script>
+
+
+<h4>Đăng ký nhận tin</h4>
+<form action="" method="post" name="dangkymail" class="dangkymail">
+		<input name="email" type="email" class="input" placeholder="Nhập email . ">
+		<button type="submit" value="">Đăng ký </button>
+</form>		</div>
+
+	</div>
+	<div class="clear"></div>
+</div>
+
+<div class="clear"></div>
+
+<div id="bottom">
+	<div class="margin_auto">
+		<div class="bottom">
+
+			<div class="thongtin_bt">
+				<h4><span></span> KHANG THỊNH MOBILE </h4>
+				<p><div class="_RBg" style="color: rgb(34, 34, 34); font-family: arial, sans-serif;">
+<h1 class="mod" data-md="30" data-ved="0ahUKEwie9KDh06nYAhUDXbwKHbeVAAkQkCkICygBMAE" style="line-height: 1.24; padding-top: 0px; border-radius: 2px; padding-left: 15px; padding-right: 15px; clear: none;"><span style="color:#FFFFFF;"><span style="font-size: 16px;"><span style="font-family: arial, helvetica, sans-serif;"><strong>MUA ĐIỆN THOẠI GIÁ CAO,CHUYÊN SỬA CHỮA ĐIỆN THOẠI- THAY THẾ LINH KIỆN</strong></span></span></span></h1>
+
+<div class="mod" data-hveid="12" data-md="1002" data-ved="0ahUKEwie9KDh06nYAhUDXbwKHbeVAAkQkCkIDCgCMAI" style="padding-left: 15px; padding-right: 15px; line-height: 1.24; clear: none;">
+<div class="_eFb">
+<div class="_mr kno-fb-ctx" data-dtype="d3adr" data-local-attribute="d3adr" data-ved="0ahUKEwie9KDh06nYAhUDXbwKHbeVAAkQghwIDSgAMAI" style="margin-top: 7px; text-align: justify;"><span style="color:#FFFFFF;"><span style="font-size: 20px;"><span comic="" sans=""><span class="_xdb" style="font-weight: bolder;"><img alt="" height="30" src="http://khangthinhmobile.com/upload/images/icon-dia-diem.png" width="30" /><span style="font-size: 16px;"><span style="font-family: arial, helvetica, sans-serif;"> 145 TRẦN QUANG KHẢI,P. TÂN ĐỊNH, QUẬN 1, TP.HCM</span></span></span></span></span></span></div>
+</div>
+</div>
+
+<div class="mod" data-hveid="15" data-md="1006" data-ved="0ahUKEwie9KDh06nYAhUDXbwKHbeVAAkQkCkIDygDMAM" style="padding-left: 15px; padding-right: 15px; line-height: 1.24; clear: none;">
+<div class="_eFb">
+<div class="_mr kno-fb-ctx" data-dtype="d3ph" data-local-attribute="d3ph" data-ved="0ahUKEwie9KDh06nYAhUDXbwKHbeVAAkQ8I0BCBAoADAD" style="margin-top: 7px; text-align: justify;"><span style="color:#FFFFFF;"><span style="font-size: 16px;"><span style="font-family: arial, helvetica, sans-serif;"><span class="_Xbe _ZWk kno-fv"><span data-dtype="d3ph" data-local-attribute="d3ph"><img alt="" height="30" src="http://khangthinhmobile.com/upload/images/call.png" width="30" />  <strong>0937 33 77 33</strong></span></span></span></span></span></div>
+
+<div class="_mr kno-fb-ctx" data-dtype="d3ph" data-local-attribute="d3ph" data-ved="0ahUKEwie9KDh06nYAhUDXbwKHbeVAAkQ8I0BCBAoADAD" style="margin-top: 7px; text-align: justify;"><span style="color:#FFFFFF;"><span style="font-size: 16px;"><span style="font-family: arial, helvetica, sans-serif;"><span class="_Xbe _ZWk kno-fv"><span data-dtype="d3ph" data-local-attribute="d3ph"><strong>Email: khangthinh7373@gmail.com</strong></span></span></span></span></span></div>
+
+<div class="_mr kno-fb-ctx" data-dtype="d3ph" data-local-attribute="d3ph" data-ved="0ahUKEwie9KDh06nYAhUDXbwKHbeVAAkQ8I0BCBAoADAD" style="margin-top: 7px; text-align: justify;"> </div>
+
+<div class="_mr kno-fb-ctx" data-dtype="d3ph" data-local-attribute="d3ph" data-ved="0ahUKEwie9KDh06nYAhUDXbwKHbeVAAkQ8I0BCBAoADAD" style="margin-top: 7px; text-align: justify;"><span style="color:#FFD700;"><span style="font-size:16px;"><strong>Hộ kinh doanh Cửa hàng điện thoại Di động Khang Thịnh<span style="white-space:pre"> </span></strong></span></span></div>
+
+<div class="_mr kno-fb-ctx" data-dtype="d3ph" data-local-attribute="d3ph" data-ved="0ahUKEwie9KDh06nYAhUDXbwKHbeVAAkQ8I0BCBAoADAD" style="margin-top: 7px; text-align: justify;"><span style="color:#FFFFFF;"><strong><span style="font-size:16px;">Giấy Chứng Nhận Đăng Kí Hộ Kinh Doanh số 41A8045344 cấp ngày 14/03/2019 bởi Phòng Kinh Tế Q.1 TP.HCM</span></strong></span></div>
+
+<div class="_mr kno-fb-ctx" data-dtype="d3ph" data-local-attribute="d3ph" data-ved="0ahUKEwie9KDh06nYAhUDXbwKHbeVAAkQ8I0BCBAoADAD" style="margin-top: 7px; text-align: justify;"><span style="color:#FFFFFF;"><strong><span style="font-size:16px;">Đại diện pháp luật: Phạm Mỹ Anh Tuấn</span></strong></span></div>
+
+<div class="_mr kno-fb-ctx" data-dtype="d3ph" data-local-attribute="d3ph" data-ved="0ahUKEwie9KDh06nYAhUDXbwKHbeVAAkQ8I0BCBAoADAD" style="margin-top: 7px; text-align: justify;">
+<p><a href="http://online.gov.vn/Home/WebDetails/83856"><img alt="" height="57" src="http://khangthinhmobile.com/upload/images/logoSaleNoti.png" width="150" /></a></p>
+
+<p> </p>
+
+<p><img alt="" height="51" src="http://khangthinhmobile.com/upload/images/Ph%C6%B0%C6%A1ng%20th%E1%BB%A9c%20thanh%20to%C3%A1n%202%20(2).png" style="float:left" width="500" /></p>
+</div>
+</div>
+</div>
+</div>
+
+<p> </p>
+
+<div class="_RBg" style="color: rgb(34, 34, 34); font-family: arial, sans-serif;">
+<div class="mod" data-hveid="15" data-md="1006" data-ved="0ahUKEwie9KDh06nYAhUDXbwKHbeVAAkQkCkIDygDMAM" style="padding-left: 15px; padding-right: 15px; line-height: 1.24; clear: none;">
+<div class="_eFb">
+<div class="_mr kno-fb-ctx" data-dtype="d3ph" data-local-attribute="d3ph" data-ved="0ahUKEwie9KDh06nYAhUDXbwKHbeVAAkQ8I0BCBAoADAD" style="margin-top: 7px; text-align: justify;"> </div>
+</div>
+</div>
+</div>
+
+<p> </p>
+</p>
+				<div class="tag_tukhoa">
+				Tags :
+											<span ><a style="color: #A1A1A1 ; font-size: 13px;font-family: 'RobotoRegular';" href="" title="iphone">iphone  </a> / </span>
+											<span ><a style="color: #A1A1A1 ; font-size: 13px;font-family: 'RobotoRegular';" href="" title="samsung">samsung  </a> / </span>
+											<span ><a style="color: #A1A1A1 ; font-size: 13px;font-family: 'RobotoRegular';" href="" title="sửa chữa điện thoại, linh kiện">sửa chữa điện thoại, linh kiện  </a> / </span>
+									</div>
+				<div class="clear"></div>		
+			</div>
+
+			<div class="khung_lienhe_index">
+				<h3>Thời gian làm việc</h3>
+				<p><p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">THỜI GIAN LÀM VIỆC</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">TỪ THỨ 2- CN: 8:00 - 20:00</span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">QUÝ KHÁCH CÓ NHU CẦU MUA HÀNG GỌI BÁO GIÁ QUA ĐIỆN THOẠI VÀ NHẬN HÀNG TRONG GIỜ LÀM VIỆC</span></span></p>
+
+<p style="text-align: justify;"> </p>
+
+<p style="text-align: justify;"><span style="color:#FFD700;"><span style="font-size:18px;"><span style="font-family:arial,helvetica,sans-serif;">CHÍNH SÁCH KHÁCH HÀNG</span></span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:14px;"><a href="http://khangthinhmobile.com/chinh-sach-bao-mat.html"><span style="color:#FFFFFF;">Chính sách bảo mật</span></a><br />
+<a href="http://khangthinhmobile.com/chinh-sach-mua-hang.html"><span style="color:#FFFFFF;">Chính sách mua hàng</span></a><br />
+<a href="http://khangthinhmobile.com/chinh-sach-giao-nhan.html"><span style="color:#FFFFFF;">Chính sách giao nhận</span></a><br />
+<a href="http://khangthinhmobile.com/chinh-sach-bao-hanh.html"><span style="color:#FFFFFF;">Chính sách bảo hành</span></a><br />
+<a href="http://khangthinhmobile.com/phuong-thuc-thanh-toan.html"><span style="color:#FFFFFF;">Phương thức thanh toán</span></a></span></p>
+</p>
+			</div>
+			<div class="thongke">
+				<div id="fb-root"></div>
+				  <script>(function(d, s, id) {
+				    var js, fjs = d.getElementsByTagName(s)[0];
+				    if (d.getElementById(id)) return;
+				    js = d.createElement(s); js.id = id;
+				    js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.6";
+				    fjs.parentNode.insertBefore(js, fjs);
+				  }(document, 'script', 'facebook-jssdk'));</script>
+				  <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100000361821983&fref=ts" data-tabs="timeline" data-width="600" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/profile.php?id=100000361821983&fref=ts"><a href="https://www.facebook.com/profile.php?id=100000361821983&fref=ts">Facebook</a></blockquote></div>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<div class="copy">
+	<div class="margin_auto">
+		2017 Copyright © KHANG THỊNH MOBILE. All rights reserved. Design by Nina.vn  
+		<ul>
+			<li>Đang online: 1</li>
+			<li>Hôm qua: 18</li>
+			<li>Trong tuần: 89</li>
+			<li>Tổng: 26194</li>
+		</ul>
+
+	</div>
+</div>
+
+
+
+<script language="javascript" src="js/my_script.js"></script>
+<script language="javascript">
+	function js_submit12(){
+		if(isEmpty(document.getElementById('ten'), "Xin nhập Họ tên.")){
+			document.getElementById('ten').focus();
+			return false;
+		}
+		// if(isEmpty(document.getElementById('diachi'), "Xin nhập Địa Chỉ.")){
+		// 	document.getElementById('diachi').focus();
+		// 	return false;
+		// }
+		
+		if(isEmpty(document.getElementById('dienthoai'), "Xin nhập Số điện thoại.")){
+			document.getElementById('dienthoai').focus();
+			return false;
+		}
+		
+		if(!isNumber(document.getElementById('dienthoai'), "Số điện thoại không hợp lệ.")){
+			document.getElementById('dienthoai').focus();
+			return false;
+		}
+		
+		if(!check_email(document.frm.email.value)){
+			alert("Email không hợp lệ");
+			document.frm.email.focus();
+			return false;
+		}
+		
+		// if(isEmpty(document.getElementById('tieude'), "Xin nhập Chủ đề.")){
+		// 	document.getElementById('tieude').focus();
+		// 	return false;
+		// }
+		
+		if(isEmpty(document.getElementById('noidung'), "Xin nhập Nội dung.")){
+			document.getElementById('noidung').focus();
+			return false;
+		}
+		
+		document.frm.submit();
+	}
+</script>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyD5Mevy_rl8U4ZyBB8i5jmdxfvb9Cg5UoE&sensor=false"></script>
+<script>
+	function initialize_bt() {
+		var myLatlng = new google.maps.LatLng(10.908724, 106.854912);
+		var mapOptions = {
+			zoom: 17,
+			center: myLatlng
+		};
+
+		var map = new google.maps.Map(document.getElementById('map_canvas_bt'), mapOptions);
+
+		var contentString = "<table style='text-align:left; font-weight:100;'><tr><th style='font-size:16px; color:#039BB2; font-weight:bold; text-transform: uppercase;'>KHANG THỊNH MOBILE</th></tr><tr><th>Địa chỉ : 145 TRẦN QUANG KHẢI,PHƯỜNG TÂN ĐỊNH, QUẬN 1, TP.HCM</th></tr><tr><th>Điện thoại : 0937337733</th></tr><tr><th>Email :  khangthinh7373@gmail.com</th></tr></table>";
+
+		var infowindow = new google.maps.InfoWindow({
+			content: contentString
+		});
+
+		var marker = new google.maps.Marker({
+			position: myLatlng,
+			map: map,
+			title: "KHANG THỊNH MOBILE"
+		});
+		infowindow.open(map, marker);
+	}
+
+	google.maps.event.addDomListener(window, 'load', initialize_bt);
+
+
+</script>
+		</footer>
+	</div>
+	
+			
+		 
+</body>
+
+</html>

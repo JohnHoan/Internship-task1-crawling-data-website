@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <!-- Basehref -->
+<base href="https://enerox.vn/"/>
+
+<!-- UTF-8 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- Title, Keywords, Description -->
+<title>Enerox | Energy Conservation</title>
+<meta name="keywords" content="Công ty TNHH Enerox, cong ty tnhh enerox"/>
+<meta name="description" content="Bảo tồn năng lượng hiện không còn là lựa chọn nữa. Trong điều kiện nguồn tài nguyên chất đốt là hữu hạn và ngày càng đắt đỏ, tiết kiệm năng lượng đang là điều bắt buộc để ngành công nghiệp phát triển bền vững, tăng tính cạnh tranh, bảo vệ môi trường."/>
+
+<!-- Robots -->
+<meta name="robots" content="index,follow" />
+
+<!-- Favicon -->
+<link href="upload/photo/favicon-5107.png" rel="shortcut icon" type="image/x-icon" />
+
+<!-- Webmaster Tool -->
+
+	<!-- Security Policy -->
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+<!-- GEO -->
+<meta name="geo.region" content="VN" />
+<meta name="geo.placename" content="Hồ Chí Minh" />
+<meta name="geo.position" content="10.823099;106.629664" />
+<meta name="ICBM" content="10.823099, 106.629664" />
+
+<!-- Author - Copyright -->
+<meta name='revisit-after' content='1 days' />
+<meta name="author" content="Công ty TNHH Enerox" />
+<meta name="copyright" content="Công ty TNHH Enerox - [enerox@enerox.vn]" />
+
+<!-- Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Công ty TNHH Enerox" />
+<meta property="og:title" content="Enerox | Energy Conservation" />
+<meta property="og:description" content="Bảo tồn năng lượng hiện không còn là lựa chọn nữa. Trong điều kiện nguồn tài nguyên chất đốt là hữu hạn và ngày càng đắt đỏ, tiết kiệm năng lượng đang là điều bắt buộc để ngành công nghiệp phát triển bền vững, tăng tính cạnh tranh, bảo vệ môi trường." />
+<meta property="og:url" content="https://enerox.vn/" />
+<meta property="og:image" content="https://enerox.vn/thumbs/800x630x2/upload/photo/logo-ht-5037.png" />
+<meta property="og:image:alt" content="Enerox | Energy Conservation" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="800" />
+<meta property="og:image:height" content="630" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="enerox@enerox.vn" />
+<meta name="twitter:creator" content="Công ty TNHH Enerox" />
+<meta property="og:url" content="https://enerox.vn/" />
+<meta property="og:title" content="Enerox | Energy Conservation" />
+<meta property="og:description" content="Bảo tồn năng lượng hiện không còn là lựa chọn nữa. Trong điều kiện nguồn tài nguyên chất đốt là hữu hạn và ngày càng đắt đỏ, tiết kiệm năng lượng đang là điều bắt buộc để ngành công nghiệp phát triển bền vững, tăng tính cạnh tranh, bảo vệ môi trường." />
+<meta property="og:image" content="https://enerox.vn/thumbs/800x630x2/upload/photo/logo-ht-5037.png" />
+
+<!-- Canonical -->
+<link rel="canonical" href="https://enerox.vn/" />
+
+<!-- Chống đổi màu trên IOS -->
+<meta name="format-detection" content="telephone=no">
+
+<!-- Viewport -->
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> -->
+<meta name="viewport" content="width=1920, user-scalable=yes" />    <!-- Css Files -->
+<link href="./assets/css/animate.min.css?v=46Kkvhftnu" rel="stylesheet">
+<link href="./assets/bootstrap/bootstrap.css?v=tYYEcbiXHu" rel="stylesheet">
+<link href="./assets/fontawesome512/all.css?v=dLfLYMFNz0" rel="stylesheet">
+<link href="./assets/mmenu/mmenu.css?v=D3MGCT5CWF" rel="stylesheet">
+<link href="./assets/fancybox3/jquery.fancybox.css?v=H2r101WIJx" rel="stylesheet">
+<link href="./assets/fancybox3/jquery.fancybox.style.css?v=dsjVb0KvcY" rel="stylesheet">
+<link href="./assets/login/login.css?v=o0vMeFq4DC" rel="stylesheet">
+<link href="./assets/css/cart.css?v=Hp7wR1ENRU" rel="stylesheet">
+<link href="./assets/photobox/photobox.css?v=BAm1WeoiX" rel="stylesheet">
+<link href="./assets/slick/slick.css?v=bhW4NoAHxv" rel="stylesheet">
+<link href="./assets/slick/slick-theme.css?v=0U3bTDxhfE" rel="stylesheet">
+<link href="./assets/slick/slick-style.css?v=tKDQcpN3s" rel="stylesheet">
+<link href="./assets/simplyscroll/jquery.simplyscroll.css?v=oRL0l8LybG" rel="stylesheet">
+<link href="./assets/simplyscroll/jquery.simplyscroll-style.css?v=b37LwHLovi" rel="stylesheet">
+<link href="./assets/fotorama/fotorama.css?v=CCThRKbz0Z" rel="stylesheet">
+<link href="./assets/fotorama/fotorama-style.css?v=m0J24BBvKt" rel="stylesheet">
+<link href="./assets/magiczoomplus/magiczoomplus.css?v=1MWATsy1nK" rel="stylesheet">
+<link href="./assets/datetimepicker/jquery.datetimepicker.css?v=i85pD3Ef0w" rel="stylesheet">
+<link href="./assets/owlcarousel2/owl.carousel.css?v=5OqPVtEubA" rel="stylesheet">
+<link href="./assets/owlcarousel2/owl.theme.default.css?v=jxWUdfdvf8" rel="stylesheet">
+<link href="./assets/css/fonts.css?v=TwLCrpWOCv" rel="stylesheet">
+<link href="./assets/css/style.css?v=sKpg1cT6V" rel="stylesheet">
+
+
+<!-- Background -->
+
+<!-- Js Google Analytic -->
+
+<!-- Js Head -->
+</head>
+<body>    
+            <style>
+            .wrap-main, .wrap-content{margin: 0 auto}
+        </style>
+        <ul class="h-card hidden">
+    <li class="h-fn fn">Công ty TNHH Enerox</li>
+    <li class="h-org org">Công ty TNHH Enerox</li>
+    <li class="h-tel tel">0903053188</li>
+    <li><a class="u-url ul" href="https://enerox.vn/">https://enerox.vn/</a></li>
+</ul>
+<h1 class="hidden-seoh">Enerox | Energy Conservation</h1><div class="header">
+	<div class="wrap-content d-flex align-items-center justify-content-between">
+		<a class="logo-header" href=""><img onerror="this.src='thumbs/155x122x2/assets/images/noimage.png';" src="thumbs/155x122x2/upload/photo/logo-ht-5037.png"/></a>
+		<div class="menu">
+    <ul>         
+        <li><a class="transition page-scroll" href="#ve-enerox" title="về enerox">về enerox</a></li>
+        <li><a class="transition page-scroll" href="#san-pham" title="Sản phẩm">Sản phẩm</a></li>      
+        <li><a class="transition page-scroll" href="#giai-phap-dich-vu" title="Giải pháp & dịch vụ">Giải pháp & dịch vụ</a></li>
+        <li><a class="transition page-scroll" href="#goc-ky-thuat" title="Góc kỹ thuật">Góc kỹ thuật</a></li>
+        <li><a class="transition page-scroll" href="lien-he" title="Liên hệ">Liên hệ</a></li>
+        <li>
+            <div class="social social-header">                
+                                    <span><a href="" target="_blank"><img src="thumbs/30x30x1/upload/photo/f2-9799.png" alt=""></a></span>
+                                    <span><a href="" target="_blank"><img src="thumbs/30x30x1/upload/photo/g2-8458.png" alt=""></a></span>
+                                    <span><a href="" target="_blank"><img src="thumbs/30x30x1/upload/photo/z2-5581.png" alt=""></a></span>
+                            </div>
+        </li>
+        <li>
+            <div id="timkiem">
+                <div class="click_search"><i class="fa fa-search"></i></div>
+                <form action="tim-kiem.html" method="" name="frm2" class="frm_timkiem">
+                    <input type="text" name="timkiem" id="name_tk" class="input" placeholder="Tìm kiếm">
+                    <button type="submit" value="" id="btn" class="nut_tim"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </li>
+    </ul>
+</div>	</div>
+</div><div class="slideshow">
+    <p class="control-slideshow prev-slideshow transition"><i class="fas fa-chevron-left"></i></p>
+    <div class="owl-carousel owl-theme owl-slideshow">
+                    <div>
+                <a href="" target="_blank" title=""><img onerror="this.src='thumbs/1366x600x2/assets/images/noimage.png';" src="thumbs/1366x600x1/upload/photo/slider-9422.png" alt="" title=""/></a>
+            </div>
+                    <div>
+                <a href="" target="_blank" title=""><img onerror="this.src='thumbs/1366x600x2/assets/images/noimage.png';" src="thumbs/1366x600x1/upload/photo/slider-7636.png" alt="" title=""/></a>
+            </div>
+            </div>
+    <p class="control-slideshow next-slideshow transition"><i class="fas fa-chevron-right"></i></p>
+</div>    <div class="wrap-main wrap-home w-clear"><div class="product_home" id="san-pham">
+	<div class="wrap-content">
+		<div class="title-main2">
+			<span>Sản phẩm tiêu biểu</span>
+			<p>We do the Excellence</p>
+		</div>
+		<div class="box_product_home">
+			<div class="owl_product owl-carousel owl-theme">
+								<div class="col_product col-12" >
+					<div class="item_product">						
+						<div class="img_product">
+							<a class="img-hover effect" href="cmtd-f" title="CMTD42M-F |  Bẫy hơi đồng tiền tích hợp, phiên bản đầy đủ">
+								<img onerror="this.src='thumbs/380x350x2/assets/images/noimage.png';" src="watermark/product/380x350x1/upload/product/cmtd-f-1783.png" alt="CMTD42M-F |  Bẫy hơi đồng tiền tích hợp, phiên bản đầy đủ">								
+							</a>							
+						</div>
+						<div class="info_product">
+							<h3><a href="cmtd-f" title="CMTD42M-F |  Bẫy hơi đồng tiền tích hợp, phiên bản đầy đủ">CMTD42M-F |  Bẫy hơi đồng tiền tích hợp, phiên bản đầy đủ</a></h3>							
+						</div>
+					</div>
+				</div>
+								<div class="col_product col-12" >
+					<div class="item_product">						
+						<div class="img_product">
+							<a class="img-hover effect" href="cmtd-s" title="CMTD42M-S | Bẫy hơi đồng tiền tích hợp, phiên bản tiêu chuẩn">
+								<img onerror="this.src='thumbs/380x350x2/assets/images/noimage.png';" src="watermark/product/380x350x1/upload/product/2-2143.png" alt="CMTD42M-S | Bẫy hơi đồng tiền tích hợp, phiên bản tiêu chuẩn">								
+							</a>							
+						</div>
+						<div class="info_product">
+							<h3><a href="cmtd-s" title="CMTD42M-S | Bẫy hơi đồng tiền tích hợp, phiên bản tiêu chuẩn">CMTD42M-S | Bẫy hơi đồng tiền tích hợp, phiên bản tiêu chuẩn</a></h3>							
+						</div>
+					</div>
+				</div>
+								<div class="col_product col-12" >
+					<div class="item_product">						
+						<div class="img_product">
+							<a class="img-hover effect" href="fjp" title="FlashJet Pump | Bơm nước ngưng cải tiến. Không thất thoát hơi flash. Thu hồi 100% năng lượng">
+								<img onerror="this.src='thumbs/380x350x2/assets/images/noimage.png';" src="watermark/product/380x350x1/upload/product/3-8549.png" alt="FlashJet Pump | Bơm nước ngưng cải tiến. Không thất thoát hơi flash. Thu hồi 100% năng lượng">								
+							</a>							
+						</div>
+						<div class="info_product">
+							<h3><a href="fjp" title="FlashJet Pump | Bơm nước ngưng cải tiến. Không thất thoát hơi flash. Thu hồi 100% năng lượng">FlashJet Pump | Bơm nước ngưng cải tiến. Không thất thoát hơi flash. Thu hồi 100% năng lượng</a></h3>							
+						</div>
+					</div>
+				</div>
+								<div class="col_product col-12" >
+					<div class="item_product">						
+						<div class="img_product">
+							<a class="img-hover effect" href="toft" title="TOFT | Bẫy hơi dạng phao hai lỗ thoát, gấp đôi công suất thoát nước ngưng">
+								<img onerror="this.src='thumbs/380x350x2/assets/images/noimage.png';" src="watermark/product/380x350x1/upload/product/4-7005.png" alt="TOFT | Bẫy hơi dạng phao hai lỗ thoát, gấp đôi công suất thoát nước ngưng">								
+							</a>							
+						</div>
+						<div class="info_product">
+							<h3><a href="toft" title="TOFT | Bẫy hơi dạng phao hai lỗ thoát, gấp đôi công suất thoát nước ngưng">TOFT | Bẫy hơi dạng phao hai lỗ thoát, gấp đôi công suất thoát nước ngưng</a></h3>							
+						</div>
+					</div>
+				</div>
+								<div class="col_product col-12" >
+					<div class="item_product">						
+						<div class="img_product">
+							<a class="img-hover effect" href="cmtoft" title="CMTOFT | Bẫy hơi dạng phao hai lỗ thoát kiểu tích hợp, sản phẩm có bản quyền sáng chế">
+								<img onerror="this.src='thumbs/380x350x2/assets/images/noimage.png';" src="watermark/product/380x350x1/upload/product/7-3533.png" alt="CMTOFT | Bẫy hơi dạng phao hai lỗ thoát kiểu tích hợp, sản phẩm có bản quyền sáng chế">								
+							</a>							
+						</div>
+						<div class="info_product">
+							<h3><a href="cmtoft" title="CMTOFT | Bẫy hơi dạng phao hai lỗ thoát kiểu tích hợp, sản phẩm có bản quyền sáng chế">CMTOFT | Bẫy hơi dạng phao hai lỗ thoát kiểu tích hợp, sản phẩm có bản quyền sáng chế</a></h3>							
+						</div>
+					</div>
+				</div>
+								<div class="col_product col-12" >
+					<div class="item_product">						
+						<div class="img_product">
+							<a class="img-hover effect" href="psval" title="PSVAL | Van khóa. Van Piston. Không rò rỉ hơi nước. Tuổi thọ dài. Chi phí sở hữu thấp">
+								<img onerror="this.src='thumbs/380x350x2/assets/images/noimage.png';" src="watermark/product/380x350x1/upload/product/8-3723.png" alt="PSVAL | Van khóa. Van Piston. Không rò rỉ hơi nước. Tuổi thọ dài. Chi phí sở hữu thấp">								
+							</a>							
+						</div>
+						<div class="info_product">
+							<h3><a href="psval" title="PSVAL | Van khóa. Van Piston. Không rò rỉ hơi nước. Tuổi thọ dài. Chi phí sở hữu thấp">PSVAL | Van khóa. Van Piston. Không rò rỉ hơi nước. Tuổi thọ dài. Chi phí sở hữu thấp</a></h3>							
+						</div>
+					</div>
+				</div>
+								<div class="col_product col-12" >
+					<div class="item_product">						
+						<div class="img_product">
+							<a class="img-hover effect" href="steamon" title="SteaMon | Đồng hồ đo lưu lượng kiểu Vortex. Phù hợp cho đường ống hơi chính và đường ống nhánh">
+								<img onerror="this.src='thumbs/380x350x2/assets/images/noimage.png';" src="watermark/product/380x350x1/upload/product/steamon-3878.jpg" alt="SteaMon | Đồng hồ đo lưu lượng kiểu Vortex. Phù hợp cho đường ống hơi chính và đường ống nhánh">								
+							</a>							
+						</div>
+						<div class="info_product">
+							<h3><a href="steamon" title="SteaMon | Đồng hồ đo lưu lượng kiểu Vortex. Phù hợp cho đường ống hơi chính và đường ống nhánh">SteaMon | Đồng hồ đo lưu lượng kiểu Vortex. Phù hợp cho đường ống hơi chính và đường ống nhánh</a></h3>							
+						</div>
+					</div>
+				</div>
+							</div>
+		</div>
+	</div>
+</div>
+<div id="giai-phap-dich-vu" class="service">
+	<div class="slick_service">
+					<div class="item_service">
+				<div class="info_service_">
+					<span>WELCOME TO US</span>
+					<div class="info_service">
+						<h3><a href="giai-phap-thu-hoi-nuoc-ngung-toi-uu">Giải pháp thu hồi nước ngưng</a></h3>					
+						<span>Enerox cung cấp giải pháp thu hồi nước ngưng tối ưu, hiệu quả và đáng tin cậy. Các tiến bộ khoa học kỹ thuật cho phép chúng ta tiếp cận một giải pháp toàn diện, giảm đáng kể tiêu hao nhiên liệu, tăng tuổi thọ hệ thống, giảm downtime và giảm phát thải carbon.</span>
+					</div>					
+				</div>
+				<div class="img_service">
+					<a href="giai-phap-thu-hoi-nuoc-ngung-toi-uu" class="effect"><img onerror="this.src='thumbs/915x585x2/assets/images/noimage.png';" src="thumbs/915x585x1/upload/news/dich-vu-xu-ly-nuoc-noi-hoi-9082.png" alt="Giải pháp thu hồi nước ngưng"></a>
+				</div>
+			</div>
+					<div class="item_service">
+				<div class="info_service_">
+					<span>WELCOME TO US</span>
+					<div class="info_service">
+						<h3><a href="dich-vu-xu-ly-nuoc-noi-hoi">Dịch vụ xử lý nước nồi hơi hay lò hơi</a></h3>					
+						<span>Giải pháp xử lý nước nồi hơi toàn diện, tối ưu và kinh tế. Kiểm soát ăn mòn, cáu cặn và sôi bồng. Tăng hiệu suất sử dụng nhiệt, tăng tuổi thọ nồi hơi và cả hệ thống hơi nước. Giảm tiêu hao nhiên liệu. Giảm downtime. Tăng tính an toàn, độ tin cậy của hệ thống.</span>
+					</div>					
+				</div>
+				<div class="img_service">
+					<a href="dich-vu-xu-ly-nuoc-noi-hoi" class="effect"><img onerror="this.src='thumbs/915x585x2/assets/images/noimage.png';" src="thumbs/915x585x1/upload/news/dich-vu-xu-ly-nuoc-noi-hoi-2261.png" alt="Dịch vụ xử lý nước nồi hơi hay lò hơi"></a>
+				</div>
+			</div>
+			</div>
+</div>
+<div class="about_index" id="ve-enerox">
+	<div class="wrap-content clearfix">
+		<div class="title-about">
+			<span>Về chúng tôi</span>
+			<p>Energy Conservation</p>
+		</div>
+		<div class="des_about"><p style="text-align: center;"><span style="font-size:26px;"><span style="color:#c0392b;"><strong>CÔNG TY TNHH ENEROX</strong></span></span></p>
+
+<p>Bảo tồn năng lượng hay tiết kiệm năng lượng, ngày nay không còn là lựa chọn nữa. Cùng với sự khan hiếm của nguồn chất đốt, giá cả ngày càng tăng, tiết kiệm năng lượng là yêu cầu bắt buộc với bất kể doanh nghiệp, nhà máy nào. Enerox hân hạnh giới thiệu đến thị trường công nghiệp Việt Nam những "Giải pháp trong Sản phẩm". Bảo tồn năng lượng là công việc lớn, chúng ta hãy bắt đầu từ những bước nhỏ. Những "Giải pháp trong Sản phẩm" giúp Nhà máy dễ tiếp cận, tiếp cận cách làm mới, tư duy mới, từng bước tiến tới xây dựng một hệ thống hơi nước bền vững, đáng tin cậy với tuổi thọ cao và hiệu suất sử dụng nhiệt tối ưu.</p>
+</div>
+		<div class="more_about"><a href="gioi-thieu">Xem thêm</a></div>	
+	</div>
+</div>
+<div class="skill" id="goc-ky-thuat">
+	<div class="wrap-content">
+		<div class="title-main">
+			<span>Góc kỹ thuật</span>
+			<p>Steam Engineering Tips</p>
+		</div>
+		<div class="box_skill">
+			<div class="owl_skill owl-carousel owl-theme">
+									<div class="item_skill">
+						<div class="img_skill">
+							<a href="muoi-loi-hay-gap-trong-van-hanh-noi-hoi" class="effect"><img onerror="this.src='thumbs/370x260x2/assets/images/noimage.png';" src="thumbs/370x260x1/upload/news/muoi-loi-hay-gap-trong-van-hanh-noi-hoi-7325.png" alt="Mười lỗi hay gặp trong vận hành nồi hơi"></a>									
+						</div>
+						<div class="info_skill">									
+							<h3><a href="muoi-loi-hay-gap-trong-van-hanh-noi-hoi">Mười lỗi hay gặp trong vận hành nồi hơi</a></h3>							
+							<span>Các lỗi hay gặp trong vận hành nồi hơi gây ra thiệt hại về hiệu suất của hệ thống, tính an toàn, tuổi thọ và cả thẩm mỹ của Nhà máy. Chúng ta hoàn toàn có thể tránh các lỗi này, duy trì hiệu suất, hệ thống hoạt động êm ái, sạch sẽ.</span>
+							<a href="muoi-loi-hay-gap-trong-van-hanh-noi-hoi" class="more_skill">Xem thêm</a>
+						</div>
+					</div>
+									<div class="item_skill">
+						<div class="img_skill">
+							<a href="ro-ri-hoi-nuoc-gay-that-thoat-nang-luong-lon" class="effect"><img onerror="this.src='thumbs/370x260x2/assets/images/noimage.png';" src="thumbs/370x260x1/upload/news/ro-ri-hoi-nuoc-gay-that-thoat-nang-luong-lon-5608.png" alt="Rò rỉ hơi nước gây thất thoát năng lượng lớn"></a>									
+						</div>
+						<div class="info_skill">									
+							<h3><a href="ro-ri-hoi-nuoc-gay-that-thoat-nang-luong-lon">Rò rỉ hơi nước gây thất thoát năng lượng lớn</a></h3>							
+							<span>Rò rỉ hơi nước trong nhà máy công nghiệp thường dễ bị bỏ qua. Thực tế cho thấy, một lỗ rò 5 mm ở áp suất 9 barg có thể gây thất thoát 600 tấn hơi nước mỗi năm, tương đương 120 tấn than hoặc 42 tấn dầu FO.</span>
+							<a href="ro-ri-hoi-nuoc-gay-that-thoat-nang-luong-lon" class="more_skill">Xem thêm</a>
+						</div>
+					</div>
+									<div class="item_skill">
+						<div class="img_skill">
+							<a href="cau-can-trong-noi-hoi-gay-giam-hieu-suat" class="effect"><img onerror="this.src='thumbs/370x260x2/assets/images/noimage.png';" src="thumbs/370x260x1/upload/news/cau-can-trong-noi-hoi-2218.png" alt="Cáu cặn trong nồi hơi gây giảm hiệu suất"></a>									
+						</div>
+						<div class="info_skill">									
+							<h3><a href="cau-can-trong-noi-hoi-gay-giam-hieu-suat">Cáu cặn trong nồi hơi gây giảm hiệu suất</a></h3>							
+							<span>Cáu cặn trong nồi hơi hay lò hơi, gây ra do nhiều nguyên nhân. Phồ biến là cáu cặn do thành phần cứng, silica và gỉ sét do ăn mòn. Cáu cặn gây thất thoát năng lượng, giảm sản lượng sinh hơi, tăng tiêu hao chất đốt, quá nhiệt ống, ăn mòn dưới lớp cáu và thủng ống.</span>
+							<a href="cau-can-trong-noi-hoi-gay-giam-hieu-suat" class="more_skill">Xem thêm</a>
+						</div>
+					</div>
+									<div class="item_skill">
+						<div class="img_skill">
+							<a href="bo-khu-khi-cho-bon-nuoc-cap-noi-hoi" class="effect"><img onerror="this.src='thumbs/370x260x2/assets/images/noimage.png';" src="thumbs/370x260x1/upload/news/bo-khu-khi-cho-bon-nuoc-cap-noi-hoi-7111.png" alt="Bộ khử khí cho bồn nước cấp nồi hơi"></a>									
+						</div>
+						<div class="info_skill">									
+							<h3><a href="bo-khu-khi-cho-bon-nuoc-cap-noi-hoi">Bộ khử khí cho bồn nước cấp nồi hơi</a></h3>							
+							<span>Bộ khử khí là thiết bị trộn các nguồn đầu vào của bồn nước cấp nồi hơi như hơi flash, nước ngưng và nước cấp bù. Bộ khử khí giúp phối trộn hiệu quả các nguồn đầu vào này, đồng thời giúp loại bỏ các khí không tan như ôxi, carbonic,.... Các khí không tan này gây ăn mòn nồi hơi và hệ thống hơi, thu hồi nước ngưng.</span>
+							<a href="bo-khu-khi-cho-bon-nuoc-cap-noi-hoi" class="more_skill">Xem thêm</a>
+						</div>
+					</div>
+									<div class="item_skill">
+						<div class="img_skill">
+							<a href="thuy-kich-hay-bua-nuoc-trong-he-thong-hoi" class="effect"><img onerror="this.src='thumbs/370x260x2/assets/images/noimage.png';" src="thumbs/370x260x1/upload/news/thuy-kich-hay-bua-nuoc-trong-he-thong-hoi-nuoc-2294.png" alt="Thủy kích hay búa nước trong hệ thống hơi"></a>									
+						</div>
+						<div class="info_skill">									
+							<h3><a href="thuy-kich-hay-bua-nuoc-trong-he-thong-hoi">Thủy kích hay búa nước trong hệ thống hơi</a></h3>							
+							<span>Thủy kích, hay búa nước, là hiện tượng thường xảy ra trong hệ thống lưu chất. Thủy kích dễ dần nhận biết vì nó gây tiếng ồn. Tiếng ồn không phải là tác hại cuối cùng của thủy kích, mà chỉ là dấu hiệu nhận biết. Thủy kích có thể gây hỏng hóc nhiều thiết bị đắt tiền trên hệ thống hơi, vì dụ như đồng hồ đo lưu lượng hơi. Thủy kích còn gây hỏng dàn ống hơi. Trong một số trường hợp, thủy kích còn gây ra tác hại nghiêm trọng.</span>
+							<a href="thuy-kich-hay-bua-nuoc-trong-he-thong-hoi" class="more_skill">Xem thêm</a>
+						</div>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+</div>
+    <div class="footer">
+    <div class="footer-article">
+        <div class="wrap-content">
+            <div class="row clearfix">
+                <div class="footer-news col-5">
+                    <div class="title_ft">Công ty TNHH Enerox</div>
+                    <div class="info-footer"><p><span style="font-size:16px;"><strong>Điện thoại: </strong>0903053188</span></p>
+
+<p><span style="font-size:16px;"><strong>Email: </strong>enerox@enerox.vn</span></p>
+
+<p><span style="font-size:16px;"><strong>Website: </strong>enerox.vn</span></p>
+
+<p><span style="font-size:16px;"><strong>Địa chỉ: </strong>103/20 Lê Minh Nhựt, Ấp Chánh, Xã Tân Thông Hội, H.Củ Chi, TP.HCM</span></p>
+
+<p><span style="font-size:16px;"><a href="http://online.gov.vn/Home/WebDetails/84286"><img alt="" src="https://enerox.vn/upload/elfinder/logoSaleNoti.png" style="width: 200px; height: 76px;" /></a></span></p>
+</div>                    
+                </div>
+                <div class="footer-news col-3">                    
+                    <div class="title_footer">Chính sách</div>
+                    <ul class="footer-ul">
+                                                    <li><a class="text-decoration-none" href="chinh-sach-thanh-toan" title="Chính Sách Thanh Toán">Chính Sách Thanh Toán</a></li>
+                                                    <li><a class="text-decoration-none" href="chinh-sach-van-chuyengiao-nhan" title="Chính Sách Vận Chuyển/Giao Nhận">Chính Sách Vận Chuyển/Giao Nhận</a></li>
+                                                    <li><a class="text-decoration-none" href="chinh-sach-doi-tra-hang-va-hoan-tien" title="Chính Sách Đổi Trả/ Hàng và Hoàn Tiền">Chính Sách Đổi Trả/ Hàng và Hoàn Tiền</a></li>
+                                                    <li><a class="text-decoration-none" href="chinh-sach-bao-mat-thong-tin" title="Chính Sách Bảo Mật Thông Tin">Chính Sách Bảo Mật Thông Tin</a></li>
+                                            </ul>    
+                </div>
+                <div class="footer-news col-4">
+                    <div class="title_footer">ĐĂNG KÝ KHẢO SÁT HỆ THỐNG HƠI NƯỚC</div>
+                    <div class="des_newsletter">Nhập thông tin của bạn để được hỗ trợ sớm nhất</div>
+                    <form class="form-newsletter validation-newsletter" method="post" action="" enctype="multipart/form-data">
+                        <input type="email" id="email-newsletter" name="email-newsletter" placeholder="Nhập email của bạn..." required />
+                        <input type="submit" name="submit-newsletter" value="Đăng ký" disabled>
+                        <input type="hidden" name="recaptcha_response_newsletter" id="recaptchaResponseNewsletter">
+                    </form>
+                    <ul class="social social-footer">
+                        <span>Liên kết mxh</span>
+                                                    <li><a href="https://www.google.com/" target="_blank"><img src="thumbs/40x40x1/upload/photo/f1-8700.png" alt=""></a></li>
+                                                    <li><a href="https://www.google.com/" target="_blank"><img src="thumbs/40x40x1/upload/photo/s1-7051.png" alt=""></a></li>
+                                                    <li><a href="https://www.google.com/" target="_blank"><img src="thumbs/40x40x1/upload/photo/t1-1243.png" alt=""></a></li>
+                                                    <li><a href="https://www.google.com/" target="_blank"><img src="thumbs/40x40x1/upload/photo/y1-3071.png" alt=""></a></li>
+                                            </ul>
+                </div>                             
+            </div>
+        </div>
+    </div>   
+</div>
+<div class="copyright">
+    <div class="wrap-content">
+        <div class="row">
+            <div class="col-lg-6">Copyright © 2021 <span>Công Ty TNHH Enerox</span>. All rights reserved.<br>Design by Nina Co., Ltd</div>
+            <div class="col-lg-6">
+                <div class="statistic"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<a class="btn-zalo btn-frame text-decoration-none" target="_blank" href="https://zalo.me/0918870287">
+    <div class="animated infinite zoomIn kenit-alo-circle"></div>
+    <div class="animated infinite pulse kenit-alo-circle-fill"></div>
+    <i><img src="assets/images/zl.png" alt="Zalo"></i>
+</a>
+<a class="btn-phone btn-frame text-decoration-none" href="tel:0903053188">
+    <div class="animated infinite zoomIn kenit-alo-circle"></div>
+    <div class="animated infinite pulse kenit-alo-circle-fill"></div>
+    <i><img src="assets/images/hl.png" alt="Hotline"></i>
+</a><!-- Js Config -->
+<script type="text/javascript">
+    var NN_FRAMEWORK = NN_FRAMEWORK || {};
+    var CONFIG_BASE = 'https://enerox.vn/';
+    var WEBSITE_NAME = 'Công ty TNHH Enerox';
+    var TIMENOW = '22/07/2021';
+    var SHIP_CART = false;
+    var GOTOP = 'assets/images/top.png';
+    var LANG = {
+        'no_keywords': 'Chưa nhập từ khóa tìm kiếm',
+        'delete_product_from_cart': 'Bạn muốn xóa sản phẩm này khỏi giỏ hàng ? ',
+        'no_products_in_cart': 'Không tồn tại sản phẩm nào trong giỏ hàng !',
+        'wards': 'Phường/xã',
+        'back_to_home': 'Về trang chủ',
+    };
+</script>
+
+<!-- Js Files -->
+<script type="text/javascript" src="./assets/js/jquery.min.js?v=4sp2yS8hUj"></script>
+<script type="text/javascript" src="./assets/bootstrap/bootstrap.js?v=wK2xgrw5gz"></script>
+<script type="text/javascript" src="./assets/js/wow.min.js?v=TAe9Qr9jqw"></script>
+<script type="text/javascript" src="./assets/mmenu/mmenu.js?v=0BWpfKFUJi"></script>
+<script type="text/javascript" src="./assets/simplyscroll/jquery.simplyscroll.js?v=EIUOeIi8cr"></script>
+<script type="text/javascript" src="./assets/fotorama/fotorama.js?v=4JIkIXibJq"></script>
+<script type="text/javascript" src="./assets/owlcarousel2/owl.carousel.js?v=18LZqTrgMn"></script>
+<script type="text/javascript" src="./assets/magiczoomplus/magiczoomplus.js?v=SXbYUbcNHl"></script>
+<script type="text/javascript" src="./assets/slick/slick.js?v=ztYvmdKjgc"></script>
+<script type="text/javascript" src="./assets/fancybox3/jquery.fancybox.js?v=OXg38snKlt"></script>
+<script type="text/javascript" src="./assets/photobox/photobox.js?v=MBSuHNjyxw"></script>
+<script type="text/javascript" src="./assets/datetimepicker/php-date-formatter.min.js?v=6KkLbHwxIg"></script>
+<script type="text/javascript" src="./assets/datetimepicker/jquery.mousewheel.js?v=NJ8Cj02zYR"></script>
+<script type="text/javascript" src="./assets/datetimepicker/jquery.datetimepicker.js?v=ktkh7rc3SQ"></script>
+<script type="text/javascript" src="./assets/toc/toc.js?v=cZWPeXzMiZ"></script>
+<script type="text/javascript" src="./assets/js/jquery.idTabs.min.js?v=M57ZNnSpiw"></script>
+<script type="text/javascript" src="./assets/js/jquery.easing.min.js?v=wU58uDVegM"></script>
+<script type="text/javascript" src="./assets/js/disable-copy.js?v=rc1IGggXL"></script>
+<script type="text/javascript" src="./assets/js/functions.js?v=rxEZz7l4JD"></script>
+<script type="text/javascript" src="./assets/js/apps.js?v=LVxyblbMea"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".tab_end").idTabs();
+    });
+    $(function() {
+        $(document).on('click', 'a.page-scroll', function(event) {
+            var $anchor = $(this);
+            $anchor.parent().parent().find('li').removeClass('active');
+            $anchor.parent().addClass('active');
+            var hClass = $('.header').hasClass('fix');
+            if(hClass){
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top - 60
+                }, 1500, 'easeInOutExpo');
+            }else{
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top - 110
+                }, 1500, 'easeInOutExpo');
+            }
+            event.preventDefault();
+        });
+    });
+</script>
+
+
+
+<!-- Js Structdata -->
+    <!-- General -->
+    <script type="application/ld+json">
+        {
+            "@context" : "https://schema.org",
+            "@type" : "Organization",
+            "name" : "Công ty TNHH Enerox",
+            "url" : "https://enerox.vn/",
+            "sameAs" :
+            [
+                                    "https://www.google.com/",                                    "https://www.google.com/",                                    "https://www.google.com/",                                    "https://www.google.com/"                            ],
+            "address":
+            {
+                "@type": "PostalAddress",
+                "streetAddress": "103/20 Lê Minh Nhựt, Ấp Chánh, Xã Tân Thông Hội, H.Củ Chi, TP.HCM",
+                "addressRegion": "Ho Chi Minh",
+                "postalCode": "70000",
+                "addressCountry": "vi"
+            }
+        }
+    </script>
+
+<!-- Js Addons -->
+<div id="script-main"></div><script type="text/javascript">$(function(){var a=!1;$(window).scroll(function(){$(window).scrollTop()>0.5 && !a&&($("#script-main").load("ajax/ajax_addons.php?type=script-main"),a=!0)})});</script>
+<!-- Js Body -->
+</body>
+</html>

@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="pingback" href="https://hrdept.vn/xmlrpc.php">
+  <link rel="stylesheet" href="https://hrdept.vn/wp-content/themes/dsmart/bootstrap/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://hrdept.vn/wp-content/themes/dsmart/fontawesome/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="icon" type="image/png" href="" sizes="32x32"/>  <title>HDDept &#8211; Cộng đồng HR chuyên nghiệp</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="HDDept &raquo; Feed" href="https://hrdept.vn/feed/" />
+<link rel="alternate" type="application/rss+xml" title="HDDept &raquo; Comments Feed" href="https://hrdept.vn/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="HDDept &raquo; Trang chủ Comments Feed" href="https://hrdept.vn/trang-chu/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/hrdept.vn\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://hrdept.vn/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://hrdept.vn/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bodhi-svgs-attachment-css'  href='https://hrdept.vn/wp-content/plugins/svg-support/css/svgs-attachment.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ppress-frontend-css'  href='https://hrdept.vn/wp-content/plugins/wp-user-avatar/assets/css/frontend.min.css?ver=3.1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='ppress-flatpickr-css'  href='https://hrdept.vn/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.css?ver=3.1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='ppress-select2-css'  href='https://hrdept.vn/wp-content/plugins/wp-user-avatar/assets/select2/select2.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='https://hrdept.vn/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='dsmart-style-css'  href='https://hrdept.vn/wp-content/themes/dsmart/style.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='materialize-style-css'  href='https://hrdept.vn/wp-content/themes/dsmart/css/assets/owl.carousel.css?ver=5.7.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://hrdept.vn/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://hrdept.vn/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://hrdept.vn/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.js?ver=5.7.2' id='ppress-flatpickr-js'></script>
+<script type='text/javascript' src='https://hrdept.vn/wp-content/plugins/wp-user-avatar/assets/select2/select2.min.js?ver=5.7.2' id='ppress-select2-js'></script>
+<link rel="https://api.w.org/" href="https://hrdept.vn/wp-json/" /><link rel="alternate" type="application/json" href="https://hrdept.vn/wp-json/wp/v2/pages/2" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hrdept.vn/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://hrdept.vn/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<link rel="canonical" href="https://hrdept.vn/" />
+<link rel='shortlink' href='https://hrdept.vn/' />
+<link rel="alternate" type="application/json+oembed" href="https://hrdept.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhrdept.vn%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://hrdept.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhrdept.vn%2F&#038;format=xml" />
+<meta name="framework" content="Redux 4.1.27" /><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body class="home page-template-default page page-id-2">
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '468905750872822',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();   
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+  <div id="wrapper">
+              <header>
+                  <h1 id="logo">
+            <span class="menu-wecare mobi"><i class="fas fa-bars"></i></span>
+            <a href="https://hrdept.vn"><img src="https://hrdept.vn/wp-content/uploads/2020/11/HR-Dept_logo_w156.png" alt="logo" /></a>
+          </h1>
+                <div class="menu-right d-flex">
+          <nav class="main-nav"><ul id="menu-main" class="menu"><li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="https://hrdept.vn/find-a-job/">Tìm việc</a></li>
+<li id="menu-item-442" class="post-job menu-item menu-item-type-post_type menu-item-object-page menu-item-442"><a href="https://hrdept.vn/post-a-job/">Đăng tin</a></li>
+</ul></nav>            
+            <div class="btn-login">
+              <a href="">Đăng nhập</a>
+            </div>  
+            
+        </div>
+      </header><!-- #masthead -->
+        <main><div id="home-page">
+	<h2 class="welcome">Chào mừng bạn đến với Nền tảng cộng đồng Nhân sự!</h2>
+			<div class="box-input">
+			<form action="https://hrdept.vn" class="popup-search">
+		        <input type="text" name="s" id="search-input" autocomplete="off">
+	        </form>
+			<div class="text-search"><marquee><p>Nếu bạn là người mới, hãy nhập <span style="color: #f23c02;"><strong>#help</strong></span> và enter để tìm hiểu cách sử dụng</p>
+</marquee></div>
+		</div>
+	
+			<div class="list-widget mw-1400">
+			<div class="about-us">
+				<img src="https://hrdept.vn/wp-content/uploads/2020/10/logo3.png">
+				<p><span>Langu:</span> <span class="language">Tiếng Việt</span></p>
+				<p><span>Office:</span> <span class="office">82 Dong Khoi, 1st Dist, HCMC, Vietnam</span></p>
+				<p><span>Hotline:</span> <span class="hotline">(+84)848 02 07 18</span></p>
+				<p><span>Email:</span> <span class="email">wecare@pasness.com</span></p>
+				<p><span>Follow Us</span></p>
+				    <ul class="socials">
+                <li><a class="facebook-ft" href="https://www.facebook.com/HRDept.vn" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a></li>
+                                <li><a class="linker-ft" href="https://www.linkedin.com/in/dept-hr-aba61b210/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a></li>
+                        <li><a class="twitter-ft" href="https://twitter.com/HRDept97438522" target="_blank">
+            <i class="fab fa-twitter-square"></i>
+        </a></li>
+                            </ul>
+    				<!-- <img src="" alt=""> -->
+				<p class="copyright">copyright © HRDept. All rights reserved.</p>
+			</div>
+			<div class="company">
+				<h3 class="name-company">Về HRDept</h3>
+				<div class="list-menu"><a href="https://hrdept.vn/gioi-thieu/">Giới thiệu chung</a><a href="https://hrdept.vn/thong-tin-ftp/">Thông tin FTP</a><a href="https://hrdept.vn/hoat-dong-cua-chung-toi/">Hoạt động của chúng tôi</a><a href="https://hrdept.vn/chinh-sach-cua-hrdept/">Chính sách của HRDept</a><a href="https://hrdept.vn/chinh_sach_bao_mat/">Chính sách bảo mật</a><a href="https://hrdept.vn/thong-tin-ftp/">Pháp lý của chúng tôi</a></div>			</div>
+			<div class="technologies">
+				<h3 class="name-technologies">Nền tảng</h3>
+				<div class="list-menu"><a href="https://hrdept.vn/chuc-nang-tuyen-dung/">Tuyển dụng</a><a href="https://hrdept.vn/chuc-nang-tim-viec-lam/">Tìm việc làm</a><a href="https://hrdept.vn/review-company-2/">Đánh giá doanh nghiệp</a><a href="https://hrdept.vn/hunters-tho-san-chuyen-nghiep/">Hunter chuyên nghiệp</a><a href="https://hrdept.vn/nen-tang-ket-noi-giao-dich/">Nền tảng kết nối giao dịch</a><a href="https://hrdept.vn/thoa-thuan-su-dung/">Thỏa thuận sử dụng</a></div>			</div>
+			<div class="our-policies">
+				<h3 class="name-our-policies">Chính sách HRDept</h3>
+				<div class="list-menu"><a href="https://hrdept.vn/nguyen-tac-cong-dong/">Nguyên tắc cộng đồng</a><a href="https://hrdept.vn/chinh-sach-du-lieu/">Chính sách dữ liệu</a><a href="https://hrdept.vn/chinh-sach-cookie/">Chính sách Cookie</a><a href="https://hrdept.vn/thoa-thuan-su-dung/">Điều khoản dịch vụ</a><a href="https://hrdept.vn/dieu-khoan-tai-chinh/">Điều khoản tài chính</a><a href="https://hrdept.vn/tro-thanh-doi-tac/">Trở thành đối tác của HRDept</a></div>			</div>
+			<div class="help-center">
+				<h3 class="name-help-center">Trung tâm trợ giúp</h3>
+				<div class="list-menu"><a href="https://hrdept.vn/we-care/">Tổng quan We Care+</a><a href="https://hrdept.vn/dieu-khoan-tai-chinh/">Trợ giúp Tài chính</a><a href="https://hrdept.vn/hoat-dong-cua-chung-toi/">Trợ giúp Đầu tư</a><a href="https://hrdept.vn/we-care/">Trung tâm đào tạo</a><a href="https://hrdept.vn/we-care/">Tài khoản người dùng</a><a href="https://hrdept.vn/contact-us/">Trợ giúp Doanh nghiệp</a></div>			</div>
+		</div>
+	</div>
+  </main>
+      	          <div id="overlay"></div>
+  <div id="overlay-company"></div>
+  <div id="overlay-sub"></div>
+  <div id="loading-overlay"></div>
+  <!--------------------login------------------->
+  <div id="popup-login" class="cs-popup">
+    <div class="top-popup">
+      <h4 class="title-form">Login</h4>
+      <p class="desc-form">Dont you have an account? <a href="#" class="btn-reg">Sign up here!</a></p>
+    </div>
+    <div class="row main-popup">
+      <div class="col-md-6 left-popup">
+        <form class="login-form cs-form" action="#" method="POST">
+          <div class="form-group">
+            <input type="text" name="username" id="username" class="form-control" placeholder="Username" required>
+          </div>
+          <div class="form-group">
+            <input type="password" name="password" id="password" class="form-control" placeholder="Password" required>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-login">Login</button>
+          </div>
+          <div class="alert cs-notify"></div>
+        </form>
+      </div>
+      <div class="col-md-6 right-popup">
+        <h1 id="logo"><a href="https://hrdept.vn"><img src="https://hrdept.vn/wp-content/uploads/2020/11/HR-Dept_logo_w156.png" alt="logo" /></a></h1>  
+                    <script>
+                jQuery(".mo_btn-mo").prop("disabled",false);
+            </script>
+                <script type="text/javascript">
+            jQuery(document).ready(function () {
+                jQuery(".login-button").css("cursor", "pointer");
+            });
+            function mo_openid_on_consent_change(checkbox){
+                if (! checkbox.checked) {
+                    jQuery('#mo_openid_consent_checkbox').val(1);
+                    jQuery(".mo_btn-mo").attr("disabled", true);
+                    jQuery(".login-button").addClass("dis");
+                } else {
+                    jQuery('#mo_openid_consent_checkbox').val(0);
+                    jQuery(".mo_btn-mo").attr("disabled", false);
+                    jQuery(".login-button").removeClass("dis");
+                }
+            }
+
+            var perfEntries = performance.getEntriesByType("navigation");
+
+            if (perfEntries[0].type === "back_forward") {
+                location.reload(true);
+            }
+            function HandlePopupResult(result) {
+                window.location = "https://hrdept.vn";
+            }
+            function moOpenIdLogin(app_name,is_custom_app) {
+                var current_url = window.location.href;
+                var cookie_name = "redirect_current_url";
+                var d = new Date();
+                d.setTime(d.getTime() + (2 * 24 * 60 * 60 * 1000));
+                var expires = "expires="+d.toUTCString();
+                document.cookie = cookie_name + "=" + current_url + ";" + expires + ";path=/";
+
+                                var base_url = 'https://hrdept.vn';
+                var request_uri = '/';
+                var http = 'https://';
+                var http_host = 'hrdept.vn';
+                var default_nonce = 'e94058b86e';
+                var custom_nonce = '222a518513';
+
+                if(is_custom_app == 'false'){
+                    if ( request_uri.indexOf('wp-login.php') !=-1){
+                        var redirect_url = base_url + '/?option=getmosociallogin&wp_nonce=' + default_nonce + '&app_name=';
+
+                    }else {
+                        var redirect_url = http + http_host + request_uri;
+                        if(redirect_url.indexOf('?') != -1){
+                            redirect_url = redirect_url +'&option=getmosociallogin&wp_nonce=' + default_nonce + '&app_name=';
+                        }
+                        else
+                        {
+                            redirect_url = redirect_url +'?option=getmosociallogin&wp_nonce=' + default_nonce + '&app_name=';
+                        }
+                    }
+                }
+                else {
+                    if ( request_uri.indexOf('wp-login.php') !=-1){
+                        var redirect_url = base_url + '/?option=oauthredirect&wp_nonce=' + custom_nonce + '&app_name=';
+
+
+                    }else {
+                        var redirect_url = http + http_host + request_uri;
+                        if(redirect_url.indexOf('?') != -1)
+                            redirect_url = redirect_url +'&option=oauthredirect&wp_nonce=' + custom_nonce + '&app_name=';
+                        else
+                            redirect_url = redirect_url +'?option=oauthredirect&wp_nonce=' + custom_nonce + '&app_name=';
+                    }
+
+                }
+                if( 0) {
+                    var myWindow = window.open(redirect_url + app_name, "", "width=700,height=620");
+                }
+                else{
+                    window.location.href = redirect_url + app_name;
+                }
+            }
+        </script>
+        <div class='mo-openid-app-icons'>
+					 <p style='color:#000000; width: fit-content;'> </p><a  rel='nofollow'  style='margin-left: 8px !important;background: rgb(255,255,255)!important; background:linear-gradient(90deg, rgba(255,255,255,1) 40px, rgb(79, 113, 232) 5%) !important;width: 262px !important;padding-top:9px !important;padding-bottom:9px !important;margin-bottom: 3px !important;border-radius: 4px !important;border-color: rgba(79, 113, 232, 1);border-bottom-width: thin;'class='mo_btn mo_btn-mo mo_btn-block mo_btn-social mo_btn-google mo_btn-custom-dec login-button'onClick="moOpenIdLogin('google','true');"> <img  class='fa'  style='padding-top:3px !important; margin-top: 0' src='https://hrdept.vn/wp-content/plugins/miniorange-login-openid/includes/images/icons/g.png'>Sign up via Google</a><a rel='nofollow'  style='margin-left: 8px !important;width: 262px !important;padding-top:9px !important;padding-bottom:9px !important;margin-bottom: 3px !important;border-radius: 4px !important;'class='mo_btn mo_btn-mo mo_btn-block mo_btn-social mo_btn-facebook mo_btn-custom-dec login-button'onClick="moOpenIdLogin('facebook','true');"> <img  class='fa'  style='padding-top:3px !important; margin-top: 0' src='https://hrdept.vn/wp-content/plugins/miniorange-login-openid/includes/images/icons/fb.png'>Sign up via Facebook</a></div> <br>      
+        <a href="#" class="btn-forgot">Forgot your password?</a>
+      </div>
+    </div>
+  </div>
+
+  <!--------------------lostpass------------------->
+      <div id="popup-lostpass" class="cs-popup">
+      <div class="top-popup">
+        <h4 class="title-form">FORGOT YOUR PASSWORD</h4>
+        <p class="desc-form">Dont you have an account? <a href="#" class="btn-reg">Sign up here!</a></p>
+      </div>
+      <div class="row main-popup">
+        <div class="col-md-6 left-popup">
+            <form class="lostpassword-form cs-form" action="#" method="POST">
+              <div class="form-group">
+                <input type="text" name="email" id="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <div class="g-recaptcha" data-sitekey="6LdeZ90ZAAAAAMct4FgGBlKSaDhwA1xOxYBfGd08"></div>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn">GET PASSWORD</button>
+              </div>
+              <div class="alert cs-notify"></div>
+            </form>
+        </div>
+        <div class="col-md-6 right-popup">
+          <h1 id="logo"><a href="https://hrdept.vn"><img src="https://hrdept.vn/wp-content/uploads/2020/11/HR-Dept_logo_w156.png" alt="logo" /></a></h1>
+                      <script>
+                jQuery(".mo_btn-mo").prop("disabled",false);
+            </script>
+                <script type="text/javascript">
+            jQuery(document).ready(function () {
+                jQuery(".login-button").css("cursor", "pointer");
+            });
+            function mo_openid_on_consent_change(checkbox){
+                if (! checkbox.checked) {
+                    jQuery('#mo_openid_consent_checkbox').val(1);
+                    jQuery(".mo_btn-mo").attr("disabled", true);
+                    jQuery(".login-button").addClass("dis");
+                } else {
+                    jQuery('#mo_openid_consent_checkbox').val(0);
+                    jQuery(".mo_btn-mo").attr("disabled", false);
+                    jQuery(".login-button").removeClass("dis");
+                }
+            }
+
+            var perfEntries = performance.getEntriesByType("navigation");
+
+            if (perfEntries[0].type === "back_forward") {
+                location.reload(true);
+            }
+            function HandlePopupResult(result) {
+                window.location = "https://hrdept.vn";
+            }
+            function moOpenIdLogin(app_name,is_custom_app) {
+                var current_url = window.location.href;
+                var cookie_name = "redirect_current_url";
+                var d = new Date();
+                d.setTime(d.getTime() + (2 * 24 * 60 * 60 * 1000));
+                var expires = "expires="+d.toUTCString();
+                document.cookie = cookie_name + "=" + current_url + ";" + expires + ";path=/";
+
+                                var base_url = 'https://hrdept.vn';
+                var request_uri = '/';
+                var http = 'https://';
+                var http_host = 'hrdept.vn';
+                var default_nonce = 'e94058b86e';
+                var custom_nonce = '222a518513';
+
+                if(is_custom_app == 'false'){
+                    if ( request_uri.indexOf('wp-login.php') !=-1){
+                        var redirect_url = base_url + '/?option=getmosociallogin&wp_nonce=' + default_nonce + '&app_name=';
+
+                    }else {
+                        var redirect_url = http + http_host + request_uri;
+                        if(redirect_url.indexOf('?') != -1){
+                            redirect_url = redirect_url +'&option=getmosociallogin&wp_nonce=' + default_nonce + '&app_name=';
+                        }
+                        else
+                        {
+                            redirect_url = redirect_url +'?option=getmosociallogin&wp_nonce=' + default_nonce + '&app_name=';
+                        }
+                    }
+                }
+                else {
+                    if ( request_uri.indexOf('wp-login.php') !=-1){
+                        var redirect_url = base_url + '/?option=oauthredirect&wp_nonce=' + custom_nonce + '&app_name=';
+
+
+                    }else {
+                        var redirect_url = http + http_host + request_uri;
+                        if(redirect_url.indexOf('?') != -1)
+                            redirect_url = redirect_url +'&option=oauthredirect&wp_nonce=' + custom_nonce + '&app_name=';
+                        else
+                            redirect_url = redirect_url +'?option=oauthredirect&wp_nonce=' + custom_nonce + '&app_name=';
+                    }
+
+                }
+                if( 0) {
+                    var myWindow = window.open(redirect_url + app_name, "", "width=700,height=620");
+                }
+                else{
+                    window.location.href = redirect_url + app_name;
+                }
+            }
+        </script>
+        <div class='mo-openid-app-icons'>
+					 <p style='color:#000000; width: fit-content;'> </p><a  rel='nofollow'  style='margin-left: 8px !important;background: rgb(255,255,255)!important; background:linear-gradient(90deg, rgba(255,255,255,1) 40px, rgb(79, 113, 232) 5%) !important;width: 262px !important;padding-top:9px !important;padding-bottom:9px !important;margin-bottom: 3px !important;border-radius: 4px !important;border-color: rgba(79, 113, 232, 1);border-bottom-width: thin;'class='mo_btn mo_btn-mo mo_btn-block mo_btn-social mo_btn-google mo_btn-custom-dec login-button'onClick="moOpenIdLogin('google','true');"> <img  class='fa'  style='padding-top:3px !important; margin-top: 0' src='https://hrdept.vn/wp-content/plugins/miniorange-login-openid/includes/images/icons/g.png'>Sign up via Google</a><a rel='nofollow'  style='margin-left: 8px !important;width: 262px !important;padding-top:9px !important;padding-bottom:9px !important;margin-bottom: 3px !important;border-radius: 4px !important;'class='mo_btn mo_btn-mo mo_btn-block mo_btn-social mo_btn-facebook mo_btn-custom-dec login-button'onClick="moOpenIdLogin('facebook','true');"> <img  class='fa'  style='padding-top:3px !important; margin-top: 0' src='https://hrdept.vn/wp-content/plugins/miniorange-login-openid/includes/images/icons/fb.png'>Sign up via Facebook</a></div> <br>        
+          <a href="#">Find help from our center</a>
+        </div>
+      </div>
+    </div>
+  
+  <!--------------------reg------------------->
+  <div id="popup-reg" class="cs-popup">
+    <div class="top-popup">
+      <h4 class="title-form">SIGN UP</h4>
+      <p class="desc-form">You have an account? <a href="#" class="btn-log">Login here!</a></p>
+    </div>
+    <form class="register-form cs-form" action="#" method="POST">
+      <div class="row main-popup">
+        <div class="col-md-6 left-popup">
+          <div class="form-group">
+            <input type="text" name="username" id="username" class="form-control" placeholder="Username" required>
+          </div>
+          <div class="form-group">
+            <input type="text" name="email" id="email" class="form-control" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <input type="password" name="password" id="password" class="form-control" placeholder="Password" required>
+          </div>
+          <div class="form-group">
+            <input type="password" name="password2" id="password2" class="form-control" placeholder="Re-Password" required>
+          </div>
+          <div class="cs-select2">
+            <label>Loại tài khoản:</label>
+            <select class="form-control" name="role" required>
+              <option value="subscriber">User/Thành viên</option>
+              <option value="hunter">Hunter/Thợ săn</option>
+              <option value="recruiter">Recruiter/Nhà tuyển dụng</option>
+            </select>
+          </div>
+          <div class="alert cs-notify"></div>
+        </div>
+        <div class="col-md-6 right-popup">
+          <button type="submit" class="btn">SIGN UP</button>
+                      <script>
+                jQuery(".mo_btn-mo").prop("disabled",false);
+            </script>
+                <script type="text/javascript">
+            jQuery(document).ready(function () {
+                jQuery(".login-button").css("cursor", "pointer");
+            });
+            function mo_openid_on_consent_change(checkbox){
+                if (! checkbox.checked) {
+                    jQuery('#mo_openid_consent_checkbox').val(1);
+                    jQuery(".mo_btn-mo").attr("disabled", true);
+                    jQuery(".login-button").addClass("dis");
+                } else {
+                    jQuery('#mo_openid_consent_checkbox').val(0);
+                    jQuery(".mo_btn-mo").attr("disabled", false);
+                    jQuery(".login-button").removeClass("dis");
+                }
+            }
+
+            var perfEntries = performance.getEntriesByType("navigation");
+
+            if (perfEntries[0].type === "back_forward") {
+                location.reload(true);
+            }
+            function HandlePopupResult(result) {
+                window.location = "https://hrdept.vn";
+            }
+            function moOpenIdLogin(app_name,is_custom_app) {
+                var current_url = window.location.href;
+                var cookie_name = "redirect_current_url";
+                var d = new Date();
+                d.setTime(d.getTime() + (2 * 24 * 60 * 60 * 1000));
+                var expires = "expires="+d.toUTCString();
+                document.cookie = cookie_name + "=" + current_url + ";" + expires + ";path=/";
+
+                                var base_url = 'https://hrdept.vn';
+                var request_uri = '/';
+                var http = 'https://';
+                var http_host = 'hrdept.vn';
+                var default_nonce = 'e94058b86e';
+                var custom_nonce = '222a518513';
+
+                if(is_custom_app == 'false'){
+                    if ( request_uri.indexOf('wp-login.php') !=-1){
+                        var redirect_url = base_url + '/?option=getmosociallogin&wp_nonce=' + default_nonce + '&app_name=';
+
+                    }else {
+                        var redirect_url = http + http_host + request_uri;
+                        if(redirect_url.indexOf('?') != -1){
+                            redirect_url = redirect_url +'&option=getmosociallogin&wp_nonce=' + default_nonce + '&app_name=';
+                        }
+                        else
+                        {
+                            redirect_url = redirect_url +'?option=getmosociallogin&wp_nonce=' + default_nonce + '&app_name=';
+                        }
+                    }
+                }
+                else {
+                    if ( request_uri.indexOf('wp-login.php') !=-1){
+                        var redirect_url = base_url + '/?option=oauthredirect&wp_nonce=' + custom_nonce + '&app_name=';
+
+
+                    }else {
+                        var redirect_url = http + http_host + request_uri;
+                        if(redirect_url.indexOf('?') != -1)
+                            redirect_url = redirect_url +'&option=oauthredirect&wp_nonce=' + custom_nonce + '&app_name=';
+                        else
+                            redirect_url = redirect_url +'?option=oauthredirect&wp_nonce=' + custom_nonce + '&app_name=';
+                    }
+
+                }
+                if( 0) {
+                    var myWindow = window.open(redirect_url + app_name, "", "width=700,height=620");
+                }
+                else{
+                    window.location.href = redirect_url + app_name;
+                }
+            }
+        </script>
+        <div class='mo-openid-app-icons'>
+					 <p style='color:#000000; width: fit-content;'> </p><a  rel='nofollow'  style='margin-left: 8px !important;background: rgb(255,255,255)!important; background:linear-gradient(90deg, rgba(255,255,255,1) 40px, rgb(79, 113, 232) 5%) !important;width: 262px !important;padding-top:9px !important;padding-bottom:9px !important;margin-bottom: 3px !important;border-radius: 4px !important;border-color: rgba(79, 113, 232, 1);border-bottom-width: thin;'class='mo_btn mo_btn-mo mo_btn-block mo_btn-social mo_btn-google mo_btn-custom-dec login-button'onClick="moOpenIdLogin('google','true');"> <img  class='fa'  style='padding-top:3px !important; margin-top: 0' src='https://hrdept.vn/wp-content/plugins/miniorange-login-openid/includes/images/icons/g.png'>Sign up via Google</a><a rel='nofollow'  style='margin-left: 8px !important;width: 262px !important;padding-top:9px !important;padding-bottom:9px !important;margin-bottom: 3px !important;border-radius: 4px !important;'class='mo_btn mo_btn-mo mo_btn-block mo_btn-social mo_btn-facebook mo_btn-custom-dec login-button'onClick="moOpenIdLogin('facebook','true');"> <img  class='fa'  style='padding-top:3px !important; margin-top: 0' src='https://hrdept.vn/wp-content/plugins/miniorange-login-openid/includes/images/icons/fb.png'>Sign up via Facebook</a></div> <br>        </div>
+      </div>
+    </form> 
+    <div class="bot-popup">
+      <p class="desc-form">By registering as a member, you acknowledge that you understand and fully agree to <a href="https://hrdept.vn/we_care/dieu-khoan-dich-vu/">our members terms and operating policies and compliance policies.</a> </p>
+    </div> 
+  </div>
+
+  <!--------------------Success info------------------->
+  <div id="popup-success-info" class="cs-popup">
+    <div class="top-popup">
+      <h4 class="title-form">SUCCESS!</h4>
+      <p class="desc-form">Check your email <span class="email">hrdept.net@gmail.com</span> to confirm your account information!</p>
+    </div>
+    <form class="success-info-form cs-form" action="#" method="POST">
+      <div class="row main-popup">
+        <div class="item col-md-4">
+          <section id="text-2" class="widget about-us-wg">			<div class="textwidget"><p><img loading="lazy" class="alignnone size-full wp-image-216" src="http://hrdept.vn/wp-content/uploads/2020/11/HR-Dept_logo_w156.png" alt="" width="156" height="53" /></p>
+</div>
+		</section>          <p><span>Follow Us</span></p>
+              <ul class="socials">
+                <li><a class="facebook-ft" href="https://www.facebook.com/HRDept.vn" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a></li>
+                                <li><a class="linker-ft" href="https://www.linkedin.com/in/dept-hr-aba61b210/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a></li>
+                        <li><a class="twitter-ft" href="https://twitter.com/HRDept97438522" target="_blank">
+            <i class="fab fa-twitter-square"></i>
+        </a></li>
+                            </ul>
+            </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-6" class="widget quick-link-wg"><h4 class="widget-title">Our Policies</h4><div class="menu-our-policies-container"><ul id="menu-our-policies" class="menu"><li id="menu-item-1581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1581"><a href="https://hrdept.vn/nguyen-tac-cong-dong/">Nguyên tắc Cộng đồng</a></li>
+<li id="menu-item-1580" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1580"><a href="https://hrdept.vn/chinh-sach-du-lieu/">Chính sách dữ liệu</a></li>
+<li id="menu-item-1582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1582"><a href="https://hrdept.vn/thoa-thuan-su-dung/">Thỏa thuận sử dụng</a></li>
+<li id="menu-item-286" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-286"><a href="#">Terms of Service</a></li>
+<li id="menu-item-287" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-287"><a href="#">Terms to make money</a></li>
+</ul></div></section>        </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-3" class="widget quick-link-wg"><h4 class="widget-title">Help Center</h4><div class="menu-help-center-container"><ul id="menu-help-center" class="menu"><li id="menu-item-110" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="https://hrdept.vn/we-care/">Tổng quan We care+</a></li>
+<li id="menu-item-111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="https://hrdept.vn/contact-us/">Trợ giúp Tài khoản</a></li>
+<li id="menu-item-114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-114"><a href="https://hrdept.vn/we-care/">Trung tâm Đào tạo</a></li>
+<li id="menu-item-284" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-284"><a href="#">Finance Help Center</a></li>
+<li id="menu-item-285" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-285"><a href="#">Company Help Center</a></li>
+</ul></div></section>        </div>
+      </div>
+    </form> 
+  </div>
+  <!--------------------Un-success Apply------------------->
+  <div id="popup-unsuccess" class="cs-popup">
+    <div class="top-popup">
+      <h4 class="title-form">PLEASE CHECK AGAIN!</h4>
+      <p class="desc-form">Please check your input content, you must fill in the <span class="required">required content</span></p>
+    </div>
+    <form class="success-info-form cs-form" action="#" method="POST">
+      <div class="row main-popup">
+        <div class="item col-md-4">
+          <section id="text-2" class="widget about-us-wg">			<div class="textwidget"><p><img loading="lazy" class="alignnone size-full wp-image-216" src="http://hrdept.vn/wp-content/uploads/2020/11/HR-Dept_logo_w156.png" alt="" width="156" height="53" /></p>
+</div>
+		</section>          <p><span>Follow Us</span></p>
+              <ul class="socials">
+                <li><a class="facebook-ft" href="https://www.facebook.com/HRDept.vn" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a></li>
+                                <li><a class="linker-ft" href="https://www.linkedin.com/in/dept-hr-aba61b210/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a></li>
+                        <li><a class="twitter-ft" href="https://twitter.com/HRDept97438522" target="_blank">
+            <i class="fab fa-twitter-square"></i>
+        </a></li>
+                            </ul>
+            </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-8" class="widget quick-link-wg"><h4 class="widget-title">How to right</h4><div class="menu-how-to-right-container"><ul id="menu-how-to-right" class="menu"><li id="menu-item-401" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401"><a href="#">Tax code</a></li>
+<li id="menu-item-400" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-400"><a href="#">Business code</a></li>
+<li id="menu-item-402" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-402"><a href="#">Company name</a></li>
+<li id="menu-item-403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-403"><a href="#">Member Accounts</a></li>
+<li id="menu-item-404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-404"><a href="#">New proposal</a></li>
+</ul></div></section>        </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-3" class="widget quick-link-wg"><h4 class="widget-title">Help Center</h4><div class="menu-help-center-container"><ul id="menu-help-center-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="https://hrdept.vn/we-care/">Tổng quan We care+</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="https://hrdept.vn/contact-us/">Trợ giúp Tài khoản</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-114"><a href="https://hrdept.vn/we-care/">Trung tâm Đào tạo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-284"><a href="#">Finance Help Center</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-285"><a href="#">Company Help Center</a></li>
+</ul></div></section>        </div>
+      </div>
+    </form> 
+  </div>
+<!--------------------Success Apply------------------->
+  <div id="popup-successfull" class="cs-popup">
+    <div class="top-popup">
+      <h4 class="title-form">Successful application!</h4>
+      <p class="desc-form">Thank you for apply this great job</p>
+    </div>
+    <form class="success-info-form cs-form" action="#" method="POST">
+      <div class="row main-popup">
+        <div class="item col-md-4">
+          <section id="text-2" class="widget about-us-wg">			<div class="textwidget"><p><img loading="lazy" class="alignnone size-full wp-image-216" src="http://hrdept.vn/wp-content/uploads/2020/11/HR-Dept_logo_w156.png" alt="" width="156" height="53" /></p>
+</div>
+		</section>          <p><span>Follow Us</span></p>
+              <ul class="socials">
+                <li><a class="facebook-ft" href="https://www.facebook.com/HRDept.vn" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a></li>
+                                <li><a class="linker-ft" href="https://www.linkedin.com/in/dept-hr-aba61b210/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a></li>
+                        <li><a class="twitter-ft" href="https://twitter.com/HRDept97438522" target="_blank">
+            <i class="fab fa-twitter-square"></i>
+        </a></li>
+                            </ul>
+            </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-8" class="widget quick-link-wg"><h4 class="widget-title">How to right</h4><div class="menu-how-to-right-container"><ul id="menu-how-to-right-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401"><a href="#">Tax code</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-400"><a href="#">Business code</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-402"><a href="#">Company name</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-403"><a href="#">Member Accounts</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-404"><a href="#">New proposal</a></li>
+</ul></div></section>        </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-3" class="widget quick-link-wg"><h4 class="widget-title">Help Center</h4><div class="menu-help-center-container"><ul id="menu-help-center-2" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="https://hrdept.vn/we-care/">Tổng quan We care+</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="https://hrdept.vn/contact-us/">Trợ giúp Tài khoản</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-114"><a href="https://hrdept.vn/we-care/">Trung tâm Đào tạo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-284"><a href="#">Finance Help Center</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-285"><a href="#">Company Help Center</a></li>
+</ul></div></section>        </div>
+      </div>
+    </form> 
+  </div>
+<!--------------------Success Upload CV------------------->
+  <div id="popup-successfull-thank" class="cs-popup">
+    <div class="top-popup">
+      <h4 class="title-form">Successful application!</h4>
+      <p class="desc-form">Thank you for trusting <span class="link"> HRDept.vn</span></p>
+    </div>
+    <form class="success-info-form cs-form" action="#" method="POST">
+      <div class="row main-popup">
+        <div class="item col-md-4">
+          <section id="text-2" class="widget about-us-wg">			<div class="textwidget"><p><img loading="lazy" class="alignnone size-full wp-image-216" src="http://hrdept.vn/wp-content/uploads/2020/11/HR-Dept_logo_w156.png" alt="" width="156" height="53" /></p>
+</div>
+		</section>          <p><span>Follow Us</span></p>
+              <ul class="socials">
+                <li><a class="facebook-ft" href="https://www.facebook.com/HRDept.vn" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a></li>
+                                <li><a class="linker-ft" href="https://www.linkedin.com/in/dept-hr-aba61b210/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a></li>
+                        <li><a class="twitter-ft" href="https://twitter.com/HRDept97438522" target="_blank">
+            <i class="fab fa-twitter-square"></i>
+        </a></li>
+                            </ul>
+            </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-8" class="widget quick-link-wg"><h4 class="widget-title">How to right</h4><div class="menu-how-to-right-container"><ul id="menu-how-to-right-2" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401"><a href="#">Tax code</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-400"><a href="#">Business code</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-402"><a href="#">Company name</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-403"><a href="#">Member Accounts</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-404"><a href="#">New proposal</a></li>
+</ul></div></section>        </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-3" class="widget quick-link-wg"><h4 class="widget-title">Help Center</h4><div class="menu-help-center-container"><ul id="menu-help-center-3" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="https://hrdept.vn/we-care/">Tổng quan We care+</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="https://hrdept.vn/contact-us/">Trợ giúp Tài khoản</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-114"><a href="https://hrdept.vn/we-care/">Trung tâm Đào tạo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-284"><a href="#">Finance Help Center</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-285"><a href="#">Company Help Center</a></li>
+</ul></div></section>        </div>
+      </div>
+    </form> 
+  </div>
+  <!--------------------Success help send------------------->
+  <div id="popup-successhelp-send" class="cs-popup">
+    <div class="top-popup">
+      <h4 class="title-form">SUCCESS!</h4>
+      <p class="desc-form">Thanks you for your touch! We will respond to you within 48 business hours!</p>
+    </div>
+    <form class="success-info-form cs-form" action="#" method="POST">
+      <div class="row main-popup">
+        <div class="item col-md-4">
+          <section id="text-2" class="widget about-us-wg">			<div class="textwidget"><p><img loading="lazy" class="alignnone size-full wp-image-216" src="http://hrdept.vn/wp-content/uploads/2020/11/HR-Dept_logo_w156.png" alt="" width="156" height="53" /></p>
+</div>
+		</section>          <p><span>Follow Us</span></p>
+              <ul class="socials">
+                <li><a class="facebook-ft" href="https://www.facebook.com/HRDept.vn" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a></li>
+                                <li><a class="linker-ft" href="https://www.linkedin.com/in/dept-hr-aba61b210/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a></li>
+                        <li><a class="twitter-ft" href="https://twitter.com/HRDept97438522" target="_blank">
+            <i class="fab fa-twitter-square"></i>
+        </a></li>
+                            </ul>
+            </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-6" class="widget quick-link-wg"><h4 class="widget-title">Our Policies</h4><div class="menu-our-policies-container"><ul id="menu-our-policies-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1581"><a href="https://hrdept.vn/nguyen-tac-cong-dong/">Nguyên tắc Cộng đồng</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1580"><a href="https://hrdept.vn/chinh-sach-du-lieu/">Chính sách dữ liệu</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1582"><a href="https://hrdept.vn/thoa-thuan-su-dung/">Thỏa thuận sử dụng</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-286"><a href="#">Terms of Service</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-287"><a href="#">Terms to make money</a></li>
+</ul></div></section>        </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-3" class="widget quick-link-wg"><h4 class="widget-title">Help Center</h4><div class="menu-help-center-container"><ul id="menu-help-center-4" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="https://hrdept.vn/we-care/">Tổng quan We care+</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="https://hrdept.vn/contact-us/">Trợ giúp Tài khoản</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-114"><a href="https://hrdept.vn/we-care/">Trung tâm Đào tạo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-284"><a href="#">Finance Help Center</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-285"><a href="#">Company Help Center</a></li>
+</ul></div></section>        </div>
+      </div>
+    </form> 
+  </div>
+  <!--------------------Success Changed PW------------------->
+  <div id="popup-successchangepw-thank" class="cs-popup">
+    <div class="top-popup">
+      <h4 class="title-form">Password changed successfully</h4>
+      <p class="desc-form">Thank you for trusting <span class="link"> HRDept.vn</span></p>
+    </div>
+    <form class="success-info-form cs-form" action="#" method="POST">
+      <div class="row main-popup">
+        <div class="item col-md-4">
+          <section id="text-2" class="widget about-us-wg">			<div class="textwidget"><p><img loading="lazy" class="alignnone size-full wp-image-216" src="http://hrdept.vn/wp-content/uploads/2020/11/HR-Dept_logo_w156.png" alt="" width="156" height="53" /></p>
+</div>
+		</section>          <p><span>Follow Us</span></p>
+              <ul class="socials">
+                <li><a class="facebook-ft" href="https://www.facebook.com/HRDept.vn" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a></li>
+                                <li><a class="linker-ft" href="https://www.linkedin.com/in/dept-hr-aba61b210/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a></li>
+                        <li><a class="twitter-ft" href="https://twitter.com/HRDept97438522" target="_blank">
+            <i class="fab fa-twitter-square"></i>
+        </a></li>
+                            </ul>
+            </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-8" class="widget quick-link-wg"><h4 class="widget-title">How to right</h4><div class="menu-how-to-right-container"><ul id="menu-how-to-right-3" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401"><a href="#">Tax code</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-400"><a href="#">Business code</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-402"><a href="#">Company name</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-403"><a href="#">Member Accounts</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-404"><a href="#">New proposal</a></li>
+</ul></div></section>        </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-3" class="widget quick-link-wg"><h4 class="widget-title">Help Center</h4><div class="menu-help-center-container"><ul id="menu-help-center-5" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="https://hrdept.vn/we-care/">Tổng quan We care+</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="https://hrdept.vn/contact-us/">Trợ giúp Tài khoản</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-114"><a href="https://hrdept.vn/we-care/">Trung tâm Đào tạo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-284"><a href="#">Finance Help Center</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-285"><a href="#">Company Help Center</a></li>
+</ul></div></section>        </div>
+      </div>
+    </form> 
+  </div>
+  <!-------------------· Apply Job for HH profile-------------->
+  <div id="appyjob-hh-profile" class="cs-popup">
+    <div class="top-popup">
+      <h4 class="title-form">Type ID of job that you want to apply</h4>
+      <div class="box-input">
+        <input type="text" name="search-input" id="search-input" autocomplete="off">
+        <div class="text-search"><marquee>Put your ID job that you want to apply here and enter</marquee></div>
+      </div>
+    </div>
+    <form class="success-info-form cs-form" action="#" method="POST">
+      <div class="row main-popup">
+        <div class="item col-md-4">
+          <section id="text-2" class="widget about-us-wg">			<div class="textwidget"><p><img loading="lazy" class="alignnone size-full wp-image-216" src="http://hrdept.vn/wp-content/uploads/2020/11/HR-Dept_logo_w156.png" alt="" width="156" height="53" /></p>
+</div>
+		</section>          <p><span>Follow Us</span></p>
+              <ul class="socials">
+                <li><a class="facebook-ft" href="https://www.facebook.com/HRDept.vn" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a></li>
+                                <li><a class="linker-ft" href="https://www.linkedin.com/in/dept-hr-aba61b210/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a></li>
+                        <li><a class="twitter-ft" href="https://twitter.com/HRDept97438522" target="_blank">
+            <i class="fab fa-twitter-square"></i>
+        </a></li>
+                            </ul>
+            </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-8" class="widget quick-link-wg"><h4 class="widget-title">How to right</h4><div class="menu-how-to-right-container"><ul id="menu-how-to-right-4" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401"><a href="#">Tax code</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-400"><a href="#">Business code</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-402"><a href="#">Company name</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-403"><a href="#">Member Accounts</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-404"><a href="#">New proposal</a></li>
+</ul></div></section>        </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-3" class="widget quick-link-wg"><h4 class="widget-title">Help Center</h4><div class="menu-help-center-container"><ul id="menu-help-center-6" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="https://hrdept.vn/we-care/">Tổng quan We care+</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="https://hrdept.vn/contact-us/">Trợ giúp Tài khoản</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-114"><a href="https://hrdept.vn/we-care/">Trung tâm Đào tạo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-284"><a href="#">Finance Help Center</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-285"><a href="#">Company Help Center</a></li>
+</ul></div></section>        </div>
+      </div>
+    </form> 
+  </div>
+  <!-------------------· Add hunter profile-------------->
+  <div id="add-hunter-profile" class="cs-popup">
+    <p class="desc">Thông tin bạn tìm kiếm không tồn tại. Hãy chắc rằng bạn đang tìm đúng.Mã và nhập đúng cách. Vui lòng xem tại mục <strong>Trợ giúp</strong></p>
+    <span class="close">Xác nhận lại</span>
+  </div>
+  <!-------------------· confirm CV completed hunter profile-------------->
+  <div id="confirm-cv-hunter-profile" class="cs-popup">
+    <p class="desc">Bạn muốn xác nhận CV ứng viên này đã được Nhà tuyển dụng tuyển chọn làm ứng viên?</p>
+    <span class="confirm">Xác nhận hoàn thành</span>
+    <small class="note">Bằng cách nhấn nút xác nhận bạn đồng ý rằng bạn có đủ thông tin xác thực ứng viên này đã được NTD tuyển chọn làm nhân viên của họ. Thông báo đến hệ thống và NTD xác thực và thanh toán chi phí dịch vụ cho bạ. Chi tiết điều khoản xác nhận và quy định cho hành vi người dùng được nêu tại đây.</small>
+  </div>
+  <!-------------------· Note payment -------------->
+  <a href="https://hrdept.vn/?action=transactionhistory" id="note-payment-profile" class="cs-popup" style="background: url('https://hrdept.vn/wp-content/themes/dsmart/images/note-payment.png') no-repeat;background-size: cover;min-height: 245px;">
+    <span class="desc">Thực hiện lệnh thành công </span>
+    <span class="text">Nhấp vào để quay lại trang trước đó</span>
+  </a>
+  <!-------------------· Recruitment confirmation-------------->
+  <div id="recruitment-confirmation" class="cs-popup">
+    <div class="top-popup">
+      <h4 class="title-form">Bạn xác nhận tuyển dụng ứng viên này?</h4>
+      <div class="desc">Việc xác nhận tuyển dụng ứng viên này đồng nghĩa bạn đồng ý kết thúc chiến dịch tuyển dụng vị trí này và thanh toán dịch vụ</div>
+      <span class="btn-config">Xác nhận tuyển dụng</span>
+    </div>
+    <form class="success-info-form cs-form" action="#" method="POST">
+      <div class="row main-popup">
+        <div class="item col-md-4">
+          <section id="text-2" class="widget about-us-wg">			<div class="textwidget"><p><img loading="lazy" class="alignnone size-full wp-image-216" src="http://hrdept.vn/wp-content/uploads/2020/11/HR-Dept_logo_w156.png" alt="" width="156" height="53" /></p>
+</div>
+		</section>          <p><span>Follow Us</span></p>
+              <ul class="socials">
+                <li><a class="facebook-ft" href="https://www.facebook.com/HRDept.vn" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a></li>
+                                <li><a class="linker-ft" href="https://www.linkedin.com/in/dept-hr-aba61b210/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a></li>
+                        <li><a class="twitter-ft" href="https://twitter.com/HRDept97438522" target="_blank">
+            <i class="fab fa-twitter-square"></i>
+        </a></li>
+                            </ul>
+            </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-6" class="widget quick-link-wg"><h4 class="widget-title">Our Policies</h4><div class="menu-our-policies-container"><ul id="menu-our-policies-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1581"><a href="https://hrdept.vn/nguyen-tac-cong-dong/">Nguyên tắc Cộng đồng</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1580"><a href="https://hrdept.vn/chinh-sach-du-lieu/">Chính sách dữ liệu</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1582"><a href="https://hrdept.vn/thoa-thuan-su-dung/">Thỏa thuận sử dụng</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-286"><a href="#">Terms of Service</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-287"><a href="#">Terms to make money</a></li>
+</ul></div></section>        </div>
+        <div class="item col-md-4">
+          <section id="nav_menu-3" class="widget quick-link-wg"><h4 class="widget-title">Help Center</h4><div class="menu-help-center-container"><ul id="menu-help-center-7" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="https://hrdept.vn/we-care/">Tổng quan We care+</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="https://hrdept.vn/contact-us/">Trợ giúp Tài khoản</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-114"><a href="https://hrdept.vn/we-care/">Trung tâm Đào tạo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-284"><a href="#">Finance Help Center</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-285"><a href="#">Company Help Center</a></li>
+</ul></div></section>        </div>
+      </div>
+    </form> 
+  </div>
+  <!-------------------· Notify payment -------------->
+  <div id="notify-payment" class="cs-popup">
+    <p class="desc">Đã vượt quá hạn mức thanh toán. Vui lòng liên hệ Admin</p>
+    <span class="close">Xác nhận lại</span>
+  </div>
+  <!----------------------------------------------------------->
+<link rel='stylesheet' id='mo-openid-sl-wp-font-awesome-css'  href='https://hrdept.vn/wp-content/plugins/miniorange-login-openid/includes/css/mo-font-awesome.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mo-wp-style-icon-css'  href='https://hrdept.vn/wp-content/plugins/miniorange-login-openid/includes/css/mo_openid_login_icons.css?version=7.3.0&#038;ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mo-wp-bootstrap-social-css'  href='https://hrdept.vn/wp-content/plugins/miniorange-login-openid/includes/css/bootstrap-social.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mo-wp-bootstrap-main-css'  href='https://hrdept.vn/wp-content/plugins/miniorange-login-openid/includes/css/bootstrap.min-preview.css?ver=5.7.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://hrdept.vn/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="https://hrdept.vn/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://hrdept.vn/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://hrdept.vn/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://hrdept.vn/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://hrdept.vn/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://hrdept.vn/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="https://hrdept.vn/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/hrdept.vn\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hrdept.vn/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4.1' id='contact-form-7-js'></script>
+<script type='text/javascript' id='ppress-frontend-script-js-extra'>
+/* <![CDATA[ */
+var pp_ajax_form = {"ajaxurl":"https:\/\/hrdept.vn\/wp-admin\/admin-ajax.php","confirm_delete":"Are you sure?","deleting_text":"Deleting...","deleting_error":"An error occurred. Please try again.","nonce":"4eae798386","disable_ajax_form":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hrdept.vn/wp-content/plugins/wp-user-avatar/assets/js/frontend.min.js?ver=3.1.8' id='ppress-frontend-script-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js?ver=2.0' id='dsmart-popper-js'></script>
+<script type='text/javascript' src='https://hrdept.vn/wp-content/themes/dsmart/bootstrap/js/bootstrap.min.js?ver=2.0' id='dsmart-bootstrap-js'></script>
+<script type='text/javascript' src='https://hrdept.vn/wp-content/themes/dsmart/js/owl.carousel.min.js?ver=2.0' id='dsmart-owl-js'></script>
+<script type='text/javascript' src='https://hrdept.vn/wp-content/themes/dsmart/js/select2.min.js?ver=3.8' id='dsmart-select2-js'></script>
+<script type='text/javascript' src='https://hrdept.vn/wp-content/themes/dsmart/js/jquery.scrollbar.js?ver=3.8' id='dsmart-scrollbar-js'></script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/autonumeric@4.5.4?ver=3.8' id='dsmart-AutoNumeric-js'></script>
+<script type='text/javascript' id='main_js-js-extra'>
+/* <![CDATA[ */
+var dsmartVal = {"zxc":"<div class=\"workplace-item pl-18\"><div class=\"row info-company\"><div class=\"col-md-7 left\"><div class=\"d-flex flex-nowrap\"><label for=\"name_company\" class=\"title-label-rec\">1. T\u00ean C\u00f4ng ty *<\/label><div class=\"input-wrap\"><input type=\"text\" name=\"name_company[]\" id=\"name_company\" class=\"form-control\" required ><\/div><\/div><\/div><div class=\"col-md-5 right\"><div class=\"d-flex flex-nowrap\"><label for=\"business_code\" class=\"title-label-rec\">M\u00e3 s\u1ed1 Doanh nghi\u1ec7p *<\/label><div class=\"input-wrap\"><input type=\"text\" name=\"business_code[]\" id=\"business_code\" class=\"form-control\" required ><\/div><\/div><\/div><\/div><div class=\"row from-year\"><div class=\"col-md-6 left\"><div class=\"d-flex flex-nowrap\"><label for=\"from_year_company\" class=\"title-label-rec\">2. L\u00e0m t\u1eeb n\u0103m<\/label><div class=\"input-wrap\"><input type=\"text\" name=\"from_year_company[]\" id=\"from_year_company\" class=\"form-control\"><\/div><\/div><\/div><div class=\"col-md-6 right\"><div class=\"d-flex flex-nowrap\"><label for=\"to_year_company\" class=\"title-label-rec\">\u0110\u1ebfn n\u0103m:<\/label><div class=\"input-wrap\"><input type=\"text\" name=\"to_year_company[]\" id=\"to_year_company\" class=\"form-control\"><\/div><\/div><\/div><\/div><div class=\"d-flex flex-nowrap\"><label for=\"working_position\" class=\"title-label-rec\">3. V\u1ecb tr\u00ed l\u00e0m vi\u1ec7c *<\/label><div class=\"input-wrap\"><input type=\"text\" name=\"working_position[]\" id=\"working_position\" class=\"form-control\" required ><\/div><\/div><div class=\"d-flex flex-nowrap\"><label for=\"address_company\" class=\"title-label-rec\">4. \u0110\u1ecba ch\u1ec9<\/label><div class=\"input-wrap\"><input type=\"text\" name=\"address_company[]\" id=\"address_company\" class=\"form-control\"><\/div><\/div><div class=\"d-flex flex-nowrap\"><label for=\"job_description\" class=\"title-label-rec\">5. M\u00f4 t\u1ea3 c\u00f4ng vi\u1ec7c<\/label><div class=\"input-wrap\"><textarea type=\"text\" name=\"job_description[]\" id=\"job_description\" class=\"form-control\"><\/textarea><\/div><\/div><div class=\"d-flex flex-nowrap\"><label for=\"salary_company\" class=\"title-label-rec\">6. M\u1ee9c l\u01b0\u01a1ng<\/label><div class=\"input-wrap\"><input type=\"text\" name=\"salary_company[]\" id=\"salary_company\" class=\"form-control\"><\/div><\/div><div class=\"d-flex flex-nowrap\"><label class=\"title-label-rec\">7. C\u1ea5p tr\u00ean tr\u1ef1c ti\u1ebfp *<\/label><div class=\"input-wrap d-flex flex-nowrap cs-select\"><input type=\"text\" name=\"name_boss[&s][0]\" id=\"name_boss\" class=\"form-control\" placeholder=\"H\u1ecd v\u00e0 t\u00ean *\" required ><input type=\"text\" name=\"professional_titles[&s][0]\" id=\"professional_titles\" class=\"form-control\" placeholder=\"Ch\u1ee9c danh *\" required ><input type=\"text\" name=\"phone_number[&s][0]\" id=\"phone_number\" class=\"form-control\" placeholder=\"\u0110i\u1ec7n tho\u1ea1i di \u0111\u1ed9ng *\" required ><input type=\"text\" name=\"email_boss[&s][0]\" id=\"email_boss\" class=\"form-control\" placeholder=\"Email *\" required ><\/div><\/div><\/div>","edit":"Ch\u1ec9nh s\u1eeda","edited":"L\u01b0u ch\u1ec9nh s\u1eeda","login_alert":"Vui l\u00f2ng nh\u1eadp t\u00ean t\u00e0i kho\u1ea3n v\u00e0 m\u1eadt kh\u1ea9u!","login_success":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng!","login_failed":"T\u00ean \u0111\u0103ng nh\u1eadp ho\u1eb7c m\u1eadt kh\u1ea9u sai!","input_email":"Vui l\u00f2ng nh\u1eadp email c\u1ee7a b\u1ea1n!","input_captcha":"Vui l\u00f2ng x\u00e1c minh kh\u00f4ng ph\u1ea3i robot!","mail_wrong":"Vui l\u00f2ng ki\u1ec3m tra l\u1ea1i email \u0111\u1ec3 c\u00e0i l\u1ea1i m\u1eadt kh\u1ea9u!","mail_wrong2":"Email kh\u00f4ng \u0111\u00fang \u0111\u1ecbnh d\u1ea1ng!","pass_wrong":"Vui l\u00f2ng ki\u1ec3m tra l\u1ea1i m\u1eadt kh\u1ea9u!","pass_wrong2":"Password m\u1edbi ph\u1ea3i kh\u00e1c Password c\u0169. Vui l\u00f2ng ki\u1ec3m tra l\u1ea1i m\u1eadt kh\u1ea9u!","pass_wrong3":"Nh\u1eadp l\u1ea1i m\u1eadt kh\u1ea9u kh\u00f4ng \u0111\u00fang. Vui l\u00f2ng ki\u1ec3m tra l\u1ea1i m\u1eadt kh\u1ea9u!","pass_sucesss":"\u0110\u1ed5i m\u1eadt kh\u1ea9u th\u00e0nh c\u00f4ng!","info_empty":"Vui l\u00f2ng nh\u1eadp \u0111\u1ea7y \u0111\u1ee7 th\u00f4ng tin!","regis_success":"\u0110\u0103ng k\u00ed th\u00e0nh c\u00f4ng. S\u1ebd chuy\u1ec3n trang sau 3 gi\u00e2y.","rating_alert":"B\u1ea1n ch\u01b0a ch\u1ecdn m\u1ee9c \u0111\u00e1nh gi\u00e1","rating_empty":"B\u1ea1n ch\u01b0a nh\u1eadp n\u1ed9i dung \u0111\u00e1nh gi\u00e1","rating_policy":"B\u1ea1n ch\u01b0a \u0111\u1ed3ng \u00fd v\u1edbi m\u1ecdi \u0111i\u1ec1u ki\u1ec7n v\u00e0 quy t\u1eafc c\u1ed9ng \u0111\u1ed3ng c\u1ee7a HRDept","rating_role":"Vui l\u00f2ng ch\u1ecdn vai tr\u00f2 c\u1ee7a b\u1ea1n tr\u00ean tin \u0111\u0103ng","rating_success":"B\u1ea1n \u0111\u00e3 \u0111\u0103ng \u0111\u00e1nh gi\u00e1 th\u00e0nh c\u00f4ng","alert_policy":"Vui l\u00f2ng \u0111\u1ed3ng \u00fd v\u1edbi \u0111i\u1ec1u ki\u1ec7n v\u00e0 quy t\u1eafc c\u1ed9ng \u0111\u1ed3ng c\u1ee7a HRDept","copy_success":"B\u1ea1n \u0111\u00e3 copy link chia s\u1ebb, b\u1ea1n c\u00f3 th\u1ec3 d\u00e1n v\u00e0o n\u01a1i b\u1ea1n mu\u1ed1n chia s\u1ebb","copy_failed":"Copy th\u1ea5t b\u1ea1i!","withdraw_alert":"S\u1ed1 ti\u1ec1n r\u00fat l\u1edbn h\u01a1n s\u1ed1 ti\u1ec1n hi\u1ec7n c\u00f3","rating_company":"Vui l\u00f2ng nh\u1eadp th\u00f4ng tin doanh nghi\u1ec7p","withdraw_policy":"B\u1ea1n ch\u01b0a ch\u1ecdn \u0111\u1ed3ng \u00fd v\u1edbi c\u00e1c \u0111i\u1ec1u kho\u1ea3n v\u1ec1 vi\u1ec7c chuy\u1ec3n kho\u1ea3n v\u00e0 thanh to\u00e1n c\u00e1c chi ph\u00ed trong t\u00e0i kho\u1ea3n c\u1ee7a b\u1ea1n theo quy \u0111\u1ecbnh c\u1ee7a HRDept","withdraw_price":"S\u1ed1 ti\u1ec1n r\u00fat ph\u1ea3i l\u1edbn h\u01a1n 9,999\u0111"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hrdept.vn/wp-content/themes/dsmart/js/main.js?ver=1626966788' id='main_js-js'></script>
+<script type='text/javascript' src='https://hrdept.vn/wp-content/themes/dsmart/js/plus.js?ver=3.8' id='plus_js-js'></script>
+<script type='text/javascript' src='https://hrdept.vn/wp-content/themes/dsmart/js/jquery.datetimepicker.full.min.js?ver=3.8' id='datetimepicker_js-js'></script>
+<script type='text/javascript' src='https://hrdept.vn/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://hrdept.vn/wp-includes/js/jquery/ui/mouse.min.js?ver=1.12.1' id='jquery-ui-mouse-js'></script>
+<script type='text/javascript' src='https://hrdept.vn/wp-includes/js/jquery/ui/sortable.min.js?ver=1.12.1' id='jquery-ui-sortable-js'></script>
+<script type='text/javascript' id='kdn-auto-leech-js-cron-js-extra'>
+/* <![CDATA[ */
+var KDN_JS_Localize = {"ajax_url":"https:\/\/hrdept.vn\/wp-admin\/admin-ajax.php","js_cron":"30"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://hrdept.vn/wp-content/plugins/kdn-auto-leech/app/Extensions/Public/js/js-cron.js?ver=2.3.6' id='kdn-auto-leech-js-cron-js'></script>
+<script type='text/javascript' src='https://hrdept.vn/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://hrdept.vn/wp-content/plugins/miniorange-login-openid/includes/js/mo_openid_jquery.cookie.min.js?ver=5.7.2' id='js-cookie-script-js'></script>
+  <div class="menu-left">
+    <h1 id="logo-mobi">
+        <a href="https://hrdept.vn"><img src="https://hrdept.vn/wp-content/uploads/2020/11/HR-Dept_logo_w156.png" alt="logo" /></a>
+    </h1>
+    <a href="javascript:void(0)" class="btn-close"><i class="fas fa-times"></i></a>
+    <nav class="mobi-nav"><ul id="menu-main-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="https://hrdept.vn/find-a-job/">Tìm việc</a></li>
+<li class="post-job menu-item menu-item-type-post_type menu-item-object-page menu-item-442"><a href="https://hrdept.vn/post-a-job/">Đăng tin</a></li>
+</ul></nav>  </div>
+</body>
+</html>

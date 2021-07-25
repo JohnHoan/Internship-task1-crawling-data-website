@@ -1,0 +1,374 @@
+ 
+<!DOCTYPE html><html lang="vi">
+<head>
+<title>Hà Nội Sound</title>
+<meta charset="UTF-8">
+<meta content="IE=edge"http-equiv="X-UA-Compatible">
+<meta content="width=device-width,initial-scale=1"name="viewport">
+<link href="/frontend/web/main.css"rel="stylesheet">
+<link href="/frontend/web/navbar_1.css"rel="stylesheet">
+<link href="/frontend/web/change.css"rel="stylesheet">
+<link href="/frontend/web/css/hung.css"rel="stylesheet">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta property="og:title" content="Hà Nội Sound">
+<meta name="author" content="">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="copyright" content="">
+<meta property="og:site_name" content="">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="vi_VN">
+<link href="https://hanoi-sound.vn/" rel="canonical">
+<link href="/font-awesome/css/all.min.css" rel="stylesheet"><meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="Ket24SP0Hmg0dVJWT8yTvJ6uVP_emWNv9WE8RJ0ejnRgkgyWbKNOG2AzJQQ49OOE0es-uYv6VQCqGFl883bcDg==">
+<link href="/images/favicon.ico"rel="icon"sizes="16x16"type="image/ico">
+<style type="text/css">
+</style>
+</head>
+<body>
+        <header>
+        <section class="header-top">
+            <div class="container">
+                			<div class="row">
+		    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+			    <div class="custom-top"><div class="logoDiv"><a class="logo-top" href="#"><img src="https://hanoi-sound.vn/uploads/logo/01.jpg" alt=""></a> <a class="logo-top" href="#"><img src="https://hanoi-sound.vn/uploads/logo/02.jpg" alt=""></a> <a class="logo-top" href="#"><img src="https://hanoi-sound.vn/uploads/logo/03.jpg" alt=""></a> <a class="logo-top" href="#"><img src="https://hanoi-sound.vn/uploads/logo/04.jpg" alt=""></a> <a class="logo-top" href="#"><img src="https://hanoi-sound.vn/uploads/logo/05.jpg" alt=""></a> <a class="logo-top" href="#"><img src="https://hanoi-sound.vn/uploads/logo/06.jpg" alt=""></a> <a class="logo-top" href="#"><img src="https://hanoi-sound.vn/uploads/logo/07.jpg" alt=""></a> <a class="logo-top" href="#"><img src="https://hanoi-sound.vn/uploads/logo/08.jpg" alt=""></a> <a class="logo-top" href="#"><img src="https://hanoi-sound.vn/uploads/logo/09.jpg" alt=""></a> <a class="logo-top" href="#"><img src="https://hanoi-sound.vn/uploads/logo/10.jpg" alt=""></a> <a class="logo-top" href="#"><img src="https://hanoi-sound.vn/uploads/logo/11.jpg" alt=""></a></div></div>
+			</div>
+		</div>
+	<div class="row">
+	<div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
+		<div class="logo">
+			<a href="/"><img src="/uploads/logo/logo.png"></a>
+		</div>
+	</div>
+	<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+		<div class="search">
+			<div class="mb-3">
+				<form action="" accept-charset="utf-8" class="input-group" id="FormWebsearch">
+					<input name="keySearch" id="home-search-web" type="text" class="form-control" placeholder="Tìm kiếm" aria-describedby="button-addon2" onkeyup="suggestSearch(event)">
+					<div class="input-group-append">
+						<button class="btn btn-outline-secondary" type="submit" id="button-addon2">Tìm kiếm</button>
+					</div>
+				</form>
+			</div>
+			<div id="search-result"><ul class="suggest"></ul></div>
+		</div>
+	</div>
+	<div class="col-5 col-sm-5 col-md-6 col-lg-2 col-xl-2">
+	    <div class="cart">
+	<div class="cart-summary">
+		<span class="header-cart-icon"><i class="fas fa-shopping-bag"></i></span>
+		<b id="count_shopping_cart_store">0</b>
+		<a id="gotoShopping" data-count="0" href="/dat-hang/gio-hang ">Giỏ hàng</a>
+	</div>
+</div>	</div>
+	<div class="col-7 col-sm-7 col-md-6 col-lg-4 col-xl-4">
+	    <div class="custom">
+	    	<p style="margin-top:2.2rem;"><strong>Hotline:</strong> <a href="tel:0989081204">098.908.1204</a></p>
+        </div>
+	</div>
+</div>            </div>
+        </section>
+        <section class="header-nav">
+            <div class="container">
+                <nav class="animate-dropdown yamm navbar navbar-expand-lg navbar-light">
+	<button style="width: 40px;margin: 5px 0;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mc-horizontal-menu-collapse" aria-controls="mc-horizontal-menu-collapse" aria-expanded="false" aria-label="Toggle navigation">
+		<div style="margin-top: 4px;border-top: 3px solid #fff;padding: 2px 0 2px 0;border-bottom: 3px solid #fff;"></div>
+		<div style="border-top: 3px solid #fff;padding: 2px 0;margin-bottom: 0;margin-top: 5px;"></div>
+	</button>
+	<div class="collapse navbar-collapse" id="mc-horizontal-menu-collapse">
+		<ul class="nav navbar-nav">
+							<li class="class=nav-item dropdown yamm mega-menu">
+											<a class="dropdown-toggle" href="https://hanoi-sound.vn/" data-hover="dropdown">Trang chủ</a>								
+			</li>
+					<li class="class=nav-item dropdown yamm mega-menu">
+													<a href="/gioi-thieu-t65" data-hover="dropdown" class="dropdown-toggle">Giới thiệu</a>
+
+						
+			</li>
+					<li class="class=nav-item dropdown yamm mega-menu">
+													<a href="/ung-dung" data-hover="dropdown" class="dropdown-toggle">Ứng dụng</a>
+
+						
+			</li>
+					<li class="class=nav-item dropdown yamm mega-menu">
+													<a href="/san-pham" data-hover="dropdown" class="dropdown-toggle">Sản phẩm</a>
+
+										<ul class="dropdown-menu container-fuild">
+					<li>
+						<div class="yamm-content ">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-12 col-menu">
+									<div class="row">
+																														<div class="col-xs-12 col-sm-6 col-md-3 col-menu">
+														<p style="margin-bottom: 0;text-transform: uppercase;font-size: 14px;" class="title"><a href="/amply">Amply</a></p>
+																		</div>
+																																											<div class="col-xs-12 col-sm-6 col-md-3 col-menu">
+														<p style="margin-bottom: 0;text-transform: uppercase;font-size: 14px;" class="title"><a href="/cong-suat">Công suất</a></p>
+																		</div>
+																																											<div class="col-xs-12 col-sm-6 col-md-3 col-menu">
+														<p style="margin-bottom: 0;text-transform: uppercase;font-size: 14px;" class="title"><a href="/dau-karaoke">Đầu Karaoke</a></p>
+																		</div>
+																																											<div class="col-xs-12 col-sm-6 col-md-3 col-menu">
+														<p style="margin-bottom: 0;text-transform: uppercase;font-size: 14px;" class="title"><a href="/micro">Micro</a></p>
+																		</div>
+																																											<div class="col-xs-12 col-sm-6 col-md-3 col-menu">
+														<p style="margin-bottom: 0;text-transform: uppercase;font-size: 14px;" class="title"><a href="/mixer">Mixer</a></p>
+																		</div>
+																																	</div>
+									</div>
+																	</div>
+							</div>
+						</li>
+					</ul>
+				
+			</li>
+					<li class="class=nav-item dropdown yamm mega-menu">
+													<a href="/cho-thue-t69" data-hover="dropdown" class="dropdown-toggle">Cho thuê</a>
+
+						
+			</li>
+					<li class="class=nav-item dropdown yamm mega-menu">
+													<a href="/tin-tuc-t68" data-hover="dropdown" class="dropdown-toggle">Tin tức</a>
+
+						
+			</li>
+					<li class="class=nav-item dropdown yamm mega-menu">
+													<a href="/lien-he-t67" data-hover="dropdown" class="dropdown-toggle">Liên hệ</a>
+
+						
+			</li>
+			</ul>
+	</div>
+</nav>            </div>
+        </section>
+    </header>
+
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-xl-12">
+                                            <section class="slideshow" style="margin-top:10px;">		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		  			  	<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+		  			  	<li data-target="#carouselExampleCaptions" data-slide-to="1" class=""></li>
+		  			  	<li data-target="#carouselExampleCaptions" data-slide-to="2" class=""></li>
+		  			  	<li data-target="#carouselExampleCaptions" data-slide-to="3" class=""></li>
+		  			  </ol>
+		  <div class="carousel-inner">
+		  			  		<div class="carousel-item active">
+		  			<a href="">
+		  				<img src="/uploads/slide/sl4.jpg" class="d-block w-100" alt="4">
+		  			</a>
+		  			<div class="carousel-caption d-none d-md-block">
+		  						  			</div>
+		  		</div>
+		  			  		<div class="carousel-item">
+		  			<a href="">
+		  				<img src="/uploads/slide/sl3.jpg" class="d-block w-100" alt="3">
+		  			</a>
+		  			<div class="carousel-caption d-none d-md-block">
+		  						  			</div>
+		  		</div>
+		  			  		<div class="carousel-item">
+		  			<a href="">
+		  				<img src="/uploads/slide/sl2.jpg" class="d-block w-100" alt="2">
+		  			</a>
+		  			<div class="carousel-caption d-none d-md-block">
+		  						  			</div>
+		  		</div>
+		  			  		<div class="carousel-item">
+		  			<a href="">
+		  				<img src="/uploads/slide/sl1.jpg" class="d-block w-100" alt="1">
+		  			</a>
+		  			<div class="carousel-caption d-none d-md-block">
+		  						  			</div>
+		  		</div>
+		  	
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+</section>
+                                        <div class="center"id="content">
+                        <!-- Menu hiển thị giữa trang chủ --><section class="module-navicat list">
+	<div class="header">
+		<h2>Micro</h2>
+		<div class="viewallcat d-none d-sm-block">
+						<a href="/micro">Xem tất cả</a>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="product-list">
+		<div class="row">
+			<div class="col-lg-12 col-xl-12 des"></div>
+												<div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+						<div class="thumbnail">
+							<a class="img" href="/micro/micro-co-ngong-ket-hop-ban-dieu-khien-itc-t-319.html">
+								<img src="/uploads/san-pham/micro/micro-co-ngong-itc-t319.jpg" width="100%" alt="" class="img-thumbnail">
+							</a>
+							<div class="caption">
+								<a class="title" href="/micro/micro-co-ngong-ket-hop-ban-dieu-khien-itc-t-319.html"><h3>Micro cổ ngỗng kết hợp bàn điều khiển ITC T-319</h3></a>
+																	<p class="price">
+																			</p>
+																							</div>
+						</div>
+					</div>
+									<div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+						<div class="thumbnail">
+							<a class="img" href="/micro/micro-va-ban-dieu-khien-phan-trang-am-thanh-itc-t-8000a.html">
+								<img src="/uploads/san-pham/micro/micro-phan-vung-itc-t8000a-270x200-1.jpg" width="100%" alt="" class="img-thumbnail">
+							</a>
+							<div class="caption">
+								<a class="title" href="/micro/micro-va-ban-dieu-khien-phan-trang-am-thanh-itc-t-8000a.html"><h3>Micro và bàn điều khiển phân trang âm thanh ITC T-8000A</h3></a>
+																	<p class="price">
+																			</p>
+																							</div>
+						</div>
+					</div>
+									<div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+						<div class="thumbnail">
+							<a class="img" href="/micro/micro-khong-day-co-chan-dung-misound-mk-200.html">
+								<img src="/uploads/san-pham/micro/micro-khong-day-co-chan-dung-misound-ik-200-270x200.jpg" width="100%" alt="" class="img-thumbnail">
+							</a>
+							<div class="caption">
+								<a class="title" href="/micro/micro-khong-day-co-chan-dung-misound-mk-200.html"><h3>Micro không dây có chân đứng Misound MK 200</h3></a>
+																	<p class="price">
+																			</p>
+																							</div>
+						</div>
+					</div>
+									<div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+						<div class="thumbnail">
+							<a class="img" href="/micro/micro-khong-day-co-chan-dung-misound-mk-100.html">
+								<img src="/uploads/san-pham/micro/micro-khong-day-co-chan-dung-misound-ik-100-270x200.jpg" width="100%" alt="" class="img-thumbnail">
+							</a>
+							<div class="caption">
+								<a class="title" href="/micro/micro-khong-day-co-chan-dung-misound-mk-100.html"><h3>Micro không dây có chân đứng Misound MK 100</h3></a>
+																	<p class="price">
+																			</p>
+																							</div>
+						</div>
+					</div>
+									</div>
+	</div>
+</section><div class="panel panel-default module-navicat slider"><div class="panel-heading"><h3 class="panel-title">Chuyên đề âm thanh</h3></div><div class="panel-body"><ul class="owl-carousel owl-theme newstabhomejcarousel-items"><li class="item"><div class="row"><div class="col-xs-12 col-sm-6 col-md-6"><div class="height-tabs"><div class="img float-left"><a href="https://hanoi-sound.vn/tin-tuc/huong-dan-noi-dat-cho-amply-karaoke-t9.html"title="Hướng dẫn nối đất cho amply karaoke"><img style="max-width:150px"src="/uploads/tin-tuc/amply-jarguar-dong-amply-karaoke-gia-dinh-manh-nhat.png"alt="Hướng dẫn nối đất cho amply karaoke"></a></div><div class="ct"><h3><a class="show"href="https://hanoi-sound.vn/tin-tuc/huong-dan-noi-dat-cho-amply-karaoke-t9.html"title="/uploads/tin-tuc/amply-jarguar-dong-amply-karaoke-gia-dinh-manh-nhat.png">Hướng dẫn nối đất cho amply karaoke</a></h3><div class="htext">Nối đất cho amply karaoke sẽ giúp tránh tình trạng nhiễu, điện giật. Tuy nhiên, nếu bạn không biết cách thực hiện sẽ dẫn đến tình trạng trạng một số thiết bị âm thanh khác bị rè. Xin chia sẻ đến các bạn cách nối đất cho amply karaoke đúng và an toàn nhất trong bài viết dưới đây.</div></div><div class="backgroup-viewdetail"><a href="/tin-tuc-t9"class="more">Chi tiết</a></div></div></div><div class="col-xs-12 col-sm-6 col-md-6"><div class="height-tabs"><div class="img float-left"><a href="https://hanoi-sound.vn/tin-tuc/7-yeu-to-de-chon-loa-karaoke-tot-nhat-t8.html"title="7 yếu tố để chọn loa karaoke tốt nhất"><img style="max-width:150px"src="/uploads/tin-tuc/7-yeu-to-de-lua-chon-loa-phu-hop1.png"alt="7 yếu tố để chọn loa karaoke tốt nhất"></a></div><div class="ct"><h3><a class="show"href="https://hanoi-sound.vn/tin-tuc/7-yeu-to-de-chon-loa-karaoke-tot-nhat-t8.html"title="/uploads/tin-tuc/7-yeu-to-de-lua-chon-loa-phu-hop1.png">7 yếu tố để chọn loa karaoke tốt nhất</a></h3><div class="htext">Mỗi chiếc loa đều có cá tính riêng, phù hợp với từng không gian và mục đích sử dụng. Không thể đánh giá loa hay hoặc dở nếu chưa đặt đúng chỗ và mục đích sử dụng của chúng. Vì vậy, trước khi quyết định “tậu” cho mình một chiếc loa, hãy cùng tìm hiểu 7 yếu tố dưới đây để chọn được sản phẩm phù hợp nhất cho nhu cầu của bạn.</div></div><div class="backgroup-viewdetail"><a href="/tin-tuc-t8"class="more">Chi tiết</a></div></div></div></div></li><li class="item"><div class="row"><div class="col-xs-12 col-sm-6 col-md-6"><div class="height-tabs"><div class="img float-left"><a href="https://hanoi-sound.vn/tin-tuc/ky-thuat-lap-dat-va-can-chinh-dan-karaoke-gia-dinh-chuan-nhat-t7.html"title="Kỹ thuật lắp đặt và căn chỉnh dàn Karaoke gia đình chuẩn nhất"><img style="max-width:150px"src="/uploads/tin-tuc/kt-lap-dat-loa.jpg"alt="Kỹ thuật lắp đặt và căn chỉnh dàn Karaoke gia đình chuẩn nhất"></a></div><div class="ct"><h3><a class="show"href="https://hanoi-sound.vn/tin-tuc/ky-thuat-lap-dat-va-can-chinh-dan-karaoke-gia-dinh-chuan-nhat-t7.html"title="/uploads/tin-tuc/kt-lap-dat-loa.jpg">Kỹ thuật lắp đặt và căn chỉnh dàn Karaoke gia đình chuẩn nhất</a></h3><div class="htext">Kỹ thuật lắp đặt và phối trí dàn karaoke gia đình với nhiều người vẫn đang còn là một điều gì đó khả phức tạp, còn với những người am hiếu thì đây là một điều khả đơn giản, những thiết bị khi mua về làm sao để lắp đặt đúng với kỹ thuật và vị trí từng thiết bị là điều khả quan trọng, nhằm mang lại chất lượng âm thanh tốt nhất và dàn thiết bị có độ bền tốt và ổn định nhất.</div></div><div class="backgroup-viewdetail"><a href="/tin-tuc-t7"class="more">Chi tiết</a></div></div></div><div class="col-xs-12 col-sm-6 col-md-6"><div class="height-tabs"><div class="img float-left"><a href="https://hanoi-sound.vn/tin-tuc/kinh-nghiem-chon-mua-dan-am-thanh-karaoke-chat-luong-cao-t6.html"title="Kinh nghiệm chọn mua dàn âm thanh Karaoke chất lượng cao"><img style="max-width:150px"src="/uploads/tin-tuc/cach-chon-dan-karaoke.jpg"alt="Kinh nghiệm chọn mua dàn âm thanh Karaoke chất lượng cao"></a></div><div class="ct"><h3><a class="show"href="https://hanoi-sound.vn/tin-tuc/kinh-nghiem-chon-mua-dan-am-thanh-karaoke-chat-luong-cao-t6.html"title="/uploads/tin-tuc/cach-chon-dan-karaoke.jpg">Kinh nghiệm chọn mua dàn âm thanh Karaoke chất lượng cao</a></h3><div class="htext">Bạn đang có kế hoạch kinh doanh dịch vụ karaoke hay đơn giản chỉ là sắm dàn âm thanh phục vụ gia đình. Tuy nhiên, bạn lại không có kinh nghiệm trong việc lựa chọn dàn âm thanh chất lượng cao. Hãy nghe người có kinh nghiêm chia sẻ những lưu ý quan trọng để mua được sản phẩm tốt nhất.</div></div><div class="backgroup-viewdetail"><a href="/tin-tuc-t6"class="more">Chi tiết</a></div></div></div></div></li></ul></div></div>
+<section class="custom">
+    <p style="text-align: center;"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d612.5304421615183!2d105.86396389360449!3d21.015435500552105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abfa82845baf%3A0x78e02309446f4677!2sHanoi%20Sound!5e0!3m2!1svi!2s!4v1619369168956!5m2!1svi!2s" width="100%" height="250" allowfullscreen="allowfullscreen"></iframe></p></section>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="right">
+                                                                        
+                    </div><!--/right-->
+                </div><!--/col-lg- col-xl- -->
+            </div><!--/row-->
+        </div><!--/container-->
+    </section>
+    <div class="container brands-footer">
+        
+    </div>
+<footer>
+    <div class="container">
+        
+<div class="row">
+      <div class="col-lg-6 col-xl-6">
+         <p><strong>C&Ocirc;NG TY TNHH THƯƠNG MẠI C&Ocirc;NG NGHỆ &Acirc;M THANH H&Agrave; NỘI</strong></p>
+<p>Địa chỉ: Số 28, tổ 82A ng&otilde; 41/2 phố Đ&ocirc;ng T&aacute;c, phường Kim Li&ecirc;n, quận Đống Đa, H&agrave; Nội</p>
+<p>Showroom: P104/16, T&ograve;a nh&agrave; E1, TT Hồ Việt X&ocirc;, Phố T&acirc;y Kết, P. Bạch Đằng, Q. HBT, TP. HN</p>
+<p>Điện thoại: 098.908.1204 - 024.3984.6252</p>
+<p>MST: 0108231147</p>
+<p>Email: hanoisound@gmail.com</p>
+<p>Website: www.hanoi-sound.vn</p>      </div>
+      <div class="col-lg-6 col-xl-6">
+         <ul>
+<li><a href="#">Hướng dẫn mua h&agrave;ng</a></li>
+<li><a href="#">Giao nhận v&agrave; thanh to&aacute;n</a></li>
+<li><a href="#">Đổi trả h&agrave;ng h&oacute;a</a></li>
+<li><a href="#">Bảo mật th&ocirc;ng tin</a></li>
+</ul>      </div>
+</div>
+<div class="row">
+   <div class="col-lg-12 col-xl-12">
+      <p style="float:right;clear: both;"><a style="text-shadow: 1px 1px 1px #d32b80;color:#fff;font-size:14px;" target="_blank" href="http://ggo.software">Thiết kế web GGO</a></p>
+   </div>
+</div>    </div>
+</footer>
+<div class="modal" tabindex="-1" role="dialog" id="shoppingcart">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Bạn vừa thêm <span id="productNumber"></span> sản phẩm vào giỏ hàng</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+						<div class="col-md-3">
+								<img src="" id="productImgPreview" alt="" width="60%">
+						</div>
+						<div class="col-md-9">
+								<h4><span id="txtNameProduct"></span></h4>
+								<p>Giá: <i><span id="txtPriceProduct"> </span></i></p>
+						</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Tiếp tục mua hàng</button>
+				<a class="btn btn-info" href="/dat-hang/gio-hang">Đến giỏ hàng</a>			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" id="deleteshopping">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Bạn có muốn xóa sản phẩm khỏi giỏ hàng ?</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				
+			</div>
+			<div class="modal-body" style="overflow: hidden;">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="" id="imgPreviewdel" alt="" width="60%">
+					</div>
+					<div class="col-md-9">
+						<h4><span id="txtNameProductdel"></span></h4>
+						<!-- <p>Giá sản phẩm: <i><span id="txtpricedel"></span></i> đ</p> -->
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button id="modal_delete" type="button" data-id="" class="btn btn-danger" data-dismiss="modal" onclick="deleteItem('0')"><span class="glyphicon glyphicon-trash"></span>Xóa sản phẩm</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+			</div>
+		</div>
+		<!-- /.modal-content -->
+	</div>
+	<!-- /.modal-dialog -->
+</div>
+<!-- /.modal --><script src="/assets/b3321831/jquery.js"></script>
+<script src="/assets/9c36610/yii.js"></script>
+<script src="/jquery-ui/jquery-ui.js"></script>
+<script src="/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+<script src="/owlcarousel/owl.carousel.min.js"></script>
+<script src="/bootstrap-notify.min.js"></script>
+<script src="/hungsalsa.js"></script>
+<script src="/main.js"></script>
+<script>jQuery(function ($) {
+    var itemsolw = $(".owl-carousel.newstabhomejcarousel-items");
+    if(itemsolw.length>0){
+        itemsolw.owlCarousel({
+            items:1, nav: true, autoplay: true, loop:true, autoplayTimeout:5000, dots: true, responsiveClass:false,
+            });
+    }
+});</script></body>
+</html>

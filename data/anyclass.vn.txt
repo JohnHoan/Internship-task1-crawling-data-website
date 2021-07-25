@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="google-site-verification" content="CHyuN6P8flY4F8EgBnbdiWy5KIgJDNvkZTIGLj5dhPM" />
+    <title>Anyclass</title>
+<link rel="canonical" href="https://anyclass.vn"/>
+<meta name="description" content="Anyclass">
+<!-- META FOR FACEBOOK -->
+<meta content="Anyclass" property="og:site_name"/>
+<meta property="og:url" itemprop="url" content="https://anyclass.vn"/>
+<meta property="og:image" itemprop="thumbnailUrl" content="https://anyclass.vn/images/config/B8nZu45GZy.png"/>
+<meta content="Anyclass" itemprop="headline" property="og:title"/>
+<meta content="Anyclass" itemprop="description" property="og:description"/>
+<!-- END META FOR FACEBOOK -->
+
+    <link rel="shortcut icon" href="https://anyclass.vn/images/config/qAnU1zYswG.png" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@videojs/themes@1.0.1/fantasy/index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/videojs-playlist-ui@3.8.0/dist/videojs-playlist-ui.css">
+<link rel="stylesheet" type="text/css" href="https://anyclass.vn/enduser/assets/css/main.css">
+<link rel="stylesheet" type="text/css" href="https://anyclass.vn/enduser/assets/toastr-master/build/toastr.min.css">
+<link rel="stylesheet" type="text/css" href="https://anyclass.vn/enduser/assets/css/custom.css">
+<link rel="stylesheet" type="text/css" href="https://anyclass.vn/enduser/assets/DatePicker-master/themes/jquery-ui.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-95L3RQ78C7"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-95L3RQ78C7');
+</script>
+
+</head>
+<body>
+<div class="wrapper">
+    <header class="section-header">
+    <div class="container">
+        <div class="header-wrap d-flex align-items-center justify-content-between">
+            <div class="header-logo"><a href="/"><img src="https://anyclass.vn/images/config/B8nZu45GZy.png" alt=""></a></div>
+            <form class="header-search d-flex" action="https://anyclass.vn/search-result">
+                <input name="search" type="text" placeholder="Tìm kiếm ?">
+                <button class="d-flex align-items-center justify-content-center" type="submit"><img src="https://anyclass.vn/enduser/assets/icons/icon-search-white.svg" alt=""></button>
+            </form>
+            <div class="header-icon-group d-flex align-items-center">
+                <div class="header-wishlist header-btn tooltip-wrapper">
+                                        <div class="tooltip-content bottom-center">Yêu thích</div>
+                    <div class="circle-notification">0</div><a href="https://anyclass.vn/wishlist/danh-sach" ><img src="https://anyclass.vn/enduser/assets/icons/icon-heart-white.svg" alt=""></a>
+                </div>
+                <div class="header-tickets header-btn tooltip-wrapper">
+                    <div class="tooltip-content bottom-center">Coupon</div>
+                    <a href="https://anyclass.vn/my-coupon"><img src="https://anyclass.vn/enduser/assets/icons/icon-tickets-white.svg" alt=""></a>
+                </div>
+                <div class="header-carts header-btn tooltip-wrapper">
+                    <div class="tooltip-content bottom-center">Giỏ hàng</div>
+                    <div class="circle-notification">0</div>
+                    <a href="https://anyclass.vn/gio-hang"><img src="https://anyclass.vn/enduser/assets/icons/icon-shopping-bag-white.svg" alt=""></a>
+                </div>
+                <div class="header-account header-btn tooltip-wrapper">
+                    <div class="tooltip-content bottom-center">Cá nhân</div>
+                   <a href="https://anyclass.vn/my-profile"><img src="https://anyclass.vn/enduser/assets/icons/icon-user-white.svg" alt=""></a>
+                </div>
+                            </div>
+        </div>
+    </div>
+</header>
+
+    <header class="header-mobile">
+    <div class="container">
+        <div class="header-mobile-wrapper d-flex align-items-center justify-content-between">
+            <div class="header-logo"><a href="/"><img src="https://anyclass.vn/enduser/assets/images/logo-mobile.png" alt=""></a></div>
+            <div class="header-action d-flex align-items-center">
+                <div class="header-btn tooltip-wrapper">
+                    <div class="tooltip-content bottom-center">Giỏ hàng</div>
+                    <div class="circle-notification">0</div><img src="https://anyclass.vn/enduser/assets/icons/icon-shopping-cart-white.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="menu-mobile-component">
+    <div class="menu-mobile-wrapper"><img class="menu-close" src="https://anyclass.vn/enduser/assets/icons/icon-close.svg" alt="">
+        <form class="menu-search d-flex" action="https://anyclass.vn/search-result">
+            <input name="search" type="text" placeholder="Bạn cần tìm gì ?">
+            <button class="d-flex align-items-center justify-content-center" type="submit"><img src="https://anyclass.vn/enduser/assets/icons/icon-search-white.svg" alt=""></button>
+        </form>
+        <div class="line"></div>
+        <h3 class="menu-title">Liên kết</h3>
+        <div class="menu-category-wrapper">
+            <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="/">Trang chủ</a>
+            </div>
+            <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="https://anyclass.vn/danh-sach-khoa-hoc">Khoá học</a>
+            </div>
+            <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="https://anyclass.vn/product-lists">Cửa hàng</a>
+            </div>
+            <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="https://anyclass.vn/review">Đánh giá</a>
+            </div>
+            <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="https://anyclass.vn/huong-dan">Hướng dẫn</a>
+            </div>
+        </div>
+        <h3 class="menu-title">Danh mục</h3>
+        <div class="menu-category-wrapper">
+                                    <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="https://anyclass.vn/khoa-hoc/khoe-va-dep">Khỏe và đẹp</a>
+            </div>
+                        <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="https://anyclass.vn/khoa-hoc/so-thich">Sở thích</a>
+            </div>
+            
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+    <div class="menu-component">
+    <div class="container">
+        <div class="menu-component-wrap">
+            <div class="row fix-row-no-padding">
+                <div class="col-md-3 col-lg-3 no-padding">
+                    <div class="menu-category d-flex align-items-center">
+                        <div class="category-btn d-flex align-items-center">
+
+                            DANH MỤC
+
+                        </div>
+                        <ul class="dropdown-menu" role="menu">
+                                                                                    <li data-submenu-id="khoe-va-dep0">
+                                <a class="d-flex align-items-center category-link" href="https://anyclass.vn/khoa-hoc/khoe-va-dep" style="padding: 7px 15px; padding-left: 0px">
+
+                                    <span>Khỏe và đẹp</span>
+                                </a>
+                                <div class="popover" id="san-pham-noi-bat-menu">
+                                    <div class="d-flex flex-wrap">
+                                    </div>
+                                </div>
+                            </li>
+                                                        <li data-submenu-id="so-thich1">
+                                <a class="d-flex align-items-center category-link" href="https://anyclass.vn/khoa-hoc/so-thich" style="padding: 7px 15px; padding-left: 0px">
+
+                                    <span>Sở thích</span>
+                                </a>
+                                <div class="popover" id="san-pham-noi-bat-menu">
+                                    <div class="d-flex flex-wrap">
+                                    </div>
+                                </div>
+                            </li>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <div class="category-show-all d-flex align-items-center" id="categoryShowAll" style="">
+
+                                Xem thêm ...
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9 col-lg-9 no-padding">
+                    <div class="header-menu-wrapper d-flex">
+                        <div class="header-menu-item d-flex align-items-center"> <a class="menu-link" href="/">Trang chủ</a>
+                        </div>
+                        <div class="header-menu-item d-flex align-items-center"> <a class="menu-link" href="https://anyclass.vn/danh-sach-khoa-hoc">Khoá học</a>
+                        </div>
+                        <div class="header-menu-item d-flex align-items-center"> <a class="menu-link" href="https://anyclass.vn/product-lists">Cửa hàng</a>
+                        </div>
+                        <div class="header-menu-item d-flex align-items-center"> <a class="menu-link" href="https://anyclass.vn/review">Đánh giá</a>
+                        </div>
+                        <div class="header-menu-item d-flex align-items-center"> <a class="menu-link" href="https://anyclass.vn/huong-dan">Hướng dẫn</a>
+                        </div>
+                        <div class="header-menu-item d-flex align-items-center"> <a class="menu-link" href="https://anyclass.vn/become-teacher">Trở thành giảng viên</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="menu-mobile-component">
+    <div class="menu-mobile-wrapper"><img class="menu-close" src="" alt="">
+        <form class="menu-search d-flex" action="#">
+            <input type="text" placeholder="Bạn cần tìm gì ?">
+            <button class="d-flex align-items-center justify-content-center" type="submit"><img src="https://anyclass.vn/enduser/assets/icons/icon-search-white.svg" alt=""></button>
+        </form>
+        <div class="line"></div>
+        <h3 class="menu-title">Liên kết</h3>
+        <div class="menu-category-wrapper">
+            <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="/">Trang chủ</a>
+            </div>
+            <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="https://anyclass.vn/product-lists">Khoá học</a>
+            </div>
+            <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="https://anyclass.vn/product-lists">Cửa hàng</a>
+            </div>
+            <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="https://anyclass.vn/review">Đánh giá</a>
+            </div>
+            <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="https://anyclass.vn/huong-dan">Hướng dẫn</a>
+            </div>
+            <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="https://anyclass.vn/become-teacher">Trở thành giảng viên</a>
+            </div>
+        </div>
+        <h3 class="menu-title">Danh mục</h3>
+                <div class="menu-category-wrapper">
+                        <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="https://anyclass.vn/khoa-hoc/khoe-va-dep">Khỏe và đẹp</a>
+            </div>
+                        <div class="category-item d-flex align-items-center flex-wrap justify-content-between"><a class="category-title" href="https://anyclass.vn/khoa-hoc/so-thich">Sở thích</a>
+            </div>
+                    </div>
+    </div>
+</div>
+<nav class="nav-mobile">
+    <div class="container">
+        <div class="nav-wrapper d-flex align-items-center justify-content-between"> <a class="nav-item" href="#">
+                <div class="header-btn"><img src="https://anyclass.vn/enduser/assets/icons/icon-home-pink.svg" alt=""></div>
+                <div class="nav-text">Trang chủ</div></a>
+            <div class="nav-item">
+                <div class="header-btn menu"> <img src="https://anyclass.vn/enduser/assets/icons/icon-bar-pink.svg" alt=""></div>
+                <div class="nav-text">Danh mục</div>
+            </div><a class="nav-item" href="#">
+                <div class="header-btn"><img src="https://anyclass.vn/enduser/assets/icons/icon-shopping-bag-pink.svg" alt=""></div>
+                <div class="nav-text">Cửa hàng</div></a><a class="nav-item" href="https://anyclass.vn/product-lists">
+                                <div class="header-btn">
+                    <div class="circle-notification">0</div><img src="https://anyclass.vn/enduser/assets/icons/icon-heart-pink.svg" alt="">
+                </div>
+                <div class="nav-text">Yêu thích</div></a><a class="nav-item" href="#">
+                <div class="header-btn"><img src="https://anyclass.vn/enduser/assets/icons/icon-user-pink.svg" alt=""></div>
+                <div class="nav-text">Cá nhân</div></a>
+        </div>
+    </div>
+</nav>
+    
+    <div id="isOpenCategory"></div>
+
+
+    <section class="section-home-banner">
+        <div class="container">
+            <div class="row fix-row-no-padding">
+                <div class="col-md-0 col-lg-3 no-padding"></div>
+                <div class="col-md-12 col-lg-6 no-padding">
+                    <div class="owl-carousel custom-carousel-style" id="home-banner-carousel">
+                                                                            <div class="item">
+    <a class="image-banner-item single" href="#">
+        <img src="https://anyclass.vn/images/banner/sD1ARATZlA.jpg" alt="slider trang chu 1234">
+    </a>
+</div>
+                                                    <div class="item">
+    <a class="image-banner-item single" href="#">
+        <img src="https://anyclass.vn/images/banner/ihUYgvZXOW.jpg" alt="slider trang chủ 1">
+    </a>
+</div>
+                                            </div>
+                </div>
+                <div class="col-md-12 col-lg-3 no-padding home-banner-col">
+                                            <a class="image-banner-item half" href="#">
+                            <img src="https://anyclass.vn/images/banner/prnnvtUrWe.jpg" alt="banner trang chủ 2">
+                        </a>
+                                            <a class="image-banner-item half" href="#">
+                            <img src="https://anyclass.vn/images/banner/JXCaOeShEY.jpg" alt="banner trang chủ 1">
+                        </a>
+                                    </div>
+                <div class="col-12 no-padding">
+                    <a class="image-banner-item" href="#"> <img src="https://anyclass.vn/images/banner/MVLrcum43s.jpg" alt="baner trang chủ dưới slider 1"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+            <section class="section section-events">
+        <div class="container">
+
+            <div class="section-header d-flex align-items-center justify-content-between">
+    <h2 class="d-flex align-items-center"> <img src="https://anyclass.vn/enduser/assets/icons/icon-event.svg" alt="">Sự kiện
+        </div>
+            <div class="section-main">
+                
+                    <div class="owl-carousel custom-carousel-style arrow-two-side">
+                                        </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section section-product product">
+        <div class="container">
+            <div class="section-header d-flex align-items-center justify-content-between">
+    <h2 class="d-flex align-items-center"> <img src="https://anyclass.vn/enduser/assets/icons/icon-book.svg" alt="">Phổ biến nhất
+        </div>
+                        <div class="section-main">
+                <div class="owl-carousel custom-carousel-style arrow-two-side">
+                                        <div class="item">
+    <div class="product-component">
+        <div class="product-image"> <a href="https://anyclass.vn/khoa-hoc/khoe-va-dep/the-duc-giam-can-30-ngay-lot-xac-cung-gym"><img src="https://anyclass.vn/images/course_courses/X9togmXZsH.jpg"  alt=""></a>
+
+                            <div class="product-favorite">
+                    <a href="https://anyclass.vn/wishlist/add/56" ><img src="https://anyclass.vn/enduser/assets/icons/icon-heart.svg" alt=""></a>
+                </div>
+            
+        </div><a class="product-title " href="https://anyclass.vn/khoa-hoc/khoe-va-dep/the-duc-giam-can-30-ngay-lot-xac-cung-gym">Thể dục giảm cân- 30 ngày lột xác cùng gym</a>
+        <div class="line"> </div>
+
+
+
+
+
+
+
+
+                    <h5 class="product-price">Comming soon</h5>
+        
+        <div class="product-tags d-flex flex-wrap">
+            <div class="tag-item">Đăng ký ngay</div>
+        </div>
+    </div>
+</div>
+                                        <div class="item">
+    <div class="product-component">
+        <div class="product-image"> <a href="https://anyclass.vn/khoa-hoc/khoe-va-dep/khoa-hoc-trang-diem---make-up-co-ban"><img src="https://anyclass.vn/images/course_courses/0xzELAkBIK.jpg"  alt=""></a>
+
+                            <div class="product-favorite">
+                    <a href="https://anyclass.vn/wishlist/add/52" ><img src="https://anyclass.vn/enduser/assets/icons/icon-heart.svg" alt=""></a>
+                </div>
+            
+        </div><a class="product-title " href="https://anyclass.vn/khoa-hoc/khoe-va-dep/khoa-hoc-trang-diem---make-up-co-ban">Khóa học trang điểm - Make up cơ bản</a>
+        <div class="line"> </div>
+
+
+
+
+
+
+
+
+                    <h5 class="product-price">399,000đ</h5>
+        
+        <div class="product-tags d-flex flex-wrap">
+            <div class="tag-item">Đăng ký ngay</div>
+        </div>
+    </div>
+</div>
+                                        <div class="item">
+    <div class="product-component">
+        <div class="product-image"> <a href="https://anyclass.vn/khoa-hoc/khoe-va-dep/giam-can-khoa-hoc---khong-an-kieng-can-van-giam"><img src="https://anyclass.vn/images/course_courses/kP13W4HbvL.jpg"  alt=""></a>
+
+                            <div class="product-favorite">
+                    <a href="https://anyclass.vn/wishlist/add/51" ><img src="https://anyclass.vn/enduser/assets/icons/icon-heart.svg" alt=""></a>
+                </div>
+            
+        </div><a class="product-title " href="https://anyclass.vn/khoa-hoc/khoe-va-dep/giam-can-khoa-hoc---khong-an-kieng-can-van-giam">Giảm cân khoa học - Không ăn kiêng, cân vẫn giảm!</a>
+        <div class="line"> </div>
+
+
+
+
+
+
+
+
+                    <h5 class="product-price">299,000đ</h5>
+        
+        <div class="product-tags d-flex flex-wrap">
+            <div class="tag-item">Đăng ký ngay</div>
+        </div>
+    </div>
+</div>
+                                        <div class="item">
+    <div class="product-component">
+        <div class="product-image"> <a href="https://anyclass.vn/khoa-hoc/so-thich/theu-noi-punch-needle-mon-thu-cong-doc-dao"><img src="https://anyclass.vn/images/course_courses/aTvq9f2g9D.jpg"  alt=""></a>
+
+                            <div class="product-favorite">
+                    <a href="https://anyclass.vn/wishlist/add/50" ><img src="https://anyclass.vn/enduser/assets/icons/icon-heart.svg" alt=""></a>
+                </div>
+            
+        </div><a class="product-title " href="https://anyclass.vn/khoa-hoc/so-thich/theu-noi-punch-needle-mon-thu-cong-doc-dao">Thêu nổi (Punch Needle) - Môn thủ công độc đáo</a>
+        <div class="line"> </div>
+
+
+
+
+
+
+
+
+                    <h5 class="product-price">299,000đ</h5>
+        
+        <div class="product-tags d-flex flex-wrap">
+            <div class="tag-item">Đăng ký ngay</div>
+        </div>
+    </div>
+</div>
+                                        <div class="item">
+    <div class="product-component">
+        <div class="product-image"> <a href="https://anyclass.vn/khoa-hoc/khoe-va-dep/khoe-va-dep-voi-dance-fitness"><img src="https://anyclass.vn/images/course_courses/WBuOulLBf3.jpg"  alt=""></a>
+
+                            <div class="product-favorite">
+                    <a href="https://anyclass.vn/wishlist/add/27" ><img src="https://anyclass.vn/enduser/assets/icons/icon-heart.svg" alt=""></a>
+                </div>
+            
+        </div><a class="product-title " href="https://anyclass.vn/khoa-hoc/khoe-va-dep/khoe-va-dep-voi-dance-fitness">Khỏe và đẹp với dance fitness</a>
+        <div class="line"> </div>
+
+
+
+
+
+
+
+
+                    <h5 class="product-price">299,000đ</h5>
+        
+        <div class="product-tags d-flex flex-wrap">
+            <div class="tag-item">Đăng ký ngay</div>
+        </div>
+    </div>
+</div>
+                                        <div class="item">
+    <div class="product-component">
+        <div class="product-image"> <a href="https://anyclass.vn/khoa-hoc/so-thich/ve-tranh-phong-canh-bang-mau-acrylic"><img src="https://anyclass.vn/images/course_courses/biXB6GnVkY.jpg"  alt=""></a>
+
+                            <div class="product-favorite">
+                    <a href="https://anyclass.vn/wishlist/add/26" ><img src="https://anyclass.vn/enduser/assets/icons/icon-heart.svg" alt=""></a>
+                </div>
+            
+        </div><a class="product-title " href="https://anyclass.vn/khoa-hoc/so-thich/ve-tranh-phong-canh-bang-mau-acrylic">Vẽ tranh phong cảnh bằng màu acrylic</a>
+        <div class="line"> </div>
+
+
+
+
+
+
+
+
+                    <h5 class="product-price">299,000đ</h5>
+        
+        <div class="product-tags d-flex flex-wrap">
+            <div class="tag-item">Đăng ký ngay</div>
+        </div>
+    </div>
+</div>
+                                        <div class="item">
+    <div class="product-component">
+        <div class="product-image"> <a href="https://anyclass.vn/khoa-hoc/so-thich/giay-custom-ve-giay-theo-cach-rieng-cua-ban"><img src="https://anyclass.vn/images/course_courses/0AyhLAXup3.jpg"  alt=""></a>
+
+                            <div class="product-favorite">
+                    <a href="https://anyclass.vn/wishlist/add/25" ><img src="https://anyclass.vn/enduser/assets/icons/icon-heart.svg" alt=""></a>
+                </div>
+            
+        </div><a class="product-title " href="https://anyclass.vn/khoa-hoc/so-thich/giay-custom-ve-giay-theo-cach-rieng-cua-ban">Giày custom- vẽ giày theo cách riêng của bạn</a>
+        <div class="line"> </div>
+
+
+
+
+
+
+
+
+                    <h5 class="product-price">299,000đ</h5>
+        
+        <div class="product-tags d-flex flex-wrap">
+            <div class="tag-item">Đăng ký ngay</div>
+        </div>
+    </div>
+</div>
+                                    </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="section section-news">
+        <div class="container">
+                        <div class="section-header d-flex align-items-center justify-content-between">
+    <h2 class="d-flex align-items-center"> <img src="https://anyclass.vn/enduser/assets/icons/icon-news.svg" alt="">Blog
+        </div>
+            <div class="section-main">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="secion-new-wrapper lists">
+                                                          <div class="new-box-component horizontal"><a class="new-image" href="https://anyclass.vn/tin-tuc/custom-giay-tai-viet-nam-trao-luu-va-co-hoi-phan-2"> <img src="https://anyclass.vn/images/blog_posts/ctHPIzpl56.jpg" alt="Custom Giày Tại Việt Nam: Trào Lưu Và Cơ Hội (Phần 2)"></a>
+    <div class="new-info"> <a class="new-title" href="https://anyclass.vn/tin-tuc/custom-giay-tai-viet-nam-trao-luu-va-co-hoi-phan-2">Custom Giày Tại Việt Nam: Trào Lưu Và Cơ Hội (Phần 2)</a>
+        <p class="new-des">Trong bài viết này, chúng ta sẽ cùng tìm hiểu về phong trào custom giày tại Việt Nam và cách để có thể bắt đầu theo đuổi bộ môn nghệ thuật này nhé .</p>
+    </div>
+</div>
+                                                          <div class="new-box-component horizontal"><a class="new-image" href="https://anyclass.vn/tin-tuc/custom-giay-la-gi"> <img src="https://anyclass.vn/images/blog_posts/RnyJer1abC.jpg" alt="Custom giày là gì? Một phong trào đang dần thịnh hành tại Việt Nam (Phần 1)"></a>
+    <div class="new-info"> <a class="new-title" href="https://anyclass.vn/tin-tuc/custom-giay-la-gi">Custom giày là gì? Một phong trào đang dần thịnh hành tại Việt Nam (Phần 1)</a>
+        <p class="new-des">Custom Sneakers (hay có tựa “Việt hoá&quot; là Custom giày) là một hình thức mà bạn có thể “cá nhân hóa&quot; đôi giày của bạn tùy theo sở thích về chất liệu, kiểu dáng hay màu sắc. .</p>
+    </div>
+</div>
+                                                          <div class="new-box-component horizontal"><a class="new-image" href="https://anyclass.vn/tin-tuc/so-cuu-cac-benh-thuong-gap-quanh-ban"> <img src="https://anyclass.vn/images/blog_posts/NyHalF4sts.jpg" alt="Sơ cứu các bệnh thường gặp quanh bạn"></a>
+    <div class="new-info"> <a class="new-title" href="https://anyclass.vn/tin-tuc/so-cuu-cac-benh-thuong-gap-quanh-ban">Sơ cứu các bệnh thường gặp quanh bạn</a>
+        <p class="new-des">học sơ cấp cứu .</p>
+    </div>
+</div>
+                                                    </div>
+                    </div>
+                    <div class="col-lg-5">
+
+                        <div class="secion-new-wrapper">
+    <div class="new-box-component vertical"><a class="new-image" href="https://anyclass.vn/tin-tuc/so-cuu-cac-benh-thuong-gap-quanh-ban">
+            <img src="https://anyclass.vn/images/blog_posts/NyHalF4sts.jpg" alt="Sơ cứu các bệnh thường gặp quanh bạn"></a>
+        <div class="new-info"> <a class="new-title" href="#">Sơ cứu các bệnh thường gặp quanh bạn</a><p class="new-des">học sơ cấp cứu</p>
+
+        </div>
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-wrapper">
+            <div class="footer-logo"> <img src="https://anyclass.vn/images/config/B8nZu45GZy.png" alt=""></div>
+            <p style="text-align: center;">AnyClass l&agrave; nền tảng cung cấp những kho&aacute; học online với đa dạng c&aacute;c chủ đề kh&aacute;c nhau. Sứ mệnh của Anyclass kh&ocirc;ng chỉ đơn thuần cung cấp kiến thức m&agrave; c&ograve;n khai mở những đam m&ecirc;, những khả năng tiềm ẩn của bạn. Học với Anyclass, bạn kh&ocirc;ng những được cung cấp học cụ, học liệu, b&agrave;i tập để thực h&agrave;nh ngay m&agrave; c&ograve;n được kết nối với giảng vi&ecirc;n, học vi&ecirc;n kh&aacute;c để tạo th&agrave;nh một cộng đồng c&ugrave;ng chung một sở th&iacute;ch. AnyClass tin tưởng sẽ đem đến cho học vi&ecirc;n những trải nghiệm th&uacute; vị v&agrave; gi&uacute;p bạn ph&aacute;t triển hơn nữa năng lực của m&igrave;nh, biến giấc mơ th&agrave;nh hiện thực.</p>
+            <div class="footer-socials d-flex align-items-center justify-content-center">
+                <div class="socials-item-wrapper d-flex align-items-center">
+                                        <a class="social-item" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://anyclass.vn"><img src="https://anyclass.vn/enduser/assets/icons/icon-facebook-white.svg" alt=""></a>
+                    <a class="social-item" target="_blank" href="https://twitter.com/intent/tweet?url=https://anyclass.vn"><img src="https://anyclass.vn/enduser/assets/icons/icon-twitter-white.svg" alt=""></a>
+                    <a class="social-item" target="_blank" href="https://www.instagram.com/?url=https://anyclass.vn"><img src="https://anyclass.vn/enduser/assets/icons/icon-instagram-white.svg" alt=""></a>
+                    <a class="social-item" target="_blank" href="https://youtube.com"><img src="https://anyclass.vn/enduser/assets/icons/icon-youtube-white.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+<h4>Về ch&uacute;ng t&ocirc;i</h4>
+
+<ul>
+	<li><a href="https://anyclass.vn/page/gioi-thieu">Giới thiệu</a></li>
+	<li><a href="https://anyclass.vn/page/lien-he">Li&ecirc;n hệ</a></li>
+	<li><a href="https://anyclass.vn/page/tuyen-dung">Tuyển dụng</a></li>
+</ul>
+</div>
+                <div class="col-lg-3 col-md-6">
+<h4>Ch&iacute;nh s&aacute;ch</h4>
+
+<ul>
+	<li><a href="https://anyclass.vn/page/dieu-khoan-su-dung">Điều khoản sử dụng</a></li>
+	<li><a href="https://anyclass.vn/page/chinh-sach-bao-mat">Ch&iacute;nh s&aacute;ch bảo mật</a></li>
+	<li><a href="https://anyclass.vn/page/chuong-trinh-doi-tac">Chương tr&igrave;nh đối t&aacute;</a>c</li>
+</ul>
+</div>
+                <div class="col-lg-3 col-md-6">
+<h4>Li&ecirc;n hệ</h4>
+
+<ul>
+	<li><img alt="" src="https://anyclass.vn/enduser/assets/icons/icon-map-marker-white.svg" style="margin-top: 5px; height: 10px; width: 10px;" />T&ograve;a nh&agrave; số 65 ng&otilde; 54 đường L&ecirc; Quang Đạo, phường Ph&uacute; Đ&ocirc;, quận Nam Từ Li&ecirc;m, th&agrave;nh phố H&agrave; Nội, Việt Nam</li>
+	<li><img alt="" src="https://anyclass.vn/enduser/assets/icons/icon-phone-white.svg" style="height: 10px; width: 10px;" />0981333790</li>
+	<li><img alt="" src="https://anyclass.vn/enduser/assets/icons/icon-mail-white.svg" style="height: 10px; width: 10px;" /><a href="mailto: mail@email.com">a</a>nyhow@anyhow.vn</li>
+</ul>
+</div>
+                <div class="col-lg-3 col-md-6">
+<h4>Tải App</h4>
+
+<div class="align-items d-flex get-app-group"><a class="get-app-item" href="#"><img alt="" src="https://anyclass.vn/enduser/assets/images/image-get-on-google-play.png" /></a><a class="get-app-item" href="#"> <img alt="" src="https://anyclass.vn/enduser/assets/images/image-get-on-app-store.png" /></a></div>
+</div>
+
+            </div>
+        </div>
+    </div>
+    <p class="footer-copy-right">&copy; Bản quyền thuộc về <strong>C&Ocirc;NG TY TNHH ANYHOW</strong>&nbsp;</p>
+</footer>
+</div>
+<script src="https://anyclass.vn/enduser/assets//js/jquery.min.js"> </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://anyclass.vn/enduser/assets/js/owl.carousel.min.js"> </script>
+<script src="https://anyclass.vn/enduser/assets/js/jquery.menu-aim.js"> </script>
+<script src="https://anyclass.vn/enduser/assets/js/jquery.range.js"> </script>
+<script src="https://anyclass.vn/enduser/assets/js/countdown-js.min.js"> </script>
+<script src="https://anyclass.vn/enduser/assets/js/countUp.min.js"> </script>
+<script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"> </script>
+
+
+
+
+<script src="https://anyclass.vn/enduser/assets/js/main.js"></script>
+<script src="https://anyclass.vn/enduser/assets/toastr-master/build/toastr.min.js"></script>
+<script src="https://anyclass.vn/enduser/assets/DatePicker-master/jquery-ui.js"></script>
+<script src="https://anyclass.vn/enduser/assets/DatePicker-master/jquery.ui.datepicker-vi.js"></script>
+
+
+<script>
+
+    $(document).ready(function() {
+        $('.minus').click(function () {
+            var $input = $(this).parent().find('input');
+            var count = parseInt($input.val()) - 1;
+            count = count < 1 ? 1 : count;
+            $input.val(count);
+            $input.change();
+            return false;
+        });
+        $('.plus').click(function () {
+            var $input = $(this).parent().find('input');
+            $input.val(parseInt($input.val()) + 1);
+            $input.change();
+            return false;
+        });
+    });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,738 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<!-- create and build by dev tuantq - tuantq.it1307@gmail.com -->
+	<meta charset="utf-8">
+	<title>Tìm Zì</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="http://timzi.vn/assets/images/favicon_update.png" type="image/png">
+	<link rel="stylesheet" href="http://timzi.vn/assets/css/animate.css">
+	<link rel="stylesheet" href="http://timzi.vn/assets/css/tiny-slider.css">
+	<link rel="stylesheet" href="http://timzi.vn/assets/css/swiper.min.css">
+	<link rel="stylesheet" href="http://timzi.vn/assets/css/glightbox.min.css">
+	<link rel="stylesheet" href="http://timzi.vn/assets/css/LineIcons.2.0.css">
+	<link rel="stylesheet" href="http://timzi.vn/assets/css/bootstrap-5.0.5-alpha.min.css">
+	<link rel="stylesheet" href="http://timzi.vn/assets/css/style2.css">
+	<link rel="stylesheet" href="http://timzi.vn/css/owl.carousel.css">
+    <link rel="stylesheet" href="http://timzi.vn/css/owl.theme.css">	
+</head>
+
+<body>
+	<!-- không có JavaScript -->
+	<div class="preloader">
+		<div class="loader">
+			<div class="ytp-spinner">
+				<div class="ytp-spinner-container">
+					<div class="ytp-spinner-rotator">
+						<div class="ytp-spinner-left">
+							<div class="ytp-spinner-circle"></div>
+						</div>
+						<div class="ytp-spinner-right">
+							<div class="ytp-spinner-circle"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- không có JavaScript -->
+
+	<header class="header_area">
+		<div id="header_navbar" class="header_navbar">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<nav class="navbar navbar-expand-lg">
+							<a class="navbar-brand" href="#">
+								<img id="logo" src="http://timzi.vn/assets/images/logo_update.png" alt="Logo">
+							</a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse"
+								data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="toggler-icon"></span>
+								<span class="toggler-icon"></span>
+								<span class="toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+								<ul id="nav" class="navbar-nav ml-auto">
+									<li class="nav-item">
+										<a class="page-scroll active" href="#home">Trang chủ</a>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" href="#feature">Tính năng</a>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" href="#how-work">Thông tin</a>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" href="#document">Tài liệu</a>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" href="#khachhang">Khách hàng</a>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" href="#contact">Liên hệ</a>
+									</li>
+									<li class="nav-item">
+										<a class="page-scroll" href="#download">Tải về</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="home" class="hero-area bg_cover" style="background: url('assets/images/hero-bg.png')">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-xl-7 col-lg-7">
+					<div class="hero-content" style="padding-bottom: 30px">
+						<h2 class="wow fadeInUp" data-wow-delay=".2s">Đặt món ăn, đồ uống & Hơn thế nữa...</h2>
+						<h5 class="mb-30 wow fadeInUp" data-wow-delay=".4s">Chúng tôi tạo ra ứng dụng giúp bạn giải quyết vấn đề đặt món ăn tại quán. Ngoài việc kiểm soát thực đơn menu, bạn có thể gọi món dễ dàng và hơn hết bạn biết được những món ngon nhất tại đó.</h5>
+						<div class="hero-btns" style="">
+														
+							<div style="margin-left: 5px; margin-top: 15px;" class="style_link_youtube">
+								<img src="http://timzi.vn/assets/images/image_video_app_shop.jpg" alt="" style="position: relative">
+								<a href="assets/video/video_shop.mp4" data-toggle="modal" data-target="#myLargeModalLabel"
+									class="watch-btn glightbox wow fadeInUp click_show_video" data-wow-delay=".5s"><i
+										class="lni lni-play"></i></a>
+								
+							</div>
+							<div style="margin-left: 5px; margin-top: 15px;" class="style_link_youtube">
+								<img src="http://timzi.vn/assets/images/image_video_app_customer.jpg" alt="" style="position: relative">
+								<a href="assets/video/video_customer.mp4" data-toggle="modal" data-target="#myLargeModalLabel"
+									class="watch-btn glightbox wow fadeInUp click_show_video" data-wow-delay=".5s"><i
+										class="lni lni-play"></i></a>
+								
+							</div>
+							
+						</div>
+					</div>
+					<div class="counter-up">
+						<div class="single-counter wow fadeInUp" data-wow-delay=".2s">
+							<span id="secondo" class="countup" cup-end="200" cup-append="+"></span>
+							<span>Nhà Hàng</span>
+						</div>
+						<div class="single-counter wow fadeInUp" data-wow-delay=".3s">
+							<span id="secondo" class="countup" cup-end="4200" cup-append="+"></span>
+							<span>Người dùng</span>
+						</div>
+						<div class="single-counter wow fadeInUp" data-wow-delay=".4s">
+							<span id="secondo" class="countup" cup-end="500" cup-append="+"></span>
+							<span>Đánh giá</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-5 col-lg-5">
+					<div class="hero-img">
+						<img src="assets/images/features-image-2.png" alt="" class="wow fadeInRight"
+							data-wow-delay=".2s">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="feature" class="feature-area pt-120">
+		<div class="container">
+			<div class="section-title">
+				<h2 class="mb-60 wow fadeInUp" data-wow-delay=".2s">Tìm Zì<br>Có những gì?</h2>
+				<h4 class="mb-30 wow fadeIn" data-wow-delay=".15s">Chúng tôi sẽ luôn tạo ra những trải nghiệm tốt nhất
+					mang lại cho quý khách hàng.</h4>
+			</div>
+			<div class="row">
+								<div class="col-xl-3 col-lg-3 col-md-6">
+					<div class="single-feature item-1 wow fadeInUp" data-wow-delay=".2s">
+						<div class="feature-icon icon-style gradient-5">
+							<img src="http://api.timzi.vn/image_default/image_feature_website_default.png" alt="" style="width:25px;">
+						</div>
+						<div class="feature-content">
+							<h4>Tìm kiếm dễ dàng</h4>
+							<p>Bạn có thể tìm kiếm cửa hàng và món ăn một cách nhanh chóng và dễ dàng!</p>
+						</div>
+					</div>
+				</div>
+								<div class="col-xl-3 col-lg-3 col-md-6">
+					<div class="single-feature item-1 wow fadeInUp" data-wow-delay=".2s">
+						<div class="feature-icon icon-style gradient-5">
+							<img src="http://api.timzi.vn/upload/52348ab833ce9492a39d302407360d1b46040.png" alt="" style="width:25px;">
+						</div>
+						<div class="feature-content">
+							<h4>Oder nhanh chóng</h4>
+							<p>Bạn có thể đặt món online hoặc ăn tại quán một cách nhanh chóng!</p>
+						</div>
+					</div>
+				</div>
+								<div class="col-xl-3 col-lg-3 col-md-6">
+					<div class="single-feature item-1 wow fadeInUp" data-wow-delay=".2s">
+						<div class="feature-icon icon-style gradient-5">
+							<img src="http://api.timzi.vn/upload/470c868e19d512aaf110ee063555c97e76634.png" alt="" style="width:25px;">
+						</div>
+						<div class="feature-content">
+							<h4>Luôn cập nhật</h4>
+							<p>Hệ thống của chúng tôi sẽ ngày càng phát triển nhằm đáp ứng những nhu cầu của khách hàng.</p>
+						</div>
+					</div>
+				</div>
+								<div class="col-xl-3 col-lg-3 col-md-6">
+					<div class="single-feature item-1 wow fadeInUp" data-wow-delay=".2s">
+						<div class="feature-icon icon-style gradient-5">
+							<img src="http://api.timzi.vn/upload/def21054bc0af762cf16e56f8c1382d441177.png" alt="" style="width:25px;">
+						</div>
+						<div class="feature-content">
+							<h4>Khuyến mãi mới</h4>
+							<p>Hàng ngàn voucher, khuyến mãi đang chờ đón bạn, tải ứng dụng ngay hôm nay!</p>
+						</div>
+					</div>
+				</div>
+							</div>
+		</div>
+	</section>
+	<section id="how-work" class="how-work-area pt-130">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-5 col-lg-6">
+					<div class="how-work-img text-center text-lg-left">
+						<img src="assets/images/features-image-1.png" alt="" class="w-100 wow fadeInLeft"
+							data-wow-delay=".2s"
+							style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+					</div>
+				</div>
+				<div class="col-xl-6 offset-xl-1 col-lg-6">
+					<div class="how-work-content-wrapper">
+						<div class="section-title">
+							<h2 class="mb-45 wow fadeInUp" data-wow-delay=".2s"
+								style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Tìm Zì
+								hướng tới những ai?</h2>
+							<p class="mb-35 wow fadeInUp" data-wow-delay=".3s"
+								style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">Là một
+								phần không thể thiếu trong sự phát triển của chúng tôi. Bạn hãy xem bạn phù hợp với đối
+								tượng nào của Tìm Zì nhé!</p>
+						</div>
+						<div class="how-work-accordion accordion-style">
+							<div class="accordion" id="accordionExample">
+								<div class="single-accordion mb-30 wow fadeInUp" data-wow-delay=".2s"
+									style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+									<div class="accordion-btn">
+										
+										<button class="btn-block text-left collapsed" type="button"
+											data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+											aria-controls="collapseOne">
+											<span class="d-inline-flex mb-0 icon-style gradient-1">
+												<i class="lni lni-user"></i>
+											</span>
+											<span>Với người dùng</span>
+										</button>
+										
+									</div>
+									<div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+										data-parent="#accordionExample">
+										<div class="accordion-content">
+											<p>
+												Những Timzier-Member ơi! Bạn có thể đăng ký sử dụng ngay ứng dụng &quot;Tìm Zì&quot; để trải nghiệm các tính năng ưu việt của nó. Bạn sẽ không phải mất quá nhiều thời gian để làm quen nó bởi với &quot;Tìm Zì&quot; luôn cố gắng tạo ra một hệ sinh thái dành cho mọi lứa tuổi có thể trải nghiệm.
+											</p>
+											<div style="float: left">
+												<a href="https://apps.apple.com/us/app/timzi/id1570017608" class="btn btn-info" target="_bank">Tải app(IOS)</a>
+												<a href="https://play.google.com/store/apps/details?id=com.vn.timzi" class="btn btn-primary" target="_bank">Tải app(Android)</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="single-accordion mb-30 wow fadeInUp" data-wow-delay=".3s"
+									style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+									<div class="accordion-btn">
+										
+										<button class="btn-block text-left collapsed" type="button"
+											data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+											aria-controls="collapseTwo">
+											<span class="d-inline-flex mb-0 icon-style gradient-3">
+												<i class="lni lni-home"></i>
+											</span>
+											<span>Với cửa hàng</span>
+										</button>
+										
+									</div>
+									<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+										data-parent="#accordionExample">
+										<div class="accordion-content">
+											<p>
+												Chúng tôi đã tạo ra &quot;Tìm Zì&quot; để giúp các Timzier-Shop có thể tương tác với người sử dụng dịch vụ một cách đơn giản chỉ với một chiếc smart-phone. Bạn là doanh nghiệp, chủ cửa hàng hay chỉ đơn giản là một cửa hàng nhỏ bạn đều có thể trải nghiệm và sử dụng &quot;Tìm Zì&quot;. Hãy liên hệ với chúng tôi nếu bạn cần nhé!
+											</p>
+											<div style="float: left">
+												<a href="https://apps.apple.com/us/app/timmerchant/id1574599054" class="btn btn-info" target="_bank">Tải app(IOS)</a>
+												<a href="https://play.google.com/store/apps/details?id=com.vn.timmerchant" class="btn btn-primary" target="_bank">Tải app(Android)</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="single-accordion mb-30 wow fadeInUp" data-wow-delay=".4s"
+									style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+									<div class="accordion-btn">
+										
+										<button class="btn-block text-left collapsed" type="button"
+											data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
+											aria-controls="collapseThree">
+											<span class="d-inline-flex mb-0 icon-style gradient-4">
+												<i class="lni lni-shopping-basket"></i>
+											</span>
+											<span>Với người giao hàng</span>
+										</button>
+										
+									</div>
+									<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+										data-parent="#accordionExample">
+										<div class="accordion-content">
+											<p>
+												Bạn là một người có nhiều thời gian rảnh, bạn có thể đăng ký làm nhân viên giao hàng của hệ thống &quot;Tìm Zì&quot;. Việc kết nối giữa cửa hàng với người sử dụng là rất quan trọng. Vì thế bạn là một phần không thể thiếu của hệ thống chúng tôi. Hãy đăng ký để trở thành Timzier-Shipper ngay nhé!
+											</p>
+											<div style="float: left">
+												<a href="https://apps.apple.com/us/app/timdriver/id1570031091" class="btn btn-info" target="_bank">Tải app(IOS)</a>
+												<a href="https://play.google.com/store/apps/details?id=com.vn.timdriver" class="btn btn-primary" target="_bank">Tải app(Android)</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <section id="document" class="contact-area pt-130">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-7 col-lg-10 mx-auto">
+					<div class="section-title text-center">
+						<h2 class="mb-60 wow fadeInUp" data-wow-delay=".2s">Tài liệu hướng dẫn</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row" id="">
+				                
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="thumbnail text-center">
+						<img src="http://api.timzi.vn/upload/b726690eef4da6a595d03931893cb58762089.jpg" alt="">
+						<div class="caption">
+							<h3>Hướng dẫn cấu hình máy in wifi</h3>
+							<p>
+								<a href="http://api.timzi.vn/file/7570382930414242e9defdab00bced535124.docx" class="btn  doc_down">Tải về</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+                
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="thumbnail text-center">
+						<img src="http://api.timzi.vn/upload/7c0a04fa64dba7a4cf3338becf92415072736.jpg" alt="">
+						<div class="caption">
+							<h3>Driver  Xprinter XP-N160II  mã Wifi</h3>
+							<p>
+								<a href="http://api.timzi.vn/file/6ed95e479562e7d3c84de483fe35ce2f3507.rar" class="btn  doc_down">Tải về</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+                
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="thumbnail text-center">
+						<img src="http://api.timzi.vn/upload/cce4753de26f804c5fb6c813f5ba124076153.jpg" alt="">
+						<div class="caption">
+							<h3>Phần mềm cấu  hình máy in Wifi</h3>
+							<p>
+								<a href="http://api.timzi.vn/file/cce4753de26f804c5fb6c813f5ba124023621.rar" class="btn  doc_down">Tải về</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+                				            </div>
+		</div>
+	</section>
+	<section class="section-padding" id="khachhang" style="padding-top:80px;">
+        <div style="background:url(http://timzi.vn/img/leader.png);
+        background-size:cover;">
+            <div class="container">
+				<div >
+					<h1 class="text-center leader-title">Khách hàng đã sử dụng giải pháp</h1>
+					<a href="http://timzi.vn/list-store" style="float: right; margin-top: -40px; color: #ffc700">Xem thêm >></a>
+				</div>
+                <div class="row" id="leader">
+				                                           <div class=" text-center share-5-item">
+							
+								<img src="http://api.timzi.vn/upload/6ddcbcdc8ac3721b4c728c6508cc25a649178.jpg" alt="" style="border-radius: 50%; width:200px; height: 200px;" >
+								<h4 style="margin-top: 10px">Cá Viên Chiên &amp; Gà Rán Nhi Nhi</h4>
+							
+							<div style="background: #faf7f7; padding: 15px">
+								<p> <p style="font-size: 16px; color: red; float: left"><i class="lni lni-money-location"></i>Địa chỉ: </p><p class="address-style">314 Phạm Văn Đồng, Châu Ổ, Bình Sơn, Quảng Ngãi, Việt Nam</p> </p>
+								<p><p style="font-size: 16px; color: red; float: left"><i class="lni lni-timer"></i>Giờ mở cửa: </p> <p class="address-style">15:00 ~ 22:00</p>  </p>
+								<a href="http://timzi.vn/store-detail/85" style="color: #ffc700">Xem chi tiết >></a>
+							</div>
+                        </div>
+					                        <div class=" text-center share-5-item">
+							
+								<img src="http://api.timzi.vn/upload/aed0e798488a55d9b392d613ef2ff59084820.jpg" alt="" style="border-radius: 50%; width:200px; height: 200px;" >
+								<h4 style="margin-top: 10px">Mỳ Cay &amp; Ăn Vặt TOTORO</h4>
+							
+							<div style="background: #faf7f7; padding: 15px">
+								<p> <p style="font-size: 16px; color: red; float: left"><i class="lni lni-money-location"></i>Địa chỉ: </p><p class="address-style">307 Phạm Văn Đồng, Châu Ổ, Bình Sơn, Quảng Ngãi, Việt Nam</p> </p>
+								<p><p style="font-size: 16px; color: red; float: left"><i class="lni lni-timer"></i>Giờ mở cửa: </p> <p class="address-style">12:00 ~ 22:00</p>  </p>
+								<a href="http://timzi.vn/store-detail/84" style="color: #ffc700">Xem chi tiết >></a>
+							</div>
+                        </div>
+					                        <div class=" text-center share-5-item">
+							
+								<img src="http://api.timzi.vn/upload/1b80a5ff545827dd5d8b4efd1d33004856861.jpg" alt="" style="border-radius: 50%; width:200px; height: 200px;" >
+								<h4 style="margin-top: 10px">Cơm Phương Quỳnh</h4>
+							
+							<div style="background: #faf7f7; padding: 15px">
+								<p> <p style="font-size: 16px; color: red; float: left"><i class="lni lni-money-location"></i>Địa chỉ: </p><p class="address-style">105 Đường Huỳnh Thị Thanh Trà, Châu Ổ, Bình Sơn, Quảng Ngãi, Việt Nam</p> </p>
+								<p><p style="font-size: 16px; color: red; float: left"><i class="lni lni-timer"></i>Giờ mở cửa: </p> <p class="address-style">10:00 ~ 01:00</p>  </p>
+								<a href="http://timzi.vn/store-detail/83" style="color: #ffc700">Xem chi tiết >></a>
+							</div>
+                        </div>
+					                        <div class=" text-center share-5-item">
+							
+								<img src="http://api.timzi.vn/upload/733f741f6b6d9587b643f5b8307fba5171291.jpg" alt="" style="border-radius: 50%; width:200px; height: 200px;" >
+								<h4 style="margin-top: 10px">Cơm tấm Ba vân</h4>
+							
+							<div style="background: #faf7f7; padding: 15px">
+								<p> <p style="font-size: 16px; color: red; float: left"><i class="lni lni-money-location"></i>Địa chỉ: </p><p class="address-style">65 Phạm Văn Đồng, Châu Ổ, Bình Sơn, Quảng Ngãi, Việt Nam</p> </p>
+								<p><p style="font-size: 16px; color: red; float: left"><i class="lni lni-timer"></i>Giờ mở cửa: </p> <p class="address-style">09:00 ~ 14:00</p>  </p>
+								<a href="http://timzi.vn/store-detail/82" style="color: #ffc700">Xem chi tiết >></a>
+							</div>
+                        </div>
+					                        <div class=" text-center share-5-item">
+							
+								<img src="http://api.timzi.vn/upload/d65575d115b810e6559c24cc6ab3fbea27292.jpg" alt="" style="border-radius: 50%; width:200px; height: 200px;" >
+								<h4 style="margin-top: 10px">Quán Trang</h4>
+							
+							<div style="background: #faf7f7; padding: 15px">
+								<p> <p style="font-size: 16px; color: red; float: left"><i class="lni lni-money-location"></i>Địa chỉ: </p><p class="address-style">361/2A Phạm Văn Đồng, Châu Ổ, Bình Sơn, Quảng Ngãi, Việt Nam</p> </p>
+								<p><p style="font-size: 16px; color: red; float: left"><i class="lni lni-timer"></i>Giờ mở cửa: </p> <p class="address-style">10:00 ~ 22:00</p>  </p>
+								<a href="http://timzi.vn/store-detail/81" style="color: #ffc700">Xem chi tiết >></a>
+							</div>
+                        </div>
+						
+						
+                   
+                </div>
+            </div>
+        </div>
+
+	<section id="contact" class="contact-area pt-130">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-7 col-lg-10 mx-auto">
+					<div class="section-title text-center">
+						<h2 class="mb-60 wow fadeInUp" data-wow-delay=".2s">Những câu hỏi mà khách hàng muốn hỏi?</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-6 col-lg-6">
+					<div class="faq-wrapper">
+						<h3 class="mb-40 wow fadeInUp" data-wow-delay=".2s">Những câu hỏi đưa ra</h3>
+						<div class="faq-accordion accordion-style">
+							<div class="accordion" id="accordionExample2">
+																
+								<div class="single-accordion mb-30 wow fadeInUp" data-wow-delay=".3s">
+									<div class="accordion-btn">
+										<button class="btn-block text-left collapsed" type="button"
+											data-toggle="collapse" data-target="#collapse1" aria-expanded="true"
+											aria-controls="collapse4">
+											<span>TÔI NÊN LÀM CÁI GÌ TRONG ỨNG DỤNG NÀY?</span>
+										</button>
+									</div>
+
+									<div id="collapse1" class="collapse" aria-labelledby="heading4"
+										data-parent="#accordionExample2">
+										<div class="accordion-content">
+											TimZi là ứng dụng giao đồ ăn online và order ngay tại quán, bạn chỉ cần sử dụng smart phone đặt ngay món bạn thích. Đội ngũ shipper của TimZi sẽ giúp bạn giao hàng một cách nhanh chóng và chuyên nghiệp nhất!
+										</div>
+									</div>
+								</div>
+																
+								<div class="single-accordion mb-30 wow fadeInUp" data-wow-delay=".3s">
+									<div class="accordion-btn">
+										<button class="btn-block text-left collapsed" type="button"
+											data-toggle="collapse" data-target="#collapse2" aria-expanded="true"
+											aria-controls="collapse4">
+											<span>ỨNG DỤNG NÀY LÀM VIỆC NHƯ THẾ NÀO?</span>
+										</button>
+									</div>
+
+									<div id="collapse2" class="collapse" aria-labelledby="heading4"
+										data-parent="#accordionExample2">
+										<div class="accordion-content">
+											Bạn chỉ cần tạo tài khoản, tìm món, quán ăn gần bạn nhất, sau đó đặt hàng và theo dõi đơn hàng của bạn trên bản đồ!
+										</div>
+									</div>
+								</div>
+																
+								<div class="single-accordion mb-30 wow fadeInUp" data-wow-delay=".3s">
+									<div class="accordion-btn">
+										<button class="btn-block text-left collapsed" type="button"
+											data-toggle="collapse" data-target="#collapse3" aria-expanded="true"
+											aria-controls="collapse4">
+											<span>ỨNG DỤNG NÀY CÓ MIỄN PHÍ HAY PHÍ NHƯ THẾ NÀO?</span>
+										</button>
+									</div>
+
+									<div id="collapse3" class="collapse" aria-labelledby="heading4"
+										data-parent="#accordionExample2">
+										<div class="accordion-content">
+											Với chủ cửa hàng bạn hoàn toàn được miễn phí khi tham gia đồng hành cùng TimZi, với khách hàng bạn chỉ bị tính phí vận chuyển trên đơn hàng của bạn!
+										</div>
+									</div>
+								</div>
+																
+								<div class="single-accordion mb-30 wow fadeInUp" data-wow-delay=".3s">
+									<div class="accordion-btn">
+										<button class="btn-block text-left collapsed" type="button"
+											data-toggle="collapse" data-target="#collapse4" aria-expanded="true"
+											aria-controls="collapse4">
+											<span>TÔI CÓ THỂ CÀI ĐẶT ỨNG DỤNG NÀY Ở ĐÂU?</span>
+										</button>
+									</div>
+
+									<div id="collapse4" class="collapse" aria-labelledby="heading4"
+										data-parent="#accordionExample2">
+										<div class="accordion-content">
+											Bạn có thể cài đặt ứng dụng cho điện thoại Android hoặc IOS theo link bên dưới!
+										</div>
+									</div>
+								</div>
+															</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6">
+					<div class="contact-form-wrapper">
+						<h3 class="mb-40 wow fadeInUp" data-wow-delay=".3s">Bạn muốn cần thêm thông tin?</h3>
+						
+							<input type="text" placeholder="HỌ VÀ TÊN" name="name" id="name" required>
+							<input type="email" placeholder="EMAIL CỦA BẠN" name="email" id="email" required>
+							<textarea name="message" id="message" rows="4" placeholder="NỘI DUNG" required></textarea>
+							<button class="btn-hover btn-block main-btn" onclick="submit();">GỬI</button>
+	
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="download" class="download-area pt-150">
+		<div class="container-fluid" style="background-color: #000!important;">
+			<div class="container">
+				<div class="download-wrapper bg_cover">
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 offset-1 col-11">
+							<div class="download-content">
+								<div class="section-title">
+									<h5 class="mb-40 text-yellow wow fadeInUp" data-wow-delay=".35s">Ghé thăm ứng dụng
+										của chúng tôi</h5>
+									<h2 class="mb-30 text-white wow fadeInUp" data-wow-delay=".2s">TRÀN NGẬP ƯU ĐÃI SIÊU
+										HOT TRONG MÙA HÈ NÀY!</h2>
+								</div>
+								<div class="download-btns">
+									<a href="https://apps.apple.com/us/app/timzi/id1570017608" class=" btn-hover download-btn m-4 wow fadeInUp" data-wow-delay=".55s">
+										<img src="http://timzi.vn/assets/images/ic_apple.png" alt="" class="download-app" />
+									</a>
+									<a href="https://play.google.com/store/apps/details?id=com.vn.timzi" class=" btn-hover download-btn m-4 wow fadeInUp" data-wow-delay=".55s" target="_bank">
+										<img src="http://timzi.vn/assets/images/ic_google.png" alt="" class="download-app" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-5 align-self-end col-lg-5 col-11 offset-1 offset-lg-0">
+							<div class="download-img wow fadeInRight" data-wow-delay=".2s">
+								<img src="http://timzi.vn/assets/images/download.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="footer" class="footer-area bg_cover" style="padding-top: 300px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-4 col-md-6">
+					<div class="footer-widget wow fadeInUp" data-wow-delay=".2s">
+						<img src="http://timzi.vn/assets/images/logo_update.png" class="logo-footer"
+								alt="" />
+							<p class="mt-20">
+								<h6>Mã số thuế : 4300867263. Sở kế hoạch và đầu tư Quảng Ngãi, cấp ngày 23/03/2021</h6>
+							</p>
+							<p class="mb-35">
+								<h6>Công ty TNHH TIMZI - 167 Phạm Văn Đồng thị trấn Châu Ổ - Bình Sơn - Quảng ngãi</h6>
+							</p>
+							<ul class="mt-4 social-links">
+								<li><a href="https://www.facebook.com/TimZiBinhSon" class="facebook"><i
+											class="lni lni-facebook-original"></i></a></li>
+								<li><a href="tel:0901945179" class="twitter"><i class="lni lni-phone"></i></a></li>
+								<li><a href="mailto:timzibinhson@gmail.com" class="instagram"><i
+											class="lni lni-envelope"></i></a>
+								</li>
+							</ul>
+					</div>
+				</div>
+				<div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6 text-center">
+					<div class="footer-widget wow fadeInUp" data-wow-delay=".4s">
+						<h4>Chức năng</h4>
+						<ul>
+							<li>
+								<a href="#home">Trang chủ</a>
+							</li>
+							<li>
+								<a href="#feature">Tính năng</a>
+							</li>
+							<li>
+								<a href="#how-work">Thông tin</a>
+							</li>
+							<li>
+								<a href="#contact">Liên hệ</a>
+							</li>
+							<li><a href="#khachhang">Khách hàng</a></li>
+							<li><a href="#download">Tải ứng dụng</a></li>
+							<li><a href="#document">Tài liệu hướng dẫn</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-2 col-md-6 text-center">
+					<div class="footer-widget wow fadeInUp" data-wow-delay=".6s">
+						<h4>Hỗ trợ khách hàng</h4>
+						<ul>
+							<li><a href="http://timzi.vn/chinh-sach-va-quy-dinh-chung">Chính sách và quy định chung</a></li>
+							<li><a href="http://timzi.vn/chinh-sach-bao-mat-thong-tin-khach-hang">Chính sách bảo mật quyền riêng tư</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-12" >
+					<h3 style="text-align: center;"> Tải ứng dụng</h3>
+					<div class="text-center"><img style="" src="http://timzi.vn/assets/images/qr_app.png" alt="" width="50%" ></div>
+				</div>
+			</div>
+			<div class="footer-cradit">
+				<p class="text-center mb-0"> Tìm Zì </p>
+			</div>
+		</div>
+	</footer>
+	<a href="#" class="back-to-top btn-hover"><i class="lni lni-chevron-up"></i></a>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="http://timzi.vn/assets/js/bootstrap.bundle-5.0.0.alpha-min.js"></script>
+	<script src="http://timzi.vn/assets/js/swiper.min.js"></script>
+	<script src="http://timzi.vn/assets/js/glightbox.min.js"></script>
+	<script src="http://timzi.vn/assets/js/wow.min.js"></script>
+	<script src="http://timzi.vn/assets/js/count-up.min.js"></script>
+	<script src="http://timzi.vn/assets/js/main2.js"></script>
+	<script src="http://timzi.vn/js/owl-carousel/owl.carousel.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			var myCarousel = document.querySelector('#myCarousel')
+			var carousel = new bootstrap.Carousel(myCarousel)
+				
+				var doc = $("#document");
+	
+				doc.owlCarousel({
+					autoPlay: 3000,
+					items: 4,
+					pagination: false,
+					itemsDesktop: [1199, 3],
+					itemsDesktopSmall: [979, 3],
+					center: true,
+					nav: true,
+					loop: true,
+					responsive: {
+						1300: {
+							items: 1
+						}
+					}
+				});
+				var myCarousel = document.querySelector('#carouselExampleCaptions')
+				var carousel = new bootstrap.Carousel(myCarousel, {
+				interval: 2000,
+				wrap: false
+				});
+				var owl = $("#leader");
+
+            owl.owlCarousel({
+                autoPlay: 3000,
+                items: 3,
+                pagination: false,
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [979, 3],
+                center: true,
+                nav: true,
+                loop: true,
+                responsive: {
+                    1300: {
+                        items: 1
+                    }
+                }
+            });
+			});
+	</script>
+	<script>
+		function CallApi1(path, method, body, Authorization) {
+			return axios({
+				method: method,
+				url: path,
+				data: body,
+				headers: {
+					Authorization: "Bearer " + Authorization,
+					"Content-Type": "application/json",
+					"Access-Control-Allow-Origin": "*",
+					"Access-Control-Allow-Credentials": true,
+					"Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS, HEAD",
+					"Access-Control-Allow-Headers": "Access-Control-*, Origin, X-Requested-With, Content-Type, Accept",
+				},
+			}).catch((error) => {
+				console.log(error.response);
+			});
+		};
+		function submit(){
+			// alert(1);
+			let name = document.getElementById("name").value;
+			let email = document.getElementById("email").value;
+			let message = document.getElementById("message").value;
+	
+			let file = new FormData();
+			file.append("name", name)
+			file.append("email", email)
+			file.append("message", message)
+		   
+	
+			CallApi1(
+				`http://103.226.249.210:8020/api/create-contact`,
+				"POST",
+				file
+			).then((res) => {
+				console.log(res.data);
+				if (res.data.status === 1) {
+						swal("Gửi thông tin thành công!","", "success");
+					
+					
+				} else {
+						swal(res.data.message,"","warning");
+					
+				}
+			})
+		}
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,877 @@
+
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTTV Server | Trang chủ</title>
+        <meta name="description" content="">
+        <link href="/static/frontend/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/static/frontend/fonts/cloudicon/cloudicon.css" rel="stylesheet">
+        <link href="/static/frontend/fonts/fontawesome/css/all.css" rel="stylesheet">
+        <link href="/static/frontend/fonts/opensans/opensans.css" rel="stylesheet">
+        <link href="/static/frontend/css/owl.carousel.css" rel="stylesheet">
+        <link href="/static/frontend/css/idangerous.swiper.css" rel="stylesheet">
+        <link href="/static/frontend/css/magnific-popup.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="/static/frontend/images/favicon.ico">
+        <link href="/static/frontend/css/filter.css" rel="stylesheet">
+        <link href="/static/frontend/css/style.css" rel="stylesheet">
+        <link href="/static/frontend/css/responsive.css" rel="stylesheet">
+        <link href="/static/frontend/css/slick.css" rel="stylesheet">
+        <link href="/static/frontend/css/customize.css" rel="stylesheet">
+    </head>
+    <body class="v2">
+        <div id="spinner-area" style="display: none;">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+                <div class="spinner-txt">HTTV...</div>
+            </div>
+        </div>
+
+        
+
+<!--
+*******************
+NAV MENU
+*******************
+-->
+<div class="menu-wrap">
+    <div class="main-header one">
+        <div class="container">
+            <div class="header-info">
+                <div class="row">
+                    <div class="col-6 col-sm-5">
+                        <span>Email:</span> <a class="email" style="vertical-align: initial; margin-right: 0;" href="/cdn-cgi/l/email-protection#fb9a9f969295bb938f8f8d889e898d9e89d5989496"><span class="__cf_email__" data-cfemail="91f0f5fcf8ffd1f9e5e5e7e2f4e3e7f4e3bff2fefc">[email&#160;protected]</span></a>
+                        <span>| Hotline:</span> <a class="email" style="vertical-align: initial;" href="/cdn-cgi/l/email-protection#daf1faf2e2eef3e3ede9e2e2eeefeae9">+ (84)973884503</a>
+                    </div>
+                    <div class="col-6 col-sm-7">
+                        <div class="float-right">
+                            <a href="/tai-lieu" class="register">
+                                <i class="fa fa-address-book"></i> Hướng dẫn sử dụng</a>
+                            
+                            
+                            
+                            
+                            
+                            <a href="/signup" class="register">Đăng ký</a>
+                            <a href="/login">
+                                <div class="btn btn-login question">Đăng nhập</div>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2 col-md-2">
+                
+                
+                <a href="/">
+                    <img src="/static/frontend/images/logo1.png" alt="logo" class="logo-menu">
+                </a>
+            </div>
+            <div class="col-10 col-md-10 p-0 c-mega">
+                <div class="mega-navbar">
+                    <a class="active" href="/">
+                        <i class="fa fa-home"></i>
+                    </a>
+                    <div class="dropdown">
+                        <button class="dropbtn">MÁY CHỦ VPS
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="row">
+                                <div class="column">
+                                    <h5>KHU VỰC VIỆT NAM</h5>
+                                    <a href="/service/cloud-vps-viet-nam/list">VPS Cloud Việt Nam
+                                        (VN)</a>
+                                </div>
+                                <div class="column">
+                                    <h5>KHU VỰC CHÂU Á</h5>
+                                    <a href="/service/cloud-vps-singapore-ssd-nvme/list">VPS Cloud
+                                        Singapore (SG)</a>
+                                    <a href="/service/cloud-vps-au/list">VPS Cloud Úc (AU)</a>
+                                </div>
+                                <div class="column">
+                                    <h5>KHU VỰC CHÂU ÂU</h5>
+                                    <a href="/service/cloud-vps-uk/list">VPS Cloud Anh (UK)</a>
+                                    <a href="/service/cloud-vps-de/list">VPS Cloud Đức (DE)</a>
+                                    <a href="/service/cloud-vps-fr/list">VPS Cloud Pháp (FR)</a>
+                                    <a href="/service/cloud-vps-chau-au/list">VPS Cloud các nước
+                                        khác</a>
+                                </div>
+                                <div class="column">
+                                    <h5>KHU VỰC CHÂU MỸ</h5>
+                                    <a href="/service/cloud-vps-usa/list">VPS Cloud Mỹ (US)</a>
+                                    <a href="/service/cloud-vps-canada/list">VPS Cloud Canada (CA)</a>
+                                </div>
+                                <div class="column">
+                                    <h5>THEO MỤC ĐÍCH</h5>
+                                    <a href="/service/cloud-vps-chau-au-hdd-chuyen-ptu/list">VPS Cloud
+                                        Châu Âu (PTU)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">MÁY CHỦ DEDICATED
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content dedicated">
+                            <div class="row">
+                                <div class="column">
+                                    <h5>THEO KHU VỰC</h5>
+                                    <a href="/service/dedicated-chau-au/list">Dedicated Châu Âu</a>
+                                    <a href="/service/dedicated-usa-ssd/list">Dedicated USA (SSD)</a>
+                                    <a href="/service/dedicated-usa-hdd/list">Dedicated USA (HDD)</a>
+                                </div>
+                                <div class="column">
+                                    <h5>THEO MỤC ĐÍCH</h5>
+                                    <a href="#">Server giả lập</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/tai-lieu">HƯỚNG DẪN</a>
+                    <a href="/sla">SLA</a>
+                    <a href="/lien-he">LIÊN HỆ</a>
+                </div>
+                <nav class="nav-menu">
+                    <button class="menu-toggle">
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                    </button>
+                    <!-- <ul class="main-menu">
+                        <li class="menu-item">
+                            <a class="active" href="/">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="javascript: void(0);">MÁY CHỦ VPS</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item">
+                                    <a href="/service/cloud-vps-viet-nam/list">Cloud VPS Việt Nam</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="javascript: void(0);">Cloud VPS Châu Á</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item">
+                                            <a href="/service/cloud-vps-singapore-ssd-nvme/list">Cloud
+                                                VPS Singapore (SSD NVMe)</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="/service/cloud-vps-au/list">Cloud VPS Úc</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="javascript: void(0);">Cloud VPS Châu Âu</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item">
+                                            <a href="/service/cloud-vps-chau-au/list">Cloud VPS Anh
+                                                (UK)</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="/service/cloud-vps-chau-au/list">Cloud VPS Đức
+                                                (DE)</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="/service/cloud-vps-chau-au-hdd-chuyen-ptu/list">Cloud
+                                                Châu Âu (HDD</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="/service/cloud-vps-chau-au/list">Cloud VPS Pháp
+                                                (FR)</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="javascript: void(0);">Cloud VPS Các Nước Khác</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="javascript: void(0);">Cloud VPS Châu Mỹ</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item">
+                                            <a href="/service/cloud-vps-usa/list">Cloud VPS Mỹ</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="/service/cloud-vps-canada/list">Cloud VPS
+                                                Canada</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="javascript: void(0);">MÁY CHỦ DEDICATED</a>
+                            <ul class="sub-menu">
+                                
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/dedicated-chau-au/list">Dedicated Châu Âu</a>
+                                </li>
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/dedicated-usa-ssd/list">Dedicated USA (SSD)</a>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/dedicated-usa-hdd/list">Dedicated USA (HDD)</a>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">SERVER GIẢ LẬP</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/tai-lieu">HƯỚNG DẪN</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/sla/detail">SLA</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/lien-he">LIÊN HỆ</a>
+                        </li>
+                    </ul> -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+*******************
+NAV MENU MOBILE
+*******************
+-->
+<div class="menu-wrap mobile">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                
+                
+                <a href="/">
+                    <img src="/static/frontend/images/logo1.png" alt="logo" class="logo-menu">
+                </a>
+            </div>
+            <div class="col-6">
+                <nav class="nav-menu">
+                    <button id="nav-toggle" class="menu-toggle">
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                        <span class="icon"></span>
+                    </button>
+                    <ul class="main-menu">
+                        <li class="menu-item">
+                            <a class="active" href="/">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        
+                        
+                        
+                        <li class="menu-item menu-item-has-children">
+                            <a href="javascript: void(0);">MÁY CHỦ VPS</a>
+                            <ul class="sub-menu">
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/cloud-vps-viet-nam/list">VPS Việt Nam</a>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/cloud-vps-singapore-ssd-nvme/list">VPS Singapore (SG)</a>
+                                </li>
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/cloud-vps-chau-au/list">VPS Châu Âu</a>
+                                </li>
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/cloud-vps-chau-au-hdd-chuyen-ptu/list">VPS Châu Âu (HDD chuyên PTU)</a>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/cloud-vps-usa/list">VPS USA</a>
+                                </li>
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/cloud-vps-canada/list">VPS Canada (CA)</a>
+                                </li>
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/cloud-vps-au/list">VPS Úc (AU)</a>
+                                </li>
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/cloud-vps-de/list">VPS Đức (DE)</a>
+                                </li>
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/cloud-vps-uk/list">VPS Anh (UK)</a>
+                                </li>
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/cloud-vps-fr/list">VPS Pháp (FR)</a>
+                                </li>
+                                
+                                
+                            </ul>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="javascript: void(0);">MÁY CHỦ DEDICATED</a>
+                            <ul class="sub-menu">
+                                
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/dedicated-chau-au/list">Dedicated Châu Âu</a>
+                                </li>
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/dedicated-usa-ssd/list">Dedicated USA (SSD)</a>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="menu-item">
+                                    <a href="/service/dedicated-usa-hdd/list">Dedicated USA (HDD)</a>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">SERVER GIẢ LẬP</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/tai-lieu">HƯỚNG DẪN</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/sla">SLA</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/lien-he">LIÊN HỆ</a>
+                        </li>
+                        
+                        <hr>
+                        
+                        <li class="menu-item">
+                            <a href="/login" class="register">Đăng nhập</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/signup" class="register">Đăng ký</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+<!--
+*******************
+SLIDER
+*******************
+-->
+
+<div class="owl-carousel owl-theme owl-loaded owl-drag">
+    <div class="owl-stage-outer owl-height">
+        <div class="owl-stage">
+            
+                <div class="owl-item">
+                    <div class="full overlay-skew h-100"
+                         style="background-image: url('static/frontend/images/banner/topbanner01.jpg'); background-repeat: no-repeat; background-position: top center; background-size: cover;">
+                        <div class="vc-parent">
+                            <div class="vc-child">
+                                <div class="top-banner modern">
+                                    <div class="container">
+                                        <div class="banner-wrap">
+                                            <h1 class="heading">SSD VPS ENTERPRISE</h1>
+                                            <h3 class="subheading left">Uy tín - Chất Lượng - Đa dạng - Đáng tin cậy</h3>
+                                        </div>
+                                        
+                                            <a href="https://httvserver.com/service/cloud-vps-viet-nam/list"
+                                               class="btn btn-c-default-orange">Xem bảng giá ngay</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+    <div class="owl-nav">
+        <button type="button" role="presentation" class="owl-prev"><i class="fa fa-chevron-left"></i></button>
+        <button type="button" role="presentation" class="owl-next"><i class="fa fa-chevron-right"></i></button>
+    </div>
+    <div class="owl-dots disabled"></div>
+</div>
+
+<!--
+*******************
+OUR SERVICES
+*******************
+-->
+<section class="h-services sec-normal customize-section">
+    <div class="container">
+        <div class="row reputation">
+            <div class="col-sm-12 text-center c-heading">
+                <b></b>
+                <h2 class="section-heading">Các Dịch Vụ Chính Của Chúng Tôi</h2>
+                <b></b>
+            </div>
+            
+                <div class="col-md-4 col-lg-4 c-service">
+                    <div class="wrapper first">
+                        
+                            
+                                <img class="mb-3" src="/static/frontend/images/home-v2-technology.png" >
+                            
+                            <h5 class="title">Cloud VPS VN</h5>
+                        
+
+                        <ul class="list-info">
+                            <li>1 Core CPU</li>
+                            <li>15 GB Ổ Cứng</li>
+                            <li>Không giới hạn Băng Thông</li>
+                            <li>1 Địa chỉ IP Riêng</li>
+                        </ul>
+
+                        <div class="price">chỉ từ 149,000<sup>VNĐ</sup> <span class="period">/tháng</span></div>
+
+                        <a href="/register/1/VN" class="btn"><i class="fa fa-gift"></i> Dùng thử ngay</a>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-lg-4 c-service">
+                    <div class="wrapper first">
+                        
+                            
+                                <img class="mb-3" src="/static/frontend/images/home-v2-database.png" >
+                            
+                            <h5 class="title">Cloud VPS EU</h5>
+                        
+
+                        <ul class="list-info">
+                            <li>1 Core CPU</li>
+                            <li>15 GB Ổ Cứng</li>
+                            <li>Không giới hạn Băng Thông</li>
+                            <li>1 Địa chỉ IP Riêng</li>
+                        </ul>
+
+                        <div class="price">chỉ từ 133,000<sup>VNĐ</sup> <span class="period">/tháng</span></div>
+
+                        <a href="/register/21/EU" class="btn"><i class="fa fa-gift"></i> Dùng thử ngay</a>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-lg-4 c-service">
+                    <div class="wrapper first">
+                        
+                            <img class="mb-3" src="/static/frontend/images/home-v2-computer.png" >
+                            <h5 class="title">Dedicated Server</h5>
+                        
+
+                        <ul class="list-info">
+                            <li>8 Cores CPU</li>
+                            <li>500 GB Ổ Cứng</li>
+                            <li>10 TB Băng Thông</li>
+                            <li>1 Địa chỉ IP Riêng</li>
+                        </ul>
+
+                        <div class="price">chỉ từ 917,000<sup>VNĐ</sup> <span class="period">/tháng</span></div>
+
+                        <a href="/register/37/US" class="btn"><i class="fa fa-gift"></i> Dùng thử ngay</a>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</section>
+<!--
+*******************
+WHY CHOOSE US
+*******************
+-->
+<section class="services classic sec-normal item4 overlay-grad">
+    <div class="container">
+        <div class="service-wrap choose-us">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="section-heading text-c-orange">TẠI SAO NÊN CHỌN HTTV</h2>
+                    <p class="section-subheading text-white">HTTV cam kết mang đến cho quý khách hạ tầng lý tưởng, dịch vụ tận tâm.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 reason">
+                    <div class="service-section">
+                        <img class="mb-3" src="/static/frontend/images/home-v2-support.png" >
+                        <div class="title text-c-orange">Công Nghệ Mới</div>
+                        <p class="subtitle text-c-black">
+                            Chúng tôi cam kết dùng phần cứng tốt nhất, hệ thống mạng mạnh mẽ nhất, phần mềm và công nghệ mới nhất.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 reason">
+                    <div class="service-section">
+                        <img class="mb-3" src="/static/frontend/images/home-v2-price.png" >
+                        <div class="title text-c-orange">Chi Phí Thấp</div>
+                        <p class="subtitle text-c-black">
+                            Với các gói dịch vụ chi phí thấp, phù hợp với mọi khách hàng từ Sinh viên đến Doanh nghiệp.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 reason">
+                    <div class="service-section">
+                        <img class="mb-3" src="/static/frontend/images/home-v2-cloud.png" >
+                        <div class="title text-c-orange">Hệ Thống Quản Lý VPS Tự Động</div>
+                        <p class="subtitle text-c-black">
+                            Dễ dàng quản lý VPS của mình thông qua hệ thống tự động: Mua mới, Khởi động lại, Cài lại hệ điều hành mới...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--
+*******************
+BEST SERVICES
+*******************
+-->
+<section class="h-services sec-normal">
+    <div class="container">
+        <div class="row reputation">
+            <div class="col-sm-12 text-center">
+                <h2 class="section-heading text-c-orange">UY TÍN & CHẤT LƯỢNG QUỐC TẾ</h2>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 reason">
+                <div class="wrap-service">
+                    <i class="icon-flash"></i>
+                    <div class="heading text-c-orange">Tốc độ nhanh & ổn định</div>
+                    <div class="text-info text-c-black">
+                        Máy chủ mạnh mẽ với đường truyền tốc độ cao được vận hành bởi đội ngũ có trên 15 năm kinh nghiệm.
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 reason">
+                <div class="wrap-service">
+                    <i class="icon-cloudup"></i>
+                    <div class="heading text-c-orange">Hoạt động 99.9%</div>
+                    <div class="text-info text-c-black">
+                        Chúng tôi cam kết dùng phần cứng tốt nhất, hệ thống mạng mạnh mẽ nhất, phần mềm và công nghệ mới nhất, và giám sát 24/7
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 clear-sm reason">
+                <div class="wrap-service">
+                    <i class="icon-clock"></i>
+                    <div class="heading text-c-orange">5 phút khởi tạo</div>
+                    <div class="text-info text-c-black">
+                        Sau khi hoàn thành đăng ký, chúng tôi sẽ khởi tạo dịch vụ trong vòng 5 phút.
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 clear-md reason">
+                <div class="wrap-service">
+                    <i class="icon-inverse"></i>
+                    <div class="heading text-c-orange">Hệ sinh thái đa dạng</div>
+                    <div class="text-info text-c-black">
+                        Hỗ trợ tất cả giải pháp trên các hệ điều hành.
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 reason">
+                <div class="wrap-service">
+                    <i class="icon-support"></i>
+                    <div class="heading text-c-orange">Hỗ trợ kỹ thuật 24/7</div>
+                    <div class="text-info text-c-black">
+                        Là nhà cung cấp dịch vụ lớn và uy tín trên 15 năm, chúng tôi luôn có đội ngũ hỗ trợ khách hàng 24/7 để xử lý mọi tình huống trong quá trình sử dụng.
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 reason">
+                <div class="wrap-service">
+                    <i class="icon-dedicated"></i>
+                    <div class="heading text-c-orange">Máy chủ chuyên dụng</div>
+                    <div class="text-info text-c-black">
+                        Máy chủ nguyên bộ cùng ổ cứng SSD với tính năng SSD caching giúp việc truy cập website của bạn nhanh hơn đến 5 lần so với thông thường
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        
+<!--
+*******************
+FOOTER
+*******************
+-->
+<footer class="footer">
+    <div class="top-footer-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-feature-inner">
+                        <div class="feature-top-item">
+                            <div class="media">
+                                <div class="media-left">
+                                    <i class="icon-location"></i>
+                                </div>
+                                <div class="media-body">
+                                    <span>Địa chỉ</span>Tô Vĩnh Diện, Thanh Xuân, Hà Nội.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-top-item">
+                            <div class="media">
+                                <div class="media-left">
+                                    <i class="icon-phone"></i>
+                                </div>
+                                <div class="media-body">
+                                    <span>Điện thoại</span> <a class="phone"
+                                        href="tel:+ (84)973884503">+ (84)973884503</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-top-item">
+                            <div class="media">
+                                <div class="media-left">
+                                    <i class="icon-emailopen"></i>
+                                </div>
+                                <div class="media-body">
+                                    <span>Email</span>
+                                    <a href="/cdn-cgi/l/email-protection#1c7d787175725c7468686a6f796e6a796e327f7371"><span class="__cf_email__" data-cfemail="c6a7a2abafa886aeb2b2b0b5a3b4b0a3b4e8a5a9ab">[email&#160;protected]</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer-top">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="heading">Dịch vụ</div>
+                    <ul class="footer-menu classic">
+                        <li class="menu-item">
+                            <a href="#">Cloud VPS Việt Nam</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Cloud VPS USA</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Dedicated Việt Nam</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Dedicated USA</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="heading">Công ty</div>
+                    <ul class="footer-menu classic">
+                        <li class="menu-item">
+                            <a href="#">Về chúng tôi</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Đội ngũ</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Tin tức</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Điều khoản</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="heading">Khác</div>
+                    <ul class="footer-menu classic">
+                        <li class="menu-item">
+                            <a href="/server/list/v2">Quản trị</a></li>
+                        <li class="menu-item">
+                            <a href="/tai-lieu">Tài liệu</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Liên hệ</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <a href="/">
+<!--                        <img src="/static/frontend/images/logo1.png" alt="logo" class="logo-footer">-->
+                    </a>
+                    <div class="copyrigh">© 2021 HTTV - Đã đăng ký bản quyền</div>
+                    <a href="#">
+<!--                        <img src="/static/frontend/images/dathongbao.png" alt="logo" class="logo-footer">-->
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subcribe news">
+        <div class="container">
+            <div class="row">
+                <form action="#" class="form">
+                    <div class="col-4 col-sm-4 col-md-5 col-lg-4">
+                        <span>Đăng ký nhận tin</span>
+                        <p>Theo dõi chúng tôi để nhận tin tức và cập nhật mới nhất.</p>
+                    </div>
+                    <div class="col-8 col-sm-8 col-md-7 col-lg-8">
+                        <div class="general-input">
+                            <input type="email" name="email" placeholder="Nhập địa chỉ email của bạn"
+                                class="fill-input">
+                            <input type="submit" value="THEO DÕI" class="btn btn-default">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        <a href="#0" class="cd-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+
+        <!-- Messenger Plugin chat Code -->
+        <div id="fb-root"></div>
+
+        <!-- Your Plugin chat code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
+
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/static/frontend/js/jquery.min.js"></script>
+        <script src="/static/frontend/js/popper.min.js"></script>
+        <script src="/static/frontend/js/bootstrap.min.js"></script>
+        <script src="/static/frontend/js/idangerous.swiper.min.js"></script>
+        <script src="/static/frontend/js/jquery.viewportchecker.min.js"></script>
+        <script src="/static/frontend/js/jquery.circliful.min.js"></script>
+        <script src="/static/frontend/js/jquery.countdown.js"></script>
+        <script src="/static/frontend/js/jquery.magnific-popup.min.js"></script>
+        <script src="/static/frontend/js/slick.min.js"></script>
+        <script src="/static/frontend/js/owl.carousel.min.js"></script>
+        <script src="/static/frontend/js/isotope.min.js"></script>
+        
+        
+        <script src="/static/frontend/js/scripts.js"></script>
+
+        <script>
+          var chatbox = document.getElementById('fb-customer-chat');
+          chatbox.setAttribute("page_id", "102857341641724");
+          chatbox.setAttribute("attribution", "biz_inbox");
+
+          window.fbAsyncInit = function() {
+            FB.init({
+              xfbml            : true,
+              version          : 'v11.0'
+            });
+          };
+
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+        </script>
+    </body>
+</html>

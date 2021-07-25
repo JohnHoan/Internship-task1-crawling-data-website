@@ -1,0 +1,629 @@
+
+
+<!DOCTYPE html>
+<html lang="vi-VN">
+	<head>
+		<!-- CONFIG -->
+		<base href="https://ahpgroup.vn/" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="robots" content="index,follow" />
+		<meta name="author" content="CÔNG TY CỔ PHẦN TẬP ĐOÀN AN HÀ PHƯƠNG - AHP GROUP" />
+		<meta name="copyright" content="CÔNG TY CỔ PHẦN TẬP ĐOÀN AN HÀ PHƯƠNG - AHP GROUP" />
+		<meta http-equiv="refresh" content="1800" />
+		<link rel="icon" href="" type="image/png" sizes="30x30">
+		<!-- GOOGLE -->
+		<title>CÔNG TY CỔ PHẦN TẬP ĐOÀN AN HÀ PHƯƠNG - AHP GROUP</title>
+		<meta name="description"  content="" />
+		<link rel="canonical" href="https://ahpgroup.vn/" />		<meta property="og:locale" content="vi_VN" />
+
+		<!-- for Facebook -->
+		<meta property="og:title" content="CÔNG TY CỔ PHẦN TẬP ĐOÀN AN HÀ PHƯƠNG - AHP GROUP" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="https://ahpgroup.vn/upload/image/thu-vien-anh/da%20s%E1%BB%ADa%20300PPI%20LOGO%20KHONG%20N%E1%BB%80N.png" />
+		<meta property="og:url" content="https://ahpgroup.vn/" />		<meta property="og:description" content="" />
+		<meta property="og:site_name" content="CÔNG TY CỔ PHẦN TẬP ĐOÀN AN HÀ PHƯƠNG - AHP GROUP" />
+		<meta property="fb:admins" content=""/>
+		<meta property="fb:app_id" content="" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="CÔNG TY CỔ PHẦN TẬP ĐOÀN AN HÀ PHƯƠNG - AHP GROUP" />
+		<meta name="twitter:description" content="" />
+		<meta name="twitter:image" content="https://ahpgroup.vn/upload/image/thu-vien-anh/da%20s%E1%BB%ADa%20300PPI%20LOGO%20KHONG%20N%E1%BB%80N.png" />
+
+		<link href="public/frontend/resources/library/css/carousel.css" rel="stylesheet" />
+		<style>
+	</style>		<link href="public/frontend/resources/uikit/css/components/slideshow.min.css" rel="stylesheet" />
+<link href="public/frontend/resources/uikit/css/components/accordion.min.css" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+		<link href="public/frontend/resources/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="public/frontend/resources/uikit/css/uikit.modify.css" rel="stylesheet" />
+<link href="public/frontend/resources/library/css/toastr/toastr.min.css" rel="stylesheet" />
+<link href="public/frontend/resources/library/css/general.css" rel="stylesheet" />
+<link href="public/frontend/resources/style.css" rel="stylesheet" />
+		<script src="public/frontend/resources/library/js/jquery.js"></script>
+<script src="public/frontend/resources/uikit/js/uikit.min.js"></script>
+		<script type="text/javascript">
+	        var BASE_URL = 'https://ahpgroup.vn/';
+	        var SUFFIX = '.html';
+	    </script>
+		<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60d99c157f4b000ac039e767/1f990jd81';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->			</head>
+	<body>
+
+		  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CÔNG TY CỔ PHẦN TẬP ĐOÀN AN HÀ PHƯƠNG - AHP GROUP",
+    "alternateName": "AHP Group",
+    "url": "https://ahpgroup.vn",
+    "logo": "/upload/image/thu-vien-anh/da%20s%E1%BB%ADa%20300PPI%20LOGO%20KHONG%20N%E1%BB%80N.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "Kinh doanh:0915380009 / Kỹ thuật:0567520438",
+      "contactType": "",
+      "areaServed": "VN",
+      "availableLanguage": "Vietnamese"
+    },
+    "sameAs": [
+      "",
+      "https://www.facebook.com/Công-ty-CPTĐ-An-Hà-Phương-AHP-Group-106580748207797",
+      "",
+      "https://www.youtube.com/channel/UC8d9Vyz0QGlh3i7KJxPvwAQ",
+      "",
+      "",
+      "https://ahpgroup.vn"
+    ]
+  }</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "CÔNG TY CỔ PHẦN TẬP ĐOÀN AN HÀ PHƯƠNG - AHP GROUP",
+    "image": "/upload/image/thu-vien-anh/da%20s%E1%BB%ADa%20300PPI%20LOGO%20KHONG%20N%E1%BB%80N.png",
+    "@id": "https://ahpgroup.vn",
+    "url": "https://ahpgroup.vn",
+    "hasmap":"<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.7427618046927!2d105.83971091486123!3d21.002946186012387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac70c78523d5%3A0x8765506fe562219c!2zMTkyLCAxNCBHaeG6o2kgUGjDs25nLCDEkOG7k25nIFTDom0sIEhhaSBCw6AgVHLGsG5nLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1624175721326!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>",
+    "telephone": "Kinh doanh:0915380009 / Kỹ thuật:0567520438",
+    "priceRange": "100000",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "<p>Cơ sở 1: Số 8A ngõ 192/14, đường Giải Phóng, Phường Phương Liệt, Quận Thanh Xuân, Thành phố Hà Nội.&nbsp;</p><p>Cơ sở 2: Số 15A Tạ Quang Bửu, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội.&nbsp;</p><p>Cơ Sở 3: Toà Park 03 KĐT Vinhomes Time City Parkhill Hà Nội.</p>",
+      "addressLocality": "<p>Cơ sở 1: Số 8A ngõ 192/14, đường Giải Phóng, Phường Phương Liệt, Quận Thanh Xuân, Thành phố Hà Nội.&nbsp;</p><p>Cơ sở 2: Số 15A Tạ Quang Bửu, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội.&nbsp;</p><p>Cơ Sở 3: Toà Park 03 KĐT Vinhomes Time City Parkhill Hà Nội.</p>",
+      "postalCode": "100000",
+      "addressCountry": "VN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 20.9475592,
+      "longitude": 105.7891151
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "sameAs": [
+      "https://www.facebook.com/Công-ty-CPTĐ-An-Hà-Phương-AHP-Group-106580748207797",
+      "",
+      "https://www.youtube.com/channel/UC8d9Vyz0QGlh3i7KJxPvwAQ",
+      "",
+      "",
+      "",
+      "https://ahpgroup.vn"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://ahpgroup.vn",
+        "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://ahpgroup.vn",
+        "query-input": "required name=search_term_string"
+        }
+     }
+  </script>
+		<header class="pc-header uk-visible-large ishome">
+	<div class="upper">
+		<div class="uk-container uk-container-center">
+			<div class="uk-flex uk-flex-middle uk-flex-space-between">
+				<h1 class="hd-logo" ><a href="." title="CÔNG TY CỔ PHẦN TẬP ĐOÀN AN HÀ PHƯƠNG - AHP GROUP"><img src="/upload/image/thu-vien-anh/da%20s%E1%BB%ADa%20300PPI%20LOGO%20KHONG%20N%E1%BB%80N.png" alt="CÔNG TY CỔ PHẦN TẬP ĐOÀN AN HÀ PHƯƠNG - AHP GROUP"  class="lazyloading" /></a><span class="uk-hidden">CÔNG TY CỔ PHẦN TẬP ĐOÀN AN HÀ PHƯƠNG - AHP GROUP</span></h1>				<div class="widget-box">
+					<div class="language">
+						Ngôn Ngữ <a href="." class="active">VI</a>
+					</div>
+					<div class="hotline">
+						<a href="tel:Kinh doanh:0915380009 / Kỹ thuật:0567520438">Kinh doanh:0915380009 / Kỹ thuật:0567520438</a>
+					</div>
+					<div class="hour uk-text-right">
+						<div class="uk-flex uk-flex-middle uk-flex-right">
+							<div class="hd-social">
+								<a href="https://www.facebook.com/Công-ty-CPTĐ-An-Hà-Phương-AHP-Group-106580748207797"><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href="https://www.youtube.com/channel/UC8d9Vyz0QGlh3i7KJxPvwAQ"><i class="fa fa-youtube"></i></a>
+							</div>
+							<span>Hours: 8AM - 17PM (T2-T7)</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="lower" id="main-nav">
+		<div class="uk-container uk-container-center">
+			<div class="uk-flex uk-flex-middle uk-flex-space-between">
+				<ul class="uk-navbar-nav uk-clearfix main-menu"><li><a href="." title="Trang chủ">Trang chủ</a><li><a href="gioi-thieu.html" title="Giới thiệu">Giới thiệu</a><div class="dropdown-menu "><ul class="uk-list submenu"><li><a href="thu-ngo.html" title="Thư ngỏ">Thư ngỏ</a><li><a href="ve-chung-toi.html" title="Về chúng tôi">Về chúng tôi</a><li><a href="lich-su-hinh-thanh.html" title="Lịch sử hình thành">Lịch sử hình thành</a><li><a href="gia-tri-cot-loi.html" title="Giá trị cốt lõi">Giá trị cốt lõi</a></ul></div><li><a href="dich-vu.html" title="Dịch vụ">Dịch vụ</a><div class="dropdown-menu "><ul class="uk-list submenu"><li><a href="energy-audit.html" title="Kiểm toán năng lượng">Kiểm toán năng lượng</a><li><a href="dich-vu-nang-luong.html" title="Hệ thống quản lý năng lượng">Hệ thống quản lý năng lượng</a><li><a href="giai-phap-moi-truong-va-chat-luong-khong-khi.html" title="Giải pháp môi trường">Giải pháp môi trường</a><li><a href="hoat-dong-dao-tao-v2.html" title="Đào tạo TKNL">Đào tạo TKNL</a><li><a href="dich-vu-dau-tu-nang-luong-esco.html" title="ESCO - Đầu tư năng lượng">ESCO - Đầu tư năng lượng</a><li><a href="cung-cap-giai-phap-tknl.html" title="Chuyển giao công nghệ TKNL">Chuyển giao công nghệ TKNL</a><li><a href="kiem-dinh-an-toan.html" title="Kiểm định an toàn">Kiểm định an toàn</a><li><a href="tu-van-kien-truc-xanh.html" title="Tư vấn Kiến Trúc Xanh">Tư vấn Kiến Trúc Xanh</a></ul></div><li><a href="san-pham-ahp.html" title="Sản Phẩm">Sản Phẩm</a><div class="dropdown-menu "><ul class="uk-list submenu"><li><a href="may-loc-khong-khi-ca-nhan-an-ha-phuong.html" title="Máy lọc không khí cá nhân An Hà Phương">Máy lọc không khí cá nhân An Hà Phương</a><li><a href="may-loc-khong-khi-di-dong-an-ha-phuong.html" title="Máy lọc không khí di động An Hà Phương">Máy lọc không khí di động An Hà Phương</a><li><a href="thiet-bi-khu-can-dien-tu.html" title="Thiết bị chống cáu cặn điện tử">Thiết bị chống cáu cặn điện tử</a><li><a href="bo-lam-sach-chiller-tu-dong-hydroball.html" title="Bộ làm sạch Chiller tự động Hydroball">Bộ làm sạch Chiller tự động Hydroball</a></ul></div><li><a href="du-an-tieu-bieu.html" title="Dự án tiêu biểu">Dự án tiêu biểu</a><div class="dropdown-menu "><ul class="uk-list submenu"><li><a href="linh-vuc-nang-luong.html" title="Lĩnh vực năng lượng">Lĩnh vực năng lượng</a><li><a href="linh-vuc-dao-tao.html" title="Lĩnh vực Đào tạo">Lĩnh vực Đào tạo</a><li><a href="linh-vuc-moi-truong-khong-khi.html" title="Lĩnh vực môi trường - không khí">Lĩnh vực môi trường - không khí</a></ul></div><li><a href="tin-tuc.html" title="Tin Tức">Tin Tức</a><li><a href="tuyen-dung.html" title="Tuyển dụng">Tuyển dụng</a><li><a href="tai-lieu.html" title="Tài liệu">Tài liệu</a><li><a href="tu-van.html" title="Tư vấn">Tư vấn</a><li><a href="lien-he.html" title="Liên hệ">Liên hệ</a></ul>				<div class="hd-search-2">
+					<form action="tim-kiem.html" method="get" class="uk-form form">
+						<div class="form-row">
+							<input type="text" name="keyword" value="" placeholder="Tìm kiếm ..." class="uk-width-1-1 input-text suggest_search">
+							<button type="submit" class="btn-submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</header><!-- .pc-header -->
+ <!-- MOBILE HEADER -->
+ <header class="mobile-header uk-hidden-large" data-uk-sticky>
+ 	<section class="upper">
+ 		<a class="moblie-menu-btn skin-1" href="#offcanvas" class="offcanvas" data-uk-offcanvas="{target:'#offcanvas'}">
+ 			<span>Menu</span>
+ 		</a>
+ 		<div class="logo"><a href="" title=""><img src="/upload/image/thu-vien-anh/da%20s%E1%BB%ADa%20300PPI%20LOGO%20KHONG%20N%E1%BB%80N.png" alt="CÔNG TY CỔ PHẦN TẬP ĐOÀN AN HÀ PHƯƠNG - AHP GROUP"/></a></div>
+ 	</section><!-- .upper -->
+ </header><!-- .mobile-header -->
+		<div id="homepage">
+    		<section class="mainslide mb-common">
+		<div class="uk-slidenav-position" data-uk-slideshow="{animation: 'fade', autoplay: true, autoplayInterval: 4000}">
+			<ul class="uk-slideshow">
+								<li>
+					<div class="uk-position-relative">
+                        <a href="http://ahpgroup.vn/energy-audit.html" title="ENERGY AUDIT - AHP GROUP" class="image img-cover">
+    						<img data-src="/upload/image/thu-vien-anh/kiemtoan%20nang%20luong.jpg" src="public/loading.svg" class="lazyloading " alt="/upload/image/thu-vien-anh/kiemtoan%20nang%20luong.jpg" >    					</a>
+                        <div class="overlay">
+                            <div class="slide-title"><a href="" title="ENERGY AUDIT - AHP GROUP">ENERGY AUDIT - AHP GROUP</a></div>
+                            <div class="description">
+                                                            </div>
+                        </div>
+                    </div>
+				</li>
+								<li>
+					<div class="uk-position-relative">
+                        <a href="http://ahpgroup.vn/cung-cap-giai-phap-tknl.html" title="CHUYÊN GIA TKNL - AHP GROUP" class="image img-cover">
+    						<img data-src="/upload/image/thu-vien-anh/TU%20VAN%20TKNL2%20copy.jpg" src="public/loading.svg" class="lazyloading " alt="/upload/image/thu-vien-anh/TU%20VAN%20TKNL2%20copy.jpg" >    					</a>
+                        <div class="overlay">
+                            <div class="slide-title"><a href="" title="CHUYÊN GIA TKNL - AHP GROUP">CHUYÊN GIA TKNL - AHP GROUP</a></div>
+                            <div class="description">
+                                                            </div>
+                        </div>
+                    </div>
+				</li>
+								<li>
+					<div class="uk-position-relative">
+                        <a href="http://ahpgroup.vn/dich-vu-nang-luong.html" title="ENERGY MANAGEMENT SYSTEM " class="image img-cover">
+    						<img data-src="/upload/image/san-pham/XAY%20D%E1%BB%B0NG%20MO%20HINH.jpg" src="public/loading.svg" class="lazyloading " alt="/upload/image/san-pham/XAY%20D%E1%BB%B0NG%20MO%20HINH.jpg" >    					</a>
+                        <div class="overlay">
+                            <div class="slide-title"><a href="" title="ENERGY MANAGEMENT SYSTEM ">ENERGY MANAGEMENT SYSTEM </a></div>
+                            <div class="description">
+                                                            </div>
+                        </div>
+                    </div>
+				</li>
+								<li>
+					<div class="uk-position-relative">
+                        <a href="http://ahpgroup.vn/ho-so-dao-tao-ahp-group.html" title="ĐÀO TẠO - AHP GROUP" class="image img-cover">
+    						<img data-src="/upload/image/thu-vien-anh/lop%20nguoi%20quan%20ly%20nang%20luong(1).jpg" src="public/loading.svg" class="lazyloading " alt="/upload/image/thu-vien-anh/lop%20nguoi%20quan%20ly%20nang%20luong(1).jpg" >    					</a>
+                        <div class="overlay">
+                            <div class="slide-title"><a href="" title="ĐÀO TẠO - AHP GROUP">ĐÀO TẠO - AHP GROUP</a></div>
+                            <div class="description">
+                                                            </div>
+                        </div>
+                    </div>
+				</li>
+								<li>
+					<div class="uk-position-relative">
+                        <a href="https://sanpham.ahpgroup.vn/" title="SẢN PHẨM AHP GROUP" class="image img-cover">
+    						<img data-src="/upload/image/thu-vien-anh/BANNER%20SAN%20PHAM%20TRANG%20CHINH.png" src="public/loading.svg" class="lazyloading " alt="/upload/image/thu-vien-anh/BANNER%20SAN%20PHAM%20TRANG%20CHINH.png" >    					</a>
+                        <div class="overlay">
+                            <div class="slide-title"><a href="" title="SẢN PHẨM AHP GROUP">SẢN PHẨM AHP GROUP</a></div>
+                            <div class="description">
+                                                            </div>
+                        </div>
+                    </div>
+				</li>
+							</ul>
+			<a href="" class="uk-slidenav uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+			<a href="" class="uk-slidenav uk-slidenav-next" data-uk-slideshow-item="next"></a>
+			<ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+								<li data-uk-slideshow-item="0"><a href=""></a></li>
+								<li data-uk-slideshow-item="1"><a href=""></a></li>
+								<li data-uk-slideshow-item="2"><a href=""></a></li>
+								<li data-uk-slideshow-item="3"><a href=""></a></li>
+								<li data-uk-slideshow-item="4"><a href=""></a></li>
+							</ul>
+		</div>
+	</section><!-- .index-slide -->
+	            <div class="category-panel">
+        <div class="uk-container uk-container-center">
+            <div class=" owl-slide">
+                <div class="panel-body" >
+                    <div class="owl-carousel" data-owl="eyJtYXJnaW4iOjgsImxhenlsb2FkIjp0cnVlLCJuYXYiOnRydWUsImF1dG9wbGF5Ijp0cnVlLCJzbWFydFNwZWVkIjoxMDAwLCJhdXRvcGxheVRpbWVvdXQiOjMwMDAsImRvdHMiOmZhbHNlLCJsb29wIjp0cnVlLCJyZXNwb25zaXZlIjp7IjAiOnsiaXRlbXMiOjEuNX0sIjYwMCI6eyJpdGVtcyI6Mi41fSwiMTAwMCI6eyJpdGVtcyI6NS41fX19">
+                                                <div class="category">
+                            <div class="category-item">
+                                <a href="https://ahpgroup.vn/may-loc-khong-khi-ca-nhan-va-di-dong-an-ha-phuong.html" class="image img-cover"><img src="/upload/image/san-pham/Untitled-1.jpg" alt="Máy lọc không khí cá nhân và di động An Hà Phương"></a>
+                                <h3 class="title"><a href="https://ahpgroup.vn/may-loc-khong-khi-ca-nhan-va-di-dong-an-ha-phuong.html" title="Máy lọc không khí cá nhân và di động An Hà Phương">Máy lọc không khí cá nhân và di động An Hà Phương</a></h3>
+                                <div class="description">
+                                    <p><i>Nhập khẩu 100% Japan</i></p>                                </div>
+                            </div>
+                        </div>
+                                                <div class="category">
+                            <div class="category-item">
+                                <a href="https://ahpgroup.vn/bo-lam-sach-chiller-tu-dong.html" class="image img-cover"><img src="/upload/image/H%E1%BB%87%20th%E1%BB%91ng%20kh%E1%BB%AD%20cau%20c%E1%BA%B7n%20di%E1%BB%87n%20t%E1%BB%AD.jpg" alt="Thiết bị khử cặn điện tử"></a>
+                                <h3 class="title"><a href="https://ahpgroup.vn/bo-lam-sach-chiller-tu-dong.html" title="Thiết bị khử cặn điện tử">Thiết bị khử cặn điện tử</a></h3>
+                                <div class="description">
+                                    <p><i>Công nghệ XL nước Made in Germany</i></p>                                </div>
+                            </div>
+                        </div>
+                                                <div class="category">
+                            <div class="category-item">
+                                <a href="https://ahpgroup.vn/bo-lam-sach-chiller.html" class="image img-cover"><img src="/upload/image/san-pham/LAM%20S%E1%BA%A0CH%20CHILLER1(1).jpg" alt="Bộ làm sạch Bình Ngưng tự động"></a>
+                                <h3 class="title"><a href="https://ahpgroup.vn/bo-lam-sach-chiller.html" title="Bộ làm sạch Bình Ngưng tự động">Bộ làm sạch Bình Ngưng tự động</a></h3>
+                                <div class="description">
+                                    <p><i>Dùng Bi, không tiêu điện, không dùng bơm</i></p>                                </div>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="general-panel">
+        <div class="uk-container uk-container-center">
+            <div class="uk-grid uk-grid-medium">
+                <div class="uk-width-large-1-3">
+                                        <div class="news-panel">
+                        <h2 class="heading-1"><span>Tin tức & Sự Kiện</span></h2>
+                                                                        <div class="feature">
+                            <a href="https://ahpgroup.vn/huong-dan-mua-hang.html" class="image img-cover"><img data-src="/upload/image/san-pham/photo-1-1591161858893819536696.jpg" src="public/loading.svg" class="lazyloading " alt="HƯỚNG DẪN MUA HÀNG" ></a>
+                            <div class="description">HƯỚNG DẪN MUA HÀNG <a href="https://ahpgroup.vn/huong-dan-mua-hang.html" title="readmore">Xem tiếp</a></div>
+                        </div>
+                                                                        <ul class="uk-list uk-clearfix list-article">
+                                                                                                                <li>
+                                <div class="article">
+                                    <a href="https://ahpgroup.vn/danh-sach-doanh-nghiep-trong-diem-2021-quy-dinh-moi-nhat.html" title="DANH SÁCH DOANH NGHIỆP TRỌNG ĐIỂM 2021 - QUY ĐỊNH MỚI NHẤT">DANH SÁCH DOANH NGHIỆP TRỌNG ĐIỂM 2021 - QUY ĐỊNH MỚI NHẤT</a>
+                                    <span>(23/06/2021)</span>
+                                </div>
+                            </li>
+                                                                                    <li>
+                                <div class="article">
+                                    <a href="https://ahpgroup.vn/o-nhiem-moi-truong-khong-khi-la-gi-nguyen-nhan-giai-phap-khac-phuc.html" title="Ô nhiễm môi trường không khí là gì? Nguyên nhân & Giải pháp khắc phục">Ô nhiễm môi trường không khí là gì? Nguyên nhân & Giải pháp khắc phục</a>
+                                    <span>(22/06/2021)</span>
+                                </div>
+                            </li>
+                                                                                    <li>
+                                <div class="article">
+                                    <a href="https://ahpgroup.vn/mo-hinh-cung-cap-dich-vu-nang-luong-esco-tai-viet-nam.html" title="Mô hình ESCO  tại Việt Nam">Mô hình ESCO  tại Việt Nam</a>
+                                    <span>(20/06/2021)</span>
+                                </div>
+                            </li>
+                                                                                    <li>
+                                <div class="article">
+                                    <a href="https://ahpgroup.vn/khai-mac-lop-dao-tao-nguoi-quan-ly-nang-luong-tai-quang-ninh.html" title="Khai mạc lớp đào tạo "Người quản lý năng lượng tại Quảng Ninh"">Khai mạc lớp đào tạo "Người quản lý năng lượng tại Quảng Ninh"</a>
+                                    <span>(19/06/2021)</span>
+                                </div>
+                            </li>
+                                                                                    <li>
+                                <div class="article">
+                                    <a href="https://ahpgroup.vn/dich-vu-thong-tin-dao-tao.html" title="DỊCH VỤ THÔNG TIN – ĐÀO TẠO">DỊCH VỤ THÔNG TIN – ĐÀO TẠO</a>
+                                    <span>(16/06/2021)</span>
+                                </div>
+                            </li>
+                                                                                    <li>
+                                <div class="article">
+                                    <a href="https://ahpgroup.vn/kiem-toan-nang-luong-va-nhung-dieu-can-biet.html" title="KIỂM TOÁN NĂNG LƯỢNG VÀ NHỮNG ĐIỀU CẦN BIẾT">KIỂM TOÁN NĂNG LƯỢNG VÀ NHỮNG ĐIỀU CẦN BIẾT</a>
+                                    <span>(16/06/2021)</span>
+                                </div>
+                            </li>
+                                                                                    <li>
+                                <div class="article">
+                                    <a href="https://ahpgroup.vn/hop-dong-thoa-thuan-doi-tac-chien-luoc.html" title="HỢP ĐỒNG THOẢ THUẬN ĐỐI TÁC CHIẾN LƯỢC">HỢP ĐỒNG THOẢ THUẬN ĐỐI TÁC CHIẾN LƯỢC</a>
+                                    <span>(16/06/2021)</span>
+                                </div>
+                            </li>
+                                                                                    <li>
+                                <div class="article">
+                                    <a href="https://ahpgroup.vn/nhung-cong-dung-tuyet-voi-cua-may-tao-ion-am-ionion-uchiko.html" title="NHỮNG CÔNG DỤNG TUYỆT VỜI CỦA MÁY TẠO ION ÂM">NHỮNG CÔNG DỤNG TUYỆT VỜI CỦA MÁY TẠO ION ÂM</a>
+                                    <span>(15/06/2021)</span>
+                                </div>
+                            </li>
+                                                    </ul>
+                    </div>
+                                        <div class="uk-text-center">
+                        <a class="readmore" href="tin-tuc.html" title="Xem thêm">Xem tất cả tin</a>
+                    </div>
+                </div>
+                <div class="uk-width-large-1-3">
+                                        <div class="post-panel">
+                        <div class="heading-1"><span>Tin Nổi Bật</span></div>
+                        <ul class="uk-list uk-clearfix list-post">
+                                                        <li class="mb10">
+                                <article class="post uk-clearfix">
+                                    <a href="https://ahpgroup.vn/nhung-cong-dung-tuyet-voi-cua-may-tao-ion-am-ionion-uchiko.html" class="image img-cover"><img data-src="/upload/image/thu-vien-anh/4-1024x768-3-1024x556.jpg" src="public/loading.svg" class="lazyloading " alt="NHỮNG CÔNG DỤNG TUYỆT VỜI CỦA MÁY TẠO ION ÂM" ></a>
+                                    <div class="info">
+                                        <h3 class="title"><a href="https://ahpgroup.vn/nhung-cong-dung-tuyet-voi-cua-may-tao-ion-am-ionion-uchiko.html" title="NHỮNG CÔNG DỤNG TUYỆT VỜI CỦA MÁY TẠO ION ÂM">NHỮNG CÔNG DỤNG TUYỆT VỜI CỦA MÁY TẠO ION ÂM</a></h3>
+                                    </div>
+                                </article>
+                            </li>
+                                                        <li class="mb10">
+                                <article class="post uk-clearfix">
+                                    <a href="https://ahpgroup.vn/huong-dan-mua-hang.html" class="image img-cover"><img data-src="/upload/image/san-pham/photo-1-1591161858893819536696.jpg" src="public/loading.svg" class="lazyloading " alt="HƯỚNG DẪN MUA HÀNG" ></a>
+                                    <div class="info">
+                                        <h3 class="title"><a href="https://ahpgroup.vn/huong-dan-mua-hang.html" title="HƯỚNG DẪN MUA HÀNG">HƯỚNG DẪN MUA HÀNG</a></h3>
+                                    </div>
+                                </article>
+                            </li>
+                                                        <li class="mb10">
+                                <article class="post uk-clearfix">
+                                    <a href="https://ahpgroup.vn/dao-tao-kiem-toan-vien-nang-luong.html" class="image img-cover"><img data-src="/upload/image/thu-vien-anh/kiem-toan-la-gi.png" src="public/loading.svg" class="lazyloading " alt="ĐÀO TẠO KIỂM TOÁN VIÊN NĂNG LƯỢNG" ></a>
+                                    <div class="info">
+                                        <h3 class="title"><a href="https://ahpgroup.vn/dao-tao-kiem-toan-vien-nang-luong.html" title="ĐÀO TẠO KIỂM TOÁN VIÊN NĂNG LƯỢNG">ĐÀO TẠO KIỂM TOÁN VIÊN NĂNG LƯỢNG</a></h3>
+                                    </div>
+                                </article>
+                            </li>
+                                                    </ul>
+                    </div>
+                                    </div>
+                <div class="uk-width-large-1-3">
+                                        <div class="media-panel">
+                        <h2 class="heading-1"><span>Thư viện ảnh</span></h2>
+                        <ul class="uk-list uk-clearfix uk-grid uk-grid-small uk-grid-width-1-3 uk-grid-width-medium-1-3">
+                                                        <li>
+                                <div class="media-item">
+                                    <a href="/upload/image/thu-vien-anh/Screen%20Shot%202021-06-13%20at%2012_01_35.png" class="image img-cover"><img data-src="/upload/image/thu-vien-anh/Screen%20Shot%202021-06-13%20at%2012_01_35.png" src="public/loading.svg" class="lazyloading " alt="Trưởng nhóm dự án TKNL - Bộ KHCN" ></a>
+                                </div>
+                            </li>
+                                                        <li>
+                                <div class="media-item">
+                                    <a href="/upload/image/thu-vien-anh/AHP%20DaotaoNQLNL%20Hai%20Duong%202016.JPG" class="image img-cover"><img data-src="/upload/image/thu-vien-anh/AHP%20DaotaoNQLNL%20Hai%20Duong%202016.JPG" src="public/loading.svg" class="lazyloading " alt="AHP Group - Đào tạo Người Quản lý năng lượng tại Hải Dương 1" ></a>
+                                </div>
+                            </li>
+                                                        <li>
+                                <div class="media-item">
+                                    <a href="/upload/image/thu-vien-anh/25289536_1665221966877520_8170364377835769965_n.jpg" class="image img-cover"><img data-src="/upload/image/thu-vien-anh/25289536_1665221966877520_8170364377835769965_n.jpg" src="public/loading.svg" class="lazyloading " alt="Đào tạo quản lý năng lượng tại Hà Nam  " ></a>
+                                </div>
+                            </li>
+                                                        <li>
+                                <div class="media-item">
+                                    <a href="/upload/image/thu-vien-anh/2.JPG" class="image img-cover"><img data-src="/upload/image/thu-vien-anh/2.JPG" src="public/loading.svg" class="lazyloading " alt="Kiểm toán năng lượng công ty XNK Trung Sơn Hưng Yên" ></a>
+                                </div>
+                            </li>
+                                                        <li>
+                                <div class="media-item">
+                                    <a href="/upload/image/san-pham/DAO%20T%E1%BA%A0O%20CAN%20B%E1%BB%98.jpg" class="image img-cover"><img data-src="/upload/image/san-pham/DAO%20T%E1%BA%A0O%20CAN%20B%E1%BB%98.jpg" src="public/loading.svg" class="lazyloading " alt="Đào tạo Người QLNL tại ĐHBK Hà Nội " ></a>
+                                </div>
+                            </li>
+                                                        <li>
+                                <div class="media-item">
+                                    <a href="/upload/image/thu-vien-anh/Tu%20v%E1%BA%A5n%20TKNL%20Viglacera%20Yen%20Phong.JPG" class="image img-cover"><img data-src="/upload/image/thu-vien-anh/Tu%20v%E1%BA%A5n%20TKNL%20Viglacera%20Yen%20Phong.JPG" src="public/loading.svg" class="lazyloading " alt="Tư vấn TKNL Viglacera Yên Phong" ></a>
+                                </div>
+                            </li>
+                                                    </ul>
+                        <div class="readmore"><a href="thu-vien-anh.html">Xem thêm</a></div>
+                    </div>
+                                                            <div class="media-panel">
+                        <h2 class="heading-1"><span>Thư viện Video</span></h2>
+                        <ul class="uk-list uk-clearfix uk-grid uk-grid-small uk-grid-width-1-3 uk-grid-width-medium-1-3">
+                                                        <li>
+                                <div class="media-item video-item">
+                                    <a href="test-may-tao-ion-am-loc-khong-khi-trong-phong-ion-joy-voi-pm2-5-bui-min-khoi-thuoc-ahp-group.html" class="image img-cover"><img data-src="/upload/image/thu-vien-anh/ion%20joy.png" src="public/loading.svg" class="lazyloading " alt="TEST MÁY TẠO ION ÂM LỌC KHÔNG KHÍ TRONG PHÒNG ION JOY VỚI PM2 5, BỤI MỊN, KHÓI THUỐC - AHP GROUP" ></a>
+                                </div>
+                            </li>
+                                                        <li>
+                                <div class="media-item video-item">
+                                    <a href="test-kha-nang-khu-khoi-thuoc-la-cuc-nhanh-cua-may-tao-ion-am-loc-khong-khi-ca-nhan-ionion.html" class="image img-cover"><img data-src="/upload/image/thu-vien-anh/IONION%20TEST.jpg" src="public/loading.svg" class="lazyloading " alt="TEST KHẢ NĂNG KHỬ KHÓI THUỐC LÁ CỰC NHANH CỦA MÁY TẠO ION ÂM LỌC KHÔNG KHÍ CÁ NHÂN IONION" ></a>
+                                </div>
+                            </li>
+                                                        <li>
+                                <div class="media-item video-item">
+                                    <a href="test-kha-nang-khu-khoi-thuoc-la-cua-may-tao-ion-loc-khong-khi-cho-o-to-ion-car.html" class="image img-cover"><img data-src="/upload/image/thu-vien-anh/A%CC%89nh%20chu%CC%A3p%20ma%CC%80n%20hi%CC%80nh%202021-06-29%20162145.png" src="public/loading.svg" class="lazyloading " alt="TEST KHẢ NĂNG KHỬ KHÓI THUỐC LÁ CỦA MÁY TẠO ION LỌC KHÔNG KHÍ CHO Ô TÔ ION CAR" ></a>
+                                </div>
+                            </li>
+                                                        <li>
+                                <div class="media-item video-item">
+                                    <a href="trang-thong-tin-phap-luat-viet-nam-dua-tin-ve-san-pham-ionion-uchiko.html" class="image img-cover"><img data-src="/upload/image/thu-vien-anh/A%CC%89nh%20chu%CC%A3p%20ma%CC%80n%20hi%CC%80nh%202021-06-29%20100747.png" src="public/loading.svg" class="lazyloading " alt="Trang thông tin Pháp Luật Việt Nam đưa tin về sản phẩm IONION UCHIKO" ></a>
+                                </div>
+                            </li>
+                                                        <li>
+                                <div class="media-item video-item">
+                                    <a href="su-dung-nang-luong-tiet-kiem-va-hieu-qua-giai-phap-xanh-cho-moi-gia-dinh-viet.html" class="image img-cover"><img data-src="/upload/image/A%CC%89nh%20chu%CC%A3p%20ma%CC%80n%20hi%CC%80nh%202021-06-23%20113138.png" src="public/loading.svg" class="lazyloading " alt="Sử dụng Năng lượng tiết kiệm và hiệu quả - Giải pháp xanh cho mọi gia đình Việt" ></a>
+                                </div>
+                            </li>
+                                                    </ul>
+                        <div class="readmore"><a href="thu-vien-video.html">Xem thêm</a></div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+            <div class="partner">
+        <div class="uk-container uk-container-center">
+            <div class="owl-slide ">
+                <div class="owl-carousel" data-owl="eyJtYXJnaW4iOjgsImxhenlsb2FkIjp0cnVlLCJuYXYiOnRydWUsImF1dG9wbGF5Ijp0cnVlLCJzbWFydFNwZWVkIjoxMDAwLCJhdXRvcGxheVRpbWVvdXQiOjMwMDAsImRvdHMiOmZhbHNlLCJsb29wIjp0cnVlLCJyZXNwb25zaXZlIjp7IjAiOnsiaXRlbXMiOjEuNX0sIjYwMCI6eyJpdGVtcyI6Mi41fSwiMTAwMCI6eyJpdGVtcyI6NS41fX19">
+                                        <div class="slide-item">
+                        <a href="" class="image img-scaledown"><img src="/upload/image/1.png" alt=""></a>
+                    </div>
+                                        <div class="slide-item">
+                        <a href="" class="image img-scaledown"><img src="/upload/image/7.png" alt=""></a>
+                    </div>
+                                        <div class="slide-item">
+                        <a href="" class="image img-scaledown"><img src="/upload/image/6.png" alt=""></a>
+                    </div>
+                                        <div class="slide-item">
+                        <a href="" class="image img-scaledown"><img src="/upload/image/5.png" alt=""></a>
+                    </div>
+                                        <div class="slide-item">
+                        <a href="" class="image img-scaledown"><img src="/upload/image/4.png" alt=""></a>
+                    </div>
+                                        <div class="slide-item">
+                        <a href="" class="image img-scaledown"><img src="/upload/image/3.png" alt=""></a>
+                    </div>
+                                        <div class="slide-item">
+                        <a href="" class="image img-scaledown"><img src="/upload/image/2.png" alt=""></a>
+                    </div>
+                                        <div class="slide-item">
+                        <a href="" class="image img-scaledown"><img src="/upload/image/8.png" alt=""></a>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+		<footer class="footer">
+    <div class="uk-container uk-container-center">
+        <div class="uk-grid uk-grid-medium uk-flex uk-flex-middle">
+            <div class="uk-width-large-1-4">
+                <div class="ft-logo">
+                    <img data-src="/upload/image/thu-vien-anh/logo%20chan%20trang.png" src="public/loading.svg" class="lazyloading " alt="/upload/image/thu-vien-anh/logo%20chan%20trang.png" >                </div>
+            </div>
+            <div class="uk-width-large-1-2">
+                <div class="item_f contact_home">
+	            	<div class="company">CÔNG TY CỔ PHẦN TẬP ĐOÀN AN HÀ PHƯƠNG - AHP GROUP</div>
+	                <div class="m-contact-info">
+	                	<div class="address"><p>Cơ sở 1: Số 8A ngõ 192/14, đường Giải Phóng, Phường Phương Liệt, Quận Thanh Xuân, Thành phố Hà Nội.&nbsp;</p><p>Cơ sở 2: Số 15A Tạ Quang Bửu, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội.&nbsp;</p><p>Cơ Sở 3: Toà Park 03 KĐT Vinhomes Time City Parkhill Hà Nội.</p></div>
+						<div class="phone">Tel: Kinh doanh:0915380009 / Kỹ thuật:0567520438 - Hotline: Kinh doanh:0915380009 / Kỹ thuật:0567520438</div>
+						<div class="email">Email: <a href="mailto:contact@ahpgroup.vn ">contact@ahpgroup.vn </a></div>
+	                </div>
+	            </div>
+            </div>
+            <div class="uk-width-large-1-4">
+                <div class="m-fb">
+                    <div class="fb-page" data-href="https://www.facebook.com/Công-ty-CPTĐ-An-Hà-Phương-AHP-Group-106580748207797" data-lazy="true" data-width="" data-height="" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<div class="copyright">
+    <div class="uk-container uk-container-center">
+        ahpgroup.vn
+    </div>
+</div>
+		<div id="offcanvas" class="uk-offcanvas offcanvas">
+	<div class="uk-offcanvas-bar">
+		<form class="uk-search" action="tim-kiem.html" data-uk-search="{}">
+		    <input class="uk-search-field" type="search" name="keyword" placeholder="Tìm kiếm...">
+        </form>
+        		<ul class="l1 uk-nav uk-nav-offcanvas uk-nav uk-nav-parent-icon" data-uk-nav>
+						<li class="l1 ">
+								<a href="trang-chu.html" title="Trang chủ" class="l1">Trang chủ</a>
+							</li>
+						<li class="l1 uk-parent uk-position-relative">
+				<a href="#" title="" class="dropicon"></a>				<a href="gioi-thieu.html" title="Giới thiệu" class="l1">Giới thiệu</a>
+								<ul class="l2 uk-nav-sub">
+										<li class="l2"><a href="thu-ngo.html" title="Thư ngỏ" class="l2">Thư ngỏ</a></li>
+										<li class="l2"><a href="ve-chung-toi.html" title="Về chúng tôi" class="l2">Về chúng tôi</a></li>
+										<li class="l2"><a href="lich-su-hinh-thanh.html" title="Lịch sử hình thành" class="l2">Lịch sử hình thành</a></li>
+										<li class="l2"><a href="gia-tri-cot-loi.html" title="Giá trị cốt lõi" class="l2">Giá trị cốt lõi</a></li>
+									</ul>
+							</li>
+						<li class="l1 uk-parent uk-position-relative">
+				<a href="#" title="" class="dropicon"></a>				<a href="dich-vu.html" title="Dịch vụ" class="l1">Dịch vụ</a>
+								<ul class="l2 uk-nav-sub">
+										<li class="l2"><a href="energy-audit.html" title="Kiểm toán năng lượng" class="l2">Kiểm toán năng lượng</a></li>
+										<li class="l2"><a href="dich-vu-nang-luong.html" title="Hệ thống quản lý năng lượng" class="l2">Hệ thống quản lý năng lượng</a></li>
+										<li class="l2"><a href="giai-phap-moi-truong-va-chat-luong-khong-khi.html" title="Giải pháp môi trường" class="l2">Giải pháp môi trường</a></li>
+										<li class="l2"><a href="hoat-dong-dao-tao-v2.html" title="Đào tạo TKNL" class="l2">Đào tạo TKNL</a></li>
+										<li class="l2"><a href="dich-vu-dau-tu-nang-luong-esco.html" title="ESCO - Đầu tư năng lượng" class="l2">ESCO - Đầu tư năng lượng</a></li>
+										<li class="l2"><a href="cung-cap-giai-phap-tknl.html" title="Chuyển giao công nghệ TKNL" class="l2">Chuyển giao công nghệ TKNL</a></li>
+										<li class="l2"><a href="kiem-dinh-an-toan.html" title="Kiểm định an toàn" class="l2">Kiểm định an toàn</a></li>
+										<li class="l2"><a href="tu-van-kien-truc-xanh.html" title="Tư vấn Kiến Trúc Xanh" class="l2">Tư vấn Kiến Trúc Xanh</a></li>
+									</ul>
+							</li>
+						<li class="l1 uk-parent uk-position-relative">
+				<a href="#" title="" class="dropicon"></a>				<a href="san-pham-ahp.html" title="Sản Phẩm" class="l1">Sản Phẩm</a>
+								<ul class="l2 uk-nav-sub">
+										<li class="l2"><a href="may-loc-khong-khi-ca-nhan-an-ha-phuong.html" title="Máy lọc không khí cá nhân An Hà Phương" class="l2">Máy lọc không khí cá nhân An Hà Phương</a></li>
+										<li class="l2"><a href="may-loc-khong-khi-di-dong-an-ha-phuong.html" title="Máy lọc không khí di động An Hà Phương" class="l2">Máy lọc không khí di động An Hà Phương</a></li>
+										<li class="l2"><a href="thiet-bi-khu-can-dien-tu.html" title="Thiết bị chống cáu cặn điện tử" class="l2">Thiết bị chống cáu cặn điện tử</a></li>
+										<li class="l2"><a href="bo-lam-sach-chiller-tu-dong-hydroball.html" title="Bộ làm sạch Chiller tự động Hydroball" class="l2">Bộ làm sạch Chiller tự động Hydroball</a></li>
+									</ul>
+							</li>
+						<li class="l1 uk-parent uk-position-relative">
+				<a href="#" title="" class="dropicon"></a>				<a href="du-an-tieu-bieu.html" title="Dự án tiêu biểu" class="l1">Dự án tiêu biểu</a>
+								<ul class="l2 uk-nav-sub">
+										<li class="l2"><a href="linh-vuc-nang-luong.html" title="Lĩnh vực năng lượng" class="l2">Lĩnh vực năng lượng</a></li>
+										<li class="l2"><a href="linh-vuc-dao-tao.html" title="Lĩnh vực Đào tạo" class="l2">Lĩnh vực Đào tạo</a></li>
+										<li class="l2"><a href="linh-vuc-moi-truong-khong-khi.html" title="Lĩnh vực môi trường - không khí" class="l2">Lĩnh vực môi trường - không khí</a></li>
+									</ul>
+							</li>
+						<li class="l1 ">
+								<a href="tin-tuc.html" title="Tin Tức" class="l1">Tin Tức</a>
+							</li>
+						<li class="l1 ">
+								<a href="tuyen-dung.html" title="Tuyển dụng" class="l1">Tuyển dụng</a>
+							</li>
+						<li class="l1 ">
+								<a href="tai-lieu.html" title="Tài liệu" class="l1">Tài liệu</a>
+							</li>
+						<li class="l1 ">
+								<a href="tu-van.html" title="Tư vấn" class="l1">Tư vấn</a>
+							</li>
+						<li class="l1 ">
+								<a href="lien-he.html" title="Liên hệ" class="l1">Liên hệ</a>
+							</li>
+					</ul>
+			</div>
+</div><!-- #offcanvas -->
+
+
+		<!-- Tao Widget -->
+
+		
+		<script src="public/frontend/resources/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script src="public/frontend/resources/uikit/js/components/slideshow.min.js"></script>
+<script src="public/frontend/resources/library/js/toastr/toastr.min.js"></script>
+<script src="public/frontend/resources/plugins/jquery.countdown.min.js"></script>
+<script src="public/frontend/resources/plugins/timeago.js"></script> 
+<script src="public/frontend/resources/plugins/jquery_scroll_loading.js"></script>
+		<script src="public/frontend/resources/plugins/jquery.lazyload.min.js" type="text/javascript"></script>
+<script src="public/frontend/resources/uikit/js/components/slideshow.min.js"></script>
+<script src="public/frontend/resources/plugins/jquery.scrollstop.min.js" type="text/javascript"></script>
+<script src="public/frontend/resources/uikit/js/components/slider.min.js" type="text/javascript"></script>
+<script src="public/frontend/resources/uikit/js/components/sticky.min.js" type="text/javascript"></script>
+<script src="public/frontend/resources/plugins/timeago.js"></script>
+<script src="public/frontend/resources/plugins/sweetalert.min.js"></script>
+<script src="public/frontend/resources/plugins/jquery_scroll_loading.js"></script>
+<script src="public/frontend/resources/library/js/toastr/toastr.min.js"></script>
+<script src="public/frontend/resources/function.js"></script>
+<script src="public/frontend/resources/plugins.js"></script>
+<script src="public/frontend/resources/cart.js"></script>		
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0&appId=103609027035330&autoLogAppEvents=1" nonce="rnvBd1jY"></script>
+	</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10X</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reponsive.css">
+</head>
+
+<body>
+    <header>
+        <video autoplay loop muted>
+            <source type="video/mp4" src="./video/10xhome.mp4">
+        </video>
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <a class="logo" href=""><img src="./images/logo/logo-10x1.png" title="10X"></a>
+            <a href="" class="navbar-toggler collapsed" type="" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="close-icon"><img src="./images/icon/close.png" alt=""></span>
+                <span class="toggler-icon"><img src="./images/icon/menu.png" alt=""></span>
+            </a>
+            <div class="navbar-collapse collapse show" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="scroll-to nav-link" href="#about-us">About 10x</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="scroll-to nav-link" href="#insights">Insights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="scroll-to nav-link" href="#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-content">
+            <p class="header-main-content">To help our clients make substantial and sustainable improvements in their performance with insights, plan and exceptional people. </p>
+            <a href="#how-we-help" class="btn btn-primary see-how-we-help">See How We Help</a>
+        </div>
+
+    </header><main>
+    <div class="intro-cont" id="about-us">
+    <div class="intro-info d-flex justify-content-between">
+        <p class="intro-title">About 10X</p>
+        <div class="intro-content">
+            <p id="content1">We partner with Founders, CEOs, Boards, C-Level to help them translate business goals into strategy and execution roadmap based on grounded market research, as well as provide executive search services to carry execution plan and specific
+                business development assistance.</p>
+            <p id="content2">We are a group of experienced, dedicated professionals with established track record who are passionate in helping companies to build, grow & expand business in Vietnam with a focus in technology – based business. We are practical
+                in our approach, and we believe in the importance of having the right leaders as well as services providers for non-core business/functions to help you taking care some of your headaches so that you can save energy on things that
+                matters for faster speed. Based on our collected experience, this is especially crucial when time is precious in scaling and optimising to catch market trend in this competitive world.</p>
+        </div>
+    </div>
+    <div>
+        <img src="./images/ne/arrow-dot-signup-footer.png" alt="">
+    </div>
+</div>    <div class="product-cont" id="how-we-help">
+    <div class="cont">
+        <p class="product-title">How We Help Clients</p>
+        <div class="product-content d-flex justify-content-md-between">
+            <div class="card">
+                <img class="card-img-top" src="./images/icon/frame.png" alt="Management consulting">
+                <div class="card-body">
+                    <p class="card-title">Management consulting</p>
+                    <p class="card-text">Project-based or on-going business development and management services, onsite and offsite</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="./images/icon/frame-1.png" alt="Market Research">
+                <div class="card-body">
+                    <p class="card-title">Market Research</p>
+                    <p class="card-text">Project based to come up with deep insights and relevant action-oriented recommendations</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="./images/icon/frame-2.png" alt="Executive Search">
+                <div class="card-body">
+                    <p class="card-title">Executive Search</p>
+                    <p class="card-text">Build and maintain a personalized, long-term partnership to understand your needs, provide hight caliber talents who will add values and drive your business forward</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    <div class="advisor-cont">
+    <div class="cont">
+        <p class="advisor-title">Key Advior & Partners</p>
+        <div class="advisor-content row justify-content-md-between">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="./images/person/pham-nguyen.png" alt="Ms. Pham Nguyen">
+                    <div class="card-body">
+                        <p class="card-title">Ms. Pham Nguyen</p>
+                        <p class="card-subtitle">Managing Director </p>
+                        <ul class="card-text">
+                            <li>Managing Director of 10X</li>
+                            <li>Former Head of Business Operations in MyTour, Vietnam (OTA)</li>
+                            <li>Former Management Associate in Traveloka Vietnam (OTA)</li>
+                            <li>Former Engineer in Schlumberger Vietnam</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="./images/person/will-hoc.png" alt="Mr. Will Hoc">
+                    <div class="card-body">
+                        <p class="card-title">Mr. Will Hoc</p>
+                        <p class="card-subtitle">Senior Advisor</p>
+                        <ul class="card-text">
+                            <li>Chief S&M Officer, SPG Land (APAC)</li>
+                            <li>Former Deputy Managing Director, Alpha King Real Estate Development</li>
+                            <li>Former McKinsey Consultant in Real Estate & Infrastructure Practice</li>
+                            <li>Former Deputy Manager, Investment & Asset Management of Capital Land Vietnam</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="./images/person/kathy-le.png" alt="Ms. Kathy Le">
+                    <div class="card-body">
+                        <p class="card-title">Ms. Kathy Le</p>
+                        <p class="card-subtitle">Associate Partner</p>
+                        <ul class="card-text">
+                            <li>Vice President, Emergent Capital Partners</li>
+                            <li>Former Marketing & Sales Director, Kizuma JV Corporation</li>
+                            <li>Former Marketing & Sales Deputy Manager, Long Hau Corporation (Industrial Park in Long An)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="./images/person/dan-le.png" alt="Ms. Dan Le">
+                    <div class="card-body">
+                        <p class="card-title">Ms. Dan Le</p>
+                        <p class="card-subtitle">Partner</p>
+                        <ul class="card-text">
+                            <li>Former Country Ommi Channel Manager, Kimberly Clark</li>
+                            <li>Former Head of Market Place, Sendo & 123mua.vn at FPT Group</li>
+                            <li>Former Head of Multi category Management, Lazada Vietnam</li>
+                            <li>Former Associate Finance Manager, Procter & Gamble, Vietnam</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="./images/person/linh-quach.png" alt="Ms. Linh Quach">
+                    <div class="card-body">
+                        <p class="card-title">Ms. Linh Quach</p>
+                        <p class="card-subtitle">Partner</p>
+                        <ul class="card-text">
+                            <li>Former Head of Human Resources, GO-VIET</li>
+                            <li>Former HR lead, Shopee Vietnam</li>
+                            <li>Former HR Business Partner Commercial, Lazada Group</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" srcset="./images/person/mr-khiem-ho.png 1x, ./images/person/mr-khiem-ho@2x.png 2x" src="./images/person/mr-khiem-ho.png" alt="Mr Khiem Ho">
+                    <div class="card-body">
+                        <p class="card-title">Mr Khiem Ho</p>
+                        <p class="card-subtitle">Senior Advisor</p>
+                        <ul class="card-text">
+                            <li>Managing Director - Co-founder at Chin Media (Digital Marketing)</li>
+                            <li>Former Regional Digital Marketing Manager – South East Asia at Traveloka</li>
+                            <li>Former Digital Marketing Manager at Fim+ Digital JSC</li>
+                            <li>Former Performance Digital Ads Lead at Cdiscount Vietnam</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+        </div>
+    </div>
+</div>    
+<div class="contact-cont" id="contact-us">
+    <div class="cont">
+        <div class="contact-section d-flex justify-content-between">
+            <div class="contact-title">
+                <p>Get in touch and let us know what you think. Or how we can help.</p>
+                <a href="">hello@tenxtenx.com</a>
+            </div>
+            <form  id="contact-form" method="POST" action="/server/sendmail.php">
+                <div id="loading" class="">
+                    <img src="/images/loading.gif" />
+                </div>
+                <div class="form-row">
+                    <div class="form-group firstname-input">
+                        <label for="first_name">First name*</label>
+                        <input required id="first_name" type="text" name="first_name" class="form-control" placeholder="Your first name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last_name">Last name*</label>
+                        <input required id="last_name" type="text" name="last_name" class="form-control" placeholder="Your last name ">
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <label for="email ">Email address*</label>
+                    <input required id="email" name="email" type="email" class="form-control" placeholder="Your email address ">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message*</label>
+                    <textarea required rows="3" id="message" name="message" class="form-control" placeholder="Tell us how we can help"></textarea>
+                </div>
+                <div id="alert"></div>
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</div>    <div class="intro-cont brand-value" id="insights">
+    <div class="intro-info d-flex justify-content-between ">
+        <p class="intro-title ">Our Value</p>
+        <div class="intro-content ">
+            <p id="to-client ">To Our Clients</p>
+            <ul>
+                <li>Our client’s success and interest are equally as important as ours, sometimes more. We believe this is the key principle for us to stay in business, or at least, preserve our own dignity.</li>
+                <li>We must adhere highest level professional code of conduct by being Prudent, Confidential and Independent all the time.</li>
+                <li>We serve with collaborative approach based on trust, integrity, and dedication for excellence.</li>
+            </ul>
+            <p id="to-co-worker ">To Our Co-workers, partners & associates</p>
+            <ul>
+                <li>Sustain a merit-based, lean and non-hierarchical culture</li>
+                <li>Embrace openness, challenge and empowerment through trust and care</li>
+            </ul>
+        </div>
+    </div>
+</div></main>
+    <footer>
+        <div class="footer-content ">
+            <div><img src="./images/logo/logo-10x1.png " alt=" " title="10X "></div>
+            <p class="copyright ">© 2021 10X. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.1.0.js" ></script>
+    <script src="js/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

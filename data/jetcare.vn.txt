@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html >
+    <!-- Mirrored from demo.adobitheme.com/vizac/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Apr 2021 01:23:56 GMT -->
+    <!-- Added by HTTrack -->
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <!-- /Added by HTTrack -->
+    <head>
+        <meta charset="UTF-8" />
+        <!-- CSRF Token -->
+        <meta name="csrf-token" content="tXx8x70w9UC7XB1JTqO2PVXrtvzNBsgqT3eLR9j5">
+        <meta name="viewport" content="width=device-width" />
+        <meta name="keywords" content="Jetcare - Vì triệu người dân được bảo hiểm"/>
+        <meta name="description" content="Jetcare - Vì triệu người dân được bảo hiểm. Ứng dụng bảo hiểm thông minh cho cá nhân và nhóm.Jetcare là ứng dụng bảo hiểm điện tử uy tín tại Việt Nam, được ủy quyền phân phối các gói Bảo Hiểm từ các công ty uy tín như PVI, BSH, VBI… khách hàng mua bảo hiểm trực tuyến chỉ với vài thao tác và nhận ngay giấy chứng nhận online, kèm cả giấy Bảo hiểm đến tận nhà.Jetcare đóng vai trò đại sứ kết nối KHÁCH HÀNG đến các CÔNG TY BẢO HIỂM, giúp người dân hiểu rõ về giá trị của từng gói Bảo hiểm, cũng như tự quản lý được thời hạn, quyền lợi bảo hiểm mang lại."/>
+        <meta name="google-site-verification" content="xG6zIvo0djraeTIVbsFZBPPyCXdnY-ANhuTbFA_Mt5g" />
+        <link rel="profile" href="https://gmpg.org/xfn/11" />
+        <!-- Robots -->
+        <meta name="robots" content="index,follow" />
+        <meta name="google-site-verification" content="YYFUHbYY7WtIzNWjweClFWQ7PWb-5crnYIShPuEt2Yk" />
+        <!-- Favicon -->
+        <link href="https://jetcare.vn/img/logo/favi.png" rel="shortcut icon" type="image/x-icon" />
+        <title>Trang chủ</title>
+                <link href="https://fonts.gstatic.com/" crossorigin rel="preconnect" />
+          <link href="https://jetcare.vn/css/app.css" rel="stylesheet">
+        <link href="https://jetcare.vn/css/home.css" rel="stylesheet">
+        <link href="https://jetcare.vn/css/privacy.css" rel="stylesheet">
+        <link href="https://jetcare.vn/css/blogs.css" rel="stylesheet">
+        <link href="https://jetcare.vn/css/contact.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            window._wpemojiSettings = {
+                baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/",
+                ext: ".png",
+                svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/",
+                svgExt: ".svg",
+            };
+            !(function (e, a, t) {
+                var n,
+                    r,
+                    o,
+                    i = a.createElement("canvas"),
+                    p = i.getContext && i.getContext("2d");
+                function s(e, t) {
+                    var a = String.fromCharCode;
+                    p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0);
+                    e = i.toDataURL();
+                    return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL();
+                }
+                function c(e) {
+                    var t = a.createElement("script");
+                    (t.src = e), (t.defer = t.type = "text/javascript"), a.getElementsByTagName("head")[0].appendChild(t);
+                }
+                for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)
+                    (t.supports[o[r]] = (function (e) {
+                        if (!p || !p.fillText) return !1;
+                        switch (((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)) {
+                            case "flag":
+                                return s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819])
+                                    ? !1
+                                    : !s(
+                                          [55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447],
+                                          [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]
+                                      );
+                            case "emoji":
+                                return !s([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340]);
+                        }
+                        return !1;
+                    })(o[r])),
+                        (t.supports.everything = t.supports.everything && t.supports[o[r]]),
+                        "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+                (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag),
+                    (t.DOMReady = !1),
+                    (t.readyCallback = function () {
+                        t.DOMReady = !0;
+                    }),
+                    t.supports.everything ||
+                        ((n = function () {
+                            t.readyCallback();
+                        }),
+                        a.addEventListener
+                            ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1))
+                            : (e.attachEvent("onload", n),
+                              a.attachEvent("onreadystatechange", function () {
+                                  "complete" === a.readyState && t.readyCallback();
+                              })),
+                        (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji)));
+            })(window, document, window._wpemojiSettings);
+        </script>
+        <style type="text/css">
+            img.wp-smiley,
+            img.emoji {
+                display: inline !important;
+                border: none !important;
+                box-shadow: none !important;
+                height: 1em !important;
+                width: 1em !important;
+                margin: 0 0.07em !important;
+                vertical-align: -0.1em !important;
+                background: none !important;
+                padding: 0 !important;
+            }
+        </style>
+        <link rel="stylesheet" id="ionicons-css" href="https://jetcare.vn/wp-content/plugins/vizac-addons/assets/libs/font-ionicons/ionicons251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="flaticon-css" href="https://jetcare.vn/wp-content/plugins/vizac-addons/assets/libs/font-flaticon/flaticon251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="wp-block-library-css" href="https://jetcare.vn/wp-includes/css/dist/block-library/style.min251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="rs-plugin-settings-css" href="https://jetcare.vn/wp-content/plugins/revslider/public/assets/css/rs6bfbf.css?ver=6.0.9" type="text/css" media="all" />
+
+        <style id="rs-plugin-settings-inline-css" type="text/css">
+            #rs-demo-id {
+            }
+        </style>
+        <link rel="stylesheet" id="fontawesome-css" href="https://jetcare.vn/wp-content/themes/vizac/assets/libs/awesome/font-awesome1849.css?ver=4.7.0" type="text/css" media="all" />
+        <link rel="stylesheet" id="bootstrap-css" href="https://jetcare.vn/wp-content/themes/vizac/assets/libs/bootstrap/bootstrap251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="vizac-style-css" href="https://jetcare.vn/wp-content/themes/vizac/style8a54.css?ver=1.0.0" type="text/css" media="all" />
+        <link rel="stylesheet" id="vizac-custom-css" href="https://jetcare.vn/wp-content/themes/vizac/assets/css/style8a54.css?ver=1.0.0" type="text/css" media="all" />
+        <link rel="stylesheet" id="slick-css" href="https://jetcare.vn/wp-content/themes/vizac/assets/libs/slick/slick251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="dynamic-css-css" href="https://jetcare.vn/wp-content/uploads/dynamic-css/styles-5d2d854abb8e2251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="animate-css-css" href="https://jetcare.vn/wp-content/plugins/vizac-addons/assets/libs/animate/animate251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="at-style-css-css" href="https://jetcare.vn/wp-content/plugins/vizac-addons/assets/css/style251f.css?ver=5.2.10" type="text/css" media="all" />
+        <script type="text/javascript" src="https://jetcare.vn/wp-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp"></script>
+        <!-- <script type="text/javascript" src="wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script> -->
+        <script type="text/javascript" src="https://jetcare.vn/wp-content/plugins/revslider/public/assets/js/revolution.tools.minf049.js?ver=6.0"></script>
+        <script type="text/javascript" src="https://jetcare.vn/wp-content/plugins/revslider/public/assets/js/rs6.minbfbf.js?ver=6.0.9"></script>
+        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
+        <script type="text/javascript">
+            function setREVStartSize(a) {
+                try {
+                    var b,
+                        c = document.getElementById(a.c).parentNode.offsetWidth;
+                    if (
+                        ((c = 0 === c || isNaN(c) ? window.innerWidth : c),
+                        (a.tabw = void 0 === a.tabw ? 0 : parseInt(a.tabw)),
+                        (a.thumbw = void 0 === a.thumbw ? 0 : parseInt(a.thumbw)),
+                        (a.tabh = void 0 === a.tabh ? 0 : parseInt(a.tabh)),
+                        (a.thumbh = void 0 === a.thumbh ? 0 : parseInt(a.thumbh)),
+                        (a.tabhide = void 0 === a.tabhide ? 0 : parseInt(a.tabhide)),
+                        (a.thumbhide = void 0 === a.thumbhide ? 0 : parseInt(a.thumbhide)),
+                        (a.mh = void 0 === a.mh || "" == a.mh ? 0 : a.mh),
+                        "fullscreen" === a.layout || "fullscreen" === a.l)
+                    )
+                        b = Math.max(a.mh, window.innerHeight);
+                    else {
+                        for (var d in ((a.gw = Array.isArray(a.gw) ? a.gw : [a.gw]), a.rl)) (void 0 === a.gw[d] || 0 === a.gw[d]) && (a.gw[d] = a.gw[d - 1]);
+                        for (var d in ((a.gh = void 0 === a.el || "" === a.el || (Array.isArray(a.el) && 0 == a.el.length) ? a.gh : a.el), (a.gh = Array.isArray(a.gh) ? a.gh : [a.gh]), a.rl))
+                            (void 0 === a.gh[d] || 0 === a.gh[d]) && (a.gh[d] = a.gh[d - 1]);
+                        var e,
+                            f = Array(a.rl.length),
+                            g = 0;
+                        for (var d in ((a.tabw = a.tabhide >= c ? 0 : a.tabw), (a.thumbw = a.thumbhide >= c ? 0 : a.thumbw), (a.tabh = a.tabhide >= c ? 0 : a.tabh), (a.thumbh = a.thumbhide >= c ? 0 : a.thumbh), a.rl))
+                            f[d] = a.rl[d] < window.innerWidth ? 0 : a.rl[d];
+                        for (var d in ((e = f[0]), f)) e > f[d] && 0 < f[d] && ((e = f[d]), (g = d));
+                        var h = c > a.gw[g] + a.tabw + a.thumbw ? 1 : (c - (a.tabw + a.thumbw)) / a.gw[g];
+                        b = a.gh[g] * h + (a.tabh + a.thumbh);
+                    }
+                    void 0 === window.rs_init_css && (window.rs_init_css = document.head.appendChild(document.createElement("style"))),
+                        (document.getElementById(a.c).height = b),
+                        (window.rs_init_css.innerHTML += "#" + a.c + "_wrapper { height: " + b + "px }");
+                } catch (a) {
+                    console.log("Failure at Presize of Slider:" + a);
+                }
+            }
+        </script>
+        <style type="text/css" id="wp-custom-css">
+            .site-content {
+                padding-bottom: 190px;
+            }
+        </style>
+
+        <noscript>
+            <style>
+                .wpb_animate_when_almost_visible {
+                    opacity: 1;
+                }
+            </style>
+        </noscript>
+        <!-- Js Google Analytic -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-G4DEE2WM92"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-G4DEE2WM92');
+        </script>
+
+
+        <!-- Js Head -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-191144847-1">
+        </script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-191144847-1');
+        </script>
+    </head>
+    <body class="home page-template page-template-templates page-template-home-page page-template-templateshome-page-php page page-id-14 woocommerce-no-js is-page no-padding-content wpb-js-composer js-comp-ver-6.0.3 vc_responsive">
+        <div class="preloading">
+            <div class="sk-wave">
+                <div class="sk-rect sk-rect1"></div>
+                <div class="sk-rect sk-rect2"></div>
+                <div class="sk-rect sk-rect3"></div>
+                <div class="sk-rect sk-rect4"></div>
+                <div class="sk-rect sk-rect5"></div>
+            </div>
+        </div>
+        <div id="back-to-top" class="btn-back-to-top">
+            <i class="ion ion-ios-arrow-thin-up"></i>
+        </div>
+        <div id="wrapper-container" class="clearfix">
+            <nav class="mobile-menu-container mobile-effect">
+    <div class="inner-menu">
+        <form role="search" method="get" class="search-form" action="https://jetcare.vn/tim-kiem/san-pham">
+            <label>
+                <input class="search-field" type="text" name="keySearch" placeholder="Tìm kiếm..." autocomplete="off" />
+            </label>
+
+            <button class="search-submit"><i class="ion ion-ios-search-strong"></i></button>
+        </form>
+        <ul class="menu">
+            <li
+                id="menu-item-709"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-14 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor  menu-item-709"
+            >
+                <a href="https://jetcare.vn" title="Trang chủ" aria-current="page">Trang chủ</a>
+            </li>
+            <li id="menu-item-495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-495">
+                <a href="https://jetcare.vn/san-pham" title="Sản phẩm - Jetcare Vì triệu người dân được bảo hiểm">Sản Phẩm</a>
+                <ul class="sub-menu">
+                                            <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-496">
+                            <a href="https://jetcare.vn/san-pham/danh-muc-san-pham/bao-hiem-bat-buoc">Bảo hiểm bắt buộc</a>
+                        </li>
+                                            <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-496">
+                            <a href="https://jetcare.vn/san-pham/danh-muc-san-pham/bao-hiem-tai-san-vat-chat">Bảo hiểm tài sản vật chất</a>
+                        </li>
+                                            <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-496">
+                            <a href="https://jetcare.vn/san-pham/danh-muc-san-pham/bao-hiem-con-nguoi">Bảo hiểm con người</a>
+                        </li>
+                                            <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-496">
+                            <a href="https://jetcare.vn/san-pham/danh-muc-san-pham/bao-hiem-du-lich">Bảo hiểm du lịch</a>
+                        </li>
+                                    </ul>
+            </li>
+            <li id="menu-item-526" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-526">
+                <a href="https://jetcare.vn/tin-tuc" title="Tin tức">Tin tức</a>
+                <ul class="sub-menu">
+                                            <li id="menu-item-530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-530"><a href="https://jetcare.vn/tin-tuc/danh-muc-tin-tuc/kien-thuc" title="Kiến thức">Kiến thức</a></li>
+                                            <li id="menu-item-530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-530"><a href="https://jetcare.vn/tin-tuc/danh-muc-tin-tuc/hoat-dong" title="Hoạt động">Hoạt động</a></li>
+                                            <li id="menu-item-530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-530"><a href="https://jetcare.vn/tin-tuc/danh-muc-tin-tuc/tin-tuc" title="Tin tức">Tin tức</a></li>
+                                    </ul>
+            </li>
+            <li id="menu-item-366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366"><a href="https://jetcare.vn/lien-he" title="Liên hệ">Liên hệ</a></li>
+        </ul>
+    </div>
+</nav>
+            <div class="wrapper-site">
+                <div id="popup-dowload">
+    <div class="content-popup-dowload align-items-center justify-content-center " id="banner-ios">
+            <a href="https://apps.apple.com/vn/app/jetcare/id1530321303?l=vi" class="mb-sm-0 mx-3" title="Tải app jetcare - ios">
+                <img src="https://jetcare.vn/img/app/ios.png" alt="Jetcare - Vì triệu người dân được bảo hiểm">
+            </a>
+            <div class="content-dowload">
+                <h2 > <a href="https://apps.apple.com/vn/app/jetcare/id1530321303?l=vi" title="Jetcare - Vì triệu người dân được bảo hiểm">JETCARE</a></h2>
+                <p class="m-0">IOS</p>
+            </div>
+            <button onclick="closeBanner()" class="btn-close-popup"><i class="fa fa-times-circle"></i></button>
+    </div>
+    <div class="content-popup-dowload align-items-center justify-content-center " id="banner-android">
+            <a href="https://play.google.com/store/apps/details?id=vn.jetcare.app" class="mb-sm-0 mx-2" title="Tải app jetcare - android"> 
+                <img src="https://jetcare.vn/img/app/android.png" alt="Jetcare - Vì triệu người dân được bảo hiểm"></a>
+            <div class="content-dowload">
+                <h2> <a href="https://apps.apple.com/vn/app/jetcare/id1530321303?l=vi">JETCARE</a></h2>
+                <p class="m-0">ANDROID</p>
+            </div>
+            <button onclick="closeBanner()" class="btn-close-popup"><i class="fa fa-times-circle"></i></button>
+    </div>
+</div>
+                <header class="site-header-wrap">
+    <div id="top-bar" class="top-bar header-overlay layout-1">
+        <div class="container">
+            <div class="top-bar-inner">
+                <div class="top-bar-left">
+                    <div id="text-2" class="widget widget_text">
+                        <div class="textwidget">
+                            <ul>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:info@JetCare.vn">INFO@JETCARE.VN</a></li>
+                                <li><i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:0899 17 22 48">0899 17 22 48</a></li>
+                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 08:00 - 17:30</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="site-header" class="site-header sticky-header header-default layout-1">
+        <div class="header-container element-to-stick">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="logo-header">
+                        <a href="https://jetcare.vn" title="Jetcare" rel="home" class="no-sticky-logo">
+                            <img src="https://jetcare.vn/img/logo/logo.png" alt="Jetcare"  />
+                        </a>
+                    </div>
+                    <div class="header-menu">
+                        <nav class="main-navigation">
+                            <ul id="menu-main-menu-1" class="menu-lists">
+                                <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-709"
+                                >
+                                    <a href="https://jetcare.vn" class="link-menu-item active " >TRang chủ</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-487">
+                                    <a href="https://jetcare.vn/san-pham" class="link-menu-item 
+                                                                        ">Sản phẩm</a>
+                                    <ul class="sub-menu">
+                                                                                    <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-490 current_page_item menu-item-496">
+                                                <a href="https://jetcare.vn/san-pham/danh-muc-san-pham/bao-hiem-bat-buoc" >Bảo hiểm bắt buộc</a>
+                                            </li>
+                                                                                    <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-490 current_page_item menu-item-496">
+                                                <a href="https://jetcare.vn/san-pham/danh-muc-san-pham/bao-hiem-tai-san-vat-chat" >Bảo hiểm tài sản vật chất</a>
+                                            </li>
+                                                                                    <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-490 current_page_item menu-item-496">
+                                                <a href="https://jetcare.vn/san-pham/danh-muc-san-pham/bao-hiem-con-nguoi" >Bảo hiểm con người</a>
+                                            </li>
+                                                                                    <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-490 current_page_item menu-item-496">
+                                                <a href="https://jetcare.vn/san-pham/danh-muc-san-pham/bao-hiem-du-lich" >Bảo hiểm du lịch</a>
+                                            </li>
+                                                                            </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-495">
+                                    <a href="https://jetcare.vn/tin-tuc" title="Kiến thức bảo hiểm" class="link-menu-item 
+                                                                        ">Tin tức</a>
+                                    <ul class="sub-menu">
+                                                                                    <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-490 current_page_item menu-item-496">
+                                                <a href="https://jetcare.vn/tin-tuc/danh-muc-tin-tuc/kien-thuc" >Kiến thức</a>
+                                            </li>
+                                                                                    <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-490 current_page_item menu-item-496">
+                                                <a href="https://jetcare.vn/tin-tuc/danh-muc-tin-tuc/hoat-dong" >Hoạt động</a>
+                                            </li>
+                                                                                    <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-490 current_page_item menu-item-496">
+                                                <a href="https://jetcare.vn/tin-tuc/danh-muc-tin-tuc/tin-tuc" >Tin tức</a>
+                                            </li>
+                                                                            </ul>
+                                </li>
+
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-145">
+                                    <a href="https://jetcare.vn/lien-he" class="link-menu-item">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="sidebar-menu-right">
+                            <div class="widget widget_vizac_search layout_default">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <form class="search_form" action="https://jetcare.vn/tim-kiem/san-pham" method="get">
+                                    <input type="text" name="keySearch" class="key" placeholder="Search" />
+                                </form>
+                            </div>
+                        </div>
+                        <div class="menu-mobile-icon">
+                            <div class="icon-wrap">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+                <div class="">
+    <div class="site-content">
+        <div class="home-content home-page " role="main">
+            <!-- slider -->
+            <div data-mobile-class="vc_custom_1562771770721" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding box-slider">
+    <div class="wpb_column vc_column_container vc_col-sm-12">
+        <div class="vc_column-inner vc_custom_1560529898368">
+            <div class="wpb_wrapper">
+                <div class="wpb_revslider_element wpb_content_element">
+                    <!-- START Slider home 1 REVOLUTION SLIDER 6.0.9 -->
+                    <p class="rs-p-wp-fix"></p>
+                    <a href="https://jetcare.vn/san-pham" title="jetcare - vì hàng triệu người dân được vảo hiểm">
+                        <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="background: transparent; padding: 0; margin: 0px auto; margin-top: 0; margin-bottom: 0;">
+                            
+                            <rs-module id="rev_slider_1_1" style="display: none;" data-version="6.0.9">
+                                <rs-slides>
+                                    <rs-slide data-key="rs-1" data-title="Slide" data-anim="ei:d;eo:d;s:160;r:0;t:fade;sl:d;">
+                                        <img src="img/intro/slide.jpg" title="O70LL00" width="1920" height="1280" class="rev-slidebg" data-no-retina />
+                                        
+                                        <rs-layer
+                                            id="slider-1-slide-1-layer-1"
+                                            class="tp-shape tp-shapewrapper"
+                                            data-type="shape"
+                                            data-text="fw:500;a:inherit;"
+                                            data-dim="w:100%;h:100%;"
+                                            data-basealign="slide"
+                                            data-rsp_o="off"
+                                            data-rsp_bd="off"
+                                            data-frame_0="tp:600;"
+                                            data-frame_1="tp:600;sp:10;sR:10;"
+                                            data-frame_999="o:0;tp:600;st:w;sR:8980;"
+                                            style="z-index: 5; background-color: rgba(33, 40, 73, 0.35); font-family: Roboto;"
+                                        >
+                                        </rs-layer>
+                                        <rs-layer
+                                            id="slider-1-slide-1-layer-2"
+                                            data-type="text"
+                                            data-rsp_ch="on"
+                                            data-xy="xo:0,15px,20px,30px;y:m;yo:-106px,-105px,-105px,-20px;"
+                                            data-text="w:normal;s:60;l:70;fw:600;a:inherit;"
+                                            data-dim="w:583px;"
+                                            data-frame_0="y:100%;tp:600;"
+                                            data-frame_0_mask="u:t;y:100%;"
+                                            data-frame_1="tp:600;e:Power2.easeInOut;st:500;sp:1500;sR:500;"
+                                            data-frame_1_mask="u:t;"
+                                            data-frame_999="st:w;auto:true;"
+                                            data-frame_999_mask="u:t;"
+                                            style="z-index: 6; font-family: Poppins;"
+                                        >
+                                            VÌ TRIỆU NGƯỜI DÂN ĐƯỢC BẢO HIỂM
+                                        </rs-layer>
+                                        
+                                        <rs-layer
+                                            id="slider-1-slide-1-layer-3"
+                                            data-type="text"
+                                            data-rsp_ch="on"
+                                            data-xy="xo:0,15px,20px,30px;y:m;yo:-210px,-210px,-210px,-120px;"
+                                            data-text="l:22;fw:500;a:inherit;"
+                                            data-frame_0="y:100%;tp:600;"
+                                            data-frame_0_mask="u:t;y:100%;"
+                                            data-frame_1="tp:600;e:Power2.easeInOut;st:100;sp:1500;sR:100;"
+                                            data-frame_1_mask="u:t;"
+                                            data-frame_999="o:0;tp:600;st:w;sR:7400;"
+                                            style="z-index: 7; font-family: Rubik; text-transform: uppercase; "
+                                        >
+                                            
+                                            JetCare ứng dụng bảo hiểm điện tử 
+                                        </rs-layer>
+                                        
+                                        <rs-layer 
+                                            id="slider-1-slide-1-layer-4"
+                                            class="rev-btn py-2"
+                                            data-type="button"
+                                            data-color="rgba(255,255,255,1)"
+                                            data-xy="xo:0,15px,20px,30px;y:m;yo:25px,25px,25px,125px;"
+                                            data-text="s:14;l:60,60,60,40;fw:500;a:inherit;"
+                                            data-rsp_bd="off"
+                                            data-padding="r:45;l:45;"
+                                            data-frame_0="y:100%;tp:600;"
+                                            data-frame_0_mask="u:t;y:100%;"
+                                            data-frame_1="tp:600;e:Power2.easeInOut;st:900;sp:1500;sR:900;"
+                                            data-frame_1_mask="u:t;"
+                                            data-frame_999="o:0;tp:600;st:w;sR:6600;"
+                                            data-frame_hover="c:#000;bgc:#fff;boc:#000;bor:0px,0px,0px,0px;bos:solid;oX:50;oY:50;sp:0;"
+                                            style="
+                                                z-index: 8;
+                                                background-color: #ff4302;
+                                                font-family: Rubik;
+                                                text-transform: uppercase;
+                                                cursor: pointer;
+                                                outline: none;
+                                                box-shadow: none;
+                                                box-sizing: border-box;
+                                                -moz-box-sizing: border-box;
+                                                -webkit-box-sizing: border-box;
+                                            "
+                                        >
+                                            Truy cập ngay
+                                        </rs-layer>
+                                        
+                                    </rs-slide>
+                                </rs-slides>
+                                <rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
+                            </rs-module>
+                            <script type="text/javascript">
+                                setREVStartSize({ c: "rev_slider_1_1", rl: [1920, 1400, 1024, 767], el: [850, 700, 700, 600], gw: [1240, 1200, 1024, 767], gh: [850, 700, 700, 600], layout: "fullwidth", mh: "0" });
+                                var revapi1, tpj;
+                                jQuery(function () {
+                                    tpj = jQuery;
+                                    if (tpj("#rev_slider_1_1").revolution == undefined) {
+                                        revslider_showDoubleJqueryError("#rev_slider_1_1");
+                                    } else {
+                                        revapi1 = tpj("#rev_slider_1_1")
+                                            .show()
+                                            .revolution({
+                                                sliderLayout: "fullwidth",
+                                                visibilityLevels: "1920,1400,1024,767",
+                                                gridwidth: "1240,1200,1024,767",
+                                                gridheight: "850,700,700,600",
+                                                minHeight: "",
+                                                editorheight: "850,700,700,600",
+                                                responsiveLevels: "1920,1400,1024,767",
+                                                disableProgressBar: "on",
+                                                navigation: {
+                                                    onHoverStop: false,
+                                                },
+                                                fallbacks: {
+                                                    allowHTML5AutoPlayOnAndroid: true,
+                                                },
+                                            });
+                                    }
+                                });
+                            </script>
+                        </rs-module-wrap>
+                    </a>
+                    <!-- END REVOLUTION SLIDER -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="vc_row-full-width vc_clearfix"></div>            <!-- support service -->
+            <div data-tablet-class="vc_custom_1562850939876" data-mobile-class="vc_custom_1562850939877" class="list-support-service vc_row wpb_row vc_row-fluid z-index-1 vc_custom_1562850939874">
+    <div class="container clearfix">
+        <div class="vc_row d-lg-flex align-items-center d-none ">
+            <div class="wpb_column vc_column_container vc_col-sm-4 col-lg-4 ">
+                <div data-mobile-class="vc_custom_1561258909070" class="vc_column-inner vc_custom_1561258909066">
+                    <div class="wpb_wrapper">
+                        <div class="vizac-addon-icon-box  box-support-service p-4 vizac-addon align-center layout-default text-center">
+                            <div class="icon-box p-4 ">
+                                <div class="wrap-icon">
+                                    <div class="icon-image">
+                                        <i class="flaticon-24-hours"></i>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h3 class=" title-hotro text-split text-split-2">
+                                        Mua bảo hiểm trong vòng 1 phút.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wpb_column vc_column_container vc_col-sm-4 col-lg-4">
+                <div data-mobile-class="vc_custom_1561258723515" class="vc_column-inner vc_custom_1561258723512">
+                    <div class="wpb_wrapper">
+                        <div class="vizac-addon-icon-box box-support-service p-4 vizac-addon align-center layout-default text-center">
+                            <div class="icon-box p-4">
+                                <div class="wrap-icon">
+                                    <div class="icon-image">
+                                        <i class="flaticon-customer-service"></i>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h3 class=" title-hotro text-split text-split-2">
+                                        Cấp giấy chứng nhận bảo hiểm online.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wpb_column vc_column_container vc_col-sm-4 col-lg-4">
+                <div data-mobile-class="vc_custom_1561258732686" class="vc_column-inner vc_custom_1561258732684">
+                    <div class="wpb_wrapper">
+                        <div class="vizac-addon-icon-box box-support-service p-4 vizac-addon align-center layout-default text-center" >
+                            <div class="icon-box p-4">
+                                <div class="wrap-icon">
+                                    <div class="icon-image">
+                                        <i class="flaticon-ui"></i>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <h3 class=" title-hotro text-split text-split-2 ">
+                                        Quản lý bảo hiểm tiện lợi, dễ dàng.
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="vizac-addon-portfolio vizac-addon layout-default d-lg-none d-block mb-lg-0 mb-3">
+            <div
+                class="slide-list-portfolio js-call-slick-col-list-portfolio"
+                data-numofshow="3"
+                data-numofscroll="1"
+                data-loopslide="1"
+                data-autoscroll="1"
+                data-speedauto="1500"
+                data-responsive="[3, 1], [3, 1], [2, 1], [2, 1], [1, 1]"
+            >
+                <div class="slide-slick">
+                    <div class="item-slick">
+                        <div class="wpb_column box-guarantee vc_column_container ">
+                            <div class="wpb_column vc_column_container ">
+                                <div data-mobile-class="vc_custom_1561258909070" class="vc_column-inner vc_custom_1561258909066">
+                                    <div class="wpb_wrapper">
+                                        <div class="vizac-addon-icon-box  box-support-service p-4 vizac-addon align-center layout-default text-center">
+                                            <div class="icon-box p-4 ">
+                                                <div class="wrap-icon">
+                                                    <div class="icon-image">
+                                                        <i class="flaticon-24-hours"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <h3 class=" title-hotro text-split text-split-2">
+                                                        Mua bảo hiểm trong vòng 1 phút.
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-slick">
+                        <div class="wpb_column box-guarantee vc_column_container ">
+                            <div class="wpb_column vc_column_container ">
+                                <div data-mobile-class="vc_custom_1561258723515" class="vc_column-inner vc_custom_1561258723512">
+                                    <div class="wpb_wrapper">
+                                        <div class="vizac-addon-icon-box box-support-service p-4 vizac-addon align-center layout-default text-center">
+                                            <div class="icon-box p-4">
+                                                <div class="wrap-icon">
+                                                    <div class="icon-image">
+                                                        <i class="flaticon-customer-service"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <h3 class=" title-hotro text-split text-split-2">
+                                                        Cấp giấy chứng nhận bảo hiểm online.
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-slick">
+                        <div class="wpb_column box-guarantee vc_column_container ">
+                            <div class="wpb_column vc_column_container ">
+                                <div data-mobile-class="vc_custom_1561258732686" class="vc_column-inner vc_custom_1561258732684">
+                                    <div class="wpb_wrapper">
+                                        <div class="vizac-addon-icon-box box-support-service p-4 vizac-addon align-center layout-default text-center" >
+                                            <div class="icon-box p-4">
+                                                <div class="wrap-icon">
+                                                    <div class="icon-image">
+                                                        <i class="flaticon-ui"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="content">
+                                                    <h3 class=" title-hotro text-split text-split-2 ">
+                                                        Quản lý bảo hiểm tiện lợi, dễ dàng.
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>             <!-- intro -->
+            <div data-tablet-class="vc_custom_1561260075026 " data-mobile-class="vc_custom_1561260075026" class="box-intro pt-lg-4 pt-0 pt-sm-0  vc_row wpb_row vc_row-fluid vc_custom_1561260075024 pb-5" id="intro">
+    <div class=" clearfix container">
+        <div class="row">
+            <div class="col-lg-6 col-12 ">
+                <div class="vc_column-inner">
+                    <div class="wpb_wrapper">
+                        <div data-tablet-class="vc_custom_1561260004114" data-mobile-class="vc_custom_1561260004115" class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1561260004113">
+                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                <div class="vc_column-inner vc_custom_1560610637189">
+                                    <div class="wpb_wrapper">
+                                        <div class="wpb_single_image wpb_content_element vc_align_left">
+                                            <figure class="wpb_wrapper vc_figure mb-0 mb-lg-1">
+                                                <div class="vc_single_image-wrapper vc_box_border_grey">
+                                                    <img
+                                                        src="img/intro/intro1.png"
+                                                        class="vc_single_image-img attachment-full"
+                                                        alt="JETCARE - QUẢN LÝ BẢO HIỂM THÔNG MINH"
+                                                       
+                                                        sizes="(max-width: 1000px) 100vw, 1000px"
+                                                    />
+                                                </div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 ">
+                <div class="vc_column-inner">
+                    <div class="wpb_wrapper">
+                        <div class="vizac-addon-heading vizac-addon layout-default text- vc_custom_1562850962164" data-tablet-class="vc_custom_1562850962165" data-mobile-class="vc_custom_1562850962166">
+                            <div class="wrap-shortcode">
+                                <h3 class="title-intro title-intro-main">JETCARE - ỨNG DỤNG QUẢN LÝ BẢO HIỂM THÔNG MINH DÀNH CHO CÁ NHÂN VÀ DOANH NGHIỆP </h3>
+                            </div>
+                        </div>
+                        <div class="wpb_text_column wpb_content_element">
+                            <div class="wpb_wrapper">
+                            <p>
+                                Jetcare là ứng dụng bảo hiểm điện tử uy tín tại Việt Nam, được ủy quyền phân phối các gói Bảo Hiểm từ các công ty uy tín như PVI, BSH, VBI… khách hàng mua bảo hiểm trực tuyến chỉ với vài thao tác và nhận ngay giấy chứng nhận online.
+                            </p>
+                            <p>
+                                Jetcare đóng vai trò đại sứ kết nối KHÁCH HÀNG đến các CÔNG TY BẢO HIỂM, giúp người dân hiểu rõ về giá trị của từng gói Bảo hiểm, cũng như tự quản lý được thời hạn, quyền lợi bảo hiểm mang lại,cung cấp cho bạn những tiện ích cần thiết và tự động liên quan đến bảo hiểm. Bạn không cần phải nhọc lòng để quản lý và ghi nhớ các quyền lợi được bảo hiểm của mình.
+                            </p>
+                            <ul >
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Mua BH chỉ trong vài thao tác. </li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Các sản phẩm thiết thực, ý nghĩa.</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Tra cứu quyền lợi BH mọi lúc mọi nơi .</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Quản lí thời hạn BH dễ dàng.</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Có chứng nhận BH điện tử và giao tận nhà.</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Nhà phân phối uy tín rõ ràng.</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i> Đội ngũ hỗ trợ 24/7.</li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>            <!-- Gói bảo hiểm -->
+            <div class=" clearfix list-guarantee container">
+    <div class="vc_row">
+        <div class="wpb_column vc_column_container vc_col-sm-12">
+            <div class="vc_column-inner px-0">
+                <div class="wpb_wrapper">
+                    <div class="vizac-addon-heading vizac-addon layout-default text- vc_custom_1560621434479">
+                        <div class="wrap-shortcode">
+                            <div class="sub-title title text-center">Gói bảo hiểm</div>
+                        </div>
+                    </div>
+                    <div class="wpb_wrapper">
+                        <div class="vizac-addon-testimonials vizac-addon layout-default">
+                            <div
+                                class="slide-list-portfolio js-call-slick-col-list-portfolio"
+                                data-numofshow="3"
+                                data-numofscroll="3"
+                                data-loopslide="1"
+                                data-autoscroll="1"
+                                data-speedauto="1500"
+                                data-responsive="[3, 1], [3, 1], [2, 1], [1, 1], [1, 1]"
+                                >
+                                <div class="wrap-arrow-slick">
+                                    <div class="arow-slick prev-slick  prev-guarantee">
+                                        <i class="ion ion-ios-arrow-left"></i>
+                                    </div>
+                                    <div class="arow-slick next-slick next-guarantee">
+                                        <i class="ion ion-ios-arrow-right"></i>
+                                    </div>
+                                </div>
+                                <div class="slide-slick">
+                                                                            <div class="item-guarantee">
+                                            <div class="wpb_column box-guarantee box-guarantee1 vc_column_container ">
+                                                <div data-mobile-class="vc_custom_1561258909070" class="vc_column-inner vc_custom_1561258909066 list-guarantees">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vizac-addon-icon-box vizac-addon align-center layout-default text-center ">
+                                                            <div class="icon-box text-center item-guarantee" style="padding-bottom:10px!important">
+                                                                <div class="wrap-icon">
+                                                                    <div class="icon-image">
+                                                                        <a href="https://jetcare.vn/san-pham/bao-hiem-tnds-xe-may.html" title="Bảo hiểm TNDS xe máy">
+                                                                            <img src="uploadImage/p25T5pXg1PiFnAeFExIcC1ZGgqMr0K4fkNRDEnQWUD.jpg" alt="Bảo hiểm TNDS xe máy">
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content">
+                                                                    <h3 class="title text-split text-split-1 p-sm-0">
+                                                                        Bảo hiểm TNDS xe máy
+                                                                    </h3>
+                                                                                                                                        <p class="price-insurrance m-0 price-product d-flex flex-wrap align-items-center justify-content-center">
+                                                                                                                                                    <span class="price-new">66,000 VND</span>
+                                                                            <span class="price-old del price-delete d-none">1,200 VND</span>
+                                                                                                 
+                                                                    </p>
+                                                                </div>
+                                                                <a class=" xemthem" href="https://jetcare.vn/san-pham/bao-hiem-tnds-xe-may.html" title="Bảo hiểm TNDS xe máy"> Xem chi tiết <i class="ion-ios-arrow-forward"></i> </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                            <div class="item-guarantee">
+                                            <div class="wpb_column box-guarantee box-guarantee1 vc_column_container ">
+                                                <div data-mobile-class="vc_custom_1561258909070" class="vc_column-inner vc_custom_1561258909066 list-guarantees">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vizac-addon-icon-box vizac-addon align-center layout-default text-center ">
+                                                            <div class="icon-box text-center item-guarantee" style="padding-bottom:10px!important">
+                                                                <div class="wrap-icon">
+                                                                    <div class="icon-image">
+                                                                        <a href="https://jetcare.vn/san-pham/bao-hiem-tnds-o-to.html" title="Bảo hiểm TNDS ô tô">
+                                                                            <img src="uploadImage/imgpsh_fullsize_animTjKx0wVz7PnqnZKEVe9X8fucD28fQkYjkMO1sEcA.jpg" alt="Bảo hiểm TNDS ô tô">
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content">
+                                                                    <h3 class="title text-split text-split-1 p-sm-0">
+                                                                        Bảo hiểm TNDS ô tô
+                                                                    </h3>
+                                                                                                                                        <p class="price-insurrance m-0 price-product d-flex flex-wrap align-items-center justify-content-center">
+                                                                                                                                                    <span class="price-new">437,000 VND</span>
+                                                                            <span class="price-old del price-delete d-none">12,444 VND</span>
+                                                                                                 
+                                                                    </p>
+                                                                </div>
+                                                                <a class=" xemthem" href="https://jetcare.vn/san-pham/bao-hiem-tnds-o-to.html" title="Bảo hiểm TNDS ô tô"> Xem chi tiết <i class="ion-ios-arrow-forward"></i> </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                            <div class="item-guarantee">
+                                            <div class="wpb_column box-guarantee box-guarantee1 vc_column_container ">
+                                                <div data-mobile-class="vc_custom_1561258909070" class="vc_column-inner vc_custom_1561258909066 list-guarantees">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vizac-addon-icon-box vizac-addon align-center layout-default text-center ">
+                                                            <div class="icon-box text-center item-guarantee" style="padding-bottom:10px!important">
+                                                                <div class="wrap-icon">
+                                                                    <div class="icon-image">
+                                                                        <a href="https://jetcare.vn/san-pham/bao-hiem-tai-nan.html" title="Bảo hiểm tai nạn">
+                                                                            <img src="uploadImage/imgpsh_fullsize_anim (5)RjbUSvIG0ReZkBEOf0I5qdw0Xjm56l6vx63rbO5D.jpg" alt="Bảo hiểm tai nạn">
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content">
+                                                                    <h3 class="title text-split text-split-1 p-sm-0">
+                                                                        Bảo hiểm tai nạn
+                                                                    </h3>
+                                                                                                                                        <p class="price-insurrance m-0 price-product d-flex flex-wrap align-items-center justify-content-center">
+                                                                                                                                                    <span class="price-new">50,000 VND</span>
+                                                                            <span class="price-old del price-delete d-none">12,333 VND</span>
+                                                                                                 
+                                                                    </p>
+                                                                </div>
+                                                                <a class=" xemthem" href="https://jetcare.vn/san-pham/bao-hiem-tai-nan.html" title="Bảo hiểm tai nạn"> Xem chi tiết <i class="ion-ios-arrow-forward"></i> </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                            <div class="item-guarantee">
+                                            <div class="wpb_column box-guarantee box-guarantee1 vc_column_container ">
+                                                <div data-mobile-class="vc_custom_1561258909070" class="vc_column-inner vc_custom_1561258909066 list-guarantees">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vizac-addon-icon-box vizac-addon align-center layout-default text-center ">
+                                                            <div class="icon-box text-center item-guarantee" style="padding-bottom:10px!important">
+                                                                <div class="wrap-icon">
+                                                                    <div class="icon-image">
+                                                                        <a href="https://jetcare.vn/san-pham/bao-hiem-vat-chat-xe-o-to.html" title="Bảo hiểm vật chất xe ô tô">
+                                                                            <img src="uploadImage/imgpsh_fullsize_anim (6)rdGhBBEwFLdMuSgIAt8gLPVlC7FY12ESblsJhCay.jpg" alt="Bảo hiểm vật chất xe ô tô">
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content">
+                                                                    <h3 class="title text-split text-split-1 p-sm-0">
+                                                                        Bảo hiểm vật chất xe ô tô
+                                                                    </h3>
+                                                                                                                                        <p class="price-insurrance m-0 price-product d-flex flex-wrap align-items-center justify-content-center">
+                                                                                                                                                    <div>
+                                                                                <span Class="lbl-price">Giá: </span>
+                                                                                                                                                                    0 VND
+                                                                                                                                                                </div>
+                                                                                                 
+                                                                    </p>
+                                                                </div>
+                                                                <a class=" xemthem" href="https://jetcare.vn/san-pham/bao-hiem-vat-chat-xe-o-to.html" title="Bảo hiểm vật chất xe ô tô"> Xem chi tiết <i class="ion-ios-arrow-forward"></i> </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                            <div class="item-guarantee">
+                                            <div class="wpb_column box-guarantee box-guarantee1 vc_column_container ">
+                                                <div data-mobile-class="vc_custom_1561258909070" class="vc_column-inner vc_custom_1561258909066 list-guarantees">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vizac-addon-icon-box vizac-addon align-center layout-default text-center ">
+                                                            <div class="icon-box text-center item-guarantee" style="padding-bottom:10px!important">
+                                                                <div class="wrap-icon">
+                                                                    <div class="icon-image">
+                                                                        <a href="https://jetcare.vn/san-pham/bao-hiem-suc-khoe-kham-chua-benh.html" title="Bảo hiểm sức khỏe ( khám chữa bệnh)">
+                                                                            <img src="uploadImage/imgpsh_fullsize_anim (4)NgnubMB9EhPI80Zg0ret7aN6Npshz3TeJpb27NXQoNXb0PNynovQtpZGrXQTwFdI3KHSVaf61cKhWwBg.jpg" alt="Bảo hiểm sức khỏe ( khám chữa bệnh)">
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content">
+                                                                    <h3 class="title text-split text-split-1 p-sm-0">
+                                                                        Bảo hiểm sức khỏe ( khám chữa bệnh)
+                                                                    </h3>
+                                                                                                                                        <p class="price-insurrance m-0 price-product d-flex flex-wrap align-items-center justify-content-center">
+                                                                                                                                                    <div>
+                                                                                <span Class="lbl-price">Giá: </span>
+                                                                                                                                                                    Liên hệ
+                                                                                                                                                            </div>
+                                                                                                 
+                                                                    </p>
+                                                                </div>
+                                                                <a class=" xemthem" href="https://jetcare.vn/san-pham/bao-hiem-suc-khoe-kham-chua-benh.html" title="Bảo hiểm sức khỏe ( khám chữa bệnh)"> Xem chi tiết <i class="ion-ios-arrow-forward"></i> </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                            <div class="item-guarantee">
+                                            <div class="wpb_column box-guarantee box-guarantee1 vc_column_container ">
+                                                <div data-mobile-class="vc_custom_1561258909070" class="vc_column-inner vc_custom_1561258909066 list-guarantees">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vizac-addon-icon-box vizac-addon align-center layout-default text-center ">
+                                                            <div class="icon-box text-center item-guarantee" style="padding-bottom:10px!important">
+                                                                <div class="wrap-icon">
+                                                                    <div class="icon-image">
+                                                                        <a href="https://jetcare.vn/san-pham/bao-hiem-ung-thu.html" title="BẢo hiểm ung thư">
+                                                                            <img src="uploadImage/imgpsh_fullsize_anim (3)JCdY4Q2fvHsDofOr1QzazUuiTXd5lmkhYtiPr6XzOYf0NMEhdv6PuJ6DWEBv7teTYJ4tu1p6BODVKkeV.jpg" alt="BẢo hiểm ung thư">
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content">
+                                                                    <h3 class="title text-split text-split-1 p-sm-0">
+                                                                        BẢo hiểm ung thư
+                                                                    </h3>
+                                                                                                                                        <p class="price-insurrance m-0 price-product d-flex flex-wrap align-items-center justify-content-center">
+                                                                                                                                                    <div>
+                                                                                <span Class="lbl-price">Giá: </span>
+                                                                                                                                                                    Liên hệ
+                                                                                                                                                            </div>
+                                                                                                 
+                                                                    </p>
+                                                                </div>
+                                                                <a class=" xemthem" href="https://jetcare.vn/san-pham/bao-hiem-ung-thu.html" title="BẢo hiểm ung thư"> Xem chi tiết <i class="ion-ios-arrow-forward"></i> </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                            <div class="item-guarantee">
+                                            <div class="wpb_column box-guarantee box-guarantee1 vc_column_container ">
+                                                <div data-mobile-class="vc_custom_1561258909070" class="vc_column-inner vc_custom_1561258909066 list-guarantees">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vizac-addon-icon-box vizac-addon align-center layout-default text-center ">
+                                                            <div class="icon-box text-center item-guarantee" style="padding-bottom:10px!important">
+                                                                <div class="wrap-icon">
+                                                                    <div class="icon-image">
+                                                                        <a href="https://jetcare.vn/san-pham/bao-hiem-du-lich.html" title="Bảo hiểm du lịch">
+                                                                            <img src="uploadImage/imgpsh_fullsize_anim (2)MeIxNlGFd5IDBXVf7iv5SYP4WRCSSrKNHBFlbKWQibziXtzPwiiZ96SABtlfEtdLbdcLbuXwqeCTW0GG.jpg" alt="Bảo hiểm du lịch">
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="content">
+                                                                    <h3 class="title text-split text-split-1 p-sm-0">
+                                                                        Bảo hiểm du lịch
+                                                                    </h3>
+                                                                                                                                        <p class="price-insurrance m-0 price-product d-flex flex-wrap align-items-center justify-content-center">
+                                                                                                                                                    <div>
+                                                                                <span Class="lbl-price">Giá: </span>
+                                                                                                                                                                    0 VND
+                                                                                                                                                                </div>
+                                                                                                 
+                                                                    </p>
+                                                                </div>
+                                                                <a class=" xemthem" href="https://jetcare.vn/san-pham/bao-hiem-du-lich.html" title="Bảo hiểm du lịch"> Xem chi tiết <i class="ion-ios-arrow-forward"></i> </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                    </div>
+                                <div class="wrap-dot-slick"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="vc_row-full-width vc_clearfix"></div>
+
+
+            <!-- Banner intro -->
+            <div data-vc-full-width="true" data-vc-full-width-init="false" class="contract py-4 vc_row wpb_row vc_row-fluid vc_custom_1560612233806 vc_row-has-fill vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
+    <div class="container clearfix">
+        <div class="title-jetcare-partner">
+            <h2>Hợp tác Jetcare</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-12 col-md-6 col-lg-4 box-contract">
+                <div class="col-inner">
+                    <div class="box has-hover has-hover box-text-bottom">
+                        <div class="box-image">
+                            <img src="https://jetcare.vn/img/intro/tick.png" alt="jetcare - hợp tác">
+                        </div> 
+                        <h2 class="name-partner">
+                            Doanh nghiệp
+                        </h2>
+                        <div class="des-contract">
+                            <h3>BẢO HIỂM là cần thiết để giữ cho nhân viên an tâm trong cuộc sống
+                                JetCare sẽ tư vấn gói bảo hiểm phù hợp nhất:</h3>
+                            <p> Theo cấp độ quản lý.</p>
+                            <p>Theo tính chất công việc.</p>
+                            <p>Theo hoàn cảnh gia đình, độ tuổi.</p>
+                            <p>Theo ngân sách của doanh nghiệp.</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+            <div class="col-sm-6 col-12 col-md-6 col-lg-4 box-contract">
+                <div class="col-inner">
+                    <div class="box has-hover has-hover box-text-bottom">
+                        <div class="box-image">
+                            <img src="https://jetcare.vn/img/intro/tick.png" alt="jetcare - hợp tác">
+                        </div> 
+                        <h2 class="name-partner">
+                            ĐỐI TÁC PHÂN PHỐI
+                        </h2>
+                        <div class="des-contract">
+                            <h3>JetCare cung cấp các hàm API tích hợp vào hệ thống, giúp việc mua bảo hiểm và tra cứu thông tin dễ dàng.</h3>
+                            <h3>Chính sách chiết khấu cao theo sản lượng.</h3>
+                            <h3>Hệ thống quản trị linh hoạt.</h3>
+                            <p>Hệ thống quản trị linh hoạt, tra cứu trình xuất và theo dõi doanh số thuận tiện. </p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+            <div class="col-sm-6 col-12 col-md-6 col-lg-4 box-contract">
+                <div class="col-inner">
+                    <div class="box has-hover has-hover box-text-bottom">
+                        <div class="box-image">
+                            <img src="https://jetcare.vn/img/intro/tick.png" alt="jetcare - hợp tác">
+                        </div> 
+                        <h2 class="name-partner">
+                            CÁC SỰ KIỆN NGẮN HẠN
+                        </h2>
+                        <div class="des-contract">
+                            <h3>Các gói sản phẩm bảo hiểm rủi ro ngắn hạn</h3>
+                            <p>Bảo hiểm cho 01 sự kiện âm nhạc có 5,000 người tham gia.</p>
+                            <p>Bảo hiểm cho 01 trận đấu bóng đá có 20,000 người xem. </p>
+                            <p>Bảo hiểm cho 01 lễ hội (Festival Hoa, lễ hội pháo hoa, …).</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="vc_row-full-width vc_clearfix"></div>            <!-- Our team -->
+            <div
+    data-tablet-class="vc_custom_1561260809773"
+    data-mobile-class="vc_custom_1561260809773"
+    data-vc-full-width="true"
+    data-vc-full-width-init="true"
+    class=" vc_row wpb_row vc_row-fluid bg-position-center-center vc_custom_1561260809771 vc_row-has-fill" style="background:white"
+>
+    <div class="container clearfix px-4 px-lg-0">
+        <div class="vc_row">
+            <div class="wpb_column vc_column_container vc_col-sm-12">
+                <div class="vc_column-inner">
+                    <div class="vizac-addon-heading vizac-addon layout-default text-center vc_custom_1560622278308">
+                        <div class="wrap-shortcode" style="max-width: 480px;">
+                            <div class="sub-title-team ">Jetcare</div>
+                            <h3 class=" title-team">Đội ngũ Jetcare</h3>
+                        </div>
+                    </div>
+                    <div class="wpb_wrapper">
+                        <div class="vizac-addon-testimonials vizac-addon layout-default">
+                            <div
+                                class="slide-list-portfolio js-call-slick-col-list-portfolio"
+                                data-numofshow="3"
+                                data-numofscroll="3"
+                                data-loopslide="1"
+                                data-autoscroll="1"
+                                data-speedauto="1500"
+                                data-responsive="[4, 1], [4, 1], [2, 1], [2, 1], [1, 1]"
+                            >
+                                <div class="wrap-arrow-slick">
+                                    <div class="arow-slick prev-slick ">
+                                        <i class="ion ion-ios-arrow-left"></i>
+                                    </div>
+                                    <div class="arow-slick next-slick">
+                                        <i class="ion ion-ios-arrow-right"></i>
+                                    </div>
+                                </div>
+                                <div class="slide-slick">
+                                    <div class="item-slick box-employee">
+                                        <div class="item-inner">
+                                            <div class="avatar-contact">
+                                                <div class="avatar">
+                                                    <img
+                                                        src="img/team/ceo1.png"
+                                                        alt="Nguyễn Dương Huy Vũ
+                                                        title="Nguyễn Dương Huy Vũ"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <h4 class="name-employee">
+                                                    Nguyễn Dương Huy Vũ
+                                                </h4>
+                                                <div class="employee-job">
+                                                    CEO &#38; Founder
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-slick box-employee">
+                                        <div class="item-inner">
+                                            <div class="avatar-contact">
+                                                <div class="avatar">
+                                                    <img
+                                                    src="img/team/ql1.png"
+                                                    alt="Nguyễn thị Thu Hiền"
+                                                    title="Nguyễn thị Thu Hiền"
+                                                    
+                                                />
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <h4 class="name-employee">
+                                                    Nguyễn thị Thu Hiền
+                                                </h4>
+                                                <div class="employee-job">
+                                                    Quản lí dự án
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-slick box-employee">
+                                        <div class="item-inner">
+                                            <div class="avatar-contact">
+                                                <div class="avatar">
+                                                    <img
+                                                    src="img/team/ql2.png"
+                                                    alt="Trần Quang tuyến"
+                                                    title="Trần Quang tuyến"
+                                                    
+                                                />
+                                                </div>
+                                            </div>
+
+                                            <div class="info">
+                                                <h4 class="name-employee">
+                                                    Trần Quang tuyến
+                                                </h4>
+                                                <div class="employee-job">
+                                                    Quản lí kỹ thuật
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-slick box-employee">
+                                        <div class="item-inner">
+                                            <div class="avatar-contact">
+                                                <div class="avatar">
+                                                    <img
+                                                    src="img/team/ql4.png"
+                                                    alt="Mr Quốc"
+                                                    title="Mr Quốc"
+                                                />
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <h4 class="name-employee">
+                                                    Mr Quốc
+                                                </h4>
+                                                <div class="employee-job">
+                                                    CTO IMT SOFT
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-slick box-employee">
+                                        <div class="item-inner">
+                                            <div class="avatar-contact">
+                                                <div class="avatar">
+                                                    <img
+                                                        src="img/team/ceo.png"
+                                                        alt="Mr Lộc
+                                                        title="Mr Lộc"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div class="info">
+                                                <h4 class="name-employee">
+                                                    Mr Lộc
+                                                </h4>
+                                                <div class="employee-job">
+                                                    CEO VNpower
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap-dot-slick"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="vc_row-full-width vc_clearfix"></div>            <!-- Đối tác -->
+            <div
+    data-tablet-class="vc_custom_1561260809773"
+    data-mobile-class="vc_custom_1561260809773"
+    data-vc-full-width="true"
+    data-vc-full-width-init="true"
+    class=" doitac vc_row wpb_row vc_row-fluid bg-position-center-center vc_custom_1561260809771 vc_row-has-fill" style="background:white"
+>
+    <div class="container clearfix">
+        <div class="vc_row">
+            <div class="wpb_column vc_column_container vc_col-sm-12">
+                <div class="vc_column-inner">
+                    <div class="vizac-addon-heading vizac-addon layout-default text-center vc_custom_1560622278308">
+                        <div class="wrap-shortcode" style="max-width: 480px;">
+                            <div class="sub-title-team title ">Đối tác</div>
+                        </div>
+                    </div>
+                    <div class="wpb_wrapper">
+                        <div class="vizac-addon-testimonials vizac-addon layout-default">
+                            <div
+                                class="slide-list-portfolio js-call-slick-col-list-portfolio"
+                                data-numofshow="5"
+                                data-numofscroll="1"
+                                data-loopslide="1"
+                                data-autoscroll="1"
+                                data-speedauto="1500"
+                                data-responsive="[5, 1], [5, 1], [2, 1], [2, 1], [1, 1]"
+                            >
+                                <div class="wrap-arrow-slick">
+                                    <div class="arow-slick prev-slick  prev-partner">
+                                    <i class="ion ion-ios-arrow-left"></i>
+                                    </div>
+                                    <div class="arow-slick next-slick next-partner">
+                                    <i class="ion ion-ios-arrow-right"></i>
+                                    </div>
+                                </div>
+                                <div class="slide-slick">
+                                    <div class="item-slick box-employee">
+                                        <div class="item-inner">
+                                            <div class="avatar-contact">
+                                                <div class="avatar avata-doitac">
+                                                    <img
+                                                    src="img/partner/dt1.png"
+                                                    alt="Đối tác"
+                                                    title="Đối tác"
+                                                />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-slick box-employee">
+                                        <div class="item-inner">
+                                            <div class="avatar-contact">
+                                                <div class="avatar avata-doitac">
+                                                    <img
+                                                    src="img/partner/dt2.png"
+                                                    alt="Đối tác"
+                                                    title="Đối tác"
+                                                />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-slick box-employee d-none">
+                                        <div class="item-inner">
+                                            <div class="avatar-contact">
+                                                <div class="avatar avata-doitac">
+                                                    <img
+                                                src="img/partner/dt3.png"
+                                                alt="Đối tác"
+                                                title="Đối tác"
+                                            />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-slick box-employee">
+                                        <div class="item-inner ">
+                                            <div class="avatar-contact">
+                                                <div class="avatar avata-doitac">
+                                                    <img
+                                                    src="img/partner/Logo-BSH.jpg"
+                                                    alt="Đối tác"
+                                                    title="Đối tác"
+                                                />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-slick box-employee">
+                                        <div class="item-inner">
+                                            <div class="avatar-contact">
+                                                <div class="avatar avata-doitac">
+                                                    <img
+                                                    src="img/partner/dt5.png"
+                                                    alt="Đối tác"
+                                                    title="Đối tác"
+                                                />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-slick box-employee">
+                                        <div class="item-inner">
+                                            <div class="avatar-contact">
+                                                <div class="avatar avata-doitac">
+                                                    <img
+                                                    src="img/partner/dt6.png"
+                                                    alt="Đối tác"
+                                                    title="Đối tác"
+                                                />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap-dot-slick"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="vc_row-full-width vc_clearfix"></div>            
+        </div>
+    </div>
+</div>
+                <!-- Messenger Plugin chat Code -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v10.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- Your Plugin chat code -->
+<div class="fb-customerchat"
+  attribution="page_inbox"
+  page_id="102957311369271">
+</div>                <footer class="site-footer layout-1">
+    <div class="wrap-footer">
+        <div class="footer">
+            <div class="container">
+                <div class="footer-sidebars">
+                    <div class="footer-top d-flex align-item-center justify-content-between">
+                        <div class="footertop-left">
+                            <div class="title-footer">
+                                <h2>Thông tin liên hệ</h2>
+                                <h3 class="name-company-footer">
+                                JetCare JSC - Insurtech Startup
+                                </h3>
+                            </div>
+                            <div class="inforcompany-footer">
+                                <ul>
+                                    <li>
+                                        <p><span class="lbl-title">Trụ sở:</span> 459 Sư Vạn Hạnh, Phường 12, Quận 10, TPHCM.</p>
+                                    </li>
+                                    <li>
+                                        <p><span class="lbl-title">VPGD:</span> Tầng 02, Tòa nhà Rubyland, số 4 Lê Quát, Tân Thới Hòa, Tân Phú, TPHCM.</p>
+                                    </li>
+                                    <li>
+                                        <p><span class="lbl-title">SĐT:</span> 0899 17 22 48</p>
+                                    </li>
+                                    <li>
+                                        <p><span class="lbl-title">Email:</span> info@JetCare.vn</p>
+                                    </li>
+                                    <li><a class="privacy-item" href="https://jetcare.vn/chinh-sach-bao-mat-va-quyen-rieng-tu"> Chính sách và quyền riêng tư</a></li>
+                                </ul>
+                            </div>
+                            <div class="box-map">
+                                <div class="fb-page" 
+                                    data-href="https://www.facebook.com/JetCare.vn/" 
+                                    data-tabs="timeline" 
+                                    data-width="440" 
+                                    data-height="220" 
+                                    data-small-header="true" 
+                                    data-adapt-container-width="true" 
+                                    data-hide-cover="false" data-show-facepile="true">
+                                    <div class="fb-xfbml-parse-ignore">
+                                    <blockquote cite="https://www.facebook.com/JetCare.vn/">
+                                    <a href="https://www.facebook.com/JetCare.vn/" title="jetcare- Vì triệu người dân được bảo hiểm">Facebook</a>
+                                    </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-top-right">
+                            <div class="box-image-footer">
+                                <img src="https://jetcare.vn/img/intro/image-footer2.png" alt="Jetcare - Vì triệu người dân được bảo hiểm">
+                            </div>
+                            <div class="mb-sm-0 mb24">
+                                <a href="https://apps.apple.com/vn/app/jetcare/id1530321303?l=vi" class="mb-sm-0 mb-4 image-app" title="Tải app jetcare - ios"><img src="https://jetcare.vn/img/app/ios.png" alt=""></a>
+                                <a href="https://play.google.com/store/apps/details?id=vn.jetcare.app" class="mb-sm-0 mb-4 mt-md-0 mt-2 image-app" title="Tải app jetcare - android"><img src="https://jetcare.vn/img/app/android.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright-area">
+            <div class="container">
+                <div class="copyright-content ">
+                    <p class="m-0">COPYRIGHT 2020 © JetCare</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>            </div>
+        </div>
+        <script type="text/javascript">
+            if (typeof revslider_showDoubleJqueryError === "undefined") {
+                function revslider_showDoubleJqueryError(sliderID) {
+                    var err = "<div class='rs_error_message_box'>";
+                    err += "<div class='rs_error_message_oops'>Oops...</div>";
+                    err += "<div class='rs_error_message_content'>";
+                    err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+                    err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' ->  'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+                    err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+                    err += "</div>";
+                    err += "</div>";
+                    jQuery(sliderID).show().html(err);
+                }
+            }
+        </script>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" id="vizac-widget-search-css-css" href="https://jetcare.vn/wp-content/plugins/vizac-addons/inc/widgets/search/assets/css/search251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="vizac-icon-box-css-css" href="https://jetcare.vn/wp-content/plugins/vizac-addons/inc/shortcodes/icon-box/assets/css/icon-box251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="vizac-heading-css-css" href="https://jetcare.vn/wp-content/plugins/vizac-addons/inc/shortcodes/heading/assets/css/heading251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="vizac-button-css-css" href="https://jetcare.vn/wp-content/plugins/vizac-addons/inc/shortcodes/button/assets/css/button251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="vizac-counter-box-css-css" href="https://jetcare.vn/wp-content/plugins/vizac-addons/inc/shortcodes/counter-box/assets/css/counter-box251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="vizac-portfolio-css-css" href="https://jetcare.vn/wp-content/plugins/vizac-addons/inc/shortcodes/portfolio/assets/css/portfolio251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="vizac-our-team-css-css" href="https://jetcare.vn/wp-content/plugins/vizac-addons/inc/shortcodes/our-team/assets/css/our-team251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="font-awesome-css" href="https://jetcare.vn/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min1eb7.css?ver=6.0.3" type="text/css" media="all" />
+        <link rel="stylesheet" id="vizac-testimonials-css-css" href="https://jetcare.vn/wp-content/plugins/vizac-addons/inc/shortcodes/testimonials/assets/css/testimonials251f.css?ver=5.2.10" type="text/css" media="all" />
+        <link rel="stylesheet" id="vizac-posts-css-css" href="https://jetcare.vn/wp-content/plugins/vizac-addons/inc/shortcodes/posts/assets/css/posts251f.css?ver=5.2.10" type="text/css" media="all" />
+
+        <link
+            rel="stylesheet"
+            id="yikes-inc-easy-mailchimp-public-styles-css"
+            href="https://jetcare.vn/wp-content/plugins/yikes-inc-easy-mailchimp-extender/public/css/yikes-inc-easy-mailchimp-extender-public.min251f.css?ver=5.2.10"
+            type="text/css"
+            media="all"
+        />
+        <script type="text/javascript" src="https://jetcare.vn/wp-content/themes/vizac/assets/libs/slick/slick.min251f.js?ver=5.2.10"></script>
+        <script type="text/javascript" src="https://jetcare.vn/wp-content/plugins/vizac-addons/assets/libs/animate/wow.min251f.js?ver=5.2.10"></script>
+        <script type="text/javascript" src="https://jetcare.vn/wp-content/themes/vizac/assets/libs/smoothscroll/smooth-scroll251f.js?ver=5.2.10"></script>
+        <script type="text/javascript" src="https://jetcare.vn/wp-content/themes/vizac/assets/js/main8a54.js?ver=1.0.0"></script>
+        <script type="text/javascript" src="https://jetcare.vn/wp-content/plugins/vizac-addons/assets/js/shortcodes5152.js?ver=1.0"></script>
+        <script type="text/javascript" src="https://jetcare.vn/wp-content/plugins/vizac-addons/inc/widgets/search/assets/js/search251f.js?ver=5.2.10"></script>
+        <script type="text/javascript" src="https://jetcare.vn/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min1eb7.js?ver=6.0.3"></script>
+        <script type="text/javascript" src="https://jetcare.vn/wp-content/plugins/vizac-addons/inc/shortcodes/portfolio/assets/js/portfolio251f.js?ver=5.2.10"></script>
+        <script type="text/javascript" src="https://jetcare.vn/wp-content/plugins/vizac-addons/inc/shortcodes/testimonials/assets/js/testimonials251f.js?ver=5.2.10"></script>
+
+        <script type="text/javascript" src="https://jetcare.vn/wp-content/plugins/yikes-inc-easy-mailchimp-extender/public/js/yikes-mc-ajax-forms.minef10.js?ver=6.5.3"></script>
+
+        <script type="text/javascript" src="https://jetcare.vn/wp-content/plugins/yikes-inc-easy-mailchimp-extender/public/js/form-submission-helpers.minef10.js?ver=6.5.3"></script>
+        <script>
+            var url =window.location.href;
+            var parts = url.split("/");
+            var lastStringUrl=(parts[parts.length-1]);
+            if(lastStringUrl != ''){
+                const linkTitle = document.querySelectorAll('.link-menu-item ');
+                $(document).ready(function($){
+                    $(".link-menu-item").removeClass("active");
+                    $(linkTitle).each(function(index, obj){
+                        var hrefa = $(obj).prop('href');
+
+                        if(hrefa.includes(lastStringUrl))
+                        {
+                            $(obj).addClass('active');
+                        }
+                })});
+            }
+        </script>
+
+        
+        <script>
+            $(document).ready(function($){
+                $(window).scroll(function(){
+                    if($(window).scrollTop() >= 300 )
+                        $("#popup").addClass('active');
+                    else
+                        $("#popup").removeClass('active');
+                });
+            });
+        </script>
+        
+        <script>
+            function closeBanner() {
+              document.getElementById("popup-dowload").style.display = "none!important";
+            }
+        </script>
+        <script>
+            $(document).ready(function($){
+                if(screen.width < 767){
+                    if( /iP(hone|od|ad)/i.test(navigator.userAgent) ) { 
+                        $("#banner-android").hide();
+                    }
+                    else{
+                        $("#banner-ios").hide();
+                    }
+                }
+            });
+            $(document).ready(function($){
+                $(".btn-close-popup").click(function(){
+                    $("#banner-android").hide();
+                    $("#banner-ios").hide();
+                    $("#popup-dowload").hide();
+                });
+            });
+        </script>
+    </body>
+
+    <!-- Mirrored from demo.adobitheme.com/vizac/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Apr 2021 01:27:21 GMT -->
+</html>

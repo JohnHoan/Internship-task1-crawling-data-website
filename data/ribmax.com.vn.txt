@@ -1,0 +1,696 @@
+
+<!DOCTYPE html>
+<html  id="" lang="vi" dir="ltr" data-pnotify-firstpos1="0">
+<head>
+    <meta charset="utf-8">
+    <title itemprop="name">Ribmax - Đậm chất đàn ông, phục hồi sinh lực phái mạnh</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover, shrink-to-fit=no">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="description" content="Ribmax - Đậm chất đàn ông, phục hồi sinh lực phái mạnh, ..." />
+    <meta name="keywords" content="Ribmax, Đậm chất đàn ông, phục hồi sinh lực phái mạnh" />
+    <meta name="generator" content="Smartstore 4.1.1.0" />
+    <meta property="sm:root" content="/" />
+
+
+
+    
+
+
+
+<script>
+    try {
+        if (typeof navigator === 'undefined') navigator = {};
+        html = document.documentElement;
+        if (/Edge\/\d+/.test(navigator.userAgent)) { html.className += ' edge' }
+        else if ('mozMatchesSelector' in html) { html.className += ' moz' }
+        else if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) { html.className += ' ios' }
+        else if ('webkitMatchesSelector' in html) { html.className += ' wkit' }
+        else if (/constructor/i.test(window.HTMLElement)) { html.className += ' safari' };
+        html.className += (this.top === this.window ? ' not-' : ' ') + 'framed';
+    } catch (e) { }
+</script>
+<!--[if !IE]>-->
+<script>var ieMode = 0; try { if (document.documentMode) { ieMode = document.documentMode; html.className += ' ie iepost8 ie' + document.documentMode } else { html.className += ' not-ie' }; } catch (e) { }; navigator.isIE = ieMode</script>
+<!-- <![endif]-->
+
+<script>
+    if (navigator.isIE) {
+        document.addEventListener('DOMContentLoaded', function () {
+            // Add html alert after header, before content
+            const alert = document.createElement('div');
+            alert.className = 'container alert alert-warning mt-3';
+            alert.innerText = "common.unsupportedbrowser";
+            const page = document.getElementsByClassName('page-main');
+            if (page.length < 1) return;
+
+            const content = document.getElementById('content-wrapper');
+            if (!content) return;
+
+            page[0].insertBefore(alert, content);
+        });
+    }
+</script>
+
+    
+    <meta name="accept-language" content="vi-VN"/>
+
+
+<script>
+	window.Res = {
+ "Common.Notification": "Thông báo\r\n",  "Common.Close": "Đóng\r\n",  "Common.On": "Trên\r\n",  "Common.OK": "OK",  "Common.Cancel": "Hủy bỏ\r\n",  "Common.Off": "Tắt\r\n",  "Common.CtrlKey": "Ctrl\r\n",  "Common.ShiftKey": "Ca\r\n",  "Common.AltKey": "Alt\r\n",  "Common.DelKey": "Del\r\n",  "Common.EnterKey": "Đi vào\r\n",  "Common.EscKey": "\tEsc",  "Products.Longdesc.More": "Cho xem nhiều hơn\r\n",  "Products.Longdesc.Less": "Hiện ít hơn\r\n",  "Jquery.Validate.Email": "Vui lòng nhập một địa chỉ email hợp lệ.\r\n",  "Jquery.Validate.Required": "Lĩnh vực này là bắt buộc.\r\n",  "Jquery.Validate.Remote": "Vui lòng sửa phạm vi này.\r\n",  "Jquery.Validate.Url": "Vui lòng nhập một URL hợp lệ.\r\n",  "Jquery.Validate.Date": "Vui lòng nhập một ngày hợp lệ.\r\n",  "Jquery.Validate.DateISO": "Vui lòng nhập một ngày hợp lệ (ISO).\r\n",  "Jquery.Validate.Number": "Vui lòng nhập một số hợp lệ.\r\n",  "Jquery.Validate.Digits": "Vui lòng chỉ nhập các chữ số.\r\n",  "Jquery.Validate.Creditcard": "Vui lòng nhập số thẻ tín dụng hợp lệ.\r\n",  "Jquery.Validate.Equalto": "Vui lòng nhập lại cùng một giá trị.\r\n",  "Jquery.Validate.Maxlength": "Vui lòng nhập không quá {0} ký tự.\r\n",  "Jquery.Validate.Minlength": "Vui lòng nhập ít nhất {0} ký tự.\r\n",  "Jquery.Validate.Rangelength": "Vui lòng nhập một giá trị trong khoảng từ {0} đến {1} ký tự.\r\n",  "jquery.Validate.Range": "Vui lòng nhập một giá trị trong khoảng từ {0} đến {1}.\r\n",  "Jquery.Validate.Max": "Vui lòng nhập một giá trị nhỏ hơn hoặc bằng {0}.\r\n",  "Jquery.Validate.Min": "Vui lòng nhập giá trị lớn hơn hoặc bằng {0}.\r\n",  "Admin.Common.AreYouSure": "Bạn có chắc không?\r\n",  "FileUploader.Dropzone.Message": "Để tải lên các tập tin thả chúng ở đây hoặc bấm vào\r\n",  "FileUploader.Dropzone.DictDefaultMessage": "Thả file vào đây để upload\r\n",  "FileUploader.Dropzone.DictFallbackMessage": "Trình duyệt của bạn không hỗ trợ tải lên tập tin drag'n'drop.\r\n",  "FileUploader.Dropzone.DictFallbackText": "Vui lòng sử dụng mẫu dự phòng dưới đây để tải lên các tệp của bạn như trong những ngày xa xưa.\r\n",  "FileUploader.Dropzone.DictFileTooBig": "Tệp quá lớn ({{filesize}} MiB). Kích thước tệp tối đa: {{maxFilesize}} MiB.\r\n",  "FileUploader.Dropzone.DictInvalidFileType": "Bạn không thể tải lên các tập tin loại này.\r\n",  "FileUploader.Dropzone.DictResponseError": "Máy chủ đã trả lời bằng mã {{statusCode}}.\r\n",  "FileUploader.Dropzone.DictCancelUpload": "Hủy tải lên\r\n",  "FileUploader.Dropzone.DictUploadCanceled": "Tải lên bị hủy.\r\n",  "FileUploader.Dropzone.DictCancelUploadConfirmation": "Bạn có chắc chắn muốn hủy tải lên này?\r\n",  "FileUploader.Dropzone.DictRemoveFile": "Xóa tập tin\r\n",  "FileUploader.Dropzone.DictMaxFilesExceeded": "Bạn không thể tải lên bất kỳ tập tin nữa.\r\n",  "FileUploader.StatusWindow.Uploading.File": "tập tin đang tải lên\r\n",  "FileUploader.StatusWindow.Uploading.Files": "tập tin đang tải lên\r\n",  "FileUploader.StatusWindow.Complete.File": "tải lên hoàn tất\r\n",  "FileUploader.StatusWindow.Complete.Files": "tải lên hoàn tất\r\n",  "FileUploader.StatusWindow.Canceled.File": "hủy tải lên\r\n",  "FileUploader.StatusWindow.Canceled.Files": "tải lên bị hủy\r\n",     };
+
+    window.ClientId = "534f775e-9247-404d-9447-e44d872b8aa0";
+</script>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i' rel='stylesheet' type='text/css'>
+
+
+    
+    <link as="image" href="//ribmax.com.vn/media/253/content/Logo-Header.png" rel="preload" />
+<link as="font" crossorigin="" href="/Content/fontastic/fonts/fontastic.woff" rel="preload" />
+<link as="font" crossorigin="" href="/Content/vendors/fa5/webfonts/fa-solid-900.woff2" rel="preload" />
+<link as="font" crossorigin="" href="/Content/vendors/fa5/webfonts/fa-regular-400.woff2" rel="preload" />
+
+
+
+
+
+
+
+
+
+    <link href="/bundles/css/kaiwroqv5h-z1rrtpbcsflbsbcvwh2pvbrxbslqbuw41?v=r_iu9C0McGILBwpJ5Jh0sPHr58ocqkB_QNBUvsmdW201" rel="stylesheet"/>
+
+<link href="/Themes/Flex/Content/theme.scss" rel="stylesheet" type="text/css" />
+
+    <script src="/bundles/js/w7ar7xaahjxetk7y541-liwb0fnuimdqdas0qtmrxoa1?v=8Ywxgy-xHzt53KjDA9qzUGP_Uv0gvVwf0iyEcYxaCGY1"></script>
+
+
+
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MHK7XPG');</script>
+<!-- End Google Tag Manager -->
+
+
+    <script>jQuery(function () { if (SmartStore.globalization) { SmartStore.globalization.culture = {"name":"vi-VN","englishName":"Vietnamese (Vietnam)","nativeName":"Tiếng Việt (Việt Nam)","isRTL":false,"language":"vi","numberFormat":{",":".",".":",","pattern":[1],"decimals":2,"groupSizes":[3],"+":"+","-":"-","NaN":"NaN","negativeInfinity":"-∞","positiveInfinity":"∞","percent":{",":".",".":",","pattern":[1,1],"decimals":2,"groupSizes":[3],"symbol":"%"},"currency":{",":".",".":",","pattern":[8,3],"decimals":2,"groupSizes":[3],"symbol":"₫"}},"dateTimeFormat":{"calendarName":"Dương Lịch","/":"/",":":":","firstDay":1,"twoDigitYearMax":2029,"AM":["SA","sa","SA"],"PM":["CH","ch","CH"],"days":{"names":["Chủ Nhật","Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy"],"namesAbbr":["CN","T2","T3","T4","T5","T6","T7"],"namesShort":["C","H","B","T","N","S","B"]},"months":{"names":["Tháng Giêng","Tháng Hai","Tháng Ba","Tháng Tư","Tháng Năm","Tháng Sáu","Tháng Bảy","Tháng Tám","Tháng Chín","Tháng Mười","Tháng Mười Một","Tháng Mười Hai",""],"namesAbbr":["Thg1","Thg2","Thg3","Thg4","Thg5","Thg6","Thg7","Thg8","Thg9","Thg10","Thg11","Thg12",""]},"patterns":{"d":"dd/MM/yyyy","D":"dd MMMM yyyy","t":"h:mm tt","T":"h:mm:ss tt","g":"dd/MM/yyyy h:mm tt","G":"dd/MM/yyyy h:mm:ss tt","f":"dd MMMM yyyy h:mm:ss tt","F":"dd MMMM yyyy h:mm:ss tt","M":"dd MMMM","Y":"MMMM yyyy","u":"yyyy'-'MM'-'dd HH':'mm':'ss'Z'"}}}; }; });</script>
+<meta property='sm:pagedata' content='{"type":"home","id":0,"menuItemId":0,"entityId":0,"parentId":null}' />
+
+
+    <script src="/Scripts/smartstore.globalization.adapter.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+    <link href="/Content/style-custom.css" rel="stylesheet" />
+
+    <!--Powered by Smartstore - https://www.smartstore.com-->
+</head>
+<body class="lyt-cols-1 home">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHK7XPG"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0&appId=977819312687491&autoLogAppEvents=1" nonce="Rusi2EtR"></script>
+
+    
+<div id="page">
+    <div class="canvas-blocker canvas-slidable"></div>
+
+    <div class="page-main canvas-slidable">
+            <header id="header">
+                
+                <div class="shopbar-section shopbar-inverse"> 
+                    <div class="container shopbar-container">
+
+<div class="shopbar py-2">
+    <div class="shopbar-left">
+        <div class="d-sm-block d-none">
+            <a href="/mua-ngay" class="btn btn-lg btn-primary">ĐẶT HÀNG NGAY</a>
+        </div>
+            <div class="d-sm-block d-none mt-2">
+           <a href="tel:0911828288#" class="btn btn-lg btn-secondary">GỌI NGAY 0911 828 288</a>
+        </div>
+    </div>
+    <div class="shopbar-col-group shopbar-col-group-brand">
+        <!-- LOGO -->
+        <div class="shopbar-col shop-logo m-auto">
+
+<a href="/" class="brand">          
+        <img src='//ribmax.com.vn/media/253/content/Logo-Header.png' 
+            alt="Ribmax" 
+            title="Ribmax"
+			class="img-fluid"
+            width="1240"
+            height="452" />
+</a>
+
+        </div>
+
+        <!-- SEARCH -->
+        
+    </div>
+
+    <div class="shopbar-col-group shopbar-col-group-tools shopbar-right">
+        <!-- TOOLS -->
+
+
+<div class="shopbar-col shopbar-tools" data-summary-href="/shoppingcart/cartsummary?cart=True&amp;wishlist=False&amp;compare=True">
+
+	<!-- Hamburger Menu -->
+	<div class="shopbar-tool d-lg-none" id="shopbar-menu">
+		<a class="shopbar-button" href="#" data-toggle="offcanvas" data-autohide="true" data-placement="left" data-fullscreen="false" data-disablescrolling="true" data-target="#offcanvas-menu">
+			<span class="shopbar-button-icon">
+				<i class="icm icm-menu"></i>
+			</span>
+			<span class="shopbar-button-label-sm">
+				Menu
+
+			</span>
+		</a>
+	</div>
+
+
+
+	<!-- User -->
+	<div class="shopbar-tool d-lg-none" id="shopbar-user">
+		<a class="shopbar-button" href="/login?returnUrl=%2F">
+			<span class="shopbar-button-icon">
+				<i class="icm icm-user"></i>
+			</span>
+			<span class="shopbar-button-label-sm">
+				Đăng nhập
+
+			</span>
+		</a>
+	</div>
+
+	
+
+	
+
+		<div class="shopbar-tool" id="shopbar-cart" data-target="#cart-tab">
+			<a href="/cart" class="shopbar-button navbar-toggler" data-toggle="offcanvas" data-summary-href="/shoppingcart/cartsummary?cart=True"
+			   data-autohide="true" data-placement="right" data-fullscreen="false" data-disablescrolling="true" data-target="#offcanvas-cart">
+				<span class="shopbar-button-icon">
+					<i class="icm icm-bag"></i>
+					<span class='badge badge-pill label-cart-amount badge-primary' style="display:none" data-bind-to="CartItemsCount">
+						0
+					</span>
+				</span>
+				<span class="shopbar-button-label">
+					<span>Mua sắm
+</span><br />
+					<strong>Giỏ hàng
+</strong>
+				</span>
+				<span class="shopbar-button-label-sm">
+					Giỏ hàng
+
+				</span>
+			</a>
+		</div>
+
+
+
+</div>
+
+
+
+    </div>
+</div>
+                    </div>
+                </div>
+                <div class="megamenu-section d-none d-lg-block">
+                    <nav class='navbar navbar-inverse'>
+                        <div class="container megamenu-container">
+
+
+
+<div class="megamenu simple">
+
+
+
+<div class="cms-menu cms-menu-navbar" data-menu-name="main">
+    <div class="megamenu-nav megamenu-nav--prev alpha">
+	    <a href="#" class="megamenu-nav-btn btn btn-icon"><i class="far fa-chevron-left"></i></a>
+    </div>
+
+    <ul class="navbar-nav flex-row flex-nowrap justify-content-center" id="menu-main">
+
+            <li id="main-nav-item-7326690416" data-id="7326690416" class="nav-item selected">
+                <a href="/" class="nav-link menu-link">
+					<span >TRANG CHỦ</span>
+                </a>
+            </li>
+            <li id="main-nav-item-1931623237" data-id="1931623237" title="RIBMAX- ĐẬM CHẤT ĐÀN ÔNG" class="nav-item">
+                <a href="/dam-chat-dan-ong" class="nav-link menu-link">
+					<span >RIBMAX- ĐẬM CHẤT Đ&#192;N &#212;NG</span>
+                </a>
+            </li>
+            <li id="main-nav-item-3991303478" data-id="3991303478" class="nav-item">
+                <a href="/blog" class="nav-link menu-link">
+					<span >SỨC KHỎE SINH L&#221; NAM</span>
+                </a>
+            </li>
+            <li id="main-nav-item-8473536013" data-id="8473536013" class="nav-item">
+                <a href="/mua-ngay" class="nav-link menu-link">
+					<span >MUA NGAY</span>
+                </a>
+            </li>
+            <li id="main-nav-item-1701148478" data-id="1701148478" class="nav-item">
+                <a href="#" class="nav-link menu-link">
+					<span >HỎI - Đ&#193;P</span>
+                </a>
+            </li>
+            <li id="main-nav-item-2472773026" data-id="2472773026" class="nav-item">
+                <a href="http://tueduchealthy.vn/contact" class="nav-link menu-link">
+					<span >LI&#202;N HỆ</span>
+                </a>
+            </li>
+
+    </ul>
+
+    <div class="megamenu-nav megamenu-nav--next omega">
+	    <a href="#" class="megamenu-nav-btn btn btn-icon"><i class="far fa-chevron-right"></i></a>
+    </div>
+</div>
+</div>
+
+<div class="megamenu-dropdown-container simple">
+        <div id="dropdown-menu-7326690416" data-id="7326690416">
+            <div class='dropdown-menu'></div>
+        </div>
+        <div id="dropdown-menu-1931623237" data-id="1931623237">
+            <div class='dropdown-menu'></div>
+        </div>
+        <div id="dropdown-menu-3991303478" data-id="3991303478">
+            <div class='dropdown-menu'></div>
+        </div>
+        <div id="dropdown-menu-8473536013" data-id="8473536013">
+            <div class='dropdown-menu'></div>
+        </div>
+        <div id="dropdown-menu-1701148478" data-id="1701148478">
+            <div class='dropdown-menu'></div>
+        </div>
+        <div id="dropdown-menu-2472773026" data-id="2472773026">
+            <div class='dropdown-menu'></div>
+        </div>
+
+</div>
+
+
+<script>
+    $(function () {
+        $(".megamenu-container").megaMenu();
+    });
+</script>    
+						</div>
+					</nav>
+				</div>
+			</header>
+
+        <div id="content-wrapper">
+
+            <section id="content" class="m-0">
+
+                <div id="content-body" class="row">
+
+
+					<div id="content-center" class="col-lg-12">
+
+
+<div class="page home-page">
+    <div class="page-body">
+		 <div class="slider">
+             <div class="landing-slider owl-carousel owl-theme">
+                 
+                 <div class="item">
+                     <div class="img-effect">
+                         <a href="/mua-ngay" target="_blank">
+                             <img src="/Content/Images/slider-1.jpg" />
+                         </a>
+                     </div>
+                 </div>
+                 <div class="item">
+                     <div class="img-effect">
+                         <a href="/mua-ngay" target="_blank">
+                             <img src="/Content/Images/slider-2.jpg" />
+                         </a>
+                     </div>
+                 </div>
+             </div>
+		</div>
+        
+        <section id="area1" class="bg-custom-dark py-5 position-relative">
+            <div class="bg-lion position-absolute" style="bottom: 0; left: 20%">
+                <img src="/Content/Images/lion.png" style="height: 700px;"/>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-12 mb-5">
+                        <div class="card card-absolute">
+                            <div class="card-header bg-custom-dark-light">
+                                <h5 class="text-white">RA TRẬN CHỚP NHOÁNG?</h5>
+                            </div>
+                            <div class="card-body pricingtable">
+                                <div class="text-dark">Cứ 3 cầu thủ ra trận, thì có 1 người "kết thúc trận sớm". Thời gian xuất tinh trùng của đàn ông trên toàn thế giới là 7-15 phút. Thời gian từ lúc giao hợp đến lúc xuất tinh dưới 2 phút được xem là sớm các quý ông nhé</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 mb-5">
+                        <div class="card card-absolute">
+                            <div class="card-header bg-custom-dark-light">
+                                <h5 class="text-white">
+                                    MÃN DỤC SỚM?
+                                </h5>
+                            </div>
+                            <div class="card-body pricingtable">
+                                <div class="text-dark">Thường xảy ra khi lượng testosterone trong máu suy giảm làm giảm ham muốn, rối loạn cương dương. Mãn dục sớm còn ảnh hưởng lớn đến sức khỏe thể chất và tinh thần ở nam giới. Mãn dục bắt đầu từ 40 tuổi, nhưng độ tuổi ngày càng trẻ hóa do ảnh hưởng từ môi trường và lối sống bận rộn áp lực cao</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 mb-5">
+                        <div class="card card-absolute">
+                            <div class="card-header bg-custom-dark-light">
+                                <h5 class="text-white">SUY GIẢM SINH LỰC</h5>
+                            </div>
+                            <div class="card-body pricingtable">
+                                <div class="text-dark">Suy giảm sinh lực không chỉ ảnh hưởng đến giảm ham muốn, lượng testosterone giảm trực tiếp làm ảnh hưởng đến sức khỏe toàn diện về thể chất lẫn tinh thần của phái mạnh như: cơ thể mệt mỏi, khó tập trung, đau xương khớp, nguy cơ bệnh về tim mạch, mất ngủ, v.v.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center mt-5">
+                    <div class="col-md-5 col-12">
+                        <h1 class="text-white">LÀM SAO ĐỂ NHẬN BIẾT DẤU HIỆU MÃN DỤC NAM?</h1>
+                    </div>
+                    <div class="col-md-7 col-12">
+                        <div class="card card-absolute mb-5 mt-4">
+                            <div class="card-header bg-custom-dark-light">
+                                <h5 class="text-white">
+                                    TRIỆU CHỨNG TÌNH DỤC
+                                </h5>
+                            </div>
+                            <div class="card-body pricingtable">
+                                <div class="text-dark">Giảm ham muốn, giảm chất lượng và số lượng tinh trùng, rối loạn cương dương. Mãn dục sớm có thể xảy ra đối với cả các quý ông trong độ tuổi sung sức (30-40 tuổi)</div>
+                            </div>
+                        </div>
+                        <div class="card card-absolute mb-5">
+                            <div class="card-header bg-custom-dark-light">
+                                <h5 class="text-white">
+                                    TRIỆU CHỨNG TOÀN THÂN
+                                </h5>
+                            </div>
+                            <div class="card-body pricingtable">
+                                <div class="text-dark">
+                                    <p>* Cơ thể mệt mỏi, giảm tập trung, hay quên, tính tình thay đổi thất thường, dễ cáu gắt</p>
+                                    <p>* Béo phì, bụng to, tăng lượng mỡ</p>
+                                    <p>* Khối lượng cơ giảm, cơ bắp nhão, sức bền của cơ kém</p>
+                                    <p>* Đau xương khớp, tăng nguy cơ loãng xương, thoái hóa xương</p>
+                                    <p>* Tim mạch rối loạn, xuất hiện các bệnh lý mạch vành, tăng huyết áp</p>
+                                    <p>* Tóc bạc, da nhăn nheo mất đàn hồi</p>
+                                    <p>* Rối loạn giấc ngủ, mất ngủ, ngủ không sâu</p>
+                                    <p>* Mất sự nhảy cảm các phản xạ</p>
+                                    <p>* Rối loạn tạo máu, xảy ra tình trạng thiếu máu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="area3" class="bg-custom-dark-2">
+            <div class="">
+                <img src="/Content/Images/san-pham-chinh.jpg" style="width: 100%" />
+            </div>
+        </section>
+        <section id="area4" class="bg-custom-dark py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-7 order-2 order-sm-1">
+                        <img src="/Content/Images/thuoc-bac.jpg" class="w-100" />
+                    </div>
+                    <div class="col-md-5 order-1 order-sm-2">
+                        <h2 class="text-white text-center">THÀNH PHẦN TỰ NHIÊN <br/> AN TOÀN CHO SỬ DỤNG LÂU DÀI</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="area5" class="bg-white py-5 bg-heaven" style="background: url('../Content/Images/bg-heaven.jpg') no-repeat center; background-size: cover">
+            <div class="container py-4 text-center">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <img src="/Content/Images/ribmax.png" class="w-100" id="ribmaxSanPhamHome" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="price-text font-weight-bold">
+                            <span class="text-white" style="font-size: 3rem">Giá chỉ:</span> <span class="text-primary" style="font-size: 4rem;">390.000đ</span>
+                            <h4 class="text-white">Hộp 30 viên</h4>
+                        </div>
+                        <h6 class="font-weight-normal mb-4"></h6>
+                        <a href="/mua-ngay" class="btn btn-mua-ngay btn-lg btn-buy-now bg-white px-5 py-3 h3">ĐẶT HÀNG NGAY</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+			
+		
+    </div>
+</div>
+					</div>
+
+
+
+                </div>
+            </section>
+        </div>
+
+
+
+            <footer id="footer" class="footer-inverse">
+
+<div class="footer-main-wrapper">
+    <div class="container footer-mains">
+        <div class="row sm-gutters">
+            <div class="col-md-3">
+                <nav class="footer-links">
+                    <div class="" id="footer-info">
+                        <img src="/Content/Images/Logo-Header.png" height="60" />
+                        <img src="/Content/Images/tue-duc-logo.png" height="60" />
+                        <p class="mt-3">Kiên trì, không ngừng học hỏi, đổi mới sáng tạo, kỷ luật và lấy con người làm trọng tâm</p>
+                        <p class="m-0">Email: <a href="mailto:tueduc315@gmail.com" class="d-inline-block text-white">tueduc315@gmail.com</a></p>
+                        <p class="m-0">Điện thoại: <a href="tel:0911828288" class="d-inline-block text-white">0911 82 82 88</a></p>
+                        <p class="mt-3">Công ty TNHH Thương Mại và Dịch vụ Tuệ Đức</p>
+                        <p class="m-0">Số ĐKKD 0314770313 do phòng ĐKKD cấp ngày 24/6/2020</p>
+                        <p class="m-0">Địa chỉ: 337/2/15 Lê Văn Sỹ, P.1, Q.Tân Bình, TP.HCM</p>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-md-3">
+                <nav class="footer-links">
+                    <h4 class="footer-title">
+                        <span class="d-none d-md-block">Liên kết hữu ích</span>
+                        <span class="d-md-none">Dịch vụ</span>
+                    </h4>
+                    <div class="" id="footer-service">
+
+
+<div class="cms-menu cms-menu-linklist" data-menu-name="footerservice">
+    <ul class="list-unstyled">
+            <li>
+                <a href="/chinh-sach-bao-mat-thong-tin" title="Chính sách bảo mật thông tin" class="menu-link">
+
+                    <span >Ch&#237;nh s&#225;ch bảo mật th&#244;ng tin</span>
+                </a>
+            </li>
+            <li>
+                <a href="/chinh-sach-bao-hanh" title="Chính sách bảo hành" class="menu-link">
+
+                    <span >Ch&#237;nh s&#225;ch bảo h&#224;nh</span>
+                </a>
+            </li>
+            <li>
+                <a href="/chinh-sach-doi-tra-va-hoan-tien" class="menu-link">
+
+                    <span >Ch&#237;nh s&#225;ch đổi trả v&#224; ho&#224;n tiền</span>
+                </a>
+            </li>
+            <li>
+                <a href="/chinh-sach-van-chuyen-va-giao-nhan" title="Chính sách vận chuyển và giao nhận" class="menu-link">
+
+                    <span >Ch&#237;nh s&#225;ch vận chuyển v&#224; giao nhận</span>
+                </a>
+            </li>
+            <li>
+                <a href="/chinh-sach-xu-ly-khieu-nai" class="menu-link">
+
+                    <span >Ch&#237;nh s&#225;ch xử l&#253; khiếu nại</span>
+                </a>
+            </li>
+            <li>
+                <a href="/chinh-sach-thanh-toan" class="menu-link">
+
+                    <span >Ch&#237;nh s&#225;ch thanh to&#225;n</span>
+                </a>
+            </li>
+    </ul>
+</div>
+                    </div>
+                    <div>
+                    <a href='http://online.gov.vn/Home/WebDetails/84087' target='_blank'>
+                    <img alt='' title='' style='width: 90%' src='http://online.gov.vn/Content/EndUser/LogoCCDVSaleNoti/logoSaleNoti.png'/>
+                    </a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-md-3">
+                <nav class="footer-links">
+                    <h4 class="footer-title">
+                        <span class="d-none d-md-block">Liên lạc</span>
+                        <span class="d-md-none">Công ty
+</span>
+                    </h4>
+                    <div id="footer-company">
+                        <ul class="ml-0 pl-0" style="list-style: none">
+                            <li class="ml-0" style="line-height: 1.5">
+                                Email:
+                                <div>
+                                    <a class="ml-3 small mb-0 text-white" style="line-height: 1" href="mailto:tueduc315@gmail.com">tueduc315@gmail.com</a>
+                                </div>
+                                <a class="ml-3 small text-white" style="line-height: -1" href="#">tueduc.cskh@gmail.com</a>
+                            </li>
+                            <li class="mt-2"><a href="tel:0911828288" class="small text-white">Số điện thoại: 0911 82 82 88</a></li>
+                            <li class="mt-2">
+                                <div>
+                                    <span class="small">Thời Gian Làm Việc:</span>
+                                </div>
+                                <div>
+                                    <a class="small ml-3">Thứ 2 – Thứ 6 : 08:00 – 17:00</a>
+
+                                </div>
+                                <a class="small ml-3">Thứ 7 : 08:00 – 12:00</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-md-3">
+                <div class="footer-links">
+                    <h4 class="footer-title">Theo dõi chúng tôi</h4>
+                </div>
+                <div class="">
+                    <div class="fb-page" data-href="https://www.facebook.com/Ribmax-%C4%90%E1%BA%ADm-Ch%E1%BA%A5t-%C4%90%C3%A0n-%C3%94ng-103452801840749" data-tabs="timeline" data-width="" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Ribmax-%C4%90%E1%BA%ADm-Ch%E1%BA%A5t-%C4%90%C3%A0n-%C3%94ng-103452801840749" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Ribmax-%C4%90%E1%BA%ADm-Ch%E1%BA%A5t-%C4%90%C3%A0n-%C3%94ng-103452801840749">Ribmax - Đậm Chất Đàn Ông</a></blockquote></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-bottom-wrapper">
+    <div class="container footer-bottom text-center">
+
+        Copyright © 2019 - Ribmax
+    </div>
+</div>
+			</footer>
+
+
+    </div>
+
+	<a href="#" id="scroll-top" class="scrollto d-flex align-items-center justify-content-center shadow-sm">
+		<i class="fa fa-lg fa-angle-up"></i>
+	</a>
+</div>
+
+
+
+ 
+
+
+
+
+
+
+
+
+	<aside id="offcanvas-menu" class="offcanvas offcanvas-overlay offcanvas-left offcanvas-shadow" data-blocker="true" data-overlay="true">
+        <div class="offcanvas-content">
+            <div id="offcanvas-menu-container" data-url="/menu/offcanvas">
+                <!-- AJAX -->
+            </div>
+        </div>
+	</aside>
+
+	<aside id="offcanvas-cart" class="offcanvas offcanvas-lg offcanvas-overlay offcanvas-right offcanvas-shadow" data-lg="true" data-blocker="true" data-overlay="true">
+		<div class="offcanvas-content">
+			
+
+
+<div class="offcanvas-cart-header offcanvas-tabs">
+    <ul class="nav nav-tabs nav-tabs-line row no-gutters" role="tablist">
+            <li class="nav-item col">
+                <a id="cart-tab" class="nav-link" data-toggle="tab" href="#occ-cart" role="tab" data-url="/shoppingcart/offcanvasshoppingcart">
+                    <span class="title">Giỏ hàng
+</span>
+                    <span class="badge badge-pill label-cart-amount badge-primary" data-bind-to="CartItemsCount" style="display:none">0</span>
+                </a>
+            </li>
+    </ul>
+</div>
+
+<div class="offcanvas-cart-content">
+	<div class="tab-content">
+			<div class="tab-pane fade" id="occ-cart" role="tabpanel"></div>
+	</div>
+</div>
+
+		</div>
+	</aside>
+
+
+
+    
+    <script src="/bundles/js/ju1a7wciiwkltuqgnb7xbvarzx75fmeavvoxhz1mare1?v=71EfsFWKd_RvHU55o4HLjairzYs6W1bUuBVJKwozlqY1"></script>
+
+
+    
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script>
+        (function ($) {
+            "use strict";
+            $('.landing-slider').owlCarousel({
+                center: true,
+                items: 1,
+                loop: true,
+                margin: 30,
+                nav: false,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: false,
+
+            });
+
+            $('.prooduct-details-box .close').on('click', function (e) {
+                var tets = $(this).parent().parent().parent().parent().addClass('d-none');
+                console.log(tets);
+            })
+        })(jQuery);
+    </script>
+</body>
+</html>

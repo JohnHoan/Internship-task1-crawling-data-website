@@ -1,0 +1,344 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trang chủ | Xedapchung</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Trí Nam" />
+    <meta name="copyright" content="Trí Nam" />
+    <meta property="og:image" content="">
+    <!--link css-->
+    <link rel="shortcut icon" href="images/icon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/_custom.css">
+
+    <!--Jquery library-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <section class="header fixed-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-5 flex-center">
+                        <a href="index.html" title=""><img src="images/logo.png" alt="" title=""> </a>
+                    </div>
+                    <div class="col-md-8 visible-desktop">
+                        <div class="header-nav">
+                            <ul class="flex-center">
+                                <li><a href="index.html" title="">Trang chủ</a></li>
+                                <li><a href="present.html" title="">Giới thiệu</a></li>
+                                <li><a href="instruction.html" title="">Hướng dẫn sử dụng</a></li>
+                                <li><a href="promotion.html" title="">Khuyến mại</a></li>
+                                <li><a href="price.html" title="">Bảng giá</a></li>
+                                <!--<li><a href="#bat-dau" title="">Bắt đầu</a></li>-->
+                                <li><a href="terms.html" title="">Điều khoản</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-7 flex-center-end">
+                        <div class="social visible-desktop">
+                        </div>
+                        <div class="language">
+                        </div>
+                        <a id="cd-menu-trigger" href="#0" class=""><span class="cd-menu-icon"></span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="cd-main-content">
+        <section class="banner">
+            <div class="banner-slider owl-carousel slider-general">
+                <div class="item relative">
+                    <div class="banner-abs absolute">
+                        <div class="container flex-banner">
+                            <div class="banner-inner text-center">
+                                <h4>Chung nhau đi, cùng vui vẻ !</h4>
+                                <p><img src="images/banner-11.png" alt="" title=""> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item relative">
+                    <div class="banner-abs absolute">
+                        <div class="container flex-banner">
+                            <div class="banner-inner text-center">
+                                <h4>Khởi đầu ngày mới của bạn bằng chuyến đi vui vẻ!</h4>
+                                <p><img src="images/banner-12.png" alt="" title=""> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="download">
+            <div class="container">
+                <div class="support__app flex-center-center">
+                    <a href="" title="" class="app__item">
+                        <img src="images/app-ios.png" alt="AppStore">
+                        <span>iOS Support</span>
+                    </a>
+
+                    <a href="https://play.google.com/store/apps/details?id=com.tnbike" title="" class="app__item">
+                        <img src="images/app-android.png" alt="GoogleStore">
+                        <span>Android Support</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="service__introduce">
+            <div class="container">
+                <div class="intro__number">
+                    <h4>Số chuyến đi</h4>
+                    <h2>348 585 784</h2>
+
+                </div>
+                <div class="intro__content" id="gioi-thieu">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="intro__detail">
+                                <h3 class="pages__title">Giới thiệu</h3>
+                                <p class="intro__des">
+                                    Dự án Xedapchung là một dịch vụ chia sẻ dùng chung xe đạp, giúp
+                                    cho người tham gia giao thông có thể di chuyển từ trạm xe đạp chung đến trạm khác
+                                    trên địa bàn Thành phố. Thủ tục và cách thức nhận/trả xe nhanh chóng thông qua ứng
+                                    dụng trên điện thoại di động.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="intro-detail__img">
+                                <div class="intro__img">
+                                    <img src="images/img-intro.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="service__use" id="cach-su-dung">
+            <div class="container">
+                <div class="use__title">
+                    <h3 class="pages__title">Cách sử dụng</h3>
+                    <p class="use__des">Đi xe đạp chung cực dễ dàng với 3 bước:</p>
+                    <p class="steps">Đăng ký - Đi xe - Trả xe</p>
+                </div>
+
+
+                <div class="use__content">
+
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-step1" role="tabpanel" aria-labelledby="v-pills-step1-tab">
+                                    <img src="images/use-2.png" alt="">
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-step2" role="tabpanel" aria-labelledby="v-pills-step2-tab">
+                                    <img src="images/use-11.png" alt="">
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-step3" role="tabpanel" aria-labelledby="v-pills-step3-tab">
+                                    <img src="images/use-3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link active" id="v-pills-step1-tab" data-toggle="pill" href="#v-pills-step1" role="tab" aria-controls="v-pills-step1" aria-selected="true">
+                                    <span class="step-number flex-center-center">1</span>
+                                    <span class="step__item">
+                                        <span class="step__title">Tải ứng dụng và đăng ký</span>
+                                        <span class="step__des">Tải xuống ứng dụng để xác định vị trí xe đạp gần đó.</span>
+                                    </span>
+                                </a>
+                                <div class="show-div">
+                                    <img src="images/use-2.png" alt="">
+                                </div>
+                                <a class="nav-link" id="v-pills-step2-tab" data-toggle="pill" href="#v-pills-step2" role="tab" aria-controls="v-pills-step2" aria-selected="false">
+                                    <span class="step-number flex-center-center">2</span>
+                                    <span class="step__item">
+                                        <span class="step__title">Mở khóa và sử dụng</span>
+                                        <span class="step__des">Trong ứng dụng, chạm vào nút "mở khóa" và quét mã QR trên xe đạp để tự động mở khóa.</span>
+                                    </span>
+                                </a>
+                                <div class="show-div">
+                                    <img src="images/use-11.png" alt="">
+                                </div>
+                                <a class="nav-link" id="v-pills-step3-tab" data-toggle="pill" href="#v-pills-step3" role="tab" aria-controls="v-pills-step3" aria-selected="false">
+                                    <span class="step-number flex-center-center">3</span>
+                                    <span class="step__item">
+                                        <span class="step__title">Trả và khóa xe</span>
+                                        <span class="step__des">Khi chuyến đi của bạn đã hoàn thành, hãy đỗ xe một cách an toàn và hợp pháp. Thủ công khóa xe đạp để kết thúc chuyến đi của bạn.</span>
+                                    </span>
+                                </a>
+                                <div class="show-div">
+                                    <img src="images/use-3.png" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="service__method" id="bang-gia">
+            <div class="container">
+                <div class="method__list flex-center-center">
+                    <div class="_item">
+                        <label><span>1 tháng</span></label>
+                        <ul class="_item-detail">
+                            <li class="strong"><i class="fa fa-check" aria-hidden="true"></i><span>CHI PHÍ ƯU ĐÃI</span></li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span>THÍCH HỢP SỬ DỤNG HÀNG NGÀY</span></li>
+                        </ul>
+                        <div class="product-item-actions">
+                            <!-- <p class="price">300<span class="price-label">000/tuần</span></p>
+                                <div class="_action"><button class="btn btn-choose">Chọn </button></div> -->
+                            <p style="font-size: 25px; font-weight: bold; color: #fff; padding-top: 50px;">Comming soon</p>
+                        </div>
+                    </div>
+                    <div class="_item-large">
+                        <label><span>15 phút</span></label>
+                        <ul class="_item-detail">
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span>BLOCK 15 PHÚT +1</span></li>
+                            <li class="strong"><i class="fa fa-check" aria-hidden="true"></i><span>PHÙ HỢP CHO CHUYẾN ĐI NGẮN</span></li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span>TỰ ĐỘNG THANH TOÁN THEO THỜI GIAN</span></li>
+                        </ul>
+                        <div class="product-item-actions">
+                            <p class="price" style="font-size: 65px;">2500<span class="price-label">/15phút</span></p>
+                            <div class="_action"><button class="btn btn-choose">Chọn </button></div>
+                        </div>
+                    </div>
+                    <div class="_item">
+                        <label><span>1 ngày</span></label>
+                        <ul class="_item-detail">
+                            <li class="strong"><i class="fa fa-check" aria-hidden="true"></i><span>DI CHUYỂN BẤT CỨ ĐÂU TRONG NGÀY</span></li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i><span>THUẬN TIỆN KHI ĐI CHƠI</span></li>
+                        </ul>
+                        <div class="product-item-actions">
+                            <!-- <p class="price">80<span class="price-label">000/ngày</span></p>
+                                <div class="_action"><button class="btn btn-choose">Chọn </button></div> -->
+                            <p style="font-size: 25px; font-weight: bold; color: #fff; padding-top: 50px;">Comming soon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container-fluid hidden-mobile">
+                <div class="page-footer">
+                    <div class="row">
+                        <div class="col-md-4 offset-md-4 col-5">
+                            <div class="app__store">
+                                <a href="#"><img src="images/app-ios.png" alt=""></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.tnbike"><img src="images/app-android.png" alt=""></a>
+                                <a target="_blank" href="http://online.gov.vn/Home/WebDetails/82184">
+                                    <img title="" style="height:80px;margin-top:43px;" src="images/logoSaleNoti.png" />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-7 text-right">
+                            <div class="footer__link">
+                                <ul>
+                                    <li><a href="#gioi-thieu">Giới thiệu</a> </li>
+                                    <li><a href="#cach-su-dung">Cách sử dụng</a> </li>
+                                    <li><a href="#bang-gia">Bảng giá</a> </li>
+                                    <li><a href="#">Tin tức</a> </li>
+                                </ul>
+                            </div>
+
+                            <div class="contact-us">
+                                <p class="phone-number">
+                                    0978.139.088 <span><i class="fa fa-phone-square" aria-hidden="true"></i></span>
+                                </p>
+
+                                <p class="email">
+                                    hotro@xedapchung.vn <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer__copyright">
+                        <div class="row">
+                            <div class="col-md-4 offset-md-4 text-right">
+                                <p class="copyright">© 2020 Xedapchung.vn - Một sản phẩm của Tập đoàn Trí Nam</p>
+                            </div>
+                            <div class="col-md-4 text-right hidden">
+                                <ul class="social-icon flex-center-end">
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+                                    <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a> </li>
+                                    <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a> </li>
+                                    <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </footer>
+        <div class="smoothscroll-top visible-desktop">
+            <span class="scroll-top-inner">
+                <i class="fa fa-2x fa-arrow-circle-up"></i>
+            </span>
+        </div>
+    </div>
+
+    <!--Menu on mobile-->
+
+    <nav id="cd-lateral-nav" class=" visible-mobile">
+        <ul class="cd-navigation nav-dropdown">
+            <li><a href="#gioi-thieu" title="">Giới thiệu</a></li>
+            <li><a href="#cach-su-dung" title="">Cách sử dụng</a></li>
+            <li><a href="#bang-gia" title="">Bảng giá</a></li>
+            <li><a href="#id-4" title="">Bắt đầu</a></li>
+            <li><a href="terms.html" title="">Điều khoản</a></li>
+        </ul>
+    </nav>
+    <!--Link js-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/private.js"></script>
+    <script type='text/javascript'>
+        $(function () {
+            $(document).on('scroll', function () {
+                if ($(window).scrollTop() > 100) {
+                    $('.smoothscroll-top').addClass('show');
+                } else {
+                    $('.smoothscroll-top').removeClass('show');
+                }
+            });
+            $('.smoothscroll-top').on('click', scrollToTop);
+        });
+        function scrollToTop() {
+            verticalOffset = typeof (verticalOffset) != 'undefined' ? verticalOffset : 0;
+            element = $('body');
+            offset = element.offset();
+            offsetTop = offset.top;
+            $('html, body').animate({ scrollTop: offsetTop }, 600, 'linear').animate({ scrollTop: 25 }, 200).animate({ scrollTop: 0 }, 150).animate({ scrollTop: 0 }, 50);
+        }
+    </script>
+</body>
+</html>

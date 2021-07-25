@@ -1,0 +1,2567 @@
+<!DOCTYPE html>
+<html lang="en">
+<style type="text/css">
+.hovergallery img{
+-webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+-moz-transform:scale(0.8); /*Mozilla scale version*/
+-o-transform:scale(0.8); /*Opera scale version*/
+-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+-o-transition-duration: 0.5s; /*Opera duration version*/
+opacity: 0.7; /*initial opacity of images*/
+margin: 0 10px 5px 0; /*margin between images*/
+}
+.hovergallery img:hover{
+-webkit-transform:scale(1.1); /*Webkit: Scale up image to 1.2x original size*/
+-moz-transform:scale(1.1); /*Mozilla scale version*/
+-o-transform:scale(1.1); /*Opera scale version*/
+box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+-webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
+-moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
+opacity: 1;
+}
+</style>	
+	<style type="text/css">
+.hovergallery img{
+-webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+-moz-transform:scale(0.8); /*Mozilla scale version*/
+-o-transform:scale(0.8); /*Opera scale version*/
+-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+-o-transition-duration: 0.5s; /*Opera duration version*/
+opacity: 0.7; /*initial opacity of images*/
+margin: 0 10px 5px 0; /*margin between images*/
+}
+.hovergallery img:hover{
+-webkit-transform:scale(1.1); /*Webkit: Scale up image to 1.2x original size*/
+-moz-transform:scale(1.1); /*Mozilla scale version*/
+-o-transform:scale(1.1); /*Opera scale version*/
+box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+-webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
+-moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
+opacity: 1;
+}
+</style>
+	<head>
+		<meta charset="utf-8">    
+		<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<![endif]-->
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Cung cấp máy bơm nước chất lượng cho mọi gia đình, bơm tự dộng, bơm tự hút, bơm ly tâm, bơm thả chìm, bơm phun,  bơm đĩa, bơm đẩy cao">
+		<meta name="keywords" content="Cung cấp máy bơm nước chất lượng cho mọi gia đình, bơm tự dộng, bơm tự hút, bơm ly tâm, bơm thả chìm, bơm phun,  bơm đĩa, bơm đẩy cao">
+		<meta name="author" content="">
+		<meta name="format-detection" content="telephone=no">
+		<title>
+			Máy bơm Swirls Việt Nam - CÔNG TY TNHH SWIRLS VIỆT NAM
+		</title>    
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">    
+			<link rel="icon" href="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/lgo.png?1625209351166" type="image/x-icon" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link href="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/bootstrap.min.css?1625209351166" rel="stylesheet" type="text/css" />
+		<link href="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/jgrowl.css?1625209351166" rel="stylesheet" type="text/css" />
+		<link href="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/style.css?1625209351166" rel="stylesheet" type="text/css" />
+		<link href="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/revslider.css?1625209351166" rel="stylesheet" type="text/css" />
+		<link href="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/owl.carousel.css?1625209351166" rel="stylesheet" type="text/css" />
+		<link href="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/owl.theme.css?1625209351166" rel="stylesheet" type="text/css" />
+		<link href="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/blogmate.css?1625209351166" rel="stylesheet" type="text/css" />
+		<link href="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/font-awesome.css?1625209351166" rel="stylesheet" type="text/css" />	
+		<script src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/jquery.min.js?1625209351166" type="text/javascript"></script>			
+		<script src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/jquery.elevatezoom.js?1625209351166" type="text/javascript"></script>	
+		<script src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/jgrowl.js?1625209351166" type="text/javascript"></script>
+		<link href="//fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" type="text/css" />
+		
+<script>
+	var Bizweb = Bizweb || {};
+	Bizweb.store = 'toyoovietnam.mysapo.net';
+	Bizweb.id = 114886;
+	Bizweb.theme = { 'id': 178833, 'name': "Swirls Việt Nam", 'role': 'main' };
+	Bizweb.template = 'index';
+</script>
+<script>
+	(function () {
+		function asyncLoad() {
+			var urls = ["https://zopim.sapoapps.vn/script/gencode.js?store=toyoovietnam.mysapo.net","https://blogstatistics.sapoapps.vn/scripts/ab_blogstatistics_scripttag.js?store=toyoovietnam.mysapo.net","//bwstatistics.sapoapps.vn/genscript/script.js?store=toyoovietnam.mysapo.net","https://productstatistics.sapoapps.vn/scripts/ab_productstatistics_scripttag.min.js?store=toyoovietnam.mysapo.net"];
+			for (var i = 0; i < urls.length; i++) {
+				var s = document.createElement('script');
+				s.type = 'text/javascript';
+				s.async = true;
+				s.src = urls[i];
+				var x = document.getElementsByTagName('script')[0];
+				x.parentNode.insertBefore(s, x);
+			}
+		};
+		window.attachEvent ? window.attachEvent('onload', asyncLoad) : window.addEventListener('load', asyncLoad, false);
+	})();
+</script>
+
+
+<script>
+	window.BizwebAnalytics = window.BizwebAnalytics || {};
+	window.BizwebAnalytics.meta = window.BizwebAnalytics.meta || {};
+	window.BizwebAnalytics.meta.currency = 'VND';
+	window.BizwebAnalytics.tracking_url = '/s';
+	
+	var meta = {};
+	
+	for (var attr in meta) {
+		window.BizwebAnalytics.meta[attr] = meta[attr];
+	}
+</script>
+
+
+<script src="/dist/js/stats.min.js?v=2c81e3a"></script>
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87473824-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+
+
+
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/bw-statistics-style.css?1625209351166" rel="stylesheet" type="text/css" />
+<link href="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/appbulk-blog-statistics.css?1625209351166" rel="stylesheet" type="text/css" />
+<link href="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/appbulk-product-statistics.css?1625209351166" rel="stylesheet" type="text/css" />
+</head>
+	<body class="cms-index-index">
+		
+		
+		<div class="page"> 
+			<header class="header-container">
+				<div class="header-top">
+					<div class="container">
+						<div class="row">                    
+							<div class="col-xs-6">                     
+								<div class="welcome-msg hidden-xs"><marquee>Chào mừng quý khách hàng đến với  CÔNG TY TNHH SWIRLS VIỆT NAM</marquee></div>
+							</div>
+							<div class="col-xs-6">                        
+								<div class="toplinks">
+									<div class="links">
+										
+										
+										<div class="myaccount"><a href="/account/login"><span class="hidden-xs">Đăng nhập</span></a></div>
+										<div class="wishlist"><a href="/account/register"><span class="hidden-xs">Đăng ký</span></a></div>
+										
+										
+										<div class="phone hidden-xs">0914.228.066 - 0839.775.666</div>                            
+									</div>
+								</div>                        
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header container">
+					<div class="row">
+						<a class="logo" href="/"><img alt="CÔNG TY TNHH SWIRLS VIỆT NAM" src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/logo.png?1625209351166"></a>
+					</div>
+				</div>
+			</header>
+			<div class="container">
+	<div class="row">
+		<nav>
+		
+				<div class="nav-inner">			
+					<div class="hidden-desktop" id="mobile-menu">
+						<ul class="navmenu">
+							<li>
+								<div class="menutop">
+									<div class="toggle"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></div>
+									<h2>Menu</h2>
+								</div>
+								<ul style="display:none;" class="submenu">
+									<li>
+										<ul class="topnav">
+											
+											
+											<li class="level0 nav-9 level-top  first  parent "> 
+												<a class="level-top" href="/"> <span>Trang chủ</span> </a> </li>
+											
+											
+											
+											<li class="level0 nav-9 level-top  parent "> 
+												<a class="level-top" href="/gioi-thieu"> <span>Giới thiệu</span> </a> </li>
+											
+											
+																
+											<li class="level0 nav-6 level-top">
+												<a class="level-top" href="/collections/all"> <span>Sản phẩm</span> </a>
+												<ul class="level0">
+													
+														
+													<li class="level1"><a href="/bom-day-cao"><span>Bơm Đẩy Cao</span></a></li>
+													
+													
+														
+													<li class="level1"><a href="/bom-ly-tam"><span>Bơm Ly Tâm ( Bơm Đĩa )</span></a></li>
+													
+													
+														
+													<li class="level1"><a href="/bom-tha-chim"><span>Bơm Thả Chìm</span></a></li>
+													
+													
+														
+													<li class="level1"><a href="/bom-phun"><span>Bơm Phun</span></a></li>
+													
+													
+														
+													<li class="level1"><a href="/bom-2-tang-canh"><span>Bơm Ly Tâm 2 Tầng Cánh</span></a></li>
+													
+													
+														
+													<li class="level1"><a href="/bom-tu-dong"><span>Bơm Tự Động</span></a></li>
+													
+													
+														
+													<li class="level1"><a href="/bom-cong-nghiep"><span>Bơm Công Nghiệp</span></a></li>
+													
+													
+														
+													<li class="level1"><a href="/bom-tom"><span>Bơm Tõm</span></a></li>
+													
+													
+														
+													<li class="level1"><a href="/bom-chan-khong"><span>Bơm Chân Không</span></a></li>
+													
+													
+												</ul>
+											</li>
+											
+											
+											
+											<li class="level0 nav-9 level-top  parent "> 
+												<a class="level-top" href="/catalog-san-pham-bom-nuoc-swirls"> <span>Catalog</span> </a> </li>
+											
+											
+											
+											<li class="level0 nav-9 level-top  parent "> 
+												<a class="level-top" href="/bao-hanh"> <span>Bảo hành</span> </a> </li>
+											
+											
+																
+											<li class="level0 nav-6 level-top">
+												<a class="level-top" href="/dai-ly-swirls"> <span>Đại lý</span> </a>
+												<ul class="level0">
+													
+														
+													<li class="level1"><a href="/dai-ly-swirls"><span>Chính sách đại lý</span></a></li>
+													
+													
+														
+													<li class="level1"><a href="/danh-sach-dai-ly"><span>Danh sách đại lý</span></a></li>
+													
+													
+												</ul>
+											</li>
+											
+											
+											
+											<li class="level0 nav-9 level-top  parent "> 
+												<a class="level-top" href="/tuyen-dung"> <span>Tuyển dụng</span> </a> </li>
+											
+											
+											
+											<li class="level0 nav-9 level-top last  parent "> 
+												<a class="level-top" href="http://swirls.vn/cart"> <span>Giỏ hàng</span> </a> </li>
+											
+											
+											<li class="hidden-lg hidden-md hidden-sm"><a href="/search"><span>Tìm kiếm</span></a></li>
+										</ul>
+									</li>
+									
+								</ul>
+								
+							</li>
+							
+						</ul>				
+					</div>			
+			
+						<ul id="nav" class="hidden-xs">
+							
+							
+							<li class="level0 active">
+								<a href="/"><span>Trang chủ</span> </a>
+							</li>
+							
+							
+							
+							<li class="level0 ">
+								<a href="/gioi-thieu"><span>Giới thiệu</span> </a>
+							</li>
+							
+							
+									
+							<li class="level0 parent drop-menu ">
+								<a href="/collections/all"><span>Sản phẩm</span> </a>
+								<ul class="level1">
+									
+									
+									<li class="level1 nav-10-4"> <a href="/bom-day-cao"> <span>Bơm Đẩy Cao</span> </a> </li>
+									
+									
+									
+									<li class="level1 nav-10-4"> <a href="/bom-ly-tam"> <span>Bơm Ly Tâm ( Bơm Đĩa )</span> </a> </li>
+									
+									
+									
+									<li class="level1 nav-10-4"> <a href="/bom-tha-chim"> <span>Bơm Thả Chìm</span> </a> </li>
+									
+									
+									
+									<li class="level1 nav-10-4"> <a href="/bom-phun"> <span>Bơm Phun</span> </a> </li>
+									
+									
+									
+									<li class="level1 nav-10-4"> <a href="/bom-2-tang-canh"> <span>Bơm Ly Tâm 2 Tầng Cánh</span> </a> </li>
+									
+									
+									
+									<li class="level1 nav-10-4"> <a href="/bom-tu-dong"> <span>Bơm Tự Động</span> </a> </li>
+									
+									
+									
+									<li class="level1 nav-10-4"> <a href="/bom-cong-nghiep"> <span>Bơm Công Nghiệp</span> </a> </li>
+									
+									
+									
+									<li class="level1 nav-10-4"> <a href="/bom-tom"> <span>Bơm Tõm</span> </a> </li>
+									
+									
+									
+									<li class="level1 nav-10-4"> <a href="/bom-chan-khong"> <span>Bơm Chân Không</span> </a> </li>
+									
+									
+								</ul>
+							</li>
+							
+							
+							
+							<li class="level0 ">
+								<a href="/catalog-san-pham-bom-nuoc-swirls"><span>Catalog</span> </a>
+							</li>
+							
+							
+							
+							<li class="level0 ">
+								<a href="/bao-hanh"><span>Bảo hành</span> </a>
+							</li>
+							
+							
+									
+							<li class="level0 parent drop-menu ">
+								<a href="/dai-ly-swirls"><span>Đại lý</span> </a>
+								<ul class="level1">
+									
+									
+									<li class="level1 nav-10-4"> <a href="/dai-ly-swirls"> <span>Chính sách đại lý</span> </a> </li>
+									
+									
+									
+									<li class="level1 nav-10-4"> <a href="/danh-sach-dai-ly"> <span>Danh sách đại lý</span> </a> </li>
+									
+									
+								</ul>
+							</li>
+							
+							
+							
+							<li class="level0 ">
+								<a href="/tuyen-dung"><span>Tuyển dụng</span> </a>
+							</li>
+							
+							
+							
+							<li class="level0 ">
+								<a href="http://swirls.vn/cart"><span>Giỏ hàng</span> </a>
+							</li>
+							
+							
+						</ul>
+								                 						               
+				                
+
+				</div>
+				<div class="search-box pull-right hidden-xs">
+					<form action="/search" method="get" id="search_mini_form">
+						<input type="text" placeholder="Tìm kiếm..." value="" maxlength="70" name="query" id="search">
+						<button class="btn btn-default  search-btn-bg"> <span class="fa fa-search"></span>&nbsp;</button>
+					</form>
+				</div>   
+		
+		</nav>
+	</div>
+</div>
+			
+			<div class="container">
+	<div class="row">
+		
+		<div id="magik-slideshow" class="magik-slideshow">
+			<div class="wow">
+				<div id='rev_slider_4_wrapper' class='rev_slider_wrapper fullwidthbanner-container' >
+					<div id='rev_slider_4' class='rev_slider fullwidthabanner'>
+						<ul>
+							<li data-transition='random' data-slotamount='7' data-masterspeed='1000' data-thumb="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/slide-img1.jpg?1625209351166" onclick="window.location.href='http://swirls.vn/bom-tu-dong-tkp400'">
+								<img src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/slide-img1.jpg?1625209351166" data-bgposition='center' data-bgfit='cover' data-bgrepeat='no-repeat' alt="banner" />
+							</li>
+							<li data-transition='random' data-slotamount='7' data-masterspeed='1000' data-thumb="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/slide-img2.jpg?1625209351166" class="black-text" onclick="window.location.href='http://swirls.vn/bom-ly-tam'">
+								<img src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/slide-img2.jpg?1625209351166"  data-bgposition='center'  data-bgfit='cover' data-bgrepeat='no-repeat' alt="banner" />
+							</li>
+							<li data-transition='random' data-slotamount='7' data-masterspeed='1000' data-thumb="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/slide-img3.jpg?1625209351166" class="black-text" onclick="window.location.href='http://swirls.vn/bom-cong-nghiep'">
+								<img src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/slide-img3.jpg?1625209351166"  data-bgposition='center'  data-bgfit='cover' data-bgrepeat='no-repeat' alt="banner" />
+							</li>
+						<!--	<li data-transition='random' data-slotamount='7' data-masterspeed='1000' data-thumb="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/slide-img4.jpg?1625209351166" class="black-text" onclick="window.location.href=''">
+								<img src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/slide-img4.jpg?1625209351166"  data-bgposition='center'  data-bgfit='cover' data-bgrepeat='no-repeat' alt="banner" />
+							</li>
+							<li data-transition='random' data-slotamount='7' data-masterspeed='1000' data-thumb="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/slide-img5.jpg?1625209351166" class="black-text" onclick="window.location.href=''">
+								<img src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/slide-img5.jpg?1625209351166"  data-bgposition='center'  data-bgfit='cover' data-bgrepeat='no-repeat' alt="banner" />
+							</li> -->
+						</ul>
+						<div class="tp-bannertimer"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+
+		<aside class="col-left sidebar col-sm-3 col-xs-12 wow">
+	<div class="side-nav-categories">
+		<div class="block-title"><img src=''>Danh mục sản phẩm</div>
+		<div class="box-content box-category">
+			<ul>
+				
+											
+				<li class=""> <a href="/bom-day-cao">Bơm Đẩy Cao</a> </li>
+							
+				
+											
+				<li class=""> <a href="/bom-ly-tam">Bơm Ly Tâm ( Bơm Đĩa )</a> </li>
+							
+				
+											
+				<li class=""> <a href="/bom-tha-chim">Bơm Thả Chìm</a> </li>
+							
+				
+											
+				<li class=""> <a href="/bom-phun">Bơm Phun</a> </li>
+							
+				
+											
+				<li class=""> <a href="/bom-2-tang-canh">Bơm Ly Tâm 2 Tầng Cánh</a> </li>
+							
+				
+											
+				<li class=""> <a href="/bom-tu-dong">Bơm Tự Động</a> </li>
+							
+				
+											
+				<li class=""> <a href="/bom-cong-nghiep">Bơm Công Nghiệp</a> </li>
+							
+				
+											
+				<li class=""> <a href="/bom-tom">Bơm Tõm</a> </li>
+							
+				
+											
+				<li class=" last "> <a href="/bom-chan-khong">Bơm Chân Không</a> </li>
+							
+				
+			</ul>
+		</div>		
+	</div>
+
+	
+	<div class="box support-online">
+		<div class="box-heading">Hỗ trợ trực tuyến</div>
+		<div class="block-content">
+			<img src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/lienhe.png?1625209351166"> 
+			<br />
+			<span>https://www.facebook.com/swirlsvn/</span>
+			<br />
+			ĐT: 0833.775.666 - 0914.228.066 - 0839.775.666
+			<br />
+			Email: <a href="mailto:Swirlsvietnam@gmail.com ">Swirlsvietnam@gmail.com </a>
+		</div>
+	</div>
+	
+	<div class="inner-div">
+		<h2 class="category-pro-title"><span>Sản phẩm nổi bật</span></h2>
+		<div class="category-products">
+			<MARQUEE DIRECTION=up>
+			<div class="products small-list">
+				
+				
+				
+				
+				
+				
+				 
+				
+				
+				
+				<div class="item">
+					<div class="item-area">
+						<div class="product-image-area"> 
+							<a href="/bom-phun-scp158" class="product-image"> 
+								<img src="https://bizweb.dktcdn.net/100/114/886/products/scp158.jpg?v=1500710874357" alt="Bơm phun SCP158"> 
+							</a> 
+						</div>
+						
+						
+						<div class="details-area">
+							<h2 class="product-name"><a href="/bom-phun-scp158">Bơm phun SCP158</a></h2>
+							
+							<div class="price-box"> 
+								<span class="regular-price"> 
+									
+									<span class="price">Liên hệ</span> 
+									
+								</span>												
+
+							</div>
+							
+						</div>
+						
+						
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				
+				 
+				
+				
+				
+				<div class="item">
+					<div class="item-area">
+						<div class="product-image-area"> 
+							<a href="/bom-phun-tjs150" class="product-image"> 
+								<img src="https://bizweb.dktcdn.net/100/114/886/products/tjs150.jpg?v=1500710759017" alt="Bơm phun TJS150"> 
+							</a> 
+						</div>
+						
+						
+						<div class="details-area">
+							<h2 class="product-name"><a href="/bom-phun-tjs150">Bơm phun TJS150</a></h2>
+							
+							<div class="price-box"> 
+								<span class="regular-price"> 
+									
+									<span class="price">Liên hệ</span> 
+									
+								</span>												
+
+							</div>
+							
+						</div>
+						
+						
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				
+				 
+				
+				
+				
+				<div class="item">
+					<div class="item-area">
+						<div class="product-image-area"> 
+							<a href="/bom-phun-tjs100" class="product-image"> 
+								<img src="https://bizweb.dktcdn.net/100/114/886/products/tjs100.jpg?v=1500710427477" alt="Bơm phun TJS100"> 
+							</a> 
+						</div>
+						
+						
+						<div class="details-area">
+							<h2 class="product-name"><a href="/bom-phun-tjs100">Bơm phun TJS100</a></h2>
+							
+							<div class="price-box"> 
+								<span class="regular-price"> 
+									
+									<span class="price">Liên hệ</span> 
+									
+								</span>												
+
+							</div>
+							
+						</div>
+						
+						
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				
+				 
+				
+				
+				
+				<div class="item">
+					<div class="item-area">
+						<div class="product-image-area"> 
+							<a href="/bom-tu-dong-tkp800" class="product-image"> 
+								<img src="https://bizweb.dktcdn.net/100/114/886/products/z609881996375-2e65aba6069d6e4692e4a4b3d8058067-1-f540745a-74da-4a55-8670-d9101b7df175-c4b1171a-1ea1-42b8-9368-d95eaefad8db.jpg?v=1490252845197" alt="Bơm tự động TKP800"> 
+							</a> 
+						</div>
+						
+						
+						<div class="details-area">
+							<h2 class="product-name"><a href="/bom-tu-dong-tkp800">Bơm tự động TKP800</a></h2>
+							
+							<div class="price-box"> 
+								<span class="regular-price"> 
+									
+									<span class="price">Liên hệ</span> 
+									
+								</span>												
+
+							</div>
+							
+						</div>
+						
+						
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				
+				 
+				
+				
+				
+				<div class="item">
+					<div class="item-area">
+						<div class="product-image-area"> 
+							<a href="/bom-tu-dong-tkp600" class="product-image"> 
+								<img src="https://bizweb.dktcdn.net/100/114/886/products/z609881996375-2e65aba6069d6e4692e4a4b3d8058067-1-f540745a-74da-4a55-8670-d9101b7df175.jpg?v=1490250875043" alt="Bơm tự động TKP600"> 
+							</a> 
+						</div>
+						
+						
+						<div class="details-area">
+							<h2 class="product-name"><a href="/bom-tu-dong-tkp600">Bơm tự động TKP600</a></h2>
+							
+							<div class="price-box"> 
+								<span class="regular-price"> 
+									
+									<span class="price">Liên hệ</span> 
+									
+								</span>												
+
+							</div>
+							
+						</div>
+						
+						
+					</div>
+				</div>
+				
+			</div>
+			</MARQUEE>
+		</div>
+	</div>
+
+	<div class="box support-online">
+		<div class="box-heading">Video</div>
+		<div class="block-content">
+			<iframe width="200" height="180" src="https://www.youtube.com/embed/7w3gPWA_PkI" frameborder="0" allowfullscreen></iframe>   
+		</div>
+	<div id="bw-statistics"></div>
+</div>
+
+</aside>
+		
+		<div class="col-sm-9 col-xs-12 main-content">
+			
+			<section class="col1-layout home-content-container">
+				<div class="std">
+					<div class="slider-items-products">
+						<div class="new_title center">
+							<h2>Sản phẩm nổi bật</h2>
+						</div>
+						<div id="best-seller-slider" class="product-flexslider hidden-buttons">
+							<div class="slider-items slider-width-col4"> 
+								
+								<div class="item">
+									
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-phun-scp158"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/scp158.jpg?v=1500710874357" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-phun-scp158" title="Bơm phun SCP158"> Bơm phun SCP158 </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+								<div class="item">
+									
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-phun-tjs150"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/tjs150.jpg?v=1500710759017" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-phun-tjs150" title="Bơm phun TJS150"> Bơm phun TJS150 </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+								<div class="item">
+									
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-phun-tjs100"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/tjs100.jpg?v=1500710427477" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-phun-tjs100" title="Bơm phun TJS100"> Bơm phun TJS100 </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+								<div class="item">
+									
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-tu-dong-tkp800"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609881996375-2e65aba6069d6e4692e4a4b3d8058067-1-f540745a-74da-4a55-8670-d9101b7df175-c4b1171a-1ea1-42b8-9368-d95eaefad8db.jpg?v=1490252845197" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-tu-dong-tkp800" title="Bơm tự động TKP800"> Bơm tự động TKP800 </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+								<div class="item">
+									
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-tu-dong-tkp600"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609881996375-2e65aba6069d6e4692e4a4b3d8058067-1-f540745a-74da-4a55-8670-d9101b7df175.jpg?v=1490250875043" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-tu-dong-tkp600" title="Bơm tự động TKP600"> Bơm tự động TKP600 </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+								<div class="item">
+									
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="sale-label sale-top-right">Sale</div>
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-tha-chim-inox12v-24v"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609881971497-50756417171dd9da6e93e389c6e62f03.jpg?v=1490091880037" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-tha-chim-inox12v-24v" title="Bơm thả chìm mini ZQB-12"> Bơm thả chìm mini ZQB-12 </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+								<div class="item">
+									
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-tha-chim-wqd15-15-1-5"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882428376-626ed676ad86ea5adf74c99a96a2ac54.jpg?v=1490087811507" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-tha-chim-wqd15-15-1-5" title="Bơm thả chìm hút bùn WQD15-15-1.5"> Bơm thả chìm hút bùn WQD15-15-1.5 </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+								<div class="item">
+									
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-tha-chim-wqd65-7-1-5f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882418022-f9250261bcd6182e00f972c2cf87706a-4aeb2753-dd35-4d6a-95c5-fd29601069c0-9e6e8a0e-700d-4b1e-887c-ab842d096a89.jpg?v=1490087416787" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-tha-chim-wqd65-7-1-5f" title="Bơm thả chìm hút bùn WQD65-7-1.5F"> Bơm thả chìm hút bùn WQD65-7-1.5F </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+								<div class="item">
+									
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-tha-chim-wqd56-8-1-1f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882418022-f9250261bcd6182e00f972c2cf87706a-4aeb2753-dd35-4d6a-95c5-fd29601069c0.jpg?v=1490087359620" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-tha-chim-wqd56-8-1-1f" title="Bơm thả chìm hút bùn WQD56-8-1.1F"> Bơm thả chìm hút bùn WQD56-8-1.1F </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+								<div class="item">
+									
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-tha-chim-hut-thai-wqd16-10-0-75f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882418022-f9250261bcd6182e00f972c2cf87706a.jpg?v=1490087089957" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-tha-chim-hut-thai-wqd16-10-0-75f" title="Bơm thả chìm hút bùn WQD16-10-0.75 "> Bơm thả chìm hút bùn WQD16-10-0.75  </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+								<div class="item">
+									
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="sale-label sale-top-right">Sale</div>
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-day-cao-tkp800f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882004635-63df68c98561e90805ab8a9dc6fbaaa1-1-705dd442-2280-4f2e-9ce7-1346dae42b74-518de91c-3367-429e-a428-e1c76189efbf-0f31082f-fca0-4206-85d1-64c63c41493f-46125ca7-ddc8-415b-9f26-80afdb0e481e.jpg?v=1490071626780" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-day-cao-tkp800f" title="Bơm Chân Không TKP800F"> Bơm Chân Không TKP800F </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+								<div class="item">
+									
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-day-cao-tkp600f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882004635-63df68c98561e90805ab8a9dc6fbaaa1-1-705dd442-2280-4f2e-9ce7-1346dae42b74-518de91c-3367-429e-a428-e1c76189efbf-0f31082f-fca0-4206-85d1-64c63c41493f.jpg?v=1490071370047" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-day-cao-tkp600f" title="Bơm Chân Không TKP600F"> Bơm Chân Không TKP600F </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+								<div class="item">
+									
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="sale-label sale-top-right">Sale</div>
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-day-cao-tkp400f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882004635-63df68c98561e90805ab8a9dc6fbaaa1-1-705dd442-2280-4f2e-9ce7-1346dae42b74-518de91c-3367-429e-a428-e1c76189efbf.jpg?v=1490070525760" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-day-cao-tkp400f" title="Bơm Chân Không TKP400F"> Bơm Chân Không TKP400F </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+								<div class="item">
+									
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="sale-label sale-top-right">Sale</div>
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-day-cao-tkp300f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882004635-63df68c98561e90805ab8a9dc6fbaaa1-1-66f27e0c-3dfa-4cfe-be0c-e56677c7eb53.jpg?v=1500977445470" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-day-cao-tkp300f" title="Bơm đẩy cao TKP300F"> Bơm đẩy cao TKP300F </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+								<div class="item">
+									
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="sale-label sale-top-right">Sale</div>
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-day-cao-tkp200f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882004635-63df68c98561e90805ab8a9dc6fbaaa1-1.jpg?v=1490069642053" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-day-cao-tkp200f" title="Bơm đẩy cao TKP200F"> Bơm đẩy cao TKP200F </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+
+			
+			<section class="col1-layout home-content-container">
+				<div class="std">
+					<div class="new_title center">
+						<h2>Sản phẩm mới</h2>
+					</div>
+					<ul class="products-grid">
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-phun-scp158"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/scp158.jpg?v=1500710874357" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-phun-scp158" title="Bơm phun SCP158"> Bơm phun SCP158 </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-phun-tjs150"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/tjs150.jpg?v=1500710759017" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-phun-tjs150" title="Bơm phun TJS150"> Bơm phun TJS150 </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-phun-tjs100"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/tjs100.jpg?v=1500710427477" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-phun-tjs100" title="Bơm phun TJS100"> Bơm phun TJS100 </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-tu-dong-tkp800"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609881996375-2e65aba6069d6e4692e4a4b3d8058067-1-f540745a-74da-4a55-8670-d9101b7df175-c4b1171a-1ea1-42b8-9368-d95eaefad8db.jpg?v=1490252845197" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-tu-dong-tkp800" title="Bơm tự động TKP800"> Bơm tự động TKP800 </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-tu-dong-tkp600"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609881996375-2e65aba6069d6e4692e4a4b3d8058067-1-f540745a-74da-4a55-8670-d9101b7df175.jpg?v=1490250875043" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-tu-dong-tkp600" title="Bơm tự động TKP600"> Bơm tự động TKP600 </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="sale-label sale-top-right">Sale</div>
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-tha-chim-inox12v-24v"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609881971497-50756417171dd9da6e93e389c6e62f03.jpg?v=1490091880037" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-tha-chim-inox12v-24v" title="Bơm thả chìm mini ZQB-12"> Bơm thả chìm mini ZQB-12 </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-tha-chim-wqd15-15-1-5"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882428376-626ed676ad86ea5adf74c99a96a2ac54.jpg?v=1490087811507" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-tha-chim-wqd15-15-1-5" title="Bơm thả chìm hút bùn WQD15-15-1.5"> Bơm thả chìm hút bùn WQD15-15-1.5 </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-tha-chim-wqd65-7-1-5f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882418022-f9250261bcd6182e00f972c2cf87706a-4aeb2753-dd35-4d6a-95c5-fd29601069c0-9e6e8a0e-700d-4b1e-887c-ab842d096a89.jpg?v=1490087416787" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-tha-chim-wqd65-7-1-5f" title="Bơm thả chìm hút bùn WQD65-7-1.5F"> Bơm thả chìm hút bùn WQD65-7-1.5F </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-tha-chim-wqd56-8-1-1f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882418022-f9250261bcd6182e00f972c2cf87706a-4aeb2753-dd35-4d6a-95c5-fd29601069c0.jpg?v=1490087359620" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-tha-chim-wqd56-8-1-1f" title="Bơm thả chìm hút bùn WQD56-8-1.1F"> Bơm thả chìm hút bùn WQD56-8-1.1F </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-tha-chim-hut-thai-wqd16-10-0-75f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882418022-f9250261bcd6182e00f972c2cf87706a.jpg?v=1490087089957" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-tha-chim-hut-thai-wqd16-10-0-75f" title="Bơm thả chìm hút bùn WQD16-10-0.75 "> Bơm thả chìm hút bùn WQD16-10-0.75  </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="sale-label sale-top-right">Sale</div>
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-day-cao-tkp800f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882004635-63df68c98561e90805ab8a9dc6fbaaa1-1-705dd442-2280-4f2e-9ce7-1346dae42b74-518de91c-3367-429e-a428-e1c76189efbf-0f31082f-fca0-4206-85d1-64c63c41493f-46125ca7-ddc8-415b-9f26-80afdb0e481e.jpg?v=1490071626780" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-day-cao-tkp800f" title="Bơm Chân Không TKP800F"> Bơm Chân Không TKP800F </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-day-cao-tkp600f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882004635-63df68c98561e90805ab8a9dc6fbaaa1-1-705dd442-2280-4f2e-9ce7-1346dae42b74-518de91c-3367-429e-a428-e1c76189efbf-0f31082f-fca0-4206-85d1-64c63c41493f.jpg?v=1490071370047" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-day-cao-tkp600f" title="Bơm Chân Không TKP600F"> Bơm Chân Không TKP600F </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="sale-label sale-top-right">Sale</div>
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-day-cao-tkp400f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882004635-63df68c98561e90805ab8a9dc6fbaaa1-1-705dd442-2280-4f2e-9ce7-1346dae42b74-518de91c-3367-429e-a428-e1c76189efbf.jpg?v=1490070525760" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-day-cao-tkp400f" title="Bơm Chân Không TKP400F"> Bơm Chân Không TKP400F </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="sale-label sale-top-right">Sale</div>
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-day-cao-tkp300f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882004635-63df68c98561e90805ab8a9dc6fbaaa1-1-66f27e0c-3dfa-4cfe-be0c-e56677c7eb53.jpg?v=1500977445470" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-day-cao-tkp300f" title="Bơm đẩy cao TKP300F"> Bơm đẩy cao TKP300F </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+						<li class="item col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+<div class="col-item">
+
+	
+	<div class="sale-label sale-top-right">Sale</div>
+	
+	<div class="images-container"> 
+		<a class="product-image" href="/bom-day-cao-tkp200f"> 
+			<img src="//bizweb.dktcdn.net/thumb/grande/100/114/886/products/z609882004635-63df68c98561e90805ab8a9dc6fbaaa1-1.jpg?v=1490069642053" class="img-responsive"/> 
+		</a>
+		
+	</div>
+	<div class="info">
+		<div class="info-inner">
+			<div class="item-title"> <a href="/bom-day-cao-tkp200f" title="Bơm đẩy cao TKP200F"> Bơm đẩy cao TKP200F </a> </div>
+			<div class="item-content">
+				
+				<div class="price-box">
+					
+							<p class="special-price"> <span class="price">Liên hệ</span> </p>
+					
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+						</li>
+						
+					</ul>
+
+				</div>
+			</section>
+			
+		</div>
+	</div>
+</div>
+<div class="ab-most-view-product-module ab-hide"></div>
+		
+			<div class="container map-page">
+	<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12" id="map_address">
+		<!--<p><input id="y" type="hidden" /></p>-->
+		<div style="position: relative;">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.2000521050704!2d105.88699491450548!3d21.064670685978918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a990358f64af%3A0x43ba475fe332e8d2!2zTmfDtSA1MyDEkOG7qWMgR2lhbmcsIFRoxrDhu6NuZyBUaGFuaCwgTG9uZyBCacOqbiwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1476260450127" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
+		<div class="fb-page" data-href="https://www.facebook.com/swirlsvn" data-tabs="timeline" data-height="250px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/swirlsvn" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/swirlsvn">Facebook</a></blockquote></div>
+	</div>
+</div>
+			<footer class="footer">
+				
+				<div class="footer-middle container">
+					<div class="block-footer clearfix info no-margin">
+<p><strong>CÔNG TY TNHH SWIRLS VIỆT NAM</strong></p>
+<p>Số ĐKKD 0107521809 do Sở KHĐT Tp. Hà Nội &nbsp;cấp ngày 29/07/2016</p>
+<p>Địa chỉ: Số 3+5 đường Nguyễn Văn Linh, P. Gia Thụy, Q. Long Biên, Tp. Hà Nội</p>
+<p>ĐIỆN THOẠI:&nbsp;0833.775.666 - 0914.228.066 - 0839.775.666.&nbsp;EMAIL:&nbsp; INFO.SWIRLS@GMAIL.COM</p>
+<p>Tài khoản ngân hàng số: 12410002275480 tại Ngân hàng TMCP Đầu Tư và Phát triển Việt Nam – Chi nhánh Hoàn Kiếm</p>
+<p><a href="http://online.gov.vn/Home/WebDetails/84025" target="_blank"><img data-thumb="original" original-height="57" original-width="150" src="//bizweb.dktcdn.net/100/114/886/files/dathongbaobct-150.png?v=1625633855874" /></a></p>
+<p><a href="https://swirls.vn/chinh-sach-thanh-toan" style="font-size:14px;color:blue">Chính sách thanh toán</a> -&nbsp;<a href="https://swirls.vn/chinh-sach-xu-ly-khieu-nai" style="font-size:14px;color:blue">Chính sách xử lý khiếu nại </a>-&nbsp;<a href="https://swirls.vn/chinh-sach-van-chuyen-va-giao-nhan" style="font-size:14px;color:blue">Chính sách vận chuyển và giao nhận</a></p>
+<p><a href="https://swirls.vn/chinh-sach-doi-tra-va-hoan-tien" style="font-size:14px;color:blue">Chính sách đổi trả và hoàn tiền</a> -&nbsp;<a href="https://swirls.vn/chinh-sach-bao-hanh" style="font-size:14px;color:blue">Chính sách bảo hành </a>-&nbsp;<a href="https://swirls.vn/chinh-sach-bao-mat-thong-tin" style="font-size:14px;color:blue">Chính sách bảo mật thông tin</a></p></div>           
+                </div>
+				
+				
+			</footer>
+		</div>
+
+		<script src="//bizweb.dktcdn.net/assets/themes_support/option-selectors.js" type="text/javascript"></script>
+		<script src="//bizweb.dktcdn.net/assets/themes_support/api.jquery.js" type="text/javascript"></script>
+
+		<script src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/bootstrap.min.js?1625209351166" type="text/javascript"></script>
+		<script src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/common.js?1625209351166" type="text/javascript"></script>
+		<script src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/revslider.js?1625209351166" type="text/javascript"></script>
+		<script src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/owl.carousel.min.js?1625209351166" type="text/javascript"></script>
+		<script src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/jquery.jcarousel.min.js?1625209351166" type="text/javascript"></script>
+		
+
+		<script src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/ajax-cart.js?1625209351166" type="text/javascript"></script>
+		<script type="text/javascript">
+  Bizweb.updateCartFromForm = function(cart, cart_summary_id, cart_count_id) {
+    if ((typeof cart_summary_id) === 'string') {
+      var cart_summary = jQuery('#' + cart_summary_id);
+      if (cart_summary.length) {
+		  
+        cart_summary.empty();
+        
+        jQuery.each(cart, function(key, value) {
+          if (key === 'items') {
+            
+            if (value.length) {
+              jQuery('<ul id="cart-sidebar" class="mini-products-list"></ul>').appendTo(cart_summary);
+              var table = jQuery('#' + cart_summary_id + ' ul');
+
+              jQuery.each(value, function(i, item) {						
+                jQuery('<li class="item"><a class="product-image" href="' + item.url + '" ><img src="' + Bizweb.resizeImage(item.image, "small") + '" width="80"></a><div class="detail-item"><div class="product-details"><a href="javascript:void(0);"  onClick="Bizweb.removeItem(' + item.variant_id + ')" class="glyphicon glyphicon-remove">&nbsp;</a> <p class="product-name"> <a href="' + item.url + '">' + item.name + ' </a> </p></div><div class="product-details-bottom"> <span class="price">' + Bizweb.formatMoney(item.price, "{{amount_no_decimals_with_comma_separator}}₫") + '</span> <span class="title-desc">Số lượng:</span> <strong>' + item.quantity + '</strong> </div></div></li>').appendTo(table);
+              });
+
+              jQuery('<div class="top-subtotal">Tổng tiền: <span class="price">' + Bizweb.formatMoney(cart.total_price, "{{amount_no_decimals_with_comma_separator}}₫") + '</span></div>').appendTo(cart_summary);
+			  
+			 jQuery('<div class="actions"><button onClick="window.location.href=\'/checkout\'" class="btn-checkout" type="button"><span>Thanh toán</span></button><button onClick="window.location.href=\'/cart\'" class="view-cart" type="button"><span>Giỏ hàng</span></button>').appendTo(cart_summary);
+            }
+			  
+            else {
+              jQuery('<div><br><center>Giỏ hàng của bạn hiện đang trống.</center><br></div>').appendTo(cart_summary);
+            }
+          }
+        });
+      }
+    }
+    if ((typeof cart_count_id) === 'string') {
+      if (cart.item_count == 0) { 
+        jQuery('#' + cart_count_id).html('0'); 
+      }
+      else if (cart.item_count == 1) {
+        jQuery('#' + cart_count_id).html('1');
+      }
+        else {
+          jQuery('#' + cart_count_id).html(cart.item_count);
+        }
+    }
+    updateCartDesc(cart);
+    jQuery('[name=currencies]').change();
+  };
+  
+  function updateCartDesc(data){
+    var $cartLinkText = $('.cart-box #cart-total');    
+    switch(data.item_count){
+      case 0:
+        $cartLinkText.text('0');
+        break;
+      case 1:
+        $cartLinkText.text('1');
+        break;
+      default:
+        $cartLinkText.text(data.item_count);
+        break;
+    }
+  }
+  Bizweb.onCartUpdate = function(cart) {
+    Bizweb.updateCartFromForm(cart, 'cart-info', 'shopping-cart');
+  };
+  jQuery(document).ready(function($) {
+    Bizweb.getCart(function(cart) {      
+      Bizweb.updateCartFromForm(cart, 'cart-info');		
+    });
+  });
+</script>
+		<script type='text/javascript'>
+			jQuery(document).ready(function(){
+				jQuery('#rev_slider_4').show().revolution({
+					dottedOverlay: 'none',
+					delay: 5000,
+					startwidth: 1000,
+					startheight: 415,
+
+					hideThumbs: 200,
+					thumbWidth: 200,
+					thumbHeight: 50,
+					thumbAmount: 2,
+
+					navigationType: 'thumb',
+					navigationArrows: 'solo',
+					navigationStyle: 'round',
+
+					touchenabled: 'on',
+					onHoverStop: 'on',
+
+					swipe_velocity: 0.7,
+					swipe_min_touches: 1,
+					swipe_max_touches: 1,
+					drag_block_vertical: false,
+
+					spinner: 'spinner0',
+					keyboardNavigation: 'off',
+
+					navigationHAlign: 'center',
+					navigationVAlign: 'bottom',
+					navigationHOffset: 0,
+					navigationVOffset: 20,
+
+					soloArrowLeftHalign: 'left',
+					soloArrowLeftValign: 'center',
+					soloArrowLeftHOffset: 20,
+					soloArrowLeftVOffset: 0,
+
+					soloArrowRightHalign: 'right',
+					soloArrowRightValign: 'center',
+					soloArrowRightHOffset: 20,
+					soloArrowRightVOffset: 0,
+
+					shadow: 0,
+					fullWidth: 'on',
+					fullScreen: 'off',
+
+					stopLoop: 'off',
+					stopAfterLoops: -1,
+					stopAtSlide: -1,
+
+					shuffle: 'off',
+
+					autoHeight: 'off',
+					forceFullWidth: 'on',
+					fullScreenAlignForce: 'off',
+					minFullScreenHeight: 0,
+					hideNavDelayOnMobile: 1500,
+
+					hideThumbsOnMobile: 'off',
+					hideBulletsOnMobile: 'off',
+					hideArrowsOnMobile: 'off',
+					hideThumbsUnderResolution: 0,
+
+					hideSliderAtLimit: 0,
+					hideCaptionAtLimit: 0,
+					hideAllCaptionAtLilmit: 0,
+					startWithSlide: 0,
+					fullScreenOffsetContainer: ''
+				});
+			});
+		</script>
+		
+
+		
+		
+<div class="banner2 hidden-md hidden-sm hidden-xs">
+	<!--<img src="https://bizweb.dktcdn.net/100/114/886/files/banner4.png?v=1479435761087?v=1478513520470" alt="...">-->
+</div>
+<div class="banner3 hidden-md hidden-sm hidden-xs">
+	<!--<img src="https://bizweb.dktcdn.net/100/114/886/files/banner5.png?v=1479435739970?v=1478513520470" alt="...">-->
+</div>		
+	
+	<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.4&appId=1559289877682190";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>	
+		
+	<script src="//bizweb.dktcdn.net/100/114/886/themes/178833/assets/appbulk-product-statistics.js?1625209351166" type="text/javascript"></script>
+		<script lang="javascript">(function() {var pname = ( (document.title !='')? document.title : document.querySelector('h1').innerHTML );var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async=1; ga.src = '//live.vnpgroup.net/js/web_client_box.php?hash=eaf07f51c238f5d3c0cbfa86a6bc6278&data=eyJzc29faWQiOjQ0MjU1MzksImhhc2giOiIxYzA5YmEwNzM1ZmZhN2IxYWQxNjRmODRmZjNhYWY3MyJ9&pname='+pname;var s = document.getElementsByTagName('script');s[0].parentNode.insertBefore(ga, s[0]);})();</script>	
+
+	<img id="img_01" src="small/image1.jpg" data-zoom-image="large/image1.jpg"/>
+
+<div id="gal1">
+ 
+  <a href="#" data-image="small/image1.jpg" data-zoom-image="large/image1.jpg">
+    <img id="img_01" src="thumb/image1.jpg" />
+  </a>
+
+  <a href="#" data-image="small/image2.jpg" data-zoom-image="large/image2.jpg">
+    <img id="img_01" src="thumb/image2.jpg" />
+  </a>
+
+  <a href="#" data-image="small/image3.jpg" data-zoom-image="large/image3.jpg">
+    <img id="img_01" src="thumb/image3.jpg" />
+  </a>
+
+  <a href="#" data-image="small/image4.jpg" data-zoom-image="large/image4.jpg">
+    <img id="img_01" src="thumb/image4.jpg" />
+  </a>
+
+</div>
+	</body>
+	<HTML>   
+
+<HEAD>   
+
+<TITLE>Hieu u'ng JavaScript - Le Quang Anh Hu'ng</TITLE>   
+
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=x-user-defined">   
+
+<META content="Microsoft FrontPage 4.0" name=GENERATOR>   
+
+<META content="Le Quang Anh Hu'ng Homepage" name=Author>   
+
+<script language=JavaScript>    
+
+<!--Che dấu những trình duyệt mà không biết JavaScript (ở đây sử dụng câu lệnh If và else if)   
+
+var version = 0;   
+
+if (navigator.userAgent.indexOf("MSIE 4") != -1) version = 5;   
+
+else if (navigator.userAgent.indexOf("MSIE 3") != -1) version = 1;   
+
+else if (navigator.userAgent.indexOf("Mozilla/4") != -1) version = 4;   
+
+else if (navigator.userAgent.indexOf("Mozilla/4.5") != -1) version = 7;   
+
+else if (navigator.userAgent.indexOf("Mozilla/3") != -1) version = 3;   
+
+else if (navigator.userAgent.indexOf("Mozilla/2") != -1) version = 2;   
+
+else if (navigator.userAgent.indexOf("MSIE 4.5") != -1) version = 6;   
+
+else version = 8;   
+
+// -->   
+
+</SCRIPT>   
+
+<STYLE> <!-- Nơi đây dùng để tạo mẫu kích thước, vị trí cho Images(6 ngôi sao)--> #trailsprite1 {   
+
+HEIGHT: 10px; LEFT: 0px; POSITION: absolute; TOP: 1px; VISIBILITY: visible; WIDTH: 10px; Z-INDEX: 100   
+
+}   
+
+#trailsprite2 {   
+
+HEIGHT: 10px; LEFT: 0px; POSITION: absolute; TOP: 0px; VISIBILITY: visible; WIDTH: 10px; Z-INDEX: 10   
+
+}   
+
+#trailsprite3 {   
+
+HEIGHT: 10px; LEFT: 0px; POSITION: absolute; TOP: 0px; VISIBILITY: visible; WIDTH: 10px; Z-INDEX: 10   
+
+}   
+
+#trailsprite4 {   
+
+HEIGHT: 10px; LEFT: 0px; POSITION: absolute; TOP: 0px; VISIBILITY: visible; WIDTH: 10px; Z-INDEX: 10   
+
+}   
+
+#trailsprite5 {   
+
+HEIGHT: 10px; LEFT: 0px; POSITION: absolute; TOP: 0px; VISIBILITY: visible; WIDTH: 10px; Z-INDEX: 10   
+
+}   
+
+#trailsprite6 {   
+
+HEIGHT: 10px; LEFT: 0px; POSITION: absolute; TOP: 0px; VISIBILITY: visible; WIDTH: 10px; Z-INDEX: 10   
+
+}   
+
+</STYLE>   
+
+</HEAD>   
+
+<BODY bgColor=#000000> <!-- chỉ màu nền background color -->   
+
+<script language=JavaScript1.1>   
+
+if (version > 3) <!-- Nếu ver > 3 (JavaScript) khi đó sẽ xuất ra màn hình bức ảnh thứ 1 và thứ tự tiếp theo ứng với mỗi images bao gồm chiều cao, viền, tên, Id -->   
+
+document.write('<div id="trailSprite1"><img src="images/trailgif1.gif"height="10"width="10"border="0"name="trailSprite1img"></div><div id="trailSprite2"><img src="images/trailgif2.gif"height="10"width="10"border="0"name="trailSprite2img"></div><div id="trailSprite3"><img src="images/trailgif3.gif"height="10"width="10"border="0"name="trailSprite3img"></div><div id="trailSprite4"><img src="images/trailgif4.gif"height="10"width="10"border="0"name="trailSprite4img"></div><div id="trailSprite5"><img src="images/trailgif5.gif"height="10"width="10"border="0"name="trailSprite5img"></div><div id="trailSprite6"><img src="images/trailgif6.gif"height="10"width="10"border="0"name="trailSprite6img"></div>')   
+
+</SCRIPT>   
+
+<script language=JavaScript> <!-- Nơi dòng lệnh này hỗ trợ cho trình duyệt Netscape không có cũng chẳng sao -->   
+
+<!--   
+
+NS4 = (("Netscape"==navigator.appName) && ("4"<=parseInt(navigator.appVersion)))   
+
+window.name = "right" <!-- Bạn phải cẩn thận ngay chổ chữ "right" đây là chỗ nguy hiểm chết người nếu bạn không để ý frames của bạn sẽ sổ tầm bậy liền đó, chính vì vậy bạn ấn định để sổ frames tên gì thì phải đặt tên đó à nghe! -->   
+
+// -->   
+
+</SCRIPT>   
+
+<script language=Javascript1.1>   
+
+<!--   
+
+var isNS = (navigator.appName == "Netscape");   
+
+layerRef = (isNS) ? "document" : "document.all";   
+
+styleRef = (isNS) ? "" : ".style";   
+
+var queue = new Array();var NUM_OF_TRAIL_PARTS = 6   
+
+for (x=1; x < 7; x++)   
+
+{ ///////////////Image Preload   
+
+eval("trailSpriteFrame" + x + "=new Image(10,10);");   
+
+eval("trailSpriteFrame" + x + ".src='images/trailgif"+x+".gif';");   
+
+}////////////////////////////////////////////////Đối tượng vệt ngôi sao chạy theo mouse   
+
+function trailSpriteObj(anID)   
+
+{   
+
+this.trailSpriteID = "trailSprite" + anID; //Tùy đằng trước   
+
+this.imgRef = "trailSprite" + anID + "img"; //Chuyển tới tên những ngôi sau   
+
+this.currentFrame = 1; //nhìn thấy khung   
+
+this.animateTrailSprite = animateTrailSprite; //Khai báo phương pháp vòng lặp đối tượng   
+
+}   
+
+function animateTrailSprite()   
+
+{   
+
+if (this.currentFrame <7)   
+
+{// Nếu có hoạt cảnh (mà) những khung rời bỏ, thay đổi những ngôi sao kết cấu hiện thời   
+
+if (isNS)   
+
+{ //Phát hiện ra bộ duyệt và thực hiện sự chuyển đổi hình ảnh   
+
+eval("document['"+this.imgRef+"'].src=trailSpriteFrame" + this.currentFrame + ".src");   
+
+}   
+
+else   
+
+{   
+
+eval("document['"+this.imgRef+"'].src=trailSpriteFrame" + this.currentFrame + ".src");   
+
+}   
+
+this.currentFrame ++; //và tăng thêm hiện thời những đối tượng hình ảnh   
+
+}   
+
+else   
+
+{ //Khung hiện hành như vậy đạt đến giới hạn nó che dấu ngôi sao   
+
+eval(layerRef + '.' + this.trailSpriteID + styleRef + '.visibility="hidden"');   
+
+}   
+
+}/////////////////////////////////////////////////////////////////   
+
+function processAnim()   
+
+{   
+
+for(x=0; x < NUM_OF_TRAIL_PARTS; x++)   
+
+queue[x].animateTrailSprite();   
+
+}   
+
+function processMouse(e)   
+
+{   
+
+currentObj = shuffleQueue();   
+
+if (isNS)   
+
+{   
+
+eval("document." + currentObj + ".left=e.pageX-0;");   
+
+eval("document." + currentObj + ".top=e.pageY+5;");   
+
+}   
+
+else   
+
+{   
+
+eval("document.all." + currentObj + ".style.pixelLeft=event.clientX+document.body.scrollLeft-0;");   
+
+eval("document.all." + currentObj + ".style.pixelTop=event.clientY+document.body.scrollTop+5;");   
+
+}   
+
+}   
+
+function shuffleQueue()   
+
+{   
+
+lastItemPos = queue.length - 1;   
+
+lastItem = queue[lastItemPos];   
+
+for (i = lastItemPos; i>0; i--)   
+
+queue[i] = queue[i-1];   
+
+queue[0] = lastItem;   
+
+queue[0].currentFrame = 1; //sự sắp đặt lại số thứ tự hình ảnh của những đối tượng & làm cho ngôi sao rõ ràng thêm   
+
+eval(layerRef + '.' + queue[0].trailSpriteID + styleRef + '.visibility="visible"');   
+
+return queue[0].trailSpriteID;   
+
+}   
+
+function init()   
+
+{   
+
+for(x=0; x<NUM_OF_TRAIL_PARTS; x++) //Sắp hàng đầy đủ vệt dài của đối tượng   
+
+queue[x] = new trailSpriteObj(x+1);   
+
+if (isNS)   
+
+{   
+
+document.captureEvents(Event.MOUSEMOVE);   
+
+}   
+
+document.onmousemove = processMouse;   
+
+setInterval("processAnim();",25);   
+
+}   
+
+if (version > 3)   
+
+window.onload = init;   
+
+// -->   
+
+</SCRIPT>   
+
+</body>   
+
+</html>

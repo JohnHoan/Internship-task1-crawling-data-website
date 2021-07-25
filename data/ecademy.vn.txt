@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html
+  class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"
+  lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>ECADEMY</title>
+  <meta name="description" content="Nền tảng hỗ trợ giảng dạy đào tạo trực tuyến">
+  <meta name="keywords" content="Nền tảng dạy học trực tuyến">
+  <meta name="author" content="ecademy.vn">
+  <!--  FAVICON AND TOUCH ICONS -->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="./assets/libs/bootstrap/css/bootstrap.min.css" media="all">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="./assets/libs/fontawesome/css/font-awesome.min.css" media="all">
+  <!-- GOOGLE FONT -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/css">
+  <!-- MASTER STYLESHEET  -->
+  <link id="lgx-master-style" rel="stylesheet" href="./assets/css/style-default.css" media="all">
+  <!-- CUSTOM STYLESHEET -->
+  <link id="custom-style" rel="stylesheet" href="./assets/css/ecademy.css" media="all">
+  <!-- MODERNIZER CSS  -->
+  <script src="./assets/js/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body class="home">
+  <!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade	your browser</a> to improve your experience.</p>
+		<![endif]-->
+  <!-- ***  ADD YOUR SITE CONTENT HERE *** -->
+
+  <!--HEADER-->
+  <header>
+    <div id="lgx-header" class="lgx-header">
+      <div class="lgx-header-position lgx-header-position-white lgx-header-position-fixed ">
+        <!--lgx-header-position-fixed lgx-header-position-white lgx-header-fixed-container lgx-header-fixed-container-gap lgx-header-position-white-->
+        <div class="lgx-container">
+          <!--lgx-container-fluid-->
+          <nav class="navbar navbar-default lgx-navbar">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="lgx-logo">
+                <a href="index.html">
+                  <img src="assets/img/logo.png" alt="Ecademy Logo" />
+                </a>
+              </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav lgx-nav navbar-right">
+                <li class="active"><a class="lgx-scroll" href="index.html">Trang chủ</a></li>
+                <li><a class="lgx-scroll" href="terms.html">Điều khoản</a></li>
+                <li><a class="lgx-scroll" href="privacy.html">Chính sách</a></li>
+                <li><a class="lgx-scroll" href="contact.html">Liên hệ</a></li>
+              </ul>
+            </div>
+            <!--/.nav-collapse -->
+          </nav>
+        </div>
+        <!-- //.CONTAINER -->
+      </div>
+      <div class="lgx-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="lgx-header-content"></div>
+              <!--<img class="feature-img" alt="logo" src="assets/img/demo-feature.png" />-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="lgx-vatiations lgx-home-vatiations lgx-gap">
+      <div class="container-fluid">
+        <div class="row lgx-first-row wrap-events">
+          <div class="col-sm-12">
+            <div class="heading-title heading-title-white">
+              <div class="heading row ecademy-title">
+                <div class="col-xs-12">
+                  <h1> ECADEMY - NỀN TẢNG ĐÀO TẠO TRỰC TUYẾN</h1>
+                </div>
+              </div>
+
+              <div class="heading row">
+                <div class="col-xs-12 col-md-4">
+                  <h3>
+                    <div class="stat-number"><strong id="numOfWebinar"></strong></div>
+                    <div>Hội thảo</div>
+                  </h3>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                  <h3>
+                    <div class="stat-number"><strong id="numOfCourseProgram"></strong></div>
+                    <div>Khóa học</div>
+                  </h3>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                  <h3>
+                    <div class="stat-number"><strong id="numOfParticipant"></strong></div>
+                    <div>lượt tham dự</div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer>
+    <div id="lgx-footer" class="lgx-footer">
+      <!--lgx-footer-white-->
+      <div class="lgx-inner-footer">
+        <div class="container">
+          <div class="lgx-footer-area">
+            <div class="lgx-footer-single huge-column">
+              <h3 class="footer-title">Công ty cổ phần ECADEMY</h3>
+              <p class="text">
+                Tầng 12, Tòa nhà Viettel, 285 Cách Mạng Tháng Tám <br>Phường 12, Quận 10, Thành phố Hồ Chí Minh
+              </p>
+              <p class="text">
+                0989 989 929
+              </p>
+              <p class="text">
+                info@ecademy.vn
+              </p>
+            </div>
+            <!--//footer-area-->
+            <div class="lgx-footer-single link-column">
+              <h3 class="footer-title">Liên kết</h3>
+              <ul class="list-unstyled">
+                <li><a href="terms.html">Điều khoản dịch vụ</a></li>
+                <li><a href="privacy.html">Chính sách bảo mật</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+              </ul>
+            </div>
+            <div class="lgx-footer-single download-column">
+              <h3 class="footer-title">Tải về</h3>
+              <ul class="list-unstyled">
+                <li> IOS </li>
+                <li><a href="https://apps.apple.com/vn/app/ecademy/id1447263766"><img
+                      src="assets/image/appstore.png"></a></li>
+                <li><br>Android </li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.ecademy.student"><img
+                      src="assets/image/playstore.png"></a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Modal-->
+          <div id="lgx-modal-map" class="modal fade lgx-modal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body">
+                  <div class="lgxmapcanvas map-canvas-default" id="map_canvas"> </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- //.Modal-->
+          <div class="lgx-footer-bottom">
+            <div class="lgx-copyright">
+              <p> <span>©</span> Copyright 2021 <a href="https://www.ecademy.vn">ECADEMY Joint Stock Company.</a> - All
+                Rights Reserved</p>
+            </div>
+          </div>
+
+        </div>
+        <!-- //.CONTAINER -->
+      </div>
+      <!-- //.footer Middle -->
+    </div>
+  </footer>
+  <!-- JQUERY  -->
+  <script src="./assets/js/jquery-1.12.4.min.js"></script>
+  <!-- BOOTSTRAP JS  -->
+  <script src="./assets/libs/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Menu JS  -->
+  <script src="./assets/js/menu.js"></script>
+  <!-- EVENTS JS  -->
+  <script src="./assets/js/event.js"></script>
+</body>
+
+</html>

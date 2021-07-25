@@ -1,0 +1,1722 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="theme-color" content="#d81a15">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="&#x110;&#x1EB7;t v&#xE9; online">
+<meta name="keywords" content="1900 636 607">
+<meta name="keywords" content="C&#xF4;ng Ty TNHH D&#x1ECB;ch V&#x1EE5; V&#x1EAD;n T&#x1EA3;i Tu&#x1EA5;n T&#xFA;">
+<meta name="design" content="METAFAT">
+<meta name="metafat" content="METAFAT">
+<meta name="author" content="CÔNG TY TNHH CÔNG NGHỆ METAFAT">
+<title>Mua vé điện tử trực tuyến | Xe TU&#x1EA4;N T&#xDA; Qu&#x1EA3;ng Ng&#xE3;i - H&#x1ED3; Ch&#xED; Minh(S&#xE0;i G&#xF2;n)</title>
+
+<link rel="icon" href="/customer/images/ico/logo_icon.ico">
+
+<link href="/customer/css/customer_site.css" rel="stylesheet" />
+<link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<link href="/Assets/ca/css/font-awesome.min.css" rel="stylesheet" />
+<link href="/Assets/ca/css/toastr.min.css" rel="stylesheet" />
+
+<link href="/Assets/ca/style.min.css" rel="stylesheet" />
+
+<link href="/customer/css/customer_style.min.css" rel="stylesheet" />
+
+<link href="/Assets/ca/css/responsive.min.css" rel="stylesheet" />
+
+</head>
+<body>
+
+<div id="preloader">
+<div class="colorlib-load"></div>
+</div>
+<div id="wait" style="display:none;width:69px;height:89px;position:absolute;top:50%;left:50%;padding:2px;"><img src='/images/demo_wait.gif' width="64" height="64" /><br></div>
+
+
+<header class="header_area animated sticky slideInDown">
+<div class="container-fluid">
+<div class="row align-items-center">
+
+<div class="col-12 col-lg-12">
+<div class="menu_area">
+<nav class="navbar navbar-expand-lg navbar-light">
+
+<a class="navbar-brand" href="/">
+<img src="/customer/images/ico/logo_icon.png" class="logo" alt="logo">
+TU&#x1EA4;N T&#xDA;
+</a>
+<button id="btnmenu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+<div class="collapse navbar-collapse" id="ca-navbar">
+<ul class="navbar-nav ml-md-auto" id="nav">
+<li class="nav-item"><a class="nav-link" href="/">Trang chủ</a></li>
+<li class="nav-item"><a class="nav-link" href="/news">Tin t&#x1EE9;c</a></li>
+<li class="nav-item dropdown">
+<a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Điều khoản</a>
+<div class="dropdown-menu dropdown-menu-md-right" aria-labelledby="bd-versions">
+<a class="dropdown-item" href="/terms/chinh-sach-hoat-dong-website-tuan-tu.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> Ch&#xED;nh S&#xE1;ch Ho&#x1EA1;t &#x110;&#x1ED9;ng</a>
+<a class="dropdown-item" href="/terms/dieu-khoan-su-dung.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> &#x110;i&#x1EC1;u Kho&#x1EA3;n S&#x1EED; D&#x1EE5;ng</a>
+<a class="dropdown-item" href="/terms/chinh-sach-doi-tra-ve.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> Ch&#xED;nh S&#xE1;ch &#x110;&#x1ED5;i Tr&#x1EA3;</a>
+<a class="dropdown-item" href="/terms/chinh-sach-bao-mat.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> Ch&#xED;nh s&#xE1;ch b&#x1EA3;o m&#x1EAD;t</a>
+<a class="dropdown-item" href="/terms/dieu-khoan-thanh-toan.html"><i class="fa fa-file-text-o" aria-hidden="true"></i> &#x110;i&#x1EC1;u Kho&#x1EA3;n Thanh To&#xE1;n</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Th&#xF4;ng tin</a>
+<div class="dropdown-menu dropdown-menu-md-right" aria-labelledby="bd-versions">
+<a class="dropdown-item" href="/page/lien-he.html"><i class="fa fa-info-circle" aria-hidden="true"></i> Li&#xEA;n h&#x1EC7;</a>
+<a class="dropdown-item" href="/page/ve-chung-toi.html"><i class="fa fa-info-circle" aria-hidden="true"></i> V&#x1EC1; ch&#xFA;ng t&#xF4;i</a>
+<a class="dropdown-item" href="/page/tuyen-dung.html"><i class="fa fa-info-circle" aria-hidden="true"></i> Tuy&#x1EC3;n d&#x1EE5;ng</a>
+<a class="dropdown-item" href="/page/hoi-dap.html"><i class="fa fa-info-circle" aria-hidden="true"></i> H&#x1ECF;i &#x111;&#xE1;p</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+<img class="img-lang" src="/images/lang/VN.png" alt="Tiếng Việt"><span class="hidden-xs"></span>
+</a>
+<div class="dropdown-menu dropdown-menu-md-right" aria-labelledby="bd-versions">
+<a class="dropdown-item" href="/Home/SetLanguage?culture=vi&amp;returnUrl=~%2F"><img src="/images/lang/VN.png" alt="Tiếng Việt">&nbsp;<span class="hidden-xs">Tiếng Việt</span></a>
+<a class="dropdown-item" href="/Home/SetLanguage?culture=en&amp;returnUrl=~%2F"><img src="/images/lang/GB.png" alt="English">&nbsp;<span class="hidden-xs">English</span></a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-item nav-link dropdown-toggle mr-md-2 logout" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+<svg data-v-6f990524="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z" transform="translate(-907 -733) translate(887 394) translate(20 339)"></path></svg>
+</a>
+<div class="dropdown-menu dropdown-menu-md-right">
+<a class="dropdown-item" href="/dang-nhap"><span class="hidden-xs"><i class="fa fa-sign-in" aria-hidden="true"></i> &#x110;&#x103;ng nh&#x1EAD;p</span></a>
+<a class="dropdown-item" href="/sign-up"><span class="hidden-xs"><i class="fa fa-user-plus" aria-hidden="true"></i> &#x110;&#x103;ng k&#xFD;</span></a>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<style>
+    .dropdown-menu {
+        left: auto;
+        right: 0;
+        /*left: -80px !important;*/
+        padding: 0;
+        margin: 0;
+    }
+
+    .dropdown-item {
+        /*font-size: 12px;*/
+        font-size: 15px;
+        padding: 8px 10px;
+    }
+
+        .dropdown-item:hover {
+            background-color: #6c757d;
+            /*border: 1px solid;*/
+        }
+
+    @media (min-width: 1199px) {
+        .dropdown-menu.dropdown-menu-md-right {
+            margin-top: 0px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .nav-item.dropdown:hover .dropdown-menu.dropdown-menu-md-right {
+            display: block;
+        }
+
+        .dropdown-menu.show {
+            left: -60%;
+            /*top:-100%;*/
+            width: 100%;
+            /*height: 100%;*/
+        }
+
+        .nav-item:hover .nav-link {
+            background: #6c757d;
+        }
+
+        .header_area.sticky .menu_area #nav .nav-link {
+            padding: 6px 10px;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .dropdown-menu.dropdown-menu-md-right.show {
+            display: block;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .dropdown-menu.show {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .navbar-collapse.collapse.show {
+            max-height: 90vh;
+            overflow: auto;
+        }
+
+        .dropdown-item {
+            border-top: 1px solid #5b32b4;
+        }
+
+        .nav-item {
+            padding: 2px;
+        }
+
+        .nav-link {
+            border: 1px solid #17a2b8;
+            /*background-color: #17a2b8 !important;*/
+        }
+    }
+
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .dropdown-menu.dropdown-menu-md-right {
+            margin-top: 0px;
+        }
+
+        .navbar-collapse.collapse.show {
+            height: 50px;
+        }
+
+        .header_area.sticky .menu_area #nav .nav-link {
+            padding: 6px 7.5px;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+    }
+
+    .logo {
+        position: relative;
+        top: -3px;
+        max-height: 32px !important;
+        max-width: 32px;
+    }
+
+    .dropdown-menu .user {
+        width: 100%;
+        text-align: center;
+        padding: 10px 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .avatar-container {
+        position: relative;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        margin: 0 60px;
+    }
+
+    .u-avatar {
+        width: 80px;
+        height: 80px;
+        fill: #f5f5f5;
+    }
+
+    .logout {
+        color: #fff;
+        fill: #fff;
+    }
+
+    .loged {
+        background-color: #80770d;
+        fill: #fff;
+    }
+
+    #btnmenu:focus {
+        /*outline: #4CAF50 solid 1px;*/
+        border-radius: 0.35rem;
+        outline: 1px dotted;
+        outline: 5px auto #838883;
+    }
+
+    /**********************************************************************/
+    .dropdown-submenu {
+        position: relative;
+    }
+
+        .dropdown-submenu a::after {
+            transform: rotate(-90deg);
+            position: absolute;
+            right: 6px;
+            top: .8em;
+        }
+
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-left: .1rem;
+            margin-right: .1rem;
+        }
+
+    .img-lang {
+        border: 1px solid;
+    }
+</style>
+
+
+<section class="wellcome_area clearfix" id="home"></section>
+
+<div class="container header-area">
+<div id="carousel-header" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carouselMetro" data-slide-to="0" class="active"></li>
+<li data-target="#carouselMetro" data-slide-to="1" class="active"></li>
+<li data-target="#carouselMetro" data-slide-to="2" class="active"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img class="d-block w-100" src="/customer/images/HeaderArea/01 tuantu 102.jpg" alt="01 tuantu 102.jpg">
+<div class="carousel-caption d-none d-md-block">
+<h3 class="text-warning"></h3>
+<p></p>
+</div>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="/customer/images/HeaderArea/bannel tuan tu.png" alt="bannel tuan tu.png">
+<div class="carousel-caption d-none d-md-block">
+<h3 class="text-warning"></h3>
+<p></p>
+</div>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="/customer/images/HeaderArea/tuan tu panel 2.png" alt="tuan tu panel 2.png">
+<div class="carousel-caption d-none d-md-block">
+<h3 class="text-warning"></h3>
+<p></p>
+</div>
+</div>
+</div>
+<a class="carousel-control-prev" href="#carousel-header" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Tr&#x1B0;&#x1EDB;c</span>
+</a>
+<a class="carousel-control-next" href="#carousel-header" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Ti&#x1EBF;p t&#x1EE5;c</span>
+</a>
+</div>
+<div class="clear"></div>
+</div>
+<style>
+    @media (min-width: 768px) {
+        #carousel-header img {
+            max-height: 275px;
+            height: 275px;
+        }
+    }
+     @media (max-width: 768px) {
+        #carousel-header img {
+            max-height: 160px;
+            height: 160px;
+        }
+    }
+</style>
+
+<div class="renderbody">
+<section id="body-top" class="d-none">
+<div class="container">
+<div class="row">
+<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 col-ms-12">
+<h4 class="heading"><i class="fa fa-bus"></i> <span>Mua vé điện tử trực tuyến</span></h4>
+<div class="clearfix"></div>
+<div class="main_primary" style="margin-bottom:10px">
+<div class="primary">
+<form action="/tim-ve" id="directionform" method="get"><input name="__RequestVerificationToken" type="hidden" value="CfDJ8La2by8jJ75FpzTA561LfMJpq9cgoC6D5gffn9Bqj1LXW16I78z7WI-PCFzttUO_Nie3uY6kJHC8GHEcRJlBImU4rb5mq0h6jdW_3_hmna2xVVqlk-FeTixPfugCeQ5WYv4uE-IlpU7kwm3k4GjAfao" /> <div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-ms-12">
+<input type="radio" id="one-way" name="direction" onclick="handleClick(this);" value="false">
+ <label for="one-way" class="one-way-label">Một chiều</label>
+<input type="radio" id="round-trip" name="direction" onclick="handleClick(this);" value="true">
+<label for="round-trip" class="round-trip-label">Khứ hồi</label>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+<div class="form-group">
+<label for="" class="fa fa-bus"> Từ</label>
+<div class="controls">
+<select autofocus="autofocus" class="form-control" id="IdTuyenDi" name="IdTuyenDi" required="required"><option selected="selected" value="QN-SG">Qu&#x1EA3;ng Ng&#xE3;i</option>
+<option value="SG-QN">S&#xE0;i G&#xF2;n</option>
+</select>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+<div class="form-group">
+<label for="" class="fa fa-bus"> Đến</label>
+<div class="controls">
+<select class="form-control" id="IdTuyenDen" name="IdTuyenDen"><option selected="selected" value="QN-SG">S&#xE0;i G&#xF2;n</option>
+<option value="SG-QN">Qu&#x1EA3;ng Ng&#xE3;i</option>
+</select>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+<div class="form-group">
+<label for="" class="fa fa-calendar"> Khởi hành ngày/tháng/năm </label>
+<div class="controls">
+<input class="form-control" id="oneWayDateId" name="OneWayDate" type="text" value="22/07/2021" />
+<span class="text-danger field-validation-valid" data-valmsg-for="OneWayDate" data-valmsg-replace="true"></span>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+<div class="form-group">
+<label for="" class="fa fa-calendar"> Trở lại ngày/tháng/năm</label>
+<div class="controls">
+<input class="form-control" disabled="true" id="roundTripDateId" name="RoundTripDate" type="text" value="22/07/2021" />
+<span class="text-danger field-validation-valid" data-valmsg-for="RoundTripDate" data-valmsg-replace="true"></span>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+<div class="form-group">
+<div class="controls">
+<button type="submit" id="trip-search" class="btn btn-primary btn-block btn-flat btn-booking"><i class="fa fa-search icon-flat bg-btn-actived"></i> Tim chuyến đi</button>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+<a class="btn btn-success btn-block btn-booking" title="Hướng dẫn mua vé" data-toggle="modal" data-refresh="true" data-target="#viewhuongdan" href=""> Hướng dẫn mua vé</a>
+</div>
+</div>
+<div class="clearfix"></div>
+</form>  <div class="row">
+<div class="clear"></div>
+</div>
+<div class="modal fade" id="viewhuongdan" tabindex="-1" role="dialog">
+<div class="modal-dialog modal-md">
+<div class="modal-content">
+<div class="modal-header" style="display: inline-block;">
+<button type="button" class="close text-primary" data-dismiss="modal">x</button>
+<h5 class="modal-title text-info" style="text-transform: uppercase;">Hướng dẫn đặt vé</h5>
+</div>
+<div class="modal-body">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 col-ms-12">
+<div id="carouselMetro" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carouselMetro" data-slide-to="0" class="active"></li>
+<li data-target="#carouselMetro" data-slide-to="1" class="active"></li>
+<li data-target="#carouselMetro" data-slide-to="2" class="active"></li>
+<li data-target="#carouselMetro" data-slide-to="3" class="active"></li>
+<li data-target="#carouselMetro" data-slide-to="4" class="active"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img class="d-block w-100" style="max-height:300px;" src="/customer/images/carousel/01 Tu&#x1EA5;n T&#xFA; Khai Tr&#x1B0;&#x1A1;ng Tuy&#x1EBF;n m&#x1EDB;i.jpg" alt="01 Tu&#x1EA5;n T&#xFA; Khai Tr&#x1B0;&#x1A1;ng Tuy&#x1EBF;n m&#x1EDB;i.jpg">
+<div class="carousel-caption d-none d-md-block">
+<h3 class="text-warning"></h3>
+<p></p>
+</div>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" style="max-height:300px;" src="/customer/images/carousel/1 ban ve tet.jpg" alt="1 ban ve tet.jpg">
+<div class="carousel-caption d-none d-md-block">
+<h3 class="text-warning"></h3>
+<p></p>
+</div>
+ </div>
+<div class="carousel-item">
+<img class="d-block w-100" style="max-height:300px;" src="/customer/images/carousel/1 Xe Tu&#x1EA5;n T&#xFA; Qu&#x1EA3;ng Ng&#xE3;i.jpg" alt="1 Xe Tu&#x1EA5;n T&#xFA; Qu&#x1EA3;ng Ng&#xE3;i.jpg">
+<div class="carousel-caption d-none d-md-block">
+<h3 class="text-warning"></h3>
+<p></p>
+</div>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" style="max-height:300px;" src="/customer/images/carousel/3_01 xe tuan tu quang ngai.jpg" alt="3_01 xe tuan tu quang ngai.jpg">
+<div class="carousel-caption d-none d-md-block">
+<h3 class="text-warning"></h3>
+<p></p>
+</div>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" style="max-height:300px;" src="/customer/images/carousel/3_1 xe tuan tu.jpg" alt="3_1 xe tuan tu.jpg">
+<div class="carousel-caption d-none d-md-block">
+<h3 class="text-warning"></h3>
+<p></p>
+</div>
+</div>
+</div>
+<a class="carousel-control-prev" href="#carouselMetro" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Tr&#x1B0;&#x1EDB;c</span>
+</a>
+<a class="carousel-control-next" href="#carouselMetro" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Ti&#x1EBF;p t&#x1EE5;c</span>
+</a>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+</section>
+<link href="/Assets/ca/css/jquery-ui.css" rel="stylesheet" />
+<link href="/Assets/ca/css/jquery.datepicker.lunar.css" rel="stylesheet" />
+<style>
+    #ui-datepicker-div {
+        z-index: 100 !important;
+    }
+</style>
+</div>
+
+
+<section class="special-area bg-whit section_padding_20">
+<div class="container">
+<div class="row">
+<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 col-ms-12 introduction">
+<div class="">
+<div class="special_description_content"> <h3 class="brand-color" style="font-weight: bold;font-family: serif,ui-sans-serif;">TUẤN TÚ EXPRESS</h3> <p class="" style="font-weight: bold;font-style: italic;font-family: serif;text-align: center;font-size: large;color: #28a745;margin-bottom: 0;">Đưa bạn đến những chân trời mới <br>Đón bạn về mái ấm tình thương!</p> <h5 style="color: blue;font-weight: bold;font-family: serif;">Hân hạnh phục vụ quý khách!</h5> <h5 style="font-weight: bold;font-family: serif,ui-sans-serif;" class="brand-color">Với phương châm phục vụ nhanh chóng, TUẤN TÚ đang khai thác nhiều dòng xe khách chất lượng, bao gồm cả xe trung chuyển, xe tải để phục vụ quý khách và hàng hóa quý khách đáp ứng thời gian, tiện lợi!</h5> </div>
+</div>
+</div>
+<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 col-ms-12">
+<a class="nav-link" href="/news"><h3 class="brand-color text-uppercase">Tin t&#x1EE9;c</h3></a>
+<div class="overflow-auto" style="max-height:280px;">
+<article>
+<a title="tuan-tu-express-thong-bao-quy-trinh-nhan-gui-hang-trong-thoi-diem-gian-cach" href="/posts/tuan-tu-express-thong-bao-quy-trinh-nhan-gui-hang-trong-thoi-diem-gian-cach.html">
+<span class="image-post">
+<img src="/customer/posts/18/vi/tuantu gian cach.png" />
+</span>
+<div class="text-link-post text-primary">
+<img src="/images/new.jpg" />
+TU&#x1EA4;N T&#xDA; EXPRESS - TH&#xD4;NG B&#xC1;O QUY TR&#xCC;NH G&#x1EEC;I, NH&#x1EAC;N H&#xC0;NG TRONG TH&#x1EDC;I &#x110;I&#x1EC2;M GI&#xC3;N C&#xC1;CH T&#x1EEA; 20/07/2021
+ <div class="text-dark summary">
+TU&#x1EA4;N T&#xDA; xin l&#x1ED7;i Qu&#xFD; kh&#xE1;ch h&#xE0;ng hai ng&#xE0;y qua &#x111;&#xE3; x&#x1EA3;y nh&#x1B0;ng nh&#x1EEF;ng v&#x1EA5;n &#x111;&#x1EC1; v&#x1EC1; ch&#x1EAD;m tr&#x1EC5;, t&#xEC;m ki&#x1EC1;m h&#xE0;ng h&#xF3;a... trong qu&#xE1; tr&#xEC;nh nh&#x1EAD;n h&#xE0;ng t&#x1EA1;i b&#xE3;i m&#x1EDB;i &#x111;&#xE3; g&#xE2;y nhi&#x1EC1;u kh&#xF3; kh&#x103;n v&#xE0; tr&#x1EDF; ng&#x1EA1;i. Tu&#x1EA5;n T&#xFA; bi&#x1EBF;t r&#x1EB1;ng m&#x1ED7;i s ... <i class="fa fa-clock-o">20/07/2021</i> 
+</div>
+</div>
+</a>
+</article>
+<div class="end-link"></div>
+<article>
+<a title="tuan-tu-express-thong-bao-hinh-thuc-nhan-hang-moi" href="/posts/tuan-tu-express-thong-bao-hinh-thuc-nhan-hang-moi.html">
+<span class="image-post">
+<img src="/customer/posts/16/vi/tuan tu 14-07 01.png" />
+</span>
+<div class="text-link-post text-primary">
+<img src="/images/new.jpg" />
+TU&#x1EA4;N T&#xDA; EXPRESS TH&#xD4;NG B&#xC1;O H&#xCC;NH TH&#x1EE8;C NH&#x1EAC;N H&#xC0;NG M&#x1EDA;I
+<div class="text-dark summary">
+Tr&#x1B0;&#x1EDB;c t&#xEC;nh h&#xEC;nh di&#x1EC5;n bi&#x1EBF;n ph&#x1EE9;c t&#x1EA1;p, ch&#xED;nh ph&#x1EE7; v&#xE0; th&#xE0;nh ph&#x1ED1; &#xE1;p d&#x1EE5;ng nhi&#x1EC1;u ch&#x1EC9; th&#x1ECB; &#x111;&#x1EC3; &#x111;&#x1EA3;m b&#x1EA3;o &#x111;&#x1B0;&#x1EE3;c an to&#xE0;n cao nh&#x1EA5;t cho ng&#x1B0;&#x1EDD;i d&#xE2;n v&#xE0; x&#xE3; h&#x1ED9;i. T&#x1EA5;t c&#x1EA3; h&#xE0;ng h&#xF3;a (&#x111;&#xF4;ng l&#x1EA1;nh, l&#x1B0;&#x1A1;ng th&#x1EF1;c, th&#x1EF1;c ph&#x1EA9;m...) ... <i class="fa fa-clock-o">14/07/2021</i>
+</div>
+</div>
+</a>
+</article>
+<div class="end-link"></div>
+<article>
+<a title="tuan-tu-van-chuyen-lien-tuc-mua-dich" href="/posts/tuan-tu-van-chuyen-lien-tuc-mua-dich.html">
+<span class="image-post">
+<img src="/customer/posts/15/vi/tuan tu 119.jpg" />
+</span>
+<div class="text-link-post text-primary">
+<img src="/images/new.jpg" />
+Tr&#xE1;nh tin &#x111;&#x1ED3;n &quot;D&#x1EEB;ng V&#x1EAD;n Chuy&#x1EC3;n&quot; - Tu&#x1EA5;n T&#xFA; v&#x1EAD;n chuy&#x1EC3;n xuy&#xEA;n su&#x1ED1;t m&#xF9;a d&#x1ECB;ch
+<div class="text-dark summary">
+Tu&#x1EA5;n T&#xFA; v&#x1EAD;n t&#x1EA3;i h&#xE0;ng h&#xF3;a b&#xEC;nh th&#x1B0;&#x1EDD;ng - li&#xEA;n t&#x1EE5;c d&#xF9; d&#x1ECB;ch b&#x1EC7;nh c&#x103;ng th&#x1EB3;ng v&#xE0; gi&#xE3;n c&#xE1;ch x&#xE3; h&#x1ED9;i kh&#xF3; kh&#x103;n. C&#xE1;c &#x111;&#x1A1;n v&#x1ECB; v&#x1EAD;n t&#x1EA3;i d&#x1EEB;ng nh&#x1B0;ng Tu&#x1EA5;n T&#xFA; v&#x1EAB;n mi&#x1EC7;t m&#xE0;i c&#x1ED1; g&#x1EAF;ng m&#x1ED7;i ng&#xE0;y &#x111;&#x1EC3; v&#x1EAD;n chuy&#x1EC3;n an to&#xE0;n v&#xE0; nhanh ... <i class="fa fa-clock-o">12/07/2021</i>
+</div>
+</div>
+</a>
+</article>
+<div class="end-link"></div>
+<article>
+<a title="thoi-gian -van-chuyen-hang-dong-lanh-bao-lau" href="/posts/thoi-gian%20-van-chuyen-hang-dong-lanh-bao-lau.html">
+<span class="image-post">
+<img src="/customer/posts/4/vi/tuan tu 101.jpg" />
+</span>
+<div class="text-link-post text-primary">
+<img src="/images/new.jpg" />
+TH&#x1EDC;I GIAN V&#x1EAC;N CHUY&#x1EC2;N H&#xC0;NG &#x110;&#xD4;NG L&#x1EA0;NH M&#x1EA4;T BAO L&#xC2;U&#xFE0F;
+<div class="text-dark summary">
+Tu&#x1EA5;n T&#xFA; c&#x169;ng nh&#x1B0; Qu&#xFD; kh&#xE1;ch h&#xE0;ng lo l&#x1EAF;ng s&#x1ED1;t ru&#x1ED9;t mong ch&#x1EDD; t&#x1EEB;ng chuy&#x1EBF;n xe &#x111;&#x1EBF;n b&#x1EBF;n &#x111;&#x1B0;&#x1EE3;c an to&#xE0;n. &#x110;&#x1EC3; th&#xED;ch &#x1EE9;ng v&#x1EDB;i t&#xEC;nh h&#xEC;nh m&#x1EDB;i c&#xF3; th&#x1EC3; th&#x1EDD;i gian v&#x1EAD;n chuy&#x1EC3;n b&#x1ECB; k&#xE9;o d&#xE0;i l&#xE2;u h&#x1A1;n d&#x1EF1; ki&#x1EBF;n b&#xE0; con khi g&#x1EED;i h&#xE0;n ... <i class="fa fa-clock-o">09/07/2021</i>
+</div>
+</div>
+</a>
+</article>
+<div class="end-link"></div>
+<article>
+<a title="tuan-tu-cam-on-bao-tuoi-tre" href="/posts/tuan-tu-cam-on-bao-tuoi-tre.html">
+<span class="image-post">
+<img src="/customer/posts/3/vi/205363375_822404138711810_2468566549736171908_n.jpg" />
+</span>
+<div class="text-link-post text-primary">
+<img src="/images/new.jpg" />
+TU&#x1EA4;N T&#xDA; C&#x1EA2;M &#x1A0;N B&#xC1;O TU&#x1ED4;I TR&#x1EBA;
+<div class="text-dark summary">
+Tuan Tu Express c&#x1EA3;m &#x1A1;n v&#xE0; mong r&#x1EB1;ng Qu&#xEA; H&#x1B0;&#x1A1;ng v&#xE0; Vi&#x1EC7;t Nam nhanh ch&#xF3;ng v&#x1B0;&#x1EE3;t qua &#x111;&#x1EA1;i d&#x1ECB;ch v&#xE0; h&#x1B0;&#x1EDB;ng t&#x1EDB;i t&#x1B0;&#x1A1;ng lai ... <i class="fa fa-clock-o">09/07/2021</i>
+</div>
+ </div>
+</a>
+</article>
+<div class="end-link"></div>
+</div>
+<div style="font-size:x-small;float: right;">Số lần truy cập 39380</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="special-area bg-white section_padding_20">
+<div class="container">
+<div class="row">
+<div class="col-12">
+
+<div class="text-center">
+<h2 class="brand-color Italic" style="font-family: sans-serif; font-style:italic;">TU&#x1EA4;N T&#xDA; * Kh&#xF4;ng Ng&#x1EEB;ng N&#x1ED7; L&#x1EF1;c - Kh&#xF4;ng Ng&#x1EEB;ng M&#x1EDF; R&#x1ED9;ng</h2>
+</div>
+</div>
+</div>
+<div class="row">
+
+<div class="col-12 col-md-3">
+<div class="single-special text-center wow fadeInUp heigth_100" data-wow-delay="0.2s">
+<div class="single-icon large-icon">
+<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+</div>
+<h4 class="text-uppercase font-weight-bold">Tr&#xEA;n 1 tri&#x1EC7;u l&#x1B0;&#x1EE3;t kh&#xE1;ch</h4>
+<p>Tu&#x1EA5;n T&#xFA; ph&#x1EE5;c v&#x1EE5; b&#xEC;nh qu&#xE2;n h&#x1A1;n 1 tri&#x1EC7;u l&#x1B0;&#x1EE3;t h&#xE0;nh kh&#xE1;ch/n&#x103;m to&#xE0;n tuy&#x1EBF;n</p>
+</div>
+</div>
+
+<div class="col-12 col-md-3">
+<div class="single-special text-center wow fadeInUp heigth_100" data-wow-delay="0.2s">
+<div class="single-icon large-icon">
+<i class="fa fa-cart-plus" aria-hidden="true"></i>
+</div>
+<h4 class="text-uppercase font-weight-bold">Tr&#xEA;n 5000 t&#x1EA5;n h&#xE0;ng/n&#x103;m</h4>
+<p>Tu&#x1EA5;n T&#xFA; ph&#x1EE5;c v&#x1EE5; v&#x1EAD;n chuy&#x1EC3;n b&#xEC;nh qu&#xE2;n 5000 T&#x1EA5;n h&#xE0;ng h&#xF3;a m&#x1ED7;i n&#x103;m tr&#xEA;n to&#xE0;n qu&#x1ED1;c</p>
+</div>
+</div>
+
+<div class="col-12 col-md-3">
+<div class="single-special text-center wow fadeInUp heigth_100" data-wow-delay="0.4s">
+<div class="single-icon large-icon">
+<i class="fa fa-bus" aria-hidden="true"></i>
+</div>
+<h4 class="text-uppercase font-weight-bold">H&#x1A1;n 20 xe ph&#x1EE5;c v&#x1EE5;</h4>
+<p>Hi&#x1EC7;n t&#x1EA1;i Tu&#x1EA5;n T&#xFA; s&#x1EDF; h&#x1EEF;u 10 &#x111;&#x1EA7;u xe kh&#xE1;ch ch&#x1EA5;t l&#x1B0;&#x1EE3;ng cao, 5 &#x111;&#x1EA7;u xe tr&#x1ECD;ng t&#x1EA3;i l&#x1EDB;n, 10 xe trung chuy&#x1EC3;n c&#xE1;c tuy&#x1EBF;n... v&#xE0; kh&#xF4;ng ng&#x1EEB;ng m&#x1EDF; &#x111;&#x1ED9;ng qua t&#x1EEB;ng n&#x103;m v&#xE0; li&#xEA;n k&#x1EBF;t h&#x1A1;n 100 xe ph&#x1EE5;c v&#x1EE5; khi c&#x1EA7;n thi&#x1EBF;t</p>
+</div>
+</div>
+
+<div class="col-12 col-md-3">
+<div class="single-special text-center wow fadeInUp heigth_100" data-wow-delay="0.6s">
+<div class="single-icon large-icon">
+<i class="fa fa-home" aria-hidden="true"></i>
+</div>
+<h4 class="text-uppercase font-weight-bold">Tr&#xEA;n 30 tr&#x1EA1;m giao d&#x1ECB;ch</h4>
+<p>Tu&#x1EA5;n T&#xFA; ph&#xE1;t tri&#x1EC3;n 7 tr&#x1EE5; s&#x1EDF;, 3 b&#x1EBF;n b&#xE3;i v&#xE0; h&#xE0;ng ch&#x1EE5;c &#x111;i&#x1EC3;m &#x111;&#x1B0;a &#x111;&#xF3;n - g&#x1EED;i h&#xE0;ng kh&#x1EAF;p n&#x1B0;&#x1EDB;c Vi&#x1EC7;t Nam</p>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</section>
+
+
+<section class="special-area bg-white section_padding_20">
+<div class="container">
+<div class="row">
+<div class="col-12">
+
+<div class="section-heading text-center">
+<h2>Li&#xEA;n h&#x1EC7;</h2>
+<h1 class="so-tong-dai">1900 636 607</h1>
+</div>
+</div>
+</div>
+<div class="row">
+
+<div class="col-12 col-md-6">
+<div class="single-special text-left wow fadeInUp heigth_100" data-wow-delay="0.2s">
+<div class="single-icon">
+<i class="fa fa-compass" aria-hidden="true"> TR&#x1EE4; S&#x1EDE; QU&#x1EA2;NG NG&#xC3;I</i>
+</div>
+<p>S&#x1ED1; 41 L&#xEA; Th&#xE1;nh T&#xF4;n, ph&#x1B0;&#x1EDD;ng Ngh&#x129;a Ch&#xE1;nh, TP. Qu&#x1EA3;ng Ng&#xE3;i</p>
+<a target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Xem tr&#xEA;n b&#x1EA3;n &#x111;&#x1ED3;</a><br />
+<a style="color:red;" target="_blank" href="tel:1900 636 607"><i class="fa fa-phone-square" aria-hidden="true"></i>1900 636 607&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0916 616 099"><i class="fa fa-phone-square" aria-hidden="true"></i>0916 616 099&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0914 120 755"><i class="fa fa-phone-square" aria-hidden="true"></i>0914 120 755</a>
+</div>
+</div>
+
+<div class="col-12 col-md-6">
+<div class="single-special text-left wow fadeInUp heigth_100" data-wow-delay="0.2s">
+<div class="single-icon">
+<i class="fa fa-compass" aria-hidden="true"> PGD BX QU&#x1EA2;NG NG&#xC3;I</i>
+</div>
+<p>Ki &#x1ED1;t 11 &#x111;&#x1EBF;n 16, b&#x1EBF;n xe Qu&#x1EA3;ng Ng&#xE3;i, TP.Qu&#x1EA3;ng Ng&#xE3;i</p>
+<a href="https://goo.gl/maps/XRQvAdbiKvSLPuZe8" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Xem tr&#xEA;n b&#x1EA3;n &#x111;&#x1ED3;</a><br />
+<a style="color:red;" target="_blank" href="tel:1900 636 607"><i class="fa fa-phone-square" aria-hidden="true"></i>1900 636 607&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0916 616 099"><i class="fa fa-phone-square" aria-hidden="true"></i>0916 616 099&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0914 120 755"><i class="fa fa-phone-square" aria-hidden="true"></i>0914 120 755</a>
+</div>
+</div>
+
+<div class="col-12 col-md-6">
+<div class="single-special text-left wow fadeInUp heigth_100" data-wow-delay="0.2s">
+<div class="single-icon">
+<i class="fa fa-compass" aria-hidden="true"> PGD B&#xC0; &#x110;&#x1EA0;T</i>
+</div>
+<p>Th&#xF4;n 3 x&#xE3; &#x110;&#x1EE9;c Nhu&#x1EAD;n huy&#x1EC7;n M&#x1ED9; &#x110;&#x1EE9;c, t&#x1EC9;nh Qu&#x1EA3;ng Ng&#xE3;i (M&#x169;i t&#xE0;u c&#x1EA7;u S&#xF4;ng V&#x1EC7;)</p>
+<a target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Xem tr&#xEA;n b&#x1EA3;n &#x111;&#x1ED3;</a><br />
+<a style="color:red;" target="_blank" href="tel:1900 636 607"><i class="fa fa-phone-square" aria-hidden="true"></i>1900 636 607&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0916 616 099"><i class="fa fa-phone-square" aria-hidden="true"></i>0916 616 099&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0888 08 3366"><i class="fa fa-phone-square" aria-hidden="true"></i>0888 08 3366</a>
+</div>
+</div>
+
+<div class="col-12 col-md-6">
+<div class="single-special text-left wow fadeInUp heigth_100" data-wow-delay="0.2s">
+<div class="single-icon">
+<i class="fa fa-compass" aria-hidden="true"> PGD TR&#xC0; C&#xC2;U</i>
+</div>
+<p>QL1A, Tr&#xE0; C&#xE2;u, Ph&#x1ED5; V&#x103;n, &#x110;&#x1EE9;c Ph&#x1ED5;, Qu&#x1EA3;ng Ng&#xE3;i</p>
+<a target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Xem tr&#xEA;n b&#x1EA3;n &#x111;&#x1ED3;</a><br />
+<a style="color:red;" target="_blank" href="tel:1900 636 607"><i class="fa fa-phone-square" aria-hidden="true"></i>1900 636 607&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0916 616 099"><i class="fa fa-phone-square" aria-hidden="true"></i>0916 616 099&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0888 08 3366"><i class="fa fa-phone-square" aria-hidden="true"></i>0888 08 3366</a>
+</div>
+</div>
+
+<div class="col-12 col-md-6">
+<div class="single-special text-left wow fadeInUp heigth_100" data-wow-delay="0.2s">
+<div class="single-icon">
+<i class="fa fa-compass" aria-hidden="true"> TR&#x1EE4; S&#x1EDE; H&#x1ED2; CH&#xCD; MINH</i>
+</div>
+<p>590-600 B&#xEC;nh Long, ph&#x1B0;&#x1EDD;ng T&#xE2;n Qu&#xFD;, qu&#x1EAD;n T&#xE2;n Ph&#xFA;, TP.HCM</p>
+<a href="https://goo.gl/maps/pEic2LnLZNUWkyzc8" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Xem tr&#xEA;n b&#x1EA3;n &#x111;&#x1ED3;</a><br />
+<a style="color:red;" target="_blank" href="tel:1900 636 607"><i class="fa fa-phone-square" aria-hidden="true"></i>1900 636 607&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0916 616 099"><i class="fa fa-phone-square" aria-hidden="true"></i>0916 616 099&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0888 08 33 66"><i class="fa fa-phone-square" aria-hidden="true"></i>0888 08 33 66</a>
+</div>
+</div>
+
+<div class="col-12 col-md-6">
+<div class="single-special text-left wow fadeInUp heigth_100" data-wow-delay="0.2s">
+<div class="single-icon">
+<i class="fa fa-compass" aria-hidden="true"> PGD BX MI&#x1EC0;N &#x110;&#xD4;NG</i>
+</div>
+<p>S&#x1ED1; 45 Nguy&#x1EC5;n X&#xED;, ph&#x1B0;&#x1EDD;ng 26, qu&#x1EAD;n B&#xEC;nh Th&#x1EA1;nh, TP.HCM (&#x110;&#x1ED1;i di&#x1EC7;n BX Mi&#x1EC1;n &#x110;&#xF4;ng)</p>
+<a target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Xem tr&#xEA;n b&#x1EA3;n &#x111;&#x1ED3;</a><br />
+<a style="color:red;" target="_blank" href="tel:1900 636 607"><i class="fa fa-phone-square" aria-hidden="true"></i>1900 636 607&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0916 616 099"><i class="fa fa-phone-square" aria-hidden="true"></i>0916 616 099&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0888 08 3366"><i class="fa fa-phone-square" aria-hidden="true"></i>0888 08 3366</a>
+</div>
+</div>
+
+<div class="col-12 col-md-6">
+<div class="single-special text-left wow fadeInUp heigth_100" data-wow-delay="0.2s">
+<div class="single-icon">
+<i class="fa fa-compass" aria-hidden="true"> CHI NH&#xC1;NH S&#x1ED0; 1</i>
+</div>
+<p>S&#x1ED1; 60 T&#xE2;n Th&#xE0;nh, ph&#x1B0;&#x1EDD;ng Ph&#xFA; Th&#x1EA1;nh, qu&#x1EAD;n T&#xE2;n Ph&#xFA;, TP.HCM</p>
+<a target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Xem tr&#xEA;n b&#x1EA3;n &#x111;&#x1ED3;</a><br />
+ <a style="color:red;" target="_blank" href="tel:1900 636 607"><i class="fa fa-phone-square" aria-hidden="true"></i>1900 636 607&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0916 616 099"><i class="fa fa-phone-square" aria-hidden="true"></i>0916 616 099&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0888 08 3366"><i class="fa fa-phone-square" aria-hidden="true"></i>0888 08 3366</a>
+</div>
+</div>
+
+<div class="col-12 col-md-6">
+<div class="single-special text-left wow fadeInUp heigth_100" data-wow-delay="0.2s">
+<div class="single-icon">
+<i class="fa fa-compass" aria-hidden="true"> CHI NH&#xC1;NH S&#x1ED0; 2</i>
+</div>
+<p>S&#x1ED1; 67 Th&#xE0;nh M&#x1EF9;, ph&#x1B0;&#x1EDD;ng 8, qu&#x1EAD;n T&#xE2;n B&#xEC;nh, TP.HCM</p>
+<a target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Xem tr&#xEA;n b&#x1EA3;n &#x111;&#x1ED3;</a><br />
+<a style="color:red;" target="_blank" href="tel:1900 636 607"><i class="fa fa-phone-square" aria-hidden="true"></i>1900 636 607&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0916 616 099"><i class="fa fa-phone-square" aria-hidden="true"></i>0916 616 099&emsp;</a>
+<a style="color:red;" target="_blank" href="tel:0888 08 3366"><i class="fa fa-phone-square" aria-hidden="true"></i>0888 08 3366</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+<section class="pricing-plane-area section_padding_20 clearfix" id="pricing">
+<div class="container">
+<div class="row">
+<div class="col-12">
+
+<div class="section-heading text-center">
+<h2>V&#x1EAD;n chuy&#x1EC3;n</h2>
+</div>
+</div>
+</div>
+<div class="row no-gutters">
+<div class="col-12 col-md-6 col-lg-6">
+
+<div class="single-price-plan text-center">
+
+<div class="package-plan">
+<h4 class="brand-color text-right"> &#x1F68C; QU&#x1EA2;NG NG&#xC3;I =&gt; S&#xC0;I G&#xD2;N</h4>
+<div class="details-container">
+<div class="details">
+<span class="item-price text-danger"><i class="fa fa-money"></i> 300.000</span>
+</div>
+<div class="details">
+<span><i class="fa fa-clock-o"></i> 16h</span>
+</div>
+<div class="details" style="justify-content: center;">
+<span><i class="fa fa-location-arrow"></i> 860 km</span>
+</div>
+<div class="details">
+<span><i class="fa fa-bus icon"></i> EXPRESS</span>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-6">
+
+<div class="single-price-plan text-center">
+
+<div class="package-plan">
+<h4 class="brand-color text-right"> &#x1F68C; S&#xC0;I G&#xD2;N =&gt; QU&#x1EA2;NG NG&#xC3;I</h4>
+<div class="details-container">
+<div class="details">
+<span class="item-price text-danger"><i class="fa fa-money"></i> 300.000</span>
+</div>
+<div class="details">
+<span><i class="fa fa-clock-o"></i> 16h</span>
+</div>
+<div class="details" style="justify-content: center;">
+<span><i class="fa fa-location-arrow"></i> 860 km</span>
+</div>
+<div class="details">
+<span><i class="fa fa-bus icon"></i> EXPRESS</span>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-6">
+
+<div class="single-price-plan text-center">
+
+<div class="package-plan">
+<h4 class="brand-color text-right">&#x1F68C; QU&#x1EA2;NG NG&#xC3;I =&gt; S&#xC0;I G&#xD2;N</h4>
+<div class="details-container">
+<div class="details">
+<span class="item-price text-danger"><i class="fa fa-money"></i> 350.000</span>
+</div>
+<div class="details">
+<span><i class="fa fa-clock-o"></i> 16h</span>
+</div>
+<div class="details" style="justify-content: center;">
+<span><i class="fa fa-location-arrow"></i> 860 km</span>
+</div>
+<div class="details">
+<span><i class="fa fa-bus icon"></i> LUXURY</span>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-6">
+
+<div class="single-price-plan text-center">
+
+<div class="package-plan">
+<h4 class="brand-color text-right"> &#x1F68C; S&#xC0;I G&#xD2;N =&gt; QU&#x1EA2;NG NG&#xC3;I</h4>
+<div class="details-container">
+<div class="details">
+<span class="item-price text-danger"><i class="fa fa-money"></i> 350.000</span>
+</div>
+<div class="details">
+<span><i class="fa fa-clock-o"></i> 16h</span>
+</div>
+<div class="details" style="justify-content: center;">
+<span><i class="fa fa-location-arrow"></i> 860 km</span>
+</div>
+<div class="details">
+<span><i class="fa fa-bus icon"></i> LUXURY</span>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-6">
+
+<div class="single-price-plan text-center">
+
+<div class="package-plan">
+<h4 class="brand-color text-right">&#x1F68C; QU&#x1EA2;NG NG&#xC3;I =&gt; S&#xC0;I G&#xD2;N</h4>
+<div class="details-container">
+<div class="details">
+<span class="item-price text-danger"><i class="fa fa-money"></i> 700.000</span>
+</div>
+<div class="details">
+<span><i class="fa fa-clock-o"></i> 16h</span>
+</div>
+<div class="details" style="justify-content: center;">
+<span><i class="fa fa-location-arrow"></i> 860 km</span>
+</div>
+<div class="details">
+<span><i class="fa fa-bus icon"></i> LIMOUSINE</span>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-6">
+
+<div class="single-price-plan text-center">
+
+ <div class="package-plan">
+<h4 class="brand-color text-right"> &#x1F68C; S&#xC0;I G&#xD2;N =&gt; QU&#x1EA2;NG NG&#xC3;I</h4>
+<div class="details-container">
+<div class="details">
+<span class="item-price text-danger"><i class="fa fa-money"></i> 700.000</span>
+</div>
+<div class="details">
+<span><i class="fa fa-clock-o"></i> 16h</span>
+</div>
+<div class="details" style="justify-content: center;">
+<span><i class="fa fa-location-arrow"></i> 860 km</span>
+</div>
+<div class="details">
+<span><i class="fa fa-bus icon"></i> LIMOUSINE</span>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-6">
+
+<div class="single-price-plan text-center">
+
+<div class="package-plan">
+<h4 class="brand-color text-right"> &#x1F69B; NAM MI&#x1EC0;N TRUNG =&gt; S&#xC0;I G&#xD2;N</h4>
+<div class="details-container">
+<div class="details">
+<span class="item-price text-danger"><i class="fa fa-money"></i> C&#x1EA1;nh tranh</span>
+</div>
+<div class="details">
+<span><i class="fa fa-clock-o"></i> 20h</span>
+</div>
+<div class="details" style="justify-content: center;">
+<span><i class="fa fa-location-arrow"></i> T&#x1EEB; 5 - 1000km</span>
+</div>
+<div class="details">
+<span><i class="fa fa-bus icon"></i> T&#x1EA2;I H&#xC0;NG</span>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-6">
+
+<div class="single-price-plan text-center">
+
+<div class="package-plan">
+<h4 class="brand-color text-right"> &#x1F69B; S&#xC0;I G&#xD2;N =&gt; NAM MI&#x1EC0;N TRUNG</h4>
+<div class="details-container">
+<div class="details">
+<span class="item-price text-danger"><i class="fa fa-money"></i> C&#x1EA1;nh tranh</span>
+</div>
+<div class="details">
+<span><i class="fa fa-clock-o"></i> 20h</span>
+</div>
+<div class="details" style="justify-content: center;">
+<span><i class="fa fa-location-arrow"></i> T&#x1EEB; 5 - 1000 km</span>
+</div>
+<div class="details">
+<span><i class="fa fa-bus icon"></i> T&#x1EA2;I H&#xC0;NG</span>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<link href="/css/link-post-item.css" rel="stylesheet" />
+<style>
+    .post-single {
+        height: auto;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .post-img {
+        width: 170px;
+        height: 100px;
+        float: left;
+        /*border: #ebebeb solid 1px;*/
+        margin-right: 10px;
+        display: block;
+        background: #f5f5f5;
+        position: relative;
+    }
+
+        .post-img img {
+            width: 100%;
+            height: 100%;
+            border-radius: 6px;
+        }
+
+    .post-cap {
+        padding-left: 18px;
+    }
+
+        .post-cap span {
+            color: #000;
+            text-transform: uppercase;
+            font-size: 11px;
+            font-weight: 400;
+            padding: 10px 15px;
+            line-height: 1;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+    .head-title {
+        color: crimson;
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+
+    .single-price-plan {
+        margin: 15px 15px;
+        padding: 15px 40px;
+        background: #ffffff;
+        background-color: #fafafa;
+        border: 1px solid #ebebeb;
+        border-radius: 15px;
+        margin-bottom: 0;
+        box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 30%);
+        transition: transform .4s ease 0s;
+    }
+
+        .single-price-plan:hover {
+            background-color: lavender;
+            z-index: 3;
+            transform: scale(1.05);
+        }
+
+    @media (max-width: 768px) {
+        .single-price-plan {
+            margin: 5px;
+            padding: 10px;
+        }
+    }
+
+    .details-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+
+    .section-heading {
+        margin: 5px 0;
+    }
+
+    .single-price-plan .package-plan {
+        padding: 10px 0;
+        border-radius: 0;
+    }
+
+    .single-price-plan .package-description > p {
+        margin-bottom: 0;
+        line-height: 1;
+        padding: 8px 0;
+        border-bottom: 0px solid #ebebeb;
+    }
+
+    .details {
+        color: #637280;
+        font-size: 15px;
+        display: flex;
+        min-width: 75px;
+    }
+
+    .item-price {
+        font-weight: 700;
+    }
+
+    .introduction {
+        border-bottom: 1px solid #e9e8e8;
+    }
+
+        .introduction div {
+            padding: 10px;
+        }
+
+    .image-post {
+        width: 120px;
+        height: 80px;
+    }
+
+    .large-icon i {
+        font-size: 36px;
+    }
+    .summary{
+        font-size: 15px;
+    }
+</style>
+
+
+
+<footer class="footer-social-icon text-center clearfix">
+
+<div class="footer-text">
+<h2>TU&#x1EA4;N T&#xDA;</h2>
+</div>
+<div class="first_class d-none">
+<div class="clear-margin row">
+<div class="col-md-4 col-sm-6">
+<h3>BE THE FIRST TO KNOW</h3>
+<p>
+Get all the latest information on Triedge Services, Events, Jobs
+and Fairs. Sign up for our newsletter today.
+</p>
+</div>
+<div class="col-md-4 col-sm-6">
+<form class="newsletter">
+<input type="text" placeholder="Email Address">
+<button class="newsletter_submit_btn" type="submit"><i class="fa fa-paper-plane"></i></button>
+</form>
+</div>
+ <div class="col-md-4 col-sm-6">
+<div class="col-md-12">
+<div class="standard_social_links">
+<div>
+
+<ul>
+<li class="round-btn">
+<a href="https://www.youtube.com/channel/UCR_xdsqnXtkts-UUX0KprEA" target="_blank" title="google"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+</li>
+<li class="round-btn">
+<a href="https://www.youtube.com/channel/UCR_xdsqnXtkts-UUX0KprEA" target="_blank" title="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+</li>
+<li class="round-btn btn-facebook">
+<a href="https://www.fb.com/TuanTuLuxury" target="_blank" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+</li>
+<li class="round-btn btn-linkedin">
+<a href="http://online.gov.vn/Home/WebDetails/73087" target="_blank" class="btn-thong-bao">
+<img src="/images/dathongbao.png" alt="" />
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="col-md-12"><h3 style="text-align: right;">Stay Connected</h3></div>
+</div>
+</div>
+</div>
+<div class="container footer-wrap">
+<div class="second_class">
+<div class="second_class_bdr">
+<div class="row clear-margin">
+<div class="col-md-5 col-sm-6">
+ <div class="clear-margin">
+<div class="row bussiness">
+<div class="col-sm-2 footer-logo">
+<img src="/customer/images/Logo.png" alt="logo">
+</div>
+<div class="col-sm-10 uppercase text-primary align-self-center text-left" id="LangdingVar_TenCongTy"></div>
+</div>
+</div>
+<div class="text-left">
+<div class="address-text">
+<p><span class="text-danger">&#x110;&#x1ECB;a ch&#x1EC9;: </span><span id="LangdingVar_DiaChiToChuc"></span></p>
+</div>
+<div class="address-text">
+<p><span class="text-danger">M&#xE3; s&#x1ED1; thu&#x1EBF;: </span><span id="LangdingVar_MaSoThue"></span> </p>
+</div>
+<div class="address-text">
+<p><span class="text-danger">&#x110;&#x1EA1;i di&#x1EC7;n: </span><span id="LangdingVar_DaiDien"></span> </p>
+</div>
+<div class="phone-text">
+<p><span class="text-danger">&#x110;i&#x1EC7;n tho&#x1EA1;i: </span><span id="LangdingVar_HotLine"></span> </p>
+</div>
+<div class="email-text">
+<p><span class="text-danger">Email: </span><span id="LangdingVar_Email"></span> </p>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6">
+<div class="google-map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15676.922665149761!2d106.6154336!3d10.7936374!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd86c5b9304c1d3fc!2zQuG6v24gWGUgVHXhuqVuIFTDuihRdeG6o25nIE5nw6NpPD0-U8OgaSBHw7JuKQ!5e0!3m2!1svi!2s!4v1585061282370!5m2!1svi!2s" frameborder="0" style="border:0; width:100%; margin-top:10px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+<div class="standard_social_links">
+<div>
+
+<ul>
+<li class="round-btn btn-google">
+<a href="https://www.youtube.com/channel/UCR_xdsqnXtkts-UUX0KprEA" target="_blank" title="google"><i class="fa fa-google" aria-hidden="true"></i></a>
+</li>
+<li class="round-btn btn-youtube">
+ <a href="https://www.youtube.com/channel/UCR_xdsqnXtkts-UUX0KprEA" target="_blank" title="youtube"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+</li>
+<li class="round-btn btn-facebook">
+<a href="https://www.fb.com/TuanTuLuxury" target="_blank" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+</li>
+<li>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTuanTuLuxury%2F&width=62&layout=box_count&action=like&size=small&share=true&height=65&appId=153402241892805" width="62" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-2 col-sm-6">
+<div class="uppercase text-primary align-self-center text-left">&#x110;i&#x1EC1;u kho&#x1EA3;n</div>
+<ul class="footer-links text-left">
+<li>
+<a href="/terms/chinh-sach-hoat-dong-website-tuan-tu.html">Ch&#xED;nh S&#xE1;ch Ho&#x1EA1;t &#x110;&#x1ED9;ng</a>
+</li>
+<li>
+<a href="/terms/dieu-khoan-su-dung.html">&#x110;i&#x1EC1;u Kho&#x1EA3;n S&#x1EED; D&#x1EE5;ng</a>
+</li>
+<li>
+<a href="/terms/chinh-sach-doi-tra-ve.html">Ch&#xED;nh S&#xE1;ch &#x110;&#x1ED5;i Tr&#x1EA3;</a>
+</li>
+<li>
+<a href="/terms/chinh-sach-bao-mat.html">Ch&#xED;nh s&#xE1;ch b&#x1EA3;o m&#x1EAD;t</a>
+</li>
+<li>
+<a href="/terms/dieu-khoan-thanh-toan.html">&#x110;i&#x1EC1;u Kho&#x1EA3;n Thanh To&#xE1;n</a>
+</li>
+</ul>
+</div>
+<div class="col-md-2 col-sm-6">
+<div class="uppercase text-primary align-self-center text-left">Th&#xF4;ng tin</div>
+<ul class="footer-category text-left">
+<li>
+<a href="/page/lien-he.html">Li&#xEA;n h&#x1EC7;</a>
+</li>
+<li>
+<a href="/page/ve-chung-toi.html">V&#x1EC1; ch&#xFA;ng t&#xF4;i</a>
+</li>
+<li>
+<a href="/page/tuyen-dung.html">Tuy&#x1EC3;n d&#x1EE5;ng</a>
+</li>
+<li>
+<a href="/page/hoi-dap.html">H&#x1ECF;i &#x111;&#xE1;p</a>
+</li>
+</ul>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="copyright">Copyright © 2021 TU&#x1EA4;N T&#xDA; | Designed by <a href="https://metafat.vn" target="_blank">METAFAT</a></div>
+</div>
+
+<div class="hotline btn-frame">
+<a class="btn-hotline imgposition" target="_blank" href="tel:1900 636 607" title="hot-line">
+<i class="fa fa-phone-square" aria-hidden="true" title="Hotline">
+<span class="text-hotline">1900 636 607</span>
+</i>
+</a>
+</div>
+<div class="zalo btn-frame">
+<a class="btn-zalo imgposition" target="_blank" href="https://zalo.me/2534529136954211538" title="zalo">
+<i title="Zalo"><img src="/images/icon/zl.png" alt="hotline"></i>
+</a>
+</div>
+<div class="facebook btn-frame">
+<a target="_blank" href="https://m.me//TuanTuLuxury" title="message">
+<svg id="fb-msng-icon" data-name="messenger icon" xmlns="//www.w3.org/2000/svg" viewBox="0 0 30.47 30.66"><path d="M29.56,14.34c-8.41,0-15.23,6.35-15.23,14.19A13.83,13.83,0,0,0,20,39.59V45l5.19-2.86a16.27,16.27,0,0,0,4.37.59c8.41,0,15.23-6.35,15.23-14.19S38,14.34,29.56,14.34Zm1.51,19.11-3.88-4.16-7.57,4.16,8.33-8.89,4,4.16,7.48-4.16Z" transform="translate(-14.32 -14.34)" style="fill:#fff"></path></svg>
+</a>
+</div>
+<div class="sms btn-frame">
+<a class="btn-sms imgposition" target="_blank" href="sms:0916616099" title="sms">
+<i class="fa fa-commenting" aria-hidden="true"></i>
+</a>
+</div>
+</footer>
+<style>
+    footer {
+        background: #e4f2fd;
+    }
+
+    .footer-text {
+        border-bottom: 1px solid #ced4da;
+    }
+
+    .footer-logo img {
+        width: 64px;
+    }
+
+    .bussiness {
+        margin-bottom: 10px;
+    }
+
+    .round-btn {
+        display: inline;
+        height: 40px;
+        width: 40px;
+        color: #fff;
+        border-radius: 50%;
+        float: left;
+        margin: 15px 8px;
+        box-shadow: 2px 2px 5px 0px rgb(82, 0, 67);
+        border: 1px solid; /*border: 1px solid #622657;*/
+    }
+
+        .round-btn a {
+            display: block !important;
+            padding: 7px 12px;
+            font-size: 18px;
+            border-radius: 50%;
+            color: #fff;
+        }
+
+        .round-btn .icon {
+            padding: 3px;
+        }
+
+            .round-btn .icon img {
+                height: 24px;
+                width: 32px;
+                margin-top: 6px;
+            }
+
+        .round-btn:hover {
+            background-color: darkslategray;
+        }
+
+    .btn-google {
+        background: #f00;
+    }
+
+    .btn-youtube {
+        background: #f00;
+    }
+
+    .btn-facebook {
+        background: #3b5998;
+    }
+
+        .btn-facebook a {
+            padding: 8px 13px;
+        }
+
+    .standard_header .standard_social_links {
+        margin-left: 1rem;
+    }
+
+
+    .footer-wrap {
+        background-size: cover;
+    }
+
+        .footer-wrap p {
+            font-size: 14px;
+            line-height: 14px;
+            color: #b3b3b3;
+        }
+
+            .footer-wrap p a {
+                color: #fff;
+                text-decoration: underline;
+                font-style: italic;
+            }
+
+                .footer-wrap p a:hover {
+                    text-decoration: none;
+                    color: #ff7800;
+                }
+
+    .footer-links li a {
+        font-size: 13px;
+        line-height: 30px;
+        color: #ccc;
+        text-decoration: none;
+    }
+
+
+    .footer-links li:before {
+        content: "\f105";
+        font-family: 'FontAwesome';
+        padding-right: 10px;
+        color: #ccc;
+    }
+
+    .footer-category li a {
+        font-size: 13px;
+        line-height: 30px;
+        color: #ccc;
+        text-decoration: none;
+    }
+
+    .footer-category li:before {
+        content: "\f105";
+        font-family: 'FontAwesome';
+        padding-right: 10px;
+        color: #b3b3b3;
+    }
+
+    .address {
+        color: #b3b3b3;
+        font-size: 14px;
+        position: relative;
+        padding-left: 30px;
+        line-height: 30px;
+    }
+
+        .address:before {
+            content: "\f277";
+            font-family: 'FontAwesome';
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+    .info a {
+        color: #b3b3b3;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+
+    .fa-phone:before {
+        content: "\f095";
+    }
+
+    .info a {
+        color: #b3b3b3;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+
+    .fa-fax:before {
+        content: "\f1ac";
+    }
+
+    .copyright {
+        font-size: 14px;
+        color: #ccc;
+        padding-top: 15px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    footer .second_class {
+        padding-bottom: 25px;
+    }
+
+    footer .first_class {
+        padding-bottom: 21px;
+        background-color: var(--cus-them-color);
+    }
+
+        footer .first_class p, footer .first_class h3 {
+            margin: 0 0;
+        }
+
+    footer .newsletter input[type="text"] {
+        width: 100%;
+        background: #fff;
+        color: #333;
+        border: 1px solid #222;
+        padding: 14px 20px;
+        border-radius: 50px;
+        margin-top: 12px;
+    }
+
+    .newsletter .newsletter_submit_btn {
+        background: #fff;
+        position: absolute;
+        right: 30px;
+        border: 0;
+        top: 26px;
+        font-size: 17px;
+        color: #333;
+    }
+
+
+    footer .second_class_bdr {
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    footer .btn-facebook a {
+        padding: 6px 14px !important;
+    }
+
+    footer .btn-envelop a {
+        color: #D6403A;
+        font-size: 15px;
+        padding: 12px 12px;
+    }
+
+    footer .round-btn a {
+        padding: 6px 12px;
+    }
+
+    footer .round-btn {
+        box-shadow: 2px 2px 5px 0px #222 !important;
+    }
+
+    footer .round-btn {
+        margin: 15px 4px;
+    }
+
+    footer dl, ol, ul {
+        padding-left: 5px;
+    }
+
+    footer li {
+        list-style: none;
+    }
+
+    @media(max-width:768px) {
+        .footer-wrap h3 {
+            margin-top: 27px;
+        }
+
+        footer .round-btn {
+            margin: 15px 4px;
+        }
+    }
+
+    @media(max-width:320px) {
+        .copyright {
+            font-size: 13px;
+        }
+    }
+
+    .container-fluid {
+        background-color: var(--cus-them-color);
+    }
+
+    /*********************************************************************/
+    .btn-frame {
+        position: fixed;
+        bottom: 6px;
+        background-color: var(--cus-them-color);
+        height: 44px;
+        width: 44px;
+        border-radius: 100%;
+        border: 2px solid white;
+        /*border: 2px solid transparent;*/
+        transition: all .5s;
+        opacity: .8;
+        z-index: 2147483647;
+    }
+
+        .btn-frame:hover {
+            background-color: #47564f;
+        }
+
+    .imgposition {
+        top: 3px;
+        position: relative;
+    }
+
+        .imgposition .fa {
+            font-size: 32px;
+            color: white;
+        }
+
+    .facebook {
+        right: 65px;
+    }
+
+        .facebook svg {
+            width: 30px;
+            height: 40px;
+        }
+
+    .zalo {
+        right: 110px;
+    }
+
+    .hotline {
+        right: 155px;
+    }
+
+    .text-hotline {
+        font-size: 27px;
+        font-weight: bold;
+    }
+
+    .sms {
+        right: 200px;
+    }
+
+    @media (min-width: 992px) {
+        .sms {
+            display: none;
+        }
+
+        .hotline {
+            right: 155px;
+            width: 210px;
+            border: 2px solid white;
+            border-radius: 50px !important;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .text-hotline {
+            display: none;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .form-group {
+            margin-bottom: 2px;
+        }
+    }
+</style>
+
+
+<script src="/customer/customer_var.js"></script>
+
+<script src="/Assets/ca/js/jquery-2.2.4.min.js"></script>
+
+<script src="/Assets/ca/js/popper.min.js"></script>
+
+<script src="/Assets/ca/js/bootstrap.min.js"></script>
+
+<script src="/Assets/ca/js/toastr.min.js"></script>
+<script src="/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="/js/lodash.min.js"></script>
+
+<script src="/Assets/ca/js/plugins.min.js"></script>
+
+<script src="/Assets/ca/js/slick.min.js"></script>
+
+
+<script src="/Assets/ca/js/active.min.js"></script>
+<script src="/js/site_customize.min.js"></script>
+<script src="/js/langding_var.min.js"></script>
+<script src="/js/moment.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+<script src="/Assets/ca/js/jquery.ui.datepicker-vi.js"></script>
+<script src="/Assets/ca/js/jquery.datepicker.lunar.js"></script>
+<script>
+        function handleClick(myRadio) {
+            //document.getElementById("dateRoundTrip").disabled = myRadio.value == 'false';
+            $('#roundTripDateId').prop("disabled", myRadio.value == 'false');
+        };
+        $(window).on("load", function () {
+            $("#one-way").prop("checked", true);
+            $("#oneWayDateId").datepicker("setDate", new Date());
+            $("#roundTripDateId").datepicker("setDate", new Date());
+        });
+        $(document).on('click', '#directionform button[type=submit]', function (e) {
+            var direction = $('input[name="direction"]:checked').val();
+            var IdTuyenDi = $('#IdTuyenDi').val();
+            var IdTuyendDen = $('#IdTuyenDen').val();
+            var oneWayDateId = $('#oneWayDateId').val();
+            var roundTripDateId = $('#roundTripDateId').val();
+            if (direction === undefined) {
+                toastr.warning('Vui lòng chọn kiểu tuyến đi');
+                e.preventDefault();
+            }
+            if (IdTuyenDi === undefined || IdTuyendDen == undefined || IdTuyenDi !== IdTuyendDen) {
+                toastr.warning('Không có tuyến đường phù hợp');
+                e.preventDefault();
+            }
+            var pattern = /^([0-9]{2})\/([0-9]{2})\/([0-9]{4})$/;
+            var momentDateOneWay = moment(oneWayDateId, "DD/MM/YYYY");
+            var momentDateroundTrip = moment(roundTripDateId, "DD/MM/YYYY");
+            if (!pattern.test(oneWayDateId) || !momentDateOneWay.isValid()) {
+                toastr.warning('Ngày đi chưa hợp lệ');
+                e.preventDefault();
+            }
+            //console.log(Boolean(direction));
+            //console.log(momentDateroundTrip.isValid());
+            //console.log(!pattern.test(roundTripDateId) || !momentDateroundTrip.isValid() || momentDateOneWay > momentDateroundTrip);
+            if (direction != 'false' && (!pattern.test(roundTripDateId) || !momentDateroundTrip.isValid() || momentDateOneWay > momentDateroundTrip)) {
+                toastr.warning('Ngày trở lại chưa hợp lệ');
+                e.preventDefault();
+            }
+        });
+        $(document).ready(function () {
+            $.datepicker.setDefaults($.datepicker.regional["vi"]);
+            var currentDate = new Date();
+            var oneWayDateId = $("#oneWayDateId");
+            var roundTripDateId = $("#roundTripDateId");
+            //oneWayDateId.datepicker("setDate", currentDate);
+            oneWayDateId.datepicker({
+                dateFormat: 'dd/mm/yy',
+                minDate: '+0d',
+                changeMonth: true,
+                changeYear: true,
+                showStatus: true,
+                showWeeks: true,
+                currentText: 'Now',
+                autoSize: true,
+                gotoCurrent: true,
+                showAnim: 'blind',
+                highlightWeek: true,
+                onSelect: function (dateText) {
+                    roundTripDateId.datepicker('option', 'minDate', this.value);
+                    roundTripDateId.datepicker("setDate", this.value);
+                }
+                //beforeShow: function (input, inst) {
+                // var rect = input.getBoundingClientRect();
+                // setTimeout(function () {
+                //  inst.dpDiv.css({ top: rect.top + 40, left: rect.left + 0 });
+                // }, 0);
+                //   }
+            });
+            //roundTripDateId.datepicker("setDate", currentDate);
+            roundTripDateId.datepicker({
+                dateFormat: 'dd/mm/yy',
+                minDate: '+0d',
+                changeMonth: true,
+                changeYear: true,
+                showStatus: true,
+                showWeeks: true,
+                currentText: 'Now',
+                autoSize: true,
+                gotoCurrent: true,
+                showAnim: 'blind',
+                highlightWeek: true,
+            });
+        });
+    </script>
+</body>
+</html>

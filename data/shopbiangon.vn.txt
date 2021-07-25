@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Shop Bia Ngon</title>
+	<meta name="keywords" content="beer">
+	<meta name="description" content="Đặt bia online an toàn tiện lợi. Đảm bảo 100% chính hãng. Giao hàng tận nhà."/>
+	<meta name="og:description" content="Đặt bia online an toàn tiện lợi. Đảm bảo 100% chính hãng. Giao hàng tận nhà."/>
+	<meta name="og:image" content="/assets/img/cover.jpg"/>
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="jasonsmith2812@gmail.com">
+	<meta name="msapplication-tap-highlight" content="no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<base href="/">	<link href="/assets/img/favicon.png" rel="icon">
+	<link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<script src="https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42301931-19"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-42301931-19');
+	</script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132852320-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-132852320-2');
+	</script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s) {if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0'; n.queue=[];t=b.createElement(e);t.async=!0; t.src=v;s=b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s)}(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '138111795079822');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=138111795079822&ev=PageView&noscript=1"/></noscript>
+	<!-- End Facebook Pixel Code -->
+<link rel="stylesheet" href="styles.7b04fbfe8c78437e1488.css"></head>
+<body>
+	<app-root>
+		<div class="splash-screen">
+			<div class="sphere"></div> <div class="sphere"></div> <div class="sphere"></div> <div class="sphere"></div> <div class="sphere"></div> <div class="sphere"></div> <div class="sphere"></div> <div class="sphere"></div> <div class="sphere"></div> <div class="sphere"></div> <div class="sphere"></div>
+		</div>
+	</app-root>
+<script src="runtime.e227d1a0e31cbccbf8ec.js" defer></script><script src="polyfills.16a9569211e1adcda60b.js" defer></script><script src="scripts.b4e1f64f9685ca95dc37.js" defer></script><script src="main.8efbace8e2c138497a28.js" defer></script></body>
+</html>

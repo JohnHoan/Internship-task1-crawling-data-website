@@ -1,0 +1,1722 @@
+ <!doctype html>
+<html lang="vi">
+
+<head itemscope itemtype="//schema.org/WebSite">
+	<base href="//xaydungmanhlong.com/" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">   
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="SHORTCUT ICON" href="upload/hinhanh/xaydungmanhlong.com-(1)7219_32x29.png" type="image/x-icon" />
+<META NAME="ROBOTS" CONTENT="INDEX,FOLLOW" />
+<meta name="author" content="CÔNG TY TNHH THIẾT KẾ XÂY DỰNG CHUYÊN NGHIỆP" />
+<meta name="copyright" content="CÔNG TY TNHH THIẾT KẾ XÂY DỰNG CHUYÊN NGHIỆP [xaydungmanhlong@gmail.com]" />
+<!--Meta seo web-->
+<title>XÂY DỰNG MẠNH LONG| XÂY DỰNG HCM| SỬA CHỮA NHÀ PHỐ</title>
+<meta name="keywords" content="xây dựng mạnh long, xây nhà giá rẽ quận tân bình, xay nha gia re tan binh, sửa chữa nhà giá rẽ tp hcm, sua chua nha gia re tp hcm, sua chua nha uy tin chat luong quan 1, sua chua nha quan 1, sua chua nha quan binh thanh, sua chua nha quan phu nhuan, sau chua nha quan 3 , sửa nhà , sua nha" />
+<meta name="description" content="CÔNG TY XÂY DỰNG MẠNH LONG chuyên sửa chữa nhà, xây dựng nhà. dịch vụ sửa chữa & xây dựng nhà giá rẻ chất lượng uy tín tại  TP. HCM xây dựng sửa chữa nhà theo nhu cầu khách hàng " />
+<!--Meta seo web-->
+<!--Meta Geo-->
+<meta name="DC.title" content="XÂY DỰNG MẠNH LONG| XÂY DỰNG HCM| SỬA CHỮA NHÀ PHỐ" />
+<meta name="geo.region" content="VN" />
+<meta name="geo.placename" content="ĐC;150, Phạm Văn Bạch, P15- Q.Tân Bình - TP.HCM                MST; 0315747035 Do Sở KH&ĐT TP. Hồ Chí Minh cấp ngày 19/6/2019" />
+<meta name="geo.position" content="10.8013509:106.6573578" />
+<meta name="ICBM" content="10.8013509,106.6573578" />
+<meta name="DC.identifier" content="//xaydungmanhlong.com/" />
+<!--Meta Geo-->
+<!--Meta Ngôn ngữ-->
+<meta name="language" content="Việt Nam">
+<meta http-equiv="content-language" content="vi" />
+<meta content="VN" name="geo.region" />
+<meta name="DC.language" scheme="utf-8" content="vi" />
+<meta property="og:locale" content="vi_VN" />
+<!--Meta Ngôn ngữ-->
+<!--Meta facebook-->
+<meta property="og:image" content="" />
+<meta property="og:title" content="" />
+<meta property="og:url" content="" />
+<meta property="og:site_name" content="//xaydungmanhlong.com/" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="CÔNG TY TNHH THIẾT KẾ XÂY DỰNG CHUYÊN NGHIỆP" /> 
+<!--Meta facebook-->
+
+	<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+<link href="css/popup.css" type="text/css" rel="stylesheet" />
+<link href="css/default.css" type="text/css" rel="stylesheet" />
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link href="css/media.css" type="text/css" rel="stylesheet" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js" ></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/my_script.js"></script>
+<script src="js/plugins-scroll.js" type="text/javascript" ></script>
+<link href="fontawesome/css/font-awesome.css" type="text/css" rel="stylesheet" />
+
+<!--Menu mobile-->
+
+<script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$m = $('nav#menu').html();
+		$('nav#menu_mobi').append($m);
+		$('nav#menu_mobi .search').addClass('search_mobi').removeClass('search');
+		$('.hien_menu').click(function(){
+			$('nav#menu_mobi').css({height: "auto"});
+		});
+		$('.user .fa-user-plus').toggle(function(){
+			$('.user ul').slideDown(300);
+		},function(){
+			$('.user ul').slideUp(300);
+		});
+		
+		$('nav#menu_mobi').mmenu({
+				extensions	: [ 'effect-slide-menu', 'pageshadow' ],
+				searchfield	: true,
+				counters	: true,
+				navbar 		: {
+					title		: 'Menu'
+				},
+				navbars		: [
+					{
+						position	: 'top',
+						content		: [ 'searchfield' ]
+					}, {
+						position	: 'top',
+						content		: [
+							'prev',
+							'title',
+							'close'
+						]
+					}, {
+						position	: 'bottom',
+						content		: [
+							'<a>Online : 3</a>',
+							'<a>Tổng : 342186</a>'
+						]
+					}
+				]
+			});
+	});
+</script>
+<!--Menu mobile-->
+
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('#slider_slick').slick({
+		  	//vertical:true,Chay dọc
+			//fade: true,//Hiệu ứng fade của slider
+			//slidesPerRow: 2,
+			//cssEase: 'linear',//Chạy đều
+		  	//lazyLoad: 'progressive',
+        	infinite: true,//Lặp lại
+			accessibility:true,
+		  	slidesToShow: 1,    //Số item hiển thị
+		  	slidesToScroll: 1, //Số item cuộn khi chạy
+		  	autoplay:true,  //Tự động chạy
+			autoplaySpeed:3000,  //Tốc độ chạy
+			speed:1000,//Tốc độ chuyển slider
+			arrows:true, //Hiển thị mũi tên
+			centerMode:false,  //item nằm giữa
+			dots:false,  //Hiển thị dấu chấm
+			draggable:true,  //Kích hoạt tính năng kéo chuột
+			mobileFirst:true,
+			pauseOnHover:true,
+			//variableWidth: true//Không fix kích thước
+      });
+    });
+</script>
+
+<script type="text/javascript" src="js/ImageScroller.js"></script>
+
+<!--Thêm alt cho hình ảnh-->
+<script type="text/javascript">
+	$(document).ready(function(e) {
+        $('img').each(function(index, element) {
+			if(!$(this).attr('alt') || $(this).attr('alt')=='')
+			{
+				$(this).attr('alt','CÔNG TY TNHH THIẾT KẾ XÂY DỰNG CHUYÊN NGHIỆP');
+			}
+        });
+    });
+</script>
+<!--Thêm alt cho hình ảnh-->
+
+<!--Tim kiem-->
+<script language="javascript"> 
+    function doEnter(evt){
+		var key;
+		if(evt.keyCode == 13 || evt.which == 13){
+			onSearch(evt);
+		}
+	}
+	function onSearch(evt) {			
+	
+			var keyword = document.getElementById("keyword").value;
+			if(keyword=='' || keyword=='Nhập từ khóa tìm kiếm...')
+			{
+				alert('Bạn chưa nhập từ khóa tìm kiếm');
+			}
+			else{
+				location.href = "tim-kiem.html&keyword="+keyword;
+				loadPage(document.location);			
+			}
+		}		
+</script>   
+<!--Tim kiem-->
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(window).scroll(function(){
+			var cach_top = $(window).scrollTop();
+			var heaigt_header = $('#header').height();
+
+			if(cach_top >= heaigt_header){
+				$('.wap_menu').addClass('lklk');
+			}else{
+				$('.wap_menu').removeClass('lklk');
+				$('.wap_menu').addClass('lklk_2');
+
+			}
+		});
+	});
+ </script>
+<!--Code gữ thanh menu trên cùng-->
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-109569205-1"></script><script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'UA-109569205-1');</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NHG8MR3');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHG8MR3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<meta name="google-site-verification" content="UDF0HMTIbdLyE9ZzJCoeAJmuGe0k6Ca_gWIgFC6eLAM" />       
+</head>
+
+<body onLoad="initialize();" style="background:#ffffff">
+<div id="pre-loader"><div class="loader"></div></div>
+
+<h1 class="vcard fn" style="position:absolute; top:-1000px;">XÂY DỰNG MẠNH LONG| XÂY DỰNG HCM| SỬA CHỮA NHÀ PHỐ</h1>
+<h2 style="position:absolute; top:-1000px;">XÂY DỰNG MẠNH LONG| XÂY DỰNG HCM| SỬA CHỮA NHÀ PHỐ</h2>
+<h3 style="position:absolute; top:-1000px;">XÂY DỰNG MẠNH LONG| XÂY DỰNG HCM| SỬA CHỮA NHÀ PHỐ</h3>
+
+<div id="wapper">
+<div class="chua_all">
+    <div class="slogan"><marquee>XÂY DỰNG MẠNH LONG XIN GỬI ĐẾN QUÝ VỊ ĐƠN GIÁ XÂY DỰNG NHÀ PHẦN THÔ  3,000,000 - 3,400,000 Đ/M2 TRỌN GÓI  4,500,000 - 6,000,000 Đ/1M2</marquee> </div> 
+    	<div id="header" class="full_bg full_bg_mobile" style="background: url(upload/hinhanh/xay-nha-pho-0653.png) no-repeat top center;">
+        <div class="container">
+		  
+<div class="logo"><a href=""><img class="img-responsive" src="upload/hinhanh/213x195/2/logo-2630.png" /></a></div>
+<div class="banner">
+	<div class="p1_banner">XÂY DỰNG MẠNH LONG</div>
+	<div class="p2_banner">VĂN PHÒNG: 150, Phạm Văn BẠCH, P.15, Q.TÂN BÌNH, TP. HỒ CHÍ MINH</div>
+</div>
+<div class="search hien_s">
+        <input type="text" name="keyword" id="keyword" onKeyPress="doEnter(event,'keyword');" value="Nhập từ khóa tìm kiếm..." onclick="if(this.value=='Nhập từ khóa tìm kiếm...'){this.value=''}" onblur="if(this.value==''){this.value='Nhập từ khóa tìm kiếm...'}">
+        <i class="fa fa-search" aria-hidden="true" onclick="onSearch(event,'keyword');"></i>
+    </div><!---END #search-->
+
+<div class="dt"><i class="fa fa-phone"></i> 0902494389</div>    
+<div class="mail_head">Email: xaydungmanhlong@gmail.com</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.nhan_nut').click(function(event) {
+			if($('.hien_s').hasClass('nhayxuong')){
+				$('.hien_s').removeClass('nhayxuong');
+			}else{
+				$('.hien_s').addClass('nhayxuong');
+			}
+		});
+	});
+</script>    
+        </div>
+    </div>
+    
+    <div class="wap_menu">
+        <div class="menu">
+            <div class="container">
+              <!--Hover menu-->
+<script language="javascript" type="text/javascript">
+	$(document).ready(function() { 
+		//Hover vào menu xổ xuống
+		$(".menu ul li").hover(function(){
+			$(this).find('ul:first').css({visibility: "visible",display: "none"}).show(300); 
+			},function(){ 
+			$(this).find('ul:first').css({visibility: "hidden"});
+			}); 
+		$(".menu ul li").hover(function(){
+				$(this).find('>a').addClass('active2'); 
+			},function(){ 
+				$(this).find('>a').removeClass('active2'); 
+		}); 
+		//Hover vào danh mục xổ xuống
+		/*$("#danhmuc ul li").hover(function(){
+			$(this).find('ul:first').show(300); 
+		},function(){ 
+			$(this).find('ul:first').hide(300);
+		}); */
+		//Click vào danh mục xổ xuống
+		$("#danhmuc > ul > li > a").click(function(){
+			if($(this).parents('li').children('ul').find('li').length>0)
+			{
+				$("#danhmuc ul li ul").hide(300);
+				
+				if($(this).hasClass('active'))
+				{
+					$("#danhmuc ul li a").removeClass('active');
+					$(this).parents('li').find('ul:first').hide(300); 
+					$(this).removeClass('active');
+				}
+				else
+				{
+					$("#danhmuc ul li a").removeClass('active');
+					$(this).parents('li').find('ul:first').show(300); 
+					$(this).addClass('active');
+				}
+				return false;
+			}
+		});
+	});  
+</script>
+<!--Hover menu-->
+
+<nav id="menu_mobi" style="height:0; overflow:hidden;"></nav>
+<div class="header"><a href="#menu_mobi" class="hien_menu"><i class="fa fa-bars" aria-hidden="true"></i> <i class="fa fa-caret-right" aria-hidden="true"></i> <span>MENU</span></a>
+</div>
+<div class="row">
+<nav id="menu">
+	<ul>
+		<div class="search an_s" >
+	        <input type="text" name="keyword" id="keyword" onKeyPress="doEnter(event,'keyword');" value="Nhập từ khóa tìm kiếm..." onclick="if(this.value=='Nhập từ khóa tìm kiếm...'){this.value=''}" onblur="if(this.value==''){this.value='Nhập từ khóa tìm kiếm...'}">
+	        <i class="fa fa-search" aria-hidden="true" onclick="onSearch(event,'keyword');"></i>
+	    </div><!---END #search-->
+
+	    <li class="nha"><a class="active" href="">Trang chủ</a></li>
+	     <li class="nha_2"><a class="active" href="">Trang chủ</a></li>
+	   
+	    <li><a class="" href="gioi-thieu.html">Giới thiệu</a></li>
+	     <li><a class="" href="xay-dung.html">Xây dựng</a></li>
+	     <li><a class="" href="bang-gia.html">Bảng giá</a></li>
+	     <li><a class="" href="xay-nha-moi.html">Xây nhà mới</a></li>
+	     <li><a class="" href="xay-nha-tien-che.html">Xây nhà tiền chế</a></li>
+	     <li><a class="" href="sua-nha.html">Sửa nhà</a></li>
+	     <li><a class="" href="tuvan-thietke.html">TƯ VẤN THIẾT KẾ</a></li>
+	     <li><a class="" href="du-an.html">Công trình tiêu biểu</a></li>
+	     <li><a class="" href="phong-thuy.html">Phong thủy</a></li>
+	    <li><a class="" href="tin-tuc.html">Tin tức</a></li>
+	    <li><a class="" href="lien-he.html">Liên hệ</a></li>
+	</ul>
+</nav>
+</div>            </div>
+        </div>
+    </div>  
+    
+    <div id="slider">
+        <link href="css/css_jssor_slider.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/jssor.js"></script>
+<script type="text/javascript" src="js/jssor.slider.js"></script>
+<script type="text/javascript" src="js/js_jssor_slider.js"></script>
+
+<div id="slider1_container" style="position: relative;width: 1366px; height: 474px;">
+    <!-- Slides Container -->
+    <div u="slides" style="cursor: move;width: 1366px; height: 474px;overflow: hidden;">
+                <div>
+            <img u="image" src="upload/hinhanh/xay-dung-manh-long-4715-65710.jpg" alt="" />
+        </div>
+                <div>
+            <img u="image" src="upload/hinhanh/xay-nha-tron-goi-xaydungmanhlong-7662.jpg" alt="" />
+        </div>
+                <div>
+            <img u="image" src="upload/hinhanh/slider4-8800.JPG" alt="" />
+        </div>
+                <div>
+            <img u="image" src="upload/hinhanh/ed805523-5190-477e-b1f8-7a481a09a766-3927.png" alt="" />
+        </div>
+                        
+    </div>
+    <!-- Trigger -->
+          
+    <!-- Arrow Left -->
+    <span u="arrowleft" class="jssora05l" style="top:40%;"></span>
+    <!-- Arrow Right -->
+    <span u="arrowright" class="jssora05r" style="top:40%;"></span>
+</div><!-- Jssor Slider End -->
+        
+
+    
+     </div>
+
+    
+</div>    
+    
+    <div id="main_content">
+        <div id="right">
+        	
+<div id="sec_home">
+  <div class="container">
+    <div class="list_home">
+			<div class="col-home col-md-3 col-sm-6 col-xs-6">
+	        <div class="ite_home">
+	        	<a href="https://xaydungmanhlong.com/xay-nha-moi/bao-gia-xay-nha-tron-goi-cong-ty-xay-nha-tron-goi-hcm-159.html">
+					<div class="img"><img class="img-responsive" src="upload/hinhanh/220x120/2/don-gia-xay-nha-phan-tho-7817.png" alt="ĐƠN GIÁ XÂY NHÀ TRỌN GÓI CHUYÊN NGHIỆP TẠI TPHCM"></div>
+					<div class="num">01</div>
+					<div class="name">ĐƠN GIÁ XÂY NHÀ TRỌN GÓI CHUYÊN NGHIỆP TẠI TPHCM</div>
+	        		<div class="des">Với sứ mệnh không chỉ làm cho khách hàng được thỏa mãn nhu cầu làm đẹp</div>
+	        	</a>
+	        </div>
+        </div>
+    		<div class="col-home col-md-3 col-sm-6 col-xs-6">
+	        <div class="ite_home">
+	        	<a href="https://xaydungmanhlong.com/tin-tuc/don-gia-xay-nha-pho-phan-tho-moi-nhat-tai-xay-dung-manh-long-111.html">
+					<div class="img"><img class="img-responsive" src="upload/hinhanh/220x120/2/don-gia-xay-dung-phan-tho-1978.png" alt="ĐƠN GIÁ XÂY NHÀ PHẦN THÔ"></div>
+					<div class="num">02</div>
+					<div class="name">ĐƠN GIÁ XÂY NHÀ PHẦN THÔ</div>
+	        		<div class="des">Với sứ mệnh không chỉ làm cho khách hàng được thỏa mãn nhu cầu làm đẹp</div>
+	        	</a>
+	        </div>
+        </div>
+    		<div class="col-home col-md-3 col-sm-6 col-xs-6">
+	        <div class="ite_home">
+	        	<a href="https://xaydungmanhlong.com/bang-gia/bao-gia-sua-nha-moi-nhat-2019-55.html">
+					<div class="img"><img class="img-responsive" src="upload/hinhanh/220x120/2/don-gia-sua-chua-nha-7649.png" alt="ĐƠN GIÁ SỮA CHỮA NHÀ UY TÍN TẠI TPHCM"></div>
+					<div class="num">03</div>
+					<div class="name">ĐƠN GIÁ SỮA CHỮA NHÀ UY TÍN TẠI TPHCM</div>
+	        		<div class="des">Với sứ mệnh không chỉ làm cho khách hàng được thỏa mãn nhu cầu làm đẹp</div>
+	        	</a>
+	        </div>
+        </div>
+    		<div class="col-home col-md-3 col-sm-6 col-xs-6">
+	        <div class="ite_home">
+	        	<a href="https://xaydungmanhlong.com/xay-nha-tien-che/bao-gia-xay-nha-tien-che-95.html">
+					<div class="img"><img class="img-responsive" src="upload/hinhanh/220x120/2/don-gia-xay-nha-tien-che-1001.png" alt="ĐƠN GIÁ XÂY NHÀ TIỀN CHẾ CHO BẠN"></div>
+					<div class="num">04</div>
+					<div class="name">ĐƠN GIÁ XÂY NHÀ TIỀN CHẾ CHO BẠN</div>
+	        		<div class="des">Với sứ mệnh không chỉ làm cho khách hàng được thỏa mãn nhu cầu làm đẹp</div>
+	        	</a>
+	        </div>
+        </div>
+    </div><!---END .wap_item-->
+  </div>
+</div>
+
+<div id="sec_duan">
+  <div class="container">
+    <div class="name_home">
+	<div class="txt">Dự án của chúng tôi</div>
+</div>
+<div class="list_newhome">
+			<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/cong-ty-sua-chua-nha-tai-quan-8-don-gia-sua-chua-nha-moi-nhat-8.html" title="CÔNG TY SỬA CHỮA NHÀ TẠI QUẬN 8 - ĐƠN GIÁ SỬA CHỮA NHÀ MỚI NHẤT"><img src="thumb/272x256/1/upload/news/cong-ty-sua-nha-(1)-2913.jpg" alt="CÔNG TY SỬA CHỮA NHÀ TẠI QUẬN 8 - ĐƠN GIÁ SỬA CHỮA NHÀ MỚI NHẤT"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da txt_da2">
+        			<p>Đã</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/cong-ty-sua-chua-nha-tai-quan-8-don-gia-sua-chua-nha-moi-nhat-8.html" title="CÔNG TY SỬA CHỮA NHÀ TẠI QUẬN 8 - ĐƠN GIÁ SỬA CHỮA NHÀ MỚI NHẤT">CÔNG TY SỬA CHỮA NHÀ TẠI QUẬN 8 - ĐƠN GIÁ SỬA CHỮA NHÀ MỚI NHẤT</a></div>
+		    		<div class="des">Nguồn động lực đằng sau những thành quả của chúng tôi đó chính là niềm tin vững chắc,  mạnh mẽ vào đội ngũ nhân viên và tập trung mang lại cho khách hàng những giá trị đích thực, khát vọng mãnh liệt để luôn đổi mới và dẫn đầu trong công việc bằng phương pháp quản lý khoa học, cùng tinh thần làm việc tận tuỵ, luôn học hỏi từ những thành công hay thất bại.</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/cong-ty-sua-chua-nha-tai-quan-9-dich-vu-tot-nhat-hien-nay-4.html" title="CÔNG TY SỬA CHỮA NHÀ TẠI QUẬN 9 - DỊCH VỤ TỐT NHẤT HIỆN NAY"><img src="thumb/272x256/1/upload/news/xay-nha-phan-tho-7593.png" alt="CÔNG TY SỬA CHỮA NHÀ TẠI QUẬN 9 - DỊCH VỤ TỐT NHẤT HIỆN NAY"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da txt_da2">
+        			<p>Đã</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/cong-ty-sua-chua-nha-tai-quan-9-dich-vu-tot-nhat-hien-nay-4.html" title="CÔNG TY SỬA CHỮA NHÀ TẠI QUẬN 9 - DỊCH VỤ TỐT NHẤT HIỆN NAY">CÔNG TY SỬA CHỮA NHÀ TẠI QUẬN 9 - DỊCH VỤ TỐT NHẤT HIỆN NAY</a></div>
+		    		<div class="des"> Công ty sửa chữa nhà tại quận 9,Nguồn động lực đằng sau những thành quả của chúng tôi đó chính là niềm tin vững chắc,  mạnh mẽ vào đội ngũ nhân viên và tập trung mang lại cho khách hàng những giá trị đích thực, khát vọng mãnh liệt để luôn đổi mới và dẫn đầu trong công việc bằng phương pháp quản lý khoa học, cùng tinh thần làm việc tận tuỵ, luôn học hỏi từ những thành công hay thất bại.<br />
+</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/cong-ty-sua-chu-nha-tai-quan-10-gia-thanh-uy-tin-nhat-6.html" title="CÔNG TY SỬA CHỮ NHÀ TẠI QUẬN 10 - GIÁ THÀNH UY TÍN NHẤT"><img src="thumb/272x256/1/upload/news/sua-nha-(1)-8575.jpg" alt="CÔNG TY SỬA CHỮ NHÀ TẠI QUẬN 10 - GIÁ THÀNH UY TÍN NHẤT"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da txt_da2">
+        			<p>Đã</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/cong-ty-sua-chu-nha-tai-quan-10-gia-thanh-uy-tin-nhat-6.html" title="CÔNG TY SỬA CHỮ NHÀ TẠI QUẬN 10 - GIÁ THÀNH UY TÍN NHẤT">CÔNG TY SỬA CHỮ NHÀ TẠI QUẬN 10 - GIÁ THÀNH UY TÍN NHẤT</a></div>
+		    		<div class="des">dịch vụ sửa chữa nhà quận 10 uy tín chuyên nghiệp, công ty xây dựng Mạnh Long, tạo dựng được bởi sự phấn đấu không ngừng học hỏi, tư những thất bại đem đến sự thành công, chúng tôi thi công tất cả các hạng mục sửa chữa nhà, dù nhỏ hay lớn chúng tôi đều thi công</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/dich-vu-sua-chua-nha-huyen-hoc-mon-gia-re-uy-tin-7.html" title="DỊCH VỤ SỬA CHỮA NHÀ HUYỆN HÓC MÔN - GIÁ RẺ - UY TÍN"><img src="thumb/272x256/1/upload/news/hinh-h-9712.png" alt="DỊCH VỤ SỬA CHỮA NHÀ HUYỆN HÓC MÔN - GIÁ RẺ - UY TÍN"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da txt_da2">
+        			<p>Đã</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/dich-vu-sua-chua-nha-huyen-hoc-mon-gia-re-uy-tin-7.html" title="DỊCH VỤ SỬA CHỮA NHÀ HUYỆN HÓC MÔN - GIÁ RẺ - UY TÍN">DỊCH VỤ SỬA CHỮA NHÀ HUYỆN HÓC MÔN - GIÁ RẺ - UY TÍN</a></div>
+		    		<div class="des">Dịch vụ sửa chữa nhà huyện hóc môn được CÔNG TY TNHH THIẾT KẾ XÂY DỰNG CHUYÊN NGHIỆP. cung cấp nhằm đáp ứng được mọi nhu cầu của quý khách hàng hiện nay, công ty chung tôi còn cung cấp dịch vụ sửa chữa nhà trọn gói chìa khóa trao tay.</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/sua-nha-anh-vang-113475d-vo-duy-ninh-phuong-22-quan-binh-thanh-85.html" title="SỬA NHÀ ANH VÀNG 113/47/5D VÕ DUY NINH, PHƯỜNG 22, QUẬN BÌNH THẠNH"><img src="thumb/272x256/1/upload/news/7917c8b1e9ab09f550ba-1533.jpg" alt="SỬA NHÀ ANH VÀNG 113/47/5D VÕ DUY NINH, PHƯỜNG 22, QUẬN BÌNH THẠNH"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da txt_da2">
+        			<p>Đã</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/sua-nha-anh-vang-113475d-vo-duy-ninh-phuong-22-quan-binh-thanh-85.html" title="SỬA NHÀ ANH VÀNG 113/47/5D VÕ DUY NINH, PHƯỜNG 22, QUẬN BÌNH THẠNH">SỬA NHÀ ANH VÀNG 113/47/5D VÕ DUY NINH, PHƯỜNG 22, QUẬN BÌNH THẠNH</a></div>
+		    		<div class="des">sửa chữa nhà số 50/39/5 nhà anh huyền ,đinh thiên hoàng quận bình thạnh xây dựng mạnh long là công ty sửa chữ nhà uy tín lun cung cấp các dịch vụ xây nhà trọn gói, xây nhà phần thô, sửa chữa nhà trọn gói....</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/sua-chua-can-ho-trung-cu-c187-an-phu-quan-6-nha-anh-khai-83.html" title="SỬA CHỮA CĂN HỘ TRUNG CƯ, C.187 , AN PHÚ, QUẬN 6, NHÀ ANH KHẢI"><img src="thumb/272x256/1/upload/news/c09ff711a155410b1844-9310.jpg" alt="SỬA CHỮA CĂN HỘ TRUNG CƯ, C.187 , AN PHÚ, QUẬN 6, NHÀ ANH KHẢI"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da ">
+        			<p>Đang</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/sua-chua-can-ho-trung-cu-c187-an-phu-quan-6-nha-anh-khai-83.html" title="SỬA CHỮA CĂN HỘ TRUNG CƯ, C.187 , AN PHÚ, QUẬN 6, NHÀ ANH KHẢI">SỬA CHỮA CĂN HỘ TRUNG CƯ, C.187 , AN PHÚ, QUẬN 6, NHÀ ANH KHẢI</a></div>
+		    		<div class="des"></div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/sua-chua-nha-tron-goi-nha-anh-cam-391-hung-lo-2-binh-tan-118.html" title="SỬA CHỮA NHÀ TRỌN GÓI NHÀ ANH CẨM 391 HƯNG LỘ 2 BÌNH TÂN"><img src="thumb/272x256/1/upload/news/da9dcec5185fe101b84e-6093.jpg" alt="SỬA CHỮA NHÀ TRỌN GÓI NHÀ ANH CẨM 391 HƯNG LỘ 2 BÌNH TÂN"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da txt_da2">
+        			<p>Đã</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/sua-chua-nha-tron-goi-nha-anh-cam-391-hung-lo-2-binh-tan-118.html" title="SỬA CHỮA NHÀ TRỌN GÓI NHÀ ANH CẨM 391 HƯNG LỘ 2 BÌNH TÂN">SỬA CHỮA NHÀ TRỌN GÓI NHÀ ANH CẨM 391 HƯNG LỘ 2 BÌNH TÂN</a></div>
+		    		<div class="des"></div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/sua-chua-can-ho-trung-cu-an-phuso-085-lo-e-phuong-11-quan-6-nha-chi-chi-87.html" title="SỬA CHỮA CĂN HỘ TRUNG CƯ AN PHÚ,SỐ 085 LÔ E, PHƯỜNG 11, QUẬN 6, NHÀ CHỊ CHI"><img src="thumb/272x256/1/upload/news/59f14067617d8123d86c-0070.jpg" alt="SỬA CHỮA CĂN HỘ TRUNG CƯ AN PHÚ,SỐ 085 LÔ E, PHƯỜNG 11, QUẬN 6, NHÀ CHỊ CHI"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da txt_da2">
+        			<p>Đã</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/sua-chua-can-ho-trung-cu-an-phuso-085-lo-e-phuong-11-quan-6-nha-chi-chi-87.html" title="SỬA CHỮA CĂN HỘ TRUNG CƯ AN PHÚ,SỐ 085 LÔ E, PHƯỜNG 11, QUẬN 6, NHÀ CHỊ CHI">SỬA CHỮA CĂN HỘ TRUNG CƯ AN PHÚ,SỐ 085 LÔ E, PHƯỜNG 11, QUẬN 6, NHÀ CHỊ CHI</a></div>
+		    		<div class="des">công ty sửa chữa nhà uy tín tại quận 6, sửa chữa nhà giá rẻ uy tín chất lượng, thi công đúng tín độ không phát sinh, vật tư chuẩn hợp đồng, nếu quý vị đang có ý định nâng cấp, sửa chữa cho ngôi nhà thân yêu cửa mình thì hảy nhấc máy lên gọi ngay cho công ty chúng tôi nhân viên tư vấn sẽ tư vấn tận tình cho quý khách một cách cụ thể nhất...</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/cong-ty-sua-chua-nha-uy-tin-quan-tan-binh-dich-vu-tot-nhat-116.html" title="CÔNG TY SỬA CHỮA NHÀ UY TÍN QUẬN TÂN BÌNH - DỊCH VỤ TỐT NHẤT"><img src="thumb/272x256/1/upload/news/a5c86f5fb363563d0f72-3738.jpg" alt="CÔNG TY SỬA CHỮA NHÀ UY TÍN QUẬN TÂN BÌNH - DỊCH VỤ TỐT NHẤT"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da txt_da2">
+        			<p>Đã</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/cong-ty-sua-chua-nha-uy-tin-quan-tan-binh-dich-vu-tot-nhat-116.html" title="CÔNG TY SỬA CHỮA NHÀ UY TÍN QUẬN TÂN BÌNH - DỊCH VỤ TỐT NHẤT">CÔNG TY SỬA CHỮA NHÀ UY TÍN QUẬN TÂN BÌNH - DỊCH VỤ TỐT NHẤT</a></div>
+		    		<div class="des">công ty sửa chữ nhà quận tân bình uy tín chuyên nghiệp, chúng tôi đã thi công nhiều căn hộ tại quận tân bình đã được nhiều hộ gia đình, đánh giá cao về sản phẩm của chúng tôi, chúng tôi thi công các hạng mục, như nâng thêm tầng, thi công cá loại trần, như nhựa, thạch cao, thi công điện nước, ốp lát , gạch men, đá hoa cương, sàn gỗ....</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/sua-chua-nha-anh-vang-1412-phan-boi-chau-quan-binh-thanh-86.html" title="SỬA CHỮA NHA ANH VÀNG 14/12 PHAN BỘI CHÂU QUẬN BÌNH THẠNH"><img src="thumb/272x256/1/upload/news/262dbe8d9f977fc92686-7758.jpg" alt="SỬA CHỮA NHA ANH VÀNG 14/12 PHAN BỘI CHÂU QUẬN BÌNH THẠNH"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da txt_da2">
+        			<p>Đã</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/sua-chua-nha-anh-vang-1412-phan-boi-chau-quan-binh-thanh-86.html" title="SỬA CHỮA NHA ANH VÀNG 14/12 PHAN BỘI CHÂU QUẬN BÌNH THẠNH">SỬA CHỮA NHA ANH VÀNG 14/12 PHAN BỘI CHÂU QUẬN BÌNH THẠNH</a></div>
+		    		<div class="des">sửa chữa nhà số 14/12 Phan bội châu quận bình thạnh xây dựng mạnh long là công ty sửa chữ nhà uy tín lun cung cấp các dịch vụ xây nhà trọn gói, xây nhà phần thô, sửa chữa nhà trọn gói....</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/sua-chua-nha-anh-phat-au-co-79302a1-phuong-14-quan-11-82.html" title="SỬA CHỮA NHÀ ANH PHÁT ÂU CƠ 79/30/2A1, PHƯỜNG 14, QUẬN 11"><img src="thumb/272x256/1/upload/news/b429112b928673d82a97-8742.jpg" alt="SỬA CHỮA NHÀ ANH PHÁT ÂU CƠ 79/30/2A1, PHƯỜNG 14, QUẬN 11"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da txt_da2">
+        			<p>Đã</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/sua-chua-nha-anh-phat-au-co-79302a1-phuong-14-quan-11-82.html" title="SỬA CHỮA NHÀ ANH PHÁT ÂU CƠ 79/30/2A1, PHƯỜNG 14, QUẬN 11">SỬA CHỮA NHÀ ANH PHÁT ÂU CƠ 79/30/2A1, PHƯỜNG 14, QUẬN 11</a></div>
+		    		<div class="des">Xây dựng mạnh long là đơn vị cung cấp các dịch vụ sửa chữa nhà quận 11, dịch vụ sửa chữa nhà trọn gói uy tín, chuyên nghiệp, tự hào là đơn vị mẩu mực trong nghành xây dựng, với đội ngủ kiến trúc thiết kế nhiều năm kinh nghiệm.công nhân viên nhiệt tình trẻ trung năng động tay ngề  giỏi ngoan hiền...</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/sua-chua-nha-tron-goi-chi-bao-bao-1631236-to-hien-thanh-phuong-13-quan-3-186.html" title="SỬA CHỮA NHÀ TRỌN GÓI CHỊ BẢO BẢO 163/12/36 TÔ HIẾN THÀNH PHƯỜNG 13 QUẬN 3"><img src="thumb/272x256/1/upload/news/xay-nha-tron-goi-quan-3-(1)-5775.jpg" alt="SỬA CHỮA NHÀ TRỌN GÓI CHỊ BẢO BẢO 163/12/36 TÔ HIẾN THÀNH PHƯỜNG 13 QUẬN 3"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da txt_da2">
+        			<p>Đã</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/sua-chua-nha-tron-goi-chi-bao-bao-1631236-to-hien-thanh-phuong-13-quan-3-186.html" title="SỬA CHỮA NHÀ TRỌN GÓI CHỊ BẢO BẢO 163/12/36 TÔ HIẾN THÀNH PHƯỜNG 13 QUẬN 3">SỬA CHỮA NHÀ TRỌN GÓI CHỊ BẢO BẢO 163/12/36 TÔ HIẾN THÀNH PHƯỜNG 13 QUẬN 3</a></div>
+		    		<div class="des">dịch vụ sửa chữa nhà trọn gói quận 3, chúng tôi đã và đang thi công cải tạo sửa chữa hàng trăm ngôi nhà tại quận 3, mổi năm đã được khách hàng tin cậy trao trọn niềm tin đến công ty chúng tôi, ngoài ra chúng tôi còn cải tạo thi công trên tất cả các quận huyện trên địa bàn tp,hcm. dịch vụ sửa chữa nhà trọn gói là minh chứng cho sự nổ lực của công ty chúng tôi.</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/sua-chua-nha-tron-goi-nha-anh-hien-so-98-tran-thu-do-phuong-phu-thanh-quan-tan-phu-tphcm-88.html" title="SỬA CHỮA NHÀ TRỌN GÓI, NHÀ ANH HIỂN, SỐ 98 TRẦN THỦ ĐỘ, PHƯỜNG PHÚ THẠNH, QUẬN TÂN PHÚ, TPHCM"><img src="thumb/272x256/1/upload/news/214c9fa76e2a8e74d73b-7958.jpg" alt="SỬA CHỮA NHÀ TRỌN GÓI, NHÀ ANH HIỂN, SỐ 98 TRẦN THỦ ĐỘ, PHƯỜNG PHÚ THẠNH, QUẬN TÂN PHÚ, TPHCM"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da txt_da2">
+        			<p>Đã</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/sua-chua-nha-tron-goi-nha-anh-hien-so-98-tran-thu-do-phuong-phu-thanh-quan-tan-phu-tphcm-88.html" title="SỬA CHỮA NHÀ TRỌN GÓI, NHÀ ANH HIỂN, SỐ 98 TRẦN THỦ ĐỘ, PHƯỜNG PHÚ THẠNH, QUẬN TÂN PHÚ, TPHCM">SỬA CHỮA NHÀ TRỌN GÓI, NHÀ ANH HIỂN, SỐ 98 TRẦN THỦ ĐỘ, PHƯỜNG PHÚ THẠNH, QUẬN TÂN PHÚ, TPHCM</a></div>
+		    		<div class="des"></div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/sua-chua-nha-anh-huyen-50395-dinh-thien-hoang-quan-binh-thanh-90.html" title="SỬA CHỮA NHÀ ANH HUYỀN 50/39/5 ĐINH THIÊN HOÀNG, QUẬN BÌNH THẠNH"><img src="thumb/272x256/1/upload/news/ec7dd2fa89ca6a9433db-1456.jpg" alt="SỬA CHỮA NHÀ ANH HUYỀN 50/39/5 ĐINH THIÊN HOÀNG, QUẬN BÌNH THẠNH"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da txt_da2">
+        			<p>Đã</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/sua-chua-nha-anh-huyen-50395-dinh-thien-hoang-quan-binh-thanh-90.html" title="SỬA CHỮA NHÀ ANH HUYỀN 50/39/5 ĐINH THIÊN HOÀNG, QUẬN BÌNH THẠNH">SỬA CHỮA NHÀ ANH HUYỀN 50/39/5 ĐINH THIÊN HOÀNG, QUẬN BÌNH THẠNH</a></div>
+		    		<div class="des">sửa chữa nhà số 50/39/5 nhà anh huyền ,đinh thiên hoàng quận bình thạnh xây dựng mạnh long là công ty sửa chữ nhà uy tín lun cung cấp các dịch vụ xây nhà trọn gói, xây nhà phần thô, sửa chữa nhà trọn gói....</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome ite_da">
+	        	<div class="img"><a href="du-an/sua-nha-chu-sinh-68-tran-quoc-tuan-f1-quan-go-vap-80.html" title="SỬA NHÀ CHÚ SINH, 68 TRẦN QUỐC TUẤN, F1, QUẬN GÒ VẤP"><img src="thumb/272x256/1/upload/news/d71aab5419c3f89da1d2-3580.jpg" alt="SỬA NHÀ CHÚ SINH, 68 TRẦN QUỐC TUẤN, F1, QUẬN GÒ VẤP"></a></div>
+	        	<div class="clearfix"></div>
+				<div class="txt_da txt_da2">
+        			<p>Đã</p><p>Thi</p><p>Công</p>        		</div>
+	        	<div class="info">
+		    		<div class="name"><a href="du-an/sua-nha-chu-sinh-68-tran-quoc-tuan-f1-quan-go-vap-80.html" title="SỬA NHÀ CHÚ SINH, 68 TRẦN QUỐC TUẤN, F1, QUẬN GÒ VẤP">SỬA NHÀ CHÚ SINH, 68 TRẦN QUỐC TUẤN, F1, QUẬN GÒ VẤP</a></div>
+		    		<div class="des">Nguồn động lực đằng sau những thành quả của chúng tôi đó chính là niềm tin vững chắc,  mạnh mẽ vào đội ngũ nhân viên và tập trung mang lại cho khách hàng những giá trị đích thực, khát vọng mãnh liệt để luôn đổi mới và dẫn đầu trong công việc bằng phương pháp quản lý khoa học, cùng tinh thần làm việc tận tuỵ, luôn học hỏi từ những thành công hay thất bại.<br />
+<br />
+Từ đó những ý tưởng tưởng chừng như đơn giản đã được phát triển thành những mảng dịch vụ mang lại nhiều giá trị gia tăng. Và các lĩnh vực kinh doanh đã được phát triển thành công từ những đội ngũ này như:<br />
+<br />
+Thi công xây dựng - Trang trí nội & ngoại thất<br />
+Thiết kế kiến trúc<br />
+Thiết kế nội, ngoại thất</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    </div>  </div>
+</div>
+
+<div id="sec_price">
+  <div class="container">
+    <div class="name_home name_home2">
+	<div class="txt">Bảng giá</div>
+</div>
+<div class="list_newhome">
+			<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/bao-gia-sua-chua-nha-tron-goi-uy-tin-nhat-khu-vuc-tphcm-160.html" title="BÁO GIÁ SỬA CHỮA NHÀ TRỌN GÓI UY TÍN NHẤT KHU VỰC TP,HCM"><img src="thumb/272x256/1/upload/news/xay-nha-phan-tho-9810.png" alt="BÁO GIÁ SỬA CHỮA NHÀ TRỌN GÓI UY TÍN NHẤT KHU VỰC TP,HCM"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/bao-gia-sua-chua-nha-tron-goi-uy-tin-nhat-khu-vuc-tphcm-160.html" title="BÁO GIÁ SỬA CHỮA NHÀ TRỌN GÓI UY TÍN NHẤT KHU VỰC TP,HCM">BÁO GIÁ SỬA CHỮA NHÀ TRỌN GÓI UY TÍN NHẤT KHU VỰC TP,HCM</a></div>
+		    		<div class="des">công ty chúng tôi lun cung cấp bảng báo giá sửa chữa nhà trọn gói khu vực tp,hcm và các tỉnh lân cận, để đảm bảo dịch vụ sửa nhà của quý khách hàng, chúng tôi lun cập nhập bảng báo giá sửa chữa nhà trọn gói mới nhất, phục vụ quý khách hàng.</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/bao-gia-sua-nha-pho-moi-nhat-2021-bao-gia-chi-tiet-tung-hang-muc-78.html" title="BÁO GIÁ SỬA NHÀ PHỐ MỚI NHẤT 2021 - BÁO GIÁ CHI TIẾT TỪNG HẠNG MỤC"><img src="thumb/272x256/1/upload/news/img_0130-7665.JPG" alt="BÁO GIÁ SỬA NHÀ PHỐ MỚI NHẤT 2021 - BÁO GIÁ CHI TIẾT TỪNG HẠNG MỤC"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/bao-gia-sua-nha-pho-moi-nhat-2021-bao-gia-chi-tiet-tung-hang-muc-78.html" title="BÁO GIÁ SỬA NHÀ PHỐ MỚI NHẤT 2021 - BÁO GIÁ CHI TIẾT TỪNG HẠNG MỤC">BÁO GIÁ SỬA NHÀ PHỐ MỚI NHẤT 2021 - BÁO GIÁ CHI TIẾT TỪNG HẠNG MỤC</a></div>
+		    		<div class="des">Bảng báo giá sửa nhà mới nhất 2020-2021 uy tín đảm chất lượng mà công ty mạnh long gưởi đến quý vị tham khảo, chúng tôi đưa ra những giải pháp giá thành cạnh tranh tốt nhất cho khách hàng lựa chọn</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/bao-gia-sua-chua-nha-tron-goi-uy-tin-nhat-khu-vuc-tphcm-62.html" title="Báo giá sửa chữa nhà trọn gói uy tín nhất khu vực tp,hcm"><img src="thumb/272x256/1/upload/news/q-7219.jpg" alt="Báo giá sửa chữa nhà trọn gói uy tín nhất khu vực tp,hcm"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/bao-gia-sua-chua-nha-tron-goi-uy-tin-nhat-khu-vuc-tphcm-62.html" title="Báo giá sửa chữa nhà trọn gói uy tín nhất khu vực tp,hcm">Báo giá sửa chữa nhà trọn gói uy tín nhất khu vực tp,hcm</a></div>
+		    		<div class="des">Báo giá sửa chữa nhà trọn gói,là bảng báo giá sửa chữa nhà uy tin được công ty xây dựng Mạnh Long chúng tôi mới cập nhật,cung cấp đến quý khách cùng tham khảm giá sửa chữa nhà năm nay.Như chúng ta đã biết mọi mặt hàng thiết yếu phục vụ cho cuộc sống hằng ngày của chúng ta.Về giá cả thông thường sẽ thay đổi lên xuống theo từng tháng hoặc hàng năm,vật liệu xây dựng cũng không ngoại lệ,vì vậy công ty xây dựng Mạnh Long chúng tôi luôn cập nhật bảng báo giá sửa chữa nhà mới nhất.Để cung cấp đến quý vị đơn giá sửa chữa nhà một cách nhanh chóng và chính xác nhất có thể.</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/bao-gia-sua-nha-moi-nhat-2021-uy-tin-chuyen-nghiep-55.html" title="Báo giá sửa nhà mới nhất 2021 uy tín - chuyên nghiệp"><img src="thumb/272x256/1/upload/news/sua-nha-(2)-6621.png" alt="Báo giá sửa nhà mới nhất 2021 uy tín - chuyên nghiệp"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/bao-gia-sua-nha-moi-nhat-2021-uy-tin-chuyen-nghiep-55.html" title="Báo giá sửa nhà mới nhất 2021 uy tín - chuyên nghiệp">Báo giá sửa nhà mới nhất 2021 uy tín - chuyên nghiệp</a></div>
+		    		<div class="des">Bảng báo giá sửa nhà mới nhất 2020-2021 giá thành hợp lý dịch vụ uy tín chất lượng,chúng tôi công ty xây dựng Mạnh Long trân trọng gửi đến quý khách hàng bảng báo giá thi công sửa chữa nhà phần thô và hoàn thiện áp dụng trong năm 2020-2021 bảng giá này sẽ không thay đổi cho đến khi chúng tôi cập nhật bảng báo giá mới.Khi quý vị tìm đến một nhà thầu sửa chữa nhà quý vị  thường chú ý đến chất lượng dịch vụ và gì nữa? Chắc chắc đó là đơn giá sửa chữa nhà!</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/don-gia-sua-chua-nha-tron-goi-2021-uy-tin-tphcm-56.html" title="ĐƠN GIÁ SỬA CHỮA NHÀ TRỌN GÓI 2021- UY TÍN Tp.HCM"><img src="thumb/272x256/1/upload/news/sua--nha-5054.png" alt="ĐƠN GIÁ SỬA CHỮA NHÀ TRỌN GÓI 2021- UY TÍN Tp.HCM"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/don-gia-sua-chua-nha-tron-goi-2021-uy-tin-tphcm-56.html" title="ĐƠN GIÁ SỬA CHỮA NHÀ TRỌN GÓI 2021- UY TÍN Tp.HCM">ĐƠN GIÁ SỬA CHỮA NHÀ TRỌN GÓI 2021- UY TÍN Tp.HCM</a></div>
+		    		<div class="des">Công ty TNHH TM thiết kế đầu tư xây dựng Mạnh Long là một trong những công ty nhiều năm kinh nghiệm trong lĩnh vực xây dựng, sửa chữa nhà tại Tp.HCM. Chúng tôi có những dịch vụ kèm đơn giá sửa chữa nhà uy tín chất lượng cao trọn gói ở khu vực Tp.HCM luôn sẵn sàng tư vấn phục vụ khách hàng bất cứ lúc nào.</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/bao-gia-xay-nha-tron-goi-tai-tphcm-uy-tin-chuyen-nghiep-61.html" title="Báo giá xây Nhà trọn gói tại tp,hcm uy tín - chuyên nghiệp"><img src="thumb/272x256/1/upload/news/xd2-0225.jpg" alt="Báo giá xây Nhà trọn gói tại tp,hcm uy tín - chuyên nghiệp"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/bao-gia-xay-nha-tron-goi-tai-tphcm-uy-tin-chuyen-nghiep-61.html" title="Báo giá xây Nhà trọn gói tại tp,hcm uy tín - chuyên nghiệp">Báo giá xây Nhà trọn gói tại tp,hcm uy tín - chuyên nghiệp</a></div>
+		    		<div class="des">Có rất nhiều sự lựa chọn trong gói xây nhà trọn gói,với rất nhiều hạng mục và chi phí khác nhau đến với công ty xây dựng Mạnh Long, quý vị sẽ được tư vấn đầy đủ từ đơn giá xây thô,báo giá xây nhà tron gói,đơn giá nhân công xây dựng cách tính diện tích m2 trong xây dựng,đến khâu thiết kế phù hợp theo phong cách riêng của gia chủ,giải trình phương cách thi công,tư vấn cách bài trí đồ đạc theo phong cách, phong thủy,..</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/bao-gia-xay-dung-nha-2021-don-gia-uy-tin-thi-cong-dung-tin-do-59.html" title="BÁO GIÁ XÂY DỰNG NHÀ 2021 - ĐƠN GIÁ UY TÍN - THI CÔNG ĐÚNG TÍN ĐỘ"><img src="thumb/272x256/1/upload/news/0a3267fe3b60dd3e8471-3854.jpg" alt="BÁO GIÁ XÂY DỰNG NHÀ 2021 - ĐƠN GIÁ UY TÍN - THI CÔNG ĐÚNG TÍN ĐỘ"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/bao-gia-xay-dung-nha-2021-don-gia-uy-tin-thi-cong-dung-tin-do-59.html" title="BÁO GIÁ XÂY DỰNG NHÀ 2021 - ĐƠN GIÁ UY TÍN - THI CÔNG ĐÚNG TÍN ĐỘ">BÁO GIÁ XÂY DỰNG NHÀ 2021 - ĐƠN GIÁ UY TÍN - THI CÔNG ĐÚNG TÍN ĐỘ</a></div>
+		    		<div class="des">Báo giá xây dựng nhà 2021  báo giá xây dựng nhà năm nay chắc  hẳn quý vị cũng biết rằng giá  xây dựng nhà cửa luôn thay đổi hằng năm đặc biệt là với những ai có ý định xây dựng nhà cửa trong năm nay, thì nhu câu tiềm hiểu về giá xây dựng là một trong những công đoạn quan trọng đầu tiên phải làm, việc biết được giá thành trong xây dựng nhà thì mới có thể cân đối tài chính để xây dựng nhà cửa và điều chỉnh phù hợp để không bị ảnh hưởng đến việc kinh doanh.buôn bán của chính mình.</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/bao-gia-xay-dung-nha-phan-tho-don-gia-thi-cong-chuan-nhat-hien-nay-58.html" title="Báo giá xây dựng nhà phần thô đơn giá thi công chuẩn nhất hiện nay"><img src="thumb/272x256/1/upload/news/90e6442018befee0a7af-1673.jpg" alt="Báo giá xây dựng nhà phần thô đơn giá thi công chuẩn nhất hiện nay"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/bao-gia-xay-dung-nha-phan-tho-don-gia-thi-cong-chuan-nhat-hien-nay-58.html" title="Báo giá xây dựng nhà phần thô đơn giá thi công chuẩn nhất hiện nay">Báo giá xây dựng nhà phần thô đơn giá thi công chuẩn nhất hiện nay</a></div>
+		    		<div class="des">Trong chúng ta chắt hẳn ai cũng cần có một ngôi nhà để sinh hoạt và ai cũng có nhu cầu xây dựng nhà cửa chỉ là trước hay sau, khi có xu hướng xây dựng nhà thì ai cũng phải tiềm hiểu xem giá xây dựng nhà trong năm và thủ tục liên quan về xây dựng. Để giúp quý vị hiểu thêm về ngững thủ tục cần  thiết khi muốn xây dựng nhà cửa. Trước hết chúng ta phải có chủ quyền sử dụng đất hợp lệ không có tránh chấp về mặt pháp lý, bước tiếp theo phải xin giấy phép xây dựng, chuẩn bị kinh phí để xây dựng nhà, tiếp đó là tiềm nhà thầu xây dựng nhà uy tín để tiến hành thi công xây dựng nhà.</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/sua-chua-nha-quan-binh-thanh-chuyen-nghiep-uy-tin-89.html" title="SỬA CHỮA NHÀ QUẬN BÌNH THẠNH - CHUYÊN NGHIỆP UY TÍN"><img src="thumb/272x256/1/upload/news/ec7dd2fa89ca6a9433db-4040.jpg" alt="SỬA CHỮA NHÀ QUẬN BÌNH THẠNH - CHUYÊN NGHIỆP UY TÍN"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/sua-chua-nha-quan-binh-thanh-chuyen-nghiep-uy-tin-89.html" title="SỬA CHỮA NHÀ QUẬN BÌNH THẠNH - CHUYÊN NGHIỆP UY TÍN">SỬA CHỮA NHÀ QUẬN BÌNH THẠNH - CHUYÊN NGHIỆP UY TÍN</a></div>
+		    		<div class="des">công ty xây dựng mạnh long là đơn vị chuyên thi công sửa chữa nhà phố tại các quận huyện tại t,phcm đã và đang sửa chữa hàng ngàn ngôi nhà có qui mô lớn và nhỏ tại địa bàn t,hcm, chúng tôi gồm có các dịch vụ sửa chữa nhà trọn gói, xây nhà mới phần thô, trọn gói để đáp ứng được nhu cầu của quý vị xây dựng mạnh long lun, lun tìm tòi học hỏi những kinh nghiệm của các chuyên gia hàng đầu về lỉnh vực xây dựng để được tận tâm phục vụ quý vị là vinh dự của chúng tôi.....</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/dich-vu-sua-chua-nha-quan-6-cong-ty-sua-chua-nha-quan-6-148.html" title="DỊCH VỤ SỬA CHỮA NHÀ QUẬN 6 - CÔNG TY SỬA CHỮA NHÀ QUẬN 6"><img src="thumb/272x256/1/upload/news/cong-ty-xay-nha-tron-goi-0480.jpg" alt="DỊCH VỤ SỬA CHỮA NHÀ QUẬN 6 - CÔNG TY SỬA CHỮA NHÀ QUẬN 6"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/dich-vu-sua-chua-nha-quan-6-cong-ty-sua-chua-nha-quan-6-148.html" title="DỊCH VỤ SỬA CHỮA NHÀ QUẬN 6 - CÔNG TY SỬA CHỮA NHÀ QUẬN 6">DỊCH VỤ SỬA CHỮA NHÀ QUẬN 6 - CÔNG TY SỬA CHỮA NHÀ QUẬN 6</a></div>
+		    		<div class="des">dịch vụ sửa chữa nhà quận 6, công ty sửa chữa nhà quận 6, chúng tôi chuyên sửa chữa nhà các hạng mục như nâng tầng, thay đổi không gian, ốp lát gạch, thi công sàn giã, dựng vách nhẹ, quý khách có nhu cầu sửa chữa nhà quận 6 hảy liên hệ với chúng tôi để được chúng tôi phục vụ bạn một cách tốt nhất..</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/dich-vu-sua-chua-nha-tai-quan-7-bao-gia-thi-cong-chi-tiet-149.html" title="DỊCH VỤ SỬA CHỮA NHÀ TẠI QUẬN 7 - BÁO GIÁ THI CÔNG CHI TIẾT"><img src="thumb/272x256/1/upload/news/sua-chua-nha-quan-tan-binh-(1)-7580.jpg" alt="DỊCH VỤ SỬA CHỮA NHÀ TẠI QUẬN 7 - BÁO GIÁ THI CÔNG CHI TIẾT"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/dich-vu-sua-chua-nha-tai-quan-7-bao-gia-thi-cong-chi-tiet-149.html" title="DỊCH VỤ SỬA CHỮA NHÀ TẠI QUẬN 7 - BÁO GIÁ THI CÔNG CHI TIẾT">DỊCH VỤ SỬA CHỮA NHÀ TẠI QUẬN 7 - BÁO GIÁ THI CÔNG CHI TIẾT</a></div>
+		    		<div class="des">dịch vụ sửa chữa nhà tại quận 7 mà công ty chúng tôi cung cấp cho khách hàng, dịch vụ tốt nhất hiện nay, chúng tôi với công nhân viên kỉ thuật cao về lỉnh vực sứa chữa nhà hiện nay. đội thợ thi công giỏi, dầu kinh nghiệm, chúng tôi đã thi công nhiều hộ gia đình tại quận 7, đã được quý khách hàng đánh giá cao về những sản phẩm của chúng tôi tạo ra.</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/bao-gia-xay-nha-cap-4-tron-goi-gia-re-uy-tin-128.html" title="BÁO GIÁ XÂY NHÀ CẤP 4 TRỌN GÓI GIÁ RẺ - UY TÍN"><img src="thumb/272x256/1/upload/news/xay-nha-cap-4-tron-goi-1882.jpg" alt="BÁO GIÁ XÂY NHÀ CẤP 4 TRỌN GÓI GIÁ RẺ - UY TÍN"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/bao-gia-xay-nha-cap-4-tron-goi-gia-re-uy-tin-128.html" title="BÁO GIÁ XÂY NHÀ CẤP 4 TRỌN GÓI GIÁ RẺ - UY TÍN">BÁO GIÁ XÂY NHÀ CẤP 4 TRỌN GÓI GIÁ RẺ - UY TÍN</a></div>
+		    		<div class="des">xây nhà cấp 4 trọn gói, công ty chúng tôi cam kết không phát sinh chi phí, dùng đúng vật liệu trong ngành xây dựng, thi công đúng tiến độ hợp đồng</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/dich-vu-sua-chua-nha-quan-2-bao-gia-chi-tiet-tung-hang-muc-150.html" title="DỊCH VỤ SỬA CHỮA NHÀ QUẬN 2 - BÁO GIÁ CHI TIẾT TỪNG HẠNG MỤC"><img src="thumb/272x256/1/upload/news/n-gia-xay-nha-phan-tho-5434.jpg" alt="DỊCH VỤ SỬA CHỮA NHÀ QUẬN 2 - BÁO GIÁ CHI TIẾT TỪNG HẠNG MỤC"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/dich-vu-sua-chua-nha-quan-2-bao-gia-chi-tiet-tung-hang-muc-150.html" title="DỊCH VỤ SỬA CHỮA NHÀ QUẬN 2 - BÁO GIÁ CHI TIẾT TỪNG HẠNG MỤC">DỊCH VỤ SỬA CHỮA NHÀ QUẬN 2 - BÁO GIÁ CHI TIẾT TỪNG HẠNG MỤC</a></div>
+		    		<div class="des"> công ty xây dựng Mạnh Long gửi đến khách hàng dịch vụ sửa nhà quận 2 uy tín chất lượng nhất, trong năm chúng tôi là đơn vị lun mẩu mực trong lỉnh vực sửa chữa nhà, với tất công nhân viên, yêu nghề, tâm huyết mảnh liệt trong lỉnh vực xây dựng, </div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/bang-bao-gia-son-nha-moi-nhat-hop-phong-thuy-gia-chu-174.html" title="BẢNG BÁO GIÁ SƠN NHÀ  MỚI NHẤT HỢP PHONG THỦY GIA CHỦ"><img src="thumb/272x256/1/upload/news/sua-chua-nha-quan-11-(1)-8305.jpg" alt="BẢNG BÁO GIÁ SƠN NHÀ  MỚI NHẤT HỢP PHONG THỦY GIA CHỦ"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/bang-bao-gia-son-nha-moi-nhat-hop-phong-thuy-gia-chu-174.html" title="BẢNG BÁO GIÁ SƠN NHÀ  MỚI NHẤT HỢP PHONG THỦY GIA CHỦ">BẢNG BÁO GIÁ SƠN NHÀ  MỚI NHẤT HỢP PHONG THỦY GIA CHỦ</a></div>
+		    		<div class="des">Sơn tường nhà loại nào rẻ và tốt? Sơn tường loại nào bền màu nhất hiện nay? Bạn đắn đo trong việc lựa chọn màu sơn tường cho nhà ở? Bạn đang cần được tư vấn về loại sơn nào rẻ và tốt nhất cho công trình của mình? Đến với Xây dựng Mạnh Long để được tư vấn những loại sơn tường nào rẻ và tốt nhất và trải nghiệm dịch vụ sơn tường nhà uy tín và chất lượng nhất cho không gian nhà ở của mình nhé.</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/cong-ty-xay-sua-nha-uy-tin-chuyen-nghiep-tai-quan-phu-nhuan-181.html" title="CÔNG TY XÂY SỬA NHÀ UY TÍN CHUYÊN NGHIỆP TẠI QUẬN PHÚ NHUẬN"><img src="thumb/272x256/1/upload/news/sua-chua-nha-phu-nhuan-0419.png" alt="CÔNG TY XÂY SỬA NHÀ UY TÍN CHUYÊN NGHIỆP TẠI QUẬN PHÚ NHUẬN"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/cong-ty-xay-sua-nha-uy-tin-chuyen-nghiep-tai-quan-phu-nhuan-181.html" title="CÔNG TY XÂY SỬA NHÀ UY TÍN CHUYÊN NGHIỆP TẠI QUẬN PHÚ NHUẬN">CÔNG TY XÂY SỬA NHÀ UY TÍN CHUYÊN NGHIỆP TẠI QUẬN PHÚ NHUẬN</a></div>
+		    		<div class="des">Công ty sửa chữa nhà quận phú nhuận, trọn gói uy tín chuyên nghiệp, với phương châm chất lượng đặt lên hàng đầu công ty chuyên nghiệp mạnh long, chuyên thiết kế thi công, dù là những hạng mục nhỏ trong sửa chữa nhà mà quý vị đang có nhu cầu sửa chữa, ngoài ra công ty còn cung cấp dịch vụ như xây nhà trọn gói, xây nhà phần thô, nhà tiền chế, nhà xưởng....sửa chữa cơi nới thêm tầng, tăng diện tích không gian sử dụng.</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/bang-bao-gia-sua-chua-nha-huyen-nha-be-don-gia-sua-chua-nha-moi-nhat-2021-184.html" title="BẢNG BÁO GIÁ SỬA CHỮA NHÀ HUYỆN NHÀ BÈ - ĐƠN GIÁ SỬA CHỮA NHÀ MỚI NHẤT 2021"><img src="thumb/272x256/1/upload/news/bao-gia-sua-chua-nha-quan-3-6836.jpg" alt="BẢNG BÁO GIÁ SỬA CHỮA NHÀ HUYỆN NHÀ BÈ - ĐƠN GIÁ SỬA CHỮA NHÀ MỚI NHẤT 2021"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/bang-bao-gia-sua-chua-nha-huyen-nha-be-don-gia-sua-chua-nha-moi-nhat-2021-184.html" title="BẢNG BÁO GIÁ SỬA CHỮA NHÀ HUYỆN NHÀ BÈ - ĐƠN GIÁ SỬA CHỮA NHÀ MỚI NHẤT 2021">BẢNG BÁO GIÁ SỬA CHỮA NHÀ HUYỆN NHÀ BÈ - ĐƠN GIÁ SỬA CHỮA NHÀ MỚI NHẤT 2021</a></div>
+		    		<div class="des">bảng báo giá sửa chữa nhà huyện nhà bè được công ty chuyên nghiệp mạnh long, cung cấp nhằm đáp ứng được nhu cầu xây sửa nhà của quý khách, được đảm bảo, dự chù được chi phí sửa chữa nhà quý vị một cách khách quan nhất, nhà đáp ứng đảm bảo cho việc sửa chữa ngôi nhà hạnh phúc được chất lượng, thẩm mỹ, sang trọng nhất</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="bang-gia/bang-bao-gia-sua-chua-nha-quan-12-moi-nhat-nam-2021-185.html" title="BẢNG BÁO GIÁ SỬA CHỮA NHÀ QUẬN 12 MỚI NHẤT NĂM 2021"><img src="thumb/272x256/1/upload/news/bao-gia-sua-chua-nha-quan-12-9839.png" alt="BẢNG BÁO GIÁ SỬA CHỮA NHÀ QUẬN 12 MỚI NHẤT NĂM 2021"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="bang-gia/bang-bao-gia-sua-chua-nha-quan-12-moi-nhat-nam-2021-185.html" title="BẢNG BÁO GIÁ SỬA CHỮA NHÀ QUẬN 12 MỚI NHẤT NĂM 2021">BẢNG BÁO GIÁ SỬA CHỮA NHÀ QUẬN 12 MỚI NHẤT NĂM 2021</a></div>
+		    		<div class="des">bảng báo giá sửa chữa nhà quận 12 được công ty xây dựng mạnh long gửi đến cho quý vị khách hàng, nắm bắt được đơn gia sửa chữa nhà mới nhất, khi đang có nhu cầu sửa chữa nhà. chuẩn bị những chi phí và lập những phương án cụ thể khi đưa ra ý tưởng sửa nhà của mình. với phương châm được phục vụ khách hàng chúng tôi lun cung cấp những bảng báo giá cập nhập mới nhất hiện nay.</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    </div>  </div>
+</div>
+
+<div id="sec_tienche">
+  <div class="container">
+    <div class="name_home">
+	<div class="txt">xây nhà tiền chế</div>
+</div>
+<div class="list_newhome">
+			<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="xay-nha-tien-che/don-gia-xay-nha-khung-thep-tai-tphcm-uy-tin-nhat-119.html" title="ĐƠN GIÁ XÂY NHÀ KHUNG THÉP TẠI TPHCM - UY TÍN NHẤT"><img src="upload/news/272x256/1/hinh-nha-thep-0023.jpg" alt="ĐƠN GIÁ XÂY NHÀ KHUNG THÉP TẠI TPHCM - UY TÍN NHẤT"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="xay-nha-tien-che/don-gia-xay-nha-khung-thep-tai-tphcm-uy-tin-nhat-119.html" title="ĐƠN GIÁ XÂY NHÀ KHUNG THÉP TẠI TPHCM - UY TÍN NHẤT">ĐƠN GIÁ XÂY NHÀ KHUNG THÉP TẠI TPHCM - UY TÍN NHẤT</a></div>
+		    		<div class="des">công ty xây dựng nhà khung thép uy tín Tp, hcm  công ty chúng tôi chuyên thi công về nhà khung thép, như thi công nhà xưởng, thi công nhà tiền chế khung thép, quán cafe, nhà hàng, với đội ngủ công nhân viên có nhiều tâm huyết kinh nghiệm trong lỉnh vực xây nhà khung thép sẽ đáp ứng được nhu cầu thỏa mản của khách hàng...</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="xay-nha-tien-che/don-gia-xay-dung-nha-tien-che-don-vi-thi-cong-chuyen-nghiep-96.html" title="ĐƠN GIÁ XÂY DỰNG NHÀ TIỀN CHẾ - ĐƠN VỊ THI CÔNG CHUYÊN NGHIỆP"><img src="upload/news/272x256/1/fde27fa54665a43bfd74-4460.jpg" alt="ĐƠN GIÁ XÂY DỰNG NHÀ TIỀN CHẾ - ĐƠN VỊ THI CÔNG CHUYÊN NGHIỆP"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="xay-nha-tien-che/don-gia-xay-dung-nha-tien-che-don-vi-thi-cong-chuyen-nghiep-96.html" title="ĐƠN GIÁ XÂY DỰNG NHÀ TIỀN CHẾ - ĐƠN VỊ THI CÔNG CHUYÊN NGHIỆP">ĐƠN GIÁ XÂY DỰNG NHÀ TIỀN CHẾ - ĐƠN VỊ THI CÔNG CHUYÊN NGHIỆP</a></div>
+		    		<div class="des">xây dựng mạnh long là đơn vị lun cung cấp dịch vụ xây nhà khung thép tại tp,hcm và các vùng lân cận</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="xay-nha-tien-che/bao-gia-xay-nha-tien-che-don-gia-uy-tin-nhat-thi-truong-95.html" title="BÁO GIÁ XÂY NHÀ TIỀN CHẾ - ĐƠN GIÁ UY TÍN NHẤT THỊ TRƯỜNG"><img src="upload/news/272x256/1/59a911ee282eca70933f-4330.jpg" alt="BÁO GIÁ XÂY NHÀ TIỀN CHẾ - ĐƠN GIÁ UY TÍN NHẤT THỊ TRƯỜNG"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="xay-nha-tien-che/bao-gia-xay-nha-tien-che-don-gia-uy-tin-nhat-thi-truong-95.html" title="BÁO GIÁ XÂY NHÀ TIỀN CHẾ - ĐƠN GIÁ UY TÍN NHẤT THỊ TRƯỜNG">BÁO GIÁ XÂY NHÀ TIỀN CHẾ - ĐƠN GIÁ UY TÍN NHẤT THỊ TRƯỜNG</a></div>
+		    		<div class="des">công ty xây dựng mạnh long kính chào quý khách hàng, xây dựng manh long là đơn vị chuyên nghiệp thi công trong lỉnh vực xây dựng, như thi công nhà xưởng , nhà khung thép, nhà tiền chế... tại các quận </div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="xay-nha-tien-che/xay-nha-khung-thep-uy-tin-chuyen-nghiep-nhat-91.html" title="XÂY NHÀ KHUNG THÉP - UY TIN - CHUYÊN NGHIỆP NHẤT"><img src="upload/news/272x256/1/n-gia-xay-nha-khung-thep-7285.jpg" alt="XÂY NHÀ KHUNG THÉP - UY TIN - CHUYÊN NGHIỆP NHẤT"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="xay-nha-tien-che/xay-nha-khung-thep-uy-tin-chuyen-nghiep-nhat-91.html" title="XÂY NHÀ KHUNG THÉP - UY TIN - CHUYÊN NGHIỆP NHẤT">XÂY NHÀ KHUNG THÉP - UY TIN - CHUYÊN NGHIỆP NHẤT</a></div>
+		    		<div class="des">công ty xây nhà khung thép uy tín chúng tôi là đơn vị chuyên thi công xây dựng nhà khung thép, trên địa bàn Tp,hcm và các tỉnh lân cận với phương châm tạo nên thương hiệu chúng tôi đã thi công áp dụng kỉ thuật và sử dụng vật liệu tốt nhất hiện nay.</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="xay-nha-tien-che/xay-nha-tien-che-hcm-bao-gia-thi-cong-moi-nhat-2021-166.html" title="XÂY NHÀ TIỀN CHẾ HCM BÁO GIÁ THI CÔNG MỚI NHẤT 2021"><img src="upload/news/272x256/1/thiet-ke-nha-tien-che-8205.jpg" alt="XÂY NHÀ TIỀN CHẾ HCM BÁO GIÁ THI CÔNG MỚI NHẤT 2021"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="xay-nha-tien-che/xay-nha-tien-che-hcm-bao-gia-thi-cong-moi-nhat-2021-166.html" title="XÂY NHÀ TIỀN CHẾ HCM BÁO GIÁ THI CÔNG MỚI NHẤT 2021">XÂY NHÀ TIỀN CHẾ HCM BÁO GIÁ THI CÔNG MỚI NHẤT 2021</a></div>
+		    		<div class="des">công ty xây dựng nhà khung thép uy tín Tp, hcm  công ty chúng tôi chuyên thi công về nhà khung thép, như thi công nhà xưởng, thi công nhà tiền chế khung thép, quán cafe, nhà hàng, với đội ngủ công nhân viên có nhiều tâm huyết kinh nghiệm trong lỉnh vực xây nhà khung thép sẽ đáp ứng được nhu cầu thỏa mản của khách hàng...</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    </div>  </div>
+</div>
+
+<div id="sec_congtrinh">
+  <div class="container">
+    <div class="name_home">
+	<div class="txt">công trình tiêu biểu</div>
+</div>
+<div class="list_ct">
+			<div class="col-congtrinh">
+	        <div class="ite_congtrinh">
+	        	<div class="img">
+	        		<a href="du-an/cong-ty-sua-chua-nha-tai-quan-8-don-gia-sua-chua-nha-moi-nhat-8.html" title="CÔNG TY SỬA CHỮA NHÀ TẠI QUẬN 8 - ĐƠN GIÁ SỬA CHỮA NHÀ MỚI NHẤT">
+	        			<img src="upload/news/372x400/1/cong-ty-sua-nha-(1)-2913.jpg" alt="CÔNG TY SỬA CHỮA NHÀ TẠI QUẬN 8 - ĐƠN GIÁ SỬA CHỮA NHÀ MỚI NHẤT">
+	        			<div class="info">
+				    		<div class="name">CÔNG TY SỬA CHỮA NHÀ TẠI QUẬN 8 - ĐƠN GIÁ SỬA CHỮA NHÀ MỚI NHẤT</div>
+				    		<div class="des">Nguồn động lực đằng sau những thành quả của chúng tôi đó chính là niềm tin vững chắc,  mạnh mẽ vào đội ngũ nhân viên và tập trung mang lại cho khách hàng những giá trị đích thực, khát vọng mãnh liệt để luôn đổi mới và dẫn đầu trong công việc bằng phương pháp quản lý khoa học, cùng tinh thần làm việc tận tuỵ, luôn học hỏi từ những thành công hay thất bại.</div>
+			        	</div>
+	        		</a>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-congtrinh">
+	        <div class="ite_congtrinh">
+	        	<div class="img">
+	        		<a href="du-an/cong-ty-sua-chua-nha-tai-quan-9-dich-vu-tot-nhat-hien-nay-4.html" title="CÔNG TY SỬA CHỮA NHÀ TẠI QUẬN 9 - DỊCH VỤ TỐT NHẤT HIỆN NAY">
+	        			<img src="upload/news/372x400/1/xay-nha-phan-tho-7593.png" alt="CÔNG TY SỬA CHỮA NHÀ TẠI QUẬN 9 - DỊCH VỤ TỐT NHẤT HIỆN NAY">
+	        			<div class="info">
+				    		<div class="name">CÔNG TY SỬA CHỮA NHÀ TẠI QUẬN 9 - DỊCH VỤ TỐT NHẤT HIỆN NAY</div>
+				    		<div class="des"> Công ty sửa chữa nhà tại quận 9,Nguồn động lực đằng sau những thành quả của chúng tôi đó chính là niềm tin vững chắc,  mạnh mẽ vào đội ngũ nhân viên và tập trung mang lại cho khách hàng những giá trị đích thực, khát vọng mãnh liệt để luôn đổi mới và dẫn đầu trong công việc bằng phương pháp quản lý khoa học, cùng tinh thần làm việc tận tuỵ, luôn học hỏi từ những thành công hay thất bại.<br />
+</div>
+			        	</div>
+	        		</a>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-congtrinh">
+	        <div class="ite_congtrinh">
+	        	<div class="img">
+	        		<a href="du-an/cong-ty-sua-chu-nha-tai-quan-10-gia-thanh-uy-tin-nhat-6.html" title="CÔNG TY SỬA CHỮ NHÀ TẠI QUẬN 10 - GIÁ THÀNH UY TÍN NHẤT">
+	        			<img src="upload/news/372x400/1/sua-nha-(1)-8575.jpg" alt="CÔNG TY SỬA CHỮ NHÀ TẠI QUẬN 10 - GIÁ THÀNH UY TÍN NHẤT">
+	        			<div class="info">
+				    		<div class="name">CÔNG TY SỬA CHỮ NHÀ TẠI QUẬN 10 - GIÁ THÀNH UY TÍN NHẤT</div>
+				    		<div class="des">dịch vụ sửa chữa nhà quận 10 uy tín chuyên nghiệp, công ty xây dựng Mạnh Long, tạo dựng được bởi sự phấn đấu không ngừng học hỏi, tư những thất bại đem đến sự thành công, chúng tôi thi công tất cả các hạng mục sửa chữa nhà, dù nhỏ hay lớn chúng tôi đều thi công</div>
+			        	</div>
+	        		</a>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-congtrinh">
+	        <div class="ite_congtrinh">
+	        	<div class="img">
+	        		<a href="du-an/dich-vu-sua-chua-nha-huyen-hoc-mon-gia-re-uy-tin-7.html" title="DỊCH VỤ SỬA CHỮA NHÀ HUYỆN HÓC MÔN - GIÁ RẺ - UY TÍN">
+	        			<img src="upload/news/372x400/1/hinh-h-9712.png" alt="DỊCH VỤ SỬA CHỮA NHÀ HUYỆN HÓC MÔN - GIÁ RẺ - UY TÍN">
+	        			<div class="info">
+				    		<div class="name">DỊCH VỤ SỬA CHỮA NHÀ HUYỆN HÓC MÔN - GIÁ RẺ - UY TÍN</div>
+				    		<div class="des">Dịch vụ sửa chữa nhà huyện hóc môn được CÔNG TY TNHH THIẾT KẾ XÂY DỰNG CHUYÊN NGHIỆP. cung cấp nhằm đáp ứng được mọi nhu cầu của quý khách hàng hiện nay, công ty chung tôi còn cung cấp dịch vụ sửa chữa nhà trọn gói chìa khóa trao tay.</div>
+			        	</div>
+	        		</a>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-congtrinh">
+	        <div class="ite_congtrinh">
+	        	<div class="img">
+	        		<a href="du-an/sua-nha-anh-vang-113475d-vo-duy-ninh-phuong-22-quan-binh-thanh-85.html" title="SỬA NHÀ ANH VÀNG 113/47/5D VÕ DUY NINH, PHƯỜNG 22, QUẬN BÌNH THẠNH">
+	        			<img src="upload/news/372x400/1/7917c8b1e9ab09f550ba-1533.jpg" alt="SỬA NHÀ ANH VÀNG 113/47/5D VÕ DUY NINH, PHƯỜNG 22, QUẬN BÌNH THẠNH">
+	        			<div class="info">
+				    		<div class="name">SỬA NHÀ ANH VÀNG 113/47/5D VÕ DUY NINH, PHƯỜNG 22, QUẬN BÌNH THẠNH</div>
+				    		<div class="des">sửa chữa nhà số 50/39/5 nhà anh huyền ,đinh thiên hoàng quận bình thạnh xây dựng mạnh long là công ty sửa chữ nhà uy tín lun cung cấp các dịch vụ xây nhà trọn gói, xây nhà phần thô, sửa chữa nhà trọn gói....</div>
+			        	</div>
+	        		</a>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-congtrinh">
+	        <div class="ite_congtrinh">
+	        	<div class="img">
+	        		<a href="du-an/sua-chua-can-ho-trung-cu-c187-an-phu-quan-6-nha-anh-khai-83.html" title="SỬA CHỮA CĂN HỘ TRUNG CƯ, C.187 , AN PHÚ, QUẬN 6, NHÀ ANH KHẢI">
+	        			<img src="upload/news/372x400/1/c09ff711a155410b1844-9310.jpg" alt="SỬA CHỮA CĂN HỘ TRUNG CƯ, C.187 , AN PHÚ, QUẬN 6, NHÀ ANH KHẢI">
+	        			<div class="info">
+				    		<div class="name">SỬA CHỮA CĂN HỘ TRUNG CƯ, C.187 , AN PHÚ, QUẬN 6, NHÀ ANH KHẢI</div>
+				    		<div class="des"></div>
+			        	</div>
+	        		</a>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-congtrinh">
+	        <div class="ite_congtrinh">
+	        	<div class="img">
+	        		<a href="du-an/sua-chua-nha-tron-goi-nha-anh-cam-391-hung-lo-2-binh-tan-118.html" title="SỬA CHỮA NHÀ TRỌN GÓI NHÀ ANH CẨM 391 HƯNG LỘ 2 BÌNH TÂN">
+	        			<img src="upload/news/372x400/1/da9dcec5185fe101b84e-6093.jpg" alt="SỬA CHỮA NHÀ TRỌN GÓI NHÀ ANH CẨM 391 HƯNG LỘ 2 BÌNH TÂN">
+	        			<div class="info">
+				    		<div class="name">SỬA CHỮA NHÀ TRỌN GÓI NHÀ ANH CẨM 391 HƯNG LỘ 2 BÌNH TÂN</div>
+				    		<div class="des"></div>
+			        	</div>
+	        		</a>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-congtrinh">
+	        <div class="ite_congtrinh">
+	        	<div class="img">
+	        		<a href="du-an/sua-chua-can-ho-trung-cu-an-phuso-085-lo-e-phuong-11-quan-6-nha-chi-chi-87.html" title="SỬA CHỮA CĂN HỘ TRUNG CƯ AN PHÚ,SỐ 085 LÔ E, PHƯỜNG 11, QUẬN 6, NHÀ CHỊ CHI">
+	        			<img src="upload/news/372x400/1/59f14067617d8123d86c-0070.jpg" alt="SỬA CHỮA CĂN HỘ TRUNG CƯ AN PHÚ,SỐ 085 LÔ E, PHƯỜNG 11, QUẬN 6, NHÀ CHỊ CHI">
+	        			<div class="info">
+				    		<div class="name">SỬA CHỮA CĂN HỘ TRUNG CƯ AN PHÚ,SỐ 085 LÔ E, PHƯỜNG 11, QUẬN 6, NHÀ CHỊ CHI</div>
+				    		<div class="des">công ty sửa chữa nhà uy tín tại quận 6, sửa chữa nhà giá rẻ uy tín chất lượng, thi công đúng tín độ không phát sinh, vật tư chuẩn hợp đồng, nếu quý vị đang có ý định nâng cấp, sửa chữa cho ngôi nhà thân yêu cửa mình thì hảy nhấc máy lên gọi ngay cho công ty chúng tôi nhân viên tư vấn sẽ tư vấn tận tình cho quý khách một cách cụ thể nhất...</div>
+			        	</div>
+	        		</a>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-congtrinh">
+	        <div class="ite_congtrinh">
+	        	<div class="img">
+	        		<a href="du-an/cong-ty-sua-chua-nha-uy-tin-quan-tan-binh-dich-vu-tot-nhat-116.html" title="CÔNG TY SỬA CHỮA NHÀ UY TÍN QUẬN TÂN BÌNH - DỊCH VỤ TỐT NHẤT">
+	        			<img src="upload/news/372x400/1/a5c86f5fb363563d0f72-3738.jpg" alt="CÔNG TY SỬA CHỮA NHÀ UY TÍN QUẬN TÂN BÌNH - DỊCH VỤ TỐT NHẤT">
+	        			<div class="info">
+				    		<div class="name">CÔNG TY SỬA CHỮA NHÀ UY TÍN QUẬN TÂN BÌNH - DỊCH VỤ TỐT NHẤT</div>
+				    		<div class="des">công ty sửa chữ nhà quận tân bình uy tín chuyên nghiệp, chúng tôi đã thi công nhiều căn hộ tại quận tân bình đã được nhiều hộ gia đình, đánh giá cao về sản phẩm của chúng tôi, chúng tôi thi công các hạng mục, như nâng thêm tầng, thi công cá loại trần, như nhựa, thạch cao, thi công điện nước, ốp lát , gạch men, đá hoa cương, sàn gỗ....</div>
+			        	</div>
+	        		</a>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-congtrinh">
+	        <div class="ite_congtrinh">
+	        	<div class="img">
+	        		<a href="du-an/sua-chua-nha-anh-vang-1412-phan-boi-chau-quan-binh-thanh-86.html" title="SỬA CHỮA NHA ANH VÀNG 14/12 PHAN BỘI CHÂU QUẬN BÌNH THẠNH">
+	        			<img src="upload/news/372x400/1/262dbe8d9f977fc92686-7758.jpg" alt="SỬA CHỮA NHA ANH VÀNG 14/12 PHAN BỘI CHÂU QUẬN BÌNH THẠNH">
+	        			<div class="info">
+				    		<div class="name">SỬA CHỮA NHA ANH VÀNG 14/12 PHAN BỘI CHÂU QUẬN BÌNH THẠNH</div>
+				    		<div class="des">sửa chữa nhà số 14/12 Phan bội châu quận bình thạnh xây dựng mạnh long là công ty sửa chữ nhà uy tín lun cung cấp các dịch vụ xây nhà trọn gói, xây nhà phần thô, sửa chữa nhà trọn gói....</div>
+			        	</div>
+	        		</a>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-congtrinh">
+	        <div class="ite_congtrinh">
+	        	<div class="img">
+	        		<a href="du-an/sua-chua-nha-anh-phat-au-co-79302a1-phuong-14-quan-11-82.html" title="SỬA CHỮA NHÀ ANH PHÁT ÂU CƠ 79/30/2A1, PHƯỜNG 14, QUẬN 11">
+	        			<img src="upload/news/372x400/1/b429112b928673d82a97-8742.jpg" alt="SỬA CHỮA NHÀ ANH PHÁT ÂU CƠ 79/30/2A1, PHƯỜNG 14, QUẬN 11">
+	        			<div class="info">
+				    		<div class="name">SỬA CHỮA NHÀ ANH PHÁT ÂU CƠ 79/30/2A1, PHƯỜNG 14, QUẬN 11</div>
+				    		<div class="des">Xây dựng mạnh long là đơn vị cung cấp các dịch vụ sửa chữa nhà quận 11, dịch vụ sửa chữa nhà trọn gói uy tín, chuyên nghiệp, tự hào là đơn vị mẩu mực trong nghành xây dựng, với đội ngủ kiến trúc thiết kế nhiều năm kinh nghiệm.công nhân viên nhiệt tình trẻ trung năng động tay ngề  giỏi ngoan hiền...</div>
+			        	</div>
+	        		</a>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-congtrinh">
+	        <div class="ite_congtrinh">
+	        	<div class="img">
+	        		<a href="du-an/sua-chua-nha-tron-goi-chi-bao-bao-1631236-to-hien-thanh-phuong-13-quan-3-186.html" title="SỬA CHỮA NHÀ TRỌN GÓI CHỊ BẢO BẢO 163/12/36 TÔ HIẾN THÀNH PHƯỜNG 13 QUẬN 3">
+	        			<img src="upload/news/372x400/1/xay-nha-tron-goi-quan-3-(1)-5775.jpg" alt="SỬA CHỮA NHÀ TRỌN GÓI CHỊ BẢO BẢO 163/12/36 TÔ HIẾN THÀNH PHƯỜNG 13 QUẬN 3">
+	        			<div class="info">
+				    		<div class="name">SỬA CHỮA NHÀ TRỌN GÓI CHỊ BẢO BẢO 163/12/36 TÔ HIẾN THÀNH PHƯỜNG 13 QUẬN 3</div>
+				    		<div class="des">dịch vụ sửa chữa nhà trọn gói quận 3, chúng tôi đã và đang thi công cải tạo sửa chữa hàng trăm ngôi nhà tại quận 3, mổi năm đã được khách hàng tin cậy trao trọn niềm tin đến công ty chúng tôi, ngoài ra chúng tôi còn cải tạo thi công trên tất cả các quận huyện trên địa bàn tp,hcm. dịch vụ sửa chữa nhà trọn gói là minh chứng cho sự nổ lực của công ty chúng tôi.</div>
+			        	</div>
+	        		</a>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-congtrinh">
+	        <div class="ite_congtrinh">
+	        	<div class="img">
+	        		<a href="du-an/sua-chua-nha-anh-huyen-50395-dinh-thien-hoang-quan-binh-thanh-90.html" title="SỬA CHỮA NHÀ ANH HUYỀN 50/39/5 ĐINH THIÊN HOÀNG, QUẬN BÌNH THẠNH">
+	        			<img src="upload/news/372x400/1/ec7dd2fa89ca6a9433db-1456.jpg" alt="SỬA CHỮA NHÀ ANH HUYỀN 50/39/5 ĐINH THIÊN HOÀNG, QUẬN BÌNH THẠNH">
+	        			<div class="info">
+				    		<div class="name">SỬA CHỮA NHÀ ANH HUYỀN 50/39/5 ĐINH THIÊN HOÀNG, QUẬN BÌNH THẠNH</div>
+				    		<div class="des">sửa chữa nhà số 50/39/5 nhà anh huyền ,đinh thiên hoàng quận bình thạnh xây dựng mạnh long là công ty sửa chữ nhà uy tín lun cung cấp các dịch vụ xây nhà trọn gói, xây nhà phần thô, sửa chữa nhà trọn gói....</div>
+			        	</div>
+	        		</a>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.list_ct').slick({
+            infinite: true,
+            accessibility:true,
+            slidesToShow:3,    //Số item hiển thị
+            slidesToScroll: 1, //Số item cuộn khi chạy
+            vertical:false,
+            autoplay:true,  //Tự động chạy
+            autoplaySpeed:3000,  //Tốc độ chạy
+            arrows:false, //Hiển thị mũi tên
+            centerMode:false,  //item nằm giữa
+            dots:false,  //Hiển thị dấu chấm
+            draggable:true,  //Kích hoạt tính năng kéo chuột
+            responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                  }
+                },
+                {
+                  breakpoint: 800,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+              ]
+      });
+    });
+</script>  </div>
+</div>
+
+<div id="sec_phongthuy">
+  <div class="container">
+    <div class="name_home">
+	<div class="txt">Phong thủy</div>
+</div>
+<div class="list_newhome">
+			<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="phong-thuy/phong-thuy-xay-nha-99.html" title="PHONG THỦY XÂY NHÀ"><img src="upload/news/272x256/1/c08939c30003e25dbb12-7360.jpg" alt="PHONG THỦY XÂY NHÀ"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="phong-thuy/phong-thuy-xay-nha-99.html" title="PHONG THỦY XÂY NHÀ">PHONG THỦY XÂY NHÀ</a></div>
+		    		<div class="des">vì saotrong cuộc sống con người khi ta làm một việc gì đó lại chú tâm nhất lại đang nghiêng về phong thủy, bởi vì phong thủy rất cần thiết trong cuộc sống, bởi phong thủy không những mang về cho chúng ta tài lộc, mà còn rất nhiều may mắn..</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="phong-thuy/phong-thuy-phong-bep-98.html" title="PHONG THỦY PHÒNG BẾP"><img src="upload/news/272x256/1/f4c94e807740951ecc51-9244.jpg" alt="PHONG THỦY PHÒNG BẾP"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="phong-thuy/phong-thuy-phong-bep-98.html" title="PHONG THỦY PHÒNG BẾP">PHONG THỦY PHÒNG BẾP</a></div>
+		    		<div class="des">hiện nay không những đôi bạn trẻ mới cưới trang trí phòng theo phong thủy mà tất cả mọi người đều như vậy, vì phong thủy giúp ngôi nhà gia chủ, khõe mạnh, làm ăn gặp nhiều may mắn</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="phong-thuy/phong-thuy-phong-khach-97.html" title="PHONG THỦY PHÒNG KHÁCH"><img src="upload/news/272x256/1/fc7ac331faf118af41e0-6919.jpg" alt="PHONG THỦY PHÒNG KHÁCH"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="phong-thuy/phong-thuy-phong-khach-97.html" title="PHONG THỦY PHÒNG KHÁCH">PHONG THỦY PHÒNG KHÁCH</a></div>
+		    		<div class="des">hiện nay không những đôi bạn trẻ mới cưới trang trí phòng theo phong thủy mà tất cả mọi người đều như vậy, vì phong thủy giúp ngôi nhà gia chủ, khõe mạnh, làm ăn gặp nhiều may mắn</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="phong-thuy/xem-tuoi-xay-nha-127.html" title="XEM TUỔI XÂY NHÀ"><img src="upload/news/272x256/1/phong-thuy-3654.jpg" alt="XEM TUỔI XÂY NHÀ"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="phong-thuy/xem-tuoi-xay-nha-127.html" title="XEM TUỔI XÂY NHÀ">XEM TUỔI XÂY NHÀ</a></div>
+		    		<div class="des">xem tuổi xây nhà là việc từ xưa tới bây giờ mà ai củng biết xem tuổi xây nhà là công việc rất quan trọng nếu không thi phạm phải đại kỵ phong thủy</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="phong-thuy/phong-thuy-trong-xay-dung-92.html" title="PHONG THỦY TRONG XÂY DỰNG"><img src="upload/news/272x256/1/pt-5614.jpg" alt="PHONG THỦY TRONG XÂY DỰNG"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="phong-thuy/phong-thuy-trong-xay-dung-92.html" title="PHONG THỦY TRONG XÂY DỰNG">PHONG THỦY TRONG XÂY DỰNG</a></div>
+		    		<div class="des">ai củng biết trong xây dựng một ngôi nhà tốt, đẹp cần phải có những yếu tố thẩm mỹ và phong thủy thịnh vượng vì thế mà từ xưa tới nay ông bà ta thường có câu khi xây nhà cần phải hợp phong thủy</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="phong-thuy/phong-thuy-cho-gia-chu-menh-tho-xay-dung-nha-2021-156.html" title="PHONG THỦY CHO GIA CHỦ MỆNH THỔ XÂY DỰNG NHÀ 2021"><img src="upload/news/272x256/1/thiet-ke-noi-that-chung-cu-2-5652.png" alt="PHONG THỦY CHO GIA CHỦ MỆNH THỔ XÂY DỰNG NHÀ 2021"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="phong-thuy/phong-thuy-cho-gia-chu-menh-tho-xay-dung-nha-2021-156.html" title="PHONG THỦY CHO GIA CHỦ MỆNH THỔ XÂY DỰNG NHÀ 2021">PHONG THỦY CHO GIA CHỦ MỆNH THỔ XÂY DỰNG NHÀ 2021</a></div>
+		    		<div class="des">Báck khoa toàn tập về phong thủy cho người mệnh Thổ mới nhất 2021</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="phong-thuy/phong-thuy-xay-nha-moi-cho-gia-chu-154.html" title="PHONG THỦY XÂY NHÀ MỚI CHO GIA CHỦ"><img src="upload/news/272x256/1/1(3)-(1)-copy-6413.png" alt="PHONG THỦY XÂY NHÀ MỚI CHO GIA CHỦ"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="phong-thuy/phong-thuy-xay-nha-moi-cho-gia-chu-154.html" title="PHONG THỦY XÂY NHÀ MỚI CHO GIA CHỦ">PHONG THỦY XÂY NHÀ MỚI CHO GIA CHỦ</a></div>
+		    		<div class="des">Người Việt Nam thường nói “Tậu trâu, lấy vợ, làm nhà/ Cả ba việc ấy thật là khó thay”. Khi xã hội của chúng ta đang dần thay đổi thì một số quan niệm có khác nhưng việc làm nhà chính là..........</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="phong-thuy/phong-thuy-hop-menh-hop-tuoi-voi-gia-chu-khi-xay-nha-155.html" title="PHONG THỦY HỢP MÊNH HỢP TUỔI VỚI GIA CHỦ KHI XÂY NHÀ"><img src="upload/news/272x256/1/thiet-ke-noi-that-chung-cu-2-4932.png" alt="PHONG THỦY HỢP MÊNH HỢP TUỔI VỚI GIA CHỦ KHI XÂY NHÀ"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="phong-thuy/phong-thuy-hop-menh-hop-tuoi-voi-gia-chu-khi-xay-nha-155.html" title="PHONG THỦY HỢP MÊNH HỢP TUỔI VỚI GIA CHỦ KHI XÂY NHÀ">PHONG THỦY HỢP MÊNH HỢP TUỔI VỚI GIA CHỦ KHI XÂY NHÀ</a></div>
+		    		<div class="des">Ông bà ta có câu “tọa hung hướng cát” có nghĩa là vị trí đặt bếp hướng xấu còn hướng bếp nhìn về hướng tốt</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-newhome">
+	        <div class="ite_newhome">
+	        	<div class="img"><a href="phong-thuy/son-nha-dep-hop-phong-thuy-gia-chu-xay-dung-manh-long-171.html" title="SƠN NHÀ ĐẸP HỢP PHONG THUỶ GIA CHỦ - XÂY DỰNG MẠNH LONG"><img src="upload/news/272x256/1/nha-phoi-canh-3d-theo-phong-thuy-5932.png" alt="SƠN NHÀ ĐẸP HỢP PHONG THUỶ GIA CHỦ - XÂY DỰNG MẠNH LONG"></a></div>
+	        	<div class="clearfix"></div>
+	        	<div class="info">
+		    		<div class="name"><a href="phong-thuy/son-nha-dep-hop-phong-thuy-gia-chu-xay-dung-manh-long-171.html" title="SƠN NHÀ ĐẸP HỢP PHONG THUỶ GIA CHỦ - XÂY DỰNG MẠNH LONG">SƠN NHÀ ĐẸP HỢP PHONG THUỶ GIA CHỦ - XÂY DỰNG MẠNH LONG</a></div>
+		    		<div class="des">vì saotrong cuộc sống con người khi ta làm một việc gì đó lại chú tâm nhất lại đang nghiêng về phong thủy, bởi vì phong thủy rất cần thiết trong cuộc sống, bởi phong thủy không những mang về cho chúng ta tài lộc, mà còn rất nhiều may mắn..</div>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    </div>  </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.list_newhome').slick({
+            infinite: true,
+            accessibility:true,
+            slidesToShow:4,    //Số item hiển thị
+            slidesToScroll: 1, //Số item cuộn khi chạy
+            vertical:false,
+            autoplay:true,  //Tự động chạy
+            autoplaySpeed:3000,  //Tốc độ chạy
+            arrows:false, //Hiển thị mũi tên
+            centerMode:false,  //item nằm giữa
+            dots:false,  //Hiển thị dấu chấm
+            draggable:true,  //Kích hoạt tính năng kéo chuột
+            responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                  }
+                },
+                {
+                  breakpoint: 800,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                  }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+              ]
+      });
+    });
+</script>
+
+<div id="sec_news">
+  <div class="container">
+    <div class="name_home">
+	<div class="txt">tin tức & sự kiện</div>
+</div>
+<div class="list_ttnb">
+	<div class="line_mid"></div>
+	<div class="row">
+			<div class="col-ttnb col-tt-l col-md-6 col-sm-12 col-xs-12">
+			<div class="num">01</div>
+	        <div class="ite_ttnb">
+	        	<div class="info">
+	        		<div class="name"><a href="tin-tuc/don-gia-xay-dung-nha-tron-goi-tai-xay-dung-manh-long-114.html">Đơn Giá Xây Dựng Nhà Trọn Gói Tại Xây Dựng Mạnh Long</a></div>
+	        		<div class="line"></div>
+	        		<div class="des">Đơn giá xây dựng - Theo quan niệm từ xưa, mỗi đời người đều có 3 việc lớn đó là “Tậu trâu, cưới vợ, làm nhà”. Nhiều người phải thừa nhận rằng hai </div>
+	        	</div>
+	        	<div class="img"><a href="tin-tuc/don-gia-xay-dung-nha-tron-goi-tai-xay-dung-manh-long-114.html"><img src="upload/news/238x160/1/b4906af16f1c9642cf0d-5323.jpg" alt="Đơn Giá Xây Dựng Nhà Trọn Gói Tại Xây Dựng Mạnh Long"></a></div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-ttnb col-tt-r col-md-6 col-sm-12 col-xs-12">
+			<div class="num">02</div>
+	        <div class="ite_ttnb">
+	        	<div class="info">
+	        		<div class="name"><a href="tin-tuc/don-gia-xay-nha-pho-phan-tho-moi-nhat-tai-xay-dung-manh-long-111.html">Đơn Giá Xây Nhà Phố Phần Thô Mới Nhất Tại Xây Dựng Mạnh Long</a></div>
+	        		<div class="line"></div>
+	        		<div class="des"> Chúng tôi cung cấp đến quý khách bảng báo giá xây nhà phố phần thô chi tiết có giá trị đến khi chúng tôi cập nhật bảng báo giá mới để quý khách </div>
+	        	</div>
+	        	<div class="img"><a href="tin-tuc/don-gia-xay-nha-pho-phan-tho-moi-nhat-tai-xay-dung-manh-long-111.html"><img src="upload/news/238x160/1/da9dcec5185fe101b84e-5249.jpg" alt="Đơn Giá Xây Nhà Phố Phần Thô Mới Nhất Tại Xây Dựng Mạnh Long"></a></div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-ttnb col-tt-l col-md-6 col-sm-12 col-xs-12">
+			<div class="num">03</div>
+	        <div class="ite_ttnb">
+	        	<div class="info">
+	        		<div class="name"><a href="tin-tuc/don-gia-xay-nha-cap-4-tron-goi-chia-khoa-trao-tay-129.html">ĐƠN GIÁ XÂY NHÀ CẤP 4 TRỌN GÓI CHÌA KHÓA TRAO TAY</a></div>
+	        		<div class="line"></div>
+	        		<div class="des">đơn giá xây nhà cấp 4, dao động khi khách hàng có nhu cầu lựa chọn gói xây dựng thô, và trọn gói, bởi các nhà thầu sẽ cung cấp nguyên vật liệu thi công khi đã được khách hàng lựa chọn, trung bình, khá và tốt, vì thế mà giá thành thi công củng khác nhau, vì thế công ty xây dựng manh long mong muốn quý khách hàng đang có nhu cầu xây nhà hay tham khảo bài viết sau..</div>
+	        	</div>
+	        	<div class="img"><a href="tin-tuc/don-gia-xay-nha-cap-4-tron-goi-chia-khoa-trao-tay-129.html"><img src="upload/news/238x160/1/xay-nha-cap-4-phan-tho-9635.png" alt="ĐƠN GIÁ XÂY NHÀ CẤP 4 TRỌN GÓI CHÌA KHÓA TRAO TAY"></a></div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+    		<div class="col-ttnb col-tt-r col-md-6 col-sm-12 col-xs-12">
+			<div class="num">04</div>
+	        <div class="ite_ttnb">
+	        	<div class="info">
+	        		<div class="name"><a href="tin-tuc/xay-dung-manh-long-bao-gia-xay-dung-nha-nam-2020-112.html">Xây Dựng Mạnh Long Báo Giá Xây Dựng Nhà Năm 2020</a></div>
+	        		<div class="line"></div>
+	        		<div class="des">Báo giá xây dựng nhà - Bạn đang muốn xây nhà nhưng thời gian và công việc quá bận bịu, bạn không biết phải chuẩn bị như thế nào, phải làm những </div>
+	        	</div>
+	        	<div class="img"><a href="tin-tuc/xay-dung-manh-long-bao-gia-xay-dung-nha-nam-2020-112.html"><img src="upload/news/238x160/1/6c2dbf08bbe542bb1bf4-6682.jpg" alt="Xây Dựng Mạnh Long Báo Giá Xây Dựng Nhà Năm 2020"></a></div>
+	        	<div class="clearfix"></div>
+	        </div>
+        </div>
+       	</div>
+</div>  </div>
+</div>
+
+<div id="sec_video">
+  <div class="container">
+    <div class="name_home">
+	<div class="txt">Video</div>
+</div>
+<div class="wap_item_vd">
+			<div class="col-video">
+	        <div class="ite_video">
+	        	<a class="xem_video" href="H7ueqB1r2WQ" title="Những công nghệ mới trong xây dựng">
+	        		<div class="img"><img src="//img.youtube.com/vi/H7ueqB1r2WQ/0.jpg" alt="Những công nghệ mới trong xây dựng" /></div>
+			        <div class="name">Những công nghệ mới trong xây dựng</div>
+	            </a>
+	        </div>
+        </div>
+    		<div class="col-video">
+	        <div class="ite_video">
+	        	<a class="xem_video" href="i4_H1ADjzX4" title="xây nhà nhanh hơn gấp giấy">
+	        		<div class="img"><img src="//img.youtube.com/vi/i4_H1ADjzX4/0.jpg" alt="xây nhà nhanh hơn gấp giấy" /></div>
+			        <div class="name">xây nhà nhanh hơn gấp giấy</div>
+	            </a>
+	        </div>
+        </div>
+    		<div class="col-video">
+	        <div class="ite_video">
+	        	<a class="xem_video" href="Ddh4WKr1e6w" title="Quá Trình Xây Dựng Cây Cầu Khủng Cực Kỳ Hiện Đại">
+	        		<div class="img"><img src="//img.youtube.com/vi/Ddh4WKr1e6w/0.jpg" alt="Quá Trình Xây Dựng Cây Cầu Khủng Cực Kỳ Hiện Đại" /></div>
+			        <div class="name">Quá Trình Xây Dựng Cây Cầu Khủng Cực Kỳ Hiện Đại</div>
+	            </a>
+	        </div>
+        </div>
+    		<div class="col-video">
+	        <div class="ite_video">
+	        	<a class="xem_video" href="HFwQ0I7JpY8" title="6 Dự Án Xây Dựng Điên Rồ Nhất Trong Lịch Sử">
+	        		<div class="img"><img src="//img.youtube.com/vi/HFwQ0I7JpY8/0.jpg" alt="6 Dự Án Xây Dựng Điên Rồ Nhất Trong Lịch Sử" /></div>
+			        <div class="name">6 Dự Án Xây Dựng Điên Rồ Nhất Trong Lịch Sử</div>
+	            </a>
+	        </div>
+        </div>
+    </div><!---END .wap_item-->
+
+<script type="text/javascript">
+	$(document).ready(function(e) {
+        $('a.xem_video').click(function(){
+			var link_viveo = $(this).attr('href');
+			$('body').append('<div class="login-popup"><div class="close-popup">x</div><div class="video_popup"><iframe width="700px" height="400px" src="https://www.youtube.com/embed/'+link_viveo+'?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe></div></div>');
+			$('.login-popup').fadeIn(300);
+						
+			var chieucao = $('.login-popup').height() / 2;
+			var chieurong = $('.login-popup').width() /2;
+			$('.login-popup').css({'margin-top':-chieucao,'margin-left':-chieurong});
+			$('body').append('<div id="baophu"></div>');
+			$('#baophu').fadeIn(300);
+			return false;
+			
+		});
+		$('#baophu, .close-popup').live('click',function(){
+			$('#baophu, .login-popup').fadeOut(300, function(){
+				$('#baophu').remove();
+				$('.login-popup').remove();
+			});			
+		});
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.wap_item_vd').slick({
+			infinite: true,
+			accessibility:true,
+			slidesToShow:4,    //Số item hiển thị
+			slidesToScroll: 1, //Số item cuộn khi chạy
+			vertical:false,
+			autoplay:true,  //Tự động chạy
+			autoplaySpeed:3000,  //Tốc độ chạy
+			arrows:false, //Hiển thị mũi tên
+			centerMode:false,  //item nằm giữa
+			dots:false,  //Hiển thị dấu chấm
+			draggable:true,  //Kích hoạt tính năng kéo chuột
+      		responsive: [
+			    {
+			      breakpoint: 1024,
+			      settings: {
+			        slidesToShow: 3,
+			        slidesToScroll: 1,
+			      }
+			    },
+			    {
+			      breakpoint: 600,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 1
+			      }
+			    },
+			    {
+			      breakpoint: 480,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 1
+			      }
+			    }
+			    // You can unslick at a given breakpoint now by adding:
+			    // settings: "unslick"
+			    // instead of a settings object
+			  ]
+      });
+    });
+  </script>  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.wap_t_t').slick({
+      infinite: true,
+      accessibility:true,
+        slidesToShow:3,    //Số item hiển thị
+        slidesToScroll: 1, //Số item cuộn khi chạy
+        vertical:true,
+        autoplay:true,  //Tự động chạy
+      autoplaySpeed:3000,  //Tốc độ chạy
+      arrows:false, //Hiển thị mũi tên
+      centerMode:false,  //item nằm giữa
+      dots:false,  //Hiển thị dấu chấm
+      draggable:true,  //Kích hoạt tính năng kéo chuột
+      
+      
+    });
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.wap_t_a').slick({
+      infinite: true,
+      accessibility:true,
+        slidesToShow:2,    //Số item hiển thị
+        slidesToScroll: 1, //Số item cuộn khi chạy
+        vertical:true,
+        autoplay:true,  //Tự động chạy
+      autoplaySpeed:3000,  //Tốc độ chạy
+      arrows:false, //Hiển thị mũi tên
+      centerMode:false,  //item nằm giữa
+      dots:false,  //Hiển thị dấu chấm
+      draggable:true,  //Kích hoạt tính năng kéo chuột
+      
+      
+    });
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.wap_da').slick({
+      infinite: true,
+      accessibility:true,
+            slidesToShow:4,    //Số item hiển thị
+            slidesToScroll: 1, //Số item cuộn khi chạy
+            autoplay:true,  //Tự động chạy
+            autoplaySpeed:3000,  //Tốc độ chạy
+            arrows:false, //Hiển thị mũi tên
+            centerMode:false,  //item nằm giữa
+            dots:false,  //Hiển thị dấu chấm
+            draggable:true,  //Kích hoạt tính năng kéo chuột
+            
+            responsive: [
+            {
+              breakpoint: 1025,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+              }
+            },
+            {
+              breakpoint: 967,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                dots: false
+              }
+            },
+            {
+              breakpoint: 460,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false
+              }
+            },
+            {
+              breakpoint: 320,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false
+              }
+            }
+
+
+            ]
+          });
+  });
+</script> 
+        </div>
+    </div>
+
+        <div id="sec_ykien" class="full_bg full_bg_mobile" style="background: url(upload/hinhanh/bg_yk-0471.jpg) no-repeat top center;">
+      <div class="container">
+        <div class="name_home name_home2">
+	<div class="txt">Ý kiến khách hàng</div>
+</div>
+<div class="list_ykien">
+			<div class="col-ykien">
+	        <div class="ite_ykien">
+	        	<div class="info">
+	        		<div class="name">XÂY NHÀ TRỌN GÓI NHÀ CHỊ NGÀ QUẬN BÌNH TÂN</div>
+	        		<div class="des">tôi rất cảm ơn sự nhiệt tình của công ty và toàn thể anh em công nhân đã thi công xây dựng nhà tôi, tôi rất hài lòng....</div>
+	        	</div>
+	        	<div class="img"><img src="upload/news/80x80/2/chi-nga-quan-binh-tan-5958.jpg" alt="XÂY NHÀ TRỌN GÓI NHÀ CHỊ NGÀ QUẬN BÌNH TÂN"></div>
+	        </div>
+        </div>
+    		<div class="col-ykien">
+	        <div class="ite_ykien">
+	        	<div class="info">
+	        		<div class="name">CHỊ HẠNH - QUẬN THỦ ĐỨC</div>
+	        		<div class="des">tôi cảm ơn công ty mạnh long đã xây cho tôi một căn nhà sử dụng hơn một năm mà vẩn còn như mới không có lổ gì</div>
+	        	</div>
+	        	<div class="img"><img src="upload/news/80x80/2/86670e21-80b2-490d-ab41-44fbae220541-2238.png" alt="CHỊ HẠNH - QUẬN THỦ ĐỨC"></div>
+	        </div>
+        </div>
+    		<div class="col-ykien">
+	        <div class="ite_ykien">
+	        	<div class="info">
+	        		<div class="name">ANH HẢI - QUẬN BÌNH THẠNH</div>
+	        		<div class="des">tôi đánh giá cao và hài lòng về công ty nhân viên rất nhiệt tình và chu đáo bảng báo giá công ty rỏ ràng chi tiết làm xong nhà mà không có phát sinh tôi rất cam ơn  công ty làm nhà cho gia dình tôi..</div>
+	        	</div>
+	        	<div class="img"><img src="upload/news/80x80/2/4f2aa79a-5acd-463e-95c9-420ec40da471-3339.png" alt="ANH HẢI - QUẬN BÌNH THẠNH"></div>
+	        </div>
+        </div>
+    		<div class="col-ykien">
+	        <div class="ite_ykien">
+	        	<div class="info">
+	        		<div class="name">xây nhà cô dung quận 5</div>
+	        		<div class="des">trước hết vợ chồng tôi cảm ơn công ty đã giúp gia đình tôi, xây dựng một ngôi nhà đẹp, chất lượng, kiến trúc rất là ưng ý</div>
+	        	</div>
+	        	<div class="img"><img src="upload/news/80x80/2/co-dung-quan-5-0206.jpg" alt="xây nhà cô dung quận 5"></div>
+	        </div>
+        </div>
+    		<div class="col-ykien">
+	        <div class="ite_ykien">
+	        	<div class="info">
+	        		<div class="name">ANH TÙNG - QUẬN 12</div>
+	        		<div class="des">Tôi đánh giá cao về công ty rất nhiệt tình về công việc, cũng như thái độ làm việc của công nhân viên, từ khi bắt đầu đến khi kết thúc, tôi rất hài lòng</div>
+	        	</div>
+	        	<div class="img"><img src="upload/news/80x80/2/kh-0538.jpg" alt="ANH TÙNG - QUẬN 12"></div>
+	        </div>
+        </div>
+    </div><!---END .wap_item-->
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.list_ykien').slick({
+			infinite: true,
+			accessibility:true,
+			slidesToShow:3,    //Số item hiển thị
+			slidesToScroll: 1, //Số item cuộn khi chạy
+			vertical:false,
+			autoplay:true,  //Tự động chạy
+			autoplaySpeed:3000,  //Tốc độ chạy
+			arrows:false, //Hiển thị mũi tên
+			centerMode:false,  //item nằm giữa
+			dots:false,  //Hiển thị dấu chấm
+			draggable:true,  //Kích hoạt tính năng kéo chuột
+      		responsive: [
+			    {
+			      breakpoint: 1024,
+			      settings: {
+			        slidesToShow: 3,
+			        slidesToScroll: 1,
+			      }
+			    },
+			    {
+			      breakpoint: 800,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 1
+			      }
+			    },
+			    {
+			      breakpoint: 480,
+			      settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+			      }
+			    }
+			    // You can unslick at a given breakpoint now by adding:
+			    // settings: "unslick"
+			    // instead of a settings object
+			  ]
+      });
+    });
+  </script>      </div>
+    </div>
+
+        <div id="wap_footer" class="full_bg full_bg_mobile" style="background: url(upload/hinhanh/bannr-0713.png) no-repeat top center;">
+        <div id="footer">
+            <div class="container">
+            <div id="main_footer">
+    <div class="logo_foot"><a href=""><img class="img-responsive" src="upload/hinhanh/213x195/2/logo-2630.png" /></a></div>
+    <div id="lienket">
+                      <a href="https://www.facebook.com/X%C3%82Y-D%E1%BB%B0NG-M%E1%BA%A0NH-LONG-2051139858544131/" target="_blank"><img src="upload/hinhanh/fb-1393.png" alt="Facebook"></a>
+                        <a href="https://twitter.com/xaydungmanhlong-2563941877164946/insights/?section=navPromotions&ref=www_consolidated_promote_button" target="_blank"><img src="upload/hinhanh/tw-5340.png" alt="Twitter"></a>
+                        <a href="https://www.google.com" target="_blank"><img src="upload/hinhanh/gg-2600.png" alt="Google+"></a>
+                        <a href="https://www.youtube.com/xaydungmanhlong.com/sua-chua-nha" target="_blank"><img src="upload/hinhanh/you-7853.png" alt="Youtube"></a>
+              </div>
+</div>
+<div class="fanpage">
+	<div class="title_foot">thông tin liên hệ</div>
+	<div class="line_foot"></div>
+	<p><span style="color:#FF0000;"><span style="font-size:18px;">CÔNG TY TNHH THIẾT KẾ XÂY DỰNG CHUYÊN NGHIỆP</span></span></p>
+
+<p>MST: 0315747035 do Sở KH&ĐT TP. Hồ Chính Minh cấp ngày 19/6/2019</p>
+
+<p><span style="font-size:14px;">Địa Chỉ : 150, Tòa Nhà Xanh, Phạm Văn Bạch - P.15 - Q.Tân Bình - TP.HCM</span></p>
+
+<p><span style="font-size:14px;">Hotline:<span style="color:#FF0000;"> 0902494389</span>   (Mr:MẠNH)</span></p>
+
+<p><span style="font-size:14px;">Email  : xaydungmanhlong@gmail.com     </span></p>
+
+<p><span style="font-size:14px;">Website: xaydungmanhlong.com</span></p>
+<script src="https://uhchat.net/code.php?f=c5f1b3"></script></div>
+<div class="tukhoa_ft">
+	<div class="title_foot">Tags từ khóa</div>
+	<div class="line_foot"></div>
+	<div id="tags">
+						 <a href="https://xaydungmanhlong.com/tin-tuc/don-gia-xay-nha-pho-phan-tho-moi-nhat-tai-xay-dung-manh-long-111.html" title="đơn giá xây nhà phần thô">đơn giá xây nhà phần thô</a>
+				 <a href="https://xaydungmanhlong.com/xay-nha-moi/bao-gia-xay-nha-tron-goi-cong-ty-xay-nha-tron-goi-hcm-159.html" title="đơn giá xây nhà trọn gói">đơn giá xây nhà trọn gói</a>
+				 <a href="https://xaydungmanhlong.com/tin-tuc/don-gia-xay-nha-cap-4-129.html" title="Xây nhà cấp 4 trọn gói">Xây nhà cấp 4 trọn gói</a>
+				 <a href="https://xaydungmanhlong.com/xay-dung/sua-nha-pho-uy-tin-33.html" title="công ty sửa nhà uy tín">công ty sửa nhà uy tín</a>
+				 <a href="https://xaydungmanhlong.com/xay-dung/sua-nha-pho-quan-tan-binh-dich-vu-sua-chua-nha-gia-re-75.html" title="sửa chữa nhà quận tân bình">sửa chữa nhà quận tân bình</a>
+				 <a href="https://xaydungmanhlong.com/xay-dung/sua-chua-nha-tan-phu-don-vi-sua-nha-dep-quan-tan-phu-79.html" title="Sửa chữa nhà quận tân phú">Sửa chữa nhà quận tân phú</a>
+				 <a href="https://xaydungmanhlong.com/xay-dung/sua-nha-pho-binh-tan-cong-ty-sua-chua-nha-uy-tin-31.html" title="sửa chữa nhà quận bình tân">sửa chữa nhà quận bình tân</a>
+				 <a href="https://xaydungmanhlong.com/xay-dung/sua-chua-nha-chuyen-nghiep-32.html" title="sửa chữa nhà chuyên nghiệp">sửa chữa nhà chuyên nghiệp</a>
+				 <a href="https://xaydungmanhlong.com/xay-dung/sua-chua-nha-quan-go-vap-84.html" title="sửa chữa nhà quận gò vấp">sửa chữa nhà quận gò vấp</a>
+				 <a href="https://xaydungmanhlong.com/xay-dung/sua-chua-nha-theo-yeu-cau-chi-tiet-tung-hang-muc-28.html" title="sửa chữa nhà theo yêu cầu">sửa chữa nhà theo yêu cầu</a>
+				 <a href="https://xaydungmanhlong.com/du-an/sua-chua-nha-anh-vang-1412-phan-boi-chau-quan-binh-thanh-86.html" title="sửa chữa nhà quận bình thạnh">sửa chữa nhà quận bình thạnh</a>
+				<div class="clear"></div>
+	</div>					
+</div>
+<div id="thongke">
+   <div class="title_foot">Fanpage facebook</div>
+  <div class="line_foot"></div>
+   <div class="fb-page" data-href="https://www.facebook.com/X%C3%82Y-D%E1%BB%B0NG-M%E1%BA%A0NH-LONG-2051139858544131/?modal=admin_todo_tour" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/X%C3%82Y-D%E1%BB%B0NG-M%E1%BA%A0NH-LONG-2051139858544131/?modal=admin_todo_tour" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/X%C3%82Y-D%E1%BB%B0NG-M%E1%BA%A0NH-LONG-2051139858544131/?modal=admin_todo_tour">XÂY DỰNG MẠNH LONG</a></blockquote></div><br />
+    <div class="title_foot">Chính sách</div>
+    <div class="line_foot"></div>
+    <div id="chinhsach">
+              <a href="chinh-sach/hinh-thuc-thanh-toan-183.html">Hình thức thanh toán</a>
+              <a href="chinh-sach/chinh-sach-bao-hanh-va-ho-tro-182.html">Chính sách bảo hành và hỗ trợ</a>
+              <a href="chinh-sach/chinh-sach-bao-mat-180.html">Chính sách bảo mật</a>
+              <a href="chinh-sach/chinh-sach-chat-luong-179.html">Chính sách chất lượng</a>
+          </div>
+</div>
+<div class="clear"></div> 
+ 
+   
+ 
+
+<!-- AutoAds Tracking Code -->
+<script id='autoAdsMaxLead-widget-script' src='https://cdn.autoads.asia/scripts/autoads-maxlead-widget.js?business_id=0C95550EF8424B2798CA820A1CD8CB0C' type='text/javascript' charset='UTF-8' async></script>
+ <!-- End -->            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="copy">
+        <div class="container">Copyright © 2017 XAY DUNG MANH LONG. All rights reserved. Design by NiNa Co.,Ltd</div>
+    </div>
+</div>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1&appId=273543082778614";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+</html>

@@ -1,0 +1,366 @@
+
+<!doctype html>
+
+<html lang="ko">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="robots" content="index,follow">
+<meta property="og:image" content="http://qnix.com.vn/images/logo.jpg">
+<meta property="og:url" content="http://qnix.com.vn">
+<meta property="og:description" content="QNIX">
+<meta property="og:title" content="QNIX">
+	<link rel="shortcut icon" href="q.png" type="image/x-icon">
+
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+<meta property="og:image" content="/images/logo.jpg">
+
+<title>QNIX</title>
+
+<link rel="stylesheet" href="http://qnix.com.vn/css/default.css?ver=171222">
+
+<!--[if lte IE 8]>
+
+<script src="http://qnix.com.vn/js/html5.js"></script>
+
+<![endif]-->
+
+<script>
+
+// 자바스크립트에서 사용하는 전역변수 선언
+
+var g5_url       = "http://qnix.com.vn";
+
+var g5_bbs_url   = "http://qnix.com.vn/bbs";
+
+var g5_is_member = "";
+
+var g5_is_admin  = "";
+
+var g5_is_mobile = "";
+
+var g5_bo_table  = "";
+
+var g5_sca       = "";
+
+var g5_editor    = "";
+
+var g5_cookie_domain = "";
+
+
+</script>
+
+<script src="http://qnix.com.vn/js/jquery-1.8.3.min.js"></script>
+
+<script src="http://qnix.com.vn/js/jquery.menu.js?ver=171222"></script>
+
+<script src="http://qnix.com.vn/js/common.js?ver=171222"></script>
+
+<script src="http://qnix.com.vn/js/wrest.js?ver=171222"></script>
+
+<script src="http://qnix.com.vn/js/placeholders.min.js"></script>
+<script>
+document.title="QNIX";
+</script>
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="/image/x-icon">
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="/images/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="/images/favicon.ico" />
+<link rel="stylesheet" href="http://qnix.com.vn/js/font-awesome/css/font-awesome.min.css">
+
+
+
+<link rel="stylesheet" href="/css/w_fonts.css" type="text/css">
+
+
+</head>
+
+<body>
+
+
+<!-- 팝업레이어 시작 { -->
+<div id="hd_pop">
+    <h2>팝업레이어 알림</h2>
+
+<span class="sound_only">팝업레이어 알림이 없습니다.</span></div>
+
+<script>
+$(function() {
+    $(".hd_pops_reject").click(function() {
+        var id = $(this).attr('class').split(' ');
+        var ck_name = id[1];
+        var exp_time = parseInt(id[2]);
+        $("#"+id[1]).css("display", "none");
+        set_cookie(ck_name, 1, exp_time, g5_cookie_domain);
+    });
+    $('.hd_pops_close').click(function() {
+        var idb = $(this).attr('class').split(' ');
+        $('#'+idb[1]).css('display','none');
+    });
+    $("#hd").css("z-index", 1000);
+});
+</script>
+<!-- } 팝업레이어 끝 --><link rel="stylesheet" href="/css/v_style.css" type="text/css">
+<header id="w_header">
+	<div class="wrap">
+    	<h1><a href="/index.php"><img src="/images/logo.png"></a></h1>
+        <ul id="w_gnb">
+        	<li><a href="/vabout1.php">Giới thiệu</a>
+            	<ul>
+                	<li><a href="/vabout1.php">Câu chuyện thương hiệu QNIX</a></li>
+                    <li><a href="/vabout2.php">Tầm nhìn</a></li>
+                    <li><a href="/vabout3.php">Các đối tác</a></li>
+                    <li><a href="/vabout4.php">Giải thưởng &amp; Chứng nhận</a></li>
+                    <li><a href="/vabout5.php">QNIX tại Việt Nam</a></li>
+                </ul>
+            </li>
+        	<li><a href="/bbs/board.php?bo_table=vmonitor">SẢN PHẨM</a>
+            	<ul>
+                	<li><a href="/bbs/board.php?bo_table=vmonitor"><img src="/images/gaming_monitor.png"><span>Màn hình chơi game</span></a></li>
+					<li><a href="/bbs/board.php?bo_table=vair"><img src="/images/air.png"><span>Máy lọc không khí</span></a></li>
+                    <li><a href="/bbs/board.php?bo_table=vgear"><img src="/images/gaming_gear.png"><span>Gaming Gear</span></a></li>
+                    <li><a href="/bbs/board.php?bo_table=vfuniture"><img src="/images/funiture.png"><span>Nội thất phòng game</span></a></li>
+                </ul>
+            </li>
+            <li><a href="/bbs/board.php?bo_table=vnews">CỘNG ĐỒNG PHÒNG NET</a>
+            	<ul>
+                	<li><a href="/bbs/board.php?bo_table=vnews">tin tức &amp; sự kiện</a></li>
+                	<li><a href="/bbs/board.php?bo_table=vtrends">Xu hướng K-esport</a></li>
+                	<li><a href="/bbs/board.php?bo_table=vzone">QNIX ZONE</a></li>
+                	<li><a href="/bbs/board.php?bo_table=vfree">Download miễn phí</a></li>
+                </ul>
+            </li>
+            <li><a href="/vsupport1.php">Hỗ trợ khách hàng</a>
+            	<ul>
+            		<li><a href="/vsupport1.php">Chính sách bảo hành</a></li>
+            		<li><a href="/vsupport2.php">Cách khắc phục các lỗi thường gặp</a></li>
+            		<li><a href="/vsupport3.php">Quy trình bảo hành</a></li>
+            		<li><a href="/vsupport4.php">1:1 Hỏi đáp </a></li>
+            		<li><a href="/vsupport5.php">Thông tin hỗ trợ khách hàng</a></li>
+            	</ul>
+            </li>
+            <li><a href="/bbs/board.php?bo_table=vtobuy1">Địa điểm mua hàng</a>
+            	<ul>
+            		<li><a href="/bbs/board.php?bo_table=vtobuy1">Thông tin đại lý phân phối</a></li>
+            		<li><a href="/vtobuy2.php">Bạn muốn hợp tác phân phối QNIX?</a></li>
+            	</ul>
+            </li>
+            <li class="mob"><a href="#" onClick="location.href='eindex.php'"><img src="/images/lang1.png"> language</a></li>
+        </ul>
+        <a href="/eindex.php" id="w_lang" class="pc"><img src="/images/lang1.png"></a>
+        <div id="nav_btn" class="mob">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+    </div>
+</header>
+<div id="blank" class="mob"></div>
+<section id="w_main">
+	<div class="w_slide">
+	    <a style="background-image:url(images/ecover-06.png)" href="http://qnix.com.vn/bbs/board.php?bo_table=air" target="_blank"></a>
+		<a style="background-image:url(/images/vcover-05.png)" href="https://tiki.vn/man-hinh-game-qnix-qx-gm27f165-hang-nhap-khau-p22064639.html?src=search&2hi=1&keyword=qnix+27" target="_blank"></a>
+        <a style="background-image:url(/images/vmain01.jpg)" href="#"></a>
+        <a style="background-image:url(/images/vmain02.jpg)" href="#"></a>
+		<a style="background-image:url(/images/vmain03.jpg)" href="#"></a>
+       <!-- <a style="background-image:url(/images/main01.jpg)" href="#"></a>  -->
+    </div>
+    <ul id="w_page"></ul>
+    <a href="#none" class="prev"><img src="/images/btn_left.png" width="46" height="100" alt="prev"></a>
+    <a href="#none" class="next"><img src="/images/btn_right.png" width="46" height="100" alt="prev"></a>
+</section>
+
+
+<section id="w_monitor">
+	<div class="Wrap">
+    <!--	<a href="#"><img src="images/top_monitor.png"></a> -->
+    </div>
+</section>
+
+<section id="w_product">
+	<div class="wrap">
+    	<p>QNIX Sản phẩm </p>
+        <ul>
+        	<li>
+            	<a href="bbs/board.php?bo_table=vair">   <!-- 1번째 제품을 볼 수 있는 게시판 링크입니다.-->
+                	<img src="images/main-airq300-400x400.png">  <!-- 1번째 제품 이미지 -->
+        			<dl>  
+        				<dt>QNICARE AIRQ-300<br></dt>   <!-- 1번째 제품 이름-->
+                        <dd>Màn hình 27 inch với thiết kế viền siêu mỏng, tần số quét cao lên đến 165Hz cho hình ảnh hiển thị mượt mà, hỗ trợ công nghệ AMD Freesync không gián đoạn, không vỡ ảnh</dd>   <!-- 1번째 제품 설명-->
+        			</dl>
+        		</a>
+            </li>
+            <li>
+            	<a href="/bbs/board.php?bo_table=vmonitor">  <!-- 2번째 제품을 볼 수 있는 게시판 링크입니다.-->
+	                <img src="images/pro1.png">  <!-- 2번째 제품 이미지 -->
+        			<dl>
+        				<dt>QX2414 REAL 144 DP</dt>  <!-- 2번째 제품 이름-->
+                        <dd>Hình ảnh chuyển động nhanh và rõ nét với tần số quét 144Hz và tốc độ phản hồi 1ms</dd>  <!-- 2번째 제품 설명-->
+        			</dl>
+        		</a>
+            </li>
+            <li>
+            	<a href="/bbs/board.php?bo_table=vmonitor">  <!-- 3번째 제품을 볼 수 있는 게시판 링크입니다.-->
+	                <img src="images/pro2.png">  <!-- 3번째 제품 이미지 -->
+                    <dl>
+        				<dt>QX2524 REAL 240 PIVOT<br></dt>  <!-- 3번째 제품 이름-->
+                        <dd>Tần số quét 240Hz mang đến một bước tiến vượt trội cho công nghệ màn hình với cảnh quay sống động mượt mà hơn. Hiển thị 240 phân cảnh trong một giây và tốc độ phản hồi màn hình tức thì giúp bạn tận hưởng trọn vẹn từng khoảnh khắc trong các game nhanh và mạnh</dd>  <!-- 3번째 제품 설명-->
+        			</dl>
+        		</a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section id="w_news">
+	<div class="wrap">
+    	<p>Tin tức & Sự kiện </p>
+        <a href="/bbs/board.php?bo_table=vnews"><img src="images/2019.png"></a>
+    </div>
+</section>
+
+<section id="w_icon">
+	<ul class="wrap">
+    	<li><a href="/bbs/board.php?bo_table=vmonitor"><img src="images/icon1.png"><br class="pc"><br><br>Màn hình chơi game</a></li>
+        <li><a href="/vabout5.php"><img src="images/icon2.png"><br class="pc"><br><br>QNIX tại Việt Nam</a></li>
+        <li><a href="/bbs/board.php?bo_table=vnews"><img src="images/icon3.png"><br class="pc"><br><br>Tin tức & sự kiện</a></li>
+        <li><a href="/bbs/board.php?bo_table=vfree"><img src="images/icon4.png"><br class="pc"><br><br>Download</a></li>
+    </ul>
+</section>
+
+
+
+<script>
+var ih = 960;
+var stime = 4000; // 1초 = 1000
+$("#w_main, .w_slide, .w_slide a").css("height",ih);
+$(".w_slide a:first").clone().appendTo(".w_slide");
+
+var num = $(".w_slide a").length;
+for (var i=0; i<num; i++) {
+	$(".w_slide a").eq(i).css("left",i*100+"%");
+	if (i < num-1) {
+	$("#w_page").append("<li data-n='"+i+"'><a href='#none'></a></li>");
+	};
+}
+
+$("#w_page li:first").addClass("select");
+
+var n=0;
+function auto() {
+	n++;
+	if (n==num-1) { 
+		$(".w_slide").animate({"left":-n*100+"%"},300, function(){
+			$(this).css("left",0);	
+		});
+		n=0; 
+	} else {
+		$(".w_slide").animate({"left":-n*100+"%"},300);
+	};
+	$("#w_page li").removeClass();
+	$("#w_page li").eq(n).addClass("select");
+};
+
+var timer = setInterval("auto()", stime);
+
+$("#w_page li").click(function(){
+	clearInterval(timer);	
+	$("#w_page li").removeClass();
+	$(this).addClass("select");	
+	n=$(this).attr("data-n");
+	$(".w_slide").animate({"left":-n*100+"%"},300);
+	timer = setInterval("auto()", stime);
+});
+
+
+$("#w_main").hover(
+	function(){
+		$(".prev").stop().animate({"left":100,"opacity":1},300);
+		$(".next").stop().animate({"right":100,"opacity":1},300);
+	},
+	function(){
+		$(".prev").stop().animate({"left":150,"opacity":0},300);
+		$(".next").stop().animate({"right":150,"opacity":0},300);
+	}
+);
+
+$(".next").click(function(){
+	clearInterval(timer);
+	auto();
+	timer = setInterval("auto()", stime);
+});
+
+$(".prev").click(function(){
+	clearInterval(timer);
+	if(n == 0){
+		n=num-2;
+		$(".w_slide").css({"left":(-n-1)*100+"%"}).animate({"left":-n*100+"%"});
+	} else {
+		n--;
+		$(".w_slide").animate({"left":-n*100+"%"},300);
+	}
+
+	$("#w_page li").removeClass();
+	$("#w_page li").eq(n).addClass("select");
+	timer = setInterval("auto()", stime);
+});
+</script>
+
+
+<footer id="w_footer">
+	<div class="wrap">
+    	<h2><a href="/"><img src="/images/logo.png"></a></h2>
+        <ul id="w_info">
+        <!--	<li><a href="#">Privacy Policy</a></li>
+        	<li><a href="#">Legal Info</a></li>   -->
+        	<li><a href="#">Contact Us</a></li>
+        </ul>
+        <p>Copyright &copy; 2019 Qnix Corporation</p>
+        <ul id="w_sns">
+        	<li><a href="#"><img src="/images/sns01.jpg"></a></li>
+          <!--i><a href="#"><img src="/images/sns02.jpg"></a></li>
+            <li><a href="#"><img src="/images/sns03.jpg"></a></li>-->
+            <li><a href="#"><img src="/images/sns04.jpg"></a></li>
+          <!--i><a href="#"><img src="/images/sns05.jpg"></a></li>-->
+        </ul>
+    </div>
+</footer>
+
+<script src="/js/w_script.js"></script>
+
+
+<!-- } 하단 끝 -->
+
+<script>
+$(function() {
+    // 폰트 리사이즈 쿠키있으면 실행
+    font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
+});
+</script>
+
+
+
+<!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
+<!--[if lte IE 7]>
+<script>
+$(function() {
+    var $sv_use = $(".sv_use");
+    var count = $sv_use.length;
+
+    $sv_use.each(function() {
+        $(this).css("z-index", count);
+        $(this).css("position", "relative");
+        count = count - 1;
+    });
+});
+</script>
+<![endif]-->
+
+</body>
+</html>

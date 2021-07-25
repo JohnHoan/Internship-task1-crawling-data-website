@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html class="no-js ">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta property="fb:admins" content="100001614579196" />
+       <meta name="facebook-domain-verification" content="hvviwlt3f63m9cth9ooe1uyanc0w7h" />
+       
+        <title>O'FURNI - Teamwork Office Furniture / Nội thất văn phòng Teamwork</title>
+<meta name="description" content="O'FURNI - Teamwork Office Furniture / Nội thất văn phòng Teamwork" />
+<meta name="keywords" content="O'FURNI - Teamwork Office Furniture / Nội thất văn phòng Teamwork" />
+<meta name="robots" content="index,follow" />
+
+<meta property="og:title" content="O'FURNI - Teamwork Office Furniture / Nội thất văn phòng Teamwork" />
+<meta property="og:site_name" content="O'FURNI - Office Furniture"/>
+<meta property="og:type" content="website" />
+<meta property="og:description" content="O'FURNI - Teamwork Office Furniture / Nội thất văn phòng Teamwork" />
+<meta property="og:url" content="https://ofurni.com/vi" />
+<meta property="og:image" content="https://ofurni.com/uploads/og_image.jpg" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">        
+        <link href="https://ofurni.com/favicon.ico" rel="icon" type="image/x-icon" />
+        <link href="https://ofurni.com/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="https://ofurni.com/favicon.ico" rel="favicon" />
+        
+        <link rel="stylesheet" media="screen" href="https://ofurni.com/css/plugins.css" />
+        <link rel="stylesheet" media="screen" href="https://ofurni.com/css/site.css" />
+        <!-- CSS Upgrade -->
+        <link rel="stylesheet" href="https://ofurni.com/js/owlcarousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://ofurni.com/js/owlcarousel/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" type="text/css" href="https://ofurni.com/css/st.action-panel.css" />
+        <link rel="stylesheet" media="screen" href="https://ofurni.com/css/addon.css" />
+                        <script>
+                        var auto_popup = {"id":"8","Title":"","Language":"vi","TimeShow":"30","TimeHide":"5","Url":"https:\/\/ofurni.com\/vi\/danh-muc\/114\/ghe-van-phong-online.html","Image":"pop-up.jpg","TypeName":"all_page","Priority":"1","Enable":"yes"};
+                        var timeShow = parseInt(auto_popup.TimeShow)*1000;
+                        auto_popup.Image = 'https://ofurni.com/uploads/pop-up.jpg';
+                </script>
+                        <!-- CSS Upgrade -->
+        <script src="https://ofurni.com/js/head.js"></script>
+        <script src="https://ofurni.com/js/jquery.js"></script>
+
+        <!-- JS Upgrade -->
+        <script src="https://ofurni.com/js/owlcarousel/owl.carousel.js"></script>
+        <script src="https://ofurni.com/js/jquery.form.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var owl = $('.list-partner');
+                owl.owlCarousel({
+                    margin: 10,
+                    loop: true,
+                    lazyLoad:true,
+                    dots: false,
+                    autoplay: true,
+                    autoplayHoverPause: true,
+                    responsive: {
+                        0: {
+                            items: 2
+                        },
+                        600: {
+                            items: 3
+                        },
+                        1000: {
+                            items: 5
+                        }
+                    },
+                    nav: true,
+                    navText: [
+                        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+                    ],
+                    navContainer: '.partner .custom-nav'
+                });
+
+                var owl = $('.list-product-new');
+                owl.owlCarousel({
+                    margin: 10,
+                    loop: true,
+                    lazyLoad:true,
+                    autoplay: true,
+                    autoplayHoverPause: true,
+                    responsive: {
+                        0: {
+                            items: 2
+                        },
+                        600: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 6
+                        }
+                    },
+                    nav: true,
+                    dots: false,
+                    navText: [
+                        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+                    ],
+                    navContainer: '.product-new .custom-nav'
+
+                });
+
+                var owl = $('.list-product-hot');
+                owl.owlCarousel({
+                    margin: 10,
+                    loop: true,
+                    lazyLoad:true,
+                    autoplay: true,
+                    autoplayHoverPause: true,
+                    responsive: {
+                        0: {
+                            items: 2
+                        },
+                        600: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 6
+                        }
+                    },
+                    nav: true,
+                    dots: false,
+                    navText: [
+                        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+                    ],
+                    navContainer: '.product-hot .custom-nav'
+                });
+
+                var owl = $('.list-hot-news');
+                owl.owlCarousel({
+                    margin: 30,
+                    loop: true,
+                    lazyLoad:true,
+                    dots: false,
+                    autoplay: true,
+                    autoplayHoverPause: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 1
+                        },
+                        1000: {
+                            items: 3
+                        }
+                    },
+                    navText: [
+                        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+                    ],
+                    navContainer: '.hot-news .custom-nav'
+                })
+
+            })
+        </script>
+
+        <script src="https://ofurni.com/js/st.action-panel.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('st-actionContainer').launchBtn( { openDuration: 500, closeDuration: 300 } );
+            });
+        </script>
+        <!-- JS Upgrade -->
+
+        <script>
+            head.load(
+                "https://ofurni.com/js/plugins.js",
+                "https://ofurni.com/js/site.js"
+            );
+            function ChangeOptionDDL(n){
+                var t=$(n).val();
+                var target = $(n).find('option:selected').attr('data-target');
+                if (typeof target !== 'undefined' && target == '_blank') {
+                    // the variable is defined
+                    window.open(t, '_blank');
+                } else {
+                    window.location=t
+                }
+
+            }
+        </script>
+		
+		<script type="text/javascript">var switchTo5x=true;</script>
+		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+		<script type="text/javascript">stLight.options({publisher: "595d5eac-e4ff-48fc-b2c9-b4e9d00a0cd7", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+        
+        <meta property="fb:app_id"       content="1104602546276544" />
+
+ <!--Google analytics-->
+       
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69459246-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K3C3MXZ');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Facebook Pixel Code  Ofurni-->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1785367058378674');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1785367058378674&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code Ofurni  -->
+
+<!-- Load Tracking Code -->
+<script type="text/javascript">
+    adroll_adv_id = "M7AUC22EKBBSNJIZ3EHYJS";
+    adroll_pix_id = "OJHEQQ3OLJCPBBQGAHP6YC";
+
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+</script>
+<!-- End Tracking Code -->
+
+<!-- load 1A Tracking Code for http://www.ofurni.com/vi -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1488384,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<!-- End 1A Tracking Code for http://www.ofurni.com/vi -->
+
+    </head>
+    <body>
+        <!-- Load Facebook SDK for JavaScript -->      <div id="fb-root"></div>      <script>        window.fbAsyncInit = function() {          FB.init({            xfbml            : true,            version          : 'v4.0'          });        };        (function(d, s, id) {        var js, fjs = d.getElementsByTagName(s)[0];        if (d.getElementById(id)) return;        js = d.createElement(s); js.id = id;        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';        fjs.parentNode.insertBefore(js, fjs);      }(document, 'script', 'facebook-jssdk'));</script>      <!-- Your customer chat code -->      <div class="fb-customerchat"        attribution=setup_tool        page_id="1390821234558445"  theme_color="#ff7e29"  logged_in_greeting="Xin chào, bạn đã chọn được sản phẩm cần mua chưa?"  logged_out_greeting="Xin chào, bạn đã chọn được sản phẩm cần mua chưa?">      </div>
+
+        <noscript>
+            <p class="browser-noscript">For full functionality of this site it is necessary to enable JavaScript. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser</a>.</p>
+        </noscript>
+        <!--[if lte IE 8]>
+            <p class="browser-upgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <div class="page index">
+            <!--HEADER-->
+            <header class="main-header">
+                <div class="wrapper">
+                    <div class="box-outer bar-1">
+                        <a href="https://ofurni.com/"><img class="main-logo" src="https://ofurni.com/img/logo.jpg" alt="O'FURNI" /></a>
+                        <a href="#" class="box-right mobile-menu dskfix"><i class="fa fa-bars"></i></a>
+                        <div class="box-right langslt mblfix">
+                            <a href="/en">English</a>                        </div>
+                    </div>
+                    <div class="box-outer bar-2">
+                        					<ul class="box-left main-menu menu-1">                          
+					<li class="menu-prdts"><a href="https://ofurni.com/vi/danh-muc.html" onclick="javascript:return false;">Sản Phẩm</a>	<ul class="menu-2"><li><a href="https://ofurni.com/vi/danh-muc/17/ghe-van-phong.html">Ghế văn phòng</a><ul class="menu-3"><li><a href="https://ofurni.com/vi/danh-muc/114/ghe-van-phong-online.html">Ghế Văn Phòng Online</a></li><li><a href="https://ofurni.com/vi/danh-muc/50/ghe-lanh-dao.html">Ghế lãnh đạo</a></li><li><a href="https://ofurni.com/vi/danh-muc/51/ghe-nhan-vien.html">Ghế nhân viên</a></li><li><a href="https://ofurni.com/vi/danh-muc/115/ghe-van-phong-nhap-khau.html">Ghế Văn Phòng Nhập Khẩu</a></li><li><a href="https://ofurni.com/vi/danh-muc/45/ghe-van-phong-chan-quy.html">Ghế văn phòng chân quỳ</a></li><li><a href="https://ofurni.com/vi/danh-muc/97/ghe-van-phong-gia-re.html">Ghế văn phòng giá rẻ</a></li></ul>
+								</li><li><a href="https://ofurni.com/vi/danh-muc/55/ghe-dao-tao.html">Ghế đào tạo</a><ul class="menu-3"><li><a href="https://ofurni.com/vi/danh-muc/59/ghe-dao-tao-co-ban.html">Ghế đào tạo có bàn</a></li><li><a href="https://ofurni.com/vi/danh-muc/60/ghe-dao-tao-co-banh-xe.html">Ghế đào tạo có bánh xe</a></li><li><a href="https://ofurni.com/vi/danh-muc/64/ghe-dao-tao-chan-co-dinh.html">Ghế đào tạo chân cố định</a></li><li><a href="https://ofurni.com/vi/danh-muc/63/ghe-xep-chong.html">Ghế xếp chồng</a></li></ul>
+								</li><li><a href="https://ofurni.com/vi/danh-muc/104/bestuhl-brand.html">Bestuhl Brand</a><ul class="menu-3"><li><a href="https://ofurni.com/vi/danh-muc/102/task-chair.html">Task Chair</a></li><li><a href="https://ofurni.com/vi/danh-muc/103/multi-use-chair.html">Multi-use chair</a></li><li><a href="https://ofurni.com/vi/danh-muc/109/folding-table.html">Folding Table</a></li></ul>
+								</li><li><a href="https://manager-f.com/vn/trang-chu.html" target="_blank">MANAGER Brand</a><ul class="menu-3"><li><a href="https://manager-f.com/vn/ghe-giam-doc.html" target="_blank">Ghế Giám Đốc</a></li><li><a href="https://manager-f.com/vn/ban-giam-doc.html" target="_blank">Bàn giám đốc</a></li><li><a href="https://manager-f.com/vn/san-pham/collection.html" target="_blank">CATANIA Collection</a></li></ul>
+								</li><li><a href="https://ofurni.com/vi/danh-muc/19/ban-tu-van-phong.html">Bàn - Tủ văn phòng</a><ul class="menu-3"><li><a href="https://ofurni.com/vi/danh-muc/95/ban-nhan-vien.html">Bàn nhân viên</a></li><li><a href="https://ofurni.com/vi/danh-muc/29/ban-nang-ha.html">Bàn nâng hạ</a></li><li><a href="https://ofurni.com/vi/danh-muc/28/ban-mat-gap.html">Bàn mặt gập</a></li><li><a href="https://ofurni.com/vi/danh-muc/65/tu-ho-so.html">Tủ hồ sơ</a></li></ul>
+								</li><li><a href="https://ofurni.com/vi/danh-muc/20/sofa-van-phong.html">Sofa văn phòng</a><ul class="menu-3"><li><a href="https://ofurni.com/vi/danh-muc/87/don.html">Đôn</a></li><li><a href="https://ofurni.com/vi/danh-muc/86/sofa-bang-cho.html">Sofa băng chờ</a></li><li><a href="https://ofurni.com/vi/danh-muc/69/sofa-3-2-1.html">Sofa 3-2-1</a></li></ul>
+								</li><li><a href="https://ofurni.com/vi/danh-muc/21/giao-duc.html">Giáo dục</a><ul class="menu-3"><li><a href="https://ofurni.com/vi/danh-muc/106/ban-hoc-thong-minh.html">Bàn học thông minh</a></li><li><a href="https://ofurni.com/vi/danh-muc/105/bo-ban-ghe-hoc-thong-minh.html">Bộ bàn ghế học thông minh</a></li><li><a href="https://ofurni.com/vi/danh-muc/107/ghe-thong-minh.html">Ghế thông minh</a></li></ul>
+								</li><li><a href="https://ofurni.com/vi/danh-muc/25/ghe-rap-phim-hat.html">Ghế rạp phim, hát</a></li><li><a href="https://www.homefurni.vn/khong-gian-giai-tri-282.html" target="_blank">Không gian giải trí</a></li><li><a href="https://ofurni.com/vi/danh-muc/27/y-te-spa.html">Y tế - Spa</a><ul class="menu-3"><li><a href="https://ofurni.com/vi/danh-muc/81/y-te.html">Y tế</a></li><li><a href="https://ofurni.com/vi/danh-muc/82/spa.html">Spa</a></li></ul>
+								</li><li><a href="https://ofurni.com/vi/danh-muc/22/ghe-bang-cho.html">Ghế băng chờ</a></li><li><a href="https://ofurni.com/vi/danh-muc/96/van-phong-thong-minh.html">Văn phòng thông minh</a></li>	</ul></li><li><a href="https://www.dfurni.com/vi/du-an-da-thuc-hien/" target="_blank">Dự án đã thực hiện</a></li><li class="menu-about"><a href="https://www.dfurni.com/vi/catalogue/" onclick="javascript:return false;" target="_blank">Tài Nguyên Thiết Kế</a>
+											<ul class="menu-2">
+												<li><a href="https://my.matterport.com/show/?m=rnhNPeQFnb3" target="_blank">Showroom 3D</a></li><li><a href="https://www.dfurni.com/vi/thu-vien-3d/" target="_blank">Thư viện 3D</a></li><li><a href="https://www.dfurni.com/vi/bang-mau/" target="_blank">Bảng màu</a></li><li><a href="https://www.dfurni.com/vi/catalogue/" target="_blank">iCatalogue</a></li><li><a href="https://ofurni.com/vi/page/379/dang-ky-nhan-catalogue.html">Đăng ký nhận catalogue</a></li></ul>
+										</li>
+										<li><a href="https://www.dfurni.com/vi/kenh-phan-phoi/" target="_blank">Hệ thống cửa hàng</a></li><li><a href="https://www.dfurni.com/vi/export/" target="_blank">EXPORT</a></li>					</ul>
+                        <div class="box-right main-search">
+                            <form action="https://ofurni.com/vi/tim-kiem.html" method="get" id="frmSearch">
+                                <a href="/en" class="lang">English</a>								<input name="keyword" type="search" placeholder="Tìm kiếm" />
+                                <input name="cate" type="hidden">
+                                <input name="material" type="hidden">
+                                <input name="price" type="hidden">
+								<a href="javascript:{}" onclick="document.getElementById('frmSearch').submit();"><i class="fa fa-search"></i></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+            <!--CONTENT-->
+            		<section class="img-slider">
+                <div class="wrapper">
+                    <div class="slidelst">
+						<a class="slide atv" href="https://ofurni.com/vi/danh-muc/114/ghe-van-phong-online.html">
+												<img data-lazy="https://ofurni.com/uploads/Banner_web_chinh2.jpg" data-dimens="1140,567" />
+												<div class="caption">
+													<span></span>
+												</div>
+											</a>
+											<a class="slide" href="https://ofurni.com/vi/danh-muc/115/ghe-van-phong-nhap-khau.html?utm_source=web&utm_medium=banner&utm_campaign=spider">
+												<img data-lazy="https://ofurni.com/uploads/Banner_web_chinh3.jpg" data-dimens="1140,567" />
+												<div class="caption">
+													<span></span>
+												</div>
+											</a>
+											<a class="slide" href="https://ofurni.com/vi/danh-muc/20/sofa-van-phong.html">
+												<img data-lazy="https://ofurni.com/uploads/Banner_office_B2_-_Chinh.jpg" data-dimens="1140,567" />
+												<div class="caption">
+													<span></span>
+												</div>
+											</a>
+											<a class="slide" href="https://www.dfurni.com/vi/lien-he/">
+												<img data-lazy="https://ofurni.com/uploads/Banner_B22.jpg" data-dimens="1140,567" />
+												<div class="caption">
+													<span></span>
+												</div>
+											</a>
+											<a class="slide" href="https://www.ofurni.com/vi/danh-muc/102/task-chair.html">
+												<img data-lazy="https://ofurni.com/uploads/Banner_web4.jpg" data-dimens="1140,567" />
+												<div class="caption">
+													<span>B4-WFH</span>
+												</div>
+											</a>
+											<a class="slide" href="http://www.ofurni.com/vi/page/79/icatalogue.html">
+												<img data-lazy="https://ofurni.com/uploads/banner_team_work_1140X567.jpg" data-dimens="1140,567" />
+												<div class="caption">
+													<span></span>
+												</div>
+											</a>
+											                    </div>
+                    <div class="idcr"></div>
+                </div>
+            </section>
+
+            <!--CONTENT-->
+            <section class="main-content">
+                <div class="wrapper">
+                    <div class="box-outer bnrs mblfix">
+                        <a href="/vi/page/79/icatalogue.html" class="box-left bnr">
+												<img data-lazy="https://ofurni.com/uploads/Ecatolouge.png" data-dimens="373,200" />
+											</a>
+											<a href="https://www.dfurni.com/vi/thu-vien-3d/" class="box-left bnr">
+												<img data-lazy="https://ofurni.com/uploads/Thư_viện_3D1.png" data-dimens="373,200" />
+											</a>
+											<a href="https://www.youtube.com/channel/UC8cgtOWQdCf515NQVNHnk-w/videos?view_as=subscriber" class="box-left bnr last">
+												<img data-lazy="https://ofurni.com/uploads/PIC_04.png" data-dimens="373,200" />
+											</a>
+											                    </div>
+
+                    <div class="prds">
+                        <div class="prds-opts dskfix mblfix">
+                            <select>
+                                <option value="prdcnt-0">Lựa chọn sản phẩm</option>
+                                <option value="prdcnt-1">Ghế văn phòng</option>
+                                <option value="prdcnt-2">Ghế đào tạo</option>
+                                <option value="prdcnt-3">Sofa văn phòng</option>
+                                <option value="prdcnt-4">Bàn - Tủ văn phòng</option>
+                                <option value="prdcnt-5">Trường học</option>
+                                <option value="prdcnt-6">Ghế băng chờ</option>
+                                <option value="prdcnt-7">Ghế rạp phim - hát</option>
+                                <option value="prdcnt-8">Bệnh viện - Spa</option>
+                                <option value="prdcnt-9">Không gian giải trí</option>
+                            </select>
+                        </div>
+                        <ul class="prds-tabs mblfix">
+                            <li><a href="/vi/danh-muc/17/ghe-van-phong.html" data-contentid="prdcnt-1"><i class="prdicon-1"> </i>Ghế <br/>văn phòng</a></li>
+                            <li><a href="/vi/danh-muc/55/ghe-dao-tao.html" data-contentid="prdcnt-2"><i class="prdicon-2"> </i>Ghế <br/>đào tạo</a></li>
+                            <li><a href="/vi/danh-muc/20/sofa-van-phong.html" data-contentid="prdcnt-3"><i class="prdicon-3"> </i>Sofa <br/>văn phòng</a></li>
+                            <li><a href="/vi/danh-muc/19/ban-tu-van-phong.html" data-contentid="prdcnt-4"><i class="prdicon-4"> </i>Bàn - Tủ <br/>văn phòng</a></li>
+                            <li><a href="/vi/danh-muc/21/truong-hoc.html" data-contentid="prdcnt-5"><i class="prdicon-5"> </i><br/>Trường học</a></li>
+                            <li><a href="/vi/danh-muc/22/ghe-bang-cho.html" data-contentid="prdcnt-6"><i class="prdicon-6"> </i>Ghế <br/>băng chờ</a></li>
+                            <li><a href="/vi/danh-muc/23/ghe-rap-phim-hat.html" data-contentid="prdcnt-7"><i class="prdicon-7"> </i>Ghế rạp <br/>phim - hát</a></li>
+                            <li><a href="/vi/danh-muc/27/benh-vien-spa.html" data-contentid="prdcnt-8"><i class="prdicon-8"> </i>Bệnh viện<br/>Spa</a></li>
+                            <li class="last"><a href="https://www.homefurni.vn/khong-gian-giai-tri-282.html" data-contentid="prdcnt-9" target="_blank"><i class="prdicon-9"> </i>Không gian <br/>giải trí</a></li>
+                        </ul>                        <div class="prds-cnts">
+                            <div id="prdcnt-0" class="box-outer prd-cnt atv">
+                                <div class="box-left box-rps product-new">
+                                    <header>
+                                        Sản phẩm mới                                    </header>
+                                                                            <div class="list-product-new owl-carousel owl-theme">
+                                                                                                                                <a href="https://ofurni.com/vi/san-pham/926/ghe-gaming-empire-1.html" class="prd-item">
+                                                <!--<img data-lazy="https://ofurni.com/uploads/empire-1_med.jpg" data-dimens="150,234" />-->												<img src="https://ofurni.com/uploads/empire-1_med.jpg" data-dimens="150,234" />
+                                                <strong>Ghế Gaming EMPIRE 1</strong>
+                                                                                                                                                        <span class="saleoff">-25%</span>                                                                                                            <span class="price">3,833,000 VND</span>
+                                                                                                        <span class="price-old">5,110,000VND</span>                                                                                            </a>
+                                                                                                                                <a href="https://ofurni.com/vi/san-pham/771/union-67-he.html" class="prd-item">
+                                                <!--<img data-lazy="https://ofurni.com/uploads/U67_med.JPG" data-dimens="150,234" />-->												<img src="https://ofurni.com/uploads/U67_med.JPG" data-dimens="150,234" />
+                                                <strong>Union 67-HE</strong>
+                                                                                                                                                        <span class="saleoff">-15%</span>                                                                                                            <span class="price">1,564,000 VND</span>
+                                                                                                        <span class="price-old">1,840,000VND</span>                                                                                            </a>
+                                                                                                                                <a href="https://ofurni.com/vi/san-pham/571/further-46-2-hr.html" class="prd-item">
+                                                <!--<img data-lazy="https://ofurni.com/uploads/F46-21_med.jpg" data-dimens="150,234" />-->												<img src="https://ofurni.com/uploads/F46-21_med.jpg" data-dimens="150,234" />
+                                                <strong>Further 46-2-HR</strong>
+                                                                                                                                                        <span class="saleoff">-15%</span>                                                                                                            <span class="price">5,738,000 VND</span>
+                                                                                                        <span class="price-old">6,750,000VND</span>                                                                                            </a>
+                                                                                                                                <a href="https://ofurni.com/vi/san-pham/929/teamplay-75-hr.html" class="prd-item">
+                                                <!--<img data-lazy="https://ofurni.com/uploads/160_med.jpg" data-dimens="150,234" />-->												<img src="https://ofurni.com/uploads/160_med.jpg" data-dimens="150,234" />
+                                                <strong>Teamplay 75-HR</strong>
+                                                                                                                                                        <span class="saleoff">-25%</span>                                                                                                            <span class="price">4,403,000 VND</span>
+                                                                                                        <span class="price-old">5,870,000VND</span>                                                                                            </a>
+                                                                                </div>
+                                        <div class="owl-theme">
+                                            <div class="owl-controls">
+                                                <div class="custom-nav owl-nav"></div>
+                                            </div>
+                                        </div>
+                                                                    </div>
+                                <div class="box-right box-rps product-hot">
+                                    <header>
+                                        Sản phẩm khuyến mãi                                    </header>
+                                                                            <div class="list-product-hot owl-carousel owl-theme">
+                                                                                                                                            <a href="https://ofurni.com/vi/san-pham/410/further-62-2hr.html" class="prd-item">
+<!--                                                    <img src="--><!--" data-dimens="150,234" />-->
+                                                    <!--<img data-lazy="https://ofurni.com/uploads/F62-HR-82_med.jpg" data-dimens="150,234" />-->													<img src="https://ofurni.com/uploads/F62-HR-82_med.jpg" data-dimens="150,234" />
+                                                    <strong>Further 62-2HR</strong>
+                                                                                                                                                                    <span class="saleoff">-15%</span>                                                                                                                    <span class="price">3,332,000 VND</span>
+                                                                                                                <span class="price-old">3,920,000VND</span>                                                                                                    </a>
+                                                                                                                                            <a href="https://ofurni.com/vi/san-pham/411/further-62-2mr.html" class="prd-item">
+<!--                                                    <img src="--><!--" data-dimens="150,234" />-->
+                                                    <!--<img data-lazy="https://ofurni.com/uploads/142_med.jpg" data-dimens="150,234" />-->													<img src="https://ofurni.com/uploads/142_med.jpg" data-dimens="150,234" />
+                                                    <strong>Further 62-2MR</strong>
+                                                                                                                                                                    <span class="saleoff">-15%</span>                                                                                                                    <span class="price">2,482,000 VND</span>
+                                                                                                                <span class="price-old">2,920,000VND</span>                                                                                                    </a>
+                                                                                                                                            <a href="https://ofurni.com/vi/san-pham/726/union-3-2me.html" class="prd-item">
+<!--                                                    <img src="--><!--" data-dimens="150,234" />-->
+                                                    <!--<img data-lazy="https://ofurni.com/uploads/union_3-2me(02)2_med.png" data-dimens="150,234" />-->													<img src="https://ofurni.com/uploads/union_3-2me(02)2_med.png" data-dimens="150,234" />
+                                                    <strong>Union 3-2ME</strong>
+                                                                                                                                                                    <span class="saleoff">-37%</span>                                                                                                                    <span class="price">996,000 VND</span>
+                                                                                                                <span class="price-old">1,580,000VND</span>                                                                                                    </a>
+                                                                                                                                            <a href="https://ofurni.com/vi/san-pham/574/union-42w-2he.html" class="prd-item">
+<!--                                                    <img src="--><!--" data-dimens="150,234" />-->
+                                                    <!--<img data-lazy="https://ofurni.com/uploads/F42W-2HE_med.jpg" data-dimens="150,234" />-->													<img src="https://ofurni.com/uploads/F42W-2HE_med.jpg" data-dimens="150,234" />
+                                                    <strong>Union 42W-2HE</strong>
+                                                                                                                                                                    <span class="saleoff">-20%</span>                                                                                                                    <span class="price">1,896,000 VND</span>
+                                                                                                                <span class="price-old">2,370,000VND</span>                                                                                                    </a>
+                                                                                                                                            <a href="https://ofurni.com/vi/san-pham/577/union-42w-2me.html" class="prd-item">
+<!--                                                    <img src="--><!--" data-dimens="150,234" />-->
+                                                    <!--<img data-lazy="https://ofurni.com/uploads/F42W-2ME_med.jpg" data-dimens="150,234" />-->													<img src="https://ofurni.com/uploads/F42W-2ME_med.jpg" data-dimens="150,234" />
+                                                    <strong>Union 42W-2ME</strong>
+                                                                                                                                                                    <span class="saleoff">-20%</span>                                                                                                                    <span class="price">1,576,000 VND</span>
+                                                                                                                <span class="price-old">1,970,000VND</span>                                                                                                    </a>
+                                                                                                                                            <a href="https://ofurni.com/vi/san-pham/688/s17g110-4hr-ms10g110-4hr-m.html" class="prd-item">
+<!--                                                    <img src="--><!--" data-dimens="150,234" />-->
+                                                    <!--<img data-lazy="https://ofurni.com/uploads/147_med.jpg" data-dimens="150,234" />-->													<img src="https://ofurni.com/uploads/147_med.jpg" data-dimens="150,234" />
+                                                    <strong>S17G110-4HR-M/S10G110-4HR-M</strong>
+                                                                                                                                                                    <span class="saleoff">-25%</span>                                                                                                                    <span class="price">9,455,000 VND</span>
+                                                                                                                <span class="price-old">12,606,000VND</span>                                                                                                    </a>
+                                                                                                                                            <a href="https://ofurni.com/vi/san-pham/697/s17g110-4mr-ms10g110-4mr-m.html" class="prd-item">
+<!--                                                    <img src="--><!--" data-dimens="150,234" />-->
+                                                    <!--<img data-lazy="https://ofurni.com/uploads/225_med.jpg" data-dimens="150,234" />-->													<img src="https://ofurni.com/uploads/225_med.jpg" data-dimens="150,234" />
+                                                    <strong>S17G110-4MR-M/S10G110-4MR-M</strong>
+                                                                                                                                                                                                                                                                                        <span class="price">10,840,000 VND</span>
+                                                                                                                                                                                                                    </a>
+                                                                                                                                            <a href="https://ofurni.com/vi/san-pham/842/s17g110w-4hr-ms10g110w-4hr.html" class="prd-item">
+<!--                                                    <img src="--><!--" data-dimens="150,234" />-->
+                                                    <!--<img data-lazy="https://ofurni.com/uploads/s17_med.jpg" data-dimens="150,234" />-->													<img src="https://ofurni.com/uploads/s17_med.jpg" data-dimens="150,234" />
+                                                    <strong>S17G110W-4HR-M/S10G110W-4HR</strong>
+                                                                                                                                                                    <span class="saleoff">-25%</span>                                                                                                                    <span class="price">10,087,500 VND</span>
+                                                                                                                <span class="price-old">13,450,000VND</span>                                                                                                    </a>
+                                                                                                                                            <a href="https://ofurni.com/vi/san-pham/703/s35a210-4mr-m3.html" class="prd-item">
+<!--                                                    <img src="--><!--" data-dimens="150,234" />-->
+                                                    <!--<img data-lazy="https://ofurni.com/uploads/0121_med.jpg" data-dimens="150,234" />-->													<img src="https://ofurni.com/uploads/0121_med.jpg" data-dimens="150,234" />
+                                                    <strong>S35A210-4MR-M3</strong>
+                                                                                                                                                                    <span class="saleoff">-25%</span>                                                                                                                    <span class="price">6,135,000 VND</span>
+                                                                                                                <span class="price-old">8,180,000VND</span>                                                                                                    </a>
+                                                                                    </div>
+                                        <div class="owl-theme">
+                                            <div class="owl-controls">
+                                                <div class="custom-nav owl-nav"></div>
+                                            </div>
+                                        </div>
+                                                                    </div>
+                            </div>
+                            <div id="prdcnt-1" class="box-outer prd-cnt">
+												<a href="https://ofurni.com/vi/san-pham/926/ghe-gaming-empire-1.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/empire-1_med.jpg" data-dimens="160,190" /><strong>Ghế Gaming EMPIRE 1</strong></a><a href="https://ofurni.com/vi/san-pham/771/union-67-he.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/U67_med.JPG" data-dimens="160,190" /><strong>Union 67-HE</strong></a><hr class="dskfix" /><a href="https://ofurni.com/vi/san-pham/929/teamplay-75-hr.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/160_med.jpg" data-dimens="160,190" /><strong>Teamplay 75-HR</strong></a><a href="https://ofurni.com/vi/san-pham/571/further-46-2-hr.html" class="prd-item last"><img data-lazy="https://ofurni.com/uploads/F46-21_med.jpg" data-dimens="160,190" /><strong>Further 46-2-HR</strong></a></div>
+											<div id="prdcnt-2" class="box-outer prd-cnt">
+												<a href="https://ofurni.com/vi/san-pham/613/ghe-dao-tao-innovest-37-1.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/ghe-dao-van-phong-innovest-37-1-2_med.jpg" data-dimens="160,190" /><strong>Ghế đào tạo Innovest 37-1</strong></a><a href="https://ofurni.com/vi/san-pham/644/ghe-dao-tao-innovest-37-2.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/ghe-dao-tao-innovest-37-2-1_med.jpg" data-dimens="160,190" /><strong>Ghế đào tạo Innovest 37-2</strong></a><hr class="dskfix" /><a href="https://ofurni.com/vi/san-pham/182/innovest-9-2-2-pp.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/Innovest_9A2-2_med.jpg" data-dimens="160,190" /><strong>Innovest 9-2-2-PP</strong></a><a href="https://ofurni.com/vi/san-pham/183/innovest-9-1-1.html" class="prd-item last"><img data-lazy="https://ofurni.com/uploads/Innovest_9A1-1_med.jpg" data-dimens="160,190" /><strong>Innovest 9-1-1</strong></a></div>
+											<div id="prdcnt-3" class="box-outer prd-cnt">
+												<a href="https://ofurni.com/vi/san-pham/881/treehouse-pod.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/treehouse-pod-02_med.jpg" data-dimens="160,190" /><strong>TREEHOUSE POD</strong></a><a href="https://ofurni.com/vi/san-pham/930/stone-stool.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/Stone_stool_(4)_med.jpg" data-dimens="160,190" /><strong>Stone Stool</strong></a><hr class="dskfix" /><a href="https://ofurni.com/vi/san-pham/618/sofa-oslo-don-vai.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/hinh_2_med.jpg" data-dimens="160,190" /><strong>Sofa Oslo đơn - Vải</strong></a><a href="https://ofurni.com/vi/san-pham/619/sofa-oslo-bang-3-vai.html" class="prd-item last"><img data-lazy="https://ofurni.com/uploads/sofa2_med.jpg" data-dimens="160,190" /><strong>Sofa Oslo băng 3 - Vải</strong></a></div>
+											<div id="prdcnt-4" class="box-outer prd-cnt">
+												<a href="https://ofurni.com/vi/san-pham/822/ban-mat-gap-ft12.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/FT12_med.jpg" data-dimens="160,190" /><strong>Bàn mặt gập FT12</strong></a><a href="https://ofurni.com/vi/san-pham/601/ban-mat-gap-hinh-thang-ft11-08.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/FT11.__med.PNG" data-dimens="160,190" /><strong>Bàn mặt gập hình thang FT11-08</strong></a><hr class="dskfix" /><a href="https://ofurni.com/vi/san-pham/900/ban-lam-viec-2wt3004.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/3004_med.jpg" data-dimens="160,190" /><strong>Bàn làm việc 2WT3004</strong></a><a href="https://ofurni.com/vi/san-pham/602/ban-mat-gap-hinh-thang-ft11-12.html" class="prd-item last"><img data-lazy="https://ofurni.com/uploads/FT111_med.PNG" data-dimens="160,190" /><strong>Bàn mặt gập hình thang FT11-12</strong></a></div>
+											<div id="prdcnt-5" class="box-outer prd-cnt">
+												<a href="https://ofurni.com/vi/san-pham/787/bo-ban-ghe-hoc-sinh-lol-bean-2.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/bàn_học_sinh_LOL-BEAN_21_med.jpg" data-dimens="160,190" /><strong>Bộ bàn ghế học sinh LOL-BEAN 2</strong></a><a href="https://ofurni.com/vi/san-pham/897/ghe-thong-minh-bean-2.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/bean-2_med.jpg" data-dimens="160,190" /><strong>Ghế thông minh BEAN-2</strong></a><hr class="dskfix" /><a href="https://ofurni.com/vi/san-pham/896/ghe-thong-minh-bean-1.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/Bean-1_med.jpg" data-dimens="160,190" /><strong>Ghế thông minh BEAN-1</strong></a><a href="https://ofurni.com/vi/san-pham/715/bo-ban-ghe-hoc-sinh-thong-minh-lol-pome-2.html" class="prd-item last"><img data-lazy="https://ofurni.com/uploads/Bàn_học_sinh_LOL-POME_2_med.jpg" data-dimens="160,190" /><strong>Bộ bàn ghế học sinh thông minh LOL-POME 2</strong></a></div>
+											<div id="prdcnt-6" class="box-outer prd-cnt">
+												<a href="https://ofurni.com/vi/san-pham/942/2pc1022-3.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/2PC1022_(2)_med.jpg" data-dimens="160,190" /><strong>2PC1022-3</strong></a><a href="https://ofurni.com/vi/san-pham/941/2pc1022-2.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/2PC1022_(3)1_med.jpg" data-dimens="160,190" /><strong>2PC1022-2</strong></a><hr class="dskfix" /><a href="https://ofurni.com/vi/san-pham/940/2pc1022-2.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/2PC1022_(3)_med.jpg" data-dimens="160,190" /><strong>2PC1022-2</strong></a><a href="https://ofurni.com/vi/san-pham/939/2pc1021-3.html" class="prd-item last"><img data-lazy="https://ofurni.com/uploads/2PC1021-PU-0133GREEN_med.jpg" data-dimens="160,190" /><strong>2PC1021-3</strong></a></div>
+											<div id="prdcnt-7" class="box-outer prd-cnt">
+												<a href="https://ofurni.com/vi/san-pham/150/3rs0103.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/3RS0103_med.jpg" data-dimens="160,190" /><strong>3RS0103</strong></a><a href="https://ofurni.com/vi/san-pham/149/3rs0101.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/3RS0101_med.jpg" data-dimens="160,190" /><strong>3RS0101</strong></a><hr class="dskfix" /><a href="https://ofurni.com/vi/san-pham/135/2pc4019.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/2PC4019_med.jpg" data-dimens="160,190" /><strong>2PC4019</strong></a><a href="https://ofurni.com/vi/san-pham/144/2pc4010.html" class="prd-item last"><img data-lazy="https://ofurni.com/uploads/2PC4010_med.jpg" data-dimens="160,190" /><strong>2PC4010</strong></a></div>
+											<div id="prdcnt-8" class="box-outer prd-cnt">
+												<a href="https://ofurni.com/vi/san-pham/385/two-crank-stainless-steel-bed.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/33_med.jpg" data-dimens="160,190" /><strong>Two Crank Stainless Steel Bed</strong></a><a href="https://ofurni.com/vi/san-pham/387/two-crank-stainless-steel-bed.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/35_med.jpg" data-dimens="160,190" /><strong>Two Crank Stainless Steel Bed</strong></a><hr class="dskfix" /><a href="https://ofurni.com/vi/san-pham/374/three-function-electric-home-care-bed.html" class="prd-item"><img data-lazy="https://ofurni.com/uploads/22_med.jpg" data-dimens="160,190" /><strong>Three Function Electric Home Care Bed</strong></a><a href="https://ofurni.com/vi/san-pham/371/three-function-electric-home-care-bed.html" class="prd-item last"><img data-lazy="https://ofurni.com/uploads/19_med.jpg" data-dimens="160,190" /><strong>Three Function Electric Home Care Bed</strong></a></div>
+											<div id="prdcnt-9" class="box-outer prd-cnt">
+												</div>
+											                        </div>
+                    </div>
+                                            <div class="partner">
+                            <h1>Hơn 1200 khách hàng trong 10 năm</h1>
+                            <p>O'FURNI tự hào được đồng hành cùng với sự phát triển lớn mạnh của hơn 1200 doanh nghiệp trong và ngoài nước đến từ nhiều ngành nghề với quy mô lớn nhỏ khác nhau.</p>
+                            <div class="list-partner owl-carousel owl-theme">
+                                                                    <div class="item">
+                                        <a href="http://www.ofurni.com/vi/page/488/du-an-dai-hoc-kinh-te-tp.ho-chi-minh.html" target="_blank" title="Dự án UEH University of economics Ho Chi Minh city">
+                                            <img src="https://ofurni.com/uploads/UEH_tower_2_có_logo2.jpg" alt="Dự án UEH University of economics Ho Chi Minh city">
+                                        </a>
+                                    </div>
+                                                                    <div class="item">
+                                        <a href="http://www.ofurni.com/vi/page/393/du-an-cgv.html" target="_blank" title="partner 1">
+                                            <img src="https://ofurni.com/uploads/CGV.jpg" alt="partner 1">
+                                        </a>
+                                    </div>
+                                                                    <div class="item">
+                                        <a href="http://www.ofurni.com/vi/page/407/du-an-dai-hoc-ton-duc-thang.html" target="_blank" title="partner 2">
+                                            <img src="https://ofurni.com/uploads/TDT1.jpg" alt="partner 2">
+                                        </a>
+                                    </div>
+                                                                    <div class="item">
+                                        <a href="http://www.ofurni.com/vi/page/400/du-an-manulife.html" target="_blank" title="partner 3">
+                                            <img src="https://ofurni.com/uploads/Manua_life.jpg" alt="partner 3">
+                                        </a>
+                                    </div>
+                                                                    <div class="item">
+                                        <a href="http://www.ofurni.com/vi/page/391/du-an-fpt-hoa-lac-ha-noi.html" target="_blank" title="partner 4">
+                                            <img src="https://ofurni.com/uploads/FPT.jpg" alt="partner 4">
+                                        </a>
+                                    </div>
+                                                                    <div class="item">
+                                        <a href="http://www.ofurni.com/vi/page/210/benh-vien-nhi-binh-chanh.html" target="_blank" title="partner 5">
+                                            <img src="https://ofurni.com/uploads/BV_nhi_dong3.jpg" alt="partner 5">
+                                        </a>
+                                    </div>
+                                                                    <div class="item">
+                                        <a href="http://ofurni.com/vi/page/453/du-an-pizza-hut.html" target="_blank" title="Pizzahut">
+                                            <img src="https://ofurni.com/uploads/Web_Banner_Pizza_Hut.png" alt="Pizzahut">
+                                        </a>
+                                    </div>
+                                                                    <div class="item">
+                                        <a href="http://ofurni.com/vi/page/454/du-an-heniken.html" target="_blank" title="Heniken">
+                                            <img src="https://ofurni.com/uploads/Web_Banner_Heineken.png" alt="Heniken">
+                                        </a>
+                                    </div>
+                                                                    <div class="item">
+                                        <a href="http://ofurni.com/vi/page/455/du-an-zalo-vinagame.html" target="_blank" title="Zalo/VNG">
+                                            <img src="https://ofurni.com/uploads/vng-atrium_byem1.jpg" alt="Zalo/VNG">
+                                        </a>
+                                    </div>
+                                                                    <div class="item">
+                                        <a href="http://www.ofurni.com/vi/page/411/du-an-vinfast.html" target="_blank" title="Dự án VINFAST">
+                                            <img src="https://ofurni.com/uploads/hình_VF_640-400.jpg" alt="Dự án VINFAST">
+                                        </a>
+                                    </div>
+                                                                    <div class="item">
+                                        <a href="http://www.ofurni.com/vi/page/478/du-an-emasi.html" target="_blank" title="Dự án EMASI">
+                                            <img src="https://ofurni.com/uploads/EMASI+logo.jpg" alt="Dự án EMASI">
+                                        </a>
+                                    </div>
+                                                                    <div class="item">
+                                        <a href="http://www.ofurni.com/vi/page/479/du-an-nab-etown.html" target="_blank" title="">
+                                            <img src="https://ofurni.com/uploads/NAB_Etown1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                                                    <div class="item">
+                                        <a href="http://www.ofurni.com/vi/page/481/du-an-c-space.html" target="_blank" title="">
+                                            <img src="https://ofurni.com/uploads/c_space_logo1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                                                    <div class="item">
+                                        <a href="https://www.ofurni.com/vi/page/602/du-an-con-cung.html" target="_blank" title="Dự án Con Cưng">
+                                            <img src="https://ofurni.com/uploads/Con_Cung1.jpg" alt="Dự án Con Cưng">
+                                        </a>
+                                    </div>
+                                                            </div>
+                            <div class="owl-theme">
+                                <div class="owl-controls">
+                                    <div class="custom-nav owl-nav"></div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                                            <div class="hot-news news-list">
+                            <h4>Thông tin nổi bật</h4>
+                            <div class="grid-view grid-3 list-hot-news owl-carousel owl-theme">
+                                                                    <a href="https://ofurni.com/vi/page/483/thong-bao-nghi-tet-tan-suu-2021.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/Banner_B21.jpg" />
+                                        </div>
+                                        <strong>Thông báo nghỉ Tết Tân Sửu 2021</strong>
+                                        <p>Thông báo nghỉ Tết Tân Sửu 2021</p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/608/15-nam-nhung-cot-moc-di-vao-lich-su.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/340x170cnhq.png" />
+                                        </div>
+                                        <strong>[15 Năm] Những Cột Mốc Đi Vào Lịch Sử</strong>
+                                        <p>15 Năm câu chuyện khởi nghiệp với sứ mệnh rút ngắn khoảng cách không gian, thời gian… đem giải pháp nội thất toàn cầu tới từng công trình kiến trúc.</p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/623/tai-sao-ban-can-chon-mot-chiec-ghe-rieng-de-lam-viec-va-hoc-tap.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/ghe-lam-viec-2.png" />
+                                        </div>
+                                        <strong>Tại Sao Bạn Cần Chọn Một Chiếc Ghế Riêng Để Làm Việc Và Học Tập</strong>
+                                        <p>Ghế làm việc và ghế ăn, thế thư giãn… khác nhau chức năng của nó đối với người dùng . Ghế văn phòng hay ghế xoay thường được thiết kế ra để đáp ứng các nhu cầu của một người phải ngồi làm việc liên tục trong thời gian dài.</p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/625/ofurni-dem-cuoc-thi-dua-ghe-van-phong-sieu-toc-teamwork-racing-lan-dau-tien-ve-viet-nam.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/avatar-TWR21.jpg" />
+                                        </div>
+                                        <strong>O'FURNI Đem Cuộc Thi Đua Ghế Văn Phòng Siêu Tốc - Teamwork Racing Lần Đầu Tiên Về Việt Nam</strong>
+                                        <p>O'FURNI Đem Cuộc Thi Đua Ghế Văn Phòng Siêu Tốc - Teamwork Racing Lần Đầu Tiên Về Việt Nam</p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/496/kinh-nghiem-work-from-home-hieu-qua.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/work_from_home.jpg" />
+                                        </div>
+                                        <strong>KINH NGHIỆM WORK FROM HOME HIỆU QUẢ</strong>
+                                        <p>Làm việc tại nhà khó hơn làm việc tại văn phòng. Vì cần sự tự kỷ luật và tự motivate cho bản thân mình. Mình đã làm việc WFH 2 năm và đây là kinh nghiệm đúc kết từ bản thân mình:</p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/498/nhung-chuan-bi-cho-doanh-nghiep-work-from-home-hieu-qua.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/work-From-Home-flexible-jobs.jpg" />
+                                        </div>
+                                        <strong>Những Chuẩn Bị Cho Doanh Nghiệp Work From Home Hiệu Quả</strong>
+                                        <p>Với các chủ doanh nghiệp thì WFH không có gì mới lạ, vì bất kể khi nào & ở đâu thì họ cũng luôn trong trạng thái WFH.</p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/599/huong-dan-dat-hang-tren-ofurni.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/mua_hang_online.jpg" />
+                                        </div>
+                                        <strong>Hướng dẫn đặt hàng trên O’FURNI</strong>
+                                        <p>Hướng dẫn đặt hàng trên O’FURNI</p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/609/tulip-stool-giai-phap-van-phong-thong-minh.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/8db59f666f9490cac985.jpg" />
+                                        </div>
+                                        <strong>Tulip stool - Giải Pháp Văn Phòng Thông Minh</strong>
+                                        <p>Hệ thống nghiêng lò xo mới theo công nghệ nghiêng sóng Wave Tilt cho phép chuyển động 360 độ theo chuyển động của người dùng trong khi vẫn duy trì sự ổn định, bạn có thể vừa ngồi làm việc vừa tập thể dục, vô cùng tiện lợi.</p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/617/van-phong-thong-minh.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/340x170.png" />
+                                        </div>
+                                        <strong>VĂN PHÒNG THÔNG MINH</strong>
+                                        <p>văn phòng thông minh</p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/604/sum-giai-phap-van-phong-thong-minh.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/ophelis-sum6erAbteil-1000x667.jpg" />
+                                        </div>
+                                        <strong>SUM - Giải Pháp Văn Phòng Thông Minh</strong>
+                                        <p>Ophelis sum là một hệ thống chỗ ngồi mô-đun để cấu hình các hòn đảo trong một căn phòng. Ý tưởng sản phẩm ghế Sum dựa trên ba yếu tố cốt lõi: đế, vách ngăn và đệm. Chúng có thể được kết hợp theo kiểu mô-đun.  </p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/605/tree-house-giai-phap-van-phong-thong-minh.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/a54c66e0f931066f5f20.jpg" />
+                                        </div>
+                                        <strong>TREE HOUSE - Giải Pháp Văn Phòng Thông Minh</strong>
+                                        <p>Với một thiết kế đặc biệt, O’FURNI giới thiệu một yếu tố thú vị ở nơi làm việc, Treehouse hoàn toàn phù hợp với bất kỳ khu vực đột phá hoặc không gian hội họp nào.</p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/592/ngoi-lam-viec-sai-tu-the-mang-den-nhung-hau-qua-khong-luong.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/ghe-ngoi-nga-lung-1.jpg" />
+                                        </div>
+                                        <strong>Ngồi làm việc sai tư thế mang đến những hậu quả không lường</strong>
+                                        <p>Theo một nghiên cứu tại Đại học San Francisco đã chỉ ra rằng: “những sinh viên có thói quen không tốt đó là thường xuyên ngồi không thẳng lưng khi ngồi học, thường rất dễ rơi vào trạng thái căng thẳng, mệt mỏi nặng hơn có thể dẫn đến trầm cảm.</p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/497/giam-tat-ca-33-3-mang-van-phong-ve-nha-xa-corona.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/work_from_home1.jpg" />
+                                        </div>
+                                        <strong>GIẢM TẤT CẢ 33% +3% MANG VĂN PHÒNG VỀ NHÀ XA CORONA</strong>
+                                        <p>Giảm tất cả 33% +3% mang văn phòng về nhà xa corona</p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/326/dau-an-dfurni-cung-thu-vien-hien-dai-bac-nhat-o-sai-gon.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/ton_duc_thang1.jpg" />
+                                        </div>
+                                        <strong>Dấu ấn D'Furni cùng Thư viện hiện đại bậc nhất ở Sài Gòn</strong>
+                                        <p>Dấu ấn D'Furni cùng Thư viện hiện đại bậc nhất ở Sài Gòn</p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/325/ceo-dfurni-tay-trang-lam-nen-thuong-hieu-noi-that-noi-tieng.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/vutienthap1_cdyw.jpg" />
+                                        </div>
+                                        <strong>CEO D'Furni: Tay trắng làm nên thương hiệu nội thất nổi tiếng</strong>
+                                        <p>CEO D'Furni: Tay trắng làm nên thương hiệu nội thất nổi tiếng</p>
+                                    </a>
+                                                                    <a href="https://ofurni.com/vi/page/487/mb-khai-truong-trung-tam-hoc-tap-va-sang-tao-hien-dai-bac-nhat.html" class="grid-item news-item item">
+                                        <div class="box-frame">
+                                            <img data-dimens="340,172" data-lazy="https://ofurni.com/uploads/learning_and_creatives_center.jpg" />
+                                        </div>
+                                        <strong>MB khai trương trung tâm học tập và sáng tạo hiện đại bậc nhất</strong>
+                                        <p>MB khai trương trung tâm học tập và sáng tạo hiện đại bậc nhất</p>
+                                    </a>
+                                                            </div>
+                            <div class="owl-theme">
+                                <div class="owl-controls">
+                                    <div class="custom-nav owl-nav"></div>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+                <div class="newsletter">
+                    <div class="wrap">
+                        <img src="img/ico-newsletter.png" alt="" class="icon">
+                        <h4>Đăng ký nhận thông tin</h4>
+                        <p>Nhập email của bạn để nhận được thông tin khuyến mãi & sản phẩm mới sớm nhất</p>
+                        <form id="subscription_frm" class="form" method="post" action="https://ofurni.com/vi/email-subscription.html">
+                            <input type="text" name="name" value="" class="name" placeholder="Họ và tên"
+                                   data-msg="Vui lòng nhập Tên">
+                            <input type="text" name="email" value="" class="email" placeholder="Email"
+                                   data-msg="Vui lòng nhập Email"
+                                   data-error-email="Vui lòng nhập Email hợp lệ">
+                            <input type="submit" name="" class="submit" value="Đăng ký" id="subscription_btn">
+                        </form>
+                    </div>
+                </div>
+
+            </section>
+            
+            <!--FOOTER-->
+            <footer class="main-footer">
+                				<div class="bar-1">
+                    <div class="wrapper box-outer">
+						<div class="box-left box-ft mblfix">
+									<h4>Sản Phẩm</h4>
+									<ul class="nav">
+									<li><a href="https://ofurni.com/vi/danh-muc/17/ghe-van-phong.html">Ghế văn phòng</a></li><li><a href="https://ofurni.com/vi/danh-muc/55/ghe-dao-tao.html">Ghế đào tạo</a></li><li><a href="https://ofurni.com/vi/danh-muc/104/bestuhl-brand.html">Bestuhl Brand</a></li><li><a href="https://manager-f.com/vn/trang-chu.html" target="_blank">MANAGER Brand</a></li><li><a href="https://ofurni.com/vi/danh-muc/19/ban-tu-van-phong.html">Bàn - Tủ văn phòng</a></li><li><a href="https://ofurni.com/vi/danh-muc/20/sofa-van-phong.html">Sofa văn phòng</a></li><li><a href="https://ofurni.com/vi/danh-muc/21/giao-duc.html">Giáo dục</a></li><li><a href="https://ofurni.com/vi/danh-muc/25/ghe-rap-phim-hat.html">Ghế rạp phim, hát</a></li><li><a href="https://www.homefurni.vn/khong-gian-giai-tri-282.html" target="_blank">Không gian giải trí</a></li><li><a href="https://ofurni.com/vi/danh-muc/27/y-te-spa.html">Y tế - Spa</a></li><li><a href="https://ofurni.com/vi/danh-muc/22/ghe-bang-cho.html">Ghế băng chờ</a></li><li><a href="https://ofurni.com/vi/danh-muc/96/van-phong-thong-minh.html">Văn phòng thông minh</a></li>	</ul>
+									</div>
+									<div class="box-left box-ft mblfix">
+												<h4>Về chúng tôi</h4>
+												<ul class="nav">
+												<li><a href="https://ofurni.com/vi/page/90/thuong-hieu-ofurni.html">Thương hiệu O'FURNI</a></li>
+											<li><a href="https://www.dfurni.com/vi/gioi-thieu/" target="_blank">Công ty D'FURNI</a></li>
+											<li><a href="https://www.dfurni.com/vi/gioi-thieu/" target="_blank">Các mốc thời gian</a></li>
+											<li><a href="https://www.dfurni.com/vi/gioi-thieu/" target="_blank">Nhà máy</a></li>
+											<li><a href="https://ofurni.com/vi/gallery/134/thu-vien-hinh-anh.html">Thư viện hình ảnh</a></li>
+											<li><a href="https://ofurni.com/vi/pages/130/tin-tuc.html">Tin tức</a></li>
+											<li><a href="https://www.dfurni.com/vi/du-an-da-thuc-hien/" target="_blank">Đối tác thiết kế thi công</a></li>
+											<li><a href="https://www.dfurni.com/vi/tuyen-dung/" target="_blank">Tuyển Dụng</a></li>
+											<li><a href="https://ofurni.com/vi/page/84/lien-he.html">Liên hệ</a></li>
+											</ul>
+											</div>
+											<div class="box-left box-ft mblfix">
+												<h4>Dịch vụ khách hàng</h4>
+												<ul class="nav">
+												<li><a href="https://www.dfurni.com/vi/huong-dan-bao-quan-san-pham/" target="_blank">Hướng dẫn sử dụng</a></li>
+											<li><a href="https://www.dfurni.com/vi/phuong-thuc-giao-hang/" target="_blank">Phương thức giao hàng</a></li>
+											<li><a href="https://www.dfurni.com/vi/huong-dan-thanh-toan/" target="_blank">Phương thức thanh toán</a></li>
+											<li><a href="https://www.dfurni.com/vi/chinh-sach-bao-hanh/" target="_blank">Chính sách bảo hành</a></li>
+											</ul>
+											</div>
+											                        <div class="box-left box-ft last">
+                                                                                        <div class="facebook">
+                                    <div class="fb-page" data-href="https://www.facebook.com/OFURNI/" data-tabs="" data-width="342" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/OFURNI/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/OFURNI/">O&#039;furni - Nội Thất Văn Phòng Teamwork</a></blockquote></div>
+                                </div>
+                                                                                    <div class="youtube-container">
+                                                                <div class="youtube">
+                                    <iframe width="100%" height="120" src="https://www.youtube.com/embed/sC-U7H3XAaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                                                                                </div>
+                    </div>
+                </div>
+                <div class="bar-2">
+                    <div class="wrapper box-outer">
+                        <div class="box-left box-ft dskfix">
+                            <select class="bottom-menu" id="footer_select_menu">
+                                <option value="0" selected="selected">Các thông tin khác</option>
+                                <optgroup label="Sản Phẩm">
+                                    <option  value="https://ofurni.com/vi/danh-muc/17/ghe-van-phong.html">Ghế văn phòng</option><option  value="https://ofurni.com/vi/danh-muc/55/ghe-dao-tao.html">Ghế đào tạo</option><option  value="https://ofurni.com/vi/danh-muc/104/bestuhl-brand.html">Bestuhl Brand</option><option target="_blank" value="https://manager-f.com/vn/trang-chu.html">MANAGER Brand</option><option  value="https://ofurni.com/vi/danh-muc/19/ban-tu-van-phong.html">Bàn - Tủ văn phòng</option><option  value="https://ofurni.com/vi/danh-muc/20/sofa-van-phong.html">Sofa văn phòng</option><option  value="https://ofurni.com/vi/danh-muc/21/giao-duc.html">Giáo dục</option><option  value="https://ofurni.com/vi/danh-muc/25/ghe-rap-phim-hat.html">Ghế rạp phim, hát</option><option target="_blank" value="https://www.homefurni.vn/khong-gian-giai-tri-282.html">Không gian giải trí</option><option  value="https://ofurni.com/vi/danh-muc/27/y-te-spa.html">Y tế - Spa</option><option  value="https://ofurni.com/vi/danh-muc/22/ghe-bang-cho.html">Ghế băng chờ</option><option  value="https://ofurni.com/vi/danh-muc/96/van-phong-thong-minh.html">Văn phòng thông minh</option>                                </optgroup>
+                                                                            <optgroup label="Về chúng tôi">
+                                                <option  value="https://ofurni.com/vi/page/90/thuong-hieu-ofurni.html">Thương hiệu O'FURNI</option><option target="_blank" value="https://www.dfurni.com/vi/gioi-thieu/">Công ty D'FURNI</option><option target="_blank" value="https://www.dfurni.com/vi/gioi-thieu/">Các mốc thời gian</option><option target="_blank" value="https://www.dfurni.com/vi/gioi-thieu/">Nhà máy</option><option  value="https://ofurni.com/vi/gallery/134/thu-vien-hinh-anh.html">Thư viện hình ảnh</option><option  value="https://ofurni.com/vi/pages/130/tin-tuc.html">Tin tức</option><option target="_blank" value="https://www.dfurni.com/vi/du-an-da-thuc-hien/">Đối tác thiết kế thi công</option><option target="_blank" value="https://www.dfurni.com/vi/tuyen-dung/">Tuyển Dụng</option><option  value="https://ofurni.com/vi/page/84/lien-he.html">Liên hệ</option>                                            </optgroup>
+                                                                                    <optgroup label="Dịch vụ khách hàng">
+                                                <option target="_blank" value="https://www.dfurni.com/vi/huong-dan-bao-quan-san-pham/">Hướng dẫn sử dụng</option><option target="_blank" value="https://www.dfurni.com/vi/phuong-thuc-giao-hang/">Phương thức giao hàng</option><option target="_blank" value="https://www.dfurni.com/vi/huong-dan-thanh-toan/">Phương thức thanh toán</option><option target="_blank" value="https://www.dfurni.com/vi/chinh-sach-bao-hanh/">Chính sách bảo hành</option>                                            </optgroup>
+                                                                    </select>
+                        </div>
+                        <div class="box-left">
+                            <div>&copy; 2021 O'Furni. All rights reserved.</div>
+                            <div class="brand">
+                                <p>Thành viên của D'FURNI</p>
+                                <a href="http://manager-f.com/" target="_blank"><img src="/img/logo-managerf.png" alt="Manager-f"></a>
+                                <a href="http://ofurni.com/" target="_blank"><img src="/img/logo-ofurni.png" alt="Ofurni"></a>
+                                <a href="https://www.homefurni.vn/" target="_blank"><img src="/img/logo-homefurni.png" alt="Home Furni"></a>
+                                <a href="http://bestuhl.co.kr/" target="_blank"><img src="/img/logo-bestuhl.png" alt="Bestuhl"></a>                            </div>
+                        </div>
+                        <div class="box-right">
+                               <div>                                                                       
+<div><strong>Hệ thống phân phối sỉ nội thất D'FURNI </strong>
+<div><strong>HCM: </strong>51 xa lộ Hà Nội, Thảo Điền, TP. Thủ Đức
+<div><strong> </strong>A27 KDC Kim Sơn, Nguyễn Hữu Thọ, Q.7, TP.HCM.
+<div><strong> </strong>440 Ngô Gia Tự, P.4, Q.10, TP.HCM.
+
+
+<div><strong> </strong>521 Tô Hiến Thành, P.14, Q.10, TP.HCM.
+
+<div><strong>HN: </strong>Villa NV14 khu biệt thự Imperia Garden, <div>203 Nguyễn Huy Tưởng, Thanh Xuân Trung, Thanh Xuân, Hà Nội
+<div><strong>Nhà Máy: </strong>913 Quốc Lộ 1A, P. An Lạc, Q. Bình Tân, TP.HCM
+<div>                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- new update -->
+        <div class="st-actionContainer left-bottom">
+            <div class="st-panel">
+                <div class="st-panel-header">Liên hệ nhân viên kinh doanh</div>
+                <div class="st-panel-contents">
+                    <ul class="sales-phone-number">
+                        <li>Tổng đài <a href="tel:1900636884">1900 636 884</a></li>                    </ul>
+                </div>
+            </div>
+            <div class="st-btn-container left-bottom">
+                <div class="st-button-main"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            </div>
+        </div>
+
+
+
+      .      
+      
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3C3MXZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    </body>
+</html>

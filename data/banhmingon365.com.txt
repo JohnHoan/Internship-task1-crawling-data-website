@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+
+<title>Trang chủ</title>
+<meta name="title" content="Trang chủ">
+<meta name="description" content="">
+<meta property="og:url" content="https://banhmingon365.com/" />
+<meta property="og:title" content="Trang chủ" />
+<meta property="og:image" content="" />
+<meta property="fb:app_id" content="2640848836240370" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="" />
+<meta property="shopuuid" content="fb585747-661e-4353-bfda-cf30921679e7" />
+<meta name="robots" content="index,follow" />
+
+<style media="screen">
+    /* img, iframe {
+        max-width: 100%;
+    }
+    iframe:not([height]) {
+        height: auto;
+    }
+    .container {
+        padding: 0 10px;
+    } */
+
+</style>
+    
+    <meta charset="utf-8">
+<meta name="viewport" content="width=1280"/>
+<meta name="shop_uuid" content="fb585747-661e-4353-bfda-cf30921679e7">
+<link rel="icon" href="https://s4.shopbay.vn/files/464/logo-apec-file-mem-cat-60d7e3d1cb9d2.jpg" type="image/png" sizes="16x16">
+<style>
+    :root {
+        --primary-color: #136b27;
+        --secondary-color: #4b76e3;
+        --text-color: #FFFFFF;
+        --secondary-text-color: #FFFFFF;
+    }
+</style>
+<style>
+html {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+.container {
+    width : 1240px;
+    min-width: 1024px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.center {
+    text-align: center;
+}
+.no-padding {
+    padding : 0;
+}
+.right {
+    float: right;
+    text-align: right;
+}
+.flex {
+    display: flex;
+}
+input[type=text], textarea {
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    outline: none;
+}
+input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 5px var(--primary-color);
+}
+button, a {
+    cursor: pointer;
+}
+body {
+    margin: 0;
+    background-color : #f4f4f4;
+}
+.header-logo .container {
+    height: 40px;
+    justify-content: space-between;
+}
+.header-logo {
+    /* height: 40px; */
+    padding : 20px 0 16px;
+    box-sizing: content-box;
+}
+.logo-container {
+    height: 40px;
+    width: 244px;
+}
+.logo-container img {
+    height: 40px;
+}
+.search {
+    box-shadow: rgba(98, 98, 98, 0.5) 0px 1px 2px 0px;
+    border-radius: 4px;
+    width : 584px;
+}
+.cart {
+    width: 412px;
+    text-align: right;
+}
+.minicart {
+    float: right;
+    border-radius: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    border: 2px solid white;
+    text-align: right;
+    height: 40px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+}
+.cart i {
+    font-size: 18px;
+    margin-right: 9px;
+    line-height: 36px;
+}
+.cart span {
+    background: rgb(253, 216, 53);
+    padding: 0 6px;
+    border-radius: 2px;
+    color: black;
+    font-weight: bold;
+    font-weight: 700;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 9px;
+}
+.search input::placeholder{
+    color: #ccc;
+}
+.search input {
+    height: 40px;
+    width : calc(100% - 121px);
+    margin : 0;
+    display: block;
+    padding : 0 8px;
+    outline: none;
+    border: none;
+    border-radius : 4px 0 0 4px;
+    font-size: 13px;
+}
+.search button i {
+    width: 14px;
+    display: inline-block;
+}
+.search button {
+    height: 40px;
+    /* display: flex; */
+    background-color : rgb(237, 238, 242);
+    border: none;
+    width: 121px;
+    border-radius : 0 4px 4px 0;
+    padding: 0 15px;
+    font-size: 14px;
+    color : rgb(74, 74, 74);
+    line-height: 40px;
+}
+header div.header-promo {
+    height : 50px;
+    background-color : #ff9da5;
+}
+header div.header-topbar {
+    height : 30px;
+    background-color : var(--secondary-color);
+}
+.header-topbar a{
+    line-height: 30px;
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+header div.header-main{
+    height : 116px;
+    background-color : var(--primary-color);
+}
+.header-categories .container{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:
+    space-between;
+    height:40px;
+}
+.header-categories a {
+    color: white;
+    text-decoration: none;
+}
+.header-categories a i {
+    width: 39px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+}
+.header-categories .why-us {
+    display: flex;
+    color: white;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    align-items: center;
+}
+.header-categories .why-us img {
+    width: 28px;
+    height: 28px;
+    margin-right: 6px;
+}
+.header-categories .why-us p {
+    margin: 0;
+}
+footer {
+    padding-top: 50px;
+}
+footer .newsletter {
+    background-color : rgb(247, 247, 247);
+    height: 100px;
+    display: flex;
+    padding-top: 32px;
+    /* box-sizing: border-box; */
+}
+.newsletter .container > div {
+    float: left;
+}
+.newsletter .icon {
+    margin-top: -50px;
+    margin-right: 10px;
+}
+.newsletter .description {
+    margin-right: 30px;
+}
+.newsletter .description h3{
+    color : rgb(78, 80, 82);
+    font-size: 16px;
+    line-height: 1.15;
+    margin: 0;
+}
+.newsletter .description h5{
+    color : rgb(78, 80, 82);
+    font-size: 13px;
+    line-height: 1.15;
+    margin: 5px 0 0 0;
+}
+.newsletter input {
+    width: 345px;
+    padding: 6px 12px;
+    background-color: white;
+    border : 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0px;
+    height: 34px;
+    margin-right: 10px;
+    /* box-sizing: border-box; */
+}
+.newsletter button {
+    height: 34px;
+    color : white;
+    padding: 6px 12px;
+    background-color: var(--primary-color);
+    /* box-sizing: border-box; */
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.footer {
+    padding: 40px 0;
+    background-color : white;
+}
+.footer h4 {
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    text-transform: uppercase;
+    margin: 0px 0px 17px;
+}
+.footer .item a,.footer .item * {
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 11px;
+}
+.footer img {
+    max-width: 100%;
+}
+.footer .container > div.item {
+    width: 25%;
+    float: left;
+}
+footer .copyright {
+    background-color : white;
+    border-top: 1px solid #eee;
+    padding: 20px 0;
+}
+.copyright h5 {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0px 0px 5px;
+}
+.copyright p {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 300;
+}
+.minicart, .header-categories .why-us, .header-categories a {
+    color : var(--text-color);
+}
+.header-topbar a:first-child {
+    margin-left: 0
+}
+.header-topbar a {
+    color: var(--secondary-text-color);
+}
+ .minicart {
+    border-color : var(--text-color);
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+div.price {
+    height: 53px;
+}
+</style>
+
+    
+    <script type="text/javascript">
+    var referHost = '';
+    var fullUrl = window.location.href;
+    var host = "banhmingon365.com";
+</script>
+
+<script>
+function trackingLastClick(referHost,fullUrl, host ){
+	fetch("https://clicker.shopbay.vn/service/tracking/tracking-source", {
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+		crossDomain: true,
+		body: JSON.stringify({
+			url: encodeURIComponent(fullUrl),
+			referHost: referHost,
+			host: host,
+			_token: getToken()
+		})
+	}).then(function (data) {
+
+	});
+
+}
+
+function getToken() {
+	var token = localStorage.getItem('token_user_query');
+	if (!token) {
+		token = makeToken(30);
+		localStorage.setItem('token_user_query', token);
+	}
+	return token;
+}
+
+function makeToken(length) {
+	var result           = '';
+	var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+	var charactersLength = characters.length;
+	for ( var i = 0; i < length; i++ ) {
+		result += characters.charAt(Math.floor(Math.random() * charactersLength));
+	}
+	result += Date.now();
+	return result;
+}
+
+function getIdentity() {
+	var tokenIdentity = localStorage.getItem('user_identity');
+	if (!tokenIdentity) {
+		tokenIdentity = makeIdentity(15);
+		localStorage.setItem('user_identity', tokenIdentity);
+	}
+	return tokenIdentity;
+}
+
+function makeIdentity(length) {
+	var result = localStorage.getItem('token_user_query');
+	if (!result) {
+		result = '';
+		var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+		var charactersLength = characters.length;
+		for (var i = 0; i < length; i++) {
+			result += characters.charAt(Math.floor(Math.random() * charactersLength));
+		}
+		result += Date.now();
+	}
+	return result;
+}
+
+function sessionIdentity() {
+	var url = '/set-identity?identity=' +  getIdentity();
+
+	fetch(url, function(result) {
+	});
+}
+
+function setCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name + "=" + value + expires + "; path=/";
+}
+
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function ready(callback){
+    // in case the document is already rendered
+    if (document.readyState!='loading') callback();
+    // modern browsers
+    else if (document.addEventListener) document.addEventListener('DOMContentLoaded', callback);
+    // IE <= 8
+    else document.attachEvent('onreadystatechange', function(){
+        if (document.readyState=='complete') callback();
+    });
+}
+
+ready(function () {
+	if(typeof referHost == 'undefined'){
+		referHost = '';
+	}
+	if(typeof fullUrl == 'undefined'){
+		fullUrl = '';
+	}
+	if(typeof host == 'undefined'){
+		host = '';
+	}
+	trackingLastClick(referHost, fullUrl, host);
+	getIdentity();
+
+});
+</script><meta property="fb:app_id" content=""/></head>
+<body>
+        
+    <header>
+            <div class="header-topbar">
+        <div class="container flex-space-between">
+                            <div>
+                    <div class="flex left">
+                                                                                    <a href=""></a>
+                                                            <a href=""></a>
+                                                            <a href=""></a>
+                                                            <a href=""></a>
+                                                                        </div>
+                </div>
+                            <div>
+                    <div class="flex right">
+                                                                                    <a href="/tin-tuc.html">Tin tức</a>
+                                                            <a href="/lien-he-n10453.html">Liên hệ</a>
+                                                            <a href="/chinh-sach-van-chuyen-n10452.html">Chính sách vận chuyển</a>
+                                                            <a href="/chinh-sach-bao-mat-n10451.html">chính sách bảo mật</a>
+                                                                        </div>
+                </div>
+                    </div>
+    </div>
+        <div class="header-main">
+        <div class="header-logo">
+            <div class="container no-padding flex">
+                <div class="logo-container">
+                                        <a href="/"><img src="https://static.shopbay.vn/unsafe/s4.shopbay.vn/files/464/z2552229695754-fcae2b31963e4fe93694eeb92d6aba35-60c7898dee509.jpg" alt=""></a>
+                </div>
+                <form class="" action="/search" method="get">
+                <div class="search flex">
+                        <input type="text" name="q" value="" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ...">
+                        <button type="submit"><i class="fal fa-search"></i> Tìm kiếm</button>
+                </div>
+            </form>
+                <div class="cart">
+    <a href="https://banhmingon365.com/cart" class="minicart">
+        <i class="fal fa-shopping-cart"></i>
+        Giỏ hàng
+        <span id="minicart-count">0</span>
+    </a>
+</div>
+
+            </div>
+
+        </div>
+        <style media="screen">
+            .list-menu {
+                position: relative;
+            }
+
+            .list-menu > a {
+                padding: 10px 0;
+                display: block;
+                min-height: 40px;
+            }
+            .sub-menu-dropdown {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 245px;
+                background-color: #fff;
+                z-index: 88;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                box-shadow: 0 1px 3px rgba(111, 111, 111, 0.5);
+                border-radius: 0 0 3px 3px;
+                display: none;
+            }
+            .sub-menu-dropdown::after {
+                bottom: 100%;
+                left: 50%;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+                border-color: rgba(255, 255, 255, 0);
+                border-bottom-color: #fff;
+                border-width: 6px;
+                margin-left: -6px;
+            }
+
+            .list-menu:hover .sub-menu-dropdown {
+                display: block;
+            }
+
+            .sub-menu-dropdown a {
+                color: rgb(68, 68, 68);
+                padding: 7px 0;
+                font-size: 13px;
+                display: block;
+                min-height: 35px;
+            }
+
+            .sub-menu-dropdown a:hover {
+                color: rgb(255, 57, 69)
+            }
+
+            .child-menu-dropdown {
+                position: absolute;
+                top: 0%;
+                left: 100%;
+                width: 245px;
+                background-color: #fff;
+                z-index: 88;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                box-shadow: 0 1px 3px rgba(111, 111, 111, 0.5);
+                border-radius: 0 0 3px 3px;
+                display: none;
+            }
+
+            .has-child:hover .child-menu-dropdown {
+                display: block;
+            }
+
+
+        </style>
+        <div class="header-categories">
+            <div class="container no-padding flex">
+                <div class="list-menu">
+                    <a href="#" class="flex" class="">
+                        <span class=""></span>
+                        <i class="fal fa-bars"></i> DANH MỤC SẢN PHẨM
+                    </a>
+                    <ul class="sub-menu-dropdown">
+                                                    <li>
+                                <a href="/banh-my-c13901.html"><i class="fal fa-star" aria-hidden="true"></i>Bánh mỳ</a>
+                            </li>
+                                                    <li>
+                                <a href="/do-uong-c13904.html"><i class="fal fa-star" aria-hidden="true"></i>Đồ uống</a>
+                            </li>
+                                                    <li>
+                                <a href="/combo-tiet-kiem-c13905.html"><i class="fal fa-star" aria-hidden="true"></i>Combo tiết kiệm</a>
+                            </li>
+                                                    <li>
+                                <a href="/me-nu-365-c13955.html"><i class="fal fa-star" aria-hidden="true"></i>MENU 365</a>
+                            </li>
+                                                    <li>
+                                <a href="/gà-nướng-sốt-hàn-quốc-c13956.html"><i class="fal fa-star" aria-hidden="true"></i>GÀ NƯỚNG SỐT HÀN QUỐC</a>
+                            </li>
+                                                    <li>
+                                <a href="/thịt-nướng-bbq-kim-chi-c13957.html"><i class="fal fa-star" aria-hidden="true"></i>THỊT NƯỚNG BBQ KIM CHI</a>
+                            </li>
+                                                    <li>
+                                <a href="/bò-viên-pho-mai-c13958.html"><i class="fal fa-star" aria-hidden="true"></i>BÒ VIÊN PHO MAI</a>
+                            </li>
+                                            </ul>
+                </div>
+
+                <div style="width: 480px;">
+
+                </div>
+                                    <div class="why-us">
+                        <img src="/tiki/images/medal.png" alt="">
+                        <p>Giao hàng<br/> toàn quốc</p>
+                        </div>
+                        <div class="why-us">
+                            <img src="/tiki/images/medal.png" alt="">
+                            <p>Tất cả sản phẩm<br /> 100% chính hiệu
+                            </p>
+                        </div>
+                        <div class="why-us">
+                            <img src="/tiki/images/medal.png" alt="">
+                            <p>30 ngày đổi trả dễ dàng</p>
+                            </div>
+                
+
+
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <script type="text/javascript">
+        function canUseWebP() {
+            var elem = document.createElement('canvas');
+
+            if (!!(elem.getContext && elem.getContext('2d'))) {
+                // was able or not to get WebP representation
+                return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
+            }
+
+            // very old browser like IE 8, canvas not supported
+            return false;
+        }
+        webpSupport = canUseWebP();
+
+        function getImageCdn($url, $width = 0, $height = 0, $fitIn = true, $webp = true) {
+        $originUrl = $url;
+        if ($url.substr(0, 4) == 'http') {
+        $url = $url.replace('https://', '');
+        $url = $url.replace('http://', '');
+        } else {
+        $url = document.domain + $url;
+        }
+        if ($webp) {
+        if( webpSupport ) {
+        $webp = true;
+        } else {
+        $webp = false;
+        }
+        }
+
+        $baseCdnUrl = "https://static.shopbay.vn/unsafe/";
+        $fitIn = ($fitIn && $width && $height);
+        // $fitIn = false;
+        if ($fitIn) {
+        $baseCdnUrl += "fit-in/";
+        }
+        if ($width || $height) {
+        $baseCdnUrl += $width + "x" + $height + "/";
+        }
+        if ($fitIn || $webp) {
+        $baseCdnUrl += "filters";
+        }
+        if ($fitIn) {
+        $baseCdnUrl += "-fill-fff-";
+        }
+        if ($webp) {
+        $baseCdnUrl += "-format-webp-";
+        }
+        if ($fitIn || $webp) {
+        $baseCdnUrl += "/";
+        }
+        $baseCdnUrl += $url;
+        return $baseCdnUrl;
+        }
+    </script>
+    <style media="screen">
+        /* menu */
+        div.menu {
+            padding: 0;
+        }
+        div.menu > ul {
+            width: 244px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content:  space-between;
+            padding: 0;
+        }
+        div.menu > ul > li {
+            list-style-type:none;
+            display: flex;
+            min-height: 10px;
+            flex: 1;
+        }
+        div.menu > ul > li i.fal {
+            width: 39px;
+            text-align: center;
+            color: #9b9b9b;
+            font-size: 14px;
+        }
+        div.menu > ul > li:hover i.fal {
+            color: white;
+        }
+        div.menu > ul > li > a {
+            display: flex;
+            text-decoration: none;
+            font-size: 13px;
+            color: rgb(68, 68, 68);
+            height: 100%;
+            align-items: center;
+        }
+        div.menu > ul > li:hover {
+            background-color: var(--primary-color);
+        }
+        div.menu > ul > li:hover > a {
+            color: white;
+        }
+        div.menu > div.column2 {
+            width: 996px;
+            display: flex;
+            flex-direction: column;
+        }
+        div.menu > div.column2 > div.slider {
+            width: 100%;
+            height: 363px;
+            overflow: hidden;
+        }
+        .slider img {
+            width: 996px;
+            height: 363px;
+        }
+        div.menu > div.column2 > div.slider-bottom {
+            display: flex;
+            flex: 1;
+            height: 100%;
+        }
+        div.menu > div.column2 > div.slider-bottom a {
+            height: 100%;
+            width: 100%;
+        }
+        div.menu > div.column2 > div.slider-bottom a img {
+            height: 100%;
+            width: 100%;
+        }
+        div.menu > div.column3 {
+            width: 412px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        div.menu > div.column3 a {
+            display: flex;
+            width: 50%;
+            /* height: 33%; */
+            flex: 0 50%;
+        }
+        div.menu > div.column3 img {
+            width: 100%;
+            height: 100%;
+        }
+        /* end menu */
+        main {
+            margin-bottom: 60px;
+        }
+        main .menu {
+            margin-top: 15px;
+            background-color : white;
+            height: 363px;
+        }
+        main > div.banner {
+            margin-top: 35px;
+            height: 150px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+        }
+        main > div.banner a {
+            display: flex;
+        }
+        main > div.banner a img {
+            width: 295px;
+            height: 150px;
+        }
+
+        div.deal-header {
+            background-color : white;
+            border-radius: 4px;
+            border-radius: 4px 4px 0 0 ;
+            height: 48px;
+            padding: 16px;
+            box-sizing: content-box;
+            border-bottom: 1px solid rgb(244, 244, 244);
+        }
+        #deal > div.content {
+            border-radius: 0 0 4px 4px;
+        }
+        .deal-header img {
+            width: 48px;
+        }
+        .deal-header .text-container {
+            flex-direction: column;
+            padding-left: 15px;
+        }
+        .deal-header  h4.title {
+            color: rgb(255, 61, 0) !important;
+            font-weight: 500 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        .deal-header p {
+            padding: 0;
+            margin: 6px 0;
+            font-size: 13px;
+            color: rgb(51, 51, 51);
+        }
+
+        .keywords {
+            margin: 15px 0;
+        }
+        <style>
+main div.product-box {
+    margin-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+}
+main div.product-box h4.title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color : rgb(51, 51, 51);
+    line-height: 1.15;
+    font-weight: 400;
+}
+main div.product-box div.content {
+    background-color : white;
+    border-radius: 4px;
+}
+.product-grid {
+}
+.product-grid a {
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    width: 20%;
+    overflow: hidden;
+    float:left;
+    /* box-sizing: border-box; */
+}
+.product-grid a:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+    z-index: 1;
+    opacity: 0.95;
+}
+.product-grid a img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-left: 8px;
+}
+.product-grid a p.title {
+    font-size: 13px;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+
+}
+.product-grid a div.price p.price {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 8px;
+    margin: 0px;
+    line-height: 1.6;
+}
+.product-grid a div.price p.price span.deal {
+    font-size: 13px;
+    font-weight: 300;
+    color : rgb(120, 120, 120);
+}
+.product-grid a div.price p.price span.percent {
+    margin-left: 8px;
+}
+.product-grid a div.price p.price span.original {
+    display: block;
+    text-decoration: line-through;
+}
+main div.product-box a.view-more {
+    font-size: 13px;
+    margin: 20px;
+    border: 1px;
+    padding: 7px 16px;
+    width: 166px;
+    display: inline-block;
+    color :  var(--primary-color);
+    border : 1px solid var(--primary-color);
+    border-radius: 5px;
+    line-height: 14px;
+}
+</style>
+    </style>
+    <main id="app">
+            <div class="menu container flex">
+                <ul>
+                                            <li >
+                            <a href="/banh-my-c13901.html"><i class="fal fa-star" aria-hidden="true"></i>Bánh mỳ</a>
+                        </li>
+                                            <li >
+                            <a href="/do-uong-c13904.html"><i class="fal fa-star" aria-hidden="true"></i>Đồ uống</a>
+                        </li>
+                                            <li >
+                            <a href="/combo-tiet-kiem-c13905.html"><i class="fal fa-star" aria-hidden="true"></i>Combo tiết kiệm</a>
+                        </li>
+                                            <li >
+                            <a href="/me-nu-365-c13955.html"><i class="fal fa-star" aria-hidden="true"></i>MENU 365</a>
+                        </li>
+                                            <li >
+                            <a href="/gà-nướng-sốt-hàn-quốc-c13956.html"><i class="fal fa-star" aria-hidden="true"></i>GÀ NƯỚNG SỐT HÀN QUỐC</a>
+                        </li>
+                                            <li >
+                            <a href="/thịt-nướng-bbq-kim-chi-c13957.html"><i class="fal fa-star" aria-hidden="true"></i>THỊT NƯỚNG BBQ KIM CHI</a>
+                        </li>
+                                            <li >
+                            <a href="/bò-viên-pho-mai-c13958.html"><i class="fal fa-star" aria-hidden="true"></i>BÒ VIÊN PHO MAI</a>
+                        </li>
+                                    </ul>
+                <div class="column2">
+                    <div class="slider">
+                                                                            <a href="#">
+                                <img src="https://static.shopbay.vn/unsafe/1992x686/s4.shopbay.vn/files/464/365-nen-60c89b29bbbaf.jpg" alt="">
+                            </a>
+                                                    <a href="#">
+                                <img src="https://static.shopbay.vn/unsafe/1992x686/s4.shopbay.vn/files/1/1530001417-1349x454-60c1d321283f8.jpeg" alt="">
+                            </a>
+                                                    <a href="#">
+                                <img src="https://static.shopbay.vn/unsafe/1992x686/s4.shopbay.vn/files/464/-60c8a767a2a58.jpg" alt="">
+                            </a>
+                                                    <a href="#">
+                                <img src="https://static.shopbay.vn/unsafe/1992x686/s4.shopbay.vn/files/1/0-1200x674-60c1d30ea83ca.jpg" alt="">
+                            </a>
+                                                    <a href="#">
+                                <img src="https://static.shopbay.vn/unsafe/1992x686/s4.shopbay.vn/files/1/06192953-story-image-50644-cover-2000x1200-60c1d31aeb604.jpeg" alt="">
+                            </a>
+                                                    <a href="#">
+                                <img src="https://static.shopbay.vn/unsafe/1992x686/s4.shopbay.vn/files/1/360-f-158342841-mbdgpmhpozjmaqo2lbzhrszhvppxbtae-60c1d314f37a8.jpeg" alt="">
+                            </a>
+                                            </div>
+                </div>
+
+            </div>
+            <div id="recent-view" class="product-box container no-padding" v-if="recentProducts.length">
+                <h4 class="title">SẢN PHẨM MỚI NHẤT</h4>
+                <div class="content">
+                    <div class="product-grid">
+
+                        <a :href="product.url" v-for="product in recentProducts" :title="product.name">
+                                <img :src="this.getImageCdn(product.image_url, 192*2, 192*2)" alt="">
+                                <p class="title">
+                                    {{ product.name }}
+                                </p>
+                            <div class="price">
+                                <p class="price">{{ product.display_price }}<span class="percent deal">{{ product.sale_percent }}</span><span class="original deal" v-if="product.high_price > 0">{{ product.display_high_price }}</span></p>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div style="clear:both;">
+
+                    </div>
+                    <div class="center">
+                        <a href="/search" class="view-more">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div id="deal" class="product-box container no-padding" v-if="saleProducts.length">
+
+                <h4 class="title">GIẢM GIÁ</h4>
+                <div class="content">
+                    <div class="product-grid">
+                        <a :href="product.url" v-for="product in saleProducts" :title="product.name">
+                                <img :src="this.getImageCdn(product.image_url, 192*2, 192*2)" alt="">
+                                <p class="title">
+                                    {{ product.name }}
+                                </p>
+                            <div class="price">
+                                <p class="price">{{ product.display_price }}<span class="percent deal">{{ product.sale_percent }}</span><span class="original deal" v-if="product.high_price > 0">{{ product.display_high_price }}</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div style="clear:both;">
+
+                    </div>
+                    <div class="center">
+                        <a href="/sale" class="view-more">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-box container no-padding" v-for="category in categories" v-if="category.products && category.products.length">
+                <h4 class="title">{{ category.name }}</h4>
+                <div class="content">
+                    <div class="product-grid">
+                        <a :href="product.url" v-for="product in category.products" :title="product.name">
+                                <img :src="this.getImageCdn(product.image_url, 192*2, 192*2)" alt="">
+                                <p class="title">
+                                    {{ product.name }}
+                                </p>
+                            <div class="price">
+                                <p class="price">{{ product.display_price }}<span class="percent deal">{{ product.sale_percent }}</span><span class="original deal" v-if="product.high_price > 0">{{ product.display_high_price }}</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div style="clear:both;">
+
+                    </div>
+                    <div class="center">
+                        <a class="view-more" :href="category.url">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    <footer>
+            <div class="newsletter">
+                <div class="container">
+                    <div class="">
+                        <img class="icon lazyload" data-src="https://frontend.tikicdn.com/_new-next/static/img/footer/newsletter.png" alt="" width="163px">
+                    </div>
+                    <div class="description">
+                        <h3>Đăng ký nhận bản tin banhmingon365</h3>
+                        <h5>Đừng bỏ lỡ hàng ngàn sản phẩm và chương trình siêu hấp dẫn</h5>
+                    </div>
+                    <div class="">
+                        <input type="text" name="" value="" placeholder="Địa chỉ email của bạn">
+                    </div>
+                    <div class="">
+                        <button type="button" name="button">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container">
+                                                                                            <div class="item">
+                                <h4>BÁNH MÌ NGON 365</h4>
+                                <p><span contenteditable="false" tabindex="-1"><span contenteditable="false" tabindex="-1"><span contenteditable="false" tabindex="-1"><span contenteditable="false" tabindex="-1"><span contenteditable="false" tabindex="-1"><span contenteditable="false" tabindex="-1"><span contenteditable="false" tabindex="-1"><span contenteditable="false" tabindex="-1"><span contenteditable="false" tabindex="-1"><span contenteditable="false" tabindex="-1"><span contenteditable="false" tabindex="-1"><img alt="" data-widget="image" height="34" src="https://s4.shopbay.vn/files/1/logo-full-60c30ad9f0afc.png" width="183" /></span></span></span></span></span></span></span></span></span></span></span></p>
+
+<p>C&ocirc;ng Ty cổ Phần tập đo&agrave;n c&ocirc;ng nghệ nano G20</p>
+
+<p>Trụ sở ch&iacute;nh: 271/37 Trịnh Đ&igrave;nh Trọng, Phường H&ograve;a Thạnh, Quận T&acirc;n Ph&uacute;, TP,HCM</p>
+
+<p>Website: banhmingon365.com.</p>
+
+<p>Website: g20group.vn</p>
+
+<p>Email: ngocthien668@gmail.com</p>
+
+<p>Hotline: 0976655551 - 0949999189</p>
+
+<p>Địa chỉ:&nbsp;Giấy chứng nhận ĐKKD số 0316362662 do Sở kế hoạch v&agrave; đầu tư Th&agrave;nh phố Hồ Ch&iacute; Minh cấp, đăng k&yacute; lần đầu v&agrave;o ng&agrave;y 2/7/2020.</p>
+
+
+                            </div>
+                                                    <div class="item">
+                                <h4>Sản phẩm</h4>
+                                                                                    <p><a href="/banh-my-c13901.html">Bánh mỳ</a></p>
+                                                                                                    <p><a href="/do-uong-c13904.html">Đồ uống</a></p>
+                                                                                                    <p><a href="/combo-tiet-kiem-c13905.html">Combo tiết kiệm</a></p>
+                                                
+
+                            </div>
+                                                    <div class="item">
+                                <h4>Blog tin tức</h4>
+                                                                                    <p><a href="/gioi-thieu-n10450.html">Giới thiệu về chúng tôi</a></p>
+                                                                                                    <p><a href="/chinh-sach-van-chuyen-n10747.html">Chính sách vận chuyển</a></p>
+                                                                                                    <p><a href="/chinh-sach-bao-mat-n10733.html">Chính sách bảo mật</a></p>
+                                                                                                    <p><a href="/chinh-sach-thanh-toan-n10734.html">Chính sách thanh toán</a></p>
+                                                                                                    <p><a href="/chinh-sach-xu-ly-khieu-nai-n10745.html">Chính sách xử lý khiếu nại</a></p>
+                                                                                                    <p><a href="/chinh-sach-doi-tra-bao-hanh-n10746.html">Chính sách đổi trả, bảo hành</a></p>
+                                                
+
+                            </div>
+                                                    <div class="item">
+                                <h4>Bản đồ chỉ đường</h4>
+                                <p><iframe allowfullscreen="" height="250" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.472177544324!2d106.63369981466332!3d10.775101992322424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ea3e8441f35%3A0x41ff742205c6dc22!2zMjcxLCAyNTgvMzdBIFRy4buLbmggxJDDrG5oIFRy4buNbmcsIEhvw6AgVGjhuqFuaCwgVMOibiBQaMO6LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1621503285379!5m2!1svi!2s" style="border:0;" width="200"></iframe></p>
+
+
+                            </div>
+                                            
+                    <div class="" style="clear:both">
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="">
+                        <h5>© 2021 - Bản quyền của banhmingon365. Thiết kế bởi <strong>Shopbay.vn</strong>. </h5>
+                        <p></p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </footer>
+        <link media="screen" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.slider').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            arrows : false,
+            dots : true
+        });
+        $('.keyword-slider').slick({
+            autoplay: false,
+            autoplaySpeed: 2000,
+            arrows : false,
+            slidesToShow: 8,
+        });
+        $('.category-slider').slick({
+            autoplay: false,
+            autoplaySpeed: 2000,
+            arrows : false,
+            slidesToShow: 6,
+        });
+    });
+    </script>
+    <style media="screen">
+        .slider .slick-dots {
+            position: absolute;
+            bottom: 10px;
+            display: flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+        .slider .slick-dots li {
+            display: inline-block;
+            font-size: 0px;
+        }
+        .slider .slick-dots li button {
+            cursor: pointer;
+            width: 12px;
+            height: 12px;
+            background-color: rgb(129, 129, 129);
+            opacity: 0.7;
+            margin: 1px 2px;
+            padding: 0px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: transparent;
+            border-image: initial;
+            border-radius: 50%;
+            outline: none;
+            font-size: 0;
+        }
+        .slider .slick-dots li.slick-active button {
+            background-color: rgb(255, 255, 255);
+            opacity: 0.5;
+            border-width: 2px;
+            border-style: solid;
+            border-color: rgb(146, 146, 146);
+            border-image: initial;
+        }
+    </style>
+    <style media="screen">
+        .keyword-slider a {
+            display: flex !important;
+            text-align: center;
+            background-color: rgb(0, 109, 144);
+            height: 40px;
+            padding: 16px;
+            color: white;
+            margin: 8px;
+            box-sizing: content-box;
+            align-items: center;
+            /* line-height: 40px; */
+            vertical-align: middle;
+            text-decoration: none;
+            justify-content: center;
+            border-radius: 4px;
+        }
+        .categories {
+            padding: 20px 0;
+        }
+        .category-slider a {
+            background-color: white;
+            border-radius: 4px;
+            height: 128px;
+            padding: 16px;
+            margin: 10px;
+            text-align: center;
+            text-decoration: none;
+            color : rgb(68, 68, 68);
+            box-sizing: content-box;
+        }
+        .category-slider a img {
+            width: 96px;
+            margin: auto;
+            margin-bottom : 10px;
+        }
+    </style>
+    <script src="/js/vue.js"></script>
+	<script src="/js/axios.min.js"></script>
+    <script type="text/javascript">
+        axios.defaults.headers.common['shopuuid'] = "fb585747-661e-4353-bfda-cf30921679e7";
+    </script>
+    <script type="text/javascript">
+
+    var app = new Vue({
+		el: '#app',
+		data: {
+			recentProducts : [],
+            saleProducts : [],
+            categories : [],
+		},
+		mounted () {
+            this.getLatestProducts()
+			this.getSaleProducts()
+            this.getCategory()
+		 },
+		 methods : {
+			 getLatestProducts () {
+    			 let self = this;
+				 axios
+				 .get('https://api.shopbay.vn/product?page_size=5&simple_paginate=1&filters=status=ACTIVE')
+				 .then(function(response){
+					if (response.data && response.data.result) {
+						self.recentProducts = response.data.result
+					} else {
+						self.recentProducts = [];
+					}
+                 })
+             },
+             getSaleProducts () {
+                 let self = this;
+				 axios
+				 .get('https://api.shopbay.vn/product?page_size=5&simple_paginate=1&filters=status=ACTIVE&order_by=sale')
+				 .then(function(response){
+					if (response.data && response.data.result) {
+						self.saleProducts = response.data.result
+					} else {
+						self.saleProducts = [];
+					}
+                 })
+             },
+             getCategory () {
+                 let self = this;
+                 axios
+                 .get('https://api.shopbay.vn/product/categories?page_size=10&simple_paginate=1&filters=status=ACTIVE')
+                 .then(function(response){
+                    if (response.data && response.data.result) {
+                        self.categories = response.data.result;
+                    } else {
+                        self.categories = [];
+                    }
+                 })
+             }
+         }
+
+
+	});
+	</script>
+
+<script>
+    $(document).ready(function () {
+        function getCartItems(items) {
+            $.ajax({
+                method: "GET",
+                url: '/cart/get-cart-items',
+            }).done(function(result) {
+                if (result.status == 'successful') {
+                    var totalQuantity = 0;
+                    var cartItems = result.result;
+                    for (var i = 0; i < cartItems.length; i++) {
+                        cartItems[i].price = parseInt(cartItems[i].price);
+                        totalQuantity += cartItems[i].quantity;
+                    }
+                    $('#minicart-count').text(totalQuantity);
+                }
+            });
+        }
+        getCartItems();
+    })
+</script>
+        <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+        <script>
+            lazyload();
+        </script>
+
+
+    <link rel="stylesheet" href="/tiki/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/tiki/css/light.min.css">
+    <div style="position: fixed; right: 20px; bottom: 20px; z-index: 100;">
+    <a href="tel:0949999189" class="hidden-sm hidden-lg hidden-md">
+
+        <svg width="60px" height="60px" xmlns="http://www.w3.org/2000/svg" viewBox="-84.531 -84.628 200 200"><path fill="#1AE238" d="M108.698 43.236c-15.417 50.393-69.625 78.491-121.074 62.757-51.448-15.737-80.661-69.351-65.246-119.751C-62.207-64.153-8.005-92.251 43.443-76.515 94.9-60.777 124.112-7.166 108.698 43.236z"></path><path fill="#FFF" stroke="#FFF" stroke-width=".5" stroke-miterlimit="10" d="M-3.391 31.338c2.264 4.371 5.592 7.674 9.203 9.219 3.711 1.542 8.141 1.542 14.096-1.981 1.854-1.109 3.89-2.396 6.715-2.449 2.793-.059 5.71 1.419 8.43 4.127 4.807 6.521 9.79 13.163 14.452 19.812 2.046 3.723 1.657 7.719-.187 10.404-1.847 2.661-4.555 4.276-6.982 5.579-13.634 7.421-27.498 8.793-39.033 3.281-11.057-5.554-19.917-17.007-28.664-33.096A8208.43 8208.43 0 0 1-35.804 27.09C-44.58 11.025-49.352-2.544-47.88-14.597c1.936-14.874 13.105-24.026 24.653-29.722 2.46-1.241 5.359-2.511 8.653-2.511 3.294 0 6.906 1.918 8.959 5.658 3.012 7.476 5.89 15.225 8.755 22.759.759 3.74.376 6.906-1.254 9.129C.268-7.041-1.977-6.093-3.937-5.229c-6.32 2.84-8.789 6.437-9.588 10.294-.686 3.786.245 8.31 2.708 12.568l7.426 13.705zm-12.965-10.812c-2.858-5.054-4.528-10.917-3.361-16.709 1.188-5.802 5.448-11.181 13.092-14.624 1.875-.846 2.933-1.485 3.368-2.06.408-.568.752-1.489.231-4.173l-8.141-21.218c-1.209-2.219-1.922-2.373-3.346-2.373-1.42 0-3.639.768-5.81 1.857-13.99 7.253-20.124 15.151-21.319 25.042-1.213 9.856 2.84 22.389 11.363 37.999a5740.63 5740.63 0 0 0 10.422 19.14c8.51 15.627 16.896 25.919 25.959 30.454 9.059 4.557 19.192 4.041 33.214-3.227 2.134-1.157 4.021-2.484 4.819-3.66.814-1.161 1.059-1.829-.137-4.031L30.51 44.489c-1.986-1.939-2.966-2.158-3.669-2.146-.741.014-1.884.521-3.64 1.553-7.229 4.277-14.188 4.686-19.752 2.398-5.572-2.28-9.646-6.928-12.339-12.07l-7.466-13.698zm39.928-66.547a3.231 3.231 0 0 0 2.324 3.753C60.834-31.581 80.625 4.744 70.147 38.957c-.422 1.658.484 3.387 2.114 3.924a3.223 3.223 0 0 0 3.914-2.087C87.604 3.392 65.884-36.495 27.7-48.177c-1.732-.492-3.554.451-4.128 2.156zm-5.415 17.686c-.388 1.563.72 3.355 2.319 3.767C45.431-16.936 59.571 8.99 52.099 33.453c-.503 1.55.501 3.42 2.112 3.902 1.565.487 3.46-.496 3.914-2.073C66.57 7.653 50.508-21.837 22.272-30.47c-1.71-.496-3.525.446-4.115 2.135z"></path></svg>
+    </a>
+    <a href="http://zalo.me/0976655551" target="_blank">
+        <svg width="60px" height="60px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve"> <path fill="#0180C7" d="M256,3.4C116.8,3.4,3,107.8,3,236.7c0,73.4,37,138.9,93,181.7v89l86.8-47.1c22.9,6.3,47.6,9.8,72.8,9.8 c139.2,0,252.2-104.5,252.2-233.3S395.1,3.4,256,3.4z"></path> <polygon fill="#0180C7" points="418.7,171.4 295.1,239.8 229.4,171.4 91.6,317.6 216.8,249.1 281,317.6 "></polygon> <path fill="#FFFFFF" d="M104.9,275.1c19.3,0,37.4-0.1,55.4,0c10.1,0.1,15.6,4.3,16.6,12.4c1.1,10.1-4.7,16.9-15.7,17 c-20.7,0.3-41.2,0.1-62,0.1c-6,0-11.9,0.3-17.9-0.1c-7.4-0.4-14.7-1.9-18.3-9.6s-1-14.6,3.8-20.8c19.7-25,39.5-50.2,59.3-75.2 c1.1-1.5,2.3-3.1,3.4-4.5c-1.3-2.2-3.1-1.1-4.6-1.3c-13.8-0.1-27.7,0-41.5-0.1c-3.2,0-6.3-0.3-9.5-1c-7.2-1.6-11.7-8.8-10.1-16 c1.1-4.9,4.9-8.8,9.9-10c3.1-0.8,6.3-1.2,9.4-1.1c22.7-0.1,45.6-0.1,68.3,0c4-0.1,8.1,0.4,12,1.4c8.7,2.9,12.4,11,8.9,19.4 c-3.1,7.3-7.9,13.5-12.8,19.8c-16.7,21.3-33.5,42.5-50.2,63.6C108.2,270.6,106.9,272.3,104.9,275.1L104.9,275.1z"></path> <path fill="#FFFFFF" d="M264.6,199.2c-5.2,1-8.4,4.7-11.5,8.7c-16-13.9-33.6-14.8-51-4.5c-20.9,12.3-28.7,32.2-26,55.6 c2.5,21.6,11.9,39.3,34.6,46.7c14.2,4.6,27.3,2.9,39-6.5c3.1-2.4,4-1.9,6.1,0.8c4.2,5.4,11.5,7.5,17.9,5c6.3-2,10.6-7.8,10.6-14.4 c0.3-25.5,0.4-51.1,0-76.6C284.1,203.7,274.7,197.2,264.6,199.2z M246.8,270c-1.2,1.6-2.6,3-4.2,4.2c-7.5,5.5-17.8,5.5-25.3,0 c-1.6-1.2-3-2.6-4.2-4.2c-3.2-4.5-5-9.9-5.2-15.5c-0.1-18,9.7-28.9,23.6-28.1c1.9,0.1,3.7,0.4,5.5,1c4,1.3,7.4,3.8,9.8,7.1 C254,244.3,254,260.3,246.8,270z"></path> <path fill="#FFFFFF" d="M450.2,249.8c-1-31.9-24.8-53.8-57.4-52.8c-30.6,0.9-52.2,25.4-51.2,58.2c-0.5,31.9,25.9,56.1,59.3,52.8 C431.4,305,451.2,282.1,450.2,249.8z M412.2,270.4c-5.4,6.8-14.4,9.6-22.7,7l-0.4-0.1l0,0c-2.3-0.8-4.5-1.9-6.4-3.4 c-1.4-1-2.6-2.3-3.6-3.7c-3.8-5.2-5.7-11.5-5.5-17.9c0-16,9.7-26.4,23.5-25.7c6,0.2,11.6,3.2,15.2,8c3.7,4.9,5.5,11.4,5.5,17.9 S415.9,265.6,412.2,270.4z"></path> <path fill="#FFFFFF" d="M330.3,170c0-10.2-6.5-16.6-16.2-16.5c-9.5,0-15.7,6.4-15.8,16.2c-0.1,6,0,11.9,0,17.9v101.6 c0,8,4.9,14.8,11.2,16.5c1.6,0.4,3.1,0.5,4.7,0.5c9.1-0.3,16.2-7.8,16.1-16.9c0.1-19.8,0-39.6,0-59.4S330.5,189.9,330.3,170z"></path> </svg>
+    </a>
+
+    <a href="http://m.me/" target="_blank">
+        <svg id="facebook_customer_chat" width="60px" height="60px" viewBox="0 0 60 60">
+            <svg x="0" y="0" width="60px" height="60px">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g>
+                        <circle fill="#0084ff" cx="30" cy="30" r="30"></circle><svg x="10" y="10">
+                            <g transform="translate(0.000000, -10.000000)" fill="#FFFFFF">
+                                <g id="logo" transform="translate(0.000000, 10.000000)">
+                                    <path d="M20,0 C31.2666,0 40,8.2528 40,19.4 C40,30.5472 31.2666,38.8 20,38.8 C17.9763,38.8 16.0348,38.5327 14.2106,38.0311 C13.856,37.9335 13.4789,37.9612 13.1424,38.1098 L9.1727,39.8621 C8.1343,40.3205 6.9621,39.5819 6.9273,38.4474 L6.8184,34.8894 C6.805,34.4513 6.6078,34.0414 6.2811,33.7492 C2.3896,30.2691 0,25.2307 0,19.4 C0,8.2528 8.7334,0 20,0 Z M7.99009,25.07344 C7.42629,25.96794 8.52579,26.97594 9.36809,26.33674 L15.67879,21.54734 C16.10569,21.22334 16.69559,21.22164 17.12429,21.54314 L21.79709,25.04774 C23.19919,26.09944 25.20039,25.73014 26.13499,24.24744 L32.00999,14.92654 C32.57369,14.03204 31.47419,13.02404 30.63189,13.66324 L24.32119,18.45264 C23.89429,18.77664 23.30439,18.77834 22.87569,18.45674 L18.20299,14.95224 C16.80079,13.90064 14.79959,14.26984 13.86509,15.75264 L7.99009,25.07344 Z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </g>
+                </g>
+            </svg>
+        </svg>
+    </a>
+    
+    
+</div>
+<style type="text/css" media="all">
+h5:not([class^="tt-title"]):not([class^="tt-collapse"]):not([class^="tt-aside"]) {
+    font-size: 15px !important;
+}
+    
+</style>
+    </body>
+</html>

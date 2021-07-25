@@ -1,0 +1,2739 @@
+
+<!doctype html>
+<html class="use-header8" lang="vi">
+    <head >
+        <script>
+	var BASE_URL = WEB_URL = 'https://mygufashion.com/';
+	var RTL = false;
+    var require = {
+        "baseUrl": "https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN"
+    };
+        var CATALOG_CHECK = 0;
+        </script>
+        <meta charset="utf-8"/>
+<meta name="title" content="MyGu Fashion"/>
+<meta name="description" content="MyGu Fashion"/>
+<meta name="keywords" content="MyGu Fashion"/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+<title>MyGu Fashion</title>
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/mage/calendar.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/css/owl.carousel.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/css/owl.theme.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/css/animate.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/css/magnific-popup.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/Magento_Swatches/css/swatches.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_GDPR/css/gdpr.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Lookbook/css/styles.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mmegamenu/css/megamenu.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Promobanners/css/promobanners.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/Webkul_Marketplace/css/wk_block.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/Webkul_MpVendorAttributeManager/css/datepicker.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/css/bootstrap.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/css/font-awesome.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/css/pe-icon-7-stroke.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/css/menu.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/css/theme_default.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/css/theme.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/css/responsive.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/css/color.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/css/default.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_InstantSearch/css/styles.min.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Brand/css/mgs_brand.min.css" />
+<script  type="text/javascript"  src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/requirejs/require.min.js"></script>
+<script  type="text/javascript"  src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/requirejs-min-resolver.min.js"></script>
+<script  type="text/javascript"  src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/mage/requirejs/mixins.min.js"></script>
+<script  type="text/javascript"  src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/requirejs-config.min.js"></script>
+<script  type="text/javascript"  src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/js/timer.min.js"></script>
+<script  type="text/javascript"  src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/js/bootstrap.min.js"></script>
+<script  type="text/javascript"  src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/js/custom.min.js"></script>
+<link  rel="icon" type="image/x-icon" href="https://mygufashion.com/media/favicon/default/favicon.png" />
+<link  rel="shortcut icon" type="image/x-icon" href="https://mygufashion.com/media/favicon/default/favicon.png" />
+        							<link rel="stylesheet" type="text/css"  media="all" href="https://mygufashion.com/media/mgs/css/2/custom_config.css" /> 
+					    </head>
+    <body data-container="body" data-mage-init='{"loaderAjax": {}, "loader": { "icon": "https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/images/loader-2.gif"}}' id="html-body" class="cms-home cms-index-index page-layout-1column width1366 wide">
+							
+							
+<div id="cookie-status">
+    The store will not work correctly in the case when cookies are disabled.</div>
+<script type="text&#x2F;javascript">document.querySelector("#cookie-status").style.display = "none";</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "cookieStatus": {}
+        }
+    }
+</script>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "\u002F",
+                "domain": ".mygufashion.com",
+                "secure": false,
+                "lifetime": "3600"
+            }
+        }
+    }
+</script>
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>JavaScript dường như bị vô hiệu trong trình duyệt của bạn.</strong>
+                    <span>Để có trải nghiệm tốt nhất trên trang web của chúng tôi, đảm bảo bật Javascript trong trình duyệt của bạn.</span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+
+<script>
+    window.cookiesConfig = window.cookiesConfig || {};
+    window.cookiesConfig.secure = true;
+</script><script>    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter'
+            }
+        }
+    });</script>
+<script type="text/javascript">
+    var QUICKVIEW_BASE_URL = 'https://mygufashion.com/';
+</script>
+<main><div class="page-wrapper  lazy-loading-img" data-ratioimage="ratio-4"><div id="placeholder-header"></div><header class="header header8"><div class="header content"><script>
+    window.Goomento = [];
+</script>
+</div>
+
+
+
+
+
+                                                
+
+    
+                        
+        	    
+
+        
+        <div class="top-header-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-xs-12">
+                    <!-- Static block: header_8_top_left_link -->
+                                            <div class="top-custom-link">
+                            <ul>
+<li><a href="tel:+84969462129"><span class="icon pe-7s-call">&nbsp;</span>0969462129</a></li>
+<li><a href="mailto:admin@mygufashion.com"><span class="icon pe-7s-mail">&nbsp;</span>admin@mygufashion.com</a></li>
+<li><a href="https://mygufashion.com/sales/order/history/"><span class="pe-7s-car">&nbsp;</span>Theo dõi đơn hàng của bạn</a></li>
+<li><a href="https://mygufashion.com/storelocator"><span class="pe-7s-map-marker">&nbsp;</span>Vị trí cửa hàng</a></li>
+</ul>                        </div>
+                                    </div>
+                <div class="col-md-4 hidden-sm hidden-xs col-xs-12">
+                    		<div class="dropdown dropdown-switcher language switcher-language" id="switcher-language">
+														<button class="switcher-toggle dropdown-toggle" type="button" data-toggle="dropdown">
+					Tiếng Việt					<i class="fa fa-angle-down" aria-hidden="true"></i>
+				</button>
+							<ul class="dropdown-menu">
+												<li class="view-en switcher-option">
+						<a href="#" data-post='{"action":"https:\/\/mygufashion.com\/stores\/store\/redirect\/","data":{"___store":"en","___from_store":"vn","uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vP19fX3N0b3JlPWVu"}}'>
+							<img alt="en" src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/images/flags/en.png" />English						</a>
+					</li>
+																</ul>
+	</div>
+                    
+<div class="dropdown dropdown-switcher currency switcher-currency" id="switcher-currency">
+											<button class="switcher-toggle dropdown-toggle" type="button" data-toggle="dropdown">VND <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+				<ul class="dropdown-menu">
+									<li class="currency-USD switcher-option">
+					<a href="#" data-post='{"action":"https:\/\/mygufashion.com\/directory\/currency\/switch\/","data":{"currency":"USD","uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'>USD - Đô la Mỹ</a>
+				</li>
+											</ul>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="middle-header-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 mobile-item-col">
+                    <div class="text-left hidden-lg">
+                        <button class="action nav-toggle hidden-lg"><img src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/images/hamburger-black.svg" alt="Toggle Menu"></button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 logo-header mobile-item-col">
+					<div class="menu__tabl">
+						<a class="menu__tab--mens" href="https://mygufashion.com/mens/">
+							<span class="men">
+							</span>
+						</a>
+						    <strong class="logo">
+        <img src="https://mygufashion.com/media/logo/stores/2/logo-mygu.png"
+             alt=""
+                                  />
+    </strong>
+						<a class="menu__tab--womens" href="https://mygufashion.com/womens/">
+							<span class="women">
+							</span>
+						</a>
+					</div>
+				</div>
+                
+                <div class="col-md-4 col-sm-4 col-xs-auto mobile-item-col">
+                    <div class="table-icon-menu pull-right">
+                        
+
+
+
+
+<div class="search-form ">
+	<div class="form-search">
+		<button class="search-close" onclick="showHideFormSearch()"><i class="pe-7s-close"></i></button>
+		<form class="form minisearch" id="search_mini_form" action="https://mygufashion.com/catalogsearch/result/" method="get">
+			<input id="search"
+			   data-mage-init='{"quickSearch":{
+					"formSelector":"#search_mini_form",
+					"url":"https://mygufashion.com/search/ajax/suggest/",
+					"destinationSelector":"#search_autocomplete"}
+			   }'
+			   type="text"
+			   name="q"
+			   value=""
+			   class="input-text form-control"
+			   maxlength="128"
+			   placeholder="Search for..."
+			   role="combobox"
+			   aria-expanded="true"
+			   aria-haspopup="false"
+			   aria-autocomplete="both"
+			   autocomplete="off"/>
+				
+			<button type="submit" title="Tìm kiếm" class="button">
+				<i class="pe-7s-search"></i>
+			</button>	   
+			<div id="search_autocomplete" class="search-autocomplete" style="display: none;"></div>
+			<div class="mgs-instant-search-dropdown" data-bind="scope: 'instant_search_form'">
+	<!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+<script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_Ui/js/core/app": {"components":{"autocompleteDataProvider":{"component":"MGS_InstantSearch\/js\/action\/dataProvider","config":{"url":"https:\/\/mygufashion.com\/instantsearch\/ajax\/result\/"}},"instant_search_form":{"component":"MGS_InstantSearch\/js\/autocomplete","displayArea":"instant_search_form","children":{"steps":{"component":"uiComponent","displayArea":"steps","children":{"product":{"component":"MGS_InstantSearch\/js\/view\/product","sortOrder":0},"category":{"component":"MGS_InstantSearch\/js\/view\/category","sortOrder":0},"page":{"component":"MGS_InstantSearch\/js\/view\/cms\/page","sortOrder":0},"blog":{"component":"MGS_InstantSearch\/js\/view\/blog","sortOrder":0}}}},"config":{"textNoResult":"No Result"}},"autocompleteBindEvents":{"component":"MGS_InstantSearch\/js\/action\/bindEvents","config":{"searchFormSelector":"#search_mini_form","searchButtonSelector":"button.search","inputSelector":"#search, .minisearch input[type=\"text\"]","searchDelay":"500","url":"https:\/\/mygufashion.com\/instantsearch\/result\/"}}}}    }
+}
+</script>
+<script>
+    window.instantSearch = {"result":{"product":{"data":[],"size":0,"url":""},"category":{"data":[],"size":0,"url":""},"page":{"data":[],"size":0,"url":""},"blog":{"data":[],"size":0,"url":""}}};
+</script>		</form>
+	</div>
+	<div class="actions-search">
+		<button class="action-search" onclick="showHideFormSearch()"><i class="pe-7s-search"></i></button>
+	</div>
+</div>
+
+<script type="text/javascript">
+	function showHideFormSearch(){
+		require([
+		'jquery'
+		], function(jQuery){
+			(function($) {
+				if($('.search-form').hasClass('not-full')){
+					$('html').toggleClass('search-not-full');
+				}
+				$('html').toggleClass('search-open');
+				setTimeout(focusSearchField, 500);
+			})(jQuery);
+		});
+	}
+	
+	function focusSearchField(){
+		require([
+		'jquery'
+		], function(jQuery){
+			(function($) {
+				$('#search_mini_form input#search').focus();
+			})(jQuery);
+		});
+	}
+</script>
+                        
+                        <div class="dropdown dropdown-toplinks"><button class="dropdown-toggle" type="button" data-toggle="dropdown"><i class="pe-7s-user"></i> <span class="label">Account</span></button><div class="dropdown-menu"><ul class="links"><li class="item link compare" data-bind="scope: 'compareProducts'" data-role="compare-products-link">
+    <a class="action compare no-display" title="So&#x20;s&#xE1;nh&#x20;s&#x1EA3;n&#x20;ph&#x1EA9;m"
+       data-bind="attr: {'href': compareProducts().listUrl}, css: {'no-display': !compareProducts().count}"
+    >
+        So sánh sản phẩm        <span class="counter qty" data-bind="text: compareProducts().countCaption"></span>
+    </a>
+</li>
+<script type="text/x-magento-init">
+{"[data-role=compare-products-link]": {"Magento_Ui/js/core/app": {"components":{"compareProducts":{"component":"Magento_Catalog\/js\/view\/compare-products"}}}}}
+</script>
+<li><a href="https://mygufashion.com/customer/account/" id="idyl2y0B5M" >Tài khoản của tôi</a></li><li class="link wishlist" data-bind="scope: 'wishlist'">
+    <a href="https://mygufashion.com/wishlist/">Danh sách yêu thích của tôi        <!-- ko if: wishlist().counter -->
+        <span data-bind="text: wishlist().counter" class="counter qty"></span>
+        <!-- /ko -->
+    </a>
+</li>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "wishlist": {
+                        "component": "Magento_Wishlist/js/view/wishlist"
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+<li class="nav item"><a href="https://mygufashion.com/marketplace/">Đăng ký người bán</a></li><li class="nav item"><a href="https://mygufashion.com/customer/account/create/">Đăng ký người mua</a></li><li class="link authorization-link" data-label="hoặc">
+    <a href="https://mygufashion.com/customer/account/login/referer/aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v/"        >Đăng nhập</a>
+</li>
+</ul></div></div>                        
+                        <div class="header-wl"><a href="https://mygufashion.com/wishlist/"><i class="pe-7s-like"></i> <span class="label">My Wishlist</span> </a></div>                        
+                        
+<div data-block="minicart" class="minicart-wrapper">
+    <a class="action showcart" href="https://mygufashion.com/checkout/cart/"
+       data-bind="scope: 'minicart_content'">
+        <span class="counter qty empty"
+              data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading">
+            <span class="counter-number"><!-- ko text: getCartParam('summary_count') --><!-- /ko --></span>
+            <span class="counter-label">
+            <!-- ko if: getCartParam('summary_count') -->
+                <!-- ko text: getCartParam('summary_count') --><!-- /ko -->
+                <!-- ko i18n: 'items' --><!-- /ko -->
+            <!-- /ko -->
+            </span>
+        </span>
+		<span class="label">Giỏ hàng của tôi </span>
+    </a>
+            <div class="block block-minicart empty"
+             data-role="dropdownDialog"
+             data-mage-init='{"dropdownDialog":{
+                "appendTo":"[data-block=minicart]",
+                "triggerTarget":".showcart",
+                "timeout": "2000",
+                "closeOnMouseLeave": false,
+                "closeOnEscape": true,
+                "triggerClass":"active",
+                "parentClass":"active",
+                "buttons":[]}}'>
+            <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+				<h3 class="close-minicart">
+					Mini Cart 
+					<button id="close-minicart"><i class="close-cart pe-7s-close pa"></i></button>
+				</h3>
+                <!-- ko template: getTemplate() --><!-- /ko -->
+            </div>
+                    </div>
+        <script>
+        window.checkout = {"shoppingCartUrl":"https:\/\/mygufashion.com\/checkout\/cart\/","checkoutUrl":"https:\/\/mygufashion.com\/checkout\/","updateItemQtyUrl":"https:\/\/mygufashion.com\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/mygufashion.com\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/mygufashion.com\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":10,"storeId":"2","storeGroupId":"1","customerLoginUrl":"https:\/\/mygufashion.com\/customer\/account\/login\/referer\/aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/mygufashion.com\/captcha\/refresh\/","isRequired":false,"timestamp":1626991943}}};
+    </script>
+    <script type="text/x-magento-init">
+    {
+        "[data-block='minicart']": {
+            "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":0,"display_cart_subtotal_excl_tax":1,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals"}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"Magento_Checkout\/js\/view\/cart-item-renderer","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content"},"component":"Magento_Checkout\/js\/view\/minicart"}},"types":[]}        },
+        "*": {
+            "Magento_Ui/js/block-loader": "https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/images/loader-1.gif"
+        }
+    }
+    </script>
+</div>
+
+
+                    </div>
+                </div>
+				<div class="col-lg-12 col-md-8 col-xs-12 parent__search"></div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-header-content">
+        <div class="container">
+            <div class="row">
+				                <div class="col-lg-12 col-sm-2 parent__megameu">
+                    <div class="megamenu-content">
+                        <ul class="nav nav-tabs"><li class="active"><a data-toggle="tab" href="#main-Menucontent">Menu</a></li><li><a data-toggle="tab" href="#main-Accountcontent">Tài khoản</a></li><li><a data-toggle="tab" href="#main-Settingcontent">Setting</a></li></ul><div class="tab-content"><div id="main-Menucontent" class="tab-pane active">      
+
+					<nav class="navigation" role="navigation">
+		<ul id="mainMenu" class="nav nav-main nav-main-menu">
+						
+															<li class="mega-menu-item megamenu-homelink active">
+															<a href="https://mygufashion.com/" class="level0">
+									Trang chủ								</a>
+													</li>
+													<li class="  mega-menu-item mega-menu-fullwidth menu-4columns level0 static-menu level0 dropdown">
+								<a href="https://mygufashion.com/" class="level0 dropdown-toggle"><span>Thương hiệu</span> <span class="icon-next"><i class="fa fa-angle-down"></i></span></a><span class="toggle-menu"><a onclick="toggleEl(this,'mobile-menu-14-4')" href="javascript:void(0)" class=""><span class="fa fa-plus"></span></a></span><ul class="dropdown-menu" id="mobile-menu-14-4"><li><div class="mega-menu-content">
+<div class="row">
+<div class="col-md-9">
+<div class="row">
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/brands/halita-styling-maison.html/"> <span class="mega-menu-sub-title"> Halita Styling Maison </span> </a></li>
+<li class="level1"><a href="https://mygufashion.com/woman/brands/le-kieu.html/"> <span class="mega-menu-sub-title"> Le Kieu </span> </a></li>
+<li class="level1"><a href="https://mygufashion.com/woman/brands/xexymix-korea.html/"> <span class="mega-menu-sub-title"> Xexymix- Korea </span> </a></li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/brands/house-of-amm.html/"> <span class="mega-menu-sub-title"> House of AMM </span> </a></li>
+<li class="level1"><a href="https://mygufashion.com/woman/brands/phan-nguyen.html/"> <span class="mega-menu-sub-title"> Phan Nguyen </span> </a></li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/brands/kana.html/"> <span class="mega-menu-sub-title"> Kana </span> </a></li>
+<li class="level1"><a href="https://mygufashion.com/woman/brands/sans-borne.html/"> <span class="mega-menu-sub-title"> Sans Borne </span> </a></li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/brands/la-pham.html/"> <span class="mega-menu-sub-title"> La Pham </span> </a></li>
+<li class="level1"><a href="https://mygufashion.com/woman/brands/therr.html/"> <span class="mega-menu-sub-title"> Therr </span> </a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div></li></ul>							</li>
+													<li class="  mega-menu-item mega-menu-fullwidth menu-4columns level0 static-menu level0 dropdown">
+								<a href="https://mygufashion.com/woman/categories.html/" class="level0 dropdown-toggle"><span>Chọn theo sản phẩm</span> <span class="icon-next"><i class="fa fa-angle-down"></i></span></a><span class="toggle-menu"><a onclick="toggleEl(this,'mobile-menu-23-4')" href="javascript:void(0)" class=""><span class="fa fa-plus"></span></a></span><ul class="dropdown-menu" id="mobile-menu-23-4"><li><div class="mega-menu-content">
+<div class="row">
+<div class="col-md-9">
+<div class="row">
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/categories/tops.html/"> <span class="mega-menu-sub-title"> Áo </span> </a>
+<ul class="sub-menu">
+<li><a href="https://mygufashion.com/woman/categories/tops/sleeveless.html">Áo không tay</a></li>
+<li><a href="https://mygufashion.com/woman/categories/tops/short-sleeved.html">Áo ngắn tay</a></li>
+<li><a href="https://mygufashion.com/woman/categories/tops/blouses.html">Áo dài tay</a></li>
+<li><a href="https://mygufashion.com/woman/categories/tops/bodysuits.html">Áo liền thân</a></li>
+<li><a href="https://mygufashion.com/woman/categories/tops/coats.html">Áo khoác</a></li>
+<li><a href="https://mygufashion.com/woman/categories/tops/blazers.html">Áo Vest/Blazer</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/categories/trousers.html/"> <span class="mega-menu-sub-title">Quần</span> </a>
+<ul class="sub-menu">
+<li><a href="https://mygufashion.com/woman/categories/trousers/shorts.html">Quần shorts</a></li>
+<li><a href="https://mygufashion.com/woman/categories/trousers/cropped-pants.html">Quần lửng</a></li>
+<li><a href="https://mygufashion.com/woman/categories/trousers/trousers.html">Quần âu</a></li>
+<li><a href="https://mygufashion.com/woman/categories/trousers/leggings.html">Leggings</a></li>
+<li><a href="https://mygufashion.com/woman/categories/trousers/jeans.html">Quần bò</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/categories/dresses.html/"> <span class="mega-menu-sub-title"> Váy và áo dài </span> </a>
+<ul class="sub-menu">
+<li><a href="https://mygufashion.com/woman/categories/dresses/vietnamese-ao-dai.html">Áo dài</a></li>
+<li><a href="https://mygufashion.com/woman/categories/dresses/mini-dresses.html">Váy ngắn</a></li>
+<li><a href="https://mygufashion.com/woman/categories/dresses/midi-dresses.html">Váy lửng</a></li>
+<li><a href="https://mygufashion.com/woman/categories/dresses/maxi-dresses.html">Váy dài</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/categories/skirts.html/"> <span class="mega-menu-sub-title">Chân váy</span> </a>
+<ul class="sub-menu">
+<li><a href="https://mygufashion.com/woman/categories/skirts/mini-skirts.html">Chân váy ngắn</a></li>
+<li><a href="https://mygufashion.com/woman/categories/skirts/midi-skirts.html">Chân váy lửng</a></li>
+<li><a href="https://mygufashion.com/woman/categories/skirts/maxi-skirts.html">Chân váy dài</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div></li></ul>							</li>
+													<li class="  mega-menu-item mega-menu-fullwidth menu-4columns level0 static-menu level0 dropdown">
+								<a href="https://mygufashion.com/woman/style.html/" class="level0 dropdown-toggle"><span>Chọn theo phong cách</span> <span class="icon-next"><i class="fa fa-angle-down"></i></span></a><span class="toggle-menu"><a onclick="toggleEl(this,'mobile-menu-24-4')" href="javascript:void(0)" class=""><span class="fa fa-plus"></span></a></span><ul class="dropdown-menu" id="mobile-menu-24-4"><li><div class="mega-menu-content">
+<div class="row">
+<div class="col-md-9">
+<div class="row">
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/style/office.html/"> <span class="mega-menu-sub-title"> Công sở </span> </a></li>
+<li class="level1"><a href="https://mygufashion.com/woman/style/vintage.html/"> <span class="mega-menu-sub-title"> Bohemian </span> </a></li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/style/minimalist.html/"> <span class="mega-menu-sub-title"> Tối giản </span> </a></li>
+<li class="level1"><a href="https://mygufashion.com/woman/style/active.html/"> <span class="mega-menu-sub-title"> Thể thao </span> </a></li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/style/chic.html/"> <span class="mega-menu-sub-title"> Thanh lịch </span> </a></li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/style/sexy.html/"> <span class="mega-menu-sub-title"> Gợi cảm </span> </a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div></li></ul>							</li>
+													<li class="  mega-menu-item mega-menu-fullwidth menu-4columns level0 static-menu level0 dropdown">
+								<a href="https://mygufashion.com/woman/function.html/" class="level0 dropdown-toggle"><span>Chọn theo chức năng</span> <span class="icon-next"><i class="fa fa-angle-down"></i></span></a><span class="toggle-menu"><a onclick="toggleEl(this,'mobile-menu-25-4')" href="javascript:void(0)" class=""><span class="fa fa-plus"></span></a></span><ul class="dropdown-menu" id="mobile-menu-25-4"><li><div class="mega-menu-content">
+<div class="row">
+<div class="col-md-9">
+<div class="row">
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/function/office.html/"> <span class="mega-menu-sub-title"> Công sở </span> </a></li>
+<li class="level1"><a href="https://mygufashion.com/woman/function/evening-formal.html/"> <span class="mega-menu-sub-title"> Lịch sự/Dự tiệc </span> </a></li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/function/casual.html/"> <span class="mega-menu-sub-title"> Hàng ngày </span> </a></li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/function/active-wear.html/"> <span class="mega-menu-sub-title"> Active wear </span> </a></li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6">
+<ul class="sub-menu">
+<li class="level1"><a href="https://mygufashion.com/woman/function/holiday.html/"> <span class="mega-menu-sub-title"> Các ngày lễ </span> </a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div></li></ul>							</li>
+													<li class="link-colour-red   category-menu level0">
+								<a href="https://mygufashion.com/woman/sale.html" class="level0"><span data-hover="Siêu giảm giá">Siêu giảm giá</span></a>							</li>
+													<li class="  mega-menu-item mega-menu-fullwidth menu-2columns level0 category-menu level0">
+								<a href="https://mygufashion.com/woman/new.html" class="level0"><span data-hover="Sản phẩm mới">Sản phẩm mới</span></a>							</li>
+																				</ul>
+	</nav>
+</div><div id="main-Accountcontent" class="tab-pane"><div class="top-links"><ul class="links"><li class="item link compare" data-bind="scope: 'compareProducts'" data-role="compare-products-link">
+    <a class="action compare no-display" title="So&#x20;s&#xE1;nh&#x20;s&#x1EA3;n&#x20;ph&#x1EA9;m"
+       data-bind="attr: {'href': compareProducts().listUrl}, css: {'no-display': !compareProducts().count}"
+    >
+        So sánh sản phẩm        <span class="counter qty" data-bind="text: compareProducts().countCaption"></span>
+    </a>
+</li>
+<script type="text/x-magento-init">
+{"[data-role=compare-products-link]": {"Magento_Ui/js/core/app": {"components":{"compareProducts":{"component":"Magento_Catalog\/js\/view\/compare-products"}}}}}
+</script>
+<li><a href="https://mygufashion.com/customer/account/" id="idyl2y0B5M" >Tài khoản của tôi</a></li><li class="link wishlist" data-bind="scope: 'wishlist'">
+    <a href="https://mygufashion.com/wishlist/">Danh sách yêu thích của tôi        <!-- ko if: wishlist().counter -->
+        <span data-bind="text: wishlist().counter" class="counter qty"></span>
+        <!-- /ko -->
+    </a>
+</li>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "wishlist": {
+                        "component": "Magento_Wishlist/js/view/wishlist"
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+<li class="nav item"><a href="https://mygufashion.com/marketplace/">Đăng ký người bán</a></li><li class="nav item"><a href="https://mygufashion.com/customer/account/create/">Đăng ký người mua</a></li><li class="link authorization-link" data-label="hoặc">
+    <a href="https://mygufashion.com/customer/account/login/referer/aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v/"        >Đăng nhập</a>
+</li>
+</ul></div></div><div id="main-Settingcontent" class="tab-pane">		<div class="dropdown dropdown-switcher language switcher-language" id="switcher-language-nav">
+														<button class="switcher-toggle dropdown-toggle" type="button" data-toggle="dropdown">
+					Tiếng Việt					<i class="fa fa-angle-down" aria-hidden="true"></i>
+				</button>
+							<ul class="dropdown-menu">
+												<li class="view-en switcher-option">
+						<a href="#" data-post='{"action":"https:\/\/mygufashion.com\/stores\/store\/redirect\/","data":{"___store":"en","___from_store":"vn","uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vP19fX3N0b3JlPWVu"}}'>
+							<img alt="en" src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/images/flags/en.png" />English						</a>
+					</li>
+																</ul>
+	</div>
+
+<div class="dropdown dropdown-switcher currency switcher-currency" id="switcher-currency-nav">
+											<button class="switcher-toggle dropdown-toggle" type="button" data-toggle="dropdown">VND <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+				<ul class="dropdown-menu">
+									<li class="currency-USD switcher-option">
+					<a href="#" data-post='{"action":"https:\/\/mygufashion.com\/directory\/currency\/switch\/","data":{"currency":"USD","uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'>USD - Đô la Mỹ</a>
+				</li>
+											</ul>
+</div>
+</div></div>                    </div>
+                    
+                </div>
+				            </div>
+        </div>
+    </div>
+
+
+
+<button class="action close-nav-button"><span class="pe-7s-close" aria-hidden="true"></span></button>
+
+
+</header>
+<div class="page-title-wrapper" >
+	<div class="container">
+					<h1 class="page-header"
+								>
+				<span class="base" data-ui-id="page-title-wrapper" >Trang chủ</span>			</h1>
+					</div>
+</div>
+<section id="maincontent" class="page-main container"><a id="contentarea" tabindex="-1"></a>
+<div class="row"><div class="column main col-lg-12 col-md-12 col-sm-12 col-xs-12"><input name="form_key" type="hidden" value="O6sRnwQb2ns5Q8pw" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup', style: {display: 'none'}">
+        <script>window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/mygufashion.com\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/mygufashion.com\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/mygufashion.com\/"}</script>    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"WeltPixel_SocialLogin\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"},"amazon-button":{"component":"Amazon_Login\/js\/view\/login-button-wrapper","sortOrder":"0","displayArea":"additional-login-form-fields","config":{"tooltip":"Securely login into our website using your existing Amazon details.","componentDisabled":true}}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fmygufashion.com\u002Fstatic\u002Fversion1626148129\u002Ffrontend\u002FMgs\u002Fclaue\u002Fvi_VN\u002Fimages\u002Floader\u002D1.gif"
+            }
+        }
+    </script>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/section-config": {
+                "sections": {"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":["*"],"customer\/account\/createpost":["*"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart","directory-data"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","instant-purchase"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"multishipping\/checkout\/overviewpost":["cart"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"paypal\/express\/onauthorization":["cart","checkout-data"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"aw_rewardpoints\/cart\/remove":["cart"],"rest\/*\/v1\/carts\/*\/apply-aw-reward-points":["cart"],"rest\/*\/v1\/carts\/*\/remove-aw-reward-points":["cart"],"rest\/*\/v1\/guest-carts\/*\/set-payment-information":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/set-payment-information":["cart","checkout-data"],"ajaxcart\/index\/updatecart":["cart"],"mgs_quickview\/index\/updatecart":["cart"],"braintree\/paypal\/placeorder":["cart","checkout-data"],"braintree\/googlepay\/placeorder":["cart","checkout-data"],"sociallogin\/account\/login":["*"],"sociallogin\/account\/loginpost":["*"]},
+                "clientSideSections": ["checkout-data","cart-data","chatData"],
+                "baseUrls": ["https:\/\/mygufashion.com\/"],
+                "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","instant-purchase","loggedAsCustomer","persistent","review","wishlist","chatData","recently_viewed_product","recently_compared_product","product_data_storage","paypal-billing-agreement"]            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/customer-data": {
+                "sectionLoadUrl": "https\u003A\u002F\u002Fmygufashion.com\u002Fcustomer\u002Fsection\u002Fload\u002F",
+                "expirableSectionLifetime": 60,
+                "expirableSectionNames": ["cart","persistent"],
+                "cookieLifeTime": "3600",
+                "updateSessionUrl": "https\u003A\u002F\u002Fmygufashion.com\u002Fcustomer\u002Faccount\u002FupdateSession\u002F"
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/invalidation-processor": {
+                "invalidationRules": {
+                    "website-rule": {
+                        "Magento_Customer/js/invalidation-rules/website-rule": {
+                            "scopeConfig": {
+                                "websiteId": "1"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/mygufashion.com\/page_cache\/block\/render\/","handles":["default","cms_index_index","cms_page_view","cms_index_index_id_home","instant_search"],"originalRequest":{"route":"cms","controller":"index","action":"index","uri":"\/"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "awRewardPointsAjax": {"url":"https:\/\/mygufashion.com\/aw_rewardpoints\/block\/render\/","originalRequest":{"route":"cms","controller":"index","action":"index","uri":"\/"}}        }
+    }
+</script>
+<div class="" style="background-color: #f7f7f9;">
+<div class="container-fluid no-padding">
+<div class="row">
+<div class="col-lg-12 col-md-12">
+<div class="row">
+<div class="panel-block-row col-md-12">
+<div class="video-banner">
+<div id="video-background">&nbsp;</div>
+<div class="text" style="background-image: url('pub/media/wysiwyg/slider/slider_mygu_02.jpg');">
+<h5 class="lh__1 sub-title"><em class="text-colour-white">Spring – Summer 2021</em></h5>
+<h2 class="margin-top20 margin-bottom20 lh__1" style="font-size: 60px;"><span class="text-colour-white">SUMMER 2021 COLLECTION</span></h2>
+<p class="text-center"><a class="btn btn-default2" href="https://mygufashion.com/woman/sale.html">Shop Now</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="" style="padding-top: 50px;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12">
+<div class="row">
+<div class="panel-block-row col-md-12 col-xs-12"><div class="content-block product-tabs-block">
+			<div class="content-heading">
+							<h3 class="title">NỮ</h3>
+										<div class="block-note">BỘ SƯU TẬP MỚI</div>
+					</div>
+		
+					<div class="tabbable product-tab">
+			<div class="tab-content">
+															<div id="tab-mgs_new_products_tabs15822816421626991943" class="tab-pane  active">
+														<div class="block widget mgs-products new-products-grid products-grid">
+			<div class="items row " id="new-products13041832601626991943">
+															<div class="item clearfix">
+											 
+							<div class="col-md-6 col-xs-12">
+								<div class="product product-item big-item">
+									
+
+
+
+<div class="product-item-info metro_template   " data-container="product-grid">
+	
+		<div class="product-top">
+	
+								
+				<a href="https://mygufashion.com/vay-2-day-tho-gai-ph-i-th-c-m-tru-c-ng-c.html" class="product photo product-item-photo " style="padding-bottom: 133.3333%;"  tabindex="-1">
+			
+			<img src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/images/blank.png" alt="Váy 2 dây thô gai phối thổ cẩm trước ngực" class="img-responsive product-image-photo img-thumbnail  lazy"  data-src="https://mygufashion.com/media/catalog/product/cache/81cce6be9f27dadac009f422e8923114/l/p/lp2-1_1_2.png"/>
+			
+													
+			<div class="product-image-photo"></div>
+		</a>
+		
+				<span class="product-label new-label"><span>Mới</span></span>		
+				<ul class="actions-link">
+		
+						<li class="hidden-sm hidden-xs ">
+								<button data-title="Quick View" class="action mgs-quickview" data-quickview-url=https://mygufashion.com/mgs_quickview/catalog_product/view/id/209/ title="Quick View"><span class="pe-7s-search"></span></button>			</li>
+			
+										<li>
+					<button class="action towishlist"
+					   title="Thêm vào danh sách yêu thích"
+					   data-title="Thêm vào danh sách yêu thích"
+					   aria-label="Thêm vào danh sách yêu thích"
+					   data-post='{"action":"https:\/\/mygufashion.com\/wishlist\/index\/add\/","data":{"product":209,"uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   data-action="add-to-wishlist"
+					   role="button">
+						<i class="pe-7s-like"></i>
+					</button>
+				</li>
+						
+													<li>
+					<button class="action tocompare"
+					   title="Thêm vào so sánh"
+					   data-title="Thêm vào so sánh"
+					   aria-label="Thêm vào so sánh"
+					   data-post='{"action":"https:\/\/mygufashion.com\/catalog\/product_compare\/add\/","data":{"product":"209","uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   role="button">
+						<i class="pe-7s-graph3"></i>
+					</button>
+				</li>
+					</ul>
+		
+											<div>
+										<form data-role="tocart-form" action="https://mygufashion.com/checkout/cart/add/uenc/aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzIwOS8%2C/product/209/" method="post">
+						<input type="hidden" name="product" value="209">
+						<input type="hidden" name="uenc" value="aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzIwOS8,">
+						<input name="form_key" type="hidden" value="O6sRnwQb2ns5Q8pw" />
+																					<button class="action tocart btn-cart" type="submit" title="Thêm vào giỏ hàng">
+									<span class="icon pe-7s-shopbag"></span>
+									<span class="text">Thêm vào giỏ hàng</span>
+								</button>
+												</form>
+				</div>
+						</div>
+	
+		<div class="product details product-item-details">
+	
+				<h5 class="product name product-item-name">
+			<a class="product-item-link"
+			   href="https://mygufashion.com/vay-2-day-tho-gai-ph-i-th-c-m-tru-c-ng-c.html">
+				Váy 2 dây thô gai phối thổ cẩm trước ngực			</a>
+		</h5>
+		
+									<div class="product-reviews-summary short">
+				<div class="rating-summary">
+			<a href="https://mygufashion.com/vay-2-day-tho-gai-ph-i-th-c-m-tru-c-ng-c.html#reviews">
+				<span class="rating-result" title="100%">
+					<span style="width:100%"><span>100%</span></span>
+				</span>
+			</a>
+		</div>
+			</div>
+				
+				<div class="price-box price-final_price" data-role="priceBox" data-product-id="209" data-price-box="product-id-209"><span class="normal-price">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Thấp như</span>
+        <span  id="product-price-209"                data-price-amount="4499995"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">4.499.995,00 ₫</span></span>
+        </span>
+</span>
+
+    <span class="old-price sly-old-price no-display">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá thông thường</span>
+        <span  id="old-price-209"                data-price-amount="4500000"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">4.500.000,00 ₫</span></span>
+        </span>
+    </span>
+
+</div>		
+				<div class="swatch-opt-209"
+     data-role="swatch-option-209"></div>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=swatch-option-209]": {
+            "Magento_Swatches/js/swatch-renderer": {
+                "selectorProduct": ".product-item-details",
+                "onlySwatches": true,
+                "enableControlLabel": false,
+                "numberToShow": 16,
+                "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"M\u00e0u s\u1eafc","options":[{"id":"5","label":"\u0110en","products":["206","207","208"]}],"position":"0"},"161":{"id":"161","code":"size","label":"K\u00edch c\u1ee1","options":[{"id":"13","label":"S","products":["206"]},{"id":"15","label":"M","products":["208"]},{"id":"16","label":"L","products":["207"]}],"position":"1"}},"template":"<%- data.price %>\u00a0\u20ab","currencyFormat":"%s\u00a0\u20ab","optionPrices":{"206":{"baseOldPrice":{"amount":4500000},"oldPrice":{"amount":4500000},"basePrice":{"amount":4499995},"finalPrice":{"amount":4499995},"tierPrices":[],"msrpPrice":{"amount":0}},"207":{"baseOldPrice":{"amount":4500000},"oldPrice":{"amount":4500000},"basePrice":{"amount":4499995},"finalPrice":{"amount":4499995},"tierPrices":[],"msrpPrice":{"amount":0}},"208":{"baseOldPrice":{"amount":4500000},"oldPrice":{"amount":4500000},"basePrice":{"amount":4499995},"finalPrice":{"amount":4499995},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},"prices":{"baseOldPrice":{"amount":4500000},"oldPrice":{"amount":4500000},"basePrice":{"amount":4499995},"finalPrice":{"amount":4499995}},"productId":"209","chooseText":"Ch\u1ecdn m\u1ed9t t\u00f9y ch\u1ecdn...","images":[],"index":{"206":{"93":"5","161":"13"},"207":{"93":"5","161":"16"},"208":{"93":"5","161":"15"}},"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"206":"LP2-Black-S","207":"LP2-Black-L","208":"LP2-Black-M"}},
+                "jsonSwatchConfig": {"93":{"5":{"type":"1","value":"#000000","label":"\u0110en"},"additional_data":"{\"swatch_input_type\":\"visual\",\"update_product_preview_image\":\"1\",\"use_product_image_for_swatch\":\"0\"}"},"161":{"13":{"type":"0","value":"S","label":"S"},"15":{"type":"0","value":"M","label":"M"},"16":{"type":"0","value":"L","label":"L"},"additional_data":"{\"swatch_input_type\":\"text\",\"update_product_preview_image\":\"0\",\"use_product_image_for_swatch\":0}"}},
+                "mediaCallback": "https\u003A\u002F\u002Fmygufashion.com\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                "showTooltip": 1            }
+        }
+    }
+</script>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=priceBox][data-price-box=product-id-209]": {
+            "priceBox": {
+                "priceConfig": {
+                    "priceFormat": {"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},
+                    "prices": {"baseOldPrice":{"amount":4500000},"oldPrice":{"amount":4500000},"basePrice":{"amount":4499995},"finalPrice":{"amount":4499995}}                }
+            }
+        }
+    }
+</script>
+
+			</div>
+</div>								</div>
+							</div>
+																																	 
+								<div class="col-md-6 col-xs-12"><div class="row">
+																<div class="col-sm-6 col-xs-12">
+										<div class="product product-item">
+											
+
+
+
+<div class="product-item-info metro_template   " data-container="product-grid">
+	
+		<div class="product-top">
+	
+								
+				<a href="https://mygufashion.com/ao-dai-tho-gai-ph-i-th-c-m-tru-c-ng-c.html" class="product photo product-item-photo " style="padding-bottom: 133.3333%;"  tabindex="-1">
+			
+			<img src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/images/blank.png" alt="Áo dài thô gai phối thổ cẩm trước ngực" class="img-responsive product-image-photo img-thumbnail  lazy"  data-src="https://mygufashion.com/media/catalog/product/cache/81cce6be9f27dadac009f422e8923114/l/p/lp4-1_1_2.png"/>
+			
+													
+			<div class="product-image-photo"></div>
+		</a>
+		
+				<span class="product-label new-label"><span>Mới</span></span>		
+				<ul class="actions-link">
+		
+						<li class="hidden-sm hidden-xs ">
+								<button data-title="Quick View" class="action mgs-quickview" data-quickview-url=https://mygufashion.com/mgs_quickview/catalog_product/view/id/222/ title="Quick View"><span class="pe-7s-search"></span></button>			</li>
+			
+										<li>
+					<button class="action towishlist"
+					   title="Thêm vào danh sách yêu thích"
+					   data-title="Thêm vào danh sách yêu thích"
+					   aria-label="Thêm vào danh sách yêu thích"
+					   data-post='{"action":"https:\/\/mygufashion.com\/wishlist\/index\/add\/","data":{"product":222,"uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   data-action="add-to-wishlist"
+					   role="button">
+						<i class="pe-7s-like"></i>
+					</button>
+				</li>
+						
+													<li>
+					<button class="action tocompare"
+					   title="Thêm vào so sánh"
+					   data-title="Thêm vào so sánh"
+					   aria-label="Thêm vào so sánh"
+					   data-post='{"action":"https:\/\/mygufashion.com\/catalog\/product_compare\/add\/","data":{"product":"222","uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   role="button">
+						<i class="pe-7s-graph3"></i>
+					</button>
+				</li>
+					</ul>
+		
+											<div>
+										<form data-role="tocart-form" action="https://mygufashion.com/checkout/cart/add/uenc/aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzIyMi8%2C/product/222/" method="post">
+						<input type="hidden" name="product" value="222">
+						<input type="hidden" name="uenc" value="aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzIyMi8,">
+						<input name="form_key" type="hidden" value="O6sRnwQb2ns5Q8pw" />
+																					<button class="action tocart btn-cart" type="submit" title="Thêm vào giỏ hàng">
+									<span class="icon pe-7s-shopbag"></span>
+									<span class="text">Thêm vào giỏ hàng</span>
+								</button>
+												</form>
+				</div>
+						</div>
+	
+		<div class="product details product-item-details">
+	
+				<h5 class="product name product-item-name">
+			<a class="product-item-link"
+			   href="https://mygufashion.com/ao-dai-tho-gai-ph-i-th-c-m-tru-c-ng-c.html">
+				Áo dài thô gai phối thổ cẩm trước ngực			</a>
+		</h5>
+		
+									<div class="product-reviews-summary short empty">
+		<div class="rating-summary">
+			<a title="Là người đầu tiên để xem xét sản phẩm này" href="https://mygufashion.com/ao-dai-tho-gai-ph-i-th-c-m-tru-c-ng-c.html#reviews">
+				<span class="rating-result">
+					<span style="width: 0;"></span>
+				</span>
+			</a>
+		</div>
+	</div>
+				
+				<div class="price-box price-final_price" data-role="priceBox" data-product-id="222" data-price-box="product-id-222"><span class="normal-price">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Thấp như</span>
+        <span  id="product-price-222"                data-price-amount="4249995"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">4.249.995,00 ₫</span></span>
+        </span>
+</span>
+
+    <span class="old-price sly-old-price no-display">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá thông thường</span>
+        <span  id="old-price-222"                data-price-amount="4250000"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">4.250.000,00 ₫</span></span>
+        </span>
+    </span>
+
+</div>		
+				<div class="swatch-opt-222"
+     data-role="swatch-option-222"></div>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=swatch-option-222]": {
+            "Magento_Swatches/js/swatch-renderer": {
+                "selectorProduct": ".product-item-details",
+                "onlySwatches": true,
+                "enableControlLabel": false,
+                "numberToShow": 16,
+                "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"M\u00e0u s\u1eafc","options":[{"id":"89","label":"V\u00e0ng","products":["219","220","221"]}],"position":"0"},"161":{"id":"161","code":"size","label":"K\u00edch c\u1ee1","options":[{"id":"13","label":"S","products":["219"]},{"id":"15","label":"M","products":["221"]},{"id":"16","label":"L","products":["220"]}],"position":"1"}},"template":"<%- data.price %>\u00a0\u20ab","currencyFormat":"%s\u00a0\u20ab","optionPrices":{"219":{"baseOldPrice":{"amount":4250000},"oldPrice":{"amount":4250000},"basePrice":{"amount":4249995},"finalPrice":{"amount":4249995},"tierPrices":[],"msrpPrice":{"amount":0}},"220":{"baseOldPrice":{"amount":4250000},"oldPrice":{"amount":4250000},"basePrice":{"amount":4249995},"finalPrice":{"amount":4249995},"tierPrices":[],"msrpPrice":{"amount":0}},"221":{"baseOldPrice":{"amount":4250000},"oldPrice":{"amount":4250000},"basePrice":{"amount":4249995},"finalPrice":{"amount":4249995},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},"prices":{"baseOldPrice":{"amount":4250000},"oldPrice":{"amount":4250000},"basePrice":{"amount":4249995},"finalPrice":{"amount":4249995}},"productId":"222","chooseText":"Ch\u1ecdn m\u1ed9t t\u00f9y ch\u1ecdn...","images":[],"index":{"219":{"93":"89","161":"13"},"220":{"93":"89","161":"16"},"221":{"93":"89","161":"15"}},"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"219":"LP4-Yellow-S","220":"LP4-Yellow-L","221":"LP4-Yellow-M"}},
+                "jsonSwatchConfig": {"93":{"89":{"type":"1","value":"#ffea00","label":"V\u00e0ng"},"additional_data":"{\"swatch_input_type\":\"visual\",\"update_product_preview_image\":\"1\",\"use_product_image_for_swatch\":\"0\"}"},"161":{"13":{"type":"0","value":"S","label":"S"},"15":{"type":"0","value":"M","label":"M"},"16":{"type":"0","value":"L","label":"L"},"additional_data":"{\"swatch_input_type\":\"text\",\"update_product_preview_image\":\"0\",\"use_product_image_for_swatch\":0}"}},
+                "mediaCallback": "https\u003A\u002F\u002Fmygufashion.com\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                "showTooltip": 1            }
+        }
+    }
+</script>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=priceBox][data-price-box=product-id-222]": {
+            "priceBox": {
+                "priceConfig": {
+                    "priceFormat": {"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},
+                    "prices": {"baseOldPrice":{"amount":4250000},"oldPrice":{"amount":4250000},"basePrice":{"amount":4249995},"finalPrice":{"amount":4249995}}                }
+            }
+        }
+    }
+</script>
+
+			</div>
+</div>										</div>
+									</div>
+																																																	<div class="col-sm-6 col-xs-12">
+										<div class="product product-item">
+											
+
+
+
+<div class="product-item-info metro_template   " data-container="product-grid">
+	
+		<div class="product-top">
+	
+								
+				<a href="https://mygufashion.com/ao-dai-tho-gai-ph-i-th-c-m-tru-c-ng-c-den.html" class="product photo product-item-photo " style="padding-bottom: 133.3333%;"  tabindex="-1">
+			
+			<img src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/images/blank.png" alt="Áo dài thô gai phối thổ cẩm trước ngực đen" class="img-responsive product-image-photo img-thumbnail  lazy"  data-src="https://mygufashion.com/media/catalog/product/cache/81cce6be9f27dadac009f422e8923114/l/p/lp8-1_1_1.png"/>
+			
+													
+			<div class="product-image-photo"></div>
+		</a>
+		
+				<span class="product-label new-label"><span>Mới</span></span>		
+				<ul class="actions-link">
+		
+						<li class="hidden-sm hidden-xs ">
+								<button data-title="Quick View" class="action mgs-quickview" data-quickview-url=https://mygufashion.com/mgs_quickview/catalog_product/view/id/230/ title="Quick View"><span class="pe-7s-search"></span></button>			</li>
+			
+										<li>
+					<button class="action towishlist"
+					   title="Thêm vào danh sách yêu thích"
+					   data-title="Thêm vào danh sách yêu thích"
+					   aria-label="Thêm vào danh sách yêu thích"
+					   data-post='{"action":"https:\/\/mygufashion.com\/wishlist\/index\/add\/","data":{"product":230,"uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   data-action="add-to-wishlist"
+					   role="button">
+						<i class="pe-7s-like"></i>
+					</button>
+				</li>
+						
+													<li>
+					<button class="action tocompare"
+					   title="Thêm vào so sánh"
+					   data-title="Thêm vào so sánh"
+					   aria-label="Thêm vào so sánh"
+					   data-post='{"action":"https:\/\/mygufashion.com\/catalog\/product_compare\/add\/","data":{"product":"230","uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   role="button">
+						<i class="pe-7s-graph3"></i>
+					</button>
+				</li>
+					</ul>
+		
+											<div>
+										<form data-role="tocart-form" action="https://mygufashion.com/checkout/cart/add/uenc/aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzIzMC8%2C/product/230/" method="post">
+						<input type="hidden" name="product" value="230">
+						<input type="hidden" name="uenc" value="aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzIzMC8,">
+						<input name="form_key" type="hidden" value="O6sRnwQb2ns5Q8pw" />
+																					<button class="action tocart btn-cart" type="submit" title="Thêm vào giỏ hàng">
+									<span class="icon pe-7s-shopbag"></span>
+									<span class="text">Thêm vào giỏ hàng</span>
+								</button>
+												</form>
+				</div>
+						</div>
+	
+		<div class="product details product-item-details">
+	
+				<h5 class="product name product-item-name">
+			<a class="product-item-link"
+			   href="https://mygufashion.com/ao-dai-tho-gai-ph-i-th-c-m-tru-c-ng-c-den.html">
+				Áo dài thô gai phối thổ cẩm trước ngực đen			</a>
+		</h5>
+		
+									<div class="product-reviews-summary short empty">
+		<div class="rating-summary">
+			<a title="Là người đầu tiên để xem xét sản phẩm này" href="https://mygufashion.com/ao-dai-tho-gai-ph-i-th-c-m-tru-c-ng-c-den.html#reviews">
+				<span class="rating-result">
+					<span style="width: 0;"></span>
+				</span>
+			</a>
+		</div>
+	</div>
+				
+				<div class="price-box price-final_price" data-role="priceBox" data-product-id="230" data-price-box="product-id-230"><span class="normal-price">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Thấp như</span>
+        <span  id="product-price-230"                data-price-amount="4249995"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">4.249.995,00 ₫</span></span>
+        </span>
+</span>
+
+    <span class="old-price sly-old-price no-display">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá thông thường</span>
+        <span  id="old-price-230"                data-price-amount="4250000"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">4.250.000,00 ₫</span></span>
+        </span>
+    </span>
+
+</div>		
+				<div class="swatch-opt-230"
+     data-role="swatch-option-230"></div>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=swatch-option-230]": {
+            "Magento_Swatches/js/swatch-renderer": {
+                "selectorProduct": ".product-item-details",
+                "onlySwatches": true,
+                "enableControlLabel": false,
+                "numberToShow": 16,
+                "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"M\u00e0u s\u1eafc","options":[{"id":"5","label":"\u0110en","products":["227","228","229"]}],"position":"0"},"161":{"id":"161","code":"size","label":"K\u00edch c\u1ee1","options":[{"id":"13","label":"S","products":["227"]},{"id":"15","label":"M","products":["229"]},{"id":"16","label":"L","products":["228"]}],"position":"1"}},"template":"<%- data.price %>\u00a0\u20ab","currencyFormat":"%s\u00a0\u20ab","optionPrices":{"227":{"baseOldPrice":{"amount":4250000},"oldPrice":{"amount":4250000},"basePrice":{"amount":4249995},"finalPrice":{"amount":4249995},"tierPrices":[],"msrpPrice":{"amount":0}},"228":{"baseOldPrice":{"amount":4250000},"oldPrice":{"amount":4250000},"basePrice":{"amount":4249995},"finalPrice":{"amount":4249995},"tierPrices":[],"msrpPrice":{"amount":0}},"229":{"baseOldPrice":{"amount":4250000},"oldPrice":{"amount":4250000},"basePrice":{"amount":4249995},"finalPrice":{"amount":4249995},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},"prices":{"baseOldPrice":{"amount":4250000},"oldPrice":{"amount":4250000},"basePrice":{"amount":4249995},"finalPrice":{"amount":4249995}},"productId":"230","chooseText":"Ch\u1ecdn m\u1ed9t t\u00f9y ch\u1ecdn...","images":[],"index":{"227":{"93":"5","161":"13"},"228":{"93":"5","161":"16"},"229":{"93":"5","161":"15"}},"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"227":"LP8-Black-S","228":"LP8-Black-L","229":"LP8-Black-M"}},
+                "jsonSwatchConfig": {"93":{"5":{"type":"1","value":"#000000","label":"\u0110en"},"additional_data":"{\"swatch_input_type\":\"visual\",\"update_product_preview_image\":\"1\",\"use_product_image_for_swatch\":\"0\"}"},"161":{"13":{"type":"0","value":"S","label":"S"},"15":{"type":"0","value":"M","label":"M"},"16":{"type":"0","value":"L","label":"L"},"additional_data":"{\"swatch_input_type\":\"text\",\"update_product_preview_image\":\"0\",\"use_product_image_for_swatch\":0}"}},
+                "mediaCallback": "https\u003A\u002F\u002Fmygufashion.com\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                "showTooltip": 1            }
+        }
+    }
+</script>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=priceBox][data-price-box=product-id-230]": {
+            "priceBox": {
+                "priceConfig": {
+                    "priceFormat": {"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},
+                    "prices": {"baseOldPrice":{"amount":4250000},"oldPrice":{"amount":4250000},"basePrice":{"amount":4249995},"finalPrice":{"amount":4249995}}                }
+            }
+        }
+    }
+</script>
+
+			</div>
+</div>										</div>
+									</div>
+																																																	<div class="col-sm-6 col-xs-12">
+										<div class="product product-item">
+											
+
+
+
+<div class="product-item-info metro_template   " data-container="product-grid">
+	
+		<div class="product-top">
+	
+								
+				<a href="https://mygufashion.com/vay-voan-l-a-ph-i-ren.html" class="product photo product-item-photo " style="padding-bottom: 133.3333%;"  tabindex="-1">
+			
+			<img src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/images/blank.png" alt="Váy voan lụa phối ren" class="img-responsive product-image-photo img-thumbnail  lazy"  data-src="https://mygufashion.com/media/catalog/product/cache/81cce6be9f27dadac009f422e8923114/l/p/lp10-1_1_1.png"/>
+			
+													
+			<div class="product-image-photo"></div>
+		</a>
+		
+				<span class="product-label new-label"><span>Mới</span></span>		
+				<ul class="actions-link">
+		
+						<li class="hidden-sm hidden-xs ">
+								<button data-title="Quick View" class="action mgs-quickview" data-quickview-url=https://mygufashion.com/mgs_quickview/catalog_product/view/id/238/ title="Quick View"><span class="pe-7s-search"></span></button>			</li>
+			
+										<li>
+					<button class="action towishlist"
+					   title="Thêm vào danh sách yêu thích"
+					   data-title="Thêm vào danh sách yêu thích"
+					   aria-label="Thêm vào danh sách yêu thích"
+					   data-post='{"action":"https:\/\/mygufashion.com\/wishlist\/index\/add\/","data":{"product":238,"uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   data-action="add-to-wishlist"
+					   role="button">
+						<i class="pe-7s-like"></i>
+					</button>
+				</li>
+						
+													<li>
+					<button class="action tocompare"
+					   title="Thêm vào so sánh"
+					   data-title="Thêm vào so sánh"
+					   aria-label="Thêm vào so sánh"
+					   data-post='{"action":"https:\/\/mygufashion.com\/catalog\/product_compare\/add\/","data":{"product":"238","uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   role="button">
+						<i class="pe-7s-graph3"></i>
+					</button>
+				</li>
+					</ul>
+		
+											<div>
+										<form data-role="tocart-form" action="https://mygufashion.com/checkout/cart/add/uenc/aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzIzOC8%2C/product/238/" method="post">
+						<input type="hidden" name="product" value="238">
+						<input type="hidden" name="uenc" value="aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzIzOC8,">
+						<input name="form_key" type="hidden" value="O6sRnwQb2ns5Q8pw" />
+																					<button class="action tocart btn-cart" type="submit" title="Thêm vào giỏ hàng">
+									<span class="icon pe-7s-shopbag"></span>
+									<span class="text">Thêm vào giỏ hàng</span>
+								</button>
+												</form>
+				</div>
+						</div>
+	
+		<div class="product details product-item-details">
+	
+				<h5 class="product name product-item-name">
+			<a class="product-item-link"
+			   href="https://mygufashion.com/vay-voan-l-a-ph-i-ren.html">
+				Váy voan lụa phối ren			</a>
+		</h5>
+		
+									<div class="product-reviews-summary short empty">
+		<div class="rating-summary">
+			<a title="Là người đầu tiên để xem xét sản phẩm này" href="https://mygufashion.com/vay-voan-l-a-ph-i-ren.html#reviews">
+				<span class="rating-result">
+					<span style="width: 0;"></span>
+				</span>
+			</a>
+		</div>
+	</div>
+				
+				<div class="price-box price-final_price" data-role="priceBox" data-product-id="238" data-price-box="product-id-238"><span class="normal-price">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+         itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <span class="price-label">Thấp như</span>
+        <span  id="product-price-238"                data-price-amount="4499995"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">4.499.995,00 ₫</span></span>
+                <meta itemprop="price" content="4499995" />
+        <meta itemprop="priceCurrency" content="VND" />
+    </span>
+</span>
+
+    <span class="old-price sly-old-price no-display">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá thông thường</span>
+        <span  id="old-price-238"                data-price-amount="4500000"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">4.500.000,00 ₫</span></span>
+        </span>
+    </span>
+
+</div>		
+				<div class="swatch-opt-238"
+     data-role="swatch-option-238"></div>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=swatch-option-238]": {
+            "Magento_Swatches/js/swatch-renderer": {
+                "selectorProduct": ".product-item-details",
+                "onlySwatches": true,
+                "enableControlLabel": false,
+                "numberToShow": 16,
+                "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"M\u00e0u s\u1eafc","options":[{"id":"4","label":"Tr\u1eafng","products":["235","236","237"]}],"position":"0"},"161":{"id":"161","code":"size","label":"K\u00edch c\u1ee1","options":[{"id":"13","label":"S","products":["235"]},{"id":"15","label":"M","products":["237"]},{"id":"16","label":"L","products":["236"]}],"position":"1"}},"template":"<%- data.price %>\u00a0\u20ab","currencyFormat":"%s\u00a0\u20ab","optionPrices":{"235":{"baseOldPrice":{"amount":4500000},"oldPrice":{"amount":4500000},"basePrice":{"amount":4499995},"finalPrice":{"amount":4499995},"tierPrices":[],"msrpPrice":{"amount":0}},"236":{"baseOldPrice":{"amount":4500000},"oldPrice":{"amount":4500000},"basePrice":{"amount":4499995},"finalPrice":{"amount":4499995},"tierPrices":[],"msrpPrice":{"amount":0}},"237":{"baseOldPrice":{"amount":4500000},"oldPrice":{"amount":4500000},"basePrice":{"amount":4499995},"finalPrice":{"amount":4499995},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},"prices":{"baseOldPrice":{"amount":4500000},"oldPrice":{"amount":4500000},"basePrice":{"amount":4499995},"finalPrice":{"amount":4499995}},"productId":"238","chooseText":"Ch\u1ecdn m\u1ed9t t\u00f9y ch\u1ecdn...","images":[],"index":{"235":{"93":"4","161":"13"},"236":{"93":"4","161":"16"},"237":{"93":"4","161":"15"}},"channel":"website","salesChannelCode":"base","sku":{"235":"LP10-White-S","236":"LP10-White-L","237":"LP10-White-M"}},
+                "jsonSwatchConfig": {"93":{"4":{"type":"1","value":"#ffffff","label":"Tr\u1eafng"},"additional_data":"{\"swatch_input_type\":\"visual\",\"update_product_preview_image\":\"1\",\"use_product_image_for_swatch\":\"0\"}"},"161":{"13":{"type":"0","value":"S","label":"S"},"15":{"type":"0","value":"M","label":"M"},"16":{"type":"0","value":"L","label":"L"},"additional_data":"{\"swatch_input_type\":\"text\",\"update_product_preview_image\":\"0\",\"use_product_image_for_swatch\":0}"}},
+                "mediaCallback": "https\u003A\u002F\u002Fmygufashion.com\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                "showTooltip": 1            }
+        }
+    }
+</script>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=priceBox][data-price-box=product-id-238]": {
+            "priceBox": {
+                "priceConfig": {
+                    "priceFormat": {"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},
+                    "prices": {"baseOldPrice":{"amount":4500000},"oldPrice":{"amount":4500000},"basePrice":{"amount":4499995},"finalPrice":{"amount":4499995}}                }
+            }
+        }
+    }
+</script>
+
+			</div>
+</div>										</div>
+									</div>
+																																																	<div class="col-sm-6 col-xs-12">
+										<div class="product product-item">
+											
+
+
+
+<div class="product-item-info metro_template   " data-container="product-grid">
+	
+		<div class="product-top">
+	
+								
+				<a href="https://mygufashion.com/d-m-2-day-den-thoang-mat.html" class="product photo product-item-photo " style="padding-bottom: 133.3333%;"  tabindex="-1">
+			
+			<img src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/images/blank.png" alt="Đầm 2 dây đen thoáng mát" class="img-responsive product-image-photo img-thumbnail  lazy"  data-src="https://mygufashion.com/media/catalog/product/cache/81cce6be9f27dadac009f422e8923114/l/p/lp7-1_1.png"/>
+			
+													
+			<div class="product-image-photo"></div>
+		</a>
+		
+				<span class="product-label new-label"><span>Mới</span></span>		
+				<ul class="actions-link">
+		
+						<li class="hidden-sm hidden-xs ">
+								<button data-title="Quick View" class="action mgs-quickview" data-quickview-url=https://mygufashion.com/mgs_quickview/catalog_product/view/id/246/ title="Quick View"><span class="pe-7s-search"></span></button>			</li>
+			
+										<li>
+					<button class="action towishlist"
+					   title="Thêm vào danh sách yêu thích"
+					   data-title="Thêm vào danh sách yêu thích"
+					   aria-label="Thêm vào danh sách yêu thích"
+					   data-post='{"action":"https:\/\/mygufashion.com\/wishlist\/index\/add\/","data":{"product":246,"uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   data-action="add-to-wishlist"
+					   role="button">
+						<i class="pe-7s-like"></i>
+					</button>
+				</li>
+						
+													<li>
+					<button class="action tocompare"
+					   title="Thêm vào so sánh"
+					   data-title="Thêm vào so sánh"
+					   aria-label="Thêm vào so sánh"
+					   data-post='{"action":"https:\/\/mygufashion.com\/catalog\/product_compare\/add\/","data":{"product":"246","uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   role="button">
+						<i class="pe-7s-graph3"></i>
+					</button>
+				</li>
+					</ul>
+		
+											<div>
+										<form data-role="tocart-form" action="https://mygufashion.com/checkout/cart/add/uenc/aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzI0Ni8%2C/product/246/" method="post">
+						<input type="hidden" name="product" value="246">
+						<input type="hidden" name="uenc" value="aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzI0Ni8,">
+						<input name="form_key" type="hidden" value="O6sRnwQb2ns5Q8pw" />
+																					<button class="action tocart btn-cart" type="submit" title="Thêm vào giỏ hàng">
+									<span class="icon pe-7s-shopbag"></span>
+									<span class="text">Thêm vào giỏ hàng</span>
+								</button>
+												</form>
+				</div>
+						</div>
+	
+		<div class="product details product-item-details">
+	
+				<h5 class="product name product-item-name">
+			<a class="product-item-link"
+			   href="https://mygufashion.com/d-m-2-day-den-thoang-mat.html">
+				Đầm 2 dây đen thoáng mát			</a>
+		</h5>
+		
+									<div class="product-reviews-summary short empty">
+		<div class="rating-summary">
+			<a title="Là người đầu tiên để xem xét sản phẩm này" href="https://mygufashion.com/d-m-2-day-den-thoang-mat.html#reviews">
+				<span class="rating-result">
+					<span style="width: 0;"></span>
+				</span>
+			</a>
+		</div>
+	</div>
+				
+				<div class="price-box price-final_price" data-role="priceBox" data-product-id="246" data-price-box="product-id-246"><span class="normal-price">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Thấp như</span>
+        <span  id="product-price-246"                data-price-amount="1499995"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">1.499.995,00 ₫</span></span>
+        </span>
+</span>
+
+    <span class="old-price sly-old-price no-display">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá thông thường</span>
+        <span  id="old-price-246"                data-price-amount="1500000"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">1.500.000,00 ₫</span></span>
+        </span>
+    </span>
+
+</div>		
+				<div class="swatch-opt-246"
+     data-role="swatch-option-246"></div>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=swatch-option-246]": {
+            "Magento_Swatches/js/swatch-renderer": {
+                "selectorProduct": ".product-item-details",
+                "onlySwatches": true,
+                "enableControlLabel": false,
+                "numberToShow": 16,
+                "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"M\u00e0u s\u1eafc","options":[{"id":"4","label":"Tr\u1eafng","products":["243","244","245"]}],"position":"0"},"161":{"id":"161","code":"size","label":"K\u00edch c\u1ee1","options":[{"id":"13","label":"S","products":["243"]},{"id":"15","label":"M","products":["245"]},{"id":"16","label":"L","products":["244"]}],"position":"1"}},"template":"<%- data.price %>\u00a0\u20ab","currencyFormat":"%s\u00a0\u20ab","optionPrices":{"243":{"baseOldPrice":{"amount":1500000},"oldPrice":{"amount":1500000},"basePrice":{"amount":1499995},"finalPrice":{"amount":1499995},"tierPrices":[],"msrpPrice":{"amount":0}},"244":{"baseOldPrice":{"amount":1500000},"oldPrice":{"amount":1500000},"basePrice":{"amount":1499995},"finalPrice":{"amount":1499995},"tierPrices":[],"msrpPrice":{"amount":0}},"245":{"baseOldPrice":{"amount":1500000},"oldPrice":{"amount":1500000},"basePrice":{"amount":1499995},"finalPrice":{"amount":1499995},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},"prices":{"baseOldPrice":{"amount":1500000},"oldPrice":{"amount":1500000},"basePrice":{"amount":1499995},"finalPrice":{"amount":1499995}},"productId":"246","chooseText":"Ch\u1ecdn m\u1ed9t t\u00f9y ch\u1ecdn...","images":[],"index":{"243":{"93":"4","161":"13"},"244":{"93":"4","161":"16"},"245":{"93":"4","161":"15"}},"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"243":"LP7-White-S","244":"LP7-White-L","245":"LP7-White-M"}},
+                "jsonSwatchConfig": {"93":{"4":{"type":"1","value":"#ffffff","label":"Tr\u1eafng"},"additional_data":"{\"swatch_input_type\":\"visual\",\"update_product_preview_image\":\"1\",\"use_product_image_for_swatch\":\"0\"}"},"161":{"13":{"type":"0","value":"S","label":"S"},"15":{"type":"0","value":"M","label":"M"},"16":{"type":"0","value":"L","label":"L"},"additional_data":"{\"swatch_input_type\":\"text\",\"update_product_preview_image\":\"0\",\"use_product_image_for_swatch\":0}"}},
+                "mediaCallback": "https\u003A\u002F\u002Fmygufashion.com\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                "showTooltip": 1            }
+        }
+    }
+</script>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=priceBox][data-price-box=product-id-246]": {
+            "priceBox": {
+                "priceConfig": {
+                    "priceFormat": {"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},
+                    "prices": {"baseOldPrice":{"amount":1500000},"oldPrice":{"amount":1500000},"basePrice":{"amount":1499995},"finalPrice":{"amount":1499995}}                }
+            }
+        }
+    }
+</script>
+
+			</div>
+</div>										</div>
+									</div>
+															</div></div>
+																								</div>
+												</div>
+			
+																					</div>
+							</div>
+												</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="" style="padding-top: 50px; padding-bottom: 50px;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12">
+<div class="row">
+<div class="panel-block-row col-md-12 col-xs-12"><div class="content-block product-tabs-block">
+			<div class="content-heading">
+							<h3 class="title">Nam</h3>
+										<div class="block-note">BỘ SƯU TẬP MỚI</div>
+					</div>
+		
+					<div class="tabbable product-tab">
+			<div class="tab-content">
+															<div id="tab-mgs_new_products_tabs1162281341626991943" class="tab-pane  active">
+														<div class="block widget mgs-products new-products-grid products-grid">
+			<div class="items row " id="new-products20635019511626991943">
+															<div class="item clearfix">
+																		 
+								<div class="col-md-6 col-xs-12"><div class="row">
+																<div class="col-sm-6 col-xs-12">
+										<div class="product product-item">
+											
+
+
+
+<div class="product-item-info metro_template   " data-container="product-grid">
+	
+		<div class="product-top">
+	
+								
+				<a href="https://mygufashion.com/ao-sweater-ho-ti-t.html" class="product photo product-item-photo " style="padding-bottom: 133.3333%;"  tabindex="-1">
+			
+			<img src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/images/blank.png" alt="Áo sweater hoạ tiết" class="img-responsive product-image-photo img-thumbnail  lazy"  data-src="https://mygufashion.com/media/catalog/product/cache/81cce6be9f27dadac009f422e8923114/b/o/borson_prd_4_2_5.jpg"/>
+			
+													
+			<div class="product-image-photo"></div>
+		</a>
+		
+				<span class="product-label new-label"><span>Mới</span></span><span class="product-label sale-label multiple-label"><span>Giảm Giá</span></span>		
+				<ul class="actions-link">
+		
+						<li class="hidden-sm hidden-xs ">
+								<button data-title="Quick View" class="action mgs-quickview" data-quickview-url=https://mygufashion.com/mgs_quickview/catalog_product/view/id/177/ title="Quick View"><span class="pe-7s-search"></span></button>			</li>
+			
+										<li>
+					<button class="action towishlist"
+					   title="Thêm vào danh sách yêu thích"
+					   data-title="Thêm vào danh sách yêu thích"
+					   aria-label="Thêm vào danh sách yêu thích"
+					   data-post='{"action":"https:\/\/mygufashion.com\/wishlist\/index\/add\/","data":{"product":177,"uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   data-action="add-to-wishlist"
+					   role="button">
+						<i class="pe-7s-like"></i>
+					</button>
+				</li>
+						
+													<li>
+					<button class="action tocompare"
+					   title="Thêm vào so sánh"
+					   data-title="Thêm vào so sánh"
+					   aria-label="Thêm vào so sánh"
+					   data-post='{"action":"https:\/\/mygufashion.com\/catalog\/product_compare\/add\/","data":{"product":"177","uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   role="button">
+						<i class="pe-7s-graph3"></i>
+					</button>
+				</li>
+					</ul>
+		
+											<div>
+										<form data-role="tocart-form" action="https://mygufashion.com/checkout/cart/add/uenc/aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzE3Ny8%2C/product/177/" method="post">
+						<input type="hidden" name="product" value="177">
+						<input type="hidden" name="uenc" value="aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzE3Ny8,">
+						<input name="form_key" type="hidden" value="O6sRnwQb2ns5Q8pw" />
+																					<button class="action tocart btn-cart" type="submit" title="Thêm vào giỏ hàng">
+									<span class="icon pe-7s-shopbag"></span>
+									<span class="text">Thêm vào giỏ hàng</span>
+								</button>
+												</form>
+				</div>
+						</div>
+	
+		<div class="product details product-item-details">
+	
+				<h5 class="product name product-item-name">
+			<a class="product-item-link"
+			   href="https://mygufashion.com/ao-sweater-ho-ti-t.html">
+				Áo sweater hoạ tiết			</a>
+		</h5>
+		
+									<div class="product-reviews-summary short empty">
+		<div class="rating-summary">
+			<a title="Là người đầu tiên để xem xét sản phẩm này" href="https://mygufashion.com/ao-sweater-ho-ti-t.html#reviews">
+				<span class="rating-result">
+					<span style="width: 0;"></span>
+				</span>
+			</a>
+		</div>
+	</div>
+				
+				<div class="price-box price-final_price" data-role="priceBox" data-product-id="177" data-price-box="product-id-177">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá đặc biệt</span>
+        <span  id="product-price-177"                data-price-amount="949995"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">949.995,00 ₫</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá thông thường</span>
+        <span  id="old-price-177"                data-price-amount="950000"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">950.000,00 ₫</span></span>
+        </span>
+    </span>
+
+</div>		
+				
+			</div>
+</div>										</div>
+									</div>
+																																																	<div class="col-sm-6 col-xs-12">
+										<div class="product product-item">
+											
+
+
+
+<div class="product-item-info metro_template   " data-container="product-grid">
+	
+		<div class="product-top">
+	
+								
+				<a href="https://mygufashion.com/giay-v-i-d-c-bi-t.html" class="product photo product-item-photo " style="padding-bottom: 133.3333%;"  tabindex="-1">
+			
+			<img src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/images/blank.png" alt="Giày vải đặc biệt" class="img-responsive product-image-photo img-thumbnail  lazy"  data-src="https://mygufashion.com/media/catalog/product/cache/81cce6be9f27dadac009f422e8923114/2/1/21_1_3_1.jpg"/>
+			
+													
+			<div class="product-image-photo"></div>
+		</a>
+		
+				<span class="product-label new-label"><span>Mới</span></span>		
+				<ul class="actions-link">
+		
+						<li class="hidden-sm hidden-xs ">
+								<button data-title="Quick View" class="action mgs-quickview" data-quickview-url=https://mygufashion.com/mgs_quickview/catalog_product/view/id/189/ title="Quick View"><span class="pe-7s-search"></span></button>			</li>
+			
+										<li>
+					<button class="action towishlist"
+					   title="Thêm vào danh sách yêu thích"
+					   data-title="Thêm vào danh sách yêu thích"
+					   aria-label="Thêm vào danh sách yêu thích"
+					   data-post='{"action":"https:\/\/mygufashion.com\/wishlist\/index\/add\/","data":{"product":189,"uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   data-action="add-to-wishlist"
+					   role="button">
+						<i class="pe-7s-like"></i>
+					</button>
+				</li>
+						
+													<li>
+					<button class="action tocompare"
+					   title="Thêm vào so sánh"
+					   data-title="Thêm vào so sánh"
+					   aria-label="Thêm vào so sánh"
+					   data-post='{"action":"https:\/\/mygufashion.com\/catalog\/product_compare\/add\/","data":{"product":"189","uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   role="button">
+						<i class="pe-7s-graph3"></i>
+					</button>
+				</li>
+					</ul>
+		
+											<div>
+										<form data-role="tocart-form" action="https://mygufashion.com/checkout/cart/add/uenc/aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzE4OS8%2C/product/189/" method="post">
+						<input type="hidden" name="product" value="189">
+						<input type="hidden" name="uenc" value="aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzE4OS8,">
+						<input name="form_key" type="hidden" value="O6sRnwQb2ns5Q8pw" />
+																					<button class="action tocart btn-cart" type="submit" title="Thêm vào giỏ hàng">
+									<span class="icon pe-7s-shopbag"></span>
+									<span class="text">Thêm vào giỏ hàng</span>
+								</button>
+												</form>
+				</div>
+						</div>
+	
+		<div class="product details product-item-details">
+	
+				<h5 class="product name product-item-name">
+			<a class="product-item-link"
+			   href="https://mygufashion.com/giay-v-i-d-c-bi-t.html">
+				Giày vải đặc biệt			</a>
+		</h5>
+		
+									<div class="product-reviews-summary short empty">
+		<div class="rating-summary">
+			<a title="Là người đầu tiên để xem xét sản phẩm này" href="https://mygufashion.com/giay-v-i-d-c-bi-t.html#reviews">
+				<span class="rating-result">
+					<span style="width: 0;"></span>
+				</span>
+			</a>
+		</div>
+	</div>
+				
+				<div class="price-box price-final_price" data-role="priceBox" data-product-id="189" data-price-box="product-id-189"><span class="normal-price">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Thấp như</span>
+        <span  id="product-price-189"                data-price-amount="1699995"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">1.699.995,00 ₫</span></span>
+        </span>
+</span>
+
+    <span class="old-price sly-old-price no-display">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá thông thường</span>
+        <span  id="old-price-189"                data-price-amount="1700000"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">1.700.000,00 ₫</span></span>
+        </span>
+    </span>
+
+</div>		
+				<div class="swatch-opt-189"
+     data-role="swatch-option-189"></div>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=swatch-option-189]": {
+            "Magento_Swatches/js/swatch-renderer": {
+                "selectorProduct": ".product-item-details",
+                "onlySwatches": true,
+                "enableControlLabel": false,
+                "numberToShow": 16,
+                "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"M\u00e0u s\u1eafc","options":[{"id":"4","label":"Tr\u1eafng","products":["181","182","183","184"]},{"id":"12","label":"Kaki","products":["185","186","187","188"]}],"position":"0"},"161":{"id":"161","code":"size","label":"K\u00edch c\u1ee1","options":[{"id":"13","label":"S","products":["181","185"]},{"id":"15","label":"M","products":["183","187"]},{"id":"16","label":"L","products":["182","186"]},{"id":"17","label":"XL","products":["184","188"]}],"position":"1"}},"template":"<%- data.price %>\u00a0\u20ab","currencyFormat":"%s\u00a0\u20ab","optionPrices":{"181":{"baseOldPrice":{"amount":1700000},"oldPrice":{"amount":1700000},"basePrice":{"amount":1699995},"finalPrice":{"amount":1699995},"tierPrices":[],"msrpPrice":{"amount":0}},"182":{"baseOldPrice":{"amount":1700000},"oldPrice":{"amount":1700000},"basePrice":{"amount":1699995},"finalPrice":{"amount":1699995},"tierPrices":[],"msrpPrice":{"amount":0}},"183":{"baseOldPrice":{"amount":1700000},"oldPrice":{"amount":1700000},"basePrice":{"amount":1699995},"finalPrice":{"amount":1699995},"tierPrices":[],"msrpPrice":{"amount":0}},"184":{"baseOldPrice":{"amount":1700000},"oldPrice":{"amount":1700000},"basePrice":{"amount":1699995},"finalPrice":{"amount":1699995},"tierPrices":[],"msrpPrice":{"amount":0}},"185":{"baseOldPrice":{"amount":1700000},"oldPrice":{"amount":1700000},"basePrice":{"amount":1699995},"finalPrice":{"amount":1699995},"tierPrices":[],"msrpPrice":{"amount":0}},"186":{"baseOldPrice":{"amount":1700000},"oldPrice":{"amount":1700000},"basePrice":{"amount":1699995},"finalPrice":{"amount":1699995},"tierPrices":[],"msrpPrice":{"amount":0}},"187":{"baseOldPrice":{"amount":1700000},"oldPrice":{"amount":1700000},"basePrice":{"amount":1699995},"finalPrice":{"amount":1699995},"tierPrices":[],"msrpPrice":{"amount":0}},"188":{"baseOldPrice":{"amount":1700000},"oldPrice":{"amount":1700000},"basePrice":{"amount":1699995},"finalPrice":{"amount":1699995},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},"prices":{"baseOldPrice":{"amount":1700000},"oldPrice":{"amount":1700000},"basePrice":{"amount":1699995},"finalPrice":{"amount":1699995}},"productId":"189","chooseText":"Ch\u1ecdn m\u1ed9t t\u00f9y ch\u1ecdn...","images":[],"index":{"181":{"93":"4","161":"13"},"182":{"93":"4","161":"16"},"183":{"93":"4","161":"15"},"184":{"93":"4","161":"17"},"185":{"93":"12","161":"13"},"186":{"93":"12","161":"16"},"187":{"93":"12","161":"15"},"188":{"93":"12","161":"17"}},"channel":"website","salesChannelCode":"base","sku":{"181":"LP14-White-S","182":"LP14-White-L","183":"LP14-White-M","184":"LP14-White-XL","185":"LP14-Khaki-S","186":"LP14-Khaki-L","187":"LP14-Khaki-M","188":"LP14-Khaki-XL"}},
+                "jsonSwatchConfig": {"93":{"4":{"type":"1","value":"#ffffff","label":"Tr\u1eafng"},"12":{"type":"1","value":"#e0ca70","label":"Kaki"},"additional_data":"{\"swatch_input_type\":\"visual\",\"update_product_preview_image\":\"1\",\"use_product_image_for_swatch\":\"0\"}"},"161":{"13":{"type":"0","value":"S","label":"S"},"15":{"type":"0","value":"M","label":"M"},"16":{"type":"0","value":"L","label":"L"},"17":{"type":"0","value":"XL","label":"XL"},"additional_data":"{\"swatch_input_type\":\"text\",\"update_product_preview_image\":\"0\",\"use_product_image_for_swatch\":0}"}},
+                "mediaCallback": "https\u003A\u002F\u002Fmygufashion.com\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                "showTooltip": 1            }
+        }
+    }
+</script>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=priceBox][data-price-box=product-id-189]": {
+            "priceBox": {
+                "priceConfig": {
+                    "priceFormat": {"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},
+                    "prices": {"baseOldPrice":{"amount":1700000},"oldPrice":{"amount":1700000},"basePrice":{"amount":1699995},"finalPrice":{"amount":1699995}}                }
+            }
+        }
+    }
+</script>
+
+			</div>
+</div>										</div>
+									</div>
+																																																	<div class="col-sm-6 col-xs-12">
+										<div class="product product-item">
+											
+
+
+
+<div class="product-item-info metro_template   " data-container="product-grid">
+	
+		<div class="product-top">
+	
+								
+				<a href="https://mygufashion.com/qu-n-jean-den.html" class="product photo product-item-photo " style="padding-bottom: 133.3333%;"  tabindex="-1">
+			
+			<img src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/images/blank.png" alt="Quần jean đen" class="img-responsive product-image-photo img-thumbnail  lazy"  data-src="https://mygufashion.com/media/catalog/product/cache/81cce6be9f27dadac009f422e8923114/2/0/20_2_1_4_1.jpg"/>
+			
+													
+			<div class="product-image-photo"></div>
+		</a>
+		
+				<span class="product-label new-label"><span>Mới</span></span><span class="product-label sale-label multiple-label"><span>Giảm Giá</span></span>		
+				<ul class="actions-link">
+		
+						<li class="hidden-sm hidden-xs ">
+								<button data-title="Quick View" class="action mgs-quickview" data-quickview-url=https://mygufashion.com/mgs_quickview/catalog_product/view/id/193/ title="Quick View"><span class="pe-7s-search"></span></button>			</li>
+			
+										<li>
+					<button class="action towishlist"
+					   title="Thêm vào danh sách yêu thích"
+					   data-title="Thêm vào danh sách yêu thích"
+					   aria-label="Thêm vào danh sách yêu thích"
+					   data-post='{"action":"https:\/\/mygufashion.com\/wishlist\/index\/add\/","data":{"product":193,"uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   data-action="add-to-wishlist"
+					   role="button">
+						<i class="pe-7s-like"></i>
+					</button>
+				</li>
+						
+													<li>
+					<button class="action tocompare"
+					   title="Thêm vào so sánh"
+					   data-title="Thêm vào so sánh"
+					   aria-label="Thêm vào so sánh"
+					   data-post='{"action":"https:\/\/mygufashion.com\/catalog\/product_compare\/add\/","data":{"product":"193","uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   role="button">
+						<i class="pe-7s-graph3"></i>
+					</button>
+				</li>
+					</ul>
+		
+											<div>
+										<form data-role="tocart-form" action="https://mygufashion.com/checkout/cart/add/uenc/aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzE5My8%2C/product/193/" method="post">
+						<input type="hidden" name="product" value="193">
+						<input type="hidden" name="uenc" value="aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzE5My8,">
+						<input name="form_key" type="hidden" value="O6sRnwQb2ns5Q8pw" />
+																					<button class="action tocart btn-cart" type="submit" title="Thêm vào giỏ hàng">
+									<span class="icon pe-7s-shopbag"></span>
+									<span class="text">Thêm vào giỏ hàng</span>
+								</button>
+												</form>
+				</div>
+						</div>
+	
+		<div class="product details product-item-details">
+	
+				<h5 class="product name product-item-name">
+			<a class="product-item-link"
+			   href="https://mygufashion.com/qu-n-jean-den.html">
+				Quần jean đen			</a>
+		</h5>
+		
+									<div class="product-reviews-summary short empty">
+		<div class="rating-summary">
+			<a title="Là người đầu tiên để xem xét sản phẩm này" href="https://mygufashion.com/qu-n-jean-den.html#reviews">
+				<span class="rating-result">
+					<span style="width: 0;"></span>
+				</span>
+			</a>
+		</div>
+	</div>
+				
+				<div class="price-box price-final_price" data-role="priceBox" data-product-id="193" data-price-box="product-id-193">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá đặc biệt</span>
+        <span  id="product-price-193"                data-price-amount="1149995"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">1.149.995,00 ₫</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá thông thường</span>
+        <span  id="old-price-193"                data-price-amount="1150000"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">1.150.000,00 ₫</span></span>
+        </span>
+    </span>
+
+</div>		
+				
+			</div>
+</div>										</div>
+									</div>
+																																																	<div class="col-sm-6 col-xs-12">
+										<div class="product product-item">
+											
+
+
+
+<div class="product-item-info metro_template   " data-container="product-grid">
+	
+		<div class="product-top">
+	
+								
+				<a href="https://mygufashion.com/ao-so-mi-tron-xanh-l-a.html" class="product photo product-item-photo " style="padding-bottom: 133.3333%;"  tabindex="-1">
+			
+			<img src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/images/blank.png" alt="Áo sơ mi trơn xanh lụa" class="img-responsive product-image-photo img-thumbnail  lazy"  data-src="https://mygufashion.com/media/catalog/product/cache/81cce6be9f27dadac009f422e8923114/o/r/orson_prd_5_1_2.jpg"/>
+			
+													
+			<div class="product-image-photo"></div>
+		</a>
+		
+				<span class="product-label new-label"><span>Mới</span></span><span class="product-label sale-label multiple-label"><span>Giảm Giá</span></span>		
+				<ul class="actions-link">
+		
+						<li class="hidden-sm hidden-xs ">
+								<button data-title="Quick View" class="action mgs-quickview" data-quickview-url=https://mygufashion.com/mgs_quickview/catalog_product/view/id/176/ title="Quick View"><span class="pe-7s-search"></span></button>			</li>
+			
+										<li>
+					<button class="action towishlist"
+					   title="Thêm vào danh sách yêu thích"
+					   data-title="Thêm vào danh sách yêu thích"
+					   aria-label="Thêm vào danh sách yêu thích"
+					   data-post='{"action":"https:\/\/mygufashion.com\/wishlist\/index\/add\/","data":{"product":176,"uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   data-action="add-to-wishlist"
+					   role="button">
+						<i class="pe-7s-like"></i>
+					</button>
+				</li>
+						
+													<li>
+					<button class="action tocompare"
+					   title="Thêm vào so sánh"
+					   data-title="Thêm vào so sánh"
+					   aria-label="Thêm vào so sánh"
+					   data-post='{"action":"https:\/\/mygufashion.com\/catalog\/product_compare\/add\/","data":{"product":"176","uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   role="button">
+						<i class="pe-7s-graph3"></i>
+					</button>
+				</li>
+					</ul>
+		
+											<div>
+										<form data-role="tocart-form" action="https://mygufashion.com/checkout/cart/add/uenc/aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzE3Ni8%2C/product/176/" method="post">
+						<input type="hidden" name="product" value="176">
+						<input type="hidden" name="uenc" value="aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzE3Ni8,">
+						<input name="form_key" type="hidden" value="O6sRnwQb2ns5Q8pw" />
+																					<button class="action tocart btn-cart" type="submit" title="Thêm vào giỏ hàng">
+									<span class="icon pe-7s-shopbag"></span>
+									<span class="text">Thêm vào giỏ hàng</span>
+								</button>
+												</form>
+				</div>
+						</div>
+	
+		<div class="product details product-item-details">
+	
+				<h5 class="product name product-item-name">
+			<a class="product-item-link"
+			   href="https://mygufashion.com/ao-so-mi-tron-xanh-l-a.html">
+				Áo sơ mi trơn xanh lụa			</a>
+		</h5>
+		
+									<div class="product-reviews-summary short empty">
+		<div class="rating-summary">
+			<a title="Là người đầu tiên để xem xét sản phẩm này" href="https://mygufashion.com/ao-so-mi-tron-xanh-l-a.html#reviews">
+				<span class="rating-result">
+					<span style="width: 0;"></span>
+				</span>
+			</a>
+		</div>
+	</div>
+				
+				<div class="price-box price-final_price" data-role="priceBox" data-product-id="176" data-price-box="product-id-176">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá đặc biệt</span>
+        <span  id="product-price-176"                data-price-amount="10"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">10,00 ₫</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá thông thường</span>
+        <span  id="old-price-176"                data-price-amount="1000000"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">1.000.000,00 ₫</span></span>
+        </span>
+    </span>
+
+</div>		
+				
+			</div>
+</div>										</div>
+									</div>
+															</div></div>
+																																	 
+							<div class="col-md-6 col-xs-12">
+								<div class="product product-item big-item">
+									
+
+
+
+<div class="product-item-info metro_template   " data-container="product-grid">
+	
+		<div class="product-top">
+	
+								
+				<a href="https://mygufashion.com/balo-v-i-ch-ng-th-m-nu-c.html" class="product photo product-item-photo " style="padding-bottom: 133.3333%;"  tabindex="-1">
+			
+			<img src="https://mygufashion.com/static/version1626148129/frontend/Mgs/claue/vi_VN/MGS_Mpanel/images/blank.png" alt="Balo vải chống thấm nước" class="img-responsive product-image-photo img-thumbnail  lazy"  data-src="https://mygufashion.com/media/catalog/product/cache/81cce6be9f27dadac009f422e8923114/1/4/14_1_1__1.jpg"/>
+			
+													
+			<div class="product-image-photo"></div>
+		</a>
+		
+				<span class="product-label new-label"><span>Mới</span></span>		
+				<ul class="actions-link">
+		
+						<li class="hidden-sm hidden-xs ">
+								<button data-title="Quick View" class="action mgs-quickview" data-quickview-url=https://mygufashion.com/mgs_quickview/catalog_product/view/id/180/ title="Quick View"><span class="pe-7s-search"></span></button>			</li>
+			
+										<li>
+					<button class="action towishlist"
+					   title="Thêm vào danh sách yêu thích"
+					   data-title="Thêm vào danh sách yêu thích"
+					   aria-label="Thêm vào danh sách yêu thích"
+					   data-post='{"action":"https:\/\/mygufashion.com\/wishlist\/index\/add\/","data":{"product":180,"uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   data-action="add-to-wishlist"
+					   role="button">
+						<i class="pe-7s-like"></i>
+					</button>
+				</li>
+						
+													<li>
+					<button class="action tocompare"
+					   title="Thêm vào so sánh"
+					   data-title="Thêm vào so sánh"
+					   aria-label="Thêm vào so sánh"
+					   data-post='{"action":"https:\/\/mygufashion.com\/catalog\/product_compare\/add\/","data":{"product":"180","uenc":"aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20v"}}'
+					   role="button">
+						<i class="pe-7s-graph3"></i>
+					</button>
+				</li>
+					</ul>
+		
+											<div>
+										<form data-role="tocart-form" action="https://mygufashion.com/checkout/cart/add/uenc/aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzE4MC8%2C/product/180/" method="post">
+						<input type="hidden" name="product" value="180">
+						<input type="hidden" name="uenc" value="aHR0cHM6Ly9teWd1ZmFzaGlvbi5jb20vY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0hNNkx5OXRlV2QxWm1GemFHbHZiaTVqYjIwdi9wcm9kdWN0LzE4MC8,">
+						<input name="form_key" type="hidden" value="O6sRnwQb2ns5Q8pw" />
+																					<button class="action tocart btn-cart" type="submit" title="Thêm vào giỏ hàng">
+									<span class="icon pe-7s-shopbag"></span>
+									<span class="text">Thêm vào giỏ hàng</span>
+								</button>
+												</form>
+				</div>
+						</div>
+	
+		<div class="product details product-item-details">
+	
+				<h5 class="product name product-item-name">
+			<a class="product-item-link"
+			   href="https://mygufashion.com/balo-v-i-ch-ng-th-m-nu-c.html">
+				Balo vải chống thấm nước			</a>
+		</h5>
+		
+									<div class="product-reviews-summary short empty">
+		<div class="rating-summary">
+			<a title="Là người đầu tiên để xem xét sản phẩm này" href="https://mygufashion.com/balo-v-i-ch-ng-th-m-nu-c.html#reviews">
+				<span class="rating-result">
+					<span style="width: 0;"></span>
+				</span>
+			</a>
+		</div>
+	</div>
+				
+				<div class="price-box price-final_price" data-role="priceBox" data-product-id="180" data-price-box="product-id-180"><span class="normal-price">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Thấp như</span>
+        <span  id="product-price-180"                data-price-amount="1249995"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">1.249.995,00 ₫</span></span>
+        </span>
+</span>
+
+    <span class="old-price sly-old-price no-display">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Giá thông thường</span>
+        <span  id="old-price-180"                data-price-amount="1250000"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">1.250.000,00 ₫</span></span>
+        </span>
+    </span>
+
+</div>		
+				<div class="swatch-opt-180"
+     data-role="swatch-option-180"></div>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=swatch-option-180]": {
+            "Magento_Swatches/js/swatch-renderer": {
+                "selectorProduct": ".product-item-details",
+                "onlySwatches": true,
+                "enableControlLabel": false,
+                "numberToShow": 16,
+                "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"M\u00e0u s\u1eafc","options":[{"id":"8","label":"Xanh d\u01b0\u01a1ng","products":["178"]},{"id":"11","label":"T\u00edm","products":["179"]}],"position":"0"}},"template":"<%- data.price %>\u00a0\u20ab","currencyFormat":"%s\u00a0\u20ab","optionPrices":{"178":{"baseOldPrice":{"amount":1250000},"oldPrice":{"amount":1250000},"basePrice":{"amount":1249995},"finalPrice":{"amount":1249995},"tierPrices":[],"msrpPrice":{"amount":0}},"179":{"baseOldPrice":{"amount":1250000},"oldPrice":{"amount":1250000},"basePrice":{"amount":1249995},"finalPrice":{"amount":1249995},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},"prices":{"baseOldPrice":{"amount":1250000},"oldPrice":{"amount":1250000},"basePrice":{"amount":1249995},"finalPrice":{"amount":1249995}},"productId":"180","chooseText":"Ch\u1ecdn m\u1ed9t t\u00f9y ch\u1ecdn...","images":[],"index":{"178":{"93":"8"},"179":{"93":"11"}},"channel":"website","salesChannelCode":"base","sku":{"178":"LP13-Blue","179":"LP13-Purple"}},
+                "jsonSwatchConfig": {"93":{"8":{"type":"1","value":"#131ff5","label":"Xanh d\u01b0\u01a1ng"},"11":{"type":"1","value":"#cc2bcc","label":"T\u00edm"},"additional_data":"{\"swatch_input_type\":\"visual\",\"update_product_preview_image\":\"1\",\"use_product_image_for_swatch\":\"0\"}"}},
+                "mediaCallback": "https\u003A\u002F\u002Fmygufashion.com\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                "showTooltip": 1            }
+        }
+    }
+</script>
+
+<script type="text/x-magento-init">
+    {
+        "[data-role=priceBox][data-price-box=product-id-180]": {
+            "priceBox": {
+                "priceConfig": {
+                    "priceFormat": {"pattern":"%s\u00a0\u20ab","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},
+                    "prices": {"baseOldPrice":{"amount":1250000},"oldPrice":{"amount":1250000},"basePrice":{"amount":1249995},"finalPrice":{"amount":1249995}}                }
+            }
+        }
+    }
+</script>
+
+			</div>
+</div>								</div>
+							</div>
+																	</div>
+												</div>
+			
+																					</div>
+							</div>
+												</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="" style="background-color: #fff; padding-top: 36px; padding-bottom: 2px; border-top: 1px solid #f6f6f8;">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 margin-bottom30">
+<div class="row">
+<div class="panel-block-row col-md-12 col-xs-12">
+<div class="icon-service">
+<div class="icon"><em class="pe-7s-car">&nbsp;</em></div>
+<div class="text">
+<h6 class="margin-bottom5">MIỄN PHÍ VẬN CHUYỂN</h6>
+<p class="no-margin">Miễn phí giao hàng cho tất cả đơn hàng trên 2.000.000 VNĐ</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 margin-bottom30">
+<div class="row">
+<div class="panel-block-row col-md-12 col-xs-12">
+<div class="icon-service">
+<div class="icon"><em class="pe-7s-help2">&nbsp;</em></div>
+<div class="text">
+<h6 class="margin-bottom5">HỖ TRỢ 24/7</h6>
+<p class="no-margin">Liên hệ với chúng tôi 24 giờ một ngày, 7 ngày một tuần</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 first-sm-item margin-bottom30">
+<div class="row">
+<div class="panel-block-row col-md-12 col-xs-12">
+<div class="icon-service">
+<div class="icon"><em class="pe-7s-refresh">&nbsp;</em></div>
+<div class="text">
+<h6 class="margin-bottom5">30 NGÀY HOÀN LẠI</h6>
+<p class="no-margin">Đơn giản chỉ cần trả lại nó trong vòng 30 ngày để trao đổi.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 margin-bottom30">
+<div class="row">
+<div class="panel-block-row col-md-12 col-xs-12">
+<div class="icon-service">
+<div class="icon"><em class="pe-7s-door-lock">&nbsp;</em></div>
+<div class="text">
+<h6 class="margin-bottom5">100% BẢO MẬT THANH TOÁN</h6>
+<p class="no-margin">Chúng tôi đảm bảo thanh toán an toàn 100%</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+    require([
+        'jquery',
+        'mage/mage',
+        'mage/translate'
+    ], function($){
+      $('body').on('click','.wk-ui-datepicker-trigger',function(){
+          $(this).next().focus()
+      });
+    }
+);
+</script>
+</div></div></section><div class="page-bottom"><div class="content"><script type="text/x-magento-init">
+    {
+        "[data-role=tocart-form], .form.map.checkout": {
+            "Magento_Catalog/product/view/validation": {
+                "radioCheckboxClosest": ".nested"
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        ".product-item-actions button.action.tocart": {
+            "widgetAddToCart": {
+                "formKey": "O6sRnwQb2ns5Q8pw"            }
+        }
+    }
+</script>
+<script>
+    require([
+        'jquery',
+        'mage/mage'
+    ], function($, widgetAddToCart) {
+        $(document).ajaxComplete(function(event, xhr) {
+            if (xhr.responseText) {
+                try {
+                    eval("var json = " + xhr.responseText + " || {}");
+                } catch (e) {
+                    return;
+                }
+            }
+        });
+    });
+</script><script>
+	var ajaxCartConfig = {"updateCartUrl":"https:\/\/mygufashion.com\/ajaxcart\/index\/updatecart\/","redirectCartUrl":"https:\/\/mygufashion.com\/checkout\/cart\/","animationType":true};
+    require([
+        'jquery',
+        'MGS_AjaxCart/js/config'
+    ], function($, mgsConfig) {
+        mgsConfig.setOptions(ajaxCartConfig);
+    });
+</script>
+<script type="text/javascript">
+    require(['jquery','mgs/lazyload'],function($){
+        $(document).ready(function() {
+            $("img.lazy").unveil(25, function(){
+                var self = $(this);
+                setTimeout(function(){
+                    self.removeClass('lazy');
+                }, 0);
+            });
+        });
+
+    });
+</script><script type="text/javascript">
+	require([
+		"jquery"
+	], function(jQuery){
+		(function($) {
+			$(document).ready(function () {
+				if($('.pin__type').length){
+					$('.lookbook-container .pin__type').hover(function(){
+						$(this).parent().find('.pin__image').toggleClass('pm-mask');
+					});
+					
+					$('.lookbook-container .pin__type').click(function(){
+						$('.lookbook-container .pin__type').removeClass('pin__opened');
+						$(this).toggleClass('pin__opened');
+					});
+					
+					$('.lookbook-image').click(function(){
+						$('.lookbook-container .pin__type').removeClass('pin__opened');
+					});
+				}
+			});
+		})(jQuery);
+	});
+</script></div></div><footer class="footer footer2">    <div class="footer-container">
+        <div class="top-footer">
+            <div class="container">
+                <!-- Static block: footer_block_newsletter_top -->
+                <div class="text-center">
+<h3 class="margin-bottom10">ĐĂNG KÝ THƯ TIN MYGU!</h3>
+<p>Hãy đăng ký ngay để nhận bản tin thư MYGU Thư tin vào e-mail với những thông tin về xu hướng thời trang, những bộ sưu tập mới nhất của các nhà thiết kế và những chương trình khuyến mại đặc biệt từ các thương hiệu.</p>
+</div>
+<div><div class="block newsletter">
+    <div class="content">
+        <form class="form subscribe"
+            novalidate
+            action="https://mygufashion.com/newsletter/subscriber/new/"
+            method="post"
+            data-mage-init='{"validation": {"errorClass": "mage-error"}}'
+            id="newsletter-validate-detail-footer">
+            <div class="field form-group newsletter">
+                <div class="control">
+                    <input name="email" type="email" id="newsletter-footer"
+                                placeholder="Địa chỉ e-mail của bạn"
+                                data-validate="{required:true, 'validate-email':true}"/>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="action subscribe btn btn-primary btn-sm" title="Đăng kí theo dõi" type="submit">
+                    <span>Đăng kí theo dõi</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>            </div>
+        </div>
+        <div class="middle-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <!-- Static block: footer_contact_us -->
+                        <div class="margin-bottom25"><a href="https://mygufashion.com/"><img src="https://mygufashion.com/media/logo/logo-mygu.png" alt="MyGu" width="120" height="47"></a></div>
+<ul class="list-icon">
+<li><span class="icon pe-7s-map-marker">&nbsp;</span>12 Phan Huy Ích <br>Ba Đình, Hà Nội</li>
+<li><span class="icon pe-7s-mail">&nbsp;</span><a href="mailto:admin@mygufashion.com">admin@mygufashion.com</a></li>
+<li><span class="icon pe-7s-call">&nbsp;</span> <a href="tel:+84969462129">0969462129</a></li>
+</ul>						                    </div>
+					<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                        <!-- Static block: footer_block_infomation -->
+                        <h6 class="margin-bottom30">Thông Tin</h6>
+<ul class="menu">
+<li><a href="https://mygufashion.com/terms-and-conditions/">Điều Khoản Sử Dụng</a></li>
+<li><a href="https://mygufashion.com/privacy-policy/">Chinh Sách Bảo Mật</a></li>
+<li><a href="https://mygufashion.com/faqs/">Các Câu Hỏi Thường Gặp</a></li>
+<li><a href="https://mygufashion.com/become_partner_mygu/">Trở thành Người bán với MYGU</a></li>
+<li><a href="https://mygufashion.com/blog/">Blog</a></li>
+</ul>                    </div>
+                    <div class="clearfix visible-sm"></div> 
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                        <!-- Static block: footer_block_quick_link -->
+                        <h6 class="margin-bottom30">Thanh Toán</h6>
+<ul class="menu">
+<li><img style="padding: 10px 10px 0 0;" src="https://mygufashion.com/media/logo/Visa.png" alt=""> <img style="padding: 10px 10px 0 0;" src="https://mygufashion.com/media/logo/Mastercard.png" alt=""><br><img style="padding: 10px 10px 0 0;" src="https://mygufashion.com/media/logo/MoMo.png" alt=""> <img style="padding: 10px 10px 0 0;" src="https://mygufashion.com/media/logo/VNPAYQR.png" alt=""></li>
+</ul>                    </div>					                   
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                        <!-- Static block: footer_block_categories -->
+                        <h6 class="margin-bottom30">Vận Chuyển</h6>
+<ul class="menu">
+<li><img style="padding: 10px 10px 0 0;" src="https://mygufashion.com/media/logo/ghn.png" alt=""></li>
+</ul>                    </div>
+                    <div class="clearfix visible-sm"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <!-- Static block: footer_block_instagram -->
+                        <h6 class="margin-bottom30">Tải xuống ứng dụng của chúng tôi</h6>
+<ul class="menu">
+<li style="padding: 0 0 15px;"><a href="#"> <img style="padding: 0px 10px 0 0;" src="https://mygufashion.com/media/logo/logos_apple-app-store.png" alt=""> Tải ứng dụng IOS </a></li>
+<li style="padding: 0 0 15px;"><a href="#"> <img style="padding: 0px 10px 0 0;" src="https://mygufashion.com/media/logo/GG-Play.png" alt=""> Tải ứng dụng Android </a></li>
+</ul>
+<ul class="social-link margin-top15">
+<li><a href="#">&nbsp;<span class="fa fa-facebook">&nbsp;</span></a></li>
+<li><a href="#">&nbsp;<span class="fa fa-twitter">&nbsp;</span></a></li>
+<li><a href="#">&nbsp;<span class="fa fa-google-plus">&nbsp;</span></a></li>
+<li><a href="#">&nbsp;<span class="fa fa-instagram">&nbsp;</span></a></li>
+<li><a href="#">&nbsp;<span class="fa fa-pinterest-p">&nbsp;</span></a></li>
+</ul>                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-7 col-sm-12 col-xs-12 copyright">
+                        <address style="text-align: left;font-weight: 500;display: block;margin: 0 0 5px;">© 2021 - Bản quyền của Công Ty Cổ Phần Thời Trang và Công Nghệ MYGU - Mygufashion.com</address>
+						<p style="font-size: 12px;margin: 0;line-height: 20px;">Giấy chứng nhận đăng ký kinh doanh số 0109641668 do Sở Kế hoạch và Đầu tư Thành phố Hà Nội cấp ngày 20/05/2021.</p>
+                    </div> 
+					<div class="col-lg-3 col-md-5 col-sm-12 col-xs-12">
+                        <!-- Static block: footer_block_menu_bottom -->
+                                            </div>					
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>			<div style="display:none">
+		<div class="newsletter_popup" id="newsletter-popup" style="width: 530px;">
+			<button class="action-close" data-role="closeBtn" type="button">
+				<em class="pe-7s-close"></em>
+            </button>
+			<div class="block-popup-subscribe">
+				<div class="block-popup-top">
+					<div class="pop-sletter-title" style="background-image: url(https://mygufashion.com/media/bg_newsletter/default/bg_title.jpg);">
+						<h4>
+															ĐĂNG KÝ THƯ TIN MYGU!													</h4>
+					</div>
+											<div class="newsletter-popup-content">
+							<p>Hãy đăng ký ngay để nhận bản tin thư MYGU Thư tin vào e-mail với những thông tin về xu hướng thời trang, những bộ sưu tập mới nhất của các nhà thiết kế và những chương trình khuyến mại đặc biệt từ các thương hiệu.</p>						</div>
+										<div class="newsletter-popup-form">
+						
+<div class="block newsletter">
+    <div class="content">
+        <form class="form subscribe"
+            novalidate
+            action="https://mygufashion.com/newsletter/subscriber/new/"
+            method="post"
+            data-mage-init='{"validation": {"errorClass": "mage-error"}}'
+            id="newsletter-popup-validate-detail">
+            <div class="field form-group newsletter">
+                <div class="control">
+                    <input name="email" type="email" id="newsletter-popup-email"
+                                placeholder="Nhập địa chỉ email của bạn"
+                                data-validate="{required:true, 'validate-email':true}"/>
+                </div>
+            </div>
+            <div class="actions">
+                				
+                <button class="action subscribe btn btn-secondary btn-full" title="Đăng kí theo dõi" type="submit">
+                    <span>Đăng kí theo dõi</span>
+                </button>
+            </div>
+							<div class="pop-sletter-footer">
+					Các thông tin của bạn sẽ không bị chia sẻ với bên thứ 3.                
+				</div>
+						<div class="checkbox">
+				<label for="dont_show">
+					<input id="dont_show" onclick="dontShowPopup('dont_show')" type="checkbox">
+					Không hiển thị thông tin này nữa				</label>
+			</div>
+        </form>
+    </div>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+			require(
+			[
+				'jquery',
+				'Magento_Ui/js/modal/modal'
+			],
+			function( $, modal ) {
+				$(window).load(function () {
+					if($(window).width() > 991) { 						if(getCookie('newsletterpopup')!='nevershow'){
+							if ($('#newsletter-popup').length) {
+								var options = {
+									type: 'popup',
+									modalClass: 'modal_newsletter_popup',
+									responsive: true,
+									innerScroll: true,
+									title: '',
+									buttons: []
+								};
+                                var newsletterPopup = modal(options, $('#newsletter-popup'));
+                                                                    $('#newsletter-popup').trigger('openModal');
+                                							}
+						}
+					}				});
+			});
+			function getCookie(cname) {
+				var name = cname + "=";
+				var ca = document.cookie.split(';');
+				for(var i=0; i<ca.length; i++) {
+					var c = ca[i];
+					while (c.charAt(0)==' ') c = c.substring(1);
+					if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+				}
+				return "";
+			} 
+
+			function dontShowPopup(el){
+				require(
+				[
+					'jquery'
+				],
+				function( $ ) {
+					if($('#'+el).prop('checked')) {
+						var d = new Date();
+						d.setTime(d.getTime() + (24*60*60*1000*365));
+						var expires = "expires="+d.toUTCString();
+						document.cookie = 'newsletterpopup' + "=" + 'nevershow' + "; " + expires;
+					} else {
+						document.cookie = 'newsletterpopup' + "= ''; -1";
+					}
+				});
+			}
+	</script>
+<script type="text/javascript">
+	function toggleEl(el, elId){
+		require([
+			'jquery',
+		], function(jQuery){
+			(function($) {
+				$('#'+elId).toggleClass('active').slideToggle();
+				$(el).toggleClass('active');
+			})(jQuery);
+		});
+	}
+</script>
+
+	<script type="text/javascript">
+		require([
+			'jquery'
+		], function(jQuery){
+			(function($) {
+
+				var height_header = $('.header').height();
+				var height_middle_header = $('.middle-header-content').height();
+				var height_bottom_header = $('.bottom-header-content').height();
+				
+				if(height_bottom_header){
+					sticky_header = height_header - height_bottom_header;
+				}else{
+					sticky_header = height_header - height_middle_header;
+				}
+				$(document).ready(function(){
+					$('#placeholder-header').height(height_header);
+				});
+				
+                var logoDf = $('.header .logo img').attr('src');
+				if($('body').height() > $(window).height()){
+					$(window).scroll(function(){
+													var height_middle = $('.header .middle-header-content').height();
+							if($(this).width() > 1199){
+								if($(this).scrollTop() > height_header){
+																		$('.header').addClass('active-sticky');
+																			$("#main-Menucontent > .navigation").detach().prependTo('.parent__search');
+																	}else {
+																		$('.header').removeClass('active-sticky');
+																			$(".parent__search > .navigation").detach().prependTo('#main-Menucontent');
+																	}
+							}
+											});
+				}
+			})(jQuery);
+		});
+	</script>
+	<a href="" class="scroll-to-top"><i class="fa fa-arrow-up"></i></a>
+	<script type="text/javascript">
+		require([
+			'jquery'
+		], function(jQuery){
+			(function($) {
+				$(window).scroll(function(){
+					if ($(this).scrollTop() > 1) {
+						$('.scroll-to-top').css({bottom:"25px"});
+					} else {
+						$('.scroll-to-top').css({bottom:"-45px"});
+					}
+				});
+
+				$('.scroll-to-top').click(function(){
+					$('html, body').animate({scrollTop: '0px'}, 800);
+					return false;
+				});
+			})(jQuery);
+		});
+	</script>
+
+	<script type="text/x-magento-init">
+	{
+		"[data-role=tocart-form], .form.map.checkout": {
+			"catalogAddToCart": {}
+		}
+	}
+	</script>
+	
+
+<div class="mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-ready" id="mgs-ajax-loading">
+	<div class="mfp-bg mfp-ready"></div>
+	<div class="preloader"></div>
+</div>
+
+<script type="text/javascript">
+    require([ 'jquery', 'mgs/owlcarousel' ], function ($) {
+        $('.list_gallery').owlCarousel({
+            items: 1,
+            autoplay: false,
+            nav: false,
+            dots: true,
+            rtl: RTL,
+            touchDrag: false,
+            mouseDrag: false,
+            loop:false,
+            navText: ["<span></span>","<span></span>"],
+        });
+    });
+	
+</script>
+
+<!-- Add Template Hover Products  -->
+<script type="text/javascript">
+	require([
+		'jquery'
+	], function($){
+		$(document).ready(function(){
+			$('.products-grid .product.product-item .product-item-info').addClass('');
+			$('.products-grid .products.product-items .product-item-info').addClass('');
+		});
+	});
+</script>
+
+<script type="text/javascript">
+	require([
+		'jquery'
+	], function(jQuery){
+		(function($) {
+			if($(window).width() > 1199) {
+				$(window).scroll(function() {
+					if($('.active-sticky').length){         
+						$('.header12 .megamenu-content .tab-content ').appendTo('.header12 .middle-header-content .logo-header');
+					} else {
+						$('.header12 .middle-header-content .logo-header .tab-content').appendTo('.header12 .megamenu-content ');
+					}
+				});
+			}
+			$(window).resize(function(){
+				if($(window).width() > 1199) {
+					$(window).scroll(function() {
+						if($('.active-sticky').length){         
+							$('.header12 .megamenu-content .tab-content ').appendTo('.header12 .middle-header-content .logo-header');
+						} else {
+							$('.header12 .middle-header-content .logo-header .tab-content').appendTo('.header12 .megamenu-content ');
+						}
+					});
+				}
+			});
+		})(jQuery);
+	});
+</script>
+<script type="text/javascript">
+    function plusQty(qtyInput){
+        require([
+        'jquery'
+        ], function(jQuery){
+            (function($) {
+                    qty = $('#'+qtyInput).attr('value');
+                    qty = parseInt(qty);
+                    qty++;
+                    $('#'+qtyInput).val(qty);
+            })(jQuery);
+        });
+        
+    }
+    function minusQty(qtyInput){
+        require([
+        'jquery'
+        ], function(jQuery){
+            (function($) {
+                    qty = $('#'+qtyInput).attr('value');
+                    qty = parseInt(qty);
+                    
+                    if(qty>1){
+                        qty--;
+                        $('#'+qtyInput).val(qty);
+                    }
+            })(jQuery);
+        });
+    }
+</script>
+<script type="text/javascript">
+	require([
+		'jquery'
+	], function($){
+		$(document).ready(function(){
+			$(".banner-intro .description").css("min-height",($(".banner-intro .banner-img").css("height")));
+			$(".banner-intro .banner-img img ").css("min-height",($(".banner-intro .description").css("height")));
+		});
+	});
+</script>
+<script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "storage-manager": {
+                            "component": "Magento_Catalog/js/storage-manager",
+                            "appendTo": "",
+                            "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/mygufashion.com\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/mygufashion.com\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/mygufashion.com\/rest\/vn\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/mygufashion.com\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}                        }
+                    }
+                }
+            }
+        }
+</script>
+<style>.wkv_date_range .ui-datepicker-trigger.v-middle span{
+	display:none;
+}
+</style><script type="text/javascript">
+    requirejs(['jquery', 'mgs_quickview'],
+            function ($, quickview) {
+                $(document).ready(function () {
+                    $('.mgs-quickview').bind('click', function () {
+                        var prodUrl = $(this).attr('data-quickview-url');
+                        if (prodUrl.length) {
+                            quickview.displayContent(prodUrl);
+                        }
+                    });
+                });
+            });
+</script>
+<script>
+    require(['jquery', 'iframeResizer' ],
+        function ($) {
+            $(function () {
+                waitUntilExists(function() { return $('.embedded-iframe').length; }, function() {
+                    var iframe = $('.embedded-iframe'),
+                        headerHeight = $('header').outerHeight(),
+                        windowHeight = $(window).innerHeight(),
+                        availableHeight =  windowHeight - headerHeight - 70,
+                        isOldIE = (navigator.userAgent.indexOf("MSIE") !== -1);
+                    iframe.css({'height': availableHeight + 'px'});
+
+                    iframe.on('load', function(){
+                        iFrameResize({
+                            log: false,
+                            minHeight: availableHeight,
+                            resizeFrom: 'parent',
+                            scrolling: true,
+                            inPageLinks: true,
+                            autoResize: true,
+                            heightCalculationMethod: isOldIE ? 'max' : 'bodyScroll',
+                            onInit: function(iframe) {
+                                iframe.style.height = availableHeight + 'px';
+                            },
+                            onResized: function(messageData) {
+                                setTimeout(function() {
+                                    messageData.iframe.style.visibility = 'visible';
+                                }, 300);
+                            },
+                            onMessage: function(messageData) {
+                                if (history.pushState && messageData.message.hasOwnProperty('trackNo')) {
+                                    var newUrl = window.location.protocol + '//' + window.location.host + window.location.pathname.replace(/\/$/, '') + '/' + messageData.message.trackNo;
+                                    window.history.pushState({path:newUrl}, '', newUrl);
+                                }
+                            }
+                        }, '.embedded-iframe');
+                    });
+
+                }, function() { });
+                function waitUntilExists(isReady, success, error, count, interval){
+                    if (count === undefined) {
+                        count = 300;
+                    }
+                    if (interval === undefined) {
+                        interval = 20;
+                    }
+                    if (isReady()) {
+                        success();
+                        return;
+                    }
+                    setTimeout(function(){
+                        if (!count) {
+                            if (error !== undefined) {
+                                error();
+                            }
+                        } else {
+                            waitUntilExists(isReady, success, error, count -1, interval);
+                        }
+                    }, interval);
+                }
+            });
+        });
+</script>
+<script type="text/javascript">window.socialloginButtons = '';</script>
+
+</div></main>						
+						
+							<script  type="text/javascript">
+					require([
+						'jquery'
+					], function(jQuery){
+						(function($) {
+							jQuery(window).load(function(){
+																	jQuery(".page.messages").appendTo("header.header");
+																jQuery(".page.messages").delay(8000).show().fadeOut('slow');
+							});
+						})(jQuery);
+					});
+				</script>
+						<script  type="text/javascript">
+				require([
+					'jquery'
+				], function(jQuery){
+					(function($) {
+						jQuery(window).load(function(){
+							jQuery(".page.messages").delay(8000).fadeOut('slow');
+						});
+					})(jQuery);
+				});
+			</script>
+		    </body>
+</html>

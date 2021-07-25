@@ -1,0 +1,1460 @@
+ 
+
+ 
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PS8P68V');</script>
+<!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!-- meta fb-->
+<meta name="facebook-domain-verification" content="3lbketdjx346ok1zzdigykyvulxv64" />
+<!-- end meta -->
+      <!--POPUP WWEBSITE HIỆN 01 LẦN DUY NHẤT -->
+      <script type='text/javascript'>
+      //<![CDATA[
+        var link_image = 'https://www.inavn.vn/img_data/images/he-thong-ina-vip.png';
+        var link = 'https://www.inavn.vn/lien-he.html';
+        var icon_close = 'http://hqa.com.vn/imagepost/close.png'
+function closePopup() {
+    document.getElementById("popup_banner").remove(), setCookie("showPopupBanner", 1,1)
+}
+function setCookie(e, n, o) {
+    var t = "";
+    if (o) {
+        var i = new Date;
+        i.setTime(i.getTime() + 24 * 60 * 60 * 1000), t = "; expires=" + i.toUTCString()
+    }
+    document.cookie = e + "=" + (n || "") + t + "; path=/"
+}
+function getCookie(e) {
+    for (var n = e + "=", o = document.cookie.split(";"), t = 0; t < o.length; t++) {
+        for (var i = o[t];
+            " " == i.charAt(0);) i = i.substring(1, i.length);
+        if (0 == i.indexOf(n)) return i.substring(n.length, i.length)
+    }
+    return null
+}
+1!= getCookie("showPopupBanner") && (document.addEventListener("DOMContentLoaded", function(event) {
+    var e = '<div id="popup_banner"><div onclick="closePopup()" class="mask_popup_banner"></div><div class="content_popup_banner"><img src="' + icon_close + '" class="close_icon" onclick="closePopup()" alt="Close Image"><a href="'+link+'"><img class="popup_banner_image" src="'+link_image+'" alt="Image Popup Banner"/></a></div></div>';
+    setTimeout(function() {
+        document.body.innerHTML += e
+    }, 1000)
+}));
+    //]]>
+    </script>
+    <style>
+     #popup_banner{position:fixed;width:100%;height:100vh;z-index:99999;top:0;left:0} .mask_popup_banner{background:rgba(0,0,0,.85);cursor:pointer;position:absolute;width:100%;height:100vh;top:0;z-index:9;left:0}
+.content_popup_banner{position:absolute;top:50%;left:50%;z-index:10;
+transform:translate(-50%,-50%);
+-moz-transform:translate(-50%,-50%);
+-o-transform:translate(-50%,-50%);
+-webkit-transform:translate(-50%,-50%)}
+.popup_banner_image{width:auto;height:auto;margin:0 auto} 
+.close_icon{position:absolute;top:-20px;right:-20px;width:40px;cursor:pointer}
+@media only screen and (max-width:480px){
+.content_popup_banner{width:300px}
+.content_popup_banner a img:nth-of-type(1){width:100%}
+.close_icon{top:-10px;right:-5px;width:30px}}
+    </style>
+
+    <!--END POPUP WEBSITE HIỆN 01 LẦN DUY NHẤT-->
+    
+    
+    <!-- HIEU UNG HOA MAI --
+<script type='text/javascript'>
+//<![CDATA[
+var pictureSrc ="http://hqa.com.vn/imagepost/hoamai.png"; //the location of the snowflakes
+var pictureWidth = 12; //the width of the snowflakes
+var pictureHeight = 12; //the height of the snowflakes
+var numFlakes = 12; //the number of snowflakes
+var downSpeed = 0.01; //the falling speed of snowflakes (portion of screen per 100 ms)
+var lrFlakes = 10; //the speed that the snowflakes should swing from side to side
+
+
+if( typeof( numFlakes ) != 'number' || Math.round( numFlakes ) != numFlakes || numFlakes < 1 ) { numFlakes = 10; }
+
+//draw the snowflakes
+for( var x = 0; x < numFlakes; x++ ) {
+if( document.layers ) { //releave NS4 bug
+document.write('<layer id="snFlkDiv'+x+'"><imgsrc="'+pictureSrc+'" height="'+pictureHeight+'"width="'+pictureWidth+'" alt="*" border="0"></layer>');
+} else {
+document.write('<div style="position:absolute; z-index:9999;"id="snFlkDiv'+x+'"><img src="'+pictureSrc+'"height="'+pictureHeight+'" width="'+pictureWidth+'" alt="*"border="0"></div>');
+}
+}
+
+//calculate initial positions (in portions of browser window size)
+var xcoords = new Array(), ycoords = new Array(), snFlkTemp;
+for( var x = 0; x < numFlakes; x++ ) {
+xcoords[x] = ( x + 1 ) / ( numFlakes + 1 );
+do { snFlkTemp = Math.round( ( numFlakes - 1 ) * Math.random() );
+} while( typeof( ycoords[snFlkTemp] ) == 'number' );
+ycoords[snFlkTemp] = x / numFlakes;
+}
+
+//now animate
+function flakeFall() {
+if( !getRefToDivNest('snFlkDiv0') ) { return; }
+var scrWidth = 0, scrHeight = 0, scrollHeight = 0, scrollWidth = 0;
+//find screen settings for all variations. doing this every time allows for resizing and scrolling
+if( typeof( window.innerWidth ) == 'number' ) { scrWidth = window.innerWidth; scrHeight = window.innerHeight; } else {
+if( document.documentElement && (document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+scrWidth = document.documentElement.clientWidth; scrHeight = document.documentElement.clientHeight; } else {
+if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+scrWidth = document.body.clientWidth; scrHeight = document.body.clientHeight; } } }
+if( typeof( window.pageYOffset ) == 'number' ) { scrollHeight = pageYOffset; scrollWidth = pageXOffset; } else {
+if( document.body && ( document.body.scrollLeft ||document.body.scrollTop ) ) { scrollHeight = document.body.scrollTop;scrollWidth = document.body.scrollLeft; } else {
+if(document.documentElement && (document.documentElement.scrollLeft ||document.documentElement.scrollTop ) ) { scrollHeight =document.documentElement.scrollTop; scrollWidth =document.documentElement.scrollLeft; } }
+}
+//move the snowflakes to their new position
+for( var x = 0; x < numFlakes; x++ ) {
+if( ycoords[x] * scrHeight > scrHeight - pictureHeight ) { ycoords[x] = 0; }
+var divRef = getRefToDivNest('snFlkDiv'+x); if( !divRef ) { return; }
+if( divRef.style ) { divRef = divRef.style; } var oPix = document.childNodes ? 'px' : 0;
+divRef.top = ( Math.round( ycoords[x] * scrHeight ) + scrollHeight ) + oPix;
+divRef.left = ( Math.round( ( ( xcoords[x] * scrWidth ) - (pictureWidth / 2 ) ) + ( ( scrWidth / ( ( numFlakes + 1 ) * 4 ) ) * (Math.sin( lrFlakes * ycoords[x] ) - Math.sin( 3 * lrFlakes * ycoords[x]) ) ) ) + scrollWidth ) + oPix;
+ycoords[x] += downSpeed;
+}
+}
+
+//DHTML handlers
+function getRefToDivNest(divName) {
+if( document.layers ) { return document.layers[divName]; } //NS4
+if( document[divName] ) { return document[divName]; } //NS4 also
+if( document.getElementById ) { return document.getElementById(divName); } //DOM (IE5+, NS6+, Mozilla0.9+, Opera)
+if( document.all ) { return document.all[divName]; } //Proprietary DOM - IE4
+return false;
+}
+
+window.setInterval('flakeFall();',100);
+//]]>
+</script>  
+    <!-- KET THUC HIEU UNG HOA MAI -->
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<link rel="canonical" href="https://www.inavn.vn/" /><link href="/img_data/files/logo-ina-web.jpg" rel="shortcut icon" type="image/x-icon" />
+
+
+
+<title>Công Ty CP Đầu Tư & Thẩm Định Quốc Tế Đông Dương</title>
+<meta name="keywords" content="" />
+<meta name="description" content="INA thẩm định giá Doanh Nghiệp, thẩm định dự án đầu tư, thẩm định bất động sản, thẩm định máy móc thiết bị, thẩm định tài nguyên thiên nhiên rừng, khoáng sản" />
+
+
+<!-- google -->
+<meta itemprop="name" content="Công Ty CP Đầu Tư & Thẩm Định Quốc Tế Đông Dương">
+<meta itemprop="description" content="INA thẩm định giá Doanh Nghiệp, thẩm định dự án đầu tư, thẩm định bất động sản, thẩm định máy móc thiết bị, thẩm định tài nguyên thiên nhiên rừng, khoáng sản">
+<meta itemprop="image" content="https://www.inavn.vn/">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@publisher_handle">
+<meta name="twitter:title" content="Công Ty CP Đầu Tư & Thẩm Định Quốc Tế Đông Dương">
+<meta name="twitter:description" content="INA thẩm định giá Doanh Nghiệp, thẩm định dự án đầu tư, thẩm định bất động sản, thẩm định máy móc thiết bị, thẩm định tài nguyên thiên nhiên rừng, khoáng sản">
+<meta name="twitter:creator" content="@author_handle">
+<meta name="twitter:image:src" content="https://www.inavn.vn/">
+
+<!-- facebook -->
+<meta property="og:title" content="Công Ty CP Đầu Tư & Thẩm Định Quốc Tế Đông Dương" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.inavn.vn/" />
+<meta property="og:image" content="https://www.inavn.vn/" />
+<meta property="og:description" content="INA thẩm định giá Doanh Nghiệp, thẩm định dự án đầu tư, thẩm định bất động sản, thẩm định máy móc thiết bị, thẩm định tài nguyên thiên nhiên rừng, khoáng sản" />
+<meta property="og:site_name" content="WDAG" />
+
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+<link rel="stylesheet" href="https://www.inavn.vn/templates/css/bootstrap.css">
+
+<link rel="stylesheet" href="https://www.inavn.vn/templates/css/animate.css">
+
+<link rel="stylesheet" href="https://www.inavn.vn/templates/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://www.inavn.vn/templates/css/icomoon.css">
+
+<link rel="stylesheet" href="https://www.inavn.vn/templates/css/magnific-popup.css">
+
+<link rel="stylesheet" href="https://www.inavn.vn/templates/css/swiper.min.css">
+
+<link rel="stylesheet" href="https://www.inavn.vn/templates/css/style.css">
+
+<script src="https://www.inavn.vn/templates/js/modernizr-2.6.2.min.js"></script>
+
+<!-- FOR IE9 below -->
+
+<!--[if lt IE 9]>
+
+<script src="js/respond.min.js"></script>
+
+<![endif]-->
+
+<script>(function(d, s, id) {
+
+  var js, fjs = d.getElementsByTagName(s)[0];
+
+  if (d.getElementById(id)) return;
+
+  js = d.createElement(s); js.id = id;
+
+  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=976101545755405&autoLogAppEvents=1';
+
+  fjs.parentNode.insertBefore(js, fjs);
+
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--- Google -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PZ46BKK');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Global site tag (gtag.js) - Google Ads: 830972945 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-830972945"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-830972945');
+</script>
+<! end google -->
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '333755598324865');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=333755598324865&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+</head>
+
+<body >
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS8P68V"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="page">
+
+<div class="page-inner">
+
+
+
+
+
+
+<div id="head-top" >
+
+    <div class="demedia-top">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-2 col-sm-2 col-xs-3">
+
+                    <div id="demedia-logo"><a href="https://www.inavn.vn/">
+
+      <img alt="CÔNG TY CỔ PHẦN ĐẦU TƯ & THẨM ĐỊNH QUỐC TẾ ĐÔNG DƯƠNG" src="https://www.inavn.vn/img_data/images/687031209612-logo-INA-Update.png" /> 
+
+    </a></div>
+
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-8 social-icons">
+
+                    <ul class="demedia-social-top">
+
+
+
+                        <li class="">
+
+                                <div class="row ">
+
+                                    <div class="col-md-12 col-sm-12 text-center">
+
+                                        <h1 class="logo-font text-vang text-uppercase">INDOCHINE</h1>
+
+                                        <em class="text-vang logo-fontsub">Investment - Appraisal</em>
+
+                                    </div>
+
+                                </div>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-6 social-icons text-right ml-40 hidden-xs">
+
+                    <ul class="demedia-social-top">
+
+                        <li>
+
+                            <a>
+
+                                <div class="row text-right">
+
+                                    <div class="col-md-3 col-sm-3 pd-t-6 hidden-xs">
+
+                                <img src="https://www.inavn.vn/templates/images/phone.png"> 
+
+                                    </div>
+
+                                    <div class="col-md-9 col-sm-9 text-left">
+
+                                    Hotline: </br><strong>0934 252 707</strong>
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+                        </li>
+
+                        
+
+                        <li class="hidden-xs">
+
+                            <div class="row ">
+
+                                    <div class="col-md-12 col-sm-12 text-center">
+
+                                        
+                                        <a href="https://www.inavn.vn/?lang=us">
+
+                                            <img src="templates/images/en.png"> <span class="hidden-sm hidden-xs">EN</span>
+
+                                        </a>
+
+                                        
+                                        </div>
+
+                                    </div>
+
+                            </li>
+
+                        
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>  
+
+    </div>
+
+    <nav class="demedia-nav sticky-banner" role="navigation">
+
+        <div class="container">
+
+            
+
+            <div class="row">
+
+                <div class="text-center menu-1">
+
+                    <ul>
+
+                        <li class="active"><a href="https://www.inavn.vn/">Trang chủ</a></li>
+
+                        
+                        <li class="has-dropdown">
+
+
+
+                            <a  >
+
+
+
+                                Giới thiệu</a>
+
+                            
+                            <ul class="dropdown">
+
+                                
+                                <li><a href="https://www.inavn.vn/gioi-thieu-chung.html">Giới thiệu chung</a></li>
+
+                                
+                                <li><a href="https://www.inavn.vn/tam-nhin-su-menh.html">Tầm nhìn, sứ mệnh</a></li>
+
+                                
+                                <li><a href="https://www.inavn.vn/thanh-tuu.html">Thành tựu</a></li>
+
+                                
+                                <li><a href="https://www.inavn.vn/ho-so-nang-luc.html">HỒ SƠ NĂNG LỰC</a></li>
+
+                                
+                                <li><a href="https://www.inavn.vn/dang-ky-tham-dinh-thanh-cong.html">Đăng ký thẩm định thành công</a></li>
+
+                                
+                            </ul>
+
+                             
+                        </li>
+
+                        
+                        <li class="has-dropdown">
+
+
+
+                            <a  >
+
+
+
+                                Lĩnh vực hoạt động</a>
+
+                            
+                            <ul class="dropdown">
+
+                                
+                                <li><a href="https://www.inavn.vn/tham-dinh-doanh-nghiep.html">Thẩm định doanh nghiệp</a></li>
+
+                                
+                                <li><a href="https://www.inavn.vn/tham-dinh-gia-bat-dong-san.html">Thẩm định giá Bất động sản</a></li>
+
+                                
+                                <li><a href="https://www.inavn.vn/tham-dinh-du-an-dau-tu.html">Thẩm định dự án đầu tư</a></li>
+
+                                
+                                <li><a href="https://www.inavn.vn/tham-dinh-gia-dong-san.html">Thẩm định giá động sản</a></li>
+
+                                
+                                <li><a href="https://www.inavn.vn/tu-van-dau-tu-tham-dinh-bds-quoc-te.html">Tư Vấn Đầu Tư & Thẩm định BĐS Quốc tế</a></li>
+
+                                
+                                <li><a href="https://www.inavn.vn/linh-vuc-khac.html">Lĩnh vực khác</a></li>
+
+                                
+                            </ul>
+
+                             
+                        </li>
+
+                        
+                        <li class="has-dropdown">
+
+
+
+                            <a  >
+
+
+
+                                Tin tức</a>
+
+                            
+                            <ul class="dropdown">
+
+                                
+                                <li><a href="https://www.inavn.vn/tin-cong-ty.html">Tin Công Ty</a></li>
+
+                                
+                                <li><a href="https://www.inavn.vn/tin-di-tru.html">Tin Di Trú</a></li>
+
+                                
+                                <li><a href="https://www.inavn.vn/tin-tham-dinh-gia.html">Tin thẩm định giá</a></li>
+
+                                
+                                <li><a href="https://www.inavn.vn/tin-bat-dong-san-nha-dat.html">Tin bất động sản - nhà đất</a></li>
+
+                                
+                                <li><a href="https://www.inavn.vn/tai-lieu-tham-khao.html">Tài liệu tham khảo</a></li>
+
+                                
+                                <li><a href="https://www.inavn.vn/tuyen-dung.html">Tuyển dụng</a></li>
+
+                                
+                            </ul>
+
+                             
+                        </li>
+
+                        
+                        <li >
+
+
+
+                            <a href="https://www.inavn.vn/lien-he.html"  >
+
+
+
+                                Liên hệ</a>
+
+                            
+                        </li>
+
+                        
+
+
+                    </ul>
+
+
+
+                </div>
+
+            </div>
+
+            
+
+        </div>
+
+    </nav>
+
+</div>
+
+
+<header id="demedia-header" class="demedia-cover demedia-cover-md">    <div class="container">        
+	<div class="row bg-white pd-t-20">            <div class="col-md-8 col-sm-8 text-center animate-box" data-animate-effect="fadeInUp">            
+		<div class="swiper-container swiper-slider">                
+			<div class="swiper-wrapper">                    
+	                    
+		<div class="swiper-slide">                         
+			<!-- <a href="https://www.inavn.vn/.html">   -->    
+			<a href="https://www.inavn.vn/dong-hanh-cung-chia-se-manh-me-vuot-qua-uu-dai-10-phi-tham-dinh.html">                  
+				<img src="https://www.inavn.vn/img_data/images/092327341331-INA.jpg" class="img-responsive">                        
+			</a>                    
+		</div>                    
+		                    
+		<div class="swiper-slide">                         
+			<!-- <a href="https://www.inavn.vn/.html">   -->    
+			<a href="https://www.inavn.vn/cong-ty-cp-dau-tu-tham-dinh-quoc-te-indochine-vinh-du-don-nhan-giai-thuong-%E2%80%9Casean-brands-award-2020-%E2%80%9D.html">                  
+				<img src="https://www.inavn.vn/img_data/images/466692157365-THUONG-HIEU-MANH-ASEAN.jpg" class="img-responsive">                        
+			</a>                    
+		</div>                    
+		                    
+		<div class="swiper-slide">                         
+			<!-- <a href="https://www.inavn.vn/.html">   -->    
+			<a href="https://inavn.vn/tu-van-dau-tu-bat-dong-san.html">                  
+				<img src="https://www.inavn.vn/img_data/images/070457488922-TV-BDS.jpg" class="img-responsive">                        
+			</a>                    
+		</div>                    
+		                    
+		<div class="swiper-slide">                         
+			<!-- <a href="https://www.inavn.vn/.html">   -->    
+			<a href="https://inavn.vn/tham-dinh-gia.html">                  
+				<img src="https://www.inavn.vn/img_data/images/661654028559-THAM-DINH-GIA.jpg" class="img-responsive">                        
+			</a>                    
+		</div>                    
+		                    
+		<div class="swiper-slide">                         
+			<!-- <a href="https://www.inavn.vn/.html">   -->    
+			<a href="https://inavn.vn/tu-van-dau-tu-dinh-cu.html">                  
+				<img src="https://www.inavn.vn/img_data/images/398249527496-TV-DTDC.jpg" class="img-responsive">                        
+			</a>                    
+		</div>                    
+		                
+	</div>                 
+	<div class="swiper-pagination"></div>            
+</div>            
+</div>            
+<div class="col-md-4 col-sm-4 animate-box pd-50px" data-animate-effect="fadeInUp">                
+	<h1 class="text-main mt-20">Hệ thống <strong>Toàn Quốc</strong></h1>                    
+	<div class="text-btn"><a href="https://www.inavn.vn/lien-he.html" class="btn btn-block btn-primary">Yêu cầu báo giá</a>
+	</div>            
+</div>        </div>    </div>    <div class="container">        <div class="row bg-white  pd-text">            <div class="col-md-12 bg-main mt-20px animate-box" data-animate-effect="fadeInUp">                <h2 class="text-vang text-capitalize fw-600">Lĩnh Vực Kinh Doanh</h2>            </div>            <div class="col-md-12">                <div class="row demedia-services">                                            <div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInUp">                            <a href="https://www.inavn.vn/tham-dinh-doanh-nghiep.html" class="demedia-service-item">                                <figure>                                    <p class="text-capitalize"><img src="https://www.inavn.vn/img_data/images/202251810314-icon4.png" alt="Thẩm định doanh nghiệp" /> Thẩm định doanh nghiệp</p>                                </figure>                                <div class="demedia-services-text">CHỌN</div>                            </a>                        </div>                                            <div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInUp">                            <a href="https://www.inavn.vn/tham-dinh-gia-bat-dong-san.html" class="demedia-service-item">                                <figure>                                    <p class="text-capitalize"><img src="https://www.inavn.vn/img_data/images/486600058859-icon1s.png" alt="Thẩm định giá Bất động sản" /> Thẩm định giá Bất động sản</p>                                </figure>                                <div class="demedia-services-text">CHỌN</div>                            </a>                        </div>                                            <div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInUp">                            <a href="https://www.inavn.vn/tham-dinh-du-an-dau-tu.html" class="demedia-service-item">                                <figure>                                    <p class="text-capitalize"><img src="https://www.inavn.vn/img_data/images/523100631384-icon3.png" alt="Thẩm định dự án đầu tư" /> Thẩm định dự án đầu tư</p>                                </figure>                                <div class="demedia-services-text">CHỌN</div>                            </a>                        </div>                                            <div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInUp">                            <a href="https://www.inavn.vn/tham-dinh-gia-dong-san.html" class="demedia-service-item">                                <figure>                                    <p class="text-capitalize"><img src="https://www.inavn.vn/img_data/images/062500481011-icon2.png" alt="Thẩm định giá động sản" /> Thẩm định giá động sản</p>                                </figure>                                <div class="demedia-services-text">CHỌN</div>                            </a>                        </div>                                            <div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInUp">                            <a href="https://www.inavn.vn/tu-van-dau-tu-tham-dinh-bds-quoc-te.html" class="demedia-service-item">                                <figure>                                    <p class="text-capitalize"><img src="https://www.inavn.vn/img_data/images/069200145398-Web-icon_Tu-van-dau-tu-Tham-dinh-BDS-quoc-te.png" alt="Tư Vấn Đầu Tư & Thẩm định BĐS Quốc tế" /> Tư Vấn Đầu Tư & Thẩm định BĐS Quốc tế</p>                                </figure>                                <div class="demedia-services-text">CHỌN</div>                            </a>                        </div>                                            <div class="col-lg-4 col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInUp">                            <a href="https://www.inavn.vn/linh-vuc-khac.html" class="demedia-service-item">                                <figure>                                    <p class="text-capitalize"><img src="https://www.inavn.vn/img_data/images/241863887834-icon-6.png" alt="Lĩnh vực khác" /> Lĩnh vực khác</p>                                </figure>                                <div class="demedia-services-text">CHỌN</div>                            </a>                        </div>                                    </div>            </div>        </div>    </div></header><div class="clearfix"></div><div class="demedia-section">    <div class="container">        <div class="row bg-white">            <div class="col-lg-8 col-md-8 col-sm-12">                <h2 class="text-capitalize font-18 title-news text-main pd-30px">Tin tức</h2>                                <div class="row animate-box" data-animate-effect="fadeInUp">                    <a href="https://www.inavn.vn/tam-quan-trong-cua-tham-dinh-nha-trong-cac-giao-dich-mua-ban-nha-dat.html" class="demedia-card-item">                        <div class="col-lg-7 col-md-7 col-sm-7">                        <figure>                            <div class="overlay"><i class="ti-plus"></i></div>                            <img src="https://www.inavn.vn/img_data/images/516603053993-Tam-Quan-Trong-Cua-Tham-Dinh-Nha-Trong-Cac-Giao-Dich-Mua-Ban-Nha-Dat.jpg" alt="Tầm Quan Trọng Của Thẩm Định Nhà Trong Các Giao Dịch Mua Bán Nhà Đất" class="img-responsive">                        </figure>                        </div>                        <div class="col-lg-5 col-md-5 col-sm-5">                        <div class="demedia-text text-left">                            <h2 class="font-600 text-uppercase">Tầm Quan Trọng Của Thẩm Định Nhà Trong Các Giao Dịch Mua Bán Nhà Đất</h2>                            <p>Xác định giá là một trong những bước bắt buộc bạn phải làm khi tiến hành giao dịch một sản phẩm nhà ở. Giá trị của bất động sản được tạo thành từ nhiều khía...</p>                            <p class="demedia-category">Xem chi tiết <i class="fa fa-long-arrow-right"></i></p>                        </div>                        </div>                    </a>                </div>                                                <div class="row animate-box" data-animate-effect="fadeInUp">                    <a href="https://www.inavn.vn/quy-dinh-bao-mat.html" class="demedia-card-item">                        <div class="col-lg-5 col-md-5 col-sm-5">                        <figure>                            <div class="overlay"><i class="ti-plus"></i></div>                            <img src="https://www.inavn.vn/img_data/images/358775858730-Bảo-mạt.jpg" alt="QUY ĐỊNH BẢO MẬT" class="img-responsive">                        </figure>                        </div>                        <div class="col-lg-7 col-md-7 col-sm-7">                        <div class="demedia-text text-left">                            <h2 class="text-uppercase">QUY ĐỊNH BẢO MẬT</h2>                            <p>Quý khách có thể ghé thăm trang web mà không cần phải cung cấp bất kỳ thông tin cá nhân nào. Khi viếng thăm trang web, quý khách sẽ luôn ở trong tình trạng vô danh. Nếu quý khách có ý kiến hay đóng góp gì, xin vui lòng gửi đến địa chỉ: 121Bis Nguyễn Văn Trỗi, Phường 11, Quận Phú Nhuận, TP.HCM hoặc gửi email tới info@inavn.vn. Chúng tôi luôn sẳn sàng lắng nghe nhận xét của quý khách.</p>                            <p class="demedia-category">Xem chi tiết <i class="fa fa-long-arrow-right"></i></p>                        </div>                        </div>                    </a>                </div>                                <div class="row animate-box" data-animate-effect="fadeInUp">                    <a href="https://www.inavn.vn/dieu-khoan-chung.html" class="demedia-card-item">                        <div class="col-lg-5 col-md-5 col-sm-5">                        <figure>                            <div class="overlay"><i class="ti-plus"></i></div>                            <img src="https://www.inavn.vn/img_data/images/954970453174-ièu-khoản.jpg" alt="ĐIỀU KHOẢN CHUNG" class="img-responsive">                        </figure>                        </div>                        <div class="col-lg-7 col-md-7 col-sm-7">                        <div class="demedia-text text-left">                            <h2 class="text-uppercase">ĐIỀU KHOẢN CHUNG</h2>                            <p>Tất cả những thông tin được cung cấp trên website này đều sẽ được thay đổi, cập nhật thường xuyên mà không cần thông báo trước.</p>                            <p class="demedia-category">Xem chi tiết <i class="fa fa-long-arrow-right"></i></p>                        </div>                        </div>                    </a>                </div>                                <div class="row animate-box" data-animate-effect="fadeInUp">                    <a href="https://www.inavn.vn/tham-dinh-gia-nha-xuong-muc-dich-mua-ban-chuyen-nhuong.html" class="demedia-card-item">                        <div class="col-lg-5 col-md-5 col-sm-5">                        <figure>                            <div class="overlay"><i class="ti-plus"></i></div>                            <img src="https://www.inavn.vn/img_data/images/164722421361-THAM-DINH-GIA-NHA-XUONG-MUC-DICH-MUA-BAN-CHUYEN-NHUONG.jpg" alt="THẨM ĐỊNH GIÁ NHÀ XƯỞNG MỤC ĐÍCH MUA BÁN, CHUYỂN NHƯỢNG" class="img-responsive">                        </figure>                        </div>                        <div class="col-lg-7 col-md-7 col-sm-7">                        <div class="demedia-text text-left">                            <h2 class="text-uppercase">THẨM ĐỊNH GIÁ NHÀ XƯỞNG MỤC ĐÍCH MUA BÁN, CHUYỂN NHƯỢNG</h2>                            <p>Công ty Đầu Tư và Thẩm Định Quốc Tế Đông Dương (INA) một trong những công ty thẩm định uy tín hàng đầu với hệ thống chi nhánh, văn phòng toàn quốc, đến với chúng tôi quý khách hàng sẽ được tư vấn, giúp đỡ xác định đưa ra được giá trị của từng loại tài sản để từ đó định ra được mức giá hợp lý nhất giúp khách hàng đạt được tốt nhất mục đích của mình.</p>                            <p class="demedia-category">Xem chi tiết <i class="fa fa-long-arrow-right"></i></p>                        </div>                        </div>                    </a>                </div>                            </div>            
+
+            <div class="col-md-4 bg-gray pd-30px column">
+                <h2 class="text-capitalize title-price font-18 ">Gửi yêu cầu báo giá</h2>
+                <div class="arrow up"></div>
+                <p>Vui lòng chia sẻ với chúng tôi một số thông tin của bạn, chúng tôi sẽ liên hệ với bạn khi có yêu cầu</p>
+                  <iframe src="https://ina.getflycrm.com/api/forms/viewform/?key=kIBz85eCTxuBHE9sC95wdnqq1IQ8eK3wR4jGkD1vQUoQRnI0sW" width="100%" height="700px" frameborder="0" marginheight="0" marginwidth="0">Loading ...</iframe> 
+                <!--form id="form_contact"  method="POST" action="https://www.inavn.vn/lien-he.html" enctype="multipart/form-data">
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <input type="text" id="name" name="ten" class="form-control bd-radius-20" placeholder="Tên Của Bạn *">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <input type="text" id="company" name="cong_ty" class="form-control bd-radius-20" placeholder="Tên công ty ">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <input type="text" id="phone" name="dien_thoai" class="form-control bd-radius-20" placeholder="Điện thoại">
+                    </div>
+                </div>
+
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <input type="text" id="email" name="email" class="form-control bd-radius-20" placeholder="Email *">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <p>Bạn muốn chúng tôi phản hồi với bạn qua:</p>
+                        <input type="checkbox" class="form-check-input" id="">
+                        <label class="form-check-label" checked>Điện thoại</label>
+                        <input type="checkbox" class="form-check-input" id="">
+                        <label class="form-check-label">Email</label>
+                        <input type="checkbox" class="form-check-input" id="">
+                        <label class="form-check-label">Cả hai</label>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <p class="fw-600">Loại thẩm định *</p>
+                        <select name="id_loai" class="form-control bd-radius-20">
+                                                        <option value="119">Thẩm định doanh nghiệp</option>
+                                                        <option value="120">Thẩm định giá Bất động sản</option>
+                                                        <option value="121">Thẩm định dự án đầu tư</option>
+                                                        <option value="126">Thẩm định giá động sản</option>
+                                                        <option value="47">Tư Vấn Đầu Tư & Thẩm định BĐS Quốc tế</option>
+                                                        <option value="131">Lĩnh vực khác</option>
+                                                    </select>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <textarea name="noi_dung " id="message" name="noi_dung" cols="30" rows="5" class="form-control bd-radius-20" placeholder="Nội Dung"></textarea>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <p class="fw-600">Upload Files (Documents/Photos):</p>
+                        <div class="upload-file">
+                            <label>Thả tệp tại đây hoặc</label>
+                            <span class="btn btn-default btn-file btn-block">
+                                UPLOAD FILE <input type="file" name="file" id="file">
+                            </span>
+                        </div>
+                        <p>Các loại tệp được chấp nhận: : jpg, gif, png, pdf, xls, xlsx, doc, docx.</p>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="hidden" id="infocon" succ="Cảm ơn bạn đã gửi yêu cầu!" err ="Lỗi gửi thông tin!">
+                    <input type="submit" id="send_contact" name="send_contact" value="GỬI" class="btn btn-default btn-block">
+                </div>
+
+            </form-->
+            </div>        </div>    </div></div><div id="demedia-subscribe">    <div class="container">        <div class="row animate-box bg-white pd-tb-50px">            <div class="col-md-12 text-center demedia-heading">                <h2 class="text-uppercase title-custom">Khách hàng đối tác</h2>            </div>            <div class="demedia-panel">                
+	<div class="demedia-line">                    
+		<ul class="nav nav-tabs bg-red f-oswal">                        
+			                            
+				<li class="active" >
+					<a href="#tab0" id="tabb0"  data-toggle="tab">Tài chính - ngân hàng</a>
+				</li>                        
+			                            
+				<li  >
+					<a href="#tab1" id="tabb1"  data-toggle="tab">Hiệp Hội</a>
+				</li>                        
+			                            
+				<li  >
+					<a href="#tab2" id="tabb2"  data-toggle="tab">Tư vấn luật - kiểm toán</a>
+				</li>                        
+			                    
+			</ul>                    
+			<div class="tab-content">                        
+				                        
+					<div class="tab-pane active" id="tab0">                            
+						<div class="container">                                
+							<div class="swiper-container swiper-tab0">                                    
+								<div class="swiper-wrapper">                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="VIB BANK" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/140150611777-vib.jpg&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="BIDV" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/199278500115-bidv.jpg&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="AgriBank" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/028896480960-agri.jpg&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="CB Bank" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/329301875701-CB.jpg&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="SCB BANK" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/929398702695-SCB.jpg&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Ngân hàng Busan" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/061153672316-ngan-hang-busan.jpg&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Bank of China" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/817611937095-7.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="MSB" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/068379212807-11.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="LienVietPost" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/832217771093-lien-viet.jpg&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="ViettinBank" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/310943584388-9.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="PVCombank" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/286154203922-14.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Maybank" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/959200275625-1.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Standard Chartered Bank" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/230785275964-1.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Citi Bank" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/633885950865-2.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Woori Bank" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/742834069763-woori.jpg&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Ngân Hàng Quốc Dân" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/984583448325-Logo-NCB.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Trung tâm xử lý nợ VAMC" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/416199293225-Logo-VAMC.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Ngân Hàng Việt Á" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/694486926187-Logo-Viet-A-Bank.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                     
+								</div>                                
+							</div>                            
+						</div>                        
+					</div>                        
+				                        
+					<div class="tab-pane " id="tab1">                            
+						<div class="container">                                
+							<div class="swiper-container swiper-tab1">                                    
+								<div class="swiper-wrapper">                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="TĐG" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/909003025445-20.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Asean" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/600338884916-18.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="HHBDSVN" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/890840428537-19.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="HHTDGVN" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/783527294969-21.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="TG" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/876697960859-17.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                     
+								</div>                                
+							</div>                            
+						</div>                        
+					</div>                        
+				                        
+					<div class="tab-pane " id="tab2">                            
+						<div class="container">                                
+							<div class="swiper-container swiper-tab2">                                    
+								<div class="swiper-wrapper">                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Luật 24h" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/582356782596-24.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Luật Lê Khanh" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/244391656123-22.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Kiểm Toán SCS Global" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/271758219327-26.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Streitsu Law" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/264085028798-16.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                        
+										<div class="swiper-slide">                                            
+											<a>                            
+												<img alt="Luật Hoàng Quân" src="https://www.inavn.vn/thumb.php?src=https://www.inavn.vn/img_data/images/593977290458-25.png&w=200&h=80" class="img-responsive" />                                            
+											</a>                                       
+										</div>                                        
+									                                     
+								</div>                                
+							</div>                            
+						</div>                        
+					</div>                        
+				                    
+					</div>                
+				</div>            
+			</div>        
+		</div>    
+	</div></div>
+
+
+
+
+
+<footer id="demedia-footer" role="contentinfo">
+
+	<div class="demedia-container">
+
+		<div class="row row-p b-md">
+
+			<div class="col-md-2 col-sm-3 animate-box text-center" data-animate-effect="fadeInUp">
+
+				<p><a href="https://www.inavn.vn/"><img alt="CÔNG TY CỔ PHẦN ĐẦU TƯ & THẨM ĐỊNH QUỐC TẾ ĐÔNG DƯƠNG" src="https://www.inavn.vn/img_data/images/687031209612-logo-INA-Update.png" /> </a></p>
+
+			</div>
+
+			<div class="col-md-7 col-sm-9 animate-box ml-30" data-animate-effect="fadeInUp">
+
+				<div class="demedia-widget">
+
+					<h3 class="text-center">CÔNG TY CỔ PHẦN ĐẦU TƯ & THẨM ĐỊNH QUỐC TẾ ĐÔNG DƯƠNG</h3>
+					<p><i class="fa fa-map-marker fa-2"></i> Trụ sở chính: 15 Nguyễn Lương Bằng, P. Tân Phú, Quận 7, TP.HCM</p>
+                    <p><i class="fa fa-envelope fa-2"></i> Email: info@inavn.vn</p>
+					<p><i class="fa fa-phone fa-2"></i> Điện thoại: 0934 252 707</p>
+                    <p><i class="fa fa-certificate fa-2"></i> Giấy phép kinh doanh số: 0314505121 Cấp ngày: 10/07/2017 - Sở Kế Hoạch & Đầu tư TP. HCM</p>
+                    <p><i class="fa fa-user-circle-o fa-2"></i> Chịu trách nhiệm nội dung: Huỳnh Ngọc Trà My</p>
+
+<!-- 					<ul class="demedia-footer-links">
+
+						
+					</ul> -->
+
+				</div>
+
+			</div>
+
+			<div class="col-md-3 col-sm-12 animate-box" data-animate-effect="fadeInUp">
+
+				<div class="demedia-widget">
+
+					<h3>ĐĂNG KÝ NHẬN EMAIL</h3>
+
+					<p>Đăng ký nhận tin mỗi ngày</p>
+
+					<form id="form_email" method="POST">
+
+					    <div class="input-group">
+
+					      <input type="hidden" id="info" succ="Cảm ơn bạn đã gửi Email đăng ký!" err ="Email của bạn đã được đăng ký rồi!">
+
+					      <input type="email" class="form-control" name="emailM" id="emailM" title="Vui lòng nhập Email!">
+
+					      <span class="input-group-btn">
+
+					        <button type="submit" id="dang_ky" class="btn btn-email"><i class="fa fa-chevron-right"></i></button>
+
+					      </span>
+
+					    </div>
+
+					</form>
+				
+                <hr>
+				<ul class="demedia-social-icons text-center">
+					<li><a href=""><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://www.facebook.com/thamdinhquocteina/?modal=admin_todo_tour"><i class="fa fa-facebook"></i></a></li>
+					<li><a href=""><i class="fa fa-youtube"></i></a></li>
+
+				</ul>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="row copyright">
+
+		<div class="demedia-container">
+
+		<div class="col-md-12">
+
+			<p class="pull-left">
+
+				<small class="block">Copyright © 2020 INA International Corp.All right reserved.Design & Develop by INA Team Marketing & IT  </small> 
+
+			</p>
+
+			<p class="pull-right">
+
+				<ul class="demedia-social-icons pull-right">
+                	<li><a href="https://www.inavn.vn/dieu-khoan-chung.html">Điều khoản & điền kiện</a></li>
+                	<li><a href="https://www.inavn.vn/quy-dinh-bao-mat.html">Chính sách bảo mật</a></li>
+
+				</ul>
+
+			</p>
+
+		</div>
+
+		</div>
+
+	</div>
+
+	<div class="gototop js-top">
+
+		<a href="#" class="js-gotop"><i class="fa fa-chevron-up"></i></a>
+
+	</div>
+
+</footer>
+
+
+
+<div class="phone-mobile hidden-lg hidden-md">
+
+	<div class="container">
+
+    <div class="row">
+
+        <div class="col-sm-8 col-xs-8">
+
+  <p><a href="tel:0934 252 707">HOTLINE: 0934 252 707</a></p>
+
+        </div>
+
+        <div class="col-sm-4 col-xs-4 text-right">
+
+  
+    <a href="https://www.inavn.vn/?lang=us">
+
+        <img src="templates/images/en.png"> <span class="hidden-sm hidden-xs">EN</span>
+
+    </a>
+
+    
+        </div>
+
+    </div>
+
+	</div>
+
+</div>
+
+
+
+
+</div>
+
+</div>
+
+<script src="https://www.inavn.vn/templates/js/jquery.min.js"></script>
+
+<script src="https://www.inavn.vn/templates/js/jquery.easing.1.3.js"></script>
+
+<script src="https://www.inavn.vn/templates/js/bootstrap.min.js"></script>
+
+<script src="https://www.inavn.vn/templates/js/jquery.waypoints.min.js"></script>
+
+<script src="https://www.inavn.vn/templates/js/sticky.js"></script>
+
+<script src="https://www.inavn.vn/templates/js/owl.carousel.min.js"></script>
+
+<script src="https://www.inavn.vn/templates/js/jquery.countTo.js"></script>
+
+<script src="https://www.inavn.vn/templates/js/jquery.stellar.min.js"></script>
+
+<script src="https://www.inavn.vn/templates/js/jquery.magnific-popup.min.js"></script>
+
+<script src="https://www.inavn.vn/templates/js/magnific-popup-options.js"></script>
+
+<script src="https://www.inavn.vn/templates/js/swiper.jquery.min.js"></script>
+
+<script src="https://www.inavn.vn/templates/js/main.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+    $(".navsearch").click(function(){
+
+    	$(this).find('i').toggleClass('fa-close')
+
+        $("#demedia-search").slideToggle();
+
+    });
+
+});
+</script>
+<!--
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5c2d636182491369baa041d1/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+-->
+
+<!-- Analytics----->
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2646489285364906');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2646489285364906&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170122546-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170122546-1');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149695613-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-149695613-1');
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZ46BKK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<style>
+.phone-mobile {display: none;}
+.neildo-nav {
+    position: fixed;
+    right: 13px;
+    background: #fff;
+    border-radius: 5px;
+    width: auto;
+    z-index: 150;
+    bottom: 100px;
+    padding: 10px 0;
+    border: 1px solid #00367b;
+}
+.neildo-nav ul {list-style: none;padding: 0;margin: 0;}
+.neildo-nav ul li {list-style: none!important;}
+.neildo-nav ul>li a {
+    border:none;
+    padding: 3px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    color: #515151;
+    font-weight: 700;
+    max-width: 72.19px;
+    max-height: 54px;
+    text-decoration: none;
+}
+.neildo-nav ul>li .chat_animation{display:none}
+.neildo-nav ul>li a i.ticon-zalo-circle2 {
+    background: url(https://thamdinhgiacantho.com/icon/Zalo.png) no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    display: block;
+}
+.neildo-nav li .button {
+    background: transparent;
+}.neildo-nav ul>li a i {
+    width: 33px;
+    height: 33px;
+    display: block;
+    margin: auto;
+}.neildo-nav ul li .button .btn_phone_txt {
+    position: relative; top:35px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: none;
+}
+.neildo-nav ul>li a i.ticon-zalo-circle3 {
+    background: url(https://thamdinhgiacantho.com/icon/Zalo.png) no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    display: block;
+}
+.neildo-nav ul>li a i.ticon-messenger {
+    background: url(https://thamdinhgiacantho.com/icon/messeger.png) no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    display: block;
+}
+.neildo-nav ul>li a i.ticon-fanpage {
+    background: url(https://thamdinhgiacantho.com/icon/fb1.png) no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    display: block;
+}
+.neildo-nav ul li .button .phone_animation i {
+    display: inline-block;
+    width: 55px;
+    font-size: 26px;
+}
+.neildo-nav ul>li a i.ticon-chat-sms {
+    background: url(https://thamdinhgiacantho.com/icon/sms-icon-3.png) no-repeat;
+    background-size: contain;
+    width: 38px;
+    height: 36px;
+    display: block;
+}
+.neildo-nav ul li .button .btn_phone_txt {
+    position: relative;
+}
+@media only screen and (max-width: 600px){
+.neildo-nav li .chat_animation{display:block !Important}
+ 
+.neildo-nav ul>li a{padding:0; margin:0 auto}
+.neildo-nav {
+    background: white;
+    width: 100%; border-radius:0;
+    color: #fff;
+    height: 60px;
+    line-height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    padding: 5px;
+    margin: 0;
+    box-shadow: 0 4px 10px 0 #000;
+}
+.neildo-nav li {
+    float: right;
+    width: 20%;
+    list-style: none;
+    height: 50px;
+}
+.phone-mobile{display:block !important}}
+</style>
+<div class="neildo-nav">
+        <ul>
+
+<li><a href="https://zalo.me/0934252707" rel="nofollow" target="_blank"><i class="ticon-zalo-circle2"></i>T&#432; V&#7845;n</a></li>
+
+           <li><a href=" https://m.me/thamdinhquocteina" rel="nofollow" target="_blank"><i class="ticon-messenger"></i>Messenger</a></li>
+			<li><a href="https://www.facebook.com/thamdinhquocteina" rel="nofollow" target="_blank"><i class="ticon-fanpage"></i>Fanpage</a></li>
+          <li><a href="sms:0934 252 707" class="chat_animation">
+            <i class="ticon-chat-sms" aria-hidden="true" title="Nh&#7855;n tin sms"></i>
+                Nh&#7855;n tin SMS</a>
+            </li>
+        </ul>
+    </div>
+<style>
+.hotline-phone-ring-wrap {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
+}
+.hotline-phone-ring {
+  position: relative;
+  visibility: visible;
+  background-color: transparent;
+  width: 110px;
+  height: 110px;
+  cursor: pointer;
+  z-index: 11;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transition: visibility .5s;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+.hotline-phone-ring-circle {
+	width: 85px;
+  height: 85px;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  background-color: transparent;
+  border-radius: 100%;
+  border: 2px solid #e60808;
+  -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+  animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+  transition: all .5s;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  opacity: 0.5;
+}
+.hotline-phone-ring-circle-fill {
+	width: 55px;
+  height: 55px;
+  top: 27px;
+  left: 27px;
+  position: absolute;
+  background-color: rgba(230, 8, 8, 0.7);
+  border-radius: 100%;
+  border: 2px solid transparent;
+  -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+  animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+  transition: all .5s;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+.hotline-phone-ring-img-circle {
+	background-color: #e60808;
+	width: 33px;
+  height: 33px;
+  top: 37px;
+  left: 35px;
+  position: absolute;
+  background-size: 20px;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+  animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+display: -webkit-box;
+ display: -webkit-flex;
+display: -ms-flexbox; 
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hotline-phone-ring-img-circle .pps-btn-img {
+display: -webkit-box;
+ display: -webkit-flex;
+display: -ms-flexbox;
+display: flex; 
+}
+.hotline-phone-ring-img-circle .pps-btn-img img {
+	width: 20px;
+	height: 20px;
+}
+.hotline-bar {
+  position: absolute;
+  background: rgba(230, 8, 8, 0.75);
+  height: 40px;
+  width: 180px;
+  line-height: 40px;
+  border-radius: 3px;
+  padding: 0 10px;
+  background-size: 100%;
+  cursor: pointer;
+  transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  z-index: 9;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50px !important;
+  /* width: 175px !important; */
+  left: 30px;
+  bottom: 37px;
+}
+.hotline-bar > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-indent: 50px;
+  display: block;
+  letter-spacing: 1px;
+  line-height: 40px;
+  font-family: Arial;
+}
+.hotline-bar > a:hover,
+.hotline-bar > a:active {
+  color: #fff;
+}
+@-webkit-keyframes phonering-alo-circle-anim {
+  0% {
+    -webkit-transform: rotate(0) scale(0.5) skew(1deg);
+    -webkit-opacity: 0.1;
+  }
+  30% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    -webkit-opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+    -webkit-opacity: 0.1;
+  }
+}
+@-webkit-keyframes phonering-alo-circle-fill-anim {
+  0% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    opacity: 0.6;
+  }
+  50% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    opacity: 0.6;
+  }
+}
+@-webkit-keyframes phonering-alo-circle-img-anim {
+  0% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+  10% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+  20% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+  30% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+  40% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+  50% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+}
+@media (max-width: 768px) {
+  .hotline-bar {
+    display: none;
+  }
+}
+</style>
+<div class="hotline-phone-ring-wrap">
+	<div class="hotline-phone-ring">
+		<div class="hotline-phone-ring-circle"></div>
+		<div class="hotline-phone-ring-circle-fill"></div>
+		<div class="hotline-phone-ring-img-circle">
+		<a href="tel:0829339073" class="pps-btn-img">
+			<img src="https://thamdinhgiacantho.com/icon/icon-call.png" alt="Gọi ngay để được tư vấn" width="50">
+		</a>
+		</div>
+	</div>
+	<div class="hotline-bar">
+		<a href="tel:0829339073">
+			<span class="text-hotline">0829339073</span>
+		</a>
+	</div>
+</div>
+<!-- End call -->
+</body>
+</html>

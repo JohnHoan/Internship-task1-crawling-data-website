@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="vi" class="ltr" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vietnam Jobs - Kết nối ứng viên đến nhà tuyển dụng</title>
+    <meta name="Description" content="Find best Jobs in United States of America, jobs listings and job opportunities on Jobs Portal. Browse more than 100K jobs in United States of America and apply for free! Jobs Portal is USA's leading job website where more than 52K top companies are posting jobs">
+    <meta name="Keywords" content="Jobs in USA, Jobs uae, Jobs, Careers, Recruitment, Employment, Hiring, Banking, CVs, Career, Finance, IT, Marketing, Online Jobs, Opportunity,usa, Resume, Work, naukri, rizq, Rozi">
+    <meta name="robots" content="ALL, FOLLOW,INDEX" />
+<meta name="author" content="VietnamJobs" />
+    <meta name="csrf-token" content="nEbJ7uUZFZpgfhaU2erGHADCxUuAZbMFXpRh2qml">
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="https://vietnamjobs.net/favicon.ico">
+    <!-- Slider -->
+    <link href="https://vietnamjobs.net/js/revolution-slider/css/settings.css" rel="stylesheet">
+    <!-- Owl carousel -->
+    <link href="https://vietnamjobs.net/css/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://vietnamjobs.net/css/owl-carousel/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://vietnamjobs.net/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://vietnamjobs.net/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://vietnamjobs.net/css/font-awesome.css" rel="stylesheet">
+    <!-- Custom Style -->
+    <link href="https://vietnamjobs.net/css/main.css" rel="stylesheet">
+        <link href="https://vietnamjobs.net/admin_assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://vietnamjobs.net/admin_assets/global/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://vietnamjobs.net/admin_assets/global/plugins/select2/css/select2-bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="https://vietnamjobs.net/js/html5shiv.min.js"></script>
+          <script src="https://vietnamjobs.net/js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+<body>
+    <!-- Header start -->
+<div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-12 col-12"> <a href="https://vietnamjobs.net" class="logo"><img src="https://vietnamjobs.net/sitesetting_images/thumb/jobs-portal-1619451210-237.png" alt="VIETNAM JOBS" /></a>
+                <div class="navbar-header navbar-light">
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#nav-main" aria-controls="nav-main" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-lg-10 col-md-12 col-12">
+
+                <!-- Nav start -->
+                <nav class="navbar navbar-expand-lg navbar-light">
+					
+                    <div class="navbar-collapse collapse" id="nav-main">
+                        <ul class="navbar-nav mr-auto" style="margin-top: -10px;">
+                            <li class="nav-item active"><a href="https://vietnamjobs.net" class="nav-link">Trang Chủ</a> </li>
+							
+                            
+														<li class="nav-item "><a href="https://vietnamjobs.net/jobs" class="nav-link">Tất cả việc làm</a> </li>
+							
+							<li class="nav-item "><a href="https://vietnamjobs.net/companies" class="nav-link">Công ty</a> </li>
+							<li class="nav-item "><a href="https://vietnamjobs.net/blog" class="nav-link">Tin tức</a> </li>
+                            
+                                                          <li class="nav-item">
+                                <div class="nav-link register">
+                                    <a href="https://vietnamjobs.net/login?c_or_e=candidate"><img src="https://vietnamjobs.net/images/nav-candidate-icon.png" alt="candidate-icon" />Ứng viên</a>
+                                    <img src="https://vietnamjobs.net/images/vector-login.png" alt="login link" style="margin: 0 20px 0 36px;" />
+                                    <a href="https://vietnamjobs.net/login?c_or_e=employer"><img src="https://vietnamjobs.net/images/nav-employer-icon.png" alt="employer-icon" style="margin: -4px 10px;" />Nhà tuyển dụng</a>
+                                </div>
+                            </li>
+                                                        <li class="dropdown userbtn" style="position: absolute; right: 20px;">
+                                <a href="#">
+                                    <img src="https://vietnamjobs.net/images/flag-vi.png" alt="" class="userimg" />
+                                    <span class="lang-text">vi</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                                                        <li><a href="javascript:;" onclick="event.preventDefault(); document.getElementById('locale-form-en').submit();" class="nav-link">English</a>
+                                        <form id="locale-form-en" action="https://vietnamjobs.net/set-locale" method="POST" style="display: none;">
+                                            <input type="hidden" name="_token" value="nEbJ7uUZFZpgfhaU2erGHADCxUuAZbMFXpRh2qml">
+                                            <input type="hidden" name="locale" value="en"/>
+                                            <input type="hidden" name="return_url" value="https://vietnamjobs.net"/>
+                                            <input type="hidden" name="is_rtl" value="0"/>
+                                        </form>
+                                    </li>
+                                                                        <li><a href="javascript:;" onclick="event.preventDefault(); document.getElementById('locale-form-vi').submit();" class="nav-link">Vietnamese</a>
+                                        <form id="locale-form-vi" action="https://vietnamjobs.net/set-locale" method="POST" style="display: none;">
+                                            <input type="hidden" name="_token" value="nEbJ7uUZFZpgfhaU2erGHADCxUuAZbMFXpRh2qml">
+                                            <input type="hidden" name="locale" value="vi"/>
+                                            <input type="hidden" name="return_url" value="https://vietnamjobs.net"/>
+                                            <input type="hidden" name="is_rtl" value="0"/>
+                                        </form>
+                                    </li>
+                                                                        <li><a href="javascript:;" onclick="event.preventDefault(); document.getElementById('locale-form-CN').submit();" class="nav-link">Chinese</a>
+                                        <form id="locale-form-CN" action="https://vietnamjobs.net/set-locale" method="POST" style="display: none;">
+                                            <input type="hidden" name="_token" value="nEbJ7uUZFZpgfhaU2erGHADCxUuAZbMFXpRh2qml">
+                                            <input type="hidden" name="locale" value="CN"/>
+                                            <input type="hidden" name="return_url" value="https://vietnamjobs.net"/>
+                                            <input type="hidden" name="is_rtl" value="0"/>
+                                        </form>
+                                    </li>
+                                                                    </ul>
+                            </li>
+                        </ul>
+
+                        <!-- Nav collapes end --> 
+
+                    </div>
+                    <div class="clearfix"></div>
+                </nav>
+
+                <!-- Nav end --> 
+
+            </div>
+        </div>
+
+        <!-- row end --> 
+
+    </div>
+
+    <!-- Header container end --> 
+
+</div>
+
+<!-- Header end --> 
+<!-- Search start -->
+<!-- Revolution slider start -->
+<div class="tp-banner-container">
+    <div class="tp-banner" >
+        <ul>
+                                <!--Slide-->
+            <li data-slotamount="7" data-transition="slotzoom-horizontal" data-masterspeed="1000" data-saveperformance="on">
+                <img alt="Có hơn &lt;span style=&quot;color: #f6951d;&quot;&gt;18,897&lt;/span&gt;&lt;br /&gt;cơ hội nghề nghiệp" src="https://vietnamjobs.net/images/slider/dummy.png" data-lazyload="https://vietnamjobs.net//slider_images/search-your-job-in-your-area-1619322346-639.png">
+                <div class="caption lft large-title tp-resizeme slidertext1" data-x="left" data-y="100" data-speed="600" data-start="1600">Có hơn <span style="color: #f6951d;">18,897</span><br />cơ hội nghề nghiệp</div>
+                <div class="caption lfb large-title tp-resizeme sliderpara" data-x="left" data-y="200" data-speed="600" data-start="2800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt enim vitae non sem ultrices nunc. Rutrum feugiat senectus viverra sit mi erat amet.</div>
+
+            </li>
+            <!--Slide end--> 
+                        <!--Slide-->
+            <li data-slotamount="7" data-transition="slotzoom-horizontal" data-masterspeed="1000" data-saveperformance="on">
+                <img alt="Tìm việc &lt;span style=&quot;color: #f6951d;&quot;&gt;dễ dàng&lt;/span&gt; với &lt;br /&gt;hơn 1000 ngành nghề" src="https://vietnamjobs.net/images/slider/dummy.png" data-lazyload="https://vietnamjobs.net//slider_images/tim-viec-de-dang-voi-hon-1000-nganh-nghe-1619339213-388.png">
+                <div class="caption lft large-title tp-resizeme slidertext1" data-x="left" data-y="100" data-speed="600" data-start="1600">Tìm việc <span style="color: #f6951d;">dễ dàng</span> với <br />hơn 1000 ngành nghề</div>
+                <div class="caption lfb large-title tp-resizeme sliderpara" data-x="left" data-y="200" data-speed="600" data-start="2800">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br />Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+
+            </li>
+            <!--Slide end--> 
+                        <!--Slide-->
+            <li data-slotamount="7" data-transition="slotzoom-horizontal" data-masterspeed="1000" data-saveperformance="on">
+                <img alt="Có hơn &lt;span style=&quot;color: #f6951d;&quot;&gt;20,000&lt;/span&gt;&lt;br /&gt;cơ hội nghề nghiệp 2" src="https://vietnamjobs.net/images/slider/dummy.png" data-lazyload="https://vietnamjobs.net//slider_images/co-hon-span-stylecolor-f6951d18897spanbr-co-hoi-nghe-nghiep-2-1619371486-857.png">
+                <div class="caption lft large-title tp-resizeme slidertext1" data-x="left" data-y="100" data-speed="600" data-start="1600">Có hơn <span style="color: #f6951d;">20,000</span><br />cơ hội nghề nghiệp 2</div>
+                <div class="caption lfb large-title tp-resizeme sliderpara" data-x="left" data-y="200" data-speed="600" data-start="2800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt enim vitae non sem ultrices nunc. Rutrum feugiat senectus viverra sit mi erat amet.</div>
+
+            </li>
+            <!--Slide end--> 
+                        <!--Slide-->
+            <li data-slotamount="7" data-transition="slotzoom-horizontal" data-masterspeed="1000" data-saveperformance="on">
+                <img alt="Tìm việc dễ dàng 2" src="https://vietnamjobs.net/images/slider/dummy.png" data-lazyload="https://vietnamjobs.net//slider_images/tim-viec-de-dang-2-1619372198-428.png">
+                <div class="caption lft large-title tp-resizeme slidertext1" data-x="left" data-y="100" data-speed="600" data-start="1600">Tìm việc dễ dàng 2</div>
+                <div class="caption lfb large-title tp-resizeme sliderpara" data-x="left" data-y="200" data-speed="600" data-start="2800">Test description</div>
+
+            </li>
+            <!--Slide end--> 
+                        <!--Slide-->
+            <li data-slotamount="7" data-transition="slotzoom-horizontal" data-masterspeed="1000" data-saveperformance="on">
+                <img alt="Nhiều công ty&lt;br /&gt;tuyển dụng với&lt;br /&gt;&lt;span style=&quot;color: #f6951d;&quot;&gt;chế độ đãi ngộ tốt&lt;/span&gt;" src="https://vietnamjobs.net/images/slider/dummy.png" data-lazyload="https://vietnamjobs.net//slider_images/nhieu-cong-ty-tuyen-dung-voibr-span-stylecolor-f6951dche-do-dai-ngo-totspan-1622274823-531.png">
+                <div class="caption lft large-title tp-resizeme slidertext1" data-x="left" data-y="100" data-speed="600" data-start="1600">Nhiều công ty<br />tuyển dụng với<br /><span style="color: #f6951d;">chế độ đãi ngộ tốt</span></div>
+                <div class="caption lfb large-title tp-resizeme sliderpara" data-x="left" data-y="200" data-speed="600" data-start="2800"></div>
+
+            </li>
+            <!--Slide end--> 
+                            </ul>
+    </div>
+</div>
+<!-- Revolution slider end --> 
+<!--Search Bar start-->
+<div class="searchbar" style="top: -86px;">
+    <div class="container">
+        <div class="search-form">
+	<ul class="nav nav-tabs">
+		<li class="nav-item">
+			<a class="nav-link active" data-toggle="tab" href="#briefcase" aria-expanded="true">
+				<img src="https://vietnamjobs.net/images/icon-briefcase-black.png" />
+				Tìm việc làm
+			</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" data-toggle="tab" href="#candidate" aria-expanded="false">
+				<img src="https://vietnamjobs.net/images/icon-candidate-black.png" />
+				Tìm ứng viên
+			</a>
+		</li>
+		<li class="nav-item li-last">
+			<a class="nav-link" data-toggle="tab" href="#employer" aria-expanded="false">
+				<img src="https://vietnamjobs.net/images/icon-company-black.png" />
+				Tìm công ty
+			</a>
+		</li>
+	</ul>
+</div>
+<div class="tab-content">
+	<div id="briefcase" class="formpanel tab-pane active">
+		<form action="https://vietnamjobs.net/jobs" method="get">
+			<div class="searchbar">
+				<div class="srchbox seekersrch">
+					<div class="row">
+						<div class="col-lg-4 col-md-12 right-line">
+							<img src="https://vietnamjobs.net/images/icon-search.png " alt="search jobs"/>
+							<input type="text" name="search" id="jbsearch" value=""
+								   class="form-control" placeholder="Nhập chức danh công việc hoặc kỹ năng"
+								   autocomplete="off"/>
+						</div>
+						<div class="col-lg-3 col-md-12 right-line">
+							<img src="https://vietnamjobs.net/images/icon-all-category.png " alt="search jobs"/>
+							<select class="form-control" id="functional_area_id" name="functional_area_id[]"><option value="" selected="selected">Chọn lĩnh vực</option><option value="124">An ninh &amp; Môi trường</option><option value="117">An toàn &amp; Môi trường</option><option value="113">Bán buôn bán lẻ</option><option value="118">Bán hàng</option><option value="119">Bán hàng &amp; Phát triển Kinh doanh</option><option value="112">Bán lẻ</option><option value="116">Bán lẻ buôn bán</option><option value="57">Bảo mật CNTT</option><option value="63">Bảo trì / Sửa chữa</option><option value="123">Bảo vệ</option><option value="125">Bảo vệ</option><option value="75">Buôn bán</option><option value="76">Buôn bán &amp; Quản lý sản phẩm</option><option value="22">Các vấn đề của công ty</option><option value="60">Các vấn đề pháp lý</option><option value="59">Các vấn đề pháp lý &amp; công ty</option><option value="52">Cài đặt &amp; Sửa chữa</option><option value="44">Chăm sóc sức khỏe</option><option value="67">Chế tạo</option><option value="132">Chuỗi cung ứng</option><option value="20">Chuyên gia tư vấn</option><option value="131">Cửa hàng &amp; Kho bãi</option><option value="17">Dịch vụ khách hàng &amp; Hỗ trợ khách hàng</option><option value="74">Dược phẩm</option><option value="77">Giám sát &amp; Đánh giá (M&amp;E)</option><option value="31">Giáo dục &amp; Đào tạo</option><option value="135">Giáo viên / Giáo dục, Đào tạo &amp; Phát triển</option><option value="5">Hành chính</option><option value="65">Hệ thống thông tin quản lý (MIS)</option><option value="120">Hỗ trợ bán hàng</option><option value="25">Hỗ trợ khách hàng</option><option value="82">Hoạt động</option><option value="79">Hoạt động mạng</option><option value="12">Hoạt động Ngân hàng</option><option value="4">Hoạt động quản trị</option><option value="56">Hoạt động đầu tư</option><option value="87">In ấn</option><option value="86">In phương tiện</option><option value="587">Kế toán</option><option value="2">Kế toán, Tài chính &amp; Dịch vụ Tài chính</option><option value="143">Kho bãi</option><option value="102">Kiểm soát chất lượng</option><option value="130">Kiểm thử phần mềm</option><option value="103">Kiểm tra chất lượng</option><option value="10">Kiến trúc &amp; Xây dựng</option><option value="129">Kỹ sư phần mềm</option><option value="33">Kỹ thuật</option><option value="32">Kỹ thuật viên Điện tử</option><option value="34">Kỹ thuật xây dựng</option><option value="83">Lập kế hoạch</option><option value="84">Lập kế hoạch &amp; Phát triển</option><option value="45">Liên quan đến sức khỏe</option><option value="37">Lĩnh vực hoạt động</option><option value="62">Logistics &amp; Kho bãi</option><option value="19">Mạng máy tính</option><option value="115">Mua lẻ</option><option value="11">Ngành kiến ​​trúc</option><option value="109">Nghiên cứu &amp; Học bổng</option><option value="107">Nghiên cứu &amp; Phát triển (R&amp;D)</option><option value="108">Nghiên cứu &amp; Đánh giá</option><option value="61">Nghiên cứu pháp lý</option><option value="100">Nghiên cứu định tính</option><option value="114">Người mua lẻ</option><option value="136">Người viết kỹ thuật</option><option value="24">Người viết sáng tạo</option><option value="49">Nguồn nhân lực</option><option value="110">Nhà nghiên cứu</option><option value="58">Nhà phân tích hệ thống CNTT</option><option value="15">Nhà phân tích hệ thống kinh doanh</option><option value="89">Nhà phát triển sản phẩm</option><option value="144">Nhà phát triển web</option><option value="53">Nhà thiết kế &amp; kiến ​​trúc nội thất</option><option value="146">Nhà văn </option><option value="27">Nhà điều hành nhập dữ liệu</option><option value="48">Nhân sự</option><option value="39">Nhân viên lễ tân</option><option value="38">Nhân viên tiếp tân</option><option value="50">Nhập khẩu xuất khẩu</option><option value="26">Nhập dữ liệu</option><option value="41">Phần cứng</option><option value="18">Phần cứng máy tính</option><option value="128">Phần mềm &amp; Phát triển Web</option><option value="30">Phân phối &amp; Logistics</option><option value="134">Phân tích hệ thống</option><option value="29">Phát triển</option><option value="13">Phát triển kinh doanh</option><option value="90">Phát triển sản phẩm</option><option value="91">Phát triển sản phẩm</option><option value="71">Phương tiện - In &amp; Điện tử</option><option value="85">PR</option><option value="98">QA</option><option value="99">QC</option><option value="97">Quan hệ công chúng</option><option value="66">Quản lý</option><option value="133">Quản lý chuỗi cung ứng</option><option value="95">Quản lý dự án</option><option value="46">Quản lý khách sạn</option><option value="47">Quản lý khách sạn / nhà hàng</option><option value="14">Quản lý kinh doanh</option><option value="111">Quản lý nhà hàng</option><option value="92">Quản lý sản phẩm</option><option value="35">Quản lý điều hành</option><option value="28">Quản trị cơ sở dữ liệu (DBA)</option><option value="78">Quản trị mạng</option><option value="3">Quản trị viên</option><option value="7">Quảng cáo</option><option value="8">Quảng cáo</option><option value="9">Quảng cáo</option><option value="80">Quảng cáo trực tuyến</option><option value="93">Sản xuất</option><option value="94">Sản xuất &amp; Kiểm soát chất lượng</option><option value="68">Sản xuất &amp; Vận hành</option><option value="51">Sản xuất công nghiệp</option><option value="126">SEM</option><option value="127">SMO</option><option value="106">Sửa chữa &amp; Đại tu</option><option value="42">Sức khỏe &amp; Y học</option><option value="43">Sức khỏe và an toàn</option><option value="88">Tạp vụ</option><option value="23">Thiết kế sáng tạo</option><option value="40">Thiết kế đồ họa</option><option value="16">Thư ký</option><option value="6">Thư ký hành chính</option><option value="36">Thư ký điều hành</option><option value="122">Thư ký, Thư ký &amp; Văn phòng Lễ tân</option><option value="54">Thực tập sinh</option><option value="55">Thực tập sinh</option><option value="69">Tiếp thị</option><option value="70">Tiếp thị</option><option value="138">Tiếp thị qua điện thoại</option><option value="81">Tiếp thị trực tuyến</option><option value="145">Tiếp thị web</option><option value="121">Tối ưu hóa Công cụ Tìm kiếm (SEO)</option><option value="72">Truyền thông &amp; Quảng cáo</option><option value="141">TSR</option><option value="64">Tư vấn quản lý</option><option value="96">Tư vấn quản lý dự án</option><option value="104">Tuyển dụng</option><option value="105">Tuyển dụng</option><option value="140">Vận chuyển &amp; Kho bãi</option><option value="21">Viết content</option><option value="73">Y khoa</option><option value="137">Đại diện bán hàng của Tele</option><option value="101">Đảm bảo chất lượng (QA)</option><option value="142">Đánh máy</option><option value="139">Đào tạo và phát triển</option></select>
+						</div>
+													<input id="country_id" name="country_id[]" type="hidden" value="238">
+												<div class="col-lg-3 col-md-12">
+							<img src="https://vietnamjobs.net/images/icon-map-pin.png " alt="search jobs"/>
+							<span id="state_dd">
+								<select class="form-control" id="state_id" name="state_id[]"><option value="" selected="selected">Chọn bang</option></select>
+							</span>
+						</div>
+						<div class="col-lg-2 col-md-12">
+							<input type="submit" class="btn" value="Tìm việc">
+						</div>
+					</div>
+				</div>
+			</div>
+					</form>
+	</div>
+	<div id="candidate" class="formpanel tab-pane fade">
+		<form action="https://vietnamjobs.net/job-seekers" method="get">
+			<input type="hidden" name="_token" value="nEbJ7uUZFZpgfhaU2erGHADCxUuAZbMFXpRh2qml">
+			<div class="searchbar">
+				<div class="srchbox seekersrch">
+					<div class="row">
+						<div class="col-lg-9 col-md-8">
+							<input type="text" name="search" id="empsearch" value=""
+								   class="form-control" placeholder="Nhập kỹ năng hoặc chi tiết người tìm việc"
+								   autocomplete="off"/>
+						</div>
+						<div class="col-lg-3 col-md-4">
+							<input type="submit" class="btn" value="Tìm Ứng viên">
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div id="employer" class="formpanel tab-pane fade">
+		<form method="GET" action="https://vietnamjobs.net/companies">
+			<input type="hidden" name="_token" value="nEbJ7uUZFZpgfhaU2erGHADCxUuAZbMFXpRh2qml">
+			<div class="searchbar">
+				<div class="srchbox seekersrch">
+					<div class="row">
+						<div class="col-lg-9 col-md-8">
+							<input type="text" name="search" id="empsearch" value=""
+								   class="form-control" placeholder="Nhập tên công ty"
+								   autocomplete="off"/>
+						</div>
+						<div class="col-lg-3 col-md-4">
+							<input type="submit" class="btn" value="Tìm công ty">
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>    </div>
+</div>
+<!-- Search End --> 
+<!-- Search End -->
+<!-- Popular Searches start -->
+<div class="section function_area">
+    <div class="container">
+        <div class="topsearchwrap">
+			<div class="titleTop">
+				<div class="row">
+					<div class="col-md-12"><h3>Tìm việc dễ dàng với hơn 1000 ngành nghề</h3></div>
+				</div>
+			</div>
+            <div class="tab-content" id="jobsby">
+                <div class="tab-pane fade show active" id="byfunctional" role="tabpanel" aria-labelledby="byfunctional-tab">
+                    <!--Categories start-->
+                    <div class="srchint">
+                        <ul class="row catelist">
+                            <li class="col-md-3 col-sm-6">
+            <a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=128"
+               title="Software &amp; Web Development">
+                Software &amp; Web Development <span>(1)</span>
+            </a>
+        </li>
+                  
+        <li class="col-md-3 col-sm-6">
+            <a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=15"
+               title="Business Systems Analyst">
+                Business Systems Analyst <span>(1)</span>
+            </a>
+        </li>
+                  
+        <li class="col-md-3 col-sm-6">
+            <a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=17"
+               title="Client Services &amp; Customer Support">
+                Client Services &amp; Customer Support <span>(1)</span>
+            </a>
+        </li>
+                  
+        <li class="col-md-3 col-sm-6">
+            <a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=117"
+               title="Safety &amp; Environment">
+                Safety &amp; Environment <span>(1)</span>
+            </a>
+        </li>
+                  
+        <li class="col-md-3 col-sm-6">
+            <a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=59"
+               title="Legal &amp; Corporate Affairs">
+                Legal &amp; Corporate Affairs <span>(1)</span>
+            </a>
+        </li>
+                  
+        <li class="col-md-3 col-sm-6">
+            <a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=119"
+               title="Sales &amp; Business Development">
+                Sales &amp; Business Development <span>(1)</span>
+            </a>
+        </li>
+                                    </ul>
+                    </div>
+                    <!--Categories end-->
+                </div>
+            </div>
+
+        </div>
+        <!--button start-->
+        <div class="viewallbtn"><a href="javascript:void();">Xem thêm ngành nghề</a></div>
+                <!--button end-->
+    </div>
+</div><!-- Popular Searches ends -->
+<!-- Featured Jobs start -->
+<div class="section">
+    <div class="container"> 
+        <!-- title start -->
+        <div class="titleTop">
+            <h3>Việc Làm Tuyển Gấp</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Faucibus quis tellus egestas enim sapien pellentesque sed habitant.</p>
+        </div>
+        <!-- title end --> 
+
+        <!--Featured Job start-->
+        <ul class="jobslist row">
+                                                            <!--Job start-->
+            <li class="col-md-6">
+    <div class="jobint">
+        <div class="row">
+            <div class="col-lg-3 col-md-2s">
+                <a href="https://vietnamjobs.net/job/link-34" title="link">
+                    <img src="https://vietnamjobs.net/company_logos/power-color-1536854682-955.jpg"  alt="Power Color" title="Power Color">
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-7" style="padding: 0;">
+                <h4><a href="https://vietnamjobs.net/job/link-34" title="link">link</a></h4>
+                <div class="company"><a href="https://vietnamjobs.net/company/power-color-1" title="Power Color">Power Color</a></div>
+                <div class="jobloc">
+                    <span>Cập nhật 1 tháng trước</span>
+                </div>
+                <div class="jobsal row">
+                    <div class="col-md-7 col-sm-12">
+
+
+
+
+
+
+
+                        <img src="https://vietnamjobs.net/images/icon-salary.svg" alt="salary"> <strong>2,000 - 3,000 BOB</strong>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <img src="https://vietnamjobs.net/images/icon-location.svg" alt="location"> <span>Nanumanga</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>            <!--Job end--> 
+                                                            <!--Job start-->
+            <li class="col-md-6">
+    <div class="jobint">
+        <div class="row">
+            <div class="col-lg-3 col-md-2s">
+                <a href="https://vietnamjobs.net/job/ios-developer-2" title="IOS Developer">
+                    <img src="https://vietnamjobs.net/admin_assets/no-image.png"  alt="Multimedia Design" title="Multimedia Design">
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-7" style="padding: 0;">
+                <h4><a href="https://vietnamjobs.net/job/ios-developer-2" title="IOS Developer">IOS Developer</a></h4>
+                <div class="company"><a href="https://vietnamjobs.net/company/multimedia-design-9" title="Multimedia Design">Multimedia Design</a></div>
+                <div class="jobloc">
+                    <span>Cập nhật 2 ngày trước</span>
+                </div>
+                <div class="jobsal row">
+                    <div class="col-md-7 col-sm-12">
+
+
+
+
+
+
+
+                        <img src="https://vietnamjobs.net/images/icon-salary.svg" alt="salary"> <strong>60,000 - 90,000 PKR</strong>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <img src="https://vietnamjobs.net/images/icon-location.svg" alt="location"> <span>Alabama</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>            <!--Job end--> 
+                                            </ul>
+        <!--Featured Job end--> 
+
+        <!--button start-->
+        <div class="viewallbtn"><a href="https://vietnamjobs.net/jobs?is_featured=1">Xem tất cả công việc nổi bật</a></div>
+        <!--button end--> 
+    </div>
+</div><!-- Featured Jobs ends -->
+<!-- Top Employers start -->
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="banner-1">Lorem ipsum dolor sit amet, consectetur</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="container">
+        <!-- title start -->
+        <div class="titleTop">            
+            <h3>Công ty nổi bật</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Faucibus quis tellus egestas enim sapien pellentesque sed habitant.</p>
+        </div>
+        <!-- title end -->
+
+        <ul class="employerList owl-carousel">
+            <!--employer-->
+                                                    <li class="item" data-toggle="tooltip" data-placement="bottom" title="Multimedia Design" data-original-title="Multimedia Design">
+					<div class="empint">
+					    <a href="https://vietnamjobs.net/company/multimedia-design-9" title="Multimedia Design"><img src="https://vietnamjobs.net/admin_assets/no-image.png"  alt="Multimedia Design" title="Multimedia Design"></a>
+					</div>
+                    <div class="empdetail">
+                        <img src="https://vietnamjobs.net/admin_assets/no-image.png" style="max-width=50px; max-height:50px;" alt="Multimedia Design" title="Multimedia Design">
+                        <p><a href="https://vietnamjobs.net/company/multimedia-design-9" title="Multimedia Design">Multimedia Design</a></p>
+                    </div>
+                    <div class="empjobloc row">
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-vieclam.svg" alt="" style="margin: 3px;"> <p>6
+                                 Công việc </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-location.svg" alt=""> <p>Colorado</p>
+                        </div>
+                    </div>
+			    </li>
+                                                        <li class="item" data-toggle="tooltip" data-placement="bottom" title="Power Wave" data-original-title="Power Wave">
+					<div class="empint">
+					    <a href="https://vietnamjobs.net/company/power-wave-5" title="Power Wave"><img src="https://vietnamjobs.net/company_logos/power-wave-1536854843-603.jpg"  alt="Power Wave" title="Power Wave"></a>
+					</div>
+                    <div class="empdetail">
+                        <img src="https://vietnamjobs.net/company_logos/power-wave-1536854843-603.jpg" style="max-width=50px; max-height:50px;" alt="Power Wave" title="Power Wave">
+                        <p><a href="https://vietnamjobs.net/company/power-wave-5" title="Power Wave">Power Wave</a></p>
+                    </div>
+                    <div class="empjobloc row">
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-vieclam.svg" alt="" style="margin: 3px;"> <p>2
+                                 Công việc </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-location.svg" alt=""> <p>Arkansas</p>
+                        </div>
+                    </div>
+			    </li>
+                                                        <li class="item" data-toggle="tooltip" data-placement="bottom" title="Power Color" data-original-title="Power Color">
+					<div class="empint">
+					    <a href="https://vietnamjobs.net/company/power-color-1" title="Power Color"><img src="https://vietnamjobs.net/company_logos/power-color-1536854682-955.jpg"  alt="Power Color" title="Power Color"></a>
+					</div>
+                    <div class="empdetail">
+                        <img src="https://vietnamjobs.net/company_logos/power-color-1536854682-955.jpg" style="max-width=50px; max-height:50px;" alt="Power Color" title="Power Color">
+                        <p><a href="https://vietnamjobs.net/company/power-color-1" title="Power Color">Power Color</a></p>
+                    </div>
+                    <div class="empjobloc row">
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-vieclam.svg" alt="" style="margin: 3px;"> <p>2
+                                 Công việc </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-location.svg" alt=""> <p>California</p>
+                        </div>
+                    </div>
+			    </li>
+                                                        <li class="item" data-toggle="tooltip" data-placement="bottom" title="Connect People" data-original-title="Connect People">
+					<div class="empint">
+					    <a href="https://vietnamjobs.net/company/connect-people-7" title="Connect People"><img src="https://vietnamjobs.net/admin_assets/no-image.png"  alt="Connect People" title="Connect People"></a>
+					</div>
+                    <div class="empdetail">
+                        <img src="https://vietnamjobs.net/admin_assets/no-image.png" style="max-width=50px; max-height:50px;" alt="Connect People" title="Connect People">
+                        <p><a href="https://vietnamjobs.net/company/connect-people-7" title="Connect People">Connect People</a></p>
+                    </div>
+                    <div class="empjobloc row">
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-vieclam.svg" alt="" style="margin: 3px;"> <p>2
+                                 Công việc </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-location.svg" alt=""> <p>Arkansas</p>
+                        </div>
+                    </div>
+			    </li>
+                                                        <li class="item" data-toggle="tooltip" data-placement="bottom" title="Travel Advisor" data-original-title="Travel Advisor">
+					<div class="empint">
+					    <a href="https://vietnamjobs.net/company/travel-advisor-8" title="Travel Advisor"><img src="https://vietnamjobs.net/company_logos/travel-advisor-1536859060-458.jpg"  alt="Travel Advisor" title="Travel Advisor"></a>
+					</div>
+                    <div class="empdetail">
+                        <img src="https://vietnamjobs.net/company_logos/travel-advisor-1536859060-458.jpg" style="max-width=50px; max-height:50px;" alt="Travel Advisor" title="Travel Advisor">
+                        <p><a href="https://vietnamjobs.net/company/travel-advisor-8" title="Travel Advisor">Travel Advisor</a></p>
+                    </div>
+                    <div class="empjobloc row">
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-vieclam.svg" alt="" style="margin: 3px;"> <p>1
+                                 Công việc </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-location.svg" alt=""> <p>Texas</p>
+                        </div>
+                    </div>
+			    </li>
+                                                        <li class="item" data-toggle="tooltip" data-placement="bottom" title="Surf Wave" data-original-title="Surf Wave">
+					<div class="empint">
+					    <a href="https://vietnamjobs.net/company/surf-wave-4" title="Surf Wave"><img src="https://vietnamjobs.net/company_logos/surf-wave-1536855024-252.jpg"  alt="Surf Wave" title="Surf Wave"></a>
+					</div>
+                    <div class="empdetail">
+                        <img src="https://vietnamjobs.net/company_logos/surf-wave-1536855024-252.jpg" style="max-width=50px; max-height:50px;" alt="Surf Wave" title="Surf Wave">
+                        <p><a href="https://vietnamjobs.net/company/surf-wave-4" title="Surf Wave">Surf Wave</a></p>
+                    </div>
+                    <div class="empjobloc row">
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-vieclam.svg" alt="" style="margin: 3px;"> <p>1
+                                 Công việc </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-location.svg" alt=""> <p>Alaska</p>
+                        </div>
+                    </div>
+			    </li>
+                                                        <li class="item" data-toggle="tooltip" data-placement="bottom" title="New Design Studio" data-original-title="New Design Studio">
+					<div class="empint">
+					    <a href="https://vietnamjobs.net/company/new-design-studio-3" title="New Design Studio"><img src="https://vietnamjobs.net/company_logos/new-design-studio-1536854542-519.jpg"  alt="New Design Studio" title="New Design Studio"></a>
+					</div>
+                    <div class="empdetail">
+                        <img src="https://vietnamjobs.net/company_logos/new-design-studio-1536854542-519.jpg" style="max-width=50px; max-height:50px;" alt="New Design Studio" title="New Design Studio">
+                        <p><a href="https://vietnamjobs.net/company/new-design-studio-3" title="New Design Studio">New Design Studio</a></p>
+                    </div>
+                    <div class="empjobloc row">
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-vieclam.svg" alt="" style="margin: 3px;"> <p>1
+                                 Công việc </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-location.svg" alt=""> <p>New Jersey</p>
+                        </div>
+                    </div>
+			    </li>
+                                                        <li class="item" data-toggle="tooltip" data-placement="bottom" title="Sphere" data-original-title="Sphere">
+					<div class="empint">
+					    <a href="https://vietnamjobs.net/company/sphere-11" title="Sphere"><img src="https://vietnamjobs.net/company_logos/sphere-1536859528-893.jpg"  alt="Sphere" title="Sphere"></a>
+					</div>
+                    <div class="empdetail">
+                        <img src="https://vietnamjobs.net/company_logos/sphere-1536859528-893.jpg" style="max-width=50px; max-height:50px;" alt="Sphere" title="Sphere">
+                        <p><a href="https://vietnamjobs.net/company/sphere-11" title="Sphere">Sphere</a></p>
+                    </div>
+                    <div class="empjobloc row">
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-vieclam.svg" alt="" style="margin: 3px;"> <p>1
+                                 Công việc </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-location.svg" alt=""> <p>West Virginia</p>
+                        </div>
+                    </div>
+			    </li>
+                                                        <li class="item" data-toggle="tooltip" data-placement="bottom" title="Net Design" data-original-title="Net Design">
+					<div class="empint">
+					    <a href="https://vietnamjobs.net/company/net-design-10" title="Net Design"><img src="https://vietnamjobs.net/company_logos/net-design-1536854391-995.jpg"  alt="Net Design" title="Net Design"></a>
+					</div>
+                    <div class="empdetail">
+                        <img src="https://vietnamjobs.net/company_logos/net-design-1536854391-995.jpg" style="max-width=50px; max-height:50px;" alt="Net Design" title="Net Design">
+                        <p><a href="https://vietnamjobs.net/company/net-design-10" title="Net Design">Net Design</a></p>
+                    </div>
+                    <div class="empjobloc row">
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-vieclam.svg" alt="" style="margin: 3px;"> <p>1
+                                 Công việc </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-location.svg" alt=""> <p>California</p>
+                        </div>
+                    </div>
+			    </li>
+                                                        <li class="item" data-toggle="tooltip" data-placement="bottom" title="Media Wave" data-original-title="Media Wave">
+					<div class="empint">
+					    <a href="https://vietnamjobs.net/company/media-wave-6" title="Media Wave"><img src="https://vietnamjobs.net/company_logos/media-wave-1536851777-515.jpg"  alt="Media Wave" title="Media Wave"></a>
+					</div>
+                    <div class="empdetail">
+                        <img src="https://vietnamjobs.net/company_logos/media-wave-1536851777-515.jpg" style="max-width=50px; max-height:50px;" alt="Media Wave" title="Media Wave">
+                        <p><a href="https://vietnamjobs.net/company/media-wave-6" title="Media Wave">Media Wave</a></p>
+                    </div>
+                    <div class="empjobloc row">
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-vieclam.svg" alt="" style="margin: 3px;"> <p>1
+                                 Công việc </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-location.svg" alt=""> <p>Alabama</p>
+                        </div>
+                    </div>
+			    </li>
+                                                        <li class="item" data-toggle="tooltip" data-placement="bottom" title="Pharma Tech Inc." data-original-title="Pharma Tech Inc.">
+					<div class="empint">
+					    <a href="https://vietnamjobs.net/company/pharma-tech-inc-15" title="Pharma Tech Inc."><img src="https://vietnamjobs.net/company_logos/pharma-tech-inc-1536858973-298.jpg"  alt="Pharma Tech Inc." title="Pharma Tech Inc."></a>
+					</div>
+                    <div class="empdetail">
+                        <img src="https://vietnamjobs.net/company_logos/pharma-tech-inc-1536858973-298.jpg" style="max-width=50px; max-height:50px;" alt="Pharma Tech Inc." title="Pharma Tech Inc.">
+                        <p><a href="https://vietnamjobs.net/company/pharma-tech-inc-15" title="Pharma Tech Inc.">Pharma Tech Inc.</a></p>
+                    </div>
+                    <div class="empjobloc row">
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-vieclam.svg" alt="" style="margin: 3px;"> <p>1
+                                 Công việc </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-location.svg" alt=""> <p>New York</p>
+                        </div>
+                    </div>
+			    </li>
+                                                        <li class="item" data-toggle="tooltip" data-placement="bottom" title="Mayan Design Studios" data-original-title="Mayan Design Studios">
+					<div class="empint">
+					    <a href="https://vietnamjobs.net/company/mayan-design-studios-14" title="Mayan Design Studios"><img src="https://vietnamjobs.net/admin_assets/no-image.png"  alt="Mayan Design Studios" title="Mayan Design Studios"></a>
+					</div>
+                    <div class="empdetail">
+                        <img src="https://vietnamjobs.net/admin_assets/no-image.png" style="max-width=50px; max-height:50px;" alt="Mayan Design Studios" title="Mayan Design Studios">
+                        <p><a href="https://vietnamjobs.net/company/mayan-design-studios-14" title="Mayan Design Studios">Mayan Design Studios</a></p>
+                    </div>
+                    <div class="empjobloc row">
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-vieclam.svg" alt="" style="margin: 3px;"> <p>1
+                                 Công việc </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-location.svg" alt=""> <p>New York</p>
+                        </div>
+                    </div>
+			    </li>
+                                                                                <li class="item" data-toggle="tooltip" data-placement="bottom" title="Công ty TNHH ABC" data-original-title="Công ty TNHH ABC">
+					<div class="empint">
+					    <a href="https://vietnamjobs.net/company/cong-ty-tnhh-abc-34" title="Công ty TNHH ABC"><img src="https://vietnamjobs.net/company_logos/cong-ty-tnhh-abc-1626757872-675.jpg"  alt="Công ty TNHH ABC" title="Công ty TNHH ABC"></a>
+					</div>
+                    <div class="empdetail">
+                        <img src="https://vietnamjobs.net/company_logos/cong-ty-tnhh-abc-1626757872-675.jpg" style="max-width=50px; max-height:50px;" alt="Công ty TNHH ABC" title="Công ty TNHH ABC">
+                        <p><a href="https://vietnamjobs.net/company/cong-ty-tnhh-abc-34" title="Công ty TNHH ABC">Công ty TNHH ABC</a></p>
+                    </div>
+                    <div class="empjobloc row">
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-vieclam.svg" alt="" style="margin: 3px;"> <p>1
+                                 Công việc </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://vietnamjobs.net/images/btn-location.svg" alt=""> <p>Hồ Chí Minh</p>
+                        </div>
+                    </div>
+			    </li>
+                                                </ul>
+
+    </div>
+	
+</div>
+
+
+<!-- Top Employers ends -->
+<!-- Login box start -->
+
+<!-- Login box ends --> 
+<!-- How it Works start -->
+
+<!-- How it Works Ends -->
+<!-- Latest Jobs start -->
+<div class="section">
+    <div class="container" style="background-color: #fff; padding: 20px;">
+        <!-- title start -->
+        <div class="titleTop">
+            <h3>Việc Làm Hấp Dẫn</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Faucibus quis tellus egestas enim sapien pellentesque sed habitant.</p>
+        </div>
+        <!-- title end -->
+
+        <ul class="jobslist newjbox row">
+                                                            <!--Job start-->
+            <li class="col-md-6">
+    <div class="jobint">
+        <div class="row">
+            <div class="col-lg-3 col-md-2s">
+                <a href="https://vietnamjobs.net/job/giam-doc-38" title="Giám đốc">
+                    <img src="https://vietnamjobs.net/company_logos/cong-ty-tnhh-abc-1626757872-675.jpg"  alt="Công ty TNHH ABC" title="Công ty TNHH ABC">
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-7" style="padding: 0;">
+                <h4><a href="https://vietnamjobs.net/job/giam-doc-38" title="Giám đốc">Giám đốc</a></h4>
+                <div class="company"><a href="https://vietnamjobs.net/company/cong-ty-tnhh-abc-34" title="Công ty TNHH ABC">Công ty TNHH ABC</a></div>
+                <div class="jobloc">
+                    <span>Cập nhật 2 ngày trước</span>
+                </div>
+                <div class="jobsal row">
+                    <div class="col-md-7 col-sm-12">
+
+
+
+
+
+
+
+                        <img src="https://vietnamjobs.net/images/icon-salary.svg" alt="salary"> <strong>0 - 0 VND</strong>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <img src="https://vietnamjobs.net/images/icon-location.svg" alt="location"> <span>Hồ Chí Minh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>            <!--Job end--> 
+                                                            <!--Job start-->
+            <li class="col-md-6">
+    <div class="jobint">
+        <div class="row">
+            <div class="col-lg-3 col-md-2s">
+                <a href="https://vietnamjobs.net/job/test-37" title="Test">
+                    <img src="https://vietnamjobs.net/admin_assets/no-image.png"  alt="Multimedia Design" title="Multimedia Design">
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-7" style="padding: 0;">
+                <h4><a href="https://vietnamjobs.net/job/test-37" title="Test">Test</a></h4>
+                <div class="company"><a href="https://vietnamjobs.net/company/multimedia-design-9" title="Multimedia Design">Multimedia Design</a></div>
+                <div class="jobloc">
+                    <span>Cập nhật 2 ngày trước</span>
+                </div>
+                <div class="jobsal row">
+                    <div class="col-md-7 col-sm-12">
+
+
+
+
+
+
+
+                        <img src="https://vietnamjobs.net/images/icon-salary.svg" alt="salary"> <strong>0 - 0 VND</strong>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <img src="https://vietnamjobs.net/images/icon-location.svg" alt="location"> <span>An Giang</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>            <!--Job end--> 
+                                                            <!--Job start-->
+            <li class="col-md-6">
+    <div class="jobint">
+        <div class="row">
+            <div class="col-lg-3 col-md-2s">
+                <a href="https://vietnamjobs.net/job/test-36" title="test">
+                    <img src="https://vietnamjobs.net/admin_assets/no-image.png"  alt="Multimedia Design" title="Multimedia Design">
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-7" style="padding: 0;">
+                <h4><a href="https://vietnamjobs.net/job/test-36" title="test">test</a></h4>
+                <div class="company"><a href="https://vietnamjobs.net/company/multimedia-design-9" title="Multimedia Design">Multimedia Design</a></div>
+                <div class="jobloc">
+                    <span>Cập nhật 2 ngày trước</span>
+                </div>
+                <div class="jobsal row">
+                    <div class="col-md-7 col-sm-12">
+
+
+
+
+
+
+
+                        <img src="https://vietnamjobs.net/images/icon-salary.svg" alt="salary"> <strong>0 - 0 VND</strong>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <img src="https://vietnamjobs.net/images/icon-location.svg" alt="location"> <span>An Giang</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>            <!--Job end--> 
+                                                                                                <!--Job start-->
+            <li class="col-md-6">
+    <div class="jobint">
+        <div class="row">
+            <div class="col-lg-3 col-md-2s">
+                <a href="https://vietnamjobs.net/job/link-34" title="link">
+                    <img src="https://vietnamjobs.net/company_logos/power-color-1536854682-955.jpg"  alt="Power Color" title="Power Color">
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-7" style="padding: 0;">
+                <h4><a href="https://vietnamjobs.net/job/link-34" title="link">link</a></h4>
+                <div class="company"><a href="https://vietnamjobs.net/company/power-color-1" title="Power Color">Power Color</a></div>
+                <div class="jobloc">
+                    <span>Cập nhật 1 tháng trước</span>
+                </div>
+                <div class="jobsal row">
+                    <div class="col-md-7 col-sm-12">
+
+
+
+
+
+
+
+                        <img src="https://vietnamjobs.net/images/icon-salary.svg" alt="salary"> <strong>2,000 - 3,000 BOB</strong>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <img src="https://vietnamjobs.net/images/icon-location.svg" alt="location"> <span>Nanumanga</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>            <!--Job end--> 
+                                                            <!--Job start-->
+            <li class="col-md-6">
+    <div class="jobint">
+        <div class="row">
+            <div class="col-lg-3 col-md-2s">
+                <a href="https://vietnamjobs.net/job/ios-developer-2" title="IOS Developer">
+                    <img src="https://vietnamjobs.net/admin_assets/no-image.png"  alt="Multimedia Design" title="Multimedia Design">
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-7" style="padding: 0;">
+                <h4><a href="https://vietnamjobs.net/job/ios-developer-2" title="IOS Developer">IOS Developer</a></h4>
+                <div class="company"><a href="https://vietnamjobs.net/company/multimedia-design-9" title="Multimedia Design">Multimedia Design</a></div>
+                <div class="jobloc">
+                    <span>Cập nhật 2 ngày trước</span>
+                </div>
+                <div class="jobsal row">
+                    <div class="col-md-7 col-sm-12">
+
+
+
+
+
+
+
+                        <img src="https://vietnamjobs.net/images/icon-salary.svg" alt="salary"> <strong>60,000 - 90,000 PKR</strong>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <img src="https://vietnamjobs.net/images/icon-location.svg" alt="location"> <span>Alabama</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>            <!--Job end--> 
+                                            </ul>
+    </div>
+</div><!-- Latest Jobs ends --> 
+<!-- Testimonials start -->
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="https://vietnamjobs.net/images/banner-2.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section" style="padding-bottom: 0;">
+    <div class="container">
+        <!-- title start -->
+        <div class="titleTop">
+            <h3>Khách hàng nói gì</h3>
+        </div>
+        <!-- title end -->
+        <ul class="testimonialsList owl-carousel">
+                                    <li class="item">
+                <p>"VIETNAMJOBS là trang tìm kiếm việc làm tốt nhất Việt Nam. Cung cấp thị trường việc làm chất lượng với mức lương cạnh tranh cũng, mang thu nhập đến cho mọi người dân."</p>
+                <div class="clientname text-right">Chủ tịch nước</div>
+                <div class="clientinfo text-right">President - Vietnam</div>
+            </li>
+                        <li class="item">
+                <p>"Cung cấp thị trường việc làm chất lượng với mức lương cạnh tranh cũng, mang thu nhập đến cho mọi người dân. VIETNAMJOBS là trang tìm kiếm việc làm tốt nhất Việt Nam."</p>
+                <div class="clientname text-right">Phú hộ</div>
+                <div class="clientinfo text-right">CEO - Farming</div>
+            </li>
+                                </ul>
+                    <div class="row">
+                <div class="col-lg-7">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/FxiskmF16gU?rel=0&amp;modestbranding=1&amp;autohide=1&amp;showinfo=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+
+                    <div class="vidover">
+                        <div class="titleTop text-center">
+                            <h3>Biến thách thức thành cơ hội</h3>
+                        </div>
+                        <!-- title end -->
+                        <p>Các đối tác của chúng tôi làm cho các sản phẩm của Milestone trở nên năng động hơn và tích hợp thúc đẩy giới hạn những gì có thể. Phần mềm XProtect® bảo vệ động vật khỏi những kẻ săn trộm đã biết và bảo vệ thành phố Minneapolis.</p>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+</div><!-- Testimonials End -->
+<!-- Video start -->
+
+<!-- Video end --> 
+<!-- Login box start -->
+
+<!-- Login box ends --> 
+<!-- Testimonials start -->
+
+<!-- Testimonials End -->
+<!-- Subscribe start -->
+
+<!-- Subscribe End -->
+<!--Footer-->
+    <div class="section" style="padding-bottom: 0;">
+        <div class="counter_number row">
+            <div class="col-md-2 col-xs-12">
+                            </div>
+            <div class="col-md-2 col-xs-12">
+                <div class="circular--landscape">
+                    <img src="https://vietnamjobs.net/images/icon-candidate.svg" alt="candidate" />
+                </div>
+                <p class="c_number">12,013</p>
+                <p class="c_name">Ứng viên</p>
+
+            </div>
+            <div class="col-md-2 col-xs-12">
+                <div class="circular--landscape">
+                    <img src="https://vietnamjobs.net/images/icon-company.svg" alt="company" />
+                </div>
+                <p class="c_number">8,023</p>
+                <p class="c_name">Nhà tuyển dụng</p>
+            </div>
+            <div class="col-md-2 col-xs-12">
+                <div class="circular--landscape">
+                    <img src="https://vietnamjobs.net/images/icon-job.svg" alt="job" />
+                </div>
+                <p class="c_number">10,022</p>
+                <p class="c_name">Công việc</p>
+            </div>
+            <div class="col-md-2 col-xs-12">
+                <div class="circular--landscape">
+                    <img src="https://vietnamjobs.net/images/icon-job-apply.svg" alt="job-apply" />
+                </div>
+                <p class="c_number">9,015</p>
+                <p class="c_name">Hồ sơ ứng tuyển</p>
+            </div>
+            <div class="col-md-2 col-xs-12"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="footerWrap">
+            <div class="container">
+                <div class="row">
+                    <!--Contact Us-->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-4" style="padding: 20px 0;">
+                                <img class="ft-logo" src="https://vietnamjobs.net/images/logo-2.png" alt="logo" />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="phone"> <a href="tel:+84 123 434 1234">+84 123 434 1234</a></div>
+                                <div class="email"> <a href="mailto:support@vietnamjobs.net">support@vietnamjobs.net</a> </div>
+                                <div class="address">625 Nguyễn Trãi, phường 11, quận 5</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Contact us End-->
+                    <!--Quick Links-->
+                    <div class="col-md-2 col-sm-6">
+                        <h5>Liên kết nhanh</h5>
+                        <!--Quick Links menu Start-->
+                        <ul class="quicklinks">
+
+                                                                    
+                                <li class=""><a href="https://vietnamjobs.net/cms/about-us">Giới thiệu</a></li>
+                                                                    
+                                <li class=""><a href="https://vietnamjobs.net/cms/terms-of-use">Điều khoản sử dụng</a></li>
+                                                                    
+                                <li class=""><a href="https://vietnamjobs.net/cms/policy">Chính sách bảo mật</a></li>
+                                                    </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <h5>Việc làm theo ngành nghề</h5>
+                        <!--Quick Links menu Start-->
+                        <ul class="quicklinks">
+                                                                                        <li><a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=32">Kỹ thuật viên Điện tử</a></li>
+                                                            <li><a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=15">Nhà phân tích hệ thống kinh doanh</a></li>
+                                                            <li><a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=17">Dịch vụ khách hàng &amp; Hỗ trợ khách hàng</a></li>
+                                                            <li><a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=59">Các vấn đề pháp lý &amp; công ty</a></li>
+                                                            <li><a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=12">Hoạt động Ngân hàng</a></li>
+                                                            <li><a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=69">Tiếp thị</a></li>
+                                                            <li><a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=3">Quản trị viên</a></li>
+                                                            <li><a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=119">Bán hàng &amp; Phát triển Kinh doanh</a></li>
+                                                            <li><a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=23">Thiết kế sáng tạo</a></li>
+                                                            <li><a href="https://vietnamjobs.net/jobs?functional_area_id%5B%5D=144">Nhà phát triển web</a></li>
+                                                    </ul>
+                    </div>
+                    <!--Quick Links menu end-->
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="verified-logo">
+                            <img src="https://vietnamjobs.net/images/bo-cong-thuong.png" alt="verified" />
+                        </div>
+                        <p style="font-size: 13px;">Website đã đăng ký với Bộ Công Thương</p>
+                        <div class="clear"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Footer end-->
+        <!--Copyright-->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="bttxt">Bản quyền &copy; 2021 VIETNAM JOBS. Đã đăng ký Bản quyền. Thiết kế bởi: <a href="https://wsu.vn/" target="_blank">WSU</a></div>
+                    </div>
+                    <div class="col-md-4">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap's JavaScript -->
+    <script src="https://vietnamjobs.net/js/jquery.min.js"></script>
+    <script src="https://vietnamjobs.net/js/bootstrap.min.js"></script>
+    <script src="https://vietnamjobs.net/js/popper.js"></script>
+    <script src="https://vietnamjobs.net/js/bootstrap-toggle.min.js"></script>
+    <!-- Owl carousel -->
+    <script src="https://vietnamjobs.net/js/owl-carousel/owl.carousel.js"></script>
+    <script src="https://vietnamjobs.net/admin_assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+    <script src="https://vietnamjobs.net/admin_assets/global/plugins/Bootstrap-3-Typeahead/bootstrap3-typeahead.min.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL PLUGINS -->
+    <script src="https://vietnamjobs.net/admin_assets/global/plugins/select2/js/select2.full.min.js" type="text/javascript"></script>
+    <script src="https://vietnamjobs.net/admin_assets/global/plugins/jquery.scrollTo.min.js" type="text/javascript"></script>
+    <!-- Revolution Slider -->
+    <script type="text/javascript" src="https://vietnamjobs.net/js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="https://vietnamjobs.net/js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?" async defer></script>
+
+                <script>
+                $('.function_area .viewallbtn').one('click', function () {
+                    $('.function_area .viewallbtn').hide();
+                    $.ajax({
+                        url: "https://vietnamjobs.net/get-ajax-function-area",
+                        success: function (data) {
+                            $('.catelist').append(data);
+                        },
+                        dataType: 'html'
+                    });
+                });
+
+            </script>
+         
+<script>
+    $(document).ready(function ($) {
+        $("form").submit(function () {
+            $(this).find(":input").filter(function () {
+                return !this.value;
+            }).attr("disabled", "disabled");
+            return true;
+        });
+        $("form").find(":input").prop("disabled", false);
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function ($) {
+    $('#country_id').on('change', function (e) {
+    e.preventDefault();
+    filterStates(0);
+    });
+    $(document).on('change', '#state_id', function (e) {
+    e.preventDefault();
+    filterCities(0);
+    });
+                filterStates(0);
+    });
+    function filterStates(state_id)
+    {
+    var country_id = $('#country_id').val();
+    if (country_id != ''){
+    $.post("https://vietnamjobs.net/filter-states-dropdown", {country_id: country_id, state_id: state_id, _method: 'POST', _token: 'nEbJ7uUZFZpgfhaU2erGHADCxUuAZbMFXpRh2qml'})
+            .done(function (response) {
+            $('#state_dd').html(response);
+                                filterCities(0);
+            });
+    }
+    }
+    function filterCities(city_id)
+    {
+    var country_id = $('#country_id').val();
+    var state_id = $('#state_id').val();
+    if (state_id != ''){
+    $.post("https://vietnamjobs.net/filter-cities-dropdown", {country_id: country_id, state_id: state_id, city_id: city_id, _method: 'POST', _token: 'nEbJ7uUZFZpgfhaU2erGHADCxUuAZbMFXpRh2qml'})
+            .done(function (response) {
+            $('#city_dd').html(response);
+            });
+    }
+    }
+</script>    <!-- Custom js -->
+    <script src="https://vietnamjobs.net/js/script.js"></script>
+    <script type="text/JavaScript">
+        function showProcessingForm(btn_id){
+            $("#"+btn_id).val( 'Processing .....' );
+            $("#"+btn_id).attr('disabled','disabled');
+        }
+        </script>
+</body>
+
+</html>

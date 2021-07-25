@@ -1,0 +1,1673 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf_token" content="Ugj4wdZmAjd4lWjNJEiWPZyUL2qYds8jYElMSdXy" />
+    <link rel="icon" type="image/x-icon" href="https://covering.com.vn/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://covering.com.vn/img/favicon.png">
+    <title>Covering</title>
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+    <link rel="stylesheet" type="text/css" href="https://covering.com.vn/client/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://covering.com.vn/client/assets/css/pretty-checkbox.min.css">
+    <link rel="stylesheet" type="text/css" href="https://covering.com.vn/client/assets/css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://covering.com.vn/client/assets/css/ma5-menu.min.css">
+    <link rel="stylesheet" type="text/css" href="https://covering.com.vn/client/assets/css/flip-clock.css">
+    <link rel="stylesheet" type="text/css" href="https://covering.com.vn/client/assets/css/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://covering.com.vn/client/assets/css/style.css?v=20210723071748">
+</head>
+<body>
+  <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v7.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="1982336968733317"
+        theme_color="#fa3c4c"
+        logged_in_greeting="Click vào đây để gặp tư vấn viên , thanks you !"
+        logged_out_greeting="Click vào đây để gặp tư vấn viên , thanks you !">
+      </div>
+
+    <!-- <div class="zalo-chat-widget" data-oaid="3136470649847351100" data-welcome-message="" data-autopopup="0" data-width="350" data-height="420" style="left: 0px !important"></div>
+    <script src="https://sp.zalo.me/plugins/sdk.js"></script> -->
+
+
+    
+<!-- Top Header Menu -->
+<div class="background-menu"></div>
+<nav class="ma5menu" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+  <div class="ma5menu__header">
+    <a class="ma5menu__home" href="https://covering.com.vn" tabindex="-1">
+      <!-- <svg class="ma5menu__logo" aria-hidden="true" width="24" height="24"> -->
+      <!-- <use xlink:href="images/svg/material.svg#terrain"></use> -->
+      <!-- </svg> -->
+      <img src="https://covering.com.vn/upload/logo/logo_header.png?1626999468">
+    </a>
+    <a class="ma5menu__toggle  skip-link-close-left  close" tabindex="-1">
+    <i class="ma5menu__close" width="24" height="24"><span>X</span></i>
+    </a>
+  </div>
+  <ul class="lvl-0 ma5menu__panel--active" data-ma5order="ma5-ul">
+                      <li class="ma5menu__li--current" data-ma5order="ma5-li-1">
+        <span class=" ma5menu__btn--enter  ma5menu__category  ma5menu__path">
+          <a href="https://covering.com.vn/danh-muc/nam">
+            NAM
+                      </a>
+        </span>
+                <ul class="lvl-1" data-ma5order="ma5-ul-1">
+           
+                                              <li data-ma5order="ma5-li-1-1">
+              <div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span>Quay lại</div>
+            </li>
+                        <li data-ma5order="ma5-li-1-2">
+                                          1-3
+              <span class="ma5menu__btn--enter ma5menu__category ">
+                <a href="https://covering.com.vn/danh-muc/do-lot-nam">
+                  ĐỒ LÓT
+                                  </a>
+              </span>
+              cáccs
+              <ul class="lvl-2" data-ma5order="ma5-ul-1-2">
+                                                                      <li data-ma5order="ma5-li-1-4-1">
+                    <div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span>Quay lại</div>
+                  </li>
+                                    <li data-ma5order="ma5-li-1-2-1">
+                    <a href="https://covering.com.vn/danh-muc/do-lot-nam">
+                      Quần Lót
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-2-2">
+                    <a href="https://covering.com.vn/danh-muc/quan-brief">
+                      Quần sịp tam giác
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-2-3">
+                    <a href="https://covering.com.vn/danh-muc/quan-trunk">
+                      Quần Trunk boxer
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-2-4">
+                    <a href="https://covering.com.vn/danh-muc/combogiatot">
+                      Combo Giá Tốt
+                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-2-5">
+                    <a href="https://covering.com.vn/danh-muc/noline">
+                      Quần Seamless /Noline
+                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-2-6">
+                    <a href="https://covering.com.vn/danh-muc/cool8d">
+                      Quần lót thể thao
+                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-2-7">
+                    <a href="https://covering.com.vn/danh-muc/suppercool">
+                      Chất Supper Cool
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-2-8">
+                    <a href="https://covering.com.vn/danh-muc/1108">
+                      Chất cotton USA
+                                          </a>
+                  </li>
+                              </ul>
+                          </li>
+                                              <li data-ma5order="ma5-li-1-4">
+                                          1-5
+              <span class="ma5menu__btn--enter ma5menu__category ">
+                <a href="https://covering.com.vn/danh-muc/short">
+                  QUẦN SHORT NAM
+                                  </a>
+              </span>
+              cáccs
+              <ul class="lvl-2" data-ma5order="ma5-ul-1-4">
+                                                                      <li data-ma5order="ma5-li-1-6-1">
+                    <div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span>Quay lại</div>
+                  </li>
+                                    <li data-ma5order="ma5-li-1-4-1">
+                    <a href="https://covering.com.vn/danh-muc/home">
+                      Quần đùi cotton co giãn 4 Dmax
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-4-2">
+                    <a href="https://covering.com.vn/danh-muc/quandaopho">
+                      Quần short  dạo phố
+                                          </a>
+                  </li>
+                              </ul>
+                          </li>
+                                              <li data-ma5order="ma5-li-1-6">
+                                          1-7
+              <span class="ma5menu__btn--enter ma5menu__category ">
+                <a href="https://covering.com.vn/danh-muc/bit-tat-vo">
+                  BÍT TẤT
+                                    <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                  </a>
+              </span>
+              cáccs
+              <ul class="lvl-2" data-ma5order="ma5-ul-1-6">
+                                                                      <li data-ma5order="ma5-li-1-8-1">
+                    <div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span>Quay lại</div>
+                  </li>
+                                    <li data-ma5order="ma5-li-1-6-1">
+                    <a href="https://covering.com.vn/danh-muc/tat-an-hai">
+                      Tất ẩn/ Hài
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-6-2">
+                    <a href="https://covering.com.vn/danh-muc/tat-khong-co">
+                      Tất không cổ
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-6-3">
+                    <a href="https://covering.com.vn/danh-muc/tat-co-ngan">
+                      Tất cổ ngắn
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-6-4">
+                    <a href="https://covering.com.vn/danh-muc/tat-co-trung">
+                      Tất cổ trung
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-6-5">
+                    <a href="https://covering.com.vn/danh-muc/tat-the-thao">
+                      Tất thể thao cao cấp
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-6-6">
+                    <a href="https://covering.com.vn/danh-muc/11">
+                      Combo tiết kiệm
+                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                          </a>
+                  </li>
+                              </ul>
+                          </li>
+                                              <li data-ma5order="ma5-li-1-8">
+                                          1-9
+              <span class="ma5menu__btn--enter ma5menu__category ">
+                <a href="https://covering.com.vn/danh-muc/quanboi">
+                  QUẦN ĐI BIỂN
+                                  </a>
+              </span>
+              cáccs
+              <ul class="lvl-2" data-ma5order="ma5-ul-1-8">
+                                                                      <li data-ma5order="ma5-li-1-10-1">
+                    <div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span>Quay lại</div>
+                  </li>
+                                    <li data-ma5order="ma5-li-1-8-1">
+                    <a href="https://covering.com.vn/danh-muc/beach1">
+                      Quần short
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-8-2">
+                    <a href="https://covering.com.vn/danh-muc/beach2">
+                      Quần bơi / boxer đùi
+                                          </a>
+                  </li>
+                              </ul>
+                          </li>
+                                              <li data-ma5order="ma5-li-1-10">
+                                          1-11
+              <span class="ma5menu__btn--enter ma5menu__category ">
+                <a href="https://covering.com.vn/danh-muc/ao-cotton">
+                  ÁO  CHẤT COTTON
+                                  </a>
+              </span>
+              cáccs
+              <ul class="lvl-2" data-ma5order="ma5-ul-1-10">
+                                                                      <li data-ma5order="ma5-li-1-12-1">
+                    <div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span>Quay lại</div>
+                  </li>
+                                    <li data-ma5order="ma5-li-1-10-1">
+                    <a href="https://covering.com.vn/danh-muc/111">
+                      Áo  3 lỗ cotton  dệt kim
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-10-2">
+                    <a href="https://covering.com.vn/danh-muc/112">
+                      Áo sát nách cotton
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-10-3">
+                    <a href="https://covering.com.vn/danh-muc/113">
+                      Áo Tshirt có tay
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-10-4">
+                    <a href="https://covering.com.vn/danh-muc/114">
+                      Áo giữ nhiệt  BST2021
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-10-5">
+                    <a href="https://covering.com.vn/danh-muc/115">
+                      Áo 3 lỗ  cotton 4 chiều
+                                          </a>
+                  </li>
+                              </ul>
+                          </li>
+                                              <li data-ma5order="ma5-li-1-12">
+                                          1-13
+              <span class="ma5menu__btn--enter ma5menu__category ">
+                <a href="https://covering.com.vn/danh-muc/jogger">
+                  QUẦN JOGGER  MEN
+                                  </a>
+              </span>
+              cáccs
+              <ul class="lvl-2" data-ma5order="ma5-ul-1-12">
+                                                                      <li data-ma5order="ma5-li-1-14-1">
+                    <div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span>Quay lại</div>
+                  </li>
+                                    <li data-ma5order="ma5-li-1-12-1">
+                    <a href="https://covering.com.vn/danh-muc/jogger1">
+                      -Quần ống suông
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-1-12-2">
+                    <a href="https://covering.com.vn/danh-muc/jogger2">
+                      -Quần bo gấu
+                                          </a>
+                  </li>
+                              </ul>
+                          </li>
+                  </ul>
+                          <li class="ma5menu__li--current" data-ma5order="ma5-li-2">
+        <span class=" ma5menu__btn--enter  ma5menu__category  ma5menu__path">
+          <a href="https://covering.com.vn/danh-muc/nu">
+            NỮ
+                      </a>
+        </span>
+                <ul class="lvl-1" data-ma5order="ma5-ul-2">
+           
+                                              <li data-ma5order="ma5-li-2-1">
+              <div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span>Quay lại</div>
+            </li>
+                        <li data-ma5order="ma5-li-2-2">
+                                          2-3
+              <span class="ma5menu__btn--enter ma5menu__category ">
+                <a href="https://covering.com.vn/danh-muc/quan-lot-nu">
+                  QUẦN LÓT
+                                  </a>
+              </span>
+              cáccs
+              <ul class="lvl-2" data-ma5order="ma5-ul-2-2">
+                                                                      <li data-ma5order="ma5-li-2-4-1">
+                    <div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span>Quay lại</div>
+                  </li>
+                                    <li data-ma5order="ma5-li-2-2-1">
+                    <a href="https://covering.com.vn/danh-muc/viscose">
+                      Chất Viscose lụa thiên nhiên
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-2-2-2">
+                    <a href="https://covering.com.vn/danh-muc/noline-01">
+                      No line/ tàng hình
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-2-2-3">
+                    <a href="https://covering.com.vn/danh-muc/seamless-01">
+                      Quần seamless
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-2-2-4">
+                    <a href="https://covering.com.vn/danh-muc/cotton">
+                      Quần cotton
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-2-2-5">
+                    <a href="https://covering.com.vn/danh-muc/microfiber1">
+                      Quần Microfiber
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-2-2-6">
+                    <a href="https://covering.com.vn/danh-muc/boxer01">
+                      Quần boxer mang với váy
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-2-2-7">
+                    <a href="https://covering.com.vn/danh-muc/11101">
+                      Combo tiết kiệm
+                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                          </a>
+                  </li>
+                              </ul>
+                          </li>
+                                              <li data-ma5order="ma5-li-2-4">
+                                          2-5
+              <span class="ma5menu__btn--enter ma5menu__category ">
+                <a href="https://covering.com.vn/danh-muc/ao-nguc-nu">
+                  ÁO NGỰC NỮ
+                                  </a>
+              </span>
+              cáccs
+              <ul class="lvl-2" data-ma5order="ma5-ul-2-4">
+                                                                      <li data-ma5order="ma5-li-2-6-1">
+                    <div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span>Quay lại</div>
+                  </li>
+                                    <li data-ma5order="ma5-li-2-4-1">
+                    <a href="https://covering.com.vn/danh-muc/ao-nguc-nu">
+                      - Áo ngực
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-2-4-2">
+                    <a href="https://covering.com.vn/danh-muc/mutmong01">
+                      -Áo  mút mỏng
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-2-4-3">
+                    <a href="https://covering.com.vn/danh-muc/mutep01">
+                      -Áo mút ép cao cấp
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-2-4-4">
+                    <a href="https://covering.com.vn/danh-muc/khonggong">
+                      -Áo không gọng
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-2-4-5">
+                    <a href="https://covering.com.vn/danh-muc/aodemvua">
+                      -Áo đệm vừa
+                                          </a>
+                  </li>
+                              </ul>
+                          </li>
+                                              <li data-ma5order="ma5-li-2-6">
+                                          2-7
+              <span class="ma5menu__btn--enter ma5menu__category ">
+                <a href="https://covering.com.vn/danh-muc/tat-nu">
+                  TẤT NỮ
+                                  </a>
+              </span>
+              cáccs
+              <ul class="lvl-2" data-ma5order="ma5-ul-2-6">
+                                                                      <li data-ma5order="ma5-li-2-8-1">
+                    <div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span>Quay lại</div>
+                  </li>
+                                    <li data-ma5order="ma5-li-2-6-1">
+                    <a href="https://covering.com.vn/danh-muc/tat-nu">
+                      Tất nữ
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-2-6-2">
+                    <a href="https://covering.com.vn/danh-muc/noshow01">
+                      Tất no show /no line
+                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-2-6-3">
+                    <a href="https://covering.com.vn/danh-muc/201">
+                      Tất cổ ngắn
+                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-2-6-4">
+                    <a href="https://covering.com.vn/danh-muc/202">
+                      Tất cổ trung
+                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                          </a>
+                  </li>
+                                                                      <li data-ma5order="ma5-li-2-6-5">
+                    <a href="https://covering.com.vn/danh-muc/combo01">
+                      Combo tiết kiệm
+                                          </a>
+                  </li>
+                              </ul>
+                          </li>
+                  </ul>
+                    </li>
+              <li class="ma5menu__li--current" data-ma5order="ma5-li-100">
+        <span class="ma5menu__btn--enter ma5menu__category"><a href="#">Loại sản phẩm</a></span>
+        <ul class="lvl-1" data-ma5order="ma5-ul-100">
+          <li data-ma5order="ma5-li-100-1">
+            <div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span>Quay lại</div>
+          </li>
+                      <li data-ma5order="ma5-li-100-1"><a href="https://covering.com.vn/loai-danh-muc/giam-soc">GIẢM SỐC</a></li>
+                  </ul>
+      </li>
+      </ul>
+</nav>
+<header>
+  <div class="header__top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 .col-lg-6 header__top--left">
+          <span class="delivery-way" data-toggle="modal" data-target="#shippingFeeSchedule"> 
+                    Phí vận chuyển - Xem thêm
+                    </span>
+        </div>
+        <div class="col-md-6 .col-lg-6 header__top--right">
+          <div class="static-link row">
+            <div class="static-link__salesphone col-md-8 col-lg-8"><i class="fa fa-phone"></i><a href="tel:0909578384">BÁN HÀNG: 0909.5783.84 </a><a href="tel:02437585063">( 0243.7585.063 )</a></div>
+            <div class="static-link__store-address col-md-4 col-lg-4"><i class="fa fa-map-marker"></i><a href="/he-thong-cua-hang">Cửa hàng</a></div>
+          </div>
+          <div class="login-register">
+                        <div class="col"><a href="https://covering.com.vn/dang-ky">Đăng Ký</a></div>
+            <div class="col"><a href="https://covering.com.vn/dang-nhap">Đăng Nhập</a></div>
+                      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header__body">
+    <div class="container">
+      <div class="row mobile-header">
+        <div class="lef-col">
+          <div class="button-show-menu-mobile ma5menu__toggle btn">
+            <i class="fa fa-bars"></i>
+          </div>
+          <div class="logo-mobile">
+            <a href="https://covering.com.vn">
+            <img src="https://covering.com.vn/upload/logo/logo_header.png?1626999468">
+            </a>
+          </div>
+        </div>
+        <div class="right-col">
+          <div class="button-search-mobile">
+            <button type="button"></button>
+          </div>
+          <div class="carts-mobile">
+            <a href="https://covering.com.vn/gio-hang">
+            <span class="icon-cart"></span>
+            <span class="number-cart">
+                        0
+                        </span>
+            </a>
+          </div>
+        </div>
+        <div class="clear-fix"></div>
+        <form action="https://covering.com.vn/tim-kiem-san-pham" method="GET" class="search-form-mobile">
+          <input type="text" name="keyword" class="search-mobile-form__text" placeholder="Tìm kiếm sản phẩm">
+          <input type="submit" class="search-mobile-form__submit" value="">
+        </form>
+        <div class="right-sidebar-mobile">
+          <p class="block-subtitle-moblie">
+            <a href="#" class="close skip-link-close"><span>X</span></a>
+            GIỎ HÀNG
+          </p>
+          <div class="block-shipping-mobile">
+            <span class="delivery-way" data-toggle="modal" data-target="#shippingFeeSchedule">
+                            <p>Phí vận chuyển</p>
+              <p>Xem thêm</p>
+                          </span>
+          </div>
+                    <h3>Giỏ hàng rỗng</h3>
+                  </div>
+      </div>
+      <div class="row desktop-header">
+        <div class="col-md-2 col-lg-2 header__body--left">
+          <div class="logo">
+            <a href="https://covering.com.vn">
+            <img src="https://covering.com.vn/upload/logo/logo_header.png?1626999468">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-10 col-lg-10 header__body--right">
+          <div class="main-menu">
+            <div>
+              <ul>
+                                                    
+                  <li>
+                    <a href="https://covering.com.vn/danh-muc/nam">
+                      NAM
+                    </a>
+                    <span class="vertical-line">|</span>
+                                         
+                    <div class="submenu">
+                      <div class="row">
+                                                                        <div class="col-category col-md-3 col-lg-3">
+                          <a href="https://covering.com.vn/danh-muc/do-lot-nam">
+                            <div class="submenu__items">
+                              <h4>
+                                ĐỒ LÓT
+                                                              </h4>
+
+                                                                                                                                  <a href="https://covering.com.vn/danh-muc/do-lot-nam">
+                                    <div class="submenu__items">
+                                      Quần Lót
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/quan-brief">
+                                    <div class="submenu__items">
+                                      Quần sịp tam giác
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/quan-trunk">
+                                    <div class="submenu__items">
+                                      Quần Trunk boxer
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/combogiatot">
+                                    <div class="submenu__items">
+                                      Combo Giá Tốt
+                                                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/noline">
+                                    <div class="submenu__items">
+                                      Quần Seamless /Noline
+                                                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/cool8d">
+                                    <div class="submenu__items">
+                                      Quần lót thể thao
+                                                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/suppercool">
+                                    <div class="submenu__items">
+                                      Chất Supper Cool
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/1108">
+                                    <div class="submenu__items">
+                                      Chất cotton USA
+                                                                          </div>
+                                  </a>
+                                                                                          </div>
+                          </a>
+                        </div>
+                                                                        <div class="col-category col-md-3 col-lg-3">
+                          <a href="https://covering.com.vn/danh-muc/short">
+                            <div class="submenu__items">
+                              <h4>
+                                QUẦN SHORT NAM
+                                                              </h4>
+
+                                                                                                                                  <a href="https://covering.com.vn/danh-muc/home">
+                                    <div class="submenu__items">
+                                      Quần đùi cotton co giãn 4 Dmax
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/quandaopho">
+                                    <div class="submenu__items">
+                                      Quần short  dạo phố
+                                                                          </div>
+                                  </a>
+                                                                                          </div>
+                          </a>
+                        </div>
+                                                                        <div class="col-category col-md-3 col-lg-3">
+                          <a href="https://covering.com.vn/danh-muc/bit-tat-vo">
+                            <div class="submenu__items">
+                              <h4>
+                                BÍT TẤT
+                                                                <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                                              </h4>
+
+                                                                                                                                  <a href="https://covering.com.vn/danh-muc/tat-an-hai">
+                                    <div class="submenu__items">
+                                      Tất ẩn/ Hài
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/tat-khong-co">
+                                    <div class="submenu__items">
+                                      Tất không cổ
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/tat-co-ngan">
+                                    <div class="submenu__items">
+                                      Tất cổ ngắn
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/tat-co-trung">
+                                    <div class="submenu__items">
+                                      Tất cổ trung
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/tat-the-thao">
+                                    <div class="submenu__items">
+                                      Tất thể thao cao cấp
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/11">
+                                    <div class="submenu__items">
+                                      Combo tiết kiệm
+                                                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                                                          </div>
+                                  </a>
+                                                                                          </div>
+                          </a>
+                        </div>
+                                                                        <div class="col-category col-md-3 col-lg-3">
+                          <a href="https://covering.com.vn/danh-muc/quanboi">
+                            <div class="submenu__items">
+                              <h4>
+                                QUẦN ĐI BIỂN
+                                                              </h4>
+
+                                                                                                                                  <a href="https://covering.com.vn/danh-muc/beach1">
+                                    <div class="submenu__items">
+                                      Quần short
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/beach2">
+                                    <div class="submenu__items">
+                                      Quần bơi / boxer đùi
+                                                                          </div>
+                                  </a>
+                                                                                          </div>
+                          </a>
+                        </div>
+                                                                        <div class="col-category col-md-3 col-lg-3">
+                          <a href="https://covering.com.vn/danh-muc/ao-cotton">
+                            <div class="submenu__items">
+                              <h4>
+                                ÁO  CHẤT COTTON
+                                                              </h4>
+
+                                                                                                                                  <a href="https://covering.com.vn/danh-muc/111">
+                                    <div class="submenu__items">
+                                      Áo  3 lỗ cotton  dệt kim
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/112">
+                                    <div class="submenu__items">
+                                      Áo sát nách cotton
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/113">
+                                    <div class="submenu__items">
+                                      Áo Tshirt có tay
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/114">
+                                    <div class="submenu__items">
+                                      Áo giữ nhiệt  BST2021
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/115">
+                                    <div class="submenu__items">
+                                      Áo 3 lỗ  cotton 4 chiều
+                                                                          </div>
+                                  </a>
+                                                                                          </div>
+                          </a>
+                        </div>
+                                                                        <div class="col-category col-md-3 col-lg-3">
+                          <a href="https://covering.com.vn/danh-muc/jogger">
+                            <div class="submenu__items">
+                              <h4>
+                                QUẦN JOGGER  MEN
+                                                              </h4>
+
+                                                                                                                                  <a href="https://covering.com.vn/danh-muc/jogger1">
+                                    <div class="submenu__items">
+                                      -Quần ống suông
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/jogger2">
+                                    <div class="submenu__items">
+                                      -Quần bo gấu
+                                                                          </div>
+                                  </a>
+                                                                                          </div>
+                          </a>
+                        </div>
+                         
+                      </div>
+                    </div>
+                                      </li>
+                                    
+                  <li>
+                    <a href="https://covering.com.vn/danh-muc/nu">
+                      NỮ
+                    </a>
+                    <span class="vertical-line">|</span>
+                                         
+                    <div class="submenu">
+                      <div class="row">
+                                                                        <div class="col-category col-md-3 col-lg-3">
+                          <a href="https://covering.com.vn/danh-muc/quan-lot-nu">
+                            <div class="submenu__items">
+                              <h4>
+                                QUẦN LÓT
+                                                              </h4>
+
+                                                                                                                                  <a href="https://covering.com.vn/danh-muc/viscose">
+                                    <div class="submenu__items">
+                                      Chất Viscose lụa thiên nhiên
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/noline-01">
+                                    <div class="submenu__items">
+                                      No line/ tàng hình
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/seamless-01">
+                                    <div class="submenu__items">
+                                      Quần seamless
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/cotton">
+                                    <div class="submenu__items">
+                                      Quần cotton
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/microfiber1">
+                                    <div class="submenu__items">
+                                      Quần Microfiber
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/boxer01">
+                                    <div class="submenu__items">
+                                      Quần boxer mang với váy
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/11101">
+                                    <div class="submenu__items">
+                                      Combo tiết kiệm
+                                                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                                                          </div>
+                                  </a>
+                                                                                          </div>
+                          </a>
+                        </div>
+                                                                        <div class="col-category col-md-3 col-lg-3">
+                          <a href="https://covering.com.vn/danh-muc/ao-nguc-nu">
+                            <div class="submenu__items">
+                              <h4>
+                                ÁO NGỰC NỮ
+                                                              </h4>
+
+                                                                                                                                  <a href="https://covering.com.vn/danh-muc/ao-nguc-nu">
+                                    <div class="submenu__items">
+                                      - Áo ngực
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/mutmong01">
+                                    <div class="submenu__items">
+                                      -Áo  mút mỏng
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/mutep01">
+                                    <div class="submenu__items">
+                                      -Áo mút ép cao cấp
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/khonggong">
+                                    <div class="submenu__items">
+                                      -Áo không gọng
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/aodemvua">
+                                    <div class="submenu__items">
+                                      -Áo đệm vừa
+                                                                          </div>
+                                  </a>
+                                                                                          </div>
+                          </a>
+                        </div>
+                                                                        <div class="col-category col-md-3 col-lg-3">
+                          <a href="https://covering.com.vn/danh-muc/tat-nu">
+                            <div class="submenu__items">
+                              <h4>
+                                TẤT NỮ
+                                                              </h4>
+
+                                                                                                                                  <a href="https://covering.com.vn/danh-muc/tat-nu">
+                                    <div class="submenu__items">
+                                      Tất nữ
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/noshow01">
+                                    <div class="submenu__items">
+                                      Tất no show /no line
+                                                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/201">
+                                    <div class="submenu__items">
+                                      Tất cổ ngắn
+                                                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/202">
+                                    <div class="submenu__items">
+                                      Tất cổ trung
+                                                                            <img class="product-type-hot" src="https://covering.com.vn/client/assets/img/icon-hot.png">
+                                                                          </div>
+                                  </a>
+                                                                                                    <a href="https://covering.com.vn/danh-muc/combo01">
+                                    <div class="submenu__items">
+                                      Combo tiết kiệm
+                                                                          </div>
+                                  </a>
+                                                                                          </div>
+                          </a>
+                        </div>
+                         
+                      </div>
+                    </div>
+                                      </li>
+                                                                    <li>
+                    <a href="#">
+                     Đặc biệt
+                    </a>
+                    <div class="submenu">
+                      <div class="row">
+                                                <div class="col-category col-md-3 col-lg-3">
+                            <a href="https://covering.com.vn/loai-danh-muc/giam-soc">
+                              - GIẢM SỐC
+                            </a>
+                        </div>
+                                            </div>
+                  </li>
+                              </ul>
+            </div>
+          </div>
+          <div class="search-cart">
+            <div class="search-cart__search">
+              <form action="https://covering.com.vn/tim-kiem-san-pham" method="GET" class="search-form">
+                <input type="text" name="keyword" class="search-form__text" placeholder="Tìm kiếm sản phẩm">
+                <input type="submit" class="search-form__submit" value="">
+              </form>
+            </div>
+            <div class="search-cart__cart">
+              <a href="https://covering.com.vn/gio-hang">
+              <span class="icon-cart"></span>
+              <span class="number-cart">
+                            0
+                            </span>
+              </a>
+              <div class="search-cart__cart--list-item">
+                <div class="search-cart__cart--list-item---header">
+                  <span class="close skip-link-close">X</span>
+                  GIỎ HÀNG
+                </div>
+                 
+                <h3 style="text-align: center;">Giỏ hàng trống</h3>
+                              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Modal -->
+<div class="modal fade" id="shippingFeeSchedule" tabindex="-1" role="dialog" aria-labelledby="shippingFeeScheduleLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="shippingFeeScheduleLabel" style="text-align: center;font-size: 25px;">Biểu phí vận chuyển</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="https://covering.com.vn/upload/banner/shipping_fee_schedule.png?1626999468">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!--/ Top Header Menu -->
+<div class="notification" >
+  <div class="notification__wrapper">
+    <div class="notification__content">
+      <p>Chính sách miễn phí ship</p>
+      <p><a href="https://covering.com.vn/bai-viet/2021-01">Xem thêm</a></p>
+    </div>
+  </div>
+</div>
+
+	<div class="wrapper-body">
+		<!-- ==============Home Page============= -->
+<section class="section1">
+    <div class="section1__slider homepage">
+        <div class="slider-homepage">
+                            <div><a href="https://covering.com.vn/loai-danh-muc/giam-soc"><img data-src="/upload/slider/VWzKexZneFmx3aQe9wvP3501U4Uqzqzx3vsfvD3L.jpeg" class="lazy"></a></div>
+                            <div><a href="https://covering.com.vn/loai-danh-muc/giam-soc"><img data-src="/upload/slider/o5OZIfpAngcxzLBeANaJKKWoxWibM6lRBeLtIhCE.jpeg" class="lazy"></a></div>
+                    </div>
+    </div>
+</section>
+<section class="section2">
+    <div class="section2__info1">
+        <div class="row">
+            <div class="col-md-4 .col-lg-4 section2__info1--contain">
+                <a href="https://covering.com.vn/danh-muc/do-lot-nam"><img data-src="https://covering.com.vn/upload/banner/banner1.png?1626999468" class="lazy"></a>
+                <div class="buy-button">
+                    <!-- <a href="https://covering.com.vn/danh-muc/do-lot-nam">MUA NGAY</a> -->
+                </div>
+            </div>
+            <div class="col-md-4 .col-lg-4 section2__info1--contain">
+                <a href="https://covering.com.vn/danh-muc/quan-trunk"><img data-src="https://covering.com.vn/upload/banner/banner2.png?1626999468" class="lazy"></a>
+            </div>
+            <div class="col-md-4 .col-lg-4 section2__info1--contain">
+                <a href="https://covering.com.vn/danh-muc/jogger"><img data-src="https://covering.com.vn/upload/banner/banner3.png?1626999468" class="lazy"></a>
+                <div class="buy-button">
+                    <!-- <a href="https://covering.com.vn/danh-muc/jogger">MUA NGAY</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    
+    <section class="section3">
+        <div class="section3__info2">
+            <div class="row">
+                <div class="col-md-6 .col-lg-6 col-sm-6 section3__info2--contain">
+                    <a href="https://covering.com.vn/san-pham/1-141">
+                        <img data-src="https://covering.com.vn/upload/banner/banner4.png?1626999468" class="lazy">
+                    </a>
+                    <div class="buy-button">
+                        <!-- <a href="https://covering.com.vn/san-pham/1-141">MUA NGAY</a> -->
+                    </div>
+                </div>
+                <div class="col-md-6 .col-lg-6 col-sm-6  section3__info2--contain">
+                    <a href="https://covering.com.vn/san-pham/c1-131">
+                        <img data-src="https://covering.com.vn/upload/banner/banner5.png?1626999468" class="lazy">
+                    </a>
+                    <div class="buy-button">
+                        <!-- <a href="https://covering.com.vn/san-pham/c1-131">MUA NGAY</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section4">
+        <h3>SẢN PHẨM MỚI</h3>
+        <div class="slider-product-homepage">
+            <div class="product-list new-products">
+            	                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/4-021">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f51010"><div class="text-sale">Sale</div><span class="percent-sale">10</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/b1EYEBCBuccrchKoVkVa4lT4CpOuorW5qAl4yIfR.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/4-021">QUẦN LƯNG  BẢN NHỎ SIÊU NHẸ 021</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>85.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">76.500đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/3-021">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f51010"><div class="text-sale">Sale</div><span class="percent-sale">10</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/nWrwAvsn5xjzwASkRuzvBG8m4OyWVn29dmQnZK5T.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/3-021">QUẦN LƯNG  BẢN NHỎ SIÊU NHẸ 021</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>85.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">76.500đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/1-021">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f51010"><div class="text-sale">Sale</div><span class="percent-sale">10</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/GS97rEwo0WDeWtVJ1BSexxEVGXdn5ruj5wBQS0bJ.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/1-021">QUẦN LƯNG  BẢN NHỎ SIÊU NHẸ 021</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>85.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">76.500đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/2-021">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f51010"><div class="text-sale">Sale</div><span class="percent-sale">10</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/WwEbe4m1UZ7vXiS2YTLATxVkKiih0DeB1BkRhi8s1626076548.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/2-021">QUẦN LƯNG  BẢN NHỎ SIÊU NHẸ 021</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>85.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">76.500đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/4-105">
+							                                                        <img data-lazy="/upload/thumbnail/JU9aZMbVpKeD2CEkNhnlz90PjZ73uDUOIzEZE5iX.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/4-105">Áo Lót nữa không gọng cao cấp CRW105</a></h3>
+                                                <div class="sale-off-price-box">
+                            <span class="price">225.000đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/3-105">
+							                                                        <img data-lazy="/upload/thumbnail/RCImVzrg5WCVkBhfVqU98L2vkxNE9nObiEYMwEMk.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/3-105">Áo Lót nữa không gọng cao cấp CRW105</a></h3>
+                                                <div class="sale-off-price-box">
+                            <span class="price">225.000đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/2-105">
+							                                                        <img data-lazy="/upload/thumbnail/UkWWpiexTFzSH9dN40DgSLg5GnDMz8A00xyN9oAA.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/2-105">Áo Lót nữa không gọng cao cấp CRW105</a></h3>
+                                                <div class="sale-off-price-box">
+                            <span class="price">225.000đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/1-105">
+							                                                        <img data-lazy="/upload/thumbnail/yDpoQdNIxATwE06yO0EJ9Ay3UEQOEG9pOtbK7cOL.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/1-105">Áo Lót nữa không gọng cao cấp CRW105</a></h3>
+                                                <div class="sale-off-price-box">
+                            <span class="price">225.000đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/4-137">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f50b0b"><div class="text-sale">Sale</div><span class="percent-sale">30</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/eMPbDOwOynR70mePdTkX3sOZcOF4ftkP60Y20TJl1623057816.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/4-137">QUẦN NO SHOW SEAMLESS NYLON CR84-137</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>129.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">90.300đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/3-137">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f50b0b"><div class="text-sale">Sale</div><span class="percent-sale">30</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/eMPbDOwOynR70mePdTkX3sOZcOF4ftkP60Y20TJl.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/3-137">QUẦN NO SHOW SEAMLESS NYLON CR84-137</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>129.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">90.300đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/2-137">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f50b0b"><div class="text-sale">Sale</div><span class="percent-sale">30</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/qROavPex1G1FIuNzzGFSIw9KQViXIFJtNh8OPF5V.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/2-137">QUẦN NO SHOW SEAMLESS NYLON CR84-137</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>129.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">90.300đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/1-137">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f50b0b"><div class="text-sale">Sale</div><span class="percent-sale">30</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/FT318uLbcvfbvgfaT4jnA8Do3UrJwum6OlYzJ2EU16230576131623057652.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/1-137">QUẦN NO SHOW SEAMLESS NYLON CR84-137</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>129.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">90.300đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/4-008">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f80505"><div class="text-sale">Sale</div><span class="percent-sale">20</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/H2ilQZ91lUQPcMD0fPilkXPztFQhNeAJ34qnM1Tg.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/4-008">QUẦN SIÊU NHẸ DÁNG TRUNK CR84-008</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>85.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">68.000đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/3-008">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f80505"><div class="text-sale">Sale</div><span class="percent-sale">20</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/mQOdj3FIyRPz8TNxn7z2d4ljZWg4ye6pYonuOzw7.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/3-008">QUẦN SIÊU NHẸ DÁNG TRUNK CR84-008</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>85.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">68.000đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/2-008">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f80505"><div class="text-sale">Sale</div><span class="percent-sale">20</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/G2A9SECH8YvoWvfc6H8Kkx0GtFwn023QENDv94HF.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/2-008">QUẦN SIÊU NHẸ DÁNG TRUNK CR84-008</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>85.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">68.000đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/1-008">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f80505"><div class="text-sale">Sale</div><span class="percent-sale">20</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/YKlec4BW20nhFjIutAFCcewLwRS3iCOCRIIIVnH2.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/1-008">QUẦN SIÊU NHẸ DÁNG TRUNK CR84-008</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>85.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">68.000đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/1-018">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f80505"><div class="text-sale">Sale</div><span class="percent-sale">20</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/D3DQSQJ7ZRPKlyiCs3oIX2MdC8TeR0JkbUFHdn3E.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/1-018">QUẦN SIÊU NHẸ CHẤT  COTTON NHẬT  CR84-018</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>85.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">68.000đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/3-204">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f80505"><div class="text-sale">Sale</div><span class="percent-sale">20</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/oBoioW1c05nSKDqnFdVJiSW1N4mEqUUYvwCKk5oY1622001710.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/3-204">QUẦN SIÊU NHẸ CHẤT  COTTON NHẬT  CR84-204</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>95.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">76.000đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/2-204">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f80505"><div class="text-sale">Sale</div><span class="percent-sale">20</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/WAJyvD1bPZ2BEFFOlCuCla3kLmbrsuM6debvST5H.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/2-204">QUẦN SIÊU NHẸ CHẤT  COTTON NHẬT  CR84-204</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>95.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">76.000đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                                <div class="item-info">
+                    <div class="item-thumbnail">
+                        <a href="https://covering.com.vn/san-pham/1-204">
+							                                                        <span class="product-hot" style="text-align: center; background-color: #f80505"><div class="text-sale">Sale</div><span class="percent-sale">20</span>%</span>
+                                                        <img data-lazy="/upload/thumbnail/oBoioW1c05nSKDqnFdVJiSW1N4mEqUUYvwCKk5oY.jpeg">
+                        </a>
+                    </div>
+                    <div class="product-detail">
+                        <h3><a href="https://covering.com.vn/san-pham/1-204">QUẦN SIÊU NHẸ CHẤT  COTTON NHẬT  CR84-204</a></h3>
+                                                <div class="price-box">
+                            <span class="price"><strike>95.000đ</strike></span>
+                        </div>
+                        <div class="sale-off-price-box">
+                                                        <span class="price">76.000đ</span>
+                        </div>
+                         
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </section>
+</div>
+<!-- Modal -->
+
+	</div>
+<footer>
+        <div class="footer__body container">
+            <div class="row">
+                <div class="col-md-3 .col-lg-3">
+                    <h5>ĐĂNG KÝ NHẬN TIN TỪ COVERING</h5>
+                    <form action="https://covering.com.vn/them-email-khach-hang#form-email" method="POST" class="footer-form-email" id="form-email">
+                        <input type="hidden" name="_token" value="Ugj4wdZmAjd4lWjNJEiWPZyUL2qYds8jYElMSdXy">
+                        <input type="text" name="email" class="text-form" placeholder="Nhập email của bạn">
+                        <input type="submit" class="submit-form" value="ĐĂNG KÝ">
+                        
+                    </form>
+                                                            <br>
+                    <h5>KẾT NỐI ĐẾN FACEBOOK ĐỂ NHẬN KHUYẾN MÃI</h5>
+                    <ul class="social-footer">
+                        <li>
+                            <a href="https://www.facebook.com/dolotcotton/"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                    <img src="https://covering.com.vn/img/card.png" class="banking-footer">
+                </div>
+                <div class="col-md-3 .col-lg-3">
+                    <h5>HỖ TRỢ</h5>
+                                                                        <p><a href="https://covering.com.vn/bai-viet/hdcs">- HƯỚNG DẪN CHỌN SIZE</a></p>
+                                                    <p><a href="https://covering.com.vn/bai-viet/cskn">-CHÍNH SÁCH KHIẾU NẠI</a></p>
+                                                    <p><a href="https://covering.com.vn/bai-viet/bai-viet-tai-khoan-thu-5">-CHÍNH SÁCH BẢO MẬT THÔNG TIN</a></p>
+                                                    <p><a href="https://covering.com.vn/bai-viet/hdmuahngwebside">- HƯỚNG DẪN MUA HÀNG</a></p>
+                                                    <p><a href="https://covering.com.vn/bai-viet/hdtt">- CHÍNH SÁCH THANH TOÁN</a></p>
+                                                    <p><a href="https://covering.com.vn/bai-viet/2021-01">- CHÍNH SÁCH VẬN CHUYỂN</a></p>
+                                            
+                    <h5>TÀI KHOẢN</h5>
+                                                                        <p><a href="https://covering.com.vn/bai-viet/bai-viet-tai-khoan-thu-6">- CÁCH KIỂM TRA ĐƠN HÀNG</a></p>
+                                                            </div>
+                <div class="col-md-3 .col-lg-3">
+                    <h5>THƯƠNG HIỆU</h5>
+                                                                        <p><a href="https://covering.com.vn/bai-viet/csdt">- CHÍNH SÁCH ĐỔI TRẢ</a></p>
+                                                    <p><a href="https://covering.com.vn/bai-viet/hddh">- HƯỚNG DẪN ĐỔI HÀNG</a></p>
+                                                    <p><a href="https://covering.com.vn/bai-viet/tai-sao-phai-mac-quan-lot-dung-cach">- TẠI SAO PHẢI MẶC QUẦN LÓT ĐÚNG CÁCH</a></p>
+                                                            </div>
+                <div class="col-md-3 .col-lg-3">
+                    <div class="logo-footer">
+                        <img src="https://covering.com.vn/upload/logo/logo_footer.jpg?1626999468">
+                    </div>
+                    <div class="content">
+                        <h5>CÔNG TY CỔ PHẦN HỪNG ĐÔNG</h5>
+                        <p>&nbsp;</p>
+
+<p>SỐ DKKD 0105379762 DO SỞ KHDT TP H&Agrave; NỘI cấp ng&agrave;y 27/6/2011</p>
+
+<p>Địa chỉ : Số&nbsp;66A&nbsp;An Dương Vương - P.Ph&uacute; Thượng - Quận T&acirc;y Hồ - H&agrave; Nội</p>
+
+<p>Điện thoại: +8424&nbsp;- 37585063</p>
+
+<p>Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a4ccd1cac3c0cbcac3e4c7cbd2c1d6cdcac38ac7cbc98ad2ca">[email&#160;protected]</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 .col-lg-6">
+                        <!-- <img class="footer_bottom-logo" src=""> -->
+                    </div>
+                    <div class="col-md-6 .col-lg-6">
+                        <address class="footer_bottom-content">© 2018 COVERING Fashion. All right reserved</address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="https://covering.com.vn/client/assets/js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="https://covering.com.vn/client/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://covering.com.vn/client/assets/js/ma5-menu.min.js"></script>
+    <script type="text/javascript" src="https://covering.com.vn/js/accounting.min.js"></script>
+    <script type="text/javascript" src="https://covering.com.vn/js/jquery.twbsPagination.min.js"></script>
+    <script type="text/javascript" src="https://covering.com.vn/client/assets/js/jquery.zoom.min.js"></script>
+    <script type="text/javascript" src="https://covering.com.vn/client/assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="https://covering.com.vn/client/assets/js/flip-clock.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+    <script type="text/javascript" src="https://covering.com.vn/js/common.js"></script>
+    <script type="text/javascript">
+        accounting.settings = {
+            currency: {
+                symbol : "đ",   // default currency symbol is '$'
+                format: "%v%s", // controls output: %s = symbol, %v = value/number (can be object: see below)
+                decimal : ",",  // decimal point separator
+                thousand: ".",  // thousands separator
+                precision : 0   // decimal places
+            },
+            number: {
+                precision : 0,  // default precision on numbers is 0
+                thousand: ".",
+                decimal : ","
+            }
+        }
+
+        $(document).ready(function(){
+            $(".lazy").Lazy({
+                beforeLoad: function(element) {
+                    // called before an elements gets handled
+                },
+                afterLoad: function(element) {
+                    // called after an element was successfully handled
+                },
+                onError: function(element) {
+                    // called whenever an element could not be handled
+                },
+                onFinishedAll: function() {
+                    // called once all elements was handled
+                }
+            });
+                
+            $("#popupDiscountCountdown").modal("show");
+            $('.flip-3').on('done', function() {
+                $('#popupDiscountCountdown').modal('hide');
+            });
+            $('.flip-3').on('beforeFlipping', function(e, data) {
+                console.log('beforeFlipping:', data);
+            });
+            $('.flip-3').on('afterFlipping', function(e, data) {
+                console.log('afterFlipping:', data);
+            });
+            // Slider Homepage
+            $('.slider-homepage').slick({
+                infinite: true,
+                speed: 1000,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                prevArrow: '<div class="slick-slider slick-prev-homepage"><i class="fas fa-chevron-left"></i></div>',
+                nextArrow: '<div class="slick-slider slick-next-homepage"><i class="fas fa-chevron-right"></i></div>',
+            });
+            // Slider Homepage Product new
+            $('.new-products').slick({
+                lazyLoad: 'ondemand',
+                dots: false,
+                infinite: true,
+                speed: 1000,
+                slidesToShow: 5,
+                slidesToScroll: 5,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                prevArrow: '<div class="slick-slider slick-prev"><i class="fas fa-chevron-left"></i></div>',
+                nextArrow: '<div class="slick-slider slick-next"><i class="fas fa-chevron-right"></i></div>',
+                responsive: [
+                    {
+                      breakpoint: 1024,
+                      settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        autoplay: true,
+                        autoplaySpeed: 3000
+                      }
+                    },
+                    {
+                      breakpoint: 768,
+                      settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        autoplay: true,
+                        autoplaySpeed: 3000
+                      }
+                    },
+                    {
+                      breakpoint: 480,
+                      settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplaySpeed: 3000
+                      }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+            // Slider Homepage Product new
+            $('.similar-products').slick({
+                dots: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 5,
+                slidesToScroll: 5,
+                prevArrow: '<div class="slick-slider slick-prev"><i class="fas fa-chevron-left"></i></div>',
+                nextArrow: '<div class="slick-slider slick-next"><i class="fas fa-chevron-right"></i></div>',
+                responsive: [
+                    {
+                      breakpoint: 1024,
+                      settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                      }
+                    },
+                    {
+                      breakpoint: 768,
+                      settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                      }
+                    },
+                    {
+                      breakpoint: 480,
+                      settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                      }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+            
+            
+
+            // Select location payments
+            $(".checker").click(function(){
+                if($("#trigger").is(":checked")){
+                    
+                }
+            }); 
+            // Menu Mobile
+            ma5menu({
+                position: 'left',
+                closeOnBodyClick: true
+            });
+            $(".button-search-mobile button").click(function(){
+                $(".search-form-mobile").toggle();
+            });
+            // $(".button-show-menu-mobile").click(function(){
+            //     var left_sidebar = $(".left-sidebar-mobile");
+            //     if(left_sidebar.hasClass('open-mobile-menu')){
+            //         $(".background-menu").hide();
+            //         left_sidebar.removeClass('open-mobile-menu');
+            //     } else {
+            //         $(".background-menu").show();
+            //         left_sidebar.addClass('open-mobile-menu');
+            //     }
+            //     // $(".left-sidebar-mobile").animate({
+            //     //          width: "toggle"
+            //     //    });
+            // });
+            $(".background-menu").click(function(){
+                $(this).hide();
+                // $(".left-sidebar-mobile").removeClass('open-mobile-menu');
+                $(".right-sidebar-mobile").removeClass('open-mobile-menu');
+            });
+            $(".carts-mobile").click(function(){
+                // $(".right-sidebar-mobile").animate({
+                //          width: "toggle"
+                //    });
+                // var right_sidebar = $(".right-sidebar-mobile");
+                // if(right_sidebar.hasClass('open-mobile-menu')){
+                //     $(".background-menu").hide();
+                //     right_sidebar.removeClass('open-mobile-menu');
+                // } else {
+                //     $(".background-menu").show();
+                //     right_sidebar.addClass('open-mobile-menu');
+                // }
+                var href = $(this).find('a').attr('href');
+                $(location).attr(href);
+            });
+            $(".close.skip-link-close").click(function(){
+                $(".background-menu").hide();
+                $(".right-sidebar-mobile").removeClass('open-mobile-menu');
+            }); 
+            // Footer
+            $(".search-cart__cart").click(function(){
+                // $(".search-cart__cart--list-item").show();
+                var href = $(this).find('a').attr('href');
+                $(location).attr(href);
+            });
+            $(".search-cart__cart--list-item---header .close").click(function(e){
+                e.stopPropagation();
+                $(".search-cart__cart--list-item").hide();
+            });
+            $(".account__customer__edit-change-password .checkbox-password-change").change(function(){
+                console.log("check");
+                if($(this).is(":checked")){
+                    $(".account__customer__edit-content-form--change-password-form").show();
+                } else {
+                    $(".account__customer__edit-content-form--change-password-form").hide();
+                }
+            }); 
+            $(".slider-product-detail__item").zoom({touch: true, magnify: 2});
+            // Account Customer Edit
+
+        });
+        $(window).scroll(function (event) {
+            var scroll = $(window).scrollTop();
+            if(scroll > 50){
+                $(".header__body").addClass("fixed-menu-top");
+                $(".wrapper-body").addClass("wrapper-when-fixed");
+                $(".logo > a > img").addClass("fixed-logo-img");
+                $(".submenu").addClass("fixed-submenu");
+                $(".main-menu").addClass("fixed-main-menu");
+            } else {
+                $(".header__body").removeClass("fixed-menu-top");
+                $(".wrapper-body").removeClass("wrapper-when-fixed");
+                $(".logo > a > img").removeClass("fixed-logo-img");
+                $(".submenu").removeClass("fixed-submenu");
+                $(".main-menu").removeClass("fixed-main-menu");
+            }
+            $( document ).ajaxStart(function() {
+                $(".btn-viewmore").hide();
+              $( "#img-loader" ).show();
+            });
+            $( document ).ajaxStop(function() {
+              $( "#img-loader" ).hide();
+              $(".btn-viewmore").show();
+            });
+        });
+
+    </script>
+    </body>
+</html>

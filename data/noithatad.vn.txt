@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="vi" prefix="og: https://ogp.me/ns#">
+<head><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}async _loadEverythingNow(){this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{const n=document.createElement("script");let i;[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type",i=e.nodeValue),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")&&this._isValidScriptType(i)?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}_isValidScriptType(e){return!e||""===e||"string"==typeof e&&["text/javascript","text/x-javascript","text/ecmascript","text/jscript","application/javascript","application/x-javascript","application/ecmascript","application/jscript","module"].includes(e.toLowerCase())}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(i){e["rocket"+t]=n=i}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript;n||console.error("WPRocket unable to document.write this: "+t);const i=document.createRange(),r=n.parentElement;let a=e.get(n);void 0===a&&(a=n.nextSibling,e.set(n,a));const o=document.createDocumentFragment();i.setStart(o,0),o.appendChild(i.createContextualFragment(t)),r.insertBefore(o,a)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mousemove","touchmove","touchstart","touchend","wheel"]);e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();
+</script>
+	<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://noithatad.vn/xmlrpc.php" />
+
+	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+	<script>var et_site_url='https://noithatad.vn';var et_post_id='2';function et_core_page_resource_fallback(a,b){"undefined"===typeof b&&(b=a.sheet.cssRules&&0===a.sheet.cssRules.length);b&&(a.onerror=null,a.onload=null,a.href?a.href=et_site_url+"/?et_core_page_resource="+a.id+et_post_id:a.src&&(a.src=et_site_url+"/?et_core_page_resource="+a.id+et_post_id))}
+</script>
+<!-- Search Engine Optimization by Rank Math - https://s.rankmath.com/home -->
+<title>Kiến Trúc Nội Thất AD - Thiết Kế Nội Thất và Xây Dựng</title><link rel="stylesheet" href="https://noithatad.vn/wp-content/cache/min/1/3a380e8065de023d6e8b40de6f9b0824.css" media="all" data-minify="1" />
+<meta name="description" content="Kiến trúc Nội thất AD là công ty chuyên thiết kế thi công nội thất và xây dựng những công trình dân dụng đến những căn Villa cao cấp."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://noithatad.vn/" />
+<meta property="og:locale" content="vi_VN" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Kiến Trúc Nội Thất AD - Thiết Kế Nội Thất và Xây Dựng" />
+<meta property="og:description" content="Kiến trúc Nội thất AD là công ty chuyên thiết kế thi công nội thất và xây dựng những công trình dân dụng đến những căn Villa cao cấp." />
+<meta property="og:url" content="https://noithatad.vn/" />
+<meta property="og:site_name" content="Kiến Trúc Nội Thất AD" />
+<meta property="og:updated_time" content="2021-07-06T21:54:54+07:00" />
+<meta property="og:image" content="https://noithatad.vn/wp-content/uploads/2021/06/thi-cong-noi-that-vinhomes-phong-ngu-dep-hcm-apartment-decor-1024x683.jpg" />
+<meta property="og:image:secure_url" content="https://noithatad.vn/wp-content/uploads/2021/06/thi-cong-noi-that-vinhomes-phong-ngu-dep-hcm-apartment-decor-1024x683.jpg" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="683" />
+<meta property="og:image:alt" content="thi công nội thất chung cư 1 phòng ngủ" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Kiến Trúc Nội Thất AD - Thiết Kế Nội Thất và Xây Dựng" />
+<meta name="twitter:description" content="Kiến trúc Nội thất AD là công ty chuyên thiết kế thi công nội thất và xây dựng những công trình dân dụng đến những căn Villa cao cấp." />
+<meta name="twitter:site" content="@@kien_ad" />
+<meta name="twitter:creator" content="@kien_ad" />
+<meta name="twitter:image" content="https://noithatad.vn/wp-content/uploads/2021/06/thi-cong-noi-that-vinhomes-phong-ngu-dep-hcm-apartment-decor-1024x683.jpg" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"Place","@id":"https://noithatad.vn/#place","geo":{"@type":"GeoCoordinates","latitude":"10.80860353863388","longitude":" 106.77710057414389"},"hasMap":"https://www.google.com/maps/search/?api=1&amp;query=10.80860353863388, 106.77710057414389","address":{"@type":"PostalAddress","streetAddress":"607A \u0110\u1ed7 Xu\u00e2n H\u1ee3p","addressLocality":"Ph\u01b0\u1eddng Ph\u01b0\u1edbc Long B","addressRegion":"Qu\u1eadn 9","postalCode":"71200","addressCountry":"Vi\u1ec7t Nam"}},{"@type":["FurnitureStore","Organization"],"@id":"https://noithatad.vn/#organization","name":"Ki\u1ebfn Tr\u00fac N\u1ed9i Th\u1ea5t AD","url":"https://noithatad.vn","email":"noithatadcorp@gmail.com","address":{"@type":"PostalAddress","streetAddress":"607A \u0110\u1ed7 Xu\u00e2n H\u1ee3p","addressLocality":"Ph\u01b0\u1eddng Ph\u01b0\u1edbc Long B","addressRegion":"Qu\u1eadn 9","postalCode":"71200","addressCountry":"Vi\u1ec7t Nam"},"logo":{"@type":"ImageObject","@id":"https://noithatad.vn/#logo","url":"https://noithatad.vn/wp-content/uploads/2021/04/BIEU_TUONG_NOI_THAT_AD_LOGO.png","caption":"Ki\u1ebfn Tr\u00fac N\u1ed9i Th\u1ea5t AD","inLanguage":"vi","width":"512","height":"512"},"priceRange":"500","openingHours":["Monday,Tuesday,Wednesday,Thursday,Friday,Saturday 08:00-17:00"],"location":{"@id":"https://noithatad.vn/#place"},"image":{"@id":"https://noithatad.vn/#logo"},"telephone":"0906888740"},{"@type":"WebSite","@id":"https://noithatad.vn/#website","url":"https://noithatad.vn","name":"Ki\u1ebfn Tr\u00fac N\u1ed9i Th\u1ea5t AD","publisher":{"@id":"https://noithatad.vn/#organization"},"inLanguage":"vi","potentialAction":{"@type":"SearchAction","target":"https://noithatad.vn/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://noithatad.vn/wp-content/uploads/2021/04/kien_truc_noi_that_ad_logo.png","url":"https://noithatad.vn/wp-content/uploads/2021/04/kien_truc_noi_that_ad_logo.png","width":"200","height":"200","inLanguage":"vi"},{"@type":"Person","@id":"https://noithatad.vn/tac-gia/noithatad/","name":"D\u0169ng Nguy\u1ec5n","description":"T\u00f4i l\u00e0 Nguy\u1ec5n Ti\u1ebfn D\u0169ng Founder v\u00e0 CEO c\u00f4ng ty Ki\u1ebfn Tr\u00fac N\u1ed9i Th\u1ea5t AD. V\u1edbi h\u01a1n 8 n\u0103m kinh nghi\u1ec7m trong ng\u00e0nh x\u00e2y d\u1ef1ng d\u00e2n d\u1ee5ng v\u00e0 s\u1ea3n xu\u1ea5t n\u1ed9i th\u1ea5t.","url":"https://noithatad.vn/tac-gia/noithatad/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/acfd5c3d949fb0e6d26a8980c6b8360a?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/acfd5c3d949fb0e6d26a8980c6b8360a?s=96&amp;d=mm&amp;r=g","caption":"D\u0169ng Nguy\u1ec5n","inLanguage":"vi"},"sameAs":["https://noithatad.vn","https://www.facebook.com/dung.ADID/","https://twitter.com/@kien_ad"],"worksFor":{"@id":"https://noithatad.vn/#organization"}},{"@type":"WebPage","@id":"https://noithatad.vn/#webpage","url":"https://noithatad.vn/","name":"Ki\u1ebfn Tr\u00fac N\u1ed9i Th\u1ea5t AD - Thi\u1ebft K\u1ebf N\u1ed9i Th\u1ea5t v\u00e0 X\u00e2y D\u1ef1ng","datePublished":"2021-04-10T06:24:58+07:00","dateModified":"2021-07-06T21:54:54+07:00","author":{"@id":"https://noithatad.vn/tac-gia/noithatad/"},"isPartOf":{"@id":"https://noithatad.vn/#website"},"primaryImageOfPage":{"@id":"https://noithatad.vn/wp-content/uploads/2021/04/kien_truc_noi_that_ad_logo.png"},"inLanguage":"vi"},{"@type":"Article","headline":"Ki\u1ebfn Tr\u00fac N\u1ed9i Th\u1ea5t AD - Thi\u1ebft K\u1ebf N\u1ed9i Th\u1ea5t v\u00e0 X\u00e2y D\u1ef1ng","keywords":"ki\u1ebfn tr\u00fac n\u1ed9i th\u1ea5t AD","datePublished":"2021-04-10T06:24:58+07:00","dateModified":"2021-07-06T21:54:54+07:00","author":{"@type":"Person","name":"D\u0169ng Nguy\u1ec5n"},"publisher":{"@id":"https://noithatad.vn/#organization"},"description":"Ki\u1ebfn tr\u00fac N\u1ed9i th\u1ea5t AD l\u00e0 c\u00f4ng ty chuy\u00ean thi\u1ebft k\u1ebf thi c\u00f4ng n\u1ed9i th\u1ea5t v\u00e0 x\u00e2y d\u1ef1ng nh\u1eefng c\u00f4ng tr\u00ecnh d\u00e2n d\u1ee5ng \u0111\u1ebfn nh\u1eefng c\u0103n Villa cao c\u1ea5p.","name":"Ki\u1ebfn Tr\u00fac N\u1ed9i Th\u1ea5t AD - Thi\u1ebft K\u1ebf N\u1ed9i Th\u1ea5t v\u00e0 X\u00e2y D\u1ef1ng","@id":"https://noithatad.vn/#richSnippet","isPartOf":{"@id":"https://noithatad.vn/#webpage"},"image":{"@id":"https://noithatad.vn/wp-content/uploads/2021/04/kien_truc_noi_that_ad_logo.png"},"inLanguage":"vi","mainEntityOfPage":{"@id":"https://noithatad.vn/#webpage"}}]}</script>
+<meta name="google-site-verification" content="ZfTZ2WgIiNocb3b3omcgjTaZgnRgBbbMYT6fBoPJz5k" />
+<meta name="msvalidate.01" content="54B15E9B4790DECF961AAD75A5210BD0" />
+<meta name="yandex-verification" content="56957a2f92d69e02" />
+<meta name="p:domain_verify" content="449985d18764ae5be674038dd6d77af3" />
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin Kiến Trúc Nội Thất AD &raquo;" href="https://noithatad.vn/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dòng phản hồi Kiến Trúc Nội Thất AD &raquo;" href="https://noithatad.vn/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Kiến Trúc Nội Thất AD &raquo; Apartment Décor Dòng phản hồi" href="https://noithatad.vn/sample-page/feed/" />
+<meta content="Divi v.4.9.9" name="generator"/><style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	
+
+
+
+
+<link crossorigin="anonymous" rel='stylesheet' id='et-builder-googlefonts-cached-css'  href='https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Quicksand:300,regular,500,600,700|Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;subset=latin,latin-ext&#038;display=swap' type='text/css' media='all' />
+<script type='text/javascript' defer='defer' src='https://noithatad.vn/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' defer='defer' src='https://noithatad.vn/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://noithatad.vn/wp-json/" /><link rel="alternate" type="application/json" href="https://noithatad.vn/wp-json/wp/v2/pages/2" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://noithatad.vn/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://noithatad.vn/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8" />
+<link rel='shortlink' href='https://noithatad.vn/' />
+<!-- Schema optimized by Schema Pro --><script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"Apartment Décor","image":{"@type":"ImageObject","url":"https://noithatad.vn/wp-content/uploads/2021/04/BIEU_TUONG_NOI_THAT_AD_LOGO.png","width":512,"height":512},"telephone":"0906888740","url":"https://noithatad.vn/","address":{"@type":"PostalAddress","streetAddress":"607A Đỗ Xuân Hợp, Phường Phước Long B, Quận 9, TP.HCM","addressLocality":"Hồ Chí Minh","postalCode":"700000","addressRegion":"Hồ Chí Minh","addressCountry":"VN"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"5","reviewCount":"92"},"priceRange":"1000000","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"08:00","closes":"17:00"}],"geo":{"@type":"GeoCoordinates","latitude":"","longitude":""}}</script><!-- / Schema optimized by Schema Pro --><!-- organization Schema optimized by Schema Pro --><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Corporation","name":"Ki\u1ebfn Tr\u00fac N\u1ed9i Th\u1ea5t AD","url":"https:\/\/noithatad.vn","logo":{"@type":"ImageObject","url":"https:\/\/noithatad.vn\/wp-content\/uploads\/2021\/04\/BIEU_TUONG_NOI_THAT_AD_LOGO-60x60.png","width":60,"height":60},"sameAs":["https:\/\/www.facebook.com\/ApartmentDecorID","https:\/\/www.instagram.com\/apartment_decor_id\/","https:\/\/www.youtube.com\/channel\/UCPEw5sGJiby97TUw6dv4DGA","https:\/\/twitter.com\/kien_ad","https:\/\/www.pinterest.com\/kientrucnoithatad","https:\/\/www.linkedin.com\/in\/ki%E1%BA%BFn-tr%C3%BAc-n%E1%BB%99i-th%E1%BA%A5t-ad-077915207\/","https:\/\/www.tumblr.com\/blog\/kientrucnoithatad"]}</script><!-- / organization Schema optimized by Schema Pro --><!-- site-navigation-element Schema optimized by Schema Pro --><script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Apartment D\u00e9cor","url":"https:\/\/noithatad.vn\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"C\u00f4ng Tr\u00ecnh","url":"#"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"C\u00f4ng Tr\u00ecnh Th\u1ef1c Hi\u1ec7n","url":"https:\/\/noithatad.vn\/cong-trinh\/cong-trinh-thuc-hien\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"C\u00f4ng Tr\u00ecnh Tham Kh\u1ea3o","url":"https:\/\/noithatad.vn\/cong-trinh\/cong-trinh-tham-khao\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi\u1ebft K\u1ebf N\u1ed9i Th\u1ea5t","url":"https:\/\/noithatad.vn\/thiet-ke-noi-that\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi\u1ebft K\u1ebf Chung C\u01b0","url":"https:\/\/noithatad.vn\/thiet-ke-noi-that-chung-cu\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Chung C\u01b0 1 Ph\u00f2ng Ng\u1ee7","url":"https:\/\/noithatad.vn\/chung-cu-1-phong-ngu\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi\u1ebft K\u1ebf Nh\u00e0 Ph\u1ed1","url":"https:\/\/noithatad.vn\/thiet-ke-noi-that-nha-pho\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi\u1ebft K\u1ebf V\u0103n Ph\u00f2ng","url":"https:\/\/noithatad.vn\/thiet-ke-noi-that-van-phong\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi\u1ebft K\u1ebf Showroom","url":"https:\/\/noithatad.vn\/thiet-ke-showroom\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi\u1ebft K\u1ebf Ph\u00f2ng Kh\u00e1ch","url":"https:\/\/noithatad.vn\/thiet-ke-noi-that-phong-khach\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi\u1ebft K\u1ebf Ph\u00f2ng Ng\u1ee7","url":"https:\/\/noithatad.vn\/thiet-ke-noi-that-phong-ngu\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi\u1ebft K\u1ebf Ph\u00f2ng B\u1ebfp","url":"https:\/\/noithatad.vn\/thiet-ke-noi-that-phong-bep\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi\u1ebft K\u1ebf Ph\u00f2ng Tr\u1ebb Em","url":"https:\/\/noithatad.vn\/thiet-ke-noi-that-phong-tre-em\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi C\u00f4ng N\u1ed9i Th\u1ea5t","url":"https:\/\/noithatad.vn\/thi-cong-noi-that\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi C\u00f4ng Chung C\u01b0","url":"https:\/\/noithatad.vn\/thi-cong-noi-that-chung-cu\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi C\u00f4ng Nh\u00e0 Ph\u1ed1","url":"https:\/\/noithatad.vn\/thi-cong-noi-that-nha-pho\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi C\u00f4ng V\u0103n Ph\u00f2ng","url":"https:\/\/noithatad.vn\/thi-cong-noi-that-van-phong\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi C\u00f4ng Showroom","url":"https:\/\/noithatad.vn\/thi-cong-noi-that-showroom\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi C\u00f4ng Ph\u00f2ng Kh\u00e1ch","url":"https:\/\/noithatad.vn\/thi-cong-noi-that-phong-khach\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi C\u00f4ng Ph\u00f2ng Ng\u1ee7","url":"https:\/\/noithatad.vn\/thi-cong-noi-that-phong-ngu\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Thi C\u00f4ng Ph\u00f2ng B\u1ebfp","url":"https:\/\/noithatad.vn\/thi-cong-noi-that-phong-bep\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"X\u00e2y D\u1ef1ng","url":"https:\/\/noithatad.vn\/xay-dung-dan-dung\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"X\u00e2y Nh\u00e0 Tr\u1ecdn G\u00f3i","url":"https:\/\/noithatad.vn\/xay-dung-dan-dung\/xay-nha-tron-goi\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"X\u00e2y D\u1ef1ng Ph\u1ea7n Th\u00f4","url":"https:\/\/noithatad.vn\/xay-dung-phan-tho\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"B\u00e1o Gi\u00e1 Thi\u1ebft K\u1ebf Ki\u1ebfn Tr\u00fac","url":"https:\/\/noithatad.vn\/dich-vu\/bao-gia-thiet-ke-kien-truc\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Tin T\u1ee9c","url":"https:\/\/noithatad.vn\/tin-tuc\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"C\u1ea9m nang ki\u1ebfn tr\u00fac","url":"https:\/\/noithatad.vn\/tin-tuc\/cam-nang-kien-truc\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"C\u1ea9m nang n\u1ed9i th\u1ea5t","url":"https:\/\/noithatad.vn\/tin-tuc\/cam-nang-noi-that\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Tuy\u1ec3n d\u1ee5ng","url":"https:\/\/noithatad.vn\/tin-tuc\/tuyen-dung\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Lifestyle","url":"https:\/\/noithatad.vn\/tin-tuc\/lifestyle\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Gi\u1edbi Thi\u1ec7u","url":"https:\/\/noithatad.vn\/gioi-thieu\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"D\u1ecbch V\u1ee5","url":"https:\/\/noithatad.vn\/dich-vu\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Ch\u00ednh s\u00e1ch b\u1ea3o m\u1eadt th\u00f4ng tin","url":"https:\/\/noithatad.vn\/chinh-sach-bao-mat-thong-tin\/"},{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","id":"site-navigation","name":"Li\u00ean H\u1ec7","url":"https:\/\/noithatad.vn\/lien-he\/"}]}</script><!-- / site-navigation-element Schema optimized by Schema Pro --><!-- sitelink-search-box Schema optimized by Schema Pro --><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebSite","name":"Ki\u1ebfn Tr\u00fac N\u1ed9i Th\u1ea5t AD","url":"https:\/\/noithatad.vn","potentialAction":[{"@type":"SearchAction","target":"https:\/\/noithatad.vn\/?s={search_term_string}","query-input":"required name=search_term_string"}]}</script><!-- / sitelink-search-box Schema optimized by Schema Pro --><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="preload" href="https://noithatad.vn/wp-content/themes/Divi/core/admin/fonts/modules.ttf" as="font" crossorigin="anonymous"><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><link rel="amphtml" href="https://noithatad.vn/?amp"><style type="text/css">.saboxplugin-wrap{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;border:1px solid #eee;width:100%;clear:both;display:block;overflow:hidden;word-wrap:break-word;position:relative}.saboxplugin-wrap .saboxplugin-gravatar{float:left;padding:0 20px 20px 20px}.saboxplugin-wrap .saboxplugin-gravatar img{max-width:100px;height:auto;border-radius:0;}.saboxplugin-wrap .saboxplugin-authorname{font-size:18px;line-height:1;margin:20px 0 0 20px;display:block}.saboxplugin-wrap .saboxplugin-authorname a{text-decoration:none}.saboxplugin-wrap .saboxplugin-authorname a:focus{outline:0}.saboxplugin-wrap .saboxplugin-desc{display:block;margin:5px 20px}.saboxplugin-wrap .saboxplugin-desc a{text-decoration:underline}.saboxplugin-wrap .saboxplugin-desc p{margin:5px 0 12px}.saboxplugin-wrap .saboxplugin-web{margin:0 20px 15px;text-align:left}.saboxplugin-wrap .sab-web-position{text-align:right}.saboxplugin-wrap .saboxplugin-web a{color:#ccc;text-decoration:none}.saboxplugin-wrap .saboxplugin-socials{position:relative;display:block;background:#fcfcfc;padding:5px;border-top:1px solid #eee}.saboxplugin-wrap .saboxplugin-socials a svg{width:20px;height:20px}.saboxplugin-wrap .saboxplugin-socials a svg .st2{fill:#fff; transform-origin:center center;}.saboxplugin-wrap .saboxplugin-socials a svg .st1{fill:rgba(0,0,0,.3)}.saboxplugin-wrap .saboxplugin-socials a:hover{opacity:.8;-webkit-transition:opacity .4s;-moz-transition:opacity .4s;-o-transition:opacity .4s;transition:opacity .4s;box-shadow:none!important;-webkit-box-shadow:none!important}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color{box-shadow:none;padding:0;border:0;-webkit-transition:opacity .4s;-moz-transition:opacity .4s;-o-transition:opacity .4s;transition:opacity .4s;display:inline-block;color:#fff;font-size:0;text-decoration:inherit;margin:5px;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;overflow:hidden}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-grey{text-decoration:inherit;box-shadow:none;position:relative;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1;margin:10px 5px;color:#444;fill:#444}.clearfix:after,.clearfix:before{content:' ';display:table;line-height:0;clear:both}.ie7 .clearfix{zoom:1}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-twitch{border-color:#38245c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-addthis{border-color:#e91c00}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-behance{border-color:#003eb0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-delicious{border-color:#06c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-deviantart{border-color:#036824}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-digg{border-color:#00327c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-dribbble{border-color:#ba1655}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-facebook{border-color:#1e2e4f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-flickr{border-color:#003576}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-github{border-color:#264874}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-google{border-color:#0b51c5}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-googleplus{border-color:#96271a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-html5{border-color:#902e13}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-instagram{border-color:#1630aa}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-linkedin{border-color:#00344f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-pinterest{border-color:#5b040e}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-reddit{border-color:#992900}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-rss{border-color:#a43b0a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-sharethis{border-color:#5d8420}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-skype{border-color:#00658a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-soundcloud{border-color:#995200}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-spotify{border-color:#0f612c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-stackoverflow{border-color:#a95009}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-steam{border-color:#006388}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-user_email{border-color:#b84e05}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-stumbleUpon{border-color:#9b280e}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-tumblr{border-color:#10151b}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-twitter{border-color:#0967a0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-vimeo{border-color:#0d7091}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-windows{border-color:#003f71}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-whatsapp{border-color:#003f71}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-wordpress{border-color:#0f3647}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-yahoo{border-color:#14002d}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-youtube{border-color:#900}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-xing{border-color:#000202}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-mixcloud{border-color:#2475a0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-vk{border-color:#243549}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-medium{border-color:#00452c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-quora{border-color:#420e00}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-meetup{border-color:#9b181c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-goodreads{border-color:#000}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-snapchat{border-color:#999700}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-500px{border-color:#00557f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-mastodont{border-color:#185886}.sabox-plus-item{margin-bottom:20px}@media screen and (max-width:480px){.saboxplugin-wrap{text-align:center}.saboxplugin-wrap .saboxplugin-gravatar{float:none;padding:20px 0;text-align:center;margin:0 auto;display:block}.saboxplugin-wrap .saboxplugin-gravatar img{float:none;display:inline-block;display:-moz-inline-stack;vertical-align:middle;zoom:1}.saboxplugin-wrap .saboxplugin-desc{margin:0 10px 20px;text-align:center}.saboxplugin-wrap .saboxplugin-authorname{text-align:center;margin:10px 0 20px}}body .saboxplugin-authorname a,body .saboxplugin-authorname a:hover{box-shadow:none;-webkit-box-shadow:none}a.sab-profile-edit{font-size:16px!important;line-height:1!important}.sab-edit-settings a,a.sab-profile-edit{color:#0073aa!important;box-shadow:none!important;-webkit-box-shadow:none!important}.sab-edit-settings{margin-right:15px;position:absolute;right:0;z-index:2;bottom:10px;line-height:20px}.sab-edit-settings i{margin-left:5px}.saboxplugin-socials{line-height:1!important}.rtl .saboxplugin-wrap .saboxplugin-gravatar{float:right}.rtl .saboxplugin-wrap .saboxplugin-authorname{display:flex;align-items:center}.rtl .saboxplugin-wrap .saboxplugin-authorname .sab-profile-edit{margin-right:10px}.rtl .sab-edit-settings{right:auto;left:0}img.sab-custom-avatar{max-width:75px;}.saboxplugin-wrap .saboxplugin-gravatar img {-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;}.saboxplugin-wrap .saboxplugin-gravatar img {-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color {-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color .st1 {display: none;}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color {-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color:hover,.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-grey:hover {-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-o-transform: rotate(360deg);-ms-transform: rotate(360deg);transform: rotate(360deg);}.saboxplugin-wrap .saboxplugin-authorname a,.saboxplugin-wrap .saboxplugin-authorname span {color:#f4af38;}.saboxplugin-wrap {margin-top:0px; margin-bottom:0px; padding: 0px 0px }.saboxplugin-wrap .saboxplugin-authorname {font-size:18px; line-height:25px;}.saboxplugin-wrap .saboxplugin-desc p, .saboxplugin-wrap .saboxplugin-desc {font-size:14px !important; line-height:21px !important;}.saboxplugin-wrap .saboxplugin-web {font-size:14px;}.saboxplugin-wrap .saboxplugin-socials a svg {width:36px;height:36px;}</style>			<style id="wpsp-style-frontend"></style>
+			<link rel="icon" href="https://noithatad.vn/wp-content/uploads/2021/04/cropped-BIEU_TUONG_NOI_THAT_AD_LOGO-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://noithatad.vn/wp-content/uploads/2021/04/cropped-BIEU_TUONG_NOI_THAT_AD_LOGO-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://noithatad.vn/wp-content/uploads/2021/04/cropped-BIEU_TUONG_NOI_THAT_AD_LOGO-180x180.png" />
+<meta name="msapplication-TileImage" content="https://noithatad.vn/wp-content/uploads/2021/04/cropped-BIEU_TUONG_NOI_THAT_AD_LOGO-270x270.png" />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+<body data-rsssl=1 class="home page-template-default page page-id-2 wp-schema-pro-2.6.0 et_pb_button_helper_class et_fullwidth_nav et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_expand et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns4 et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db et_minified_js et_minified_css">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLXCVL7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<div id="page-container">
+
+	
+	
+			<header id="main-header" data-height-onload="66">
+			<div class="container clearfix et_menu_container">
+							<div class="logo_container">
+					<span class="logo_helper"></span>
+					<a href="https://noithatad.vn/">
+						<img src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_logo_1.png" width="1920" height="300" alt="Kiến Trúc Nội Thất AD" id="logo" data-height-percentage="54" />
+					</a>
+				</div>
+							<div id="et-top-navigation" data-height="66" data-fixed-height="40">
+											<nav id="top-menu-nav">
+						<ul id="top-menu" class="nav"><li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-59"><a href="https://noithatad.vn/" aria-current="page">Apartment Décor</a></li>
+<li id="menu-item-1113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1113"><a href="#">Công Trình</a>
+<ul class="sub-menu">
+	<li id="menu-item-192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-192"><a href="https://noithatad.vn/cong-trinh/cong-trinh-thuc-hien/">Công Trình Thực Hiện</a></li>
+	<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191"><a href="https://noithatad.vn/cong-trinh/cong-trinh-tham-khao/">Công Trình Tham Khảo</a></li>
+</ul>
+</li>
+<li id="menu-item-784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-784"><a href="https://noithatad.vn/thiet-ke-noi-that/">Thiết Kế Nội Thất</a>
+<ul class="sub-menu">
+	<li id="menu-item-1446" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1446"><a href="https://noithatad.vn/thiet-ke-noi-that-chung-cu/">Thiết Kế Chung Cư</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1516" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1516"><a href="https://noithatad.vn/chung-cu-1-phong-ngu/">Chung Cư 1 Phòng Ngủ</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1447"><a href="https://noithatad.vn/thiet-ke-noi-that-nha-pho/">Thiết Kế Nhà Phố</a></li>
+	<li id="menu-item-1452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1452"><a href="https://noithatad.vn/thiet-ke-noi-that-van-phong/">Thiết Kế Văn Phòng</a></li>
+	<li id="menu-item-1453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1453"><a href="https://noithatad.vn/thiet-ke-showroom/">Thiết Kế Showroom</a></li>
+	<li id="menu-item-1449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1449"><a href="https://noithatad.vn/thiet-ke-noi-that-phong-khach/">Thiết Kế Phòng Khách</a></li>
+	<li id="menu-item-1450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1450"><a href="https://noithatad.vn/thiet-ke-noi-that-phong-ngu/">Thiết Kế Phòng Ngủ</a></li>
+	<li id="menu-item-1448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1448"><a href="https://noithatad.vn/thiet-ke-noi-that-phong-bep/">Thiết Kế Phòng Bếp</a></li>
+	<li id="menu-item-1451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1451"><a href="https://noithatad.vn/thiet-ke-noi-that-phong-tre-em/">Thiết Kế Phòng Trẻ Em</a></li>
+</ul>
+</li>
+<li id="menu-item-1468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1468"><a href="https://noithatad.vn/thi-cong-noi-that/">Thi Công Nội Thất</a>
+<ul class="sub-menu">
+	<li id="menu-item-1415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1415"><a href="https://noithatad.vn/thi-cong-noi-that-chung-cu/">Thi Công Chung Cư</a></li>
+	<li id="menu-item-1416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1416"><a href="https://noithatad.vn/thi-cong-noi-that-nha-pho/">Thi Công Nhà Phố</a></li>
+	<li id="menu-item-1421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1421"><a href="https://noithatad.vn/thi-cong-noi-that-van-phong/">Thi Công Văn Phòng</a></li>
+	<li id="menu-item-1420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1420"><a href="https://noithatad.vn/thi-cong-noi-that-showroom/">Thi Công Showroom</a></li>
+	<li id="menu-item-1418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1418"><a href="https://noithatad.vn/thi-cong-noi-that-phong-khach/">Thi Công Phòng Khách</a></li>
+	<li id="menu-item-1419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1419"><a href="https://noithatad.vn/thi-cong-noi-that-phong-ngu/">Thi Công Phòng Ngủ</a></li>
+	<li id="menu-item-1417" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1417"><a href="https://noithatad.vn/thi-cong-noi-that-phong-bep/">Thi Công Phòng Bếp</a></li>
+</ul>
+</li>
+<li id="menu-item-1707" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1707"><a href="https://noithatad.vn/xay-dung-dan-dung/">Xây Dựng</a>
+<ul class="sub-menu">
+	<li id="menu-item-1713" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1713"><a href="https://noithatad.vn/xay-dung-dan-dung/xay-nha-tron-goi/">Xây Nhà Trọn Gói</a></li>
+	<li id="menu-item-1714" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1714"><a href="https://noithatad.vn/xay-dung-phan-tho/">Xây Dựng Phần Thô</a></li>
+	<li id="menu-item-780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-780"><a href="https://noithatad.vn/dich-vu/bao-gia-thiet-ke-kien-truc/">Báo Giá Thiết Kế Kiến Trúc</a></li>
+</ul>
+</li>
+<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-57"><a href="https://noithatad.vn/tin-tuc/">Tin Tức</a>
+<ul class="sub-menu">
+	<li id="menu-item-1699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1699"><a href="https://noithatad.vn/tin-tuc/cam-nang-kien-truc/">Cẩm nang kiến trúc</a></li>
+	<li id="menu-item-1172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1172"><a href="https://noithatad.vn/tin-tuc/cam-nang-noi-that/">Cẩm nang nội thất</a></li>
+	<li id="menu-item-1174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1174"><a href="https://noithatad.vn/tin-tuc/tuyen-dung/">Tuyển dụng</a></li>
+	<li id="menu-item-1173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1173"><a href="https://noithatad.vn/tin-tuc/lifestyle/">Lifestyle</a></li>
+</ul>
+</li>
+<li id="menu-item-1272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1272"><a href="https://noithatad.vn/gioi-thieu/">Giới Thiệu</a>
+<ul class="sub-menu">
+	<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="https://noithatad.vn/dich-vu/">Dịch Vụ</a></li>
+	<li id="menu-item-1700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-1700"><a href="https://noithatad.vn/chinh-sach-bao-mat-thong-tin/">Chính sách bảo mật thông tin</a></li>
+</ul>
+</li>
+<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="https://noithatad.vn/lien-he/">Liên Hệ</a></li>
+</ul>						</nav>
+					
+					
+					
+										<div id="et_top_search">
+						<span id="et_search_icon"></span>
+					</div>
+					
+					<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Chọn trang</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+			<div class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="https://noithatad.vn/">
+					<input type="search" class="et-search-field" placeholder="Tìm kiếm &hellip;" value="" name="s" title="Tìm:" />					</form>
+					<span class="et_close_search_field"></span>
+				</div>
+			</div>
+		</header> <!-- #main-header -->
+			<div id="et-main-area">
+	
+<div id="main-content">
+
+
+			
+				<article id="post-2" class="post-2 page type-page status-publish hentry">
+
+				
+					<div class="entry-content">
+					<div id="et-boc" class="et-boc">
+			
+		<div class="et-l et-l--post">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div class="et_pb_section et_pb_section_0 et_pb_fullwidth_section et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_module et_pb_fullwidth_slider_0 et_pb_slider">
+				<div class="et_pb_slides">
+					<div class="et_pb_slide et_pb_slide_0 et_pb_bg_layout_dark et_pb_media_alignment_center et-pb-active-slide" data-slide-id="et_pb_slide_0">
+				
+				
+				<div class="et_pb_container clearfix">
+					<div class="et_pb_slider_container_inner">
+						
+						<div class="et_pb_slide_description">
+							
+							
+						</div> <!-- .et_pb_slide_description -->
+					</div>
+				</div> <!-- .et_pb_container -->
+				
+			</div> <!-- .et_pb_slide -->
+			<div class="et_pb_slide et_pb_slide_1 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_1">
+				
+				
+				<div class="et_pb_container clearfix">
+					<div class="et_pb_slider_container_inner">
+						
+						<div class="et_pb_slide_description">
+							
+							
+						</div> <!-- .et_pb_slide_description -->
+					</div>
+				</div> <!-- .et_pb_container -->
+				
+			</div> <!-- .et_pb_slide -->
+			
+				</div> <!-- .et_pb_slides -->
+				
+			</div> <!-- .et_pb_slider -->
+			
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_1 et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_0 et_animated">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h1 style="text-align: center;"><strong>KIẾN TRÚC &amp; NỘI THẤT AD</strong></h1>
+<blockquote id="thiết-kế-nội-thất-trọn-gói-tphcm" cite="https://noithatad.vn/dich-vu?thiết-kế-nội-thất-trọn-gói-tphcm">
+<p style="text-align: center;">Kiến Trúc &amp; Nội Thất AD với nền tảng thiết kế và thi công nội thất trong 10 năm, chúng tôi cam kết cung cấp đến cho khách hàng những sản phẩm và dịch vụ là thế mạnh của công ty: <strong>THIẾT KẾ NỘI THẤT</strong>, <strong>THI CÔNG NỘI THẤT</strong> và <strong>XÂY DỰNG DÂN DỤNG</strong>.</p>
+</blockquote></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row --><div class="et_pb_row et_pb_row_1">
+				<div class="et_pb_column et_pb_column_1_3 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_0">
+				
+				
+				<span class="et_pb_image_wrap "><img width="1920" height="1280" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201280'%3E%3C/svg%3E" alt="trang trí nội thất ad" title="apartment_decor_banner_trang_trí_nội_thất" data-lazy-srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that-480x320.png 480w" data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="wp-image-428" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that.png" /><noscript><img width="1920" height="1280" src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that.png" alt="trang trí nội thất ad" title="apartment_decor_banner_trang_trí_nội_thất" srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that-480x320.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="wp-image-428" /></noscript></span>
+			</div><div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h2 style="text-align: center;"><strong>♦ THIẾT KẾ NỘI THẤT</strong></h2>
+<p>Là một trong những thế mạnh của Kiến Trúc &amp; Nội Thất AD từ ban đầu. Chúng tôi sẽ đem đến cho khách hàng những thiết kế thực tế và nâng cấp lối sống của bạn.</p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_1">
+				
+				
+				<span class="et_pb_image_wrap "><img width="1920" height="1280" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201280'%3E%3C/svg%3E" alt="công trình tiêu biểu căn hộ chung cư" title="apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu" data-lazy-srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu-480x320.png 480w" data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="wp-image-394" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu.png" /><noscript><img width="1920" height="1280" src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu.png" alt="công trình tiêu biểu căn hộ chung cư" title="apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu" srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu-480x320.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="wp-image-394" /></noscript></span>
+			</div><div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h2 style="text-align: center;"><strong>♦ THI CÔNG NỘI THẤT</strong></h2>
+<p>Với xưởng sản xuất đồ nội thất 1000m2, chúng tôi đem đến cho khách hàng những sản phẩm tốt và tương đồng thiết kế nhất mà chúng tôi đã thiết kế. </p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_2">
+				
+				
+				<span class="et_pb_image_wrap "><img width="1920" height="1280" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201280'%3E%3C/svg%3E" alt="kiến trúc apartment decor" title="apartment_decor_banner_kiến trúc_xây_dựng" data-lazy-srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung-480x320.png 480w" data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="wp-image-446" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung.png" /><noscript><img width="1920" height="1280" src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung.png" alt="kiến trúc apartment decor" title="apartment_decor_banner_kiến trúc_xây_dựng" srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung-480x320.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="wp-image-446" /></noscript></span>
+			</div><div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h2 style="text-align: center;"><strong>♦ XÂY DỰNG DÂN DỤNG</strong></h2>
+<p>Chúng tôi cung cấp những gói hạng mục xây dựng dân dụng nhà cửa dành cho khách hàng.</p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_2 et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_2">
+				<div class="et_pb_column et_pb_column_1_2 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_code et_pb_code_0">
+				
+				
+				<div class="et_pb_code_inner"><iframe loading="lazy" width="560" height="315" src="about:blank" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://www.youtube.com/embed/MZKr3eUb0G8"></iframe><noscript><iframe width="560" height="315" src="https://www.youtube.com/embed/MZKr3eUb0G8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></noscript></div>
+			</div> <!-- .et_pb_code -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_2 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_0  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#x6b;</span></span></div>
+					<div class="et_pb_blurb_container">
+						<h3 class="et_pb_module_header"><span>BÁO GIÁ THIẾT KẾ NỘI THẤT</span></h3>
+						<div class="et_pb_blurb_description"><p>Thiết kế nội thất là phần quan trọng giúp cho căn nhà của bạn hoàn thiện hơn. Thiết kế nội thất cũng sẽ khiến bạn thay đổi lối sống một cách tích cực hơn nếu thiết kế đó tốt.</p></div>
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb --><div class="et_pb_module et_pb_blurb et_pb_blurb_1  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#xe009;</span></span></div>
+					<div class="et_pb_blurb_container">
+						<h3 class="et_pb_module_header"><span>BÁO GIÁ THI CÔNG NỘI THẤT</span></h3>
+						<div class="et_pb_blurb_description"><p>Thi công nội thất rất quan trọng, vì nó ảnh hưởng trực tiếp tới việc biến những hình ảnh thiết kế nội thất đẹp trở nên thực tế</p></div>
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb --><div class="et_pb_module et_pb_blurb et_pb_blurb_2  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#xe001;</span></span></div>
+					<div class="et_pb_blurb_container">
+						<h3 class="et_pb_module_header"><span>BÁO GIÁ XÂY DỰNG TRỌN GÓI</span></h3>
+						<div class="et_pb_blurb_description"><p>Xây dựng trọn gói từ việc lên thiết kế kiến trúc đến xây dựng sẽ tiết kiệm tối đa thời gian và tiền bạc cho khách hàng. Chất lượng và chi phí cho việc xây dựng trọn gói của AD luôn cạnh tranh và tốt trên thị trường.</p></div>
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb --><div class="et_pb_module et_pb_blurb et_pb_blurb_3  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#xe009;</span></span></div>
+					<div class="et_pb_blurb_container">
+						<h3 class="et_pb_module_header"><span>BÁO GIÁ CẢI TẠO</span></h3>
+						<div class="et_pb_blurb_description"><p>Cải tạo và sửa chữa ngôi nhà đã xuống cấp hay muốn thay đổi không gian phòng, hãy liên hệ với Kiến Trúc và Nội Thất AD để nhận chất lượng tốt nhất.</p></div>
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row --><div class="et_pb_row et_pb_row_3">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module ">
+				<a class="et_pb_button et_pb_custom_button_icon et_pb_button_0 et_animated et_pb_bg_layout_light" href="" data-icon="&#x3d;">NHẬN BÁO GIÁ</a>
+			</div>
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_3 et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_4">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_4 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
+				
+				
+				<div class="et_pb_text_inner"><h2>Công Trình Tiêu Biểu</h2></div>
+			</div> <!-- .et_pb_text --><div class="et_pb_module et_pb_divider et_pb_divider_0 et_animated et_pb_divider_position_center et_pb_space"><div class="et_pb_divider_internal"></div></div><div class="et_pb_module et_pb_text et_pb_text_5 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
+				
+				
+				<div class="et_pb_text_inner"><p>Đây là những công trình tiêu biểu chúng tôi đã thiết kế và thi công để khách hàng đánh giá được chất lượng và khả năng mà Kiến Trúc &amp; Nội Thất AD đem lại.</p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row --><div class="et_pb_row et_pb_row_5 et_animated">
+				<div class="et_pb_column et_pb_column_1_3 et_pb_column_8  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_4  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_dark">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><img width="1920" height="1280" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201280'%3E%3C/svg%3E" alt="kiến trúc banner apartment decor" data-lazy-srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_xay_dung.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_xay_dung-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_xay_dung-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_xay_dung-480x320.png 480w" data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-453" title="Apartment Décor 1" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_xay_dung.png"><noscript><img width="1920" height="1280" src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_xay_dung.png" alt="kiến trúc banner apartment decor" srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_xay_dung.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_xay_dung-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_xay_dung-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_xay_dung-480x320.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-453" title="Apartment Décor 1"></noscript></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>KHU NHÀ HÀNG SINH THÁI VĨNH LONG</span></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb --><div class="et_pb_module et_pb_blurb et_pb_blurb_5  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_dark">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><img width="1920" height="1280" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201280'%3E%3C/svg%3E" alt="công trình tiêu biểu spa beauty" data-lazy-srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_spa_showroom.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_spa_showroom-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_spa_showroom-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_spa_showroom-480x320.png 480w" data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-397" title="Apartment Décor 2" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_spa_showroom.png"><noscript><img width="1920" height="1280" src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_spa_showroom.png" alt="công trình tiêu biểu spa beauty" srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_spa_showroom.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_spa_showroom-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_spa_showroom-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_spa_showroom-480x320.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-397" title="Apartment Décor 2"></noscript></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>SPA & BEAUTY LYSA</span></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_9  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_6  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_dark">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><a href="https://noithatad.vn/project/nha-pho-vinh-long"><span class="et_pb_image_wrap"><img width="1920" height="1280" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201280'%3E%3C/svg%3E" alt="kiến trúc apartment decor" data-lazy-srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung-480x320.png 480w" data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-446" title="Apartment Décor 3" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung.png"><noscript><img width="1920" height="1280" src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung.png" alt="kiến trúc apartment decor" srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_kien-truc_xay_dung-480x320.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-446" title="Apartment Décor 3"></noscript></span></a></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><a href="https://noithatad.vn/project/nha-pho-vinh-long">NHÀ PHỐ VĨNH LONG</a></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb --><div class="et_pb_module et_pb_blurb et_pb_blurb_7  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_dark">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><img width="1920" height="1280" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201280'%3E%3C/svg%3E" alt="trang trí nội thất ad" data-lazy-srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that-480x320.png 480w" data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-428" title="Apartment Décor 4" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that.png"><noscript><img width="1920" height="1280" src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that.png" alt="trang trí nội thất ad" srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_banner_trang_tri_noi_that-480x320.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-428" title="Apartment Décor 4"></noscript></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>NHÀ PHỐ - ĐẶNG VĂN NGỮ - PHÚ NHUẬN</span></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_10  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_8  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_dark">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><img width="1920" height="1280" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201280'%3E%3C/svg%3E" alt="công trình tiêu biểu căn hộ chung cư" data-lazy-srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu-480x320.png 480w" data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-394" title="Apartment Décor 5" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu.png"><noscript><img width="1920" height="1280" src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu.png" alt="công trình tiêu biểu căn hộ chung cư" srcset="https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/apartment_decor_cong_trinh_tieu_bieu_can_ho_chung_cu-480x320.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-394" title="Apartment Décor 5"></noscript></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>CĂN HỘ LEXINGTON - QUẬN 2</span></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb --><div class="et_pb_module et_pb_blurb et_pb_blurb_9  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_dark">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><img width="1920" height="1280" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201280'%3E%3C/svg%3E" alt="thi công nội thất khách sạn" data-lazy-srcset="https://noithatad.vn/wp-content/uploads/2021/04/thi-cong-noi-that-khach-san-lam-phuong-tay-ninh-apartment-decor.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/thi-cong-noi-that-khach-san-lam-phuong-tay-ninh-apartment-decor-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/thi-cong-noi-that-khach-san-lam-phuong-tay-ninh-apartment-decor-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/thi-cong-noi-that-khach-san-lam-phuong-tay-ninh-apartment-decor-480x320.png 480w" data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-663" title="Apartment Décor 6" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/04/thi-cong-noi-that-khach-san-lam-phuong-tay-ninh-apartment-decor.png"><noscript><img width="1920" height="1280" src="https://noithatad.vn/wp-content/uploads/2021/04/thi-cong-noi-that-khach-san-lam-phuong-tay-ninh-apartment-decor.png" alt="thi công nội thất khách sạn" srcset="https://noithatad.vn/wp-content/uploads/2021/04/thi-cong-noi-that-khach-san-lam-phuong-tay-ninh-apartment-decor.png 1920w, https://noithatad.vn/wp-content/uploads/2021/04/thi-cong-noi-that-khach-san-lam-phuong-tay-ninh-apartment-decor-1280x853.png 1280w, https://noithatad.vn/wp-content/uploads/2021/04/thi-cong-noi-that-khach-san-lam-phuong-tay-ninh-apartment-decor-980x653.png 980w, https://noithatad.vn/wp-content/uploads/2021/04/thi-cong-noi-that-khach-san-lam-phuong-tay-ninh-apartment-decor-480x320.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1920px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-663" title="Apartment Décor 6"></noscript></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>KHÁCH SẠN LAM PHƯƠNG - TÂY NINH</span></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row --><div class="et_pb_row et_pb_row_6">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_11  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_button_module_wrapper et_pb_button_1_wrapper et_pb_button_alignment_center et_pb_module ">
+				<a class="et_pb_button et_pb_custom_button_icon et_pb_button_1 et_animated et_pb_bg_layout_light" href="https://noithatad.vn/cong-trinh-thuc-hien/" data-icon="&#x24;">Xem Thêm Công Trình</a>
+			</div>
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_4 et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_7">
+				<div class="et_pb_column et_pb_column_1_2 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_6  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h3 style="text-align: center;"><strong>♦ QUY TRÌNH LÀM VIỆC</strong></h3></div>
+			</div> <!-- .et_pb_text --><div class="et_pb_module et_pb_image et_pb_image_3">
+				
+				
+				<span class="et_pb_image_wrap "><img width="1800" height="1376" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201800%201376'%3E%3C/svg%3E" alt="apartment décor project" title="apartment_décor_project" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_décor_project.jpg"><noscript><img width="1800" height="1376" src="https://noithatad.vn/wp-content/uploads/2021/04/apartment_décor_project.jpg" alt="apartment décor project" title="apartment_décor_project"></noscript></span>
+			</div>
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_2 et_pb_column_13  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_accordion et_pb_accordion_0">
+				
+				
+				<div class="et_pb_toggle et_pb_module et_pb_accordion_item et_pb_accordion_item_0  et_pb_toggle_open">
+				
+				
+				<h5 class="et_pb_toggle_title">BƯỚC 1: TIẾP NHẬN THÔNG TIN KHÁCH HÀNG</h5>
+				<div class="et_pb_toggle_content clearfix"><p>Khi bạn gửi thông tin nhu cầu đến với AD, chúng tôi sẽ tiếp nhận ngay và lên lịch hẹn gặp khách để tư vấn và khảo sát.</p></div> <!-- .et_pb_toggle_content -->
+			</div> <!-- .et_pb_toggle --><div class="et_pb_toggle et_pb_module et_pb_accordion_item et_pb_accordion_item_1  et_pb_toggle_close">
+				
+				
+				<h5 class="et_pb_toggle_title">BƯỚC 2: KÝ HỢP ĐỒNG THIẾT KẾ NỘI THẤT</h5>
+				<div class="et_pb_toggle_content clearfix"><p>Cả 2 bên đã thống nhất yêu cầu sẽ bắt đầu ký hợp đồng thiết kế nội thất ( 3D và 2D).</p></div> <!-- .et_pb_toggle_content -->
+			</div> <!-- .et_pb_toggle --><div class="et_pb_toggle et_pb_module et_pb_accordion_item et_pb_accordion_item_2  et_pb_toggle_close">
+				
+				
+				<h5 class="et_pb_toggle_title">BƯỚC 3: BÁO GIÁ VÀ KÝ HỢP ĐỒNG THI CÔNG NỘI THẤT</h5>
+				<div class="et_pb_toggle_content clearfix"><p>Chúng tôi sẽ gửi báo giá dự toán thi công nội thất cho khách hàng, dựa trên những hạng mục đã thống nhất trong thiết kế. Và tiến tới ký hợp đồng thi công nội thất</p></div> <!-- .et_pb_toggle_content -->
+			</div> <!-- .et_pb_toggle --><div class="et_pb_toggle et_pb_module et_pb_accordion_item et_pb_accordion_item_3  et_pb_toggle_close">
+				
+				
+				<h5 class="et_pb_toggle_title">BƯỚC 4: SẢN XUẤT THI CÔNG HOÀN THIỆN</h5>
+				<div class="et_pb_toggle_content clearfix"><p>Tiến hành sản xuất và thi công nội thất theo thiết kế triển khai ( bản 2D).</p></div> <!-- .et_pb_toggle_content -->
+			</div> <!-- .et_pb_toggle --><div class="et_pb_toggle et_pb_module et_pb_accordion_item et_pb_accordion_item_4  et_pb_toggle_close">
+				
+				
+				<h5 class="et_pb_toggle_title">Bước 5: NGHIỆM THU VÀ BÀN GIAO</h5>
+				<div class="et_pb_toggle_content clearfix"><p>Khách hàng sẽ kiểm tra số lượng và chất lượng sản phẩm. Nếu sản phẩm đã hoàn thiện, khách hàng sẽ ký nghiệm thu để xác nhận.</p></div> <!-- .et_pb_toggle_content -->
+			</div> <!-- .et_pb_toggle --><div class="et_pb_toggle et_pb_module et_pb_accordion_item et_pb_accordion_item_5  et_pb_toggle_close">
+				
+				
+				<h5 class="et_pb_toggle_title">BƯỚC 6: BẢO HÀNH VÀ BẢO TRÌ</h5>
+				<div class="et_pb_toggle_content clearfix"><p>Trong quá trình sử dụng, nếu sản phẩm phát sinh lỗi, chúng tôi sẽ tiếp nhận bảo hành và bảo trì như hợp đồng đã ký kết.</p></div> <!-- .et_pb_toggle_content -->
+			</div> <!-- .et_pb_toggle -->
+			</div> <!-- .et_pb_accordion -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_5 et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_8">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_14  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_7  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h2 style="text-align: center;"><strong><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2047%2047'%3E%3C/svg%3E" width="47" height="47" alt="kien truc noi that ad logo" class="wp-image-758 aligncenter size-full" title="Apartment Décor 7" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/04/kien_truc_noi_that_ad_logo.png"><noscript><img src="https://noithatad.vn/wp-content/uploads/2021/04/kien_truc_noi_that_ad_logo.png" width="47" height="47" alt="kien truc noi that ad logo" class="wp-image-758 aligncenter size-full" title="Apartment Décor 7"></noscript></strong></h2>
+<h2 style="text-align: center;"><strong>DỊCH VỤ CỦA CHÚNG TÔI</strong></h2></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row --><div class="et_pb_row et_pb_row_9">
+				<div class="et_pb_column et_pb_column_1_3 et_pb_column_15  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_10  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><a href="https://noithatad.vn/thiet-ke-noi-that/"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#x6c;</span></span></a></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><a href="https://noithatad.vn/thiet-ke-noi-that/">THIẾT KẾ NỘI THẤT</a></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_16  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_11  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><a href="https://noithatad.vn/thi-cong-noi-that/"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#x6c;</span></span></a></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><a href="https://noithatad.vn/thi-cong-noi-that/">THI CÔNG NỘI THẤT</a></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_17  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_12  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#x6c;</span></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>CẢI TẠO NHÀ CỬA</span></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row --><div class="et_pb_row et_pb_row_10">
+				<div class="et_pb_column et_pb_column_1_3 et_pb_column_18  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_13  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#x6c;</span></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>XÂY DỰNG TRỌN GÓI</span></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_19  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_14  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#x6c;</span></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>BÁO GIÁ THIẾT KẾ  XÂY DỰNG</span></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_20  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_15  et_pb_text_align_left  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#x6c;</span></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>BÁO GIÁ THI CÔNG NỘI THẤT</span></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_6 et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_11">
+				<div class="et_pb_column et_pb_column_2_5 et_pb_column_21  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_4">
+				
+				
+				<span class="et_pb_image_wrap "><img width="1200" height="1500" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%201500'%3E%3C/svg%3E" alt="ad là các trang web nội thất nổi tiếng" title="dịch_vụ_thiết_kế_nội_thất_noithatad_1" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/04/dịch_vụ_thiết_kế_nội_thất_noithatad_1.png" /><noscript><img width="1200" height="1500" src="https://noithatad.vn/wp-content/uploads/2021/04/dịch_vụ_thiết_kế_nội_thất_noithatad_1.png" alt="ad là các trang web nội thất nổi tiếng" title="dịch_vụ_thiết_kế_nội_thất_noithatad_1" /></noscript></span>
+			</div>
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_3_5 et_pb_column_22  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_with_border et_pb_module et_pb_text et_pb_text_8  et_pb_text_align_center et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h2><strong>KHÁC BIỆT CỦA KIẾN TRÚC &amp; NỘI THẤT AD</strong></h2>
+<p>&nbsp;</p></div>
+			</div> <!-- .et_pb_text --><div class="et_pb_module et_pb_blurb et_pb_blurb_16  et_pb_text_align_justified  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#x4e;</span></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>Có nhà xưởng sản xuất gỗ riêng biệt, giúp tiết kiệm được 20% chi phí.</span></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb --><div class="et_pb_module et_pb_blurb et_pb_blurb_17  et_pb_text_align_justified  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#x4e;</span></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>MIỄN PHÍ thiết kế nội thất khi thi công.</span></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb --><div class="et_pb_module et_pb_blurb et_pb_blurb_18  et_pb_text_align_justified  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#x4e;</span></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>Bộ phận QA/QC sản phẩm tại xưởng và khi thi công.</span></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb --><div class="et_pb_module et_pb_blurb et_pb_blurb_19  et_pb_text_align_justified  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#x4e;</span></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span> Đội ngũ Thiết Kế - Thi Công - Xây Dựng đều có đầy đủ văn bằng và kinh nghiệm trên 10 năm.</span></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb --><div class="et_pb_module et_pb_blurb et_pb_blurb_20  et_pb_text_align_justified  et_pb_blurb_position_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_blurb_content">
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">&#x4e;</span></span></div>
+					<div class="et_pb_blurb_container">
+						<h4 class="et_pb_module_header"><span>Đội ngũ thợ chính có kinh nghiệm làm việc trên 12 năm</span></h4>
+						
+					</div>
+				</div> <!-- .et_pb_blurb_content -->
+			</div> <!-- .et_pb_blurb -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row --><div class="et_pb_row et_pb_row_12">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_23  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_9  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h2 style="text-align: center;"><strong>TIN TỨC</strong></h2></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row --><div class="et_pb_row et_pb_row_13">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_24  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_blog_0 et_pb_blog_grid_wrapper et_pb_bg_layout_light">
+					<div class="et_pb_blog_grid clearfix ">
+					
+					
+					<div class="et_pb_ajax_pagination_container">
+						<div class="et_pb_salvattore_content" data-columns>
+			<article id="post-945" class="et_pb_post clearfix et_pb_blog_item_0_0 post-945 post type-post status-publish format-standard has-post-thumbnail hentry category-tin-tuc-noi-that">
+
+				<div class="et_pb_image_container"><a href="https://noithatad.vn/8-tip-hay-khi-thiet-ke-noi-that-can-ho-nen-biet/" class="entry-featured-image-url"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20250'%3E%3C/svg%3E" alt="8 &#8220;TIP HAY&#8221; khi thiết kế nội thất căn hộ nên biết!" class="" data-lazy-srcset="https://noithatad.vn/wp-content/uploads/2021/05/8-tip-hay-thiet-ke-noi-that-can-ho-by-apartment-decor.png 479w, https://noithatad.vn/wp-content/uploads/2021/05/8-tip-hay-thiet-ke-noi-that-can-ho-by-apartment-decor-400x250.png 480w " data-lazy-sizes="(max-width:479px) 479px, 100vw " width="400" height="250" title="Apartment Décor 8" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/05/8-tip-hay-thiet-ke-noi-that-can-ho-by-apartment-decor-400x250.png"><noscript><img src="https://noithatad.vn/wp-content/uploads/2021/05/8-tip-hay-thiet-ke-noi-that-can-ho-by-apartment-decor-400x250.png" alt="8 &#8220;TIP HAY&#8221; khi thiết kế nội thất căn hộ nên biết!" class="" srcset="https://noithatad.vn/wp-content/uploads/2021/05/8-tip-hay-thiet-ke-noi-that-can-ho-by-apartment-decor.png 479w, https://noithatad.vn/wp-content/uploads/2021/05/8-tip-hay-thiet-ke-noi-that-can-ho-by-apartment-decor-400x250.png 480w " sizes="(max-width:479px) 479px, 100vw " width="400" height="250" title="Apartment Décor 8"></noscript></a></div> <!-- .et_pb_image_container -->
+														<h2 class="entry-title"><a href="https://noithatad.vn/8-tip-hay-khi-thiet-ke-noi-that-can-ho-nen-biet/">8 &#8220;TIP HAY&#8221; khi thiết kế nội thất căn hộ nên biết!</a></h2>
+				
+					<div class="post-content"><div class="post-content-inner"><p> 8 "TIP HAY" khi thiết kế nội thất căn hộ nên biết!  Bạn có thể tìm được rất nhiều ý tưởng thiết kế nội thất căn hộ trên...</p>
+</div></div>			
+			</article> <!-- .et_pb_post -->
+				
+			<article id="post-848" class="et_pb_post clearfix et_pb_blog_item_0_1 post-848 post type-post status-publish format-standard has-post-thumbnail hentry category-tin-tuc-noi-that">
+
+				<div class="et_pb_image_container"><a href="https://noithatad.vn/10-mau-thiet-ke-phong-ngu-cho-be-trai-theo-do-tuoi/" class="entry-featured-image-url"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20250'%3E%3C/svg%3E" alt="10+ Mẫu Thiết Kế Nội Thất Phòng Ngủ cho bé trai theo độ tuổi" class="" data-lazy-srcset="https://noithatad.vn/wp-content/uploads/2021/04/thiet_ke_noi_that_phong_ngu_cho_be_apartment_decor.png 479w, https://noithatad.vn/wp-content/uploads/2021/04/thiet_ke_noi_that_phong_ngu_cho_be_apartment_decor-400x250.png 480w " data-lazy-sizes="(max-width:479px) 479px, 100vw " width="400" height="250" title="Apartment Décor 9" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/04/thiet_ke_noi_that_phong_ngu_cho_be_apartment_decor-400x250.png"><noscript><img src="https://noithatad.vn/wp-content/uploads/2021/04/thiet_ke_noi_that_phong_ngu_cho_be_apartment_decor-400x250.png" alt="10+ Mẫu Thiết Kế Nội Thất Phòng Ngủ cho bé trai theo độ tuổi" class="" srcset="https://noithatad.vn/wp-content/uploads/2021/04/thiet_ke_noi_that_phong_ngu_cho_be_apartment_decor.png 479w, https://noithatad.vn/wp-content/uploads/2021/04/thiet_ke_noi_that_phong_ngu_cho_be_apartment_decor-400x250.png 480w " sizes="(max-width:479px) 479px, 100vw " width="400" height="250" title="Apartment Décor 9"></noscript></a></div> <!-- .et_pb_image_container -->
+														<h2 class="entry-title"><a href="https://noithatad.vn/10-mau-thiet-ke-phong-ngu-cho-be-trai-theo-do-tuoi/">10+ Mẫu Thiết Kế Nội Thất Phòng Ngủ cho bé trai theo độ tuổi</a></h2>
+				
+					<div class="post-content"><div class="post-content-inner"><p> 10+ Mẫu Thiết Kế Nội Thất Phòng Ngủ cho bé trai theo độ tuổi  Thiết kế phòng ngủ cho các bé luôn là một thách thức khó...</p>
+</div></div>			
+			</article> <!-- .et_pb_post -->
+				
+			<article id="post-844" class="et_pb_post clearfix et_pb_blog_item_0_2 post-844 post type-post status-publish format-standard has-post-thumbnail hentry category-tin-tuc-noi-that">
+
+				<div class="et_pb_image_container"><a href="https://noithatad.vn/ban-console-la-gi-ly-do-nen-mua-ban-console/" class="entry-featured-image-url"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20250'%3E%3C/svg%3E" alt="Bàn Console là gì? Những lý do nên mua bàn Console cho ngôi nhà!" class="" data-lazy-srcset="https://noithatad.vn/wp-content/uploads/2021/04/ban_console_la_gi_ly_do_nen_mua_ban_console_apartment_decor.png 479w, https://noithatad.vn/wp-content/uploads/2021/04/ban_console_la_gi_ly_do_nen_mua_ban_console_apartment_decor-400x250.png 480w " data-lazy-sizes="(max-width:479px) 479px, 100vw " width="400" height="250" title="Apartment Décor 10" data-lazy-src="https://noithatad.vn/wp-content/uploads/2021/04/ban_console_la_gi_ly_do_nen_mua_ban_console_apartment_decor-400x250.png"><noscript><img src="https://noithatad.vn/wp-content/uploads/2021/04/ban_console_la_gi_ly_do_nen_mua_ban_console_apartment_decor-400x250.png" alt="Bàn Console là gì? Những lý do nên mua bàn Console cho ngôi nhà!" class="" srcset="https://noithatad.vn/wp-content/uploads/2021/04/ban_console_la_gi_ly_do_nen_mua_ban_console_apartment_decor.png 479w, https://noithatad.vn/wp-content/uploads/2021/04/ban_console_la_gi_ly_do_nen_mua_ban_console_apartment_decor-400x250.png 480w " sizes="(max-width:479px) 479px, 100vw " width="400" height="250" title="Apartment Décor 10"></noscript></a></div> <!-- .et_pb_image_container -->
+														<h2 class="entry-title"><a href="https://noithatad.vn/ban-console-la-gi-ly-do-nen-mua-ban-console/">Bàn Console là gì? Những lý do nên mua bàn Console cho ngôi nhà!</a></h2>
+				
+					<div class="post-content"><div class="post-content-inner"><p> Bàn Console là gì? Những lý do nên mua bàn Console cho ngôi nhà!  Bàn Console là kiểu bàn gì? Bàn Console là loại bàn...</p>
+</div></div>			
+			</article> <!-- .et_pb_post -->
+				</div><!-- .et_pb_salvattore_content --><div><div class='wp-pagenavi' role='navigation'>
+<span aria-current='page' class='current'>1</span><a class="page larger" title="Page 2" href="https://noithatad.vn/page/2/?et_blog">2</a><a class="page larger" title="Page 3" href="https://noithatad.vn/page/3/?et_blog">3</a><a class="nextpostslink" rel="next" aria-label="Next Page" href="https://noithatad.vn/page/2/?et_blog">»</a>
+</div></div></div> <!-- .et_pb_posts -->
+					</div>
+					 
+				</div>
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_7 et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_14">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_25  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_10 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
+				
+				
+				<div class="et_pb_text_inner"><h3>LIÊN HỆ VỚI CHÚNG TÔI</h3></div>
+			</div> <!-- .et_pb_text --><div class="et_pb_module et_pb_divider et_pb_divider_1 et_animated et_pb_divider_position_center et_pb_space"><div class="et_pb_divider_internal"></div></div><div class="et_pb_module et_pb_text et_pb_text_11 et_animated  et_pb_text_align_center et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><p>Bạn cần thiết kế và thi công nội thất, xây dựng cải tạo công trình. Hãy liên hệ với chúng tôi theo mẫu dưới đây.</p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row --><div class="et_pb_row et_pb_row_15">
+				<div class="et_pb_column et_pb_column_1_4 et_pb_column_26  et_pb_css_mix_blend_mode_passthrough et_pb_column_empty">
+				
+				
+				
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_2 et_pb_column_27  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_signup_0 et_animated et_pb_newsletter_layout_left_right et_pb_newsletter et_pb_subscribe clearfix  et_pb_text_align_left et_pb_bg_layout_dark et_pb_no_bg et_pb_newsletter_description_no_title et_pb_newsletter_description_no_content">
+				
+				
+				<div class="et_pb_newsletter_description et_multi_view_hidden"></div>
+				
+				<div class="et_pb_newsletter_form">
+					<form method="post">
+						<div class="et_pb_newsletter_result et_pb_newsletter_error"></div>
+						<div class="et_pb_newsletter_result et_pb_newsletter_success">
+							<h2>Thông báo Thành công</h2>
+						</div>
+						<div class="et_pb_newsletter_fields">
+							
+							
+							
+					<p class="et_pb_newsletter_field et_pb_contact_field_last et_pb_contact_field_last_tablet et_pb_contact_field_last_phone">
+						<label class="et_pb_contact_form_label" for="et_pb_signup_email" style="display: none;">Email</label>
+						<input id="et_pb_signup_email" class="input" type="text" placeholder="Email" name="et_pb_signup_email">
+					</p>
+							
+							
+					<p class="et_pb_newsletter_button_wrap">
+						<a class="et_pb_newsletter_button et_pb_button et_pb_custom_button_icon" href="#" data-icon="&#x24;">
+							<span class="et_subscribe_loader"></span>
+							<span class="et_pb_newsletter_button_text">Đăng ký</span>
+						</a>
+					</p>
+							
+						</div>
+						
+						<input type="hidden" value="mailchimp" name="et_pb_signup_provider" />
+						<input type="hidden" value="03dac884f0" name="et_pb_signup_list_id" />
+						<input type="hidden" value="SlavaET" name="et_pb_signup_account_name" />
+						<input type="hidden" value="true" name="et_pb_signup_ip_address" /><input type="hidden" value="2ad01818185a90876ed5d304bbe2a513" name="et_pb_signup_checksum" />
+					</form>
+				</div>
+			</div>
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_4 et_pb_column_28  et_pb_css_mix_blend_mode_passthrough et-last-child et_pb_column_empty">
+				
+				
+				
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_8 et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_16">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_29  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_divider et_pb_divider_2 et_pb_divider_position_center et_pb_space"><div class="et_pb_divider_internal"></div></div>
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_9 et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_17">
+				<div class="et_pb_column et_pb_column_1_3 et_pb_column_30  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_12 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
+				
+				
+				<div class="et_pb_text_inner"><h4><strong><span style="color: #ffcc00;">THÔNG TIN LIÊN HỆ</span></strong></h4>
+<p style="text-align: left;"><span style="color: #ffffff;"><strong>CÔNG TY TNHH KIẾN TRÚC &amp; NỘI THẤT AD</strong></span></p>
+<p style="text-align: left;"><span style="color: #ffffff;">Đ/C: 85 Đường 16, Phường Long Bình, Quận 9, TP.Thủ Đức.</span></p>
+<p style="text-align: left;"><span style="color: #ffffff;">Nhà Xưởng: 607A Đỗ Xuân Hợp, Phường Phước Long B, Quận 9, TP. Thủ Đức<em>.</em></span></p>
+<p style="text-align: left;"><span style="color: #ffffff;"><strong>HOTLINE: </strong></span><span style="color: #ff0000;">0906 888 740</span> &#8211; <span style="color: #ff0000;">0888 390 590</span></p>
+<p style="text-align: left;"><span style="color: #ffffff;">Email: <a href="mailto:hotro@noithatad.vn" style="color: #ffffff;">hotro@noithatad.vn</a></span></p>
+<p style="text-align: left;"><span style="color: #ffffff;">Mã số thuế: 0316494059</span></p>
+<p style="text-align: left;"></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_31  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_13 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
+				
+				
+				<div class="et_pb_text_inner"><h4><strong><span style="color: #ffcc00;">DỊCH VỤ</span></strong></h4>
+<p style="text-align: left;"><span style="color: #ffffff;">‌♦ <a href="https://noithatad.vn/thiet-ke-noi-that/" style="color: #ffffff;">Thiết Kế Nội Thất</a></span></p>
+<p style="text-align: left;"><span style="color: #ffffff;">‌♦ <a href="https://noithatad.vn/thi-cong-noi-that/" style="color: #ffffff;">Thi Công Nội Thất</a></span></p>
+<p style="text-align: left;"><span style="color: #ffffff;">‌♦ <a href="https://noithatad.vn/dich-vu/xay-dung-tron-goi/" style="color: #ffffff;" class="broken_link">Xây Dựng Dân Dụng</a></span></p>
+<p style="text-align: left;"><span style="color: #ffffff;">‌♦ Cải Tạo Sửa Chữa</span></p>
+<p style="text-align: left;"><span style="color: #ffffff;">‌♦ <a href="https://noithatad.vn/dich-vu/bao-gia-thiet-ke-kien-truc/" style="color: #ffffff;">Báo Giá Xây Dựng</a></span></p>
+<p style="text-align: left;"><span style="color: #ffffff;">‌♦ <a href="https://noithatad.vn/dich-vu/bao-gia-thiet-ke-noi-that/" style="color: #ffffff;">Báo Giá Thi Công Nội Thất</a></span></p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_32  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_14  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h4><strong><span style="color: #ffcc00;">VỀ KIẾN TRÚC NỘI THẤT AD</span></strong></h4>
+<p style="text-align: left;"><a href="https://noithatad.vn/gioi-thieu/"><span style="color: #ffffff;">♦ Giới Thiệu</span></a></p>
+<p style="text-align: left;"><span style="color: #ffffff;">♦ Tuyển dụng</span></p>
+<p style="text-align: left;"><a href="https://noithatad.vn/chinh-sach-bao-mat-thong-tin/"><span style="color: #ffffff;">♦ Chính sách bảo mật</span></a></p>
+<p style="text-align: left;"></div>
+			</div> <!-- .et_pb_text --><div class="et_pb_module et_pb_text et_pb_text_15 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
+				
+				
+				<div class="et_pb_text_inner"><h4><strong><span style="color: #ffcc00;">CHỨNG NHẬN</span></strong></h4>
+<p><strong><span style="color: #ffcc00;"></span></strong></p></div>
+			</div> <!-- .et_pb_text --><div class="et_pb_module et_pb_text et_pb_text_16  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><a href="//www.dmca.com/Protection/Status.aspx?ID=3ec557f1-fd0b-4f77-9ac8-94403176f78d" title="DMCA.com Protection Status" class="dmca-badge"> <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="DMCA.com Protection Status" title="Apartment Décor 11" data-lazy-src="https://images.dmca.com/Badges/dmca-badge-w100-2x1-01.png?ID=3ec557f1-fd0b-4f77-9ac8-94403176f78d"><noscript><img src="https://images.dmca.com/Badges/dmca-badge-w100-2x1-01.png?ID=3ec557f1-fd0b-4f77-9ac8-94403176f78d" alt="DMCA.com Protection Status" title="Apartment Décor 11"></noscript></a>  <script data-minify="1" src="https://noithatad.vn/wp-content/cache/min/1/Badges/DMCABadgeHelper.min.js?ver=1626417044" defer> </script></div>
+			</div> <!-- .et_pb_text --><div class="et_pb_module et_pb_code et_pb_code_1">
+				
+				
+				
+			</div> <!-- .et_pb_code -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row --><div class="et_pb_row et_pb_row_18">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_33  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<ul class="et_pb_module et_pb_social_media_follow et_pb_social_media_follow_0 clearfix  et_pb_text_align_center et_pb_bg_layout_light">
+				
+				
+				<li
+            class='et_pb_social_media_follow_network_0 et_pb_social_icon et_pb_social_network_link  et-social-facebook et_pb_social_media_follow_network_0'><a href="https://www.facebook.com/ApartmentDecorID" class="icon et_pb_with_border" title="Theo dõi trên Facebook" target="_blank" rel="noopener"><span
+                class='et_pb_social_media_follow_network_name'
+                aria-hidden='true'
+                >Theo dõi</span></a></li><li
+            class='et_pb_social_media_follow_network_1 et_pb_social_icon et_pb_social_network_link  et-social-twitter et_pb_social_media_follow_network_1'><a href="https://twitter.com/ad_interior" class="icon et_pb_with_border" title="Theo dõi trên Twitter" target="_blank" rel="noopener"><span
+                class='et_pb_social_media_follow_network_name'
+                aria-hidden='true'
+                >Theo dõi</span></a></li><li
+            class='et_pb_social_media_follow_network_2 et_pb_social_icon et_pb_social_network_link  et-social-instagram et_pb_social_media_follow_network_2'><a href="https://www.instagram.com/apartment_decor_id/" class="icon et_pb_with_border" title="Theo dõi trên Instagram" target="_blank" rel="noopener"><span
+                class='et_pb_social_media_follow_network_name'
+                aria-hidden='true'
+                >Theo dõi</span></a></li><li
+            class='et_pb_social_media_follow_network_3 et_pb_social_icon et_pb_social_network_link  et-social-youtube et_pb_social_media_follow_network_3'><a href="https://www.youtube.com/channel/UCPEw5sGJiby97TUw6dv4DGA" class="icon et_pb_with_border" title="Theo dõi trên Youtube" target="_blank" rel="noopener"><span
+                class='et_pb_social_media_follow_network_name'
+                aria-hidden='true'
+                >Theo dõi</span></a></li>
+			</ul> <!-- .et_pb_counters -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section -->		</div><!-- .et_builder_inner_content -->
+	</div><!-- .et-l -->
+	
+			
+		</div><!-- #et-boc -->
+							</div> <!-- .entry-content -->
+
+				
+				</article> <!-- .et_pb_post -->
+
+			
+
+</div> <!-- #main-content -->
+
+
+			<footer id="main-footer">
+				
+
+		
+				<div id="footer-bottom">
+					<div class="container clearfix">
+				<div id="footer-info">@ Apartment Décor 2018. All Rights Reserved</div>					</div>	<!-- .container -->
+				</div>
+			</footer> <!-- #main-footer -->
+		</div> <!-- #et-main-area -->
+
+
+	</div> <!-- #page-container -->
+
+		<script type="text/javascript">
+				var et_animation_data = [{"class":"et_pb_row_0","style":"slideLeft","repeat":"once","duration":"1550ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_button_0","style":"fold","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_text_4","style":"fade","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_divider_0","style":"slideTop","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"10%","starting_opacity":"100%","speed_curve":"ease-in-out"},{"class":"et_pb_text_5","style":"fade","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_row_5","style":"flipLeft","repeat":"once","duration":"1600ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_button_1","style":"fade","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_text_10","style":"fade","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_divider_1","style":"slideTop","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"10%","starting_opacity":"100%","speed_curve":"ease-in-out"},{"class":"et_pb_text_11","style":"fade","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_signup_0","style":"fade","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_text_12","style":"fade","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_text_13","style":"fade","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"},{"class":"et_pb_text_15","style":"fade","repeat":"once","duration":"1000ms","delay":"0ms","intensity":"50%","starting_opacity":"0%","speed_curve":"ease-in-out"}];
+				</script>
+	
+
+<script type='text/javascript' id='toc-front-js-extra'>
+/* <![CDATA[ */
+var tocplus = {"smooth_scroll":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' defer='defer' src='https://noithatad.vn/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2106' id='toc-front-js'></script>
+<script type='text/javascript' id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/noithatad.vn","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type='text/javascript' id='divi-custom-script-js-extra'>
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_shortcodes_strings = {"previous":"Tr\u01b0\u1edbc","next":"Ti\u1ebfp"};
+var et_pb_custom = {"ajaxurl":"https:\/\/noithatad.vn\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/noithatad.vn\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/noithatad.vn\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"19d1410d71","subscription_failed":"L\u00e0m \u01a1n, ki\u1ec3m tra \u0111\u1ed3ng d\u01b0\u1edbi ch\u1eafc ch\u1eafn \u0111\u1ec3 c\u00e1c \u00f4ng g\u00f5 \u0111\u00fang th\u00f4ng tin.","et_ab_log_nonce":"b27224f5ab","fill_message":"Xin vui l\u00f2ng, \u0111i\u1ec1n v\u00e0o c\u00e1c l\u0129nh v\u1ef1c sau \u0111\u00e2y:","contact_error_message":"Xin h\u00e3y s\u1eeda nh\u1eefng l\u1ed7i sau:","invalid":"Kh\u00f4ng h\u1ee3p l\u1ec7 email","captcha":"Captcha","prev":"Tr\u01b0\u1edbc","previous":"Tr\u01b0\u1edbc","next":"Ti\u1ebfp theo","wrong_captcha":"B\u1ea1n \u0111\u00e3 nh\u1eadp sai s\u1ed1 captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"2","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"yes","is_shortcode_tracking":"","tinymce_uri":""}; var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"}; var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_box_shadow_elements = [];
+var et_pb_motion_elements = {"desktop":[],"tablet":[],"phone":[]};
+var et_pb_sticky_elements = [];
+/* ]]> */
+</script>
+<script data-minify="1" type='text/javascript' defer='defer' src='https://noithatad.vn/wp-content/cache/min/1/wp-content/themes/Divi/js/custom.unified.js?ver=1626417046' id='divi-custom-script-js'></script>
+<script data-minify="1" type='text/javascript' defer='defer' src='https://noithatad.vn/wp-content/cache/min/1/wp-content/themes/Divi/core/admin/js/common.js?ver=1626417046' id='et-core-common-js'></script>
+<script type='text/javascript' id='mediaelement-core-js-before'>
+var mejsL10n = {"language":"vi","strings":{"mejs.download-file":"T\u1ea3i v\u1ec1 t\u1eadp tin","mejs.install-flash":"B\u1ea1n \u0111ang s\u1eed d\u1ee5ng tr\u00ecnh duy\u1ec7t kh\u00f4ng h\u1ed7 tr\u1ee3 Flash player. Vui l\u00f2ng b\u1eadt ho\u1eb7c c\u00e0i \u0111\u1eb7t \n phi\u00ean b\u1ea3n m\u1edbi nh\u1ea5t t\u1ea1i https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"To\u00e0n m\u00e0n h\u00ecnh","mejs.play":"Ch\u1ea1y","mejs.pause":"T\u1ea1m d\u1eebng","mejs.time-slider":"Th\u1eddi gian tr\u00ecnh chi\u1ebfu","mejs.time-help-text":"S\u1eed d\u1ee5ng c\u00e1c ph\u00edm m\u0169i t\u00ean Tr\u00e1i\/Ph\u1ea3i \u0111\u1ec3 ti\u1ebfn m\u1ed9t gi\u00e2y, m\u0169i t\u00ean L\u00ean\/Xu\u1ed1ng \u0111\u1ec3 ti\u1ebfn m\u01b0\u1eddi gi\u00e2y.","mejs.live-broadcast":"Tr\u1ef1c ti\u1ebfp","mejs.volume-help-text":"S\u1eed d\u1ee5ng c\u00e1c ph\u00edm m\u0169i t\u00ean L\u00ean\/Xu\u1ed1ng \u0111\u1ec3 t\u0103ng ho\u1eb7c gi\u1ea3m \u00e2m l\u01b0\u1ee3ng.","mejs.unmute":"B\u1eadt ti\u1ebfng","mejs.mute":"T\u1eaft ti\u1ebfng","mejs.volume-slider":"\u00c2m l\u01b0\u1ee3ng Tr\u00ecnh chi\u1ebfu","mejs.video-player":"Tr\u00ecnh ch\u01a1i Video","mejs.audio-player":"Tr\u00ecnh ch\u01a1i Audio","mejs.captions-subtitles":"Ph\u1ee5 \u0111\u1ec1","mejs.captions-chapters":"C\u00e1c m\u1ee5c","mejs.none":"Tr\u1ed1ng","mejs.afrikaans":"Ti\u1ebfng Nam Phi","mejs.albanian":"Ti\u1ebfng Albani","mejs.arabic":"Ti\u1ebfng \u1ea2 R\u1eadp","mejs.belarusian":"Ti\u1ebfng Belarus","mejs.bulgarian":"Ti\u1ebfng Bulgari","mejs.catalan":"Ti\u1ebfng Catalan","mejs.chinese":"Ti\u1ebfng Trung Qu\u1ed1c","mejs.chinese-simplified":"Ti\u1ebfng Trung Qu\u1ed1c (gi\u1ea3n th\u1ec3)","mejs.chinese-traditional":"Ti\u1ebfng Trung ( Ph\u1ed3n th\u1ec3 )","mejs.croatian":"Ti\u1ebfng Croatia","mejs.czech":"Ti\u1ebfng S\u00e9c","mejs.danish":"Ti\u1ebfng \u0110an M\u1ea1ch","mejs.dutch":"Ti\u1ebfng H\u00e0 Lan","mejs.english":"Ti\u1ebfng Anh","mejs.estonian":"Ti\u1ebfng Estonia","mejs.filipino":"Ti\u1ebfng Philippin","mejs.finnish":"Ti\u1ebfng Ph\u1ea7n Lan","mejs.french":"Ti\u1ebfng Ph\u00e1p","mejs.galician":"Ti\u1ebfng Galicia","mejs.german":"Ti\u1ebfng \u0110\u1ee9c","mejs.greek":"Ti\u1ebfng Hy L\u1ea1p","mejs.haitian-creole":"Ti\u1ebfng Haiti","mejs.hebrew":"Ti\u1ebfng Do Th\u00e1i","mejs.hindi":"Ti\u1ebfng Hindu","mejs.hungarian":"Ti\u1ebfng Hungary","mejs.icelandic":"Ti\u1ebfng Ailen","mejs.indonesian":"Ti\u1ebfng Indonesia","mejs.irish":"Ti\u1ebfng Ailen","mejs.italian":"Ti\u1ebfng \u00dd","mejs.japanese":"Ti\u1ebfng Nh\u1eadt","mejs.korean":"Ti\u1ebfng H\u00e0n Qu\u1ed1c","mejs.latvian":"Ti\u1ebfng Latvia","mejs.lithuanian":"Ti\u1ebfng Lithuani","mejs.macedonian":"Ti\u1ebfng Macedonia","mejs.malay":"Ti\u1ebfng Malaysia","mejs.maltese":"Ti\u1ebfng Maltese","mejs.norwegian":"Ti\u1ebfng Na Uy","mejs.persian":"Ti\u1ebfng Ba T\u01b0","mejs.polish":"Ti\u1ebfng Ba Lan","mejs.portuguese":"Ti\u1ebfng B\u1ed3 \u0110\u00e0o Nha","mejs.romanian":"Ti\u1ebfng Romani","mejs.russian":"Ti\u1ebfng Nga","mejs.serbian":"Ti\u1ebfng Serbia","mejs.slovak":"Ti\u1ebfng Slovakia","mejs.slovenian":"Ti\u1ebfng Slovenia","mejs.spanish":"Ti\u1ebfng T\u00e2y Ban Nha","mejs.swahili":"Ti\u1ebfng Swahili","mejs.swedish":"Ti\u1ebfng Th\u1ee5y \u0110i\u1ec3n","mejs.tagalog":"Ti\u1ebfng Tagalog","mejs.thai":"Ti\u1ebfng Th\u00e1i","mejs.turkish":"Ti\u1ebfng Th\u1ed5 Nh\u0129 K\u00ec","mejs.ukrainian":"Ti\u1ebfng Ukraina","mejs.vietnamese":"Ti\u1ebfng Vi\u1ec7t","mejs.welsh":"Ti\u1ebfng Welsh","mejs.yiddish":"Ti\u1ebfng Yiddish"}};
+</script>
+<script type='text/javascript' defer='defer' src='https://noithatad.vn/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.16' id='mediaelement-core-js'></script>
+<script type='text/javascript' defer='defer' src='https://noithatad.vn/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.8' id='mediaelement-migrate-js'></script>
+<script type='text/javascript' id='mediaelement-js-extra'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' defer='defer' src='https://noithatad.vn/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=5.8' id='wp-mediaelement-js'></script>
+			<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="wpsp-script-frontend"></script>
+			<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://noithatad.vn/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1626964598 -->

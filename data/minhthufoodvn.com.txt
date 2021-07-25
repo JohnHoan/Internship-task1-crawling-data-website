@@ -1,0 +1,2081 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="img/logo/logo_chinhsua.png">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Thực phẩm sạch Minh Thư Food</title>
+<meta name="description" content="Thực phẩm sạch Minh Thư Food">
+<meta name="keywords" content="Thực phẩm sạch Minh Thư Food"/>
+<meta property="og:title" content="Thực phẩm sạch Minh Thư Food">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Thực phẩm sạch Minh Thư Food">
+<meta property="og:image" content="http://minhthufoodvn.com/img/logo/logo _ banweb.png">
+<meta property="og:site_name" content="Thực phẩm sạch Minh Thư Food">
+<meta property="og:url" content="http://minhthufoodvn.com/">
+
+<base href="http://minhthufoodvn.com"/>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700">
+<script type="text/javascript" src="http://minhthufoodvn.com/js/jquery.min.js"></script> 
+<link href="http://minhthufoodvn.com/css/jquery.fancybox.min.css" rel="stylesheet">
+<script type="text/javascript" src="http://minhthufoodvn.com/js/jquery.fancybox.min.js"></script>
+
+<script type="text/javascript">
+        jQuery(document).ready(function(){
+            jQuery('.Tab2').click(function(){
+               //alert('ok');
+               jQuery('.noidung1').hide();
+               jQuery('.noidung2').fadeIn(250);               
+               return false; 
+            });
+            
+            jQuery('.Tab1').click(function(){               
+               jQuery('.noidung2').hide();
+               jQuery('.noidung1').fadeIn(250);               
+               return false; 
+            });
+            
+            //Load effect Tab
+            jQuery('.Tab1').css('color','#fff');
+            jQuery('.Tab1').click(function(){
+                jQuery(this).css('color','#fff');
+                jQuery('.Tab2').css('color','#fff');                
+            });
+            jQuery('.Tab2').click(function(){
+                jQuery(this).css('color','#fff');
+                jQuery('.Tab1').css('color','#fff');                
+            });
+        });
+		
+    </script>
+<!-- Mobile specific metas  -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Favicons Icon -->
+
+
+<!-- CSS Style -->
+<link href="http://minhthufoodvn.com/css/font.css" rel="stylesheet">
+<link rel="stylesheet" href="http://minhthufoodvn.com/style.css">
+<link href="http://minhthufoodvn.com/css/page-css.css" rel="stylesheet">
+<script>
+
+        $(document).ready(function ($) {
+
+    $('img').each(function () {
+        $(this).removeAttr('style')
+
+    });
+
+});
+</script>	
+
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v3.3'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<p class="sdt mobile_support"><i class="fa fa-phone"></i> <a href="tel:0904.513.880">0904.513.880</a></p>
+<p class="zalo mobile_support"><i class="fa fa-whatsapp"></i> <a href="https://zalo.me/0904513880">Zalo</a></p>
+
+<style type="text/css">
+@media screen and (max-width: 767px)
+.anh-dai-dien img {
+  
+    max-height: unset;
+}
+.anh-dm-h-2
+{
+display:none;
+}
+.scrollTop {
+    position: fixed;
+    right: 2%;
+    bottom: 50px;
+    border-radius: 5px;
+    background-color: #f36523;
+    padding: 10px;
+    opacity: 0;
+    transition: all 0.4s ease-in-out 0s;
+	z-index:9999;
+}
+
+.scrollTop a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+ .mobile_support a {
+    color: #fff;
+	 -moz-animation-duration: 500ms;
+    -moz-animation-name: calllink;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-name: calllink;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-duration: 500ms;
+    animation-name: calllink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.mobile_support i {
+    display: inline-block;
+    margin-right: 5px;
+}
+.mobile_support {
+    color: #fff;
+    padding: 5px 15px;
+    position: fixed;
+    right: 10px;
+    z-index: 99999999;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;		
+}
+@keyframes calllink {
+  0%{
+    color:#eba11e;
+  }
+
+  50%{
+    color:#fff;
+  }
+  100%{
+    color:#ebfa48;
+  }
+}
+.zalo
+{
+	bottom:60px;
+	background: #008df2;
+}
+.sdt
+{
+	bottom:10px;
+	background: #1ed23c;
+}
+</style></head>
+
+<body class="cms-index-index cms-home-page">
+
+
+<!-- mobile menu -->
+<div id="mobile-menu">
+        <ul>
+		
+		              <li><a href="/">Trang chủ</a>
+								            <li><a href="/nd-2/gioi-thieu/">Giới thiệu</a>
+								            <li><a href="/tt-1/tin-tuc/">Tin tức</a>
+								            <li><a href="/dm-1/san-pham/">Sản phẩm</a>
+								            <li><a href="/nd-1/lien-he/">Liên hệ</a>
+								   
+			
+          </ul>
+		</div>
+<!-- end mobile menu -->
+<div id="page"> 
+  
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 col-md-4 col-xs-12"> 
+              <!-- Default Welcome Message -->
+              <div class="welcome-msg hidden-xs hidden-sm">Cơ sở 1: 269 Lý Thường Kiệt<br>Cơ sở 2: 500 Tôn Đức Thắng, Hải Phòng</div>
+              <!-- Language &amp; Currency wrapper -->
+              </div>
+            
+            <!-- top links -->
+            <div class="headerlinkmenu col-md-8 col-sm-8 col-xs-12">
+              <ul class="links">
+                
+                <li><a title="Email" href="tel:083.666.9838"><span>083.666.9838</span></a></li>
+                <li><a title="Checkout" href="gio-hang"><span>Giỏ hàng</span></a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header inner -->
+      <div class="header-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2 col-xs-12 jtv-logo-block"> 
+              
+              <!-- Header Logo -->
+              <div class="logo"><a title="Thực phẩm sạch Minh Thư Food" href="/"><img alt="Thực phẩm sạch Minh Thư Food" title="Thực phẩm sạch Minh Thư Food" src="http://minhthufoodvn.com/img/logo/logo_chinhsua_1.png"></a> </div>
+            </div>
+            <div class="col-xs-12 col-sm-7 col-md-7 jtv-top-search hidden-xs"> 
+              
+              <div class="slogan-t"><a title="Thực phẩm sạch Minh Thư Food" href="/"><img alt="Thực phẩm sạch Minh Thư Food" title="Thực phẩm sạch Minh Thư Food" src="img/web/slogan-w.png"></a> </div>
+              
+              <!-- End Search --> 
+              
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 top-cart">
+              
+              <!-- top cart -->
+              <div class="top-cart-contain">
+                <div class="mini-cart">
+                  <div data-toggle="dropdown" data-hover="dropdown" class="basket dropdown-toggle"> <a href="gio-hang">
+                    <div class="cart-icon"><i class="icon-basket-loaded icons"></i></div>
+                    <div class="shoppingcart-inner hidden-xs"><span class="cart-title">Giỏ Hàng</span> </div>
+                    </a></div>
+                  <div>
+                    <div class="top-cart-content">
+                      
+                      <div class="top-subtotal">Thông tin giỏ hàng <span class="price"></span></div>
+                      <div class="actions">
+                        <button class="btn-checkout" type="button" onClick="location.href='gio-hang'"><i class="fa fa-check"></i><span>Thanh toán</span></button>
+                        <button class="view-cart" type="button" onClick="location.href='gio-hang'"><i class="fa fa-shopping-cart"></i><span>Giỏ hàng</span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- end header -->
+  
+  
+  
+  <div class="content-h">
+  
+<nav>
+    <div class="container">
+      <div class="row">
+        <div class="mm-toggle-wrap">
+          <div class="mm-toggle"><i class="fa fa-align-justify"></i> </div>
+          <span class="mm-label">Danh mục sản phẩm</span> </div>
+        <div class="col-md-3 col-sm-3 mega-container hidden-xs">
+          <div class="navleft-container">
+            <div class="mega-menu-title">
+              <h3><span>Danh mục sản phẩm</span></h3>
+            </div>
+            
+            <!-- Shop by category -->
+            <div class="mega-menu-category">
+                     <ul class="nav">
+		
+		              <li class="nosub				
+				"><a href="/cl-1/hoa-qua-nhap-khau/">Hoa quả nhập khẩu </a>
+			 
+			
+								</li>            <li class="nosub				
+				"><a href="/cl-2/thit-tuoi-huu-co/">Thịt tươi hữu cơ </a>
+			 
+			
+								</li>            <li class="nosub				
+				"><a href="/cl-3/rau---cu---qua-organic/">Rau - củ - quả organic </a>
+			 
+			
+								</li>            <li class="nosub				
+				"><a href="/cl-4/hai-san-tuoi---dong-lanh/">Hải sản tươi - đông lạnh </a>
+			 
+			
+								</li>            <li class="nosub				
+				"><a href="/cl-6/dac-san-3-mien/">Đặc sản 3 miền </a>
+			 
+			
+								</li>   
+				
+          </ul>
+		            </div>
+          </div>
+        </div>
+        <div class="col-md-9 col-sm-9 jtv-megamenu">
+          <div class="mtmegamenu">
+                  <ul class="hidden-xs">
+		
+		              <li class="mt-root demo_custom_link_cms">
+			 <div class="mt-root-item"><a href="/">
+                  <div class="title title_font"><span class="title-text">Trang chủ</span></div>
+                  </a></div>
+			
+								</li>            <li class="mt-root demo_custom_link_cms">
+			 <div class="mt-root-item"><a href="/nd-2/gioi-thieu/">
+                  <div class="title title_font"><span class="title-text">Giới thiệu</span></div>
+                  </a></div>
+			
+								</li>            <li class="mt-root demo_custom_link_cms">
+			 <div class="mt-root-item"><a href="/tt-1/tin-tuc/">
+                  <div class="title title_font"><span class="title-text">Tin tức</span></div>
+                  </a></div>
+			
+								</li>            <li class="mt-root demo_custom_link_cms">
+			 <div class="mt-root-item"><a href="/dm-1/san-pham/">
+                  <div class="title title_font"><span class="title-text">Sản phẩm</span></div>
+                  </a></div>
+			
+								</li>            <li class="mt-root demo_custom_link_cms">
+			 <div class="mt-root-item"><a href="/nd-1/lien-he/">
+                  <div class="title title_font"><span class="title-text">Liên hệ</span></div>
+                  </a></div>
+			
+								</li>   
+				<li></li>
+          </ul>
+		          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Slideshow  -->
+  
+  <div class="main-slider" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-12 banner-left hidden-xs"></div>
+        <div class="col-sm-9 col-md-9 col-lg-9 col-xs-12 jtv-slideshow">
+          <div id="jtv-slideshow">
+            <div id='rev_slider_4_wrapper' class='rev_slider_wrapper fullwidthbanner-container' >
+              <div id='rev_slider_4' class='rev_slider fullwidthabanner'>
+                <ul>
+				                              <li data-transition='fade' data-slotamount='7' data-masterspeed='1000' data-thumb=''><img src='/img/slider/slide_3.jpg' data-bgposition='left top' data-bgfit='cover' data-bgrepeat='no-repeat' alt="slide3"/>
+                    
+                  </li>
+                                     <li data-transition='fade' data-slotamount='7' data-masterspeed='1000' data-thumb=''><img src='/img/slider/slide_2.jpg' data-bgposition='left top' data-bgfit='cover' data-bgrepeat='no-repeat' alt="silde2"/>
+                    
+                  </li>
+                                     <li data-transition='fade' data-slotamount='7' data-masterspeed='1000' data-thumb=''><img src='/img/slider/slide_new.jpg' data-bgposition='left top' data-bgfit='cover' data-bgrepeat='no-repeat' alt="slide1"/>
+                    
+                  </li>
+                                     
+                </ul>
+                <div class="tp-bannertimer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+ <div class="jtv-service-area">
+    <div class="container">
+      <div class="row">
+
+      </div>
+    </div>
+  </div>
+  <div class="inner-box">
+    <div class="container">
+      <div class="row"> 
+        <!-- Banner -->
+		        <!-- Best Sale -->
+        <div class="col-sm-12 col-md-12 jtv-best-sale special-pro">
+          <div class="jtv-best-sale-list">
+            <div class="wpb_wrapper">
+              <div class="best-title text-left">
+                <h2>Sản phẩm bán chạy</h2>
+              </div>
+            </div>
+            <div class="slider-items-products">
+              <div id="jtv-best-sale-slider" class="product-flexslider">
+                <div class="slider-items">
+				                  <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="icon-sale-label sale-left">HOT</div>
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-17/cua-kg/" title="Cua (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-1743-cua.jpg" alt="Cua (kg)"> <img class="hover-img" src="img/up-anh/anh-1743-cua.jpg" alt="Cua (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="/sp-17/cua-kg/" title="Cua (kg)">Cua (kg)</a> </div>
+                          <div class="item-content">
+                           
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">350.000 VNĐ                                        </b2><b3></span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="icon-sale-label sale-left">HOT</div>
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-12/khoai-tay-kg/" title="Khoai tây (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-7446-khoaitay.jpg" alt="Khoai tây (kg)"> <img class="hover-img" src="img/up-anh/anh-7446-khoaitay.jpg" alt="Khoai tây (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="/sp-12/khoai-tay-kg/" title="Khoai tây (kg)">Khoai tây (kg)</a> </div>
+                          <div class="item-content">
+                           
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">30.000 VNĐ                                        </b2><b3></span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="icon-sale-label sale-left">HOT</div>
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-7/thit-heo-sach-kg/" title="Thịt heo sạch (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-1599-thitheosach.jpg" alt="Thịt heo sạch (kg)"> <img class="hover-img" src="img/up-anh/anh-1599-thitheosach.jpg" alt="Thịt heo sạch (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="/sp-7/thit-heo-sach-kg/" title="Thịt heo sạch (kg)">Thịt heo sạch (kg)</a> </div>
+                          <div class="item-content">
+                           
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">90.000 VNĐ                                        </b2><b3></span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="icon-sale-label sale-left">HOT</div>
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-1/tao-my-nhap-khau-kg/" title="Táo Mỹ nhập khẩu (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-7915-vYleUEFqXn.jpg" alt="Táo Mỹ nhập khẩu (kg)"> <img class="hover-img" src="img/up-anh/anh-7915-vYleUEFqXn.jpg" alt="Táo Mỹ nhập khẩu (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="/sp-1/tao-my-nhap-khau-kg/" title="Táo Mỹ nhập khẩu (kg)">Táo Mỹ nhập khẩu (kg)</a> </div>
+                          <div class="item-content">
+                           
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">90.000 VNĐ                                        </b2><b3></span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="icon-sale-label sale-left">HOT</div>
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-18/tom-rao-kg/" title="Tôm rảo (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-7999-tomrao.jpg" alt="Tôm rảo (kg)"> <img class="hover-img" src="img/up-anh/anh-7999-tomrao.jpg" alt="Tôm rảo (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="/sp-18/tom-rao-kg/" title="Tôm rảo (kg)">Tôm rảo (kg)</a> </div>
+                          <div class="item-content">
+                           
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">150.000 VNĐ                                        </b2><b3></span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="icon-sale-label sale-left">HOT</div>
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-13/cai-thia-kg/" title="Cải thìa (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-9051-raucai.jpg" alt="Cải thìa (kg)"> <img class="hover-img" src="img/up-anh/anh-9051-raucai.jpg" alt="Cải thìa (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="/sp-13/cai-thia-kg/" title="Cải thìa (kg)">Cải thìa (kg)</a> </div>
+                          <div class="item-content">
+                           
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">15.000 VNĐ                                        </b2><b3></span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="icon-sale-label sale-left">HOT</div>
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-8/thit-bo-sach-kg/" title="Thịt bò sạch (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-5287-thitbosach.jpg" alt="Thịt bò sạch (kg)"> <img class="hover-img" src="img/up-anh/anh-5287-thitbosach.jpg" alt="Thịt bò sạch (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="/sp-8/thit-bo-sach-kg/" title="Thịt bò sạch (kg)">Thịt bò sạch (kg)</a> </div>
+                          <div class="item-content">
+                           
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">120.000 VNĐ                                        </b2><b3></span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="icon-sale-label sale-left">HOT</div>
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-2/nho-khong-hat-vietgap-kg/" title="Nho không hạt VIETGAP (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-4167-nhokhonghat.jpg" alt="Nho không hạt VIETGAP (kg)"> <img class="hover-img" src="img/up-anh/anh-4167-nhokhonghat.jpg" alt="Nho không hạt VIETGAP (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="/sp-2/nho-khong-hat-vietgap-kg/" title="Nho không hạt VIETGAP (kg)">Nho không hạt VIETGAP (kg)</a> </div>
+                          <div class="item-content">
+                           
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">80.000 VNĐ                                        </b2><b3></span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="icon-sale-label sale-left">HOT</div>
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-19/Ca-hoi-kg/" title="Cá hồi (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-8855-ca-hoi.jpg" alt="Cá hồi (kg)"> <img class="hover-img" src="img/up-anh/anh-8855-ca-hoi.jpg" alt="Cá hồi (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="/sp-19/Ca-hoi-kg/" title="Cá hồi (kg)">Cá hồi (kg)</a> </div>
+                          <div class="item-content">
+                           
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">150.000 VNĐ                                        </b2><b3></span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="icon-sale-label sale-left">HOT</div>
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-14/khoai-lang-kg/" title="Khoai lang (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-6838-khoailang.jpg" alt="Khoai lang (kg)"> <img class="hover-img" src="img/up-anh/anh-6838-khoailang.jpg" alt="Khoai lang (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="/sp-14/khoai-lang-kg/" title="Khoai lang (kg)">Khoai lang (kg)</a> </div>
+                          <div class="item-content">
+                           
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">25.000 VNĐ                                        </b2><b3></span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                    
+                 
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+  					    <div class="home-tab">
+      <div class="tab-title text-left">
+        <h2><a  href="/cl-1/san-pham/">Hoa quả nhập khẩu</a></h2>
+        
+      </div>
+      <div id="productTabContent" class="tab-content">
+        <div class="tab-pane active in">
+          <div class="featured-pro">
+		  
+            <div class="slider-items-products">
+              <div id="computer-slider" class="product-flexslider hidden-buttons">
+                <div class="slider-items slider-width-col4">
+				                  <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-1/tao-my-nhap-khau-kg/" title="Táo Mỹ nhập khẩu (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-7915-vYleUEFqXn.jpg" alt="Táo Mỹ nhập khẩu (kg)"> <img class="hover-img" src="img/up-anh/anh-7915-vYleUEFqXn.jpg" alt="Táo Mỹ nhập khẩu (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Táo Mỹ nhập khẩu (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">90.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-2/nho-khong-hat-vietgap-kg/" title="Nho không hạt VIETGAP (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-4167-nhokhonghat.jpg" alt="Nho không hạt VIETGAP (kg)"> <img class="hover-img" src="img/up-anh/anh-4167-nhokhonghat.jpg" alt="Nho không hạt VIETGAP (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Nho không hạt VIETGAP (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">80.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-4/cam-khong-hat-vietgap/" title="Cam không hạt VIETGAP (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-9172-camkhonghat.jpg" alt="Cam không hạt VIETGAP (kg)"> <img class="hover-img" src="img/up-anh/anh-9172-camkhonghat.jpg" alt="Cam không hạt VIETGAP (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Cam không hạt VIETGAP (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">60.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-3/chuoi-organic/" title="Chuối Organic (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-1732-chuoikhonghat.jpg" alt="Chuối Organic (kg)"> <img class="hover-img" src="img/up-anh/anh-1732-chuoikhonghat.jpg" alt="Chuối Organic (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Chuối Organic (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">50.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-5/dua-hau-organic/" title="Dưa hấu Organic (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-5665-duuahauorganic.jpg" alt="Dưa hấu Organic (kg)"> <img class="hover-img" src="img/up-anh/anh-5665-duuahauorganic.jpg" alt="Dưa hấu Organic (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Dưa hấu Organic (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">80.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-24/dua-le-vietgap-kg/" title="Dưa lê VIETGAP (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-587-duale.jpg" alt="Dưa lê VIETGAP (kg)"> <img class="hover-img" src="img/up-anh/anh-587-duale.jpg" alt="Dưa lê VIETGAP (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Dưa lê VIETGAP (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">50.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-23/chanh-leo-vietgap-kg/" title="Chanh leo VIETGAP (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-4490-chanhleo.jpg" alt="Chanh leo VIETGAP (kg)"> <img class="hover-img" src="img/up-anh/anh-4490-chanhleo.jpg" alt="Chanh leo VIETGAP (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Chanh leo VIETGAP (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">45.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-22/buoi-da-xanh-kg/" title="Bưởi da xanh (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-3218-buoi da xanh.jpg" alt="Bưởi da xanh (kg)"> <img class="hover-img" src="img/up-anh/anh-3218-buoi da xanh.jpg" alt="Bưởi da xanh (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Bưởi da xanh (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">60.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    
+                  
+                  
+                </div>
+				
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+	    <div class="home-tab">
+      <div class="tab-title text-left">
+        <h2><a  href="/cl-2/san-pham/">Thịt tươi hữu cơ</a></h2>
+        
+      </div>
+      <div id="productTabContent" class="tab-content">
+        <div class="tab-pane active in">
+          <div class="featured-pro">
+		  
+            <div class="slider-items-products">
+              <div id="computer-slider" class="product-flexslider hidden-buttons">
+                <div class="slider-items slider-width-col4">
+				                  <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-7/thit-heo-sach-kg/" title="Thịt heo sạch (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-1599-thitheosach.jpg" alt="Thịt heo sạch (kg)"> <img class="hover-img" src="img/up-anh/anh-1599-thitheosach.jpg" alt="Thịt heo sạch (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Thịt heo sạch (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">90.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-8/thit-bo-sach-kg/" title="Thịt bò sạch (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-5287-thitbosach.jpg" alt="Thịt bò sạch (kg)"> <img class="hover-img" src="img/up-anh/anh-5287-thitbosach.jpg" alt="Thịt bò sạch (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Thịt bò sạch (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">120.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-10/thit-vit-kg/" title="Thịt vịt (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-826-thitvit.jpg" alt="Thịt vịt (kg)"> <img class="hover-img" src="img/up-anh/anh-826-thitvit.jpg" alt="Thịt vịt (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Thịt vịt (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">120.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-11/thit-ga-kg/" title="Thịt gà (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-3693-thit-ga-nguyen-con.jpg" alt="Thịt gà (kg)"> <img class="hover-img" src="img/up-anh/anh-3693-thit-ga-nguyen-con.jpg" alt="Thịt gà (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Thịt gà (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">100.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-28/chan-gio-heo-kg/" title="Chân giò heo (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-4243-chan-heo.jpg" alt="Chân giò heo (kg)"> <img class="hover-img" src="img/up-anh/anh-4243-chan-heo.jpg" alt="Chân giò heo (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Chân giò heo (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">140.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-27/thit-heo-xay-kg/" title="Thịt heo xay (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-2552-thit-heo-xay.jpg" alt="Thịt heo xay (kg)"> <img class="hover-img" src="img/up-anh/anh-2552-thit-heo-xay.jpg" alt="Thịt heo xay (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Thịt heo xay (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">95.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-26/thit-ba-chi-bo-kg/" title="Thịt ba chỉ bò (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-5817-ba-chi-bo.jpg" alt="Thịt ba chỉ bò (kg)"> <img class="hover-img" src="img/up-anh/anh-5817-ba-chi-bo.jpg" alt="Thịt ba chỉ bò (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Thịt ba chỉ bò (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">150.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-25/thit-ba-chi-heo-kg/" title="Thịt ba chỉ heo (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-7880-thit-ba-chi-heo.jpg" alt="Thịt ba chỉ heo (kg)"> <img class="hover-img" src="img/up-anh/anh-7880-thit-ba-chi-heo.jpg" alt="Thịt ba chỉ heo (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Thịt ba chỉ heo (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">130.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    
+                  
+                  
+                </div>
+				
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+	    <div class="home-tab">
+      <div class="tab-title text-left">
+        <h2><a  href="/cl-3/san-pham/">Rau - củ - quả organic</a></h2>
+        
+      </div>
+      <div id="productTabContent" class="tab-content">
+        <div class="tab-pane active in">
+          <div class="featured-pro">
+		  
+            <div class="slider-items-products">
+              <div id="computer-slider" class="product-flexslider hidden-buttons">
+                <div class="slider-items slider-width-col4">
+				                  <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-12/khoai-tay-kg/" title="Khoai tây (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-7446-khoaitay.jpg" alt="Khoai tây (kg)"> <img class="hover-img" src="img/up-anh/anh-7446-khoaitay.jpg" alt="Khoai tây (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Khoai tây (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">30.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-13/cai-thia-kg/" title="Cải thìa (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-9051-raucai.jpg" alt="Cải thìa (kg)"> <img class="hover-img" src="img/up-anh/anh-9051-raucai.jpg" alt="Cải thìa (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Cải thìa (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">15.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-14/khoai-lang-kg/" title="Khoai lang (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-6838-khoailang.jpg" alt="Khoai lang (kg)"> <img class="hover-img" src="img/up-anh/anh-6838-khoailang.jpg" alt="Khoai lang (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Khoai lang (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">25.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-15/ca-chua-organic-kg/" title="Cà chua Organic (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-5448-cachua.jpg" alt="Cà chua Organic (kg)"> <img class="hover-img" src="img/up-anh/anh-5448-cachua.jpg" alt="Cà chua Organic (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Cà chua Organic (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">20.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-16/hanh-tay-kg/" title="Hành tây (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-6376-hanhtay.jpg" alt="Hành tây (kg)"> <img class="hover-img" src="img/up-anh/anh-6376-hanhtay.jpg" alt="Hành tây (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Hành tây (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">10.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-33/nam-hai-san-kg/" title="Nấm hải sản (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-4636-nam-hai-san.jpg" alt="Nấm hải sản (kg)"> <img class="hover-img" src="img/up-anh/anh-4636-nam-hai-san.jpg" alt="Nấm hải sản (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Nấm hải sản (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">70.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-32/nam-dong-co-kg/" title="Nấm đông cô (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-578-nam-dong-co.jpg" alt="Nấm đông cô (kg)"> <img class="hover-img" src="img/up-anh/anh-578-nam-dong-co.jpg" alt="Nấm đông cô (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Nấm đông cô (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">175.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-31/can-tay-kg/" title="Cần tây (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-9087-can-tay.jpg" alt="Cần tây (kg)"> <img class="hover-img" src="img/up-anh/anh-9087-can-tay.jpg" alt="Cần tây (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Cần tây (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">70.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-30/rau-cai-bo-xoi-kg/" title="Rau cải bó xôi (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-9071-rau-cai-bo-xoi.jpg" alt="Rau cải bó xôi (kg)"> <img class="hover-img" src="img/up-anh/anh-9071-rau-cai-bo-xoi.jpg" alt="Rau cải bó xôi (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Rau cải bó xôi (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">80.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-29/ca-rot-kg/" title="Cà-rốt (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-6620-ca-rot.jpg" alt="Cà-rốt (kg)"> <img class="hover-img" src="img/up-anh/anh-6620-ca-rot.jpg" alt="Cà-rốt (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Cà-rốt (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">15.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    
+                  
+                  
+                </div>
+				
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+	    <div class="home-tab">
+      <div class="tab-title text-left">
+        <h2><a  href="/cl-4/san-pham/">Hải sản tươi - Đông lạnh</a></h2>
+        
+      </div>
+      <div id="productTabContent" class="tab-content">
+        <div class="tab-pane active in">
+          <div class="featured-pro">
+		  
+            <div class="slider-items-products">
+              <div id="computer-slider" class="product-flexslider hidden-buttons">
+                <div class="slider-items slider-width-col4">
+				                  <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-17/cua-kg/" title="Cua (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-1743-cua.jpg" alt="Cua (kg)"> <img class="hover-img" src="img/up-anh/anh-1743-cua.jpg" alt="Cua (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Cua (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">350.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-18/tom-rao-kg/" title="Tôm rảo (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-7999-tomrao.jpg" alt="Tôm rảo (kg)"> <img class="hover-img" src="img/up-anh/anh-7999-tomrao.jpg" alt="Tôm rảo (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Tôm rảo (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">150.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-19/Ca-hoi-kg/" title="Cá hồi (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-8855-ca-hoi.jpg" alt="Cá hồi (kg)"> <img class="hover-img" src="img/up-anh/anh-8855-ca-hoi.jpg" alt="Cá hồi (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Cá hồi (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">150.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-20/muc-ong-kg/" title="Mực ống (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-2258-mucong.jpg" alt="Mực ống (kg)"> <img class="hover-img" src="img/up-anh/anh-2258-mucong.jpg" alt="Mực ống (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Mực ống (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">200.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-40/ca-lang-kg/" title="Cá lăng (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-8406-ca-lang.jpg" alt="Cá lăng (kg)"> <img class="hover-img" src="img/up-anh/anh-8406-ca-lang.jpg" alt="Cá lăng (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Cá lăng (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">270.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-39/ca-tam-song-kg/" title="Cá tầm sống (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-5387-ca-tam-song.jpg" alt="Cá tầm sống (kg)"> <img class="hover-img" src="img/up-anh/anh-5387-ca-tam-song.jpg" alt="Cá tầm sống (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Cá tầm sống (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">180.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-38/be-be-kg/" title="Bề bề (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-1363-be-be.jpg" alt="Bề bề (kg)"> <img class="hover-img" src="img/up-anh/anh-1363-be-be.jpg" alt="Bề bề (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Bề bề (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">400.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-37/tom-boc-non-kg/" title="Tôm bóc nõn (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-1704-tom-boc-non.jpg" alt="Tôm bóc nõn (kg)"> <img class="hover-img" src="img/up-anh/anh-1704-tom-boc-non.jpg" alt="Tôm bóc nõn (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Tôm bóc nõn (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">320.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-36/ca-chim-mot-nang-kg/" title="Cá chim một nắng (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-3181-ca-chim-mot-nang.jpg" alt="Cá chim một nắng (kg)"> <img class="hover-img" src="img/up-anh/anh-3181-ca-chim-mot-nang.jpg" alt="Cá chim một nắng (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Cá chim một nắng (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">190.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-35/muc-kho-kg/" title="Mực khô (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-3696-muc-kho.jpg" alt="Mực khô (kg)"> <img class="hover-img" src="img/up-anh/anh-3696-muc-kho.jpg" alt="Mực khô (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Mực khô (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">900.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-34/ca-thu-mot-nang/" title="Cá thu một nắng">
+                          <figure> <img class="first-img" src="img/up-anh/anh-3538-ca-thu-1-nang.jpg" alt="Cá thu một nắng"> <img class="hover-img" src="img/up-anh/anh-3538-ca-thu-1-nang.jpg" alt="Cá thu một nắng"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Cá thu một nắng </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">330.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    
+                  
+                  
+                </div>
+				
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+	    <div class="home-tab">
+      <div class="tab-title text-left">
+        <h2><a  href="/cl-6/san-pham/">Đặc sản ba miền</a></h2>
+        
+      </div>
+      <div id="productTabContent" class="tab-content">
+        <div class="tab-pane active in">
+          <div class="featured-pro">
+		  
+            <div class="slider-items-products">
+              <div id="computer-slider" class="product-flexslider hidden-buttons">
+                <div class="slider-items slider-width-col4">
+				                  <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-48/cha-suon-sun-kg/" title="Chả sườn sụn (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-787-cha-suon-sun-1.jpg" alt="Chả sườn sụn (kg)"> <img class="hover-img" src="img/up-anh/anh-787-cha-suon-sun-1.jpg" alt="Chả sườn sụn (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Chả sườn sụn (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">100.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-47/cha-com-kg/" title="Chả cốm (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-1126-cha-com-1.jpg" alt="Chả cốm (kg)"> <img class="hover-img" src="img/up-anh/anh-1126-cha-com-1.jpg" alt="Chả cốm (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Chả cốm (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">180.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-46/cha-muc-kg/" title="Chả mực (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-8493-cha-muc-1.jpg" alt="Chả mực (kg)"> <img class="hover-img" src="img/up-anh/anh-8493-cha-muc-1.jpg" alt="Chả mực (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Chả mực (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">420.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-45/cha-chia-kg/" title="Chả chìa (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-2323-cha-chia-1.jpg" alt="Chả chìa (kg)"> <img class="hover-img" src="img/up-anh/anh-2323-cha-chia-1.jpg" alt="Chả chìa (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Chả chìa (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">200.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-44/cha-be-be-kg/" title="Chả bề bề (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-9303-cha-be-be.jpg" alt="Chả bề bề (kg)"> <img class="hover-img" src="img/up-anh/anh-9303-cha-be-be.jpg" alt="Chả bề bề (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Chả bề bề (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">240.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-43/ruoc-tom-kg/" title="Ruốc tôm (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-1305-ruoc-tom.jpg" alt="Ruốc tôm (kg)"> <img class="hover-img" src="img/up-anh/anh-1305-ruoc-tom.jpg" alt="Ruốc tôm (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Ruốc tôm (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">500.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-42/gio-bo-kg/" title="Giò bò (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-9887-gio-lua-1.jpg" alt="Giò bò (kg)"> <img class="hover-img" src="img/up-anh/anh-9887-gio-lua-1.jpg" alt="Giò bò (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Giò bò (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">170.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    <div class="product-item">
+                    <div class="item-inner">
+                      <div class="product-thumbnail">
+                        <div class="pr-img-area"> <a title="Product title here" href="/sp-41/nem-chua-kg/" title="Nem chua (kg)">
+                          <figure> <img class="first-img" src="img/up-anh/anh-8281-nem-chua.jpg" alt="Nem chua (kg)"> <img class="hover-img" src="img/up-anh/anh-8281-nem-chua.jpg" alt="Nem chua (kg)"></figure>
+                          </a> </div>
+                        
+                      </div>
+                      <div class="item-info">
+                        <div class="info-inner">
+                          <div class="item-title"> <a title="Product title here" href="single_product.html">Nem chua (kg) </a> </div>
+                          <div class="item-content">
+                            
+                            <div class="item-price">
+                              <div class="price-box"> <span class="regular-price"> <span class="price">45.000 VNĐ                                        </span> </span> </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                                    
+                  
+                  
+                </div>
+				
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+	  </div>
+    
+  <section class="blog-post-wrapper">
+    <div class="container">
+      <div class="best-title text-left">
+        <h2>Tin tức mới nhất</h2>
+      </div>
+      <div class="slider-items-products">
+        <div id="latest-news-slider" class="product-flexslider hidden-buttons">
+          <div class="slider-items slider-width-col6">
+		                <div class="item">
+              <div class="blog-box"> <a href="/tin-tuc/bv-6/10-meo-vat-giup-tiet-kiem-nang-luong-hieu-qua-khi-nau-nuong/"> <img class="primary-img" src="img/tintuc/10-meo-vat-giup-tiet-kiem-nang-luong-hieu-qua-khi-nau-nuong.jpg" alt="HTML template"></a>
+                <div class="blog-btm-desc">
+                  <div class="blog-top-desc">
+                    <div class="blog-date"> 25-06-2021 08:01:35 </div>
+                    <h4><a href="/tin-tuc/bv-6/10-meo-vat-giup-tiet-kiem-nang-luong-hieu-qua-khi-nau-nuong/">10 mẹo vặt giúp tiết kiệm năng lượng hiệu quả khi nấu nướng</a></h4>
+                   
+                  </div>
+                  <p>Căn bếp l&agrave; nơi sử dụng rất nhiều năng lượng nhưng tiếc rằng nhiều người trong ch&uacute;ng ta vẫn l&atilde;ng ph&iacute; năng lượng khi nấu ăn. Chỉ cần l&agrave;m theo 10 mẹo vặt đơn giản dưới đ&acirc;y, bạn đ&atilde; c&oacute; thể tiết kiệm chi ph&iacute; v&agrave; năng lượng một c&aacute;ch hiệu quả.
+</p>
+                  <a class="read-more" href="/tin-tuc/bv-6/10-meo-vat-giup-tiet-kiem-nang-luong-hieu-qua-khi-nau-nuong/"> Xem thêm</a> </div>
+              </div>
+            </div>
+                        <div class="item">
+              <div class="blog-box"> <a href="/tin-tuc/bv-5/nhung-sai-lam-khi-nau-an-ban-khong-he-biet-khien-tang-can-vu-vu/"> <img class="primary-img" src="img/tintuc/sai-lam-khi-nau-an.jpg" alt="HTML template"></a>
+                <div class="blog-btm-desc">
+                  <div class="blog-top-desc">
+                    <div class="blog-date"> 25-06-2021 08:21:30 </div>
+                    <h4><a href="/tin-tuc/bv-5/nhung-sai-lam-khi-nau-an-ban-khong-he-biet-khien-tang-can-vu-vu/">Những sai lầm khi nấu ăn bạn không hề biết khiến tăng cân vù vù</a></h4>
+                   
+                  </div>
+                  <p>Minh Thư Food &ndash; Nếu kh&ocirc;ng ch&uacute; &yacute; v&agrave; điều chỉnh, những sai lầm khi nấu ăn dưới đ&acirc;y sẽ khiến bạn tăng c&acirc;n v&ugrave; v&ugrave; v&agrave; ảnh hưởng đến sức khỏe m&agrave; kh&ocirc;ng hề hay biết.
+</p>
+                  <a class="read-more" href="/tin-tuc/bv-5/nhung-sai-lam-khi-nau-an-ban-khong-he-biet-khien-tang-can-vu-vu/"> Xem thêm</a> </div>
+              </div>
+            </div>
+                        <div class="item">
+              <div class="blog-box"> <a href="/tin-tuc/bv-4/nhung-loi-ich-cua-viec-nau-an-tai-nha/"> <img class="primary-img" src="img/tintuc/loi-ich-cua-viec-nau-an-tai-nha.jpg" alt="HTML template"></a>
+                <div class="blog-btm-desc">
+                  <div class="blog-top-desc">
+                    <div class="blog-date"> 25-06-2021 08:17:20 </div>
+                    <h4><a href="/tin-tuc/bv-4/nhung-loi-ich-cua-viec-nau-an-tai-nha/">Những lợi ích của việc nấu ăn tại nhà</a></h4>
+                   
+                  </div>
+                  <p>Cuộc sống ng&agrave;y hiện đại khiến nhiều người lựa chọn việc ăn h&agrave;ng nhiều hơn tự nấu ăn tại nh&agrave;. Tuy nhi&ecirc;n, nếu muốn gia đ&igrave;nh hạnh ph&uacute;c h&atilde;y v&agrave;o bếp nhiều hơn....
+</p>
+                  <a class="read-more" href="/tin-tuc/bv-4/nhung-loi-ich-cua-viec-nau-an-tai-nha/"> Xem thêm</a> </div>
+              </div>
+            </div>
+                       
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- our clients Slider -->
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-xs-12">
+        <div class="our-clients">
+          <div class="slider-items-products">
+            <div id="our-clients-slider" class="product-flexslider hidden-buttons">
+              <div class="slider-items slider-width-col6">
+                				<div class="item"><a href="http://minhthufoodvn.com/sp-22/buoi-da-xanh-kg/"><img src="img/banner/buoi da xanh.jpg" alt="Image"></a> </div>
+               				<div class="item"><a href="http://minhthufoodvn.com/sp-23/chanh-leo-vietgap-kg/"><img src="img/banner/chanhleo.jpg" alt="Image"></a> </div>
+               				<div class="item"><a href="http://minhthufoodvn.com/sp-24/dua-le-vietgap-kg/"><img src="img/banner/duale.jpg" alt="Image"></a> </div>
+               				<div class="item"><a href="http://minhthufoodvn.com/sp-5/dua-hau-organic/"><img src="img/banner/duuahauorganic.jpg" alt="Image"></a> </div>
+               				<div class="item"><a href="http://minhthufoodvn.com/sp-3/chuoi-organic/"><img src="img/banner/chuoikhonghat.jpg" alt="Image"></a> </div>
+               				<div class="item"><a href="http://minhthufoodvn.com/sp-2/nho-khong-hat-vietgap-kg/"><img src="img/banner/nhokhonghat.jpg" alt="Image"></a> </div>
+               				<div class="item"><a href="http://minhthufoodvn.com/sp-1/tao-my-nhap-khau-kg/"><img src="img/banner/vYleUEFqXn.jpg" alt="Image"></a> </div>
+               				<div class="item"><a href="http://minhthufoodvn.com/sp-4/cam-khong-hat-vietgap/"><img src="img/banner/camkhonghat.jpg" alt="Image"></a> </div>
+                             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <div class="footer-newsletter">
+    <div class="container">
+      <div class="row"> 
+        <!-- Newsletter -->
+        <div class="col-md-12 col-sm-12">
+          <form id="newsletter-validate-detail" method="post" action="#">
+            <h3>Đăng kí nhận thông tin từ chúng tôi</h3>
+            <div class="title-divider"><span></span></div>
+            <p class="sub-title text-center">Tin sản phẩm và chương trình khuyến mại</p>
+            <div class="newsletter-inner">
+              <input class="newsletter-email" name='Email' placeholder='Email hoặc Số điện thoại'/>
+              <button class="button subscribe" type="submit" title="Đăng kí nhận tin">Đăng kí</button>
+            </div>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+	
+  </div>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="logo-ft col-sm-6 col-md-3 hidden-xs">
+          <div class="footer-logo"><a href="index.html"><img src="http://minhthufoodvn.com/img/logo/logo_chinhsua_1.png" alt="fotter logo"></a> </div>
+         
+          
+        </div>
+		
+        
+        <div class="col-sm-9 col-md-9 col-xs-12 collapsed-block">
+		<div class="footer-links col-sm-6 ">
+           
+           
+              <div class="footer-description"><p><span style="color:#000000;"><span style="font-size:18px;"><strong>Cửa h&agrave;ng thực phẩm sạch Minh Thư Food</strong></span></span></p>
+
+<p><span style="color:#000000;"><span style="font-size:14px;">Cơ sở 1: 269 L&yacute; Thường Kiệt</span></span></p>
+
+<p><span style="color:#000000;"><span style="font-size:14px;">Cơ sở 2:&nbsp;500 T&ocirc;n Đức Thắng, Hải Ph&ograve;ng</span></span></p>
+
+<p><span style="color:#000000;"><span style="font-size:14px;">Hotline: <strong>083.666.9838 - 0904.513.880</strong></span></span></p>
+
+<p><span style="color:#000000;"><span style="font-size:14px;">Email: minhthufoodhp@gmail.com</span></span></p>
+
+<p>&nbsp;</p>
+</div>
+             
+              <div class="payment">
+                <ul>
+                  <li><a href="#"><img title="Visa" alt="Visa" src="images/visa.png"></a></li>
+                  <li><a href="#"><img title="Paypal" alt="Paypal" src="images/paypal.png"></a></li>
+                  <li><a href="#"><img title="Discover" alt="Discover" src="images/discover.png"></a></li>
+                  <li><a href="#"><img title="Master Card" alt="Master Card" src="images/master-card.png"></a></li>
+                </ul>
+              </div>
+            </div>
+          
+		  <div class="space-d col-sm-1 ">
+		  </div>
+		<div class="social col-sm-5 ">
+            <ul class="inline-mode">
+              <li class="social-network fb"><a title="Connect us on Facebook" target="_blank" href="https://www.facebook.com/Minhthu.Food.Organic.Healthy"><i class="fa fa-facebook"></i></a></li>
+              <li class="social-network googleplus"><a title="Connect us on Google+" target="_blank" href="https://www.facebook.com/Minhthu.Food.Organic.Healthy"><i class="fa fa-google"></i></a></li>
+              <li class="social-network rss"><a title="Connect us on Instagram" target="_blank" href="https://www.facebook.com/Minhthu.Food.Organic.Healthy"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer-coppyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-xs-12 coppyright"> Copyright © 2021 <a href="#"> minhthufoodvn.com </a>. All Rights Reserved. </div>
+          <div class="col-sm-6 col-xs-12">
+            <ul class="footer-company-links">
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="#" id="back-to-top" title="Back to top"><i class="fa fa-angle-up"></i></a> 
+  
+  <!-- End Footer --> 
+</div>
+
+<!-- JS --> 
+
+<!-- jquery js --> 
+
+
+<!-- bootstrap js --> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+
+<!-- owl.carousel.min js --> 
+<script type="text/javascript" src="js/owl.carousel.min.js"></script> 
+
+<!-- jquery.mobile-menu js --> 
+<script type="text/javascript" src="js/mobile-menu.js"></script> 
+
+<!--jquery-ui.min js --> 
+<script type="text/javascript" src="js/jquery-ui.js"></script> 
+
+<!-- main js --> 
+<script type="text/javascript" src="js/main.js"></script> 
+
+
+<!-- Slider Js --> 
+<script type="text/javascript" src="js/revolution-slider.js"></script> 
+<script type='text/javascript'>
+        jQuery(document).ready(function(){
+            jQuery('#rev_slider_4').show().revolution({
+                dottedOverlay: 'none',
+                delay: 5000,
+                
+                hideThumbs: 200,
+                thumbWidth: 200,
+                thumbHeight: 50,
+                thumbAmount: 2,
+
+                navigationType: 'thumb',
+                navigationArrows: 'solo',
+                navigationStyle: 'round',
+
+                touchenabled: 'on',
+                onHoverStop: 'on',
+                
+                swipe_velocity: 0.7,
+                swipe_min_touches: 1,
+                swipe_max_touches: 1,
+                drag_block_vertical: false,
+            
+                spinner: 'spinner0',
+                keyboardNavigation: 'off',
+
+                navigationHAlign: 'center',
+                navigationVAlign: 'bottom',
+                navigationHOffset: 0,
+                navigationVOffset: 20,
+
+                soloArrowLeftHalign: 'left',
+                soloArrowLeftValign: 'center',
+                soloArrowLeftHOffset: 20,
+                soloArrowLeftVOffset: 0,
+
+                soloArrowRightHalign: 'right',
+                soloArrowRightValign: 'center',
+                soloArrowRightHOffset: 20,
+                soloArrowRightVOffset: 0,
+
+                shadow: 0,
+                fullWidth: 'on',
+                fullScreen: 'off',
+
+                stopLoop: 'off',
+                stopAfterLoops: -1,
+                stopAtSlide: -1,
+
+                shuffle: 'off',
+
+                autoHeight: 'on',
+                forceFullWidth: 'on',
+                fullScreenAlignForce: 'off',
+                minFullScreenHeight: 0,
+                hideNavDelayOnMobile: 1500,
+            
+                hideThumbsOnMobile: 'off',
+                hideBulletsOnMobile: 'off',
+                hideArrowsOnMobile: 'off',
+                hideThumbsUnderResolution: 0,
+					
+
+                hideSliderAtLimit: 0,
+                hideCaptionAtLimit: 0,
+                hideAllCaptionAtLilmit: 0,
+                startWithSlide: 0,
+                fullScreenOffsetContainer: ''
+            });
+        });
+        </script>
+</body>
+</html>

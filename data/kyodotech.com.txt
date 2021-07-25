@@ -1,0 +1,1941 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]> <html lang="vi" class="ie9 loading-site no-js"> <![endif]-->
+<!--[if IE 8 ]> <html lang="vi" class="ie8 loading-site no-js"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="vi" class="loading-site no-js"> <!--<![endif]-->
+<head><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}async _loadEverythingNow(){this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{const n=document.createElement("script");let i;[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type",i=e.nodeValue),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")&&this._isValidScriptType(i)?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}_isValidScriptType(e){return!e||""===e||"string"==typeof e&&["text/javascript","text/x-javascript","text/ecmascript","text/jscript","application/javascript","application/x-javascript","application/ecmascript","application/jscript","module"].includes(e.toLowerCase())}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(i){e["rocket"+t]=n=i}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript;n||console.error("WPRocket unable to document.write this: "+t);const i=document.createRange(),r=n.parentElement;let a=e.get(n);void 0===a&&(a=n.nextSibling,e.set(n,a));const o=document.createDocumentFragment();i.setStart(o,0),o.appendChild(i.createContextualFragment(t)),r.insertBefore(o,a)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mousemove","touchmove","touchstart","touchend","wheel"]);e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();
+</script>
+	<meta charset="UTF-8" />
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://kyodotech.com/xmlrpc.php" />
+	<script type="rocketlazyloadscript">(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<!-- This site is optimized with the Yoast SEO Premium plugin v14.8 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Trang chủ - Tư vấn - Thiết kế - Thi công hệ thống phòng sạch - KYODO</title>
+	<meta name="description" content="Kyodo với hơn 10 năm hoạt động trong lĩnh vực tư vấn, thiết kế và thi công phòng sạch đạt chuẩn, được cấp các chứng nhận quản lý chất lượng.." />
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://kyodotech.com/" />
+	<meta property="og:locale" content="vi_VN" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Trang chủ - Tư vấn - Thiết kế - Thi công hệ thống phòng sạch - KYODO" />
+	<meta property="og:description" content="Kyodo với hơn 10 năm hoạt động trong lĩnh vực tư vấn, thiết kế và thi công phòng sạch đạt chuẩn, được cấp các chứng nhận quản lý chất lượng.." />
+	<meta property="og:url" content="https://kyodotech.com/" />
+	<meta property="og:site_name" content="Tư vấn - Thiết kế - Thi công Phòng sạch, nhà máy - nhà xưởng- Thông minh- sạch đẹp" />
+	<meta property="article:modified_time" content="2021-07-22T10:47:00+00:00" />
+	<meta property="og:image" content="https://kyodotech.com/wp-content/uploads/2020/11/xay-dung-phong-sach-kyodo.jpg" />
+	<meta property="og:image:width" content="512" />
+	<meta property="og:image:height" content="308" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://kyodotech.com/#organization","name":"KYODOTECH - CLEANROOM","url":"https://kyodotech.com/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://kyodotech.com/#logo","inLanguage":"vi","url":"https://kyodotech.com/wp-content/uploads/2020/11/logo-kyodo.png","width":664,"height":157,"caption":"KYODOTECH - CLEANROOM"},"image":{"@id":"https://kyodotech.com/#logo"}},{"@type":"WebSite","@id":"https://kyodotech.com/#website","url":"https://kyodotech.com/","name":"T\u01b0 v\u1ea5n - Thi\u1ebft k\u1ebf - Thi c\u00f4ng Ph\u00f2ng s\u1ea1ch nh\u00e0 m\u00e1y - nh\u00e0 x\u01b0\u1edfng","description":"","publisher":{"@id":"https://kyodotech.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://kyodotech.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"vi"},{"@type":"WebPage","@id":"https://kyodotech.com/#webpage","url":"https://kyodotech.com/","name":"Trang ch\u1ee7 - T\u01b0 v\u1ea5n - Thi\u1ebft k\u1ebf - Thi c\u00f4ng h\u1ec7 th\u1ed1ng ph\u00f2ng s\u1ea1ch - KYODO","isPartOf":{"@id":"https://kyodotech.com/#website"},"about":{"@id":"https://kyodotech.com/#organization"},"datePublished":"2020-11-04T11:49:30+00:00","dateModified":"2021-07-22T10:47:00+00:00","description":"Kyodo v\u1edbi h\u01a1n 10 n\u0103m ho\u1ea1t \u0111\u1ed9ng trong l\u0129nh v\u1ef1c t\u01b0 v\u1ea5n, thi\u1ebft k\u1ebf v\u00e0 thi c\u00f4ng ph\u00f2ng s\u1ea1ch \u0111\u1ea1t chu\u1ea9n, \u0111\u01b0\u1ee3c c\u1ea5p c\u00e1c ch\u1ee9ng nh\u1eadn qu\u1ea3n l\u00fd ch\u1ea5t l\u01b0\u1ee3ng..","inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://kyodotech.com/"]}]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//kyodotech.com' />
+
+<link href='//kyodotech.com' rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin Tư vấn - Thiết kế - Thi công Phòng sạch, nhà máy - nhà xưởng- Thông minh- sạch đẹp &raquo;" href="https://kyodotech.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dòng phản hồi Tư vấn - Thiết kế - Thi công Phòng sạch, nhà máy - nhà xưởng- Thông minh- sạch đẹp &raquo;" href="https://kyodotech.com/comments/feed/" />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link data-minify="1" rel='stylesheet' id='gtranslate-style-css'  href='https://kyodotech.com/wp-content/cache/min/1/wp-content/plugins/gtranslate/gtranslate-style24.css?ver=1626950872' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='formidable-css'  href='https://kyodotech.com/wp-content/cache/min/1/wp-content/plugins/formidable/css/formidableforms.css?ver=1626950872' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://kyodotech.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='flatsome-icons-css'  href='https://kyodotech.com/wp-content/cache/min/1/wp-content/themes/flatsome/assets/css/fl-icons.css?ver=1626950872' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='flatsome-main-css'  href='https://kyodotech.com/wp-content/cache/min/1/wp-content/themes/flatsome/assets/css/flatsome.css?ver=1626950872' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-style-css'  href='https://kyodotech.com/wp-content/themes/flatsome/style.css?ver=3.12.3' type='text/css' media='all' />
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;cursor:pointer;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;background:url(https://kyodotech.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat;cursor:pointer}
+</style>
+<script type='text/javascript' async='async' src='https://kyodotech.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' async='async' src='https://kyodotech.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://kyodotech.com/wp-json/" /><link rel="alternate" type="application/json" href="https://kyodotech.com/wp-json/wp/v2/pages/106" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kyodotech.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://kyodotech.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8" />
+<link rel='shortlink' href='https://kyodotech.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://kyodotech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkyodotech.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://kyodotech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkyodotech.com%2F&#038;format=xml" />
+<style>.bg{opacity: 0; transition: opacity 1s; -webkit-transition: opacity 1s;} .bg-loaded{opacity: 1;}</style><!--[if IE]><link rel="stylesheet" type="text/css" href="https://kyodotech.com/wp-content/themes/flatsome/assets/css/ie-fallback.css"><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script><script>var head = document.getElementsByTagName('head')[0],style = document.createElement('style');style.type = 'text/css';style.styleSheet.cssText = ':before,:after{content:none !important';head.appendChild(style);setTimeout(function(){head.removeChild(style);}, 0);</script><script src="https://kyodotech.com/wp-content/themes/flatsome/assets/libs/ie-flexibility.js"></script><![endif]--><!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="rocketlazyloadscript" async src="https://www.googletagmanager.com/gtag/js?id=UA-192063507-1"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-192063507-1');
+</script>
+
+<script data-minify="1" type='text/javascript' src='https://kyodotech.com/wp-content/cache/min/1/v6.js?ver=1626950873' async='async' > </script><link rel="icon" href="https://kyodotech.com/wp-content/uploads/2020/11/cropped-logoKyodoV-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://kyodotech.com/wp-content/uploads/2020/11/cropped-logoKyodoV-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://kyodotech.com/wp-content/uploads/2020/11/cropped-logoKyodoV-180x180.png" />
+<meta name="msapplication-TileImage" content="https://kyodotech.com/wp-content/uploads/2020/11/cropped-logoKyodoV-270x270.png" />
+<style id="custom-css" type="text/css">:root {--primary-color: #2d17d3;}.header-main{height: 80px}#logo img{max-height: 80px}#logo{width:250px;}.header-bottom{min-height: 40px}.header-top{min-height: 29px}.transparent .header-main{height: 265px}.transparent #logo img{max-height: 265px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 345px;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.header-bg-color, .header-wrapper {background-color: rgba(255,255,255,0.9)}.header-bottom {background-color: #1e73be}.header-main .nav > li > a{line-height: 16px }.stuck .header-main .nav > li > a{line-height: 50px }.header-bottom-nav > li > a{line-height: 19px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}.nav-dropdown{font-size:100%}.header-top{background-color:#1e73be!important;}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #2d17d3;}/* Color !important */[data-text-color="primary"]{color: #2d17d3!important;}/* Background Color */[data-text-bg="primary"]{background-color: #2d17d3;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #2d17d3;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #2d17d3}.nav-tabs > li.active > a{border-top-color: #2d17d3}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #2d17d3 }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #2d17d3 }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #2d17d3;}body{font-size: 100%;}@media screen and (max-width: 549px){body{font-size: 100%;}}body{font-family:"Open Sans", sans-serif}body{font-weight: 0}body{color: #000914}.nav > li > a {font-family:"Open Sans", sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family:"Open Sans", sans-serif;}.nav > li > a {font-weight: 700;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Open Sans", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font{color: #6fb0f5;}.breadcrumbs{text-transform: none;}.alt-font{font-family: "Dancing Script", sans-serif;}.alt-font{font-weight: 0!important;}a{color: #106fd5;}.widget a{color: #000000;}.widget a:hover{color: #1e73be;}.widget .tagcloud a:hover{border-color: #1e73be; background-color: #1e73be;}.is-divider{background-color: #6c5bcc;}input[type='submit'], input[type="button"], button:not(.icon), .button:not(.icon){border-radius: 30!important}.pswp__bg,.mfp-bg.mfp-ready{background-color: rgba(36,34,200,0.84)}.footer-1{background-color: rgba(2,2,130,0.96)}.footer-2{background-color: #1e73be}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}</style>		<style type="text/css" id="wp-custom-css">
+			.hotline-phone-ring-wrap {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
+}
+.hotline-phone-ring {
+  position: relative;
+  visibility: visible;
+  background-color: transparent;
+  width: 110px;
+  height: 110px;
+  cursor: pointer;
+  z-index: 11;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transition: visibility .5s;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+.hotline-phone-ring-circle {
+ width: 85px;
+  height: 85px;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  background-color: transparent;
+  border-radius: 100%;
+  border: 2px solid #e60808;
+  -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+  animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+  transition: all .5s;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  opacity: 0.5;
+}
+.hotline-phone-ring-circle-fill {
+ width: 55px;
+  height: 55px;
+  top: 25px;
+  left: 25px;
+  position: absolute;
+  background-color: rgba(230, 8, 8, 0.7);
+  border-radius: 100%;
+  border: 2px solid transparent;
+  -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+  animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+  transition: all .5s;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+.hotline-phone-ring-img-circle {
+ background-color: #e60808;
+ width: 33px;
+  height: 33px;
+  top: 37px;
+  left: 37px;
+  position: absolute;
+  background-size: 20px;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+  animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hotline-phone-ring-img-circle .pps-btn-img {
+ display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.hotline-phone-ring-img-circle .pps-btn-img img {
+ width: 20px;
+ height: 20px;
+}
+.hotline-bar {
+  position: absolute;
+  background: rgba(230, 8, 8, 0.75);
+  height: 40px;
+  width: 175px;
+  line-height: 40px;
+  border-radius: 3px;
+  padding: 0px;
+  background-size: 100%;
+  cursor: pointer;
+  transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  z-index: 9;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50px !important;
+  /* width: 175px !important; */
+  left: 33px;
+  bottom: 37px;
+}
+.hotline-bar > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-indent: 50px;
+  display: block;
+  letter-spacing: 0px;
+  line-height: 40px;
+  font-family: serif;
+}
+.hotline-bar > a:hover,
+.hotline-bar > a:active {
+  color: #fff;
+}
+@-webkit-keyframes phonering-alo-circle-anim {
+  0% {
+    -webkit-transform: rotate(0) scale(0.5) skew(1deg);
+    -webkit-opacity: 0.1;
+  }
+  30% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    -webkit-opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+    -webkit-opacity: 0.1;
+  }
+}
+@-webkit-keyframes phonering-alo-circle-fill-anim {
+  0% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    opacity: 0.6;
+  }
+  50% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    opacity: 0.6;
+  }
+}
+@-webkit-keyframes phonering-alo-circle-img-anim {
+  0% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+  10% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+  20% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+  30% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+  40% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+  50% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+}
+@media (max-width: 768px) {
+  .hotline-bar {
+    display: none;
+  }
+}
+/*------*/
+html, body {overflow-x: hidden;}
+body.home .image-glow img {border-radius: 50%;     padding: 3px;
+border: 1px solid darkgrey;}
+.badge.top {display: none;}
+.giaiphap {
+    margin-top: 10px;
+    color: #FFF;
+    background: #00a8ff;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+	text-decoration: none !important;
+	text-transform: uppercase;}
+.page-wrapper {
+	margin-top: -15px;}
+monitor-car {float: right; background: #33cc88; color:red;font-size: 20px; font-weight: bold; line-height: 2.2;}
+@media only screen and (max-width:480px) {
+.recent-blog-posts-li {display: none !important;}
+.hidemobile {
+display: none !important;}
+}
+.container .section, .row .section {
+    padding-left: 30px;
+	padding-right: 0px;}
+.icon-box-left, .icon-box-right {border-width: 1px; border-style: ridge;}
+.button {
+	margin-bottom: 0.1em;}
+.nav-column li>a, .nav-dropdown>li>a {
+	width: max-content;}
+.page-id-8 .col-inner {
+border: 1px solid #ccc;
+padding: 0 20px;}
+.page-id-275 .col-inner {
+border: 1px solid #ccc;
+padding: 0 20px;}
+.page-id-327 .col-inner {
+border: 1px solid #ccc;
+padding: 0 20px;}
+.widget-title  {
+	color: white;}
+---------------------
+.badge.top {display: none;}
+.page-wrapper {
+	margin-top: -27px;}
+monitor-car {float: right; background: #33cc88; color:red;font-size: 18px; font-weight: bold; line-height: 1.8;}
+.widget-title  {
+	color: white;}
+footer .textwidget {
+	color: white;}
+.widget .is-divider {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: -1.8em 0 0.1em;
+	max-width: 200px;}
+@media only screen and (max-width:480px) {
+.recent-blog-posts-li {display: none !important;}
+.hidemobile {
+display: none !important;}
+}
+.container .section, .row .section {
+    padding-left: 30px;
+	padding-right: 0px;}
+footer a {
+	color: #fff;}
+.widget-title {display: none;}
+.back-to-top {
+    bottom: 90px;
+	right: 34px;}
+p {color: #000080;}
+h1, h2, h3, h4, h5, h6, .heading-font {
+	color: #000080;}
+.call-now-button {
+display: block !important;color:#fff;}
+.call-now-button p.call-text a{color:#fff !important;}
+.call-now-button{ top: 89% !important;}
+
+		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>	<meta name="google-site-verification" content="Z5GHIo6JjwlVuSAMJeJQ4r1jhHj_1lSN2wyOvi0r4Kg" />
+</head>
+<body data-rsssl=1 class="home page-template page-template-page-blank page-template-page-blank-php page page-id-106 full-width header-shadow lightbox nav-dropdown-has-arrow parallax-mobile">
+
+<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+<div id="wrapper">
+
+	
+	<header id="header" class="header has-sticky sticky-jump">
+		<div class="header-wrapper">
+			<div id="top-bar" class="header-top hide-for-sticky nav-dark">
+    <div class="flex-row container">
+      <div class="flex-col hide-for-medium flex-left">
+          <ul class="nav nav-left medium-nav-center nav-small  nav-divided">
+              <li class="html custom html_topbar_left"><strong class="uppercase">Dịch vụ Thiết kế & xây dựng</strong></li>          </ul>
+      </div>
+
+      <div class="flex-col hide-for-medium flex-center">
+          <ul class="nav nav-center nav-small  nav-divided">
+                        </ul>
+      </div>
+
+      <div class="flex-col hide-for-medium flex-right">
+         <ul class="nav top-bar-nav nav-right nav-small  nav-divided">
+              <li class="html custom html_topbar_right"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" style="width:10px;height:10px" data-lazy-src="https://kyodotech.com/wp-content/uploads/2021/06/pin.png"><noscript><img src="https://kyodotech.com/wp-content/uploads/2021/06/pin.png" style="width:10px;height:10px"></noscript>  VĂN PHÒNG LẦU 1, ĐS 9, KDC CITYLAND, P 10, Q GÒ VẤP, HCM</img></li>          </ul>
+      </div>
+
+            <div class="flex-col show-for-medium flex-grow">
+          <ul class="nav nav-center nav-small mobile-nav  nav-divided">
+              <li class="html custom html_topbar_left"><strong class="uppercase">Dịch vụ Thiết kế & xây dựng</strong></li>          </ul>
+      </div>
+      
+    </div>
+</div>
+<div id="masthead" class="header-main ">
+      <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
+
+          <!-- Logo -->
+          <div id="logo" class="flex-col logo">
+            <!-- Header logo -->
+<a href="https://kyodotech.com/" title="Tư vấn &#8211; Thiết kế &#8211; Thi công Phòng sạch, nhà máy &#8211; nhà xưởng- Thông minh- sạch đẹp" rel="home">
+    <img width="250" height="80" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%2080'%3E%3C/svg%3E" class="header_logo header-logo" alt="Tư vấn &#8211; Thiết kế &#8211; Thi công Phòng sạch, nhà máy &#8211; nhà xưởng- Thông minh- sạch đẹp" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/logo-kyodo.png"/><noscript><img width="250" height="80" src="https://kyodotech.com/wp-content/uploads/2020/11/logo-kyodo.png" class="header_logo header-logo" alt="Tư vấn &#8211; Thiết kế &#8211; Thi công Phòng sạch, nhà máy &#8211; nhà xưởng- Thông minh- sạch đẹp"/></noscript><img  width="250" height="80" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%2080'%3E%3C/svg%3E" class="header-logo-dark" alt="Tư vấn &#8211; Thiết kế &#8211; Thi công Phòng sạch, nhà máy &#8211; nhà xưởng- Thông minh- sạch đẹp" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/logo-kyodo.png"/><noscript><img  width="250" height="80" src="https://kyodotech.com/wp-content/uploads/2020/11/logo-kyodo.png" class="header-logo-dark" alt="Tư vấn &#8211; Thiết kế &#8211; Thi công Phòng sạch, nhà máy &#8211; nhà xưởng- Thông minh- sạch đẹp"/></noscript></a>
+          </div>
+
+          <!-- Mobile Left Elements -->
+          <div class="flex-col show-for-medium flex-left">
+            <ul class="mobile-nav nav nav-left ">
+              <li class="nav-icon has-icon">
+  		<a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay" data-color="" class="is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
+		
+		  <i class="icon-menu" ></i>
+		  		</a>
+	</li>            </ul>
+          </div>
+
+          <!-- Left Elements -->
+          <div class="flex-col hide-for-medium flex-left
+            flex-grow">
+            <ul class="header-nav header-nav-main nav nav-left " >
+              <li class="html custom html_nav_position_text_top"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" style="width:23px;height:23px;text-align:center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/email-1.png"><noscript><img src="https://kyodotech.com/wp-content/uploads/2020/11/email-1.png" style="width:23px;height:23px;text-align:center"></noscript><span style="font-size:30;line-height:6px;text-align:center"><a href="mailto:sales@pskyodo.com"> <strong>sales@kyodo.com |</strong></a><img> <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" style="width:23px;height:23px;text-align:center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/phone1.png"><noscript><img src="https://kyodotech.com/wp-content/uploads/2020/11/phone1.png" style="width:23px;height:23px;text-align:center"></noscript><span style="font-size:40"><a href="tel:+84972617767"> <strong>Mr. Đạt: +84.972.617.767</strong></a> -<a href="tel:+84908036054"> <strong>Mr. Thuận: +84.908.036.054</strong></a><img></li>            </ul>
+          </div>
+
+          <!-- Right Elements -->
+          <div class="flex-col hide-for-medium flex-right">
+            <ul class="header-nav header-nav-main nav nav-right ">
+              <li class="html custom html_top_right_text"><!-- GTranslate: https://gtranslate.io/ -->
+<a href="#" onclick="doGTranslate('vi|vi');return false;" title="English" class="glink nturl notranslate"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3E%3C/svg%3E" height="24" width="24" alt="Vietnamese" data-lazy-src="//kyodotech.com/wp-content/plugins/gtranslate/flags/24/vi.png" /><noscript><img src="//kyodotech.com/wp-content/plugins/gtranslate/flags/24/vi.png" height="24" width="24" alt="Vietnamese" /></noscript></a><a href="#" onclick="doGTranslate('vi|en');return false;" title="English" class="glink nturl notranslate"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%3E%3C/svg%3E" height="24" width="24" alt="Vietnamese" data-lazy-src="//kyodotech.com/wp-content/plugins/gtranslate/flags/24/en.png" /><noscript><img src="//kyodotech.com/wp-content/plugins/gtranslate/flags/24/en.png" height="24" width="24" alt="Vietnamese" /></noscript></a><style>
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+.goog-text-highlight {background-color:transparent !important;box-shadow:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;}
+</style>
+
+<div id="google_translate_element2"></div>
+<script type="rocketlazyloadscript">
+function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'vi',autoDisplay: false}, 'google_translate_element2');}
+</script><script data-minify="1" src="https://kyodotech.com/wp-content/cache/min/1/translate_a/element.js?ver=1626950873"></script>
+
+
+<script type="rocketlazyloadscript">
+function GTranslateGetCurrentLang() {var keyValue = document['cookie'].match('(^|;) ?googtrans=([^;]*)(;|$)');return keyValue ? keyValue[2].split('/')[2] : null;}
+function GTranslateFireEvent(element,event){try{if(document.createEventObject){var evt=document.createEventObject();element.fireEvent('on'+event,evt)}else{var evt=document.createEvent('HTMLEvents');evt.initEvent(event,true,true);element.dispatchEvent(evt)}}catch(e){}}
+function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];if(GTranslateGetCurrentLang() == null && lang == lang_pair.split('|')[0])return;var teCombo;var sel=document.getElementsByTagName('select');for(var i=0;i<sel.length;i++)if(sel[i].className.indexOf('goog-te-combo')!=-1){teCombo=sel[i];break;}if(document.getElementById('google_translate_element2')==null||document.getElementById('google_translate_element2').innerHTML.length==0||teCombo.length==0||teCombo.innerHTML.length==0){setTimeout(function(){doGTranslate(lang_pair)},500)}else{teCombo.value=lang;GTranslateFireEvent(teCombo,'change');GTranslateFireEvent(teCombo,'change')}}
+</script>
+</li><li class="header-search header-search-dropdown has-icon has-dropdown menu-item-has-children">
+	<div class="header-button">	<a href="#" aria-label="Search" class="icon button round is-outline is-small"><i class="icon-search" ></i></a>
+	</div>	<ul class="nav-dropdown nav-dropdown-default">
+	 	<li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper">
+		<div class="searchform-wrapper ux-search-box relative is-normal"><form method="get" class="searchform" action="https://kyodotech.com/" role="search">
+		<div class="flex-row relative">
+			<div class="flex-col flex-grow">
+	   	   <input type="search" class="search-field mb-0" name="s" value="" id="s" placeholder="Search&hellip;" />
+			</div>
+			<div class="flex-col">
+				<button type="submit" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+					<i class="icon-search" ></i>				</button>
+			</div>
+		</div>
+    <div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li>	</ul>
+</li>
+            </ul>
+          </div>
+
+          <!-- Mobile Right Elements -->
+          <div class="flex-col show-for-medium flex-right">
+            <ul class="mobile-nav nav nav-right ">
+                          </ul>
+          </div>
+
+      </div>
+     
+            <div class="container"><div class="top-divider full-width"></div></div>
+      </div><div id="wide-nav" class="header-bottom wide-nav nav-dark flex-has-center hide-for-medium">
+    <div class="flex-row container">
+
+            
+                        <div class="flex-col hide-for-medium flex-center">
+                <ul class="nav header-nav header-bottom-nav nav-center  nav-size-medium nav-spacing-medium nav-uppercase">
+                    <li id="menu-item-122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-122 has-dropdown"><a href="https://kyodotech.com/cong-ty-sx-tm-xd-kyodo-cleanroom/" class="nav-top-link">GIỚI THIỆU CÔNG TY<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default">
+	<li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="https://kyodotech.com/cong-ty-sx-tm-xd-kyodo-cleanroom/">Sơ lược về Kyodo</a></li>
+	<li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="https://kyodotech.com/gia-tri-cot-loi-cua-kyodo/">Giá trị cốt lõi</a></li>
+	<li id="menu-item-125" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-125"><a href="https://kyodotech.com/ho-so-nang-luc">Hồ sơ năng lực</a></li>
+	<li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="https://kyodotech.com/khach-hang-va-doi-tac-phong-sach-kyodo/">Khách hàng &#038; đối tác</a></li>
+	<li id="menu-item-130" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-130"><a href="https://kyodotech.com/category/thong-tin-lien-quan/">Bản tin Kyodo</a></li>
+</ul>
+</li>
+<li id="menu-item-138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-138 has-dropdown"><a href="https://kyodotech.com/category/san-pham-thiet-bi-phong-sach-cleanroom-equipment-products/" class="nav-top-link">SẢN PHẨM<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default">
+	<li id="menu-item-267" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267"><a href="https://kyodotech.com/panel-phong-sach-kyodo">Panel phòng sạch</a></li>
+	<li id="menu-item-268" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-268"><a href="https://kyodotech.com/cua-panel-phong-sach/">Cửa panel</a></li>
+	<li id="menu-item-475" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-475"><a href="https://kyodotech.com/cua-cuon-nhanh-phong-sach-kyodo">Cửa cuốn nhanh phòng sạch</a></li>
+	<li id="menu-item-263" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-263"><a href="https://kyodotech.com/ahu-thiet-bi-xu-ly-khong-khi/">AHU</a></li>
+	<li id="menu-item-264" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-264"><a href="https://kyodotech.com/passbox-phong-sach/">Passbox</a></li>
+	<li id="menu-item-265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-265"><a href="https://kyodotech.com/air-shower-phong-sach-kyodo">Airshower phòng sạch</a></li>
+	<li id="menu-item-266" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-266"><a href="https://kyodotech.com/clean-booth-cau-tao-va-chuc-nang/">Clean booth</a></li>
+	<li id="menu-item-1299" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1299"><a href="https://kyodotech.com/epoxy-phong-sach-kyodo">Epoxy phòng sạch</a></li>
+</ul>
+</li>
+<li id="menu-item-131" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-131 active has-dropdown"><a href="https://kyodotech.com" aria-current="page" class="nav-top-link">TƯ VẤN-GIẢI PHÁP<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default">
+	<li id="menu-item-132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-132"><a href="https://kyodotech.com/phong-sach-la-gi-tieu-chuan-phong-sach-kyodo">Phòng sạch là gì?</a></li>
+	<li id="menu-item-143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-143"><a href="https://kyodotech.com/phan-loai-phong-sach-kyodo">Các loại phòng sạch</a></li>
+	<li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133"><a href="https://kyodotech.com/thiet-bi-loc-khong-khi-cho-phong-sach-kyodo">Thiết bị lọc không khí cho phòng sạch</a></li>
+	<li id="menu-item-372" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-372"><a href="https://kyodotech.com/he-thong-xu-ly-khong-khi-ahu-phong-sach-kyodo">Hệ thống xử lý không khí AHU</a></li>
+	<li id="menu-item-134" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-134"><a href="https://kyodotech.com/phong-sach-gmp/">Phòng sạch GMP</a></li>
+</ul>
+</li>
+<li id="menu-item-135" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-135 active has-dropdown"><a href="https://kyodotech.com/category/thi-cong-phong-sach/" class="nav-top-link">XÂY DỰNG NHÀ MÁY-PHÒNG SẠCH<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default">
+	<li id="menu-item-136" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136"><a href="https://kyodotech.com/thi-cong-nha-may-san-xuat-khau-trang-kyodo">Nhà máy khẩu trang</a></li>
+	<li id="menu-item-137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137"><a href="https://kyodotech.com/phong-sach-dien-tu-kyodo">Phòng sạch điện tử</a></li>
+	<li id="menu-item-340" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-340"><a href="https://kyodotech.com/phong-sach-san-xuat-my-pham-kyodo/">Phòng sạch mỹ phẩm</a></li>
+	<li id="menu-item-811" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-811"><a href="https://kyodotech.com/phong-sach-duoc-pham-kyodo/">Phòng sạch dược phẩm</a></li>
+	<li id="menu-item-341" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-341 active"><a href="https://kyodotech.com" aria-current="page">Nhà máy thuốc thú y</a></li>
+	<li id="menu-item-342" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-342 active"><a href="https://kyodotech.com" aria-current="page">Nhà máy sữa</a></li>
+	<li id="menu-item-343" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-343 active"><a href="https://kyodotech.com" aria-current="page">Nhà máy chế biến thuỷ hải sản</a></li>
+</ul>
+</li>
+<li id="menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-256 active has-dropdown"><a href="https://kyodotech.com/category/kyodo-project/" class="nav-top-link">DỰ ÁN<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default">
+	<li id="menu-item-1252" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1252"><a href="https://kyodotech.com/phong-sach-linh-vuc-duoc-pham-gmp-nanogen/">GMP WHO CLEANROOM &#8211; DƯỢC NANOGEN</a></li>
+	<li id="menu-item-1796" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1796"><a href="https://kyodotech.com/phong-sach-linh-vuc-duoc-pham-gmp-who-boston-pharma/">PHÒNG SẠCH GMP DƯỢC BOSTON</a></li>
+	<li id="menu-item-1797" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1797"><a href="https://kyodotech.com/phong-sach-linh-vuc-trang-thiet-bi-y-te-iso13485-dk-vina/">PHÒNG SẠCH TRANG THIẾT BỊ Y TẾ</a></li>
+	<li id="menu-item-1711" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1711 active"><a href="https://kyodotech.com/" aria-current="page">DỰ ÁN LAVITE &#8211; RỒNG XANH</a></li>
+</ul>
+</li>
+<li id="menu-item-270" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-270 active has-dropdown"><a href="https://kyodotech.com" aria-current="page" class="nav-top-link">TIN TỨC<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default">
+	<li id="menu-item-272" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-272 active"><a href="https://kyodotech.com" aria-current="page">Tin Kyodo</a></li>
+	<li id="menu-item-271" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-271 active"><a href="https://kyodotech.com" aria-current="page">Kyodo tuyển dụng</a></li>
+</ul>
+</li>
+<li id="menu-item-139" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-139 active has-dropdown"><a href="https://kyodotech.com/lien-he/" class="nav-top-link">Liên Hệ<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default">
+	<li id="menu-item-140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140"><a href="https://kyodotech.com/lien-he/">Tư vấn phòng sạch</a></li>
+	<li id="menu-item-141" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-141 active"><a href="https://kyodotech.com" aria-current="page">Tư vấn thiết bị</a></li>
+	<li id="menu-item-142" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-142 active"><a href="https://kyodotech.com" aria-current="page">Tư vấn giấy phép</a></li>
+</ul>
+</li>
+                </ul>
+            </div>
+            
+            
+            
+    </div>
+</div>
+
+<div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div>		</div>
+	</header>
+		<main id="main" class="">
+
+
+<div id="content" role="main" class="content-area">
+
+		
+			<p>&nbsp;</p>
+
+  <div class="banner has-hover show-for-small" id="banner-1128618335">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-144765625" class="text-box banner-layer x50 md-x50 lg-x50 y15 md-y15 lg-y15 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+<h4 class="uppercase"><span style="font-family: georgia, palatino, serif; color: #000080;"><strong>Tư vấn &#8211; thiết kế &#8211; thi công</strong></span></h4>
+<p class="uppercase"><span style="font-family: georgia, palatino, serif; color: #000080; font-size: 130%;"><strong>Phòng sạch &#8211; Nhà xưởng</strong></span></p>
+              </div>
+           </div>
+                            
+<style>
+#text-box-144765625 {
+  width: 97%;
+}
+#text-box-144765625 .text {
+  font-size: 100%;
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style>
+#banner-1128618335 {
+  padding-top: 135px;
+}
+#banner-1128618335 .bg.bg-loaded {
+  background-image: url(https://kyodotech.com/wp-content/uploads/2021/06/baner-kyodotech-cleanroom-min.png);
+}
+#banner-1128618335 .bg {
+  background-position: 41% 100%;
+}
+@media (min-width:550px) {
+  #banner-1128618335 {
+    padding-top: 350px;
+  }
+}
+</style>
+  </div>
+
+
+	<section class="section" id="section_1526036625">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+	<div class="is-border"
+		style="border-width:0px 5px2 0px 0px;">
+	</div>
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-1704678006">
+
+	<div id="col-1824524336" class="col medium-7 small-12 large-7"  >
+		<div class="col-inner"  >
+			
+			
+<div class="text-center"><div class="is-divider divider clearfix" style="height:0px;"></div></div>
+<h4 style="text-align: center;"><span style="color: #0000ff; font-family: 'times new roman', times, serif;"><strong>GIẢI PHÁP THIẾT KẾ VÀ XÂY DỰNG PHÒNG &#8211; NHÀ MÁY SẠCH</strong></span></h4>
+		</div>
+		
+<style>
+#col-1824524336 > .col-inner {
+  margin: -18px 0px -37px 0px;
+}
+</style>
+	</div>
+
+	
+
+	<div id="col-406350137" class="col medium-5 small-12 large-5"  >
+		<div class="col-inner text-center"  >
+			
+			
+<div class="text-center"><div class="is-divider divider clearfix" style="height:0px;"></div></div>
+<a href="https://kyodotech.com/lien-he/" target="_self" class="button alert is-shade is-small box-shadow-3 box-shadow-5-hover lowercase"  style="border-radius:10px;">
+  <i class="icon-checkmark" ></i>  <span>Đăng Ký Tư Vấn</span>
+  </a>
+
+<a class="button success is-shade is-small box-shadow-3 box-shadow-5-hover lowercase"  style="border-radius:10px;">
+  <i class="icon-phone" ></i>  <span>Yêu cầu lịch gọi lại</span>
+  </a>
+
+		</div>
+		
+<style>
+#col-406350137 > .col-inner {
+  margin: -19px 0px 0px 0px;
+}
+</style>
+	</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_1526036625 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: rgb(214, 222, 222);
+}
+</style>
+	</section>
+	
+	<section class="section has-mask mask-arrow" id="section_1978763953">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="container section-title-container" ><h4 class="section-title section-title-bold"><b></b><span class="section-title-main" style="font-size:80%;color:rgb(253, 253, 253);"><i class="icon-play" ></i>GIỚI THIỆU</span><b></b></h4></div>
+<div class="row"  id="row-1977656370">
+
+	<div id="col-954975270" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner text-left"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_484953878">
+								<div class="img-inner image-cover dark" style="padding-top:56.25%;">
+			<img width="512" height="308" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20308'%3E%3C/svg%3E" class="attachment-original size-original" alt="kyodo phong sach" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/xay-dung-phong-sach-kyodo.jpg" /><noscript><img width="512" height="308" src="https://kyodotech.com/wp-content/uploads/2020/11/xay-dung-phong-sach-kyodo.jpg" class="attachment-original size-original" alt="kyodo phong sach" /></noscript>						
+					</div>
+								
+<style>
+#image_484953878 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+		
+<style>
+#col-954975270 > .col-inner {
+  margin: 0px 0px -30px 0px;
+}
+</style>
+	</div>
+
+	
+
+	<div id="col-400457341" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner text-left"  >
+			
+			
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="color: #ffffff;"><span style="color: #ffff00;"><strong><a style="color: #ffff00;" href="https://kyodotech.com/">KYODO</a></strong> </span>với đội ngũ nhân viên có kinh nghiệm hơn 10 năm trong lĩnh vực tư vấn, thiết kế và thi công phòng sạch đạt chuẩn, được cấp chứng nhận hệ thống quản lý chất lượng cho các lĩnh vực.<br />
+</span><span style="color: #ffffff;"><span style="color: #ffff00;"><a style="color: #ffff00;" href="https://kyodotech.com/"><strong>KYODO</strong></a> </span>sản xuất cung cấp các thiết bị cho phòng sạch: <strong>Airshower, passbox, cleanbooth, AHU, ACU, PAU,</strong>…<br />
+</span><span style="color: #ffffff;">Đặc biệt là lĩnh vực <strong>công nghệ cách nhiệt cho phòng sạch</strong> là hệ thống trần, vách panel, hệ thống cửa panel, ô kính, hệ thống sàn epoxy, vinyl, PU, &#8230;<br />
+<span style="color: #ffff00;"><br />
+<strong>&gt;&gt; Một số dự án và thành tựu năm 2020 của Kyodotech&#8230;</strong></span><br />
+</span></span></p>
+<a href="https://kyodotech.com/thanh-tuu-nam-2020-va-dinh-huong-trong-tuong-lai-gan/" target="_self" class="button secondary is-shade box-shadow-3 box-shadow-5-hover"  style="border-radius:5px;">
+    <span>Thông tin thêm</span>
+  </a>
+
+		</div>
+			</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_1978763953 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(85, 103, 121);
+}
+</style>
+	</section>
+	
+	<section class="section" id="section_2058704479">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-1102306838">
+
+	<div id="col-1917268119" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner text-left"  >
+			
+			
+<h4><span style="color: #000080; font-family: arial, helvetica, sans-serif; font-size: 100%;"><strong>XÂY DỰNG PHÒNG SẠCH, NHÀ XƯỞNG: </strong></span></h4>
+<p><span class="fontstyle0" style="color: #333333; font-family: arial, helvetica, sans-serif; font-size: 100%;"><span style="color: #0000ff;"><strong>KYODO</strong></span> tự tin cung cấp cho khách hàng những sản phẩm và <strong>dịch vụ tốt nhất</strong> với <strong>chi phí hợp lý</strong> và thời gian rút ngắn nhằm <strong>tối đa lợi ích </strong>cho khách hàng trong nhiều lĩnh vực:</span></p>
+<p><span style="color: #000080; font-family: arial, helvetica, sans-serif; font-size: 100%;"><strong>Xây dựng phòng sạch nhà máy khẩu trang<br />
+Xây dựng phòng sạch điện tử</strong></span><br />
+<span style="color: #000080; font-family: arial, helvetica, sans-serif; font-size: 100%;"><strong>Xây dựng phòng sạch dược phẩm</strong></span><br />
+<span style="color: #000080; font-family: arial, helvetica, sans-serif; font-size: 100%;"><strong>Xây dựng phòng sạch mỹ phẩm</strong></span><br />
+<span style="color: #000080; font-family: arial, helvetica, sans-serif; font-size: 100%;"><strong>Xây dựng phòng sạch lĩnh vực bệnh viện</strong></span><br />
+<span style="color: #000080; font-family: arial, helvetica, sans-serif; font-size: 100%;"><strong>Xây dựng phòng sạch nhà máy sữa</strong></span><br />
+<span style="color: #000080; font-family: arial, helvetica, sans-serif; font-size: 100%;"><strong>Xây dựng phòng sạch nhà máy chế biến thuỷ sản</strong></span><br />
+<span style="color: #000080; font-family: arial, helvetica, sans-serif; font-size: 100%;"><strong>Xây dựng phòng sạch lĩnh vực khác</strong></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 100%;"><em><span style="color: #ff0000;">Hãy đến với KYODO để được hỗ trợ tư vấn miễn phí 100%</span></em></span></p>
+		</div>
+			</div>
+
+	
+
+	<div id="col-273267009" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner text-left"  >
+			
+			
+	<div class="box has-hover   has-hover box-text-bottom" >
+
+		<div class="box-image" >
+						<div class="" >
+				<img width="1280" height="960" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20960'%3E%3C/svg%3E" class="attachment- size-" alt="Phòng sạch điện tử class 1000" data-lazy-srcset="https://kyodotech.com/wp-content/uploads/2020/11/9.jpg 1280w, https://kyodotech.com/wp-content/uploads/2020/11/9-533x400.jpg 533w, https://kyodotech.com/wp-content/uploads/2020/11/9-1067x800.jpg 1067w, https://kyodotech.com/wp-content/uploads/2020/11/9-768x576.jpg 768w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/9.jpg" /><noscript><img width="1280" height="960" src="https://kyodotech.com/wp-content/uploads/2020/11/9.jpg" class="attachment- size-" alt="Phòng sạch điện tử class 1000" srcset="https://kyodotech.com/wp-content/uploads/2020/11/9.jpg 1280w, https://kyodotech.com/wp-content/uploads/2020/11/9-533x400.jpg 533w, https://kyodotech.com/wp-content/uploads/2020/11/9-1067x800.jpg 1067w, https://kyodotech.com/wp-content/uploads/2020/11/9-768x576.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript>											</div>
+					</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<p style="text-align: left;"><span style="color: #282828; font-family: arial, helvetica, sans-serif;"><em><strong><span style="color: #0000ff;">KYODO</span></strong> với đội ngũ <strong><span style="color: #000080;">TƯ VẤN &#8211; THIẾT KẾ</span></strong> chuyên nghiệp sẽ giúp bạn giải đáp tất cả thắc mắc!</em></span></p>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+			</div>
+
+	
+</div>
+<div class="text-center"><div class="is-divider divider clearfix" style="max-width:800px;height:2px;background-color:rgb(7, 45, 239);"></div></div>
+		</div>
+
+		
+<style>
+#section_2058704479 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+</style>
+	</section>
+	
+	<section class="section" id="section_1435384729">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-519565911">
+
+	<div id="col-487067597" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner text-left"  >
+			
+			
+	<div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1907158118">
+								<div class="img-inner image-cover dark" style="padding-top:56.25%;">
+			<img width="1280" height="960" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%20960'%3E%3C/svg%3E" class="attachment-original size-original" alt="Phòng sạch điện tử class 1000" data-lazy-srcset="https://kyodotech.com/wp-content/uploads/2020/11/10.jpg 1280w, https://kyodotech.com/wp-content/uploads/2020/11/10-533x400.jpg 533w, https://kyodotech.com/wp-content/uploads/2020/11/10-1067x800.jpg 1067w, https://kyodotech.com/wp-content/uploads/2020/11/10-768x576.jpg 768w" data-lazy-sizes="(max-width: 1280px) 100vw, 1280px" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/10.jpg" /><noscript><img width="1280" height="960" src="https://kyodotech.com/wp-content/uploads/2020/11/10.jpg" class="attachment-original size-original" alt="Phòng sạch điện tử class 1000" srcset="https://kyodotech.com/wp-content/uploads/2020/11/10.jpg 1280w, https://kyodotech.com/wp-content/uploads/2020/11/10-533x400.jpg 533w, https://kyodotech.com/wp-content/uploads/2020/11/10-1067x800.jpg 1067w, https://kyodotech.com/wp-content/uploads/2020/11/10-768x576.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></noscript>						
+					</div>
+								
+<style>
+#image_1907158118 {
+  width: 100%;
+}
+</style>
+	</div>
+	
+		</div>
+			</div>
+
+	
+
+	<div id="col-271981332" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner"  >
+			
+			
+<p><span style="color: #333333; font-family: arial, helvetica, sans-serif;"><span style="color: #0000ff;"><strong>KYODO</strong> </span>chú trọng <span style="color: #0000ff;"><strong>UY TÍN &#8211; CHẤT LƯỢNG</strong></span>, dó đó sẽ luôn đề cao quá trình vận hành bảo trì bảo dưỡng cho quý khách hàng sau khi nghiệm thu:</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><strong><span style="color: #333333;">Bảo hành hệ thống HVAC<br />
+Bảo hành phòng sạch, nhà xưởng<br />
+Nâng cấp, cải tạo phòng sạch, nhà máy</span></strong></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><em><span style="color: #333333;">Với đội ngũ <span style="color: #50b848;">KỸ THUẬT<strong> &#8211; </strong>THI CÔNG &#8211; BẢO HÀNH </span>của <span style="color: #0000ff;"><strong>KYODO</strong></span> sẽ giúp khách hàng tin tưởng hài lòng tuyệt đối.</span></em></span></p>
+		</div>
+			</div>
+
+	
+
+	<div id="col-994452442" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner text-left"  >
+			
+			
+
+  <div class="banner has-hover" id="banner-2093033567">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+            <div class="effect-sparkle bg-effect fill no-click"></div>        </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-1078219452" class="text-box banner-layer x50 md-x50 lg-x50 y100 md-y100 lg-y100 res-text">
+                                <div class="text ">
+              
+              <div class="text-inner text-center">
+                  
+<h4 class="uppercase" style="text-align: center;"><span style="color: #0000ff; font-family: 'times new roman', times, serif;"> chứng nhận hệ thống Ql chất lượng khẩu trang y tế</span></h4>
+<h4 class="uppercase" style="text-align: center;"><span style="color: #282828; font-family: 'times new roman', times, serif; font-size: 100%;"><strong>Tư vấn iso 13485</strong></span></h4>
+<a href="https://kyodotech.com/thi-cong-nha-may-san-xuat-khau-trang-kyodo/" target="_self" class="button primary is-underline"  >
+    <span>Xem ngay</span>
+  </a>
+
+              </div>
+           </div>
+                            
+<style>
+#text-box-1078219452 .text {
+  background-color: rgba(255, 255, 255, 0.94);
+  font-size: 100%;
+}
+#text-box-1078219452 .text-inner {
+  padding: 0px 0px 0px 0;
+}
+#text-box-1078219452 {
+  width: 100%;
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style>
+#banner-2093033567 {
+  padding-top: 400px;
+}
+#banner-2093033567 .bg.bg-loaded {
+  background-image: url(https://kyodotech.com/wp-content/uploads/2020/11/Linh-vuc-thi-cong-nha-may-san-xuat-khau-trang4-1.png);
+}
+#banner-2093033567 .overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#banner-2093033567 .bg {
+  background-position: 48% 74%;
+}
+</style>
+  </div>
+
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-762866571" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner text-left"  >
+			
+			
+
+  <div class="banner has-hover" id="banner-2083928219">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+            <div class="effect-sparkle bg-effect fill no-click"></div>        </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-701060312" class="text-box banner-layer x50 md-x50 lg-x50 y100 md-y100 lg-y100 res-text">
+                                <div class="text ">
+              
+              <div class="text-inner text-center">
+                  
+<h4 class="uppercase" style="text-align: center;"><span style="color: #0000ff; font-family: 'times new roman', times, serif;">CHỨNG NHẬN Hệ thống quản lý chất lượng</span></h4>
+<h4 class="uppercase" style="text-align: center;"><span style="color: #282828; font-family: 'times new roman', times, serif; font-size: 100%;"><strong>Tư vấn GMP &#8211; WHO</strong></span></h4>
+<a class="button primary is-underline"  >
+    <span>Xem ngay</span>
+  </a>
+
+              </div>
+           </div>
+                            
+<style>
+#text-box-701060312 .text {
+  background-color: rgba(255, 255, 255, 0.94);
+  font-size: 100%;
+}
+#text-box-701060312 .text-inner {
+  padding: 0px 0px 0px 0;
+}
+#text-box-701060312 {
+  width: 100%;
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style>
+#banner-2083928219 {
+  padding-top: 400px;
+}
+#banner-2083928219 .bg.bg-loaded {
+  background-image: url(https://kyodotech.com/wp-content/uploads/2020/11/phong-sach-y-te.png);
+}
+#banner-2083928219 .overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#banner-2083928219 .bg {
+  background-position: 48% 74%;
+}
+</style>
+  </div>
+
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-1820195972" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner text-left"  >
+			
+			
+
+  <div class="banner has-hover" id="banner-2049607919">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+            <div class="effect-sparkle bg-effect fill no-click"></div>        </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-895920713" class="text-box banner-layer x50 md-x50 lg-x50 y100 md-y100 lg-y100 res-text">
+                                <div class="text ">
+              
+              <div class="text-inner text-center">
+                  
+<h4 class="uppercase" style="text-align: center;"><span style="color: #0000ff; font-family: 'times new roman', times, serif;"><strong>CHỨNG NHẬN Hệ thống quản lý chất lượNG</strong></span></h4>
+<h4 style="text-align: center;"><span style="color: #282828; font-family: 'times new roman', times, serif;"><strong>TƯ VẤN ISO 14001, HACCP, BRC, ISO 22000</strong></span></h4>
+<a href="https://kyodotech.com/phong-sach-san-xuat-my-pham-kyodo/" target="_self" class="button primary is-underline"  >
+    <span>Xem ngay</span>
+  </a>
+
+              </div>
+           </div>
+                            
+<style>
+#text-box-895920713 .text {
+  background-color: rgba(255, 255, 255, 0.94);
+  font-size: 100%;
+}
+#text-box-895920713 .text-inner {
+  padding: 0 0px 0px 0px;
+}
+#text-box-895920713 {
+  width: 100%;
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style>
+#banner-2049607919 {
+  padding-top: 400px;
+}
+#banner-2049607919 .bg.bg-loaded {
+  background-image: url(https://kyodotech.com/wp-content/uploads/2020/11/phong-sach-nganh-vi-sinh-my-pham.png);
+}
+#banner-2049607919 .overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+</style>
+  </div>
+
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-137475894" class="col medium-6 small-12 large-6"  >
+		<div class="col-inner text-left"  >
+			
+			
+
+  <div class="banner has-hover" id="banner-298286539">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+            <div class="effect-sparkle bg-effect fill no-click"></div>        </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-1275613847" class="text-box banner-layer x50 md-x50 lg-x50 y100 md-y100 lg-y100 res-text">
+                                <div class="text ">
+              
+              <div class="text-inner text-center">
+                  
+<h4 class="uppercase" style="text-align: center;"><span style="color: #0000ff; font-family: 'times new roman', times, serif;"><strong>CHỨNG NHẬN Hệ thống quản lý chất lượNG</strong></span></h4>
+<h4 style="text-align: center;"><span style="color: #282828; font-family: 'times new roman', times, serif;"><strong>TƯ VẤN ISO 14001, HACCP, BRC, ISO 22000</strong></span></h4>
+<a class="button primary is-underline"  >
+    <span>Xem ngay</span>
+  </a>
+
+              </div>
+           </div>
+                            
+<style>
+#text-box-1275613847 .text {
+  background-color: rgba(255, 255, 255, 0.94);
+  font-size: 100%;
+}
+#text-box-1275613847 .text-inner {
+  padding: 0 0px 0px 0px;
+}
+#text-box-1275613847 {
+  width: 100%;
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style>
+#banner-298286539 {
+  padding-top: 400px;
+}
+#banner-298286539 .bg.bg-loaded {
+  background-image: url(https://kyodotech.com/wp-content/uploads/2020/11/Hinh-du-an-thuoc-thu-y-1.png);
+}
+#banner-298286539 .overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+</style>
+  </div>
+
+
+		</div>
+			</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_1435384729 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+</style>
+	</section>
+	
+	<section class="section" id="section_1033474552">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="container section-title-container" style="margin-top:-30px;"><h4 class="section-title section-title-center"><b></b><span class="section-title-main" style="color:rgb(21, 64, 233);">DỰ ÁN TIÊU BIỂU Gần đây</span><b></b></h4></div>
+<div class="row"  id="row-1598572470">
+
+	<div id="col-1350200935" class="col medium-6 small-6 large-6"  >
+		<div class="col-inner"  >
+			
+			
+	<div class="box has-hover   has-hover box-bounce box-text-bottom" >
+
+		<div class="box-image" >
+			<a href="https://kyodotech.com/phong-sach-linh-vuc-my-pham-c-gmp-pro-allance-cosmetic"  >			<div class="" >
+				<img width="900" height="651" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20900%20651'%3E%3C/svg%3E" class="attachment- size-" alt="" data-lazy-srcset="https://kyodotech.com/wp-content/uploads/2021/03/PRO-ALLANCE-COSMETIC1-2.png 900w, https://kyodotech.com/wp-content/uploads/2021/03/PRO-ALLANCE-COSMETIC1-2-553x400.png 553w, https://kyodotech.com/wp-content/uploads/2021/03/PRO-ALLANCE-COSMETIC1-2-768x556.png 768w" data-lazy-sizes="(max-width: 900px) 100vw, 900px" data-lazy-src="https://kyodotech.com/wp-content/uploads/2021/03/PRO-ALLANCE-COSMETIC1-2.png" /><noscript><img width="900" height="651" src="https://kyodotech.com/wp-content/uploads/2021/03/PRO-ALLANCE-COSMETIC1-2.png" class="attachment- size-" alt="" srcset="https://kyodotech.com/wp-content/uploads/2021/03/PRO-ALLANCE-COSMETIC1-2.png 900w, https://kyodotech.com/wp-content/uploads/2021/03/PRO-ALLANCE-COSMETIC1-2-553x400.png 553w, https://kyodotech.com/wp-content/uploads/2021/03/PRO-ALLANCE-COSMETIC1-2-768x556.png 768w" sizes="(max-width: 900px) 100vw, 900px" /></noscript>											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<p style="text-align: center;"><a href="https://kyodotech.com/phong-sach-linh-vuc-my-pham-c-gmp-pro-allance-cosmetic"><span style="color: #0000ff; font-size: 14.4px;"><strong>PRO ALLANCE COSMETIC</strong><br />
+Lĩnh vực Mỹ phẩm C-GMP &#8211; Cleanroom</span></a></p>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+			</div>
+
+	
+
+	<div id="col-1920508735" class="col medium-6 small-6 large-6"  >
+		<div class="col-inner"  >
+			
+			
+	<div class="box has-hover   has-hover box-bounce box-text-bottom" >
+
+		<div class="box-image" >
+			<a href="https://kyodotech.com/phong-sach-linh-vuc-duoc-pham-gmp-nanogen"  >			<div class="" >
+				<img width="650" height="470" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20470'%3E%3C/svg%3E" class="attachment- size-" alt="Cty CP CNSH Dược NanoGen" data-lazy-srcset="https://kyodotech.com/wp-content/uploads/2020/11/nanogen-1.png 650w, https://kyodotech.com/wp-content/uploads/2020/11/nanogen-1-553x400.png 553w" data-lazy-sizes="(max-width: 650px) 100vw, 650px" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/nanogen-1.png" /><noscript><img width="650" height="470" src="https://kyodotech.com/wp-content/uploads/2020/11/nanogen-1.png" class="attachment- size-" alt="Cty CP CNSH Dược NanoGen" srcset="https://kyodotech.com/wp-content/uploads/2020/11/nanogen-1.png 650w, https://kyodotech.com/wp-content/uploads/2020/11/nanogen-1-553x400.png 553w" sizes="(max-width: 650px) 100vw, 650px" /></noscript>											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<h4><a href="https://kyodotech.com/phong-sach-linh-vuc-duoc-pham-gmp-nanogen"><span style="color: #0000ff;">NANOGEN</span></a></h4>
+<p><a href="https://kyodotech.com/phong-sach-linh-vuc-duoc-pham-gmp-nanogen"><span style="color: #0000ff;">Lĩnh vực Dược phẩm GMP WHO &#8211; Cleanroom</span></a></p>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+			</div>
+
+	
+
+	<div id="col-944506489" class="col medium-6 small-6 large-6"  >
+		<div class="col-inner"  >
+			
+			
+	<div class="box has-hover   has-hover box-bounce box-text-bottom" >
+
+		<div class="box-image" >
+			<a href="https://kyodotech.com/phong-sach-linh-vuc-duoc-pham-gmp-who-boston-pharma/"  >			<div class="" >
+				<img width="650" height="470" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20470'%3E%3C/svg%3E" class="attachment- size-" alt="Nhà máy - Công ty sản xuất Dược Boston Pharma" data-lazy-srcset="https://kyodotech.com/wp-content/uploads/2020/11/boston-pharma.png 650w, https://kyodotech.com/wp-content/uploads/2020/11/boston-pharma-553x400.png 553w" data-lazy-sizes="(max-width: 650px) 100vw, 650px" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/boston-pharma.png" /><noscript><img width="650" height="470" src="https://kyodotech.com/wp-content/uploads/2020/11/boston-pharma.png" class="attachment- size-" alt="Nhà máy - Công ty sản xuất Dược Boston Pharma" srcset="https://kyodotech.com/wp-content/uploads/2020/11/boston-pharma.png 650w, https://kyodotech.com/wp-content/uploads/2020/11/boston-pharma-553x400.png 553w" sizes="(max-width: 650px) 100vw, 650px" /></noscript>											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<h4><a href="https://kyodotech.com/phong-sach-linh-vuc-duoc-pham-gmp-who-boston-pharma/"><span style="color: #0000ff;">BOSTON PHARMA</span></a></h4>
+<p><a href="https://kyodotech.com/phong-sach-linh-vuc-duoc-pham-gmp-who-boston-pharma/"><span style="color: #0000ff;">Lĩnh vực Dược phẩm GMP WHO &#8211; Cleanroom</span></a></p>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+			</div>
+
+	
+
+	<div id="col-1304446950" class="col medium-6 small-6 large-6"  >
+		<div class="col-inner"  >
+			
+			
+	<div class="box has-hover   has-hover box-bounce box-text-bottom" >
+
+		<div class="box-image" >
+			<a href="https://kyodotech.com/phong-sach-linh-vuc-trang-thiet-bi-y-te-iso13485-dk-vina/"  >			<div class="" >
+				<img width="650" height="470" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20470'%3E%3C/svg%3E" class="attachment- size-" alt="Phòng sạch y tế class 100.000" data-lazy-srcset="https://kyodotech.com/wp-content/uploads/2020/11/dkVINA-4.png 650w, https://kyodotech.com/wp-content/uploads/2020/11/dkVINA-4-553x400.png 553w" data-lazy-sizes="(max-width: 650px) 100vw, 650px" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/dkVINA-4.png" /><noscript><img width="650" height="470" src="https://kyodotech.com/wp-content/uploads/2020/11/dkVINA-4.png" class="attachment- size-" alt="Phòng sạch y tế class 100.000" srcset="https://kyodotech.com/wp-content/uploads/2020/11/dkVINA-4.png 650w, https://kyodotech.com/wp-content/uploads/2020/11/dkVINA-4-553x400.png 553w" sizes="(max-width: 650px) 100vw, 650px" /></noscript>											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<h4><a href="https://kyodotech.com/phong-sach-linh-vuc-trang-thiet-bi-y-te-iso13485-dk-vina/"><span style="color: #0000ff;">DKVINA</span></a></h4>
+<div class="page" title="Page 23">
+<div class="layoutArea">
+<div class="column">
+<p><a href="https://kyodotech.com/phong-sach-linh-vuc-trang-thiet-bi-y-te-iso13485-dk-vina/"><span style="color: #0000ff;">Trang thiết bị y tế ISO 13485 &#8211; Cleanroom</span></a></p>
+</div>
+</div>
+</div>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+			</div>
+
+	
+
+	<div id="col-413214265" class="col medium-6 small-6 large-6"  >
+		<div class="col-inner"  >
+			
+			
+	<div class="box has-hover   has-hover box-bounce box-text-bottom" >
+
+		<div class="box-image" >
+			<a href="https://kyodotech.com/phong-sach-linh-vuc-thuc-pham-hacccp-va-iso-22000-ion-life/"  >			<div class="" >
+				<img width="650" height="470" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20470'%3E%3C/svg%3E" class="attachment- size-" alt="phòng sạch nhà máy nước Hoàng Minh" data-lazy-src="https://kyodotech.com/wp-content/uploads/2021/06/cty-nuoc-hoang-minh-1.jpg" /><noscript><img width="650" height="470" src="https://kyodotech.com/wp-content/uploads/2021/06/cty-nuoc-hoang-minh-1.jpg" class="attachment- size-" alt="phòng sạch nhà máy nước Hoàng Minh" /></noscript>											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<h4><a href="https://kyodotech.com/phong-sach-linh-vuc-thuc-pham-hacccp-va-iso-22000-ion-life/"><span style="color: #0000ff;">i-on Life</span></a></h4>
+<div class="page" title="Page 23">
+<div class="layoutArea">
+<div class="column">
+<p><a href="https://kyodotech.com/phong-sach-linh-vuc-thuc-pham-hacccp-va-iso-22000-ion-life/"><span style="color: #0000ff;">Lĩnh vực Thực phẩm HACCP &amp; ISO 22000</span></a></p>
+</div>
+</div>
+</div>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+			</div>
+
+	
+
+	<div id="col-858952071" class="col medium-6 small-6 large-6"  >
+		<div class="col-inner"  >
+			
+			
+	<div class="box has-hover   has-hover box-bounce box-text-bottom" >
+
+		<div class="box-image" >
+			<a href="https://kyodotech.com/phong-sach-thuc-pham-haccp-va-iso-22000-ashia-shouwa/"  >			<div class="" >
+				<img width="650" height="470" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20470'%3E%3C/svg%3E" class="attachment- size-" alt="asia-shouwa-vn-min" data-lazy-srcset="https://kyodotech.com/wp-content/uploads/2021/01/asia-shouwa-vn-min.jpg 650w, https://kyodotech.com/wp-content/uploads/2021/01/asia-shouwa-vn-min-553x400.jpg 553w" data-lazy-sizes="(max-width: 650px) 100vw, 650px" data-lazy-src="https://kyodotech.com/wp-content/uploads/2021/01/asia-shouwa-vn-min.jpg" /><noscript><img width="650" height="470" src="https://kyodotech.com/wp-content/uploads/2021/01/asia-shouwa-vn-min.jpg" class="attachment- size-" alt="asia-shouwa-vn-min" srcset="https://kyodotech.com/wp-content/uploads/2021/01/asia-shouwa-vn-min.jpg 650w, https://kyodotech.com/wp-content/uploads/2021/01/asia-shouwa-vn-min-553x400.jpg 553w" sizes="(max-width: 650px) 100vw, 650px" /></noscript>											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<h4><a href="https://kyodotech.com/phong-sach-thuc-pham-haccp-va-iso-22000-ashia-shouwa/"><span style="color: #0000ff;">ASV</span></a></h4>
+<div class="page" title="Page 23">
+<div class="layoutArea">
+<div class="column">
+<p><a href="https://kyodotech.com/phong-sach-thuc-pham-haccp-va-iso-22000-ashia-shouwa/"><span style="color: #0000ff;">Lĩnh vực Thực phẩm HACCP &amp; ISO 22000</span></a></p>
+</div>
+</div>
+</div>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+			</div>
+
+	
+
+	<div id="col-1928290628" class="col medium-6 small-6 large-6"  >
+		<div class="col-inner"  >
+			
+			
+	<div class="box has-hover   has-hover box-bounce box-text-bottom" >
+
+		<div class="box-image" >
+			<a href="https://kyodotech.com/phong-sach-thuc-pham-haccp-iso-22000"  >			<div class="" >
+				<img width="650" height="470" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20470'%3E%3C/svg%3E" class="attachment- size-" alt="Phòng sạch lĩnh vực thực phẩm Masan Long An" data-lazy-src="https://kyodotech.com/wp-content/uploads/2021/06/CONG-TY-MASAN-PHONG-SACH.jpeg" /><noscript><img width="650" height="470" src="https://kyodotech.com/wp-content/uploads/2021/06/CONG-TY-MASAN-PHONG-SACH.jpeg" class="attachment- size-" alt="Phòng sạch lĩnh vực thực phẩm Masan Long An" /></noscript>											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<h4><span style="color: #0000ff;"><a style="color: #0000ff;" href="https://kyodotech.com/phong-sach-thuc-pham-haccp-iso-22000">MASAN</a></span></h4>
+<div class="page" title="Page 23">
+<div class="layoutArea">
+<div class="column">
+<p><span style="color: #0000ff;"><a style="color: #0000ff;" href="https://kyodotech.com/phong-sach-thuc-pham-haccp-iso-22000">Lĩnh vực Thực phẩm HACCP &amp; ISO 22000</a></span></p>
+</div>
+</div>
+</div>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+			</div>
+
+	
+
+	<div id="col-114190235" class="col medium-6 small-6 large-6"  >
+		<div class="col-inner"  >
+			
+			
+	<div class="box has-hover   has-hover box-bounce box-text-bottom" >
+
+		<div class="box-image" >
+			<a href="https://kyodotech.com/phong-sach-linh-vuc-my-pham-cong-ty-my-pham-sai-gon/"  >			<div class="" >
+				<img width="650" height="470" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20470'%3E%3C/svg%3E" class="attachment- size-" alt="Phòng sạch mỹ phẩm SCC Kyodotech" data-lazy-src="https://kyodotech.com/wp-content/uploads/2021/07/kyodo-xay-dung-phong-sach-my-pham-sai-gon-SCC.png" /><noscript><img width="650" height="470" src="https://kyodotech.com/wp-content/uploads/2021/07/kyodo-xay-dung-phong-sach-my-pham-sai-gon-SCC.png" class="attachment- size-" alt="Phòng sạch mỹ phẩm SCC Kyodotech" /></noscript>											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<h4><a href="https://kyodotech.com/phong-sach-linh-vuc-my-pham-cong-ty-my-pham-sai-gon/" target="_blank" rel="noopener"><span style="color: #0000ff;">SCC</span></a></h4>
+<div class="page" title="Page 23">
+<div class="layoutArea">
+<div class="column">
+<p><a href="https://kyodotech.com/phong-sach-linh-vuc-my-pham-cong-ty-my-pham-sai-gon/" target="_blank" rel="noopener"><span style="color: #0000ff;">Lĩnh vực Mỹ phẩm C-GMP &#8211; Cleanroom</span></a></p>
+</div>
+</div>
+</div>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+			</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_1033474552 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+@media (min-width:550px) {
+  #section_1033474552 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+</style>
+	</section>
+	
+	<section class="section" id="section_131660763">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="container section-title-container" style="margin-top:-60px;"><h4 class="section-title section-title-center"><b></b><span class="section-title-main" style="color:rgb(21, 64, 233);">Khách hàng</span><b></b></h4></div>
+
+  
+    <div class="row large-columns-5 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-reveal slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 3000}'>
+
+          <div class="gallery-col col" data-animate="fadeInUp">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/dkvina.png" title="DK VINA">            <div class="box has-hover gallery-box box-normal">
+              <div class="box-image box-shadow-3" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/dkvina.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/dkvina.png" class="attachment-medium size-medium" alt="" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" /></noscript>                                                              </div>
+              <div class="box-text text-center is-small" >
+                 <p>DK VINA</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInUp">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/indo-care.png" title="INDO CARE">            <div class="box has-hover gallery-box box-normal">
+              <div class="box-image box-shadow-3" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/indo-care.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/indo-care.png" class="attachment-medium size-medium" alt="" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" /></noscript>                                                              </div>
+              <div class="box-text text-center is-small" >
+                 <p>INDO CARE</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInUp">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/thien-long-long-thanh-1.png" title="THIÊN LONG LONG THÀNH">            <div class="box has-hover gallery-box box-normal">
+              <div class="box-image box-shadow-3" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/thien-long-long-thanh-1.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/thien-long-long-thanh-1.png" class="attachment-medium size-medium" alt="" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" /></noscript>                                                              </div>
+              <div class="box-text text-center is-small" >
+                 <p>THIÊN LONG LONG THÀNH</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInUp">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/DLCGR.png" title="DLG ANSEN">            <div class="box has-hover gallery-box box-normal">
+              <div class="box-image box-shadow-3" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/DLCGR.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/DLCGR.png" class="attachment-medium size-medium" alt="" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" /></noscript>                                                              </div>
+              <div class="box-text text-center is-small" >
+                 <p>DLG ANSEN</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInUp">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/ttcl.png" title="TOYO VIETNAM">            <div class="box has-hover gallery-box box-normal">
+              <div class="box-image box-shadow-3" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/ttcl.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/ttcl.png" class="attachment-medium size-medium" alt="" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" /></noscript>                                                              </div>
+              <div class="box-text text-center is-small" >
+                 <p>TOYO VIETNAM</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInUp">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/nanogen.png" title="NANOGEN">            <div class="box has-hover gallery-box box-normal">
+              <div class="box-image box-shadow-3" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/nanogen.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/nanogen.png" class="attachment-medium size-medium" alt="" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" /></noscript>                                                              </div>
+              <div class="box-text text-center is-small" >
+                 <p>NANOGEN</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInUp">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2021/01/asia-shouwa-vietnam.png" title="ASIA SHOUWA">            <div class="box has-hover gallery-box box-normal">
+              <div class="box-image box-shadow-3" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="Cong-ty-TNHH-ASIA-SHOUWA" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" data-lazy-src="https://kyodotech.com/wp-content/uploads/2021/01/asia-shouwa-vietnam.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2021/01/asia-shouwa-vietnam.png" class="attachment-medium size-medium" alt="Cong-ty-TNHH-ASIA-SHOUWA" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" /></noscript>                                                              </div>
+              <div class="box-text text-center is-small" >
+                 <p>ASIA SHOUWA</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInUp">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2021/01/nha-may-nuoc-hoang-kim.png" title="CP Nước Hoàng Minh">            <div class="box has-hover gallery-box box-normal">
+              <div class="box-image box-shadow-3" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="cong-ty-san-xuat-nuoc-hoang-kim" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" data-lazy-src="https://kyodotech.com/wp-content/uploads/2021/01/nha-may-nuoc-hoang-kim.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2021/01/nha-may-nuoc-hoang-kim.png" class="attachment-medium size-medium" alt="cong-ty-san-xuat-nuoc-hoang-kim" ids="548,576,577,578,551,554,1130,1131" style="normal" lightbox_image_size="original" type="slider" col_spacing="small" columns="5" depth="3" animate="fadeInUp" auto_slide="3000" image_width="65" text_align="center" text_size="small" /></noscript>                                                              </div>
+              <div class="box-text text-center is-small" >
+                 <p>CP Nước Hoàng Minh</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+         </div>
+		</div>
+
+		
+<style>
+#section_131660763 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+</style>
+	</section>
+	
+	<section class="section" id="section_381669646">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="container section-title-container" style="margin-top:-60px;"><h4 class="section-title section-title-center"><b></b><span class="section-title-main" style="color:rgb(21, 64, 233);">Đối tác</span><b></b></h4></div>
+
+  
+    <div class="row large-columns-4 medium-columns-3 small-columns-2 row-collapse slider row-slider slider-nav-reveal slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 3000}'>
+
+          <div class="gallery-col col" data-animate="fadeInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/sala-280x250.png" title="Cty TNHH XD SALA">            <div class="box has-hover gallery-box box-bounce">
+              <div class="box-image box-shadow-2" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/sala.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/sala.png" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" /></noscript>                                                              </div>
+              <div class="box-text text-center" >
+                 <p>Cty TNHH XD SALA</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/AirTech-280x250.png" title="AIRTECH">            <div class="box has-hover gallery-box box-bounce">
+              <div class="box-image box-shadow-2" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/AirTech.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/AirTech.png" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" /></noscript>                                                              </div>
+              <div class="box-text text-center" >
+                 <p>AIRTECH</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/LG-280x250.png" title="LG">            <div class="box has-hover gallery-box box-bounce">
+              <div class="box-image box-shadow-2" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/LG.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/LG.png" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" /></noscript>                                                              </div>
+              <div class="box-text text-center" >
+                 <p>LG</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/bitzer-280x250.png" title="BITZER">            <div class="box has-hover gallery-box box-bounce">
+              <div class="box-image box-shadow-2" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/bitzer.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/bitzer.png" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" /></noscript>                                                              </div>
+              <div class="box-text text-center" >
+                 <p>BITZER</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/trane-280x250.png" title="TRANE">            <div class="box has-hover gallery-box box-bounce">
+              <div class="box-image box-shadow-2" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/trane.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/trane.png" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" /></noscript>                                                              </div>
+              <div class="box-text text-center" >
+                 <p>TRANE</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/dai-kin-280x250.png" title="DAIKIN">            <div class="box has-hover gallery-box box-bounce">
+              <div class="box-image box-shadow-2" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/dai-kin.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/dai-kin.png" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" /></noscript>                                                              </div>
+              <div class="box-text text-center" >
+                 <p>DAIKIN</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/hailiang-280x250.png" title="HAILIANG">            <div class="box has-hover gallery-box box-bounce">
+              <div class="box-image box-shadow-2" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/hailiang.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/hailiang.png" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" /></noscript>                                                              </div>
+              <div class="box-text text-center" >
+                 <p>HAILIANG</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/seiko-280x250.png" title="SEIKO">            <div class="box has-hover gallery-box box-bounce">
+              <div class="box-image box-shadow-2" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/seiko.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/seiko.png" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" /></noscript>                                                              </div>
+              <div class="box-text text-center" >
+                 <p>SEIKO</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/trung-duong-280x250.png" title="TRÙNG DƯƠNG">            <div class="box has-hover gallery-box box-bounce">
+              <div class="box-image box-shadow-2" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/trung-duong.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/trung-duong.png" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" /></noscript>                                                              </div>
+              <div class="box-text text-center" >
+                 <p>TRÙNG DƯƠNG</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/toan-phat-280x250.png" title="TOÀN PHÁT">            <div class="box has-hover gallery-box box-bounce">
+              <div class="box-image box-shadow-2" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/toan-phat.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/toan-phat.png" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" /></noscript>                                                              </div>
+              <div class="box-text text-center" >
+                 <p>TOÀN PHÁT</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="fadeInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://kyodotech.com/wp-content/uploads/2020/11/arico-280x250.png" title="ARICO">            <div class="box has-hover gallery-box box-bounce">
+              <div class="box-image box-shadow-2" style="width:65%;">
+                <img width="350" height="250" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20250'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/arico.png" /><noscript><img width="350" height="250" src="https://kyodotech.com/wp-content/uploads/2020/11/arico.png" class="attachment-medium size-medium" alt="" ids="533,534,535,536,537,538,539,540,541,542,543" style="bounce" lightbox_image_size="thumbnail" type="slider" col_spacing="collapse" depth="2" animate="fadeInDown" auto_slide="3000" image_width="65" text_align="center" /></noscript>                                                              </div>
+              <div class="box-text text-center" >
+                 <p>ARICO</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+         </div>
+		</div>
+
+		
+<style>
+#section_381669646 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+</style>
+	</section>
+	
+	<section class="section" id="section_1317585055">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+
+  
+    <div class="row large-columns-4 medium-columns-1 small-columns-2 row-small slider row-slider slider-nav-reveal slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : false}'>
+
+  		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://kyodotech.com/epoxy-phong-sach-kyodo/" class="plain">
+				<div class="box box-bounce box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="534" height="400" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20534%20400'%3E%3C/svg%3E" class="attachment-medium size-medium wp-post-image" alt="EPOXY PHÒNG SẠCH" data-lazy-src="https://kyodotech.com/wp-content/uploads/2021/04/29.png" /><noscript><img width="534" height="400" src="https://kyodotech.com/wp-content/uploads/2021/04/29.png" class="attachment-medium size-medium wp-post-image" alt="EPOXY PHÒNG SẠCH" /></noscript>  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-center" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">EPOXY PHÒNG SẠCH</h5>
+										<div class="is-divider"></div>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://kyodotech.com/phong-sach-duoc-pham-kyodo/" class="plain">
+				<div class="box box-bounce box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="533" height="400" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20533%20400'%3E%3C/svg%3E" class="attachment-medium size-medium wp-post-image" alt="Phòng sạch dược phẩm" data-lazy-srcset="https://kyodotech.com/wp-content/uploads/2020/11/huong-dan-thiet-ke-phong-sach.-phong-sach-duoc-pham-533x400.jpg 533w, https://kyodotech.com/wp-content/uploads/2020/11/huong-dan-thiet-ke-phong-sach.-phong-sach-duoc-pham.jpg 600w" data-lazy-sizes="(max-width: 533px) 100vw, 533px" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/huong-dan-thiet-ke-phong-sach.-phong-sach-duoc-pham-533x400.jpg" /><noscript><img width="533" height="400" src="https://kyodotech.com/wp-content/uploads/2020/11/huong-dan-thiet-ke-phong-sach.-phong-sach-duoc-pham-533x400.jpg" class="attachment-medium size-medium wp-post-image" alt="Phòng sạch dược phẩm" srcset="https://kyodotech.com/wp-content/uploads/2020/11/huong-dan-thiet-ke-phong-sach.-phong-sach-duoc-pham-533x400.jpg 533w, https://kyodotech.com/wp-content/uploads/2020/11/huong-dan-thiet-ke-phong-sach.-phong-sach-duoc-pham.jpg 600w" sizes="(max-width: 533px) 100vw, 533px" /></noscript>  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-center" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">PHÒNG SẠCH DƯỢC PHẨM</h5>
+										<div class="is-divider"></div>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://kyodotech.com/phong-sach-dien-tu-kyodo/" class="plain">
+				<div class="box box-bounce box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="602" height="400" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20602%20400'%3E%3C/svg%3E" class="attachment-medium size-medium wp-post-image" alt="" data-lazy-srcset="https://kyodotech.com/wp-content/uploads/2020/11/Phong-sach-dien-tu-602x400.jpg 602w, https://kyodotech.com/wp-content/uploads/2020/11/Phong-sach-dien-tu-768x510.jpg 768w, https://kyodotech.com/wp-content/uploads/2020/11/Phong-sach-dien-tu.jpg 930w" data-lazy-sizes="(max-width: 602px) 100vw, 602px" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/Phong-sach-dien-tu-602x400.jpg" /><noscript><img width="602" height="400" src="https://kyodotech.com/wp-content/uploads/2020/11/Phong-sach-dien-tu-602x400.jpg" class="attachment-medium size-medium wp-post-image" alt="" srcset="https://kyodotech.com/wp-content/uploads/2020/11/Phong-sach-dien-tu-602x400.jpg 602w, https://kyodotech.com/wp-content/uploads/2020/11/Phong-sach-dien-tu-768x510.jpg 768w, https://kyodotech.com/wp-content/uploads/2020/11/Phong-sach-dien-tu.jpg 930w" sizes="(max-width: 602px) 100vw, 602px" /></noscript>  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-center" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">PHÒNG SẠCH ĐIỆN TỬ</h5>
+										<div class="is-divider"></div>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://kyodotech.com/phong-sach-san-xuat-my-pham-kyodo/" class="plain">
+				<div class="box box-bounce box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="500" height="246" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20246'%3E%3C/svg%3E" class="attachment-medium size-medium wp-post-image" alt="Phòng sạch sản xuất mỹ phẩm" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/Phong-sach-san-xuat-my-pham-1-1.jpg" /><noscript><img width="500" height="246" src="https://kyodotech.com/wp-content/uploads/2020/11/Phong-sach-san-xuat-my-pham-1-1.jpg" class="attachment-medium size-medium wp-post-image" alt="Phòng sạch sản xuất mỹ phẩm" /></noscript>  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-center" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">PHÒNG SẠCH SẢN XUẤT MỸ PHẨM</h5>
+										<div class="is-divider"></div>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" >
+			<div class="col-inner">
+			<a href="https://kyodotech.com/thi-cong-nha-may-san-xuat-khau-trang-kyodo/" class="plain">
+				<div class="box box-bounce box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:75%;">
+  							<img width="534" height="400" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20534%20400'%3E%3C/svg%3E" class="attachment-medium size-medium wp-post-image" alt="phòng sạch nhà máy sản xuất khẩu trang" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/Linh-vuc-thi-cong-nha-may-san-xuat-khau-trang4-1067x800-1.png" /><noscript><img width="534" height="400" src="https://kyodotech.com/wp-content/uploads/2020/11/Linh-vuc-thi-cong-nha-may-san-xuat-khau-trang4-1067x800-1.png" class="attachment-medium size-medium wp-post-image" alt="phòng sạch nhà máy sản xuất khẩu trang" /></noscript>  							  							  						</div>
+  						  					</div>
+          					<div class="box-text text-center" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large ">PHÒNG SẠCH SẢN XUẤT KHẨU TRANG</h5>
+										<div class="is-divider"></div>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+</div>
+		</div>
+
+		
+<style>
+#section_1317585055 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+</style>
+	</section>
+	
+		
+				
+</div>
+
+
+
+</main>
+
+<footer id="footer" class="footer-wrapper">
+
+	
+<!-- FOOTER 1 -->
+<div class="footer-widgets footer footer-1">
+		<div class="row dark large-columns-3 mb-0">
+	   		<div id="custom_html-3" class="widget_text col pb-0 widget widget_custom_html"><div class="textwidget custom-html-widget"><span style="color: #ffffff; font-family:arial;"><a href="" target="_blank" rel="noopener"><strong>CÔNG TY TNHH SX - TM - XD KYODO</strong><br><a>-----------------------------------------------------</a><br>
+	<span style="text-decoration:underline">Địa chỉ:</span> 
+<a href="https://g.page/r/CcEavcAmXXPVEBA" target="_blank" rel="noopener">Văn phòng lầu 1 Phòng trước (L1.1), căn nhà số 4 (L12.02), đường số 09, KDC CityLand Park Hills, P10, Q. Gò Vấp, TP.HCM.<br>
+<a href="tel:+84777386683">Hotline: +84.777.386.683</a>
+<br><a href="https://zalo.me/0345430999" target="_blank" rel="noopener">Zalo: 0345.430.999 - CSKH (Ms. Nguyệt)</a>
+	<a href="tel:
+0972617767"></a><a href="mailto:sales@pskyodo.com?subject=Tuvanthietke" target="_blank" rel="noopener"><br>Email: sales@pskyodo.vn<br>MST: 0316054033 - CN: 2019</a></a></a></span></div></div><div id="custom_html-8" class="widget_text col pb-0 widget widget_custom_html"><div class="textwidget custom-html-widget"><span style="color: #ffffff; font-family:arial;"><strong><span style="text-decoration:underline">Top Sản phẩm phổ biến:</span><br><a href="https://kyodotech.com/passbox-phong-sach/">PassBox - </a><a href="https://kyodotech.com/clean-booth-cau-tao-va-chuc-nang/">Clean Booth</a><br><a href="https://kyodotech.com/cua-panel-phong-sach/">Cửa Panel - </a><a href="https:///kyodotech.com/panel-phong-sach-kyodo/">Panel Phòng Sạch</a><br><a href="https://kyodotech.com/cua-cuon-nhanh-phong-sach-kyodo/">Cửa Cuốn Nhanh Phòng Sạch</a><br>
+	<a href="https://kyodotech.com/ahu-thiet-bi-xu-ly-khong-khi/">Thiết Bị Xử Lý Không Khí - AHU</a></strong><br><br><a href="https://kyodotech.com/chinh-sach-bao-mat/">*Chính sách Bảo mật</a><br><a href="https://kyodotech.com/chinh-sach-thi-cong-bao-hanh/">*Chính sách Thi công - Bảo hành</a><br><a href="https://kyodotech.com">*Chính sách Vận chuyển - Thanh toán</a></span></div></div><div id="custom_html-4" class="widget_text col pb-0 widget widget_custom_html"><div class="textwidget custom-html-widget"><iframe loading="lazy" src="about:blank" width="600" height="205" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.6602698410334!2d106.66694111480132!3d10.837289592280287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752974de79c647%3A0xd5735d26c0bd1ac1!2sC%C3%B4ng%20ty%20TNHH%20SX%20-%20TM%20-%20XD%20KYODO!5e0!3m2!1svi!2s!4v1625207567763!5m2!1svi!2s"></iframe><noscript><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.6602698410334!2d106.66694111480132!3d10.837289592280287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752974de79c647%3A0xd5735d26c0bd1ac1!2sC%C3%B4ng%20ty%20TNHH%20SX%20-%20TM%20-%20XD%20KYODO!5e0!3m2!1svi!2s!4v1625207567763!5m2!1svi!2s" width="600" height="205" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></noscript></div></div>        
+		</div>
+</div>
+
+<!-- FOOTER 2 -->
+
+
+
+<div class="absolute-footer dark medium-text-center text-center">
+  <div class="container clearfix">
+
+    
+    <div class="footer-primary pull-left">
+            <div class="copyright-footer">
+        Copyright 2021 © <strong>Kyodo</strong>      </div>
+          </div>
+  </div>
+</div>
+<a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link"><i class="icon-angle-up" ></i></a>
+
+</footer>
+
+</div>
+
+<div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
+	<div class="sidebar-menu no-scrollbar ">
+		<ul class="nav nav-sidebar nav-vertical nav-uppercase">
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-122"><a href="https://kyodotech.com/cong-ty-sx-tm-xd-kyodo-cleanroom/">GIỚI THIỆU CÔNG TY</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="https://kyodotech.com/cong-ty-sx-tm-xd-kyodo-cleanroom/">Sơ lược về Kyodo</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="https://kyodotech.com/gia-tri-cot-loi-cua-kyodo/">Giá trị cốt lõi</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-125"><a href="https://kyodotech.com/ho-so-nang-luc">Hồ sơ năng lực</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="https://kyodotech.com/khach-hang-va-doi-tac-phong-sach-kyodo/">Khách hàng &#038; đối tác</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-130"><a href="https://kyodotech.com/category/thong-tin-lien-quan/">Bản tin Kyodo</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-138"><a href="https://kyodotech.com/category/san-pham-thiet-bi-phong-sach-cleanroom-equipment-products/">SẢN PHẨM</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267"><a href="https://kyodotech.com/panel-phong-sach-kyodo">Panel phòng sạch</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-268"><a href="https://kyodotech.com/cua-panel-phong-sach/">Cửa panel</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-475"><a href="https://kyodotech.com/cua-cuon-nhanh-phong-sach-kyodo">Cửa cuốn nhanh phòng sạch</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-263"><a href="https://kyodotech.com/ahu-thiet-bi-xu-ly-khong-khi/">AHU</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-264"><a href="https://kyodotech.com/passbox-phong-sach/">Passbox</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-265"><a href="https://kyodotech.com/air-shower-phong-sach-kyodo">Airshower phòng sạch</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-266"><a href="https://kyodotech.com/clean-booth-cau-tao-va-chuc-nang/">Clean booth</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1299"><a href="https://kyodotech.com/epoxy-phong-sach-kyodo">Epoxy phòng sạch</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-131"><a href="https://kyodotech.com" aria-current="page">TƯ VẤN-GIẢI PHÁP</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-132"><a href="https://kyodotech.com/phong-sach-la-gi-tieu-chuan-phong-sach-kyodo">Phòng sạch là gì?</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-143"><a href="https://kyodotech.com/phan-loai-phong-sach-kyodo">Các loại phòng sạch</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133"><a href="https://kyodotech.com/thiet-bi-loc-khong-khi-cho-phong-sach-kyodo">Thiết bị lọc không khí cho phòng sạch</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-372"><a href="https://kyodotech.com/he-thong-xu-ly-khong-khi-ahu-phong-sach-kyodo">Hệ thống xử lý không khí AHU</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-134"><a href="https://kyodotech.com/phong-sach-gmp/">Phòng sạch GMP</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-135"><a href="https://kyodotech.com/category/thi-cong-phong-sach/">XÂY DỰNG NHÀ MÁY-PHÒNG SẠCH</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136"><a href="https://kyodotech.com/thi-cong-nha-may-san-xuat-khau-trang-kyodo">Nhà máy khẩu trang</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137"><a href="https://kyodotech.com/phong-sach-dien-tu-kyodo">Phòng sạch điện tử</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-340"><a href="https://kyodotech.com/phong-sach-san-xuat-my-pham-kyodo/">Phòng sạch mỹ phẩm</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-811"><a href="https://kyodotech.com/phong-sach-duoc-pham-kyodo/">Phòng sạch dược phẩm</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-341"><a href="https://kyodotech.com" aria-current="page">Nhà máy thuốc thú y</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-342"><a href="https://kyodotech.com" aria-current="page">Nhà máy sữa</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-343"><a href="https://kyodotech.com" aria-current="page">Nhà máy chế biến thuỷ hải sản</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-256"><a href="https://kyodotech.com/category/kyodo-project/">DỰ ÁN</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1252"><a href="https://kyodotech.com/phong-sach-linh-vuc-duoc-pham-gmp-nanogen/">GMP WHO CLEANROOM &#8211; DƯỢC NANOGEN</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1796"><a href="https://kyodotech.com/phong-sach-linh-vuc-duoc-pham-gmp-who-boston-pharma/">PHÒNG SẠCH GMP DƯỢC BOSTON</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1797"><a href="https://kyodotech.com/phong-sach-linh-vuc-trang-thiet-bi-y-te-iso13485-dk-vina/">PHÒNG SẠCH TRANG THIẾT BỊ Y TẾ</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1711"><a href="https://kyodotech.com/" aria-current="page">DỰ ÁN LAVITE &#8211; RỒNG XANH</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-270"><a href="https://kyodotech.com" aria-current="page">TIN TỨC</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-272"><a href="https://kyodotech.com" aria-current="page">Tin Kyodo</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-271"><a href="https://kyodotech.com" aria-current="page">Kyodo tuyển dụng</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-139"><a href="https://kyodotech.com/lien-he/">Liên Hệ</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140"><a href="https://kyodotech.com/lien-he/">Tư vấn phòng sạch</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-141"><a href="https://kyodotech.com" aria-current="page">Tư vấn thiết bị</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-142"><a href="https://kyodotech.com" aria-current="page">Tư vấn giấy phép</a></li>
+</ul>
+</li>
+<li class="html custom html_nav_position_text_top"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" style="width:23px;height:23px;text-align:center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/email-1.png"><noscript><img src="https://kyodotech.com/wp-content/uploads/2020/11/email-1.png" style="width:23px;height:23px;text-align:center"></noscript><span style="font-size:30;line-height:6px;text-align:center"><a href="mailto:sales@pskyodo.com"> <strong>sales@kyodo.com |</strong></a><img> <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" style="width:23px;height:23px;text-align:center" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/phone1.png"><noscript><img src="https://kyodotech.com/wp-content/uploads/2020/11/phone1.png" style="width:23px;height:23px;text-align:center"></noscript><span style="font-size:40"><a href="tel:+84972617767"> <strong>Mr. Đạt: +84.972.617.767</strong></a> -<a href="tel:+84908036054"> <strong>Mr. Thuận: +84.908.036.054</strong></a><img></li><li class="html custom html_topbar_right"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" style="width:10px;height:10px" data-lazy-src="https://kyodotech.com/wp-content/uploads/2021/06/pin.png"><noscript><img src="https://kyodotech.com/wp-content/uploads/2021/06/pin.png" style="width:10px;height:10px"></noscript>  VĂN PHÒNG LẦU 1, ĐS 9, KDC CITYLAND, P 10, Q GÒ VẤP, HCM</img></li>		</ul>
+	</div>
+</div>
+<div class="hotline-phone-ring-wrap">
+ <div class="hotline-phone-ring">
+  <div class="hotline-phone-ring-circle"></div>
+  <div class="hotline-phone-ring-circle-fill"></div>
+  <div class="hotline-phone-ring-img-circle">
+  <a href="tel:0972617767" class="pps-btn-img">
+   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2050%200'%3E%3C/svg%3E" alt="Gọi điện thoại" width="50" data-lazy-src="https://kyodotech.com/wp-content/uploads/2020/11/icon-phone.png"><noscript><img src="https://kyodotech.com/wp-content/uploads/2020/11/icon-phone.png" alt="Gọi điện thoại" width="50"></noscript>
+  </a>
+  </div>
+ </div>
+ <div class="hotline-bar">
+  <a href="tel:+84972617767">
+   <span class="text-hotline">+84.972.617.767</span>
+  </a>
+ </div>
+</div><link data-minify="1" rel='stylesheet' id='flatsome-effects-css'  href='https://kyodotech.com/wp-content/cache/min/1/wp-content/themes/flatsome/assets/css/effects.css?ver=1626950872' type='text/css' media='all' />
+<script type='text/javascript' async='async' src='https://kyodotech.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1' id='hoverIntent-js'></script>
+<script type='text/javascript' id='flatsome-js-js-extra'>
+/* <![CDATA[ */
+var flatsomeVars = {"ajaxurl":"https:\/\/kyodotech.com\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"70","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Main Menu"},"options":{"cookie_notice_version":"1"}};
+/* ]]> */
+</script>
+<script data-minify="1" type='text/javascript' async='async' src='https://kyodotech.com/wp-content/cache/min/1/wp-content/themes/flatsome/assets/js/flatsome.js?ver=1626950874' id='flatsome-js-js'></script>
+<script data-minify="1" type='text/javascript' async='async' src='https://kyodotech.com/wp-content/cache/min/1/wp-content/themes/flatsome/inc/integrations/wp-rocket/flatsome-wp-rocket.js?ver=1626950874' id='flatsome-wp-rocket-js'></script>
+<script data-minify="1" type='text/javascript' async='async' src='https://kyodotech.com/wp-content/cache/min/1/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search.js?ver=1626950874' id='flatsome-live-search-js'></script>
+<script type='text/javascript' async='async' src='https://kyodotech.com/wp-includes/js/wp-embed.min.js?ver=5.8' id='wp-embed-js'></script>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://kyodotech.com/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script><script>function lazyLoadThumb(e){var t='<img loading="lazy" data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<div class="play"></div>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.dataset.query.length?'':'&'+this.dataset.query;e.setAttribute("src",t.replace("ID",this.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.replaceChild(e,this)}document.addEventListener("DOMContentLoaded",function(){var e,t,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),e.onclick=lazyLoadYoutubeIframe,a[t].appendChild(e)});</script>
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1626950874 -->

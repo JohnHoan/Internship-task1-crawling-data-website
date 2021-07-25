@@ -1,0 +1,1733 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta content="document" name="resource-type" />
+    <meta content="1800" http-equiv="refresh" />
+    <meta name="revisit-after" content="1 days" />
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for https://thethaohoanggia.vn" href="/product.rss" />
+    
+    <meta name="robots" content="index,follow" />
+
+    <link rel="canonical" href="" >
+
+    <link rel="shortcut icon" href="/static/assets/default/images/favicon_royal.png" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://thethaohoanggia.vn/" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/assets/default/script/library.css">
+    <link rel="stylesheet" href="/static/assets/default/script/main_style.css?1">
+    <link rel="stylesheet" href="/static/assets/default/script/royal_style.css?54.11">
+    <!-- print_r debug content: Array
+(
+    [name] => home
+    [view_id] => 
+    [match] => 
+    [module] => home
+    [view] => homepage
+    [query] => Array
+        (
+        )
+
+)
+-->
+</head>
+<body class="module-home">
+    <div class="page">
+        <header>
+    <div class="header-container">
+        <div class="header-row">
+            <div class="header-left">
+                <div class="d-flex align-items-center">
+                    <a href="javascript:;" id="js-show-menu" class="icon-menu"><span></span></a>
+
+                    <a href="/">
+                        <img src="/media/banner/logo_logo.png" alt="logo" style="max-width: 160px;"/>
+                    </a>
+                </div>
+
+                <div class="header-icon-container icons-left">
+                    <div class="icon-holder">
+                        <a href="javascript:;" class="icon-2020 icon-2020-search js-show-search"></a>
+                        <a href="/dang-nhap" class="icon-2020 icon-2020-user"></a>
+                        <a href="/cart" class="icon-2020 icon-2020-cart"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <div class="nav-bar-top">
+                    <div class="hotline-container">
+                        <p class="hotline">
+                            <i class="fa fa-volume-control-phone" style="font-size: 24px;margin-right: 10px;"></i>
+                            <span class="font-weight-lighter">HOTLINE CSKH:</span>
+                            <b style="font-size: 15px;">1900.633.572</b>
+                        </p>
+                      
+                       <p class="hotline">
+                            <i class="" style="font-size: 24px;margin-right: 10px;"></i>
+                            <span class="font-weight-lighter">HOTLINE BẢO HÀNH - DỊCH VỤ::</span>
+                            <b style="font-size: 15px;">0946.909.226</b>
+                        </p>
+
+                        <a href="javascript:;" data-id="#footer-showRoom" class="js-scroll-showRoom show-room">
+                            <i class="fa fa-map-marker" style="font-size:24px;margin-right: 10px"></i>
+                            <span class="font-weight-lighter"> TÌM KIẾM CỬA HÀNG </span>
+                        </a>
+                    </div>
+
+                    <div class="header-icon-container">
+                        <div class="icon-holder">
+                            <a href="javascript:;" class="icon-2020 icon-2020-search js-show-search"></a>
+                            <a href="/dang-nhap" class="icon-2020 icon-2020-user"></a>
+                            <a href="/cart" class="icon-2020 icon-2020-cart"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-bar-bottom">
+                    <ul class="ul d-flex align-content-center">
+                        <li><a href="/tin-tuc"> tin tức </a></li>
+                                  
+                        <li><a href="/ghe-massage-cao-cap.html"> Ghế Massage Cao Cấp </a></li>
+                                  
+                        <li><a href="/may-chay-bo.html"> Máy Chạy Bộ </a></li>
+                                  
+                        <li><a href="/robot-hut-bui.html"> Robot Hút Bụi </a></li>
+                                  
+                        <li><a href="/may-loc-khong-khi-airdog.html"> Máy lọc không khí </a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-row">
+        <div class="search-container">
+            <form method="get" name="searchForm" action="/tim" enctype="multipart/form-data">
+                <input type="text" id="js-seach-input" class="text-search" name="q" autocomplete="off" placeholder="Nhập từ khóa tìm kiếm">
+            </form>
+            <div class="autocomplete-suggestions" id="js-seach-result"></div>
+        </div>
+    </div>
+</header>
+<!-- menu - mobile -->
+<div class="menu-mobile">
+    <div class="main-menu-mb">
+        <div class="top-main-menu">
+            <a href="/" class="menu-logo">
+                <img src="/media/banner/logo_logo.png" alt="logo">
+            </a>
+            <a href="javascript:;" onclick="closeMainMenu();">
+                <i class="fa fa-times"></i>
+            </a>
+        </div>
+
+        <div class="menu-list">
+            <!-- top 3 item  -->
+            <div class="item first-div">
+                <a href="/tin-tuc" class="item">
+                    <span class="icon"><i class="fa fa-bars"></i></span><span class="title">Tin tức</span>
+                </a>
+                <a href="javascript:;" data-id="#footer-showRoom" class="item js-scroll-showRoom">
+                    <span class="icon"><i class="fa fa-bars"></i></span><span class="title">Tìm cửa hàng</span>
+                </a>
+                <a href="/dang-nhap" class="item">
+                    <span class="icon"><i class="fa fa-bars"></i></span><span class="title">Đăng nhập / Đăng ký</span>
+                </a>
+            </div>
+            <!-- end top 3 item -->
+            
+                                              
+            <div class="item">
+                <a href="/ghe-massage-cao-cap.html" class="item"><span class="icon"><i class="fa fa-bars"></i></span><span class="title">Ghế Massage Cao Cấp</span></a>
+            </div>
+                                              
+            <div class="item">
+                <a href="/may-chay-bo.html" class="item"><span class="icon"><i class="fa fa-bars"></i></span><span class="title">Máy Chạy Bộ</span></a>
+            </div>
+                                              
+            <div class="item">
+                <a href="/robot-hut-bui.html" class="item"><span class="icon"><i class="fa fa-bars"></i></span><span class="title">Robot Hút Bụi</span></a>
+            </div>
+                                              
+            <div class="item">
+                <a href="/may-loc-khong-khi-airdog.html" class="item"><span class="icon"><i class="fa fa-bars"></i></span><span class="title">Máy lọc không khí</span></a>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="bg-popup" onclick="closeMainMenu();"></div>
+</div>
+<!-- end menu-mobile -->
+
+        <div class="main-content">
+    <div class="slider-homepage">
+        <div class="owl-carousel owl-theme js-homeSlider">
+            
+             
+            
+            <div class="item">
+                <a href="/ad.php?id=21"><img data-src="/media/banner/23_Jun0ccabac7d491cb2e68afd7703781f3a4.jpg" alt="" class="img-fluid owl-lazy"></a>
+            </div>
+             
+              
+            <div class="item">
+                <a href="/ad.php?id=15"><img data-src="/media/banner/22_Jun11645ed9cd769c509f70fba911a3cb21.jpg" alt="" class="img-fluid owl-lazy"></a>
+            </div>
+             
+              
+            <div class="item">
+                <a href="/ad.php?id=9"><img data-src="/media/banner/22_Jun22151989f3a8f6a2f6a61373d3584258.jpg" alt="" class="img-fluid owl-lazy"></a>
+            </div>
+             
+              
+            <div class="item">
+                <a href="/ad.php?id=20"><img data-src="/media/banner/22_Jun1fb65704733d6a457226a73c5d170301.jpg" alt="" class="img-fluid owl-lazy"></a>
+            </div>
+             
+              
+            <div class="item">
+                <a href="/ad.php?id=16"><img data-src="/media/banner/22_Jun306097a73f02e0b0a89027790b765a73.jpg" alt="" class="img-fluid owl-lazy"></a>
+            </div>
+            
+        </div>
+    </div>
+        
+    <!-- homepage-service -->
+    <div class="service-container container">
+        <div class="owl-carousel owl-theme custom-owl-dots" id="js-service-holder">
+            <div class="item">
+                <div class="d-flex ">
+                    <i class="icon-2020 icon-truck"></i>
+
+                    <div class="service-text">
+                        <b class="d-block"> GIAO HÀNG TẬN NHÀ </b>
+                        <span class="font-weight-lighter d-block"> Miễn phí vận chuyển </span>
+                        <a href="/mien-phi-van-chuyen.html" class="color-main font-weight-lighter d-block"> Xem chi tiết </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item service_item-2">
+                    <div class="d-flex service-support-content">
+                        <i class="icon-2020 icon-support"></i>
+
+                        <div class="service-text">
+                            <b class="d-block"> ROYAL LUÔN ĐỒNG HÀNH CÙNG KHÁCH HÀNG </b>
+
+                            <div class="font-weight-lighter d-block">
+                                <a href="/tu-van-mua-hang.html" class="d-block"> Tư Vấn Mua Hàng  </a>
+                                <a href="/huong-dan-su-dung.html" class="d-block"> Hướng Dẫn Sử Dụng </a>
+                                <a href="/bao-tri-san-pham.html" class="d-block"> Bảo Trì Sản Phẩm </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="item service-last">
+                <div class="d-flex ">
+                    <i class="icon-2020 icon-gift"></i>
+
+                    <div class="service-text">
+                        <b class="d-block"> KHUYẾN MÃI LỚN </b>
+                        <span class="font-weight-lighter d-block"> Cùng nhiều quà tặng hấp dẫn </span>
+                        <a href="" class="color-main font-weight-lighter d-block"> Xem chi tiết </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!-- homepage category-->
+    <div class="homepage-category py-4">
+        <div class="container">
+            <h2 class="homepage-category-title text-center"> Danh mục sản phẩm  </h2>
+            
+            <!--<div class="homepage-category-list owl-carousel owl-theme js-featuredCateSlider custom-dot">-->
+          <div class="homepage-category-list row">
+                
+            	<div class="col-6 col-lg-3">
+            		<div class="item category-item w-100">
+                        <div class="category-image">
+                            <img src="/media/category/cb_4d485476e07e02638e8e2133cdf8f56d.jpg" alt="Ghế Massage Cao Cấp" />
+                        </div>
+                        <p class="category-name"> Ghế Massage Cao Cấp </p>
+                        <a href="/ghe-massage-cao-cap.html" class="category-url"> </a>
+                    </div>
+            	</div>
+                
+            	<div class="col-6 col-lg-3">
+            		<div class="item category-item w-100">
+                        <div class="category-image">
+                            <img src="/media/category/cb_b4005c2d3f956dbc5610478b056c8e3e.jpg" alt="Máy Chạy Bộ" />
+                        </div>
+                        <p class="category-name"> Máy Chạy Bộ </p>
+                        <a href="/may-chay-bo.html" class="category-url"> </a>
+                    </div>
+            	</div>
+                
+            	<div class="col-6 col-lg-3">
+            		<div class="item category-item w-100">
+                        <div class="category-image">
+                            <img src="/media/category/cb_d3306ab36c10519e174cd70561740e69.png" alt="Robot Hút Bụi" />
+                        </div>
+                        <p class="category-name"> Robot Hút Bụi </p>
+                        <a href="/robot-hut-bui.html" class="category-url"> </a>
+                    </div>
+            	</div>
+                
+            	<div class="col-6 col-lg-3">
+            		<div class="item category-item w-100">
+                        <div class="category-image">
+                            <img src="/media/category/cb_a22746738a475a75211f96a98549a811.png" alt="Máy lọc không khí" />
+                        </div>
+                        <p class="category-name"> Máy lọc không khí </p>
+                        <a href="/may-loc-khong-khi-airdog.html" class="category-url"> </a>
+                    </div>
+            	</div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- end-->
+
+
+    
+    <!-- homepage saleBanner -->
+    <div class="homepage-saleBanner py-2">
+        <div class="container text-center">
+            
+            <a href="/ad.php?id=3" rel="nofollow">
+                <img src="/static/assets/default/images/blank.gif" data-src="/media/banner/31_May41341029e33cbd46730973244172ad48.jpg" alt="" class="img-fluid lazy" />
+            </a>
+            
+        </div>
+    </div>
+    <!-- end homepage saleBanner -->
+    
+    
+    <script> var category_to_fetch = []; </script>
+
+    
+    
+    <script> category_to_fetch.push('1'); </script>
+
+    <div class="homepage-featuredCate" id="js-holder-1">
+        <div class="container">
+            <div class="featuredCate-name">
+                <div class="title">
+                    <div>
+                        <h2 class="text-uppercase"><a href="/ghe-massage-cao-cap.html">Ghế Massage Cao Cấp</a></h2>
+                        <span class="color-main d-none d-lg-inline" style="font-size: 32px;"> Đang được khuyến mãi </span>
+                    </div>
+
+                    <div class="cat-summ"> <p><strong><em>ĐẲNG CẤP - SANG TRỌNG - CÔNG NGHỆ DẪN DẮT TƯƠNG LAI</em></strong></p> </div>
+                    <a href="/ghe-massage-cao-cap.html" class="color-main text-underline"> Xem chi tiết + </a>
+                </div>
+            </div>
+
+            <!-- featuredCate content -->
+            <div class="featuredCate-content row" id="js-box-1" style="min-height: 300px">
+                <div class="featuredCate-banner col-lg-6 d-none d-lg-block" id="js-cat-banner-1">
+                    <!-- Load Ajax Banner -->
+                </div>
+
+
+                <div class="featuredCate-product col-12 col-lg-6" id="js-pro-home-1">
+                    <!-- Load Ajax Product -->
+                </div>
+            </div>
+            <!-- end featuredCate content -->
+        </div>
+    </div>
+    
+    
+    
+    <script> category_to_fetch.push('2'); </script>
+
+    <div class="homepage-featuredCate" id="js-holder-2">
+        <div class="container">
+            <div class="featuredCate-name">
+                <div class="title">
+                    <div>
+                        <h2 class="text-uppercase"><a href="/may-chay-bo.html">Máy Chạy Bộ</a></h2>
+                        <span class="color-main d-none d-lg-inline" style="font-size: 32px;"> Đang được khuyến mãi </span>
+                    </div>
+
+                    <div class="cat-summ"> <p><em><strong>CHINH PHỤC BODY HOÀN HẢO NGAY TẠI NHÀ VỚI MÁY CHẠY BỘ ROYAL</strong></em></p> </div>
+                    <a href="/may-chay-bo.html" class="color-main text-underline"> Xem chi tiết + </a>
+                </div>
+            </div>
+
+            <!-- featuredCate content -->
+            <div class="featuredCate-content row" id="js-box-2" style="min-height: 300px">
+                <div class="featuredCate-banner col-lg-6 d-none d-lg-block" id="js-cat-banner-2">
+                    <!-- Load Ajax Banner -->
+                </div>
+
+
+                <div class="featuredCate-product col-12 col-lg-6" id="js-pro-home-2">
+                    <!-- Load Ajax Product -->
+                </div>
+            </div>
+            <!-- end featuredCate content -->
+        </div>
+    </div>
+    
+    
+    
+    <script> category_to_fetch.push('3'); </script>
+
+    <div class="homepage-featuredCate" id="js-holder-3">
+        <div class="container">
+            <div class="featuredCate-name">
+                <div class="title">
+                    <div>
+                        <h2 class="text-uppercase"><a href="/robot-hut-bui.html">Robot Hút Bụi</a></h2>
+                        <span class="color-main d-none d-lg-inline" style="font-size: 32px;"> Đang được khuyến mãi </span>
+                    </div>
+
+                    <div class="cat-summ"> <p><em><strong>GIẢI PHÓNG CHO ĐÔI TAY CỦA BẠN</strong></em></p> </div>
+                    <a href="/robot-hut-bui.html" class="color-main text-underline"> Xem chi tiết + </a>
+                </div>
+            </div>
+
+            <!-- featuredCate content -->
+            <div class="featuredCate-content row" id="js-box-3" style="min-height: 300px">
+                <div class="featuredCate-banner col-lg-6 d-none d-lg-block" id="js-cat-banner-3">
+                    <!-- Load Ajax Banner -->
+                </div>
+
+
+                <div class="featuredCate-product col-12 col-lg-6" id="js-pro-home-3">
+                    <!-- Load Ajax Product -->
+                </div>
+            </div>
+            <!-- end featuredCate content -->
+        </div>
+    </div>
+    
+    
+    
+    <script> category_to_fetch.push('4'); </script>
+
+    <div class="homepage-featuredCate" id="js-holder-4">
+        <div class="container">
+            <div class="featuredCate-name">
+                <div class="title">
+                    <div>
+                        <h2 class="text-uppercase"><a href="/may-loc-khong-khi-airdog.html">Máy lọc không khí</a></h2>
+                        <span class="color-main d-none d-lg-inline" style="font-size: 32px;"> Đang được khuyến mãi </span>
+                    </div>
+
+                    <div class="cat-summ"> <p style="text-align: center;"><em><strong>SỞ HỮU BẪU KHÔNG KHÍ TRONG LÀNH CỦA RIÊNG BẠN</strong></em></p> </div>
+                    <a href="/may-loc-khong-khi-airdog.html" class="color-main text-underline"> Xem chi tiết + </a>
+                </div>
+            </div>
+
+            <!-- featuredCate content -->
+            <div class="featuredCate-content row" id="js-box-4" style="min-height: 300px">
+                <div class="featuredCate-banner col-lg-6 d-none d-lg-block" id="js-cat-banner-4">
+                    <!-- Load Ajax Banner -->
+                </div>
+
+
+                <div class="featuredCate-product col-12 col-lg-6" id="js-pro-home-4">
+                    <!-- Load Ajax Product -->
+                </div>
+            </div>
+            <!-- end featuredCate content -->
+        </div>
+    </div>
+    
+    
+
+    <!-- homepage news -->
+    <div class="homepagenews">
+        <div class="container">
+            <div class="homepagenews-name">
+                <div class="title">
+                    <h2 class="text-uppercase">Tin tức</h2>
+                    <span class="text-uppercase"> News </span>
+                </div>
+            </div>
+
+            <div class="homepagenews-list owl-carousel owl-theme js-homepagenews home-footer-news">
+                
+                <div class="homepagenews-item">
+                    <div class="homepagenews-image">
+                        <a href="/tpa-cong-nghe-duoc-cap-bang-sang-che.html"><img class="owl-lazy" src="/static/assets/default/images/blank.gif" data-src="/media/news/13_182682837_111316597781083_5994209771157013248_n.png" alt="AIRDOG DẪN ĐẦU THẾ GIỚI TRONG NGÀNH TINH LỌC KHÔNG KHÍ BỞI CÔNG NGHỆ LỌC KHÔNG KHÍ MỚI NHẤT - TPA" /></a>
+                    </div>
+
+                    <div class="homepagenews-title">
+                        <h3 class="title"> <a href="/tpa-cong-nghe-duoc-cap-bang-sang-che.html">AIRDOG DẪN ĐẦU THẾ GIỚI TRONG NGÀNH TINH LỌC KHÔNG KHÍ BỞI CÔNG NGHỆ LỌC KHÔNG KHÍ MỚI NHẤT - TPA</a> </h3>
+                    </div>
+                </div>
+                
+                <div class="homepagenews-item">
+                    <div class="homepagenews-image">
+                        <a href="/cong-ty-tnhh-xuat-nhap-khau-va-thuong-mai-nhat-phong-thuong-hieu-royal-lot-top-10-thuong-hieu-tieu-bieu-chau-a-thai-binh-duong-nam-2021.html"><img class="owl-lazy" src="/static/assets/default/images/blank.gif" data-src="/media/news/12_capture.PNG" alt="Công ty TNHH Thương mại Xuất nhập khẩu Nhất Phong - Thương hiệu ROYAL lọt TOP 10 thương hiệu tiêu biểu Châu Á - Thái Bình Dương năm 2021" /></a>
+                    </div>
+
+                    <div class="homepagenews-title">
+                        <h3 class="title"> <a href="/cong-ty-tnhh-xuat-nhap-khau-va-thuong-mai-nhat-phong-thuong-hieu-royal-lot-top-10-thuong-hieu-tieu-bieu-chau-a-thai-binh-duong-nam-2021.html">Công ty TNHH Thương mại Xuất nhập khẩu Nhất Phong - Thương hiệu ROYAL lọt TOP 10 thương hiệu tiêu biểu Châu Á - Thái Bình Dương năm 2021</a> </h3>
+                    </div>
+                </div>
+                
+                <div class="homepagenews-item">
+                    <div class="homepagenews-image">
+                        <a href="/tieu-chi-de-mot-thuong-hieu-co-duoc-vi-tri-top-dau-trong-khu-vuc-va-trong-long-khach-hang.html"><img class="owl-lazy" src="/static/assets/default/images/blank.gif" data-src="/media/news/11_ti__u_ch_________m___t_th____ng_hi___u_c__________c_v____tr___top______u_trong_khu_v___c_v___trong_l__ng_kh__ch_h__ng.png" alt="TIÊU CHÍ ĐỂ MỘT THƯƠNG HIỆU CÓ ĐƯỢC VỊ TRÍ TOP ĐẦU TRONG KHU VỰC VÀ TRONG LÒNG KHÁCH HÀNG" /></a>
+                    </div>
+
+                    <div class="homepagenews-title">
+                        <h3 class="title"> <a href="/tieu-chi-de-mot-thuong-hieu-co-duoc-vi-tri-top-dau-trong-khu-vuc-va-trong-long-khach-hang.html">TIÊU CHÍ ĐỂ MỘT THƯƠNG HIỆU CÓ ĐƯỢC VỊ TRÍ TOP ĐẦU TRONG KHU VỰC VÀ TRONG LÒNG KHÁCH HÀNG</a> </h3>
+                    </div>
+                </div>
+                
+                <div class="homepagenews-item">
+                    <div class="homepagenews-image">
+                        <a href="/xe-dap-the-duc-cong-cu-cai-thien-suc-khoe-cua-ban.html"><img class="owl-lazy" src="/static/assets/default/images/blank.gif" data-src="/media/news/9_z2434396893701_601d74eb8150a2105b368458f14b9afb.jpg" alt="XE ĐẠP THỂ DỤC - CÔNG CỤ CẢI THIỆN SỨC KHỎE CỦA BẠN" /></a>
+                    </div>
+
+                    <div class="homepagenews-title">
+                        <h3 class="title"> <a href="/xe-dap-the-duc-cong-cu-cai-thien-suc-khoe-cua-ban.html">XE ĐẠP THỂ DỤC - CÔNG CỤ CẢI THIỆN SỨC KHỎE CỦA BẠN</a> </h3>
+                    </div>
+                </div>
+                
+                <div class="homepagenews-item">
+                    <div class="homepagenews-image">
+                        <a href="/tai-sao-dan-van-phong-can-mot-chiec-ghe-massage-toan-than.html"><img class="owl-lazy" src="/static/assets/default/images/blank.gif" data-src="/media/news/8_untitled_design.png" alt="TẠI SAO DÂN VĂN PHÒNG CẦN MỘT CHIẾC GHẾ MASSAGE TOÀN THÂN?" /></a>
+                    </div>
+
+                    <div class="homepagenews-title">
+                        <h3 class="title"> <a href="/tai-sao-dan-van-phong-can-mot-chiec-ghe-massage-toan-than.html">TẠI SAO DÂN VĂN PHÒNG CẦN MỘT CHIẾC GHẾ MASSAGE TOÀN THÂN?</a> </h3>
+                    </div>
+                </div>
+                
+                <div class="homepagenews-item">
+                    <div class="homepagenews-image">
+                        <a href="/kham-pha-dieu-than-ky-sau-moi-buoc-chay.html"><img class="owl-lazy" src="/static/assets/default/images/blank.gif" data-src="/media/news/7_kh__m_ph_____i___u_th___n_k____sau_m___i_b_____c_ch___y.png" alt="KHÁM PHÁ ĐIỀU THẦN KỲ SAU MỖI BƯỚC CHẠY" /></a>
+                    </div>
+
+                    <div class="homepagenews-title">
+                        <h3 class="title"> <a href="/kham-pha-dieu-than-ky-sau-moi-buoc-chay.html">KHÁM PHÁ ĐIỀU THẦN KỲ SAU MỖI BƯỚC CHẠY</a> </h3>
+                    </div>
+                </div>
+                
+                <div class="homepagenews-item">
+                    <div class="homepagenews-image">
+                        <a href="/lua-chon-mot-chiec-ghe-massage-phu-hop-voi-gia-dinh-ban.html"><img class="owl-lazy" src="/static/assets/default/images/blank.gif" data-src="/media/news/6_world_speedrace.png" alt="LỰA CHỌN MỘT CHIẾC GHẾ MASSAGE PHÙ HỢP VỚI GIA ĐÌNH BẠN" /></a>
+                    </div>
+
+                    <div class="homepagenews-title">
+                        <h3 class="title"> <a href="/lua-chon-mot-chiec-ghe-massage-phu-hop-voi-gia-dinh-ban.html">LỰA CHỌN MỘT CHIẾC GHẾ MASSAGE PHÙ HỢP VỚI GIA ĐÌNH BẠN</a> </h3>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- end homepagenews -->
+</div>
+
+
+ 
+
+        <!-- footer -->
+<footer class="bg-white">
+    <div class="container">
+        <div class="footer-social row align-items-center">
+            <div class="col-6 col-lg-3">
+                <div class="item">
+                    <i class="icon-2020 icon-1"></i>
+                    <span class="text text-bold"> 100% SẢN PHẨM <br> CHÍNH HÃNG GIÁ TỐT </span>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <div class="item">
+                    <i class="icon-2020 icon-2 "></i>
+                    <span class="text text-bold"> Đổi trả hàng <br> TRONG VÒNG 7 NGÀY </span>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <div class="item">
+                    <i class="icon-2020 icon-3"></i>
+                    <span class="text text-bold"> Giao hàng <br> TRONG VÒNG 24 GIỜ </span>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <div class="item">
+                    <i class="icon-2020 icon-4 "></i>
+                    <span class="text text-bold"> Thanh toán <br> NHANH CHÓNG & AN TOÀN </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center footer-about">
+            <div class="col-md-3 text-center pb-3">
+                <img src="/media/banner/logo_logo.png" alt="logo" />
+            </div>
+
+            <div class="col-md-9">
+                <b class="d-block" style="font-size: 18px;color: #cb9f34;margin: 0 0 22px 0;"> Giới thiệu về Royal Group </b>
+
+                <div class="">
+                    Thể Thao Hoàng Gia là đơn vị chuyên hoạt động trong lĩnh vực kinh doanh, xuất nhập khẩu thiết bị chăm sóc sức khỏe, dụng cụ thể dục thể thao tại nhà và cho phòng tập gym. Với đội ngũ nhân viên trẻ, năng động và đầy sáng tạo; sản phẩm cung cấp đa dạng, phong phú đảm bảo an toàn chất lượng,Thể Thao Hoàng Gia đang dần khẳng định được vị thể của mình trên thị trường kinh doanh máy tập thể dục và setup gym hiện nay.
+                    Với mục tiêu là phổ biến rộng rãi hơn các dòng sản phẩm máy tập thể dục tại nhà và máy tập phòng gym với nhiều dòng máy tập đa chức năng đến với người tập luyện Việt Nam cũng như khu vực Đông Nam Á… nhằm thúc đẩy cho mọi người dân Việt Nam đều có cơ hội được chăm sóc sức khỏe và thể dục ngay tại nhà trong những ngày bận rộn nhất. Nhất là với chị em phụ nữ khi mà phải hi sinh bản thân để chăm sóc gia đình thì sức khỏe của họ càng cần được chăm sóc nhiều hơn. Lợi ích của các dòng máy tập này chính là đảm nhiệm những nhiệm vụ như vậy. Và đương nhiên, việc kiếm tiền vất vả của các ông chồng cũng không nên bỏ qua, nhưng chiếc máy chạy bộ hay giàn tạ đa năng thậm chí là cả xe đạp tập và ghế massage cũng nên được trang bị trong gia đình vì sức khỏe của mọi thành viên trong gia đình.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-mid">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-paper-plane" style="color: #cb9f34;font-size: 30px;margin-right: 22px;"></i>
+                        
+                        <div>
+                            <b class="d-block" style="font-size: 24px;line-height: 1;"> Đăng ký nhận bản tin </b>
+                            <span style="font-weight: 100;">
+                                Đăng ký ngay để cập nhật các chương trình khuyến mãi
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="form-newsletter">
+                        <input type="text" placeholder="Nhập email" class="newsletter-input" id="email-newsletter"/>
+                        <a href="javascript:void(0);" onclick="subscribe_newsletter('#email-newsletter')" class="send-newsletter"> ĐĂNG KÝ </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <ul class="ul d-flex align-items-center justify-content-center justify-content-lg-end social-media-list">
+                        <li> 
+                            <a href="" class="m-0">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="">
+                                <i class="fa fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="">
+                                <i class="fa fa-youtube-play"></i>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="padding-top: 15px;margin-top: 37px;border-top: 1px solid #d7d7d7;">
+                <div class="row">
+                    <div class="col-6 col-lg-2 mb-3 mb-lg-0">
+                        <div class="item">
+                            <b class="/gioi-thieu"> VỀ ROYAL GROUP </b>
+
+                            <ul class="ul font-weight-lighter">
+                                <li><a href="/gioi-thieu"> Giới thiệu về Royal </a></li>
+                                <li><a href=""> Tầm nhìn và sứ mệnh </a></li>
+                                <li><a href=""> Định hướng phát triển </a></li>
+                                <li><a href=""> Chính sách bảo mật </a></li>
+                                <li><a href=""> Cam kết chất lượng </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-2 mb-3 mb-lg-0">
+                        <div class="item">
+                            <b class="d-block"> HƯỚNG DẪN </b>
+
+                            <ul class="ul font-weight-lighter">
+                                <li><a href=""> Chính sách bán hàng </a></li>
+                                <li><a href=""> Hướng dẫn mua Online </a></li>
+                                <li><a href=""> Hình thức thanh toán </a></li>
+                                <li><a href=""> Chính sách vận chuyển </a></li>
+                                <li><a href=""> Chính sách bảo hành </a></li>
+                                <li><a href=""> Chính sách Đổi - Trả </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-2 mb-3 mb-lg-0">
+                        <div class="item">
+                            <b class="d-block"> Xem thêm </b>
+
+                            <ul class="ul font-weight-lighter">
+                                <li><a href="/tin-tuc"> Tin tức </a></li>
+                                <li><a href="/lien-he"> Liên hệ </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-2 mb-3 mb-lg-0">
+                        <div class="item">
+                            <b class="d-block"> HỖ TRỢ NHANH </b>
+
+                            <ul class="ul font-weight-lighter">
+                                <li><a href=""> 24/7 </a></li>
+                                <li><a href=""> Trung tâm bảo hành </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div style="overflow: hidden">
+                            <div class="fb-page" data-href=" https://www.facebook.com/Gh%E1%BA%BF-Massage-Royal-thethaohoanggiavn-106357704436478/" data-tabs="" data-width="380" data-height="220" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite=" https://www.facebook.com/Gh%E1%BA%BF-Massage-Royal-thethaohoanggiavn-106357704436478/" class="fb-xfbml-parse-ignore"><a href=" https://www.facebook.com/Gh%E1%BA%BF-Massage-Royal-thethaohoanggiavn-106357704436478/">Facebook</a></blockquote></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="show_room2021">
+      <div class="container ">
+        <div class="show_room2021">
+          
+          <div class="show_room2021s">
+            <div class="img_map"></div>
+            <div class="showroom">
+               <div class="address-title">
+                  <h2 style="color: #ffffff;">HỆ THỐNG SHOWROOM TOÀN QUỐC</h2>
+                </div>
+              <div class="address_showroom">
+                <ul>
+                  <li class="js-tab active" data-id="#js-tab1">SHOWROOM miền bắc</li>
+                  <li class="js-tab" data-id="#js-tab2">SHOWROOM miền trung</li>
+                  <li class="js-tab" data-id="#js-tab3" style="margin-right:0px;">SHOWROOM miền nam</li>
+                </ul>
+              </div>
+              <!-- SHOW ROOM MIỀN BẮC-->
+              <div class="tab-content current" id="js-tab1">
+               
+                <div class="list_showroom">
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL HÀ ĐÔNG - HÀ NỘI</b> <br>
+                    <b style="line-height: 30px;"> 756 Đường Quang Trung, Hà Đông, Hà Nội </b>
+                    <p>
+                      <b>Hotline</b>: 0944.06.00.88 - 0974.01.11.85
+                    </p>
+                    <a href="votanam.vn@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: thethaohoanggia.vn@gmail.com
+                    </a>
+                    <a target="_blank" href="https://goo.gl/maps/vv8k23wC86WoYGun6" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                   <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL BA ĐÌNH - HÀ NỘI</b> <br>
+                    <b style="line-height: 30px;"> 54 Nguyễn Công Hoan, Ngọc Khánh, Ba Đình, Hà Nội </b>
+                    <p>
+                      <b>Hotline</b>: 0979.253.822
+                    </p>
+                    <a href="votanam.vn@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: thethaohoanggia.vn@gmail.com
+                    </a>
+                    <a target="_blank" href="https://goo.gl/maps/NTSw69ivEkHvJGoE9" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL HẢI PHÒNG</b><br>
+                    <b style="line-height: 30px;"> Số 10 Hồ Sen, Q.Lể Chân, Hải Phòng </b>
+                    
+                    <p>
+                      <b>Hotline</b>: 0947.696.999 - 02256.293.999
+                    </p>
+                    <a href="votanam.vn@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>:thethaohoanggia.vn@gmail.com
+                    </a>
+                    <a target="_blank" href="https://www.google.com/maps/place/Ta%CC%80i+Pha%CC%81t+Sport+H%E1%BA%A3i+Ph%C3%B2ng/@20.8501751,106.6802239,19z/data=!3m1!4b1!4m5!3m4!1s0x314a7b1038b18227:0xd7a7ff25897407b3!8m2!3d20.8501738!4d106.6807711?hl=vi-VN" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL BẮC GIANG</b><br>
+                    <b style="line-height: 30px;"> 166 Nguyễn Thị Minh Khai - P. Ngô Quyền - TP. Bắc Giang </b>
+                    <p>
+                      <b>Hotline</b>: 0944.233.888 - 0983.789.412
+                    </p>
+                    <a href="Manhbeo1st@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>:Manhbeo1st@gmail.com
+                    </a>
+                    <a target="_blank" href="https://www.google.com/maps/place/Gh%E1%BA%BF+Massage+ROYAL+-+B%E1%BA%AFc+Giang/@21.2827736,106.2083245,15z/data=!4m5!3m4!1s0x0:0x56da28240a404307!8m2!3d21.2827736!4d106.2083245?hl=vi-vn" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL PHÚ THỌ</b><br>
+                    <b style="line-height: 30px;"> 1844 đường Đại Lộ Hùng Vương, P. Nông Trang, TP. Việt Trì, Tỉnh Phú Thọ </b>
+                    <p>
+                      <b>Hotline</b>: 0927.455.999
+                    </p>
+                    <a href="Manhbeo1st@gmail.com:" class="d-block" style="color: #212529">
+                    </a>
+                    <a target="_blank" href="https://goo.gl/maps/SzxZAgMp2CrPx83F8" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL THÁI BÌNH</b><br>
+                    <b style="line-height: 30px;"> Tổ 23 Đường Võ Nguyên Giáp - Thành Phố Thái Bình </b>
+                    <p>
+                      <b>Hotline</b>: 0972.798.621
+                    </p>
+                    <a href="Manhbeo1st@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>:quangthovhdt18a@gmail.com
+                    </a>
+                    <a target="_blank" href="https://www.google.com/maps?q=7+V%C3%B5+Nguy%C3%AAn+Gi%C3%A1p,+Ho%C3%A0n+Di%E1%BB%87u,+Th%C3%A1i+B%C3%ACnh&ftid=0x3135fad14ead46d3:0xc86dc233f005f0c9&hl=vi-VN&gl=vn&entry=gps&lucs=swa&shorturl=1" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL VĨNH PHÚC</b><br>
+                    <b style="line-height: 30px;"> LK2604 - KĐT Grand City(TMS) - P.Hùng Vương - TP. Phúc Yên - Tỉnh Vĩnh Phúc </b>
+                    <p>
+                      <b>Hotline</b>: 0985.595.986 - 0919.076.548
+                    </p>
+                    <a href="royalphucyen@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>:royalphucyen@gmail.com
+                    </a>
+                    <a target="_blank" href="https://www.google.com/maps/@21.2256858,105.7129967,21z?hl=vi-VN" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL QUẢNG NINH</b><br>
+                    <b style="line-height: 30px;"> 169 Trần Nhân Tông, P.Yên Thanh, TP.Uông Bí, Quảng Ninh </b>
+                    <p>
+                      <b>Hotline</b>: 0973.181.666 - 0832.843.843
+                    </p>
+                    <a href="tiendungqn2019@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: tiendungqn2019@gmail.com
+                    </a>
+                    <a target="_blank" href="https://www.google.com/maps/place/169+Tr%E1%BA%A7n+Nh%C3%A2n+T%C3%B4ng,+Y%C3%AAn+Thanh,+U%C3%B4ng+B%C3%AD,+Qu%E1%BA%A3ng+Ninh,+Vi%E1%BB%87t+Nam/@21.0334075,106.759504,17z/data=!3m1!4b1!4m5!3m4!1s0x314a8837d3177b9b:0xff1d284db741c0df!8m2!3d21.0334075!4d106.7616927" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL HÀ GIANG</b><br>
+                    <b style="line-height: 30px;"> 44 An Cư, TP.Hà Giang </b>
+                    <p>
+                      <b>Hotline</b>: 0944.060.088
+                    </p>
+                    <a href="tiendungqn2019@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: votanam.vn@gmail.com
+                    </a>
+                    <a target="_blank" href="https://www.google.com/maps/place/169+Tr%E1%BA%A7n+Nh%C3%A2n+T%C3%B4ng,+Y%C3%AAn+Thanh,+U%C3%B4ng+B%C3%AD,+Qu%E1%BA%A3ng+Ninh,+Vi%E1%BB%87t+Nam/@21.0334075,106.759504,17z/data=!3m1!4b1!4m5!3m4!1s0x314a8837d3177b9b:0xff1d284db741c0df!8m2!3d21.0334075!4d106.7616927" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL THÁI NGUYÊN</b><br>
+                    <b style="line-height: 30px;"> TP. THÁI NGUYÊN </b>
+                    <p>
+                      <b>Hotline</b>: 0944.060.088
+                    </p>
+                    <a href="tiendungqn2019@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: votanam.vn@gmail.com
+                    </a>
+                    <a target="_blank" href="" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--KẾT THÚC SHOW ROOM MIỀN BẮC-->
+              
+              <!-- SHOW ROOM MIỀN TRUNG-->
+              <div class="tab-content" id="js-tab2">
+                <div class="list_showroom">
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL THANH HÓA</b><br>
+                    <b style="line-height: 30px;"> Lô 09- Đ.Lê Hoàn- P.Điện Biên- Tp.Thanh Hóa ( Đối diện Dạ Lan Sự Kiện) </b>
+                    <p>
+                      <b>Hotline</b>: 0962.741.345 - 0345.262.271
+                    </p>
+                    <a href="ks.vandat@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: ks.vandat@gmail.com
+                    </a>
+                    <a target="_blank" href="https://www.google.com/maps/place/9+%C4%90%C6%B0%E1%BB%9Dng+L%C3%AA+Ho%C3%A0n,+P.+Lam+S%C6%A1n,+Th%C3%A0nh+ph%E1%BB%91+Thanh+H%C3%B3a,+Thanh+Ho%C3%A1,+Vi%E1%BB%87t+Nam/@19.8143405,105.7790146,17z/data=!4m13!1m7!3m6!1s0x3136f7fe0fdbddef:0xd1ef7043e086fe64!2zOSDEkMaw4budbmcgTMOqIEhvw6BuLCBQLiBMYW0gU8ahbiwgVGjDoG5oIHBo4buRIFRoYW5oIEjDs2EsIFRoYW5oIEhvw6EsIFZp4buHdCBOYW0!3b1!8m2!3d19.8143405!4d105.7812033!3m4!1s0x3136f7fe0fdbddef:0xd1ef7043e086fe64!8m2!3d19.8143405!4d105.7812033?hl=vi-VN" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL NGHỆ AN</b><br>
+
+                    <b style="line-height: 30px;"> 58 Mai Hắc Đế, P.Hà Huy Tập, TP.Vinh, Nghệ An </b>
+                    <p>
+                      <b>Hotline</b>: 0979.305.800
+                    </p>
+                    <a href="Haitd119@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: hothoduoc93@gmail.com
+                    </a>
+                    <a target="_blank" href="https://www.google.com/maps/place/58+Mai+H%E1%BA%AFc+%C4%90%E1%BA%BF,+H%C3%A0+Huy+T%E1%BA%ADp,+Th%C3%A0nh+ph%E1%BB%91+Vinh,+Ngh%E1%BB%87+An,+Vi%E1%BB%87t+Nam/@18.69076,105.6728801,17z/data=!3m1!4b1!4m5!3m4!1s0x3139ce1222f28697:0x9fc95b64f15e2318!8m2!3d18.69076!4d105.6750688?hl=vi-VN" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL HÀ TĨNH</b><br>
+                    <b style="line-height: 30px;"> 212 Hà Huy Tập, Tp Hà Tĩnh, Hà Tĩnh </b>
+                    <p>
+                      <b>Hotline</b>: 0944.06.00.88 - 0974.01.11.85
+                    </p>
+                    <a href="votanam.vn@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: votanam.vn@gmail.com
+                    </a>
+                    <a target="_blank" href="https://goo.gl/maps/tWvCvtR6SsgGEh726" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL QUẢNG BÌNH</b><br>
+                    <b style="line-height: 30px;"> TP. Đồng Hới, Quảng Bình</b>
+                    <p>
+                      <b>Hotline</b>: 0944.06.00.88 - 0974.01.11.85
+                    </p>
+                    <a href="votanam.vn@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: votanam.vn@gmail.com
+                    </a>
+                    <a target="_blank" href="" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL THỪA THIÊN HUẾ</b><br>
+                    <b style="line-height: 30px;"> TP. Huế, Thừa Thiên Huế</b>
+                    <p>
+                      <b>Hotline</b>: 0944.06.00.88 - 0974.01.11.85
+                    </p>
+                    <a href="votanam.vn@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: votanam.vn@gmail.com
+                    </a>
+                    <a target="_blank" href="" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL ĐÀ NẴNG</b><br>
+                    <b style="line-height: 30px;"> TP. Đà Nẵng, Đà Nẵng</b>
+                    <p>
+                      <b>Hotline</b>: 0944.06.00.88 - 0974.01.11.85
+                    </p>
+                    <a href="votanam.vn@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: votanam.vn@gmail.com
+                    </a>
+                    <a target="_blank" href="" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                </div>
+              </div>
+    <!--KẾT THÚC SHOW ROOM MIỀN TRUNG-->
+              
+    <!-- SHOW ROOM MIỀN  NAM -->        
+              <div class="tab-content " id="js-tab3">
+                <div class="list_showroom">
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL HỒ CHÍ MINH</b><br>
+                    <b style="line-height: 30px;"> 515 Lê Trọng Tấn,khối phố 3, P.Sơn Kỳ, Q.Tân Phú, TP.Hồ Chí Minh</b>
+                    <p>
+                      <b>Hotline</b>: 0828.686.660 - 0878.367.888
+                    </p>
+                    <a href="Tatquangntv@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: thethaohoanggia.vn@gmail.com
+                    </a>
+                    <a target="_blank" href="https://www.google.com/maps/place/Gh%E1%BA%BF+Massage,+M%C3%A1y+Ch%E1%BA%A1y+B%E1%BB%99+ROYAL/@10.8113275,106.6103733,20.18z/data=!4m13!1m7!3m6!1s0x31752bebeaf6fab5:0xdcf8537171357e2d!2zNTE1IEzDqiBUcuG7jW5nIFThuqVuLCBUw6J5IFRo4bqhbmgsIFTDom4gUGjDuiwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!3b1!8m2!3d10.8116957!4d106.6101437!3m4!1s0x31752b3505b452cb:0xe396e14d167d9a80!8m2!3d10.8112857!4d106.610249?hl=vi-VN" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL BÌNH DƯƠNG</b><br>
+                    <b style="line-height: 30px;"> 332 Lê Hồng Phong,P. Phú Hòa, Thủ Dầu 1, Bình Dương  (Bên cạnh Phở Cường 2)</b>
+                    <p>
+                      <b>Hotline</b>: 0979.259.697 - 0344.156.222
+                    </p>
+                    <a href="Tatquangntv@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: Tatquangntv@gmail.com
+                    </a>
+                    <a target="_blank" href="https://www.google.com/maps/place/332+L%C3%AA+H%E1%BB%93ng+Phong,+Ph%C3%BA+Ho%C3%A0,+Th%E1%BB%A7+D%E1%BA%A7u+M%E1%BB%99t,+B%C3%ACnh+D%C6%B0%C6%A1ng,+Vi%E1%BB%87t+Nam/@10.9795748,106.678405,17z/data=!4m5!3m4!1s0x3174d72b25915ef9:0x36ef0da6c7f47bab!8m2!3d10.9795492!4d106.6805663?hl=vi-VN" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL ĐỒNG NAI</b><br>
+                    <b style="line-height: 30px;"> 1026 Phạm Văn Thuận, P.Tân Mai, TP.Biên Hòa, Đồng Nai </b>
+                    <p>
+                      <b>Hotline</b>: 0961.456.678 - 0333.060.789
+                    </p>
+                    <a href="votanam.vn@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: qchanh6678@gmail.com
+                    </a>
+                    <a target="_blank" href="https://www.google.com/maps/place/1026+Ph%E1%BA%A1m+V%C4%83n+Thu%E1%BA%ADn,+T%C3%A2n+Mai,+Th%C3%A0nh+ph%E1%BB%91+Bi%C3%AAn+H%C3%B2a,+%C4%90%E1%BB%93ng+Nai,+Vi%E1%BB%87t+Nam/@10.9568985,106.8466184,19z/data=!3m1!4b1!4m5!3m4!1s0x3174dc20cb08f429:0xef7e07913f93cb60!8m2!3d10.9568972!4d106.8471656?hl=vi-VN" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL ĐẮK LẮK</b><br>
+                    <b style="line-height: 30px;"> 86 Nguyễn Tất Thành, TP.Buôn Ma Thuột, Đắk Lắk </b>
+                    <p>
+                      <b>Hotline</b>: 0963.772.444 - 0886.769.749
+                    </p>
+                    <a href="royabmt.com.vn@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: Royabmt.com.vn@gmail.com
+                    </a>
+                    <a target="_blank" href="https://www.google.com/maps/place/86+Nguy%E1%BB%85n+T%E1%BA%A5t+Th%C3%A0nh,+T%C3%A2n+L%E1%BB%A3i,+Th%C3%A0nh+ph%E1%BB%91+Bu%C3%B4n+Ma+Thu%E1%BB%99t,+%C4%90%E1%BA%AFk+L%E1%BA%AFk,+Vi%E1%BB%87t+Nam/@12.6879202,108.0547696,17z/data=!3m1!4b1!4m5!3m4!1s0x3171f7d05f4e7931:0x4586afb869a39763!8m2!3d12.6879202!4d108.0569583?hl=vi-VN" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL CẦN THƠ</b><br>
+                    <b style="line-height: 30px;"> 474 Nguyễn Văn Cừ - P An Hoà - Quận Ninh Kiều - Tp Cần Thơ</b>
+                    <p>
+                      <b>Hotline</b>: 0978.489.596
+                    </p>
+                    <a href="votanam.vn@gmail.com:" class="d-block" style="color: #212529">
+                      <b>Mail</b>: thethaohoanggia.vn@gmail.com
+                    </a>
+                    <a target="_blank" href=" https://g.page/treadbill?share
+                                             " style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL VĨNH LONG</b><br>
+                    <b style="line-height: 30px;"> Đường Lưu Nhơn Sâm - Khóm 1 - P.Cái Vồn - Tx. Bình Minh - Vĩnh Long </b>
+                    <p>
+                      <b>Hotline</b>: 0936.25.43.44
+                    </p>
+
+                    <a target="_blank" href="" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                  <div class="footer-address">
+                    <b style="color: #cb9f34;">ROYAL ĐỒNG THÁP</b><br>
+                    <b style="line-height: 30px;"> 70 Võ Văn Kiệt - Khóm 4 - Tp. Hồng Ngự - Đồng Tháp </b>
+                    <p>
+                      <b>Hotline</b>: 0944.233.888
+                    </p>
+                    <a target="_blank" href="https://www.google.com/maps/place/70+%C4%90%C6%B0%E1%BB%9Dng+V%C3%B5+V%C4%83n+Ki%E1%BB%87t,+Ph%C6%B0%E1%BB%9Dng+An+Th%E1%BA%A1nh,+H%E1%BB%93ng+Ng%E1%BB%B1,+%C4%90%E1%BB%93ng+Th%C3%A1p,+Vi%E1%BB%87t+Nam/@10.8090395,105.3462819,19.6z/data=!4m5!3m4!1s0x310a373397f7bbe7:0x1959c0f378c7e439!8m2!3d10.8091317!4d105.3466797?hl=vi-VN" style="color: #cb9f34; text-decoration: underline">
+                      <i class="fa fa-map-marker"></i> Xem bản đồ
+                    </a>
+                  </div>
+                    
+                </div>
+              </div>
+     <!--KẾT THÚC SHOW ROOM MIỀN NAM-->
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="footer-end" id="footer-showRoom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="margin-bottom:20px">
+                <div class="row">
+                <div class="col-6">
+                        <p>
+                        <b>Công ty TNHH Thương Mại Xuất Khẩu Nhất Phong</b><br/>
+                        Số ĐKKD 3002071266 do Sở KHĐT Tp. Hà Tĩnh  cấp ngày 22/02/2017<br/>
+                        Địa chỉ: Xóm Thanh Phú, X. Thạch Trung, Tp. Hà Tĩnh, Hà Tĩnh<br/>
+                        Điện thoại: 0944.060.088 - Email: thethaohoanggia.vn@gmail.com
+                        </p>
+                        </div>
+                <div class="col-6">
+                        <p>
+                        <a href="https://thethaohoanggia.vn/chinh-sach-thanh-toan.html">Chính sách thanh toán</a> - 
+                        <a href="https://thethaohoanggia.vn/chinh-sach-xu-ly-khieu-nai.html">Chính sách xử lý khiếu nại</a> - 
+                        <a href="https://thethaohoanggia.vn/chinh-sach-van-chuyen-va-giao-nhan.html">Chính sách vận chuyển</a><br/>
+                        <a href="https://thethaohoanggia.vn/chinh-sach-doi-tra-va-hoan-tien.html">Chính sách đổi trả, trả hàng</a> - 
+                        <a href="https://thethaohoanggia.vn/chinh-sach-bao-hanh.html">Chính sách bảo hành</a> -                      
+                        <a href="https://thethaohoanggia.vn/chinh-sach-bao-mat-thong-tin.html">Chính sách bảo mật thông tin</a>
+                        </p>
+                  <p><a href="http://online.gov.vn/Home/WebDetails/84011" target="_blank"><img src="https://thethaohoanggia.vn/media/lib/dathongbaobct_150.png"></a></p>
+                </div>
+                </div>
+                </div>
+             
+                <div class="col-12">
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-between flex-wrap copy-right" style="margin-top: -23px;">
+                        <p style="margin: 0;fon-size: 12px;color: #999">
+                            Copyright 2020 &copy; thethaohoanggia.vn
+                        </p>
+                        
+                        <div class="payment-icon">
+                            <a href="" class="icon-2020 icon-pp"></a>
+                            <a href="" class="icon-2020 icon-vs"></a>
+                            <a href="" class="icon-2020 icon-ms"></a>
+                            <a href="" class="icon-2020 icon-dc"></a>
+                            <a href="" class="icon-2020 icon-ba"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</footer>
+<!-- endfooter -->
+
+<a href="javascript:;" class="goToTop" id="js-toTop"> <i class="fa fa-chevron-up"></i> </a>
+
+<div class="icon_fix2021">
+<div class="float-ck">
+
+<div id="float_content_right">
+<a href="javascript:;"  data-id="#show_room2021" id="hethongshowroomtoanquoc" class="js-scroll-showRoom">
+    <img src="https://kingsport.vn/image/catalog/tieich/he-thong-showroom-22-1-2021.svg" id="" width="200px">
+</a>
+<a href="tel:1900633527" target="" title="Tìm kiếm cửa hàng" id="hethongshowroomtoanquoc">
+    <img src="https://thethaohoanggia.vn/static/assets/default/images/tong-dai-mien-phi-24-6-2021.png" id="" width="200px">
+</a>
+
+</div>
+<!-- messenger on destop -->
+<div id="">
+</div>  
+<!-- end messenger -->
+ <!--end baner quang cao -->
+    
+</div>
+</div>
+
+<style>
+.icon_fix2021 {
+    position: sticky;
+    bottom: 0px;
+    z-index: 9000;
+    align-content: inherit;
+    margin: 0 auto;
+    text-align: left;
+}
+  #float_content_right {
+    border: 0px solid #01AEF0;
+}
+  
+</style>
+
+<div class="d-lg-none">
+	<div class="global-fixed-bottom">
+            <div class="fixed-item fixed-phone">
+                <a href="tel:0944 060 088" class="icon-new-2020 icon-left d-block w-100 h-100"></a>
+            </div>
+
+            <div class="fixed-item fixed-mess">
+                <a href="" class="icon-new-2020 icon-right d-block w-100 h-100"></a>
+            </div>
+        </div>
+</div>
+
+
+    </div>
+    
+    <script src="https://static.gleecdn.com/hura8/v2/vendors.js"></script>
+<script src="https://static.gleecdn.com/hura8/v2/hura8.js?3"></script>
+
+<script src="/static/assets/default/script/owl.carousel.min.js"></script>
+<script src="/static/assets/default/script/lazyload.js"></script>
+
+
+<!---//script hien thi tat ca cac trang-->
+<script>
+    var lazy_load_group = [];
+  
+    $(document).ready(function(){
+      // only fetch if area is in viewpoint
+        Hura.UI.loadGroup(lazy_load_group);
+  
+        $(".js-show-search").click(function(){
+            $(".search-container").toggleClass("active");
+        });
+
+        // show menu-mobile
+        $("#js-show-menu").click(function(){
+            $(".menu-mobile").fadeIn(100);
+            $(".main-menu-mb").addClass("show-menu");
+        });
+        
+        //lazyload image
+        var lazyLoadInstance = new LazyLoad({
+            elements_selector: ".lazy"
+        });
+
+        // controlSlider
+        $(".js-controlSlider span").click(function() {
+            let data = $(this).attr("data-play");
+            $(this).removeClass("action");
+            $(".js-controlSlider span")
+                .not(this)
+                .addClass("action");
+            sliderControl(data);
+        });
+    
+        if ($(window).width() < 768) {
+            //menu 
+            menuExpandMobile();
+        }
+        
+        // click toTop 
+        $(window).scroll(function(){
+            if($(window).scrollTop() > 100) $("#js-toTop").fadeIn();
+            else $("#js-toTop").fadeOut();
+        });
+
+        $("#js-toTop").click(function(){
+            $('html,body').animate({scrollTop:0},800);
+        });
+      
+    // click scroll tới showroom footer
+      $(".js-scroll-showRoom").click(function(){
+            var id = $(this).attr("data-id");
+            var top = $("#footer-showRoom").offset().top;
+            $('html,body').animate({scrollTop:top-40},800);
+            closeMainMenu();
+        });
+    });
+
+    
+</script>
+<script>
+    
+    function closeMainMenu(){
+        $(".menu-mobile").fadeOut(100);
+        $(".main-menu-mb").removeClass("show-menu");
+    }
+
+    function subscribe_newsletter(a){
+        var email = $(a).val();
+        
+        if(email.length > 3){
+            var params = {
+                action : 'customer', 
+                action_type: 'register-newsletter', 
+                info : { 
+                    name: 'Khách hàng nhận bản tin', 
+                    email: email
+                }
+            };
+            Hura.Ajax.post('customer', params).then(function (data) {
+                console.log(data);
+                if(data.status == 'success') {
+                    alert("Quý khách đã đăng ký thành công");
+                    $(a).val("");}
+                else if(data.message == 'Email exist'){
+                    alert("Email này đã tồn tại");
+                }
+                else {
+                    alert('Lỗi xảy ra, vui lòng thử lại');
+                }
+            })
+
+        }else{alert('Vui lòng nhập địa chỉ email');}
+    }
+
+    function sliderControl(data) {
+        let owl = $(".slider-homepage .owl-carousel");
+        switch (data) {
+            case "play": {
+                owl.trigger("play.owl.autoplay", [3000]);
+                break;
+            }
+            case "stop": {
+                owl.trigger("stop.owl.autoplay");
+                break;
+            }
+        }
+    }
+
+    function menuExpandMobile() {
+        const navExpand = [].slice.call(document.querySelectorAll('.has-child'))
+        const backLink = `<li class="align-items-center border-bottom d-flex hide-xs line-h30 nav-back-link nav-item">
+          <i class="fa fa-chevron-left" style="padding-right:15px;"></i>
+          <a class="d-inline-block nav-link p-0" href="javascript:;">
+            Back
+          </a>
+        </li>` ;
+
+        navExpand.forEach(item => {
+            item.querySelector('.has-child-content').insertAdjacentHTML('afterbegin', backLink)
+            item.querySelector('.has-child-link').addEventListener('click', () => item.classList.add('active'))
+            item.querySelector('.nav-back-link ').addEventListener('click', () => item.classList.remove('active'))
+        })
+    }
+
+    function formatCurrency(a) {
+        var b = parseFloat(a).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1.").toString();
+        var len = b.length;
+        b = b.substring(0, len - 3);
+        return b;
+    }
+
+</script>
+<script>
+$(document).ready(function () {
+    doiTab(".js-tab");
+    
+});
+
+function doiTab(holder) {
+    $(holder).click(function () {
+        var tab_id = $(this).attr("data-id");
+        $(holder).removeClass('active');
+        $('.tab-content').removeClass('current');
+        $(this).addClass('active');
+        $(tab_id).addClass('current');
+    });
+}
+</script>  
+
+
+
+
+<script>
+    var productTpl = `
+        <div class="p-container p-item-new">
+            <div class="p-image">
+                <a href="{%= item.productUrl %}">
+                    {% if (item.productImage.large != '') { %}
+                    <img src="{%= item.productImage.large %}" alt="{%= item.productName %}" />
+                    {% } else { %}
+                    <img src="/static/assets/default/images/no_image.jpg" alt="{%= item.productName %}" />
+                    {%} %}
+                </a>
+
+                {% if (item.price_off > 0) { %}
+                <span class="icon-2020 p-discount"> -{%= item.price_off %}% </span>
+                {% } %}
+              
+                <span class="icon-2020 icon-crown"></span>
+            </div>
+
+            <div class="p-info">
+                <h3 class="m0"><a href="{%= item.productUrl %}" class="p-name"> {%= item.productName %} </a></h3>
+                <span class="p-price"> {%= item.price > 0 ? formatCurrency(item.price) + 'đ' : 'Liên hệ' %} </span>
+
+                {% if (item.price_off > 0) { %}
+                <span class="p-nprice">{%= formatCurrency(item.marketPrice) %}đ</span>
+                {% } %}
+            </div>
+        </div>       
+    `;
+    
+    var catBannerImg = `
+        <a href="{%= item.productUrl %}">
+            <img src="{%= item.fileUrl %}" alt="{%= item.title %}" class="img-fluid">
+        </a>    
+    `;
+    
+    var proSimilar = `
+        <div class="p-container p-item-new m-0">
+            <div class="p-image">
+                <a href="{%= item.productUrl %}">
+                    {% if (item.productImage.large != '') { %}
+                    <img src="{%= item.productImage.large %}" alt="{%= item.productName %}" />
+                    {% } else { %}
+                    <img src="/static/assets/default/images/no_image.jpg" alt="{%= item.productName %}" />
+                    {%} %}
+                </a>
+
+                {% if (item.price_off > 0) { %}
+                <span class="icon-2020 p-discount"> -{%= item.price_off %}% </span>
+                {% } %}
+              
+                <span class="icon-2020 icon-crown"></span>
+            </div>
+
+            <div class="p-info">
+                <h3 class="m0"><a href="{%= item.productUrl %}" class="p-name"> {%= item.productName %} </a></h3>
+                <span class="p-price"> {%= item.price > 0 ? formatCurrency(item.price) + 'đ' : 'Liên hệ' %} </span>
+
+                {% if (item.price_off > 0) { %}
+                <span class="p-nprice">{%= formatCurrency(item.marketPrice) %}đ</span>
+                {% } %}
+              
+                 <a href="javascript:void(0);" onclick="addProductToCart('{%= item.productId %}',0)" class="custombuy d-block text-center w-100" style="background: #cb9f34;height: 40px;line-height: 40px;"> 
+                    <i class="fa fa-shopping-cart"></i> Mua ngay 
+                 </a>
+            </div>
+        </div>       
+    `;
+
+    var artRelated = `
+        <li>
+            <a href="{%= item.url %}" class="amain-img">
+                <img src="{%= item.image.thum %}" alt="{%= item.title %}"/>
+            </a>
+            <div class="amain-right">
+                <a href="{%= item.url %}" class="amain-name">{%= item.title %}</a>
+                <span class="amain-time"> {%= item.lastUpdate %} </span>
+            </div>
+        </li>
+    `;  
+	
+     var artNew = `
+        <li>
+            <a href="{%= item.url %}" class="amain-img">
+                <img src="{%= item.image.thum %}" alt="{%= item.title %}"/>
+            </a>
+            <div class="amain-right">
+                <a href="{%= item.url %}" class="amain-name">{%= item.title %} </a>
+                <span class="amain-time">
+                    <i class="fa fa-eye" aria-hidden="true"></i>{%= item.visit %} <br>
+                    {%= item.lastUpdate %}
+                </span>
+            </div>
+        </li>
+    `;
+
+  
+    // Main template
+    var instant_search_result_template = `
+        <div class="list">
+            <a href="{%=item.url%}">
+                <img src="{%=item.image%}" alt="{%=item.title%}">
+                <span class="info">
+                  <span class="name">{%=item.title%}</span>
+                  <span class="price">{%= item.price > 0 ? formatCurrency(item.price) + 'đ' : 'Liên hệ' %}</span>
+                </span>
+            </a>
+        </div>
+    `;
+ 
+    var commentTpl = `
+        <div class="item item_comment" id="comment_{%= item.id %}">
+            <div class="comment-right">
+                <div class="comment-name">
+                    <span class="avatar">
+                        {% if (item.is_user_admin == 1) { %}
+                        <img class="avatar-admin" src="/static/assets/default/images/favicon_royal.png" alt="admin" />
+                        {% } else { %}
+                        <b class="avatar-user">{%= item.user_name %}</b>
+                        {%} %}
+                    </span>
+                    <span class="name">{%= item.user_name %}</span>
+                    {% if (item.is_user_admin == 1) { %}<i class="note">QTV</i> {%} %}
+                </div>
+
+                <p>{%= item.content %}</p>
+
+                <div class="info-feeback">
+                    <a href='javascript:void(0);' class="write-reply" onclick="$('#reply_comment_{%= item.id %}').toggle()">
+                        <i class="fa fa-commenting-o" aria-hidden="true"></i> Trả lời
+                    </a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+                    <span class="time">({%= formatDate(item.post_time) %})</span>
+                </div>
+
+                <div id='reply_comment_{%= item.id %}' class="reply-comment" style="display: none;">        
+                    <div class="comment-form reply-template">
+                        <form  action="/ajax/post_comment.php" method="post" enctype="multipart/form-data"  onsubmit="return check_field({%= item.id %})" class="form-reply{%= item.id %}">
+                            <div class="relative">
+                                <input type="hidden" name='user_post[reply_to]' value='{%= item.id %}'/>
+
+                                <textarea placeholder="Nội dung phản hồi" class="form-control js-show-form-input" 
+                                      data-target="#comment-form-input-{%= item.id %}" 
+                                      id="content{%= item.id %}" onfocus="showFormReply('form-input{%= item.id %}')" ></textarea>
+                                
+                                <div class="form-input" id="form-input{%= item.id %}">
+                                  {%# checkReply(is_admin_login,customer_info, item.id) %}
+                                </div>
+
+                            </div><!--relative-->
+                        </form>
+                    </div><!--comment-form-->
+                </div><!--reply-comment-form-->
+
+                <div id="reply_list_{%= item.id %}">
+                  <div class="item item-reply" >
+                    {%# getReply(item.id) %}
+                  </div>
+                </div>
+            </div><!--comment_right-->
+            <div class="clear"></div>
+        </div><!--item_comment-->
+    `;
+
+    var replyTpl = `
+        <div class="item_reply">
+          <div class="comment_right">
+            <div class="comment-name">
+                {% if (item.is_user_admin  == 1 ) { %}
+                    <span class="avatar">
+                        <img class="avatar-admin" src="/static/assets/default/images/favicon_royal.png" alt="admin">
+                    </span>
+                    <span class="name">Quản trị viên </span>
+                    <i class="note">QTV</i>
+                {% } else { %}   
+                    <span class="avatar">
+                        <b class="avatar-user">{%= item.user_name %}</b>
+                    </span>
+                    <span class="name">{%= item.user_name %}</span>
+                {% } %}
+            </div>
+
+             {% if (item.approved  == 0 && item.is_user_admin != 1 ) { %}
+                <p><i>Bình luận đang được kiểm duyệt !</i></p>
+             {% } else { %}   
+            	<p>{%= item.content %}</p>
+             {% } %}
+          </div><!--comment_right-->
+        </div><!--item-reply--> 
+    `;
+
+  
+</script>
+      
+
+
+<!---//script hien thi homepage-->
+
+    <script>
+    $(document).ready(function(){
+        //slider home
+        $(".js-homeSlider").owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            autoplayTimeout: 3000,
+            nav: false,
+            lazyLoad: true,
+            dots: false
+        });
+
+        //slider home
+        $(".js-homepagenews").owlCarousel({
+            items: 3,
+            loop: true,
+            autoplay: false,
+            autoplaySpeed: 1000,
+            autoplayTimeout: 3000,
+            loop: true,
+            nav: false,
+            margin: 20,
+            dots: true,
+            lazyLoad: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    stagePadding: 25
+                },
+                320: {
+                    items: 1,
+                    stagePadding: 50
+                },
+                480: {
+                    items: 1,
+                    stagePadding: 100
+                },
+                768: {
+                    items: 3,
+                    stagePadding: 0
+                }
+            }
+        });
+  
+        $(".js-featuredCateSlider").owlCarousel({
+            items: 2,
+            nav: false,
+            margin: 20,
+            dots: true,
+            responsive: {
+              // breakpoint from 0 up
+              0: {
+                items: 1,
+              },
+              // breakpoint from 768 up
+              400: {
+                items: 2,
+              }, 
+              768: {
+                items: 3,
+              }, 
+              1200: {
+                items: 4,
+                dots: false,
+                loop: false,
+              }
+            }
+  
+        });
+        
+        $("#js-service-holder").owlCarousel({
+            autoplaySpeed: 1000,
+            autoplayTimeout: 3000,
+            nav: false,
+            margin: 10,
+            dots: true,
+            lazyLoad: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    dots: true,
+                    autoplay: true,
+  					loop: true,
+                },
+                992: {
+                    items: 3,
+                    dots: false,
+                    autoplay: false,
+  					loop: false,
+                }
+            }
+        });
+
+  
+        $(window).resize(function() {
+            if ($(window).width() < 768) {
+                $(".js-sliderService").owlCarousel({
+                    items: 1,
+                    loop: true,
+                    autoplay: false,
+                    autoplaySpeed: 1000,
+                    autoplayTimeout: 3000,
+                    nav: false,
+                    margin: 10,
+                    dots: true
+                });
+
+                $(".js-featuredCateSlider").owlCarousel({
+                    items: 2,
+                    loop: true,
+                    nav: false,
+                    margin: 10,
+                    dots: true
+                });
+            }
+        });  
+  
+    });
+                                        
+    setTimeout(function(){ 
+        $(".popup-container").fadeIn();
+    }, 3000);
+
+    function closePop() {
+        $(".popup-container").fadeOut();
+    }                                        
+</script>
+
+<script>
+    if(typeof category_to_fetch != "undefined") {
+        //console.log(category_to_fetch);
+        lazy_load_group = category_to_fetch.map(function (id) {
+            return {
+                id: id,
+                target: '#js-box-'+id,
+                loadFn: function () {
+                    getProductCategory(id);
+                    getBanner(id);
+                },
+            }
+        });
+    }
+
+    function getProductCategory(cat_id) {
+        var params = {
+            action_type: "product-list",
+            type    :"hot",
+            category: cat_id,
+            sort: "order"
+        };
+        var target = '#js-pro-home-'+cat_id;
+
+        Hura.Ajax.get("product", params).then(function (data) {
+            //console.log(data);
+            var newData = data.list.splice(0,4);
+            var html = Hura.Template.parse(productTpl, newData);
+            Hura.Template.render(target,html);
+        })
+    }
+
+    function getBanner(catId) {
+        var params = {
+            action_type : 'list',
+            show        : 1,
+            template    : 'product_list',
+            location    : 3,
+            sort        : 'new',
+            category    : catId
+        };
+
+        var target = '#js-cat-banner-'+catId;
+
+        Hura.Ajax.get("banner", params).then(function (data) {
+            //console.log(data);
+            var html = Hura.Template.parse(catBannerImg, data.list);
+            Hura.Template.render(target,html);
+        })
+    }
+</script>
+
+<!---//script hien thi cho san pham-->
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+  
+    
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v7.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="106357704436478">
+      </div>
+
+
+</body>
+</html>
+<!-- Load time: 0.04391 seconds  / 4 mb-->
+<!-- Powered by Hura8 Cloud - 1.2, Released: 10-May-2020 / Website: www.hurasoft.vn -->
+        

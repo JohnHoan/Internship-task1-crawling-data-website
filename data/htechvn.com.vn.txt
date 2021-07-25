@@ -1,0 +1,2448 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]> <html lang="vi" class="ie9 loading-site no-js"> <![endif]-->
+<!--[if IE 8 ]> <html lang="vi" class="ie8 loading-site no-js"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="vi" class="loading-site no-js"> <!--<![endif]-->
+<head><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}async _loadEverythingNow(){this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{const n=document.createElement("script");let i;[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type",i=e.nodeValue),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")&&this._isValidScriptType(i)?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}_isValidScriptType(e){return!e||""===e||"string"==typeof e&&["text/javascript","text/x-javascript","text/ecmascript","text/jscript","application/javascript","application/x-javascript","application/ecmascript","application/jscript","module"].includes(e.toLowerCase())}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){const n=e[t];Object.defineProperty(e,t,{get:n||function(){},set:n=>{e["rocket"+t]=n}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,i=document.createRange(),r=n.parentElement;let a=e.get(n);void 0===a&&(a=n.nextSibling,e.set(n,a));const o=document.createDocumentFragment();i.setStart(o,0),o.appendChild(i.createContextualFragment(t)),r.insertBefore(o,a)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mousemove","touchmove","touchstart","touchend","touchcancel","touchforcechange","wheel"]);e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();
+</script>
+	<meta charset="UTF-8" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://htechvn.com.vn/xmlrpc.php" />
+
+					<script type="rocketlazyloadscript">document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
+				<script type="rocketlazyloadscript">(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>HTECH</title>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin HTECH &raquo;" href="https://htechvn.com.vn/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dòng phản hồi HTECH &raquo;" href="https://htechvn.com.vn/comments/feed/" />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://htechvn.com.vn/wp-includes/css/dist/block-library/style.min.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-vendors-style-css'  href='https://htechvn.com.vn/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=5.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://htechvn.com.vn/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=5.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://htechvn.com.vn/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.1' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='jquery-selectBox-css'  href='https://htechvn.com.vn/wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox.css?ver=1.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-icons-css'  href='https://htechvn.com.vn/wp-content/themes/flatsome/assets/css/fl-icons.css?ver=3.12' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-woocommerce-wishlist-css'  href='https://htechvn.com.vn/wp-content/themes/flatsome/inc/integrations/wc-yith-wishlist/wishlist.css?ver=3.10.2' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-main-css'  href='https://htechvn.com.vn/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.13.3' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-shop-css'  href='https://htechvn.com.vn/wp-content/themes/flatsome/assets/css/flatsome-shop.css?ver=3.13.3' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-style-css'  href='https://htechvn.com.vn/wp-content/themes/flatsome-child/style.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-googlefonts-css'  href='//fonts.googleapis.com/css?family=Lato%3Aregular%2C700%2C400%2C700%7CDancing+Script%3Aregular%2C400&#038;display=swap&#038;ver=3.9' type='text/css' media='all' />
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">(function(a,d){if(a._nsl===d){a._nsl=[];var c=function(){if(a.jQuery===d)setTimeout(c,33);else{for(var b=0;b<a._nsl.length;b++)a._nsl[b].call(a,a.jQuery);a._nsl={push:function(b){b.call(a,a.jQuery)}}}};c()}})(window);</script><script type='text/javascript' src='https://htechvn.com.vn/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://htechvn.com.vn/wp-json/" /><link rel="alternate" type="application/json" href="https://htechvn.com.vn/wp-json/wp/v2/pages/479" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://htechvn.com.vn/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://htechvn.com.vn/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8" />
+<meta name="generator" content="WooCommerce 5.4.2" />
+<link rel="canonical" href="https://htechvn.com.vn/" />
+<link rel='shortlink' href='https://htechvn.com.vn/' />
+<link rel="alternate" type="application/json+oembed" href="https://htechvn.com.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhtechvn.com.vn%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://htechvn.com.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhtechvn.com.vn%2F&#038;format=xml" />
+<style>.bg{opacity: 0; transition: opacity 1s; -webkit-transition: opacity 1s;} .bg-loaded{opacity: 1;}</style><!--[if IE]><link rel="stylesheet" type="text/css" href="https://htechvn.com.vn/wp-content/themes/flatsome/assets/css/ie-fallback.css"><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script><script>var head = document.getElementsByTagName('head')[0],style = document.createElement('style');style.type = 'text/css';style.styleSheet.cssText = ':before,:after{content:none !important';head.appendChild(style);setTimeout(function(){head.removeChild(style);}, 0);</script><script src="https://htechvn.com.vn/wp-content/themes/flatsome/assets/libs/ie-flexibility.js"></script><![endif]-->	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="https://htechvn.com.vn/wp-content/uploads/2021/07/cropped-HTECH-rgb-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://htechvn.com.vn/wp-content/uploads/2021/07/cropped-HTECH-rgb-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://htechvn.com.vn/wp-content/uploads/2021/07/cropped-HTECH-rgb-180x180.png" />
+<meta name="msapplication-TileImage" content="https://htechvn.com.vn/wp-content/uploads/2021/07/cropped-HTECH-rgb-270x270.png" />
+<style id="custom-css" type="text/css">:root {--primary-color: #ef7e2d;}.header-main{height: 100px}#logo img{max-height: 100px}#logo{width:188px;}#logo img{padding:13px 0;}.header-bottom{min-height: 10px}.header-top{min-height: 30px}.transparent .header-main{height: 30px}.transparent #logo img{max-height: 30px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 60px;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.search-form{ width: 100%;}.header-bg-color, .header-wrapper {background-color: rgba(255,255,255,0.9)}.header-bottom {background-color: #f1f1f1}.top-bar-nav > li > a{line-height: 16px }.stuck .header-main .nav > li > a{line-height: 50px }.header-bottom-nav > li > a{line-height: 16px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #ef7e2d;}/* Color !important */[data-text-color="primary"]{color: #ef7e2d!important;}/* Background Color */[data-text-bg="primary"]{background-color: #ef7e2d;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #ef7e2d;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #ef7e2d}.nav-tabs > li.active > a{border-top-color: #ef7e2d}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #ef7e2d }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #ef7e2d }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #ef7e2d;}/* Background Color */[data-icon-label]:after, .secondary.is-underline:hover,.secondary.is-outline:hover,.icon-label,.button.secondary:not(.is-outline),.button.alt:not(.is-outline), .badge-inner.on-sale, .button.checkout, .single_add_to_cart_button, .current .breadcrumb-step{ background-color:#ef7e2d; }[data-text-bg="secondary"]{background-color: #ef7e2d;}/* Color */.secondary.is-underline,.secondary.is-link, .secondary.is-outline,.stars a.active, .star-rating:before, .woocommerce-page .star-rating:before,.star-rating span:before, .color-secondary{color: #ef7e2d}/* Color !important */[data-text-color="secondary"]{color: #ef7e2d!important;}/* Border */.secondary.is-outline:hover{border-color:#ef7e2d}body{font-family:"Lato", sans-serif}body{font-weight: 400}.nav > li > a {font-family:"Lato", sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family:"Lato", sans-serif;}.nav > li > a {font-weight: 700;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Lato", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 700;}.alt-font{font-family: "Dancing Script", sans-serif;}.alt-font{font-weight: 400!important;}@media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 247px!important;width: 247px!important;}}.header-main .social-icons,.header-main .cart-icon strong,.header-main .menu-title,.header-main .header-button > .button.is-outline,.header-main .nav > li > a > i:not(.icon-angle-down){color: #f7760c!important;}.header-main .header-button > .button.is-outline,.header-main .cart-icon strong:after,.header-main .cart-icon strong{border-color: #f7760c!important;}.header-main .header-button > .button:not(.is-outline){background-color: #f7760c!important;}.header-main .current-dropdown .cart-icon strong,.header-main .header-button > .button:hover,.header-main .header-button > .button:hover i,.header-main .header-button > .button:hover span{color:#FFF!important;}.header-main .menu-title:hover,.header-main .social-icons a:hover,.header-main .header-button > .button.is-outline:hover,.header-main .nav > li > a:hover > i:not(.icon-angle-down){color: #f7760c!important;}.header-main .current-dropdown .cart-icon strong,.header-main .header-button > .button:hover{background-color: #f7760c!important;}.header-main .current-dropdown .cart-icon strong:after,.header-main .current-dropdown .cart-icon strong,.header-main .header-button > .button:hover{border-color: #f7760c!important;}.footer-1{background-color: rgba(221,221,221,0.96)}.footer-2{background-color: rgba(221,221,221,0.96)}.absolute-footer, html{background-color: rgba(221,221,221,0.96)}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}</style></head>
+
+<body class="home page-template page-template-page-blank page-template-page-blank-php page page-id-479 page-child parent-pageid-444 theme-flatsome woocommerce-no-js lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border">
+
+
+<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+<div id="wrapper">
+
+	
+	<header id="header" class="header header-full-width has-sticky sticky-jump sticky-hide-on-scroll">
+		<div class="header-wrapper">
+			<div id="top-bar" class="header-top nav-dark">
+    <div class="flex-row container">
+      <div class="flex-col hide-for-medium flex-left">
+          <ul class="nav nav-left medium-nav-center nav-small  nav-divided">
+              <li class="html custom html_topbar_left">CÔNG TY TNHH CÔNG NGHỆ HTECH VIỆT NAM</li>          </ul>
+      </div>
+
+      <div class="flex-col hide-for-medium flex-center">
+          <ul class="nav nav-center nav-small  nav-divided">
+                        </ul>
+      </div>
+
+      <div class="flex-col hide-for-medium flex-right">
+         <ul class="nav top-bar-nav nav-right nav-small  nav-divided">
+                        </ul>
+      </div>
+
+            <div class="flex-col show-for-medium flex-grow">
+          <ul class="nav nav-center nav-small mobile-nav  nav-divided">
+              <li class="html custom html_topbar_left">CÔNG TY TNHH CÔNG NGHỆ HTECH VIỆT NAM</li>          </ul>
+      </div>
+      
+    </div>
+</div>
+<div id="masthead" class="header-main ">
+      <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
+
+          <!-- Logo -->
+          <div id="logo" class="flex-col logo">
+            <!-- Header logo -->
+<a href="https://htechvn.com.vn/" title="HTECH" rel="home">
+    <img width="188" height="100" src="https://htechvn.com.vn/wp-content/uploads/2021/07/HTECH-rgb.png" class="header_logo header-logo" alt="HTECH"/><img  width="188" height="100" src="https://htechvn.com.vn/wp-content/uploads/2021/07/HTECH-rgb.png" class="header-logo-dark" alt="HTECH"/></a>
+<p class="logo-tagline"></p>          </div>
+
+          <!-- Mobile Left Elements -->
+          <div class="flex-col show-for-medium flex-left">
+            <ul class="mobile-nav nav nav-left ">
+              <li class="nav-icon has-icon">
+  		<a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay" data-color="" class="is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
+		
+		  <i class="icon-menu" ></i>
+		  		</a>
+	</li>            </ul>
+          </div>
+
+          <!-- Left Elements -->
+          <div class="flex-col hide-for-medium flex-left
+            flex-grow">
+            <ul class="header-nav header-nav-main nav nav-left  nav-uppercase" >
+              <li class="header-search header-search-dropdown has-icon has-dropdown menu-item-has-children">
+		<a href="#" aria-label="Tìm kiếm" class="is-small"><i class="icon-search" ></i></a>
+		<ul class="nav-dropdown nav-dropdown-default">
+	 	<li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper">
+		<div class="searchform-wrapper ux-search-box relative is-normal"><form role="search" method="get" class="searchform" action="https://htechvn.com.vn/">
+	<div class="flex-row relative">
+						<div class="flex-col flex-grow">
+			<label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
+			<input type="search" id="woocommerce-product-search-field-0" class="search-field mb-0" placeholder="Tìm kiếm&hellip;" value="" name="s" />
+			<input type="hidden" name="post_type" value="product" />
+					</div>
+		<div class="flex-col">
+			<button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+				<i class="icon-search" ></i>			</button>
+		</div>
+	</div>
+	<div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li>	</ul>
+</li>
+<li id="menu-item-613" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-item-613 menu-item-design-default has-dropdown"><a rel="httpshtechvncomvnsan-pham" href="https://htechvn.com.vn/shop/" class="nav-top-link">SẢN PHẨM<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default">
+	<li id="menu-item-674" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-674"><a href="https://htechvn.com.vn/danh-muc-san-pham/smc/">SMC</a></li>
+	<li id="menu-item-801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-801"><a href="https://htechvn.com.vn/iai/">IAI</a></li>
+	<li id="menu-item-668" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-668 nav-dropdown-col"><a href="https://htechvn.com.vn/danh-muc-san-pham/cognex/">COGNEX</a>
+	<ul class="sub-menu nav-column nav-dropdown-default">
+		<li id="menu-item-731" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-731"><a href="https://htechvn.com.vn/danh-muc-san-pham/cognex/he-thong-tam-nhin/">Hệ thống tầm nhìn</a></li>
+	</ul>
+</li>
+	<li id="menu-item-670" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-670 nav-dropdown-col"><a href="https://htechvn.com.vn/danh-muc-san-pham/ifm/">IFM</a>
+	<ul class="sub-menu nav-column nav-dropdown-default">
+		<li id="menu-item-735" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-735"><a href="https://htechvn.com.vn/danh-muc-san-pham/ifm/cam-bien-vi-tri/">Cảm biến vị trí</a>
+		<ul class="sub-menu nav-column nav-dropdown-default">
+			<li id="menu-item-671" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-671"><a href="https://htechvn.com.vn/danh-muc-san-pham/ifm/cam-bien-vi-tri/cam-bien-dien-dung/">Cảm biến điện dung</a></li>
+			<li id="menu-item-672" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-672"><a href="https://htechvn.com.vn/danh-muc-san-pham/ifm/cam-bien-vi-tri/cam-bien-laser/">Cảm biến Laser</a></li>
+			<li id="menu-item-673" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-673"><a href="https://htechvn.com.vn/danh-muc-san-pham/ifm/cam-bien-vi-tri/cam-bien-tu-tinh/">Cảm biến từ tính</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-617" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-617 menu-item-design-default"><a href="https://htechvn.com.vn/elements/" class="nav-top-link">ỨNG DỤNG</a></li>
+<li id="menu-item-629" class="menu-flyout menu-item menu-item-type-post_type menu-item-object-page menu-item-629 menu-item-design-default"><a rel="httpshtechvncomvnelementstin-tuc" href="https://htechvn.com.vn/elements/pages/" class="nav-top-link">TIN TỨC</a></li>
+<li id="menu-item-761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-761 menu-item-design-default"><a href="https://htechvn.com.vn/lien-he/" class="nav-top-link">LIÊN HỆ</a></li>
+            </ul>
+          </div>
+
+          <!-- Right Elements -->
+          <div class="flex-col hide-for-medium flex-right">
+            <ul class="header-nav header-nav-main nav nav-right  nav-uppercase">
+              <li class="header-contact-wrapper">
+		<ul id="header-contact" class="nav nav-divided nav-uppercase header-contact">
+		
+						<li class="">
+			  <a href="mailto:sales@htechvn.com.vn" class="tooltip" title="sales@htechvn.com.vn">
+				  <i class="icon-envelop" style="font-size:16px;"></i>			       <span>
+			       	Contact			       </span>
+			  </a>
+			</li>
+					
+						<li class="">
+			  <a class="tooltip" title="08:00 - 17:00 ">
+			  	   <i class="icon-clock" style="font-size:16px;"></i>			        <span>08:00 - 17:00</span>
+			  </a>
+			 </li>
+			
+						<li class="">
+			  <a href="tel:0934 936 036" class="tooltip" title="0934 936 036">
+			     <i class="icon-phone" style="font-size:16px;"></i>			      <span>0934 936 036</span>
+			  </a>
+			</li>
+				</ul>
+</li><li class="header-divider"></li>            </ul>
+          </div>
+
+          <!-- Mobile Right Elements -->
+          <div class="flex-col show-for-medium flex-right">
+            <ul class="mobile-nav nav nav-right ">
+              <li class="cart-item has-icon">
+
+      <a href="https://htechvn.com.vn/cart/" class="header-cart-link off-canvas-toggle nav-top-link is-small" data-open="#cart-popup" data-class="off-canvas-cart" title="Giỏ hàng" data-pos="right">
+  
+    <span class="cart-icon image-icon">
+    <strong>0</strong>
+  </span>
+  </a>
+
+
+  <!-- Cart Sidebar Popup -->
+  <div id="cart-popup" class="mfp-hide widget_shopping_cart">
+  <div class="cart-popup-inner inner-padding">
+      <div class="cart-popup-title text-center">
+          <h4 class="uppercase">Giỏ hàng</h4>
+          <div class="is-divider"></div>
+      </div>
+      <div class="widget_shopping_cart_content">
+          
+
+	<p class="woocommerce-mini-cart__empty-message">Chưa có sản phẩm trong giỏ hàng.</p>
+
+
+      </div>
+             <div class="cart-sidebar-content relative"></div>  </div>
+  </div>
+
+</li>
+            </ul>
+          </div>
+
+      </div>
+     
+            <div class="container"><div class="top-divider full-width"></div></div>
+      </div>
+<div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div>		</div>
+	</header>
+
+	
+	<main id="main" class="">
+
+
+<div id="content" role="main" class="content-area">
+
+		
+			
+<div class="slider-wrapper relative" id="slider-180483815" >
+    <div class="slider slider-nav-circle slider-nav-large slider-nav-light slider-style-normal slider-show-nav"
+        data-flickity-options='{
+            "cellAlign": "center",
+            "imagesLoaded": true,
+            "lazyLoad": 1,
+            "freeScroll": false,
+            "wrapAround": true,
+            "autoPlay": 3000,
+            "pauseAutoPlayOnHover" : true,
+            "prevNextButtons": true,
+            "contain" : true,
+            "adaptiveHeight" : true,
+            "dragThreshold" : 10,
+            "percentPosition": true,
+            "pageDots": true,
+            "rightToLeft": false,
+            "draggable": true,
+            "selectedAttraction": 0.1,
+            "parallax" : 0,
+            "friction": 0.6        }'
+        >
+        
+
+
+  <div class="banner has-hover" id="banner-1440436920">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+	<div class="is-border"
+		style="border-width:0px 0px 0px px;">
+	</div>
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+
+   <div id="text-box-1817088102" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                     <div data-animate="flipInY">           <div class="text-box-content text dark">
+              
+              <div class="text-inner text-center">
+                  
+
+<h2 id="tw-target-text" class="tw-data-text tw-text-large XcVN5d tw-ta" dir="ltr" data-placeholder="Bản dịch"><span class="Y2IQFc" lang="en">Factory automation solutions</span></h2>
+
+              </div>
+           </div>
+       </div>                     
+<style>
+#text-box-1817088102 {
+  width: 100%;
+}
+#text-box-1817088102 .text-box-content {
+  font-size: 100%;
+}
+@media (min-width:550px) {
+  #text-box-1817088102 {
+    width: 70%;
+  }
+}
+</style>
+    </div>
+ 
+
+        </div>
+      </div>
+
+            
+<style>
+#banner-1440436920 {
+  padding-top: 600px;
+}
+#banner-1440436920 .bg.bg-loaded {
+  background-image: url(https://htechvn.com.vn/wp-content/uploads/2021/06/industry-4330186-1400x728.jpg);
+}
+#banner-1440436920 .bg {
+  background-position: 58% 63%;
+}
+</style>
+  </div>
+
+
+
+  <div class="banner has-hover has-slide-effect slide-zoom-in" id="banner-1531757694">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+
+   <div id="text-box-929679850" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                     <div data-animate="bounceInDown">           <div class="text-box-content text dark">
+              
+              <div class="text-inner text-center">
+                  
+
+<h2 id="tw-target-text" class="tw-data-text tw-text-large XcVN5d tw-ta" dir="ltr" data-placeholder="Bản dịch"><span class="Y2IQFc" lang="en">Prestige and quality</span></h2>
+<h4 id="tw-target-text" class="tw-data-text tw-text-large XcVN5d tw-ta" dir="ltr" data-placeholder="Bản dịch"><span class="Y2IQFc" lang="en">CUSTOMER SATISFACTION IS OUR MOTO</span></h4>
+
+              </div>
+           </div>
+       </div>                     
+<style>
+#text-box-929679850 {
+  width: 85%;
+}
+#text-box-929679850 .text-box-content {
+  font-size: 100%;
+}
+@media (min-width:550px) {
+  #text-box-929679850 {
+    width: 72%;
+  }
+}
+</style>
+    </div>
+ 
+
+        </div>
+      </div>
+
+            
+<style>
+#banner-1531757694 {
+  padding-top: 600px;
+}
+#banner-1531757694 .bg.bg-loaded {
+  background-image: url(https://htechvn.com.vn/wp-content/uploads/2021/06/z2584511643703_36265e8e05b068fb7214f8b2b11a6310-1400x584.jpg);
+}
+#banner-1531757694 .overlay {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+#banner-1531757694 .bg {
+  background-position: 72% 6%;
+}
+</style>
+  </div>
+
+
+
+  <div class="banner has-hover has-slide-effect slide-zoom-out" id="banner-430997961">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+
+   <div id="text-box-343366865" class="text-box banner-layer x50 md-x50 lg-x50 y15 md-y15 lg-y15 res-text">
+       <div class="hover-bounce">              <div data-animate="none">           <div class="text-box-content text dark">
+              
+              <div class="text-inner text-center">
+                  
+
+<h2 id="tw-target-text" class="tw-data-text tw-text-large XcVN5d tw-ta" dir="ltr" data-placeholder="Bản dịch"><span class="Y2IQFc" lang="en">Free Consultation</span></h2>
+<h4 id="tw-target-text" class="tw-data-text tw-text-large XcVN5d tw-ta" dir="ltr" data-placeholder="Bản dịch"><span class="Y2IQFc" lang="en">WE ARE HERE TO SERVE YOU</span></h4>
+
+              </div>
+           </div>
+       </div>              </div>       
+<style>
+#text-box-343366865 {
+  width: 84%;
+}
+#text-box-343366865 .text-box-content {
+  font-size: 100%;
+}
+@media (min-width:550px) {
+  #text-box-343366865 {
+    width: 62%;
+  }
+}
+</style>
+    </div>
+ 
+
+        </div>
+      </div>
+
+            
+<style>
+#banner-430997961 {
+  padding-top: 600px;
+}
+#banner-430997961 .bg.bg-loaded {
+  background-image: url(https://htechvn.com.vn/wp-content/uploads/2021/06/auto.jpg);
+}
+#banner-430997961 .overlay {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+#banner-430997961 .bg {
+  background-position: 57% 49%;
+}
+</style>
+  </div>
+
+
+
+  <div class="banner has-hover has-slide-effect slide-zoom-in" id="banner-1423108833">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+            <div class="effect-snow bg-effect fill no-click"></div>        </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+
+   <div id="text-box-1917432130" class="text-box banner-layer x50 md-x0 lg-x0 y50 md-y0 lg-y0 res-text">
+                     <div data-animate="fadeInLeft">           <div class="text-box-content text dark">
+              
+              <div class="text-inner text-center">
+                  
+
+<h1>HTECH</h1>
+<h4>Smart choice</h4>
+
+              </div>
+           </div>
+       </div>                     
+<style>
+#text-box-1917432130 {
+  width: 100%;
+}
+#text-box-1917432130 .text-box-content {
+  font-size: 135%;
+}
+@media (min-width:550px) {
+  #text-box-1917432130 {
+    width: 40%;
+  }
+}
+</style>
+    </div>
+ 
+
+        </div>
+      </div>
+
+            
+<style>
+#banner-1423108833 {
+  padding-top: 600px;
+}
+#banner-1423108833 .bg.bg-loaded {
+  background-image: url(https://htechvn.com.vn/wp-content/uploads/2021/06/Tu-Dong-Hoa-a.jpg);
+}
+#banner-1423108833 .overlay {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+#banner-1423108833 .bg {
+  background-position: 67% 70%;
+}
+</style>
+  </div>
+
+
+
+     </div>
+
+     <div class="loading-spin dark large centered"></div>
+
+     	</div>
+
+
+<div class="row"  id="row-343719658">
+
+
+	<div id="col-1346221572" class="col medium-4 small-12 large-4"  >
+		<div class="col-inner"  >
+			
+			
+
+
+  <div class="banner has-hover bg-zoom-fade" id="banner-1028605191">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+	<div class="is-border"
+		style="border-width:2px 2px 2px 2px;">
+	</div>
+                    </div>
+        <div class="banner-layers container">
+            <a class="fill" href="blog"  ><div class="fill banner-link"></div></a>            
+
+   <div id="text-box-306766425" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text-box-content text dark">
+              
+              <div class="text-inner text-center">
+                  
+
+
+              </div>
+           </div>
+                            
+<style>
+#text-box-306766425 {
+  width: 60%;
+}
+#text-box-306766425 .text-box-content {
+  font-size: 100%;
+}
+@media (min-width:550px) {
+  #text-box-306766425 {
+    width: 60%;
+  }
+}
+</style>
+    </div>
+ 
+
+        </div>
+      </div>
+
+            
+<style>
+#banner-1028605191 {
+  padding-top: 160px;
+}
+#banner-1028605191 .bg.bg-loaded {
+  background-image: url(https://htechvn.com.vn/wp-content/uploads/2021/06/unnamed-e1623232664608.jpg);
+}
+#banner-1028605191 .bg {
+  background-position: 69% 25%;
+}
+</style>
+  </div>
+
+
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-92451801" class="col medium-4 small-12 large-4"  >
+		<div class="col-inner"  >
+			
+			
+
+
+  <div class="banner has-hover bg-zoom bg-zoom-long" id="banner-1377105441">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+	<div class="is-border"
+		style="border-width:2px 2px 2px 2px;">
+	</div>
+                    </div>
+        <div class="banner-layers container">
+            <a class="fill" href="http://localhost:8888/test/blog/"  ><div class="fill banner-link"></div></a>            
+
+   <div id="text-box-212471555" class="text-box banner-layer x45 md-x45 lg-x45 y45 md-y45 lg-y45 res-text">
+                                <div class="text-box-content text dark text-shadow-5">
+              
+	<div class="is-border"
+		style="border-width:0px 0px 0px 0px;">
+	</div>
+              <div class="text-inner text-center">
+                  
+
+<h2><span style="text-transform: uppercase;"><b>IFM</b></span></h2>
+<div class="is-divider divider clearfix" ></div>
+
+
+              </div>
+           </div>
+                            
+<style>
+#text-box-212471555 {
+  width: 60%;
+}
+#text-box-212471555 .text-box-content {
+  font-size: 205%;
+}
+</style>
+    </div>
+ 
+
+        </div>
+      </div>
+
+            
+<style>
+#banner-1377105441 {
+  padding-top: 160px;
+}
+#banner-1377105441 .bg.bg-loaded {
+  background-image: url(https://htechvn.com.vn/wp-content/uploads/2021/06/P.IFM_.IO-Link-e1623232892416.jpg);
+}
+#banner-1377105441 .bg {
+  background-position: 65% 89%;
+}
+</style>
+  </div>
+
+
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-551378237" class="col medium-4 small-12 large-4"  >
+		<div class="col-inner"  >
+			
+			
+
+
+  <div class="banner has-hover bg-zoom-fade" id="banner-146158208">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+	<div class="is-border"
+		style="border-width:2px 2px 2px 02px;">
+	</div>
+                    </div>
+        <div class="banner-layers container">
+            <a class="fill" href="about-us"  ><div class="fill banner-link"></div></a>            
+
+   <div id="text-box-1643814703" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text-box-content text dark">
+              
+              <div class="text-inner text-center">
+                  
+
+<div class="is-divider divider clearfix" ></div>
+
+
+              </div>
+           </div>
+                            
+<style>
+#text-box-1643814703 {
+  width: 60%;
+}
+#text-box-1643814703 .text-box-content {
+  font-size: 100%;
+}
+</style>
+    </div>
+ 
+
+        </div>
+      </div>
+
+            
+<style>
+#banner-146158208 {
+  padding-top: 50%;
+}
+#banner-146158208 .bg.bg-loaded {
+  background-image: url(https://htechvn.com.vn/wp-content/uploads/2021/06/DR7Rj1UMS989mclW.jpg);
+}
+#banner-146158208 .bg {
+  background-position: 69% 50%;
+}
+</style>
+  </div>
+
+
+
+		</div>
+			</div>
+
+	
+
+</div>
+<div class="container section-title-container" ><h3 class="section-title section-title-center"><b></b><span class="section-title-main" >SẢN PHẨM BÁN CHẠY</span><b></b></h3></div>
+
+
+  
+    <div class="row large-columns-4 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-reveal"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : false}'>
+
+  	
+	     
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-none box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://htechvn.com.vn/sản phẩm/cam-bien-xi-lanh-su-dung-tren-xi-lanh-khe-c/">
+										<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/P_F_WH_W_100_0118-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cảm biến xi lanh - Sử dụng trên xi lanh khe C" loading="lazy" />									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+											<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-736  wishlist-fragment on-first-load" data-fragment-ref="736" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:736,&quot;parent_product_id&quot;:736,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=736" rel="nofollow" data-product-id="736" data-product-type="simple" data-original-product-id="736" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+										</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="736" href="#quick-view">Quick View</a>									</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến vị trí		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/cam-bien-xi-lanh-su-dung-tren-xi-lanh-khe-c/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cảm biến xi lanh &#8211; Sử dụng trên xi lanh khe C</a></p></div><div class="price-wrapper">
+</div>							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-none box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://htechvn.com.vn/sản phẩm/cam-bien-duoc-ma-hoa-tu-tinh/">
+										<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/cb-duoc-ma-hoa-tu-tinh-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cảm biến được mã hóa từ tính" loading="lazy" />									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+											<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-676  wishlist-fragment on-first-load" data-fragment-ref="676" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:676,&quot;parent_product_id&quot;:676,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=676" rel="nofollow" data-product-id="676" data-product-type="simple" data-original-product-id="676" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+										</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="676" href="#quick-view">Quick View</a>									</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến từ tính		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/cam-bien-duoc-ma-hoa-tu-tinh/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cảm biến được mã hóa từ tính</a></p></div><div class="price-wrapper">
+</div>							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-none box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://htechvn.com.vn/sản phẩm/chuyen-mach-bo-khuech-dai-cho-cam-bien-namur/">
+										<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/P_F_WH_W_E200_0048-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Chuyển mạch bộ khuếch" loading="lazy" />									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+											<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-799  wishlist-fragment on-first-load" data-fragment-ref="799" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:799,&quot;parent_product_id&quot;:799,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=799" rel="nofollow" data-product-id="799" data-product-type="simple" data-original-product-id="799" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+										</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="799" href="#quick-view">Quick View</a>									</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến vị trí		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/chuyen-mach-bo-khuech-dai-cho-cam-bien-namur/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Chuyển mạch bộ khuếch đại cho cảm biến Namur</a></p></div><div class="price-wrapper">
+</div>							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-none box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://htechvn.com.vn/sản phẩm/cam-bien-dien-dung-do-muc-khong-tiep-xuc-dien-dung/">
+										<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/do-muc-k-tiep-xuc-dien-dung-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cảm biến điện dung - Đo mức không tiếp xúc điện dung" loading="lazy" />									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+											<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-693  wishlist-fragment on-first-load" data-fragment-ref="693" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:693,&quot;parent_product_id&quot;:693,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=693" rel="nofollow" data-product-id="693" data-product-type="simple" data-original-product-id="693" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+										</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="693" href="#quick-view">Quick View</a>									</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến điện dung		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/cam-bien-dien-dung-do-muc-khong-tiep-xuc-dien-dung/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cảm biến điện dung &#8211; Đo mức không tiếp xúc điện dung</a></p></div><div class="price-wrapper">
+</div>							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-none box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://htechvn.com.vn/sản phẩm/soi-thuy-tinh-quang-hoc/">
+										<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/P_F_WH_W_200_0168-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Sợi thủy tinh quang học" loading="lazy" />									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+											<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-788  wishlist-fragment on-first-load" data-fragment-ref="788" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:788,&quot;parent_product_id&quot;:788,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=788" rel="nofollow" data-product-id="788" data-product-type="simple" data-original-product-id="788" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+										</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="788" href="#quick-view">Quick View</a>									</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến và bộ khuếch đại sợi quang		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/soi-thuy-tinh-quang-hoc/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Sợi thủy tinh quang học</a></p></div><div class="price-wrapper">
+</div>							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-none box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://htechvn.com.vn/sản phẩm/bo-khuech-dai-soi-quang-cho-soi-quang-acrylic/">
+										<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/P_F_WH_W_200_0092-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Bộ khuếch đại sợi quang cho sợi quang acrylic" loading="lazy" />									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+											<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-768  wishlist-fragment on-first-load" data-fragment-ref="768" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:768,&quot;parent_product_id&quot;:768,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=768" rel="nofollow" data-product-id="768" data-product-type="simple" data-original-product-id="768" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+										</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="768" href="#quick-view">Quick View</a>									</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến và bộ khuếch đại sợi quang		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/bo-khuech-dai-soi-quang-cho-soi-quang-acrylic/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Bộ khuếch đại sợi quang cho sợi quang acrylic</a></p></div><div class="price-wrapper">
+</div>							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-none box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://htechvn.com.vn/sản phẩm/cam-bien-toc-do-cho-o-dia-va-truc/">
+										<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/toc-do-o-dia-va-truc-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cảm biến tốc độ cho ổ đĩa và trục" loading="lazy" />									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+											<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-680  wishlist-fragment on-first-load" data-fragment-ref="680" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:680,&quot;parent_product_id&quot;:680,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=680" rel="nofollow" data-product-id="680" data-product-type="simple" data-original-product-id="680" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+										</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="680" href="#quick-view">Quick View</a>									</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến từ tính		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/cam-bien-toc-do-cho-o-dia-va-truc/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cảm biến tốc độ cho ổ đĩa và trục</a></p></div><div class="price-wrapper">
+</div>							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-none box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://htechvn.com.vn/sản phẩm/bo-khuech-dai-soi-quang-cho-soi-quang-thuy-tinh/">
+										<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/P_F_WH_W_200_0167-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Bộ khuếch đại sợi quang cho sợi quang thủy tinh" loading="lazy" />									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+											<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-784  wishlist-fragment on-first-load" data-fragment-ref="784" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:784,&quot;parent_product_id&quot;:784,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=784" rel="nofollow" data-product-id="784" data-product-type="simple" data-original-product-id="784" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+										</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="784" href="#quick-view">Quick View</a>									</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến và bộ khuếch đại sợi quang		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/bo-khuech-dai-soi-quang-cho-soi-quang-thuy-tinh/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Bộ khuếch đại sợi quang cho sợi quang thủy tinh</a></p></div><div class="price-wrapper">
+</div>							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-none box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://htechvn.com.vn/sản phẩm/he-thong-tam-nhin-in-sight-9000/">
+										<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/large-field-of-view-9000-1-247x296.jpg" class="show-on-hover absolute fill hide-for-small back-image" alt="large-field-of-view-900" loading="lazy" /><img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/in-sight-9000-in-hand-2-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="IN-SIGHT 9000 VISION SYSTEMS" loading="lazy" />									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+											<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-706  wishlist-fragment on-first-load" data-fragment-ref="706" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:706,&quot;parent_product_id&quot;:706,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=706" rel="nofollow" data-product-id="706" data-product-type="simple" data-original-product-id="706" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+										</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="706" href="#quick-view">Quick View</a>									</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			COGNEX		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/he-thong-tam-nhin-in-sight-9000/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">HỆ THỐNG TẦM NHÌN IN-SIGHT 9000</a></p></div><div class="price-wrapper">
+</div>							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-none box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://htechvn.com.vn/sản phẩm/cam-bien-khoang-cach-m30/">
+										<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/CB-khoang-cach-M30-cc-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cảm biến khoảng cách M30" loading="lazy" />									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+											<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-196  wishlist-fragment on-first-load" data-fragment-ref="196" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:196,&quot;parent_product_id&quot;:196,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=196" rel="nofollow" data-product-id="196" data-product-type="simple" data-original-product-id="196" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+										</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="196" href="#quick-view">Quick View</a>									</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến Laser		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/cam-bien-khoang-cach-m30/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cảm biến khoảng cách M30</a></p></div><div class="price-wrapper">
+</div>							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-none box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://htechvn.com.vn/sản phẩm/valve-jsy-smc/">
+										<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/07/JSY_Sideported-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" />									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+											<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-990  wishlist-fragment on-first-load" data-fragment-ref="990" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:990,&quot;parent_product_id&quot;:990,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=990" rel="nofollow" data-product-id="990" data-product-type="simple" data-original-product-id="990" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+										</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="990" href="#quick-view">Quick View</a>									</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Các loại van điều khiển		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/valve-jsy-smc/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Valve JSY SMC</a></p></div><div class="price-wrapper">
+</div>							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-none box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://htechvn.com.vn/sản phẩm/cam-bien-tu-tinh-su-dung-trong-cac-ung-dung-han/">
+										<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/su-dung-trong-ung-dung-han-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cảm biến từ tính - Sử dụng trong các ứng dụng hàn" loading="lazy" />									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+											<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-679  wishlist-fragment on-first-load" data-fragment-ref="679" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:679,&quot;parent_product_id&quot;:679,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=679" rel="nofollow" data-product-id="679" data-product-type="simple" data-original-product-id="679" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+										</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="679" href="#quick-view">Quick View</a>									</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến từ tính		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/cam-bien-tu-tinh-su-dung-trong-cac-ung-dung-han/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cảm biến từ tính &#8211; Sử dụng trong các ứng dụng hàn</a></p></div><div class="price-wrapper">
+</div>							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-none box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://htechvn.com.vn/sản phẩm/cam-bien-dien-dung-cam-bien-ac-dc/">
+										<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/cam-bien-ac-dc-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cảm biến điện dung - Cảm biến AC / DC" loading="lazy" />									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+											<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-691  wishlist-fragment on-first-load" data-fragment-ref="691" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:691,&quot;parent_product_id&quot;:691,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=691" rel="nofollow" data-product-id="691" data-product-type="simple" data-original-product-id="691" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+										</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="691" href="#quick-view">Quick View</a>									</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến điện dung		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/cam-bien-dien-dung-cam-bien-ac-dc/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cảm biến điện dung &#8211; Cảm biến AC / DC</a></p></div><div class="price-wrapper">
+</div>							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-none box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://htechvn.com.vn/sản phẩm/cam-bien-chiu-ap-suat/">
+										<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/chiu-ap-suat-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cảm biến chịu áp suất" loading="lazy" />									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+											<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-677  wishlist-fragment on-first-load" data-fragment-ref="677" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:677,&quot;parent_product_id&quot;:677,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=677" rel="nofollow" data-product-id="677" data-product-type="simple" data-original-product-id="677" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+										</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										  <a class="quick-view" data-prod="677" href="#quick-view">Quick View</a>									</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến từ tính		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/cam-bien-chiu-ap-suat/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cảm biến chịu áp suất</a></p></div><div class="price-wrapper">
+</div>							</div>
+						</div>
+						</div>
+					</div>
+						            	        </div>
+
+<div class="container section-title-container" ><h3 class="section-title section-title-center"><b></b><span class="section-title-main" >TẤT CẢ SẢN PHẨM</span><b></b></h3></div>
+
+
+  
+    <div class="row large-columns-5 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-reveal slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : false}'>
+
+  	
+	     
+					
+<div class="product-small col has-hover product type-product post-198 status-publish first instock product_cat-cam-bien-laser product_cat-ifm has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="col-inner">
+	
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://htechvn.com.vn/sản phẩm/cam-bien-chu-nhat-nho-o6/">
+					<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/Chu-nhat-nho-O6-cc-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cảm biến chữ nhật nhỏ O6" loading="lazy" />				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+						<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-198  wishlist-fragment on-first-load" data-fragment-ref="198" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:198,&quot;parent_product_id&quot;:198,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=198" rel="nofollow" data-product-id="198" data-product-type="simple" data-original-product-id="198" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+					</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="198" href="#quick-view">Quick View</a>			</div>
+					</div>
+
+		<div class="box-text box-text-products">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến Laser		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/cam-bien-chu-nhat-nho-o6/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cảm biến chữ nhật nhỏ O6</a></p></div><div class="price-wrapper">
+</div>		</div>
+	</div>
+		</div>
+</div>
+	            
+					
+<div class="product-small col has-hover product type-product post-784 status-publish instock product_cat-cam-bien-va-bo-khuech-dai-soi-quang product_cat-cam-bien-vi-tri product_cat-ifm product_tag-bo-khuech-dai-soi-quang-cho-soi-quang-thuy-tinh product_tag-obf504 has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="col-inner">
+	
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://htechvn.com.vn/sản phẩm/bo-khuech-dai-soi-quang-cho-soi-quang-thuy-tinh/">
+					<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/P_F_WH_W_200_0167-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Bộ khuếch đại sợi quang cho sợi quang thủy tinh" loading="lazy" />				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+						<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-784  wishlist-fragment on-first-load" data-fragment-ref="784" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:784,&quot;parent_product_id&quot;:784,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=784" rel="nofollow" data-product-id="784" data-product-type="simple" data-original-product-id="784" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+					</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="784" href="#quick-view">Quick View</a>			</div>
+					</div>
+
+		<div class="box-text box-text-products">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến và bộ khuếch đại sợi quang		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/bo-khuech-dai-soi-quang-cho-soi-quang-thuy-tinh/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Bộ khuếch đại sợi quang cho sợi quang thủy tinh</a></p></div><div class="price-wrapper">
+</div>		</div>
+	</div>
+		</div>
+</div>
+	            
+					
+<div class="product-small col has-hover product type-product post-692 status-publish last instock product_cat-cam-bien-dien-dung product_cat-ifm product_tag-cam-bien-dien-dung-co-hien-thi-tin-hieu-diem-chuyen-mach product_tag-cam-bien-dien-dung-ki product_tag-ki6000 has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="col-inner">
+	
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://htechvn.com.vn/sản phẩm/cam-bien-dien-dung-co-hien-thi-tin-hieu-diem-chuyen-mach/">
+					<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/co-hien-thi-diem-chuyen-mach-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cảm biến điện dung - Có hiển thị tín hiệu điểm chuyển mạch" loading="lazy" />				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+						<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-692  wishlist-fragment on-first-load" data-fragment-ref="692" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:692,&quot;parent_product_id&quot;:692,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=692" rel="nofollow" data-product-id="692" data-product-type="simple" data-original-product-id="692" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+					</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="692" href="#quick-view">Quick View</a>			</div>
+					</div>
+
+		<div class="box-text box-text-products">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến điện dung		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/cam-bien-dien-dung-co-hien-thi-tin-hieu-diem-chuyen-mach/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cảm biến điện dung &#8211; Có hiển thị tín hiệu điểm chuyển mạch</a></p></div><div class="price-wrapper">
+</div>		</div>
+	</div>
+		</div>
+</div>
+	            
+					
+<div class="product-small col has-hover product type-product post-798 status-publish first instock product_cat-cam-bien-vi-tri product_cat-he-thong-phan-hoi-cho-van-va-bo-truyen-dong-van product_cat-ifm product_tag-bo-lap-cho-van-tay-va-van-bi product_tag-e12522 has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="col-inner">
+	
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://htechvn.com.vn/sản phẩm/bo-lap-cho-van-tay-va-van-bi/">
+					<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/P_F_WH_W_100_0243-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Bộ lắp cho van tay và van" loading="lazy" />				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+						<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-798  wishlist-fragment on-first-load" data-fragment-ref="798" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:798,&quot;parent_product_id&quot;:798,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=798" rel="nofollow" data-product-id="798" data-product-type="simple" data-original-product-id="798" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+					</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="798" href="#quick-view">Quick View</a>			</div>
+					</div>
+
+		<div class="box-text box-text-products">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến vị trí		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/bo-lap-cho-van-tay-va-van-bi/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Bộ lắp cho van tay và van bi</a></p></div><div class="price-wrapper">
+</div>		</div>
+	</div>
+		</div>
+</div>
+	            
+					
+<div class="product-small col has-hover product type-product post-745 status-publish instock product_cat-cam-bien-vi-tri product_cat-cam-bien-xi-lanh product_cat-ifm product_tag-cam-bien-xi-lanh-su-dung-tren-xi-lanh-co-ranh-chu-t product_tag-mk5102 has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="col-inner">
+	
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://htechvn.com.vn/sản phẩm/cam-bien-xi-lanh-su-dung-tren-xi-lanh-co-ranh-chu-t/">
+					<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/P_F_WH_W_100_0227-1-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cảm biến xi lanh - Sử dụng trên xi lanh có rãnh chữ T" loading="lazy" />				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+						<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-745  wishlist-fragment on-first-load" data-fragment-ref="745" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:745,&quot;parent_product_id&quot;:745,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=745" rel="nofollow" data-product-id="745" data-product-type="simple" data-original-product-id="745" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+					</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="745" href="#quick-view">Quick View</a>			</div>
+					</div>
+
+		<div class="box-text box-text-products">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến vị trí		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/cam-bien-xi-lanh-su-dung-tren-xi-lanh-co-ranh-chu-t/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cảm biến xi lanh &#8211; Sử dụng trên xi lanh có rãnh chữ T</a></p></div><div class="price-wrapper">
+</div>		</div>
+	</div>
+		</div>
+</div>
+	            
+					
+<div class="product-small col has-hover product type-product post-199 status-publish last instock product_cat-cam-bien-laser product_cat-ifm product_tag-cam-bien-chu-nhat-o5 product_tag-cam-bien-laser-o5 product_tag-o5p700 has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="col-inner">
+	
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://htechvn.com.vn/sản phẩm/cam-bien-chu-nhat-o/">
+					<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/chu-nhat-O5-cc-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cảm biến chữ nhật O5" loading="lazy" />				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+						<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-199  wishlist-fragment on-first-load" data-fragment-ref="199" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:199,&quot;parent_product_id&quot;:199,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=199" rel="nofollow" data-product-id="199" data-product-type="simple" data-original-product-id="199" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+					</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="199" href="#quick-view">Quick View</a>			</div>
+					</div>
+
+		<div class="box-text box-text-products">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến Laser		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/cam-bien-chu-nhat-o/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cảm biến chữ nhật O5</a></p></div><div class="price-wrapper">
+</div>		</div>
+	</div>
+		</div>
+</div>
+	            
+					
+<div class="product-small col has-hover product type-product post-785 status-publish first instock product_cat-cam-bien-va-bo-khuech-dai-soi-quang product_cat-cam-bien-vi-tri product_cat-ifm product_tag-bo-khuech-dai-da-kenh-cho-soi-quang-acrylic product_tag-oo5000 has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="col-inner">
+	
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://htechvn.com.vn/sản phẩm/bo-khuech-dai-da-kenh-cho-soi-quang-acrylic/">
+					<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/P_F_WH_W_200_0051-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Bộ khuếch đại đa kênh cho sợi quang acrylic" loading="lazy" />				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+						<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-785  wishlist-fragment on-first-load" data-fragment-ref="785" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:785,&quot;parent_product_id&quot;:785,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=785" rel="nofollow" data-product-id="785" data-product-type="simple" data-original-product-id="785" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+					</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="785" href="#quick-view">Quick View</a>			</div>
+					</div>
+
+		<div class="box-text box-text-products">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến và bộ khuếch đại sợi quang		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/bo-khuech-dai-da-kenh-cho-soi-quang-acrylic/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Bộ khuếch đại đa kênh cho sợi quang acrylic</a></p></div><div class="price-wrapper">
+</div>		</div>
+	</div>
+		</div>
+</div>
+	            
+					
+<div class="product-small col has-hover product type-product post-693 status-publish instock product_cat-cam-bien-dien-dung product_cat-ifm product_tag-cam-bien-dien-dung-do-muc-khong-tiep-xuc-dien-dung product_tag-kq10 has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="col-inner">
+	
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://htechvn.com.vn/sản phẩm/cam-bien-dien-dung-do-muc-khong-tiep-xuc-dien-dung/">
+					<img width="247" height="296" src="https://htechvn.com.vn/wp-content/uploads/2021/06/do-muc-k-tiep-xuc-dien-dung-1-247x296.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cảm biến điện dung - Đo mức không tiếp xúc điện dung" loading="lazy" />				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+						<div class="wishlist-icon">
+			<button class="wishlist-button button is-outline circle icon" aria-label="Wishlist">
+				<i class="icon-heart" ></i>			</button>
+			<div class="wishlist-popup dark">
+				
+<div class="yith-wcwl-add-to-wishlist add-to-wishlist-693  wishlist-fragment on-first-load" data-fragment-ref="693" data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:693,&quot;parent_product_id&quot;:693,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+	<a href="?add_to_wishlist=693" rel="nofollow" data-product-id="693" data-product-type="simple" data-original-product-id="693" class="add_to_wishlist single_add_to_wishlist" data-title="Add to wishlist">
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+			</div>
+		</div>
+					</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="693" href="#quick-view">Quick View</a>			</div>
+					</div>
+
+		<div class="box-text box-text-products">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Cảm biến điện dung		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://htechvn.com.vn/sản%20phẩm/cam-bien-dien-dung-do-muc-khong-tiep-xuc-dien-dung/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cảm biến điện dung &#8211; Đo mức không tiếp xúc điện dung</a></p></div><div class="price-wrapper">
+</div>		</div>
+	</div>
+		</div>
+</div>
+	            	        </div>
+
+<div class="container section-title-container" ><h3 class="section-title section-title-center"><b></b><span class="section-title-main" >Ứng Dụng</span><b></b></h3></div>
+
+<div class="slider-wrapper relative" id="slider-1007103444" >
+    <div class="slider slider-nav-circle slider-nav-large slider-nav-dark slider-style-normal"
+        data-flickity-options='{
+            "cellAlign": "center",
+            "imagesLoaded": true,
+            "lazyLoad": 1,
+            "freeScroll": false,
+            "wrapAround": true,
+            "autoPlay": 6000,
+            "pauseAutoPlayOnHover" : true,
+            "prevNextButtons": true,
+            "contain" : true,
+            "adaptiveHeight" : true,
+            "dragThreshold" : 10,
+            "percentPosition": true,
+            "pageDots": true,
+            "rightToLeft": false,
+            "draggable": true,
+            "selectedAttraction": 0.1,
+            "parallax" : 0,
+            "friction": 0.6        }'
+        >
+        
+
+<div class="row row-large row-full-width row-box-shadow-3 row-box-shadow-2-hover"  id="row-1925805001">
+
+
+	<div id="col-1385446071" class="col medium-4 small-12 large-4 col-divided"  >
+		<div class="col-inner"  >
+			
+			
+
+<div class="container section-title-container" ><h3 class="section-title section-title-center"><b></b><span class="section-title-main" >IFM  Application</span><b></b></h3></div>
+
+
+  
+    <div id="gallery-1713485748" class="slider slider-auto-height row-collapse slider-nav-reveal" data-flickity-options='{"imagesLoaded": true, "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 2000}'>
+
+          <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/ifm-industries-conveyor-technology-tile-teaser-01-1.jpg" title="Ngành bao bì">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image" >
+                <img width="500" height="375" src="https://htechvn.com.vn/wp-content/uploads/2021/06/ifm-industries-conveyor-technology-tile-teaser-01-1.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="817,816,818,820,819,821" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.4)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.4);padding:1px 1px 1px 1px;">
+                 <p>Ngành bao bì</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/ifm-industries-automotive-tile-teaser-01-1.jpg" title="Công nghiệp ô tô">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image" >
+                <img width="500" height="375" src="https://htechvn.com.vn/wp-content/uploads/2021/06/ifm-industries-automotive-tile-teaser-01-1.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="817,816,818,820,819,821" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.4)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.4);padding:1px 1px 1px 1px;">
+                 <p>Công nghiệp ô tô</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/ifm-industries-food-and-beverages-tile-teaser-01-1.jpg" title="Công nghiệp thực phẩm">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image" >
+                <img width="500" height="375" src="https://htechvn.com.vn/wp-content/uploads/2021/06/ifm-industries-food-and-beverages-tile-teaser-01-1.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="817,816,818,820,819,821" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.4)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.4);padding:1px 1px 1px 1px;">
+                 <p>Công nghiệp thực phẩm</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/ifm-mobile-machinery-menu-teaser-1.jpg" title="Hệ thống dành cho máy di động">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image" >
+                <img width="500" height="375" src="https://htechvn.com.vn/wp-content/uploads/2021/06/ifm-mobile-machinery-menu-teaser-1.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="817,816,818,820,819,821" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.4)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.4);padding:1px 1px 1px 1px;">
+                 <p>Hệ thống dành cho máy di động</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/ifm-industries-machine-tools-tile-teaser-01-1.jpg" title="Công cụ máy móc">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image" >
+                <img width="500" height="375" src="https://htechvn.com.vn/wp-content/uploads/2021/06/ifm-industries-machine-tools-tile-teaser-01-1.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="817,816,818,820,819,821" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.4)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.4);padding:1px 1px 1px 1px;">
+                 <p>Công cụ máy móc</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/teaser-water-wastewater-1.jpg" title="Nước / Nước thải">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image" >
+                <img width="500" height="375" src="https://htechvn.com.vn/wp-content/uploads/2021/06/teaser-water-wastewater-1.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="817,816,818,820,819,821" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.4)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.4);padding:1px 1px 1px 1px;">
+                 <p>Nước / Nước thải</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+         </div>
+
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-369900490" class="col medium-4 small-12 large-4"  >
+		<div class="col-inner"  >
+			
+			
+
+<div class="container section-title-container" ><h3 class="section-title section-title-center"><b></b><span class="section-title-main" >COGNEX  Application</span><b></b></h3></div>
+
+
+  
+    <div id="gallery-548673986" class="slider slider-auto-height row-collapse slider-nav-reveal" data-flickity-options='{"imagesLoaded": true, "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 2000}'>
+
+          <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/3d-a5000-carousel-1-1.jpg" title="Ô tô">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="284" height="189" src="https://htechvn.com.vn/wp-content/uploads/2021/06/3d-a5000-carousel-1-1.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="822,824,825,826,827,828,829,830,831,823" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 1px;">
+                 <p>Ô tô</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/consumer-products.jpg" title="Sản phẩm tiêu dùng">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="284" height="189" src="https://htechvn.com.vn/wp-content/uploads/2021/06/consumer-products.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="822,824,825,826,827,828,829,830,831,823" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 1px;">
+                 <p>Sản phẩm tiêu dùng</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/electronics.jpg" title="Thiết bị điện tử">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="284" height="189" src="https://htechvn.com.vn/wp-content/uploads/2021/06/electronics.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="822,824,825,826,827,828,829,830,831,823" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 1px;">
+                 <p>Thiết bị điện tử</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/food-and-beverage.jpg" title="Đồ ăn và đồ uống">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="284" height="189" src="https://htechvn.com.vn/wp-content/uploads/2021/06/food-and-beverage.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="822,824,825,826,827,828,829,830,831,823" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 1px;">
+                 <p>Đồ ăn và đồ uống</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/life-sciences.jpg" title="Các thiết bị y tế">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="284" height="189" src="https://htechvn.com.vn/wp-content/uploads/2021/06/life-sciences.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="822,824,825,826,827,828,829,830,831,823" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 1px;">
+                 <p>Các thiết bị y tế</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/logistics.jpg" title="Logistics">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="284" height="189" src="https://htechvn.com.vn/wp-content/uploads/2021/06/logistics.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="822,824,825,826,827,828,829,830,831,823" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 1px;">
+                 <p>Logistics</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/packaging.jpg" title="Bao bì">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="284" height="189" src="https://htechvn.com.vn/wp-content/uploads/2021/06/packaging.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="822,824,825,826,827,828,829,830,831,823" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 1px;">
+                 <p>Bao bì</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/pharm-medical.jpg" title="Dược phẩm">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="284" height="189" src="https://htechvn.com.vn/wp-content/uploads/2021/06/pharm-medical.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="822,824,825,826,827,828,829,830,831,823" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 1px;">
+                 <p>Dược phẩm</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/solar.jpg" title="Hệ mặt trời">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="284" height="189" src="https://htechvn.com.vn/wp-content/uploads/2021/06/solar.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="822,824,825,826,827,828,829,830,831,823" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 1px;">
+                 <p>Hệ mặt trời</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/automation-equipment.jpg" title="Các ngành khác">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="284" height="189" src="https://htechvn.com.vn/wp-content/uploads/2021/06/automation-equipment.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="822,824,825,826,827,828,829,830,831,823" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_color="dark" text_padding="1px 1px 1px 1px" />                                                              </div>
+              <div class="box-text text-center is-xlarge dark" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 1px;">
+                 <p>Các ngành khác</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+         </div>
+
+
+		</div>
+			</div>
+
+	
+
+	<div id="col-1694376756" class="col medium-4 small-12 large-4"  >
+		<div class="col-inner text-center dark"  >
+			
+			
+
+<div class="container section-title-container" ><h3 class="section-title section-title-center"><b></b><span class="section-title-main" style="color:rgb(0, 0, 0);">IAI  Application</span><b></b></h3></div>
+
+
+  
+    <div id="gallery-1120937453" class="slider slider-auto-height row-collapse slider-nav-reveal" data-flickity-options='{"imagesLoaded": true, "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 2000}'>
+
+          <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/as_wire_fiber_cable.jpg" title="Dây, Sợi &amp; Cáp">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="298" height="184" src="https://htechvn.com.vn/wp-content/uploads/2021/06/as_wire_fiber_cable.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="843,842,841,840,839,834,835,836,837,838,833,832" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_padding="1px 1px 1px 01px" />                                                              </div>
+              <div class="box-text text-center is-xlarge" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 01px;">
+                 <p>Dây, Sợi & Cáp</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/as_tube_rod_and-building_materials.jpg" title="Ống, Que &amp; Vật liệu xây dựng">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="298" height="184" src="https://htechvn.com.vn/wp-content/uploads/2021/06/as_tube_rod_and-building_materials.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="843,842,841,840,839,834,835,836,837,838,833,832" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_padding="1px 1px 1px 01px" />                                                              </div>
+              <div class="box-text text-center is-xlarge" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 01px;">
+                 <p>Ống, Que & Vật liệu xây dựng</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/as_smart_phone_tablet_and_computer.jpg" title="Điện thoại thông minh, Máy tính bảng &amp; Máy tính">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="298" height="184" src="https://htechvn.com.vn/wp-content/uploads/2021/06/as_smart_phone_tablet_and_computer.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="843,842,841,840,839,834,835,836,837,838,833,832" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_padding="1px 1px 1px 01px" />                                                              </div>
+              <div class="box-text text-center is-xlarge" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 01px;">
+                 <p>Điện thoại thông minh, Máy tính bảng & Máy tính</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/as_paper_film_board.jpg" title="Giấy, Phim, Vải, Kính &amp; Bảng">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="298" height="184" src="https://htechvn.com.vn/wp-content/uploads/2021/06/as_paper_film_board.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="843,842,841,840,839,834,835,836,837,838,833,832" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_padding="1px 1px 1px 01px" />                                                              </div>
+              <div class="box-text text-center is-xlarge" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 01px;">
+                 <p>Giấy, Phim, Vải, Kính & Bảng</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/as_medical_and_life_science.jpg" title="Khoa học y tế &amp; Đời sống">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="298" height="184" src="https://htechvn.com.vn/wp-content/uploads/2021/06/as_medical_and_life_science.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="843,842,841,840,839,834,835,836,837,838,833,832" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_padding="1px 1px 1px 01px" />                                                              </div>
+              <div class="box-text text-center is-xlarge" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 01px;">
+                 <p>Khoa học y tế & Đời sống</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/as_electronics_and_semiconductor.jpg" title="Điện tử &amp; Chất bán dẫn">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="298" height="184" src="https://htechvn.com.vn/wp-content/uploads/2021/06/as_electronics_and_semiconductor.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="843,842,841,840,839,834,835,836,837,838,833,832" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_padding="1px 1px 1px 01px" />                                                              </div>
+              <div class="box-text text-center is-xlarge" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 01px;">
+                 <p>Điện tử & Chất bán dẫn</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/as_food_and_beverages.jpg" title="Đồ ăn &amp; Đồ uống">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="298" height="184" src="https://htechvn.com.vn/wp-content/uploads/2021/06/as_food_and_beverages.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="843,842,841,840,839,834,835,836,837,838,833,832" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_padding="1px 1px 1px 01px" />                                                              </div>
+              <div class="box-text text-center is-xlarge" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 01px;">
+                 <p>Đồ ăn & Đồ uống</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/as_heme_electronics_and_equipments.jpg" title="Điện tử &amp; Thiết bị gia dụng">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="298" height="184" src="https://htechvn.com.vn/wp-content/uploads/2021/06/as_heme_electronics_and_equipments.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="843,842,841,840,839,834,835,836,837,838,833,832" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_padding="1px 1px 1px 01px" />                                                              </div>
+              <div class="box-text text-center is-xlarge" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 01px;">
+                 <p>Điện tử & Thiết bị gia dụng</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/as_kitchen_and_others.jpg" title="Nhà bếp &amp; Những thứ khác">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="298" height="184" src="https://htechvn.com.vn/wp-content/uploads/2021/06/as_kitchen_and_others.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="843,842,841,840,839,834,835,836,837,838,833,832" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_padding="1px 1px 1px 01px" />                                                              </div>
+              <div class="box-text text-center is-xlarge" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 01px;">
+                 <p>Nhà bếp & Những thứ khác</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/as_machinery_and_tools.jpg" title="Công cụ &amp; Máy móc">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="298" height="184" src="https://htechvn.com.vn/wp-content/uploads/2021/06/as_machinery_and_tools.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="843,842,841,840,839,834,835,836,837,838,833,832" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_padding="1px 1px 1px 01px" />                                                              </div>
+              <div class="box-text text-center is-xlarge" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 01px;">
+                 <p>Công cụ & Máy móc</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/as_cosmetics_and_chemicals.jpg" title="Mĩ phẩm &amp; Hóa chất">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="298" height="184" src="https://htechvn.com.vn/wp-content/uploads/2021/06/as_cosmetics_and_chemicals.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="843,842,841,840,839,834,835,836,837,838,833,832" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_padding="1px 1px 1px 01px" />                                                              </div>
+              <div class="box-text text-center is-xlarge" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 01px;">
+                 <p>Mĩ phẩm & Hóa chất</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+                 <div class="gallery-col col" data-animate="bounceInDown">
+          <div class="col-inner">
+            <a class="image-lightbox lightbox-gallery" href="https://htechvn.com.vn/wp-content/uploads/2021/06/as_automotive_and_aerospace.jpg" title="Ô tô &amp; Hàng không vũ trụ">            <div class="box has-hover gallery-box box-badge hover-dark">
+              <div class="box-image image-cover" style="padding-top:75%;">
+                <img width="298" height="184" src="https://htechvn.com.vn/wp-content/uploads/2021/06/as_automotive_and_aerospace.jpg" class="attachment-medium size-medium" alt="" loading="lazy" ids="843,842,841,840,839,834,835,836,837,838,833,832" style="badge" type="slider-full" animate="bounceInDown" auto_slide="2000" image_height="75%" text_align="center" text_size="xlarge" text_bg="rgba(0, 0, 0, 0.28)" text_padding="1px 1px 1px 01px" />                                                              </div>
+              <div class="box-text text-center is-xlarge" style="background-color:rgba(0, 0, 0, 0.28);padding:1px 1px 1px 01px;">
+                 <p>Ô tô & Hàng không vũ trụ</p>
+              </div>
+            </div>
+            </a>          </div>
+         </div>
+         </div>
+
+
+		</div>
+			</div>
+
+	
+
+</div>
+
+     </div>
+
+     <div class="loading-spin dark large centered"></div>
+
+     	</div>
+
+
+	<div id="gap-182005979" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-182005979 {
+  padding-top: 40px;
+}
+</style>
+	</div>
+	
+
+
+		
+				
+</div>
+
+
+
+</main>
+
+<footer id="footer" class="footer-wrapper">
+
+	
+<!-- FOOTER 1 -->
+
+<!-- FOOTER 2 -->
+<div class="footer-widgets footer footer-2 ">
+		<div class="row large-columns-1 mb-0">
+	   		<div id="text-19" class="col pb-0 widget widget_text">			<div class="textwidget"><p>CÔNG TY TNHH CÔNG NGHỆ HTECH VIỆT NAM (HTECH)</p>
+<p>Địa chỉ: Tầng 10 Tòa nhà Việt Á, Số 9 Duy Tân, Dịch Vọng Hậu, Cầu Giấy, Hà Nội</p>
+<p>Tel: 0934-936-036</p>
+<p>Email: sales@htechvn.com.vn</p>
+<p>Giấy ĐKKD số: 0109674374 do Sở KH&amp;ĐT TP Hà Nội cấp ngày 17/06/2021</p>
+</div>
+		</div>        
+		</div>
+</div>
+
+
+
+<div class="absolute-footer light medium-text-center small-text-center">
+  <div class="container clearfix">
+
+    
+    <div class="footer-primary pull-left">
+              <div class="menu-menu-dkcs-container"><ul id="menu-menu-dkcs" class="links footer-nav uppercase"><li id="menu-item-1063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1063"><a href="https://htechvn.com.vn/elements/dieu-kien-giao-dich-chung/">Điều kiện giao dịch chung</a></li>
+<li id="menu-item-1064" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1064"><a href="https://htechvn.com.vn/elements/thong-tin-van-chuyen-va-giao-nhan/">Thông tin vận chuyển và giao nhận</a></li>
+<li id="menu-item-1065" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1065"><a href="https://htechvn.com.vn/elements/thong-tin-ve-phuong-thuc-thanh-toan/">Thông tin về phương thức thanh toán</a></li>
+<li id="menu-item-1066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1066"><a href="https://htechvn.com.vn/elements/chinh-sach-bao-hanh-san-pham/">Chính sách bảo hành sản phẩm</a></li>
+<li id="menu-item-1067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1067"><a href="https://htechvn.com.vn/elements/chinh-sach-bao-mat-thong-tin-khach-hang/">Chính sách bảo mật thông tin khách hàng</a></li>
+</ul></div>            <div class="copyright-footer">
+              </div>
+          </div>
+  </div>
+</div>
+<a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link"><i class="icon-angle-up" ></i></a>
+
+</footer>
+
+</div>
+
+<div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
+	<div class="sidebar-menu no-scrollbar ">
+		<ul class="nav nav-sidebar nav-vertical nav-uppercase">
+			<li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper">
+		<div class="searchform-wrapper ux-search-box relative is-normal"><form role="search" method="get" class="searchform" action="https://htechvn.com.vn/">
+	<div class="flex-row relative">
+						<div class="flex-col flex-grow">
+			<label class="screen-reader-text" for="woocommerce-product-search-field-1">Tìm kiếm:</label>
+			<input type="search" id="woocommerce-product-search-field-1" class="search-field mb-0" placeholder="Tìm kiếm&hellip;" value="" name="s" />
+			<input type="hidden" name="post_type" value="product" />
+					</div>
+		<div class="flex-col">
+			<button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+				<i class="icon-search" ></i>			</button>
+		</div>
+	</div>
+	<div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-item-613"><a rel="httpshtechvncomvnsan-pham" href="https://htechvn.com.vn/shop/">SẢN PHẨM</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-674"><a href="https://htechvn.com.vn/danh-muc-san-pham/smc/">SMC</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-801"><a href="https://htechvn.com.vn/iai/">IAI</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-668"><a href="https://htechvn.com.vn/danh-muc-san-pham/cognex/">COGNEX</a>
+	<ul class="sub-menu nav-sidebar-ul">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-731"><a href="https://htechvn.com.vn/danh-muc-san-pham/cognex/he-thong-tam-nhin/">Hệ thống tầm nhìn</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-670"><a href="https://htechvn.com.vn/danh-muc-san-pham/ifm/">IFM</a>
+	<ul class="sub-menu nav-sidebar-ul">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-735"><a href="https://htechvn.com.vn/danh-muc-san-pham/ifm/cam-bien-vi-tri/">Cảm biến vị trí</a>
+		<ul class="sub-menu nav-sidebar-ul">
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-671"><a href="https://htechvn.com.vn/danh-muc-san-pham/ifm/cam-bien-vi-tri/cam-bien-dien-dung/">Cảm biến điện dung</a></li>
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-672"><a href="https://htechvn.com.vn/danh-muc-san-pham/ifm/cam-bien-vi-tri/cam-bien-laser/">Cảm biến Laser</a></li>
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-673"><a href="https://htechvn.com.vn/danh-muc-san-pham/ifm/cam-bien-vi-tri/cam-bien-tu-tinh/">Cảm biến từ tính</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-617"><a href="https://htechvn.com.vn/elements/">ỨNG DỤNG</a></li>
+<li class="menu-flyout menu-item menu-item-type-post_type menu-item-object-page menu-item-629"><a rel="httpshtechvncomvnelementstin-tuc" href="https://htechvn.com.vn/elements/pages/">TIN TỨC</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-761"><a href="https://htechvn.com.vn/lien-he/">LIÊN HỆ</a></li>
+<li class="account-item has-icon menu-item">
+<a href="https://htechvn.com.vn/my-account/"
+    class="nav-top-link nav-top-not-logged-in">
+    <span class="header-account-title">
+    Đăng nhập  </span>
+</a>
+
+</li>
+		</ul>
+	</div>
+</div>
+    <div id="login-form-popup" class="lightbox-content mfp-hide">
+            <div class="woocommerce-notices-wrapper"></div>
+<div class="account-container lightbox-inner">
+
+	
+			<div class="account-login-inner">
+
+				<h3 class="uppercase">Đăng nhập</h3>
+
+				<form class="woocommerce-form woocommerce-form-login login" method="post">
+
+					
+					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+						<label for="username">Tên tài khoản hoặc địa chỉ email&nbsp;<span class="required">*</span></label>
+						<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="" />					</p>
+					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+						<label for="password">Mật khẩu&nbsp;<span class="required">*</span></label>
+						<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" />
+					</p>
+
+					
+					<p class="form-row">
+						<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
+							<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span>Ghi nhớ mật khẩu</span>
+						</label>
+						<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="765a312fed" /><input type="hidden" name="_wp_http_referer" value="/" />						<button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Đăng nhập">Đăng nhập</button>
+					</p>
+					<p class="woocommerce-LostPassword lost_password">
+						<a href="https://htechvn.com.vn/my-account/lost-password/">Quên mật khẩu?</a>
+					</p>
+
+					
+				</form>
+			</div>
+
+			
+</div>
+
+          </div>
+  	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script type="rocketlazyloadscript" data-rocket-type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Rất tiếc, sản phẩm này hiện không tồn tại. Hãy chọn một phương thức kết hợp khác.</p>
+</script>
+<link rel='stylesheet' id='flatsome-effects-css'  href='https://htechvn.com.vn/wp-content/themes/flatsome/assets/css/effects.css?ver=3.13.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://htechvn.com.vn/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=1.2.0' id='jquery-selectBox-js'></script>
+<script type='text/javascript' id='jquery-yith-wcwl-js-extra'>
+/* <![CDATA[ */
+var yith_wcwl_l10n = {"ajax_url":"\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","enable_ajax_loading":"","ajax_loader_url":"https:\/\/htechvn.com.vn\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg","remove_from_wishlist_after_add_to_cart":"1","is_wishlist_responsive":"1","time_to_close_prettyphoto":"3000","fragments_index_glue":".","reload_on_found_variation":"1","mobile_media_query":"768","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies on your browser are enabled.","added_to_cart_message":"<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem","load_mobile_action":"load_mobile","delete_item_action":"delete_item","save_title_action":"save_title","save_privacy_action":"save_privacy","load_fragments":"load_fragments"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.min.js?ver=3.0.22' id='jquery-yith-wcwl-js'></script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/htechvn.com.vn\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4.1' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70' id='jquery-blockui-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Xem gi\u1ecf h\u00e0ng","cart_url":"https:\/\/htechvn.com.vn\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=5.4.2' id='wc-add-to-cart-js'></script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4' id='js-cookie-js'></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=5.4.2' id='woocommerce-js'></script>
+<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_432b533de7f91ca7df436b15c0d97735","fragment_name":"wc_fragments_432b533de7f91ca7df436b15c0d97735","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=5.4.2' id='wc-cart-fragments-js'></script>
+<script type='text/javascript' id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/checkout\/|\/cart\/|\/my-account\/|\/wc-api\/v(.*)|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/htechvn.com.vn","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type='text/javascript' id='mailchimp-woocommerce-js-extra'>
+/* <![CDATA[ */
+var mailchimp_public_data = {"site_url":"https:\/\/htechvn.com.vn","ajax_url":"https:\/\/htechvn.com.vn\/wp-admin\/admin-ajax.php","language":"vi"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-content/plugins/mailchimp-for-woocommerce/public/js/mailchimp-woocommerce-public.min.js?ver=2.5.1' id='mailchimp-woocommerce-js'></script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-includes/js/hoverIntent.min.js?ver=1.8.1' id='hoverIntent-js'></script>
+<script type='text/javascript' id='flatsome-js-js-extra'>
+/* <![CDATA[ */
+var flatsomeVars = {"ajaxurl":"https:\/\/htechvn.com.vn\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"70","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Main Menu"},"options":{"cookie_notice_version":"1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-content/themes/flatsome/assets/js/flatsome.js?ver=3.13.3' id='flatsome-js-js'></script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-content/themes/flatsome/inc/integrations/wc-yith-wishlist/wishlist.js?ver=3.10.2' id='flatsome-woocommerce-wishlist-js'></script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search.js?ver=3.13.3' id='flatsome-live-search-js'></script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-content/themes/flatsome/assets/js/woocommerce.js?ver=3.13.3' id='flatsome-theme-woocommerce-js-js'></script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-includes/js/wp-embed.min.js?ver=5.8' id='wp-embed-js'></script>
+<script type='text/javascript' src='//htechvn.com.vn/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.6' id='prettyPhoto-js'></script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-includes/js/underscore.min.js?ver=1.8.3' id='underscore-js'></script>
+<script type='text/javascript' id='wp-util-js-extra'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-includes/js/wp-util.min.js?ver=5.8' id='wp-util-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-variation-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"R\u1ea5t ti\u1ebfc, kh\u00f4ng c\u00f3 s\u1ea3n ph\u1ea9m n\u00e0o ph\u00f9 h\u1ee3p v\u1edbi l\u1ef1a ch\u1ecdn c\u1ee7a b\u1ea1n. H\u00e3y ch\u1ecdn m\u1ed9t ph\u01b0\u01a1ng th\u1ee9c k\u1ebft h\u1ee3p kh\u00e1c.","i18n_make_a_selection_text":"Ch\u1ecdn c\u00e1c t\u00f9y ch\u1ecdn cho s\u1ea3n ph\u1ea9m tr\u01b0\u1edbc khi cho s\u1ea3n ph\u1ea9m v\u00e0o gi\u1ecf h\u00e0ng c\u1ee7a b\u1ea1n.","i18n_unavailable_text":"R\u1ea5t ti\u1ebfc, s\u1ea3n ph\u1ea9m n\u00e0y hi\u1ec7n kh\u00f4ng t\u1ed3n t\u1ea1i. H\u00e3y ch\u1ecdn m\u1ed9t ph\u01b0\u01a1ng th\u1ee9c k\u1ebft h\u1ee3p kh\u00e1c."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://htechvn.com.vn/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=5.4.2' id='wc-add-to-cart-variation-js'></script>
+
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1626932107 -->

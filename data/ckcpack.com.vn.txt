@@ -1,0 +1,735 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<base href="http://ckcpack.com.vn/">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=1100">
+	<meta name="description" CONTENT="CKC-CHÍNH QUANG" />
+	<meta name="keywords" CONTENT="CKC-CHÍNH QUANG" />
+		<meta property="og:image" content="http://ckcpack.com.vn/upload/hinhanh/logo-ckc-ko-nen_1618891683.png"/>
+			<meta property="og:title" content="CKC-CHÍNH QUANG"/>
+			<meta property="og:site_name" content="CKC-CHÍNH QUANG"/>
+			<meta property="og:url" content="http://ckcpack.com.vn/"/>
+			<meta property="og:description" content="CKC-CHÍNH QUANG" />	<meta name="revisit-after" content="1 days">
+	<title>CKC-CHÍNH QUANG</title>
+	<link href="http://ckcpack.com.vn/upload/hinhanh/logomoi-21_1610522588.ico" type="text/css" rel="shortcut icon">
+	
+	<!-- Custom Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+	<link href="http://ckcpack.com.vn/css/fonts.css" rel="stylesheet" type="text/css">
+	
+    <link href="http://ckcpack.com.vn/css/bootstrap.css" rel="stylesheet">
+	<link href="http://ckcpack.com.vn/css/social-buttons.css" rel="stylesheet">
+    <link href="http://ckcpack.com.vn/css/default.css" rel="stylesheet">
+	<link href="http://ckcpack.com.vn/css/style.css" type="text/css" rel="stylesheet">
+	<link href="http://ckcpack.com.vn/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+	
+	<!-- Library Jquery -->
+	<script type="text/javascript" src="http://ckcpack.com.vn/js/jquery-1.11.0.js" ></script>
+	<script language="javascript" type="text/javascript" src="http://ckcpack.com.vn/js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="http://ckcpack.com.vn/js/jquery.easing.1.3.js" ></script>
+	<script type="text/javascript" src="http://ckcpack.com.vn/js/bootstrap.js" ></script>
+	
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="http://ckcpack.com.vn/js/fancybox/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://ckcpack.com.vn/css/fancybox/jquery.fancybox.css" media="screen" />
+
+	
+	<link type="text/css" rel="stylesheet" href="http://ckcpack.com.vn/css/jquery.bxslider.css">
+	<script type="text/javascript" src="http://ckcpack.com.vn/js/jquery.bxslider.js"></script>
+	
+	<link type="text/css" href="http://ckcpack.com.vn/css/skitter.styles.css" media="all" rel="stylesheet" />
+	<script type="text/javascript" src="http://ckcpack.com.vn/js/jquery.animate-colors-min.js"></script>
+	<script type="text/javascript" src="http://ckcpack.com.vn/js/jquery.skitter.js"></script>
+	
+	
+		<script src="http://ckcpack.com.vn/js/jquery.lockfixed.js" type="text/javascript"></script>
+	<script>
+		$(document).ready(function(){
+			
+			$('body').append('<div id="top" >TOP</div>');
+			$(window).scroll(function() {
+				if($(window).scrollTop() > 100) {
+					$('#top').fadeIn();
+				} else {
+					$('#top').fadeOut();
+				}
+			});
+			$('#top').click(function() {
+				$('html, body').animate({scrollTop:0},500);
+			});
+			
+		});
+	</script>
+	
+</head>
+
+<body >
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="lang">
+		<a href="http://ckcpack.com.vn/vi/" id="vi"><img src="images/vi.png" align="absmiddle" /></a>
+		<a href="http://ckcpack.com.vn/en/" id="en"><img src="images/en.png" align="absmiddle" /></a>	
+	</div>
+	<div id="wrapper">
+		<section id="header">
+	<div class="inner clearfix">
+		<div id="banner">
+			<h1 class="rmp">Công Ty TNHH Thương Mại CHÍNH QUANG</h1>
+			<a href="http://ckcpack.com.vn/vi/" title="Trang chủ"><img src="http://ckcpack.com.vn/upload/hinhanh/logo-ckc-ko-nen_1618891683.png" /></a>
+		</div>
+		
+		<div id="support">
+			<ul>
+								<li>
+					<p>Hỗ trợ khách hàng</p>
+					<p>(028) 3962 9563</p>
+					<p></p>
+				</li>
+								<li>
+					<p>Hỗ trợ kỹ thuật</p>
+					<p>(028) 3962 9564</p>
+					<p></p>
+				</li>
+								<li>
+					<p>Kinh doanh</p>
+					<p>(028) 3962 2629</p>
+					<p></p>
+				</li>
+							</ul>
+		</div>
+		
+	</div>
+
+</section>
+<!-- #header -->
+
+		<nav id="navbar">
+	<p><a href="http://ckcpack.com.vn/vi/index.html" class="transitionAll" title="Trang chủ"><i class="fa fa-home"></i></a></p>
+	<ul>
+		<li  ><a href="http://ckcpack.com.vn/vi/gioi-thieu.html" class="transitionAll" >Giới thiệu</a></li>
+		<li  ><a href="http://ckcpack.com.vn/vi/san-pham/" class="transitionAll" >Sản phẩm</a>
+			<ul><li><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-bot-dong-goi-dang-truc-xoan/" class="" >Máy Chiết Bột - Đóng Gói Dạng Trục Xoắn</a><ul><li><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-ban-tu-dong/" class="" >Máy chiết bán tự động</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-dong-goi-tu-dong/" class="" >Máy chiết - đóng gói tự động</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-tu-dong-dang-can/" class="" >Máy đóng gói tự động dạng cân</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-bot-vo-chai-hu-tu-dong/" class="" >Máy chiết bột vô chai hủ tự động</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/he-thong-day-chuyen/" class="" >Hệ thống dây chuyền</a></li></ul></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-rot-va-dan-mang-tu-dong/" class="" >Máy Chiết Rót và Dán Màng Tự Động</a><ul><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-ban-tu-dong/" class="" >Máy dán màng bán tự động</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-rot-va-dan-mang-tu-dong/" class="" >Máy chiết rót và dán màng tự động</a></li></ul></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-nhom-bang-song-cao-tan/" class="" >Máy Dán Màng Nhôm Bằng Sóng Cao Tần</a><ul><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-nhom-ban-tu-dong/" class="" >Máy dán màng nhôm bán tự động</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-nhom-tu-dong/" class="" >Máy dán màng nhôm tự động</a></li></ul></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-decal-tu-dong/" class="" >Máy Dán Nhãn Decal Tự Động</a><ul><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-mat-tren/" class="" >Máy dán nhãn mặt trên</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-chai-tron/" class="" >Máy dán nhãn chai tròn</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-hai-mat/" class="" >Máy dán nhãn hai mặt</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-ong-tron/" class="" >Máy dán nhãn ống tròn</a></li></ul></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-dang-nam-toc-do-cao/" class="" >Máy Đóng Gói Dạng Nằm Tốc Độ Cao</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-ho/" class="" >Máy Đóng Gói Màng Co Hở</a><ul><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-ho-ban-tu-dong/" class="" >Máy đóng gói màng co hở bán tự động</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-ho-tu-dong/" class="" >Máy đóng gói màng co hở tự động</a></li></ul></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-kin/" class="" >Máy Đóng Gói Màng Co Kín</a><ul><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-kin-ban-tu-dong/" class="" >Máy đóng gói màng co kín bán tự động</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-kin-tu-dong/" class="" >Máy đóng gói màng co kín tự động</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/buong-mang-co-sa/" class="" >Buồng màng co (SA)</a></li></ul></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-gap-giay-tu-dong/" class="" >Máy Gấp Giấy Tự Động</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-han-mieng-bao-lien-tuc/" class="" >Máy Hàn Miệng Bao Liên Tục</a><ul><li><a href="http://ckcpack.com.vn/vi/san-pham/may-han-mieng-bao-lien-tuc-dang-de-ban/" class="" >Máy hàn miệng bao liên tục dạng để bàn</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-han-mieng-bao-lien-tuc-dang-nam/" class="" >Máy hàn miệng bao liên tục dạng nằm</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-han-mieng-bao-lien-tuc-dang-dung/" class="" >Máy hàn miệng bao liên tục dạng đứng</a></li></ul></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-indate/" class="" >Máy Indate</a><ul><li><a href="http://ckcpack.com.vn/vi/san-pham/may-indate-ban-tu-dong/" class="" >Máy indate bán tự động</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-indate-tu-dong/" class="" >Máy indate tự động</a></li></ul></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-sang-loc/" class="" >Máy Sàng Lọc</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-tron/" class="" >Máy Trộn</a></li><li><a href="http://ckcpack.com.vn/vi/san-pham/may-xay/" class="" >Máy Xay</a></li></ul>		</li>
+		
+		<li  ><a href="http://ckcpack.com.vn/vi/dich-vu/" class="transitionAll" >Dịch vụ</a></li>
+		<li  ><a href="http://ckcpack.com.vn/vi/tuyen-dung.html" class="transitionAll" >Tuyển dụng</a></li>
+		<li  ><a href="http://ckcpack.com.vn/vi/lien-he.html" class="transitionAll" >Liên hệ</a></li>
+	</ul>
+	<div id="search">
+	<p class="input-group">
+				
+		<input type="text" class="form-control" name="key" id="keyword" onkeypress="doEnter(event)" value="" />
+		<span class="input-group-btn">
+			<button class="btn btn-default" type="button" id="btn-search"><i class="fa fa-search"></i></button>
+		</span>
+						   
+	</p>
+</div>
+<!-- #search -->
+<script>
+	$(document).ready(function(){
+		$('#btn-search').click(function(evt){
+			onSearch(evt);
+		});
+
+	})
+	function onSearch(evt){
+		var keyword = $('#keyword');
+		
+		if( keyword.val() == ''){alert('Bạn chưa nhập thông tin tìm kiếm!'); keyword.focus(); return false;}
+		
+		location.href="http://ckcpack.com.vn/vi/tim-kiem/key="+keyword.val();
+		
+	}
+	
+	function doEnter(evt){
+		var key;
+		if(evt.keyCode == 13 || evt.which == 13){
+			onSearch(evt);
+		}else{
+			return false;	
+		}
+	}
+</script>	
+</nav>		
+		
+<div id="slideshow">
+	
+	<div id="bx-slider">
+				<div class="slide">
+			<a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-bot-tu-dong-goi-nho.html" target="_blank"><img src="http://ckcpack.com.vn/upload/hinhanh/280_1618827351.jpg" alt="CKC-280" /></a>
+			
+		</div>
+				<div class="slide">
+			<a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-nhom-tu-dong-co-bang-tai.html" target="_blank"><img src="http://ckcpack.com.vn/upload/hinhanh/hf2500_1618827403.jpg" alt="HF-2500/ HF-3000" /></a>
+			
+		</div>
+				<div class="slide">
+			<a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-chai-tron.html" target="_blank"><img src="http://ckcpack.com.vn/upload/hinhanh/kk916-1_1618827441.jpg" alt="KK-916" /></a>
+			
+		</div>
+				<div class="slide">
+			<a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-dang-nam-toc-do-cao-man-hinh-cam-ung.html" target="_blank"><img src="http://ckcpack.com.vn/upload/hinhanh/450iv_1618827649.jpg" alt="HT-450I" /></a>
+			
+		</div>
+				<div class="slide">
+			<a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-tu-dong-dang-l.html" target="_blank"><img src="http://ckcpack.com.vn/upload/hinhanh/ty701120-sa313-pof_1618827721.jpg" alt="TY-701-120 + SA-313" /></a>
+			
+		</div>
+				<div class="slide">
+			<a href="http://ckcpack.com.vn/vi/san-pham/may-han-mieng-bao-lien-tuc-dang-nam.html" target="_blank"><img src="http://ckcpack.com.vn/upload/hinhanh/sym9011_1618827792.jpg" alt="SY-M901" /></a>
+			
+		</div>
+				<div class="slide">
+			<a href="http://ckcpack.com.vn/vi/san-pham/he-thong-may-sang.html" target="_blank"><img src="http://ckcpack.com.vn/upload/hinhanh/ls10001s-1_1618827849.jpg" alt="LS-1000-1S" /></a>
+			
+		</div>
+				<div class="slide">
+			<a href="http://ckcpack.com.vn/vi/san-pham/may-xay-dang-dinh.html" target="_blank"><img src="http://ckcpack.com.vn/upload/hinhanh/sm5_1618827932.jpg" alt="SM-5" /></a>
+			
+		</div>
+			</div>
+
+</div>
+<!-- #slideshow -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#bx-slider').bxSlider({
+			mode: 'fade',
+			responsive: true,
+			touchEnabled: true,
+			pager: false,
+			auto: true
+		});
+		
+	});
+</script>		<div id="page-wrapper">
+			<div class="inner clearfix">
+				
+				<script>
+$(document).ready(function(){
+	$('ul#accordion > li:not(.active) ul').click(function(event){
+		event.stopPropagation();
+	}).hide();
+	
+	$('ul#accordion > li ul').each(function(){
+		$(this).parent().append('<i class="fa fa-plus-square"></i>');
+		
+	});
+	
+	$('ul#accordion > li > i, ul#accordion > li > ul > li > i').click(function(){
+		var selfClick = $(this).parent().find('ul:first').is(':visible');
+		if(!selfClick) {
+			$(this).parent().parent().find('> li ul:visible').slideToggle();
+			
+		}
+		$(this).parent().find('ul:first').stop(true, true).slideToggle();
+		var selfI = $(this).hasClass('fa-plus-square');
+		if(selfI){
+			$(this).removeClass('fa-plus-square').addClass('fa-minus-square');
+		}else{
+			$(this).removeClass('fa-minus-square').addClass('fa-plus-square');
+		}
+		
+	});
+});
+</script>
+<div id="left">
+
+	<div class="row">
+		<div class="l-title"><h2>Danh mục sản phẩm</h2></div>
+		<div class="l-content">
+			<ul id="accordion"><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-bot-dong-goi-dang-truc-xoan/" class="" >Máy Chiết Bột - Đóng Gói Dạng Trục Xoắn</a><ul><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-ban-tu-dong/" class="" ><i class="fa fa-angle-right"></i>Máy chiết bán tự động</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-dong-goi-tu-dong/" class="" ><i class="fa fa-angle-right"></i>Máy chiết - đóng gói tự động</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-tu-dong-dang-can/" class="" ><i class="fa fa-angle-right"></i>Máy đóng gói tự động dạng cân</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-bot-vo-chai-hu-tu-dong/" class="" ><i class="fa fa-angle-right"></i>Máy chiết bột vô chai hủ tự động</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/he-thong-day-chuyen/" class="" ><i class="fa fa-angle-right"></i>Hệ thống dây chuyền</a></li></ul></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-rot-va-dan-mang-tu-dong/" class="" >Máy Chiết Rót và Dán Màng Tự Động</a><ul><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-ban-tu-dong/" class="" ><i class="fa fa-angle-right"></i>Máy dán màng bán tự động</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-rot-va-dan-mang-tu-dong/" class="" ><i class="fa fa-angle-right"></i>Máy chiết rót và dán màng tự động</a></li></ul></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-nhom-bang-song-cao-tan/" class="" >Máy Dán Màng Nhôm Bằng Sóng Cao Tần</a><ul><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-nhom-ban-tu-dong/" class="" ><i class="fa fa-angle-right"></i>Máy dán màng nhôm bán tự động</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-nhom-tu-dong/" class="" ><i class="fa fa-angle-right"></i>Máy dán màng nhôm tự động</a></li></ul></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-decal-tu-dong/" class="" >Máy Dán Nhãn Decal Tự Động</a><ul><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-mat-tren/" class="" ><i class="fa fa-angle-right"></i>Máy dán nhãn mặt trên</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-chai-tron/" class="" ><i class="fa fa-angle-right"></i>Máy dán nhãn chai tròn</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-hai-mat/" class="" ><i class="fa fa-angle-right"></i>Máy dán nhãn hai mặt</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-ong-tron/" class="" ><i class="fa fa-angle-right"></i>Máy dán nhãn ống tròn</a></li></ul></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-dang-nam-toc-do-cao/" class="" >Máy Đóng Gói Dạng Nằm Tốc Độ Cao</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-ho/" class="" >Máy Đóng Gói Màng Co Hở</a><ul><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-ho-ban-tu-dong/" class="" ><i class="fa fa-angle-right"></i>Máy đóng gói màng co hở bán tự động</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-ho-tu-dong/" class="" ><i class="fa fa-angle-right"></i>Máy đóng gói màng co hở tự động</a></li></ul></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-kin/" class="" >Máy Đóng Gói Màng Co Kín</a><ul><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-kin-ban-tu-dong/" class="" ><i class="fa fa-angle-right"></i>Máy đóng gói màng co kín bán tự động</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-kin-tu-dong/" class="" ><i class="fa fa-angle-right"></i>Máy đóng gói màng co kín tự động</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/buong-mang-co-sa/" class="" ><i class="fa fa-angle-right"></i>Buồng màng co (SA)</a></li></ul></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-gap-giay-tu-dong/" class="" >Máy Gấp Giấy Tự Động</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-han-mieng-bao-lien-tuc/" class="" >Máy Hàn Miệng Bao Liên Tục</a><ul><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-han-mieng-bao-lien-tuc-dang-de-ban/" class="" ><i class="fa fa-angle-right"></i>Máy hàn miệng bao liên tục dạng để bàn</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-han-mieng-bao-lien-tuc-dang-nam/" class="" ><i class="fa fa-angle-right"></i>Máy hàn miệng bao liên tục dạng nằm</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-han-mieng-bao-lien-tuc-dang-dung/" class="" ><i class="fa fa-angle-right"></i>Máy hàn miệng bao liên tục dạng đứng</a></li></ul></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-indate/" class="" >Máy Indate</a><ul><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-indate-ban-tu-dong/" class="" ><i class="fa fa-angle-right"></i>Máy indate bán tự động</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-indate-tu-dong/" class="" ><i class="fa fa-angle-right"></i>Máy indate tự động</a></li></ul></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-sang-loc/" class="" >Máy Sàng Lọc</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-tron/" class="" >Máy Trộn</a></li><li ><a href="http://ckcpack.com.vn/vi/san-pham/may-xay/" class="" >Máy Xay</a></li></ul>		</div>
+		
+	</div>
+		
+	<div class="row">
+		<div class="l-title"><h2>Tin tức</h2></div>
+		<div class="l-content">
+			<ul class="l-nav">
+								<li>
+					<a href="http://ckcpack.com.vn/vi/tin-tuc/thi-truong-cung-cap-may-dong-goi.html" class="transitionAll" >
+						<span class="col-xs-4"><img src="http://ckcpack.com.vn/upload/news/logomoi_1592018496_200x46.147672552167.gif" alt="" onError="this.src='http://ckcpack.com.vn/images/no_image.png'" ></span>
+						Thị trường cung cấp máy đóng gói					</a>
+				</li>
+								
+			</ul>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="l-title"><h2>Sản phẩm bán chạy</h2></div>
+		<div class="l-content pad10">
+			<script type="text/javascript" src="http://ckcpack.com.vn/js/jquery.simplyscroll.js"></script>
+			<link rel="stylesheet" href="http://ckcpack.com.vn/css/jquery.simplyscroll.css" media="all" type="text/css">
+			<script type="text/javascript" >
+				$(document).ready(function(){
+					$("#scroller").simplyScroll({orientation:'vertical',customClass:'vert'});
+				});
+			</script>
+			<ul id="scroller">
+								<li>
+					<div class="box-sp">
+						<p class="sp-img transitionAll">
+							<a href="http://ckcpack.com.vn/vi/san-pham/may-xay-dang-dinh.html"><img src="http://ckcpack.com.vn/upload/products/sm5_1618819829_458.18181818182x360.jpg" class="transitionAll" alt="" /></a>						
+						</p>
+						<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-xay-dang-dinh.html" title="MÁY XAY (DẠNG ĐINH)" class="transitionAll">MÁY XAY (DẠNG ĐINH)</a></h3>
+					</div>
+				</li>
+								<li>
+					<div class="box-sp">
+						<p class="sp-img transitionAll">
+							<a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-bot-ban-tu-dong-dang-truc-xoan.html"><img src="http://ckcpack.com.vn/upload/products/sm2002_1618556582_221.40221402214x360.jpg" class="transitionAll" alt="" /></a>						
+						</p>
+						<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-bot-ban-tu-dong-dang-truc-xoan.html" title="MÁY CHIẾT BỘT BÁN TỰ ĐỘNG DẠNG TRỤC XOẮN" class="transitionAll">MÁY CHIẾT BỘT BÁN TỰ ĐỘNG DẠNG TRỤC XOẮN</a></h3>
+					</div>
+				</li>
+								<li>
+					<div class="box-sp">
+						<p class="sp-img transitionAll">
+							<a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-nhom-tu-dong-co-bang-tai.html"><img src="http://ckcpack.com.vn/upload/products/hf2500_1618463297_332.25688073394x360.jpg" class="transitionAll" alt="" /></a>						
+						</p>
+						<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-nhom-tu-dong-co-bang-tai.html" title="MÁY DÁN MÀNG NHÔM TỰ ĐỘNG (CÓ BĂNG TẢI)" class="transitionAll">MÁY DÁN MÀNG NHÔM TỰ ĐỘNG (CÓ BĂNG TẢI)</a></h3>
+					</div>
+				</li>
+								<li>
+					<div class="box-sp">
+						<p class="sp-img transitionAll">
+							<a href="http://ckcpack.com.vn/vi/san-pham/may-han-mieng-bao-lien-tuc-dang-nam.html"><img src="http://ckcpack.com.vn/upload/products/sym901_1619491577_423.52941176471x360.jpg" class="transitionAll" alt="" /></a>						
+						</p>
+						<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-han-mieng-bao-lien-tuc-dang-nam.html" title="MÁY HÀN MIỆNG BAO LIÊN TỤC DẠNG NẰM" class="transitionAll">MÁY HÀN MIỆNG BAO LIÊN TỤC DẠNG NẰM</a></h3>
+					</div>
+				</li>
+								<li>
+					<div class="box-sp">
+						<p class="sp-img transitionAll">
+							<a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-dang-nam-toc-do-cao-trang-bi-man-hinh-cam-ung.html"><img src="http://ckcpack.com.vn/upload/products/450iv_1618474480_480x360.jpg" class="transitionAll" alt="" /></a>						
+						</p>
+						<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-dang-nam-toc-do-cao-trang-bi-man-hinh-cam-ung.html" title="MÁY ĐÓNG GÓI DẠNG NẰM TỐC ĐỘ CAO (TRANG BỊ MÀN HÌNH CẢM ỨNG)" class="transitionAll">MÁY ĐÓNG GÓI DẠNG NẰM TỐC ĐỘ CAO (TRANG BỊ MÀN HÌNH CẢM ỨNG)</a></h3>
+					</div>
+				</li>
+								<li>
+					<div class="box-sp">
+						<p class="sp-img transitionAll">
+							<a href="http://ckcpack.com.vn/vi/san-pham/may-sang-mot-tang.html"><img src="http://ckcpack.com.vn/upload/products/ls10001s-1_1618394693_480x347.98258345428.jpg" class="transitionAll" alt="" /></a>						
+						</p>
+						<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-sang-mot-tang.html" title="MÁY SÀNG MỘT TẦNG" class="transitionAll">MÁY SÀNG MỘT TẦNG</a></h3>
+					</div>
+				</li>
+								<li>
+					<div class="box-sp">
+						<p class="sp-img transitionAll">
+							<a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-chai-tron.html"><img src="http://ckcpack.com.vn/upload/products/kk916-1_1618539997_480x353.76.jpg" class="transitionAll" alt="" /></a>						
+						</p>
+						<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-chai-tron.html" title="MÁY DÁN NHÃN CHAI TRÒN" class="transitionAll">MÁY DÁN NHÃN CHAI TRÒN</a></h3>
+					</div>
+				</li>
+								<li>
+					<div class="box-sp">
+						<p class="sp-img transitionAll">
+							<a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-bot-tu-dong-goi-nho.html"><img src="http://ckcpack.com.vn/upload/products/280_1618568232_213.68098159509x360.jpg" class="transitionAll" alt="" /></a>						
+						</p>
+						<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-bot-tu-dong-goi-nho.html" title="MÁY ĐÓNG GÓI BỘT TỰ ĐỘNG (GÓI NHỎ)" class="transitionAll">MÁY ĐÓNG GÓI BỘT TỰ ĐỘNG (GÓI NHỎ)</a></h3>
+					</div>
+				</li>
+								<li>
+					<div class="box-sp">
+						<p class="sp-img transitionAll">
+							<a href="http://ckcpack.com.vn/vi/san-pham/buong-mang-co.html"><img src="http://ckcpack.com.vn/upload/products/sa313-pof-shrink-tunnel_1618455116_360x360.jpg" class="transitionAll" alt="" /></a>						
+						</p>
+						<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/buong-mang-co.html" title="BUỒNG MÀNG CO" class="transitionAll">BUỒNG MÀNG CO</a></h3>
+					</div>
+				</li>
+								<li>
+					<div class="box-sp">
+						<p class="sp-img transitionAll">
+							<a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-bot-tu-dong-goi-lon.html"><img src="http://ckcpack.com.vn/upload/products/2435_1618569187_192.73698264352x360.jpg" class="transitionAll" alt="" /></a>						
+						</p>
+						<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-bot-tu-dong-goi-lon.html" title="MÁY ĐÓNG GÓI BỘT TỰ ĐỘNG (GÓI LỚN)" class="transitionAll">MÁY ĐÓNG GÓI BỘT TỰ ĐỘNG (GÓI LỚN)</a></h3>
+					</div>
+				</li>
+								<li>
+					<div class="box-sp">
+						<p class="sp-img transitionAll">
+							<a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-tu-dong-dinh-luong-dang-can-goi-nho.html"><img src="http://ckcpack.com.vn/upload/products/280w_1618622925_220.67658998647x360.jpg" class="transitionAll" alt="" /></a>						
+						</p>
+						<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-tu-dong-dinh-luong-dang-can-goi-nho.html" title="MÁY ĐÓNG GÓI TỰ ĐỘNG ĐỊNH LƯỢNG DẠNG CÂN (GÓI NHỎ)" class="transitionAll">MÁY ĐÓNG GÓI TỰ ĐỘNG ĐỊNH LƯỢNG DẠNG CÂN (GÓI NHỎ)</a></h3>
+					</div>
+				</li>
+								<li>
+					<div class="box-sp">
+						<p class="sp-img transitionAll">
+							<a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-bot-vao-chai-hu-tu-dong-day-chuyen.html"><img src="http://ckcpack.com.vn/upload/products/sm21022h1s_1618631450_480x152.84210526316.jpg" class="transitionAll" alt="" /></a>						
+						</p>
+						<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-bot-vao-chai-hu-tu-dong-day-chuyen.html" title="MÁY CHIẾT BỘT VÀO CHAI HỦ TỰ ĐỘNG (DÂY CHUYỀN)" class="transitionAll">MÁY CHIẾT BỘT VÀO CHAI HỦ TỰ ĐỘNG (DÂY CHUYỀN)</a></h3>
+					</div>
+				</li>
+							</ul>
+		</div>
+	</div>
+
+</div><div class="info">
+	<div class="row">
+		<div class="i-title"><h2>Sản phẩm tiêu biểu<h2></div>
+		<div class="i-content">
+			<div class="col-xs-12 col-sm-12">
+								<div class="box-sp ">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-xay-dang-dinh.html"><img src="http://ckcpack.com.vn/upload/products/sm5_1618819829_458.18181818182x360.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-xay-dang-dinh.html" class="transitionAll" >MÁY XAY (DẠNG ĐINH)</a></h3>
+					
+				</div>
+								<div class="box-sp ">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-tron-dang-non.html"><img src="http://ckcpack.com.vn/upload/products/11111_1618816456_379.45945945946x360.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-tron-dang-non.html" class="transitionAll" >MÁY TRỘN (DẠNG NÓN)</a></h3>
+					
+				</div>
+								<div class="box-sp box-sp-right">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-nhom-ban-tu-dong.html"><img src="http://ckcpack.com.vn/upload/products/hf500-1_1618462178_360x360.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-nhom-ban-tu-dong.html" class="transitionAll" >MÁY DÁN MÀNG NHÔM BÁN TỰ ĐỘNG</a></h3>
+					
+				</div>
+				<div class="clearfix"></div>				<div class="box-sp ">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-ly-ban-tu-dong.html"><img src="http://ckcpack.com.vn/upload/products/20190219d91ea9a7a12222ddb936_1618635600_480x260.58631921824.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-mang-ly-ban-tu-dong.html" class="transitionAll" >MÁY DÁN MÀNG LY BÁN TỰ ĐỘNG</a></h3>
+					
+				</div>
+								<div class="box-sp ">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-han-mieng-bao-lien-tuc-dang-de-ban.html"><img src="http://ckcpack.com.vn/upload/products/sym900_1618480173_480x240.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-han-mieng-bao-lien-tuc-dang-de-ban.html" class="transitionAll" >MÁY HÀN MIỆNG BAO LIÊN TỤC DẠNG ĐỂ BÀN</a></h3>
+					
+				</div>
+								<div class="box-sp box-sp-right">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-dang-nam-toc-do-cao.html"><img src="http://ckcpack.com.vn/upload/products/htype_1618473624_480x316.83168316832.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-dang-nam-toc-do-cao.html" class="transitionAll" >MÁY ĐÓNG GÓI DẠNG NẰM TỐC ĐỘ CAO</a></h3>
+					
+				</div>
+				<div class="clearfix"></div>				<div class="box-sp ">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-ban-tu-dong-dang-l.html"><img src="http://ckcpack.com.vn/upload/products/ty601_1618456035_443.07692307692x360.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-ban-tu-dong-dang-l.html" class="transitionAll" >MÁY ĐÓNG GÓI MÀNG CO BÁN TỰ ĐỘNG DẠNG L</a></h3>
+					
+				</div>
+								<div class="box-sp ">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-goc-tren-duoi.html"><img src="http://ckcpack.com.vn/upload/products/cvc230a_1618543301_393.53424657534x360.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-dan-nhan-goc-tren-duoi.html" class="transitionAll" >MÁY DÁN NHÃN GÓC TRÊN DƯỚI</a></h3>
+					
+				</div>
+								<div class="box-sp box-sp-right">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-2-canh-ban-tu-dong.html"><img src="http://ckcpack.com.vn/upload/products/8179fe7eea559fe123472a9928bca78fc25041mv2_1618800897_480x279.18367346939.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-dong-goi-mang-co-2-canh-ban-tu-dong.html" class="transitionAll" >MÁY ĐÓNG GÓI MÀNG CO 2 CẠNH BÁN TỰ ĐỘNG</a></h3>
+					
+				</div>
+				<div class="clearfix"></div>				<div class="box-sp ">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-indate-tu-dong.html"><img src="http://ckcpack.com.vn/upload/products/untitled_1618546962_480x331.40049140049.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-indate-tu-dong.html" class="transitionAll" >MÁY INDATE TỰ ĐỘNG</a></h3>
+					
+				</div>
+								<div class="box-sp ">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-sang-khong-gay-tieng-on.html"><img src="http://ckcpack.com.vn/upload/products/ls450san_1618395739_360x360.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-sang-khong-gay-tieng-on.html" class="transitionAll" >MÁY SÀNG KHÔNG GÂY TIẾNG ỒN</a></h3>
+					
+				</div>
+								<div class="box-sp box-sp-right">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-gap-giay-tu-dong-f262-f264.html"><img src="http://ckcpack.com.vn/upload/products/f262-1_1618548041_480x270.93333333333.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-gap-giay-tu-dong-f262-f264.html" class="transitionAll" >MÁY GẤP GIẤY TỰ ĐỘNG (F-262/ F-264)</a></h3>
+					
+				</div>
+				<div class="clearfix"></div>				<div class="box-sp ">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-bot-ban-tu-dong-dang-truc-xoan.html"><img src="http://ckcpack.com.vn/upload/products/sm2002_1618556582_221.40221402214x360.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-chiet-bot-ban-tu-dong-dang-truc-xoan.html" class="transitionAll" >MÁY CHIẾT BỘT BÁN TỰ ĐỘNG DẠNG TRỤC XOẮN</a></h3>
+					
+				</div>
+								<div class="box-sp ">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-gap-giay-tu-dong-f342-f344.html"><img src="http://ckcpack.com.vn/upload/products/f342_1618889338_469.31506849315x360.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-gap-giay-tu-dong-f342-f344.html" class="transitionAll" >MÁY GẤP GIẤY TỰ ĐỘNG (F-342/ F-344)</a></h3>
+					
+				</div>
+								<div class="box-sp box-sp-right">
+					<p class="sp-img transitionAll"><a href="http://ckcpack.com.vn/vi/san-pham/may-xay-mini.html"><img src="http://ckcpack.com.vn/upload/products/srt34_1618825417_458.18181818182x360.jpg" alt="" class="transitionAll" onError="this.src='images/no_image.png'" /></a></p>
+					<h3 class="sp-name"><a href="http://ckcpack.com.vn/vi/san-pham/may-xay-mini.html" class="transitionAll" >MÁY XAY MINI</a></h3>
+					
+				</div>
+				<div class="clearfix"></div>			</div>
+			<div class="col-xs-12 col-sm-12 paging"> <a href='http://ckcpack.com.vn/vi/index/' class="prev-all transitionAll" ><i class="fa fa-angle-double-left"></i></a>  <a href='http://ckcpack.com.vn/vi/index/p=0' class="prev transitionAll" ><i class="fa fa-angle-left"></i></a>  <span>1</span>  <a class="numberic transitionAll" href='http://ckcpack.com.vn/vi/index/p=2'>2</a>  <a class="numberic transitionAll" href='http://ckcpack.com.vn/vi/index/p=3'>3</a>  <a class="numberic transitionAll" href='http://ckcpack.com.vn/vi/index/p=4'>4</a>  <a class="numberic transitionAll" href='http://ckcpack.com.vn/vi/index/p=5'>5</a>  <a href='http://ckcpack.com.vn/vi/index/p=2' class="next transitionAll" ><i class="fa fa-angle-right"></i></a>  <a href='http://ckcpack.com.vn/vi/index/p=5' class="prev-all transitionAll" ><i class="fa fa-angle-double-right"></i></a> </div>
+		</div>
+	</div>
+</div>	
+
+
+
+				
+			</div>
+			
+<script type="text/javascript" >
+	$(document).ready(function(){
+		$('.partners-slide').bxSlider({
+			slideWidth: 160,
+			minSlides: 1,
+			maxSlides: 8,
+			moveSlides: 1,
+			slideMargin: 22,
+			responsive: true,
+			touchEnabled: true,
+			pager: false,
+			auto: true
+		});
+		
+	});
+</script>
+
+<div id="partners">
+
+	<div class="inner">
+		<div class="partners-slide">
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/untitled1_1619692645_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/untitled_1619692488_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/untitled_1619058527_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/untit555led_1619057418_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/untit222led_1618895241_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/u11ntitled_1618895154_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z24447386550082f6d67f7fce1242f241b04f3f0fc82e9_1618894866_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z24447360655652ee01cc678ded7f55b814230f91c9f39_1618894858_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444735196913dd5e0fa42157a853bf93c8a1feb598ed_1618894850_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444734566626a77d6934c17a6c5c9deec1dad9fd08e5_1618894840_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444733986064df5a78b0f49dde1619f9977f42a62329_1618894716_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444731890299dc9268dd7b2c49afb4a3d4eaec8b4692_1618894708_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444730506372e9820615af4550183e1328ba69f69f07_1618894701_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444728109292646ee22a184d9d179cd67ba67a4896a3_1618894561_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444727350933948a7c9d6d976bec6bf6597de7aa1c2b_1618894554_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/un111titled_1618895376_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/u11111ntitled_1619057542_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444707878303e864625ff36705f05f65fb371df95681_1618894037_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444707154213c89ab85a5b25e14a657dff3a77a66269_1618894029_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/untitled1111_1618895499_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444701622307c3f4826285bf35c6750d52320b6de4eb_1618893982_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/u222222ntitled_1619057756_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/u33333ntitled_1619058069_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z24446913600492fb8b797f6a982b77e7b44bd28a9de32_1618893959_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/u4444ntitled_1619058276_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z24446863701611d252df08a57b8b583770c7621aa02be_1618893933_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/untitl999ed_1618911087_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/untitle8888d_1618910049_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/u55555ntitled_1619058346_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z244467891182004ad31407027e51eb569bf43c7f5423f_1618893885_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/untitled888_1618903359_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444669096773f5aedddf04359a203d0135044cdea798_1618893866_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/u66666ntitled_1619058424_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/untitle444d_1618903464_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z244464403430474e7683068848b2357173a449b03700e_1618892135_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/untit6666led_1618911184_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444632910423aacba2c44c466783470bbd53ec2079ef_1618892115_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444629589035e4499b8b1165e6901fd73df829b70af6_1618892106_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z24446247712068f36faf849ef4d55ad09fe6494f2678e_1618891507_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444619382267fa82f8aca6b958f6e5d58b4af9e972f9_1618891477_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/z2444615149913a71dddaa54e55de31ceaccdc35f7cfba_1618891469_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/lafoco_1618891194_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/2222222222_1618890921_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/444444_1618890649_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/4444d_1618890433_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/untit333led_1618828896_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/u222ntitled_1618828765_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/untit22led_1618828663_300x200.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/cholimex_1435376716_300x200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" ><img src="http://ckcpack.com.vn/upload/hinhanh/vifon_1435376861_300x200.jpg" /></a>
+			</div>
+			
+		</div>
+	</div>
+</div>
+		</div>
+		
+<div id="footer">
+
+	<div class="inner clearfix">
+		<div class="col-xs-8 col-sm-8">
+			<div class="col-xs-7 col-sm-7">
+				<h2 class="txt-ac">Thông tin công ty</h2>
+				<p><span style="font-size:14px"><span style="font-family:arial,helvetica,sans-serif"><span style="font-size:18px"><strong>CÔNG TY TNHH THƯƠNG MẠI&nbsp;CHÍNH QUANG</strong></span><br />
+Địa chỉ: 26 - 28 - 30&nbsp;Đường số 3, CX Bình Thới, P8, Q11, TP.HCM<br />
+Điện Thoại: +84-28-3962-2629, 3962-9563,&nbsp; Fax: +84-28-3962-3980<br />
+Emai: sale@ckcpack.com.vn<br />
+Website:&nbsp;http://www.ckcpack.com.vn</span></span></p>
+			</div>
+			<div class="col-xs-5 col-sm-5">
+				<h2 class="txt-ac">Thống kê truy cập</h2>
+				<div id="counter">
+							<p><i class="fa fa-user"></i> Đang Online : <b class="red">1</b> </p>
+			<p ><i class="fa fa-users"></i> Hôm nay : 75</p>
+				<p><i class="fa fa-users"></i> Tháng này : 1989</p>
+				<p><i class="fa fa-bar-chart-o"></i> Tổng truy cập : 172573</p>
+				
+				</div>
+			</div>
+			<div class="col-xs-7 col-sm-7">
+				<h2 class="txt-ac">Đăng ký nhận tin</h2>
+				<p class="input-group" id="newsletter">				
+					<input type="text" class="form-control" name="email" id="email" onkeypress="doEnter_Email(event)" placeholder="E-mail của bạn" />
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button" id="btn-newsletter"><i class="fa fa-send"></i></button>
+					</span>
+									   
+				</p>
+				<p id="notice"></p>
+			</div>	
+			<div class="col-xs-5 col-sm-5">
+				<h2 class="txt-ac">Mạng xã hội</h2>
+				<p id="social">
+					<a href="https://www.facebook.com/CongTyCkc/" target="_blank" class="btn btn-social-icon btn-facebook transitionAll" ><i class="fa fa-facebook"></i></a><a href="" target="_blank" class="btn btn-social-icon btn-twitter transitionAll" ><i class="fa fa-twitter"></i></a><a href="" target="_blank" class="btn btn-social-icon btn-google-plus transitionAll" ><i class="fa fa-google-plus"></i></a><a href="" target="_blank" class="btn btn-social-icon btn-youtube-square transitionAll" ><i class="fa fa-youtube-square"></i></a>				</p>
+			</div>
+		</div>
+		<div class="col-xs-4 col-sm-4">
+			<h2 class="txt-ac">Fanpage</h2>
+			<div class="fb-page" data-href="https://www.facebook.com/CongTyCkc/?ref=m_notif&notif_t=page_admin_invite" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div>
+		</div>
+	</div>
+	
+</div>
+<script>
+	$(document).ready(function(){
+		
+		$('#btn-newsletter').click(function(evt){
+			newsletter(evt);
+		});
+	})
+	
+	function newsletter(evt){
+		var el = $('p#newsletter > input#email');
+		var emailRegExp = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.([a-z]){2,4})$/;
+		if(el.val()==''){el.focus();$('#notice').html('Xin vui lòng nhập địa chỉ email của bạn');return false;}
+		if(!emailRegExp.test(el.val())){
+			el.focus();
+			$('#notice').html('Email không đúng');
+		}else{
+			$.ajax({
+				type: 'POST',
+				url : 'http://ckcpack.com.vn/ajax/newsletter.php',
+				data: 'email='+el.val(),
+				beforeSend: function(){
+					$('#notice').html('<img src="http://ckcpack.com.vn/images/loading-icon.gif" />');
+				},
+				success: function(result){
+					$('#notice').html(result);
+				}
+			});	
+		}
+		
+	}
+	
+	function doEnter_Email(evt){
+		var key;
+		if(evt.keyCode == 13 || evt.which == 13){
+			newsletter(evt);
+		}else{
+			return false;	
+		}
+	}
+</script>	</div><!-- #wrapper -->
+	
+	
+</body>
+</html>

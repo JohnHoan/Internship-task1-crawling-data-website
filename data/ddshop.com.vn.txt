@@ -1,0 +1,1501 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="content-language" content="vi" />
+
+<link rel="preload" href="https://ddshop.vn/assets/css/bootstrap.min.css" as="style" />
+<link rel="preload" href="https://ddshop.vn/assets/fontawesome-5.15.2/css/all.min.css" as="style" />
+<link href="https://ddshop.vn/assets/css/ddshop-style.css?56" rel="stylesheet" /><link rel="preload" href="https://ddshop.vn/assets/js/jquery-3.5.1.min.js" as="script" />
+<link rel="preload" href="https://ddshop.vn/assets/js/bootstrap.bundle.min.js" as="script" />
+<link rel="preload" href="https://ddshop.vn/assets/js/commonall.js" as="script" />
+<link rel="preload" href="https://ddshop.vn/assets/js/typeahead.bundle.min.js" as="script" />
+
+<link href="https://ddshop.vn/assets/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://ddshop.vn/assets/fontawesome-5.15.2/css/all.min.css" rel="stylesheet" />
+<link href="https://ddshop.vn/assets/css/ddshop-style.css?56" rel="stylesheet" />
+<!-- manifest -->
+<link rel="apple-touch-icon" sizes="57x57" href="/manifest/apple-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="/manifest/apple-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/manifest/apple-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/manifest/apple-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/manifest/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/manifest/apple-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/manifest/apple-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/manifest/apple-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/manifest/apple-icon-180x180.png" />
+<link rel="icon" type="image/png" sizes="192x192"  href="/manifest/android-icon-192x192.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/manifest/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="/manifest/favicon-96x96.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/manifest/favicon-16x16.png" />
+<link rel="manifest" href="/manifest/manifest.json">
+<meta name="msapplication-TileColor" content="#0250a5" />
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+<meta name="theme-color" content="#0250a5" />
+<!-- end manifest -->
+<title>DDshop - Thương hiệu bán lẻ sản phẩm Đã kiểm nghiệm - Đã chọn lọc</title>
+<meta name="description" content="DDshop không bán hàng tràn lan, chỉ bán hàng đã được kiểm nghiệm và chọn lọc kỹ càng, giúp bạn mua hàng yên tâm không lo mua phải hàng kém chất lượng">
+<link rel="canonical" href="https://ddshop.vn">
+
+<meta property="og:title" content="DDshop - Thương hiệu bán lẻ sản phẩm Đã kiểm nghiệm - Đã chọn lọc">
+<meta property="og:description" content="DDshop không bán hàng tràn lan, chỉ bán hàng đã được kiểm nghiệm và chọn lọc kỹ càng, giúp bạn mua hàng yên tâm không lo mua phải hàng kém chất lượng">
+<meta property="og:url" content="https://ddshop.vn">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://ddshop.vn/images/logo-home-mxh.jpg">
+<meta property="og:locale" content="vi_VN">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L0MZPTN9FK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L0MZPTN9FK');
+</script>
+</head>
+<body>
+<header id="header_ddshop" class="ddshop_bg_1">
+    <div class="block one">
+        <div class="sidebar_btn">
+            <i class="fas fa-bars"></i>
+        </div>
+        
+        
+    </div>
+    <div class="block-logo">   
+        <a class="loglo" href="/">
+            <img src="/images/logo-ddshop.png" alt="Thương hiệu bán hàng: Đã kiểm nghiệm - Đã chọn lọc" title="Thương hiệu bán hàng: Đã kiểm nghiệm - Đã chọn lọc">
+        </a>
+        <div class="dropdown nav_dropdown slogan_nav_inside">
+            <a id="slogan_nav" class="nav_right_item muda_slogan">
+                <div class="slg-line-2">
+                    <span class="muda_slogan_mu">Đã</span> kiểm nghiệm - <span class="muda_slogan_da">Đã</span><span> chọn lọc</span>
+                </div>
+            </a>
+            <div class="dropdown-menu muda_slogan_dropdown">
+                <div class="nav-arrow"><div class="nav-arrow-inner"></div></div>
+                <div class="title_dropdown text-center">Tiêu chí bán hàng</div>
+                <hr class="orange">
+                <div class="content_nav_ms">
+                    <p>DDshop chỉ bán các sản phẩm</p>
+                    <ul>
+                        <li>Đã được kiểm nghiệm</li>
+                        <li>Đã được chọn lọc</li>
+                    </ul>
+                    <p>DDshop sẽ thay bạn trải nghiệm và chọn lọc sản phẩm</p>
+                    <p>Giúp bạn giảm thời gian tìm hiểu trước khi quyết định mua hàng</p>
+                    
+                </div>
+                <hr class="orange">
+                <div class="text-center">
+                    <a rel="nofollow" href="https://ddshop.vn/tieu-chi-ban-hang">Xem tiêu chí bán hàng</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block two form-inline">
+        <div class="nav_search">
+            <input class="search_nav_input" type="search" placeholder="Tìm kiếm sản phẩm, thương hiệu..." autocomplete="off">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+
+    <div class="block three">
+        <!-- username start -->
+        <div class="user-or-login-block dropdown nav_dropdown">
+            <a class="nav_right_item user_name" href="#">
+                                <span class="user_name mt-3">Đăng nhập</span>
+                            </a>
+
+            <div class="dropdown-menu user guest">
+                <div class="nav-arrow"><div class="nav-arrow-inner"></div></div>
+                
+                                <div class="title_dropdown text-center mt-2">
+                    <a rel="nofollow" href="/login" class="btn btn-sm" role="button">Đăng nhập</a>
+                    <div class="mt-2 mb-4"><small>Khách hàng mới? <a rel="nofollow" href="/register">Đăng ký</a></small></div>
+                    <div class="guest_message">
+                                                <div class="guest_message_title text-center">Hãy đăng ký tài khoản để hưởng ưu đãi</div>
+                        <hr>
+                        <ul class="ddshop_ul">
+                            <li><a href="#">Nhận quà Sinh nhật từ DDshop</a></li>
+                            <li><a href="#">Hưởng các ưu đãi cho khách hàng cũ</a></li>
+                            <li><a href="#">Theo dõi đơn hàng, thuận tiện hơn</a></li>
+                            <li><a href="#">Nhiều chương trình hấp dẫn khác</a></li>
+                        </ul>
+                        <a rel="nofollow" href="/register" class="btn btn-sm cart_success_main mt-3 mb-3" role="button">Đăng ký ngay</a>
+                    </div>
+                </div>
+                
+                            </div>
+        </div>
+        <!-- username end -->
+
+        <!-- cart start -->
+        <div id="cart_nav" class="dropdown nav_dropdown nav_right_block">
+            <a href="#" class="nav_right_item cart">
+                <img src="/images/icons/shoping_cart.png" alt="Giỏ hàng">
+                <span class="count_cart">0</span>
+                <span class="cart_text">Giỏ hàng</span>
+            </a>
+
+            <div class="dropdown-menu dropdown-menu-right cart">
+                <div class="nav-arrow"><div class="nav-arrow-inner"></div></div>
+                                <div class="title_dropdown text-center">
+                    <span>Giỏ hàng</span>
+                </div>
+                <div class="shoping_cart_container mt-2 no-product">
+                    <p class="text-center">Chưa Có Sản Phẩm</p>
+                </div>
+                <br><br><br>
+                <div class="act_btn mt-2">
+                    <a rel="nofollow" href="/cart" id="view_cart" class="btn btn-warning">Vào Giỏ Hàng</a>
+                </div>
+                            </div>
+        </div>
+        <!-- cart end -->
+    </div>
+</header>
+<nav id="search_nav">
+    <div class="block two form-inline">
+        <div class="nav_search">
+            <input class="search_nav_input" type="search" name="s" placeholder="Tìm kiếm sản phẩm, thương hiệu..." autocomplete="off" maxlength="88">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+</nav>
+<nav id="main_nav">
+    <div class="main_nav_menu dropdown nav_dropdown">
+        <i class="fas fa-bars mr-1"></i>
+        <span>Danh Mục</span>
+        <div class="dropdown-menu">
+            <div class="nav-arrow"><div class="nav-arrow-inner"></div></div>
+            <div id="content_main_nav_menu">
+                <div class="content_main_nav_menu_sidebar pb-2">
+                    <ul id="main_nav_menu_sidebar_content" class="row">
+                        <li class="col-sm">
+                            <a href="/nha-cua-do-gia-dung.html" class="strong mb-2">
+                                <span>Nhà Cửa - Đồ gia dụng</span>
+                            </a>
+                            <ul class="sidebar_content_main_nav">
+                                <li>
+                                    <a href="/phong-khach.html">Phòng Khách</a>
+                                </li>
+                                <li>
+                                    <a href="/phong-ngu.html">Phòng Ngủ</a>
+                                </li>
+                                <li>
+                                    <a href="/bep.html">Bếp</a>
+                                </li>
+                                <li>
+                                    <a href="/phong-tam.html">Phòng Tắm</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="col-sm">
+                            <a href="/lam-dep-suc-khoe.html" class="strong mb-2" >Làm Đẹp & Sức Khoẻ</a>
+                            <ul class="sidebar_content_main_nav">
+                                <li>
+                                    <a href="/trang-diem.html">Trang Điểm</a>
+                                </li>
+                                <li>
+                                    <a href="/cham-soc-da-mat.html">Chăm Sóc Da Mặt</a>
+                                </li>
+                                <li>
+                                    <a href="/cham-soc-co-the.html">Chăm Sóc Cơ Thể</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="col-sm">
+                            <a href="/thoi-trang-nu.html" class="strong mb-2">Thời Trang Nữ</a>
+                            <ul class="sidebar_content_main_nav">
+                                <li>
+                                    <a href="/quan-ao-nu.html">Quần Áo Nữ</a>
+                                </li>
+                                <li>
+                                    <a href="/tui-nu.html">Túi Nữ</a>
+                                </li>
+                                <li>
+                                    <a href="/vi-nu.html">Ví Nữ</a>
+                                </li>
+                                <li>
+                                    <a href="/giay-dep-nu.html">Giầy Dép Nữ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="col-sm">
+                            <a href="/thoi-trang-nam.html" class="strong mb-2">Thời Trang Nam</a>
+                            <ul class="sidebar_content_main_nav">
+                                <li>
+                                    <a href="/quan-ao-nam.html">Quần Áo Nam</a>
+                                </li>
+                                <li>
+                                    <a href="/giay-dep-nam.html">Giầy Dép Nam</a>
+                                </li>
+                                <li>
+                                    <a href="/ballo-vali.html">Ballo & Vali</a>
+                                </li>
+                                <li>
+                                    <a href="/phu-kien-thoi-trang.html">Phụ Kiện Thời Trang</a>
+                                </li>
+                                <li>
+                                    <a href="/dong-ho-trang-suc.html">Đồng Hồ & Trang Sức</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="col-sm">
+                            <a href="/cong-nghe.html" class="strong">Công nghệ</a>
+                            <ul class="sidebar_content_main_nav">
+                                <li>
+                                    <a href="/may-tinh-va-linh-kien.html">Máy tính & linh kiện</a>
+                                </li>
+                                <li>
+                                    <a href="/dien-thoai-va-phu-kien.html">Điện thoại & phụ kiện</a>
+                                </li>
+                                <li>
+                                    <a href="/san-pham-cong-nghe-khac.html">SP công nghệ khác</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/do-choi-me-va-be.html" class="strong">Đồ Chơi - Mẹ & Bé</a>
+                            <ul class="sidebar_content_sub">
+                                <li>
+                                    <a href="/do-choi-tre-em.html">Đồ chơi trẻ em</a>
+                                </li>
+                                <li>
+                                    <a href="/me-va-be.html">Mẹ & bé</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/sach-truyen-van-phong-pham-va-qua-tang.html" class="strong">Sách, VVP & Quà tặng</a>
+                            <ul class="sidebar_content_sub">
+                                <li>
+                                    <a href="/sach-truyen.html">Sách, truyện</a>
+                                </li>
+                                <li>
+                                    <a href="/van-phong-pham-va-qua-tang.html">Văn phòng phẩm & Quà tặng</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="col-sm">
+                            <a href="/tat-ca-san-pham.html" class="strong">Tất cả sản phẩm</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="/trai-nghiem-huu-ich-c=9.html">
+        <span>Kiểm nghiệm hữu ích</span>
+    </a>
+    <a href="/kinh-nghiem-hay-c=2.html">
+        <span>Kinh nghiệm hay</span>
+    </a>
+
+    <!-- username start -->
+    <div class="user-or-login-block dropdown nav_dropdown">
+        <a class="nav_right_item user_name" href="#">
+                        <span class="user_name">Đăng nhập</span>
+                    </a>
+
+        <div class="dropdown-menu user guest dropdown-menu-right">
+            <div class="nav-arrow"><div class="nav-arrow-inner"></div></div>
+            
+                        <div class="title_dropdown text-center mt-2">
+                <a rel="nofollow" href="/login" class="btn btn-sm" role="button">Đăng nhập</a>
+                <div class="mt-2 mb-4"><small>Khách hàng mới? <a href="/register">Đăng ký</a></small></div>
+                <div class="guest_message">
+                                        <div class="guest_message_title text-center">Hãy đăng ký tài khoản để hưởng ưu đãi</div>
+                    <hr>
+                    <ul class="ddshop_ul">
+                        <li><a href="#">Nhận quà Sinh nhật từ DDshop</a></li>
+                        <li><a href="#">Hưởng các ưu đãi cho khách hàng cũ</a></li>
+                        <li><a href="#">Theo dõi đơn hàng, thuận tiện hơn</a></li>
+                        <li><a href="#">Nhiều chương trình hấp dẫn khác</a></li>
+                    </ul>
+                    <a rel="nofollow" href="/register" class="btn btn-sm cart_success_main mt-3 mb-3" role="button">Đăng ký ngay</a>
+                </div>
+            </div>
+            
+                    </div>
+    </div>
+    <!-- username end -->
+
+</nav>
+
+<div class="sidebar" id="sidebar">
+    <div id="sidebar_home">
+        <a class="strong p-0" href="/">Home</a>
+    </div>
+    <button type="button" class="close" id="sidebar_close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <ul id="sidebar_content">
+        <li>
+            <a href="/nha-cua-do-gia-dung.html" class="strong">
+                <span>Nhà Cửa - Đồ gia dụng</span>
+            </a>
+            <ul class="sidebar_content_sub">
+                <li>
+                    <a href="/phong-khach.html">Phòng Khách</a>
+                </li>
+                <li>
+                    <a href="/phong-ngu.html">Phòng Ngủ</a>
+                </li>
+                <li>
+                    <a href="/bep.html">Bếp</a>
+                </li>
+                <li>
+                    <a href="/phong-tam.html">Phòng Tắm</a>
+                </li>
+            </ul>
+        </li>
+        <li class="hmenu-separator"></li>
+        <li>
+            <a href="/lam-dep-suc-khoe.html" class="strong" >Làm Đẹp & Sức Khoẻ</a>
+            <ul class="sidebar_content_sub">
+                <li>
+                    <a href="/trang-diem.html">Trang Điểm</a>
+                </li>
+                <li>
+                    <a href="/cham-soc-da-mat.html">Chăm Sóc Da Mặt</a>
+                </li>
+                <li>
+                    <a href="/cham-soc-co-the.html">Chăm Sóc Cơ Thể</a>
+                </li>
+            </ul>
+        </li>
+        <li class="hmenu-separator"></li>
+        <li>
+            <a href="/thoi-trang-nu.html" class="strong">Thời Trang Nữ</a>
+            <ul class="sidebar_content_sub">
+                <li>
+                    <a href="/quan-ao-nu.html">Quần Áo Nữ</a>
+                </li>
+                <li>
+                    <a href="/tui-nu.html">Túi Nữ</a>
+                </li>
+                <li>
+                    <a href="/vi-nu.html">Ví Nữ</a>
+                </li>
+                <li>
+                    <a href="/giay-dep-nu.html">Giầy Dép Nữ</a>
+                </li>
+            </ul>
+        </li>
+        <li class="hmenu-separator"></li>
+        <li>
+            <a href="/thoi-trang-nam.html" class="strong">Thời Trang Nam</a>
+            <ul class="sidebar_content_sub">
+                <li>
+                    <a href="/quan-ao-nam.html">Quần Áo Nam</a>
+                </li>
+                <li>
+                    <a href="/giay-dep-nam.html">Giầy Dép Nam</a>
+                </li>
+                <li>
+                    <a href="/ballo-vali.html">Ballo & Vali</a>
+                </li>
+                <li>
+                    <a href="/phu-kien-thoi-trang.html">Phụ Kiện Thời Trang</a>
+                </li>
+                <li>
+                    <a href="/dong-ho-trang-suc.html">Đồng Hồ & Trang Sức</a>
+                </li>
+            </ul>
+        </li>
+        <li class="hmenu-separator"></li>
+        <li>
+            <a href="/cong-nghe.html" class="strong">Công nghệ</a>
+            <ul class="sidebar_content_sub">
+                <li>
+                    <a href="/may-tinh-va-linh-kien.html">Máy tính & linh kiện</a>
+                </li>
+                <li>
+                    <a href="/dien-thoai-va-phu-kien.html">Điện thoại & phụ kiện</a>
+                </li>
+                <li>
+                    <a href="/san-pham-cong-nghe-khac.html">SP công nghệ khác</a>
+                </li>
+            </ul>
+        </li>
+        <li class="hmenu-separator"></li>
+        <li>
+            <a href="/do-choi-me-va-be.html" class="strong">Đồ Chơi - Mẹ & Bé</a>
+            <ul class="sidebar_content_sub">
+                <li>
+                    <a href="/do-choi-tre-em.html">Đồ chơi trẻ em</a>
+                </li>
+                <li>
+                    <a href="/me-va-be.html">Mẹ & bé</a>
+                </li>
+            </ul>
+        </li>
+        <li class="hmenu-separator"></li>
+        <li>
+            <a href="/sach-truyen-van-phong-pham-va-qua-tang.html" class="strong">Sách, VVP & Quà tặng</a>
+            <ul class="sidebar_content_sub">
+                <li>
+                    <a href="/sach-truyen.html">Sách, truyện</a>
+                </li>
+                <li>
+                    <a href="/van-phong-pham-va-qua-tang.html">Văn phòng phẩm & Quà tặng</a>
+                </li>
+            </ul>
+        </li>
+        <li class="hmenu-separator"></li>
+        <li>
+            <a href="/tat-ca-san-pham.html" class="strong">Tất cả sản phẩm</a>
+        </li>
+    </ul>
+</div>    
+<div class="container_ddshop">
+<div id="home_page">
+    <div id="carousel_home_top" class="carousel slide slide_in_content" data-ride="carousel" data-interval="false">
+        <ol class="carousel-indicators">
+                        <li data-target="#carousel_home_top" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel_home_top" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel_home_top" data-slide-to="2" class=""></li>
+                        <li data-target="#carousel_home_top" data-slide-to="3" class=""></li>
+                    </ol>
+        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                <a href="https://ddshop.vn/phong-khach.html">
+                    <img class="not-mobile-slide d-block w-100" src="https://ddshop.vn/images/slideshows/noi-that-do-gia-dung.jpg?2" loading="eager" alt="Nội thất phòng khách, đồ gia dụng">
+                    <img class="mobile-slide d-block w-100" src="https://ddshop.vn/images/slideshows/noi-that-do-gia-dung-mb.jpg?2" loading="eager" alt="Nội thất phòng khách, đồ gia dụng">
+                </a>
+            </div>
+                        <div class="carousel-item">
+                <a href="https://ddshop.vn/thoi-trang-nu.html">
+                    <img class="not-mobile-slide d-block w-100" src="https://ddshop.vn/images/slideshows/thoi-trang-nu.jpg?2" loading="lazy" alt="Thời trang nữ">
+                    <img class="mobile-slide d-block w-100" src="https://ddshop.vn/images/slideshows/thoi-trang-nu-mb.jpg?2" loading="lazy" alt="Thời trang nữ">
+                </a>
+            </div>
+                        <div class="carousel-item">
+                <a href="https://ddshop.vn/may-tinh-va-linh-kien.html">
+                    <img class="not-mobile-slide d-block w-100" src="https://ddshop.vn/images/slideshows/may-tinh-linh-kien.jpg?2" loading="lazy" alt="Máy tính, linh kiện">
+                    <img class="mobile-slide d-block w-100" src="https://ddshop.vn/images/slideshows/may-tinh-linh-kien-mb.jpg?2" loading="lazy" alt="Máy tính, linh kiện">
+                </a>
+            </div>
+                        <div class="carousel-item">
+                <a href="https://ddshop.vn/do-choi-tre-em.html">
+                    <img class="not-mobile-slide d-block w-100" src="https://ddshop.vn/images/slideshows/do-choi-tre-em-2.jpg?3" loading="lazy" alt="Đồ chơi trẻ em">
+                    <img class="mobile-slide d-block w-100" src="https://ddshop.vn/images/slideshows/do-choi-tre-em-2-mb.jpg?3" loading="lazy" alt="Đồ chơi trẻ em">
+                </a>
+            </div>
+                        <div class="gradient"></div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel_home_top" role="button" data-slide="prev">
+            <i class="a-icon a-icon-previous-rounded"></i>
+        </a>
+        <a class="carousel-control-next" href="#carousel_home_top" role="button" data-slide="next">
+            <i class="a-icon a-icon-next-rounded"></i>
+        </a>
+    </div>
+    
+    <div class="home_page produc_page">
+        <div class="first_line">
+            <div class="block_first_line">
+                <div class="a_block_first_line_header text-center">
+                    <h2>Mua sắm cơ bản</h2>
+                </div>
+                <div class="block_first_line_body">
+                    <a href="https://ddshop.vn/nha-cua-do-gia-dung.html">
+                        <div class="block_first_line_img">
+                            <img src="/images/slideshows/mua-sam-co-ban.jpg" loading="eager" alt="Mua sắm cơ bản cho gia đình">
+                        </div>
+                    </a>
+                </div>
+                <div class="a_block_first_line_footer text-center">
+                    <a href="">Khám phá</a>
+                </div>
+            </div>
+            <div class="block_first_line">
+                <div class="a_block_first_line_header text-center">
+                    <h2>Công nghệ</h2>
+                </div>
+                <div class="block_first_line_body">
+                    <a href="https://ddshop.vn/cong-nghe.html">
+                        <div class="block_first_line_img">
+                            <img src="/images/slideshows/cong-nghe.jpg" loading="eager" alt="Công nghệ và phụ kiện">
+                        </div>
+                    </a>
+                </div>
+                <div class="a_block_first_line_footer text-center">
+                    <a href="">Khám phá</a>
+                </div>
+            </div>
+            <div class="block_first_line">
+                <div class="a_block_first_line_header text-center">
+                    <h2>Làm đẹp & Sức khoẻ</h2>
+                </div>
+                <div class="block_first_line_body">
+                    <a href="https://ddshop.vn/lam-dep-suc-khoe.html">
+                        <div class="block_first_line_img">
+                            <img src="https://ddshop.vn/images/slideshows/lam-dep.jpg" loading="lazy" alt="Sản phẩm chăm sóc sức khỏe và làm đẹp">
+                        </div>
+                    </a>
+                </div>
+                <div class="a_block_first_line_footer text-center">
+                    <a href="">Khám phá</a>
+                </div>
+            </div>
+            <div class="block_first_line">
+                <div class="a_block_first_line_header text-center">
+                    <h2>Giày dép Nữ</h2>
+                </div>
+                <div class="block_first_line_body">
+                    <a href="https://ddshop.vn/giay-dep-nu.html">
+                        <div class="block_first_line_img">
+                            <img src="https://ddshop.vn/images/slideshows/giay-dep-nu.jpg" loading="lazy" alt="Giày dép nữ đẹp chọn lọc">
+                        </div>
+                    </a>
+                </div>
+                <div class="a_block_first_line_footer text-center">
+                    <a href="">Khám phá</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="popular_search" class="mt-3">
+            <h3 class="text-center">SẢN PHẨM NỔI BẬT</h3>
+            <div class="row second_line mt-3">
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/dong-phuc-gia-dinh-p=77.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/dong-phuc-gia-dinh(3)-280.jpg" loading="lazy" alt="Đồng phục gia đình">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Đồng phục gia đình</div>
+                                <div class="block_second_line_price">
+                                    <span>200.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/chan-vay-but-chi-xe-ta-cheo-p=76.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/chan-vay-but-chi-xe-ta-280.jpg" loading="lazy" alt="Chân váy bút chì xẻ tà chéo">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Chân váy bút chì xẻ tà chéo</div>
+                                <div class="block_second_line_price">
+                                    <span>290.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/ba-lo-keo-du-lich-p=75.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/ba-lo-keo-du-lich-mau-den-280.jpg" loading="lazy" alt="Ba lô kéo du lịch">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Ba lô kéo du lịch</div>
+                                <div class="block_second_line_price">
+                                    <span>299.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/gia-sach-de-ban-p=74.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/ke-gia-sach(1)-280.jpg" loading="lazy" alt="Giá sách để bàn">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Giá sách để bàn</div>
+                                <div class="block_second_line_price">
+                                    <span>490.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/ke-de-cay-canh-trong-nha-p=73.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/ke-de-cay-canh-trong-nha(1)-280.jpg" loading="lazy" alt="Kệ để cây cảnh trong nhà">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Kệ để cây cảnh trong nhà</div>
+                                <div class="block_second_line_price">
+                                    <span>330.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/dong-ho-dan-tuong-p=72.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/dong-ho-dan-tuong(1)-280.jpg" loading="lazy" alt="Đồng hồ dán tường">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Đồng hồ dán tường</div>
+                                <div class="block_second_line_price">
+                                    <span>630.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/leu-cam-trai-leu-du-lich-2-nguoi-p=71.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/leu-cam-trai-mau-xanh(1)-280.jpg" loading="lazy" alt="Lều cắm trại, lều du lịch 2 người">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Lều cắm trại, lều du lịch 2 người</div>
+                                <div class="block_second_line_price">
+                                    <span>600.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/bo-ban-tulip-80cm-va-4-ghe-eames-p=68.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/bo-ban-ghe-mau-cam-280.jpg" loading="lazy" alt="Bộ bàn Tulip 80cm và 4 ghế Eames">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Bộ bàn Tulip 80cm và 4 ghế Eames</div>
+                                <div class="block_second_line_price">
+                                    <span>2.780.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/thot-inox-304-chong-moc-khang-khuan-p=67.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/thot-inox304(1)-280.jpg" loading="lazy" alt="Thớt inox 304 chống mốc, kháng khuẩn">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Thớt inox 304 chống mốc, kháng khuẩn</div>
+                                <div class="block_second_line_price">
+                                    <span>129.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/ao-di-mua-canh-roi-vai-du-sieu-ben-cao-cap-p=66.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/ao-di-mua1-280.jpg" loading="lazy" alt="Áo đi mưa cánh rơi vải dù siêu bền cao cấp">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Áo đi mưa cánh rơi vải dù siêu bền cao cấp</div>
+                                <div class="block_second_line_price">
+                                    <span>80.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/gio-treo-quan-ao-gap-gon-dung-do-da-nang-thong-minh-tien-ich-p=65.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/ke-treo-quan-ao-gap-gon(1)-280.jpg" loading="lazy" alt="Giỏ treo quần áo gấp gọn đựng đồ đa năng thông minh tiện ích">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Giỏ treo quần áo gấp gọn đựng đồ đa năng thông min...</div>
+                                <div class="block_second_line_price">
+                                    <span>180.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/o-gap-nguoc-thong-minh-sieu-day-dan-tien-ich-chuyen-dung-cho-xe-o-to-p=64.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/o-gap-nguoc(1)-280.jpg" loading="lazy" alt="Ô gấp ngược thông minh siêu dày dặn tiện ích chuyên dùng cho xe ô tô">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Ô gấp ngược thông minh siêu dày dặn tiện ích chuyê...</div>
+                                <div class="block_second_line_price">
+                                    <span>184.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/may-xay-toi-cam-tay-mini-p=63.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/may-xay-toi(1)-280.jpg" loading="lazy" alt="Máy xay tỏi cầm tay mini">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Máy xay tỏi cầm tay mini</div>
+                                <div class="block_second_line_price">
+                                    <span>135.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/giay-cao-got-phoi-mau-7cm-p=62.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/giay-cao-got-nu-7cm(2)-280.jpg" loading="lazy" alt="Giày cao gót phối màu 7cm">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Giày cao gót phối màu 7cm</div>
+                                <div class="block_second_line_price">
+                                    <span>880.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/thung-dung-gao-thong-minh-p=61.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/thung-dung-gao-280.jpg" loading="lazy" alt="Thùng đựng gạo thông minh">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Thùng đựng gạo thông minh</div>
+                                <div class="block_second_line_price">
+                                    <span>270.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/may-ep-cham-mokkom-chinh-hang-p=60.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/may-ep-cham-280.jpg" loading="lazy" alt="Máy ép chậm Mokkom chính hãng">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Máy ép chậm Mokkom chính hãng</div>
+                                <div class="block_second_line_price">
+                                    <span>1.200.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/noi-chien-khong-dau-phim-cam-ung-dien-tu-comet-42l-p=59.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/noi-chien-khong-dau-280.jpg" loading="lazy" alt="Nồi chiên không dầu phím cảm ứng điện tử Comet 4,2L">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Nồi chiên không dầu phím cảm ứng điện tử Comet 4,2...</div>
+                                <div class="block_second_line_price">
+                                    <span>1.890.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/dung-cu-ho-tro-lung-thoat-vi-dia-dem-dung-cu-ho-tro-cot-song-lung-p=58.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/dung-cu-ho-tro-thoat-vi-dia-dem-280.jpg" loading="lazy" alt="Dụng cụ hỗ trợ lưng thoát vị đĩa đệm - Dụng cụ hỗ trợ cột sống lưng">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Dụng cụ hỗ trợ lưng thoát vị đĩa đệm - Dụng cụ hỗ ...</div>
+                                <div class="block_second_line_price">
+                                    <span>149.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/phich-dung-nuoc-2-lit-rd-2035-n10e-rang-dong-rd-2035n10-p=57.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/phich-nuoc-mau-cam4-280.jpg" loading="lazy" alt="Phích đựng nước 2 lít RD 2035 N10.E Rạng Đông - RD 2035N10">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Phích đựng nước 2 lít RD 2035 N10.E Rạng Đông - RD...</div>
+                                <div class="block_second_line_price">
+                                    <span>199.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/bat-phu-o-to-5-cho-p=56.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/bat-phu-oto-5cho-280.jpg" loading="lazy" alt="Bạt phủ ô tô 5 chỗ">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Bạt phủ ô tô 5 chỗ</div>
+                                <div class="block_second_line_price">
+                                    <span>650.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/hop-dung-my-pham-co-nap-tien-dung-p=55.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/hop-dung-my-phan-co-nap4-280.jpg" loading="lazy" alt="Hộp đựng mỹ phẩm có nắp tiện dụng">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Hộp đựng mỹ phẩm có nắp tiện dụng</div>
+                                <div class="block_second_line_price">
+                                    <span>450.000₫</span>
+                                                                        <span class="price-discount__discount">-18%</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/ba-lo-di-hoc-p=52.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/ba-lo-di-hoc-mau-hong-280.jpg" loading="lazy" alt="Ba lô đi học">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Ba lô đi học</div>
+                                <div class="block_second_line_price">
+                                    <span>199.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/tay-can-canxi-haki-p=51.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/tay-can-canxi-280.jpg" loading="lazy" alt="Tẩy cặn canxi Haki">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Tẩy cặn canxi Haki</div>
+                                <div class="block_second_line_price">
+                                    <span>165.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/kem-chong-nang-thuong-hieu-cell-fusion-c-p=50.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/kem-chong-nang-280.jpg" loading="lazy" alt="Kem chống nắng thương hiệu Cell Fusion C">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Kem chống nắng thương hiệu Cell Fusion C</div>
+                                <div class="block_second_line_price">
+                                    <span>450.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/tra-uop-bong-sen-p=49.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/bong-sen-tay-ho-280.jpg" loading="lazy" alt="Trà ướp bông sen">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Trà ướp bông sen</div>
+                                <div class="block_second_line_price">
+                                    <span>30.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/dieu-hoa-mini-quat-dieu-hoa-hoi-nuoc-de-ban-may-lanh-mini-p=48.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/5/qfs1592290741-280.jpg" loading="lazy" alt="Điều hòa mini - quạt điều hòa hơi nước để bàn - máy lạnh mini">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Điều hòa mini - quạt điều hòa hơi nước để bàn - má...</div>
+                                <div class="block_second_line_price">
+                                    <span>249.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/ke-luu-tru-di-dong-p=47.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/5/h5c9faddb7eca488db921304e7e93e8cfm-20210423091229-280.jpg" loading="lazy" alt="KỆ LƯU TRỮ DI ĐỘNG">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">KỆ LƯU TRỮ DI ĐỘNG</div>
+                                <div class="block_second_line_price">
+                                    <span>250.000₫</span>
+                                                                        <span class="price-discount__discount">-29%</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/nuoc-lau-san-newsun-2x-dam-dac-3l-p=45.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/5/lau-san1-280.jpg" loading="lazy" alt="NƯỚC LAU SÀN NEWSUN 2X ĐẬM ĐẶC (3L)">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">NƯỚC LAU SÀN NEWSUN 2X ĐẬM ĐẶC (3L)</div>
+                                <div class="block_second_line_price">
+                                    <span>95.000₫</span>
+                                                                        <span class="price-discount__discount">-41%</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/vi-nu-cam-tay-unisex-phong-cach-han-quoc-p=40.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/vi-nu3-280.jpg" loading="lazy" alt="Ví nữ cẩm tay unisex phong cách Hàn Quốc">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Ví nữ cẩm tay unisex phong cách Hàn Quốc</div>
+                                <div class="block_second_line_price">
+                                    <span>150.000₫</span>
+                                                                        <span class="price-discount__discount">-12%</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/tai-nghe-bluetooth-thoi-trang-wk-a7-p=39.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/5/tai-nghe-bluetooth-wk-a7-5-280.jpg" loading="lazy" alt="Tai Nghe Bluetooth Thời Trang WK A7">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Tai Nghe Bluetooth Thời Trang WK A7</div>
+                                <div class="block_second_line_price">
+                                    <span>1.605.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/dau-goi-head-shoulder-thai-lan-p=38.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/dau-goi-head-shouder1-280.jpg" loading="lazy" alt="Dầu gội Head  shoulder Thái Lan">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Dầu gội Head  shoulder Thái Lan</div>
+                                <div class="block_second_line_price">
+                                    <span>151.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/tui-dung-laptop-chong-soc-sieu-day-p=37.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/tui-laptop5-280.jpg" loading="lazy" alt="Túi đựng laptop chống sốc siêu dày">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Túi đựng laptop chống sốc siêu dày</div>
+                                <div class="block_second_line_price">
+                                    <span>145.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/tui-xach-cong-so-nam-p=36.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/tui-xach-cong-so-nam5-280.jpg" loading="lazy" alt="Túi xách công sở nam">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Túi xách công sở nam</div>
+                                <div class="block_second_line_price">
+                                    <span>299.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/ao-so-mi-phoi-den-trang-co-sen-p=35.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/so-mi-co-sen-1-280.jpg" loading="lazy" alt="Áo sơ mi phối đen trắng cổ sen">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Áo sơ mi phối đen trắng cổ sen</div>
+                                <div class="block_second_line_price">
+                                    <span>365.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/tai-nghe-razer-hammerhead-pro-v2-p=34.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/5/lifestyle-razer-hammerhead-pro-v2-10-280.jpg" loading="lazy" alt="Tai nghe Razer Hammerhead Pro V2">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Tai nghe Razer Hammerhead Pro V2</div>
+                                <div class="block_second_line_price">
+                                    <span>890.000₫</span>
+                                                                        <span class="price-discount__discount">-6%</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/son-li-perfect-diary-tong-nhung-li-dam-bo-suu-tap-mua-dong-voi-thoi-nho-8-mau-tuy-chon-08gv-p=18.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/son-1-280.jpeg" loading="lazy" alt="Son Lì Perfect Diary Tông Nhung Lì Đậm Bộ Sưu Tập Mùa Đông Với Thỏi Nhỏ 8 Màu Tùy Chọn 0.8g">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Son Lì Perfect Diary Tông Nhung Lì Đậm Bộ Sưu Tập ...</div>
+                                <div class="block_second_line_price">
+                                    <span>145.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/may-say-toc-may-say-toc-cong-suat-2000w-may-say-toc-2-chieu-tang-kem-5-phu-kien-say-toc-tao-kieu-chuyen-dung-p=17.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/may-say-1-280.jpeg" loading="lazy" alt="Máy sấy tóc, máy sấy tóc công suất 2000W, máy sấy tóc 2 chiều, tặng kèm 5 phụ kiện sấy tóc tạo kiểu chuyên dụng">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Máy sấy tóc, máy sấy tóc công suất 2000W, máy sấy ...</div>
+                                <div class="block_second_line_price">
+                                    <span>145.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/bo-dung-cu-cuoc-xeng-lam-vuon-trong-cay-mini-4-chiec-son-tinh-dien-p=16.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/4/21c1e711b7a2d8a383be3b9926f733b5-280.jpeg" loading="lazy" alt="Bộ dụng cụ cuốc xẻng làm vườn trồng cây mini 4 chiếc sơn tĩnh điện">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Bộ dụng cụ cuốc xẻng làm vườn trồng cây mini 4 chi...</div>
+                                <div class="block_second_line_price">
+                                    <span>92.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/set-bo-co-vest-3-mon-den-p=12.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/9/ves-3-mon-den-280.jpg" loading="lazy" alt="Sét Bộ Cổ Vest 3 Món Đen">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">Sét Bộ Cổ Vest 3 Món Đen</div>
+                                <div class="block_second_line_price">
+                                    <span>350.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="col-sm">
+                    <a href="https://ddshop.vn/sp-styleproduct-group-button-one-pack-sd-card-p=10.html">
+                        <div class="block_second_line">
+                            <div class="block_second_line_title_img">
+                                <img src="/images/galleries/2021/06/9/camera-trang-One-Pack-1-280.jpg" loading="lazy" alt="SP - One-Pack + SD Card">
+                            </div>
+                            <div class="block_second_line_title_price p-2 mt-3">
+                                <div class="block_second_line_title">SP - One-Pack + SD Card</div>
+                                <div class="block_second_line_price">
+                                    <span>150.000₫</span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                
+            </div>
+        </div>
+        <br><br>
+    </div>
+    
+</div>
+</div>
+
+<div id="c_mask"></div>
+<div id="c_mask_for_nav"></div>
+<form id="logout-form" action="https://ddshop.vn/logout" method="POST" class="d-none">
+<input type="hidden" name="_token" value="FppUOvF19jivq4FOIYFbrWFPm181PqChwzlrSLwi"></form>
+<div id="back-top"><i class="fas fa-arrow-up"></i></div>
+<footer class="mt-4">
+    <div class="footer_content">
+        <div class="row pb-4">
+            <div class="col footer_block nowrap">
+                <h4 class="mb-3">HỖ TRỢ KHÁCH HÀNG</h4>
+                <div class="footer_line">
+                    <div class="hot-line">
+                        <div>Tổng đài hỗ trợ (Miễn phí gọi)</div>
+                        <div>
+                            <a href="tel:18006746">1800.6746</a>
+                            <span>(8:00 - 21:00 T2-CN)</span>
+                        </div>
+                    </div>
+                    <a href="/lien-he-ho-tro" >Các kênh liên hệ khác</a>
+                </div>
+                
+                <!-- <div class="footer_line">
+                    <a href="#" class="not-avilable">Câu hỏi thường gặp</a>
+                </div> -->
+                <!-- <div class="footer_line">
+                    <a href="#" class="not-avilable">Hướng dẫn đặt hàng</a>
+                </div> 
+                <div class="footer_line">
+                    <a href="#" class="not-avilable">Chương trình khuyến mại</a>
+                </div>
+                -->
+                <div class="footer_line">
+                    <a rel="nofollow" href="/dieu-khoan-su-dung">Điều khoản sử dụng</a>
+                </div>
+                <div class="footer_line">
+                    <a href="/chinh-sach-bao-hanh">Chính sách bảo hành</a>
+                </div>
+                <div class="footer_line">
+                    <a href="/chinh-sach-van-chuyen">Chính sách vận chuyển</a>
+                </div>
+                <div class="footer_line">
+                    <a href="/chinh-sach-doi-tra-hoan-tien">Chính sách đổi trả & hoàn tiền</a>
+                </div>
+                <div class="footer_line">
+                    <a rel="nofollow" href="/chinh-sach-bao-mat">Chính sách bảo mật</a>
+                </div>
+                <!-- <div class="footer_line readmore_footer_down">
+                    <a href="#" class="readmore_down">Xem thêm<i class="fas fa-chevron-down pl-1"></i></a>
+                </div>
+                <div class="footer_line readmore_footer_up">
+                    <a href="#" class="not-avilable">Điều khoản sửa dụng</a>
+                </div>
+                <div class="footer_line readmore_footer_up">
+                    <a href="#" class="readmore_up">Thu gọn<i class="fas fa-chevron-up pl-1"></i></a>
+                </div> -->
+            </div>
+            <div class="col footer_block nowrap">
+                <h4 class="mb-3">VỀ DDSHOP</h4>
+                <div class="footer_line">
+                    <a rel="nofollow" href="/about" >Giới thiệu</a>
+                </div>
+                <div class="footer_line">
+                    <a rel="nofollow" href="/tieu-chi-ban-hang">Tiêu chí bán hàng</a>
+                </div>
+                <div class="footer_line">
+                    <a rel="nofollow" href="/thu-moi-hop-tac">Đối tác hợp tác</a>
+                </div>
+                <div class="footer_line">
+                    <a rel="nofollow" href="/tuyen-dung-c=1.html">Tuyển dụng</a>
+                </div>
+            </div>
+            <div class="col footer_block nowrap">
+                <h4 class="mb-3">THEO DÕI CHÚNG TÔI TRÊN</h4>
+                <div class="follow_us_on_social">
+                    <div class="footer_line youtube">
+                        <a rel="nofollow" href="https://www.youtube.com/channel/UCcBcmPrmA_jXcTLPO_44jcQ">
+                            <i class="fab fa-youtube"></i>
+                            <span class="pl-2">Youtube</span>
+                        </a>
+                    </div>
+                    <div class="footer_line facebook">
+                        <a href="https://www.facebook.com/DDshopFanpage">
+                            <i class="fab fa-facebook-f"></i>
+                            <span class="pl-2">Facebook</span>
+                        </a>
+                    </div>
+                    <div class="footer_line zalo">
+                        <a rel="nofollow" href="#" class="not-avilable">
+                            <img src="/images/icons/zalo.png" alt="Theo dói chúng tôi trên Zalo" loading="lazy">
+                            <span class="pl-2">Zalo</span>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col footer_block">
+                <h4 class="mb-3 nowrap">TẢI ỨNG DỤNG CHO ĐIỆN THOẠI</h4>
+                <div class="footer_address">
+                    <div class="app_download mb-4">
+                        <div class="qu-code mr-4">
+                            <img src="/images/icons/qr-code.jpg" alt="Quét mã QR code để tải ứng dụng cho điện thoại" title="Quét mã QR code để tải ứng dụng cho điện thoại" loading="lazy">
+                        </div>
+
+                        <div class="download_store ml-3">
+                            <a rel="nofollow" href="#" class="mb-3 not-avilable">
+                                <img class="mb-2" src="/images/icons/appstore.png" loading="lazy" alt="download ứng dụng từ Appstore">
+                            </a>
+                            <a rel="nofollow" href="#" class="not-avilable">
+                                <img src="/images/icons/playstore.png" loading="lazy" alt="download ứng dụng từ Playstore">
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="dmca_protect">
+                        <a rel="nofollow" target="_blank" href="http://online.gov.vn/Home/WebDetails/83666"><img alt="website đã thông báo với Bộ công thương" src="https://ddshop.vn/images/tb-bct.png"/></a>
+                        <a rel="nofollow" href="//www.dmca.com/Protection/Status.aspx?ID=f38b7353-cc89-48a8-85e2-b97c9db9c362" title="DMCA.com Protection Status" class="dmca-badge" target="_blank">
+                            <img src ="https://images.dmca.com/Badges/DMCA_logo-grn-btn100w.png?ID=f38b7353-cc89-48a8-85e2-b97c9db9c362"  alt="DMCA.com Protection Status" loading="lazy" />
+                        </a>
+                        <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="company_contact mt-3">
+            <div class="footer_logo">
+                <img src="/images/logo-ddshop.png" alt="logo DDshop" loading="lazy">
+            </div>
+            <div class="footer_line mt-2">Công ty CP Dịch vụ và Bán lẻ DDshop. GPĐKKD: 0109558307 do Sở kế hoạch và Đầu tư TP.Hà Nội cấp ngày 18/03/2021.</div>
+            <div class="footer_line">Địa chỉ: Tầng 4, Tổ hợp chung cư N01–T4 Khu Đoàn Ngoại Giao, Phố Đỗ Nhuận, Phường Xuân Tảo, Quận Bắc Từ Liêm, Thành phố Hà Nội.</div>
+            <div class="footer_line">Điện thoại: 0983.303.482. Email: lienhe@ddshop.vn</div>
+        </div>
+    </div>
+    <div class="bottom_footer p-2 pl-3 pr-3">
+        <span>© 2021 DDshop. Tất cả các quyền được bảo lưu.</span>
+    </div>
+    
+    <div id="modal_box_all_page" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 1em;margin-top: -.5em;margin-right: -.2em;">×</button>
+                    <span></span>
+                </div>
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary">Lưu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://ddshop.vn/assets/js/jquery-3.5.1.min.js"></script>
+<script src="https://ddshop.vn/assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://ddshop.vn/assets/js/typeahead.bundle.min.js"></script>
+<script>
+    var csrf_token = 'FppUOvF19jivq4FOIYFbrWFPm181PqChwzlrSLwi';
+    $(document).off('click','html');
+    $(document).on('click', 'html', (function(){
+        if($('#c_mask').hasClass("is-active")){
+            $("#sidebar").animate({width:'hide'}, 350);
+            $('#c_mask').removeClass('is-active');
+        }
+    }));
+    $(document).off('click','.sidebar_btn');
+    $(document).on('click', '.sidebar_btn', (function(e){
+        e.stopPropagation();
+        if(!$('#c_mask').hasClass('is-active')){
+            $('#c_mask').addClass('is-active');
+            $("#sidebar").animate({width:'show'}, 350);
+        }else{
+            $("#sidebar").animate({width:'hide'}, 350);
+            $('#c_mask').removeClass('is-active');
+        }
+    }));
+    
+    $(document).off('click','#sidebar_close');
+    $(document).on('click', '#sidebar_close', (function(){
+        if($('#c_mask').hasClass("is-active")){
+            $("#sidebar").animate({width:'hide'}, 350);
+            $('#c_mask').removeClass('is-active');
+        }
+    }));
+    $(document).off('click','#sidebar');
+    $(document).on('click', '#sidebar', (function(e){
+        e.stopPropagation();
+    }));
+    $(document).off('click','.dropdown-menu');
+    $(document).on('click', '.dropdown-menu', (function(e){
+        e.stopPropagation();
+    }));
+
+    $(document).off('mouseenter','.nav_dropdown');
+    $(document).on('mouseenter', '.nav_dropdown', (function(e){
+        if(!$(this).children(".dropdown-menu:first").hasClass("show")){
+            $(this).children(".dropdown-menu").addClass("show");
+            $(this).children().first().addClass('active');
+            $('#c_mask_for_nav').addClass("is-active");
+            $('input[type=search]').blur()
+        }
+    }));
+    $(document).off('mouseleave','.nav_dropdown');
+    $(document).on('mouseleave', '.nav_dropdown', (function(){
+        if($(this).children(".dropdown-menu:first").has("show")){
+            $(this).children(".dropdown-menu").removeClass("show");
+            $(this).children().first().removeClass('active');
+            $('#c_mask_for_nav').removeClass("is-active");
+        }
+    }));
+    $(document).off("touchstart", "html");
+    $(document).on("touchstart", "html", (function() {
+        $('input[type=search]').blur()
+    }))
+    $(document).off("touchstart", ".nav_search");
+    $(document).on("touchstart", ".nav_search", (function(e) {
+        e.stopPropagation();
+    }))
+    $(document).off('click','.not-avilable');
+    $(document).on('click', '.not-avilable', (function(e){
+        e.preventDefault()
+        flashAlertAll('Xin lỗi, chức năng này chưa hoạt động!', 'warning',3)
+    }));
+
+    /* search */
+    var engine = new Bloodhound({
+        remote: {
+            url: '/search?keyword=%QUERY%'+'&th=nav',
+            wildcard: '%QUERY%'
+        },
+        datumTokenizer: Bloodhound.tokenizers.whitespace('keyword'),
+        queryTokenizer: Bloodhound.tokenizers.whitespace
+    });
+
+    $(".search_nav_input:visible").first().typeahead({
+        hint: false,
+        minLength: 1
+    }, [
+        {
+            // displayKey: 'value',
+            source: engine.ttAdapter(),
+            name: 'product-title',
+            limit: 1000,
+            display: function(data) {
+                data.url = '/search?keyword='+data.keyword
+                return $('.search_nav_input:focus').typeahead('val')
+            },
+            templates: {
+                suggestion: function (data) {
+                    ct = '<a href="/search?keyword='+data.keyword+'" class="list-group-item typeahead">'+data.keyword+'</a>';
+                    return ct;
+                },
+            }
+        }
+    ]);
+    $('.search_nav_input:visible').first().bind('typeahead:selected', function(evt, item) {
+        document.location.href = item.url
+    })
+    $('.search_nav_input:visible').first().bind('keypress', function(e) {
+        if(e.which == 13) {
+            e.preventDefault()
+            if($('.search_nav_input:visible').first().nextAll('.tt-menu:first').find('.tt-cursor').length > 0){
+                document.location.href = $('.search_nav_input:visible').first().nextAll('.tt-menu:first').find('.tt-cursor').attr('href')
+            }else if($(this).val() == ''){
+                document.location.href = '/search'
+            }else if($(this).val() !== ''){
+                document.location.href = '/search?keyword='+$(this).val()
+            }
+        }
+    });
+    $('.search_nav_input:visible').first().bind('typeahead:open', function(evt) {
+        // for css input
+        $('.search_nav_input:visible').first().addClass('open')
+        $(this).parents('.nav_search:first').addClass('open')
+        // end for css input
+        if(evt.target.value == ''){
+            getGoiY()
+        }
+    });
+    $('.search_nav_input:visible').first().bind('typeahead:close', function() {
+        // for css input
+        $('.search_nav_input:visible').first().removeClass('open')
+        $(this).parents('.nav_search:first').removeClass('open')
+        // end for css input
+    });
+    function getGoiY(){
+        $.ajax({
+            url: '/search/get-goi-y',
+            type:'get',
+            async: false,
+            beforeSend: function() {
+
+            },
+            success: function(data) {
+                ct = ''
+                for(i=0;i<data.length;i++){
+                    if(data[i].goi_y == 1){
+                        ct += '<a class="list-group-item typeahead tt-selectable" href="/search?keyword='+data[i][0]+'">'+data[i][0]+'<img src="/images/icons/hot-search.png"></a>'
+                    }else{
+                        ct += '<a class="list-group-item typeahead tt-selectable" href="/search?keyword='+data[i]+'">'+data[i]+'</a>'
+                    }
+                }
+                $('.search_nav_input:visible').first().nextAll('.tt-menu:first').find('.tt-dataset-product-title:first').html(ct)
+            },
+            error: function() {
+                alert('Lỗi! vui lòng liên hệ DDshop để được hỗ trợ')
+            }
+        });
+    }
+    /* end search */
+</script>
+<script async src="https://ddshop.vn/assets/js/commonall.js"></script><script>
+    $(document).ready(function(){
+        $('#carousel_home_top').carousel({
+            interval: 4000
+        })
+    })
+</script>
+
+</body>
+</html>

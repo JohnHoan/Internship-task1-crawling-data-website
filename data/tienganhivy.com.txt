@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link rel="icon" type="image/png" href="/static/images/Favicon.png">
+        <meta name="description" content="">
+        <meta name="description" content="Web site học tiếng Anh cho học sinh và người đi làm. tienganhivy có các lớp thiết kế đặc biệt cho học sinh cấp 2, cấp 3, và người đi làm.">
+        <meta name="keywords" content="học tiếng Anh, tiếng Anh online, tiếng Anh cấp 2, tiếng Anh cấp 3, tiếng Anh lớp 6, tiếng Anh lớp 7, tiếng Anh lớp 8, tiếng Anh lớp 9, tiếng Anh lớp 10, tiếng Anh lớp 11, tiếng Anh lớp 12, tiếng Anh luyện thi đại học, tiếng Anh luyện thi lớp 10, tiếng Anh luyện thi THCS, tiếng Anh luyện thi THPT, tiếng Anh giọng Mỹ, American Accent Training">
+        <meta name="author" content="Toan Nguyen">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="/static/efl_home/assets/web/assets/jquery/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="/static/efl_home/assets/web/assets/mobirise-icons/mobirise-icons.css">
+        <link rel="stylesheet" href="/static/efl_home/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/efl_home/assets/bootstrap/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="/static/efl_home/assets/bootstrap/css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="/static/efl_home/assets/dropdown/css/style.css">
+        <link rel="stylesheet" href="/static/efl_home/assets/tether/tether.min.css">
+        <link rel="stylesheet" href="/static/efl_home/assets/animatecss/animate.min.css">
+        <link rel="stylesheet" href="/static/efl_home/assets/socicon/css/styles.css">
+        <link rel="stylesheet" href="/static/efl_home/assets/theme/css/style.css">
+        <link rel="preload" as="style" href="/static/efl_home/assets/mobirise/css/mbr-additional.css">
+        <link rel="stylesheet" href="/static/efl_home/assets/mobirise/css/mbr-additional.css" type="text/css">
+
+        <link href="/static/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" id="font-awesome-css" href="/static/fontawesome/css/all.css" type="text/css" media="all">
+        
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#signup-form input").focusout(function(){
+                var passwd = $('#passwd').val();
+                var passwd_confirm = $('#passwd_confirm').val();
+                if ($('#first_name').val() != "" && $('#last_name').val() != "" && $('#email').val() != "" && $('#passwd').val() != "" && $('#passwd_confirm').val() != "") {
+                    if (passwd.length >= 8 && passwd == passwd_confirm) {
+                        $('#btn-signup').prop("disabled", false);
+                        $('#btn-signup').removeClass('btn-info').addClass('btn-primary');
+                    } else {
+                        $('#btn-signup').attr('disabled', 'disabled');
+                        alert("Mật khẩu nhỏ hơn 8 ký tự hoặc không khớp với mật khẩu xác nhận!");
+                    }
+                }
+            })
+
+            $('#btn-signup').click(function(){
+                var first_name = $('#first_name').val();
+                var last_name = $('#last_name').val();
+                var email = $('#email').val();
+                var mobile = $('#mobile_num').val();
+                var passwd = $('#passwd').val();
+                var passwd_confirm = $('#passwd_confirm').val();
+
+                if (passwd.length < 8 | passwd != passwd_confirm) {
+                    $("#passwd").addClass('invalid');
+                } else {
+                    data = {
+                        'first_name': first_name,
+                        'last_name': last_name,
+                        'email': email,
+                        'mobile': mobile,
+                        'passwd': passwd,
+                        'passwd_confirm': passwd_confirm,
+                    }
+                    signup(data);
+                }
+            })
+        })
+    </script>
+
+    <style type="text/css">
+        .invalid {
+            border: red;
+        }
+	
+        .course_desc {
+                padding-top: 10px !important;
+                text-align: center !important;
+                font-size: 1.1rem;
+                color: #6F992C;
+        }
+
+        .coming-soon {
+            width: 20%;
+            position: absolute;
+            top: 10px;
+            right: 0px;
+            transform: rotate(40deg);
+            -webkit-transition: all .5s ease-in-out;
+            -khtml-transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -ms-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+            height:auto;
+            opacity: 100%;
+        }
+
+        .show_screen {
+            width: 90%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .img_wcloud {
+            width: 60%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .show_screen {
+                width: 100% !important;
+                position: relative !important;
+                padding-bottom: 56.25% !important; /* 16:9 */
+                height: 0 !important;
+                margin-bottom: 20px !important;
+            }
+
+            .show_screen iframe {
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+                width: 100% !important;
+                height: 100% !important;
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+            .show_screen {
+                width: 100% !important;
+                position: relative !important;
+                padding-bottom: 56.25% !important; /* 16:9 */
+                height: 0 !important;
+                margin-bottom: 20px !important;
+            }
+
+            .show_screen iframe {
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+                width: 100% !important;
+                height: 100% !important;
+            }
+        }
+    </style>
+    <title>TIẾNG ANH IVY | TIẾNG ANH ONLINE | NGỮ PHÁP TIẾNG ANH ONLINE</title>
+
+    </head>
+    <body>
+        <!-- Display flashed messages -->
+        
+            
+        
+        <!-- End of flashed messages -->
+        
+        
+    <section class="menu cid-qxyOwCSYXH" once="menu" id="menu2-1">
+        <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm bg-color transparent">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="menu-logo">
+                <div class="navbar-brand">
+                    <span class="navbar-caption-wrap">
+                        <a class="navbar-caption  display-4" href="/">
+                            <img src="/static/images/tienganh-ivy-logo.png" style="height: 60px;">
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-direction: column; align-items: flex-end;">
+                <div id="flags" style="text-align: right; font-family: 'Roboto', sans-serif">
+                    
+                        <a href="/user/signup/" class="login"><span class="oi oi-person"></span>Sign Up </a>
+                        <a href="/login/" class="login"><span class="oi oi-account-login"></span> Log in </a>
+                    
+                </div>
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                    <li class="nav-item">
+                        <a class="nav-link link  display-4" href="/">
+                            Trang nhà
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link  display-4" href="/student/course/browse/">Các khoá học&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link  display-4" href="/cms/page/phuong-phap/">
+                            Phương pháp
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link display-4" href="/cms/page/ve-chung-toi/" data-toggle="dropdown-submenu" aria-expanded="false">
+                            Về chúng tôi
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link  display-4" href="/user/signup/">
+                            Đăng ký
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+
+        
+    <section class="header1 cid-qxyOwk585I mbr-parallax-background" id="header1-0">
+        <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(7, 33, 81);">
+        </div>
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="mbr-white col-md-10">
+                    <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">Tiếng Anh Ivy</h1>
+                    <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">Những khoá học tạo nên sự khác biệt</h3>
+                    <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">Cùng Tiếng Anh Ivy vững bước đến tương lai&nbsp;</p>
+                    <div class="mbr-section-btn align-center">
+                        <a class="btn btn-md btn-primary display-4" href="/student/course/browse/">
+                            <span class="mbr-iconfont mbri-file"></span>TÌM HIỂU THÊM
+                        </a>
+                        <a class="btn btn-md btn-secondary display-4" href="/user/signup/">
+                            <span class="mbri-sites mbr-iconfont mbr-iconfont-btn"></span>ĐĂNG KÝ MIỄN PHÍ
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mbr-section content4 cid-qxyQjKRhZ6" id="content4-3">
+        <div class="container">
+            <div class="media-container-row">
+                <div id="courses" class="title col-12 col-md-8">
+                    <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>Các khoá học</strong></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features3 cid-qxyQhLuxk5" id="features3-2">
+        <div class="container">
+            <div class="media-container-row">
+                
+                    <div class="card p-3 col-12 col-md-6 col-lg-4">
+                        <div class="card-wrapper">
+                            
+                            <div class="card-img">
+                                <img src="/common/media/show/6061cb3c893c642220df13b3/" alt="">
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title mbr-fonts-style display-5">English Grammar 2-A</h4>
+				                <p class="course_desc">Các Thì Và Động Từ Phương Thức</p>
+                                <p class="mbr-text mbr-fonts-style display-7">
+                                    Có thể nói cách sử dụng động từ là một trong những nội dung quan trọng nhất trong ngữ pháp tiếng Anh. Trong các vấn đề về động từ, cách sử dụng chính xác các thì là một nội dung cực kỳ quan trọng, giúp tạo nền tảng để phát triển các kỹ năng ngữ pháp khác. Nếu như các bài học trong khoá EG1 giúp các bạn nắm vững cấu trúc, cú pháp các thì, khoá học này sẽ tập trung nhiều hơn vào cách sử dụng chính xác các thì trong đúng ngữ cảnh. Bên cạnh đó, chuyên đề này cũng sẽ hướng dẫn các bạn học cách sử dụng các động từ phương thức để diễn tả những thông điệp tinh tế trong tiếng Anh. 
+                                </p>
+                            </div>
+                            <div class="mbr-section-btn text-center"><a href="/student/course/view/5ed60708d2cdb654ee8328cd/" class="btn btn-primary display-4">Chi tiết</a></div>
+                        </div>
+                    </div>
+                
+                    <div class="card p-3 col-12 col-md-6 col-lg-4">
+                        <div class="card-wrapper">
+                            
+                            <div class="card-img">
+                                <img src="/common/media/show/6061c2caa1465eb8a5812fc6/" alt="">
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title mbr-fonts-style display-5">English Grammar 2-B</h4>
+				                <p class="course_desc">Các Cấu Trúc Động Từ Đặc Biệt</p>
+                                <p class="mbr-text mbr-fonts-style display-7">
+                                    Đây là khoá học nâng cao của Khoá EG2-A. Sau khi nắm vững cách sử dụng các thì và động từ phương thức ở khoá EG2-A, các bạn đã có kiến thức cơ sở để học tiếp các cấu trúc động từ đặc biệt trong tiếng Anh như: câu điều kiện, bàng thái cách (subjunctive,) thể bị động, câu tường thuật, cấu trúc động từ theo sau bởi động từ thêm ing và động từ nguyên mẫu, v.v...  
+                                </p>
+                            </div>
+                            <div class="mbr-section-btn text-center"><a href="/student/course/view/602fce3cdbc4d01678b29c31/" class="btn btn-primary display-4">Chi tiết</a></div>
+                        </div>
+                    </div>
+                
+                    <div class="card p-3 col-12 col-md-6 col-lg-4">
+                        <div class="card-wrapper">
+                            
+                            <div class="card-img">
+                                <img src="/common/media/show/6061f0d1f8bf175259e02b68/" alt="">
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title mbr-fonts-style display-5">English Grammar 2-C</h4>
+				                <p class="course_desc">Mệnh Đề Quan Hệ, Danh Từ, Đại Từ Và Mạo Từ</p>
+                                <p class="mbr-text mbr-fonts-style display-7">
+                                    Mệnh đề quan hệ là một chủ đề ngữ pháp quan trọng. Khoá học này dành trọn 6 bài để thảo luận đề tài này. Các bài học còn lại chia đều cho các đề tài quen thuộc như danh từ như danh từ đếm được và không đếm được; mạo từ xác định, mạo từ không xác định; các đại từ phản thân, đại từ sở hữu và các từ xác định khác như much, many, all, all of, v.v... 
+                                </p>
+                            </div>
+                            <div class="mbr-section-btn text-center"><a href="/student/course/view/602fd041dbc4d01678b29c32/" class="btn btn-primary display-4">Chi tiết</a></div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="header7 cid-szsffHdDtE" id="header7-1f">
+        <div class="container">
+            <div class="media-container-row">
+                <div class="media-content align-center">
+                    <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-1">
+                        Bài giảng video
+                    </h1>
+                    <div class="mbr-section-text mbr-white pb-3">
+                        <p class="mbr-text mbr-fonts-style display-5">
+                            Bài giảng được thuyết minh với giọng tiếng Việt và Tiếng Anh chuẩn, được tổng hợp với sự trợ giúp của công nghệ trí tuệ nhân tạo.
+                            Có bài trắc nghiệm nhanh cuối mỗi bài để kiểm tra sự nắm bắt của học viên.
+                        </p>
+                    </div>
+                    <div class="mbr-section-btn">
+                        <a class="btn btn-md btn-primary display-4" href="/student/course/browse/">TÌM KHOÁ HỌC</a>
+                        <a class="btn btn-md btn-white-outline display-4" href="/user/signup/">ĐĂNG KÝ</a>
+                    </div>
+                </div>
+                <div class="show_screen">
+                    <video
+                        id="lecture_video"
+                        controls
+                        poster="/static/images/unit68_poster.png"
+                        style="width: 500px; height: 282px; max-width: 100%"
+                    >
+                        <source src="/student/lecture/stream/5f5a4b940affbdc7fb082308/" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features3 cid-qxyQnyyrYv" id="features3-4">
+        <div class="container">
+            <div class="media-container-row">
+                
+                    <div class="card p-3 col-12 col-md-6 col-lg-4">
+                        <div class="card-wrapper">
+                            
+                            <div class="card-img">
+				                <img src="/common/media/show/60cdc2aedc1795318116af21/" alt="">
+                            </div>
+                            <div class="card-box">
+                                <h4 class="card-title mbr-fonts-style display-5">Đàm thoại phản xạ trong kinh doanh</h4>
+				                <p class="course_desc">Nếu Đã Khá Tiếng Anh, Nhưng Bạn Vẫn Gặp Khó Khăn Với Kỹ Năng Nói, Hãy Thử Khoá Học Này Của Chúng Tôi.</p>
+                                <p class="mbr-text mbr-fonts-style display-7">
+                                    Nếu muốn cải thiện kỹ năng giao tiếp tiếng Anh, hãy thử trải nghiệm khoá học đàm thoại tiếng Anh theo phương pháp phản xạ. Khoá học sẽ hướng dẫn các bạn qua các bài thực hành được thiết kế để giúp bạn phát triển kỹ năng đàm thoại của mình.
+                                </p>
+                            </div>
+                            <div class="mbr-section-btn text-center"><a href="/student/course/view/60cd6fae2b9c6623e744f723/" class="btn btn-primary display-4">Chi tiết</a></div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="features17 cid-szy2w2Xena" id="features17-1g">
+        <div class="container-fluid">
+            <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>Học online dễ dàng với</strong></h2>
+            <div class="media-container-row">
+                <div class="card p-3 col-12 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <div class="card-img">
+                            <a href="#"><img src="/static/images/exercise-383x212.png" alt="Bài tập"></a>
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Bài tập đa dạng</h4>
+                            <p class="mbr-text mbr-fonts-style display-7">Gần 1,500 bài tập ngữ pháp cho các chủ đề ngữ pháp ở 3 cấp độ.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card p-3 col-12 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <div class="card-img">
+                            <a href="#"><img src="/static/images/review-383x212.png" alt="Phản hồi tức thì"></a>
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Phản hồi tức thì</h4>
+                            <p class="mbr-text mbr-fonts-style display-7">Sau khi nộp bài, học viên nhận được phản hồi kết quả bài làm tức thì.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card p-3 col-12 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <div class="card-img">
+                            <a href="#"><img src="/static/images/study-log-2-383x212.png" alt="Nhật ký"></a>
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Nhật ký học tập</h4>
+                            <p class="mbr-text mbr-fonts-style display-7">Nhật ký học tập giúp học viên và phụ huynh theo dõi tiến độ học tập của học viên.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card p-3 col-12 col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <div class="card-img">
+                            <a href="#"><img src="/static/images/lecture-slide-607x336.png" alt="Slide bài giảng"></a>
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Slide bài giảng</h4>
+                            <p class="mbr-text mbr-fonts-style display-7">
+                               Slide cho mỗi bài giảng giúp thuận tiện cho việc ghi chép trong quá trình nghe giảng và để ôn tập khi cần.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mbr-section content8 cid-s3DZKyVZgL" id="content8-k">
+        <div class="container">
+            <div class="media-container-row title">
+                <div class="col-12 col-md-8">
+                    <div class="mbr-section-btn align-center">
+                        <h4>Trắc nghiệm nhanh để tìm lớp học phù hợp</h4>
+                        <a class="btn btn-primary display-4" href="/student/quiz/eg-placement/">LÀM BÀI NGAY</a>
+                        <a class="btn btn-black-outline display-4" href="/user/signup/">ĐĂNG KÝ MIỄN PHÍ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+        <section class="header1 cid-qxyWY3CmNn mbr-parallax-background" id="header1-6">
+        <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(255, 255, 255);">
+        </div>
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="mbr-white col-md-10">
+		            <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">
+                        Học hè mùa Covid-19
+                    </h1>
+                    
+                        <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">
+                            Hãy nhập mã khuyến mãi <span class="badge badge-pill badge-success">RCT-JULY</span> khi đăng ký
+                            
+                                khoá học
+                                
+                                    
+                                        <a href="/student/course/view/60cd6fae2b9c6623e744f723/" target="_blank">
+                                            <span class="badge badge-pill badge-info">RCT</span>
+                                        </a>
+                                    
+                                
+                            
+                            để được Giảm 200,000 đồng.
+                        </h3>
+                    
+                        <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">
+                            Hãy nhập mã khuyến mãi <span class="badge badge-pill badge-success">EG-SUMMER</span> khi đăng ký
+                            
+                                khoá học
+                                
+                                    
+                                        <a href="/student/course/view/5ed60708d2cdb654ee8328cd/" target="_blank">
+                                            <span class="badge badge-pill badge-info">EG2-A</span>
+                                        </a>
+                                    
+                                        <a href="/student/course/view/602fce3cdbc4d01678b29c31/" target="_blank">
+                                            <span class="badge badge-pill badge-info">EG2-B</span>
+                                        </a>
+                                    
+                                        <a href="/student/course/view/602fd041dbc4d01678b29c32/" target="_blank">
+                                            <span class="badge badge-pill badge-info">EG2-C</span>
+                                        </a>
+                                    
+                                
+                            
+                            để được Giảm 50.0%.
+                        </h3>
+                    
+                    <div class="mbr-section-btn align-center">
+                        <a class="btn btn-md btn-primary display-4" href="/">
+                            <span class="mbri-tablet-vertical mbr-iconfont mbr-iconfont-btn"></span>
+                            0382 180 808
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="header3 cid-qxET4xhTQD" id="header3-e">
+        <div class="container">
+            <div class="media-container-row">
+                <div class="mbr-figure" style="width: 100%;">
+                    <img src="/static/images/sample_certificate.png" alt="Sample Certificate" title="">
+                </div>
+
+                <div class="media-content">
+                    <h1 class="mbr-section-title mbr-white pb-3 mbr-fonts-style display-2"><strong>Giấy chứng nhận&nbsp;</strong></h1>
+
+                    <div class="mbr-section-text mbr-white pb-3 ">
+                        <p class="mbr-text mbr-fonts-style display-5">Học viên hoàn tất tất cả các bài tập trong khoá học với điểm mỗi bài trên 80% sẽ được cấp giấy chứng nhận có thể xác thực bằng cách quét mã QR của Tiếng Anh Ivy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials1 cid-qxz5aDsFVp" id="testimonials1-b">
+        <div class="container">
+            <div class="media-container-row">
+                <div class="title col-12 align-center">
+                    <h2 class="pb-3 mbr-fonts-style display-2"><strong>Phản hồi của học viên&nbsp;</strong></h2>
+                    <h3 class="mbr-section-subtitle mbr-light pb-3 mbr-fonts-style display-5">Hãy lắng nghe những gì sinh viên của chúng tôi nói.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-3 mt-2">
+            <div class="media-container-row">
+                <div class="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+                    <div class="panel-item p-3">
+                        <div class="card-block">
+                            <div class="testimonial-photo">
+                                <img src="/static/efl_home/assets/images/Vy.jpg" alt="" title="">
+                            </div>
+                            <p class="mbr-text mbr-fonts-style display-7">
+                                Bố em hướng dẫn em học thêm trên Tiếng Anh Ivy. Em thấy bài học ngắn gọn nhưng dễ hiểu. Các bài tập thực hành giúp em nắm vững bài học hơn.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="mbr-author-name mbr-bold mbr-fonts-style display-7">
+                                 Quỳnh Vy - Lớp 7
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+                    <div class="panel-item p-3">
+                        <div class="card-block">
+                            <div class="testimonial-photo">
+                                <img src="/static/efl_home/assets/images/An An.jpg" alt="" title="">
+                            </div>
+                            <p class="mbr-text mbr-fonts-style display-7">
+                               Em thích nhất tính năng Kế hoạch học tập trên Tiếng Anh Ivy. Nó giúp em phát hiện và tập trung vào những điểm ngữ pháp em chưa nắm rõ, và do đó, giúp em tiến bộ nhanh hơn.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="mbr-author-name mbr-bold mbr-fonts-style display-7">
+                                 Hồng Ân - Lớp 11
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mbr-testimonial p-3 align-center col-12 col-md-6 col-lg-4">
+                    <div class="panel-item p-3">
+                        <div class="card-block">
+                            <div class="testimonial-photo">
+                                <img src="/static/efl_home/assets/images/Quy Anh.jpg" alt="" title="">
+                            </div>
+                            <p class="mbr-text mbr-fonts-style display-7">
+                               Em dành khoảng 30 phút mỗi ngày để học tiếng Anh trên Tiếng Anh Ivy. Chương trình giúp em củng cố lại kiến thức một cách chắc chắn và tiện lợi.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="mbr-author-name mbr-bold mbr-fonts-style display-7">
+                                 Quý Anh - Lớp 10
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="media-container-row">
+                <img class="img_wcloud" src="/static/images/english_grammar_wcloud.png">
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="/static/js/apps/user_functions.js"></script>
+
+
+        <div id="main-wrapper" class="container" style="margin-top: 90px; max-width: 90%">
+            
+
+            
+        </div>
+        
+    <section class="footer4 cid-szy7zGLO9k mbr-reveal" id="footer4-1h">
+        <div class="container">
+            <div class="media-container-row content mbr-white">
+                <div class="col-md-3 col-sm-4">
+                    <div class="mb-3 img-logo">
+                        <a href="/">
+                            <img src="/static/images/tienganh-ivy-logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <p class="mb-3 mbr-fonts-style foot-title display-7">
+                        TIẾNG ANH IVY
+                    </p>
+                    <p class="mbr-text mbr-fonts-style mbr-links-column display-7">
+                        <a href="https://tienganhivy.com" class="text-primary">Trang nhà</a>&nbsp;<br>
+                        <a href="https://tienganhivy.com/student/course/browse/" class="text-primary">Các khoá học</a>&nbsp;<br>
+                        <a href="https://tienganhivy.com/cms/page/dieu-khoan-su-dung/" class="text-primary" target="_blank">Thoả thuận sử dụng</a>&nbsp;&nbsp;<br>
+                        <a href="https://tienganhivy.com/cms/page/chinh-sach-bao-mat/" class="text-primary" target="_blank">Quy định bảo mật</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-8">
+                    <p class="mb-4 foot-title mbr-fonts-style display-7">CÁC KHOÁ HỌC</p>
+                    <p class="mbr-text mbr-fonts-style foot-text display-7">
+                        <a href="/student/course/browse/?cat_slug=ngu-phap-tieng-anh-so-cap">Ngữ Pháp Tiếng Anh Sơ Cấp - EG1</a><br/>
+                        <a href="/student/course/browse/?cat_slug=ngu-phap-tieng-anh-trung-cap">Ngữ Pháp Tiếng Anh Trung Cấp - EG2</a><br/>
+                        <a href="/student/course/browse/?cat_slug=ngu-phap-tieng-anh-cao-cap">Ngữ Pháp Tiếng Anh Nâng Cao - EG3</a><br/>
+                        <br/>
+                        <a href="#">Luyện Giọng Mỹ & Đàm Thoại Phản Xạ <img class="soon-icon" src="/static/images/coming-soon.png"></a><br/>
+                        <a href="#">Luyện Thi IELTS <img class="soon-icon" src="/static/images/coming-soon.png"></a><br/>
+                        <a href="#">Luyện Thi TOEIC <img class="soon-icon" src="/static/images/coming-soon.png"></a>
+                    </p>
+                </div>
+                <div class="col-md-4 offset-md-1 col-sm-12">
+                    <p class="mb-4 foot-title mbr-fonts-style display-7">ĐĂNG KÝ NHẬN BẢN TIN</p>
+                    <p class="mbr-text mbr-fonts-style form-text display-7">Đăng ký nhận các mẹo học tiếng Anh từ chúng tôi mỗi tháng</p>
+                    <div class="media-container-column" data-form-type="formoid">
+                        <!---Formbuilder Form--->
+                        <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="bn8YZsGzCcGY1KyUWuf2NO6Re3vGar3Pz6sDcyX83vvJSYp8PA63wz4jcj+uL/PViaHJThX4riCyKL04terbawuZD4ONOTyHFT6UCrSWctuedYNoaInXGT9wVltUYQqj">
+                            <div class="row form-inline justify-content-center">
+                                <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                                <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                                                        </div>
+                            </div>
+                            <div class="dragArea row form-inline justify-content-center">
+                                <div class="col-auto  form-group " data-for="email">
+                                    <input type="email" name="email" placeholder="Email" data-form-field="Email" required="required" class="form-control input-sm input-inverse my-2 display-7" id="email-footer4-1h">
+                                </div>
+                                <div class="col-auto input-group-btn m-2"><button type="submit" class="btn btn-primary m-0 display-4">Đăng ký</button></div>
+                            </div>
+                        </form><!---Formbuilder Form--->
+                    </div>
+                    <p class="mb-4 mbr-fonts-style foot-title display-7">&nbsp;Kết nối với chúng tôi</p>
+                    <div class="social-list pl-0 mb-0">
+                            <div class="soc-item">
+                                <a href="https://twitter.com/tienganhivy" target="_blank" class="">
+                                    <span class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon" style="color: rgb(85, 180, 212); fill: rgb(85, 180, 212);"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://www.facebook.com/Ti%E1%BA%BFng-Anh-Ivy-100528048926141" target="_blank" class="">
+                                    <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon" style="color: rgb(178, 204, 210); fill: rgb(178, 204, 210);"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://www.youtube.com/channel/UCIpWLSlf8oM5YzCVTWMZodA" target="_blank" class="">
+                                    <span class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon" style="color: rgb(255, 127, 159); fill: rgb(255, 127, 159);"></span>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-lower">
+                <div class="media-container-row">
+                    <div class="col-sm-12">
+                        <hr>
+                    </div>
+                </div>
+                <div class="media-container-row mbr-white">
+                    <div class="col-sm-12 copyright">
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            © Copyright 2020 Tiếng Anh Ivy - All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+        <input name="animation" type="hidden">
+        
+        
+    <div class="modal fade" id="pleaseWaitDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="height: 180px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Đang xử lý...</h1>
+                </div>
+                <div class="modal-body">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                            <span class="sr-only">Vui lòng chờ trong khi chúng tôi chuẩn bị dữ liệu ... </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FGT0DT02X"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-6FGT0DT02X');
+        </script>
+        <script src="/static/efl_home/assets/touchswipe/jquery.touch-swipe.min.js"></script>
+        <script src="/static/efl_home/assets/theme/js/script.js"></script>
+        <script src="/static/efl_home/assets/popper/popper.min.js"></script>
+        <script src="/static/efl_home/assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/static/efl_home/assets/smoothscroll/smooth-scroll.js"></script>
+        <script src="/static/efl_home/assets/dropdown/js/nav-dropdown.js"></script>
+        <script src="/static/efl_home/assets/dropdown/js/navbar-dropdown.js"></script>
+        <script src="/static/efl_home/assets/tether/tether.min.js"></script>
+        <script src="/static/efl_home/assets/viewportchecker/jquery.viewportchecker.js"></script>
+        <script src="/static/efl_home/assets/parallax/jarallax.min.js"></script>
+        <script src="/static/efl_home/assets/sociallikes/social-likes.js"></script>
+        <script src="/static/efl_home/assets/formoid/formoid.min.js"></script>
+        <script src="/static/fontawesome/js/all.js" type="application/javascript"></script>
+
+        <script>
+            var csrf_token = "IjE0ODIyMDk4NmZjZDQ3OGQzZWQ5MTEwYmM0ZmM5M2EwMGQ4MTg1ZjMi.YPkRNQ.BInqC3UKIkWSR5xL4THSjiarZD8";
+            $.ajaxSetup({
+                beforeSend: function(xhr, settings) {
+                    if (!/^(GET|HEAD|OPTIONS|TRACE)$/i.test(settings.type) && !this.crossDomain) {
+                        xhr.setRequestHeader("X-CSRFToken", csrf_token);
+                    }
+                }
+            });
+
+            $(document).ready(function(){
+                $(document).bind("contextmenu", function(){
+                    return false;
+                })
+            })
+        </script>
+    </body>
+</html>

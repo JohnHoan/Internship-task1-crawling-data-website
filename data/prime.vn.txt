@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta name="google-site-verification" content="6zoknc4DfCiok0Pe2TQrd0oEqmahCult0Z1x1Z1UDhU" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Prime.vn</title>
+        <link rel="shortcut icon" href="/assets/frontend/images/favicon.png" type="image/x-icon">
+
+    <script>
+    window.google_map_key = 'AIzaSyCoGb3DQucCV_Iqo3Wd2KA8pfvTWMtp8Ac';
+    window.laravel_token = 'XjFGUjZqwnH0JUN7LXKdUcrqk92ClyQOTMnpGQCt';
+    const MAX_IMAGE_UPLOAD_SIZE = 5120; //KB
+    const MAX_FILE_UPLOAD_SIZE = 30720; //KB
+    const IMAGE_TYPE_ACCEPT = 'png|jpg|jpeg|gif|svg|svg+xml'; //KB
+</script>
+    
+    <!-- Bootstrap -->
+    <link href="/assets/frontend/css/styles.css?v=1.0" rel="stylesheet">
+
+        <style>
+        @media (max-width: 991px) {
+            ul.pagination li:not(.show-mobile) {
+                display: none;
+            }
+        }
+    </style>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '791853188289933');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=791853188289933&ev=PageView&noscript=1"
+    /></noscript>
+<!-- End Facebook Pixel Code -->
+</head>
+
+<body class="  home_page ">
+
+<header>
+    <div class="top hidden-xs">
+        <div class="container">
+            <div class="row">
+                
+                    
+                        
+                    
+                
+                <div class="col-lg-1 col-md-2 col-sm-2 col-xs-12 pull-right">
+                    <ul class="top__list clearfix">
+                        <li class="top__item lang">
+            <a title="English" rel="alternate" hreflang="en" class="" href="https://www.prime.vn/en">
+                <img src="/assets/frontend/images/icon--lang-en.png" alt="English" />
+            </a>
+        </li>
+            <li class="top__item lang">
+            <a title="Tiếng việt" rel="alternate" hreflang="vi" class="active" href="https://www.prime.vn/vi">
+                <img src="/assets/frontend/images/icon--lang-vi.png" alt="Tiếng Việt" />
+            </a>
+        </li>
+                        </ul>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-12 pull-right">
+                    <div class="block-search-header">
+                        <form action="https://www.prime.vn/tim-kiem" class="block-search-header__form">
+                            <input type="text" placeholder="Tìm kiếm sản phẩm" class="block-search-header__input" name="query" autocomplete="off">
+                            <input type="hidden" name="a" value="on">
+                            <button type="submit" class="block-search-header__submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-12 pull-right">
+                    <ul class="top__list clearfix">
+                        <li class="top__item"><a target="_blank" href="https://www.facebook.com/www.prime.vn" title="Prime Facebook"><span class="top__item--color social_facebook_circle"></span></a>
+                        </li>
+                        <li class="top__item"><a  target="_blank" href="https://www.instagram.com/primegroup_vn/" title="Prime Instagram"><span
+                                        class="top__item--color social_instagram_circle "></span></a></li>
+                        <li class="top__item"><a  target="_blank" href="https://www.youtube.com/channel/UClYhtFXe-ynmroVRHaNKTYA" title="Prime Youtube"><span
+                                        class="top__item--color social_youtube_circle"></span></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-12 pull-right e-catalogue-container">
+                    <a href="https://www.prime.vn/e-catalogue" class="e-catalogue-button">E-Catalogue</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fc-nav navbar navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button aria-controls="bs-navbar" aria-expanded="false" class="collapsed navbar-toggle"
+                        data-target="#bs-navbar" data-toggle="collapse" type="button">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon_menu"></span>
+                </button>
+                <a href="/" class="navbar-brand" title="Prime">
+                    <img src="/assets/frontend/images/logo-prime.svg" alt="Prime"/>
+                </a>
+                
+                <button class="btn--search btnSearchShow hidden-sm hidden-md hidden-lg"><i class="icon_search"></i></button>
+                <div class="search-mb-wrap">
+                    <form action="https://www.prime.vn/tim-kiem" class="block-search-header__form" method="GET">
+                        <input type="text" placeholder="Tìm kiếm sản phẩm" class="block-search-header__input" name="query" autocomplete="off">
+                        <i class="icon_close resetText"></i>
+                        <input type="hidden" name="a" value="on">
+                        
+                    </form>
+
+                </div>
+            </div>
+            <nav class="collapse navbar-collapse" id="bs-navbar">
+                <div class="navbar-collapse__top hidden-sm hidden-md hidden-lg">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <button aria-controls="bs-navbar" aria-expanded="false"
+                                    class="collapsed navbar-toggle-mobile" data-target="#bs-navbar"
+                                    data-toggle="collapse" type="button">
+                                <span class="sr-only">Toggle navigation</span> <span class="icon_menu_mobile"></span>
+                            </button>
+                        </div>
+                        <div class="col-xs-4 e-catalogue-xs">
+                            <a href="https://www.prime.vn/e-catalogue" class="e-catalogue-button">E-Catalogue</a>
+                        </div>
+                        <div class="col-xs-4">
+                            <ul class="top__list clearfix">
+                                <li class="top__item lang">
+            <a title="English" rel="alternate" hreflang="en" class="" href="https://www.prime.vn/en">
+                <img src="/assets/frontend/images/icon--lang-en.png" alt="English" />
+            </a>
+        </li>
+            <li class="top__item lang">
+            <a title="Tiếng việt" rel="alternate" hreflang="vi" class="active" href="https://www.prime.vn/vi">
+                <img src="/assets/frontend/images/icon--lang-vi.png" alt="Tiếng Việt" />
+            </a>
+        </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>              
+                <ul class="nav navbar-nav">
+                    <li><a href="/" class="active" title="Trang chủ"><span class="icon_house hidden-sm hidden-md hidden-lg"></span> Trang chủ</a></li>
+                    <li><a href="https://www.prime.vn/gioi-thieu" class="" title="Giới thiệu"><span class="icon_menu_about hidden-sm hidden-md hidden-lg"></span> Giới thiệu</a></li>
+                    <li class="dropdown">
+                        <!-- <a  class="" href="https://www.prime.vn/san-pham/loai/gach"  title="Sản phẩm"><span class="icon_menu_product hidden-sm hidden-md hidden-lg"></span> Sản phẩm</a> -->
+                        <a  class="" href="https://www.prime.vn/san-pham/gach-ceramic"  title="Sản phẩm"><span class="icon_menu_product hidden-sm hidden-md hidden-lg"></span> Sản phẩm</a>
+                        <a class="button-dropdown hidden-sm hidden-md hidden-lg" href="javascript:void(0)"><span class="icon-toggle"></span></a>
+                        <ul class="dropdown-nav">
+                                                                                                           
+                                <li class="dropdown">                                            
+                                    <a  href="https://www.prime.vn/san-pham/gach-ceramic" title="Gạch">Gạch</a>
+                                    <a class="button-dropdown hidden-sm hidden-md hidden-lg" href="javascript:void(0)"><span class="icon-toggle"></span></a>
+                                    <ul class="dropdown-nav">
+                                                                                    <li><a href="https://www.prime.vn/san-pham/gach-ceramic" title="Gạch Ceramic">Gạch Ceramic</a></li>
+                                                                                    <li><a href="https://www.prime.vn/san-pham/gach-porcelain" title="Gạch Porcelain">Gạch Porcelain</a></li>
+                                                                                    <li><a href="https://www.prime.vn/san-pham/gach-op-tuong" title="Gạch Ốp Tường">Gạch Ốp Tường</a></li>
+                                                                                    <li><a href="https://www.prime.vn/san-pham/gach-lat-nen" title="Gạch Lát Nền">Gạch Lát Nền</a></li>
+                                                                                    <li><a href="https://www.prime.vn/san-pham/gach-cotto" title="Gạch Cotto">Gạch Cotto</a></li>
+                                                                            </ul>
+                                </li>
+                                                                                                                                                            <li><a href="https://www.prime.vn/san-pham/ngoi-prime" title="Ngói Prime">Ngói Prime</a></li>
+                                                                                                                                                            <li><a href="https://www.prime.vn/san-pham/binh-nuoc-nong" title="Bình Nước Nóng">Bình Nước Nóng</a></li>
+                                                                                    </ul>
+                    </li>
+                    <li><a href="https://www.prime.vn/du-an" class="" title="Dự án"><span class="icon_toolbox hidden-sm hidden-md hidden-lg"></span> Dự án</a></li>
+                    <li><a href="https://www.prime.vn/nha-phan-phoi" class="" title="Nhà phân phối"><span class="icon_pin hidden-sm hidden-md hidden-lg"></span> Nhà phân phối</a></li>
+                    <li><a href="https://www.prime.vn/thu-vien-anh" class="" title="Thư viện ảnh"><span class="icon_image hidden-sm hidden-md hidden-lg"></span> Thư viện ảnh</a></li>
+                    <li><a href="https://www.prime.vn/tin-tuc" class="" title="Tin tức"><span class="icon_book hidden-sm hidden-md hidden-lg"></span> Tin tức</a></li>
+                    <li><a href="https://www.prime.vn/tuyen-dung" class="" title="Tuyển dụng"><span class="icon_menu_careers hidden-sm hidden-md hidden-lg"></span> Tuyển dụng</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="https://www.prime.vn/lien-he" class="" title="Liên hệ"><span class="icon_mail hidden-sm hidden-md hidden-lg"></span> Liên hệ</a>
+                        <a class="button-dropdown hidden-sm hidden-md hidden-lg" href="javascript:void(0)"><span class="icon-toggle"></span></a>
+                        <ul class="dropdown-nav">
+                            <li><a style="padding-right: 0;" href="https://www.prime.vn/faqs" title="Câu hỏi thường gặp">Câu hỏi thường gặp</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                    
+                        
+                    
+                    
+                
+                <div class="visible-xs header-socials">
+                    <ul class="top__list clearfix">
+                        <li class="top__item"><a target="_blank" href="https://www.facebook.com/www.prime.vn" title="Prime Facebook">
+                                <span style="color:#3b5999" class="top__item--color social_facebook_circle"></span></a>
+                        </li>
+                        <li class="top__item"><a  target="_blank" href="https://www.instagram.com/primegroup_vn/" title="Prime Instagram">
+                                <span class="top__item--color icon-instagram"></span></a></li>
+                        <li class="top__item"><a  target="_blank" href="https://www.youtube.com/channel/UClYhtFXe-ynmroVRHaNKTYA" title="Prime Youtube">
+                                <span style="color:#cf2200" class="top__item--color social_youtube_circle"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <div class="slider-main">
+        <div class="slider-main-group">
+                        <div class="slider-main-item">
+                <img src="https://www.prime.vn/storage/banner/large/60407b12d8ba81.6254887120210304131546.png" class="slider__bg" alt="Prime.vn" />
+                <div class="slider-main-item__content">
+                    <p class="slider-main-item__title"><b>Thịnh Vượng</b><br>là Prime</p>
+                    <div class="description clearfix">
+                        <p> Là một trong những nhà sản xuất đi đầu trong lĩnh vực gạch ceramic, ngói và bình nước nóng</p>
+                    </div>
+                </div>
+                <div class="slider-main-item__caption">
+                    <p class="slider-main-item__caption-tit">Về Chúng Tôi</p>
+                    
+                </div>
+            </div>
+                        <div class="slider-main-item">
+                <img src="https://www.prime.vn/storage/banner/large/6007e3518ab5c9.4557914920210120150121.jpeg" class="slider__bg" alt="Prime.vn" />
+                <div class="slider-main-item__content">
+                    <p class="slider-main-item__title"><b>Thịnh Vượng</b><br> là Prime</p>
+                    <div class="description clearfix">
+                        <p>Thực thi sự phát triển bền vững và mang đến những giải pháp tốt hơn cho môi trường sống</p>
+                    </div>
+                </div>
+                <div class="slider-main-item__caption">
+                    <p class="slider-main-item__caption-tit">Sứ Mệnh</p>
+                    
+                </div>
+            </div>
+                    </div>
+    </div>
+
+<div class="fc-main  ">
+    
+     
+    
+    <div class="product-home">
+        <div class="container">
+            <div class="row product-home__header">
+                <h2 class="product-home__header-heading">
+                    <span>Khám phá</span> các sản phẩm
+                </h2>
+                <div class="product-home__header-search">
+                    <div class="block-search">
+                        <form action="https://www.prime.vn/tim-kiem" class="block-search__form">
+                            <input class="block-search__keyword" type="text" name="query" placeholder="Tìm kiếm..." autocomplete="off">
+                            <input type="hidden" name="a" value="on">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row product-home__list">
+                <a href="/san-pham/gach-ceramic" title="Gạch ceramic">
+                    <div class="col-xs-12 col-md-3 product-home__product-item product-home__product-item--type-ceramic">
+                        <div class="product-home__item-cover">
+                            <h3 class="product-home__product-title">
+                                Gạch ceramic
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/san-pham/gach-porcelain" title="Gạch porcelain">
+                    <div class="col-xs-12 col-md-3 product-home__product-item product-home__product-item--type-porcelain">
+                        <div class="product-home__item-cover">
+                            <h3 class="product-home__product-title">
+                                Gạch porcelain
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/san-pham/gach-cotto" title="Gạch cotto">
+                    <div class="col-xs-12 col-md-3 product-home__product-item product-home__product-item--type-cotto">
+                        <div class="product-home__item-cover">
+                            <h3 class="product-home__product-title">
+                                Gạch cotto
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/san-pham/gach-lat-nen" title="Gạch lát nền">
+                    <div class="col-xs-12 col-md-3 product-home__product-item product-home__product-item--type-floor">
+                        <div class="product-home__item-cover">
+                            <h3 class="product-home__product-title">
+                                Gạch lát nền
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/san-pham/gach-op-tuong" title="Gạch ốp tường">
+                    <div class="col-xs-12 col-md-3 product-home__product-item product-home__product-item--type-wall">
+                        <div class="product-home__item-cover">
+                            <h3 class="product-home__product-title ">
+                                Gạch ốp tường
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/san-pham/ngoi-prime" title="Ngói Prime">
+                    <div class="col-xs-12 col-md-3 product-home__product-item product-home__product-item--type-roof">
+                        <div class="product-home__item-cover">
+                            <h3 class="product-home__product-title">
+                                Ngói Prime
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="/san-pham/binh-nuoc-nong" title="Bình nước nóng">
+                    <div class="col-xs-12 col-md-3 product-home__product-item product-home__product-item--type-water-heater">
+                        <div class="product-home__item-cover">
+                            <h3 class="product-home__product-title">
+                                Bình nước nóng
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+                <div class="col-xs-12 col-md-3 product-home__product-item product-home__product-item--type-search ">
+                    <div class="block-search">
+                        <form action="https://www.prime.vn/tim-kiem" class="block-search__form">
+                            <input class="block-search__keyword" type="text" name="query" placeholder="Tìm kiếm..." autocomplete="off">
+                            <input type="hidden" name="a" value="on">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="news-list-group">
+        <div class="news-list-group--left">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 line-left line--z-index">
+                        <div class="category-info">
+                            <div class="wrap-block">
+                                <h2 class="block--title">
+                                    <span class="block--title-color">Công Nghệ</span><br/> Mới
+                                </h2>
+                                <div class="description clearfix">
+                                    <p style="font-size:1.2em; color: #999999;"><i>Nhà máy sản xuất Prime trên quy mô
+                                            lớn với dây chuyền thiết bị hiện đại.</i>
+                                    </p>
+                                    Tuân thủ và đạt chuẩn hệ thống quản lý quốc tế và về chất lượng sản phẩm.
+                                    </p>
+                                </div>
+                                <a href="tin-tuc/san-pham-moi" class="readmore">Xem thêm →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-list-group__item--lg">
+    <div class="col-xs-12 col-sm-6 col-md-6 line-right offset-0">
+        <div class="news-list-group__item--img"><a><img data-src="/assets/frontend/images/news-lg-1.jpg" src="/assets/frontend/images/news-lg-1.jpg" alt="Gạch chống trơn prime - giải pháp an toàn cho ngôi nhà có người già và trẻ nhỏ" /></a></div>
+        <div class="news-list-group__item--text">
+            <p class="news-list-group__item--text-title"><a href="https://www.prime.vn/tin-tuc/blog-1/gach-chong-tron-prime-giai-phap-an-toan-cho-ngoi-nha-co-nguoi-gia-va-tre-nho-1">Gạch chống trơn prime - giải pháp an toàn cho ngôi nhà có người già và trẻ nhỏ</a></p>
+            <div class="description clearfix"></div>
+        </div>
+    </div>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-12">
+    <div class="row">
+        <div class="news-list-group__item--md">
+            <div class="col-sm-6 col-md-6 offset-0">
+                <div class="news-list-group__item--img"><a><img data-src="/assets/frontend/images/news-sm-1.jpg" src="/assets/frontend/images/news-sm-1.jpg" alt="Dự án nổi bật: gạch Prime tại MAD Society" /></a></div>
+                <div class="news-list-group__item--text">
+                    <p class="news-list-group__item--text-title"><a href="https://www.prime.vn/tin-tuc/tin-tuc-va-su-kien/du-an-noi-bat-gach-prime-tai-mad-society">Dự án nổi bật: gạch Prime tại MAD Society</a></p>
+                    <div class="description clearfix"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="news-list-group__item--md">
+            <div class="col-sm-6 col-md-6 offset-0">
+                <div class="news-list-group__item--img"><a><img data-src="/assets/frontend/images/news-sm-1.jpg" src="/assets/frontend/images/news-sm-1.jpg" alt="Phòng Ngủ Phong Thủy - Nhà Khu Vực Nhiệt Đới" /></a></div>
+                <div class="news-list-group__item--text">
+                    <p class="news-list-group__item--text-title"><a href="https://www.prime.vn/tin-tuc/blog-1/phong-ngu-phong-thuy-nha-khu-vuc-nhiet-doi">Phòng Ngủ Phong Thủy - Nhà Khu Vực Nhiệt Đới</a></p>
+                    <div class="description clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end .new-list-group -->
+
+    <div class="news-list-group">
+        <div class="news-list-group--right">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="news-list-group__item--lg hidden-sm hidden-xs">
+    <div class="col-xs-12 col-sm-6 col-md-6 line-left offset-0">
+        <div class="news-list-group__item--img"><a><img data-src="/assets/frontend/images/news-lg-2.jpg" src="/assets/frontend/images/news-lg-2.jpg" alt="image article" /></a></div>
+        <div class="news-list-group__item--text">
+            <p class="news-list-group__item--text-title"><a href="https://www.prime.vn/tin-tuc/chuyen-xay-moi-cai-tao-nha/dep-o-nha-tay-au">Đẹp Ở Nhà Tây Âu</a></p>
+            <div class="description clearfix"></div>
+        </div>
+    </div>
+</div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 line-left line--z-index">
+                        <div class="category-info">
+                            <div class="wrap-block">
+                                <h2 class="block--title">
+                                    <span class="block--title-color">Bộ Sưu Tập</span><br/>Mới
+                                </h2>
+                                <div class="description clearfix">
+                                    <p style="font-size:1.2em; color: #999999;"><i>Đội ngũ chuyên gia thiết kế giàu kinh
+                                            nghiệm đã vận dụng những công nghệ trang trí bề mặt tiến tiến và niềm đam mê
+                                            cái đẹp.</i></p>
+                                    <p>Prime mang đến cho khách hàng nhiều sự chọn lựa và ý tưởng phong phú.</p>
+                                </div>
+                                <a href="/tin-tuc/blog" class="readmore">Xem thêm →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-list-group__item--lg hidden-md hidden-lg">
+    <div class="col-xs-12 col-sm-6 col-md-6 offset-0 line-left">
+        <div class="news-list-group__item--img"><a><img data-src="/assets/frontend/images/news-lg-2.jpg" src="/assets/frontend/images/news-lg-2.jpg" alt="image article" /></a></div>
+        <div class="news-list-group__item--text">
+            <p class="news-list-group__item--text-title"><a href="https://www.prime.vn/tin-tuc/chuyen-xay-moi-cai-tao-nha/dep-o-nha-tay-au">Đẹp Ở Nhà Tây Âu</a></p>
+            <div class="description clearfix"></div>
+        </div>
+    </div>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-12">
+    <div class="row">
+        <!-- hidden on mobile -->
+        <div class="news-list-group__item--md hidden-sm hidden-xs">
+            <div class="col-sm-6 col-md-6 offset-0">
+                <div class="news-list-group__item--img"><a><img data-src="/assets/frontend/images/news-sm-2.jpg" src="/assets/frontend/images/news-sm-2.jpg"  alt="image article" /></a></div>
+                <div class="news-list-group__item--text">
+                    <p class="news-list-group__item--text-title"><a href="https://www.prime.vn/tin-tuc/blog-1/giai-phap-gach-op-lat-cho-toilet-wc-nho-hep">Giải Pháp Gạch Ốp Lát Cho Toilet (WC) Nhỏ Hẹp</a></p>
+                    <div class="description clearfix"> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="news-list-group__item--md">
+            <div class="col-sm-6 col-md-6 offset-0">
+                <div class="news-list-group__item--img"><a><img data-src="/assets/frontend/images/news-sm-2.jpg" src="/assets/frontend/images/news-sm-2.jpg" alt="image article" /></a></div>
+                <div class="news-list-group__item--text">
+                    <p class="news-list-group__item--text-title"><a href="https://www.prime.vn/tin-tuc/san-pham-moi/bo-suu-tap-elegance-signature-gach-van-go-20x120cm-moi">Bộ Sưu Tập Elegance Signature – Gạch Vân Gỗ 20x120Cm Mới</a></p>
+                    <div class="description clearfix"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- show on mobile -->
+        <div class="news-list-group__item--md hidden-md hidden-lg">
+            <div class="col-sm-6 col-md-6 offset-0">
+                <div class="news-list-group__item--img"><a><img data-src="/assets/frontend/images/news-sm-2.jpg" src="/assets/frontend/images/news-sm-2.jpg" alt="image article" /></a></div>
+                <div class="news-list-group__item--text">
+                    <p class="news-list-group__item--text-title"><a href="https://www.prime.vn/tin-tuc/blog-1/giai-phap-gach-op-lat-cho-toilet-wc-nho-hep">Giải Pháp Gạch Ốp Lát Cho Toilet (WC) Nhỏ Hẹp</a></p>
+                    <div class="description clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end .new-list-group -->
+</div>
+
+
+<div class="fc-bottom hidden-xs">
+    <div class="container">
+        <div class="row">
+            <div class="fc-bottom__col">
+                <div class="fc-bottom__item">
+                    <p class="fc-bottom__item--title"><a href="/" title="Trang chủ">Trang chủ</a></p>
+                    <ul class="fc-bottom__item--list">
+                        <li><a>&nbsp;</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fc-bottom__col">
+                <div class="fc-bottom__item">
+                    <p class="fc-bottom__item--title"><a href="https://www.prime.vn/gioi-thieu" title="Giới thiệu">Giới thiệu</a></p>
+                    <ul class="fc-bottom__item--list">
+                        <li><a>&nbsp;</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fc-bottom__col">
+                <div class="fc-bottom__item">
+                    <p class="fc-bottom__item--title"><a  href="https://www.prime.vn/san-pham/loai/gach" >Sản phẩm</a></p>
+                    <ul class="fc-bottom__item--list">
+                                                    <li><a href="https://www.prime.vn/san-pham/loai/gach" title="Gạch">Gạch</a></li>
+                                                    <li><a href="https://www.prime.vn/san-pham/loai/ngoi-prime" title="Ngói Prime">Ngói Prime</a></li>
+                                                    <li><a href="https://www.prime.vn/san-pham/loai/binh-nuoc-nong" title="Bình Nước Nóng">Bình Nước Nóng</a></li>
+                                            </ul>
+                </div>
+            </div>
+            <div class="fc-bottom__col">
+                <div class="fc-bottom__item">
+                    <p class="fc-bottom__item--title"><a href="https://www.prime.vn/du-an" title="Dự án">Dự án</a></p>
+                    <ul class="fc-bottom__item--list">
+                        <li><a>&nbsp;</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fc-bottom__col">
+                <div class="fc-bottom__item">
+                    <p class="fc-bottom__item--title"><a href="https://www.prime.vn/nha-phan-phoi" title="Nhà phân phối">Nhà phân phối</a></p>
+                    <ul class="fc-bottom__item--list">
+                        <li><a>&nbsp;</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fc-bottom__col">
+                <div class="fc-bottom__item">
+                    <p class="fc-bottom__item--title"><a href="https://www.prime.vn/thu-vien-anh" title="Thư viện ảnh">Thư viện ảnh</a></p>
+                    <ul class="fc-bottom__item--list">
+                        <li><a>&nbsp;</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fc-bottom__col">
+                <div class="fc-bottom__item">
+                    <p class="fc-bottom__item--title"><a href="https://www.prime.vn/tin-tuc" title="Tin tức">Tin tức</a></p>
+                    <ul class="fc-bottom__item--list">
+                       <li><a>&nbsp;</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fc-bottom__col">
+                <div class="fc-bottom__item">
+                    <p class="fc-bottom__item--title"><a href="https://www.prime.vn/tuyen-dung" title="Tuyển dụng">Tuyển dụng</a></p>
+                    <ul class="fc-bottom__item--list">
+                        <li><a>&nbsp;</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fc-bottom__col">
+                <div class="fc-bottom__item">
+                    <p class="fc-bottom__item--title"><a href="https://www.prime.vn/lien-he" title="Liên hệ">Liên hệ</a></p>
+                    <ul class="fc-bottom__item--list">
+                        <li><a href="https://www.prime.vn/faqs"  title="Câu hỏi thường gặp">Câu hỏi thường gặp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="fc-footer">
+    <div class="container">
+        <div class="clearfix">
+            
+            <div class="col-md-12 fc-footer__content">
+                <p>Copyright © 2017 Prime. <a href="https://www.3forcom.com" target="_blank" title="Web Design">Web Design by 3FORCOM</a></p>
+            </div>
+            
+                
+                    
+                
+            
+        </div>
+    </div>
+    <div class="fc-footer__bg"><div class="fc-footer__bg-gold"></div></div>
+</footer>
+<!-- Back to top -->
+<a href="#" class="cd-top"><i class="arrow_up"></i></a>
+
+<!-- Subscribable -->
+<div class="subscribable">
+    <div class="subscribable__content">
+        <form action="https://www.prime.vn/subscribe/register" method="post">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder=" Tên" id="subscribe_name">
+                <span class="subscribable-icon icon_profile"></span>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control email_subscribe" placeholder="Email" id="subscribe_email">
+                <span class="subscribable-icon icon_mail"></span>
+            </div>
+            <button type="button" class="btn btn-red fullwidth btn_subscribe" id="btn_subscribe">Gửi</button>
+        </form>
+    </div>
+    <div class="subscribable__title">
+        <span class="social_rss"></span> ĐĂNG KÝ NGAY
+    </div>
+</div>
+<div class="page_load">
+    <div class="loader"></div>
+</div>
+
+<link rel="stylesheet" async type="text/css" href="/assets/frontend-plugins/all.css?v=1.0"/>
+ 
+    <script src="/assets/plugins/jquery/jquery.min.js"></script>
+
+<script type="text/javascript" src="/assets/frontend/js/plugins.min.js?v=1.0"></script>
+<script type="text/javascript" src="/assets/frontend-plugins/all.js?v=1.0"></script>
+
+
+<script type="text/javascript" src="/assets/frontend/js/script.min.js?v=1.0"></script>
+
+
+<div id="fb-root"></div>
+<div class="fb-wrap" style="position:fixed; width:250px; height: 320px; ">
+    <div class="fb-page"
+         data-adapt-container-width="true"
+         data-height="320"
+         data-hide-cover="false"
+         data-href="https://www.facebook.com/www.prime.vn"
+         data-show-facepile="true"
+         data-show-posts="false"
+         data-small-header="false"
+         data-tabs="messages"
+         data-width="280">
+    </div>
+</div>
+<div class="fb-chat-live">
+    <p><i class="icon_chat_alt"></i> <a>Hỗ trợ từ Prime</a></p>
+</div>
+<script>
+    $(document).ready(function () {
+        var fbButton = $('.fb-chat-live'),
+            fbWrap = $(".fb-wrap");
+
+            fbButton.bind('click', function(){
+                var el = $(this);
+                    el.toggleClass('active');
+                    fbWrap.toggleClass('active');
+                    $('.subscribable').removeClass('active');
+            });
+    });
+
+    if(navigator.userAgent.indexOf("Speed Insights") == -1) {
+        $(function (d, s, id) {
+            const locale = 'vi';
+            var fb_lang = locale == 'vi' ? 'vi_VN' : 'en_US';
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/" + fb_lang + "/sdk.js#xfbml=1&version=v2.10&&appId=126586364523772";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, "script", "facebook-jssdk"));
+    }
+
+</script>
+<script>
+    if(navigator.userAgent.indexOf("Speed Insights") == -1) {
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-29852107-1', 'auto');
+        ga('send', 'pageview');
+    }
+</script>
+<!-- End Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143529400-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-143529400-1');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5B2JHM7');</script>
+<!-- End Google Tag Manager --></body>
+</html>

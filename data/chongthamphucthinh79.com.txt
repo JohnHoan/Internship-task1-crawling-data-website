@@ -1,0 +1,2105 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]> <html lang="vi" prefix="og: https://ogp.me/ns#" class="ie9 loading-site no-js"> <![endif]-->
+<!--[if IE 8 ]> <html lang="vi" prefix="og: https://ogp.me/ns#" class="ie8 loading-site no-js"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="vi" prefix="og: https://ogp.me/ns#" class="loading-site no-js"> <!--<![endif]-->
+<head><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),this._loadEverythingNow()}async _loadEverythingNow(){this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{var n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){const n=e[t];Object.defineProperty(e,t,{get:n||function(){},set:n=>{e["rocket"+t]=n}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e?"rocket-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,r=document.createRange(),i=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),i.insertBefore(a,o)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mouseover","touchmove","touchstart","wheel"]);e._delayEventListeners(),e._delayJQueryReady(e),e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();
+</script>
+	<meta charset="UTF-8" />
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://chongthamphucthinh79.com/xmlrpc.php" />
+
+	<script type="rocketlazyloadscript">(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<script type="rocketlazyloadscript">window._wca = window._wca || [];</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!-- Search Engine Optimization by Rank Math - https://s.rankmath.com/home -->
+<title>Phúc Thịnh™ - Chống Thấm Neomax Quy Nhơn - 0909.787.702</title><link rel="stylesheet" href="https://chongthamphucthinh79.com/wp-content/cache/min/1/dceb92966a80ca091b7e7bd59d3ab241.css" media="all" data-minify="1" />
+<meta name="description" content="Phúc Thịnh đại lý sơn chống thấm thương hiệu Neomax tại Quy Nhơn, Bình Định - Dịch vụ Chống thấm - Chống nóng - Chống ăn mòn - Báo giá chống thấm: 0909.787.702"/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://chongthamphucthinh79.com/" />
+<meta property="og:locale" content="vi_VN" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Phúc Thịnh™ - Chống Thấm Neomax Quy Nhơn - 0909.787.702" />
+<meta property="og:description" content="Phúc Thịnh đại lý sơn chống thấm thương hiệu Neomax tại Quy Nhơn, Bình Định - Dịch vụ Chống thấm - Chống nóng - Chống ăn mòn - Báo giá chống thấm: 0909.787.702" />
+<meta property="og:url" content="https://chongthamphucthinh79.com/" />
+<meta property="og:site_name" content=" Phúc Thịnh™ - Chống Thấm Neomax Quy Nhơn " />
+<meta property="og:updated_time" content="2021-07-20T23:04:10+07:00" />
+<meta property="og:image" content="https://chongthamphucthinh79.com/wp-content/uploads/2016/08/dummy-1.jpg" />
+<meta property="og:image:secure_url" content="https://chongthamphucthinh79.com/wp-content/uploads/2016/08/dummy-1.jpg" />
+<meta property="og:image:width" content="400" />
+<meta property="og:image:height" content="260" />
+<meta property="og:image:alt" content="chống thấm" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Phúc Thịnh™ - Chống Thấm Neomax Quy Nhơn - 0909.787.702" />
+<meta name="twitter:description" content="Phúc Thịnh đại lý sơn chống thấm thương hiệu Neomax tại Quy Nhơn, Bình Định - Dịch vụ Chống thấm - Chống nóng - Chống ăn mòn - Báo giá chống thấm: 0909.787.702" />
+<meta name="twitter:image" content="https://chongthamphucthinh79.com/wp-content/uploads/2016/08/dummy-1.jpg" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"Place","@id":"https://chongthamphucthinh79.com/#place","address":{"@type":"PostalAddress","streetAddress":"27 Ch\u1ebf Lan Vi\u00ean, P. Gh\u1ec1nh R\u00e1ng","addressLocality":"Th\u00e0nh Ph\u1ed1 Quy Nh\u01a1n","addressRegion":"T\u1ec9nh B\u00ecnh \u0110\u1ecbnh","postalCode":"82000","addressCountry":"Vi\u1ec7t Nam"}},{"@type":["LocalBusiness","Organization"],"@id":"https://chongthamphucthinh79.com/#organization","name":"Ph\u00fac Th\u1ecbnh \u2013 \u0110\u1ed9c Quy\u1ec1n #1 Neomax Ch\u1ed1ng Th\u1ea5m T\u1ea1i Quy Nh\u01a1n","url":"https://chongthamphucthinh79.com","email":"chongthamphucthinh79@gmail.com","address":{"@type":"PostalAddress","streetAddress":"27 Ch\u1ebf Lan Vi\u00ean, P. Gh\u1ec1nh R\u00e1ng","addressLocality":"Th\u00e0nh Ph\u1ed1 Quy Nh\u01a1n","addressRegion":"T\u1ec9nh B\u00ecnh \u0110\u1ecbnh","postalCode":"82000","addressCountry":"Vi\u1ec7t Nam"},"logo":{"@type":"ImageObject","@id":"https://chongthamphucthinh79.com/#logo","url":"https://chongthamphucthinh79.com/wp-content/uploads/2021/07/chongthamnphucthinh79-scaled.jpg","caption":"Ph\u00fac Th\u1ecbnh \u2013 \u0110\u1ed9c Quy\u1ec1n #1 Neomax Ch\u1ed1ng Th\u1ea5m T\u1ea1i Quy Nh\u01a1n","inLanguage":"vi","width":"2560","height":"2560"},"openingHours":["Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:00-17:00"],"location":{"@id":"https://chongthamphucthinh79.com/#place"},"image":{"@id":"https://chongthamphucthinh79.com/#logo"},"telephone":"0931912889"},{"@type":"WebSite","@id":"https://chongthamphucthinh79.com/#website","url":"https://chongthamphucthinh79.com","name":"Ph\u00fac Th\u1ecbnh \u2013 \u0110\u1ed9c Quy\u1ec1n #1 Neomax Ch\u1ed1ng Th\u1ea5m T\u1ea1i Quy Nh\u01a1n","publisher":{"@id":"https://chongthamphucthinh79.com/#organization"},"inLanguage":"vi","potentialAction":{"@type":"SearchAction","target":"https://chongthamphucthinh79.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://chongthamphucthinh79.com/wp-content/uploads/2016/08/dummy-1.jpg","url":"https://chongthamphucthinh79.com/wp-content/uploads/2016/08/dummy-1.jpg","width":"400","height":"260","inLanguage":"vi"},{"@type":"Person","@id":"https://chongthamphucthinh79.com/author/admin/","name":"admin","url":"https://chongthamphucthinh79.com/author/admin/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/45830ea987f43830fc966d586b9400f8?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/45830ea987f43830fc966d586b9400f8?s=96&amp;d=mm&amp;r=g","caption":"admin","inLanguage":"vi"},"sameAs":["https://chongthamphucthinh79.com"],"worksFor":{"@id":"https://chongthamphucthinh79.com/#organization"}},{"@type":"WebPage","@id":"https://chongthamphucthinh79.com/#webpage","url":"https://chongthamphucthinh79.com/","name":"Ph\u00fac Th\u1ecbnh\u2122 - Ch\u1ed1ng Th\u1ea5m Neomax Quy Nh\u01a1n - 0909.787.702","datePublished":"2016-04-04T10:53:41+07:00","dateModified":"2021-07-20T23:04:10+07:00","author":{"@id":"https://chongthamphucthinh79.com/author/admin/"},"isPartOf":{"@id":"https://chongthamphucthinh79.com/#website"},"primaryImageOfPage":{"@id":"https://chongthamphucthinh79.com/wp-content/uploads/2016/08/dummy-1.jpg"},"inLanguage":"vi"},{"@type":"Article","headline":"Ph\u00fac Th\u1ecbnh\u2122 - Ch\u1ed1ng Th\u1ea5m Neomax Quy Nh\u01a1n - 0909.787.702","datePublished":"2016-04-04T10:53:41+07:00","dateModified":"2021-07-20T23:04:10+07:00","author":{"@type":"Person","name":"admin"},"publisher":{"@id":"https://chongthamphucthinh79.com/#organization"},"description":"Ph\u00fac Th\u1ecbnh \u0111\u1ea1i l\u00fd s\u01a1n ch\u1ed1ng th\u1ea5m th\u01b0\u01a1ng hi\u1ec7u Neomax t\u1ea1i Quy Nh\u01a1n, B\u00ecnh \u0110\u1ecbnh - D\u1ecbch v\u1ee5 Ch\u1ed1ng th\u1ea5m - Ch\u1ed1ng n\u00f3ng - Ch\u1ed1ng \u0103n m\u00f2n - B\u00e1o gi\u00e1 ch\u1ed1ng th\u1ea5m: 0909.787.702","name":"Ph\u00fac Th\u1ecbnh\u2122 - Ch\u1ed1ng Th\u1ea5m Neomax Quy Nh\u01a1n - 0909.787.702","@id":"https://chongthamphucthinh79.com/#richSnippet","isPartOf":{"@id":"https://chongthamphucthinh79.com/#webpage"},"image":{"@id":"https://chongthamphucthinh79.com/wp-content/uploads/2016/08/dummy-1.jpg"},"inLanguage":"vi","mainEntityOfPage":{"@id":"https://chongthamphucthinh79.com/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin  Phúc Thịnh™ - Chống Thấm Neomax Quy Nhơn  &raquo;" href="https://chongthamphucthinh79.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dòng phản hồi  Phúc Thịnh™ - Chống Thấm Neomax Quy Nhơn  &raquo;" href="https://chongthamphucthinh79.com/comments/feed/" />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	
+
+
+
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+
+
+
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+
+
+<style id='ez-toc-inline-css' type='text/css'>
+div#ez-toc-container p.ez-toc-title {font-size: 120%;}div#ez-toc-container p.ez-toc-title {font-weight: 500;}div#ez-toc-container ul li {font-size: 95%;}
+</style>
+
+
+
+
+<link rel='stylesheet' id='flatsome-googlefonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3Aregular%2C700%2Cregular%2C700%2Cregular&#038;display=swap&#038;ver=3.9' type='text/css' media='all' />
+
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js' defer></script>
+<script type="rocketlazyloadscript" defer data-rocket-type='text/javascript' src='https://stats.wp.com/s-202129.js' id='woocommerce-analytics-js'></script>
+<link rel="https://api.w.org/" href="https://chongthamphucthinh79.com/wp-json/" /><link rel="alternate" type="application/json" href="https://chongthamphucthinh79.com/wp-json/wp/v2/pages/43" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://chongthamphucthinh79.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://chongthamphucthinh79.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<link rel='shortlink' href='https://chongthamphucthinh79.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://chongthamphucthinh79.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchongthamphucthinh79.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://chongthamphucthinh79.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchongthamphucthinh79.com%2F&#038;format=xml" />
+<meta name="google-site-verification" content="3_olhtzXl-GLvT2hfGckphZg0J0GzTRZtLD9DNzKROI" />
+<meta name="google-site-verification" content="i1YFmx8PMFdLPA3mAb3qz1OtQiQe5CS0agpdnfHA3l4" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="rocketlazyloadscript" async src="https://www.googletagmanager.com/gtag/js?id=G-2VXRK9LTDF"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2VXRK9LTDF');
+</script><style type='text/css'>img#wpstats{display:none}</style>
+		<style>.bg{opacity: 0; transition: opacity 1s; -webkit-transition: opacity 1s;} .bg-loaded{opacity: 1;}</style><!--[if IE]><link rel="stylesheet" type="text/css" href="https://chongthamphucthinh79.com/wp-content/themes/flatsome/assets/css/ie-fallback.css"><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script><script>var head = document.getElementsByTagName('head')[0],style = document.createElement('style');style.type = 'text/css';style.styleSheet.cssText = ':before,:after{content:none !important';head.appendChild(style);setTimeout(function(){head.removeChild(style);}, 0);</script><script src="https://chongthamphucthinh79.com/wp-content/themes/flatsome/assets/libs/ie-flexibility.js"></script><![endif]-->	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/cropped-refix-FN-01-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/cropped-refix-FN-01-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/cropped-refix-FN-01-180x180.png" />
+<meta name="msapplication-TileImage" content="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/cropped-refix-FN-01-270x270.png" />
+<style id="custom-css" type="text/css">:root {--primary-color: #ffffff;}.header-main{height: 85px}#logo img{max-height: 85px}#logo{width:200px;}#logo a{max-width:100%px;}.header-bottom{min-height: 34px}.header-top{min-height: 30px}.transparent .header-main{height: 30px}.transparent #logo img{max-height: 30px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 30px;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.search-form{ width: 100%;}.header-bg-color, .header-wrapper {background-color: #ffffff}.header-bottom {background-color: #365b2f}.header-main .nav > li > a{line-height: 16px }.stuck .header-main .nav > li > a{line-height: 50px }.header-bottom-nav > li > a{line-height: 16px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}.nav-dropdown{border-radius:3px}.nav-dropdown{font-size:90%}.nav-dropdown-has-arrow li.has-dropdown:after{border-bottom-color: #ffffff;}.nav .nav-dropdown{background-color: #ffffff}.header-top{background-color:#dd3333!important;}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #ffffff;}/* Color !important */[data-text-color="primary"]{color: #ffffff!important;}/* Background Color */[data-text-bg="primary"]{background-color: #ffffff;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #ffffff;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #ffffff}.nav-tabs > li.active > a{border-top-color: #ffffff}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #ffffff }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #ffffff }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #ffffff;}/* Background Color */[data-icon-label]:after, .secondary.is-underline:hover,.secondary.is-outline:hover,.icon-label,.button.secondary:not(.is-outline),.button.alt:not(.is-outline), .badge-inner.on-sale, .button.checkout, .single_add_to_cart_button, .current .breadcrumb-step{ background-color:#c30d0d; }[data-text-bg="secondary"]{background-color: #c30d0d;}/* Color */.secondary.is-underline,.secondary.is-link, .secondary.is-outline,.stars a.active, .star-rating:before, .woocommerce-page .star-rating:before,.star-rating span:before, .color-secondary{color: #c30d0d}/* Color !important */[data-text-color="secondary"]{color: #c30d0d!important;}/* Border */.secondary.is-outline:hover{border-color:#c30d0d}.success.is-underline:hover,.success.is-outline:hover,.success{background-color: #00911d}.success-color, .success.is-link, .success.is-outline{color: #00911d;}.success-border{border-color: #00911d!important;}/* Color !important */[data-text-color="success"]{color: #00911d!important;}/* Background Color */[data-text-bg="success"]{background-color: #00911d;}.alert.is-underline:hover,.alert.is-outline:hover,.alert{background-color: #ffffff}.alert.is-link, .alert.is-outline, .color-alert{color: #ffffff;}/* Color !important */[data-text-color="alert"]{color: #ffffff!important;}/* Background Color */[data-text-bg="alert"]{background-color: #ffffff;}@media screen and (max-width: 549px){body{font-size: 100%;}}body{font-family:"Roboto", sans-serif}body{font-weight: 0}body{color: #000000}.nav > li > a {font-family:"Roboto", sans-serif;}.nav > li > a {font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Roboto", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font{color: #288d57;}.alt-font{font-family: "Roboto", sans-serif;}.alt-font{font-weight: 0!important;}.header:not(.transparent) .header-nav.nav > li > a {color: #288d57;}a{color: #f2d332;}a:hover{color: #dd3333;}.tagcloud a:hover{border-color: #dd3333;background-color: #dd3333;}.shop-page-title.featured-title .title-overlay{background-color: rgba(2,124,78,0.3);}@media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 247px!important;width: 247px!important;}}.absolute-footer, html{background-color: #165116}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}</style>		<style type="text/css" id="wp-custom-css">
+			
+.grid-tools a{
+	border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.chatbuttons a img {
+    width: 50%;
+    padding: 2px;
+    margin: 0px;
+	float: left;
+}
+
+.absolute-footer {
+    color: rgba(0,0,0,0.5);
+    padding: 1px 0 1px;
+    font-size: .7em;
+}
+
+.nav>li>a, .nav-dropdown>li>a, .nav-column>li>a {
+    color: #00911d;
+    transition: all .2s;
+}
+
+.featured-title .page-title-inner {
+    padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.transparent #logo img {
+    max-height: 100%;
+}
+
+
+p {
+    margin-bottom: 0.2em;
+}
+
+
+.copyright-footer {
+    min-height: 50px;
+    min-width: 50px;
+    font-size: 14px;
+    color: #fff;
+    padding: 12px 15px 1px;
+}
+
+
+@media screen and (min-width: 850px)
+.large-3 {
+    max-width: 10%;
+    -ms-flex-preferred-size: 10%;
+    flex-basis: 10%;
+}
+
+.button.is-underline:hover {
+    color: #eee;
+    box-shadow: none;
+}
+
+.box {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.image-zoom {
+    margin-left: 10%;
+    margin-right:20%;
+}
+
+.box-image img {
+    max-width: 100%;
+    width: 100%;
+    transform: translateZ(0);
+    margin: 0 auto;
+}
+
+span.amount {
+    white-space: nowrap;
+    color: #ff0003;
+    font-weight: bold;
+}
+
+
+
+
+
+
+aside#text-15 {
+    border: 1px solid #15b2a0;
+    padding: 10px;
+}
+
+
+input.wpcf7-form-control.wpcf7-submit.button {
+	background-color: #1ee829;}
+
+
+.back-to-top {
+    margin: 0;
+    opacity: 0;
+    bottom: 60px;
+    right: 20px;
+    pointer-events: none;
+    -ms-transform: translateY(30%);
+    transform: translateY(30%);
+}
+element.style {
+    font-size: 75%;
+}
+a {
+    color: #000000;
+}		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+
+<body data-rsssl=1 class="home page-template page-template-page-blank page-template-page-blank-php page page-id-43 theme-flatsome woocommerce-no-js header-shadow nav-dropdown-has-arrow">
+
+
+<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+<div id="wrapper">
+
+	
+	<header id="header" class="header has-sticky sticky-jump">
+		<div class="header-wrapper">
+			<div id="masthead" class="header-main ">
+      <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
+
+          <!-- Logo -->
+          <div id="logo" class="flex-col logo">
+            <!-- Header logo -->
+<a href="https://chongthamphucthinh79.com/" title=" Phúc Thịnh™ &#8211; Chống Thấm Neomax Quy Nhơn  - SINCE 2006" rel="home">
+    <img width="200" height="85" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20200%2085'%3E%3C/svg%3E" class="header_logo header-logo" alt=" Phúc Thịnh™ &#8211; Chống Thấm Neomax Quy Nhơn " data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/logo-neomax-phuc-thinh-79-quy-nhon.png"/><noscript><img width="200" height="85" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/logo-neomax-phuc-thinh-79-quy-nhon.png" class="header_logo header-logo" alt=" Phúc Thịnh™ &#8211; Chống Thấm Neomax Quy Nhơn "/></noscript><img  width="200" height="85" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20200%2085'%3E%3C/svg%3E" class="header-logo-dark" alt=" Phúc Thịnh™ &#8211; Chống Thấm Neomax Quy Nhơn " data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/logo-neomax-phuc-thinh-79-quy-nhon-white.png"/><noscript><img  width="200" height="85" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/logo-neomax-phuc-thinh-79-quy-nhon-white.png" class="header-logo-dark" alt=" Phúc Thịnh™ &#8211; Chống Thấm Neomax Quy Nhơn "/></noscript></a>
+          </div>
+
+          <!-- Mobile Left Elements -->
+          <div class="flex-col show-for-medium flex-left">
+            <ul class="mobile-nav nav nav-left ">
+              <li class="nav-icon has-icon">
+  		<a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay" data-color="" class="is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
+		
+		  <i class="icon-menu" ></i>
+		  		</a>
+	</li>            </ul>
+          </div>
+
+          <!-- Left Elements -->
+          <div class="flex-col hide-for-medium flex-left
+            flex-grow">
+            <ul class="header-nav header-nav-main nav nav-left  nav-size-small nav-spacing-large nav-uppercase" >
+                          </ul>
+          </div>
+
+          <!-- Right Elements -->
+          <div class="flex-col hide-for-medium flex-right">
+            <ul class="header-nav header-nav-main nav nav-right  nav-size-small nav-spacing-large nav-uppercase">
+              <li id="menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-43 current_page_item menu-item-320 active"><a href="https://chongthamphucthinh79.com/" aria-current="page" class="nav-top-link">Trang Chủ</a></li>
+<li id="menu-item-330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-330"><a href="https://chongthamphucthinh79.com/gioi-thieu-chong-tham-quy-nhon-phuc-thinh/" class="nav-top-link">GIỚI THIỆU</a></li>
+<li id="menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-547 has-dropdown"><a href="https://chongthamphucthinh79.com/san-pham/" class="nav-top-link">Sản Phẩm<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default dropdown-uppercase">
+	<li id="menu-item-527" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-527"><a href="https://chongthamphucthinh79.com/danh-muc-san-pham/san-pham-chong-tham/">SẢN PHẨM CHỐNG THẤM</a></li>
+	<li id="menu-item-528" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-528"><a href="https://chongthamphucthinh79.com/danh-muc-san-pham/vua-rot-vua-bom/">VỮA RÓT, VỮA BƠM</a></li>
+	<li id="menu-item-529" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-529"><a href="https://chongthamphucthinh79.com/danh-muc-san-pham/san-pham-sua-chua-be-tong/">SẢN PHẨM SỬA CHỮA BÊ TÔNG</a></li>
+	<li id="menu-item-530" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-530"><a href="https://chongthamphucthinh79.com/danh-muc-san-pham/san-pham-cho-san/">SẢN PHẨM CHO SÀN</a></li>
+	<li id="menu-item-533" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-533"><a href="https://chongthamphucthinh79.com/danh-muc-san-pham/phu-gia-be-tong-va-ho-tro-be-tong/">PHỤ GIA BÊ TÔNG VÀ HỖ TRỢ BÊ TÔNG</a></li>
+	<li id="menu-item-532" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-532"><a href="https://chongthamphucthinh79.com/danh-muc-san-pham/san-pham-lam-sach/">SẢN PHẨM LÀM SẠCH</a></li>
+</ul>
+</li>
+<li id="menu-item-324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="https://chongthamphucthinh79.com/dich-vu/" class="nav-top-link">Dịch Vụ</a></li>
+<li id="menu-item-323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323"><a href="https://chongthamphucthinh79.com/cong-trinh/" class="nav-top-link">Công trình</a></li>
+<li id="menu-item-321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-321"><a href="https://chongthamphucthinh79.com/tin-tuc/" class="nav-top-link">Tin Tức</a></li>
+<li id="menu-item-331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"><a href="https://chongthamphucthinh79.com/lien-he/" class="nav-top-link">Liên Hệ</a></li>
+<li class="header-divider"></li><li class="cart-item has-icon">
+
+	<a href="https://chongthamphucthinh79.com/gio-hang/" class="header-cart-link off-canvas-toggle nav-top-link is-small" data-open="#cart-popup" data-class="off-canvas-cart" title="Giỏ hàng" data-pos="right">
+
+<span class="header-cart-title">
+   Giỏ hàng   /      <span class="cart-price"><span class="woocommerce-Price-amount amount"><bdi>0<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+  </span>
+
+    <i class="icon-shopping-cart"
+    data-icon-label="0">
+  </i>
+  </a>
+
+
+
+  <!-- Cart Sidebar Popup -->
+  <div id="cart-popup" class="mfp-hide widget_shopping_cart">
+  <div class="cart-popup-inner inner-padding">
+      <div class="cart-popup-title text-center">
+          <h4 class="uppercase">Giỏ hàng</h4>
+          <div class="is-divider"></div>
+      </div>
+      <div class="widget_shopping_cart_content">
+          
+
+	<p class="woocommerce-mini-cart__empty-message">Chưa có sản phẩm trong giỏ hàng.</p>
+
+
+      </div>
+            <div class="cart-sidebar-content relative"></div>  </div>
+  </div>
+
+</li>
+            </ul>
+          </div>
+
+          <!-- Mobile Right Elements -->
+          <div class="flex-col show-for-medium flex-right">
+            <ul class="mobile-nav nav nav-right ">
+              <li class="cart-item has-icon">
+
+      <a href="https://chongthamphucthinh79.com/gio-hang/" class="header-cart-link off-canvas-toggle nav-top-link is-small" data-open="#cart-popup" data-class="off-canvas-cart" title="Giỏ hàng" data-pos="right">
+  
+    <i class="icon-shopping-cart"
+    data-icon-label="0">
+  </i>
+  </a>
+
+</li>
+            </ul>
+          </div>
+
+      </div>
+     
+            <div class="container"><div class="top-divider full-width"></div></div>
+      </div>
+<div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div>		</div>
+	</header>
+
+	
+	<main id="main" class="">
+
+
+<div id="content" role="main" class="content-area">
+
+		
+				<section class="section" id="section_1067550052">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="slider-wrapper relative" id="slider-1156875564" >
+    <div class="slider slider-nav-simple slider-nav-large slider-nav-light slider-style-normal slider-show-nav"
+        data-flickity-options='{
+            "cellAlign": "center",
+            "imagesLoaded": true,
+            "lazyLoad": 1,
+            "freeScroll": false,
+            "wrapAround": true,
+            "autoPlay": 5000,
+            "pauseAutoPlayOnHover" : false,
+            "prevNextButtons": true,
+            "contain" : true,
+            "adaptiveHeight" : true,
+            "dragThreshold" : 10,
+            "percentPosition": true,
+            "pageDots": true,
+            "rightToLeft": false,
+            "draggable": true,
+            "selectedAttraction": 0.1,
+            "parallax" : 0,
+            "friction": 0.6        }'
+        >
+        
+
+  <div class="banner has-hover has-slide-effect slide-zoom-in" id="banner-867620072">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-726442501" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+              </div>
+           </div>
+                            
+<style scope="scope">
+
+#text-box-726442501 {
+  width: 60%;
+}
+#text-box-726442501 .text {
+  font-size: 100%;
+}
+
+
+@media (min-width:550px) {
+
+  #text-box-726442501 {
+    width: 60%;
+  }
+
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+              <div class="height-fix is-invisible"><img width="2560" height="910" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202560%20910'%3E%3C/svg%3E" class="attachment-original size-original" alt="" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1.jpg 2560w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1-800x284.jpg 800w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1-1400x498.jpg 1400w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1-768x273.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1-1536x546.jpg 1536w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1-2048x728.jpg 2048w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1-430x153.jpg 430w" data-lazy-sizes="(max-width: 2560px) 100vw, 2560px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1.jpg" /><noscript><img width="2560" height="910" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1.jpg" class="attachment-original size-original" alt="" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1.jpg 2560w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1-800x284.jpg 800w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1-1400x498.jpg 1400w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1-768x273.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1-1536x546.jpg 1536w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1-2048x728.jpg 2048w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1-430x153.jpg 430w" sizes="(max-width: 2560px) 100vw, 2560px" /></noscript></div>
+            
+<style scope="scope">
+
+#banner-867620072 .bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-1.jpg);
+}
+#banner-867620072 {
+  background-color: rgb(0,0,0);
+}
+#banner-867620072 .bg {
+  background-position: 46% 41%;
+}
+</style>
+  </div>
+
+
+
+  <div class="banner has-hover has-slide-effect slide-zoom-in" id="banner-1812703983">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-794906921" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+              </div>
+           </div>
+                            
+<style scope="scope">
+
+#text-box-794906921 {
+  width: 60%;
+}
+#text-box-794906921 .text {
+  font-size: 100%;
+}
+
+
+@media (min-width:550px) {
+
+  #text-box-794906921 {
+    width: 60%;
+  }
+
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+              <div class="height-fix is-invisible"><img width="2560" height="907" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202560%20907'%3E%3C/svg%3E" class="attachment-original size-original" alt="" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2.jpg 2560w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2-800x283.jpg 800w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2-1400x496.jpg 1400w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2-768x272.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2-1536x544.jpg 1536w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2-2048x726.jpg 2048w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2-430x152.jpg 430w" data-lazy-sizes="(max-width: 2560px) 100vw, 2560px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2.jpg" /><noscript><img width="2560" height="907" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2.jpg" class="attachment-original size-original" alt="" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2.jpg 2560w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2-800x283.jpg 800w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2-1400x496.jpg 1400w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2-768x272.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2-1536x544.jpg 1536w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2-2048x726.jpg 2048w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2-430x152.jpg 430w" sizes="(max-width: 2560px) 100vw, 2560px" /></noscript></div>
+            
+<style scope="scope">
+
+#banner-1812703983 .bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-2.jpg);
+}
+#banner-1812703983 {
+  background-color: rgb(0,0,0);
+}
+#banner-1812703983 .bg {
+  background-position: 46% 41%;
+}
+</style>
+  </div>
+
+
+
+  <div class="banner has-hover has-slide-effect slide-zoom-in" id="banner-304707600">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-2106687683" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+              </div>
+           </div>
+                            
+<style scope="scope">
+
+#text-box-2106687683 {
+  width: 60%;
+}
+#text-box-2106687683 .text {
+  font-size: 100%;
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+              <div class="height-fix is-invisible"><img width="2560" height="907" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202560%20907'%3E%3C/svg%3E" class="attachment-original size-original" alt="" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3.jpg 2560w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3-800x283.jpg 800w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3-1400x496.jpg 1400w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3-768x272.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3-1536x544.jpg 1536w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3-2048x726.jpg 2048w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3-430x152.jpg 430w" data-lazy-sizes="(max-width: 2560px) 100vw, 2560px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3.jpg" /><noscript><img width="2560" height="907" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3.jpg" class="attachment-original size-original" alt="" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3.jpg 2560w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3-800x283.jpg 800w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3-1400x496.jpg 1400w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3-768x272.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3-1536x544.jpg 1536w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3-2048x726.jpg 2048w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3-430x152.jpg 430w" sizes="(max-width: 2560px) 100vw, 2560px" /></noscript></div>
+            
+<style scope="scope">
+
+#banner-304707600 .bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-3.jpg);
+}
+</style>
+  </div>
+
+
+
+  <div class="banner has-hover has-slide-effect slide-zoom-in" id="banner-689907183">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-225257057" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+              </div>
+           </div>
+                            
+<style scope="scope">
+
+#text-box-225257057 {
+  width: 60%;
+}
+#text-box-225257057 .text {
+  font-size: 100%;
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+              <div class="height-fix is-invisible"><img width="1920" height="680" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%20680'%3E%3C/svg%3E" class="attachment-original size-original" alt="" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4.jpg 1920w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4-800x283.jpg 800w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4-1400x496.jpg 1400w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4-768x272.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4-1536x544.jpg 1536w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4-430x152.jpg 430w" data-lazy-sizes="(max-width: 1920px) 100vw, 1920px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4.jpg" /><noscript><img width="1920" height="680" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4.jpg" class="attachment-original size-original" alt="" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4.jpg 1920w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4-800x283.jpg 800w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4-1400x496.jpg 1400w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4-768x272.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4-1536x544.jpg 1536w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4-430x152.jpg 430w" sizes="(max-width: 1920px) 100vw, 1920px" /></noscript></div>
+            
+<style scope="scope">
+
+#banner-689907183 .bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-phuc-thinh-son-chong-tham-quy-nhon-4.jpg);
+}
+</style>
+  </div>
+
+
+     </div>
+
+     <div class="loading-spin dark large centered"></div>
+
+     <style scope="scope">
+             </style>
+</div>
+
+
+		</div>
+
+		
+<style scope="scope">
+
+#section_1067550052 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+</style>
+	</section>
+	
+<p><html></p>
+<p><body data-rsssl=1><br />
+<marquee>CÔNG TY TNHH XD – TM TỔNG HỢP PHÚC THỊNH, PARTY B (SELLER): PHUC THINH GENERAL COMMERCIAL-CONSTRUCTION LIMITED LIABILITY COMPANY, Địa chỉ : 27 Chế Lan Viên, Phường Ghềnh Ráng, TP.Quy Nhơn, Bình Định, Việt Nam.</marquee><br />
+</body><br />
+</html></p>
+	<section class="section" id="section_1953451995">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+	<div class="is-border"
+		style="border-color:rgb(235, 235, 235);border-width:1px 0px 0px 0px;">
+	</div>
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="container section-title-container" style="margin-top:25px;"><h2 class="section-title section-title-center"><b></b><span class="section-title-main" style="color:rgb(0, 145, 29);">Sản Phẩm mới</span><b></b></h2></div>
+<div class="row"  id="row-1908410558">
+
+	<div class="col medium-4 small-12 large-4"  >
+		<div class="col-inner text-center"  >
+			
+			
+	<div class="box has-hover   has-hover box-text-bottom" >
+
+		<div class="box-image" style="width:70%;">
+			<a href="https://chongthamphucthinh79.com/san-pham/neomax201/"  >			<div class="image-zoom-fade" >
+				<img width="600" height="567" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20567'%3E%3C/svg%3E" class="attachment-original size-original" alt="neomax 201" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-s-7eb8b5bb-730d-4a64-92cb-89519c4808ef-1.png 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-s-7eb8b5bb-730d-4a64-92cb-89519c4808ef-1-423x400.png 423w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-s-7eb8b5bb-730d-4a64-92cb-89519c4808ef-1-430x406.png 430w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-s-7eb8b5bb-730d-4a64-92cb-89519c4808ef-1.png" /><noscript><img width="600" height="567" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-s-7eb8b5bb-730d-4a64-92cb-89519c4808ef-1.png" class="attachment-original size-original" alt="neomax 201" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-s-7eb8b5bb-730d-4a64-92cb-89519c4808ef-1.png 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-s-7eb8b5bb-730d-4a64-92cb-89519c4808ef-1-423x400.png 423w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-s-7eb8b5bb-730d-4a64-92cb-89519c4808ef-1-430x406.png 430w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<h3 class="product-name"><a href="https://chongthamphucthinh79.com/san-pham/neomax201/">Neomax® 201</a></h3>
+<ul>
+<li class="bullet-arrow" style="text-align: left;"><span style="font-size: 85%;">Chống thấm PU một thành phần</span></li>
+<li class="bullet-arrow" style="text-align: left;"><span style="font-size: 85%;">Gốc dung môi</span></li>
+</ul>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+	</div>
+
+	
+
+	<div class="col medium-4 small-12 large-4"  >
+		<div class="col-inner text-center"  >
+			
+			
+	<div class="box has-hover   has-hover box-text-bottom" >
+
+		<div class="box-image" style="width:70%;">
+			<a href="https://chongthamphucthinh79.com/san-pham/neomax820/"  >			<div class="image-zoom-fade" >
+				<img width="600" height="567" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20567'%3E%3C/svg%3E" class="attachment-large size-large" alt="neomax 820 20kg" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-820-l.png 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-820-l-423x400.png 423w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-820-l-430x406.png 430w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-820-l.png" /><noscript><img width="600" height="567" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-820-l.png" class="attachment-large size-large" alt="neomax 820 20kg" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-820-l.png 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-820-l-423x400.png 423w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-820-l-430x406.png 430w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<h3 class="name product-title"><a href="https://chongthamphucthinh79.com/san-pham/neomax820/">Neomax® 820</a></h3>
+<ul>
+<li class="bullet-arrow" style="text-align: left;"><span style="font-size: 85%;">Chống thấm một thành phần</span></li>
+<li class="bullet-arrow" style="text-align: left;"><span style="font-size: 85%;">Gốc dung môi, chống thấm PU</span></li>
+</ul>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+	</div>
+
+	
+
+	<div class="col medium-4 small-12 large-4"  >
+		<div class="col-inner text-center"  >
+			
+			
+	<div class="box has-hover   has-hover box-text-bottom" >
+
+		<div class="box-image" style="width:70%;">
+			<a href="https://chongthamphucthinh79.com/san-pham/neomax-c102-flex/"  >			<div class="image-zoom-fade" >
+				<img width="600" height="567" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20567'%3E%3C/svg%3E" class="attachment- size-" alt="neomax-c102 flex 27 kg" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-c102-flex-27-kg.png 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-c102-flex-27-kg-423x400.png 423w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-c102-flex-27-kg-430x406.png 430w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-c102-flex-27-kg.png" /><noscript><img width="600" height="567" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-c102-flex-27-kg.png" class="attachment- size-" alt="neomax-c102 flex 27 kg" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-c102-flex-27-kg.png 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-c102-flex-27-kg-423x400.png 423w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-c102-flex-27-kg-430x406.png 430w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<h3 class="name product-title"><a href="https://chongthamphucthinh79.com/san-pham/neomax-c102-flex/">Neomax® C102 Flex</a></h3>
+<ul>
+<li class="bullet-arrow" style="text-align: left;"><span style="font-size: 85%;">Chống thấm đàn ông hai thành phần</span></li>
+<li class="bullet-arrow" style="text-align: left;"><span style="font-size: 85%;">Gốc xi măng</span></li>
+</ul>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+	</div>
+
+	
+
+	<div class="col medium-4 small-12 large-4"  >
+		<div class="col-inner text-center"  >
+			
+			
+	<div class="box has-hover   has-hover box-text-bottom" >
+
+		<div class="box-image" style="width:70%;">
+			<a href="https://chongthamphucthinh79.com/san-pham/neomax-primer-p11/"  >			<div class="image-zoom-fade" >
+				<img width="600" height="567" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20567'%3E%3C/svg%3E" class="attachment- size-" alt="neomax primer p11" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-primer-p11-8035a369-0b67-47b4-a967-e0d830bbbe4e.png 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-primer-p11-8035a369-0b67-47b4-a967-e0d830bbbe4e-423x400.png 423w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-primer-p11-8035a369-0b67-47b4-a967-e0d830bbbe4e-430x406.png 430w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-primer-p11-8035a369-0b67-47b4-a967-e0d830bbbe4e.png" /><noscript><img width="600" height="567" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-primer-p11-8035a369-0b67-47b4-a967-e0d830bbbe4e.png" class="attachment- size-" alt="neomax primer p11" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-primer-p11-8035a369-0b67-47b4-a967-e0d830bbbe4e.png 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-primer-p11-8035a369-0b67-47b4-a967-e0d830bbbe4e-423x400.png 423w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-primer-p11-8035a369-0b67-47b4-a967-e0d830bbbe4e-430x406.png 430w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<h3 class="name product-title"><a href="https://chongthamphucthinh79.com/san-pham/neomax-primer-p11/">Neomax® P11</a></h3>
+<ul>
+<li class="bullet-arrow" style="text-align: left;"><span style="font-size: 85%;">Chống thấm một thành phần</span></li>
+<li class="bullet-arrow" style="text-align: left;"><span style="font-size: 85%;">Gốc Polyurethane, Polyurea, độ nhớt thấp</span></li>
+</ul>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+	</div>
+
+	
+
+	<div class="col medium-4 small-12 large-4"  >
+		<div class="col-inner text-center"  >
+			
+			
+	<div class="box has-hover   has-hover box-text-bottom" >
+
+		<div class="box-image" style="width:70%;">
+			<a href="https://chongthamphucthinh79.com/san-pham/neomax-a108/"  >			<div class="image-zoom-fade" >
+				<img width="600" height="567" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20567'%3E%3C/svg%3E" class="attachment- size-" alt="neomax a108 5kg" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-a108-s-59979063-c0e1-4abf-9731-f18fffe5f03b.png 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-a108-s-59979063-c0e1-4abf-9731-f18fffe5f03b-423x400.png 423w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-a108-s-59979063-c0e1-4abf-9731-f18fffe5f03b-430x406.png 430w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-a108-s-59979063-c0e1-4abf-9731-f18fffe5f03b.png" /><noscript><img width="600" height="567" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-a108-s-59979063-c0e1-4abf-9731-f18fffe5f03b.png" class="attachment- size-" alt="neomax a108 5kg" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-a108-s-59979063-c0e1-4abf-9731-f18fffe5f03b.png 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-a108-s-59979063-c0e1-4abf-9731-f18fffe5f03b-423x400.png 423w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-a108-s-59979063-c0e1-4abf-9731-f18fffe5f03b-430x406.png 430w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<h3 class="name product-title"><a href="https://chongthamphucthinh79.com/san-pham/neomax-a108/">Neomax® A108</a></h3>
+<ul>
+<li class="bullet-arrow" style="text-align: left;"><span style="font-size: 85%;">Chống thấm đàn hồi một thành phần</span></li>
+<li class="bullet-arrow" style="text-align: left;"><span style="font-size: 85%;">Gốc nước, 100% nhựa acrylic đa tính năng</span></li>
+</ul>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+	</div>
+
+	
+
+	<div class="col medium-4 small-12 large-4"  >
+		<div class="col-inner text-center"  >
+			
+			
+	<div class="box has-hover   has-hover box-text-bottom" >
+
+		<div class="box-image" style="width:70%;">
+			<a href="https://chongthamphucthinh79.com/san-pham/neomax-topcoat-t14/"  >			<div class="image-zoom-fade" >
+				<img width="600" height="567" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20567'%3E%3C/svg%3E" class="attachment- size-" alt="neomax topcoat t14" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-topcoat-t14-ea8b46d5-0d9f-47bd-b0a9-b731f5a393e8.png 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-topcoat-t14-ea8b46d5-0d9f-47bd-b0a9-b731f5a393e8-423x400.png 423w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-topcoat-t14-ea8b46d5-0d9f-47bd-b0a9-b731f5a393e8-430x406.png 430w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-topcoat-t14-ea8b46d5-0d9f-47bd-b0a9-b731f5a393e8.png" /><noscript><img width="600" height="567" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-topcoat-t14-ea8b46d5-0d9f-47bd-b0a9-b731f5a393e8.png" class="attachment- size-" alt="neomax topcoat t14" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-topcoat-t14-ea8b46d5-0d9f-47bd-b0a9-b731f5a393e8.png 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-topcoat-t14-ea8b46d5-0d9f-47bd-b0a9-b731f5a393e8-423x400.png 423w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neomax-topcoat-t14-ea8b46d5-0d9f-47bd-b0a9-b731f5a393e8-430x406.png 430w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>											</div>
+			</a>		</div>
+
+		<div class="box-text text-center" >
+			<div class="box-text-inner">
+				
+<h3 class="name product-title"><a href="https://chongthamphucthinh79.com/san-pham/neomax-topcoat-t14/">Neomax® Topcoat T14</a></h3>
+<ul>
+<li class="bullet-arrow" style="text-align: left;"><span style="font-size: 85%;">Chống thấm một thành phần</span></li>
+<li class="bullet-arrow" style="text-align: left;"><span style="font-size: 85%;">Gốc Polyurethane tạo lớp phủ bên ngoài</span></li>
+</ul>
+			</div>
+		</div>
+	</div>
+	
+		</div>
+	</div>
+
+	
+</div>
+		</div>
+
+		
+<style scope="scope">
+
+#section_1953451995 {
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: rgb(255,255,255);
+}
+</style>
+	</section>
+	
+	<section class="section" id="section_1523881669">
+		<div class="bg section-bg fill bg-fill  " >
+
+			
+			<div class="section-bg-overlay absolute fill"></div>
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="container section-title-container dv" style="max-width:448px;"><h2 class="section-title section-title-center"><b></b><span class="section-title-main" style="color:rgb(255, 255, 255);">Dịch vụ</span><b></b></h2></div>
+<div class="row"  id="row-1691043391">
+
+	<div class="col medium-4 small-12 large-4"  >
+		<div class="col-inner"  >
+			
+			
+
+  <div class="banner has-hover bg-zoom-fade" id="banner-157483241">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <a class="fill" href="https://chongthamphucthinh79.com/dich-vu-chong-tham-quy-nhon/"  ><div class="fill banner-link"></div></a>            
+   <div id="text-box-482276793" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+              </div>
+           </div>
+                            
+<style scope="scope">
+
+#text-box-482276793 {
+  width: 60%;
+}
+#text-box-482276793 .text {
+  font-size: 100%;
+}
+
+
+@media (min-width:550px) {
+
+  #text-box-482276793 {
+    width: 60%;
+  }
+
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style scope="scope">
+
+#banner-157483241 {
+  padding-top: 250px;
+}
+#banner-157483241 .bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/phuc-thinh-thi-cong-chong-tham-quy-nhon.jpg);
+}
+#banner-157483241 .bg {
+  background-position: 100% 0%;
+}
+</style>
+  </div>
+
+
+<a href="https://chongthamphucthinh79.com/dich-vu-chong-tham-quy-nhon/" target="_self" class="button primary is-underline box-shadow-3 box-shadow-5-hover expand bt-01"  style="border-radius:5px;">
+    <span>THI CÔNG CHỐNG THẤM</span>
+  </a>
+
+		</div>
+	</div>
+
+	
+
+	<div class="col medium-4 small-12 large-4"  >
+		<div class="col-inner"  >
+			
+			
+
+  <div class="banner has-hover bg-zoom-fade" id="banner-1288592948">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <a class="fill" href="https://chongthamphucthinh79.com/thi-cong-son-nen-chong-bui/"  ><div class="fill banner-link"></div></a>            
+   <div id="text-box-199512814" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+              </div>
+           </div>
+                            
+<style scope="scope">
+
+#text-box-199512814 {
+  width: 60%;
+}
+#text-box-199512814 .text {
+  font-size: 100%;
+}
+
+
+@media (min-width:550px) {
+
+  #text-box-199512814 {
+    width: 60%;
+  }
+
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style scope="scope">
+
+#banner-1288592948 {
+  padding-top: 250px;
+}
+#banner-1288592948 .bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/phuc-thinh-thi-cong-nen-chong-bui.jpg);
+}
+#banner-1288592948 .bg {
+  background-position: 95% 95%;
+}
+</style>
+  </div>
+
+
+<a href="https://chongthamphucthinh79.com/thi-cong-son-nen-chong-bui/" target="_self" class="button primary is-underline box-shadow-3 box-shadow-5-hover expand bt-01"  style="border-radius:5px;">
+    <span>THI CÔNG SƠN NỀN CHỐNG BỤI</span>
+  </a>
+
+		</div>
+	</div>
+
+	
+
+	<div class="col medium-4 small-12 large-4"  >
+		<div class="col-inner"  >
+			
+			
+
+  <div class="banner has-hover bg-zoom-fade" id="banner-1551487921">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <a class="fill" href="https://chongthamphucthinh79.com/thi-cong-son-nen-chong-truot/"  ><div class="fill banner-link"></div></a>            
+   <div id="text-box-1830887441" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+              </div>
+           </div>
+                            
+<style scope="scope">
+
+#text-box-1830887441 {
+  width: 60%;
+}
+#text-box-1830887441 .text {
+  font-size: 100%;
+}
+
+
+@media (min-width:550px) {
+
+  #text-box-1830887441 {
+    width: 60%;
+  }
+
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style scope="scope">
+
+#banner-1551487921 {
+  padding-top: 250px;
+}
+#banner-1551487921 .bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/phuc-thinh-thi-cong-chong-tham-san-quy-nhon.jpg);
+}
+#banner-1551487921 .bg {
+  background-position: 100% 100%;
+}
+</style>
+  </div>
+
+
+<a href="https://chongthamphucthinh79.com/thi-cong-son-nen-chong-truot/" target="_self" class="button primary is-underline box-shadow-3 box-shadow-5-hover expand bt-01"  style="border-radius:5px;">
+    <span>THI CÔNG SƠN NỀN CHỐNG TRƯỢT</span>
+  </a>
+
+		</div>
+	</div>
+
+	
+</div>
+<div class="row"  id="row-1834606346">
+
+	<div class="col medium-4 small-12 large-4"  >
+		<div class="col-inner"  >
+			
+			
+
+  <div class="banner has-hover bg-zoom" id="banner-455187784">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <a class="fill" href="https://chongthamphucthinh79.com/chong-tham-tren-nen-gach-khong-duc-pha/"  ><div class="fill banner-link"></div></a>            
+   <div id="text-box-2139728208" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+              </div>
+           </div>
+                            
+<style scope="scope">
+
+#text-box-2139728208 {
+  width: 60%;
+}
+#text-box-2139728208 .text {
+  font-size: 100%;
+}
+
+
+@media (min-width:550px) {
+
+  #text-box-2139728208 {
+    width: 60%;
+  }
+
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style scope="scope">
+
+#banner-455187784 {
+  padding-top: 250px;
+}
+#banner-455187784 .bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/phuc-thinh-thi-cong-nen-chong-tham-quy-nhon.jpg);
+}
+</style>
+  </div>
+
+
+<a href="https://chongthamphucthinh79.com/chong-tham-tren-nen-gach-khong-duc-pha/" target="_self" class="button primary is-underline box-shadow-3 box-shadow-5-hover expand bt-01"  style="border-radius:5px;">
+    <span>THI CÔNG NỀN CHỐNG THẤM KHÔNG ĐỤC</span>
+  </a>
+
+		</div>
+	</div>
+
+	
+
+	<div class="col medium-4 small-12 large-4"  >
+		<div class="col-inner"  >
+			
+			
+
+  <div class="banner has-hover bg-zoom-fade" id="banner-253518389">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <a class="fill" href="https://chongthamphucthinh79.com/dich-vu-thi-cong-son-nen-epoxy-nha-xuong/"  ><div class="fill banner-link"></div></a>            
+   <div id="text-box-1583053062" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+              </div>
+           </div>
+                            
+<style scope="scope">
+
+#text-box-1583053062 {
+  width: 60%;
+}
+#text-box-1583053062 .text {
+  font-size: 100%;
+}
+
+
+@media (min-width:550px) {
+
+  #text-box-1583053062 {
+    width: 60%;
+  }
+
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style scope="scope">
+
+#banner-253518389 {
+  padding-top: 250px;
+}
+#banner-253518389 .bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/phuc-thinh-thi-cong-epoxy-nha-xuong.jpg);
+}
+#banner-253518389 .bg {
+  background-position: 100% 100%;
+}
+</style>
+  </div>
+
+
+<a href="https://chongthamphucthinh79.com/dich-vu-thi-cong-son-nen-epoxy-nha-xuong/" target="_self" class="button primary is-underline box-shadow-3 box-shadow-5-hover expand bt-01"  style="border-radius:5px;">
+    <span>THI CÔNG SƠN NỀN EPOXY NHÀ XƯỞNG</span>
+  </a>
+
+		</div>
+	</div>
+
+	
+
+	<div class="col medium-4 small-12 large-4"  >
+		<div class="col-inner"  >
+			
+			
+
+  <div class="banner has-hover bg-zoom-fade" id="banner-925340822">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                                    
+                    </div>
+        <div class="banner-layers container">
+            <a class="fill" href="https://chongthamphucthinh79.com/thi-cong-danh-bong-san/"  ><div class="fill banner-link"></div></a>            
+   <div id="text-box-762335221" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+              </div>
+           </div>
+                            
+<style scope="scope">
+
+#text-box-762335221 {
+  width: 60%;
+}
+#text-box-762335221 .text {
+  font-size: 100%;
+}
+
+
+@media (min-width:550px) {
+
+  #text-box-762335221 {
+    width: 60%;
+  }
+
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style scope="scope">
+
+#banner-925340822 {
+  padding-top: 250px;
+}
+#banner-925340822 .bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/phuc-thinh-thi-cong-chong-tham-tuong-quy-nhon.jpg);
+}
+#banner-925340822 .bg {
+  background-position: 85% 0%;
+}
+</style>
+  </div>
+
+
+<a href="https://chongthamphucthinh79.com/thi-cong-danh-bong-san/" target="_self" class="button primary is-underline box-shadow-3 box-shadow-5-hover expand bt-01"  style="border-radius:5px;">
+    <span>Chống thấm tường</span>
+  </a>
+
+		</div>
+	</div>
+
+	
+</div>
+		</div>
+
+		
+<style scope="scope">
+
+#section_1523881669 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#section_1523881669 .section-bg-overlay {
+  background-color: rgba(65, 255, 14, 0.22);
+}
+#section_1523881669 .section-bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/back-ground-neomax-phuc-thinh.jpg);
+}
+</style>
+	</section>
+	
+
+  
+    <div class="row large-columns-4 medium-columns-3 small-columns-1 row-small slider row-slider slider-nav-simple slider-nav-outside"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : false}'>
+
+  	</div>
+	<section class="section" id="section_464518522">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="container section-title-container" style="margin-top:1px;"><h2 class="section-title section-title-center"><b></b><span class="section-title-main" style="color:rgb(0, 145, 29);">Vì Sao Chọn Chúng Tôi</span><b></b></h2></div>
+  <div class="banner-grid-wrapper">
+  <div id="banner-grid-1016574634" class="banner-grid row row-grid row-small row-full-width" data-packery-options="">
+                      
+<div class="col grid-col small-12 large-3 grid-col-1" ><div class="col-inner">
+
+  <div class="banner has-hover bg-glow bg-overlay-add" id="banner-1201246146">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-322121333" class="text-box banner-layer x0 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+<h3><span style="font-size: 80%;"><strong>DỊCH VỤ CHUYÊN NGHIỆP</strong></span></h3>
+<p>&nbsp;</p>
+              </div>
+           </div>
+                            
+<style scope="scope">
+
+#text-box-322121333 {
+  width: 100%;
+}
+#text-box-322121333 .text {
+  font-size: 187%;
+}
+
+
+@media (min-width:550px) {
+
+  #text-box-322121333 {
+    width: 100%;
+  }
+
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style scope="scope">
+
+#banner-1201246146 {
+  padding-top: 500px;
+  background-color: rgba(0, 145, 29, 0.77);
+}
+#banner-1201246146 .bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neo-max-phuc-thinh-quy-nhon-4.jpg);
+}
+#banner-1201246146 .overlay {
+  background-color: rgba(0, 145, 29, 0.77);
+}
+</style>
+  </div>
+
+
+</div></div>
+<div class="col grid-col small-12 large-6 grid-col-1-2" ><div class="col-inner">
+
+  <div class="banner has-hover bg-overlay-add bg-overlay-add" id="banner-890284007">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-60941556" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y85 lg-y85 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+<h3><strong>BÁO GIÁ HỢP LÝ</strong></h3>
+<p>&nbsp;</p>
+              </div>
+           </div>
+                            
+<style scope="scope">
+
+#text-box-60941556 {
+  width: 100%;
+}
+#text-box-60941556 .text {
+  font-size: 187%;
+}
+
+
+@media (min-width:550px) {
+
+  #text-box-60941556 {
+    width: 88%;
+  }
+
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style scope="scope">
+
+#banner-890284007 {
+  padding-top: 500px;
+}
+#banner-890284007 .bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neo-max-phuc-thinh-quy-nhon-3.jpg);
+}
+#banner-890284007 .overlay {
+  background-color: rgba(0, 145, 29, 0.77);
+}
+#banner-890284007 .bg {
+  background-position: 100% 58%;
+}
+</style>
+  </div>
+
+
+</div></div>
+<div class="col grid-col small-12 large-6 grid-col-1-2" ><div class="col-inner">
+
+  <div class="banner has-hover bg-glow bg-overlay-add" id="banner-344405908">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-449149570" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+<h3><strong>ĐẢM BẢO CHẤT LƯỢNG</strong></h3>
+              </div>
+           </div>
+                            
+<style scope="scope">
+
+#text-box-449149570 {
+  width: 100%;
+}
+#text-box-449149570 .text {
+  font-size: 187%;
+}
+
+
+@media (min-width:550px) {
+
+  #text-box-449149570 {
+    width: 87%;
+  }
+
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style scope="scope">
+
+#banner-344405908 {
+  padding-top: 500px;
+}
+#banner-344405908 .bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neo-max-phuc-thinh-quy-nhon-2.jpg);
+}
+#banner-344405908 .overlay {
+  background-color: rgba(0, 145, 29, 0.77);
+}
+#banner-344405908 .bg {
+  background-position: 74% 21%;
+}
+</style>
+  </div>
+
+
+</div></div>
+<div class="col grid-col small-12 large-3 grid-col-1" ><div class="col-inner">
+
+  <div class="banner has-hover bg-glow bg-overlay-add" id="banner-1525052912">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-890457665" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
+                                <div class="text dark">
+              
+              <div class="text-inner text-center">
+                  
+<h3><span style="font-size: 80%;"><strong>KHÁCH HÀNG HÀI LÒNG</strong></span></h3>
+              </div>
+           </div>
+                            
+<style scope="scope">
+
+#text-box-890457665 {
+  width: 100%;
+}
+#text-box-890457665 .text {
+  font-size: 187%;
+}
+
+
+@media (min-width:550px) {
+
+  #text-box-890457665 {
+    width: 87%;
+  }
+
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style scope="scope">
+
+#banner-1525052912 {
+  padding-top: 500px;
+}
+#banner-1525052912 .bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/neo-max-phuc-thinh-quy-nhon-1.jpg);
+}
+#banner-1525052912 .overlay {
+  background-color: rgba(0, 145, 29, 0.77);
+}
+#banner-1525052912 .bg {
+  background-position: 53% 69%;
+}
+</style>
+  </div>
+
+
+</div></div>
+            </div>
+    <style scope="scope">
+    #banner-grid-1016574634 .grid-col-1{height: 600px}
+    #banner-grid-1016574634 .grid-col-1-2{height: 300px}
+    #banner-grid-1016574634 .grid-col-1-3{height:200px}
+    #banner-grid-1016574634 .grid-col-2-3{height: 400px}
+    #banner-grid-1016574634 .grid-col-1-4{height: 150px}
+    #banner-grid-1016574634 .grid-col-3-4{height: 450px}
+
+
+    
+    
+
+  </style>
+    </div>
+  
+		</div>
+
+		
+<style scope="scope">
+
+#section_464518522 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+</style>
+	</section>
+	
+<div class="container section-title-container" style="margin-top:25px;"><h2 class="section-title section-title-center"><b></b><span class="section-title-main" style="color:rgb(0, 145, 29);">Tin Tức</span><b></b></h2></div>
+
+  
+    <div class="row bt large-columns-3 medium-columns-1 small-columns-1 row-small has-shadow row-box-shadow-3-hover slider row-slider slider-nav-simple slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 4000}'>
+
+  		<div class="col post-item" data-animate="bounceInDown">
+			<div class="col-inner">
+			<a href="https://chongthamphucthinh79.com/chong-tham-tren-nen-gach-khong-duc-pha/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							<img width="960" height="640" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20960%20640'%3E%3C/svg%3E" class="attachment-original size-original wp-post-image" alt="" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/chong-tham-truc-tiep-tren-nen-gach-cu-khong-duc-pha.jpg 960w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/chong-tham-truc-tiep-tren-nen-gach-cu-khong-duc-pha-600x400.jpg 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/chong-tham-truc-tiep-tren-nen-gach-cu-khong-duc-pha-768x512.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/chong-tham-truc-tiep-tren-nen-gach-cu-khong-duc-pha-430x287.jpg 430w" data-lazy-sizes="(max-width: 960px) 100vw, 960px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/chong-tham-truc-tiep-tren-nen-gach-cu-khong-duc-pha.jpg" /><noscript><img width="960" height="640" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/chong-tham-truc-tiep-tren-nen-gach-cu-khong-duc-pha.jpg" class="attachment-original size-original wp-post-image" alt="" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/chong-tham-truc-tiep-tren-nen-gach-cu-khong-duc-pha.jpg 960w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/chong-tham-truc-tiep-tren-nen-gach-cu-khong-duc-pha-600x400.jpg 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/chong-tham-truc-tiep-tren-nen-gach-cu-khong-duc-pha-768x512.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/chong-tham-truc-tiep-tren-nen-gach-cu-khong-duc-pha-430x287.jpg 430w" sizes="(max-width: 960px) 100vw, 960px" /></noscript>  							  							  						</div>
+  						  					</div>
+          					<div class="box-text show-on-hover hover-bounce text-center is-small" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large uppercase">Chống thấm trên nền gạch cũ lộ thiên, không đục phá bằng Neomax 820 và Neomax 201</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt show-on-hover hover-slide">Đối với những công trình đã chú trọng và tiến hành xử lý chống thấm [...]					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInDown">
+			<div class="col-inner">
+			<a href="https://chongthamphucthinh79.com/dich-vu-thi-cong-son-nen-epoxy-nha-xuong/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							<img width="960" height="640" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20960%20640'%3E%3C/svg%3E" class="attachment-original size-original wp-post-image" alt="" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/son-nen-epoxy-nha-xuong.jpg 960w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/son-nen-epoxy-nha-xuong-600x400.jpg 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/son-nen-epoxy-nha-xuong-768x512.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/son-nen-epoxy-nha-xuong-430x287.jpg 430w" data-lazy-sizes="(max-width: 960px) 100vw, 960px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/son-nen-epoxy-nha-xuong.jpg" /><noscript><img width="960" height="640" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/son-nen-epoxy-nha-xuong.jpg" class="attachment-original size-original wp-post-image" alt="" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/son-nen-epoxy-nha-xuong.jpg 960w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/son-nen-epoxy-nha-xuong-600x400.jpg 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/son-nen-epoxy-nha-xuong-768x512.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/son-nen-epoxy-nha-xuong-430x287.jpg 430w" sizes="(max-width: 960px) 100vw, 960px" /></noscript>  							  							  						</div>
+  						  					</div>
+          					<div class="box-text show-on-hover hover-bounce text-center is-small" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large uppercase">Thi công sơn nền Epoxy nhà xưởng – Tăng cường “lớp áo giáp” bảo vệ sàn công nghiệp</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt show-on-hover hover-slide">Hầu hết các nhà xưởng hiện nay đều lựa chọn sơn sàn Epoxy để tăng [...]					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInDown">
+			<div class="col-inner">
+			<a href="https://chongthamphucthinh79.com/dich-vu-chong-tham-quy-nhon/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							<img width="960" height="640" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20960%20640'%3E%3C/svg%3E" class="attachment-original size-original wp-post-image" alt="" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/Dich-vu-chong-tham-Quy-Nhon.jpg 960w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/Dich-vu-chong-tham-Quy-Nhon-600x400.jpg 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/Dich-vu-chong-tham-Quy-Nhon-768x512.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/Dich-vu-chong-tham-Quy-Nhon-430x287.jpg 430w" data-lazy-sizes="(max-width: 960px) 100vw, 960px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/Dich-vu-chong-tham-Quy-Nhon.jpg" /><noscript><img width="960" height="640" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/Dich-vu-chong-tham-Quy-Nhon.jpg" class="attachment-original size-original wp-post-image" alt="" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/07/Dich-vu-chong-tham-Quy-Nhon.jpg 960w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/Dich-vu-chong-tham-Quy-Nhon-600x400.jpg 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/Dich-vu-chong-tham-Quy-Nhon-768x512.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/07/Dich-vu-chong-tham-Quy-Nhon-430x287.jpg 430w" sizes="(max-width: 960px) 100vw, 960px" /></noscript>  							  							  						</div>
+  						  					</div>
+          					<div class="box-text show-on-hover hover-bounce text-center is-small" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large uppercase">Dịch vụ chống thấm Quy Nhơn uy tín, xử lý nhanh “cơn ác mộng” thấm dột cho mọi nhà</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt show-on-hover hover-slide">Theo thời gian, có thể thấy các công trình xây dựng ngày nay đã thay [...]					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInDown">
+			<div class="col-inner">
+			<a href="https://chongthamphucthinh79.com/khong-chi-nha-ve-sinh-moi-can-chong-tham/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							<img width="1021" height="1021" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201021%201021'%3E%3C/svg%3E" class="attachment-original size-original wp-post-image" alt="" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2.jpg 1021w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2-400x400.jpg 400w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2-800x800.jpg 800w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2-280x280.jpg 280w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2-768x768.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2-247x247.jpg 247w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2-430x430.jpg 430w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2-100x100.jpg 100w" data-lazy-sizes="(max-width: 1021px) 100vw, 1021px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2.jpg" /><noscript><img width="1021" height="1021" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2.jpg" class="attachment-original size-original wp-post-image" alt="" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2.jpg 1021w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2-400x400.jpg 400w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2-800x800.jpg 800w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2-280x280.jpg 280w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2-768x768.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2-247x247.jpg 247w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2-430x430.jpg 430w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/820-2-100x100.jpg 100w" sizes="(max-width: 1021px) 100vw, 1021px" /></noscript>  							  							  						</div>
+  						  					</div>
+          					<div class="box-text show-on-hover hover-bounce text-center is-small" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large uppercase">Không chỉ nhà vệ sinh mới cần chống thấm</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt show-on-hover hover-slide">💥 KHÔNG CHỈ NHÀ VỆ SINH MỚI CẦN CHỐNG THẤM!!! 🆘 Sàn mái, sê nô [...]					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInDown">
+			<div class="col-inner">
+			<a href="https://chongthamphucthinh79.com/chong-tham-san-voi-neomax-c102-khong-phai-phan-nan/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							<img width="960" height="640" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20960%20640'%3E%3C/svg%3E" class="attachment-original size-original wp-post-image" alt="" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/d6068581dab22eec77a3.jpg 960w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/d6068581dab22eec77a3-600x400.jpg 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/d6068581dab22eec77a3-768x512.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/d6068581dab22eec77a3-430x287.jpg 430w" data-lazy-sizes="(max-width: 960px) 100vw, 960px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/d6068581dab22eec77a3.jpg" /><noscript><img width="960" height="640" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/d6068581dab22eec77a3.jpg" class="attachment-original size-original wp-post-image" alt="" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/d6068581dab22eec77a3.jpg 960w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/d6068581dab22eec77a3-600x400.jpg 600w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/d6068581dab22eec77a3-768x512.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/d6068581dab22eec77a3-430x287.jpg 430w" sizes="(max-width: 960px) 100vw, 960px" /></noscript>  							  							  						</div>
+  						  					</div>
+          					<div class="box-text show-on-hover hover-bounce text-center is-small" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large uppercase">Chống thấm sàn với NEOMAX C102 – Không phải phàn nàn!!</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt show-on-hover hover-slide">Bạn đã quá chán khi phải tìm cách khắc phục hậu quả của việc không [...]					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInDown">
+			<div class="col-inner">
+			<a href="https://chongthamphucthinh79.com/neomax-201-quy-trinh-chong-tham-truc-tiep-tren-san-gach-men-san-be-tong-cu/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							<img width="960" height="682" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20960%20682'%3E%3C/svg%3E" class="attachment-original size-original wp-post-image" alt="" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/35f5e94cb17b45251c6a.jpg 960w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/35f5e94cb17b45251c6a-563x400.jpg 563w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/35f5e94cb17b45251c6a-768x546.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/35f5e94cb17b45251c6a-430x305.jpg 430w" data-lazy-sizes="(max-width: 960px) 100vw, 960px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/35f5e94cb17b45251c6a.jpg" /><noscript><img width="960" height="682" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/35f5e94cb17b45251c6a.jpg" class="attachment-original size-original wp-post-image" alt="" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/35f5e94cb17b45251c6a.jpg 960w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/35f5e94cb17b45251c6a-563x400.jpg 563w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/35f5e94cb17b45251c6a-768x546.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/35f5e94cb17b45251c6a-430x305.jpg 430w" sizes="(max-width: 960px) 100vw, 960px" /></noscript>  							  							  						</div>
+  						  					</div>
+          					<div class="box-text show-on-hover hover-bounce text-center is-small" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large uppercase">NEOMAX 201 &#8211; Quy trình chống thấm trực tiếp trên sàn gạch men, sàn bê tông cũ</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt show-on-hover hover-slide">Quy trình chống thấm bằng sơn NEOMAX 201 trực tiếp trên sàn gạch men, sàn [...]					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInDown">
+			<div class="col-inner">
+			<a href="https://chongthamphucthinh79.com/791/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							<img width="1575" height="985" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201575%20985'%3E%3C/svg%3E" class="attachment-original size-original wp-post-image" alt="" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-7222eba9-3341-4f1b-9333-205dee6d4fa7.jpg 1575w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-7222eba9-3341-4f1b-9333-205dee6d4fa7-640x400.jpg 640w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-7222eba9-3341-4f1b-9333-205dee6d4fa7-1279x800.jpg 1279w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-7222eba9-3341-4f1b-9333-205dee6d4fa7-768x480.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-7222eba9-3341-4f1b-9333-205dee6d4fa7-1536x961.jpg 1536w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-7222eba9-3341-4f1b-9333-205dee6d4fa7-430x269.jpg 430w" data-lazy-sizes="(max-width: 1575px) 100vw, 1575px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-7222eba9-3341-4f1b-9333-205dee6d4fa7.jpg" /><noscript><img width="1575" height="985" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-7222eba9-3341-4f1b-9333-205dee6d4fa7.jpg" class="attachment-original size-original wp-post-image" alt="" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-7222eba9-3341-4f1b-9333-205dee6d4fa7.jpg 1575w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-7222eba9-3341-4f1b-9333-205dee6d4fa7-640x400.jpg 640w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-7222eba9-3341-4f1b-9333-205dee6d4fa7-1279x800.jpg 1279w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-7222eba9-3341-4f1b-9333-205dee6d4fa7-768x480.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-7222eba9-3341-4f1b-9333-205dee6d4fa7-1536x961.jpg 1536w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-201-7222eba9-3341-4f1b-9333-205dee6d4fa7-430x269.jpg 430w" sizes="(max-width: 1575px) 100vw, 1575px" /></noscript>  							  							  						</div>
+  						  					</div>
+          					<div class="box-text show-on-hover hover-bounce text-center is-small" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large uppercase">Quy trình chống thấm bằng Sơn Neomax &#8211; Giải pháp cho mái, sân thượng, ban công, sê nô… lộ thiên</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt show-on-hover hover-slide">Neomax® 201 là một trong những giải pháp vật liệu chống thấm lộ thiên tốt [...]					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+		<div class="col post-item" data-animate="bounceInDown">
+			<div class="col-inner">
+			<a href="https://chongthamphucthinh79.com/neomax-ucem-f1-giai-phap-san-polyurethane-cho-nha-may-che-bien-thuc-pham-va-kho-dong-lanh/" class="plain">
+				<div class="box box-normal box-text-bottom box-blog-post has-hover">
+            					<div class="box-image" >
+  						<div class="image-cover" style="padding-top:56.25%;">
+  							<img width="1926" height="1445" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201926%201445'%3E%3C/svg%3E" class="attachment-original size-original wp-post-image" alt="" data-lazy-srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-ucem-f1-1.jpg 1926w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-ucem-f1-1-533x400.jpg 533w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-ucem-f1-1-1066x800.jpg 1066w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-ucem-f1-1-768x576.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-ucem-f1-1-1536x1152.jpg 1536w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-ucem-f1-1-430x323.jpg 430w" data-lazy-sizes="(max-width: 1926px) 100vw, 1926px" data-lazy-src="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-ucem-f1-1.jpg" /><noscript><img width="1926" height="1445" src="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-ucem-f1-1.jpg" class="attachment-original size-original wp-post-image" alt="" srcset="https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-ucem-f1-1.jpg 1926w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-ucem-f1-1-533x400.jpg 533w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-ucem-f1-1-1066x800.jpg 1066w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-ucem-f1-1-768x576.jpg 768w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-ucem-f1-1-1536x1152.jpg 1536w, https://chongthamphucthinh79.com/wp-content/uploads/2021/06/neomax-ucem-f1-1-430x323.jpg 430w" sizes="(max-width: 1926px) 100vw, 1926px" /></noscript>  							  							  						</div>
+  						  					</div>
+          					<div class="box-text show-on-hover hover-bounce text-center is-small" >
+					<div class="box-text-inner blog-post-inner">
+
+					
+										<h5 class="post-title is-large uppercase">Neomax® Ucem F1 &#8211; Giải pháp sàn polyurethane cho nhà máy chế biến thực phẩm và kho đông lạnh</h5>
+										<div class="is-divider"></div>
+										<p class="from_the_blog_excerpt show-on-hover hover-slide">Hệ thống sàn polyurethane Neomax® Ucem F1 hay còn được gọi là hệ thống lớp [...]					</p>
+					                    
+					
+					
+					</div>
+					</div>
+									</div>
+				</a>
+			</div>
+		</div>
+</div>
+		
+				
+</div>
+
+
+
+</main>
+
+<footer id="footer" class="footer-wrapper">
+
+	<div class="is-divider divider clearfix" style="margin-top:0px;margin-bottom:0px;max-width:100%;height:1px;"></div>
+
+	<section class="section" id="section_729269875">
+		<div class="bg section-bg fill bg-fill  " >
+
+			
+			<div class="section-bg-overlay absolute fill"></div>
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+
+<div class="row row-large align-middle"  id="row-1393084223">
+
+
+	<div class="col medium-6 small-12 large-5 medium-col-first"  >
+		<div class="col-inner dark" style="padding:59px 0px 0px 0px;" >
+			
+			
+
+<div id="input_line_1"><strong><span id="input_part_0" class="" data-mention="CÔNG TY TNHH XD – TM TỔNG HỢP PHÚC THỊNH">CÔNG TY TNHH XD – TM TỔNG HỢP PHÚC THỊNH</span></strong></div>
+<div id="input_line_2"><span id="input_part_0" class="" style="font-size: 90%;" data-mention="Địa chỉ: 27 Chế Lan Viên, Phường Ghềnh Ráng, TP.Quy Nhơn, Bình Định, Việt Nam."><strong>Địa chỉ:</strong> 27 Chế Lan Viên, Phường Ghềnh Ráng, TP.Quy Nhơn, Bình Định, Việt Nam.</span></div>
+<div><strong>Hotline: </strong><span style="font-size: 90%;">093.1912.889</span></div>
+<div id="input_line_3"><span id="input_part_0" class="" style="font-size: 90%;" data-mention="Người đại diện: Ông. DƯƠNG HUỲNH TRIỆU NHƠN"><strong>Người đại diện:</strong> Ông. Dương Huỳnh Triệu Nhơn - Giám Đốc</span></div>
+<div><span style="font-size: 90%;"><strong>Mã số thuế:</strong> 4101418143</span></div>
+<div><span style="font-size: 90%;"><strong>GPKD cấp ngày:</strong> 16/1/2014 - SKHDT T. Bình Định</span></div>
+<div><span style="font-size: 90%;"><strong>Số tài khoản :</strong> 119002668827 - Vietinbank Bình Định</span></div>
+<div> </div>
+
+		</div>
+	</div>
+
+	
+
+	<div class="col medium-12 small-12 large-7"  >
+		<div class="col-inner"  >
+			
+			
+
+<div class="row row-small"  id="row-686192868">
+
+
+	<div class="col medium-6 small-12 large-6"  >
+		<div class="col-inner dark"  >
+			
+			
+
+<h5> </h5>
+<h5> </h5>
+<h5>Chính Sách Công Ty</h5>
+<ul>
+<li class="bullet-arrow"><a href="https://chongthamphucthinh79.com/chinh-sach-bao-mat/"><span style="font-size: 12.96px;">Chính sách bảo mật</span></a></li>
+<li class="bullet-arrow"><a href="https://chongthamphucthinh79.com/1251-2"><span style="font-size: 12.96px;">Chính sách khách hàng</span></a></li>
+<li class="bullet-arrow"><a href="https://chongthamphucthinh79.com/dieu-khoan-su-dung-website/"><span style="font-size: 12.96px;">Điều khoản sử dụng website</span></a></li>
+<li class="bullet-arrow"><a href="https://chongthamphucthinh79.com/chinh-sach-thanh-toan/"><span style="font-size: 12.96px;">Chính sách mua hàng &amp; thanh toán</span></a></li>
+<li class="bullet-arrow"><a href="https://chongthamphucthinh79.com/?page_id=1274&amp;preview=true"><span style="font-size: 12.96px;">Chính sách đổi trả</span></a></li>
+</ul>
+<p><a class="dmca-badge" title="DMCA.com Protection Status" href="//www.dmca.com/Protection/Status.aspx?ID=c11ae420-1d6e-41a8-864c-857eda9dcc80"> <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="DMCA.com Protection Status" data-wp-editing="1" data-lazy-src="https://images.dmca.com/Badges/dmca-badge-w150-5x1-02.png?ID=c11ae420-1d6e-41a8-864c-857eda9dcc80" /><noscript><img src="https://images.dmca.com/Badges/dmca-badge-w150-5x1-02.png?ID=c11ae420-1d6e-41a8-864c-857eda9dcc80" alt="DMCA.com Protection Status" data-wp-editing="1" /></noscript></a><script type="rocketlazyloadscript" data-minify="1" src="https://chongthamphucthinh79.com/wp-content/cache/min/1/Badges/DMCABadgeHelper.min.js?ver=1626795114" defer> </script></p>
+
+		</div>
+	</div>
+
+	
+
+	<div class="col medium-6 small-12 large-6"  >
+		<div class="col-inner dark"  >
+			
+			
+
+<h5> </h5>
+<h5> </h5>
+<h5>Công Trình Thi Công</h5>
+<ul>
+<li class="bullet-arrow"><a href="https://chongthamphucthinh79.com/san-pham"><span style="font-size: 12.96px;">Sản Phẩm</span></a></li>
+<li class="bullet-arrow"><a href="https://chongthamphucthinh79.com/dich-vu"><span style="font-size: 12.96px;">Dịch Vụ</span></a></li>
+<li class="bullet-arrow"><a href="https://chongthamphucthinh79.com/cong-trinh"><span style="font-size: 12.96px;">Công Trình</span></a></li>
+</ul>
+
+		</div>
+	</div>
+
+	
+
+
+<style scope="scope">
+
+</style>
+</div>
+
+		</div>
+	</div>
+
+	
+
+
+<style scope="scope">
+
+</style>
+</div>
+<p><iframe loading="lazy" style="border: 0;" src="about:blank" width="5000" height="500" allowfullscreen="allowfullscreen" data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242.2195992638265!2d109.20863178919608!3d13.747872959446804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316f6cdc2b447965%3A0x8b22ffc7572dadc3!2zMjcgxJDGsOG7nW5nIENo4bq_IExhbiBWacOqbiwgR2jhu4FuaCBSw6FuZywgVGjDoG5oIHBo4buRIFF1aSBOaMahbiwgQsOsbmggxJDhu4tuaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1623031608587!5m2!1svi!2s"></iframe><noscript><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242.2195992638265!2d109.20863178919608!3d13.747872959446804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316f6cdc2b447965%3A0x8b22ffc7572dadc3!2zMjcgxJDGsOG7nW5nIENo4bq_IExhbiBWacOqbiwgR2jhu4FuaCBSw6FuZywgVGjDoG5oIHBo4buRIFF1aSBOaMahbiwgQsOsbmggxJDhu4tuaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1623031608587!5m2!1svi!2s" width="5000" height="500" allowfullscreen="allowfullscreen"></iframe></noscript></p>
+
+		</div>
+
+		
+<style scope="scope">
+
+#section_729269875 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#section_729269875 .section-bg-overlay {
+  background-color: rgba(114, 105, 105, 0.35);
+}
+#section_729269875 .section-bg.bg-loaded {
+  background-image: url(https://chongthamphucthinh79.com/wp-content/uploads/2021/07/back-ground-neomax-phuc-thinh.jpg);
+}
+</style>
+	</section>
+	
+<div class="absolute-footer dark medium-text-center text-center">
+  <div class="container clearfix">
+
+    
+    <div class="footer-primary pull-left">
+            <div class="copyright-footer">
+        Copyright 2021 © <a title="Luxury Gift" target="_blank" href="https://chongthamphucthinh79.com/">PHÚC THỊNH 79</a> 
+ - Designed by: <a href="https://velaup.com/"> Vela Up</a>      </div>
+          </div>
+  </div>
+</div>
+</footer>
+
+</div>
+
+<!-- Mobile Sidebar -->
+<div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
+    <div class="sidebar-menu no-scrollbar ">
+        <ul class="nav nav-sidebar  nav-vertical nav-uppercase">
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-43 current_page_item menu-item-320"><a href="https://chongthamphucthinh79.com/" aria-current="page">Trang Chủ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-330"><a href="https://chongthamphucthinh79.com/gioi-thieu-chong-tham-quy-nhon-phuc-thinh/">GIỚI THIỆU</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-547"><a href="https://chongthamphucthinh79.com/san-pham/">Sản Phẩm</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-527"><a href="https://chongthamphucthinh79.com/danh-muc-san-pham/san-pham-chong-tham/">SẢN PHẨM CHỐNG THẤM</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-528"><a href="https://chongthamphucthinh79.com/danh-muc-san-pham/vua-rot-vua-bom/">VỮA RÓT, VỮA BƠM</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-529"><a href="https://chongthamphucthinh79.com/danh-muc-san-pham/san-pham-sua-chua-be-tong/">SẢN PHẨM SỬA CHỮA BÊ TÔNG</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-530"><a href="https://chongthamphucthinh79.com/danh-muc-san-pham/san-pham-cho-san/">SẢN PHẨM CHO SÀN</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-533"><a href="https://chongthamphucthinh79.com/danh-muc-san-pham/phu-gia-be-tong-va-ho-tro-be-tong/">PHỤ GIA BÊ TÔNG VÀ HỖ TRỢ BÊ TÔNG</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-532"><a href="https://chongthamphucthinh79.com/danh-muc-san-pham/san-pham-lam-sach/">SẢN PHẨM LÀM SẠCH</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="https://chongthamphucthinh79.com/dich-vu/">Dịch Vụ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323"><a href="https://chongthamphucthinh79.com/cong-trinh/">Công trình</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-321"><a href="https://chongthamphucthinh79.com/tin-tuc/">Tin Tức</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"><a href="https://chongthamphucthinh79.com/lien-he/">Liên Hệ</a></li>
+<li class="account-item has-icon menu-item">
+<a href="https://chongthamphucthinh79.com/tai-khoan/"
+    class="nav-top-link nav-top-not-logged-in">
+    <span class="header-account-title">
+    Đăng nhập  </span>
+</a>
+
+</li>
+<li class="header-newsletter-item has-icon">
+
+  <a href="#header-newsletter-signup" class="tooltip" title="Đăng ký">
+
+    <i class="icon-envelop"></i>
+    <span class="header-newsletter-title">
+      Đăng Ký    </span>
+  </a>
+
+</li><li class="html header-social-icons ml-0">
+	<div class="social-icons follow-icons" ><a href="http://url" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Follow on Facebook"><i class="icon-facebook" ></i></a><a href="http://url" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Follow on Instagram"><i class="icon-instagram" ></i></a><a href="http://url" target="_blank"  data-label="Twitter"  rel="noopener noreferrer nofollow" class="icon plain  twitter tooltip" title="Follow on Twitter"><i class="icon-twitter" ></i></a><a href="mailto:your@email" data-label="E-mail"  rel="nofollow" class="icon plain  email tooltip" title="Send us an email"><i class="icon-envelop" ></i></a></div></li><li class="html header-button-1">
+	<div class="header-button">
+	<a href="https://chongthamphucthinh79.com/thanh-toan/" class="button primary"  style="border-radius:99px;">
+    <span>Book now</span>
+  </a>
+	</div>
+</li>
+
+
+        </ul>
+    </div>
+</div>
+
+        <div id='fb-root'></div>
+          <script type="rocketlazyloadscript">(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&version=v6.0&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+          <div class='fb-customerchat'
+            attribution='wordpress'
+            attribution_version='2.2'
+            page_id=2071834279775719
+          >
+        </div>
+            <div id="login-form-popup" class="lightbox-content mfp-hide">
+            <div class="woocommerce-notices-wrapper"></div>
+<div class="account-container lightbox-inner">
+
+	
+			<div class="account-login-inner">
+
+				<h3 class="uppercase">Đăng nhập</h3>
+
+				<form class="woocommerce-form woocommerce-form-login login" method="post">
+
+					
+					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+						<label for="username">Tên tài khoản hoặc địa chỉ email&nbsp;<span class="required">*</span></label>
+						<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="" />					</p>
+					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+						<label for="password">Mật khẩu&nbsp;<span class="required">*</span></label>
+						<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" />
+					</p>
+
+					
+					<p class="form-row">
+						<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
+							<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span>Ghi nhớ mật khẩu</span>
+						</label>
+						<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="b730652187" /><input type="hidden" name="_wp_http_referer" value="/" />						<button type="submit" class="woocommerce-Button button woocommerce-form-login__submit" name="login" value="Đăng nhập">Đăng nhập</button>
+					</p>
+					<p class="woocommerce-LostPassword lost_password">
+						<a href="https://chongthamphucthinh79.com/tai-khoan/lost-password/">Quên mật khẩu?</a>
+					</p>
+
+					
+				</form>
+			</div>
+
+			
+</div>
+
+          </div>
+  	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="https://chongthamphucthinh79.com/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0" defer></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://chongthamphucthinh79.com/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0" defer></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://chongthamphucthinh79.com/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0" defer></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://chongthamphucthinh79.com/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4" defer></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://chongthamphucthinh79.com/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12" defer></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://chongthamphucthinh79.com/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2" defer></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="https://chongthamphucthinh79.com/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4" defer></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/chongthamphucthinh79.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-content/cache/min/1/wp-content/plugins/contact-form-7/includes/js/index.js?ver=1626795114' id='contact-form-7-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70' id='jquery-blockui-js' defer></script>
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Xem gi\u1ecf h\u00e0ng","cart_url":"https:\/\/chongthamphucthinh79.com\/gio-hang\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=5.3.1' id='wc-add-to-cart-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4' id='js-cookie-js' defer></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=5.3.1' id='woocommerce-js' defer></script>
+<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_e32752d5e1a0381d5ff868331250da5b","fragment_name":"wc_fragments_e32752d5e1a0381d5ff868331250da5b","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=5.3.1' id='wc-cart-fragments-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='wc-cart-fragments-js-after'>window.addEventListener('DOMContentLoaded', function() {
+		jQuery( 'body' ).bind( 'wc_fragments_refreshed', function() {
+			var jetpackLazyImagesLoadEvent;
+			try {
+				jetpackLazyImagesLoadEvent = new Event( 'jetpack-lazy-images-load', {
+					bubbles: true,
+					cancelable: true
+				} );
+			} catch ( e ) {
+				jetpackLazyImagesLoadEvent = document.createEvent( 'Event' )
+				jetpackLazyImagesLoadEvent.initEvent( 'jetpack-lazy-images-load', true, true );
+			}
+			jQuery( 'body' ).get( 0 ).dispatchEvent( jetpackLazyImagesLoadEvent );
+		} );
+		
+});</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/thanh-toan\/|\/gio-hang\/|\/tai-khoan\/|\/wc-api\/v(.*)|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/chongthamphucthinh79.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type='text/javascript' id='mailchimp-woocommerce-js-extra'>
+/* <![CDATA[ */
+var mailchimp_public_data = {"site_url":"https:\/\/chongthamphucthinh79.com","ajax_url":"https:\/\/chongthamphucthinh79.com\/wp-admin\/admin-ajax.php","language":"vi"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-content/plugins/mailchimp-for-woocommerce/public/js/mailchimp-woocommerce-public.min.js?ver=2.5.1' id='mailchimp-woocommerce-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1' id='hoverIntent-js' defer></script>
+<script type='text/javascript' id='flatsome-js-js-extra'>
+/* <![CDATA[ */
+var flatsomeVars = {"ajaxurl":"https:\/\/chongthamphucthinh79.com\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"70","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-content/cache/min/1/wp-content/themes/flatsome/assets/js/flatsome.js?ver=1626795114' id='flatsome-js-js' defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-content/cache/min/1/wp-content/themes/flatsome/inc/integrations/wp-rocket/flatsome-wp-rocket.js?ver=1626795114' id='flatsome-wp-rocket-js' defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-content/cache/min/1/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search.js?ver=1626795114' id='flatsome-live-search-js' defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-content/cache/min/1/wp-content/themes/flatsome/assets/js/woocommerce.js?ver=1626795114' id='flatsome-theme-woocommerce-js-js' defer></script>
+<script type='text/javascript' src='https://chongthamphucthinh79.com/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://chongthamphucthinh79.com/wp-content/themes/flatsome/assets/libs/packery.pkgd.min.js?ver=3.11.0' id='flatsome-masonry-js-js' defer></script>
+<!-- WooCommerce JavaScript -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+jQuery(function($) { 
+jQuery( 'div.woocommerce' ).on( 'click', 'a.remove', function() {
+				var productID = jQuery( this ).data( 'product_id' );
+				var quantity = jQuery( this ).parent().parent().find( '.qty' ).val()
+				var productDetails = {
+					'id': productID,
+					'quantity': quantity ? quantity : '1',
+				};
+				_wca.push( {
+					'_en': 'woocommerceanalytics_remove_from_cart',
+					'pi': productDetails.id,
+					'pq': productDetails.quantity, 'blog_id': '193964395', 'ui': 'null', 'url': 'https://chongthamphucthinh79.com', 'woo_version': '5.3.1', 'cart_page_contains_cart_block': '0', 'cart_page_contains_cart_shortcode': '1', 'checkout_page_contains_checkout_block': '0', 'checkout_page_contains_checkout_shortcode': '1', 
+				} );
+			} );
+ });
+});</script>
+<script type="rocketlazyloadscript" src='https://stats.wp.com/e-202129.js' defer></script>
+<script type="rocketlazyloadscript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:9.8',blog:'193964395',post:'43',tz:'7',srv:'chongthamphucthinh79.com'} ]);
+	_stq.push([ 'clickTrackerInit', '193964395', '43' ]);
+</script>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://chongthamphucthinh79.com/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script>
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1626922504 -->

@@ -1,0 +1,925 @@
+ <!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<base href="https://vatlieulamkin.com/"  />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>CÔNG TY TNHH DỊCH VỤ - KỸ THUẬT HẢI VIỆT</title>
+		<meta name="keywords" content="vật liệu làm kín, phớt bơm, phốt chặn dầu,dây tết chèn, oring, viton, NBR, mechanical seal, oil seal,vòng đệm, PTFE, teflon tấm, teflon cây..." />
+		<meta name="description" content="Havico chuyên cung cấp vật liệu làm kín, phớt bơm, phốt chặn dầu,dây tết chèn, oring, viton, NBR, mechanical seal, oil seal" />
+		<link rel="canonical" href="https://vatlieulamkin.com/">
+				<link id="favicon" rel="shortcut icon" href="upload/hinhanh/.jpg" type="image/x-icon" />
+		<link rel="alternate" href="https://vatlieulamkin.com/" hreflang="vi" /> 
+		<meta name="viewport" content="width=1200">
+		<meta name="author" content="khacdienk8 - Lý Khắc Điền" />
+		<meta name="copyright" content="Lý Khắc Điền [khacdienk8@gmail.com]" />
+		<link href="css/highslide.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/jquery.simplyscroll.css" media="all" type="text/css" />
+		<link rel='stylesheet prefetch' href='owl.carousel/owl.carousel.min.css'>
+		<link rel='stylesheet prefetch' href='owl.carousel/owl.theme.default.min.css'>
+		<link href="css/style.css?v=1" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="highslide/highslide-with-html.js"></script>
+		<script language="javascript" type="text/javascript" src="js/home.js"></script>
+		<script language="javascript" type="text/javascript" src="js/ajax-dynamic-content.js"></script>
+		<script language="javascript" type="text/javascript" src="js/ajax.js"></script>
+		<script type="text/javascript" src="js/jquery.simplyscroll.min.js"></script>
+		<script src='owl.carousel/owl.carousel.min.js'></script> 
+		<script type="text/javascript" language="javascript">
+			$(document).ready(function(){
+				$('.owl-doitac').owlCarousel({
+					smartSpeed: 1000,
+					autoplayTimeout: 7000,
+					nav: true,
+					autoplayHoverPause: false,
+					mouseDrag: true,
+					touchDrag: true,
+					lazyLoad: true,
+					dots: false,
+					rewind: true,
+					autoplay: true,
+					items:6,
+					margin:20,
+					responsiveRefreshRate : 200,
+					navText: ['<img src="images1/prev.png"/>', '<img src="images1/next.png"/>'],
+				});
+				
+				$('.owl-dv').owlCarousel({
+					smartSpeed: 1000,
+					autoplayTimeout: 7000,
+					nav: true,
+					autoplayHoverPause: false,
+					mouseDrag: true,
+					touchDrag: true,
+					lazyLoad: true,
+					dots: false,
+					rewind: true,
+					autoplay: true,
+					items:2,
+					margin:20,
+					responsiveRefreshRate : 200,
+					navText: ['<img src="images1/prev.png"/>', '<img src="images1/next.png"/>'],
+				});
+			}); 
+		</script>
+		<script type="text/javascript"><!--scroller-->
+		(function($) {
+			$(function() { //on DOM ready
+				$(".scroller").simplyScroll({ customClass: 'vert', orientation: 'vertical'});
+			});
+		})(jQuery);
+		</script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		  ga('create', 'UA-86315594-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
+		<script>
+			$(document).ready(function(e) {
+				$('img').each(function(index, element) {
+					if(!$(this).attr('alt') || $(this).attr('alt')==''){
+						$(this).attr('alt','CÔNG TY TRÁCH NHIỆM HỮU HẠN DỊCH VỤ - KỸ THUẬT HẢI VIỆT');
+					}
+				});
+			});
+		</script>
+		<style>
+			.vshd{ position:absolute; opacity:0; z-index:-1;}
+		</style>
+	</head>
+
+	<body>
+		<div id="full">
+			<h1 class="vshd fn">CÔNG TY TNHH DỊCH VỤ - KỸ THUẬT HẢI VIỆT</h1>
+			<div id="banner" >    
+  
+<div class="top ">
+	<div class="top_content clearfix">
+		<div class="box-left">
+			 <ul>			
+				<li class='menu_active' ><a href="index.html">Trang Chủ</a></li>
+				<li  ><a  href="gioi-thieu.html">Giới Thiệu</a></li>
+				<li  ><a href="dich-vu.html">Ứng dụng</a> </li>
+				<li  ><a href="tin-tuc.html">Tin tức</a> </li>
+				<li  ><a href="video.html">Video</a> </li>
+				<li  ><a href="lien-he.html">Liên Hệ</a> </li> 
+			</ul>
+			
+		</div>
+		<div class="lang">
+			<div class="search clearfix">
+				<form action="tim-kiem.html" method="post" enctype="multipart/form-data">
+					<input name="txtkey" type="text"/>
+					<button type="submit" name="ok" value="" class="btn_search"><img src="images1/search.png"/></button>
+				</form>
+			</div>
+			<div class="vietnam">
+			<a title="Vietnamese" href="index.php?com=ngonngu&lang=vi" >
+				<img alt="Vietnamese" src="thumb/0x20/1/90/images/img_vi.png"/>
+			</a>
+			</div>
+			<div class="english">
+				<a title="English" href="index.php?com=ngonngu&lang=en" >
+					<img alt="English" src="thumb/0x20/1/90/images/img_en.png"/>
+				</a>
+			</div>
+		</div>
+		
+	</div>
+</div>
+<div class="banner_content2">
+	<div class="banner_content1">
+		<div class="banner_content clearfix">
+			<div class="logo"><a href=""><img src="thumb/220x55/2/90/upload/hinhanh/996.png" /></a></div>
+			<div id="menu">
+				<ul class="flex">			
+	 
+    <li class="li"><a class="li_a" href="phot-co-khi/" title="PHỐT CƠ KH&Iacute;">PHỐT CƠ KHÍ</a>
+				<ul>
+						<li><a  style="border:none;"  href="phot-co-khi-burgmann/" title="PHỐT CƠ KH&Iacute; BURGMANN"> PHỐT CƠ KHÍ BURGMANN</a></li>
+					</ul><!--danh mục cấp 2-->
+		</li>
+	 
+    <li class="li"><a class="li_a" href="day-tet-chen/" title="D&Acirc;Y TẾT CH&Egrave;N">DÂY TẾT CHÈN</a>
+				<ul>
+						<li><a  href="aramid-fiber-packing/" title="Aramid Fiber Packing"> Aramid Fiber Packing</a></li>
+						<li><a  href="graphite-packing/" title="Graphite Packing"> Graphite Packing</a></li>
+						<li><a  href="ptfe-packings/" title="PTFE Packings"> PTFE Packings</a></li>
+						<li><a  href="graphite-ptfe-packings/" title="Graphite PTFE Packings"> Graphite PTFE Packings</a></li>
+						<li><a  href="carbon-fiber-packing/" title="Carbon Fiber Packing"> Carbon Fiber Packing</a></li>
+						<li><a  href="synthetic-fiber-packing/" title="Synthetic Fiber Packing"> Synthetic Fiber Packing</a></li>
+						<li><a  style="border:none;"  href="vegetable-fiber-packing/" title="Vegetable Fiber Packing"> Vegetable Fiber Packing</a></li>
+					</ul><!--danh mục cấp 2-->
+		</li>
+	 
+    <li class="li"><a class="li_a" href="industrial-hoses/" title="Industrial Hoses">Industrial Hoses</a>
+				<ul>
+						<li><a  href="industrial-metal-hoses/" title="Industrial Metal Hoses"> Industrial Metal Hoses</a></li>
+						<li><a  style="border:none;"  href="industrial-soft-hoses/" title="Industrial Soft Hoses"> Industrial Soft Hoses</a></li>
+					</ul><!--danh mục cấp 2-->
+		</li>
+	 
+    <li class="li"><a class="li_a" href="gaskets/" title="Gaskets">Gaskets</a>
+				<ul>
+						<li><a  href="spiral-wound-gaskets/" title="Spiral Wound Gaskets"> Spiral Wound Gaskets</a></li>
+						<li><a  href="expanded-graphite-gaskets/" title="Expanded graphite gaskets"> Expanded graphite gaskets</a></li>
+						<li><a  href="ring-joint-gaskets/" title="Ring Joint Gaskets"> Ring Joint Gaskets</a></li>
+						<li><a  href="double-jacket-gaskets/" title="Double Jacket Gaskets"> Double Jacket Gaskets</a></li>
+						<li><a  href="corrugated-gaskets/" title="Corrugated Gaskets"> Corrugated Gaskets</a></li>
+						<li><a  href="kammprofile-gaskets/" title="Kammprofile Gaskets"> Kammprofile Gaskets</a></li>
+						<li><a  href="copper-gaskets/" title="Copper Gaskets"> Copper Gaskets</a></li>
+						<li><a  href="mineral-fiber-gasket/" title="Mineral Fiber Gasket"> Mineral Fiber Gasket</a></li>
+						<li><a  href="tape-gaskets/" title="Tape Gaskets"> Tape Gaskets</a></li>
+						<li><a  href="flange-insulation-gasket-kits/" title="Flange Insulation Gasket Kits"> Flange Insulation Gasket Kits</a></li>
+						<li><a  href="synthetic-fiber-gaskets/" title="Synthetic Fiber Gaskets"> Synthetic Fiber Gaskets</a></li>
+						<li><a  href="metal-o-rings/" title="Metal O Rings"> Metal O Rings</a></li>
+						<li><a  href="ptfe-gaskets/" title="PTFE Gaskets"> PTFE Gaskets</a></li>
+						<li><a  style="border:none;"  href="rubber-gaskets/" title="Rubber Gaskets"> Rubber Gaskets</a></li>
+					</ul><!--danh mục cấp 2-->
+		</li>
+	 
+    <li class="li"><a class="li_a" href="compression-sheets/" title="Compression Sheets">Compression Sheets</a>
+			</li>
+	 
+    <li class="li"><a class="li_a" href="insulation-products/" title=" Insulation Products"> Insulation Products</a>
+				<ul>
+						<li><a  href="ceramic-fiber/" title="Ceramic Fiber"> Ceramic Fiber</a></li>
+						<li><a  href="dust-free-asbestos/" title="Dust free asbestos"> Dust free asbestos</a></li>
+						<li><a  href="dusted-asbestos/" title="Dusted asbestos"> Dusted asbestos</a></li>
+						<li><a  href="soi-thuy-tinh/" title="Sợi thủy tinh"> Sợi thủy tinh</a></li>
+						<li><a  style="border:none;"  href="graphite-and-carbon/" title="Graphite and carbon"> Graphite and carbon</a></li>
+					</ul><!--danh mục cấp 2-->
+		</li>
+	 
+    <li class="li"><a class="li_a" href="sealing-raw-materials/" title="Sealing Raw Materials">Sealing Raw Materials</a>
+				<ul>
+						<li><a  href="gasket-materials/" title="Gasket Materials"> Gasket Materials</a></li>
+						<li><a  style="border:none;"  href="packing-materials/" title=" Packing Materials">  Packing Materials</a></li>
+					</ul><!--danh mục cấp 2-->
+		</li>
+	 
+    <li class="li"><a class="li_a" href="expansion-joints-bellows/" title="Expansion Joints &amp; Bellows">Expansion Joints & Bellows</a>
+			</li>
+	</ul>
+
+			</div>
+		</div>
+	</div>
+</div>
+<script  type="text/javascript">
+	$(window).scroll(function(event) {
+		if($(window).scrollTop() > $('.top').height()){
+			$('.banner_content1').addClass('fixed');
+		}else{
+			$('.banner_content1').removeClass('fixed');
+		}
+	});
+</script>
+</div>
+			<div id="nen_trang">
+				<div id="slide"><link href="css/style_slider.css" type="text/css" rel="stylesheet" />
+<div id="jssor_rotator" style="position:relative;margin:0 auto;top:0px;left:0px; width: 1366px; height: 500px;overflow:hidden;">
+	<!-- Loading Screen -->
+	<div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+		<img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="images/spin.svg"/>
+	</div>
+	<div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width: 1366px;height: 500px;overflow:hidden;">
+				<div><img alt="" data-u="image" src="thumb/1366x500/1/90/upload/hinhanh/5362855405081010.jpg"/></div>
+				<div><img alt="" data-u="image" src="thumb/1366x500/1/90/upload/hinhanh/046759270683989.jpg"/></div>
+				<div><img alt="" data-u="image" src="thumb/1366x500/1/90/upload/hinhanh/1265807038116790.jpg"/></div>
+				<div><img alt="" data-u="image" src="thumb/1366x500/1/90/upload/hinhanh/0620594225130482.jpg"/></div>
+				<div><img alt="" data-u="image" src="thumb/1366x500/1/90/upload/hinhanh/0620594225130481.png"/></div>
+				<div><img alt="" data-u="image" src="thumb/1366x500/1/90/upload/hinhanh/0620594225130480.png"/></div>
+			</div>
+	
+	<div data-u="arrowleft" class="jssora093" style="width:50px;height:50px;top:0px;left:30px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+		<svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+			<circle class="c" cx="8000" cy="8000" r="5920"></circle>
+			<polyline class="a" points="7777.8,6080 5857.8,8000 7777.8,9920 "></polyline>
+			<line class="a" x1="10142.2" y1="8000" x2="5857.8" y2="8000"></line>
+		</svg>
+	</div>
+	<div data-u="arrowright" class="jssora093" style="width:50px;height:50px;top:0px;right:30px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+		<svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+			<circle class="c" cx="8000" cy="8000" r="5920"></circle>
+			<polyline class="a" points="8222.2,6080 10142.2,8000 8222.2,9920 "></polyline>
+			<line class="a" x1="5857.8" y1="8000" x2="10142.2" y2="8000"></line>
+		</svg>
+	</div>
+</div>
+
+<script language="javascript" type="text/javascript" src="js/jssor.slider.min.js"></script>
+<script type="text/javascript" src="js/jssor_slider_init.js"></script>
+<script type="text/javascript">jssor_1_slider_init();</script>
+
+ 
+    
+ </div>
+				<div id="main1">
+					<script language="javascript" type="text/javascript">
+	function addtocart(pid){
+		document.form1.productid.value=pid;
+		document.form1.command.value='add';
+		document.form1.submit();
+	}
+</script>
+<form name="form1" action="index.php">
+	<input type="hidden" name="productid" />
+    <input type="hidden" name="command" />
+    
+</form>
+<link type = "text/css" rel = "stylesheet" href = "css/jqzoom.css" media="screen" />
+
+
+
+<div class="title_main">
+	<span>DANH MỤC SẢN PHẨM</span>
+	<div>Công Ty TNHH Dịch Vụ Kỹ Thuật Hải Việt - HAVICO được thành lập năm 2009 với đội ngũ nhân viên đầy kinh nghiệm và nhiệt huyết</div>
+</div>
+<div class="content_main">
+    <div class="items">
+        <div class="img"><a href="phot-co-khi/">
+        <center><img src="upload/product/288280826360_375x250.jpg" alt="" /></center>
+        </a></div>
+        
+        <div class="text">
+            <h2 class="ten_sp"><a href="phot-co-khi/">PHỐT CƠ KHÍ</a></h2>
+                    </div>
+        
+    </div>
+     <div class="items">
+        <div class="img"><a href="day-tet-chen/">
+        <center><img src="upload/product/656674100394_375x250.jpg" alt="" /></center>
+        </a></div>
+        
+        <div class="text">
+            <h2 class="ten_sp"><a href="day-tet-chen/">DÂY TẾT CHÈN</a></h2>
+                    </div>
+        
+    </div>
+     <div class="items">
+        <div class="img"><a href="insulation-products/">
+        <center><img src="upload/product/779088176658_375x250.jpg" alt="" /></center>
+        </a></div>
+        
+        <div class="text">
+            <h2 class="ten_sp"><a href="insulation-products/"> Insulation Products</a></h2>
+                    </div>
+        
+    </div>
+     <div class="items">
+        <div class="img"><a href="sealing-raw-materials/">
+        <center><img src="upload/product/578475352831_375x250.jpg" alt="" /></center>
+        </a></div>
+        
+        <div class="text">
+            <h2 class="ten_sp"><a href="sealing-raw-materials/">Sealing Raw Materials</a></h2>
+                    </div>
+        
+    </div>
+     <div class="items">
+        <div class="img"><a href="industrial-hoses/">
+        <center><img src="upload/product/837165733741_375x250.jpg" alt="" /></center>
+        </a></div>
+        
+        <div class="text">
+            <h2 class="ten_sp"><a href="industrial-hoses/">Industrial Hoses</a></h2>
+                    </div>
+        
+    </div>
+     <div class="items">
+        <div class="img"><a href="expansion-joints-bellows/">
+        <center><img src="upload/product/573643990079_375x275.jpg" alt="" /></center>
+        </a></div>
+        
+        <div class="text">
+            <h2 class="ten_sp"><a href="expansion-joints-bellows/">Expansion Joints & Bellows</a></h2>
+                    </div>
+        
+    </div>
+     <div class="items">
+        <div class="img"><a href="compression-sheets/">
+        <center><img src="upload/product/961779296287_375x250.jpg" alt="" /></center>
+        </a></div>
+        
+        <div class="text">
+            <h2 class="ten_sp"><a href="compression-sheets/">Compression Sheets</a></h2>
+                    </div>
+        
+    </div>
+     <div class="items">
+        <div class="img"><a href="gaskets/">
+        <center><img src="upload/product/836892836710_375x250.png" alt="" /></center>
+        </a></div>
+        
+        <div class="text">
+            <h2 class="ten_sp"><a href="gaskets/">Gaskets</a></h2>
+                    </div>
+        
+    </div>
+    
+  <div style="clear:both"></div>
+     <div class="phantrang"></div>
+    
+    
+</div>
+<script type="text/javascript">
+    $(function() {
+	var options4 =
+	{
+	zoomWidth: 334,
+	zoomHeight: 260,
+	//xOffset:25,
+		   //yOffset:0,
+	title :false
+	}
+	$(".jqzoom").jqzoom(options4);
+	});
+</script>
+<script type="text/javascript" src='js/jqzoom.pack.1.0.1.js'></script>
+ <!--template-->
+					<div style="clear:both"></div>
+				</div><!--main-->
+								<div id="ungdung">
+					<div class="tintuc clearfix"><div class="title_main">
+	<span>Ứng dụng của sản phẩm</span>
+</div>
+<div class="content_main">
+	<div class="left_ungdung" style="background:url(upload/hinhanh/09714.png) no-repeat center; background-size:cover;">
+		<div class="c_left_dv">
+			<div class="tt_left_dv">Ứng dụng</div>
+			<p><strong>C&ocirc;ng Ty TNHH Dịch Vụ Kỹ Thuật&nbsp;Hải Việt</strong><span>&nbsp;gửi đến Qu&yacute; kh&aacute;ch h&agrave;ng, đối t&aacute;c lời ch&agrave;o th&acirc;n &aacute;i, lời ch&uacute;c sức khỏe v&agrave; thịnh vượng!&nbsp;</span>Được th&agrave;nh lập năm 2009 với đội ngũ nh&acirc;n vi&ecirc;n đầy kinh nghiệm v&agrave; nhiệt huyết. Ch&uacute;ng t&ocirc;i đ&atilde; v&agrave; đang khẳng định thương hiệu của m&igrave;nh trong lĩnh vực cung cấp phụ t&ugrave;ng, m&aacute;y m&oacute;c thiết bị.</p>			<div class="xemungdung">
+				<a href="ung-dung.html">XEM THÊM</a>
+			</div>
+		</div>
+	</div>
+	<div class="right_ungdung">
+		<div class="owl-dv owl-carousel owl-theme">
+						<div class="itemsdv">
+								<div class="img"><a href="chemical-petrochemical-dv25.html">
+				<center><img src="thumb/400x205/1/90/upload/dichvu/67066463.png" alt="" /></center>
+				</a></div>
+								<div class="text">
+					<h2 class="ten_sp"><a href="chemical-petrochemical-dv25.html">CHEMICAL & PETROCHEMICAL</a></h2>
+					<div class="sp_mota">HAIVIET provide all ranges of gaskets to any shape, sizes. All standard flange designs are held in memory. Kammprofile gaskets and spiral wound gaskets, reinforced graphite gaskets are used for high pressure and high temperature pipeline and vessel duties throughout the chemical and petrochemical sectors. API ring joint gaskets are manufactured by API-license , including R, RX and BX ring joints. As well as lens, convex, wedge, double-cone and weld ring metal gaskets.</div>
+				</div>
+							</div>
+						<div class="itemsdv">
+								<div class="text">
+					<h2 class="ten_sp"><a href="metallurgical-dv24.html">METALLURGICAL</a></h2>
+					<div class="sp_mota">HAIVIET Kammprofile gaskets and Spiral wound gaskets are used in the metallurgical industry where temperature, pressures, flow rates and vibration are beyond the capability of conventional flange jointings. And the the Ring Joint Gaskets solve flange jointing problems on higher pressure and temperature pipework.</div>
+				</div>
+								<div class="img"><a href="metallurgical-dv24.html">
+				<center><img src="thumb/400x205/1/90/upload/dichvu/99417246.png" alt="" /></center>
+				</a></div>
+							</div>
+						<div class="itemsdv">
+								<div class="img"><a href="oil-gas-dv23.html">
+				<center><img src="thumb/400x205/1/90/upload/dichvu/69298437.png" alt="" /></center>
+				</a></div>
+								<div class="text">
+					<h2 class="ten_sp"><a href="oil-gas-dv23.html">OIL & GAS</a></h2>
+					<div class="sp_mota">HAIVIET widely range of gaskets and jointing had been used in offshore gas and oil field. HAIVIET 600 ranges of spiral wound gaskets, HAIVIET 700 Ranges of reinforced graphite gaskets. Etc.
+
+</div>
+				</div>
+							</div>
+			   
+			 
+			 
+			 
+		</div>
+	</div>
+</div>
+ </div>
+				</div>
+				<div id="newsletter" style="background:url(upload/hinhanh/52219.jpg) repeat center; background-size:cover;">
+					<div class="newsletter clearfix"><script language="javascript" src="admin/media/scripts/my_script.js"></script>
+<script type="text/javascript" language="javascript">
+	$(document).ready(function(e) {
+		$('#email_nhantin').click(function(){
+			if($(this).val()=='Nhập email của bạn...')
+			{
+				$(this).val('');
+			}
+			return false;
+		});
+		$('#email_nhantin').blur(function(){
+			if($(this).val()=='')
+			{
+				$(this).val('Nhập email của bạn...');
+			}
+			return false;
+		});
+	});
+	function nhantin(){
+		if(isEmpty(document.getElementById('email_nhantin'), '_nhapemail')){
+			document.getElementById('email_nhantin').focus();
+			document.frm_dknt.email_nhantin.value='';
+			return false;
+		}			
+		if(!check_email(document.frm_dknt.email_nhantin.value)){
+			alert("_emailkhonghople");
+			document.frm_dknt.email_nhantin.focus();
+			document.frm_dknt.email_nhantin.value='';
+			return false;
+		}		
+		document.frm_dknt.submit();
+	}
+</script>
+
+<div class="left_newsletter">
+	<div class="title_nlts1">
+		<span>HÃY NÓI VỚI CHÚNG TÔI</span>
+		<p>Về những gì bạn quan tâm</p>
+	</div>
+	<p><span style="font-size: medium;"><span style="color: #00adef;">*&nbsp;</span><sup>Kiểm so&aacute;t chi ph&iacute; mua h&agrave;ng v&agrave; cải thiện khả năng cạnh tranh của bạn.</sup></span></p>
+<p><span style="font-size: medium;"><span style="color: #00adef;">* </span><sup>Tối ưu ho&aacute; h&igrave;nh thức mua h&agrave;ng, thanh to&aacute;n để cải thiện qu&aacute; tr&igrave;nh hợp t&aacute;c với nh&agrave; cung cấp.</sup></span></p>
+<p><span style="font-size: medium;"><span style="color: #00adef;">* </span><sup>C&aacute;c chương tr&igrave;nh khuyến m&atilde;i, ưu đ&atilde;i, ch&iacute;nh s&aacute;ch mới nhất của Hải Việt Corp.</sup></span></p></div>
+<div class="right_newsletter">
+	<div class="title_nlts2">Đăng ký nhận tin</div>
+ 	<form name="frm_dknt" id="frm_dknt" method="post" action="" >
+		<input type="text" name="noidung_nhantin" class="input_dk" id="noidung_nhantin" value="Nội dung..." />
+		<input type="text" name="email_nhantin" class="input_dk" id="email_nhantin" value="Email..." />
+		<input type="text" name="dienthoai_nhantin" class="input_dk" id="dienthoai_nhantin" value="Điện Thoại..." />
+		<input type="button" name="submit_nhantin" id="submit_nhantin" onclick="nhantin()" value="Đăng ký" />
+	</form>
+</div></div>
+				</div>
+				<div id="tintuc">
+					<div class="tintuc clearfix"> 
+ 
+<link rel="stylesheet" type="text/css" href="css/jquery.simplyscroll.css"/>
+<script type="text/javascript" src="js/jquery.simplyscroll.min.js"></script>
+<script type="text/javascript">
+(function($) {
+	$(function() { //on DOM ready
+		$(".scroller").simplyScroll({
+			customClass: 'vert',
+			orientation: 'vertical',
+            auto: true,
+            manualMode: 'loop',
+			frameRate: 20,
+			speed: 1
+		});
+	});
+	
+})(jQuery);
+</script>
+ <div class="box-tin">
+	<div class="tt-tin">Tin tức</div>
+	<div class="content">
+		<ul class="scroller">
+			 				<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>02</div>
+						<div>2013.08</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="nhung-smartphone-dinh-dam-mot-thoi-hien-co-gia-sieu-re-t25.html">Những smartphone đình đám một thời hiện có giá siêu rẻ</a></h3>
+						<p style="color:#A5A5A5 !important;">Dù đã lỗi mốt, song với giá chỉ 2-4 triệu đồng, một số mẫu smartphone “hàng hiệu một thời” hiện vẫn tạo được...</p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>20</div>
+						<div>2014.03</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="u19-viet-nam-thua-u19-birmingham-du-dan-truoc-hai-ban-t28.html">U19 Việt Nam thua U19 Birmingham dù dẫn trước hai bàn</a></h3>
+						<p style="color:#A5A5A5 !important;"></p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>21</div>
+						<div>2014.03</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="nghi-van-ke-bat-coc-be-trong-benh-vien-hung-vuong-co-dong-pham-t29.html">Nghi vấn kẻ bắt cóc bé trong bệnh viện Hùng Vương có đồng phạm</a></h3>
+						<p style="color:#A5A5A5 !important;">Người đàn bà đầu thú, trao trả em bé đã bắt cóc trong bệnh viện bị đánh giá khai báo rất quanh co. Cảnh sát tình nghi...</p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>07</div>
+						<div>2014.04</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="thu-truong-cong-thuong-chua-tang-gia-dien-t31.html">Thứ trưởng Công Thương: Chưa tăng giá điện</a></h3>
+						<p style="color:#A5A5A5 !important;">Trao quyền tự quyết nhiều hơn cho EVN, song theo Thứ trưởng Công Thương Đỗ Thắng Hải, việc tăng giá điện trước mắt...</p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>17</div>
+						<div>2014.05</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="hai-viet-la-dai-ly-chinh-thuc-cua-hang-van-bonetti-y-t32.html">Hải Việt là đại lý chính thức của Hãng Van BONETTI Ý</a></h3>
+						<p style="color:#A5A5A5 !important;"></p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>03</div>
+						<div>2014.07</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="hai-viet-la-nha-phan-phoi-chinh-thuc-va-doc-quyen-ptfe-guarniflon-tu-y-t33.html">Hải Việt là nhà phân phối chính thức và độc quyền PTFE GUARNIFLON từ Ý</a></h3>
+						<p style="color:#A5A5A5 !important;"></p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>03</div>
+						<div>2016.08</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="can-tuyen-nv-kinh-doanh-t34.html">Cần tuyển NV kinh doanh</a></h3>
+						<p style="color:#A5A5A5 !important;">Do yêu cầu công việc, chúng tôi cần tuyển 3 nhân viên kinh doanh bán hàng cho thiết bị công nghiệp và phụ tùng vật tư. và...</p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>16</div>
+						<div>2017.08</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="ten-mien-quoc-te-co-that-su-re-t35.html">Tên miền quốc tế có thật sự rẻ?</a></h3>
+						<p style="color:#A5A5A5 !important;">Bạn đang xem bài viết Tên miền quốc tế có thật sự rẻ?. Một vài liên kết tham khảo: thiết kế web bán hàng công ty thiết...</p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>08</div>
+						<div>2017.09</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="top-10-website-mang-xa-hoi-noi-tieng-nhat-t36.html">Top 10 website mạng xã hội nổi tiếng nhất</a></h3>
+						<p style="color:#A5A5A5 !important;">Bạn đang xem bài viết Top 10 website mạng xã hội nổi tiếng nhất. Một vài liên kết tham khảo: thiết kế web chuyên nghiệp...</p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>14</div>
+						<div>2017.09</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="huong-dan-cach-thiet-ke-logo-mien-phi-don-gian-ma-dep-nhat-t37.html">Hướng dẫn cách thiết kế logo miễn phí đơn giản mà đẹp nhất</a></h3>
+						<p style="color:#A5A5A5 !important;">Bạn đang xem bài viết Hướng dẫn cách thiết kế logo miễn phí đơn giản mà đẹp nhất. Một vài liên kết tham khảo: thiết...</p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>22</div>
+						<div>2017.09</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="15-cau-cu-ho-tro-thiet-ke-cuc-ki-huu-ich-t38.html">15 câu cụ hỗ trợ thiết kế cực kì hữu ích</a></h3>
+						<p style="color:#A5A5A5 !important;">Bạn đang xem bài viết 15 câu cụ hỗ trợ thiết kế cực kì hữu ích. Một vài liên kết tham khảo: thiết kế web bất động...</p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>03</div>
+						<div>2017.10</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="nhung-cach-toi-uu-quang-cao-tren-facebook-ma-nguoi-kinh-doanh-online-can-biet-t39.html">Những cách tối ưu quảng cáo trên Facebook mà người kinh doanh online cần biết</a></h3>
+						<p style="color:#A5A5A5 !important;">Bạn đang xem bài viết Những cách tối ưu quảng cáo trên Facebook mà người kinh doanh online cần biết. Một vài liên kết tham...</p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>09</div>
+						<div>2017.10</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="tang-sub-facebook-su-that-va-nhung-he-luy-t40.html">Tăng sub Facebook, Sự thật và những hệ luỵ</a></h3>
+						<p style="color:#A5A5A5 !important;">Bạn đang xem bài viết Tăng sub Facebook, Sự thật và những hệ luỵ. Một vài liên kết tham khảo: thiết kế web bất động...</p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>17</div>
+						<div>2017.10</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="thiet-ke-website-tai-binh-dinh-chuyen-nghiep-thu-hut-hang-ngan-khach-hang-t41.html">Thiết kế website tại Bình Định chuyên nghiêp thu hút hàng ngàn khách hàng</a></h3>
+						<p style="color:#A5A5A5 !important;">Bạn đang xem bài viết Thiết kế website tại Bình Định chuyên nghiêp thu hút hàng ngàn khách hàng. Một vài liên kết tham khảo:...</p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>23</div>
+						<div>2017.10</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="sitemap-trong-website-la-gi-cac-cach-tao-sitemap-don-gian-t42.html">Sitemap trong website là gì? Các cách tạo sitemap đơn giản</a></h3>
+						<p style="color:#A5A5A5 !important;">Bạn đang xem bài viết Sitemap trong website là gì? Các cách tạo sitemap đơn giản. Một vài liên kết tham khảo: thiết kế web...</p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>04</div>
+						<div>2017.11</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="dich-vu-thiet-ke-website-responsive-doc-dao-hieu-qua-cao-t43.html">Dịch vụ thiết kế website responsive độc đáo, hiệu quả cao</a></h3>
+						<p style="color:#A5A5A5 !important;">Bạn đang xem bài viết Dịch vụ thiết kế website responsive độc đáo, hiệu quả cao. Một vài liên kết tham khảo: thiết kế...</p>
+					</div>
+				</li>
+				
+								<li class="clearfix">
+					<div class="tinmoi_img">
+						<div>17</div>
+						<div>2019.10</div>
+						 
+					</div>
+					<div class="tinmoi_content"> 
+						<h3 class="chu"><a href="gia-dich-vu-quan-tri-website-uy-tin-chat-luong-cao-t44.html">Giá dịch vụ quản trị website uy tín chất lượng cao</a></h3>
+						<p style="color:#A5A5A5 !important;">Tham khảo về bảng giá dịch vụ quản trị web tại đơn vị uy tín mà tôi chia sẻ đến các bạn dưới đây chắc chắn sẽ...</p>
+					</div>
+				</li>
+				
+						</ul><!--scroller-->
+	</div>
+</div>
+<div class="box-video">
+	<div class="tt-tin">Giới Thiệu</div>
+	<img src="thumb/500x220/1/90/upload/hinhanh/34181.jpg"/>
+	<div>Công Ty TNHH Dịch Vụ Kỹ Thuật Hải Việt gửi đến Quý khách hàng, đối tác lời chào thân ái, lời chúc sức khỏe và thịnh vượng!
+
+Được thành lập năm 2009 với đội ngũ nhân viên đầy kinh nghiệm và nhiệt huyết. Chúng tôi đã và đang khẳng định thương hiệu của mình trong lĩnh vực cung cấp phụ tùng, máy móc thiết bị.Chúng tôi đặc biệt chuyên sau trong các lĩnh vực sau:</div>
+</div>
+ 
+ </div>
+				</div>
+								
+				<div id="doitac">
+					<div class="doitac">
+<div class="owl-doitac owl-carousel owl-theme">
+      
+    <div class="doitac_item">
+		<a href="" target="_new" title=""><img src="thumb/172x100/2/90/upload/hinhanh/1925866738426271.jpg" /></a>
+	 </div>
+      
+    <div class="doitac_item">
+		<a href="" target="_new" title=""><img src="thumb/172x100/2/90/upload/hinhanh/1925866738426270.jpg" /></a>
+	 </div>
+      
+    <div class="doitac_item">
+		<a href="" target="_new" title=""><img src="thumb/172x100/2/90/upload/hinhanh/2609993062058640.jpg" /></a>
+	 </div>
+      
+    <div class="doitac_item">
+		<a href="" target="_new" title=""><img src="thumb/172x100/2/90/upload/hinhanh/2609993062058641.png" /></a>
+	 </div>
+      
+    <div class="doitac_item">
+		<a href="" target="_new" title=""><img src="thumb/172x100/2/90/upload/hinhanh/2609993062058642.png" /></a>
+	 </div>
+      
+    <div class="doitac_item">
+		<a href="" target="_new" title=""><img src="thumb/172x100/2/90/upload/hinhanh/4268432202309240.png" /></a>
+	 </div>
+      
+    <div class="doitac_item">
+		<a href="" target="_new" title=""><img src="thumb/172x100/2/90/upload/hinhanh/4268432202309241.png" /></a>
+	 </div>
+    </div>
+
+ 
+</div>
+				</div>
+				<div id="bottom">
+<div class="bottom clearfix">
+	<div class="main-list-ft">
+		<div class="titleft">QUICK LINKS</div>
+		<ul>
+			<li><a href="gioi-thieu.html">Giới Thiệu</a></li>
+			<li><a href="dich-vu.html">Ứng dụng</a> </li>
+			<li><a href="tin-tuc.html">Tin tức</a> </li>
+			<li><a href="video.html">Video</a> </li>
+			<li><a href="lien-he.html">Liên Hệ</a> </li> 
+		</ul>
+    </div>
+    <div class="main-nd">
+		<div class="titleft">THÔNG TIN CÔNG TY</div>
+		<p><span style="font-size: medium;"><strong>Địa chỉ: 119 Đường Thới An 16, Phường Thới An, Quận 12,&nbsp;TP. Hồ Ch&iacute; Minh, 70799, Việt Nam</strong></span></p>
+<p><span style="font-size: medium;"><strong>Điện thoại: (84) 8 35978096 / 36203297</strong></span></p>
+<p><span style="font-size: medium;"><strong>Fax: (84) 8 3597 8097 / 36203298</strong></span></p>
+<p><span style="font-size: medium;"><strong>Email:&nbsp;<a href="mailto:info@haivietcorp.com">info@haivietcorp.com</a>&nbsp;</strong></span></p>
+<p><span style="font-size: medium;"><strong>Website:&nbsp;</strong><strong><a href="https://vatlieulamkin.com/">vatlieulamkin.com</a></strong></span></p>
+<div style="top: -2700px; color: blue; font-weight: bold; font-size: 18px; vertical-align: top; float: left; position: absolute; width: 900px; height: 100px; left: 14px;">
+<h3><a title="h&igrave;nh nền powerpoint" href="http://hinhchat.com/wallpaper/hinh-nen/powerpoint" target="_BLANK">h&igrave;nh nền powerpoint</a></h3>
+<h3><a title="hinh nen powerpoint" href="http://hinhchat.com/" target="_BLANK">hinh nen powerpoint</a></h3>
+</div>		 
+		<div class="mxh">
+							<a href=""><img src="upload/hinhanh/mx4.png_1582517642.png" alt=""/></a>
+							<a href=""><img src="upload/hinhanh/mx3.png_1582517635.png" alt=""/></a>
+							<a href=""><img src="upload/hinhanh/mx2.png_1582517629.png" alt=""/></a>
+							<a href=""><img src="upload/hinhanh/mx1.png_1582517621.png" alt=""/></a>
+							<a href=""><img src="upload/hinhanh/mx5.png_1582517667.png" alt=""/></a>
+					</div>
+    </div>
+    <div class="div_huongdan">
+    	<div class="fb-page" data-href="https://www.facebook.com/haivietcorp/" data-tabs="timeline" data-width="500" data-height="215" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/haivietcorp/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/haivietcorp/">https://www.facebook.com/haivietcorp/</a></blockquote></div>
+    </div>
+</div>
+<div class="coppy">
+	<div class="coppy_content">
+		<div class="xcopy">Copyright@ 2020 CÔNG TY TRÁCH NHIỆM HỮU HẠN DỊCH VỤ - KỸ THUẬT HẢI VIỆT. Allrights reserved</div>
+		<div class="xonline"><p class="tk">Online: 5<span> | </span>Tổng truy cập: 549210</p></div>
+		<div class="clear"></div>
+	</div>
+</div>
+<!-- #footer -->
+
+<style>
+	.coppy .xcopy{float:left}
+	.coppy .xonline{float:right}
+	.fix_right{ position:fixed; top:50%; right:-320px; min-height:300px;padding:10px; z-index:999; transform:translateY(-50%); color:#000; width:320px; background:#fff; border:1px #ddd solid; transition:all 0.3s; box-sizing:border-box;}
+	.fix_right_active{right:0px; transition:all 0.3s;}
+	
+	.fixed_tt{position:absolute; color:#fff; writing-mode:vertical-rl; text-orientation:mixed; border:1px solid #00adef; background-color:#00adef; padding:15px 9px; cursor:pointer; transform:rotate(180deg) translateY(50%); font-weight:bold; top:50%; left:-40px;}
+	
+	.c_suppor{ max-height:90vh; overflow-y:scroll;}
+	.c_suppor::-webkit-scrollbar { width: 5px; height: 5px;}
+	.c_suppor::-webkit-scrollbar-button {  width: 0px; height: 0px; }
+	.c_suppor::-webkit-scrollbar-track {  background-color: #c3c3c3;}
+	.c_suppor::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+	.c_suppor::-webkit-scrollbar-thumb{height:50px; background-color:#c3c3c3; border-radius:3px;}
+	.c_suppor::-webkit-scrollbar-corner { background-color: #ffffff;}}
+	.c_suppor::-webkit-resizer { background-color: #666;}
+</style>
+<div class="fix_right">
+	<div class="fixed_tt">HỖ TRỢ TRỰC TUYẾN</div>
+	<div class="c_suppor"><div class="tenht"><span style="font-size: large; color: #ff0000;">Mr. Hải - 0903 144 189</span></div>
+<p><img src="https://www.haivietcorp.com/images/img/s.png" alt="C&Ocirc;NG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT" width="25" height="25" />&nbsp;<span style="font-size: large;"><sup><a href="skype:do.anh.hai?call">HAVICO.HAI</a></sup></span></p>
+<p><img src="https://www.haivietcorp.com/images/img/m.png" alt="C&Ocirc;NG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT" width="25" height="25" />&nbsp;<span style="font-size: large;"><sup><a href="mailto:info@haivietcorp.com">info@haivietcorp.com</a></sup></span></p>
+<p><span style="font-size: large;">&nbsp;</span></p>
+<p><span style="color: #ff0000; font-size: large;">Mr. Đo&agrave;n - 0902 907 104</span></p>
+<p><img src="https://www.haivietcorp.com/images/img/s.png" alt="C&Ocirc;NG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT" width="25" height="25" />&nbsp;<span style="font-size: large;"><sup><a href="skype:dang.van.doan?call">HAVICO.DOAN</a></sup></span></p>
+<p><img src="https://www.haivietcorp.com/images/img/m.png" alt="C&Ocirc;NG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT" width="25" height="25" />&nbsp;<span style="font-size: large;"><sup><a href="mailto:doan@haivietcorp.com">doan@haivietcorp.co</a>m<span style="text-decoration: underline; color: #0000ff;"><br /></span></sup></span></p>
+<p><span style="font-size: large;">&nbsp;</span></p>
+<p><span style="color: #ff0000; font-size: large;">Mr. Việt - 0908 469 193</span></p>
+<div class="httc">
+<p><img src="https://www.haivietcorp.com/images/img/s.png" alt="C&Ocirc;NG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT" width="25" height="25" />&nbsp;<span style="font-size: large;"><sup><a href="skype:doanhviet87?call">HAVICO.VIET - KỸ THUẬT</a></sup></span></p>
+<div class="clear"><img src="https://www.haivietcorp.com/images/img/m.png" alt="C&Ocirc;NG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT" width="25" height="25" />&nbsp;<sup><span style="font-size: large;"><a href="mailto:viet@haivietcorp.com">viet@haivietcorp.c</a>om<span style="text-decoration: underline; color: #0000ff;"><br /></span></span></sup></div>
+<div class="clear"><span style="font-size: large;">&nbsp;</span></div>
+<div class="clear"><span style="color: #ff0000; font-size: large;">Mr. Hiệu - 0903 879 418</span></div>
+</div>
+<div class="httc">
+<p><img src="https://www.haivietcorp.com/images/img/s.png" alt="C&Ocirc;NG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT" width="25" height="25" />&nbsp;<span style="font-size: large;"><sup><a href="skype:Plastics1_5?call">HAVICO.HIEU - NHỰA KỸ THUẬT</a></sup></span>&nbsp;</p>
+<p><img src="https://www.haivietcorp.com/images/img/m.png" alt="C&Ocirc;NG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT" width="25" height="25" />&nbsp;<span style="font-size: large;"><sup><a href="mailto:hieu.lk@haivietcorp.com">hieu.lk@haivietcorp.com</a></sup></span></p>
+<p><span style="font-size: large;">&nbsp;</span></p>
+<p><span style="color: #ff0000; font-size: large;">Mr. Cường - 0903 028 556</span></p>
+</div>
+<div class="httc">
+<p><img src="https://www.haivietcorp.com/images/img/s.png" alt="C&Ocirc;NG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT" width="25" height="25" />&nbsp;<span style="font-size: large;"><sup><a href="skype:sp01@haivietcorp.com?call">HAVICO.CUONG - BƠM</a></sup></span>&nbsp;</p>
+<p><img src="https://www.haivietcorp.com/images/img/m.png" alt="C&Ocirc;NG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT" width="25" height="25" />&nbsp;<span style="font-size: large;"><sup><a href="mailto:cuong.duong@haivietcorp.com">cuong.duong@haivietcorp.com</a></sup></span></p>
+<p><span style="font-size: large;">&nbsp;</span></p>
+<p><span style="color: #ff0000; font-size: large;">Mr. Đức - 0903 111 762</span></p>
+</div>
+<div class="httc">
+<p><img src="https://www.haivietcorp.com/images/img/s.png" alt="C&Ocirc;NG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT" width="25" height="25" />&nbsp;<span style="font-size: large;"><sup><a href="skype:HAIVIET.DUC?call">HAVICO.DUC - VAN</a></sup></span></p>
+<p><img src="https://www.haivietcorp.com/images/img/m.png" alt="C&Ocirc;NG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT" width="25" height="25" />&nbsp;<span style="font-size: large;"><sup><a href="mailto:duc.nguyen@haivietcorp.com">duc.nguyen@haivietcorp.com</a></sup></span></p>
+</div></div>
+</div>
+
+<script>
+	$(document).ready(function(){
+		$('.fixed_tt').click(function(){
+			 
+			if($('.fix_right').hasClass('fix_right_active')==true){
+				$('.fix_right').removeClass('fix_right_active');
+			}else{
+				$('.fix_right').addClass('fix_right_active');
+			}
+		}); 
+ 	});
+</script> 
+<!--<div style="width:100%;height:35px;background:#003b6c;text-align:center;line-height:35px;">
+Copyright@ CÔNG TY TRÁCH NHIỆM HỮU HẠN DỊCH VỤ - KỸ THUẬT HẢI VIỆT - Design by NINA.VN
+</div>-->
+
+
+      
+        
+       </div>
+			</div><!--nen_trang-->
+			<div style="clear:both"></div>
+		</div>
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48760328-1', 'vatlieulamkin.com');
+  ga('send', 'pageview');
+
+</script>		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1&appId=273543082778614";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<script lang="javascript">var __vnp = {code : 5432,key:'', secret : '9c6a3d3d67f8eb7ac1d65b7f7c99b5e3'};(function() {var ga = document.createElement('script');ga.type = 'text/javascript';ga.async=true; ga.defer=true;ga.src = '//core.vchat.vn/code/tracking.js';var s = document.getElementsByTagName('script');s[0].parentNode.insertBefore(ga, s[0]);})();</script>		
+		<script type="application/ld+json">
+			{
+			  "@context" : "https://schema.org",
+			  "@type" : "Organization",
+			  "name" : "CÔNG TY TRÁCH NHIỆM HỮU HẠN DỊCH VỤ - KỸ THUẬT HẢI VIỆT",
+			  "url" : "https://vatlieulamkin.com",
+			  "sameAs" : [
+			  				"",			  				"",			  				"",			  				"",			  				""			  			   ],
+			  "address": {
+				"@type": "PostalAddress",
+				"streetAddress": "119 Đường TA16, Phường Thới An, Quận 12, TP. Hồ Chí Minh",
+				"addressRegion": "Ho Chi Minh",
+				"postalCode": "70000",
+				"addressCountry": "vi"
+			  }
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,2798 @@
+<!DOCTYPE HTML>
+<html class="" lang="vi-VN">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>TuneFM - Ứng dụng nghe truyện audio, podcast, radio... miễn phí</title>
+    <meta name='robots' content='index,follow' />
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <meta name="description" content="🎧Khám phá kho truyện audio, truyện ngôn tình, kiếm hiệp, sách văn học, podcast... đồ sộ, cùng hàng trăm kênh Radio nổi tiếng, đáp ứng mọi nhu cầu nghe của bạn!" />
+    <link rel="alternate" type="application/rss+xml" title="Dòng thông tin TuneFm &raquo;" href="?feed=rss3" />
+    <link rel="alternate" type="application/rss+xml" title="Dòng phản hồi TuneFm &raquo;" href="?feed=comments-rss3" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="theme-color" content="#f6f6f6">
+    <meta property="og:title" content="TuneFM - Ứng dụng nghe truyện audio, podcast, radio... miễn phí">
+    <meta property="og:type" content="website">
+    <meta name="keywords" content="truyện ngôn tình,truyen ngon tinh,truyen kiem hiep, truyện kiếm hiệp, ngon tinh, ngôn tình, kiếm hiệp, kiem hiep, tien hiep, tiên hiệp, radio, podcast, podcast, sách nói, nghe trực tuyến, nghe radio, nghe audio, nghe truyen, nghe doc truyen, nghe đọc truyện, kể chuyện, âm nhạc, am nhac, tâm sự, tam su, truyện cổ tích, văn học, van hoc, trinh tham, tiểu thuyết, english podcast, raio trực tuyến, radio truc tuyen, live radio, vov, voh, vov giao thông, vov1, vov2, vov3, vov4, xonefm, đấu la đại lục, dau la dai luc">
+    <meta property="og:url" content="https://tunefm.vn/">
+    <meta property="og:image" content="wp-content/uploads/2019/11/img-image.jpg">
+    <meta name="url" content="https://tunefm.vn">
+    <meta name="language" content="vi">
+    <link rel="canonical" href="https://tunefm.vn">
+    <meta property="og:site_name" content="Tunefm">
+    <meta property="og:locale" content="vi">
+    <meta property="og:keywords" content="truyện ngôn tình,truyen ngon tinh,truyen kiem hiep, truyện kiếm hiệp, ngon tinh, ngôn tình, kiếm hiệp, kiem hiep, tien hiep, tiên hiệp, radio, podcast, podcast, sách nói, nghe trực tuyến, nghe radio, nghe audio, nghe truyen, nghe doc truyen, nghe đọc truyện, kể chuyện, âm nhạc, am nhac, tâm sự, tam su, truyện cổ tích, văn học, van hoc, trinh tham, tiểu thuyết, english podcast, raio trực tuyến, radio truc tuyen, live radio, vov, voh, vov giao thông, vov1, vov2, vov3, vov4, xonefm, đấu la đại lục, dau la dai luc">
+    <meta property="og:language" content="VN">
+    <meta property="og:description" content="🎧Khám phá kho truyện audio, truyện ngôn tình, kiếm hiệp, sách văn học, podcast... đồ sộ, cùng hàng trăm kênh Radio nổi tiếng, đáp ứng mọi nhu cầu nghe của bạn!">
+	<link rel="shortcut icon" type="image/png" href="wp-content/uploads/2019/11/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="wp-content/uploads/2019/11/favicon.png"/>
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.5"
+            }
+        };
+        ! function(a, b, c) {
+            function d(a, b) {
+                var c = String.fromCharCode;
+                l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, a), 0, 0);
+                var d = k.toDataURL();
+                l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, b), 0, 0);
+                var e = k.toDataURL();
+                return d === e
+            }
+
+            function e(a) {
+                var b;
+                if (!l || !l.fillText) return !1;
+                switch (l.textBaseline = "top", l.font = "600 32px Arial", a) {
+                    case "flag":
+                        return !(b = d([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819])) && (b = d([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]), !b);
+                    case "emoji":
+                        return b = d([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340]), !b
+                }
+                return !1
+            }
+
+            function f(a) {
+                var c = b.createElement("script");
+                c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
+            }
+            var g, h, i, j, k = b.createElement("canvas"),
+                l = k.getContext && k.getContext("2d");
+            for (j = Array("flag", "emoji"), c.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, i = 0; i < j.length; i++) c.supports[j[i]] = e(j[i]), c.supports.everything = c.supports.everything && c.supports[j[i]], "flag" !== j[i] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[j[i]]);
+            c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function() {
+                c.DOMReady = !0
+            }, c.supports.everything || (h = function() {
+                c.readyCallback()
+            }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", h, !1), a.addEventListener("load", h, !1)) : (a.attachEvent("onload", h), b.attachEvent("onreadystatechange", function() {
+                "complete" === b.readyState && c.readyCallback()
+            })), g = c.source || {}, g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji), f(g.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min.css?ver=5.2.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='us-fonts-css' href='https://fonts.googleapis.com/css?family=Montserrat%3A700%7CRoboto%3A400%2C700&#038;subset=latin&#038;ver=5.2.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='us-style-css' href='wp-content/themes/Impreza/css/style.min.css?ver=6.0.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='us-responsive-css' href='wp-content/themes/Impreza/css/responsive.min.css?ver=6.0.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='theme-style-css' href='wp-content/themes/Impreza-child/style.css?ver=6.0.6' type='text/css' media='all' />
+    <link rel='https://api.w.org/' href='index.php?rest_route=/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="TuneFm nghe miễn phí radio trực tiếp, truyện ngôn tình, kiếm hiệp, sách nói, văn học tiểu thuyết, trinh thám, truyện ma" />
+    <link rel="canonical" href="" />
+    <link rel='shortlink' href='' />
+    <link rel="alternate" type="application/json+oembed" href="index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=" />
+    <link rel="alternate" type="text/xml+oembed" href="index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=&#038;format=xml" />
+    <script>
+        if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            var root = document.getElementsByTagName('html')[0]
+            root.className += " no-touch";
+        }
+    </script>
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
+    <meta name="generator" content="TuneFm nghe miễn phí radio trực tiếp, truyện ngôn tình, kiếm hiệp, sách nói, văn học tiểu thuyết, trinh thám, truyện ma" />
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+    <noscript>
+        <style type="text/css">
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+    <style id="us-theme-options-css">
+        @font-face {
+            font-family: 'Font Awesome 5 Brands';
+            font-display: block;
+            font-style: normal;
+            font-weight: normal;
+            src: url("wp-content/themes/Impreza/fonts/fa-brands-400.woff2") format("woff2"), url("wp-content/themes/Impreza/fonts/fa-brands-400.woff") format("woff")
+        }
+        
+        .fab {
+            font-family: 'Font Awesome 5 Brands'
+        }
+        
+        @font-face {
+            font-family: 'fontawesome';
+            font-display: block;
+            font-style: normal;
+            font-weight: 300;
+            src: url("wp-content/themes/Impreza/fonts/fa-light-300.woff2") format("woff2"), url("wp-content/themes/Impreza/fonts/fa-light-300.woff") format("woff")
+        }
+        
+        .fal {
+            font-family: 'fontawesome';
+            font-weight: 300
+        }
+        
+        @font-face {
+            font-family: 'fontawesome';
+            font-display: block;
+            font-style: normal;
+            font-weight: 400;
+            src: url("wp-content/themes/Impreza/fonts/fa-regular-400.woff2") format("woff2"), url("wp-content/themes/Impreza/fonts/fa-regular-400.woff") format("woff")
+        }
+        
+        .far {
+            font-family: 'fontawesome';
+            font-weight: 400
+        }
+        
+        @font-face {
+            font-family: 'fontawesome';
+            font-display: block;
+            font-style: normal;
+            font-weight: 900;
+            src: url("wp-content/themes/Impreza/fonts/fa-solid-900.woff2") format("woff2"), url("wp-content/themes/Impreza/fonts/fa-solid-900.woff") format("woff")
+        }
+        
+        .fa,
+        .fas {
+            font-family: 'fontawesome';
+            font-weight: 900
+        }
+        
+        .style_phone6-1>div {
+            background-image: url(wp-content/themes/Impreza/framework/img/phone-6-black-real.png)
+        }
+        
+        .style_phone6-2>div {
+            background-image: url(wp-content/themes/Impreza/framework/img/phone-6-white-real.png)
+        }
+        
+        .style_phone6-3>div {
+            background-image: url(wp-content/themes/Impreza/framework/img/phone-6-black-flat.png)
+        }
+        
+        .style_phone6-4>div {
+            background-image: url(wp-content/themes/Impreza/framework/img/phone-6-white-flat.png)
+        }
+        
+        .leaflet-default-icon-path {
+            background-image: url(wp-content/themes/Impreza/css/vendor/images/marker-icon.png)
+        }
+        
+        html,
+        .l-header .widget {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px
+        }
+        
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 3.90rem;
+            line-height: 1.1;
+            letter-spacing: -0.05em;
+            margin-bottom: 1.5rem
+        }
+        
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 2.5rem;
+            line-height: 1.4;
+            letter-spacing: -0.05em;
+            margin-bottom: 1.5rem
+        }
+        
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 1.20;
+            letter-spacing: -0.05em;
+            margin-bottom: 1.5rem
+        }
+        
+        .widgettitle,
+        .comment-reply-title,
+        h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 1.6rem;
+            line-height: 1.20;
+            letter-spacing: -0.05em;
+            margin-bottom: 1.5rem
+        }
+        
+        h5 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 1.40rem;
+            line-height: 1.4;
+            letter-spacing: -0.05em;
+            margin-bottom: 1.5rem
+        }
+        
+        h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 1.20rem;
+            line-height: 1.4;
+            letter-spacing: -0.05em;
+            margin-bottom: 1.5rem
+        }
+        
+        @media (max-width:767px) {
+            html {
+                font-size: 16px;
+                line-height: 30px
+            }
+            h1 {
+                font-size: 2.5rem
+            }
+            h1.vc_custom_heading {
+                font-size: 2.5rem !important
+            }
+            h2 {
+                font-size: 2rem
+            }
+            h2.vc_custom_heading {
+                font-size: 2rem !important
+            }
+            h3 {
+                font-size: 1.8rem
+            }
+            h3.vc_custom_heading {
+                font-size: 1.8rem !important
+            }
+            h4,
+            .widgettitle,
+            .comment-reply-title {
+                font-size: 1.6rem
+            }
+            h4.vc_custom_heading {
+                font-size: 1.6rem !important
+            }
+            h5 {
+                font-size: 1.40rem
+            }
+            h5.vc_custom_heading {
+                font-size: 1.40rem !important
+            }
+            h6 {
+                font-size: 1.20rem
+            }
+            h6.vc_custom_heading {
+                font-size: 1.20rem !important
+            }
+        }
+        
+        body {
+            background: #ffffff
+        }
+        
+        body,
+        .l-header.pos_fixed {
+            min-width: 1300px
+        }
+        
+        .l-canvas.type_boxed,
+        .l-canvas.type_boxed .l-subheader,
+        .l-canvas.type_boxed .l-section.type_sticky,
+        .l-canvas.type_boxed~.l-footer {
+            max-width: 1300px
+        }
+        
+        .l-subheader-h,
+        .l-section-h,
+        .l-main .aligncenter,
+        .w-tabs-section-content-h {
+            max-width: 1140px
+        }
+        
+        .post-password-form {
+            max-width: calc(1140px + 5rem)
+        }
+        .btn-login{
+            background: linear-gradient(342.35deg, #FFBA58 0%, #FF7D4B 0%, #FF5715 100%);
+            border-radius: 24px;
+            width: 160px;
+            height: 42px;
+            font-size: 15px;
+            line-height: 16px;
+            color: #FFFFFF;
+            display: flex!important;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5px;
+        }
+        
+        .btn-login .w-nav-anchor:hover{
+            color: white;
+        }
+        @media screen and (max-width:1230px) {
+            .l-main .aligncenter {
+                max-width: calc(100vw - 5rem)
+            }
+        }
+        
+        @media (max-width:767px) {
+            .g-cols.reversed {
+                flex-direction: column-reverse
+            }
+            .g-cols>div:not([class*=" vc_col-"]) {
+                width: 100%;
+                margin: 0 0 1rem
+            }
+            .g-cols.type_boxes>div,
+            .g-cols.reversed>div:first-child,
+            .g-cols:not(.reversed)>div:last-child,
+            .g-cols>div.has-fill {
+                margin-bottom: 0
+            }
+            .vc_wp_custommenu.layout_hor,
+            .align_center_xs,
+            .align_center_xs .w-socials {
+                text-align: center
+            }
+            .align_center_xs .w-hwrapper>* {
+                margin: 0.5rem 0;
+                width: 100%
+            }
+        }
+        
+        @media (min-width:768px) {
+            .l-section.for_sidebar.at_left>div>.g-cols {
+                flex-direction: row-reverse
+            }
+        }
+        
+        .tribe-events-button,
+        button[type="submit"]:not(.w-btn),
+        input[type="submit"] {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 0em;
+            border-radius: 2.5em;
+            padding: 1.1em 2.4em;
+            background: #FFCC00;
+            border-color: transparent;
+            color: #ffffff!important
+        }
+        
+        .tribe-events-button,
+        button[type="submit"]:not(.w-btn):before,
+        input[type="submit"] {
+            border-width: 0px
+        }
+        
+        .no-touch .tribe-events-button:hover,
+        .no-touch button[type="submit"]:not(.w-btn):hover,
+        .no-touch input[type="submit"]:hover {
+            box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+            background: #FFCC00;
+            border-color: transparent;
+            color: #ffffff!important
+        }
+        
+        .us-btn-style_1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 0em;
+            border-radius: 2.5em;
+            padding: 1.1em 2.4em;
+            background: #FFCC00;
+            border-color: transparent;
+            color: #ffffff!important;
+            box-shadow: 0 0.05em 0.1em rgba(0, 0, 0, 0.2)
+        }
+        
+        .us-btn-style_1:before {
+            border-width: 0px
+        }
+        
+        .no-touch .us-btn-style_1:hover {
+            box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+            background: #FFCC00;
+            border-color: transparent;
+            color: #ffffff!important
+        }
+        
+        .us-btn-style_2 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 0em;
+            border-radius: 2.5em;
+            padding: 1.1em 2.4em;
+            background: #dedede;
+            border-color: transparent;
+            color: #242424!important;
+            box-shadow: 0 0.05em 0.1em rgba(0, 0, 0, 0.2)
+        }
+        
+        .us-btn-style_2:before {
+            border-width: 0px
+        }
+        
+        .no-touch .us-btn-style_2:hover {
+            box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+            background: #dedede;
+            border-color: transparent;
+            color: #242424!important
+        }
+        
+        .us-btn-style_4 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 0em;
+            border-radius: 2.5em;
+            padding: 1.1em 2.4em;
+            background: #ffffff;
+            border-color: transparent;
+            color: #333333!important;
+            box-shadow: 0 0.05em 0.1em rgba(0, 0, 0, 0.2)
+        }
+        
+        .us-btn-style_4:before {
+            border-width: 0px
+        }
+        
+        .no-touch .us-btn-style_4:hover {
+            box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+            background: #ffffff;
+            border-color: transparent;
+            color: #333333!important
+        }
+        
+        .us-btn-style_5 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 0em;
+            border-radius: 2.5em;
+            padding: 1.1em 2.4em;
+            background: #FF5715;
+            border-color: transparent;
+            color: #ffffff!important;
+            box-shadow: 0 0.05em 0.1em rgba(0, 0, 0, 0.2)
+        }
+        
+        .us-btn-style_5:before {
+            border-width: 0px
+        }
+        
+        .no-touch .us-btn-style_5:hover {
+            box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+            background: #eb4200;
+            border-color: transparent;
+            color: #ffffff!important
+        }
+        
+        .us-btn-style_6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 0em;
+            border-radius: 2.5em;
+            padding: 1.1em 2.4em;
+            background: #333333;
+            border-color: transparent;
+            color: #ffffff!important;
+            box-shadow: 0 0.05em 0.1em rgba(0, 0, 0, 0.2)
+        }
+        
+        .us-btn-style_6:before {
+            border-width: 0px
+        }
+        
+        .no-touch .us-btn-style_6:hover {
+            box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+            background: #333333;
+            border-color: transparent;
+            color: #ffffff!important
+        }
+        
+        a,
+        button,
+        input[type="submit"],
+        .ui-slider-handle {
+            outline: none !important
+        }
+        
+        .w-header-show,
+        .w-toplink {
+            background: rgba(0, 0, 0, 0.3)
+        }
+        
+        body {
+            -webkit-tap-highlight-color: rgba(146, 110, 212, 0.2)
+        }
+        
+        .l-subheader.at_top,
+        .l-subheader.at_top .w-dropdown-list,
+        .l-subheader.at_top .type_mobile .w-nav-list.level_1 {
+            background: #f6f6f6
+        }
+        
+        .l-subheader.at_top,
+        .l-subheader.at_top .w-dropdown.opened,
+        .l-subheader.at_top .type_mobile .w-nav-list.level_1 {
+            color: #333333
+        }
+        
+        .no-touch .l-subheader.at_top a:hover,
+        .no-touch .l-header.bg_transparent .l-subheader.at_top .w-dropdown.opened a:hover {
+            color: #FF5715
+        }
+        
+        .header_ver .l-header,
+        .l-subheader.at_middle,
+        .l-subheader.at_middle .w-dropdown-list,
+        .l-subheader.at_middle .type_mobile .w-nav-list.level_1 {
+            background: #ffffff
+        }
+        
+        .l-subheader.at_middle,
+        .l-subheader.at_middle .w-dropdown.opened,
+        .l-subheader.at_middle .type_mobile .w-nav-list.level_1 {
+            color: #222222;
+            padding-bottom: 10px;
+        }
+        
+        .no-touch .l-subheader.at_middle a:hover,
+        .no-touch .l-header.bg_transparent .l-subheader.at_middle .w-dropdown.opened a:hover {
+            color: #FF5715
+        }
+        
+        .l-subheader.at_bottom,
+        .l-subheader.at_bottom .w-dropdown-list,
+        .l-subheader.at_bottom .type_mobile .w-nav-list.level_1 {
+            background: #f6f6f6
+        }
+        
+        .l-subheader.at_bottom,
+        .l-subheader.at_bottom .w-dropdown.opened,
+        .l-subheader.at_bottom .type_mobile .w-nav-list.level_1 {
+            color: #333333
+        }
+        
+        .no-touch .l-subheader.at_bottom a:hover,
+        .no-touch .l-header.bg_transparent .l-subheader.at_bottom .w-dropdown.opened a:hover {
+            color: #FF5715
+        }
+        
+        .l-header.bg_transparent:not(.sticky) .l-subheader {
+            color: #ffffff
+        }
+        
+        .no-touch .l-header.bg_transparent:not(.sticky) .w-text a:hover,
+        .no-touch .l-header.bg_transparent:not(.sticky) .w-html a:hover,
+        .no-touch .l-header.bg_transparent:not(.sticky) .w-dropdown a:hover,
+        .no-touch .l-header.bg_transparent:not(.sticky) .type_desktop .menu-item.level_1:hover>.w-nav-anchor {
+            color: #FF5715
+        }
+        
+        .l-header.bg_transparent:not(.sticky) .w-nav-title:after {
+            background: #FF5715
+        }
+        
+        .w-search-form {
+            background: #ffffff;
+            color: #333333
+        }
+        
+        .menu-item.level_1>.w-nav-anchor:focus,
+        .no-touch .menu-item.level_1.opened>.w-nav-anchor,
+        .no-touch .menu-item.level_1:hover>.w-nav-anchor {
+            background: transparent;
+            color: #FF5715
+        }
+        
+        .w-nav-title:after {
+            background: #FF5715
+        }
+        
+        .menu-item.level_1.current-menu-item>.w-nav-anchor,
+        .menu-item.level_1.current-menu-parent>.w-nav-anchor,
+        .menu-item.level_1.current-menu-ancestor>.w-nav-anchor {
+            background: transparent;
+            color: #FF5715
+        }
+        
+        .l-header.bg_transparent:not(.sticky) .type_desktop .menu-item.level_1.current-menu-item>.w-nav-anchor,
+        .l-header.bg_transparent:not(.sticky) .type_desktop .menu-item.level_1.current-menu-ancestor>.w-nav-anchor {
+            background: transparent;
+            color: #FF5715
+        }
+        
+        .w-nav-list:not(.level_1) {
+            background: #ffffff;
+            color: #222222
+        }
+        
+        .no-touch .menu-item:not(.level_1)>.w-nav-anchor:focus,
+        .no-touch .menu-item:not(.level_1):hover>.w-nav-anchor {
+            background: #FF5715;
+            color: #ffffff
+        }
+        
+        .menu-item:not(.level_1).current-menu-item>.w-nav-anchor,
+        .menu-item:not(.level_1).current-menu-parent>.w-nav-anchor,
+        .menu-item:not(.level_1).current-menu-ancestor>.w-nav-anchor {
+            background: transparent;
+            color: #FF5715
+        }
+        
+        .btn.menu-item>a {
+            background: #FF5715 !important;
+            color: #ffffff !important
+        }
+        
+        .no-touch .btn.menu-item>a:hover {
+            background: #926ed4 !important;
+            color: #ffffff !important
+        }
+        
+        body.us_iframe,
+        .l-preloader,
+        .l-canvas,
+        .l-footer,
+        .l-popup-box-content,
+        .g-filters.style_1 .g-filters-item.active,
+        .w-pricing-item-h,
+        .w-tabs.layout_default .w-tabs-item.active,
+        .w-tabs.layout_ver .w-tabs-item.active,
+        .no-touch .w-tabs.layout_default .w-tabs-item.active:hover,
+        .no-touch .w-tabs.layout_ver .w-tabs-item.active:hover,
+        .w-tabs.layout_timeline .w-tabs-item,
+        .w-tabs.layout_timeline .w-tabs-section-header-h,
+        .leaflet-popup-content-wrapper,
+        .leaflet-popup-tip,
+        .wpml-ls-statics-footer,
+        .select2-selection__choice,
+        .select2-search input {
+            background: #ffffff
+        }
+        
+        .w-tabs.layout_modern .w-tabs-item:after {
+            border-bottom-color: #ffffff
+        }
+        
+        .w-iconbox.style_circle.color_contrast .w-iconbox-icon {
+            color: #ffffff
+        }
+        
+        input,
+        textarea,
+        select,
+        .w-actionbox.color_light,
+        .w-form-checkbox,
+        .w-form-radio,
+        .g-filters.style_1,
+        .g-filters.style_2 .g-filters-item.active,
+        .w-flipbox-front,
+        .w-grid-none,
+        .w-iconbox.style_circle.color_light .w-iconbox-icon,
+        .w-pricing-item-header,
+        .w-progbar-bar,
+        .w-progbar.style_3 .w-progbar-bar:before,
+        .w-progbar.style_3 .w-progbar-bar-count,
+        .w-socials.style_solid .w-socials-item-link,
+        .w-tabs.layout_default .w-tabs-list,
+        .w-tabs.layout_ver .w-tabs-list,
+        .no-touch .l-main .layout_ver .widget_nav_menu a:hover,
+        .no-touch .owl-carousel.navpos_outside .owl-nav div:hover,
+        .smile-icon-timeline-wrap .timeline-wrapper .timeline-block,
+        .smile-icon-timeline-wrap .timeline-feature-item.feat-item,
+        .wpml-ls-legacy-dropdown a,
+        .wpml-ls-legacy-dropdown-click a,
+        .tablepress .row-hover tr:hover td,
+        .select2-selection,
+        .select2-dropdown {
+            background: #f6f6f6
+        }
+        
+        .timeline-wrapper .timeline-post-right .ult-timeline-arrow l,
+        .timeline-wrapper .timeline-post-left .ult-timeline-arrow l,
+        .timeline-feature-item.feat-item .ult-timeline-arrow l {
+            border-color: #f6f6f6
+        }
+        
+        hr,
+        td,
+        th,
+        .l-section,
+        .vc_column_container,
+        .vc_column-inner,
+        .w-comments .children,
+        .w-image,
+        .w-pricing-item-h,
+        .w-profile,
+        .w-sharing-item,
+        .w-tabs-list,
+        .w-tabs-section,
+        .widget_calendar #calendar_wrap,
+        .l-main .widget_nav_menu .menu,
+        .l-main .widget_nav_menu .menu-item a,
+        .smile-icon-timeline-wrap .timeline-line {
+            border-color: #dedede
+        }
+        
+        .w-separator.color_border,
+        .w-iconbox.color_light .w-iconbox-icon {
+            color: #dedede
+        }
+        
+        .w-flipbox-back,
+        .w-iconbox.style_circle.color_light .w-iconbox-icon,
+        .no-touch .wpml-ls-sub-menu a:hover {
+            background: #dedede
+        }
+        
+        .w-iconbox.style_outlined.color_light .w-iconbox-icon,
+        .w-person-links-item,
+        .w-socials.style_outlined .w-socials-item-link,
+        .pagination .page-numbers {
+            box-shadow: 0 0 0 2px #dedede inset
+        }
+        
+        .w-tabs.layout_trendy .w-tabs-list {
+            box-shadow: 0 -1px 0 #dedede inset
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .w-counter.color_heading .w-counter-value {
+            color: #222222
+        }
+        
+        .w-progbar.color_heading .w-progbar-bar-h {
+            background: #222222
+        }
+        
+        input,
+        textarea,
+        select,
+        .l-canvas,
+        .l-footer,
+        .l-popup-box-content,
+        .w-form-row-field>i,
+        .w-iconbox.color_light.style_circle .w-iconbox-icon,
+        .w-tabs.layout_timeline .w-tabs-item,
+        .w-tabs.layout_timeline .w-tabs-section-header-h,
+        .leaflet-popup-content-wrapper,
+        .leaflet-popup-tip,
+        .select2-dropdown {
+            color: #333333
+        }
+        
+        .w-iconbox.style_circle.color_contrast .w-iconbox-icon,
+        .w-progbar.color_text .w-progbar-bar-h,
+        .w-scroller-dot span {
+            background: #333333
+        }
+        
+        .w-iconbox.style_outlined.color_contrast .w-iconbox-icon {
+            box-shadow: 0 0 0 2px #333333 inset
+        }
+        
+        .w-scroller-dot span {
+            box-shadow: 0 0 0 2px #333333
+        }
+
+        .zoom-logo
+        {
+            width: 100px !important;
+        }
+
+        a {
+            color: #926ed4
+        }
+
+        .no-touch a:hover,
+        .no-touch .tablepress .sorting:hover {
+            color: #FF5715
+        }
+
+        .g-preloader,
+        .l-main .w-contacts-item:before,
+        .w-counter.color_primary .w-counter-value,
+        .g-filters.style_1 .g-filters-item.active,
+        .g-filters.style_3 .g-filters-item.active,
+        .w-form-row.focused .w-form-row-field>i,
+        .w-iconbox.color_primary .w-iconbox-icon,
+        .w-separator.color_primary,
+        .w-sharing.type_outlined.color_primary .w-sharing-item,
+        .no-touch .w-sharing.type_simple.color_primary .w-sharing-item:hover .w-sharing-icon,
+        .w-tabs.layout_default .w-tabs-item.active,
+        .w-tabs.layout_trendy .w-tabs-item.active,
+        .w-tabs.layout_ver .w-tabs-item.active,
+        .w-tabs-section.active .w-tabs-section-header,
+        .tablepress .sorting_asc,
+        .tablepress .sorting_desc,
+        .highlight_primary {
+            color: #926ed4
+        }
+
+        .l-section.color_primary,
+        .us-btn-style_badge,
+        .no-touch .post_navigation.layout_sided a:hover .post_navigation-item-arrow,
+        .g-placeholder,
+        .highlight_primary_bg,
+        .w-actionbox.color_primary,
+        .w-form-row input:checked + .w-form-checkbox,
+        .w-form-row input:checked + .w-form-radio,
+        .no-touch .g-filters.style_1 .g-filters-item:hover,
+        .no-touch .g-filters.style_2 .g-filters-item:hover,
+        .w-post-elm-placeholder,
+        .w-iconbox.style_circle.color_primary .w-iconbox-icon,
+        .no-touch .w-iconbox.style_circle .w-iconbox-icon:before,
+        .no-touch .w-iconbox.style_outlined .w-iconbox-icon:before,
+        .no-touch .w-person-links-item:before,
+        .w-pricing-item.type_featured .w-pricing-item-header,
+        .w-progbar.color_primary .w-progbar-bar-h,
+        .w-sharing.type_solid.color_primary .w-sharing-item,
+        .w-sharing.type_fixed.color_primary .w-sharing-item,
+        .w-sharing.type_outlined.color_primary .w-sharing-item:before,
+        .no-touch .w-sharing-tooltip .w-sharing-item:hover,
+        .w-socials-item-link-hover,
+        .w-tabs.layout_modern .w-tabs-list,
+        .w-tabs.layout_trendy .w-tabs-item:after,
+        .w-tabs.layout_timeline .w-tabs-item:before,
+        .w-tabs.layout_timeline .w-tabs-section-header-h:before,
+        .no-touch .w-header-show:hover,
+        .no-touch .w-toplink.active:hover,
+        .no-touch .pagination .page-numbers:before,
+        .pagination .page-numbers.current,
+        .l-main .widget_nav_menu .menu-item.current-menu-item>a,
+        .rsThumb.rsNavSelected,
+        .no-touch .tp-leftarrow.custom:before,
+        .no-touch .tp-rightarrow.custom:before,
+        .smile-icon-timeline-wrap .timeline-separator-text .sep-text,
+        .smile-icon-timeline-wrap .timeline-wrapper .timeline-dot,
+        .smile-icon-timeline-wrap .timeline-feature-item .timeline-dot,
+        .select2-results__option--highlighted {
+            background: #926ed4
+        }
+
+        .w-tabs.layout_default .w-tabs-item.active,
+        .w-tabs.layout_ver .w-tabs-item.active,
+        .owl-dot.active span,
+        .rsBullet.rsNavSelected span,
+        .tp-bullets.custom .tp-bullet {
+            border-color: #926ed4
+        }
+
+        .l-main .w-contacts-item:before,
+        .w-iconbox.color_primary.style_outlined .w-iconbox-icon,
+        .w-sharing.type_outlined.color_primary .w-sharing-item,
+        .w-tabs.layout_timeline .w-tabs-item,
+        .w-tabs.layout_timeline .w-tabs-section-header-h {
+            box-shadow: 0 0 0 2px #926ed4 inset
+        }
+
+        input:focus,
+        textarea:focus,
+        select:focus,
+        .select2-container--focus .select2-selection {
+            box-shadow: 0 0 0 2px #926ed4
+        }
+
+        .no-touch .post_navigation.layout_simple a:hover .post_navigation-item-title,
+        .w-counter.color_secondary .w-counter-value,
+        .w-iconbox.color_secondary .w-iconbox-icon,
+        .w-separator.color_secondary,
+        .w-sharing.type_outlined.color_secondary .w-sharing-item,
+        .no-touch .w-sharing.type_simple.color_secondary .w-sharing-item:hover .w-sharing-icon,
+        .highlight_secondary {
+            color: #FF5715
+        }
+
+        .l-section.color_secondary,
+        .w-actionbox.color_secondary,
+        .no-touch .us-btn-style_badge:hover,
+        .w-iconbox.style_circle.color_secondary .w-iconbox-icon,
+        .w-progbar.color_secondary .w-progbar-bar-h,
+        .w-sharing.type_solid.color_secondary .w-sharing-item,
+        .w-sharing.type_fixed.color_secondary .w-sharing-item,
+        .w-sharing.type_outlined.color_secondary .w-sharing-item:before,
+        .highlight_secondary_bg {
+            background: #FF5715
+        }
+
+        .w-separator.color_secondary {
+            border-color: #FF5715
+        }
+
+        .w-iconbox.color_secondary.style_outlined .w-iconbox-icon,
+        .w-sharing.type_outlined.color_secondary .w-sharing-item {
+            box-shadow: 0 0 0 2px #FF5715 inset
+        }
+
+        blockquote:before,
+        .w-form-row-description,
+        .l-main .post-author-website,
+        .l-main .w-profile-link.for_logout,
+        .l-main .widget_tag_cloud,
+        .highlight_faded {
+            color: #666666
+        }
+
+        .l-section.color_alternate,
+        .color_alternate .g-filters.style_1 .g-filters-item.active,
+        .color_alternate .w-pricing-item-h,
+        .color_alternate .w-tabs.layout_default .w-tabs-item.active,
+        .no-touch .color_alternate .w-tabs.layout_default .w-tabs-item.active:hover,
+        .color_alternate .w-tabs.layout_ver .w-tabs-item.active,
+        .no-touch .color_alternate .w-tabs.layout_ver .w-tabs-item.active:hover,
+        .color_alternate .w-tabs.layout_timeline .w-tabs-item,
+        .color_alternate .w-tabs.layout_timeline .w-tabs-section-header-h {
+            background: linear-gradient(#f6f6f6, #fff)
+        }
+
+        .color_alternate .w-iconbox.style_circle.color_contrast .w-iconbox-icon {
+            color: linear-gradient(#f6f6f6, #fff)
+        }
+
+        .color_alternate .w-tabs.layout_modern .w-tabs-item:after {
+            border-bottom-color: linear-gradient(#f6f6f6, #fff)
+        }
+
+        .color_alternate input:not([type="submit"]),
+        .color_alternate textarea,
+        .color_alternate select,
+        .color_alternate .w-form-checkbox,
+        .color_alternate .w-form-radio,
+        .color_alternate .g-filters.style_1,
+        .color_alternate .g-filters.style_2 .g-filters-item.active,
+        .color_alternate .w-grid-none,
+        .color_alternate .w-iconbox.style_circle.color_light .w-iconbox-icon,
+        .color_alternate .w-pricing-item-header,
+        .color_alternate .w-progbar-bar,
+        .color_alternate .w-socials.style_solid .w-socials-item-link,
+        .color_alternate .w-tabs.layout_default .w-tabs-list,
+        .color_alternate .ginput_container_creditcard {
+            background: #ffffff
+        }
+
+        .l-section.color_alternate,
+        .color_alternate td,
+        .color_alternate th,
+        .color_alternate .vc_column_container,
+        .color_alternate .vc_column-inner,
+        .color_alternate .w-comments .children,
+        .color_alternate .w-image,
+        .color_alternate .w-pricing-item-h,
+        .color_alternate .w-profile,
+        .color_alternate .w-sharing-item,
+        .color_alternate .w-tabs-list,
+        .color_alternate .w-tabs-section {
+            border-color: #dedede
+        }
+
+        .color_alternate .w-separator.color_border,
+        .color_alternate .w-iconbox.color_light .w-iconbox-icon {
+            color: #dedede
+        }
+
+        .color_alternate .w-iconbox.style_circle.color_light .w-iconbox-icon {
+            background: #dedede
+        }
+
+        .color_alternate .w-iconbox.style_outlined.color_light .w-iconbox-icon,
+        .color_alternate .w-person-links-item,
+        .color_alternate .w-socials.style_outlined .w-socials-item-link,
+        .color_alternate .pagination .page-numbers {
+            box-shadow: 0 0 0 2px #dedede inset
+        }
+
+        .color_alternate .w-tabs.layout_trendy .w-tabs-list {
+            box-shadow: 0 -1px 0 #dedede inset
+        }
+
+        .l-section.color_alternate h1,
+        .l-section.color_alternate h2,
+        .l-section.color_alternate h3,
+        .l-section.color_alternate h4,
+        .l-section.color_alternate h5,
+        .l-section.color_alternate h6,
+        .l-section.color_alternate .w-counter-value {
+            color: #222222
+        }
+
+        .color_alternate .w-progbar.color_contrast .w-progbar-bar-h {
+            background: #222222
+        }
+
+        .l-section.color_alternate,
+        .color_alternate input,
+        .color_alternate textarea,
+        .color_alternate select,
+        .color_alternate .w-form-row-field>i,
+        .color_alternate .w-iconbox.color_contrast .w-iconbox-icon,
+        .color_alternate .w-iconbox.color_light.style_circle .w-iconbox-icon,
+        .color_alternate .w-tabs.layout_timeline .w-tabs-item,
+        .color_alternate .w-tabs.layout_timeline .w-tabs-section-header-h {
+            color: #333333
+        }
+
+        .color_alternate .w-iconbox.style_circle.color_contrast .w-iconbox-icon {
+            background: #333333
+        }
+
+        .color_alternate .w-iconbox.style_outlined.color_contrast .w-iconbox-icon {
+            box-shadow: 0 0 0 2px #333333 inset
+        }
+
+        .color_alternate a {
+            color: #926ed4
+        }
+
+        .no-touch .color_alternate a:hover {
+            color: #FF5715
+        }
+
+        .color_alternate .highlight_primary,
+        .l-main .color_alternate .w-contacts-item:before,
+        .color_alternate .w-counter.color_primary .w-counter-value,
+        .color_alternate .g-preloader,
+        .color_alternate .g-filters.style_1 .g-filters-item.active,
+        .color_alternate .g-filters.style_3 .g-filters-item.active,
+        .color_alternate .w-form-row.focused .w-form-row-field>i,
+        .color_alternate .w-iconbox.color_primary .w-iconbox-icon,
+        .color_alternate .w-separator.color_primary,
+        .color_alternate .w-tabs.layout_default .w-tabs-item.active,
+        .color_alternate .w-tabs.layout_trendy .w-tabs-item.active,
+        .color_alternate .w-tabs.layout_ver .w-tabs-item.active,
+        .color_alternate .w-tabs-section.active .w-tabs-section-header {
+            color: #926ed4
+        }
+
+        .color_alternate .highlight_primary_bg,
+        .color_alternate .w-actionbox.color_primary,
+        .no-touch .color_alternate .g-filters.style_1 .g-filters-item:hover,
+        .no-touch .color_alternate .g-filters.style_2 .g-filters-item:hover,
+        .color_alternate .w-iconbox.style_circle.color_primary .w-iconbox-icon,
+        .no-touch .color_alternate .w-iconbox.style_circle .w-iconbox-icon:before,
+        .no-touch .color_alternate .w-iconbox.style_outlined .w-iconbox-icon:before,
+        .color_alternate .w-pricing-item.type_featured .w-pricing-item-header,
+        .color_alternate .w-progbar.color_primary .w-progbar-bar-h,
+        .color_alternate .w-tabs.layout_modern .w-tabs-list,
+        .color_alternate .w-tabs.layout_trendy .w-tabs-item:after,
+        .color_alternate .w-tabs.layout_timeline .w-tabs-item:before,
+        .color_alternate .w-tabs.layout_timeline .w-tabs-section-header-h:before,
+        .no-touch .color_alternate .pagination .page-numbers:before,
+        .color_alternate .pagination .page-numbers.current {
+            background: #926ed4
+        }
+
+        .color_alternate .w-tabs.layout_default .w-tabs-item.active,
+        .color_alternate .w-tabs.layout_ver .w-tabs-item.active,
+        .no-touch .color_alternate .w-tabs.layout_default .w-tabs-item.active:hover,
+        .no-touch .color_alternate .w-tabs.layout_ver .w-tabs-item.active:hover {
+            border-color: #926ed4
+        }
+
+        .l-main .color_alternate .w-contacts-item:before,
+        .color_alternate .w-iconbox.color_primary.style_outlined .w-iconbox-icon,
+        .color_alternate .w-tabs.layout_timeline .w-tabs-item,
+        .color_alternate .w-tabs.layout_timeline .w-tabs-section-header-h {
+            box-shadow: 0 0 0 2px #926ed4 inset
+        }
+
+        .color_alternate input:focus,
+        .color_alternate textarea:focus,
+        .color_alternate select:focus {
+            box-shadow: 0 0 0 2px #926ed4
+        }
+
+        .color_alternate .highlight_secondary,
+        .color_alternate .w-counter.color_secondary .w-counter-value,
+        .color_alternate .w-iconbox.color_secondary .w-iconbox-icon,
+        .color_alternate .w-separator.color_secondary {
+            color: #FF5715
+        }
+
+        .color_alternate .highlight_secondary_bg,
+        .color_alternate .w-actionbox.color_secondary,
+        .color_alternate .w-iconbox.style_circle.color_secondary .w-iconbox-icon,
+        .color_alternate .w-progbar.color_secondary .w-progbar-bar-h {
+            background: #FF5715
+        }
+
+        .color_alternate .w-iconbox.color_secondary.style_outlined .w-iconbox-icon {
+            box-shadow: 0 0 0 2px #FF5715 inset
+        }
+
+        .color_alternate .highlight_faded,
+        .color_alternate .w-profile-link.for_logout {
+            color: #666666
+        }
+
+        .color_footer-top {
+            background: linear-gradient(#fff, #f6f6f6)
+        }
+
+        .color_footer-top input:not([type="submit"]),
+        .color_footer-top textarea,
+        .color_footer-top select,
+        .color_footer-top .w-form-checkbox,
+        .color_footer-top .w-form-radio,
+        .color_footer-top .w-socials.style_solid .w-socials-item-link {
+            background: #ffffff
+        }
+
+        .color_footer-top,
+        .color_footer-top td,
+        .color_footer-top th,
+        .color_footer-top .vc_column_container,
+        .color_footer-top .vc_column-inner,
+        .color_footer-top .w-image,
+        .color_footer-top .w-pricing-item-h,
+        .color_footer-top .w-profile,
+        .color_footer-top .w-sharing-item,
+        .color_footer-top .w-tabs-list,
+        .color_footer-top .w-tabs-section {
+            border-color: #dedede
+        }
+
+        .color_footer-top .w-separator.color_border {
+            color: #dedede
+        }
+
+        .color_footer-top .w-socials.style_outlined .w-socials-item-link {
+            box-shadow: 0 0 0 2px #dedede inset
+        }
+
+        .color_footer-top {
+            color: #222222
+        }
+
+        .color_footer-top a {
+            color: #926ed4
+        }
+
+        .no-touch .color_footer-top a:hover,
+        .color_footer-top .w-form-row.focused .w-form-row-field>i {
+            color: #FF5715
+        }
+
+        .color_footer-top input:focus,
+        .color_footer-top textarea:focus,
+        .color_footer-top select:focus {
+            box-shadow: 0 0 0 2px #FF5715
+        }
+
+        .color_footer-bottom {
+            background: #222222
+        }
+
+        .color_footer-bottom input:not([type="submit"]),
+        .color_footer-bottom textarea,
+        .color_footer-bottom select,
+        .color_footer-bottom .w-form-checkbox,
+        .color_footer-bottom .w-form-radio,
+        .color_footer-bottom .w-socials.style_solid .w-socials-item-link {
+            background: #333333
+        }
+
+        .color_footer-bottom,
+        .color_footer-bottom td,
+        .color_footer-bottom th,
+        .color_footer-bottom .vc_column_container,
+        .color_footer-bottom .vc_column-inner,
+        .color_footer-bottom .w-image,
+        .color_footer-bottom .w-pricing-item-h,
+        .color_footer-bottom .w-profile,
+        .color_footer-bottom .w-sharing-item,
+        .color_footer-bottom .w-tabs-list,
+        .color_footer-bottom .w-tabs-section {
+            border-color: #444444
+        }
+
+        .color_footer-bottom .w-separator.color_border {
+            color: #444444
+        }
+
+        .color_footer-bottom .w-socials.style_outlined .w-socials-item-link {
+            box-shadow: 0 0 0 2px #444444 inset
+        }
+
+        .color_footer-bottom {
+            color: #dedede
+        }
+
+        .color_footer-bottom a {
+            color: #926ed4
+        }
+
+        .no-touch .color_footer-bottom a:hover,
+        .color_footer-bottom .w-form-row.focused .w-form-row-field>i {
+            color: #FF5715
+        }
+
+        .color_footer-bottom input:focus,
+        .color_footer-bottom textarea:focus,
+        .color_footer-bottom select:focus {
+            box-shadow: 0 0 0 2px #FF5715
+        }
+    </style>
+    <style id="us-header-css">
+        @media (min-width:900px) {
+            .hidden_for_default {
+                display: none !important
+            }
+            .l-subheader.at_top {
+                display: none
+            }
+            .l-subheader.at_bottom {
+                display: none
+            }
+            .l-header {
+                position: relative;
+                z-index: 111;
+                width: 100%
+            }
+            .l-subheader {
+                margin: 0 auto
+            }
+            .l-subheader.width_full {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem
+            }
+            .l-subheader-h {
+                display: flex;
+                align-items: center;
+                position: relative;
+                margin: 0 auto;
+                height: inherit
+            }
+            .w-header-show {
+                display: none
+            }
+            .l-header.pos_fixed {
+                position: fixed;
+                left: 0
+            }
+            .l-header.pos_fixed:not(.notransition) .l-subheader {
+                transition-property: transform, background, box-shadow, line-height, height;
+                transition-duration: 0.3s;
+                transition-timing-function: cubic-bezier(.78, .13, .15, .86)
+            }
+            .l-header.bg_transparent:not(.sticky) .l-subheader {
+                box-shadow: none !important;
+                background: none
+            }
+            .l-header.bg_transparent~.l-main .l-section.width_full.height_auto:first-child {
+                padding-top: 0 !important;
+                padding-bottom: 0 !important
+            }
+            .l-header.pos_static.bg_transparent {
+                position: absolute;
+                left: 0
+            }
+            .l-subheader.width_full .l-subheader-h {
+                max-width: none !important
+            }
+            .headerinpos_above .l-header.pos_fixed {
+                overflow: hidden;
+                transition: transform 0.3s;
+                transform: translate3d(0, -100%, 0)
+            }
+            .headerinpos_above .l-header.pos_fixed.sticky {
+                overflow: visible;
+                transform: none
+            }
+            .headerinpos_above .l-header.pos_fixed~.l-section,
+            .headerinpos_above .l-header.pos_fixed~.l-main,
+            .headerinpos_above .l-header.pos_fixed~.l-main .l-section:first-child {
+                padding-top: 0 !important
+            }
+            .l-header.shadow_thin .l-subheader.at_middle,
+            .l-header.shadow_thin .l-subheader.at_bottom,
+            .l-header.shadow_none.sticky .l-subheader.at_middle,
+            .l-header.shadow_none.sticky .l-subheader.at_bottom {
+                box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08)
+            }
+            .l-header.shadow_wide .l-subheader.at_middle,
+            .l-header.shadow_wide .l-subheader.at_bottom {
+                box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.1), 0 2px 1px -1px rgba(0, 0, 0, 0.05)
+            }
+            .headerinpos_bottom .l-header.pos_fixed:not(.sticky) .w-dropdown-list {
+                top: auto;
+                bottom: -0.4em;
+                padding-top: 0.4em;
+                padding-bottom: 2.4em
+            }
+            .header_hor .l-subheader-cell>.w-cart {
+                margin-left: 0;
+                margin-right: 0
+            }
+            .l-subheader.at_top {
+                line-height: 40;
+                height: 40
+            }
+            .l-header.sticky .l-subheader.at_top {
+                line-height: 0;
+                height: 0;
+                overflow: hidden
+            }
+            .l-subheader.at_middle {
+                line-height: 80px;
+                height: 80px
+            }
+            .l-header.sticky .l-subheader.at_middle {
+                line-height: 50px;
+                height: 50px
+            }
+            .l-subheader.at_bottom {
+                line-height: 50;
+                height: 50
+            }
+            .l-header.sticky .l-subheader.at_bottom {
+                line-height: 50;
+                height: 50
+            }
+            .l-subheader.with_centering .l-subheader-cell.at_left,
+            .l-subheader.with_centering .l-subheader-cell.at_right {
+                flex-basis: 100px
+            }
+            .l-header.pos_fixed~.l-main>.l-section:first-of-type,
+            .l-header.pos_fixed~.l-main>.l-section-gap:nth-child(2),
+            .headerinpos_below .l-header.pos_fixed~.l-main>.l-section:nth-of-type(2),
+            .l-header.pos_static.bg_transparent~.l-main>.l-section:first-of-type {
+                padding-top: 80px
+            }
+            .headerinpos_bottom .l-header.pos_fixed~.l-main>.l-section:first-of-type {
+                padding-bottom: 80px
+            }
+            .l-header.bg_transparent~.l-main .l-section.valign_center:first-of-type>.l-section-h {
+                top: -40px
+            }
+            .headerinpos_bottom .l-header.pos_fixed.bg_transparent~.l-main .l-section.valign_center:first-of-type>.l-section-h {
+                top: 40px
+            }
+            .l-header.pos_fixed~.l-main .l-section.height_full:not(:first-of-type) {
+                min-height: calc(100vh - 50px)
+            }
+            .admin-bar .l-header.pos_fixed~.l-main .l-section.height_full:not(:first-of-type) {
+                min-height: calc(100vh - 82px)
+            }
+            .l-header.pos_static.bg_solid~.l-main .l-section.height_full:first-of-type {
+                min-height: calc(100vh - 80px)
+            }
+            .l-header.pos_fixed~.l-main .l-section.sticky {
+                top: 50px
+            }
+            .admin-bar .l-header.pos_fixed~.l-main .l-section.sticky {
+                top: 82px
+            }
+            .l-header.pos_fixed.sticky~.l-main .l-section.type_sticky:first-of-type {
+                padding-top: 50px
+            }
+            .headerinpos_below .l-header.pos_fixed:not(.sticky) {
+                position: absolute;
+                top: 100%
+            }
+            .headerinpos_bottom .l-header.pos_fixed:not(.sticky) {
+                position: absolute;
+                bottom: 0
+            }
+            .headerinpos_below .l-header.pos_fixed~.l-main>.l-section:first-of-type,
+            .headerinpos_bottom .l-header.pos_fixed~.l-main>.l-section:first-of-type {
+                padding-top: 0 !important
+            }
+            .headerinpos_below .l-header.pos_fixed~.l-main .l-section.height_full:nth-of-type(2) {
+                min-height: 100vh
+            }
+            .admin-bar.headerinpos_below .l-header.pos_fixed~.l-main .l-section.height_full:nth-of-type(2) {
+                min-height: calc(100vh - 32px)
+            }
+            .headerinpos_bottom .l-header.pos_fixed:not(.sticky) .w-cart-dropdown,
+            .headerinpos_bottom .l-header.pos_fixed:not(.sticky) .w-nav.type_desktop .w-nav-list.level_2 {
+                bottom: 100%;
+                transform-origin: 0 100%
+            }
+            .headerinpos_bottom .l-header.pos_fixed:not(.sticky) .w-nav.type_mobile.m_layout_dropdown .w-nav-list.level_1 {
+                top: auto;
+                bottom: 100%;
+                box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.1)
+            }
+            .headerinpos_bottom .l-header.pos_fixed:not(.sticky) .w-nav.type_desktop .w-nav-list.level_3,
+            .headerinpos_bottom .l-header.pos_fixed:not(.sticky) .w-nav.type_desktop .w-nav-list.level_4 {
+                top: auto;
+                bottom: 0;
+                transform-origin: 0 100%
+            }
+        }
+
+        @media (min-width:600px) and (max-width:899px) {
+            .hidden_for_tablets {
+                display: none !important
+            }
+            .l-subheader.at_top {
+                display: none
+            }
+            .l-subheader.at_bottom {
+                display: none
+            }
+            .l-header {
+                position: relative;
+                z-index: 111;
+                width: 100%
+            }
+            .l-subheader {
+                margin: 0 auto
+            }
+            .l-subheader.width_full {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem
+            }
+            .l-subheader-h {
+                display: flex;
+                align-items: center;
+                position: relative;
+                margin: 0 auto;
+                height: inherit
+            }
+            .w-header-show {
+                display: none
+            }
+            .l-header.pos_fixed {
+                position: fixed;
+                left: 0
+            }
+            .l-header.pos_fixed:not(.notransition) .l-subheader {
+                transition-property: transform, background, box-shadow, line-height, height;
+                transition-duration: 0.3s;
+                transition-timing-function: cubic-bezier(.78, .13, .15, .86)
+            }
+            .l-header.bg_transparent:not(.sticky) .l-subheader {
+                box-shadow: none !important;
+                background: none
+            }
+            .l-header.bg_transparent~.l-main .l-section.width_full.height_auto:first-child {
+                padding-top: 0 !important;
+                padding-bottom: 0 !important
+            }
+            .l-header.pos_static.bg_transparent {
+                position: absolute;
+                left: 0
+            }
+            .l-subheader.width_full .l-subheader-h {
+                max-width: none !important
+            }
+            .headerinpos_above .l-header.pos_fixed {
+                overflow: hidden;
+                transition: transform 0.3s;
+                transform: translate3d(0, -100%, 0)
+            }
+            .headerinpos_above .l-header.pos_fixed.sticky {
+                overflow: visible;
+                transform: none
+            }
+            .headerinpos_above .l-header.pos_fixed~.l-section,
+            .headerinpos_above .l-header.pos_fixed~.l-main,
+            .headerinpos_above .l-header.pos_fixed~.l-main .l-section:first-child {
+                padding-top: 0 !important
+            }
+            .l-header.shadow_thin .l-subheader.at_middle,
+            .l-header.shadow_thin .l-subheader.at_bottom,
+            .l-header.shadow_none.sticky .l-subheader.at_middle,
+            .l-header.shadow_none.sticky .l-subheader.at_bottom {
+                box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08)
+            }
+            .l-header.shadow_wide .l-subheader.at_middle,
+            .l-header.shadow_wide .l-subheader.at_bottom {
+                box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.1), 0 2px 1px -1px rgba(0, 0, 0, 0.05)
+            }
+            .headerinpos_bottom .l-header.pos_fixed:not(.sticky) .w-dropdown-list {
+                top: auto;
+                bottom: -0.4em;
+                padding-top: 0.4em;
+                padding-bottom: 2.4em
+            }
+            .header_hor .l-subheader-cell>.w-cart {
+                margin-left: 0;
+                margin-right: 0
+            }
+            .l-subheader.at_top {
+                line-height: 40px;
+                height: 40px
+            }
+            .l-header.sticky .l-subheader.at_top {
+                line-height: 40px;
+                height: 40px
+            }
+            .l-subheader.at_middle {
+                line-height: 80px;
+                height: 80px
+            }
+            .l-header.sticky .l-subheader.at_middle {
+                line-height: 50px;
+                height: 50px
+            }
+            .l-subheader.at_bottom {
+                line-height: 50px;
+                height: 50px
+            }
+            .l-header.sticky .l-subheader.at_bottom {
+                line-height: 50px;
+                height: 50px
+            }
+            .l-header.pos_fixed~.l-main>.l-section:first-of-type,
+            .l-header.pos_fixed~.l-main>.l-section-gap:nth-child(2),
+            .headerinpos_below .l-header.pos_fixed~.l-main>.l-section:nth-of-type(2),
+            .l-header.pos_static.bg_transparent~.l-main>.l-section:first-of-type {
+                padding-top: 80px
+            }
+            .l-header.pos_fixed~.l-main .l-section.sticky {
+                top: 50px
+            }
+            .l-header.pos_fixed.sticky~.l-main .l-section.type_sticky:first-of-type {
+                padding-top: 50px
+            }
+        }
+
+        @media (max-width:599px) {
+            .hidden-mobile
+            {
+                display: none !important;
+            }
+            .hidden_for_mobiles {
+                display: none !important
+            }
+            .l-subheader.at_top {
+                display: none
+            }
+            .l-subheader.at_bottom {
+                display: none
+            }
+            .l-header {
+                position: relative;
+                z-index: 111;
+                width: 100%
+            }
+            .l-subheader {
+                margin: 0 auto
+            }
+            .l-subheader.width_full {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem
+            }
+            .l-subheader-h {
+                display: flex;
+                align-items: center;
+                position: relative;
+                margin: 0 auto;
+                height: inherit
+            }
+            .w-header-show {
+                display: none
+            }
+            .l-header.pos_fixed {
+                position: fixed;
+                left: 0
+            }
+            .l-header.pos_fixed:not(.notransition) .l-subheader {
+                transition-property: transform, background, box-shadow, line-height, height;
+                transition-duration: 0.3s;
+                transition-timing-function: cubic-bezier(.78, .13, .15, .86)
+            }
+            .l-header.bg_transparent:not(.sticky) .l-subheader {
+                box-shadow: none !important;
+                background: none
+            }
+            .l-header.bg_transparent~.l-main .l-section.width_full.height_auto:first-child {
+                padding-top: 0 !important;
+                padding-bottom: 0 !important
+            }
+            .l-header.pos_static.bg_transparent {
+                position: absolute;
+                left: 0
+            }
+            .l-subheader.width_full .l-subheader-h {
+                max-width: none !important
+            }
+            .headerinpos_above .l-header.pos_fixed {
+                overflow: hidden;
+                transition: transform 0.3s;
+                transform: translate3d(0, -100%, 0)
+            }
+            .headerinpos_above .l-header.pos_fixed.sticky {
+                overflow: visible;
+                transform: none
+            }
+            .headerinpos_above .l-header.pos_fixed~.l-section,
+            .headerinpos_above .l-header.pos_fixed~.l-main,
+            .headerinpos_above .l-header.pos_fixed~.l-main .l-section:first-child {
+                padding-top: 0 !important
+            }
+            .l-header.shadow_thin .l-subheader.at_middle,
+            .l-header.shadow_thin .l-subheader.at_bottom,
+            .l-header.shadow_none.sticky .l-subheader.at_middle,
+            .l-header.shadow_none.sticky .l-subheader.at_bottom {
+                box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08)
+            }
+            .l-header.shadow_wide .l-subheader.at_middle,
+            .l-header.shadow_wide .l-subheader.at_bottom {
+                box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.1), 0 2px 1px -1px rgba(0, 0, 0, 0.05)
+            }
+            .headerinpos_bottom .l-header.pos_fixed:not(.sticky) .w-dropdown-list {
+                top: auto;
+                bottom: -0.4em;
+                padding-top: 0.4em;
+                padding-bottom: 2.4em
+            }
+            .header_hor .l-subheader-cell>.w-cart {
+                margin-left: 0;
+                margin-right: 0
+            }
+            .l-subheader.at_top {
+                line-height: 40px;
+                height: 40px
+            }
+            .l-header.sticky .l-subheader.at_top {
+                line-height: 40px;
+                height: 40px
+            }
+            .l-subheader.at_middle {
+                line-height: 50px;
+                height: 50px
+            }
+            .l-header.sticky .l-subheader.at_middle {
+                line-height: 50px;
+                height: 50px
+            }
+            .l-subheader.at_bottom {
+                line-height: 50px;
+                height: 50px
+            }
+            .l-header.sticky .l-subheader.at_bottom {
+                line-height: 50px;
+                height: 50px
+            }
+            .l-header.pos_fixed~.l-main>.l-section:first-of-type,
+            .l-header.pos_fixed~.l-main>.l-section-gap:nth-child(2),
+            .headerinpos_below .l-header.pos_fixed~.l-main>.l-section:nth-of-type(2),
+            .l-header.pos_static.bg_transparent~.l-main>.l-section:first-of-type {
+                padding-top: 50px
+            }
+            .l-header.pos_fixed~.l-main .l-section.sticky {
+                top: 50px
+            }
+            .l-header.pos_fixed.sticky~.l-main .l-section.type_sticky:first-of-type {
+                padding-top: 50px
+            }
+        }
+
+        @media (min-width:900px) {
+            .ush_image_1 {
+                height: 50px
+            }
+            .l-header.sticky .ush_image_1 {
+                height: 60
+            }
+        }
+
+        @media (min-width:600px) and (max-width:899px) {
+            .ush_image_1 {
+                height: 40
+            }
+            .l-header.sticky .ush_image_1 {
+                height: 40
+            }
+        }
+
+        @media (max-width:599px) {
+            .ush_image_1 {
+                height: 30
+            }
+            .l-header.sticky .ush_image_1 {
+                height: 30
+            }
+        }
+
+        .ush_text_1 {
+            white-space: nowrap
+        }
+
+        .ush_text_2 {
+            white-space: nowrap
+        }
+
+        .ush_text_3 {
+            white-space: nowrap
+        }
+
+        .header_hor .ush_menu_1.type_desktop .w-nav-list.level_1>.menu-item>a {
+
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .header_ver .ush_menu_1.type_desktop .w-nav-list.level_1>.menu-item>a {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display:flex;
+            align-items: center;
+        }
+
+        .ush_menu_1 {}
+
+        .ush_menu_1.type_desktop .w-nav-list>.menu-item.level_1 {
+            font-size: 16px
+        }
+
+        .ush_menu_1.type_desktop .w-nav-list>.menu-item:not(.level_1) {
+            font-size: 14px
+        }
+
+        .ush_menu_1.type_mobile .w-nav-anchor.level_1 {
+            font-size: 1.1rem
+        }
+
+        .ush_menu_1.type_mobile .w-nav-anchor:not(.level_1) {
+            font-size: 0.9rem
+        }
+        .at_center{
+                display: none;
+            }
+        @media (min-width:900px) {
+            .ush_menu_1 .w-nav-icon {
+                font-size: 20px
+            }
+        }
+
+        @media (min-width:600px) and (max-width:899px) {
+            .ush_menu_1 .w-nav-icon {
+                font-size: 20px
+            }
+        }
+
+        @media (max-width:599px) {
+            .ush_menu_1 .w-nav-icon {
+                font-size: 20px
+            }
+            .at_center{
+                display: block
+            }
+        }
+
+        @media screen and (max-width:899px) {
+            .w-nav.ush_menu_1>.w-nav-list.level_1 {
+                display: none
+            }
+            .ush_menu_1 .w-nav-control {
+                display: block
+            }
+        }
+
+        @media (min-width:900px) {
+            .ush_search_1.layout_simple {
+                max-width: 240px
+            }
+            .ush_search_1.layout_modern.active {
+                width: 240px
+            }
+            .ush_search_1 {
+                font-size: 18px
+            }
+        }
+
+        @media (min-width:600px) and (max-width:899px) {
+            .ush_search_1.layout_simple {
+                max-width: 200px
+            }
+            .ush_search_1.layout_modern.active {
+                width: 200px
+            }
+            .ush_search_1 {
+                font-size: 18px
+            }
+        }
+
+        @media (max-width:599px) {
+            .ush_search_1 {
+                font-size: 18px
+            }
+        }
+
+        .ush_socials_1 .w-socials-list {
+            margin: -0
+        }
+
+        .ush_socials_1 .w-socials-item {
+            padding: 0
+        }
+
+        @media (min-width:900px) {
+            .ush_socials_1 {
+                font-size: 20px
+            }
+        }
+
+        @media (min-width:600px) and (max-width:899px) {
+            .ush_socials_1 {
+                font-size: 18px
+            }
+        }
+
+        @media (max-width:599px) {
+            .ush_socials_1 {
+                font-size: 16px
+            }
+        }
+
+        @media (min-width:900px) {
+            .ush_cart_1 .w-cart-link {
+                font-size: 20px
+            }
+        }
+
+        @media (min-width:600px) and (max-width:899px) {
+            .ush_cart_1 .w-cart-link {
+                font-size: 20px
+            }
+        }
+
+        @media (max-width:599px) {
+            .ush_cart_1 .w-cart-link {
+                font-size: 20px
+            }
+        }
+        /* css */
+       .ytp-gradient-top {
+   background: linear-gradient(0, transparent, transparent);
+}
+
+    .iugzqb {
+        line-height: 22px;
+        text-align: left;
+        display: flex !important;
+    }
+
+    .iugzqb .logo {
+        margin: 0px 15px;
+    }
+
+    .iugzqb .logo .copyright {
+        text-align: center;
+    }
+
+    </style>
+
+</head>
+
+<body class="home page-template-default page page-id-3070 l-body Impreza_6.0.4 header_hor headerinpos_top state_default wpb-js-composer js-comp-ver-5.7 vc_responsive" itemscope itemtype="https://schema.org/WebPage">
+
+    <div class="l-canvas type_wide">
+
+        <header class="l-header pos_fixed bg_solid shadow_thin" itemscope itemtype="https://schema.org/WPHeader">
+            <div class="l-subheader at_middle">
+                <div class="l-subheader-h">
+                    <div class="l-subheader-cell at_left">
+                        <div class="w-image ush_image_1">
+                            <a class="w-toplink pos_right" href="#" title="Back to top" aria-hidden="true"></a>
+                            <a class="w-image-h" href="#" aria-hidden="true"><img style="max-width: 153px;" width="823" height="135" src="wp-content/uploads/2019/11/Logo-RadiOne.png" class="attachment-large size-large" alt="" srcset="wp-content/uploads/2019/11/Logo-RadiOne.png 823w, wp-content/uploads/2019/11/Logo-RadiOne-300x49.png 300w" sizes="(max-width: 823px) 100vw, 823px"></a>
+                        </div>
+                    </div>
+                    <!-- <div class="l-subheader-cell at_center"> <a class="w-nav-anchor level_1" style="max-width: 100%;height: auto;  margin-bottom: -5px;" href="https://tunefm.vn/chuyen-tinh-toi-ke-contest/"><img style="width: 80px;max-width: 100%;height: auto;  margin-bottom: -5px;" src="wp-content/uploads/img/img-event.gif" /></a></div> -->
+                    <div class="l-subheader-cell at_right">
+                        <nav class="w-nav ush_menu_1 type_desktop dropdown_height m_align_left m_layout_dropdown" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                            <a class="w-nav-control" href="javascript:void(0);" aria-label="Menu">
+                                <div class="w-nav-icon"><i></i></div><span>Menu</span></a>
+                            <ul class="w-nav-list level_1 hide_for_mobiles hover_simple">
+                                <!-- <li id="menu-item-3097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-3070 current_page_item w-nav-item level_1 menu-item-3097"><a class="w-nav-anchor level_1" href=""><span class="w-nav-title">Trang chủ</span><span class="w-nav-arrow"></span></a></li> -->
+                                <!-- <li  class="menu-item menu-item-type-custom menu-item-object-custom w-nav-item level_1 hidden-mobile"><a class="w-nav-anchor level_1" style="max-width: 100%;height: auto;  margin-bottom: -5px;" href="https://tunefm.vn/chuyen-tinh-toi-ke-contest/"><img class="zoom-logo" style="width: 80px;max-width: 100%;height: auto;  margin-bottom: -5px;" src="wp-content/uploads/img/img-event.gif" /></a></li> -->
+                                <li id="menu-item-2624" class="menu-item menu-item-type-custom menu-item-object-custom w-nav-item level_1 menu-item-2624"><a class="w-nav-anchor level_1" href="#features"><span class="w-nav-title">Điểm nổi bật</span><span class="w-nav-arrow"></span></a></li>
+                                <li id="menu-item-2626" class="menu-item menu-item-type-custom menu-item-object-custom w-nav-item level_1 menu-item-2626"><a class="w-nav-anchor level_1" href="#reviews"><span class="w-nav-title">Đánh giá</span><span class="w-nav-arrow"></span></a></li>
+                                <li id="menu-item-2625" class="menu-item menu-item-type-custom menu-item-object-custom w-nav-item level_1 menu-item-2625"><a class="w-nav-anchor level_1" href="#download"><span class="w-nav-title">Tải xuống</span><span class="w-nav-arrow"></span></a></li>
+                                <li id="menu-item-2624" class="menu-item menu-item-type-custom menu-item-object-custom w-nav-item level_1 menu-item-2624"><a class="w-nav-anchor level_1" href="https://tunefm.vn/policy/"><span class="w-nav-title">Chính sách & điều khoản</span><span class="w-nav-arrow"></span></a></li>
+                                <li id="menu-item-2624" class="menu-item menu-item-type-custom menu-item-object-custom w-nav-item level_1 menu-item-2624"><a class="w-nav-anchor level_1" href="https://tunefm.vn/dieu-khoan-thanh-toan/"><span class="w-nav-title">Điều khoản thanh toán</span><span class="w-nav-arrow"></span></a></li>
+                                <li id="menu-item-2627 " class="menu-item menu-item-type-custom menu-item-object-custom w-nav-item level_1 menu-item-2625 btn-login"><a class="w-nav-anchor level_1" style="color: white!important" href="https://tunefm.vn/mychannel"><span class="w-nav-title">Đăng nhập</span><span class="w-nav-arrow"></span></a></li>
+                                <li class="w-nav-close"></li>
+                            </ul>
+                            <div class="w-nav-options hidden" onclick='return {&quot;mobileWidth&quot;:900,&quot;mobileBehavior&quot;:1}'></div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="l-subheader for_hidden hidden"></div>
+        </header>
+
+        <main class="l-main" itemprop="mainContentOfPage">
+            <section class="l-section wpb_row height_auto with_img" style="min-height: calc(100vh - 80px);display: flex;align-items: center;" id="overview">
+                <div class="l-section-img" style="background-image: url(wp-content/uploads/2019/11/Banner-App-1.jpg);background-position: bottom center;" data-img-width="4096" data-img-height="2304"></div>
+                <div class="l-section-h i-cf">
+                    <div class="g-cols vc_row type_default valign_bottom" style="padding: 8% 0px;">
+                        <div class="vc_col-sm-12 wpb_column vc_column_container align_center_xs">
+                            <h2 style="color: #ffffff;text-align: left;font-family:Montserrat;font-weight:700;font-style:normal;text-align: center;"
+                                class="vc_custom_heading">TuneFM - Nghe không giới hạn</h2>
+                                <div class="w-separator size_medium"></div>
+                        </div>
+                       
+                        <div class="vc_col-sm-6 wpb_column vc_column_container align_center_xs">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    
+                                    <p style="font-size: 1.1rem;color: #ffffff;text-align: left;font-family:Montserrat;font-weight:400;font-style:normal" class="vc_custom_heading">Cùng TuneFm nghe miễn phí Radio trực tuyến và cập nhật liên tục hàng ngàn Audio đặc sắc về tin tức, tâm sự, ngôn tình, kiếm hiệp, cổ tích.... </br>Lưu về máy dễ dàng, nghe mượt mà ngay cả khi offline</p>
+                                    <div class="w-separator size_small"></div>
+                                    <div class="wpb_text_column ">
+                                        <div class="wpb_wrapper">
+                                            <div class="g-cols wpb_row  type_default valign_top vc_inner ">
+                                                <div class="vc_col-sm-6 wpb_column vc_column_container">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">
+                                                            <a href="https://go.onelink.me/app/883b146b" target="_blank" rel="noopener noreferrer"><img
+                                                                    class=" wp-image-2916 size-full"
+                                                                    src="wp-content/uploads/2016/09/not-placehold-app-store.png"
+                                                                    style="margin: 0px 1rem 1rem 0px;" alt="" width="200" height="62"></a>
+                                                            <a href="https://go.onelink.me/app/58a49f9b" target="_blank" rel="noopener noreferrer"><img
+                                                                    class=" wp-image-2915 size-full"
+                                                                    src="wp-content/uploads/2016/09/not-placehold-google-play.png"
+                                                                    style="margin: 0px 1rem 1rem 0px;" alt="" width="200" height="62"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="vc_col-sm-5 wpb_column vc_column_container">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">
+                                                            <p>
+                                                                <img src="wp-content/uploads/img/Scanme.png" alt="qr-code"
+                                                                    style="max-width: 132px;margin: 0px 1rem 1rem 0px;">
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                    
+                                            </div>
+                                    
+                                    
+                                        </div>
+                                    </div>
+                                    <!-- <div class="w-separator size_huge"></div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vc_col-sm-6 wpb_column vc_column_container">
+                            <div class="vc_column-inner" style="display: flex;justify-content: start; ">
+                                <div class="wpb_wrapper">
+                                    <!-- <div class="w-separator size_medium"></div> -->
+                                    <div>
+                                            <iframe id='video' width="545" height="300"
+                                                src="https://www.youtube.com/embed/k7KtepoEe2U?rel=0&amp;hd=1autoplay=1&loop=1"
+                                                frameborder="0"
+                                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen wmode="opaque"></iframe>                                            
+                                    </div>
+                                    <!-- <div class="w-image align_center animate_afr">
+                                        <div class="w-image-h">
+                                            <img width="1999" height="1978" src="wp-content/uploads/2019/11/iPhone-X-Mockup04.webp" class="attachment-full size-full" alt="" srcset="wp-content/uploads/2019/11/iPhone-X-Mockup04.webp 1999w, wp-content/uploads/2019/11/iPhone-X-Mockup04-300x297.png 300w, wp-content/uploads/2019/11/iPhone-X-Mockup04-1024x1013.png 1024w" sizes="(max-width: 1999px) 100vw, 1999px" />
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="l-section wpb_row height_full valign_center" id="features">
+                <div class="l-section-h i-cf">
+                    <div class="g-cols vc_row type_default valign_top">
+                        <div class="vc_col-sm-12 wpb_column vc_column_container animate_afb">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column ">
+                                        <div class="wpb_wrapper">
+                                            <h2 style="text-align: center;">Chúng tôi có</h2>
+
+                                        </div>
+                                    </div>
+                                    <div class="w-separator size_medium"></div>
+                                    <div class="g-cols wpb_row  type_default valign_middle vc_inner ">
+                                        <div class="vc_col-sm-4 wpb_column vc_column_container">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="w-iconbox iconpos_top style_default color_secondary align_center">
+                                                        <div class="w-iconbox-icon" style="font-size:3rem;"><img style="width:60px" src="wp-content/uploads/img/Frame.svg" alt=""/></div>
+                                                        <div class="w-iconbox-meta">
+                                                            <h6 class="w-iconbox-title">Truyện Kinh Điển</h6>
+                                                            <div class="w-iconbox-text">
+                                                                <p>Nghe trọn bộ Kiếm hiệp, Tiên hiệp và Ngôn tình kinh điển</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="w-separator size_medium"></div>
+                                                    <div class="w-iconbox iconpos_top style_default color_secondary align_center">
+                                                        <div class="w-iconbox-icon" style="font-size:3rem;"><img style="width:60px" src="wp-content/uploads/img/Frame-3.svg" alt=""/></div>
+                                                        <div class="w-iconbox-meta">
+                                                            <h6 class="w-iconbox-title">Sách Nói Hấp Dẫn</h6>
+                                                            <div class="w-iconbox-text">
+                                                                <p>Lắng nghe thư viện sách nói hấp dẫn, tiếp thu tri thức trong bàn tay</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vc_col-sm-4 wpb_column vc_column_container">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="w-iconbox iconpos_top style_default color_secondary align_center">
+                                                        <div class="w-iconbox-icon" style="font-size:3rem;"><img style="width:60px" src="wp-content/uploads/img/Frame-1.svg" alt=""/></div>
+                                                        <div class="w-iconbox-meta">
+                                                            <h6 class="w-iconbox-title">Kho Tàng Cổ Tích</h6>
+                                                            <div class="w-iconbox-text">
+                                                                <p>Kho truyện cổ tích Việt Nam và thế giới chọn lọc</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="w-separator size_medium"></div>
+                                                    <div class="w-iconbox iconpos_top style_default color_secondary align_center">
+                                                        <div class="w-iconbox-icon" style="font-size:3rem;"><img style="width:60px" src="wp-content/uploads/img/Frame-4.svg" alt=""/></div>
+                                                        <div class="w-iconbox-meta">
+                                                            <h6 class="w-iconbox-title">Nghe Offline</h6>
+                                                            <div class="w-iconbox-text">
+                                                                <p>Tải audio về máy dễ dàng để nghe offline giúp tiết kiệm dung lượng</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vc_col-sm-4 wpb_column vc_column_container">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="w-iconbox iconpos_top style_default color_secondary align_center">
+                                                        <div class="w-iconbox-icon" style="font-size:3rem;"><img style="width:60px" src="wp-content/uploads/img/Frame-2.svg" alt=""/></div>
+                                                        <div class="w-iconbox-meta">
+                                                            <h5 class="w-iconbox-title">Tin Tức 24/7</h5>
+                                                            <div class="w-iconbox-text">
+                                                                <p>Cập nhật tin tức từng phút từng giờ qua các kênh phát thanh trực tiếp</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="w-separator size_medium"></div>
+                                                    <div class="w-iconbox iconpos_top style_default color_secondary align_center">
+                                                        <div class="w-iconbox-icon" style="font-size:3rem;"><img style="width:60px" src="wp-content/uploads/img/Frame-5.svg" alt=""/></div>
+                                                        <div class="w-iconbox-meta">
+                                                            <h6 class="w-iconbox-title">Cá Nhân Hóa Nội Dung</h6>
+                                                            <div class="w-iconbox-text">
+                                                                <p>Cá nhân hóa ứng dụng, đề xuất nội dung theo sở thích của bạn</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="l-section wpb_row height_full valign_center with_img">
+                <div class="l-section-img bg" style="background-image: url(wp-content/uploads/2019/11/1920x1080-3.jpg);" data-img-width="1920" data-img-height="1080"></div>
+                <div class="l-section-h i-cf">
+                    <div class="g-cols vc_row type_default valign_middle">
+                        <div class="vc_col-sm-4 wpb_column vc_column_container animate_afl">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="w-image align_none style_phone6-2">
+                                        <div class="w-image-h">
+                                                <!-- <img width="375" height="375" src="wp-content/uploads/2016/09/us-placeholder-square.jpg" class="attachment-us_375_667_crop size-us_375_667_crop" alt="" srcset="wp-content/uploads/2016/09/us-placeholder-square.jpg 1200w, wp-content/uploads/2016/09/us-placeholder-square-150x150.jpg 150w, wp-content/uploads/2016/09/us-placeholder-square-300x300.jpg 300w, wp-content/uploads/2016/09/us-placeholder-square-1024x1024.jpg 1024w, wp-content/uploads/2016/09/us-placeholder-square-350x350.jpg 350w, wp-content/uploads/2016/09/us-placeholder-square-600x600.jpg 600w" sizes="(max-width: 375px) 100vw, 375px" />
+                                                     -->
+                                                     <img src="wp-content/uploads/img/Player - KH.jpg" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vc_col-sm-8 wpb_column vc_column_container animate_afr">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column ">
+                                        <div class="wpb_wrapper">
+                                            <h2>Truyện Kiếm Hiệp &#8211; Tiên Hiệp</h2>
+                                            <p>Không gian âm thanh sống động của hàng trăm bộ truyện kiếm hiệp, tiên hiệp nổi tiếng, mang lại trải nghiệm thú vị cho người nghe với giọng đọc và hiệu ứng âm thanh hấp dẫn, mở lối vào thế giới kiếm - tiên hiệp ly kì, đầy màu sắc</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="w-separator size_medium"></div>
+                                    <div class="g-cols wpb_row  type_default valign_top vc_inner ">
+                                        <div class="vc_col-sm-4 wpb_column vc_column_container">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="w-counter color_secondary align_left" data-duration="2000">
+                                                        <div class="w-counter-value" style="font-family:&#039;Montserrat&#039;, sans-serif;font-size:2rem;"><span class="w-counter-value-part type_text" data-final=""></span><span class="w-counter-value-part type_number" data-final="120.000">0</span><span class="w-counter-value-part type_text" data-final="+"></span></div>
+                                                        <h6 class="w-counter-title">BẢN AUDIO</h6></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vc_col-sm-4 wpb_column vc_column_container">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="w-counter color_secondary align_left" data-duration="2000">
+                                                        <div class="w-counter-value" style="font-family:&#039;Montserrat&#039;, sans-serif;font-size:2rem;"><span class="w-counter-value-part type_text" data-final=""></span><span class="w-counter-value-part type_number" data-final="600">0</span><span class="w-counter-value-part type_text" data-final="+"></span></div>
+                                                        <h6 class="w-counter-title">ĐẦU TRUYỆN</h6></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vc_col-sm-4 wpb_column vc_column_container">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="l-section wpb_row height_full valign_center">
+                    <div class="l-section-img bg" style="background-image: url(wp-content/uploads/2019/11/1920x1080-31.jpg);" data-img-width="1920" data-img-height="1080"></div>
+                <div class="l-section-h i-cf">
+                    <div class="g-cols vc_row type_default valign_middle">
+                        <div class="vc_col-sm-8 wpb_column vc_column_container animate_afl">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column ">
+                                        <div class="wpb_wrapper">
+                                            <h2>Truyện Ngôn Tình</h2>
+                                            <p>Nghe và hòa mình trong những câu chuyện tình yêu lãng mạn, 
+                                                liên tục cập nhật các tác phẩm ngôn tình được yêu thích và hot nhất hiện tại 
+                                                với phiên bản thu âm ngọt ngào, sâu lắng không thể bỏ qua 
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                    <div class="w-separator size_medium"></div>
+                                    <div class="g-cols wpb_row  type_default valign_top vc_inner ">
+                                        <div class="vc_col-sm-4 wpb_column vc_column_container">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="w-counter color_secondary align_left" data-duration="2000">
+                                                        <div class="w-counter-value" style="font-family:&#039;Montserrat&#039;, sans-serif;font-size:2rem;"><span class="w-counter-value-part type_text" data-final=""></span><span class="w-counter-value-part type_number" data-final="150.000">0</span><span class="w-counter-value-part type_text" data-final="+"></span></div>
+                                                        <h6 class="w-counter-title">BẢN AUDIO</h6></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vc_col-sm-4 wpb_column vc_column_container">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="w-counter color_secondary align_left" data-duration="2000">
+                                                        <div class="w-counter-value" style="font-family:&#039;Montserrat&#039;, sans-serif;font-size:2rem;"><span class="w-counter-value-part type_text" data-final=""></span><span class="w-counter-value-part type_number" data-final="900">0</span><span class="w-counter-value-part type_text" data-final="+"></span></div>
+                                                        <h6 class="w-counter-title">ĐẦU TRUYỆN</h6></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vc_col-sm-4 wpb_column vc_column_container">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vc_col-sm-4 wpb_column vc_column_container animate_afr">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="w-image align_none style_phone6-2">
+                                        <div class="w-image-h">
+                                                <!-- <img width="375" height="375" src="wp-content/uploads/2016/09/us-placeholder-square.jpg" class="attachment-us_375_667_crop size-us_375_667_crop" alt="" srcset="wp-content/uploads/2016/09/us-placeholder-square.jpg 1200w, wp-content/uploads/2016/09/us-placeholder-square-150x150.jpg 150w, wp-content/uploads/2016/09/us-placeholder-square-300x300.jpg 300w, wp-content/uploads/2016/09/us-placeholder-square-1024x1024.jpg 1024w, wp-content/uploads/2016/09/us-placeholder-square-350x350.jpg 350w, wp-content/uploads/2016/09/us-placeholder-square-600x600.jpg 600w" sizes="(max-width: 375px) 100vw, 375px" />
+                                                     -->
+                                                     <img src="wp-content/uploads/img/Player - NT.jpg" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="l-section wpb_row height_full valign_center with_overlay" id="reviews">
+                <div class="l-section-overlay" style="background: #f7f7f7"></div>
+                <div class="l-section-h i-cf">
+                    <div class="g-cols vc_row type_default valign_top">
+                        <div class="vc_col-sm-12 wpb_column vc_column_container animate_afb">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column ">
+                                        <div class="wpb_wrapper">
+                                            <h2 style="text-align: center;">Những người đã tin tưởng chúng tôi</h2>
+
+                                        </div>
+                                    </div>
+                                    <div class="w-separator size_large"></div>
+                                    <div class="w-grid type_carousel layout_testimonial_2" id="us_grid_1">
+                                        <style id="us_grid_1_css">
+                                            #us_grid_1 .owl-nav div {
+                                                font-size: 3rem
+                                            }
+                                            
+                                            #us_grid_1 .w-grid-item {
+                                                padding: 1.5rem
+                                            }
+                                            
+                                            #us_grid_1 .w-grid-list {
+                                                margin: -1.5rem
+                                            }
+                                            
+                                            .w-grid + #us_grid_1 .w-grid-list {
+                                                margin-top: 1.5rem
+                                            }
+                                            
+                                            .l-section.width_full>div>div>.vc_col-sm-12>div>div>#us_grid_1 .w-grid-list {
+                                                margin-left: 1.5rem;
+                                                margin-right: 1.5rem
+                                            }
+                                            
+                                            .l-section.height_auto>div>div>.vc_col-sm-12>div>div>#us_grid_1:first-child .w-grid-list {
+                                                margin-top: 1.5rem
+                                            }
+                                            
+                                            .l-section.height_auto>div>div>.vc_col-sm-12>div>div>#us_grid_1:last-child .w-grid-list {
+                                                margin-bottom: 1.5rem
+                                            }
+                                        </style>
+                                        <style>
+                                            #us_grid_1 .w-grid-item-h {}
+                                            
+                                            #us_grid_1 .usg_post_content_1 {}
+                                            
+                                            #us_grid_1 .usg_hwrapper_1 {}
+                                            
+                                            #us_grid_1 .usg_post_image_1 {
+                                                width: 4rem;
+                                                flex-shrink: 0
+                                            }
+                                            
+                                            #us_grid_1 .usg_vwrapper_1 {}
+                                            
+                                            #us_grid_1 .usg_post_custom_field_1 {
+                                                font-weight: 700
+                                            }
+                                            
+                                            #us_grid_1 .usg_post_custom_field_2 {
+                                                font-size: 0.9rem;
+                                                color: #666666
+                                            }
+                                            
+                                            #us_grid_1 .usg_vwrapper_2 {}
+                                            
+                                            #us_grid_1 .usg_post_custom_field_3 {
+                                                font-size: 3rem;
+                                                line-height: 1;
+                                                color: #926ed4
+                                            }
+                                            
+                                            #us_grid_1 .usg_hwrapper_1 {
+                                                margin-top: 1rem
+                                            }
+                                            
+                                            #us_grid_1 .usg_post_image_1 {
+                                                margin-right: 1rem
+                                            }
+                                            
+                                            #us_grid_1 .usg_post_custom_field_1 {
+                                                margin-bottom: 0
+                                            }
+                                            
+                                            #us_grid_1 .usg_vwrapper_2 {
+                                                padding-top: 3.5rem;
+                                                padding-left: 2rem
+                                            }
+                                            
+                                            #us_grid_1 .usg_post_custom_field_3 {
+                                                position: absolute;
+                                                top: 0;
+                                                left: 0
+                                            }
+                                        </style>
+                                        <div class="w-grid-list owl-carousel navstyle_block navpos_inside">
+                                            <article class="w-grid-item ratio_1x1 post-2995 us_testimonial type-us_testimonial status-publish hentry" data-id="2995">
+                                                <div class="w-grid-item-h">
+                                                    <div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+                                                        <div class="w-post-elm post_custom_field usg_post_custom_field_3 with_text_color color_link_inherit type_text">
+                                                            <i style="color:#FF5715" class="fas fa-quote-left" ></i></div>
+                                                        <div class="w-post-elm post_content usg_post_content_1">
+                                                            <p>
+                                                                Mình rất ưng ứng dụng cho dân mọt truyện mà rất ít thời gian đọc như mình.
+                                                                 Kho truyện ngôn tình tuyển chọn và hầu như toàn các giọng đọc hay nữa.
+                                                                  Mong các bạn cập nhật thêm nhiều bộ truyện như vậy nữa để mình nghe hàng ngày.
+                                                            </p>
+                                                        </div>
+                                                        <div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+                                                            <div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+                                                                <div class="w-post-elm post_custom_field usg_post_custom_field_1 type_text">
+                                                                    <p>Khánh Linh</p>
+                                                                </div>
+                                                                <div class="w-post-elm post_custom_field usg_post_custom_field_2 with_text_color color_link_inherit type_text">
+                                                                    <p>Từ CH play</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                            <article class="w-grid-item ratio_1x1 post-2996 us_testimonial type-us_testimonial status-publish hentry" data-id="2996">
+                                                <div class="w-grid-item-h">
+                                                    <div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+                                                        <div class="w-post-elm post_custom_field usg_post_custom_field_3 with_text_color color_link_inherit type_text"><i style="color:#FF5715" class="fas fa-quote-left" ></i></div>
+                                                        <div class="w-post-elm post_content usg_post_content_1">
+                                                            <p>Rất thích nghe radio mà hầu như chỉ nghe khi đi xe bus hay ô tô thôi nhưng giờ thì mình có thể nghe radio trên di động quá tiện lợi với TuneFm rồi, 
+                                                              nội dung phong phú, hình ảnh đẹp và mượt mà. 
+                                                              Mình mong ứng dụng sẽ phát triển thêm cả tính năng cho người dùng tự thu âm chia sẻ âm thanh của mình nữa.</p>
+                                                        </div>
+                                                        <div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+                                                            <div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+                                                                <div class="w-post-elm post_custom_field usg_post_custom_field_1 type_text">
+                                                                    <p>Thanh Thủy</p>
+                                                                </div>
+                                                                <div class="w-post-elm post_custom_field usg_post_custom_field_2 with_text_color color_link_inherit type_text">
+                                                                    <p>Từ App Store</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                            <article class="w-grid-item ratio_1x1 post-2997 us_testimonial type-us_testimonial status-publish hentry" data-id="2997">
+                                                <div class="w-grid-item-h">
+                                                    <div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+                                                        <div class="w-post-elm post_custom_field usg_post_custom_field_3 with_text_color color_link_inherit type_text"><i style="color:#FF5715" class="fas fa-quote-left" ></i></div>
+                                                        <div class="w-post-elm post_content usg_post_content_1">
+                                                            <p>
+                                                                Điều mình thích nhất ở TuneFm là nội dung âm thanh chất lượng cả âm nhạc và phần diễn đọc nên các tác phẩm kiếm hiệp nghe rất cuốn hút. Các tính năng dễ sử dụng và tiện lợi , sẽ gắn bó và ủng hộ các bạn dài dài.
+                                                            </p>
+                                                        </div>
+                                                        <div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+                                                            <div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+                                                                <div class="w-post-elm post_custom_field usg_post_custom_field_1 type_text">
+                                                                    <p>Thu Hà</p>
+                                                                </div>
+                                                                <div class="w-post-elm post_custom_field usg_post_custom_field_2 with_text_color color_link_inherit type_text">
+                                                                    <p>Từ CH Play</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                            <article class="w-grid-item ratio_1x1 post-3000 us_testimonial type-us_testimonial status-publish hentry" data-id="3000">
+                                                <div class="w-grid-item-h">
+                                                    <div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+                                                        <div class="w-post-elm post_custom_field usg_post_custom_field_3 with_text_color color_link_inherit type_text"><i style="color:#FF5715" class="fas fa-quote-left" ></i></div>
+                                                        <div class="w-post-elm post_content usg_post_content_1">
+                                                            <p>Cám ơn TuneFm đã giúp các mẹ bỉm sữa chúng mình tuyển chọn những bộ truyện hay cho bé.  Mình đã  tạo thành thói quen cả nhà cùng nghe truyện trước
+                                                               giờ ngủ khi mà mẹ không tự tin ở giọng kể cho lắm. Mong truyện thiếu nhi ngoài các mẩu truyện sẽ có thêm các truyện dài, tác phẩm kinh điển của thiếu nhi nữa.</p>
+                                                        </div>
+                                                        <div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+                                                            <div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+                                                                <div class="w-post-elm post_custom_field usg_post_custom_field_1 type_text">
+                                                                    <p>Hoàng Oanh</p>
+                                                                </div>
+                                                                <div class="w-post-elm post_custom_field usg_post_custom_field_2 with_text_color color_link_inherit type_text">
+                                                                    <p>Từ App Store</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                            <article class="w-grid-item ratio_1x1 post-3001 us_testimonial type-us_testimonial status-publish hentry" data-id="3001">
+                                                <div class="w-grid-item-h">
+                                                    <div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+                                                        <div class="w-post-elm post_custom_field usg_post_custom_field_3 with_text_color color_link_inherit type_text"><i style="color:#FF5715" class="fas fa-quote-left" ></i></div>
+                                                        <div class="w-post-elm post_content usg_post_content_1">
+                                                            <p>Ứng dụng dễ sử dụng, giao diện đẹp, nguồn nội dung khá hay và phong phú dân lái xe như mình có thể nghe cả ngày  mà không bị lẫn quảng cáo. Nội dung giải trí còn ít quá, mong sớm có thêm nhiều chương trình giải trí xả stress ngoài truyện cười.</p>
+                                                        </div>
+                                                        <div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+                                                            <div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+                                                                <div class="w-post-elm post_custom_field usg_post_custom_field_1 type_text">
+                                                                    <p>Tuấn Hưng</p>
+                                                                </div>
+                                                                <div class="w-post-elm post_custom_field usg_post_custom_field_2 with_text_color color_link_inherit type_text">
+                                                                    <p>Từ App Store</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="g-preloader type_1">
+                                            <div></div>
+                                        </div>
+                                        <div class="w-grid-json hidden" onclick='return {&quot;ajax_url&quot;:&quot;wp-admin\/admin-ajax.php&quot;,&quot;permalink_url&quot;:&quot;?us_testimonial=testimonial-2&quot;,&quot;action&quot;:&quot;us_ajax_grid&quot;,&quot;max_num_pages&quot;:2,&quot;infinite_scroll&quot;:0,&quot;template_vars&quot;:{&quot;query_args&quot;:{&quot;post_type&quot;:[&quot;us_testimonial&quot;],&quot;post_status&quot;:[&quot;publish&quot;],&quot;post__not_in&quot;:[3070],&quot;orderby&quot;:{&quot;date&quot;:&quot;DESC&quot;},&quot;posts_per_page&quot;:&quot;5&quot;},&quot;post_id&quot;:3070,&quot;us_grid_index&quot;:1,&quot;us_grid_ajax_index&quot;:null,&quot;exclude_items&quot;:&quot;none&quot;,&quot;items_offset&quot;:&quot;1&quot;,&quot;items_layout&quot;:&quot;testimonial_2&quot;,&quot;type&quot;:&quot;carousel&quot;,&quot;columns&quot;:&quot;3&quot;,&quot;img_size&quot;:&quot;default&quot;,&quot;overriding_link&quot;:&quot;none&quot;},&quot;carousel_settings&quot;:{&quot;items&quot;:&quot;3&quot;,&quot;nav&quot;:1,&quot;navNext&quot;:&quot;&quot;,&quot;navPrev&quot;:&quot;&quot;,&quot;dots&quot;:0,&quot;center&quot;:1,&quot;autoplay&quot;:1,&quot;smooth_play&quot;:0,&quot;timeout&quot;:3000,&quot;speed&quot;:250,&quot;transition&quot;:&quot;&quot;,&quot;autoHeight&quot;:0,&quot;slideby&quot;:&quot;1&quot;},&quot;carousel_breakpoints&quot;:{&quot;1500&quot;:{&quot;items&quot;:3},&quot;1200&quot;:{&quot;items&quot;:3,&quot;autoplay&quot;:1,&quot;autoplayHoverPause&quot;:1},&quot;600&quot;:{&quot;items&quot;:2,&quot;autoplay&quot;:1,&quot;autoplayHoverPause&quot;:1},&quot;0&quot;:{&quot;items&quot;:1,&quot;autoplay&quot;:1,&quot;autoplayHoverPause&quot;:1,&quot;autoHeight&quot;:0}}}'></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="l-section wpb_row height_auto with_img" style="min-height: calc(100vh - 80px);display: flex;align-items: center;" id="overview">
+                <div class="l-section-img" style="background-image: url(wp-content/uploads/2019/11/Banner-App-1.jpg);background-position: bottom center;" data-img-width="4096" data-img-height="2304"></div>
+                <div class="l-section-h i-cf">
+                    <div class="g-cols vc_row type_default valign_bottom" style="padding: 8% 0px;">
+                        <div class="vc_col-sm-12 wpb_column vc_column_container align_center_xs">
+                            <h2 style="color: #ffffff;text-align: left;font-family:Montserrat;font-weight:700;font-style:normal;text-align: center;"
+                                class="vc_custom_heading">Tạo kênh cá nhân</h2>
+                                <div class="w-separator size_medium"></div>
+                        </div>
+                       
+                        <div class="vc_col-sm-6 wpb_column vc_column_container align_center_xs">
+                            <div class="vc_column-inner" style="justify-content: flex-start;">
+                                <div class="wpb_wrapper">
+                                    
+                                    <p style="font-size: 1.1rem;color: #ffffff;text-align: left;font-family:Montserrat;font-weight:400;font-style:normal" class="vc_custom_heading">Thoải mái sáng tạo và chia sẻ những audio của bạn tới cộng đồng TuneFM. Bạn muốn lưu lại một cuốn sách, chia sẻ câu chuyện của mình hay ca hát. Chỉ cần bạn nói, tất cả lắng nghe</p>
+                                
+                                    <!-- <div class="w-separator size_huge"></div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vc_col-sm-6 wpb_column vc_column_container">
+                            <div class="vc_column-inner" style="display: flex;justify-content: start; ">
+                                <div class="wpb_wrapper">
+                                    <!-- <div class="w-separator size_medium"></div> -->
+                                    <div>
+                                        <video id="myVideo" controls>
+                                            <source src="./wp-content/uploads/tml.mp4" type="video/mp4">
+                                            Your browser does not support HTML5 video.
+                                          </video>
+                                            
+                                    </div>
+                                    <!-- <div class="w-image align_center animate_afr">
+                                        <div class="w-image-h">
+                                            <img width="1999" height="1978" src="wp-content/uploads/2019/11/iPhone-X-Mockup04.webp" class="attachment-full size-full" alt="" srcset="wp-content/uploads/2019/11/iPhone-X-Mockup04.webp 1999w, wp-content/uploads/2019/11/iPhone-X-Mockup04-300x297.png 300w, wp-content/uploads/2019/11/iPhone-X-Mockup04-1024x1013.png 1024w" sizes="(max-width: 1999px) 100vw, 1999px" />
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="l-section wpb_row height_large" id="download">
+                <div class="l-section-h i-cf">
+                    <div class="g-cols vc_row type_default valign_middle">
+                        <div class="vc_col-sm-8 wpb_column vc_column_container">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column ">
+                                        <div class="wpb_wrapper">
+                                            <h2 class="text-white text-slim wpani">Tải App và trải nghiệm ngay!</h2>
+
+                                        </div>
+                                    </div>
+                                    <div class="w-separator size_medium"></div>
+                                    <div class="wpb_text_column ">
+                                        <div class="wpb_wrapper">
+                                            <p>TuneFm, kho nội dung Radio và Audio hàng đầu Việt Nam.
+                                                <br /> Mọi ý kiến đóng góp xin gửi về email: <a style="color:#FF5715" href="mailto:hotro@tunefm.vn">hotro@tunefm.vn</a></p>
+
+                                        </div>
+                                    </div>
+                                    <div class="w-separator size_medium"></div>
+                                    <div class="wpb_text_column ">
+                                        <div class="wpb_wrapper">
+                                                <div class="g-cols wpb_row  type_default valign_top vc_inner ">
+                                                        <div class="vc_col-sm-4 wpb_column vc_column_container">
+                                                            <div class="vc_column-inner">
+                                                                <div class="wpb_wrapper">
+                                                                        <a href="https://go.onelink.me/app/883b146b" target="_blank" rel="noopener noreferrer"><img class=" wp-image-2916 size-full" src="wp-content/uploads/2016/09/not-placehold-app-store.png" style="margin: 0px 1rem 1rem 0px;" alt="" width="200" height="62" /></a>
+                                                                        <a href="https://go.onelink.me/app/58a49f9b" target="_blank" rel="noopener noreferrer"><img class=" wp-image-2915 size-full" src="wp-content/uploads/2016/09/not-placehold-google-play.png" style="margin: 0px 1rem 1rem 0px;" alt="" width="200" height="62" /></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="vc_col-sm-4 wpb_column vc_column_container">
+                                                            <div class="vc_column-inner">
+                                                                <div class="wpb_wrapper">
+                                                                        <p>
+                                                                            <img src="wp-content/uploads/img/Scanme.png" alt="qr-code" style="max-width: 132px;margin: 0px 1rem 1rem 0px;" />
+                                                                        </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                       
+                                                    </div>
+
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vc_col-sm-4 vc_hidden-xs wpb_column vc_column_container animate_afb">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="w-image align_none style_phone6-2">
+                                        <div class="w-image-h">
+                                                <!-- <img width="375" height="667" src="wp-content/uploads/2019/11/8.png" class="attachment-us_375_667_crop size-us_375_667_crop" alt="" srcset="wp-content/uploads/2019/11/8.png 375w, wp-content/uploads/2019/11/8-169x300.png 169w" sizes="(max-width: 375px) 100vw, 375px" />
+                                                     -->
+                                                     <img src="wp-content/uploads/img/Browser.jpg" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+    <footer class="l-footer" itemscope itemtype="https://schema.org/WPFooter">
+        <section class="l-section wpb_row height_small color_footer-top">
+            <div class="l-section-h i-cf" style="border-top: 1px solid #dcdcdc;">
+                <div class="g-cols vc_row type_default valign_top">
+                    <div class="vc_col-sm-12 wpb_column vc_column_container">
+                        <div class="vc_column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="wpb_text_column ">
+                                    <div class="footer__FooterInfo-sc-5ubwm9-1 iugzqb"><div class="logo"><div style="max-width:100%;width:148px"><div style="position:relative;padding-bottom:47.2972972972973%"><img alt="techlab" layout="fill" data-src="    https://weeboo.vn/icons/footer/img-techlab.svg" class="img-local" style="visibility: visible; height: 100%; left: 0px; position: absolute; top: 0px; width: 100%;" src=" https://weeboo.vn/icons/footer/img-techlab.svg"></div></div><p class="copyright">Tunefm © 2020 </p></div><div class="info"><p class="name">TECHLAB TECHNOLOGIES., JSC</p><p><span class="highlight">Địa chỉ:</span> Số 33 phố Đặng Trần Côn, Phường Quốc Tử Giám, Quận Đống Đa, Thành phố Hà Nội, Việt Nam<br><span class="highlight">Người đại diện:</span> Bùi Quang Minh</p></div><div class="contact"><p>Email: <a href="mailto:support@weeboo.vn">support@tunefm.vn</a></p><p>Giấy phép thiết lập mạng xã hội số: 517/GP-BTTT cấp ngày 13/11/2020</p></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <a class="w-toplink pos_right" href="#" title="Back to top" aria-hidden="true"></a>
+    <a class="w-header-show" href="javascript:void(0);"><span>Menu</span></a>
+    <div class="w-header-overlay"></div>
+    <script>
+        // Store some global theme options used in JS
+        if (window.$us === undefined) {
+            window.$us = {};
+        }
+        $us.canvasOptions = ($us.canvasOptions || {});
+        $us.canvasOptions.disableEffectsWidth = 500;
+        $us.canvasOptions.responsive = true;
+        $us.canvasOptions.backToTopDisplay = 100;
+        $us.canvasOptions.scrollDuration = 1000;
+
+        $us.langOptions = ($us.langOptions || {});
+        $us.langOptions.magnificPopup = ($us.langOptions.magnificPopup || {});
+        $us.langOptions.magnificPopup.tPrev = 'Previous (Left arrow key)';
+        $us.langOptions.magnificPopup.tNext = 'Next (Right arrow key)';
+        $us.langOptions.magnificPopup.tCounter = '%curr% of %total%';
+
+        $us.navOptions = ($us.navOptions || {});
+        $us.navOptions.mobileWidth = 900;
+        $us.navOptions.togglable = true;
+        $us.ajaxLoadJs = true;
+        $us.templateDirectoryUri = 'wp-content/themes/Impreza';
+    </script>
+    <script>
+        $us.headerSettings = {
+            "default": {
+                "options": {
+                    "breakpoint": "900px",
+                    "orientation": "hor",
+                    "sticky": true,
+                    "scroll_breakpoint": "100px",
+                    "transparent": 0,
+                    "width": 300,
+                    "elm_align": "center",
+                    "shadow": "thin",
+                    "top_show": false,
+                    "top_height": 40,
+                    "top_sticky_height": 0,
+                    "top_fullwidth": 0,
+                    "top_centering": false,
+                    "middle_height": "80px",
+                    "middle_sticky_height": "50px",
+                    "middle_fullwidth": 0,
+                    "middle_centering": false,
+                    "elm_valign": "top",
+                    "bg_img": "",
+                    "bg_img_wrapper_start": "",
+                    "bg_img_size": "cover",
+                    "bg_img_repeat": "repeat",
+                    "bg_img_position": "top left",
+                    "bg_img_attachment": true,
+                    "bg_img_wrapper_end": "",
+                    "bottom_show": false,
+                    "bottom_height": 50,
+                    "bottom_sticky_height": 50,
+                    "bottom_fullwidth": 0,
+                    "bottom_centering": false
+                },
+                "layout": {
+                    "top_left": [],
+                    "top_center": [],
+                    "top_right": [],
+                    "middle_left": ["image:1"],
+                    "middle_center": [],
+                    "middle_right": ["menu:1", "cart:1"],
+                    "bottom_left": [],
+                    "bottom_center": [],
+                    "bottom_right": [],
+                    "hidden": ["text:1", "search:1"]
+                }
+            },
+            "tablets": {
+                "options": {
+                    "breakpoint": "900px",
+                    "orientation": "hor",
+                    "sticky": true,
+                    "scroll_breakpoint": "100px",
+                    "transparent": false,
+                    "width": "300px",
+                    "elm_align": "center",
+                    "shadow": "thin",
+                    "top_show": false,
+                    "top_height": "40px",
+                    "top_sticky_height": "40px",
+                    "top_fullwidth": false,
+                    "top_centering": false,
+                    "middle_height": "80px",
+                    "middle_sticky_height": "50px",
+                    "middle_fullwidth": false,
+                    "middle_centering": false,
+                    "elm_valign": "top",
+                    "bg_img": "",
+                    "bg_img_wrapper_start": "",
+                    "bg_img_size": "cover",
+                    "bg_img_repeat": "repeat",
+                    "bg_img_position": "top left",
+                    "bg_img_attachment": true,
+                    "bg_img_wrapper_end": "",
+                    "bottom_show": false,
+                    "bottom_height": "50px",
+                    "bottom_sticky_height": "50px",
+                    "bottom_fullwidth": false,
+                    "bottom_centering": false
+                },
+                "layout": {
+                    "top_left": [],
+                    "top_center": [],
+                    "top_right": [],
+                    "middle_left": ["image:1"],
+                    "middle_center": [],
+                    "middle_right": ["menu:1", "cart:1"],
+                    "bottom_left": [],
+                    "bottom_center": [],
+                    "bottom_right": [],
+                    "hidden": ["text:1", "search:1"]
+                }
+            },
+            "mobiles": {
+                "options": {
+                    "breakpoint": "600px",
+                    "orientation": "hor",
+                    "sticky": true,
+                    "scroll_breakpoint": "50px",
+                    "transparent": false,
+                    "width": "300px",
+                    "elm_align": "center",
+                    "shadow": "thin",
+                    "top_show": false,
+                    "top_height": "40px",
+                    "top_sticky_height": "40px",
+                    "top_fullwidth": false,
+                    "top_centering": false,
+                    "middle_height": "50px",
+                    "middle_sticky_height": "50px",
+                    "middle_fullwidth": false,
+                    "middle_centering": false,
+                    "elm_valign": "top",
+                    "bg_img": "",
+                    "bg_img_wrapper_start": "",
+                    "bg_img_size": "cover",
+                    "bg_img_repeat": "repeat",
+                    "bg_img_position": "top left",
+                    "bg_img_attachment": true,
+                    "bg_img_wrapper_end": "",
+                    "bottom_show": false,
+                    "bottom_height": "50px",
+                    "bottom_sticky_height": "50px",
+                    "bottom_fullwidth": false,
+                    "bottom_centering": false
+                },
+                "layout": {
+                    "top_left": [],
+                    "top_center": [],
+                    "top_right": [],
+                    "middle_left": ["image:1"],
+                    "middle_center": [],
+                    "middle_right": ["menu:1", "cart:1"],
+                    "bottom_left": [],
+                    "bottom_center": [],
+                    "bottom_right": [],
+                    "hidden": ["text:1", "search:1"]
+                }
+            }
+        };
+    </script>
+    <link rel='stylesheet' id='vc_google_fonts_montserratregular700-css' href='https://fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700&#038;' type='text/css' media='all' />
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery.js'></script>
+    <script type='text/javascript' src='wp-content/themes/Impreza/js/us.core.min.js'></script>
+    <script type='text/javascript' src='wp-includes/js/wp-embed.min.js'></script>
+    <!-- Global site tag (gtag.js) - Google Ads: 868352715 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-868352715"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-868352715');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150710501-4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-150710501-4');
+    </script>
+</body>
+
+</html>

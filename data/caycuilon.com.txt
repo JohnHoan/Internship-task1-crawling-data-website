@@ -1,0 +1,2166 @@
+	<!DOCTYPE html>
+	<html lang="vi">
+	<head class="header header-style-2 header-scheme-light" role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+		<meta charset="UTF-8">
+		
+		<base href="https://caycuilon.com/">
+		<link id="favicon" rel="shortcut icon" href="upload/hinhanh/caycuilonfaicon-6714_40x40.png" type="image/x-icon" />
+		<title>Cây Củi Lớn - Bao Bì Dụng Cụ Làm Bánh</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="description" content="Cây Củi Lớn - Bao Bì Dụng Cụ Làm Bánh là cửa hàng chuyên cung cấp các loại bao bì, túi hộp làm bánh sỉ và lẻ, mẫu mã đa dạng, độc đáo.">
+		<meta name="keywords" content="Cây Củi Lớn - Bao Bì Dụng Cụ Làm Bánh, cây củi lớn, đồ làm bánh, cay cui lon, do lam banh, do lam banh tphcm, đồ làm bánh tphcm, dung cu lam banh, dung cu lam banh, dụng cụ làm bánh, dụng cụ làm bánh tphcm, bao bì làm bánh tphhcm, bao bi lam banh tpchm, bao bì lam banh, bao bi lam banh tphcm, dụng cụ bánh, dungcubanh, dụng cụ bánh tphcm, dungcubanhtphcm">
+		<meta name="robots" content="noodp,index,follow" />
+		<meta name="google" content="notranslate" />
+		<meta name='revisit-after' content='1 days' />
+		<meta name="ICBM" content="">
+		<meta name="geo.position" content="">
+		<meta name="geo.placename" content="B19/2 Cư Xá Phú Lâm B, P13, Q6, TPHCM">
+		<meta name="author" content="CÂY CỦI LỚN">
+		<link rel="canonical" href="https://caycuilon.com:443/">
+		
+				<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136168788-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136168788-2');
+</script>
+ 
+		 
+		<link rel="stylesheet" href="plugin/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/reset.css?v=1">
+<link rel="stylesheet" href="css/style.css?v=1">
+<link rel="stylesheet" href="css/giohang.css">
+<link href="css/media.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/jqueryslidemenu.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme2.css"/>
+<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+<link rel="stylesheet" href="css/photobox/photobox.css">
+<link href="css/magiczoom.css" rel="stylesheet" type="text/css" media="screen"/>
+
+			<script language="javascript" type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jqueryslidemenu.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script> 
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('body').append('<div id="top" ></div>');
+		$(window).scroll(function() {
+			if($(window).scrollTop() > 100) {
+				$('#top').fadeIn();
+			} else {
+				$('#top').fadeOut();
+			}
+		});
+		$('#top').click(function() {
+			$('html, body').animate({scrollTop:0},500);
+		});
+	});
+</script>
+
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('nav#menu').mmenu();
+	});
+</script>         
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.async=false;
+	js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.6&appId=1717833035126973";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> 
+
+
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+
+		$('.slick_sp').slick({
+			dots: false,
+			infinite: true,
+			speed: 300,
+			slidesToShow: 5,
+			autoplay:false,
+			arrows:true,
+			
+			slidesToScroll: 1,
+			responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: false
+				}
+			},
+			{
+				breakpoint: 800,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 580,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			}
+			]
+		});
+
+		$('.slick_news').slick({
+			dots: false,
+			infinite: true,
+			speed: 300,
+			slidesToShow: 3,
+			autoplay:true,
+			arrows:false,
+			vertical:true,
+			slidesToScroll: 1,
+			responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: false
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1
+				}
+			}
+			]
+		});
+
+	});
+</script>
+
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.frm_timkiem').submit(function(){
+			var timkiem = $('#name_tk').val();
+			var list = $('.search_tk').val();
+			if(!timkiem){
+				alert('Bạn chưa nhập từ khóa . ');
+			} else {
+				window.location.href="tim-kiem.html&keywords="+timkiem+'&list='+list;
+			}
+			return false;
+		})
+	});
+</script>
+
+
+
+
+<script src="js/magiczoom.js" type="text/javascript"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('.slider-for').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: false,
+
+			asNavFor: '.slider-nav'
+		});
+		$('.slider-nav').slick({ 
+			slidesToShow: 4,
+			slidesToScroll: 1, 
+			asNavFor: '.slider-for',
+			dots: false,
+			arrows: false,
+			centerMode: true,
+			focusOnSelect: true
+		});
+	});
+</script>
+
+<script src='css/photobox/jquery.photobox.js'></script>
+<script type="text/javascript">
+	$(document).ready(function($) {
+		!(function(){
+                // finally, initialize photobox on all retrieved images
+                $('.photobox').photobox('a', { thumbs:true, loop:false });
+                // using setTimeout to make sure all images were in the DOM, before the history.load() function is looking them up to match the url hash
+            })();
+        });
+
+    </script>
+
+
+
+    <script type="text/javascript">
+    	jQuery(document).ready(function($) {
+    		$('.title_tt span').click(function(event) {
+    			$('.title_tt span').removeClass('active_sp');
+    			$(this).addClass('active_sp');
+
+    			if($(this).hasClass('tab1')){
+    				$('.show_1').show();
+    				$('.show_2').hide();
+    				$('.show_3').hide();
+    				$('.show_4').hide();
+    				$('.show_5').hide();
+    				$('.show_6').hide();
+    			}else if($(this).hasClass('tab2')){
+    				$('.show_2').show();
+    				$('.show_1').hide();
+    				$('.show_3').hide();
+    				$('.show_4').hide();
+    				$('.show_5').hide();
+    				$('.show_6').hide();
+    			}else if($(this).hasClass('tab3')){
+    				$('.show_3').show();
+    				$('.show_1').hide();
+    				$('.show_2').hide();
+    				$('.show_4').hide();
+    				$('.show_5').hide();
+    				$('.show_6').hide();
+    			}else if($(this).hasClass('tab4')){
+    				$('.show_4').show();
+    				$('.show_1').hide();
+    				$('.show_2').hide();
+    				$('.show_3').hide();
+    				$('.show_5').hide();
+    				$('.show_6').hide();
+    			}else if($(this).hasClass('tab5')){
+    				$('.show_5').show();
+    				$('.show_1').hide();
+    				$('.show_2').hide();
+    				$('.show_3').hide();
+    				$('.show_4').hide();
+    				$('.show_6').hide();
+    			}else{
+    				$('.show_6').show();
+    				$('.show_1').hide();
+    				$('.show_2').hide();
+    				$('.show_3').hide();
+    				$('.show_4').hide();
+    				$('.show_5').hide();
+    			}
+
+    		});
+    	});
+    </script>
+
+        	<script type="text/javascript">
+    		$(document).ready(function(){
+    			$(window).scroll(function(){
+    				var cach_top = $(window).scrollTop();
+    				if(cach_top >=105){ 
+    					$('#menu_top').css({'position': 'fixed', 'top': '0px','z-index': '999'});	
+    					$('.menu_left').hide();
+    				}else{
+    					$('#menu_top').css({'position': 'relative'});
+    					$('.menu_left').show();
+    				}
+    			});
+    		});   
+    	</script>
+    
+
+
+    <script type="text/javascript">
+    	jQuery(document).ready(function($) {
+    		$('.slick_slider').slick({
+    			infinite: true,
+    			slidesToShow: 1,
+    			arrows:false,
+    			dots:false,
+    			autoplay:true,
+    			slidesToScroll: 1
+    		});
+
+
+    	});
+    </script>
+
+    <script type="text/javascript">
+    	$(document).ready(function(e) {
+    		$('.select_video').change(function(){
+    			var id = $(this).val();
+
+    			$.ajax({
+    				url:'video.php',
+    				data:'id='+id,
+    				type:'get',
+    				async:true,
+    				success: function(res){
+    					$('#video').html(res)
+
+    				}
+
+    			});
+    			return false;
+    		});
+    	});
+    </script>
+
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		$('.menu_left li').hover(function(){
+    			$(this).find('ul:first').css({visibility: "visible", display: "none"}).slideDown(500);  
+    		}, function(){
+    			$(this).find('ul:first').css({visibility: "hidden"}).hide(300); 
+    		});
+    	});
+    </script> 
+
+<!-- <script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('.title_cat span').click(function(event) {
+			$('.title_cat span').removeClass('active_list');
+			$(this).addClass('active_list');
+			var id= $(this).data('id');
+			$.ajax({
+				url:'ajax/load_pro.php',
+				data:'id='+id,
+				type:'POST',
+				async:true,
+				success: function(res){
+					$('.show_sp').html(res)
+				}
+
+			});
+		});
+	});
+</script> -->
+
+<script type="text/javascript">
+	$(document).ready(function(){
+
+		$('body').on('click', 'a.add_to_basket', function(event) {
+			var soluong=$('#soluong').val();
+			var pid=$(this).attr('rel');
+			id_color=$('.active_color').attr('data-id');
+			id_size=$('.active_size').attr('data-id');
+			// if(typeof(id_color)  === "undefined"){
+			// 	id_color=0;
+			// }
+
+		
+			if(id_size=='0'){
+				alert('Bạn chưa chọn phân loại sản phẩm');
+				return true;
+			}
+			if(id_color=='0'){
+				alert('Bạn chưa chọn màu sản phẩm');
+				return true;
+			}
+
+
+			$.ajax({
+				type: "POST",
+				url: "ajax/add_giohang.php",
+				data: "pid="+pid+"&soluong="+soluong+"&id_color="+id_color+"&id_size="+id_size,
+				dataType: 'json',
+				success:function(data){
+					alert('Đưa vào giỏ hàng thành công');
+
+					$('.count_cart').html(data.count);
+				}
+			});
+		});
+
+	});
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('.title_nb span').click(function(event) {
+			$('.title_nb span').removeClass('active_nb');
+			$(this).addClass('active_nb');
+			var id = $(this).data('id');
+			$.ajax({
+				url:'ajax/load_product_nb.php',
+				data:'id='+id,
+				type:'POST',
+				async:true,
+				success: function(res){
+					$('.show_sp').html(res)
+
+				}
+
+			});
+		});
+	});
+</script>
+
+
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('.title_cat span').click(function(event) {
+			$('.title_cat span').removeClass('active_cat');
+			$(this).addClass('active_cat');
+			var pa = $(this).parents('.maxwidth');
+			var id = $(this).data('id');
+			$.ajax({
+				url:'ajax/load_product.php',
+				data:'id='+id,
+				type:'POST',
+				async:true,
+				success: function(res){
+					pa.find('.show_sp_cat').html(res)
+				}
+
+			});
+		});
+	});
+</script>
+
+
+
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('.title_left h4').click(function(event) {
+			$('.menu_left').slideToggle();
+		});
+	});
+</script>
+
+<script type="text/javascript">
+	function get_price_detail(){
+
+		var id = $('.id_sp').val();
+		var sl = $('#soluong').val();
+		var id_mau=$('.active_color').attr('data-id');
+
+		var id_size=$('.active_size').attr('data-id');
+		if(typeof(id_mau)  === "undefined"){
+			id_mau=0;
+		}
+		if(typeof(id_size)  === "undefined"){
+			id_size=0;
+		}
+		$.ajax({
+			url:'ajax/sum_price.php',
+			data:{id:id,sl:sl,id_mau:id_mau,id_size:id_size},
+			type:'POST',
+			async:false,
+			success: function(res){
+				$('.sum_price').html(res)
+			}
+		});
+
+	}
+
+</script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('.update_q').click(function(event) {
+			var q = $(this).val();
+			var color = $(this).data('color');
+			var size = $(this).data('size');
+			var id = $(this).data('id');
+			var pa = $(this).parents('tr');
+
+			if(typeof(color)  === "undefined"){
+				color=0;
+			}
+			if(typeof(size)  === "undefined"){
+				size=0;
+			}
+
+			$.ajax({
+				url:'ajax/update_gh.php',
+				data:{q:q,color:color,size:size,id:id},
+				type:'POST',
+				async:false,
+				success: function(res){
+					pa.find('.update_sum').html(res);
+				}
+			});
+		});
+	});
+</script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+			$('.update_q').keyup(function(event) {
+			
+			var q = $(this).val();
+			var color = $(this).data('color');
+			var size = $(this).data('size');
+			var id = $(this).data('id');
+			var pa = $(this).parents('tr');
+
+			if(typeof(color)  === "undefined"){
+				color=0;
+			}
+			if(typeof(size)  === "undefined"){
+				size=0;
+			}
+
+			$.ajax({
+				url:'ajax/update_gh.php',
+				data:{q:q,color:color,size:size,id:id},
+				type:'POST',
+				async:false,
+				success: function(res){
+					pa.find('.update_sum').html(res);
+				}
+			});
+		});
+	});
+</script>
+
+
+
+
+
+
+ 
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header_top">
+	<div class="maxwidth">
+		<div class="slogan">CHUYÊN BAO BÌ - DỤNG CỤ LÀM BÁNH</div>
+		<div class="setting">
+			<img src="../images/map.png" alt="CÂY CỦI LỚN"/>&nbsp;B19/2 Cư Xá Phú Lâm B, P13, Q6, TPHCM&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/house.png" alt="CÂY CỦI LỚN"/>&nbsp;Thời gian làm việc: Từ 9h00 am - 19h00 pm		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<div class="header" style="background:url(upload/hinhanh/1111243-4337.jpg)no-repeat;background-size: 100% 100%;">
+	<div class="maxwidth">
+		<div class="logo">
+			<a href="index.html"><img src="upload/hinhanh/untitled1-6987_260x105.png" alt="CÂY CỦI LỚN"></a>
+		</div> 
+		<div class="head_center">
+			<div class="tukhoa">Xu hướng tìm kiếm : Khuôn bánh kem | khuôn nhôm | khuôn trái ...</div>
+			
+
+<div id="timkiem">
+     <form action="tim-kiem.html" method="" name="frm2" class="frm_timkiem">
+              <input type="text" name="timkiem" id="name_tk" class="input" placeholder="Tìm kiếm...">
+              <select name="list" class="search_tk">
+              	<option value="">Tất cả</option>
+              	              		<option value="80">BAO BÌ</option>
+              	              		<option value="71">DỤNG CỤ LÀM BÁNH</option>
+              	              		<option value="79">TRANG TRÍ</option>
+              	              		<option value="81">PHÔNG VẢI 3D</option>
+              	              		<option value="82">NGUYÊN LIỆU</option>
+              	              </select>
+              <button type="submit" value="" class="nut_tim">Tìm kiếm</button>
+      </form>
+</div>
+		</div>
+		<div class="header_right">
+			<div class="hotline">
+				<p> 0389663112</p>
+				<p>0866793847</p>
+			</div>
+			<div class="shopee">
+				<p><a href="https://shopee.vn/moclambang">Shopee.vn/moclambang</a></p>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div> 
+<div class="icon_gh"><a class="cart top_icon" href="gio-hang.html"><font class="count_cart">0</font></a></div>
+
+
+
+
+
+
+
+
+			<div id="menu_top">   
+	<div class="maxwidth">
+		
+<div class="box_left">
+	<div class="title_left"><h4>Danh mục sản phẩm</h4></div>
+	<ul class="menu_left">
+		<li><a href="san-pham-trung-thu.html">Sản phẩm trung thu</a></li>
+					<li><a href="san-pham/bao-bi">BAO BÌ</a>
+									<ul>
+													<li><a href="san-pham/bao-bi/tui-banh-tui-keo">TÚI BÁNH / TÚI KẸO</a></li>
+													<li><a href="san-pham/bao-bi/hop-giay">HỘP GIẤY</a></li>
+													<li><a href="san-pham/bao-bi/hop-nhua-pet">HỘP NHỰA / PET</a></li>
+													<li><a href="san-pham/bao-bi/hop-thiec">HỘP THIẾC</a></li>
+													<li><a href="san-pham/bao-bi/tui-xach">TÚI XÁCH</a></li>
+													<li><a href="san-pham/bao-bi/thuy-tinh">THỦY TINH</a></li>
+											</ul>
+							</li>
+
+					<li><a href="san-pham/dung-cu-lam-banh">DỤNG CỤ LÀM BÁNH</a>
+									<ul>
+													<li><a href="san-pham/dung-cu-lam-banh/silicone">SILICONE</a></li>
+													<li><a href="san-pham/dung-cu-lam-banh/khuon">KHUÔN</a></li>
+													<li><a href="san-pham/dung-cu-lam-banh/lot-nuong">LÓT, NƯỚNG</a></li>
+													<li><a href="san-pham/dung-cu-lam-banh/may-can-nhiet-ke">MÁY, CÂN, NHIỆT KẾ</a></li>
+													<li><a href="san-pham/dung-cu-lam-banh/dung-cu-khac">DỤNG CỤ KHÁC</a></li>
+											</ul>
+							</li>
+
+					<li><a href="san-pham/trang-tri">TRANG TRÍ</a>
+									<ul>
+													<li><a href="san-pham/trang-tri/trang-tri-khac">TRANG TRÍ KHÁC</a></li>
+													<li><a href="san-pham/trang-tri/tem-dan-sticker">TEM DÁN / STICKER</a></li>
+													<li><a href="san-pham/trang-tri/ruy-bang-day-cot">RUY BĂNG/ DÂY CỘT</a></li>
+											</ul>
+							</li>
+
+					<li><a href="san-pham/phong-vai-3d">PHÔNG VẢI 3D</a>
+							</li>
+
+					<li><a href="san-pham/nguyen-lieu">NGUYÊN LIỆU</a>
+							</li>
+
+			</ul>
+</div>
+
+
+
+
+
+
+		<div id="myslidemenu" class="jqueryslidemenu" >
+			<ul class="nav nav1">
+				<li class=" "><a href="index.html" class="  ">Trang Chủ</a>
+				</li>  
+
+				<li class=" "><a href="gioi-thieu.html" class="  ">Giới thiệu</a></li>  
+
+				<li class=" "><a href="san-pham.html" class="  ">Sản phẩm</a>
+					<ul>
+													<li><a href="san-pham/bao-bi">BAO BÌ</a>
+								<ul>
+																			<li><a href="san-pham/bao-bi/tui-banh-tui-keo">TÚI BÁNH / TÚI KẸO</a>
+
+										</li>
+																			<li><a href="san-pham/bao-bi/hop-giay">HỘP GIẤY</a>
+
+										</li>
+																			<li><a href="san-pham/bao-bi/hop-nhua-pet">HỘP NHỰA / PET</a>
+
+										</li>
+																			<li><a href="san-pham/bao-bi/hop-thiec">HỘP THIẾC</a>
+
+										</li>
+																			<li><a href="san-pham/bao-bi/tui-xach">TÚI XÁCH</a>
+
+										</li>
+																			<li><a href="san-pham/bao-bi/thuy-tinh">THỦY TINH</a>
+
+										</li>
+																	</ul>
+							</li>
+													<li><a href="san-pham/dung-cu-lam-banh">DỤNG CỤ LÀM BÁNH</a>
+								<ul>
+																			<li><a href="san-pham/dung-cu-lam-banh/silicone">SILICONE</a>
+
+										</li>
+																			<li><a href="san-pham/dung-cu-lam-banh/khuon">KHUÔN</a>
+
+										</li>
+																			<li><a href="san-pham/dung-cu-lam-banh/lot-nuong">LÓT, NƯỚNG</a>
+
+										</li>
+																			<li><a href="san-pham/dung-cu-lam-banh/may-can-nhiet-ke">MÁY, CÂN, NHIỆT KẾ</a>
+
+										</li>
+																			<li><a href="san-pham/dung-cu-lam-banh/dung-cu-khac">DỤNG CỤ KHÁC</a>
+
+										</li>
+																	</ul>
+							</li>
+													<li><a href="san-pham/trang-tri">TRANG TRÍ</a>
+								<ul>
+																			<li><a href="san-pham/trang-tri/trang-tri-khac">TRANG TRÍ KHÁC</a>
+
+										</li>
+																			<li><a href="san-pham/trang-tri/tem-dan-sticker">TEM DÁN / STICKER</a>
+
+										</li>
+																			<li><a href="san-pham/trang-tri/ruy-bang-day-cot">RUY BĂNG/ DÂY CỘT</a>
+
+										</li>
+																	</ul>
+							</li>
+													<li><a href="san-pham/phong-vai-3d">PHÔNG VẢI 3D</a>
+								<ul>
+																	</ul>
+							</li>
+													<li><a href="san-pham/nguyen-lieu">NGUYÊN LIỆU</a>
+								<ul>
+																	</ul>
+							</li>
+											</ul>
+				</li>
+
+				<li class=" "><a href="uu-dai.html" class="  ">Ưu đãi</a></li>
+
+				<li class=" "><a href="goc-chia-se.html" class="  ">Góc chia sẽ</a></li>
+
+				<li class=" "><a href="lien-he.html" class=" "  >Liên hệ</a></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<a class="menu_rp" href="#menu"></a>
+
+<nav id="menu">
+	<ul class="nav nav1">
+		<li class=" "><a href="index.html" class="  ">Trang Chủ</a>
+		</li>  
+
+		<li class=" "><a href="gioi-thieu.html" class="  ">Giới thiệu</a></li>  
+
+		<li class=" "><a href="san-pham.html" class="  ">Sản phẩm</a>
+			<ul>
+									<li><a href="san-pham/bao-bi">BAO BÌ</a>
+						<ul>
+															<li><a href="san-pham/bao-bi/tui-banh-tui-keo">TÚI BÁNH / TÚI KẸO</a>
+
+								</li>
+															<li><a href="san-pham/bao-bi/hop-giay">HỘP GIẤY</a>
+
+								</li>
+															<li><a href="san-pham/bao-bi/hop-nhua-pet">HỘP NHỰA / PET</a>
+
+								</li>
+															<li><a href="san-pham/bao-bi/hop-thiec">HỘP THIẾC</a>
+
+								</li>
+															<li><a href="san-pham/bao-bi/tui-xach">TÚI XÁCH</a>
+
+								</li>
+															<li><a href="san-pham/bao-bi/thuy-tinh">THỦY TINH</a>
+
+								</li>
+													</ul>
+					</li>
+									<li><a href="san-pham/dung-cu-lam-banh">DỤNG CỤ LÀM BÁNH</a>
+						<ul>
+															<li><a href="san-pham/dung-cu-lam-banh/silicone">SILICONE</a>
+
+								</li>
+															<li><a href="san-pham/dung-cu-lam-banh/khuon">KHUÔN</a>
+
+								</li>
+															<li><a href="san-pham/dung-cu-lam-banh/lot-nuong">LÓT, NƯỚNG</a>
+
+								</li>
+															<li><a href="san-pham/dung-cu-lam-banh/may-can-nhiet-ke">MÁY, CÂN, NHIỆT KẾ</a>
+
+								</li>
+															<li><a href="san-pham/dung-cu-lam-banh/dung-cu-khac">DỤNG CỤ KHÁC</a>
+
+								</li>
+													</ul>
+					</li>
+									<li><a href="san-pham/trang-tri">TRANG TRÍ</a>
+						<ul>
+															<li><a href="san-pham/trang-tri/trang-tri-khac">TRANG TRÍ KHÁC</a>
+
+								</li>
+															<li><a href="san-pham/trang-tri/tem-dan-sticker">TEM DÁN / STICKER</a>
+
+								</li>
+															<li><a href="san-pham/trang-tri/ruy-bang-day-cot">RUY BĂNG/ DÂY CỘT</a>
+
+								</li>
+													</ul>
+					</li>
+									<li><a href="san-pham/phong-vai-3d">PHÔNG VẢI 3D</a>
+						<ul>
+													</ul>
+					</li>
+									<li><a href="san-pham/nguyen-lieu">NGUYÊN LIỆU</a>
+						<ul>
+													</ul>
+					</li>
+							</ul>
+		</li>
+
+		<li class=" "><a href="uu-dai.html" class="  ">Ưu đãi</a></li>
+
+		<li class=" "><a href="goc-chia-se.html" class="  ">Góc chia sẽ</a></li>
+
+		<li class=" "><a href="lien-he.html" class=" "  >Liên hệ</a></li>
+	</ul> 
+</nav>							<div class="maxwidth">
+					<div class="top">
+						
+<div class="slider">
+	<ul class="slick_slider">
+					<li><a href="https://caycuilon.com/san-pham/bo-hop-tho-ngoc-vui-trang-1847.html"><img src="upload/hinhanh/172845351800021_1200x465.jpg" alt="hop trung thu tho ngoc"></a></li>
+					<li><a href="https://caycuilon.com/san-pham/bo-hop-ky-lan-van-phuc-1848.html"><img src="upload/hinhanh/508686093445824_1200x465.jpg" alt="hop trung thu Ky lan do"></a></li>
+					<li><a href=""><img src="upload/hinhanh/255960681453994_1200x465.jpg" alt="HAPPY BIRTHDAY 4TH"></a></li>
+					<li><a href="https://caycuilon.com/san-pham/bo-hop-trung-thu-sen-trang-1846.html"><img src="upload/hinhanh/480878054525492_1200x465.jpg" alt="hop banh trung thu sent trang"></a></li>
+					<li><a href="https://caycuilon.com/san-pham/bo-hop-khong-tuoc-don-trang-1845.html"><img src="upload/hinhanh/826906326922614_1200x465.jpg" alt="hop trung thu khong tuoc"></a></li>
+			</ul>
+</div>						<div class="clear"></div>
+					</div>
+				</div>
+						
+<div class="menu_fixed">
+	<ul class="">
+		<li><a href="san-pham-trung-thu.html"><img src="images/list1.png" alt="CÂY CỦI LỚN" width="40" /> <span>Sản phẩm trung thu</span></a></li>
+		
+					<li><a href="san-pham/bao-bi"><img src="upload/product/21-7000_40x40.png" alt="BAO BÌ"> <span>BAO BÌ</span></a>	
+			</li>
+					<li><a href="san-pham/dung-cu-lam-banh"><img src="upload/product/31-2072_40x40.png" alt="DỤNG CỤ LÀM BÁNH"> <span>DỤNG CỤ LÀM BÁNH</span></a>	
+			</li>
+					<li><a href="san-pham/trang-tri"><img src="upload/product/51-9924_40x40.png" alt="TRANG TRÍ"> <span>TRANG TRÍ</span></a>	
+			</li>
+					<li><a href="san-pham/phong-vai-3d"><img src="upload/product/41-6249_40x40.png" alt="PHÔNG VẢI 3D"> <span>PHÔNG VẢI 3D</span></a>	
+			</li>
+					<li><a href="san-pham/nguyen-lieu"><img src="upload/product/feedd45b70158b4bd204-8779_40x40.jpg" alt="NGUYÊN LIỆU"> <span>NGUYÊN LIỆU</span></a>	
+			</li>
+			</ul>
+</div>
+
+
+
+
+
+
+			<div class="content">
+				<!-- start -->
+<h1 class="visit_hidden">CÂY CỦI LỚN</h1>
+<h2 class="visit_hidden">CÂY CỦI LỚN</h2>
+<h3 class="visit_hidden">CÂY CỦI LỚN</h3>
+<h4 class="visit_hidden">CÂY CỦI LỚN</h4>
+<h5 class="visit_hidden">CÂY CỦI LỚN</h5>
+<h6 class="visit_hidden">CÂY CỦI LỚN</h6>
+<!-- end -->
+
+
+<div class="info">
+	<div class="maxwidth">
+		<div class="title_nb">
+			<span class="active_nb" data-id="1">Sản phẩm mới</span>
+			<span data-id="2">Bán chạy</span>
+			<span data-id="3">Khuyến mãi</span>
+		</div>
+		<div class="clear"></div>
+		<div class="row_10 show_sp">
+			<div class="slick_sp">
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/hop-tien-hac-2-banh-1851.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z25726156254481253cf6c54ca422daa4f583e1299cefb-1898_600x530.jpg" alt="HỘP TIÊN HẠC 2 BÁNH">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/hop-tien-hac-2-banh-1851.html"><h3>HỘP TIÊN HẠC 2 BÁNH</h3></a>
+								<div class="price"> 
+									<span>9.500 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB009</span></div>
+								<div class="cart_in"><a href="san-pham/hop-tien-hac-2-banh-1851.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/hop-sen-do-2-banh-1850.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z2572615651243e68a9e7b5d97d10fbc9a8b78aa5c196b-9979_600x530.jpg" alt="HỘP SEN ĐỎ 2 BÁNH">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/hop-sen-do-2-banh-1850.html"><h3>HỘP SEN ĐỎ 2 BÁNH</h3></a>
+								<div class="price"> 
+									<span>9.500 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB008</span></div>
+								<div class="cart_in"><a href="san-pham/hop-sen-do-2-banh-1850.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/mau-siro-unicorn-60g-1849.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z2579949163142c8821b1be4c6209c9b1bbf64fcef1464-5642_600x530.jpg" alt="Màu Siro Unicorn 60g">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/mau-siro-unicorn-60g-1849.html"><h3>Màu Siro Unicorn 60g</h3></a>
+								<div class="price"> 
+									<span>21.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>MTT005</span></div>
+								<div class="cart_in"><a href="san-pham/mau-siro-unicorn-60g-1849.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/bo-hop-ky-lan-van-phuc-1848.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z2571992574629d6565c2a1e8d4512929247dbaa3f7181-6536_600x530.jpg" alt="BỘ HỘP KỲ LÂN VẠN PHÚC">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/bo-hop-ky-lan-van-phuc-1848.html"><h3>BỘ HỘP KỲ LÂN VẠN PHÚC</h3></a>
+								<div class="price"> 
+									<span>34.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB007</span></div>
+								<div class="cart_in"><a href="san-pham/bo-hop-ky-lan-van-phuc-1848.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/bo-hop-tho-ngoc-vui-trang-1847.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z255992014352081514c49f108ce4a249b2594b9fd241c-9406_600x530.jpg" alt="Bộ Hộp Thỏ Ngọc Vui Trăng">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/bo-hop-tho-ngoc-vui-trang-1847.html"><h3>Bộ Hộp Thỏ Ngọc Vui Trăng</h3></a>
+								<div class="price"> 
+									<span>34.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB006</span></div>
+								<div class="cart_in"><a href="san-pham/bo-hop-tho-ngoc-vui-trang-1847.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/bo-hop-trung-thu-sen-trang-1846.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/sen-trang-vuong-9758_600x530.jpg" alt="BỘ HỘP TRUNG THU SEN TRẮNG">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/bo-hop-trung-thu-sen-trang-1846.html"><h3>BỘ HỘP TRUNG THU SEN TRẮNG</h3></a>
+								<div class="price"> 
+									<span>32.500 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB005</span></div>
+								<div class="cart_in"><a href="san-pham/bo-hop-trung-thu-sen-trang-1846.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/bo-hop-khong-tuoc-don-trang-1845.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/khong-tuoc-vuong-4901_600x530.jpg" alt="Bộ Hộp Khổng Tước Đón Trăng">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/bo-hop-khong-tuoc-don-trang-1845.html"><h3>Bộ Hộp Khổng Tước Đón Trăng</h3></a>
+								<div class="price"> 
+									<span>32.500 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB004</span></div>
+								<div class="cart_in"><a href="san-pham/bo-hop-khong-tuoc-don-trang-1845.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/hop-4b-van-da-nap-trong-5080g-1844.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z254785290914027a56662e85fc01f5edcd436ac079285-7344_600x530.jpg" alt="HỘP 4B VÂN ĐÁ NẮP TRONG 50-80G">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/hop-4b-van-da-nap-trong-5080g-1844.html"><h3>HỘP 4B VÂN ĐÁ NẮP TRONG 50-80G</h3></a>
+								<div class="price"> 
+									<span>16.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB003</span></div>
+								<div class="cart_in"><a href="san-pham/hop-4b-van-da-nap-trong-5080g-1844.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+							</div>
+		</div>
+		<div class="clear"></div>
+		<div class="wr_qc">
+			<ul class="slick_slider">
+							</ul>
+		</div>
+	</div>
+</div>
+
+
+	<div class="info">
+		<div class="maxwidth">
+			<div class="title_main">
+				<h4>BAO BÌ</h4>
+				<a class="link_cat" href="san-pham/bao-bi">>></a>
+			</div>
+			<div class="title_cat">
+											<span data-id="281">TÚI BÁNH / TÚI KẸO &Iota; </span>
+											<span data-id="280">HỘP GIẤY &Iota; </span>
+											<span data-id="279">HỘP NHỰA / PET &Iota; </span>
+											<span data-id="278">HỘP THIẾC &Iota; </span>
+											<span data-id="282">TÚI XÁCH &Iota; </span>
+											<span data-id="289">THỦY TINH &Iota; </span>
+									</div>
+			<div class="clear"></div>
+			<div class="row_10 show_sp_cat">
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/hop-tien-hac-2-banh-1851.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z25726156254481253cf6c54ca422daa4f583e1299cefb-1898_600x530.jpg" alt="HỘP TIÊN HẠC 2 BÁNH">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/hop-tien-hac-2-banh-1851.html"><h3>HỘP TIÊN HẠC 2 BÁNH</h3></a>
+								<div class="price"> 
+									<span>9.500 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB009</span></div>
+								<div class="cart_in"><a href="san-pham/hop-tien-hac-2-banh-1851.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/hop-sen-do-2-banh-1850.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z2572615651243e68a9e7b5d97d10fbc9a8b78aa5c196b-9979_600x530.jpg" alt="HỘP SEN ĐỎ 2 BÁNH">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/hop-sen-do-2-banh-1850.html"><h3>HỘP SEN ĐỎ 2 BÁNH</h3></a>
+								<div class="price"> 
+									<span>9.500 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB008</span></div>
+								<div class="cart_in"><a href="san-pham/hop-sen-do-2-banh-1850.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/bo-hop-ky-lan-van-phuc-1848.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z2571992574629d6565c2a1e8d4512929247dbaa3f7181-6536_600x530.jpg" alt="BỘ HỘP KỲ LÂN VẠN PHÚC">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/bo-hop-ky-lan-van-phuc-1848.html"><h3>BỘ HỘP KỲ LÂN VẠN PHÚC</h3></a>
+								<div class="price"> 
+									<span>34.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB007</span></div>
+								<div class="cart_in"><a href="san-pham/bo-hop-ky-lan-van-phuc-1848.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/bo-hop-tho-ngoc-vui-trang-1847.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z255992014352081514c49f108ce4a249b2594b9fd241c-9406_600x530.jpg" alt="Bộ Hộp Thỏ Ngọc Vui Trăng">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/bo-hop-tho-ngoc-vui-trang-1847.html"><h3>Bộ Hộp Thỏ Ngọc Vui Trăng</h3></a>
+								<div class="price"> 
+									<span>34.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB006</span></div>
+								<div class="cart_in"><a href="san-pham/bo-hop-tho-ngoc-vui-trang-1847.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/bo-hop-trung-thu-sen-trang-1846.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/sen-trang-vuong-9758_600x530.jpg" alt="BỘ HỘP TRUNG THU SEN TRẮNG">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/bo-hop-trung-thu-sen-trang-1846.html"><h3>BỘ HỘP TRUNG THU SEN TRẮNG</h3></a>
+								<div class="price"> 
+									<span>32.500 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB005</span></div>
+								<div class="cart_in"><a href="san-pham/bo-hop-trung-thu-sen-trang-1846.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/bo-hop-khong-tuoc-don-trang-1845.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/khong-tuoc-vuong-4901_600x530.jpg" alt="Bộ Hộp Khổng Tước Đón Trăng">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/bo-hop-khong-tuoc-don-trang-1845.html"><h3>Bộ Hộp Khổng Tước Đón Trăng</h3></a>
+								<div class="price"> 
+									<span>32.500 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB004</span></div>
+								<div class="cart_in"><a href="san-pham/bo-hop-khong-tuoc-don-trang-1845.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/hop-4b-van-da-nap-trong-5080g-1844.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z254785290914027a56662e85fc01f5edcd436ac079285-7344_600x530.jpg" alt="HỘP 4B VÂN ĐÁ NẮP TRONG 50-80G">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/hop-4b-van-da-nap-trong-5080g-1844.html"><h3>HỘP 4B VÂN ĐÁ NẮP TRONG 50-80G</h3></a>
+								<div class="price"> 
+									<span>16.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB003</span></div>
+								<div class="cart_in"><a href="san-pham/hop-4b-van-da-nap-trong-5080g-1844.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/set-100-tui-han-happy-time-1843.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z25374903528720bed020526e52606bd0535473344f4a7-2433_600x530.jpg" alt="SET 100 TÚI HÀN HAPPY TIME">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/set-100-tui-han-happy-time-1843.html"><h3>SET 100 TÚI HÀN HAPPY TIME</h3></a>
+								<div class="price"> 
+									<span>33.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>BB013</span></div>
+								<div class="cart_in"><a href="san-pham/set-100-tui-han-happy-time-1843.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/set-100-tui-han-sweet-time-1842.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z2537490378671ed6cea704bca969dbd96be4a4a34b939-4887_600x530.jpg" alt="SET 100 TÚI HÀN SWEET TIME">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/set-100-tui-han-sweet-time-1842.html"><h3>SET 100 TÚI HÀN SWEET TIME</h3></a>
+								<div class="price"> 
+									<span>33.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>BB015</span></div>
+								<div class="cart_in"><a href="san-pham/set-100-tui-han-sweet-time-1842.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/hop-2-banh-tart-1839.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/4708314128682509314-7794_600x530.jpg" alt="Hộp 2 Bánh Tart">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/hop-2-banh-tart-1839.html"><h3>Hộp 2 Bánh Tart</h3></a>
+								<div class="price"> 
+									<span>1.400 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>HB002</span></div>
+								<div class="cart_in"><a href="san-pham/hop-2-banh-tart-1839.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+								<div class="clear"></div>
+				<div class="view_pro"><a href="san-pham/bao-bi">Xem thêm</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="info">
+		<div class="maxwidth">
+			<div class="title_main">
+				<h4>DỤNG CỤ LÀM BÁNH</h4>
+				<a class="link_cat" href="san-pham/dung-cu-lam-banh">>></a>
+			</div>
+			<div class="title_cat">
+											<span data-id="288">SILICONE &Iota; </span>
+											<span data-id="285">KHUÔN &Iota; </span>
+											<span data-id="286">LÓT, NƯỚNG &Iota; </span>
+											<span data-id="287">MÁY, CÂN, NHIỆT KẾ &Iota; </span>
+											<span data-id="284">DỤNG CỤ KHÁC &Iota; </span>
+									</div>
+			<div class="clear"></div>
+			<div class="row_10 show_sp_cat">
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/bao-tay-vinyl-lam-banh-1841.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/134951269951653876263-9291_600x530.jpg" alt="BAO TAY VINYL LÀM BÁNH">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/bao-tay-vinyl-lam-banh-1841.html"><h3>BAO TAY VINYL LÀM BÁNH</h3></a>
+								<div class="price"> 
+									<span>185.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>DCB003</span></div>
+								<div class="cart_in"><a href="san-pham/bao-tay-vinyl-lam-banh-1841.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/khuon-tt-vuong-4-mat-180g-1832.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z24103448108802cdb85673531c397437a9450c0af0d65-1046_600x530.jpg" alt="KHUÔN TT VUÔNG 4 MẶT 180G">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/khuon-tt-vuong-4-mat-180g-1832.html"><h3>KHUÔN TT VUÔNG 4 MẶT 180G</h3></a>
+								<div class="price"> 
+									<span>130.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>KTT002</span></div>
+								<div class="cart_in"><a href="san-pham/khuon-tt-vuong-4-mat-180g-1832.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/khuon-tt-vuong-4-mat-100g-1831.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/173423255911388159777-6360_600x530.jpg" alt="KHUÔN TT VUÔNG 4 MẶT 100G">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/khuon-tt-vuong-4-mat-100g-1831.html"><h3>KHUÔN TT VUÔNG 4 MẶT 100G</h3></a>
+								<div class="price"> 
+									<span>115.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>KTT004</span></div>
+								<div class="cart_in"><a href="san-pham/khuon-tt-vuong-4-mat-100g-1831.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/khuon-tt-vuong-4-mat-125g-1830.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z241034481489727dba18c747420ed2762e5b114e43da4-1236_600x530.jpg" alt="KHUÔN TT VUÔNG 4 MẶT 125G">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/khuon-tt-vuong-4-mat-125g-1830.html"><h3>KHUÔN TT VUÔNG 4 MẶT 125G</h3></a>
+								<div class="price"> 
+									<span>105.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>KTT001</span></div>
+								<div class="cart_in"><a href="san-pham/khuon-tt-vuong-4-mat-125g-1830.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/khuon-tt-hoa-4-mat-100g-1828.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/174003945451388159777-3378_600x530.jpg" alt="KHUÔN TT HOA 4 MẶT 100G">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/khuon-tt-hoa-4-mat-100g-1828.html"><h3>KHUÔN TT HOA 4 MẶT 100G</h3></a>
+								<div class="price"> 
+									<span>115.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>KTT005</span></div>
+								<div class="cart_in"><a href="san-pham/khuon-tt-hoa-4-mat-100g-1828.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/khuon-tt-lan-2-mat-75g-1827.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/194379083661388159777-6598_600x530.jpg" alt="KHUÔN TT LÂN 2 MẶT 75G">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/khuon-tt-lan-2-mat-75g-1827.html"><h3>KHUÔN TT LÂN 2 MẶT 75G</h3></a>
+								<div class="price"> 
+									<span>85.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>KTT006</span></div>
+								<div class="cart_in"><a href="san-pham/khuon-tt-lan-2-mat-75g-1827.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/khuon-tt-long-den-2-mat-50g-1826.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/o1cn01dpsrkq1kj4y2zikoo33407611420cib-389_600x530.jpg" alt="KHUÔN TT LỒNG ĐÈN 2 MẶT 50G">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/khuon-tt-long-den-2-mat-50g-1826.html"><h3>KHUÔN TT LỒNG ĐÈN 2 MẶT 50G</h3></a>
+								<div class="price"> 
+									<span>85.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>KTT007</span></div>
+								<div class="cart_in"><a href="san-pham/khuon-tt-long-den-2-mat-50g-1826.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/can-trang-b05-1825.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/8714406160442498233-2823_600x530.jpg" alt="CÂN TRẮNG B05">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/can-trang-b05-1825.html"><h3>CÂN TRẮNG B05</h3></a>
+								<div class="price"> 
+									<span>90.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>DC026</span></div>
+								<div class="cart_in"><a href="san-pham/can-trang-b05-1825.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/can-van-go-1824.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/10490243069442498233-4013_600x530.jpg" alt="CÂN VÂN GỖ">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/can-van-go-1824.html"><h3>CÂN VÂN GỖ</h3></a>
+								<div class="price"> 
+									<span>190.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>DC027</span></div>
+								<div class="cart_in"><a href="san-pham/can-van-go-1824.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/khuon-silicone-26-chu-cai-1811.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/161872050351937176052-1204_600x530.jpg" alt="Khuôn Silicone 26 Chữ Cái">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/khuon-silicone-26-chu-cai-1811.html"><h3>Khuôn Silicone 26 Chữ Cái</h3></a>
+								<div class="price"> 
+									<span>35.000 đ</span><span class="price_old">50.000 đ</span><div class="clear"></div>
+								</div> 
+																	<div class="pt">30%</div>
+																<div>Mã : <span>SL022</span></div>
+								<div class="cart_in"><a href="san-pham/khuon-silicone-26-chu-cai-1811.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+								<div class="clear"></div>
+				<div class="view_pro"><a href="san-pham/dung-cu-lam-banh">Xem thêm</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="info">
+		<div class="maxwidth">
+			<div class="title_main">
+				<h4>TRANG TRÍ</h4>
+				<a class="link_cat" href="san-pham/trang-tri">>></a>
+			</div>
+			<div class="title_cat">
+											<span data-id="293">TRANG TRÍ KHÁC &Iota; </span>
+											<span data-id="292">TEM DÁN / STICKER &Iota; </span>
+											<span data-id="291">RUY BĂNG/ DÂY CỘT &Iota; </span>
+									</div>
+			<div class="clear"></div>
+			<div class="row_10 show_sp_cat">
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/tem-hoa-tu-ghi-1840.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z2537490321167796eb83bab3d488da373e229be91fbc2-5900_600x530.jpg" alt="TEM HOA TỰ GHI">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/tem-hoa-tu-ghi-1840.html"><h3>TEM HOA TỰ GHI</h3></a>
+								<div class="price"> 
+									<span>3.500 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>TE001</span></div>
+								<div class="cart_in"><a href="san-pham/tem-hoa-tu-ghi-1840.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/nen-nhu-happy-birthday-1822.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z2364123969636f3b4450d45b4883f34eeb5ce321944e0-3293_600x530.jpg" alt="Nến Nhũ Happy Birthday">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/nen-nhu-happy-birthday-1822.html"><h3>Nến Nhũ Happy Birthday</h3></a>
+								<div class="price"> 
+									<span>18.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>DCB002</span></div>
+								<div class="cart_in"><a href="san-pham/nen-nhu-happy-birthday-1822.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/ruy-bang-merry-christmas-ban-2cm-1801.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z214649682356893ac7c95f4f46a572b2532fd2a3bcc32-7037_600x530.jpg" alt="RUY BĂNG MERRY CHRISTMAS BẢN 2CM">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/ruy-bang-merry-christmas-ban-2cm-1801.html"><h3>RUY BĂNG MERRY CHRISTMAS BẢN 2CM</h3></a>
+								<div class="price"> 
+									<span>28.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>DCB013</span></div>
+								<div class="cart_in"><a href="san-pham/ruy-bang-merry-christmas-ban-2cm-1801.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/ruy-bang-merry-christmas-ban-1cm-1800.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z2146496846654d47bccf6d48c7ce82742a1cbb9e37559-1012_600x530.jpg" alt="RUY BĂNG MERRY CHRISTMAS BẢN 1CM">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/ruy-bang-merry-christmas-ban-1cm-1800.html"><h3>RUY BĂNG MERRY CHRISTMAS BẢN 1CM</h3></a>
+								<div class="price"> 
+									<span>22.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>DCB005</span></div>
+								<div class="cart_in"><a href="san-pham/ruy-bang-merry-christmas-ban-1cm-1800.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/tem-nhan-vuong-2-trung-1787.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z1968096719224c3e8743aecc097f446ffb1b7491b2849-4068_600x530.jpg" alt="TEM NHÂN VUÔNG 2 TRỨNG">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/tem-nhan-vuong-2-trung-1787.html"><h3>TEM NHÂN VUÔNG 2 TRỨNG</h3></a>
+								<div class="price"> 
+									<span>2.500 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>TTT001</span></div>
+								<div class="cart_in"><a href="san-pham/tem-nhan-vuong-2-trung-1787.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/tem-nhan-vuong-1-trung-1786.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z19680967337930366c2d77f31fada14e3fb9457bbb631-6399_600x530.jpg" alt="TEM NHÂN VUÔNG 1 TRỨNG">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/tem-nhan-vuong-1-trung-1786.html"><h3>TEM NHÂN VUÔNG 1 TRỨNG</h3></a>
+								<div class="price"> 
+									<span>2.500 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>TTT001</span></div>
+								<div class="cart_in"><a href="san-pham/tem-nhan-vuong-1-trung-1786.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/ruy-bang-mooncake-ban-2cm-1774.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/d773e60fba43471d1e52-2665_600x530.jpg" alt="RUY BĂNG MOONCAKE BẢN 2CM">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/ruy-bang-mooncake-ban-2cm-1774.html"><h3>RUY BĂNG MOONCAKE BẢN 2CM</h3></a>
+								<div class="price"> 
+									<span>30.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>DCB019</span></div>
+								<div class="cart_in"><a href="san-pham/ruy-bang-mooncake-ban-2cm-1774.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/ruy-bang-cham-bi-ban-1cm-1742.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/f06074a1f0de0b8052cf-3334_600x530.jpg" alt="RUY BĂNG CHẤM BI BẢN 1CM">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/ruy-bang-cham-bi-ban-1cm-1742.html"><h3>RUY BĂNG CHẤM BI BẢN 1CM</h3></a>
+								<div class="price"> 
+									<span>22.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>DCB005</span></div>
+								<div class="cart_in"><a href="san-pham/ruy-bang-cham-bi-ban-1cm-1742.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/ruy-bang-best-wish-ban-1cm-1741.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/297d5089d4f62fa876e7-9232_600x530.jpg" alt="RUY BĂNG BEST WISH BẢN 1CM">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/ruy-bang-best-wish-ban-1cm-1741.html"><h3>RUY BĂNG BEST WISH BẢN 1CM</h3></a>
+								<div class="price"> 
+									<span>22.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>DCB005</span></div>
+								<div class="cart_in"><a href="san-pham/ruy-bang-best-wish-ban-1cm-1741.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/ruy-bang-mau-2cm-1737.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/40faa7fe025bfa05a34a-7092_600x530.jpg" alt="RUY BĂNG MÀU 2CM">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/ruy-bang-mau-2cm-1737.html"><h3>RUY BĂNG MÀU 2CM</h3></a>
+								<div class="price"> 
+									<span>18.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>DCB018</span></div>
+								<div class="cart_in"><a href="san-pham/ruy-bang-mau-2cm-1737.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+								<div class="clear"></div>
+				<div class="view_pro"><a href="san-pham/trang-tri">Xem thêm</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="info">
+		<div class="maxwidth">
+			<div class="title_main">
+				<h4>PHÔNG VẢI 3D</h4>
+				<a class="link_cat" href="san-pham/phong-vai-3d">>></a>
+			</div>
+			<div class="title_cat">
+									</div>
+			<div class="clear"></div>
+			<div class="row_10 show_sp_cat">
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/phong-vai-mau-8089-1835.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z2432914224535ee1660d0456e99009fdbacf71cd29117-2358_600x530.jpg" alt="PHÔNG VẢI MẪU 80-89">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/phong-vai-mau-8089-1835.html"><h3>PHÔNG VẢI MẪU 80-89</h3></a>
+								<div class="price"> 
+									<span>70.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>PV001</span></div>
+								<div class="cart_in"><a href="san-pham/phong-vai-mau-8089-1835.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/phong-vai-3d-mau-7479-1759.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/711faff6d7782d267469-4297_600x530.jpg" alt="PHÔNG VẢI 3D MẪU 74-79">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/phong-vai-3d-mau-7479-1759.html"><h3>PHÔNG VẢI 3D MẪU 74-79</h3></a>
+								<div class="price"> 
+									<span>70.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>PV001</span></div>
+								<div class="cart_in"><a href="san-pham/phong-vai-3d-mau-7479-1759.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/phong-vai-3d-mau-6873-1758.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/752e69c5114beb15b25a-1631_600x530.jpg" alt="PHÔNG VẢI 3D MẪU 68-73">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/phong-vai-3d-mau-6873-1758.html"><h3>PHÔNG VẢI 3D MẪU 68-73</h3></a>
+								<div class="price"> 
+									<span>70.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>PV001</span></div>
+								<div class="cart_in"><a href="san-pham/phong-vai-3d-mau-6873-1758.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/phong-vai-3d-mau-5867-1707.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/3f284bec99517f0f2640-241_600x530.jpg" alt="PHÔNG VẢI 3D MẪU 58-67">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/phong-vai-3d-mau-5867-1707.html"><h3>PHÔNG VẢI 3D MẪU 58-67</h3></a>
+								<div class="price"> 
+									<span>70.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>PV001</span></div>
+								<div class="cart_in"><a href="san-pham/phong-vai-3d-mau-5867-1707.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/phong-vai-3d-mau-4854-1579.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/db87d7db8a166f483607-9891_600x530.jpg" alt="PHÔNG VẢI 3D MẪU 48-54">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/phong-vai-3d-mau-4854-1579.html"><h3>PHÔNG VẢI 3D MẪU 48-54</h3></a>
+								<div class="price"> 
+									<span>70.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>PV001</span></div>
+								<div class="cart_in"><a href="san-pham/phong-vai-3d-mau-4854-1579.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/phong-vai-3d-mau-4147-1033.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/9b569d72aeb14cef15a0-1021_600x530.jpg" alt="PHÔNG VẢI 3D MẪU 41-47">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/phong-vai-3d-mau-4147-1033.html"><h3>PHÔNG VẢI 3D MẪU 41-47</h3></a>
+								<div class="price"> 
+									<span>70.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>PV001</span></div>
+								<div class="cart_in"><a href="san-pham/phong-vai-3d-mau-4147-1033.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/phong-vai-3d-mau-3440-1032.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/d1d855069ec67c9825d7-8902_600x530.jpg" alt="PHÔNG VẢI 3D MẪU 34-40">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/phong-vai-3d-mau-3440-1032.html"><h3>PHÔNG VẢI 3D MẪU 34-40</h3></a>
+								<div class="price"> 
+									<span>70.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>PV001</span></div>
+								<div class="cart_in"><a href="san-pham/phong-vai-3d-mau-3440-1032.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/phong-vai-3d-mau-2932-1031.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/30aeda7087bd62e33bac-5842_600x530.jpg" alt="PHÔNG VẢI 3D MẪU 29-32">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/phong-vai-3d-mau-2932-1031.html"><h3>PHÔNG VẢI 3D MẪU 29-32</h3></a>
+								<div class="price"> 
+									<span>70.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>PV001</span></div>
+								<div class="cart_in"><a href="san-pham/phong-vai-3d-mau-2932-1031.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/phong-vai-3d-mau-0109-1030.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/dda3df5b549bb6c5ef8a-8512_600x530.jpg" alt="PHÔNG VẢI 3D MẪU 01-09">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/phong-vai-3d-mau-0109-1030.html"><h3>PHÔNG VẢI 3D MẪU 01-09</h3></a>
+								<div class="price"> 
+									<span>70.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>PV001</span></div>
+								<div class="cart_in"><a href="san-pham/phong-vai-3d-mau-0109-1030.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/phong-vai-3d-mau-1119-1029.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/810b32edcf2d2d73743c-5441_600x530.jpg" alt="PHÔNG VẢI 3D MẪU 11-19">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/phong-vai-3d-mau-1119-1029.html"><h3>PHÔNG VẢI 3D MẪU 11-19</h3></a>
+								<div class="price"> 
+									<span>70.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>PV001</span></div>
+								<div class="cart_in"><a href="san-pham/phong-vai-3d-mau-1119-1029.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+								<div class="clear"></div>
+				<div class="view_pro"><a href="san-pham/phong-vai-3d">Xem thêm</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="info">
+		<div class="maxwidth">
+			<div class="title_main">
+				<h4>NGUYÊN LIỆU</h4>
+				<a class="link_cat" href="san-pham/nguyen-lieu">>></a>
+			</div>
+			<div class="title_cat">
+									</div>
+			<div class="clear"></div>
+			<div class="row_10 show_sp_cat">
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/mau-siro-unicorn-60g-1849.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z2579949163142c8821b1be4c6209c9b1bbf64fcef1464-5642_600x530.jpg" alt="Màu Siro Unicorn 60g">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/mau-siro-unicorn-60g-1849.html"><h3>Màu Siro Unicorn 60g</h3></a>
+								<div class="price"> 
+									<span>21.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>MTT005</span></div>
+								<div class="cart_in"><a href="san-pham/mau-siro-unicorn-60g-1849.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/nuoc-duong-banh-nuong-1kg-1834.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z24211087278409afc50ece5299409443c5a3a7ca653c2-9190_600x530.jpg" alt="NƯỚC ĐƯỜNG BÁNH NƯỚNG - 1KG">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/nuoc-duong-banh-nuong-1kg-1834.html"><h3>NƯỚC ĐƯỜNG BÁNH NƯỚNG - 1KG</h3></a>
+								<div class="price"> 
+									<span>65.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>NL003</span></div>
+								<div class="cart_in"><a href="san-pham/nuoc-duong-banh-nuong-1kg-1834.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/ruou-mai-que-lo-400ml-1833.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z24211087408629475b91bd8ef8dfdc2062ae9ccd0c8cf-4491_600x530.jpg" alt="RƯỢU MAI QUẾ LỘ - 400ML">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/ruou-mai-que-lo-400ml-1833.html"><h3>RƯỢU MAI QUẾ LỘ - 400ML</h3></a>
+								<div class="price"> 
+									<span>55.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>NL002</span></div>
+								<div class="cart_in"><a href="san-pham/ruou-mai-que-lo-400ml-1833.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/mau-phun-nhu-kim-1808.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z2151823892481a062d8cc56ebeae33ae80dc57c67ebc7-7713_600x530.jpg" alt="MÀU PHUN NHŨ KIM">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/mau-phun-nhu-kim-1808.html"><h3>MÀU PHUN NHŨ KIM</h3></a>
+								<div class="price"> 
+									<span>60.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>MTT004</span></div>
+								<div class="cart_in"><a href="san-pham/mau-phun-nhu-kim-1808.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/mau-dau-pha-socola-1807.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/z213755230397616ff12059b9d01029d268489f3bec723-6415_600x530.jpg" alt="MÀU DẦU PHA SOCOLA">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/mau-dau-pha-socola-1807.html"><h3>MÀU DẦU PHA SOCOLA</h3></a>
+								<div class="price"> 
+									<span>30.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>MTT003</span></div>
+								<div class="cart_in"><a href="san-pham/mau-dau-pha-socola-1807.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/set-ngam-ruou-mai-que-lo-1744.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/0c57c9423038cb669229-7074_600x530.jpg" alt="SET NGÂM RƯỢU MAI QUẾ LỘ">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/set-ngam-ruou-mai-que-lo-1744.html"><h3>SET NGÂM RƯỢU MAI QUẾ LỘ</h3></a>
+								<div class="price"> 
+									<span>35.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>NL001</span></div>
+								<div class="cart_in"><a href="san-pham/set-ngam-ruou-mai-que-lo-1744.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/mau-gel-unicorn-28g-1740.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/64cd40dffc6804365d79-9333_600x530.jpg" alt="MÀU GEL UNICORN 28G">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/mau-gel-unicorn-28g-1740.html"><h3>MÀU GEL UNICORN 28G</h3></a>
+								<div class="price"> 
+									<span>47.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>MTT002</span></div>
+								<div class="cart_in"><a href="san-pham/mau-gel-unicorn-28g-1740.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+									<div class="box_sp">
+						<div class="box_sp_in">
+							<div class="img-sp img_hidden">
+								<a href="san-pham/mau-siro-unicorn-210g-1739.html">
+									<img class="im_sp1" src="thumb_wr/600x530/2/upload/product/8287aea0ff1707495e06-1233_600x530.jpg" alt="MÀU SIRO UNICORN 210G">
+								</a>
+							</div> 
+							<div class="ds_sp">
+								<a href="san-pham/mau-siro-unicorn-210g-1739.html"><h3>MÀU SIRO UNICORN 210G</h3></a>
+								<div class="price"> 
+									<span>42.000 đ</span><span class="price_old"></span><div class="clear"></div>
+								</div> 
+																<div>Mã : <span>MTT001</span></div>
+								<div class="cart_in"><a href="san-pham/mau-siro-unicorn-210g-1739.html">Chi tiết sản phẩm</a></div>
+							</div>
+
+						</div>
+					</div>
+								<div class="clear"></div>
+				<div class="view_pro"><a href="san-pham/nguyen-lieu">Xem thêm</a></div>
+			</div>
+		</div>
+	</div>
+			</div>	
+			
+<div class="bottom">
+	<div class="maxwidth">
+		<div class="title_main"><h4>Góc chia sẽ và video</h4></div>
+		<div class="row_15">
+			<div class="bottom_one">
+				<div class="video wow zoomIn animated">
+					<div id="video">
+						<iframe  width="100%" height="355" frameborder="0" allowfullscreen
+						src="https://www.youtube.com/embed/muVnRGRD5YU">
+					</iframe>
+				</div>
+			</div>
+			<div class="listvideo">
+				<select class="select_video">
+											<option value="59">HƯỚNG DẪN XẾP HỘP TRUNG THU 4 BÁNH NẮP RÚT</option>
+											<option value="58">CÁCH LÀM KẸO DẺO SIÊU DỄ</option>
+											<option value="57">HƯỚNG DẪN XẾP HỘP QUÀ TẾT KHAY BỒI CARTON</option>
+											<option value="56">HƯỚNG DẪN XẾP HỘP NẮP ÂM DƯƠNG</option>
+											<option value="55">HƯỚNG DẪN XẾP HỘP TRUNG THU 2 BÁNH </option>
+											<option value="51">HƯỚNG DẪN XẾP HỘP ÂM DƯƠNG + KHAY CHIA</option>
+									</select> 
+			</div>
+		</div>
+
+		<div class="bottom_one">
+			<div class="title"><h4>bài được xem nhiều nhất</h4></div>
+							<div class="slick_news">
+											<div class="box_news">
+
+							<div class="img_news img_hidden shine">
+								<a href="goc-chia-se/hop-trung-thu-dep-2020-461.html"><img src="thumb/150x105/1/upload/baiviet/43d3885265769828c167-2766.jpg" alt="HỘP TRUNG THU ĐẸP 2020"><div class="over_lay"></div></a>
+							</div>
+							<div class="ds_news">
+								<a href="goc-chia-se/hop-trung-thu-dep-2020-461.html"><h3>HỘP TRUNG THU ĐẸP 2020</h3></a>
+								<div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 15-06-2020</div>
+							</div>
+						</div>
+											<div class="box_news">
+
+							<div class="img_news img_hidden shine">
+								<a href="goc-chia-se/tim-hieu-ve-ngu-coc-459.html"><img src="thumb/150x105/1/upload/baiviet/19369154920181827949934683944848966553698304o-8392.jpg" alt="TÌM HIỂU VỀ NGŨ CỐC"><div class="over_lay"></div></a>
+							</div>
+							<div class="ds_news">
+								<a href="goc-chia-se/tim-hieu-ve-ngu-coc-459.html"><h3>TÌM HIỂU VỀ NGŨ CỐC</h3></a>
+								<div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 23-04-2020</div>
+							</div>
+						</div>
+											<div class="box_news">
+
+							<div class="img_news img_hidden shine">
+								<a href="goc-chia-se/cach-lam-sua-chua-up-nguoc-458.html"><img src="thumb/150x105/1/upload/baiviet/86800288101580622994033905473596778328621056n-9607.jpg" alt="CÁCH LÀM SỮA CHUA UP NGƯỢC"><div class="over_lay"></div></a>
+							</div>
+							<div class="ds_news">
+								<a href="goc-chia-se/cach-lam-sua-chua-up-nguoc-458.html"><h3>CÁCH LÀM SỮA CHUA UP NGƯỢC</h3></a>
+								<div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 20-03-2020</div>
+							</div>
+						</div>
+									</div>
+				<div class="clear"></div>
+					</div>
+		<div class="clear"></div>
+	</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+			
+			
+<div class="footer">
+	<div id="footer" class="maxwidth">
+		<div class="box_ft">
+			
+			<h1><img alt="" height="105" src="https://caycuilon.com/upload/images/Untitled-1(1).png" width="260" /></h1>
+
+<h1><span style="font-family:tahoma,geneva,sans-serif;"><span style="font-size:12px;">Địa chỉ: </span><span style="font-size: 14px;">B19/2 Cư Xá Phú Lâm B, P13, Q6, TPHCM</span><br />
+<span style="font-size:12px;">Điện thoại: 0389.663.112 - 0866.793.847</span></span></h1>
+
+<h1><span style="font-family:tahoma,geneva,sans-serif;"><span style="font-size:12px;">Email: caycuilon@gmail.com<br />
+Website: caycuilon.com - dungcubanh.com</span></span></h1>
+
+<p>Giấy chứng nhận Đăng ký  Hộ Kinh doanh số 41F8028526 do UBND QUẬN 6 cấp ngày 06/12/2019</p>
+	
+		</div>
+		<div class="box_ft1">
+			<div class="title_ft"><h4>Về chúng tôi</h4></div>
+			<ul class="menu_ft">
+				<li><a href="gioi-thieu.html">Giới thiệu</a></li>
+									<li><a href="ve-chung-toi/uu-dai-449.html">Ưu Đãi</a></li>
+									<li><a href="ve-chung-toi/thong-tin-chuyen-khoan-450.html">Thông Tin Chuyển Khoản</a></li>
+									<li><a href="ve-chung-toi/chinh-sach-van-chuyen-451.html">Chính Sách Vận Chuyển</a></li>
+									<li><a href="ve-chung-toi/chinh-sach-doi-tra-452.html">Chính Sách Đổi Trả</a></li>
+									<li><a href="ve-chung-toi/chinh-sach-bao-mat-462.html">Chính sách bảo mật</a></li>
+									<li><a href="ve-chung-toi/lien-he-453.html">Liên Hệ</a></li>
+								
+			</ul>
+		</div>
+		<div class="box_ft2">
+			<div class="title_ft"><h4>Fanpage facebook</h4></div>
+			<div class="fb-page" data-href="https://www.facebook.com/caycuilon/" data-tabs="timeline" data-width="500" data-height="145" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>			</div>
+		
+		<div class="box_ft3">
+			<div class="title_ft"><h4>Bản đồ </h4></div>
+			<div class="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.73767868777!2d106.62688731480068!3d10.754688992336296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752c2a0097a56b%3A0x1ce237ec9e848d3!2zQjE5LzIgQ8awIFjDoSBQaMO6IEzDom0gQiwgUGjGsOG7nW5nIDEzLCBRdeG6rW4gNiwgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1572513403622!5m2!1svi!2s" width="100%" height="145" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div class="footer_end">
+	<div class="maxwidth">
+		<div class="copy">Copyright © 2018 by CÂY CỦI LỚN. All rights reserved. Design by NiNa Co.,Ltd</div>
+		
+<ul class="thongke">
+	<li>Đang online : <span>9</span></li>
+	<li><span>&nbsp;&nbsp; | &nbsp;&nbsp;</span></li>
+	<li>Tổng truy cập : <span>387580</span></li>
+</ul>		<div class="clear"></div>
+	</div>
+</div>
+
+
+
+
+
+
+			
+<link rel="stylesheet" id="messenger-css" href="facebook/messenger.css" type="text/css" media="all">
+<!-- JS BLOCK-->
+<div class="drag-wrapper">
+   <div data-drag="data-drag" class="thing" style="transform: translate(1190px, 20px);">
+      <a class="drag_messenger_button toby_tooltip"  data-toggle="tooltip">
+         <div class="circle facebook-messenger-avatar">
+            <img class="facebook-messenger-avatar" src="images/icon_face.svg">
+         </div>
+      </a>
+      <div class="content" style="display: none; max-height: 563px;">
+         <div class="inside" id="fbmessenger_content">
+            <div class="arrow"></div>
+           
+            <div class="fb-page" data-href="https://www.facebook.com/caycuilon/" data-tabs="messages" data-width="310" data-height="270" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="" class="fb-xfbml-parse-ignore"><a href="">Facebook</a></blockquote></div>
+         </div>
+      </div>
+   </div>
+   <div class="magnet-zone">
+      <div class="magnet"></div>
+   </div>
+</div>
+<div id="messenger_bg"> </div>
+<script type="text/javascript" src="facebook/popup.js"></script>
+<script type="text/javascript" src="facebook/jquery.event.move.js"></script>
+<script type="text/javascript" src="facebook/rebound.min.js"></script>
+<script type="text/javascript" src="facebook/index.js"></script>
+			<div id="home"><a href="index.html"></a></div>
+		</div>
+		<div class="call">
+			<div class="phone"><a href="tel:0866793847"><i class="fa fa-phone"></i> PHONE</a></div>
+			<div class="phone"><a href="sms:0866793847"><i class="fa fa-envelope"></i> SMS</a></div>
+			<div class="sms"><a href="lien-he.html"><i class="fa fa-map-marker" aria-hidden="true"></i> MAP</a></div>
+		</div>
+		<div class="quick-alo-phone quick-alo-green quick-alo-show" id="quick-alo-phoneIcon" style="right: -55px; bottom : 15%;">
+			<a href="https://zalo.me/ 0389663112" title="Liên hệ nhanh"><!--href="" gọi diện trực tiêp-->
+				<div class="quick-alo-ph-circle-fill"></div>
+				<div class="quick-alo-ph-img-circle"></div>
+			</a>
+		</div>
+	
+	</body>
+	</html>

@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="root">
+
+        <title>saolakids.vn</title>
+    <meta name="description" content="Furniture and Toys for kids"/>
+    <meta property="og:url" content="http://saolakids.vn"/>
+    <meta property="og:title" content="saolakids.vn"/>
+    <meta property="og:description" content="Furniture and Toys for kids" />
+    <meta property="fb:app_id" content=""/>
+    <meta property="og:image:alt" content="Saola"/>
+    <meta property="og:image" content=""/>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="http://saolakids.vn/template/saola/assets/images/favicon.png">
+
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700%7CRoboto:300,400,500,700">
+
+    <!--  CSS Style -->
+    <link rel="stylesheet" href="http://saolakids.vn/template/saola/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://saolakids.vn/template/saola/assets/css/all.min.css">
+    <link rel="stylesheet" href="http://saolakids.vn/template/saola/assets/css/animate.min.css">
+    <link rel="stylesheet" href="http://saolakids.vn/template/saola/assets/webfonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="http://saolakids.vn/template/saola/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="http://saolakids.vn/template/saola/assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="http://saolakids.vn/template/saola/assets/css/layerslider.css">
+    <link rel="stylesheet" href="http://saolakids.vn/template/saola/assets/css/template.css">
+    <link rel="stylesheet" href="http://saolakids.vn/template/saola/assets/css/style.css">
+    <link rel="stylesheet" href="http://saolakids.vn/template/saola/assets/css/category/toys.css">
+    <link rel="stylesheet" href="http://saolakids.vn/template/saola/assets/css/custom.css">
+    
+
+    
+</head>
+
+<body>
+<div id="page_wrapper" class="bg-white">
+    <header class="ecommerce-header">
+    <div class="top-header py-2 bg-logo-color text-white border-0 font-normal">
+        <div class="container">
+            <div class="row align-items-center">
+                
+                    
+                        
+                    
+                
+                <div class="col-6">
+                    <div class="top-search">
+                        <div class="product-search-one flex-grow-1">
+                            <form class="form-inline search-line-shape" action="http://saolakids.vn/search" method="GET">
+                                <input type="text" name="q" class="form-control search-field text-white" placeholder="Nhập từ khóa..." value="">
+                                <button type="submit" name="submit" class="search-submit"><i class="flaticon-search flat-mini text-white"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 d-flex">
+                    <ul class="top-links d-flex ms-auto align-items-center">
+                        <li><a href="language/vi"><img class="lang-img" src="/template/saola/assets/images/vn.svg" alt="vi"> </a></li>
+                        <li><a href="language/en"><img class="lang-img" src="/template/saola/assets/images/en.svg" alt="vi"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-nav bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-10 col-md-9">
+                    <nav class="navbar navbar-expand-lg nav-general nav-primary-hover">
+                        <a class="navbar-brand" href="/">
+                            <img class="nav-logo" src="http://saolakids.vn/uploads/images/Screen Shot 2021-06-16 at 22.18.12.png" alt="Saola.com">
+                        </a>
+                        <button class="navbar-toggler btn-mobile-menu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="flaticon-menu-2 flat-small text-primary"></i>
+                        </button>
+                        <div class="collapse navbar-collapse collapse-main" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                    <li class="nav-item  ">
+            <a class="nav-link " href="/">
+                Trang chủ
+            </a>
+                    </li>
+                    <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="/furniture-1">
+                Nội thất gỗ
+            </a>
+                            <ul class="dropdown-menu">
+                                            <li class="dropdown">
+                            
+                            <a class=" dropdown-item" href="http://saolakids.vn/ban-ghe">
+                                Bàn ghế
+                            </a>
+
+                                                    </li>
+                                            <li class="dropdown">
+                            
+                            <a class=" dropdown-item" href="http://saolakids.vn/tu-ke">
+                                Tủ kệ
+                            </a>
+
+                                                    </li>
+                                            <li class="dropdown">
+                            
+                            <a class=" dropdown-item" href="http://saolakids.vn/giuong-noi">
+                                Giường nôi
+                            </a>
+
+                                                    </li>
+                                            <li class="dropdown">
+                            
+                            <a class=" dropdown-item" href="http://saolakids.vn/san-pham-ho-tro">
+                                Sản phẩm hỗ trợ
+                            </a>
+
+                                                    </li>
+                                    </ul>
+                    </li>
+                    <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="/do-choi-tre-em">
+                Đồ chơi
+            </a>
+                            <ul class="dropdown-menu">
+                                            <li class="dropdown">
+                            
+                            <a class=" dropdown-item" href="http://saolakids.vn/giao-duc">
+                                Giáo dục
+                            </a>
+
+                                                    </li>
+                                            <li class="dropdown">
+                            
+                            <a class=" dropdown-item" href="http://saolakids.vn/phuong-tien-giao-thong">
+                                Phương tiện giao thông
+                            </a>
+
+                                                    </li>
+                                            <li class="dropdown">
+                            
+                            <a class=" dropdown-item" href="http://saolakids.vn/nong-trai">
+                                Nông trại
+                            </a>
+
+                                                    </li>
+                                            <li class="dropdown">
+                            
+                            <a class=" dropdown-item" href="http://saolakids.vn/rung">
+                                Rừng núi
+                            </a>
+
+                                                    </li>
+                                            <li class="dropdown">
+                            
+                            <a class=" dropdown-item" href="http://saolakids.vn/bien">
+                                Đại dương
+                            </a>
+
+                                                    </li>
+                                            <li class="dropdown">
+                            
+                            <a class=" dropdown-item" href="http://saolakids.vn/the-luc">
+                                Thể lực
+                            </a>
+
+                                                    </li>
+                                    </ul>
+                    </li>
+                    <li class="nav-item  ">
+            <a class="nav-link " href="/phu-huynh">
+                Góc phụ huynh
+            </a>
+                    </li>
+                    <li class="nav-item  ">
+            <a class="nav-link " href="/lien-he">
+                Liên hệ
+            </a>
+                    </li>
+    </ul>                        </div>
+                    </nav>
+                </div>
+                <div class="col-xl-2 col-md-3">
+                    <div class="d-flex align-items-center justify-content-end h-100">
+                        <div id="top-cart">
+                        <div class="cart-view position-relative m-0 ml-30">
+    <a href="#" class="view-cart-btn has-cart-data position-relative top-quantity d-flex align-items-center text-decoration-none" title="View Cart">
+        <i class="flaticon-shopping-cart flat-small text-dark me-1"></i>
+        <span>0</span>
+    </a>
+    <div class="cart-popup">
+        <ul class="cart_list product_list_widget ">
+                            <p>Không có sản phẩm</p>
+                    </ul>
+            </div>
+</div>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>        <div class="full-row p-0 bg-light">
+    <div id="slider" style="width:1200px; height:650px; margin:0 auto; margin-bottom:0px;">
+                <div class="ls-slide" data-ls="duration:8000; transition2d:4; kenburnsscale:1.2;">
+            <img width="1920" height="750" alt="Saola" src="http://saolakids.vn/uploads/images/z2540095763644_eed7ea7a2a4884b42c2798c07afbaa2e.jpg" class="ls-bg" style="top:50%; left:50%; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; width:100%;" data-ls="showinfo:1; durationin:2000; easingin:easeOutExpo; scalexin:1.5; scaleyin:1.5; position:fixed;">
+            <p style="width:600px; font-size:50px; line-height:60px; top:40%; left:200px; white-space:normal; " class="ls-l text-uppercase higlight-font font-500 ls-hide-phone text-white " data-ls="offsetyin:150; durationin:700; delayin:500; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400; parallaxlevel:0;">
+                Nội thất và đồ chơi trẻ em
+            </p>
+                        <p style="width:580px; font-weight:400; font-size:20px; line-height:30px; top:58%; left:220px; white-space:normal;" class="ls-l ls-hide-phone text-white ordenery-font" data-ls="offsetxin:150; durationin:700; easingin:easeOutBack; rotatexin:20; scalexin:1; offsetyout:600; durationout:400; parallaxlevel:0; delayin:300;">
+                Không gian sinh động<br />
+Thoả sức vui chơi
+            </p>
+
+            <div style="text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.75);width:3px; height:60px; border-radius:0; top:58%; left:200px;" class="ls-l ls-hide-phone bg-primary" data-ls="offsetxin:100; easingin:easeOutBack; delayin:400; durationout:400; offsetxout:-20; parallax:false; parallaxlevel:1;"></div>
+            
+                    </div>
+                <div class="ls-slide" data-ls="duration:8000; transition2d:4; kenburnsscale:1.2;">
+            <img width="1920" height="750" alt="Saola" src="http://saolakids.vn/uploads/images/z2540036695195_9fef373d6d1369ec142bb184effc0276.jpg" class="ls-bg" style="top:50%; left:50%; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; width:100%;" data-ls="showinfo:1; durationin:2000; easingin:easeOutExpo; scalexin:1.5; scaleyin:1.5; position:fixed;">
+            <p style="width:600px; font-size:50px; line-height:60px; top:40%; left:200px; white-space:normal; " class="ls-l text-uppercase higlight-font font-500 ls-hide-phone text-primary " data-ls="offsetyin:150; durationin:700; delayin:500; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400; parallaxlevel:0;">
+                đồ gỗ sao la
+            </p>
+                        <p style="width:580px; font-weight:400; font-size:20px; line-height:30px; top:58%; left:220px; white-space:normal;" class="ls-l ls-hide-phone text-primary ordenery-font" data-ls="offsetxin:150; durationin:700; easingin:easeOutBack; rotatexin:20; scalexin:1; offsetyout:600; durationout:400; parallaxlevel:0; delayin:300;">
+                Sản phẩm cho bé<br />
+Thân thiện với môi trường<br />
+Bố Mẹ thích ghê
+            </p>
+
+            <div style="text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.75);width:3px; height:60px; border-radius:0; top:58%; left:200px;" class="ls-l ls-hide-phone bg-primary" data-ls="offsetxin:100; easingin:easeOutBack; delayin:400; durationout:400; offsetxout:-20; parallax:false; parallaxlevel:1;"></div>
+            
+                    </div>
+            </div>
+</div>
+    <div class="full-row py-5 top-products" style="background: #B6B6DC">
+        <div class="container">
+            <div class="row g-3 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 e-image-bg-light e-hover-image-zoom e-btn-set-four cart-slide-left featured-products home">
+                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/NHA MINH EDITED- 060.png')">
+                <a href="http://saolakids.vn/xe-cong-nong" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                
+                    
+                        
+                    
+                
+                                <img src="http://saolakids.vn/uploads/images/NHA MINH EDITED- 060.png" alt="Xe công nông" style="display: none">
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="76" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="76" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/xe-cong-nong">Xe công nông</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>Liên hệ</ins>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 425.png')">
+                <a href="http://saolakids.vn/giuong-tang" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                
+                    
+                        
+                    
+                
+                                <img src="http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 425.png" alt="Giường tầng" style="display: none">
+                                    <div class="on-sale">- 5%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="74" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="74" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/giuong-tang">Giường tầng</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>14,900,000 VND</ins>
+                                                    <del>15,700,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 437.png')">
+                <a href="http://saolakids.vn/ke-tu-6-ngan-keo" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                
+                    
+                        
+                    
+                
+                                <img src="http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 437.png" alt="Kệ tủ 6 ngăn kéo" style="display: none">
+                                    <div class="on-sale">- 4%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="73" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="73" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/ke-tu-6-ngan-keo">Kệ tủ 6 ngăn kéo</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>9,350,000 VND</ins>
+                                                    <del>9,700,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 051.png')">
+                <a href="http://saolakids.vn/vit-day-keo" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                
+                    
+                        
+                    
+                
+                                <img src="http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 051.png" alt="Vịt dây kéo" style="display: none">
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="72" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="72" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/vit-day-keo">Vịt dây kéo</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>Liên hệ</ins>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/NHA MINH EDITED - 61.png')">
+                <a href="http://saolakids.vn/bo-do-choi-nong-trai" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                
+                    
+                        
+                    
+                
+                                <img src="http://saolakids.vn/uploads/images/NHA MINH EDITED - 61.png" alt="Bộ đồ chơi nông trại" style="display: none">
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="67" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="67" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/bo-do-choi-nong-trai">Bộ đồ chơi nông trại</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>Liên hệ</ins>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/NHA MINH EDITED- 151.png')">
+                <a href="http://saolakids.vn/ca-heo" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                
+                    
+                        
+                    
+                
+                                <img src="http://saolakids.vn/uploads/images/NHA MINH EDITED- 151.png" alt="Cá heo" style="display: none">
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="65" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="65" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/ca-heo">Cá heo</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>Liên hệ</ins>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                            </div>
+        </div>
+    </div>
+                                        <div class="full-row py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-head d-flex justify-content-between align-items-center pb-20">
+                                <h3 class="mb-0 color-wood-light down-line">Nội thất</h3>
+                                <a href="http://saolakids.vn/furniture-1" class="btn-link-down-line color-wood-light text-uppercase font-small">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                                                <div class="col-md-4">
+                            <div class="banner-wrapper hover-img-zoom banner-one custom-class-112 mb-3"
+                                 style="background: url('http://saolakids.vn/uploads/images/z2569419860004_e8f45fc8300e60e9d6fbe1fe55ba17d5.jpg'); background-size: cover;
+                                         height: 100%; min-height: 300px; border-radius: 5px">
+                                <!-- <div class="banner-content position-absolute">
+                                    <div class="banner-inside">
+                                        <h3><a href="http://saolakids.vn/furniture-1" class="text-white text-uppercase text-decoration-none mb-4">
+                                                Nội thất
+                                            </a>
+                                        </h3>
+                                                                                <p class="d-block mb-2" style="font-size: 18px">
+                                            Không gian sáng tạo<br />
+Vui chơi cùng con
+                                        </p>
+                                                                                    <a href="http://saolakids.vn/furniture-1" class="btn-link-down-line mt-20 text-uppercase">Xem thêm</a>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-8">
+                            <div class="row g-3 row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1 e-image-bg-light e-hover-image-zoom e-btn-set-four featured-products cart-slide-left">
+                                                                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/2_NHA MINH EDITED- 368.png')">
+                <a href="http://saolakids.vn/ke-tu-2-ngan" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/2_NHA MINH EDITED- 368.png" alt="Kệ tủ 2 ngăn" style="display: none">
+                                    <div class="on-sale">- 14%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="158" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="158" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/ke-tu-2-ngan">Kệ tủ 2 ngăn</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>2,550,000 VND</ins>
+                                                    <del>2,950,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/2_NHA MINH EDITED- 216.png')">
+                <a href="http://saolakids.vn/ghe-go-thong" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/2_NHA MINH EDITED- 216.png" alt="Ghế gỗ thông" style="display: none">
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="157" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="157" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/ghe-go-thong">Ghế gỗ thông</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>970,000 VND</ins>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 322.png')">
+                <a href="http://saolakids.vn/xe-tap-di-cho-be" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 322.png" alt="Xe tập đi cho bé" style="display: none">
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="156" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="156" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/xe-tap-di-cho-be">Xe tập đi cho bé</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>1,350,000 VND</ins>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/NHA MINH EDITED- 327.png')">
+                <a href="http://saolakids.vn/ban-hinh-vuong-go-de-gai" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/NHA MINH EDITED- 327.png" alt="Bàn hình vuông gỗ dẻ gai" style="display: none">
+                                    <div class="on-sale">- 8%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="155" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="155" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/ban-hinh-vuong-go-de-gai">Bàn hình vuông gỗ dẻ gai</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>1,790,000 VND</ins>
+                                                    <del>1,950,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/NHA MINH EDITED- 347.png')">
+                <a href="http://saolakids.vn/ban-hoc-dieu-chinh-do-cao-lon" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/NHA MINH EDITED- 347.png" alt="Bàn học điều chỉnh độ cao lớn" style="display: none">
+                                    <div class="on-sale">- 9%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="154" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="154" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/ban-hoc-dieu-chinh-do-cao-lon">Bàn học điều chỉnh độ cao lớn</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>3,980,000 VND</ins>
+                                                    <del>4,390,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/Untitled-1 (1).png')">
+                <a href="http://saolakids.vn/set-noi-tu-ke" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/Untitled-1 (1).png" alt="Set nôi tủ kệ" style="display: none">
+                                    <div class="on-sale">- 7%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="153" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="153" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/set-noi-tu-ke">Set nôi tủ kệ</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>36,150,000 VND</ins>
+                                                    <del>38,900,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                            </div>
+                        </div>
+
+                                            </div>
+                </div>
+            </div>
+                                                <div class="full-row py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-head d-flex justify-content-between align-items-center pb-20">
+                                <h3 class="mb-0 color-wood-light down-line">Đồ chơi trẻ em</h3>
+                                <a href="http://saolakids.vn/do-choi-tre-em" class="btn-link-down-line text-secondary text-uppercase font-small">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-md-8">
+                            <div class="row g-3 row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1 e-image-bg-light e-hover-image-zoom e-btn-set-four featured-products cart-slide-left">
+                                                                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/NHA MINH EDITED - 63.png')">
+                <a href="http://saolakids.vn/hai-cau" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/NHA MINH EDITED - 63.png" alt="Hải cẩu" style="display: none">
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="160" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="160" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/hai-cau">Hải cẩu</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>75,000 VND</ins>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/NHA MINH EDITED - 38.png')">
+                <a href="http://saolakids.vn/ca-mau-cam-dam_1" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/NHA MINH EDITED - 38.png" alt="Cá màu cam đậm" style="display: none">
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="159" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="159" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/ca-mau-cam-dam_1">Cá màu cam đậm</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>75,000 VND</ins>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/NHA MINH EDITED- 078.png')">
+                <a href="http://saolakids.vn/bo-do-choi-tho-truot-van" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/NHA MINH EDITED- 078.png" alt="Bộ đồ chơi thỏ trượt ván" style="display: none">
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="152" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="152" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/bo-do-choi-tho-truot-van">Bộ đồ chơi thỏ trượt ván</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>Liên hệ</ins>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/NHA MINH EDITED - 76.png')">
+                <a href="http://saolakids.vn/song-bien-nho" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/NHA MINH EDITED - 76.png" alt="Sóng biển nhỏ" style="display: none">
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="151" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="151" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/song-bien-nho">Sóng biển nhỏ</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>Liên hệ</ins>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/NHA MINH EDITED - 75.png')">
+                <a href="http://saolakids.vn/song-bien-lon" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/NHA MINH EDITED - 75.png" alt="Sóng biển lớn" style="display: none">
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="150" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="150" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/song-bien-lon">Sóng biển lớn</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>Liên hệ</ins>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/NHA MINH EDITED - 71.png')">
+                <a href="http://saolakids.vn/rong-bien" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/NHA MINH EDITED - 71.png" alt="Rong biển" style="display: none">
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="149" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="149" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/rong-bien">Rong biển</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>Liên hệ</ins>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                            </div>
+                        </div>
+
+                                                    <div class="col-md-4">
+                                <div class="banner-wrapper hover-img-zoom banner-one custom-class-112 mb-3"
+                                     style="background: url('http://saolakids.vn/uploads/images/z2569419853554_070d600acdf59c4239344379e6730576.jpg'); background-size: cover;
+                                             height: 100%; min-height: 300px; border-radius: 5px">
+                                    <!-- div class="banner-content position-absolute">
+                                        <div class="banner-inside">
+                                            <h3><a href="http://saolakids.vn/do-choi-tre-em" class="text-white text-uppercase text-decoration-none mb-4">
+                                                    Đồ chơi trẻ em
+                                                </a>
+                                            </h3>
+                                                                                            <p class="text-white d-block mb-2" style="font-size: 18px">
+                                                    Chất lượng gỗ tốt<br />
+Thân thiện với trẻ
+                                                </p>
+                                                                                        <a href="http://saolakids.vn/do-choi-tre-em" class="btn-link-down-line mt-20 text-uppercase">Xem tiếp</a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+            
+        <div class="full-row bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="text-center pb-0 mx-auto w-sm-100 font-700 text-dark">Sản phẩm đang khuyến mãi</h3>
+                    <span class="text-primary text-center mb-4 w-50 d-table mx-auto tagline text-uppercase font-small">Tiết kiệm chi phí, khuyến mãi lớn</span>
+                </div>
+            </div>
+            <div class="row g-3 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-1 e-image-bg-light e-hover-image-zoom e-btn-set-four cart-slide-left">
+                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/2_NHA MINH EDITED- 368.png')">
+                <a href="http://saolakids.vn/ke-tu-2-ngan" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/2_NHA MINH EDITED- 368.png" alt="Kệ tủ 2 ngăn" style="display: none">
+                                    <div class="on-sale">- 14%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="158" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="158" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/ke-tu-2-ngan">Kệ tủ 2 ngăn</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>2,550,000 VND</ins>
+                                                    <del>2,950,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/NHA MINH EDITED- 327.png')">
+                <a href="http://saolakids.vn/ban-hinh-vuong-go-de-gai" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/NHA MINH EDITED- 327.png" alt="Bàn hình vuông gỗ dẻ gai" style="display: none">
+                                    <div class="on-sale">- 8%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="155" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="155" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/ban-hinh-vuong-go-de-gai">Bàn hình vuông gỗ dẻ gai</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>1,790,000 VND</ins>
+                                                    <del>1,950,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/NHA MINH EDITED- 347.png')">
+                <a href="http://saolakids.vn/ban-hoc-dieu-chinh-do-cao-lon" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/NHA MINH EDITED- 347.png" alt="Bàn học điều chỉnh độ cao lớn" style="display: none">
+                                    <div class="on-sale">- 9%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="154" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="154" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/ban-hoc-dieu-chinh-do-cao-lon">Bàn học điều chỉnh độ cao lớn</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>3,980,000 VND</ins>
+                                                    <del>4,390,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/Untitled-1 (1).png')">
+                <a href="http://saolakids.vn/set-noi-tu-ke" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/Untitled-1 (1).png" alt="Set nôi tủ kệ" style="display: none">
+                                    <div class="on-sale">- 7%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="153" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="153" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/set-noi-tu-ke">Set nôi tủ kệ</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>36,150,000 VND</ins>
+                                                    <del>38,900,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 471.png')">
+                <a href="http://saolakids.vn/tu-lon-2-canh-va-mot-ngan-keo" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 471.png" alt="Tủ lớn 2 cánh và một ngăn kéo" style="display: none">
+                                    <div class="on-sale">- 8%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="98" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="98" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/tu-lon-2-canh-va-mot-ngan-keo">Tủ lớn 2 cánh và một ngăn kéo</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>16,900,000 VND</ins>
+                                                    <del>18,300,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 361.png')">
+                <a href="http://saolakids.vn/tu-lon-2-canh" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 361.png" alt="Tủ lớn 2 cánh" style="display: none">
+                                    <div class="on-sale">- 4%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="97" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="97" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/tu-lon-2-canh">Tủ lớn 2 cánh</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>5,950,000 VND</ins>
+                                                    <del>6,200,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 358.png')">
+                <a href="http://saolakids.vn/ke-tu-2-ngan-khong-cua-go-de-gai" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 358.png" alt="Kệ tủ 2 ngăn không cửa gỗ dẻ gai" style="display: none">
+                                    <div class="on-sale">- 14%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="93" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="93" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/ke-tu-2-ngan-khong-cua-go-de-gai">Kệ tủ 2 ngăn không cửa gỗ dẻ gai</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>2,550,000 VND</ins>
+                                                    <del>2,950,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 265.png')">
+                <a href="http://saolakids.vn/ghe-ngoi-hoc-dieu-chinh-do-cao-lon" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 265.png" alt="Ghế ngồi học điều chỉnh độ cao lớn" style="display: none">
+                                    <div class="on-sale">- 12%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="81" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="81" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/ghe-ngoi-hoc-dieu-chinh-do-cao-lon">Ghế ngồi học điều chỉnh độ cao lớn</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>1,370,000 VND</ins>
+                                                    <del>1,560,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 211.png')">
+                <a href="http://saolakids.vn/ghe-go-soi" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 211.png" alt="Ghế gỗ sồi" style="display: none">
+                                    <div class="on-sale">- 9%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="79" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="79" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/ghe-go-soi">Ghế gỗ sồi</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>1,550,000 VND</ins>
+                                                    <del>1,700,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                        <div class="col">
+    <div class="product type-product">
+        <div class="product-wrapper">
+            <div class="product-image" style="background-image: url('http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 269.png')">
+                <a href="http://saolakids.vn/ghe-go-de-gai-co-lung-tua" style="position: absolute; width: 100%; height: 100%">
+                    &nbsp;
+                </a>
+                                <img src="http://saolakids.vn/uploads/images/1_NHA MINH EDITED- 269.png" alt="Ghế gỗ dẻ gai có lưng tựa" style="display: none">
+                                    <div class="on-sale">- 20%</div>
+                                <div class="hover-area">
+                    <div class="wishlist-button">
+                        <a class="add_to_wishlist" data-product-id="78" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">Wishlist</a>
+                    </div>
+                    <div class="cart-button">
+                        <a class="button add_to_cart_button" href="javascript:;" data-product-id="78" data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Add to Cart" aria-label="Add to Cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title text-white">
+                    <a href="http://saolakids.vn/ghe-go-de-gai-co-lung-tua">Ghế gỗ dẻ gai có lưng tựa</a>
+                </h3>
+                <div class="product-price">
+                    <div class="price">
+                        <ins>1,200,000 VND</ins>
+                                                    <del>1,500,000 VND</del>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                            </div>
+        </div>
+    </div>
+    
+            <div class="full-row py-5 d-none d-sm-block post-featured">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <h3 class="text-center pb-0 mx-auto w-sm-100 font-700 color-wood-light">Bài viết nổi bật</h3>
+                        <span class=" text-center mb-4 w-50 d-table mx-auto tagline text-uppercase font-small">Chia sẻ, cập nhật các thông tin mới từ thị trường                        </span>
+                    </div>
+                </div>
+                <div class="row row-cols-lg-2 row-cols-1 g-3">
+                                        <div class="col">
+                        <div class="banner-wrapper hover-img-zoom banner-one custom-class-112">
+                            <div class="banner-image overflow-hidden transation">
+                                <img src="http://saolakids.vn/uploads/images/14fb8be4826d7a3b4ac58157c7a29b84.jpg" alt="Con vui hay buồn khi không đến trường vì dịch !">
+                            </div>
+                            <div class="banner-content position-absolute">
+                                <span class="text-dark font-500 font-small text-uppercase d-block mb-2">
+                                    Phụ huynh
+                                </span>
+                                <h4><a href="http://saolakids.vn/con-vui-hay-buon-khi-khong-den-truong-vi-dich" class="text-dark font-700 text-decoration-none">
+                                        Con vui hay buồn khi không đến trường vì dịch !
+                                    </a>
+                                </h4>
+                                <div class="font-fifteen">
+                                    <p>
+                                        Sự quan tâm của bố mẹ về tinh thần và thể chất khi con ở nhà lâu dài.
+                                    </p>
+                                </div>
+                                <a href="http://saolakids.vn/con-vui-hay-buon-khi-khong-den-truong-vi-dich" class="btn-link-down-line mt-20 text-uppercase">
+                                    Xem tiếp                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+            <div class="full-row bg-light py-4">
+        <div class="container p-0">
+            <div class="owl-carousel partner-slider">
+                <!--div class="item">
+    <a href="#"><img src="" alt="Image not found!" /></a>
+</div-->
+            </div>
+        </div>
+    </div>
+        <footer style="padding-top: 35px; background-color: #DB994C;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="">
+                    <div class="row">
+    <!--div class="col-md-4">
+        <div class="footer-widget category-widget">
+            <h6 class="widget-title mb-2">Danh mục</h6>
+            <ul>
+                <li><a href="/furniture-1">Nội thất</a></li>
+                <li><a href="/do-choi-tre-em">Đồ chơi trẻ em</a></li>
+            </ul>
+        </div>
+    </div-->
+    <div class="col-md-4">
+        <div class="footer-widget category-widget">
+            <h6 class="widget-title mb-2">Khách hàng</h6>
+            <ul>
+                <li><a href="#">Thanh toán và giao hàng</a></li>
+                <li><a href="#">Chính sách đổi trả</a></li>
+                <li><a href="#">Chăm sóc khách hàng</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="footer-widget widget-nav">
+            <h6 class="widget-title mb-2">Về chúng tôi</h6>
+            <ul>
+                <li><a href="#">Giới thiệu saolakids.vn</a></li>
+                <li><a href="#">Chính sách bảo mật thông tin khách hàng </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="footer-widget footer-company">
+                    <h5 class="head-office">
+    Công ty TNHH Nhã Minh
+</h5>
+<p>
+    94 Nguyễn Thị Minh Khai, P.Thạch Thang, Q.Hải Châu, TP.Đà Nẵng
+    <br>
+    SĐKKD: 0401280280 <br> NGÀY CẤP: 31/08/2020
+</p>
+
+<div class="row">
+    <div class="col-md-7">
+        <div class="ct-line">
+            <div class="ct-icon">
+                <i class="fa fa-envelope"></i>
+            </div>
+            <div class="ct-txt">
+                saolakids.vn@gmail.com
+            </div>
+        </div>
+        <div class="ct-line">
+            <div class="ct-icon">
+                <i class="fa fa-fax"></i>
+            </div>
+            <div class="ct-txt">
+                website: saolakids.vn <br> hotline: 0935305492
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="ct-line ct-line-right">
+            <div class="ct-icon" style="vertical-align:top;">
+                <i class="fa fa-phone"></i>
+            </div>
+            <div class="ct-txt">
+                0236 2213 613<br>0236 6555 345
+            </div>
+           
+        </div>
+        
+    </div>
+</div>
+
+                </div>
+                <div class="footer-widget media-widget my-3" style="color: #fff; padding-left: 77px">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+<a href="#"><i class="fab fa-google-plus-g"></i></a>
+<a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="full-row copyright py-3" style="background-color: #635c92;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="text-white font-500 sm-mb-10 d-block">© 2021 Saola - All right reserved</span>
+            </div>
+            <div class="col-md-6">
+                <span class="text-white font-500 sm-mb-10 d-block" style="text-align: right; letter-spacing: 5px">Design by saolakids.vn</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scroll to top -->
+<a href="#" class="bg-primary text-white" id="scroll"><i class="fa fa-angle-up"></i></a>
+<!-- End Scroll To top --></div>
+
+<script src="http://saolakids.vn/template/saola/assets/js/jquery.min.js"></script>
+<script src="http://saolakids.vn/template/saola/assets/js/greensock.js"></script>
+<script src="http://saolakids.vn/template/saola/assets/js/layerslider.transitions.js"></script>
+<script src="http://saolakids.vn/template/saola/assets/js/layerslider.kreaturamedia.jquery.js"></script>
+<script src="http://saolakids.vn/template/saola/assets/js/popper.min.js"></script>
+<script src="http://saolakids.vn/template/saola/assets/js/bootstrap.min.js"></script>
+<script src="http://saolakids.vn/template/saola/assets/js/jquery.fancybox.min.js"></script>
+<script src="http://saolakids.vn/template/saola/assets/js/owl.carousel.min.js"></script>
+<script src="http://saolakids.vn/template/saola/assets/js/wow.js"></script>
+<script src="http://saolakids.vn/template/saola/assets/js/jquery.countdown.js"></script>
+<script src="http://saolakids.vn/template/saola/assets/js/jquery.elevatezoom.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="http://saolakids.vn/template/saola/assets/js/custom.js"></script>
+
+<script>
+    function request(url, data, targetElement="#element_id") {
+        $.ajax({
+            headers: {
+                'X-CSRF-TOKEN': "AoDIeYAZ3FsRxjKiidiJi0CidOYLqeeqsoKeCm3l"
+            },
+            type: "POST",
+            url: url,
+            data: data,
+            success:function(response){
+                $(targetElement).html(response);
+            },
+            error: function(jqxhr, status, exception) {
+                console.log(exception)
+            }
+        });
+    }
+
+    function addToCart(productId, quantity=1, color="") {
+        return request("http://saolakids.vn/cart", {'id': productId, 'quantity': quantity, 'color': color}, "#top-cart");
+    }
+
+    function removeCartItem(productId) {
+        return request("http://saolakids.vn/cart/remove", {'id': productId}, "#top-cart");
+    }
+
+    function removeCartItemOnlist(productId) {
+        return request("http://saolakids.vn/cart/remove", {'id': productId, 'view': 'frontend.cart._list_page'}, "#detail-cart");
+    }
+
+    function updateCartItem(productId, quantity) {
+        return request("http://saolakids.vn/cart/update", {'id': productId, 'quantity': quantity}, "#detail-cart");
+    }
+
+    function reloadCart() {
+        setTimeout(function() {
+            request("http://saolakids.vn/cart/reload", {'id': ''}, "#top-cart");
+        }, 1200);
+    }
+
+    $('body').on('click', '.add_to_wishlist',  function(e) {
+        productId = $(this).attr('data-product-id');
+        e.preventDefault();
+        addToCart(productId);
+        Swal.fire({
+            icon: 'success',
+            title: 'Đã thêm sản phẩm yêu thích vào giỏ hàng.',
+            showConfirmButton: false,
+            timer: 2000
+        })
+        e.stopPropagation();
+    });
+
+    $('body').on('click', '.single_add_to_cart_button',  function(e) {
+        productId = $(this).attr('data-product-id');
+        quantity = $('#item_quantity').val();
+        color = $('#item_color').val();
+        e.preventDefault();
+        addToCart(productId, quantity, color);
+        e.stopPropagation();
+        Swal.fire({
+            icon: 'success',
+            title: 'Đã thêm sản phẩm vào giỏ hàng.',
+            showConfirmButton: false,
+            timer: 2000
+        })
+    });
+
+    $('body').on('click', '.add_to_cart_button',  function(e) {
+        Swal.fire({
+            icon: 'success',
+            title: 'Đã thêm sản phẩm vào giỏ hàng.',
+            showConfirmButton: false,
+            timer: 2000
+        });
+
+        productId = $(this).attr('data-product-id');
+        e.preventDefault();
+        addToCart(productId);
+        e.stopPropagation();
+    });
+
+    $('body').on('click', '.cart_item .remove',  function(e) {
+        productId = $(this).attr('data-product-id');
+
+        e.preventDefault();
+
+        Swal.fire({
+            title: 'Xóa sản phẩm khỏi giỏ hàng? Vui lòng xác nhận.',
+            showCancelButton: true,
+            confirmButtonText: 'Xóa'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                removeCartItemOnlist(productId);
+                reloadCart();
+            }
+        });
+        e.stopPropagation();
+    });
+
+    // View Cart hover items toggle show hide
+    if ($('.cart-view').has('.cart-popup')) {
+        $('body').on('click', '.has-cart-data',  function(e) {
+            e.preventDefault();
+            if ($(this).parent('.cart-view').hasClass('show')) {
+                $(this).parent('.cart-view').removeClass('show');
+            } else {
+                $(this).parent('.cart-view').addClass('show');
+            }
+            e.stopPropagation();
+        });
+    }
+
+    // Quantity number changing script
+    $('<div class="quantity-nav"><div class="quantity-button quantity-down">-</div><div class="quantity-button quantity-up">+</div></div>').insertAfter('.quantity input');
+
+    $('body').on('click', '.quantity-up',  function(e) {
+        e.preventDefault();
+        input = $(this).parent().parent().find('input[type="number"]');
+        productId = input.attr('data-product-id');
+        min = input.attr('min');
+        max = input.attr('max');
+
+        var oldValue = parseFloat(input.val());
+        if (oldValue >= max) {
+            var newVal = oldValue;
+        } else {
+            var newVal = oldValue + 1;
+        }
+        input.val(newVal);
+        input.trigger("change");
+
+        updateCartItem(productId, newVal);
+        reloadCart();
+        e.stopPropagation();
+    });
+
+    $('body').on('click', '.quantity-down',  function(e) {
+        input = $(this).parent().parent().find('input[type="number"]');
+        productId = input.attr('data-product-id');
+        min = input.attr('min');
+        max = input.attr('max');
+
+        var oldValue = parseFloat(input.val());
+        if (oldValue <= min) {
+            var newVal = oldValue;
+        } else {
+            var newVal = oldValue - 1;
+        }
+        input.val(newVal);
+        input.trigger("change");
+
+        updateCartItem(productId, newVal);
+        reloadCart();
+        e.stopPropagation();
+    });
+
+    // Click out the cart
+    $(document).on('click', function(e) {
+        var container = $('.cart-popup');
+        if (!container.is(e.target) && container.has(e.target).length === 0) {
+            if ($('.cart-view').hasClass('show')) {
+                $('.cart-view').removeClass('show');
+            }
+        }
+    });
+
+</script>
+    <!-- Initializing the slider -->
+    <script>
+        $(document).ready(function() {
+            $('#slider').layerSlider({
+                sliderVersion: '6.0.0',
+                type: 'fullwidth',
+                responsiveUnder: 0,
+                layersContainer: 1200,
+                hideUnder: 0,
+                hideOver: 100000,
+                skin: 'v6',
+                globalBGColor: '#ffffff',
+                navStartStop: false,
+                skinsPath: 'http://saolakids.vn/template/saola/assets/skins/',
+                height: 650
+            });
+        });
+    </script>
+
+
+<script>
+$(document).ready(function() {
+    $("body").on("contextmenu",function(e){
+       return false;
+    }); 
+}); 
+</script>
+</body>
+</html>

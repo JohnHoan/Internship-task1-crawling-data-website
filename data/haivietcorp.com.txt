@@ -1,0 +1,1971 @@
+ 
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<base href="//www.haivietcorp.com/">
+<meta name="google-site-verification" content="x2q1oxPakIY6kjrVsTA7rRyHYNRPB6cJ4Jss_C1yNus" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CÔNG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT</title>
+<meta name="description" CONTENT="Chuyên cung cấp thiết bị và phụ tùng công nghiệp cho các ngành dầu khí, nhà máy thép, nhà máy sữa, nhà máy nước giải khát,... Chất lượng tốt, giá cả cạnh tranh, hỗ trợ 24/7." />
+<meta name="keywords" CONTENT="Vật liệu làm kín, vat lieu lam kin, nhựa kỹ thuật, nhua ky thuat, bơm hóa chất, bom hoa chat, bơm định lượng, bom dinh luong, phốt cơ khí làm kín, phot co khi lam kin, dây tết chèn, day tet chen" />
+
+<link rel="canonical" href="https://www.haivietcorp.com:443/" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146353373-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146353373-1');
+</script>
+
+
+<meta name="google-site-verification" content="8DT0jXFNGyXk2Hgxx4yn45ZMR8RBuk2MqpewLC2HeMg" />
+<meta property="og:image" content="http://www.haivietcorp.com/upload/hinhanh/8312240871.jpg"/>
+			<meta property="og:title" content="CÔNG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT"/>
+			<meta property="og:site_name" content="CÔNG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT"/>
+			<meta property="og:url" content="http://www.haivietcorp.com"/>
+			<meta property="og:description" content="CÔNG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT" />
+<link href="style.css?v=1" type="text/css" rel="stylesheet">
+<link href="upload/hinhanh/1113264142.jpg" type="text/css" rel="shortcut icon">
+
+<link href="css/slick-theme.css" type="text/css" rel="stylesheet">
+<link href="css/slick.css" type="text/css" rel="stylesheet">
+
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,greek-ext,cyrillic-ext,vietnamese,greek' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="js/jquery.min.js" ></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.20.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js" ></script>  
+<link rel="stylesheet" type="text/css" href="js/menu/menumaker.css?v=1"/>
+<script type="text/javascript" src="js/menu/menumaker.js"></script>
+<script type="text/javascript" src="js/ImageScroller.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('body').append('<div id="top" >TOP</div>');
+		$(window).scroll(function() {
+			if($(window).scrollTop() > 100) {
+				$('#top').fadeIn();
+			} else {
+				$('#top').fadeOut();
+			}
+	   	});
+	   	$('#top').click(function() {
+			$('html, body').animate({scrollTop:0},500);
+	   	});
+
+		$('.box-sp').hover(function(){
+			$(this).stop().find('.box-sp-clone').css('display','none').fadeIn(200);
+		},function(){
+			$(this).stop().find('.box-sp-clone').fadeOut(100);
+		});
+		
+/*		$('a.add-to-basket').each(function(){
+			$(this).click(function(){
+				var id = $(this).attr('value');
+				var quantity = 1;
+				
+				$.ajax({
+					type: "POST",
+					url: "ajax/ajax_basket.php",
+					data: "id="+id+"&q="+quantity,
+					success: function(result){
+					
+						if(result)location.href="//www.haivietcorp.com/vi/basket.html";
+					}
+				});
+				return false;
+			});
+		});*/
+	});
+		
+</script>
+<script>
+$(document).ready(function () {
+
+    $("#cssmenu").menumaker({
+        title: "Menu",
+        format: "multitoggle"
+    });
+    $(".small-screen").find("ul li").each(function () {
+        if ($(this).hasClass("line")) {
+            $(this).remove();
+        }
+        if ($(this).find('a transitionAll').hasClass("icon_menu")) {
+            $(this).remove();
+        }
+    });
+})
+
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('img').each(function(index, element) {
+			if(!$(this).attr('alt') || $(this).attr('alt')=='')
+			{
+				$(this).attr('alt','CÔNG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT');
+			}
+		});
+		$(window).bind("scroll", function() {
+			var cach_top = $(window).scrollTop();
+			var heaigt_header = $('#header').height();
+
+			if(cach_top >= heaigt_header){
+				if(!$('#cssmenu').hasClass('fix_head fadeInDown animated')){
+					$('#cssmenu').addClass('fix_head fadeInDown animated');
+				}
+			}else{
+				$('#cssmenu').removeClass('fix_head fadeInDown animated');
+			}
+		});
+
+		$('.chaytt').slick({
+			dots: false,
+			infinite: true,
+			arrows:false,
+			autoplaySpeed: 3000,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			vertical: false,
+			autoplay: true,
+			responsive: [{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+				}
+			},{
+				breakpoint: 568,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}]
+		});
+		$('.list_vd_home').slick({
+			dots: false,
+			infinite: true,
+			arrows:false,
+			autoplaySpeed: 3000,
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			adaptiveHeight: true,
+			vertical: true,
+			autoplay: true,
+		});
+	});
+</script>
+<script type="application/ld+json">
+{
+  "@context": "//schema.org",
+  "@type": "Organization",
+  "name": "CÔNG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT",
+  "url": "www.haivietcorp.com",
+  "sameAs": [  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressRegion": "Ho Chi Minh",
+    "postalCode": "70000",
+    "addressCountry": "vi"
+  }
+}
+</script>
+
+<!--Cấm click chuột phải
+<script type="text/javascript">
+	var message="Đây là bản quyền thuộc về CÔNG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT";
+	function clickIE() {
+	if (document.all) {(message);return false;}
+	}
+	function clickNS(e) {
+	if (document.layers||(document.getElementById&&!document.all)) {
+		if (e.which==2||e.which==3) {alert(message);return false;}}}
+		if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;document.onselectstart=clickIE}document.oncontextmenu=new Function("return false")
+</script>
+<script type="text/javascript">
+	function disableselect(e){
+		return false 
+	}
+	function reEnable(){ 
+		return true 
+	} 
+	//if IE4+
+	document.onselectstart=new Function ("return false")
+	//if NS6
+	if (window.sidebar){
+		document.onmousedown=disableselect 
+		document.onclick=reEnable
+	} 
+</script>
+Cấm click chuột phải-->
+<!--<script type="text/javascript" src="//download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>-->
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<h1 class="the_an" style="position: absolute;top: -1000px;width: 0;height: 0;overflow: hidden;">CÔNG TY TNHH DỊCH VỤ KỸ THUẬT HẢI VIỆT</h1>
+<div id="full">
+	
+	
+<div id="header">
+	<div class="khung baohd">
+		<div class="gt"><a href="vi/gioi-thieu/" class="ha" >Giới Thiệu</a>
+					</div>
+		<a href="vi/tuyen-dung/" class="ha" >Tuyển Dụng</a>
+		<a href="vi/tin-tuc/" class="ha" >Tin Tức & Sự Kiện</a>
+		<a href="vi/lien-he.html" class="ha" >Liên Hệ</a>
+		<div id="lang">
+			<a href="vi/index.html" id="vi"><img src="images/img/vi.png" align="absmiddle" /></a> 
+			<a href="en/index.html" id="en"><img src="images/img/en.png" align="absmiddle" /></a>
+		</div>	
+	</div>	
+</div>
+<!-- #header -->	<nav id="cssmenu">
+		
+<div class="khung baomn flexwb">
+	<a class="logotc" href="vi/index.html">
+		<img src="upload/hinhanh/0382231241.png" class="">
+	</a>
+	<div class="menutc"></div>
+	<ul class="ulmn flexwb">
+		<li class="transitionAll active"><a href="vi/index.html" class="transitionAll a" >Trang chủ</a></li>
+		<li class="transitionAll "><a href="vi/san-pham/" class="transitionAll a" >Sản phẩm</a>
+			<ul>	
+				
+				<li class="transitionAll " ><a href="vi/vat-lieu-lam-kin.html" class="transitionAll">Vật liệu làm kín</a>
+				<ul>				<li class="transitionAll"><a href="vi/phot-khi-nen.html" class="transitionAll">Phớt Khí Nén</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/day-tet-chen.html" class="transitionAll">Dây tết chèn</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/phot-lam-kin-co-khi.html" class="transitionAll">PHỐT LÀM KÍN CƠ KHÍ</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/ron-bia-gioang-dem-lam-kin.html" class="transitionAll">RON BÌA - GIOĂNG ĐỆM LÀM KÍN </a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/hydraulic-seal.html" class="transitionAll">HYDRAULIC SEAL</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bang-ptfe-nem.html" class="transitionAll">BĂNG PTFE NỀM</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/oil-seal-oring.html" class="transitionAll">OIL SEAL & O-RING</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bo-bang-dan-lam-kin-sua-chua-duong-ong.html" class="transitionAll">BỘ BĂNG DÁN LÀM KÍN SỬA CHỮA ĐƯỜNG ỐNG </a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/phot-lam-kin-carbon.html" class="transitionAll">Phốt làm kín Carbon</a>
+				
+									</li>
+				</ul>				</li>
+				
+				<li class="transitionAll " ><a href="vi/nhua-ky-thuat.html" class="transitionAll">Nhựa Kỹ Thuật</a>
+				<ul>				<li class="transitionAll"><a href="vi/nhua-thong-dung-80c.html" class="transitionAll">NHỰA THÔNG DỤNG (< 80°C)</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/nhua-thong-dung-80-160c.html" class="transitionAll">NHỰA THÔNG DỤNG (80 - 160°C)</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/nhua-ky-thuat-160-220c.html" class="transitionAll">NHƯA KỸ THUẬT (160 - 220°C)</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/nhua-cach-nhiet-cach-dien.html" class="transitionAll">NHỰA CÁCH NHIỆT & CÁCH ĐIỆN</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/nhua-goc-flo.html" class="transitionAll">NHỰA GỐC FLO</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/nhua-chong-tinh-dien.html" class="transitionAll">NHỰA CHỐNG TĨNH ĐIỆN</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/nhua-cong-trinh.html" class="transitionAll">NHỰA CÔNG TRÌNH</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/vat-lieu-chiu-nhiet.html" class="transitionAll">VẬT LIỆU CHỊU NHIỆT</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/nhua-dac-chung.html" class="transitionAll">NHỰA ĐẶC CHỦNG</a>
+				
+									</li>
+				</ul>				</li>
+				
+				<li class="transitionAll " ><a href="vi/bom-he-thong-bom.html" class="transitionAll">Bơm & Hệ thống bơm</a>
+				<ul>				<li class="transitionAll"><a href="vi/bom-hoa-chat-cam-tay-bom-thung-phuy.html" class="transitionAll">BƠM HÓA CHẤT CẦM TAY - BƠM THÙNG PHUY </a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-hoa-chat-truc-dung.html" class="transitionAll">BƠM HÓA CHẤT TRỤC ĐỨNG</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-tuan-hoan.html" class="transitionAll">Bơm tuần hoàn</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-thuy-luc-truc-vit.html" class="transitionAll">Bơm thuỷ lực trục vít</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-piston-plunger-cho-nganh-gom-su.html" class="transitionAll">Bơm Piston Plunger Cho Ngành Gốm Sứ</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-cap-dich.html" class="transitionAll">Bơm Cấp Dịch</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-dan-dong-tu.html" class="transitionAll">Bơm dẫn động từ</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-dau-truyen-nhiet-thermaloil-pumps.html" class="transitionAll">Bơm dầu truyền nhiệt ( Thermal-Oil Pumps)</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-chim-nuoc-thai.html" class="transitionAll">Bơm chìm nước thải</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-mang-khi-nen-diaphragm-pumps.html" class="transitionAll">BƠM MÀNG KHÍ NÉN (DIAPHRAGM PUMPS)</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-banh-rang.html" class="transitionAll">BƠM BÁNH RĂNG</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-thuc-pham.html" class="transitionAll">BƠM THỰC PHẨM</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-nhua-duong.html" class="transitionAll">BƠM NHỰA ĐƯỜNG</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-truc-vit.html" class="transitionAll">BƠM TRỤC VÍT</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-hoa-chat.html" class="transitionAll">BƠM HÓA CHẤT</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-nuoc.html" class="transitionAll">BƠM NƯỚC</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-dinh-luong.html" class="transitionAll">BƠM ĐỊNH LƯỢNG</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bom-chan-khong.html" class="transitionAll">BƠM CHÂN KHÔNG</a>
+				
+									</li>
+				</ul>				</li>
+				
+				<li class="transitionAll " ><a href="vi/van-he-thong-duong-ong.html" class="transitionAll">Van & Hệ Thống Đường Ống</a>
+				<ul>				<li class="transitionAll"><a href="vi/thiet-bi-truyen-dong-cho-van-phu-kien.html" class="transitionAll">Thiết Bị Truyền Động Cho Van & Phụ Kiện</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-he-nhiet-dien.html" class="transitionAll">VAN HỆ NHIỆT ĐIỆN</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-he-vi-sinh-sanitary.html" class="transitionAll">VAN HỆ VI SINH SANITARY</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-cau.html" class="transitionAll">VAN CẦU</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-buom.html" class="transitionAll">VAN BƯỚM</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-bi.html" class="transitionAll">VAN BI</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-dieu-khien.html" class="transitionAll">VAN ĐIỀU KHIỂN</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-an-toan.html" class="transitionAll">VAN AN TOÀN</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-giam-ap.html" class="transitionAll">VAN GIẢM ÁP</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-nhua-he-hoa-chat.html" class="transitionAll">VAN NHỰA (HỆ HÓA CHẤT)</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-cong.html" class="transitionAll">VAN CỔNG</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-1-chieu.html" class="transitionAll">VAN 1 CHIỀU</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-dao.html" class="transitionAll">VAN DAO</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-phao.html" class="transitionAll">VAN PHAO</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-chanluppe.html" class="transitionAll">VAN CHÂN(LUPPE)</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-xien.html" class="transitionAll">VAN XIÊN</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/van-mang.html" class="transitionAll">VAN MÀNG</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/loc-y.html" class="transitionAll">LỌC Y</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bay-hoicoc-xa.html" class="transitionAll">BẪY HƠI/CỐC XẢ</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/dong-ho-luu-luong.html" class="transitionAll">ĐỒNG HỒ LƯU LƯỢNG</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/khop-noi-chong-runggian-no.html" class="transitionAll">KHỚP NỐI CHỐNG RUNG-GIÃN NỞ</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bo-sua-chua-van-mang-mecair.html" class="transitionAll">Bộ Sửa Chữa Van Mang MECAIR</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/pipe-clamp.html" class="transitionAll">PIPE CLAMP</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/gea-group.html" class="transitionAll"> GEA Group</a>
+				
+									</li>
+				</ul>				</li>
+				
+				<li class="transitionAll " ><a href="vi/thiet-bi-do-luong-chi-bao.html" class="transitionAll">Thiết bị đo lường & Chỉ báo</a>
+				<ul>				<li class="transitionAll"><a href="vi/oval-gear-flow-meter.html" class="transitionAll">Oval Gear Flow Meter</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/dong-ho-do-ap-suat.html" class="transitionAll">ĐỒNG HỒ ĐO ÁP SUẤT</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/dong-ho-do-nhiet-do.html" class="transitionAll">ĐỒNG HỒ ĐO NHIỆT ĐỘ</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/cam-bien-ap-suat.html" class="transitionAll">CẢM BIẾN ÁP SUẤT</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bo-canh-bao-bao-ve-do-rung.html" class="transitionAll">Bộ Cảnh Báo & Bảo Vệ Độ Rung</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/dong-ho-3-kim.html" class="transitionAll">ĐỒNG HỒ 3 KIM</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/accessories.html" class="transitionAll">ACCESSORIES</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bo-chuyen-doi-ap-suat-nhiet-do.html" class="transitionAll">BỘ CHUYỂN ĐỔI ÁP SUẤT, NHIỆT ĐỘ</a>
+				
+									</li>
+				</ul>				</li>
+				
+				<li class="transitionAll " ><a href="vi/thiet-bi-thuy-luc-va-khi-nen.html" class="transitionAll">Thiết bị thuỷ lực và khí nén</a>
+				<ul>				<li class="transitionAll"><a href="vi/flexible-coupling.html" class="transitionAll">Flexible coupling</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/piston-pump.html" class="transitionAll">PISTON PUMP</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/axial-piston-motors.html" class="transitionAll">Axial piston motors</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/pilot-operated-check-valve.html" class="transitionAll">PILOT OPERATED CHECK VALVE</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/hose-burst-check-valve.html" class="transitionAll">HOSE BURST CHECK VALVE</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/directional-valve.html" class="transitionAll">DIRECTIONAL VALVE</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/pressure-switch.html" class="transitionAll">PRESSURE SWITCH</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/dung-cu-cat-got-cmc.html" class="transitionAll">DỤNG CỤ CẮT GỌT CMC</a>
+				
+									</li>
+				</ul>				</li>
+				
+				<li class="transitionAll " ><a href="vi/loc-thiet-bi-loc.html" class="transitionAll">Lọc & Thiết bị lọc</a>
+				<ul>				<li class="transitionAll"><a href="vi/loc-vi-sinh.html" class="transitionAll">Lọc vi sinh</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/loc-dong-co-may-cong-nghiep.html" class="transitionAll">LỌC ĐỘNG CƠ MÁY CÔNG NGHIỆP</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/loc-thuy-luc.html" class="transitionAll">LỌC THỦY LỰC</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/loc-may-nen-say-khi.html" class="transitionAll">LỌC MÁY NÉN ,SẤY KHÍ</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/loc-phong-sach.html" class="transitionAll">LỌC PHÒNG SẠCH</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/loc-nuoc.html" class="transitionAll">LỌC NƯỚC </a>
+				
+									</li>
+				</ul>				</li>
+				
+				<li class="transitionAll " ><a href="vi/thiet-bi-phu-tung-cong-nghiep-hang-hai-dau-khi.html" class="transitionAll">Thiết bị - Phụ tùng công nghiệp - Hàng hải & Dầu khí</a>
+				<ul>				<li class="transitionAll"><a href="vi/dong-co-va-phu-tung.html" class="transitionAll">ĐỘNG CƠ VÀ PHỤ TÙNG</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/may-nen-khi-va-phu-tung.html" class="transitionAll">MÁY NÉN KHÍ VÀ PHỤ TÙNG</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/hop-so-va-phu-tung.html" class="transitionAll">HỘP SỐ VÀ PHỤ TÙNG</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/noi-hoi-va-thiet-bi.html" class="transitionAll">NỒI HƠI VÀ THIẾT BỊ</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/thiet-bi-dieu-khien-va-he-thong-lai.html" class="transitionAll">THIẾT BỊ ĐIỀU KHIỂN VÀ HỆ THỐNG LÁI</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/thiet-bi-day-tau-va-he-thong-chan-vit.html" class="transitionAll">THIẾT BỊ ĐẨY TÀU VÀ HỆ THỐNG CHÂN VỊT</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/cap-dien.html" class="transitionAll">CÁP ĐIỆN</a>
+				
+									</li>
+				</ul>				</li>
+				
+				<li class="transitionAll " ><a href="vi/khop-noi-phu-tung-khop-noi.html" class="transitionAll">Khớp nối & Phụ tùng khớp nối</a>
+				<ul>				<li class="transitionAll"><a href="vi/khop-noi-giam-chan-dan-hoi-kieu-omega-va-viva.html" class="transitionAll">KHỚP NỐI GIẢM CHẤN ĐÀN HỒI KIỂU OMEGA VÀ VIVA</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/khop-noi-giam-chan-kieu-tire.html" class="transitionAll">KHỚP NỐI GIẢM CHẤN KIỂU TIRE</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/khop-noi-kiem-giam-chan-sieu-dan-hoi.html" class="transitionAll">KHỚP NỐI KIỂM GIẢM CHẤN SIÊU ĐÀN HỒI</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/khop-noi-kieu-giam-chan-dan-hoi-thao-roi.html" class="transitionAll">KHỚP NỐI KIỂU GIẢM CHẤN ĐÀN HỒI THÁO RỜI</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/khop-noi-kieu-giam-chan-dan-hoi.html" class="transitionAll">KHỚP NỐI KIỂU GIÀM CHẤN ĐÀN HỒI</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/khop-noi-kieu-bu-long-va-barrel.html" class="transitionAll">KHỚP NỐI KIỂU BU LÔNG VÀ BARREL</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/khop-noi-kieu-chot.html" class="transitionAll">KHỚP NỐI KIỂU CHỐT</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/khop-noi-kieu-sao.html" class="transitionAll">KHỚP NỐI KIỂU SAO</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/khop-noi-xoay-cho-thuy-luc-khi-nen.html" class="transitionAll">Khớp Nối Xoay Cho Thủy Lực & Khí Nén</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/swivel-joint.html" class="transitionAll">Swivel joint</a>
+				
+									</li>
+				</ul>				</li>
+				
+				<li class="transitionAll " ><a href="vi/bac-dan.html" class="transitionAll">Bạc đạn</a>
+				<ul>				<li class="transitionAll"><a href="vi/bac-dan-sealmaster.html" class="transitionAll">Bạc đạn SEALMASTER</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bac-dan-skf.html" class="transitionAll">Bạc Đạn SKF </a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bac-dan-barden.html" class="transitionAll">Bạc Đạn BARDEN</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bac-dan-fyh.html" class="transitionAll">Bạc Đạn FYH</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bac-dan-iko.html" class="transitionAll">Bạc Đạn IKO</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bac-dan-ina.html" class="transitionAll">Bạc Đạn INA</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bac-dan-fag.html" class="transitionAll">Bạc Đạn FAG</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bac-dan-koyo.html" class="transitionAll">Bạc Đạn KOYO</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bac-dan-nachi.html" class="transitionAll">Bạc Đạn NACHI</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bac-dan-timken.html" class="transitionAll">Bạc Đạn TIMKEN</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bac-dan-nsk.html" class="transitionAll">Bạc Đạn NSK</a>
+				
+									</li>
+								<li class="transitionAll"><a href="vi/bac-dan-ntn.html" class="transitionAll">Bạc Đạn NTN</a>
+				
+									</li>
+				</ul>				</li>
+						</ul>
+		</li>
+		
+		<li class="transitionAll "><a href="vi/nganh-cong-nghiep/" class="transitionAll a" >Dịch vụ</a></li>
+		
+		<li class="transitionAll "><a class="transitionAll a" >Hãng sản xuất</a>
+			<ul class="ulhang">	
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/hangzhou-advance/" class="transitionAll">HANGZHOU ADVANCE</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/john-crane/" class="transitionAll">JOHN CRANE</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/lamons/" class="transitionAll">LAMONS</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/jamewalker/" class="transitionAll">JAMEWALKER </a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/aesseal/" class="transitionAll">AESSEAL</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/burgmann/" class="transitionAll">BURGMANN</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/ksf/" class="transitionAll">KSF</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/pretech/" class="transitionAll">PRETECH</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/texpack/" class="transitionAll">TEXPACK</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/polypenco/" class="transitionAll">Polypenco</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/awh/" class="transitionAll">AWH</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/ricocel/" class="transitionAll">RICOCEL</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/sudmo/" class="transitionAll">SUDMO</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/divatec/" class="transitionAll">DIVATEC</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/arako/" class="transitionAll">ARAKO</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/convalve/" class="transitionAll">CONVALVE</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/simona/" class="transitionAll">SIMONA</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/guarniflon/" class="transitionAll">Guarniflon</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/arako/" class="transitionAll">ARAKO</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/apv/" class="transitionAll">APV</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/alphadynamic/" class="transitionAll">ALPHADYNAMIC</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/magnaloy/" class="transitionAll">Magnaloy</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/tbwood/" class="transitionAll">TB-Wood</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/standart/" class="transitionAll">STANDART</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/knoll/" class="transitionAll">KNOLL</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/avko/" class="transitionAll">AVKO</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/mecair/" class="transitionAll">Mecair</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/sacmi/" class="transitionAll">SACMI</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/aseptomag/" class="transitionAll">ASEPTOMAG</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/mts-valve/" class="transitionAll">MTS Valve</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/aseptomag-valve/" class="transitionAll">Aseptomag Valve</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/tuchenhagen-valve/" class="transitionAll">Tuchenhagen Valve</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/ms-valve/" class="transitionAll">M&S Valve</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/gemu/" class="transitionAll">GEMU</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/georg-fischer/" class="transitionAll">Georg Fischer</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/itt-manufacturing-enterprises-inc/" class="transitionAll">ITT Manufacturing Enterprises, Inc.</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/sed-flow-control-gmbh/" class="transitionAll">SED Flow Control GmbH</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/swagelok-anderson-gmbh/" class="transitionAll">Swagelok & Anderson GmbH</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/top-line-process-equipment/" class="transitionAll">Top Line Process Equipment</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/saunders-crane/" class="transitionAll">Saunders Crane</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/brkert-werke-gmbh-co-kg/" class="transitionAll">Bürkert Werke GmbH & Co. KG</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/nomad/" class="transitionAll">NOMAD</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/elepon/" class="transitionAll">ELEPON</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/nikkiso/" class="transitionAll">NIKKISO</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/teikoku/" class="transitionAll">TEIKOKU</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/korea/" class="transitionAll">KOREA</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/simona/" class="transitionAll">SIMONA</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/quadrant/" class="transitionAll">QUADRANT</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/ran/" class="transitionAll">RAN</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/holthausen-elektronik-gmbh/" class="transitionAll">Holthausen Elektronik GmbH </a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/avko/" class="transitionAll">AVKO</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/merkel/" class="transitionAll">MERKEL</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/iwaki/" class="transitionAll">IWAKI</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/prominent/" class="transitionAll">Prominent</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/tohkemy/" class="transitionAll">TOHKEMY</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/geatuchenhagen-valves/" class="transitionAll">GEA-TUCHENHAGEN® VALVES</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/alfa-laval/" class="transitionAll">Alfa Laval</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/geatuchenhagen-pumps/" class="transitionAll">GEA-TUCHENHAGEN® PUMPS</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/us-seal/" class="transitionAll">US SEAL</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/ina/" class="transitionAll">INA</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/machi/" class="transitionAll">MACHI</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/koyo/" class="transitionAll">KOYO</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/skf/" class="transitionAll">SKF</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/tema/" class="transitionAll">TEMA</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/sealtek/" class="transitionAll">SEALTEK</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/stb/" class="transitionAll">STB</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/dichta/" class="transitionAll">DICHTA</a>
+				
+				</li>
+				
+				<li class="transitionAll " ><a href="vi/hang-san-xuat/ksb/" class="transitionAll">KSB</a>
+				
+				</li>
+						</ul>
+		</li> 
+		<li class="transitionAll "><a href="vi/video/" class="transitionAll a" >Video</a></li>
+		<li class="transitionAll "><a href="vi/tai-lieu.html" class="transitionAll a" >Tài liệu</a></li>
+		<li class="transitionAll  aan"><a href="vi/gioi-thieu/" class="transitionAll a" >Giới Thiệu</a>
+			<ul>				<li class="transitionAll"><a href="vi/gioi-thieu/ve-chung-toi.html" class="transitionAll">Về chúng tôi</a></li>
+							<li class="transitionAll"><a href="vi/gioi-thieu/gioi-thieu-ve-cong-ty-hai-viet.html" class="transitionAll">Giới Thiệu Về Công Ty HẢI VIỆT</a></li>
+							<li class="transitionAll"><a href="vi/gioi-thieu/nhua-ky-thuat.html" class="transitionAll">Nhựa Kỹ Thuật</a></li>
+			</ul>		</li>
+		<li class="transitionAll  aan"><a href="vi/tuyen-dung/" class="transitionAll a" >Tuyển Dụng</a></li>
+		<li class="transitionAll  aan"><a href="vi/tin-tuc/" class="transitionAll a" >Tin Tức & Sự Kiện</a></li>
+		<li class="transitionAll  aan"><a href="vi/lien-he.html" class="transitionAll a" >Liên Hệ</a></li>
+		
+		<li><a class="clicktk a"><img src="images/img/tk.png" alt=""></a></li>
+	</ul>
+	<a class="clicktk clicktk1"><img src="images/img/tk.png" alt=""></a>
+	<script type="text/javascript">
+	$(function(){
+		$('#search #btn').click(function(evt){
+			onSearch(evt);
+		});
+	});
+	$('.clicktk').click(function() {
+		$('#search').stop().slideToggle(500);
+	});
+	function doEnter(evt){
+	// IE					// Netscape/Firefox/Opera
+	var key;
+	if(evt.keyCode == 13 || evt.which == 13){
+		onSearch(evt);
+	}else{
+		return false;	
+	}
+	}
+	function onSearch(evt){
+
+		var keyword = document.getElementById("keyword").value;
+		 if (keyword == '' || keyword == 'Tìm kiếm sản phẩm') {
+			 alert('Bạn chưa nhập thông tin tìm kiếm!');
+		 } else {
+			 $('#frm_header_search').submit();
+		 }
+	}
+</script>
+
+
+<div id="search">
+    <form  id="frm_header_search" name="frm_header_search" method="get" action="index.php">
+	  <input type="hidden" name="com" value="search">
+	  <input type="text" name="keyword" id="keyword" class="element-search" value="Tìm kiếm sản phẩm" onKeyPress="doEnter(event,'keyword');" value="Tìm kiếm sản phẩm" onclick="if(this.value=='Tìm kiếm sản phẩm'){this.value=''}" onblur="if(this.value==''){this.value='Tìm kiếm sản phẩm'}">
+      <div id="btn"></div>
+    </form>
+</div>
+<!-- #search -->
+	<!-- #menu -->
+
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('#main-nav li').hover(function(){
+				$(this).find('ul:first').css({visibility: "visible", display: "none"}).slideDown(500);	
+			}, function(){
+				$(this).find('ul:first').css({visibility: "hidden"}).hide(300);	
+			});
+		});
+	</script>
+</div>	</nav>
+	<div id="wrapper">
+	<link href="css/css_jssor_slider.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/jssor.js"></script>
+<script type="text/javascript" src="js/jssor.slider.js"></script>
+<script type="text/javascript" src="js/js_jssor_slider.js"></script>
+
+<div id="slider1_container" style="position: relative;width: 1920px; height: 651px;margin:auto;">
+    <!-- Slides Container -->
+    <div u="slides" style="cursor: move;width: 1920px; height: 651px;overflow: hidden;">
+                <div>
+            <img u="image" src="upload/hinhanh/9808290569734170.png" alt="" />
+        </div>
+                <div>
+            <img u="image" src="upload/hinhanh/8052821985647140.jpg" alt="" />
+        </div>
+                <div>
+            <img u="image" src="upload/hinhanh/628209241537937.jpg" alt="" />
+        </div>
+                <div>
+            <img u="image" src="upload/hinhanh/336722488003079.png" alt="" />
+        </div>
+                <div>
+            <img u="image" src="upload/hinhanh/1988223165718234.png" alt="" />
+        </div>
+                <div>
+            <img u="image" src="upload/hinhanh/1988223165718233.png" alt="" />
+        </div>
+                <div>
+            <img u="image" src="upload/hinhanh/7183564619756540.jpg" alt="" />
+        </div>
+                        
+    </div>
+    <!-- Trigger -->
+             
+    <!-- Arrow Left -->
+    <span u="arrowleft" class="jssora05l" ></span>
+    <!-- Arrow Right -->
+    <span u="arrowright" class="jssora05r"></span>
+</div><!-- Jssor Slider End -->
+<style type="text/css">
+#slider1_container .jssora05l{top: 50% !important;width: 51px !important; height: 51px !important;
+left: 30px !important; background: url(images/img/pre.png) no-repeat !important;margin-top:-25.5px;
+border-radius: 50%;overflow: hidden;}
+#slider1_container .jssora05r{top: 50% !important;width:51px !important; height: 51px !important;
+right: 30px !important; background:url(images/img/nex.png) no-repeat !important;margin-top:-25.5px;border-radius: 50%;overflow: hidden;}
+</style>		
+		<div id="container">
+							<script>
+$().ready(function(){
+  $(".sel_video").click(function(){
+    $name = $(this).attr('title');
+    $val = $(this).attr('rel');
+    $('.item_video_nb').find(".name").html($name);
+    $src_new = "https://www.youtube.com/embed/"+$val+"?autoplay=1&rel=0";
+    $('.item_video_nb').find("iframe").attr('src', $src_new);
+  })
+})
+</script>
+	<script type="text/javascript">
+	$(document).ready(function(e) {
+        $('#clickvideo1').change(function(){
+			var src = 'https://www.youtube.com/embed/'+$(this).val();
+			$('.vvv').attr('src',src);
+		});
+    });
+</script>
+<div class="dacdiem">
+	<div class="khung">
+		<div class="info-title"><h2>Danh mục sản phẩm</h2></div>
+		<p class="sltc">Công Ty TNHH Dịch Vụ Kỹ Thuật Hải Việt - HAVICO được thành lập năm 2009 với đội ngũ nhân viên đầy kinh nghiệm và nhiệt huyết</p>
+		<div class="baosp">
+						<div class="itemsp transitionAll">
+				<h3><a href="vi/vat-lieu-lam-kin.html" title="Vật liệu làm kín" class="transitionAll"> Vật liệu làm kín </a></h3>
+				<a class="img" href="vi/vat-lieu-lam-kin.html" title="Vật liệu làm kín" > <img src="thumb/240x152/1/upload/sanpham/slide-vat-lieu-lam-kin-1475739690.png" alt="" class="transitionAll"></a>
+				<p class="mota">HAVICO&nbsp;l&agrave; nh&agrave; ph&acirc;n phối c&aacute;c loại d&acirc;y tết ch&egrave;n xuất xứ từ EURO/G7 h&agrave;ng đầu tại Việt Nam như: Chesterton, EagleBurgmann, James&nbsp;Walker, Garlock, Merkel, Montero, Pillar, SEALTEK, STB, Kieselmann, Klinger, Latty, Teadit, Tombo, Valqua,...
+
+Đặc biệt,&nbsp;HAVICO&nbsp;l&agrave; nh&agrave; ph&acirc;n phối ch&iacute;nh thức tại Việt Nam từ năm 2015 cho h&atilde;ng&nbsp;SEALTEK - &Yacute;, AVKO - CH&Acirc;U &Acirc;U&nbsp;v&agrave;&nbsp;STB - ĐỨC.
+</p>
+			</div><!-- .box-sp -->
+						<div class="itemsp transitionAll">
+				<h3><a href="vi/nhua-ky-thuat.html" title="Nhựa Kỹ Thuật" class="transitionAll"> Nhựa Kỹ Thuật </a></h3>
+				<a class="img" href="vi/nhua-ky-thuat.html" title="Nhựa Kỹ Thuật" > <img src="thumb/240x152/1/upload/sanpham/banno-1473665805.jpg" alt="" class="transitionAll"></a>
+				<p class="mota">
+
+Nhựa Kỹ Thuật của ch&uacute;ng t&ocirc;i cung cấp gồm c&aacute;c loại như sau:
+
+&nbsp;
+
+
+	Nhựa th&ocirc;ng dụng chịu nhiệt &lt; 80oC: ABS, PMMA, PS, PB, PVC, PP, PPC, PPH, PE, HMW-PE, UHMW-PE, Tivar Family.
+
+
+&nbsp;
+
+
+	Nhựa kỹ thuật chịu nhiệt từ 80oC đến 160oC: PA, PC, POM, PET, Cast Nylon, MC, ERTALYTE PET-P, 6SA, 66SA, 6PLA, LF, Nylatron GS, GSM, NSM, MC901, Micarta, Nylon 4.6, Semitron Esd225.
+
+
+&nbsp;
+
+
+	Nhựa kỹ thuật chịu nhiệt từ 160oC đến 220oC: Sultron PSU, Duratron U1000 PEI, Sultron PPSU, Techtron PPS, Ketron PEEK,&nbsp;Fluorosint&reg;&nbsp;Enhanced PTFE,&nbsp;Semitron&reg;&nbsp;MPR1000,&nbsp;PTFE (Teflon), PCTFE, PVDF, FEP, PSU, PEI, PPSU, PPS, Techtron, PEEK,&nbsp;Semitron&reg;&nbsp;Semiconductor Grade Family.
+
+
+&nbsp;
+
+
+	Nhựa kỹ thuật chịu nhiệt cao &gt; 220oC: PAI, Duratron PAI, PI, Duratron&reg;&nbsp;D7000 PI, PBI, Duratron&reg;&nbsp;CU60 PBI,&nbsp;KEYLON&reg;&nbsp;PTFE.
+
+
+&nbsp;
+
+T&agrave;i Liệu Kỹ Thuật Chi Tiết
+</p>
+			</div><!-- .box-sp -->
+						<div class="itemsp transitionAll">
+				<h3><a href="vi/bom-he-thong-bom.html" title="Bơm & Hệ thống bơm" class="transitionAll"> Bơm & Hệ thống bơm </a></h3>
+				<a class="img" href="vi/bom-he-thong-bom.html" title="Bơm & Hệ thống bơm" > <img src="thumb/240x152/1/upload/sanpham/hoa-chat-1473061744.jpg" alt="" class="transitionAll"></a>
+				<p class="mota">HAVICO l&agrave;&nbsp;đại diện h&atilde;ng bơm&nbsp;Ch&acirc;u &Acirc;u&nbsp;tại Việt Nam của d&ograve;ng bơm, với gi&aacute; cả cạnh tranh v&agrave; chất lượng bảo đảm, dịch vụ bảo tr&igrave; tốt.&nbsp;Hiện&nbsp;HAVICO&nbsp;ch&uacute;ng t&ocirc;i đ&atilde; v&agrave; đang khẳng định bản th&acirc;n m&igrave;nh trong c&aacute;c d&ograve;ng bơm tr&ecirc;n thị trường Việt Nam.
+</p>
+			</div><!-- .box-sp -->
+						<div class="itemsp transitionAll">
+				<h3><a href="vi/van-he-thong-duong-ong.html" title="Van & Hệ Thống Đường Ống" class="transitionAll"> Van & Hệ Thống Đường Ống </a></h3>
+				<a class="img" href="vi/van-he-thong-duong-ong.html" title="Van & Hệ Thống Đường Ống" > <img src="thumb/240x152/1/upload/sanpham/7-1468998352.jpg" alt="" class="transitionAll"></a>
+				<p class="mota"></p>
+			</div><!-- .box-sp -->
+						<div class="itemsp transitionAll">
+				<h3><a href="vi/thiet-bi-do-luong-chi-bao.html" title="Thiết bị đo lường & Chỉ báo" class="transitionAll"> Thiết bị đo lường & Chỉ báo </a></h3>
+				<a class="img" href="vi/thiet-bi-do-luong-chi-bao.html" title="Thiết bị đo lường & Chỉ báo" > <img src="thumb/240x152/1/upload/sanpham/bano-1477883482.png" alt="" class="transitionAll"></a>
+				<p class="mota">
+	
+		
+			
+			C&ocirc;ng Ty&nbsp;Hải Việt&nbsp;l&agrave; nh&agrave; cung cấp chuy&ecirc;n nghiệp thiết bị đo v&agrave; chỉ b&aacute;o cho c&aacute;c h&atilde;ng nổi tiếng tr&ecirc;n thế giới sau:
+
+			ABB, ADARSH, AFRISO, ALIA, ANALOX, ASHCROFT, BD SENSOR, BFI, BITHEMAR, CONVUN, DANFOSS, DWYER, DYNISCO, ECONOSTO, EMERSON ROSEMOUNT, ENDRESS HAUSER, ETTORE CELLA, EUROTEC, FLIR, HANNA, HASKEL, HONEYWELL, IFM, MPC, RADIX, TE.MA, TEMA, ECOMETEO, EUROMAG, FANTINELLI, NOUVA FIMA, PIUSI, GARG SCIENTIFIC, KONICS,&nbsp;
+			KROHNE, MEGA, PCWI, RIKEN KEIKI, SENSUS, SIKA, SJE-RHOMBUS, STAUFF, SUCHY, ARICO, ASES, ATLANTISS, CCGROUP, FTB, FULL WEALTH, HAWK, LUCKMETER, SKON, SYPM, TEKLAND, YUEN MAI, BELL FLOW, HI-FORCE, PROFLOWDYNAMICS, REDASHE, WIKA, WINTERS, WISE, YAMAMOTO, YOKOGAMA, ZENDER, ZENNER,..
+
+			Đặt biệt&nbsp;HAVICO&nbsp;ch&iacute;nh thức l&agrave; đại diện của h&atilde;ng&nbsp;TE.MA&nbsp;tại thị trường Việt Nam
+			
+			
+			
+
+			&nbsp;
+
+			&nbsp;
+			
+		
+	
+
+</p>
+			</div><!-- .box-sp -->
+						<div class="itemsp transitionAll">
+				<h3><a href="vi/thiet-bi-thuy-luc-va-khi-nen.html" title="Thiết bị thuỷ lực và khí nén" class="transitionAll"> Thiết bị thuỷ lực và khí nén </a></h3>
+				<a class="img" href="vi/thiet-bi-thuy-luc-va-khi-nen.html" title="Thiết bị thuỷ lực và khí nén" > <img src="thumb/240x152/1/upload/sanpham/2-1468998539.jpg" alt="" class="transitionAll"></a>
+				<p class="mota"></p>
+			</div><!-- .box-sp -->
+						<div class="itemsp transitionAll">
+				<h3><a href="vi/loc-thiet-bi-loc.html" title="Lọc & Thiết bị lọc" class="transitionAll"> Lọc & Thiết bị lọc </a></h3>
+				<a class="img" href="vi/loc-thiet-bi-loc.html" title="Lọc & Thiết bị lọc" > <img src="thumb/240x152/1/upload/sanpham/bano-1478245880.jpg" alt="" class="transitionAll"></a>
+				<p class="mota">HAVICO chuy&ecirc;n cung cấp c&aacute;c thiết bị chuy&ecirc;n ng&agrave;nh lọc kh&iacute;, nước, h&oacute;a chất của: Parker, Parker Domnick hunter, Parker Zander, Parker Hiross
+</p>
+			</div><!-- .box-sp -->
+						<div class="itemsp transitionAll">
+				<h3><a href="vi/thiet-bi-phu-tung-cong-nghiep-hang-hai-dau-khi.html" title="Thiết bị - Phụ tùng công nghiệp - Hàng hải & Dầu khí" class="transitionAll"> Thiết bị - Phụ tùng công nghiệp - Hàng hải & Dầu khí </a></h3>
+				<a class="img" href="vi/thiet-bi-phu-tung-cong-nghiep-hang-hai-dau-khi.html" title="Thiết bị - Phụ tùng công nghiệp - Hàng hải & Dầu khí" > <img src="thumb/240x152/1/upload/sanpham/2-1474434185.jpg" alt="" class="transitionAll"></a>
+				<p class="mota">Ch&uacute;ng t&ocirc;i cung cấp c&aacute;c loại động cơ v&agrave; phụ t&ugrave;ng như ABC, AKASAKA, Caterpillar, Cummins, Detroit, Deutz, Doosan, Dorman, Hanshin, John Deere, MAN, MTU, NIIGATA, Perkin, Volvo, Yanmar, Mitsubishi, Daihatsu.
+
+Ch&uacute;ng t&ocirc;i cung cấp c&aacute;c loại hộp số v&agrave; phụ t&ugrave;ng như: DONG-I, HANGZHOU FADA, HANGZHOU ADVANCE, NICO, REINTJES, RENK, SCHOTTEL, TWINDISC, ULSTEIN, ZF.
+
+Đặt biệt, HAVICO hiện đang l&agrave; đại diện của h&atilde;ng Pretech https://pretechco.com chuy&ecirc;n cung cấp c&aacute;c loại cần điều khiển v&agrave; c&aacute;p điều khiển cho hệ thống l&aacute;i t&agrave;u du lịch, ca n&ocirc; v&agrave; t&agrave;u c&aacute; với chất lượng tốt v&agrave; gi&aacute; cả cạnh tranh.
+</p>
+			</div><!-- .box-sp -->
+						<div class="itemsp transitionAll">
+				<h3><a href="vi/khop-noi-phu-tung-khop-noi.html" title="Khớp nối & Phụ tùng khớp nối" class="transitionAll"> Khớp nối & Phụ tùng khớp nối </a></h3>
+				<a class="img" href="vi/khop-noi-phu-tung-khop-noi.html" title="Khớp nối & Phụ tùng khớp nối" > <img src="thumb/240x152/1/upload/sanpham/5-1468999022.jpg" alt="" class="transitionAll"></a>
+				<p class="mota"></p>
+			</div><!-- .box-sp -->
+						<div class="itemsp transitionAll">
+				<h3><a href="vi/bac-dan.html" title="Bạc đạn" class="transitionAll"> Bạc đạn </a></h3>
+				<a class="img" href="vi/bac-dan.html" title="Bạc đạn" > <img src="thumb/240x152/1/upload/sanpham/11-1475205755.jpg" alt="" class="transitionAll"></a>
+				<p class="mota">
+	
+		
+			
+			HAVICO&nbsp;chuy&ecirc;n cung cấp Bạc Đạn thay thế thường xuy&ecirc;n cho nh&agrave; m&aacute;y của c&aacute;c h&atilde;ng:&nbsp;SKF, BARDEN, FYH, IKO, INA, FAG, KOYO, NACHI, NSK, NTN, TIMKEN.
+
+			&nbsp;
+
+			&nbsp;
+
+			&nbsp;
+
+			&nbsp;
+			
+			
+		
+	
+
+
+&nbsp;
+</p>
+			</div><!-- .box-sp -->
+					</div>
+	</div>
+</div>
+<div class="baospnb">
+	<div class="khung flexw">
+		<div class="videot">
+						<div class="info-title1"><h2><a href="vi/gioi-thieu/ve-chung-toi.html">Về chúng tôi</a></h2></div>
+			<div class="flexw">
+				<div class="abt">
+					Công Ty TNHH Dịch Vụ Kỹ Thuật Hải Việt - HAVICO được thành lập năm 2009 với đội ngũ nhân viên đầy kinh nghiệm và nhiệt huyết. Chúng tôi đã và đang khẳng định thương hiệu của mình trong lĩnh vực cung cấp thiết bị và phụ tùng cho các ngành công nghiệp khai thác, sản xuất và chế biến. 				</div>
+				<div class="abt">
+					 
+						<div class="gttc">
+							<a href="vi/gioi-thieu/gioi-thieu-ve-cong-ty-hai-viet.html">Giới Thiệu Về Công Ty HẢI VIỆT</a>
+							<p class="mota">Công Ty TNHH Dịch Vụ Kỹ Thuật Hải Việt - HAVICO được thành lập năm 2009 với đội ngũ nhân viên đầy kinh nghiệm và nhiệt huyết. Chúng tôi đã và đang khẳng định thương hiệu của mình trong lĩnh vực cung cấp thiết bị và phụ tùng cho các ngành công nghiệp khai thác, sản xuất và chế biến.</p>
+						</div>
+					 
+						<div class="gttc">
+							<a href="vi/gioi-thieu/nhua-ky-thuat.html">Nhựa Kỹ Thuật</a>
+							<p class="mota">Chất dẻo, hay còn gọi là nhựa hoặc mủ, là các hợp chất cao phân tử, được dùng làm vật liệu để sản xuất nhiều loại vật dụng trong đời sống hằng ngày như là: áo mưa, ống dẫn điện... cho đến những sản phẩm công nghiệp, gắn với đời sống hiện đại của con người. Chúng là những vật liệu có khả năng bị biến dạng khi chịu tác dụng của nhiệt, áp suất và vẫn giữ được sự biến dạng đó khi thôi tác dụng. Chất dẻo còn được sử dụng rộng rãi để thay thế cho các sản phẩm làm bằng: vải, gỗ, da, kim loại, thủy tinh. Vì chúng bền, nhẹ, khó vỡ, nhiều màu sắc đẹp.</p>
+						</div>
+									</div>
+			</div>
+					</div>
+		<div class="videot">
+			<div class="info-title1"><h2>Video</h2></div>
+		    <div class="item_video_nb">
+		    	<div class="video_popup left_video">
+		    	 	<iframe class="vvv" title="HAVICO.CO.LTD-DISTRIBUTOR TE.MA IN VIET NAM" src="https://www.youtube.com/embed/7j1UjkzL_YM" frameborder="0" allowfullscreen></iframe>
+		         </div>
+		         <select id="clickvideo1">
+						                    <option value="7j1UjkzL_YM">HAVICO.CO.LTD-DISTRIBUTOR TE.MA IN VIET NAM</option>
+	                	                    <option value="snFHb_HSKr0">Vodka và vợ, anh chọn ai?</option>
+	                	                    <option value="EqK7XJoge-0">Sai Gòn Những Năm 1930</option>
+	                	                    <option value="SV8wlMy1LgA">Quadrant Fluorosint® 207</option>
+	                	                    <option value="U8JYhGwpzP8">Advanced Cast Nylon Plastics and Polymers by Quadrant EPP</option>
+	                	                    <option value="kiHmZdn3lc4">Gia công nhựa PC</option>
+	                	                    <option value="SlZrhfk1mIE">Mechanical Seal STB</option>
+	                	                    <option value="ajX-eW7wQKs">Quy Trình Sản Xuất Của Hãng DICHTA</option>
+	                	                    <option value="Ob9xcX_OhIU">Nhà khoa học IRAN thử nghiệm xe chạy bằng nước lã (60 lít nước = 900 km)</option>
+	                	                    <option value="O0YGzCneFzk">DÂY TẾT CHÈN</option>
+	                	                    <option value="8PtDI1ZAtp0">Hướng dẫn Sửa chữa phớt gioăng đầu hút của bơm chân không</option>
+	                	                    <option value="yZH7iaNddDc">Bộ Điều Khiển Lái Cho Tàu Du Lịch, Cano .... </option>
+	                	                    <option value="aumw59Znztw">Cách hàn nhựa kỹ thuật, hàn tấm nhựa, hàn nhựa</option>
+	                	            </select>   
+		    </div>
+		    
+		    <div class="list_vd_home">
+		    			        	  <div class="item_video video_home" style="width:100%;">
+		        <a href="javascript:void(0);" class="sel_video" rel="7j1UjkzL_YM" title="HAVICO.CO.LTD-DISTRIBUTOR TE.MA IN VIET NAM"><img src="https://img.youtube.com/vi/7j1UjkzL_YM/0.jpg" alt="HAVICO.CO.LTD-DISTRIBUTOR TE.MA IN VIET NAM" ></a>
+		      </div>
+		        		        	  <div class="item_video video_home" style="width:100%;">
+		        <a href="javascript:void(0);" class="sel_video" rel="snFHb_HSKr0" title="Vodka và vợ, anh chọn ai?"><img src="https://img.youtube.com/vi/snFHb_HSKr0/0.jpg" alt="Vodka và vợ, anh chọn ai?" ></a>
+		      </div>
+		        		        	  <div class="item_video video_home" style="width:100%;">
+		        <a href="javascript:void(0);" class="sel_video" rel="EqK7XJoge-0" title="Sai Gòn Những Năm 1930"><img src="https://img.youtube.com/vi/EqK7XJoge-0/0.jpg" alt="Sai Gòn Những Năm 1930" ></a>
+		      </div>
+		        		        	  <div class="item_video video_home" style="width:100%;">
+		        <a href="javascript:void(0);" class="sel_video" rel="SV8wlMy1LgA" title="Quadrant Fluorosint® 207"><img src="https://img.youtube.com/vi/SV8wlMy1LgA/0.jpg" alt="Quadrant Fluorosint® 207" ></a>
+		      </div>
+		        		        	  <div class="item_video video_home" style="width:100%;">
+		        <a href="javascript:void(0);" class="sel_video" rel="U8JYhGwpzP8" title="Advanced Cast Nylon Plastics and Polymers by Quadrant EPP"><img src="https://img.youtube.com/vi/U8JYhGwpzP8/0.jpg" alt="Advanced Cast Nylon Plastics and Polymers by Quadrant EPP" ></a>
+		      </div>
+		        		        	  <div class="item_video video_home" style="width:100%;">
+		        <a href="javascript:void(0);" class="sel_video" rel="kiHmZdn3lc4" title="Gia công nhựa PC"><img src="https://img.youtube.com/vi/kiHmZdn3lc4/0.jpg" alt="Gia công nhựa PC" ></a>
+		      </div>
+		        		        	  <div class="item_video video_home" style="width:100%;">
+		        <a href="javascript:void(0);" class="sel_video" rel="SlZrhfk1mIE" title="Mechanical Seal STB"><img src="https://img.youtube.com/vi/SlZrhfk1mIE/0.jpg" alt="Mechanical Seal STB" ></a>
+		      </div>
+		        		        	  <div class="item_video video_home" style="width:100%;">
+		        <a href="javascript:void(0);" class="sel_video" rel="ajX-eW7wQKs" title="Quy Trình Sản Xuất Của Hãng DICHTA"><img src="https://img.youtube.com/vi/ajX-eW7wQKs/0.jpg" alt="Quy Trình Sản Xuất Của Hãng DICHTA" ></a>
+		      </div>
+		        		        	  <div class="item_video video_home" style="width:100%;">
+		        <a href="javascript:void(0);" class="sel_video" rel="Ob9xcX_OhIU" title="Nhà khoa học IRAN thử nghiệm xe chạy bằng nước lã (60 lít nước = 900 km)"><img src="https://img.youtube.com/vi/Ob9xcX_OhIU/0.jpg" alt="Nhà khoa học IRAN thử nghiệm xe chạy bằng nước lã (60 lít nước = 900 km)" ></a>
+		      </div>
+		        		        	  <div class="item_video video_home" style="width:100%;">
+		        <a href="javascript:void(0);" class="sel_video" rel="O0YGzCneFzk" title="DÂY TẾT CHÈN"><img src="https://img.youtube.com/vi/O0YGzCneFzk/0.jpg" alt="DÂY TẾT CHÈN" ></a>
+		      </div>
+		        		        	  <div class="item_video video_home" style="width:100%;">
+		        <a href="javascript:void(0);" class="sel_video" rel="8PtDI1ZAtp0" title="Hướng dẫn Sửa chữa phớt gioăng đầu hút của bơm chân không"><img src="https://img.youtube.com/vi/8PtDI1ZAtp0/0.jpg" alt="Hướng dẫn Sửa chữa phớt gioăng đầu hút của bơm chân không" ></a>
+		      </div>
+		        		        	  <div class="item_video video_home" style="width:100%;">
+		        <a href="javascript:void(0);" class="sel_video" rel="yZH7iaNddDc" title="Bộ Điều Khiển Lái Cho Tàu Du Lịch, Cano .... "><img src="https://img.youtube.com/vi/yZH7iaNddDc/0.jpg" alt="Bộ Điều Khiển Lái Cho Tàu Du Lịch, Cano .... " ></a>
+		      </div>
+		        		        	  <div class="item_video video_home" style="width:100%;">
+		        <a href="javascript:void(0);" class="sel_video" rel="aumw59Znztw" title="Cách hàn nhựa kỹ thuật, hàn tấm nhựa, hàn nhựa"><img src="https://img.youtube.com/vi/aumw59Znztw/0.jpg" alt="Cách hàn nhựa kỹ thuật, hàn tấm nhựa, hàn nhựa" ></a>
+		      </div>
+		        		    </div>
+		</div>
+	</div>
+</div>
+<div class="dacdiem">
+	<div class="baodac">
+		<div class="info-title"><h2>Đặc điểm dịch vụ hải việt</h2></div>
+		<p class="sltc">Chất lượng không chỉ là ”Chất lượng sản phẩm”, mà còn bao gồm cả ”Chất lượng dịch vụ”</p>
+		<div class="baodd">
+			<div class="cot2">
+	            	                <div class="item_tcsp clear">
+	                    <a class="img" title="Dịch vụ độc đáo">
+	                        <img src="upload/hinhanh/509151725437455.png" onerror="this.src='//placehold.it/50x50';" alt="Dịch vụ độc đáo"/>
+	                    </a>
+	                    <a class="ten" title="Dịch vụ độc đáo">Dịch vụ độc đáo</a>
+	                    <p class="mota">Hỗ trợ kỹ Thuật 24/7, Khảo sát thực tế nhà máy để đưa ra những giải pháp phù hợp.</p>
+	                </div>
+	            	                <div class="item_tcsp clear">
+	                    <a class="img" title="Kiểm soát chất lượng ">
+	                        <img src="upload/hinhanh/109869880949239.png" onerror="this.src='//placehold.it/50x50';" alt="Kiểm soát chất lượng "/>
+	                    </a>
+	                    <a class="ten" title="Kiểm soát chất lượng ">Kiểm soát chất lượng </a>
+	                    <p class="mota">Với phương châm chất lượng tạo nên thương hiệu. Chúng tôi luôn luôn kiểm soát và kiểm tra từng sản phẩm trước khi giao cho người dùng.</p>
+	                </div>
+	            	                <div class="item_tcsp clear">
+	                    <a class="img" title="Chuyển phát nhanh">
+	                        <img src="upload/hinhanh/505439895903214.png" onerror="this.src='//placehold.it/50x50';" alt="Chuyển phát nhanh"/>
+	                    </a>
+	                    <a class="ten" title="Chuyển phát nhanh">Chuyển phát nhanh</a>
+	                    <p class="mota">Giao hàng nhanh chóng. </p>
+	                </div>
+	            	        </div>
+	        <p class="dacdiem1">
+	            <img src="thumb/236x236/1/upload/hinhanh/8312240871.jpg" onerror="this.src='//placehold.it/236x236';" alt="Chỉ tiêu chất lượng"/>
+	        </p>
+	        <div class="cot1">
+	            	                <div class="item_tcsp clear">
+	                    <a class="img" title="Giá ưu đãi">
+	                        <img src="upload/hinhanh/671377496991886.png" onerror="this.src='//placehold.it/50x50';" alt="Giá ưu đãi"/>
+	                    </a>
+	                    <a class="ten" title="Giá ưu đãi">Giá ưu đãi</a>
+	                    <p class="mota">HAVICO chúng tôi luôn cố gắn mang đến cho quý khách hàng những sản phẩm chất lượng với giá tốt nhất..</p>
+	                </div>
+	            	                <div class="item_tcsp clear">
+	                    <a class="img" title="Chuyên nghiệp">
+	                        <img src="upload/hinhanh/154380140123720.png" onerror="this.src='//placehold.it/50x50';" alt="Chuyên nghiệp"/>
+	                    </a>
+	                    <a class="ten" title="Chuyên nghiệp">Chuyên nghiệp</a>
+	                    <p class="mota">Chúng tôi đã và đang khẳng định thương hiệu của mình trong lĩnh vực cung cấp thiết bị</p>
+	                </div>
+	            	                <div class="item_tcsp clear">
+	                    <a class="img" title="Chỉ tiêu chất lượng">
+	                        <img src="upload/hinhanh/780068854456390.png" onerror="this.src='//placehold.it/50x50';" alt="Chỉ tiêu chất lượng"/>
+	                    </a>
+	                    <a class="ten" title="Chỉ tiêu chất lượng">Chỉ tiêu chất lượng</a>
+	                    <p class="mota">Chât lượng luôn là tiêu chí hàng đầu mà chúng tôi đặt ra.</p>
+	                </div>
+	            	        </div>
+		</div>
+	</div>
+</div>
+<div class="hotrotc">
+	<div class="baoht">
+		<div class="info-title" style="background: none;"><h2>Hỗ trợ trực tuyến</h2></div>
+		<div class="baoht1">
+			            	<div class="httc">
+                	<div class="tenht">Mr. Hải - 0903 144 189</div>
+                                        	<p><img src="images/img/s.png" alt=""><a href="skype:do.anh.hai?call">HAVICO.HAI</a><div class="clear"></div></p>
+                                                            	<p><img src="images/img/m.png" alt=""><a href="mailto:info@haivietcorp.com">info@haivietcorp.com</a>
+                        	<div class="clear"></div>
+                        </p>
+					                </div>
+                        	<div class="httc">
+                	<div class="tenht">Mr. Đoàn - 0902 907 104</div>
+                                        	<p><img src="images/img/s.png" alt=""><a href="skype:dang.van.doan?call">HAVICO.DOAN</a><div class="clear"></div></p>
+                                                            	<p><img src="images/img/m.png" alt=""><a href="mailto:doan@haivietcorp.com">doan@haivietcorp.com</a>
+                        	<div class="clear"></div>
+                        </p>
+					                </div>
+                        	<div class="httc">
+                	<div class="tenht">Mr. Việt - 0908 469 193</div>
+                                        	<p><img src="images/img/s.png" alt=""><a href="skype:doanhviet87?call">HAVICO.VIET  - KỸ THUẬT</a><div class="clear"></div></p>
+                                                            	<p><img src="images/img/m.png" alt=""><a href="mailto:viet@haivietcorp.com">viet@haivietcorp.com</a>
+                        	<div class="clear"></div>
+                        </p>
+					                </div>
+                        	<div class="httc">
+                	<div class="tenht">Mr. Hiệu - 0903 879 418</div>
+                                        	<p><img src="images/img/s.png" alt=""><a href="skype:Plastics1_5?call">HAVICO.HIEU - NHỰA KỸ THUẬT</a><div class="clear"></div></p>
+                                                            	<p><img src="images/img/m.png" alt=""><a href="mailto:hieu.lk@haivietcorp.com">hieu.lk@haivietcorp.com</a>
+                        	<div class="clear"></div>
+                        </p>
+					                </div>
+                        	<div class="httc">
+                	<div class="tenht">Mr. Đức - 0903 111 762</div>
+                                        	<p><img src="images/img/s.png" alt=""><a href="skype:HAIVIET.DUC?call">HAVICO.DUC - VAN</a><div class="clear"></div></p>
+                                                            	<p><img src="images/img/m.png" alt=""><a href="mailto:duc.nguyen@haivietcorp.com">duc.nguyen@haivietcorp.com</a>
+                        	<div class="clear"></div>
+                        </p>
+					                </div>
+                        	<div class="httc">
+                	<div class="tenht">Ms. Ban - 0903 820 399</div>
+                                        	<p><img src="images/img/s.png" alt=""><a href="skype:BAN.HAVICO?call">ngocbandah</a><div class="clear"></div></p>
+                                                            	<p><img src="images/img/m.png" alt=""><a href="mailto:ban@haivietcorp.com">ban@haivietcorp.com</a>
+                        	<div class="clear"></div>
+                        </p>
+					                </div>
+            		</div>
+	</div>
+</div>
+<div class="baospnb spnoibat">
+	<div class="khung">
+		<div class="info-title idsanpham" data-id="0"><h2>Sản phẩm mới</h2></div>
+		<p class="sltc">Chất lượng không chỉ là ”Chất lượng sản phẩm”, mà còn bao gồm cả ”Chất lượng dịch vụ”</p>
+		<div class="showsp"></div>
+	</div><!-- #info -->	
+</div>
+<script>
+    $(document).ready(function(e){
+        $('.spnoibat').each(function(){
+            var id = $(this).find('.idsanpham').data('id');
+            $('.showsp').load('ajax/sanpham.php?id='+id);
+        });   
+        $('.showsp').on('click', '.ajax_paging div', function(event) {
+            var t=$(this);
+            var p =t.data('p');
+            var id =t.data('id');
+            $.ajax({
+                url: '',
+                type: 'POST',
+                dataType: 'html',
+                data: {id:id,p:p},
+                success:function(res){
+                    t.parents('.showsp').load('ajax/sanpham.php?id='+id+'&p='+p);
+                }
+            });
+        });
+     });
+</script>
+<div class="tinnb ov">
+	<div class="khung">
+		<div class="info-title"><h2>Tin Tức Sự Kiện</h2></div>
+		<p class="sltc">Nhận tin tức mới nhất từ Hải Việt Corp</p>
+		<div class="chaytt contenttt">
+					<div class="tintt">
+				<a class="img" href="vi/tin-tuc/dich-vu-sua-chua-va-bao-tri-phot-co-khi.html" title="Dịch vụ sửa chữa và bảo trì phốt cơ khí"><img alt="Sửa chữa và bảo trì phốt làm kín cơ khí" src="thumb/250x175/1/upload/news/gleitringdichtungsservice8_1610589879_300x250.jpg"></a>
+				<h3><a href="vi/tin-tuc/dich-vu-sua-chua-va-bao-tri-phot-co-khi.html" title="Dịch vụ sửa chữa và bảo trì phốt cơ khí" class="transitionAll">Dịch vụ sửa chữa và bảo trì phốt cơ khí</a></h3>
+				<div class="mota">HAVICO nhận phục hồi phốt làm kín cơ khí của các hãng nổi tiếng như : AESSEAL, ANGA, BILLI, BURGMANN, CHESTERTON, EPM, FLEX-A-SEAL, FLOWSERVE, GSD, JAMEWALKER, JOHN CRANE, KOBELCO EAGLE, LIDERING, ORTECH, ROTEN, SEAL RITE, VULCAN, ZMTECH, LATTY, SEALTEK, HECKER, FLUITEN, MICROTEM</div>
+			</div><!-- .box-news -->
+					<div class="tintt">
+				<a class="img" href="vi/tin-tuc/thong-bao-nghi-tet-duong-lich-2021.html" title="Thông báo nghỉ tết dương lịch 2021"><img alt="" src="thumb/250x175/1/upload/news/"></a>
+				<h3><a href="vi/tin-tuc/thong-bao-nghi-tet-duong-lich-2021.html" title="Thông báo nghỉ tết dương lịch 2021" class="transitionAll">Thông báo nghỉ tết dương lịch 2021</a></h3>
+				<div class="mota"></div>
+			</div><!-- .box-news -->
+					<div class="tintt">
+				<a class="img" href="vi/tin-tuc/bom-cap-dich-mot-so-chu-y-khi-chon-bom.html" title="Bơm Cấp Dịch & Một Số Chú Ý Khi Chọn Bơm"><img alt="Canned Motor Pump" src="thumb/250x175/1/upload/news/phcmp2circulationboostbasictypevtype_1538656317_300x250.png"></a>
+				<h3><a href="vi/tin-tuc/bom-cap-dich-mot-so-chu-y-khi-chon-bom.html" title="Bơm Cấp Dịch & Một Số Chú Ý Khi Chọn Bơm" class="transitionAll">Bơm Cấp Dịch & Một Số Chú Ý Khi Chọn Bơm</a></h3>
+				<div class="mota">Bơm Cấp Dịch & Một Số Chú Ý Khi Chọn Bơm</div>
+			</div><!-- .box-news -->
+					<div class="tintt">
+				<a class="img" href="vi/tin-tuc/can-tuyen-nhan-vien-kinh-doanh-phu-tung-thiet-bi-cong-nghiep.html" title="Cần Tuyển Nhân Viên Kinh Doanh Phụ Tùng & Thiết Bị Công Nghiệp"><img alt="" src="thumb/250x175/1/upload/news/images1473076908300x250_1520491444_300x250.jpg"></a>
+				<h3><a href="vi/tin-tuc/can-tuyen-nhan-vien-kinh-doanh-phu-tung-thiet-bi-cong-nghiep.html" title="Cần Tuyển Nhân Viên Kinh Doanh Phụ Tùng & Thiết Bị Công Nghiệp" class="transitionAll">Cần Tuyển Nhân Viên Kinh Doanh Phụ Tùng & Thiết Bị Công Nghiệp</a></h3>
+				<div class="mota">Để mở rộng nhu cầu kinh doanh, chúng tôi cần tuyển các vị trí sau:</div>
+			</div><!-- .box-news -->
+					<div class="tintt">
+				<a class="img" href="vi/tin-tuc/tuyen-nhan-vien-kinh-doanh-nganh-bom-va-he-thong-luu-chat.html" title="Tuyển Nhân Viên Kinh Doanh Ngành bơm và hệ thống lưu chất"><img alt="Tuyển Nhân Viên Kinh Doanh Ngành bơm và hệ thống lưu chất" src="thumb/250x175/1/upload/news/kinh-doanh_1500276252_300x250.jpg"></a>
+				<h3><a href="vi/tin-tuc/tuyen-nhan-vien-kinh-doanh-nganh-bom-va-he-thong-luu-chat.html" title="Tuyển Nhân Viên Kinh Doanh Ngành bơm và hệ thống lưu chất" class="transitionAll">Tuyển Nhân Viên Kinh Doanh Ngành bơm và hệ thống lưu chất</a></h3>
+				<div class="mota">Để mở rộng qui mô kinh doanh, công ty chúng tôi cần tuyển dụng các vị trí sau</div>
+			</div><!-- .box-news -->
+					<div class="tintt">
+				<a class="img" href="vi/tin-tuc/gap-go-dai-dien-hang-stb.html" title="Gặp Gỡ Đại Diện Hãng STB"><img alt="Đại diện Hãng STB - Đức Tại Việt Nam" src="thumb/250x175/1/upload/news/logo_1480478030_300x250.gif"></a>
+				<h3><a href="vi/tin-tuc/gap-go-dai-dien-hang-stb.html" title="Gặp Gỡ Đại Diện Hãng STB" class="transitionAll">Gặp Gỡ Đại Diện Hãng STB</a></h3>
+				<div class="mota">Gặp gỡ đại diện hãng STB - Đức </div>
+			</div><!-- .box-news -->
+					<div class="tintt">
+				<a class="img" href="vi/tin-tuc/tuyen-dung-nhan-vien-kinh-doanh-ban-hang-ky-thuat-nganh-nhua-vat-lieu-ky-thuat-dung-gia-cong-co-khi-chinh-xac.html" title="Tuyển Dụng Nhân Viên Kinh Doanh Bán Hàng Kỹ Thuật Ngành Nhựa & Vật Liệu Kỹ Thuật Dùng Gia Công Cơ Khí Chính Xác "><img alt="" src="thumb/250x175/1/upload/news/images_1473076908_300x250.jpg"></a>
+				<h3><a href="vi/tin-tuc/tuyen-dung-nhan-vien-kinh-doanh-ban-hang-ky-thuat-nganh-nhua-vat-lieu-ky-thuat-dung-gia-cong-co-khi-chinh-xac.html" title="Tuyển Dụng Nhân Viên Kinh Doanh Bán Hàng Kỹ Thuật Ngành Nhựa & Vật Liệu Kỹ Thuật Dùng Gia Công Cơ Khí Chính Xác " class="transitionAll">Tuyển Dụng Nhân Viên Kinh Doanh Bán Hàng Kỹ Thuật Ngành Nhựa & Vật Liệu Kỹ Thuật Dùng Gia Công Cơ Khí Chính Xác </a></h3>
+				<div class="mota"></div>
+			</div><!-- .box-news -->
+				</div>
+	</div>
+</div>						<div class="clear"></div>
+			
+<link type="text/css" rel="stylesheet" href="css/jquery.bxslider/jquery.bxslider.css">
+<script type="text/javascript" src="js/jquery.bxslider/jquery.bxslider.js"></script>
+<script type="text/javascript" >
+	$(document).ready(function(){
+		$('.provider-slide').bxSlider({
+			hideControlOnEnd: true,
+			slideWidth: 170,
+			minSlides: 1,
+			maxSlides: 6,
+			moveSlides: 1,
+			slideMargin: 10,
+			pager: false,
+			auto: true
+		});
+
+	});
+</script>
+<div id="provider">
+	<div class="khung">
+		<div class="provider-slide">
+						<div class="slide">
+				<a href="https://www.haivietcorp.com/vi/nhua-ky-thuat.html" target="_blank" title="Quadrant - MCAM Plastics"><img src="thumb/180x100/2/upload/hinhanh/4892884071187580.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="https://www.haivietcorp.com/vi/oval-gear-flow-meter.html" target="_blank" title="ALPHADYNAMIC"><img src="thumb/180x100/2/upload/hinhanh/3903424494430690.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="https://www.lamons.com/" target="_blank" title="LAMONS"><img src="thumb/180x100/2/upload/hinhanh/3659192703244790.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="http://uim.avko.bg/english/homeEn" target="_blank" title="AVKO"><img src="thumb/180x100/2/upload/hinhanh/1132039728443250.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="https://www.haivietcorp.com/vi/cartridge-mechanical-seal.html" target="_blank" title="STB GmbH"><img src="thumb/180x100/2/upload/hinhanh/2386696120447220.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="https://haivietcorp.com/vi/nhua-ky-thuat.html" target="_blank" title="GUARNIFLON"><img src="thumb/180x100/2/upload/hinhanh/8117525505372752.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="https://haivietcorp.com/vi/oil-seal-oring.html" target="_blank" title="DICHTA"><img src="thumb/180x100/2/upload/hinhanh/8117525505372751.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="https://haivietcorp.com/vi/thiet-bi-do-luong-chi-bao.html" target="_blank" title="TE.MA"><img src="thumb/180x100/2/upload/hinhanh/8117525505372750.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/5343128761727262.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/5343128761727261.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/5343128761727260.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/0845061533393204.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/0845061533393203.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/0845061533393202.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/0845061533393201.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/0845061533393200.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/3999296334881260.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/4902564690484290.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/2527446246272004.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/2527446246272003.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/2527446246272002.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/2527446246272001.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/2527446246272000.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/8499561959754294.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/8499561959754293.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/8499561959754292.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/8499561959754291.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/8499561959754290.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/7429213287581474.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/7429213287581473.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/7429213287581472.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/7429213287581471.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/7429213287581470.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/5313570148061992.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/5313570148061991.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/5313570148061990.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/5741626728173694.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/5741626728173693.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/5741626728173692.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/5741626728173691.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/5741626728173690.jpg" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/9695516662510623.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/9695516662510622.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/9695516662510621.png" /></a>
+			</div>
+						<div class="slide">
+				<a href="" target="_blank" title=""><img src="thumb/180x100/2/upload/hinhanh/9695516662510620.png" /></a>
+			</div>
+					</div>
+	</div>
+</div>
+<img src="images/bg1.png" style="width:100%;">
+			
+		</div><!-- #container -->
+		
+		
+	</div><!-- #wrapper -->
+	 
+<div id="footer">
+	<div class="khung flexw" >
+		<div class="footer1">
+			<p class="tktrc">thông tin công ty</p>
+			<p><img alt="" src="/upload/images/ft1.png" style="height:24px; width:22px" /><span style="font-size:14px">Địa chỉ: 119 Đường TA16, Phường Thới An, Quận 12, TP. Hồ Ch&iacute; Minh, 70799, Việt Nam</span></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="/upload/images/ft2.png" style="height:23px; width:22px" /><span style="font-size:14px">Email: info@haivietcorp.com</span></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="/upload/images/ft3.png" style="height:23px; width:22px" /><span style="font-size:14px">Tel: (84) 28 35978096 / 36203297<br />
+Fax: (84) 28 35978097 / 36203298</span></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="/upload/images/ft4(1).png" style="height:22px; width:22px" /><span style="font-size:14px">Website: www.haivietcorp.com</span></p>
+		</div>
+		<div class="footer2">
+			<p class="tktrc">liên kết</p>
+			<div class="face">
+				<div class="fb-page" data-href="https://www.facebook.com/haivietcorp" data-tabs="timeline" data-width="225" data-height="268" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+			</div>
+		</div>
+		<div class="footer3">
+			<p class="tktrc">ĐĂNG KÝ NHẬN TIN TỪ HẢI VIỆT</p>
+			<p class="nhapnt">Nhập thông tin để được khuyến mãi mới nhất</p>
+			<div class="baont flexwb">
+    <input type="email" name="email_newsletter" id="email_newsletter" class="nt1" placeholder="ĐỊA CHỈ EMAIL"> 
+    <a id="send_email_newsletter" class="transitionAll nt2"></a>
+</div>
+
+<script>
+    $(document).ready(function(e) {
+        $('#send_email_newsletter').click(function(){
+            var el = $('#email_newsletter');
+            var emailRegExp = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.([a-z]){2,4})$/;
+            if(el.val()==''){el.focus();alert('Xin vui lòng nhập địa chỉ email của bạn');return false;}
+            if(!emailRegExp.test(el.val())){
+                el.focus();
+                alert('Email không đúng');
+            }else{
+                $.ajax({
+                    type: 'POST',
+                    url : 'newsletter.php',
+                    data: 'email='+el.val(),
+                    success: function(result){
+                        alert(result);
+                    }
+                });	
+            }
+            return false;
+        });
+    });
+</script>
+
+			<div id="social">
+								<a href="https://www.facebook.com/haivietcorp" target="_blank" title="Facebook"><img src="upload/hinhanh/32211946.png" width="36" height="36" align="absmiddle" /> </a>
+								<a href="https://twitter.com/" target="_blank" title="Twitter"><img src="upload/hinhanh/43292033.png" width="36" height="36" align="absmiddle" /> </a>
+								<a href="https://plus.google.com/u/0/" target="_blank" title="Google"><img src="upload/hinhanh/11735805.png" width="36" height="36" align="absmiddle" /> </a>
+								<a href="https://youtube.com" target="_blank" title="Youtube"><img src="upload/hinhanh/79590159.png" width="36" height="36" align="absmiddle" /> </a>
+							</div>
+			<p class="tktrc">Theo dõi đơn hàng</p>
+			<div id="social1">
+								<a href="" target="_blank" title="hải việt 2"><img src="upload/hinhanh/19981579.png" width="97" height="34" align="absmiddle" /> </a>
+								<a href="https://google.com.vn" target="_blank" title="Google"><img src="upload/hinhanh/33241898.png" width="97" height="34" align="absmiddle" /> </a>
+							</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+</div>
+<!-- #footer -->
+<div class="bottom1">
+	<div class="khung flexwb baocp">
+		<p class="copy">Copyright © 2021 HAI VIET CO., LTD. All Rights Reserved.</p>
+		<p class="tk">Online: 9<span>|</span>Tổng: 1382139</p>
+	</div> 
+</div></div><!-- #full --> 
+ <link href="js/fontawesome/css/font-awesome.css" rel="stylesheet" />
+<link href="css/animate.css" rel="stylesheet" />
+<div class="support-online">
+  <div class="support-content">
+    <a href="tel:0903 144 189" class="call-now" rel="nofollow">
+      <i class="fa fa-whatsapp" aria-hidden="true"></i>
+          <div class="animated infinite zoomIn kenit-alo-circle"></div>
+          <div class="animated infinite pulse kenit-alo-circle-fill"></div>
+        <span>Hotline: 0903 144 189</span>
+    </a>
+    <a class="mes" href="https://www.google.com/maps/dir//No. 119, TA16 St., Thoi An Ward, Dist. 12, Ho Chi Minh City, S.R. Viet Nam" target="_blank">
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
+      <span>Chỉ đường</span>
+    </a>
+    <a class="zalo1" href="https://zalo.me/0903 144 189" target="_blank">
+      <img class="lazy" data-src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAABNVBMVEUAAAAPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOL///8Amd0And4An98Lp+IAouAssuYAlNxbwutXwesJpeEEpOEAoOAnsOUeruQDo+AAmt76/f/2/P6C0fBLvekQquMAkdvu+f3X8Ptxy+5hxew6t+chrOQZrOTl9vzi9fvO7vqX2fN3ze9sye1nx+0hr+QAjdny+/7C6fiw4/aP1vKF0/BTv+pEu+g+uegytOYTpeLb8vuc3PR8z+8AgNXe8/vG6vi75fad0vCAyO1Yu+hMuOcPoN8fmt4Qlt2NjwQdAAAAJ3RSTlMA85i7+c6QGuXf3MKdbjnrxYBzYC8oDAfpx7GnjmdZVEgS7NeDdiCGRF/0AAACR0lEQVQ4y4XU5XbiQBiA4QkttEDdu/W175toSUgJUtxdilTW5f4vYSchi7SEPH/CObxnBCZD5h1c+IJ+jls/9WxuEUfHe0GY4f24trj7dAKvrJ4fvc22vLDA+tXrbg8c+Oa7DXC04tw5l5uwlIfYDsHFpR36wc2NvWFX76xwFdwd2jsJ8xPS/aJwg4Ve1jUS/X4iZLqVI2CjdBpyR+aWBbmFE+n8uBQjz3FNnJRX5AKA1lkQDY3uTHJh/K2gI94JM/+kj4W3LCwlm4oiSRJV7wVKDV7JIcoC+0g1c9U7ZMcO8elnNgMirWeVQrybyOV1FipyrxIKh1kZIOtWONYRaB4Hv1PWWoeIkozMN0EF2CbcNCxTnn/EwhOWfpQw9RCNFsqY/t7COAXgZsLWiFcqGM3GUH4ZYiwUK2YwdvcSwjQbkpuZeqDwVfbIIIabGkYfYl/imOKbOhY1Dd4T7/+wmxTVau+5qhex+6eKxQSbHTH7t4dfDRH8xGOHZcWQJCWZbCYzaIol2MgVxChiwgDwkk37By/n842Gruu5Bo2nsN3ujNpsbR3EUo2K5uHdAuBzOGNoGPcFQYhEJI0dFnkgGqyDfUICAJHcrzg+1rK1TK3ej4AoSaqqgqoBiAKvWW84uwt22ZNPypWwQk2C48m9AYvADqIz6yLyASOKsMQOsXDg5vM4vHbrdonNA2PuV0VwWec/JlMrzt2H8XXqOvvKMZm3v+q8j3lrZwuGOyCLHGxsz93gZ9fEydHleTBwwnHbgVPP/vwm/gGGlNWDeHz9cwAAAABJRU5ErkJggg==" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAABNVBMVEUAAAAPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOIPqOL///8Amd0And4An98Lp+IAouAssuYAlNxbwutXwesJpeEEpOEAoOAnsOUeruQDo+AAmt76/f/2/P6C0fBLvekQquMAkdvu+f3X8Ptxy+5hxew6t+chrOQZrOTl9vzi9fvO7vqX2fN3ze9sye1nx+0hr+QAjdny+/7C6fiw4/aP1vKF0/BTv+pEu+g+uegytOYTpeLb8vuc3PR8z+8AgNXe8/vG6vi75fad0vCAyO1Yu+hMuOcPoN8fmt4Qlt2NjwQdAAAAJ3RSTlMA85i7+c6QGuXf3MKdbjnrxYBzYC8oDAfpx7GnjmdZVEgS7NeDdiCGRF/0AAACR0lEQVQ4y4XU5XbiQBiA4QkttEDdu/W175toSUgJUtxdilTW5f4vYSchi7SEPH/CObxnBCZD5h1c+IJ+jls/9WxuEUfHe0GY4f24trj7dAKvrJ4fvc22vLDA+tXrbg8c+Oa7DXC04tw5l5uwlIfYDsHFpR36wc2NvWFX76xwFdwd2jsJ8xPS/aJwg4Ve1jUS/X4iZLqVI2CjdBpyR+aWBbmFE+n8uBQjz3FNnJRX5AKA1lkQDY3uTHJh/K2gI94JM/+kj4W3LCwlm4oiSRJV7wVKDV7JIcoC+0g1c9U7ZMcO8elnNgMirWeVQrybyOV1FipyrxIKh1kZIOtWONYRaB4Hv1PWWoeIkozMN0EF2CbcNCxTnn/EwhOWfpQw9RCNFsqY/t7COAXgZsLWiFcqGM3GUH4ZYiwUK2YwdvcSwjQbkpuZeqDwVfbIIIabGkYfYl/imOKbOhY1Dd4T7/+wmxTVau+5qhex+6eKxQSbHTH7t4dfDRH8xGOHZcWQJCWZbCYzaIol2MgVxChiwgDwkk37By/n842Gruu5Bo2nsN3ujNpsbR3EUo2K5uHdAuBzOGNoGPcFQYhEJI0dFnkgGqyDfUICAJHcrzg+1rK1TK3ej4AoSaqqgqoBiAKvWW84uwt22ZNPypWwQk2C48m9AYvADqIz6yLyASOKsMQOsXDg5vM4vHbrdonNA2PuV0VwWec/JlMrzt2H8XXqOvvKMZm3v+q8j3lrZwuGOyCLHGxsz93gZ9fEydHleTBwwnHbgVPP/vwm/gGGlNWDeHz9cwAAAABJRU5ErkJggg==" alt="icon zalo">
+      <span>Zalo: 0903 144 189</span>
+    </a>
+    <a class="sms" href="sms:0903 144 189">
+      <i class="fa fa-weixin" aria-hidden="true"></i>
+      <span>SMS: 0903 144 189</span>
+    </a>
+  </div>
+  <a class="btn-support">
+    <img class="lazy" data-src="images/user.png" src="images/user.png" alt="" style="border-radius: 50%;position: relative;z-index: 10;">
+    <div class="animated infinite zoomIn kenit-alo-circle"></div>
+          <div class="animated infinite pulse kenit-alo-circle-fill"></div>
+  </a>
+</div>
+<style type="text/css">
+    /*Gọi điện nhắn tin chỉ đường phiên bản mới*/
+.support-online {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    bottom:0px;
+}
+.support-online *{box-sizing: border-box;}
+.fa-user-circle:before {
+    content: "\f007";
+}
+.support-online a {
+    position: relative;
+    margin: 20px 20px;
+    text-align: left;
+    width: 40px;
+    height: 40px;
+}
+
+.support-online i {
+    width: 40px;
+    height: 40px;
+    background: #43a1f3;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.9;
+    position: relative;
+    z-index: 999;
+}
+
+.support-online a span {
+    border-radius: 2px;
+    text-align: center;
+    background: rgb(103, 182, 52);
+    padding: 9px;
+    display: none;
+    width: 180px;
+    margin-left: 10px;
+    position: absolute;
+    color: #ffffff;
+    z-index: 999;
+    top: 0px;
+    left: 40px;
+    transition: all 0.2s ease-in-out 0s;
+    -moz-animation: headerAnimation 0.7s 1;
+    -webkit-animation: headerAnimation 0.7s 1;
+    -o-animation: headerAnimation 0.7s 1;
+    animation: headerAnimation 0.7s 1;
+}
+
+.support-online a:hover span {
+    display: block;
+}
+
+.support-online a {
+    display: block;
+}
+
+.support-online a span:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent  rgb(103, 182, 52) transparent transparent;
+    position: absolute;
+    left: -10px;
+    top: 10px;
+}
+
+.kenit-alo-circle-fill {
+    width: 60px;
+    height: 60px;
+    top: -10px;
+    position: absolute;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    background-color: rgba(0, 175, 242, 0.5);
+    opacity: .75;
+    right: -10px;
+}
+
+.kenit-alo-circle {
+    width: 50px;
+    height: 50px;
+    top: -5px;
+    right: -5px;
+    position: absolute;
+    background-color: transparent;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid rgba(30, 30, 30, 0.4);
+    opacity: .1;
+    border-color: #0089B9;
+    opacity: .5;
+}
+
+.support-online .btn-support {
+    cursor: pointer;
+}
+.sms i{background: red}
+.call-now i{background: green}
+.mes i{background: orange}
+/*Gọi điện nhắn tin chỉ đường phiên bản mới*/
+</style>
+
+
+<script>
+    $(document).ready(function(){
+    $('a.btn-support').click(function(e){
+      e.stopPropagation();
+      $('.support-content').slideToggle();
+    });
+    $('.support-content').click(function(e){
+      e.stopPropagation();
+    });
+});
+</script>
+ <div class="clickfb-box onApp rotate bottom-right cfm rubberBand animated" data-anim="rubberBand">
+  <svg id="fb-msng-icon" data-name="messenger icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.47 30.66"><path d="M29.56,14.34c-8.41,0-15.23,6.35-15.23,14.19A13.83,13.83,0,0,0,20,39.59V45l5.19-2.86a16.27,16.27,0,0,0,4.37.59c8.41,0,15.23-6.35,15.23-14.19S38,14.34,29.56,14.34Zm1.51,19.11-3.88-4.16-7.57,4.16,8.33-8.89,4,4.16,7.48-4.16Z" transform="translate(-14.32 -14.34)" style="fill:#fff"></path></svg>
+  <svg id="close-icon" data-name="close icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.98 39.99"><path d="M48.88,11.14a3.87,3.87,0,0,0-5.44,0L30,24.58,16.58,11.14a3.84,3.84,0,1,0-5.44,5.44L24.58,30,11.14,43.45a3.87,3.87,0,0,0,0,5.44,3.84,3.84,0,0,0,5.44,0L30,35.45,43.45,48.88a3.84,3.84,0,0,0,5.44,0,3.87,3.87,0,0,0,0-5.44L35.45,30,48.88,16.58A3.87,3.87,0,0,0,48.88,11.14Z" transform="translate(-10.02 -10.02)" style="fill:#fff"></path></svg>
+</div>
+<div class="clickfb-container">
+    <div class="clickfb-top-header"><span>Hotline tư vấn miễn phí: 0903 144 189</span></div>
+    <div class="fb-page" data-tabs="messages" data-href="https://www.facebook.com/haivietcorp" data-width="320" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div>
+</div>
+<style type="text/css">
+.clickfb-box{
+    z-index: 999
+}
+.clickfb-box.rubberBand {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand
+}
+.clickfb-box.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+.clickfb-box {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: fixed;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    background: #1182FC;
+    border-radius: 100%;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+    bottom: 100px;
+    right: 6px;
+    background: #1182fc
+}
+.clickfb-box.rotate svg#fb-msng-icon {
+    transform: rotate(0deg)
+}
+.clickfb-box svg#fb-msng-icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    opacity: 1;
+    overflow: hidden;
+    -webkit-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;
+    -moz-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;
+    -o-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;
+    transition: opacity 160ms ease-in-out, transform 160ms ease-in-out
+}
+.clickfb-box.rotate svg#close-icon {
+    transform: rotate(-45deg)
+}
+.clickfb-box svg#close-icon {
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    -webkit-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;
+    -moz-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;
+    -o-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;
+    transition: opacity 160ms ease-in-out, transform 160ms ease-in-out
+}
+.clickfb-container {
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    opacity: 0;
+    border-radius: 10px;
+    pointer-events: none;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06), 0 2px 32px rgba(0, 0, 0, 0.16);
+    -webkit-transition: transform 160ms ease-in-out, opacity 160ms ease-in-out;
+    -moz-transition: transform 160ms ease-in-out, opacity 160ms ease-in-out;
+    -o-transition: transform 160ms ease-in-out, opacity 160ms ease-in-out;
+    transition: transform 160ms ease-in-out, opacity 160ms ease-in-out;
+    transform: translateY(50px);
+    bottom: 160px;
+    right: 6px
+}
+.clickfb-container{z-index: 0;}
+.clickfb-container.open,
+.clickfb-container-button {
+    z-index: 1000;
+    display: block;
+    height: auto;
+}
+.clickfb-top-header {
+    display: block;
+    position: relative;
+    width: 300px;
+    background: #1182FC;
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+    padding: 10px;
+    font-size: 14px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+.clickfb-container iframe,
+.clickfb-container-button iframe {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+.clickfb-container.open {
+    transform: translateY(0px);
+    opacity: 1;
+    pointer-events: all
+}
+.clickfb-box.open svg#fb-msng-icon {
+    opacity: 0
+}
+.clickfb-box.rotate.open svg#close-icon {
+    transform: rotate(0deg)
+}
+.clickfb-box.open svg#close-icon {
+    opacity: 1
+}
+</style>
+
+<script>
+jQuery(document).ready(function () {
+    jQuery(".clickfb-box, .clickfb-top-header").on("click", function () {
+        jQuery(".clickfb-box, .clickfb-container").toggleClass("open"), jQuery(".clickfb-tooltip").length && jQuery(".clickfb-tooltip").toggle()
+    }), jQuery(".clickfb-box").hasClass("cfm") && setTimeout(function () {
+        jQuery(".clickfb-box").addClass("rubberBand animated")
+    }, 3500)
+});
+</script> <script lang="javascript">var __vnp = {code : 5432,key:'', secret : '9c6a3d3d67f8eb7ac1d65b7f7c99b5e3'};(function() {var ga = document.createElement('script');ga.type = 'text/javascript';ga.async=true; ga.defer=true;ga.src = '//core.vchat.vn/code/tracking.js';var s = document.getElementsByTagName('script');s[0].parentNode.insertBefore(ga, s[0]);})();</script></body>
+</html>

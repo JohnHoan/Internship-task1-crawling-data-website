@@ -1,0 +1,1606 @@
+<!doctype html>
+<html lang="vi-VN">
+<head>
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+    <meta name="author" content="ExHub" />
+
+	<title>Acecook Việt Nam &#8211; Nhà sản xuất thực phẩm ăn liền hàng đầu tại Việt Nam</title>
+<style>
+		.wpcf7-submit{
+			display:none;
+		}
+		.recaptcha-btn{
+			display:block;
+		}
+		.grecaptcha-badge {display: none;} 	</style>
+	<script type="text/javascript">
+		var contactform = {};
+		var renderGoogleInvisibleRecaptcha = function() {
+			jQuery(document).ready(function(){
+			// prevent form submit from enter key
+			jQuery("input[name=_wpcf7]").attr("class","formid");
+				jQuery('.wpcf7-form').on('keyup keypress', "input", function(e) {
+				  var keyCode = e.keyCode || e.which;
+				  if (keyCode === 13) { 
+					e.preventDefault();
+					return false;
+				  }
+				});
+			});	
+			jQuery('.wpcf7-submit').each(function(index){
+				var checkexclude = 0;
+				var form = jQuery(this).closest('.wpcf7-form');
+				var value = jQuery(form).find(".formid").val();
+				// check form exclude from invisible recaptcha
+								if(checkexclude == 0){
+					var ajax_nonce = "389a3b6af5";
+					var ajaxurl = "https://acecookvietnam.vn/wp-admin/admin-ajax.php";
+					// Call ajax for get contact form messages
+					jQuery.ajax({
+						url: ajaxurl, 
+						type: 'POST',
+						data: {'postId':value,'action':"vsz_cf7_contact_message","ajax_nonce":ajax_nonce},
+						success: function(data){
+							var contacid = value;
+							contactform[contacid] = JSON.parse(data);	
+						}
+					});
+					// Hide the form orig submit button
+					form.find('.wpcf7-submit').hide();
+
+					// Fetch class and value of orig submit button
+					btnClasses = form.find('.wpcf7-submit').attr('class');
+					btnValue = form.find('.wpcf7-submit').attr('value');
+
+					// Add custom button and recaptcha holder
+					form.find('.wpcf7-submit').after('<input type="button" id="wpcf-custom-btn-'+index+'" class="'+btnClasses+'  recaptcha-btn" value="'+btnValue+'" title="'+btnValue+'" >');
+					form.append('<div class="recaptcha-holder" id="recaptcha-holder-'+index+'"></div>');
+					// Recaptcha rendenr from here
+					var holderId = grecaptcha.render('recaptcha-holder-'+index,{
+								'sitekey':'6LcVIzYUAAAAAI59QZKjFivjmwVnrRHqdnYRIe8u',
+								'size': 'invisible',
+								'badge' : 'bottomright', // possible values: bottomright, bottomleft, inline
+								'callback' : function (recaptchaToken) {
+									
+									var response=jQuery('#recaptcha-holder-'+index).find('.g-recaptcha-response').val();
+									//Remove old response and store new respone 
+									jQuery('#recaptcha-holder-'+index).parent().find(".respose_post").remove();
+									jQuery('#recaptcha-holder-'+index).after('<input type="hidden" name="g-recaptcha-response"  value="'+response+'" class="respose_post">')
+									grecaptcha.reset(holderId);
+									
+									if(typeof customCF7Validator !== 'undefined'){
+										if(!customCF7Validator(form)){
+											return;
+										}
+									}
+									// Call default Validator function
+									else if(contactFormDefaultValidator(form)){
+										return;
+									}
+									else{
+										// hide the custom button and show orig submit button again and submit the form
+										jQuery('#wpcf-custom-btn-'+index).hide();
+										form.find('input[type=submit]').show();
+										form.find("input[type=submit]").click();
+										form.find('input[type=submit]').hide();
+										jQuery('#wpcf-custom-btn-'+index).attr('style','');
+									}
+								}
+						},false);
+						
+					// action call when click on custom button
+					jQuery('#wpcf-custom-btn-'+index).click(function(event){
+						event.preventDefault();
+						// Call custom validator function
+						if(typeof customCF7Validator == 'function'){
+							if(!customCF7Validator(form)){
+								return false;
+							}
+						}
+						// Call default Validator function
+						else if(contactFormDefaultValidator(form)){
+							return false;
+						}
+						else if(grecaptcha.getResponse(holderId) != ''){
+							grecaptcha.reset(holderId);
+						}
+						else{
+							// execute the recaptcha challenge
+							grecaptcha.execute(holderId);
+						}
+					});
+				}
+				
+			});
+				
+		};
+		// Default validator function
+		function contactFormDefaultValidator(objForm){
+			var formid=jQuery(objForm).find(".formid").val();
+			var havingError = false;
+			// Fetch each validation field one by one
+			objForm.find('.wpcf7-validates-as-required').each(function(){
+				jQuery(this).parent().find('.wpcf7-not-valid-tip').remove();
+				// Check if empty or checkbox checked or not
+				if(!jQuery(this).hasClass('wpcf7-checkbox')){
+					if(!jQuery(this).val()){
+						jQuery(this).val('');
+						jQuery(this).parent().find('.wpcf7-not-valid-tip').remove();
+						jQuery(this).after('<span class="wpcf7-not-valid-tip" role="alert">'+contactform[formid]['invalid_required']+'</span>');
+						havingError = true;
+					}
+					// Check if not valid email address entered
+					else{			
+						if(jQuery(this).attr('class').indexOf("wpcf7-validates-as-email") >= 0){
+							var emailField = jQuery(this).val();
+							if(!validateCustomFormEmail(emailField)){
+								jQuery(this).parent().find('.wpcf7-not-valid-tip').remove();
+								jQuery(this).after('<span role="alert" class="wpcf7-not-valid-tip">'+contactform[formid]['invalid_email']+'</span>');
+								havingError = true;
+							}
+						}
+						// Check if not valid url entered
+						else if(jQuery(this).attr('class').indexOf("wpcf7-validates-as-url") >= 0){
+							var urlField = jQuery(this).val();
+							if(!validateCustomFormurl(urlField)){
+								jQuery(this).parent().find('.wpcf7-not-valid-tip').remove();
+								jQuery(this).after('<span role="alert" class="wpcf7-not-valid-tip">'+contactform[formid]['invalid_url']+'</span>');
+								havingError = true;
+							}
+						}
+						// Check if not valid telephone entered
+						else if(jQuery(this).attr('class').indexOf("wpcf7-validates-as-tel") >= 0){
+							var telField = jQuery(this).val();
+							if(!validateCustomFormtel(telField)){
+								jQuery(this).parent().find('.wpcf7-not-valid-tip').remove();
+								jQuery(this).after('<span role="alert" class="wpcf7-not-valid-tip">'+contactform[formid]['invalid_tel']+'</span>');
+								havingError = true;
+							}
+						}
+						// Check if not valid number entered
+						else if(jQuery(this).attr('class').indexOf("wpcf7-validates-as-number") >= 0){
+							var numField = jQuery(this).val();
+							var min = jQuery(this).attr('min');
+							var max = jQuery(this).attr('max');
+							var testnum = validateCustomFormnum(numField,min,max);
+							if(testnum != 0){
+								jQuery(this).parent().find('.wpcf7-not-valid-tip').remove();
+								if(testnum ==1){
+									jQuery(this).after('<span role="alert" class="wpcf7-not-valid-tip">'+contactform[formid]['invalid_number']+'</span>');
+								}
+								if(testnum ==2){
+									jQuery(this).after('<span role="alert" class="wpcf7-not-valid-tip">'+contactform[formid]['invalid_too_long']+'</span>');
+								}
+								if(testnum ==3){
+									jQuery(this).after('<span role="alert" class="wpcf7-not-valid-tip">'+contactform[formid]['invalid_too_short']+'</span>');
+								}
+								havingError = true;
+							}
+						}
+						// Check if not valid date entered
+						else if(jQuery(this).attr('class').indexOf("wpcf7-validates-as-date") >= 0){
+							var date = jQuery(this).val();
+							if(!validateCustomFordate(date)){
+								jQuery(this).parent().find('.wpcf7-not-valid-tip').remove();
+								jQuery(this).after('<span role="alert" class="wpcf7-not-valid-tip">'+contactform[formid]['invalid_date']+'</span>');
+								havingError = true;
+							}
+						}
+					}
+				}
+				else{
+					var checkselected = 0; 
+					jQuery(this).find('input').each(function(){
+						if(jQuery(this).prop('checked') == true){
+							checkselected++;
+						}
+					});
+					if(checkselected == 0){
+						jQuery(this).parent().find('.wpcf7-not-valid-tip').remove();
+						jQuery(this).after('<span class="wpcf7-not-valid-tip" role="alert">'+contactform[formid]['invalid_required']+'</span>');
+						havingError = true;
+					}
+				}
+			});
+			//for acceptance validation 
+			if(jQuery(objForm).find('.wpcf7-acceptance').length > 0){
+				if(jQuery(objForm).find('.wpcf7-acceptance').hasClass('wpcf7-invert')){
+					if(jQuery(objForm).find('.wpcf7-acceptance').prop('checked') == true){
+						jQuery(objForm).find('.wpcf7-acceptance').parent().find('.wpcf7-not-valid-tip').remove();
+						jQuery(objForm).find('.wpcf7-acceptance').after('<span class="wpcf7-not-valid-tip" role="alert">'+contactform[formid]['accept_terms']+'</span>');
+						havingError = true;
+					}
+					else{
+						jQuery(objForm).find('.wpcf7-acceptance').parent().find('.wpcf7-not-valid-tip').remove();
+					}
+				}
+				else{
+					if(jQuery(objForm).find('.wpcf7-acceptance').prop('checked') == false){
+						jQuery(objForm).find('.wpcf7-acceptance').parent().find('.wpcf7-not-valid-tip').remove();
+						jQuery(objForm).find('.wpcf7-acceptance').after('<span class="wpcf7-not-valid-tip" role="alert">'+contactform[formid]['accept_terms']+'</span>');
+						havingError = true;
+					}
+					else{
+						jQuery(objForm).find('.wpcf7-acceptance').parent().find('.wpcf7-not-valid-tip').remove();
+					}
+				}
+			}		
+			if(jQuery(objForm).find('.wpcf7-select').length > 0){
+				if(!jQuery(objForm).find('.wpcf7-select').val()){
+						jQuery(objForm).find('.wpcf7-select').parent().find('.wpcf7-not-valid-tip').remove();
+						jQuery(objForm).find('.wpcf7-select').after('<span class="wpcf7-not-valid-tip" role="alert">'+contactform[formid]['invalid_required']+'</span>');
+						havingError = true;
+				}
+				else{
+					jQuery(objForm).find('.wpcf7-select').parent().find('.wpcf7-not-valid-tip').remove();
+					if(jQuery(objForm).find('.wpcf7-select').val() == ''){
+						jQuery(objForm).find('.wpcf7-select').parent().find('.wpcf7-not-valid-tip').remove();
+						jQuery(objForm).find('.wpcf7-select').after('<span class="wpcf7-not-valid-tip" role="alert">'+contactform[formid]['invalid_required']+'</span>');
+						havingError = true;
+		
+					}
+				}
+			}		
+			return havingError;
+		}
+		//email validation function
+		function validateCustomFormEmail(email) {
+			var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,10}|[0-9]{1,3})(\]?)$/;
+			return expr.test(email);
+		}
+		//url validation function
+		function validateCustomFormurl(url) {
+			if(url){
+				return true;		
+			}
+			else{
+				return false;
+			}
+		}
+		//telephone validation function
+		function validateCustomFormtel(number){
+			var phoneno = /[a-zA-Z]/;  
+			if(number.match(phoneno)) {  
+				return false;  
+			}  
+			else {  
+				return true;  
+			}  
+		}
+		//number filed validation function
+		function validateCustomFormnum(number,min,max){
+			if (isNaN(number) ) {
+				return 1;
+			}
+			else {
+				if(min){
+					if(number < min){
+						return 3;
+					}				
+				}
+				if(max){
+					if(number > max){
+						return 2;
+					}				
+				}
+				return 0;
+			}
+		}
+		//date filed validation function
+		function validateCustomFordate(input) {
+			var status = false;
+			if (!input || input.length <= 0) {
+			  status = false;
+			} 
+			else {
+			  var result = new Date(input);
+			  if (result == 'Invalid Date') {
+				status = false;
+			  } 
+			  else {
+				status = true;
+			  }
+			}
+			return status;		
+		}
+		
+	</script>
+	<script  src="https://www.google.com/recaptcha/api.js?onload=renderGoogleInvisibleRecaptcha&render=explicit" async defer></script>    <script type="text/javascript">
+        var templateUrl = 'https://acecookvietnam.vn';
+        var post_id = '24601';
+    </script>
+    <link rel="alternate" hreflang="en-us" href="https://acecookvietnam.vn/en/" />
+<link rel="alternate" hreflang="vi-vn" href="https://acecookvietnam.vn/" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Acecook Việt Nam &raquo; Feed" href="https://acecookvietnam.vn/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Acecook Việt Nam &raquo; Comments Feed" href="https://acecookvietnam.vn/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/acecookvietnam.vn\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.10"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='flowplayer-css-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/easy-video-player/lib/skin/skin.css?ver=4.9.10' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.5.1' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='SFSImainCss-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/ultimate-social-media-icons/css/sfsi-style.css?ver=4.9.10' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-legacy-horizontal-list-0-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='mr-frontend-style-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/multi-rating/assets/css/frontend-min.css?ver=4.9.10' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='acv-style-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/style.css?ver=4.9.10' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/bootstrap/css/bootstrap.min.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/css/main.css?ver=2.12' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/css/responsive.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/css/owl.carousel.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-theme-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/css/owl.theme.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-transitions-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/css/owl.transitions.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='home-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/css/home.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/css/slick.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdreams-asl-basic-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/ajax-search-lite/css/style.basic.css?ver=4.7.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdreams-ajaxsearchlite-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/ajax-search-lite/css/style-curvy-red.css?ver=4.7.8' type='text/css' media='all' />
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/easy-video-player/lib/flowplayer.min.js?ver=4.9.10'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.5.1'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.5.1'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/js/home-head.js'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/js/waypoints.min.js'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/js/jquery.counterup.min.js'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/js/slick.min.js'></script>
+<link rel='https://api.w.org/' href='https://acecookvietnam.vn/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://acecookvietnam.vn/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://acecookvietnam.cdn.vccloud.vn/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.10" />
+<!-- This content is generated with the Easy Video Player plugin v1.1.6 - http://noorsplugin.com/wordpress-video-plugin/ --><script>flowplayer.conf.embed = false;flowplayer.conf.keyboard = false;</script><!-- Easy Video Player plugin --><meta name="generator" content="WPML ver:3.8.0 stt:1,58;" />
+<meta name="specificfeeds-verification-code-aVJYU3dOSWtSV1REdlZJd1paZ1B1bzZyaGVIbGdYNWF0dTJJNDNTaWJLRSsrN1YxcU93UXgzV2xMWmNIeVZiTThMRkRlc2JrOU56NGtoRXJhRlFySTZBWDFHVldyOTA4eHExR0hkNjdxQndaRUlNdEdWdlBRZGJ1cGVmWHZiSmR8RjVqcWxiZGxRMG9uSDNYUU1PSFVVcERnc3RFd0ticVlxSFA1MUlZTXYyUT0=" content="cW1wvv7NgTrnFvAxxRna"/><meta name="viewport" content="width=device-width, initial-scale=1"><meta property="og:image:secure_url" content="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2021/07/Hao_Hao_Xao.jpg" data-id="sfsi"><meta property="og:image:type" content="" data-id="sfsi" /><meta property="og:image:width" content="592" data-id="sfsi" /><meta property="og:image:height" content="390" data-id="sfsi" /><meta property="og:url" content="https://acecookvietnam.vn/hao-hao-mi-xao-vi-ngon-bat-tron-moi-giac-quan/" data-id="sfsi" /><meta property="og:description" content="" data-id="sfsi" /><meta property="og:title" content="HẢO HẢO MÌ XÀO &#8211; VỊ NGON BẮT TRỌN MỌI GIÁC QUAN" data-id="sfsi" />			<style type="text/css">
+								.mr-custom-full-star {
+					background: url() no-repeat;
+					width: 32px;
+					height: 32px;
+					background-size: 32px 32px;
+					image-rendering: -moz-crisp-edges;
+					display: inline-block;
+				}
+				.mr-custom-half-star {
+					background: url() no-repeat;
+					width: 32px;
+					height: 32px;
+					background-size: 32px 32px;
+					image-rendering: -moz-crisp-edges;
+					display: inline-block;
+				}
+				.mr-custom-empty-star {
+					background: url() no-repeat;
+					width: 32px;
+					height: 32px;
+					background-size: 32px 32px;
+					image-rendering: -moz-crisp-edges;
+					display: inline-block;
+				}
+				.mr-custom-hover-star {
+					background: url() no-repeat;
+					width: 32px;
+					height: 32px;
+					background-size: 32px 32px;
+					image-rendering: -moz-crisp-edges;		
+					display: inline-block;		
+				}
+				.mr-star-hover {
+					color: #ffba00 !important;
+				}
+				.mr-star-full, .mr-star-half, .mr-star-empty {
+					color: #ffd700;
+				}
+				.mr-error {
+					color: #EC6464;
+				}
+			</style>
+					<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.5.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+                <style type="text/css">
+                    <!--
+                    
+            @font-face {
+                font-family: 'aslsicons2';
+                src: url('https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/ajax-search-lite/css/fonts/icons2.eot');
+                src: url('https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/ajax-search-lite/css/fonts/icons2.eot?#iefix') format('embedded-opentype'),
+                     url('https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/ajax-search-lite/css/fonts/icons2.woff2') format('woff2'),
+                     url('https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/ajax-search-lite/css/fonts/icons2.woff') format('woff'),
+                     url('https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/ajax-search-lite/css/fonts/icons2.ttf') format('truetype'),
+                     url('https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/ajax-search-lite/css/fonts/icons2.svg#icons') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            div[id*='ajaxsearchlite'].wpdreams_asl_container {
+                width: 100%;
+                margin: 0px 0px 0px 0px;
+            }
+            div[id*='ajaxsearchliteres'].wpdreams_asl_results div.resdrg span.highlighted {
+                font-weight: bold;
+                color: rgba(217, 49, 43, 1);
+                background-color: rgba(238, 238, 238, 1);
+            }
+            div[id*='ajaxsearchliteres'].wpdreams_asl_results .results div.asl_image {
+                width: 100px;
+                height: 100px;
+            }
+                                -->
+                </style>
+                            <script type="text/javascript">
+                if ( typeof _ASL !== "undefined" && _ASL !== null && typeof _ASL.initialize !== "undefined" )
+                    _ASL.initialize();
+            </script>
+            <script type="text/javascript">function setREVStartSize(e){
+				try{ var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;					
+					if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+				}catch(d){console.log("Failure at Presize of Slider:"+d)}
+			};</script>
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>    <link rel='stylesheet' id='mn-css' href='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/css/mn27.css' type='text/css' media='all' />
+        
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5S52X24');</script>
+<!-- End Google Tag Manager -->
+
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-MLFPXB');</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- Hotjar Tracking Code for acecookvietnam.vn -->
+	<script>
+	    (function(h,o,t,j,a,r){
+	        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+	        h._hjSettings={hjid:620890,hjsv:6};
+	        a=o.getElementsByTagName('head')[0];
+	        r=o.createElement('script');r.async=1;
+	        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+	        a.appendChild(r);
+	    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+	    function video_start_event() {
+			$(window).trigger('resize');
+		}
+	</script>
+
+	<!-- Admicro Tag Manager -->
+        <script> (function(a, b, d, c, e) { a[c] = a[c] || [];
+        a[c].push({ "atm.start": (new Date).getTime(), event: "atm.js" });
+        a = b.getElementsByTagName(d)[0]; b = b.createElement(d); b.async = !0;
+        b.src = "//deqik.com/tag/corejs/" + e + ".js"; a.parentNode.insertBefore(b, a)
+        })(window, document, "script", "atmDataLayer", "ATMMNX7ZYTTUO");</script>
+    <!-- End Admicro Tag Manager -->
+</head>
+
+<body class="home blog hfeed vi wpb-js-composer js-comp-ver-5.2 vc_responsive">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5S52X24"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLFPXB"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<script>
+	  window.fbAsyncInit = function() {
+	    FB.init({
+	      appId      : '1652715558135052',
+	      xfbml      : true,
+	      version    : 'v2.10'
+	    });
+	    FB.AppEvents.logPageView();
+	  };
+
+	  (function(d, s, id){
+	     var js, fjs = d.getElementsByTagName(s)[0];
+	     if (d.getElementById(id)) {return;}
+	     js = d.createElement(s); js.id = id;
+	     js.src = "//connect.facebook.net/en_US/sdk.js";
+	     fjs.parentNode.insertBefore(js, fjs);
+	   }(document, 'script', 'facebook-jssdk'));
+	</script>
+	<div id="main" class="container-fluid">
+		<header class="header">
+			<div class="container">
+				<div class="row top-header hidden-sm hidden-xs ">
+					<div class="col-sm-10">
+						<ul class="menu-top-header list-unstyled pull-right list-inline">
+							<li><a href="#"><span class="icon-phone"></span> Hotline <strong> (028) 38150969 </strong></a></li>
+							<li class="contact-header"><a href="https://acecookvietnam.vn/lien-he/" title="Liên hệ"><span class="icon-email"></span> Liên hệ</a></li>
+							<li><a target="_blank" href="http://www.acecook.co.jp/"><span class="japan-flag"></span> Acecook Nhật Bản</a></li>
+							<li><a target="_blank" href="http://acecook.us/"><span class="us-flag"></span> Acecook USA</a></li>
+							<li><a target="_blank" href="/export"><span class="globe"></span> Xuất Khẩu</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2">
+						
+<div
+	 class="wpml-ls-sidebars- wpml-ls wpml-ls-legacy-dropdown js-wpml-ls-legacy-dropdown">
+	<ul>
+
+		<li tabindex="0" class="wpml-ls-slot- wpml-ls-item wpml-ls-item-vi wpml-ls-current-language wpml-ls-last-item wpml-ls-item-legacy-dropdown">
+			<a href="#" class="js-wpml-ls-item-toggle wpml-ls-item-toggle"><img class="wpml-ls-flag" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/sitepress-multilingual-cms/res/flags/vi.png" alt="vi" title="Tiếng Việt"><span class="wpml-ls-native">Tiếng Việt</span></a>
+
+			<ul class="wpml-ls-sub-menu">
+				
+					<li class="wpml-ls-slot- wpml-ls-item wpml-ls-item-en wpml-ls-first-item">
+						<a href="https://acecookvietnam.vn/en/"><img class="wpml-ls-flag" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" title="English"><span class="wpml-ls-native">English</span><span class="wpml-ls-display"><span class="wpml-ls-bracket"> (</span>English<span class="wpml-ls-bracket">)</span></span></a>
+					</li>
+
+							</ul>
+
+		</li>
+
+	</ul>
+</div>					</div>
+					
+				</div>
+			</div>
+		<div class="row main-header hidden-sm hidden-xs">
+			<div class="container-fluid menu">
+				<div class="brand col-xs-8 col-sm-2 col-md-2 col-lg-2">
+										<a href="https://acecookvietnam.vn/"><img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/images/logo-acecook.png" alt="logo acecook" class="img-responsive"></a>
+				</div>
+				<div class="main-menu col-xs-8 col-sm-10 col-md-10 col-lg-10">
+					<ul id="menu-menu-chinh-trang-noi-dia" class="ul-main-menu list-unstyled"><li id="menu-item-1067" class="home-item menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1067 li-main"><a href="https://acecookvietnam.vn" class="custom-class"><img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/images/iconHome.png" class="img-responsive" /></a></li>
+<li id="menu-item-711" class="break-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-711 li-main has-sub"><a href="https://acecookvietnam.vn/thong-tin-cong-ty/" class="custom-class">Thông tin <br /> công ty</a><div class="sub-menu sub-menu-2">
+<ul  class="list-unstyled">
+	<li id="menu-item-712" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-712 col-xs-12"><a href="https://acecookvietnam.vn/thong-tin-cong-ty/" class="parent-sub-menu">Giới thiệu</a></li>
+	<li id="menu-item-713" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-713 col-xs-12"><a href="https://acecookvietnam.vn/lich-su-hinh-thanh/" class="parent-sub-menu">Lịch sử hình thành</a></li>
+	<li id="menu-item-714" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-714 col-xs-12"><a href="https://acecookvietnam.vn/tam-nhin-su-menh/" class="parent-sub-menu">Tầm nhìn sứ mệnh</a></li>
+	<li id="menu-item-715" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-715 col-xs-12"><a href="https://acecookvietnam.vn/danh-hieu-giai-thuong/" class="parent-sub-menu">Danh hiệu giải thưởng</a></li>
+	<li id="menu-item-716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716 col-xs-12"><a href="https://acecookvietnam.vn/hoat-dong-xa-hoi/" class="parent-sub-menu">Hoạt động xã hội</a></li>
+	<li id="menu-item-717" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-717 col-xs-12"><a href="https://acecookvietnam.vn/chi-nhanh/" class="parent-sub-menu">Thông tin chi nhánh</a></li>
+	<li id="menu-item-718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-718 col-xs-12"><a href="http://acecookcareer.com" class="parent-sub-menu">Tuyển dụng</a></li>
+</ul>
+</div></li>
+<li id="menu-item-2297" class="break-1 menu-item menu-item-type-taxonomy menu-item-object-loai-san-pham menu-item-has-children menu-item-2297 li-main has-sub"><a href="https://acecookvietnam.vn/loai-san-pham/mi-goi/" class="custom-class">Sản <br /> phẩm</a><div class="sub-menu sub-menu-2">
+<ul  class="list-unstyled">
+	<li id="menu-item-16030" class="menu-item menu-item-type-taxonomy menu-item-object-loai-san-pham menu-item-16030 col-xs-12"><a href="https://acecookvietnam.vn/loai-san-pham/mi-goi/" class="parent-sub-menu">Mì gói</a></li>
+	<li id="menu-item-16032" class="menu-item menu-item-type-taxonomy menu-item-object-loai-san-pham menu-item-16032 col-xs-12"><a href="https://acecookvietnam.vn/loai-san-pham/pho-hu-tieu-bun/" class="parent-sub-menu">Phở &#8211; Hủ tiếu &#8211; Bún</a></li>
+	<li id="menu-item-16031" class="menu-item menu-item-type-taxonomy menu-item-object-loai-san-pham menu-item-16031 col-xs-12"><a href="https://acecookvietnam.vn/loai-san-pham/to-ly-khay/" class="parent-sub-menu">Tô &#8211; Ly &#8211; Khay</a></li>
+	<li id="menu-item-16033" class="menu-item menu-item-type-taxonomy menu-item-object-loai-san-pham menu-item-16033 col-xs-12"><a href="https://acecookvietnam.vn/loai-san-pham/mien/" class="parent-sub-menu">Miến</a></li>
+	<li id="menu-item-18545" class="menu-item menu-item-type-taxonomy menu-item-object-loai-san-pham menu-item-18545 col-xs-12"><a href="https://acecookvietnam.vn/loai-san-pham/nganh-hang-moi/" class="parent-sub-menu">Ngành hàng mới</a></li>
+	<li id="menu-item-16034" class="menu-item menu-item-type-post_type_archive menu-item-object-cong-bo-san-pham menu-item-16034 col-xs-12"><a href="https://acecookvietnam.vn/cong-bo-san-pham/" class="parent-sub-menu">Công bố sản phẩm</a></li>
+</ul>
+</div></li>
+<li id="menu-item-22900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-22900 li-main has-sub"><a href="https://acecookvietnam.vn/mi-an-lien/quy-trinh-san-xuat-3/" class="custom-class">Quy trình<br /> sản xuất</a><div class="sub-menu sub-menu-2">
+<ul  class="list-unstyled">
+	<li id="menu-item-22901" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22901 col-xs-12"><a href="https://acecookvietnam.vn/mi-an-lien/quy-trinh-san-xuat-3/" class="parent-sub-menu">Quy trình sản xuất</a></li>
+	<li id="menu-item-22903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22903 col-xs-12"><a href="https://acecookvietnam.vn/mi-an-lien/quy-trinh-kiem-soat-chat-luong/" class="parent-sub-menu">Quy trình kiểm soát chất lượng</a></li>
+	<li id="menu-item-22902" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22902 col-xs-12"><a href="https://acecookvietnam.vn/mi-an-lien/phong-thi-nghiem-2/" class="parent-sub-menu">Phòng thí nghiệm</a></li>
+</ul>
+</div></li>
+<li id="menu-item-22906" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-22906 li-main has-sub"><a href="https://acecookvietnam.vn/kien-thuc-ve-mi-an-lien/" class="custom-class">Kiến thức<br /> về mì ăn liền</a><div class="sub-menu sub-menu-2">
+<ul  class="list-unstyled">
+	<li id="menu-item-22894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22894 col-xs-12"><a href="https://acecookvietnam.vn/kien-thuc-ve-mi-an-lien/" class="parent-sub-menu">Kiến thức về mì ăn liền</a></li>
+	<li id="menu-item-22898" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22898 col-xs-12"><a href="https://acecookvietnam.vn/mi-an-lien/mi-an-lien-va-dinh-duong/" class="parent-sub-menu">Mì ăn liền &#038; Dinh dưỡng</a></li>
+	<li id="menu-item-21376" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21376 col-xs-12"><a href="https://acecookvietnam.vn/category/the-gioi-mi/chuyen-ve-mi/" class="parent-sub-menu">Thế giới mì</a></li>
+	<li id="menu-item-21377" class="menu-item menu-item-type-taxonomy menu-item-object-chu-de-hoi-dap menu-item-21377 col-xs-12"><a href="https://acecookvietnam.vn/chu-de-hoi-dap/mi-an-lien-suc-khoe/" class="parent-sub-menu">Hỏi nhanh đáp chuẩn</a></li>
+</ul>
+</div></li>
+<li id="menu-item-20082" class="break-2 menu-item menu-item-type-custom menu-item-object-custom menu-item-20082 li-main"><a href="https://thamquannhamay.acecookvietnam.vn/" class="custom-class">Tham quan <br /> nhà máy</a></li>
+<li id="menu-item-732" class="break-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-732 li-main has-sub"><a href="https://acecookvietnam.vn/truyen-thong-khuyen-mai/" class="custom-class">Truyền thông <br /> khuyến mãi</a><div class="sub-menu sub-menu-2">
+<ul  class="list-unstyled">
+	<li id="menu-item-736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-736 col-xs-12"><a href="https://acecookvietnam.vn/truyen-thong-khuyen-mai/quang-cao-truyen-hinh/" class="parent-sub-menu">TVC</a></li>
+	<li id="menu-item-735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-735 col-xs-12"><a href="https://acecookvietnam.vn/truyen-thong-khuyen-mai/tin-tuc/" class="parent-sub-menu">Tin tức</a></li>
+	<li id="menu-item-734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-734 col-xs-12"><a href="https://acecookvietnam.vn/truyen-thong-khuyen-mai/su-kien/" class="parent-sub-menu">Sự kiện</a></li>
+	<li id="menu-item-733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-733 col-xs-12"><a href="https://acecookvietnam.vn/truyen-thong-khuyen-mai/khuyen-mai/" class="parent-sub-menu">Khuyến mãi</a></li>
+</ul>
+</div></li>
+<li id="menu-item-10783" class="break-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10783 li-main has-sub"><a href="https://acecookvietnam.vn/nha-hang/" class="custom-class">Nhà <br /> hàng</a><div class="sub-menu sub-menu-2">
+<ul  class="list-unstyled">
+	<li id="menu-item-10784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10784 col-xs-12"><a href="https://acecookvietnam.vn/nha-hang/ringer-hut/" class="parent-sub-menu">Ringer Hut</a></li>
+	<li id="menu-item-22527" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22527 col-xs-12"><a href="https://acecookvietnam.vn/buffet-mi-ly/" class="parent-sub-menu">Acecook Buffet Mì Ly</a></li>
+</ul>
+</div></li>
+<li id="menu-item-15610" class="break-2 menu-item menu-item-type-taxonomy menu-item-object-danh-muc-cong-thuc menu-item-15610 li-main"><a href="https://acecookvietnam.vn/danh-muc-cong-thuc/tat-ca/" class="custom-class">Góc ẩm <br /> thực</a></li>
+<li id="menu-item-14615" class="break-2 health-tab menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14615 li-main has-sub"><a href="#" class="custom-class">Sản phẩm <br /> sức khỏe</a><div class="sub-menu sub-menu-2">
+<ul  class="list-unstyled">
+	<li id="menu-item-14616" class="menu-item menu-item-type-post_type menu-item-object-san-pham menu-item-14616 col-xs-12"><a href="https://acecookvietnam.vn/?post_type=san-pham&#038;p=14583" class="parent-sub-menu">Samưrai</a></li>
+	<li id="menu-item-14899" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14899 col-xs-12"><a href="https://acecookvietnam.vn/tin-tuc-suc-khoe/" class="parent-sub-menu">Thông tin sức khỏe</a></li>
+	<li id="menu-item-14898" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14898 col-xs-12"><a href="https://acecookvietnam.vn/su-kien-suc-khoe/" class="parent-sub-menu">Sự kiện</a></li>
+</ul>
+</div></li>
+</ul>				</div>
+			</div>
+		</div>
+
+			<!-- mobile wrap -->
+			<div class="row menu-mobile-wrap hidden-md hidden-lg">
+				<div class="button-wrap">
+					<button type="button" class="button-menu menu_mobile_bnt">
+						<span class="menu-button-icon"></span>
+						<span class="menu-button-icon"></span>
+						<span class="menu-button-icon"></span>
+					</button>			
+					<div class="img-box">
+						<a href="https://acecookvietnam.vn/"><img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/images/logo-acecook.png" class="img-responsive" alt="logo acecook"></a>
+					</div>
+				</div>			
+				<div class="mobile-menu ">
+					<div class="clearfix"></div>
+					<ul id="menu-menu-chinh-trang-noi-dia-1" class="mobile-menu-list list-unstyled"><li class="home-item menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1067 mobile-has-sub"><a href="https://acecookvietnam.vn" class="custom-class">Trang chủ</a></li>
+<li class="break-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-711 mobile-has-sub"><a class="custom-class">Thông tin công ty <span class="fa fa-angle-down"</a>
+<ul  class="menu-sub-list list-unstyled">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-712"><a href="https://acecookvietnam.vn/thong-tin-cong-ty/" class="custom-class">Giới thiệu</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-713"><a href="https://acecookvietnam.vn/lich-su-hinh-thanh/" class="custom-class">Lịch sử hình thành</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-714"><a href="https://acecookvietnam.vn/tam-nhin-su-menh/" class="custom-class">Tầm nhìn sứ mệnh</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-715"><a href="https://acecookvietnam.vn/danh-hieu-giai-thuong/" class="custom-class">Danh hiệu giải thưởng</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716"><a href="https://acecookvietnam.vn/hoat-dong-xa-hoi/" class="custom-class">Hoạt động xã hội</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-717"><a href="https://acecookvietnam.vn/chi-nhanh/" class="custom-class">Thông tin chi nhánh</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-718"><a href="http://acecookcareer.com" class="custom-class">Tuyển dụng</a></li>
+</ul>
+</li>
+<li class="break-1 menu-item menu-item-type-taxonomy menu-item-object-loai-san-pham menu-item-has-children menu-item-2297 mobile-has-sub"><a class="custom-class">Sản phẩm <span class="fa fa-angle-down"</a>
+<ul  class="menu-sub-list list-unstyled">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-loai-san-pham menu-item-16030"><a href="https://acecookvietnam.vn/loai-san-pham/mi-goi/" class="custom-class">Mì gói</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-loai-san-pham menu-item-16032"><a href="https://acecookvietnam.vn/loai-san-pham/pho-hu-tieu-bun/" class="custom-class">Phở &#8211; Hủ tiếu &#8211; Bún</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-loai-san-pham menu-item-16031"><a href="https://acecookvietnam.vn/loai-san-pham/to-ly-khay/" class="custom-class">Tô &#8211; Ly &#8211; Khay</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-loai-san-pham menu-item-16033"><a href="https://acecookvietnam.vn/loai-san-pham/mien/" class="custom-class">Miến</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-loai-san-pham menu-item-18545"><a href="https://acecookvietnam.vn/loai-san-pham/nganh-hang-moi/" class="custom-class">Ngành hàng mới</a></li>
+	<li class="menu-item menu-item-type-post_type_archive menu-item-object-cong-bo-san-pham menu-item-16034"><a href="https://acecookvietnam.vn/cong-bo-san-pham/" class="custom-class">Công bố sản phẩm</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-22900 mobile-has-sub"><a class="custom-class">Quy trình<br /> sản xuất <span class="fa fa-angle-down"</a>
+<ul  class="menu-sub-list list-unstyled">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22901"><a href="https://acecookvietnam.vn/mi-an-lien/quy-trinh-san-xuat-3/" class="custom-class">Quy trình sản xuất</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22903"><a href="https://acecookvietnam.vn/mi-an-lien/quy-trinh-kiem-soat-chat-luong/" class="custom-class">Quy trình kiểm soát chất lượng</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22902"><a href="https://acecookvietnam.vn/mi-an-lien/phong-thi-nghiem-2/" class="custom-class">Phòng thí nghiệm</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-22906 mobile-has-sub"><a class="custom-class">Kiến thức<br /> về mì ăn liền <span class="fa fa-angle-down"</a>
+<ul  class="menu-sub-list list-unstyled">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22894"><a href="https://acecookvietnam.vn/kien-thuc-ve-mi-an-lien/" class="custom-class">Kiến thức về mì ăn liền</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22898"><a href="https://acecookvietnam.vn/mi-an-lien/mi-an-lien-va-dinh-duong/" class="custom-class">Mì ăn liền &#038; Dinh dưỡng</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21376"><a href="https://acecookvietnam.vn/category/the-gioi-mi/chuyen-ve-mi/" class="custom-class">Thế giới mì</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-chu-de-hoi-dap menu-item-21377"><a href="https://acecookvietnam.vn/chu-de-hoi-dap/mi-an-lien-suc-khoe/" class="custom-class">Hỏi nhanh đáp chuẩn</a></li>
+</ul>
+</li>
+<li class="break-2 menu-item menu-item-type-custom menu-item-object-custom menu-item-20082 mobile-has-sub"><a href="https://thamquannhamay.acecookvietnam.vn/" class="custom-class">Tham quan nhà máy</a></li>
+<li class="break-2 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-732 mobile-has-sub"><a class="custom-class">Truyền thông khuyến mãi <span class="fa fa-angle-down"</a>
+<ul  class="menu-sub-list list-unstyled">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-736"><a href="https://acecookvietnam.vn/truyen-thong-khuyen-mai/quang-cao-truyen-hinh/" class="custom-class">TVC</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-735"><a href="https://acecookvietnam.vn/truyen-thong-khuyen-mai/tin-tuc/" class="custom-class">Tin tức</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-734"><a href="https://acecookvietnam.vn/truyen-thong-khuyen-mai/su-kien/" class="custom-class">Sự kiện</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-733"><a href="https://acecookvietnam.vn/truyen-thong-khuyen-mai/khuyen-mai/" class="custom-class">Khuyến mãi</a></li>
+</ul>
+</li>
+<li class="break-1 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10783 mobile-has-sub"><a class="custom-class">Nhà hàng <span class="fa fa-angle-down"</a>
+<ul  class="menu-sub-list list-unstyled">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10784"><a href="https://acecookvietnam.vn/nha-hang/ringer-hut/" class="custom-class">Ringer Hut</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22527"><a href="https://acecookvietnam.vn/buffet-mi-ly/" class="custom-class">Acecook Buffet Mì Ly</a></li>
+</ul>
+</li>
+<li class="break-2 menu-item menu-item-type-taxonomy menu-item-object-danh-muc-cong-thuc menu-item-15610 mobile-has-sub"><a href="https://acecookvietnam.vn/danh-muc-cong-thuc/tat-ca/" class="custom-class">Góc ẩm thực</a></li>
+<li class="break-2 health-tab menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14615 mobile-has-sub"><a class="custom-class">Sản phẩm sức khỏe <span class="fa fa-angle-down"</a>
+<ul  class="menu-sub-list list-unstyled">
+	<li class="menu-item menu-item-type-post_type menu-item-object-san-pham menu-item-14616"><a href="https://acecookvietnam.vn/?post_type=san-pham&#038;p=14583" class="custom-class">Samưrai</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14899"><a href="https://acecookvietnam.vn/tin-tuc-suc-khoe/" class="custom-class">Thông tin sức khỏe</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14898"><a href="https://acecookvietnam.vn/su-kien-suc-khoe/" class="custom-class">Sự kiện</a></li>
+</ul>
+</li>
+</ul>				</div>
+				
+				<div class="top-header mobile-menu-list">
+					<div class="mobile-language-switcher">
+						
+<div
+	 class="wpml-ls-sidebars- wpml-ls wpml-ls-legacy-dropdown js-wpml-ls-legacy-dropdown">
+	<ul>
+
+		<li tabindex="0" class="wpml-ls-slot- wpml-ls-item wpml-ls-item-vi wpml-ls-current-language wpml-ls-last-item wpml-ls-item-legacy-dropdown">
+			<a href="#" class="js-wpml-ls-item-toggle wpml-ls-item-toggle"><img class="wpml-ls-flag" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/sitepress-multilingual-cms/res/flags/vi.png" alt="vi" title="Tiếng Việt"><span class="wpml-ls-native">Tiếng Việt</span></a>
+
+			<ul class="wpml-ls-sub-menu">
+				
+					<li class="wpml-ls-slot- wpml-ls-item wpml-ls-item-en wpml-ls-first-item">
+						<a href="https://acecookvietnam.vn/en/"><img class="wpml-ls-flag" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" title="English"><span class="wpml-ls-native">English</span><span class="wpml-ls-display"><span class="wpml-ls-bracket"> (</span>English<span class="wpml-ls-bracket">)</span></span></a>
+					</li>
+
+							</ul>
+
+		</li>
+
+	</ul>
+</div>					</div>
+					<ul class="menu-top-header list-unstyled pull-right list-inline">
+						<li><a target="_blank" href="http://www.acecook.co.jp/"><span class="japan-flag"></span> Acecook Nhật Bản</a></li>
+						<li><a target="_blank" href="http://acecook.us/"><span class="us-flag"></span> Acecook USA</a></li>
+						<li><a target="_blank" href="/export"><span class="globe"></span> Xuất Khẩu</a></li>
+						<li class="contact-header"><a href="/lien-he"><span class="icon-email"></span> Liên hệ</a></li>
+						<li><a href="#"><span class="icon-phone"></span> Hotline <strong> [84-08] 3815 0969 </strong></a></li>
+					</ul>
+				</div>		
+			</div>
+		</header>
+
+		<div id="waiting_popup" class="modal fade" role="dialog">
+			<div class="modal-dialog" style="top: 40%; text-align: center;">
+			    <div class="modal-content">
+			      <div class="modal-body">
+					<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/images/loading.gif" style="width: 50px; height: 50px;" />
+			        <p style=" display: block; font-size: 22px; color: #f90000">Đang xử lý, xin chờ trong giây lát.</p>
+			      </div>
+			    </div>
+			</div>
+		</div>
+		<style type="text/css">li#menu-item-11362 { padding-bottom: 38px;}</style><div id="home-container">
+	<script type="text/javascript" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?rev=5.4.5.1"></script><script type="text/javascript" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?rev=5.4.5.1"></script>
+<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+<!-- START REVOLUTION SLIDER 5.4.5.1 fullwidth mode -->
+	<div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.5.1">
+<ul>	<!-- SLIDE  -->
+	<li data-index="rs-304" data-transition="slideleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-link="https://acecookvietnam.vn/san-pham/mi-hao-hao/"  data-target="_blank"  data-thumb="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2021/07/dbf7b600f14e05105c5f-100x50.jpg"  data-rotate="0"  data-fstransition="fadethroughtransparent" data-fsmasterspeed="300" data-fsslotamount="7" data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="dbf7b600f14e05105c5f"  width="1440" height="550" data-lazyload="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2021/07/dbf7b600f14e05105c5f.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-307" data-transition="slideleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-link="https://acecookvietnam.vn/san-pham/mi-hao-hao/"  data-target="_blank"  data-thumb="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/07/Sa-Te-KV-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="Sa Te KV"  width="1440" height="550" data-lazyload="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/07/Sa-Te-KV.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-310" data-transition="slideleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-link="https://acecookvietnam.vn/san-pham/pho-de-nhat/"  data-target="_blank"  data-thumb="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2021/04/Pho-De-Nhat_1440x550-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="Pho-De-Nhat_1440x550"  width="1440" height="550" data-lazyload="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2021/04/Pho-De-Nhat_1440x550.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-270" data-transition="slideleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-link="https://acecookvietnam.vn/san-pham/mi-ly-modern/"  data-target="_blank"  data-thumb="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2020/10/banner_Modern-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="banner_Modern"  width="1440" height="550" data-lazyload="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2020/10/banner_Modern.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-211" data-transition="slideleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-link="https://acecookvietnam.vn/san-pham/mi-ly-handy-hao-hao/"  data-target="_blank"  data-thumb="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2021/01/05-Banner1440x550px_69x24-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="05-Banner(1440&#215;550)px_(69&#215;24"  width="1440" height="550" data-lazyload="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2021/01/05-Banner1440x550px_69x24.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-232" data-transition="slideleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-link="https://acecookvietnam.vn/san-pham/mi-caykay/"  data-target="_blank"  data-thumb="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2020/11/KV_-Caykay-for-updating-2Nov-100x50.png"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="KV_-Caykay-for-updating-2Nov"  width="1440" height="550" data-lazyload="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2020/11/KV_-Caykay-for-updating-2Nov.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-284" data-transition="slideleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-link="https://acecookvietnam.vn/san-pham/mi-nau-maxkay/"  data-target="_blank"  data-thumb="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2021/04/banner-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="banner"  width="1440" height="550" data-lazyload="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2021/04/banner.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-289" data-transition="slideleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-link="https://acecookvietnam.vn/san-pham/mien-phu-huong/"  data-target="_blank"  data-thumb="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/web-1440-550-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="web-1440&#8212;550"  width="1440" height="550" data-lazyload="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/web-1440-550.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-297" data-transition="slideleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-link="https://acecookvietnam.vn/san-pham/mien-tron-phu-huong/"  data-target="_blank"  data-thumb="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2018/10/web-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="web"  width="1440" height="550" data-lazyload="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2018/10/web.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-185" data-transition="slideleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-link="https://acecookvietnam.vn/san-pham/muoi-cham-hao-hao/"  data-target="_blank"  data-thumb="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2020/04/BANER-WEB-MUOI-CHAM-THAT-GIA-1440-x550px-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="BANER-WEB-MUOI-CHAM-THAT&#8212;GIA-1440-x550px"  width="1440" height="550" data-lazyload="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2020/04/BANER-WEB-MUOI-CHAM-THAT-GIA-1440-x550px.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-312" data-transition="slideleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-link="https://www.facebook.com/AcecookTheThao"  data-target="_blank"  data-thumb="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2020/06/1440-550_1-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="1440-550_1"  width="1440" height="550" data-lazyload="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2020/06/1440-550_1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-29" data-transition="slideleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2020/11/Acecook-TQNM_Top-banner-100x50.png"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="Acecook-TQNM_Top-banner"  width="1440" height="550" data-lazyload="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2020/11/Acecook-TQNM_Top-banner.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<a class="tp-caption rev-btn rev-withicon " 
+ href="https://acecookvietnam.vn/tham-quan-nha-may/" target="_self"			 id="slide-29-layer-2" 
+			 data-x="center" data-hoffset="-869" 
+			 data-y="center" data-voffset="302" 
+						data-width="['157']"
+			data-height="['auto']"
+			data-visibility="['on','on','off','off']"
+ 
+			data-type="button" 
+			data-actions=''
+			data-basealign="slide" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":1000,"speed":830,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[12,12,12,12]"
+			data-paddingright="[35,35,35,35]"
+			data-paddingbottom="[12,12,12,12]"
+			data-paddingleft="[35,35,35,35]"
+
+			style="z-index: 5; min-width: 157px; max-width: 157px; white-space: nowrap; font-size: 17px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: px;background-color:rgba(226,0,0,0.75);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">Xem thêm </a>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption  " 
+			 id="slide-29-layer-4" 
+			 data-x="908" 
+			 data-y="502" 
+						data-width="['37']"
+			data-height="['37']"
+			data-visibility="['off','off','on','on']"
+ 
+			data-type="button" 
+			data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https:\/\/acecookvietnam.vn\/tham-quan-nha-may\/","delay":""}]'
+			data-responsive_offset="on" 
+			data-responsive="off"
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['center','center','center','center']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6; min-width: 37px; max-width: 37px; max-width: 37px; max-width: 37px; white-space: nowrap; font-size: 20px; line-height: 37px; font-weight: 400; color: rgb(255,255,255); letter-spacing: px;background-color:rgb(221,75,57);border-radius:50px 50px 50px 50px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+							<i class="fa fa-info" aria-hidden="true"></i>
+
+						 </div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-171" data-transition="slideleft" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2020/03/Banner-1-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/admin/assets/images/dummy.png"  alt="" title="Banner 1"  width="2363" height="902" data-lazyload="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2020/03/Banner-1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 3 -->
+		<a class="tp-caption rev-btn rev-withicon " 
+ href="https://acecookvietnam.vn/nha-hang/ringer-hut/" target="_self"			 id="slide-171-layer-2" 
+			 data-x="center" data-hoffset="-869" 
+			 data-y="center" data-voffset="302" 
+						data-width="['157']"
+			data-height="['auto']"
+			data-visibility="['on','on','off','off']"
+ 
+			data-type="button" 
+			data-actions=''
+			data-basealign="slide" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":1000,"speed":830,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"+6860","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0,0,0,1);bg:rgba(255,255,255,1);bs:solid;bw:0 0 0 0;"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[12,12,12,12]"
+			data-paddingright="[35,35,35,35]"
+			data-paddingbottom="[12,12,12,12]"
+			data-paddingleft="[35,35,35,35]"
+
+			style="z-index: 5; min-width: 157px; max-width: 157px; white-space: nowrap; font-size: 17px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: px;background-color:rgba(226,0,0,0.75);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">Xem thêm </a>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption  " 
+			 id="slide-171-layer-4" 
+			 data-x="908" 
+			 data-y="502" 
+						data-width="['37']"
+			data-height="['37']"
+			data-visibility="['off','off','on','on']"
+ 
+			data-type="button" 
+			data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https:\/\/acecookvietnam.vn\/tham-quan-nha-may\/","delay":""}]'
+			data-responsive_offset="on" 
+			data-responsive="off"
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['center','center','center','center']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6; min-width: 37px; max-width: 37px; max-width: 37px; max-width: 37px; white-space: nowrap; font-size: 20px; line-height: 37px; font-weight: 400; color: rgb(255,255,255); letter-spacing: px;background-color:rgb(221,75,57);border-radius:50px 50px 50px 50px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+							<i class="fa fa-info" aria-hidden="true"></i>
+
+						 </div>
+	</li>
+</ul>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+						if(htmlDiv) {
+							htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+						}else{
+							var htmlDiv = document.createElement("div");
+							htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+							document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+						}
+					</script>
+<div class="tp-bannertimer" style="height: 5px; background: rgba(255,159,153,1);"></div>	</div>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+				if(htmlDiv) {
+					htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+				}else{
+					var htmlDiv = document.createElement("div");
+					htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+					document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+				}
+			</script>
+		<script type="text/javascript">
+setREVStartSize({c: jQuery('#rev_slider_1_1'), gridwidth: [1980], gridheight: [756], sliderLayout: 'fullwidth'});
+			
+var revapi1,
+	tpj=jQuery;
+			
+tpj(document).ready(function() {
+	if(tpj("#rev_slider_1_1").revolution == undefined){
+		revslider_showDoubleJqueryError("#rev_slider_1_1");
+	}else{
+		revapi1 = tpj("#rev_slider_1_1").show().revolution({
+			sliderType:"standard",
+			jsFileLocation:"https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/revslider/public/assets/js/",
+			sliderLayout:"fullwidth",
+			dottedOverlay:"none",
+			delay:4000,
+			navigation: {
+				keyboardNavigation:"off",
+				keyboard_direction: "horizontal",
+				mouseScrollNavigation:"off",
+ 							mouseScrollReverse:"default",
+				onHoverStop:"on",
+				touch:{
+					touchenabled:"on",
+					touchOnDesktop:"on",
+					swipe_threshold: 75,
+					swipe_min_touches: 50,
+					swipe_direction: "horizontal",
+					drag_block_vertical: false
+				}
+				,
+				arrows: {
+					style:"hesperiden",
+					enable:true,
+					hide_onmobile:true,
+					hide_under:600,
+					hide_onleave:true,
+					hide_delay:200,
+					hide_delay_mobile:1200,
+					tmp:'',
+					left: {
+						h_align:"left",
+						v_align:"center",
+						h_offset:30,
+						v_offset:0
+					},
+					right: {
+						h_align:"right",
+						v_align:"center",
+						h_offset:30,
+						v_offset:0
+					}
+				}
+				,
+				bullets: {
+					enable:true,
+					hide_onmobile:true,
+					hide_under:600,
+					style:"hephaistos",
+					hide_onleave:true,
+					hide_delay:200,
+					hide_delay_mobile:1200,
+					direction:"horizontal",
+					h_align:"center",
+					v_align:"bottom",
+					h_offset:0,
+					v_offset:30,
+					space:5,
+					tmp:''
+				}
+			},
+			visibilityLevels:[1240,1024,778,480],
+			gridwidth:1980,
+			gridheight:756,
+			lazyType:"smart",
+			scrolleffect: {
+				fade:"on",
+				blur:"on",
+			},
+			parallax: {
+				type:"mouse",
+				origo:"slidercenter",
+				speed:2000,
+				speedbg:0,
+				speedls:0,
+				levels:[2,3,4,5,6,7,12,16,10,50,47,48,49,50,51,55],
+			},
+			shadow:0,
+			spinner:"off",
+			stopLoop:"off",
+			stopAfterLoops:-1,
+			stopAtSlide:-1,
+			shuffle:"off",
+			autoHeight:"on",
+			hideThumbsOnMobile:"off",
+			hideSliderAtLimit:0,
+			hideCaptionAtLimit:0,
+			hideAllCaptionAtLilmit:0,
+			debugMode:false,
+			fallbacks: {
+				simplifyAll:"on",
+				nextSlideOnWindowFocus:"off",
+				disableFocusListener:false,
+			}
+		});
+	}
+	
+});	/*ready*/
+</script>
+		<script>
+					var htmlDivCss = unescape(".hesperiden.tparrows%20%7B%0A%09cursor%3Apointer%3B%0A%09background%3Argba%280%2C0%2C0%2C0.5%29%3B%0A%09width%3A40px%3B%0A%09height%3A40px%3B%0A%09position%3Aabsolute%3B%0A%09display%3Ablock%3B%0A%09z-index%3A100%3B%0A%20%20%20%20border-radius%3A%2050%25%3B%0A%7D%0A.hesperiden.tparrows%3Ahover%20%7B%0A%09background%3Argba%280%2C%200%2C%200%2C%201%29%3B%0A%7D%0A.hesperiden.tparrows%3Abefore%20%7B%0A%09font-family%3A%20%22revicons%22%3B%0A%09font-size%3A20px%3B%0A%09color%3Argb%28255%2C%20255%2C%20255%29%3B%0A%09display%3Ablock%3B%0A%09line-height%3A%2040px%3B%0A%09text-align%3A%20center%3B%0A%7D%0A.hesperiden.tparrows.tp-leftarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Ce82c%22%3B%0A%20%20%20%20margin-left%3A-3px%3B%0A%7D%0A.hesperiden.tparrows.tp-rightarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Ce82d%22%3B%0A%20%20%20%20margin-right%3A-3px%3B%0A%7D%0A.hephaistos%20.tp-bullet%20%7B%0A%09width%3A12px%3B%0A%09height%3A12px%3B%0A%09position%3Aabsolute%3B%0A%09background%3Argba%28153%2C%20153%2C%20153%2C%201%29%3B%0A%09border%3A3px%20solid%20rgba%28255%2C255%2C255%2C0.9%29%3B%0A%09border-radius%3A50%25%3B%0A%09cursor%3A%20pointer%3B%0A%09box-sizing%3Acontent-box%3B%0A%20%20%20%20box-shadow%3A%200px%200px%202px%201px%20rgba%28130%2C130%2C130%2C%200.3%29%3B%0A%7D%0A.hephaistos%20.tp-bullet%3Ahover%2C%0A.hephaistos%20.tp-bullet.selected%20%7B%0A%09background%3Argba%28255%2C%20255%2C%20255%2C%201%29%3B%0A%20%20%20%20border-color%3Argba%280%2C%200%2C%200%2C%201%29%3B%0A%7D%0A");
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}
+					else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				  </script>
+				</div><!-- END REVOLUTION SLIDER --><section id="news">
+	<div class="section-title text-center"><h1>Tin tức</h1></div>
+		<div class="row">
+			<div class="col-xs-12 col-md-offset-1 col-md-10">
+				<div class="row">
+									<div class="col-sm-4">
+								<a href="https://acecookvietnam.vn/acecook-viet-nam-ns-xuan-bac-voi-nhung-hanh-dong-y-nghia-giua-anh-huong-cua-dai-dich-covid-19/">
+									<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2021/06/Thumbnail-Bài-Tin-1-520x390.jpg" class="img-responsive" />
+								</a>
+								<div class="content">
+									<div class="postday">Đăng ngày 29/06/2021</div>
+									<div class="news_title"><a href="https://acecookvietnam.vn/acecook-viet-nam-ns-xuan-bac-voi-nhung-hanh-dong-y-nghia-giua-anh-huong-cua-dai-dich-covid-19/"><h3>ACECOOK VIỆT NAM – NS. XUÂN BẮC VỚI NHỮNG HÀNH ĐỒNG Ý NGHĨA GIỮA ẢNH&hellip;</h3></a></div>
+									<div class="short_desc"><p>Cho đến thời điểm hiện tại, đại dịch Covid-19 vẫn là mối lo ngại và quan tâm hàng đầu của tất cả người dân Việt. Cuộc sống và công việc tại các địa điểm tâm dịch chịu ảnh hưởng nghiêm trọng nhưng không vì thế mà làm phai mờ đi ý chí quyết tâm chống [&hellip;]</p>
+</div>
+									<div class="news_category">Tin tức</div>
+								</div>
+							</div>
+									<div class="col-sm-4">
+								<a href="https://acecookvietnam.vn/acecook-viet-nam-tai-tro-cho-cac-don-vi-bao-dai-tang-mi-den-cac-khu-vuc-cach-ly-do-covid-19/">
+									<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2021/06/520x390.jpg" class="img-responsive" />
+								</a>
+								<div class="content">
+									<div class="postday">Đăng ngày 23/06/2021</div>
+									<div class="news_title"><a href="https://acecookvietnam.vn/acecook-viet-nam-tai-tro-cho-cac-don-vi-bao-dai-tang-mi-den-cac-khu-vuc-cach-ly-do-covid-19/"><h3>ACECOOK VIỆT NAM TÀI TRỢ CHO CÁC ĐƠN VỊ BÁO ĐÀI TẶNG MÌ ĐẾN CÁC&hellip;</h3></a></div>
+									<div class="short_desc"><p>Với tình hình dịch bệnh Covid-19 đang diễn biến hết sức phức tạp và số ca nhiễm ngày càng gia tăng trên cả nước. Vừa qua, Công ty Cổ phần Acecook Việt Nam đã tài trợ cho các đơn vị báo, đài để hỗ trợ các sản phẩm mì, miến ăn liền đến người dân [&hellip;]</p>
+</div>
+									<div class="news_category">Tin tức</div>
+								</div>
+							</div>
+									<div class="col-sm-4">
+								<a href="https://acecookvietnam.vn/acecook-viet-nam-chung-tay-cung-tinh-bac-giang-va-tinh-bac-ninh-va-tinh-dien-bien-phong-chong-dich-covid-19/">
+									<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2021/05/520x390-1.jpg" class="img-responsive" />
+								</a>
+								<div class="content">
+									<div class="postday">Đăng ngày 27/05/2021</div>
+									<div class="news_title"><a href="https://acecookvietnam.vn/acecook-viet-nam-chung-tay-cung-tinh-bac-giang-va-tinh-bac-ninh-va-tinh-dien-bien-phong-chong-dich-covid-19/"><h3>ACECOOK VIỆT NAM CHUNG TAY CÙNG TỈNH BẮC GIANG, TỈNH BẮC NINH VÀ TỈNH ĐIỆN&hellip;</h3></a></div>
+									<div class="short_desc"><p>Tháng 5/2021, tình hình dịch Covid-19 ở Việt Nam đang có nhiều diễn biến phức tạp, trong số đó, tại tỉnh Bắc Giang và Bắc Ninh, người dân đang phải chịu ảnh hưởng lớn không chỉ về sức khỏe mà còn cả về kinh tế và đời sống hàng ngày. Với tinh thần chung tay [&hellip;]</p>
+</div>
+									<div class="news_category">Tin tức</div>
+								</div>
+							</div>
+								</div>
+			</div>
+		</div>
+		<div class="row text-center btnall">
+			<a href="https://acecookvietnam.vn/truyen-thong-khuyen-mai/tin-tuc/" class="button-outline">Xem tất cả</a>
+		</div>
+</section><section id="product" class="row">
+		<!-- filter-mb -->
+		<h2 class="section-title text-center">Sản Phẩm</h2>
+		<div class="col-xs-12 filter-mb">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="ptCarousel-mb">
+														<div class="item" data-id="16">
+									<img class="img-responsive" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-1.png" data-active="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-1-selected.png" data-inactive="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-1.png"/>
+									<div class="type-name">Gói</div>
+								</div>
+															<div class="item" data-id="15">
+									<img class="img-responsive" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-2.png" data-active="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-2-selected.png" data-inactive="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-2.png"/>
+									<div class="type-name">Ly</div>
+								</div>
+															<div class="item" data-id="14">
+									<img class="img-responsive" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-3.png" data-active="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-3-selected.png" data-inactive="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-3.png"/>
+									<div class="type-name">Tô</div>
+								</div>
+															<div class="item" data-id="13">
+									<img class="img-responsive" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-4.png" data-active="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-4-selected.png" data-inactive="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-4.png"/>
+									<div class="type-name">Khay</div>
+								</div>
+												
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<div class="carouselOverlay">
+						<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/images/loading.gif" />
+					</div>
+					<div id="pCarousel-mb">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="product-details" class="col-xs-12 col-md-9">
+			<div class="row">
+				<div class="col-sm-offset-1 col-sm-4 info info-pc">
+					<h2>Sản Phẩm</h2>
+					<h3 id="pd-name">Đệ Nhất Thịt Bằm</h3>
+					<div id="pd-description"><p>Tiên phong trong lĩnh vực nghiên cứu các sản phẩm mì ăn liền tốt cho sức khỏe, Acecook tiếp tục thành công với Đệ Nhất mì gia có bổ sung tinh bột đậu Hà Lan, dinh dưỡng và thanh mát, góp phần làm mới những món ăn ngon từ nguyên liệu đậu Hà Lan. Với tiêu chí  'Đệ Nhất Mì Gia - Sức Khỏe Đệ Nhất' sản phẩm đã đáp ứng nhu cầu ăn uống nhanh gọn, hợp vệ sinh, bổ dưỡng trong cuộc sống hiện đại ngày nay.</p></div>
+					<div class="links">
+						<a id="btnProductDetails" class="button-outline" href="https://acecookvietnam.vn/san-pham/mi-de-nhat/">Chi tiết</a>
+						<a id="btnLanding" href="#">Dòng sản phẩm <span id="product-category"></span></a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-7">
+					<img id="pd-background" class="img-responsive" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/DN_TB_591x438.png">
+				</div>
+				<div class="col-xs-12 info info-mb">
+					<h3 id="pd-name" class="pd-name-mb">Đệ Nhất Thịt Bằm</h3>
+					<div id="pd-description" class="pd-description-mb">Tiên phong trong lĩnh vực nghiên cứu các sản phẩm mì ăn liền tốt cho sức khỏe, Acecook tiếp tục thành công với Đệ Nhất mì gia có bổ sung tinh bột đậu Hà Lan, dinh dưỡng và thanh mát, góp phần làm mới những món ăn ngon từ nguyên liệu đậu Hà Lan. Với tiêu chí  'Đệ Nhất Mì Gia - Sức Khỏe Đệ Nhất' sản phẩm đã đáp ứng nhu cầu ăn uống nhanh gọn, hợp vệ sinh, bổ dưỡng trong cuộc sống hiện đại ngày nay.</div>
+					<div class="links">
+						<a id="btnProductDetails" class="button-outline btnProductDetails-mb" href="https://acecookvietnam.vn/san-pham/mi-de-nhat/">Chi tiết</a>
+						<a id="btnLanding" class="btnLanding-mb" href="#">Dòng sản phẩm </a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- filter-pc -->
+		<div class="col-md-3 filter-pc">
+			<div class="row">
+				<div class="col-sm-6 pt-container">
+					<div id="ptCarousel">
+														<div class="item" data-id="16">
+									<img class="img-responsive" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-1.png" data-active="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-1-selected.png" data-inactive="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-1.png"/>
+									<div class="type-name">Gói</div>
+								</div>
+															<div class="item" data-id="15">
+									<img class="img-responsive" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-2.png" data-active="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-2-selected.png" data-inactive="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-2.png"/>
+									<div class="type-name">Ly</div>
+								</div>
+															<div class="item" data-id="14">
+									<img class="img-responsive" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-3.png" data-active="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-3-selected.png" data-inactive="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-3.png"/>
+									<div class="type-name">Tô</div>
+								</div>
+															<div class="item" data-id="13">
+									<img class="img-responsive" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-4.png" data-active="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-4-selected.png" data-inactive="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/product-type-4.png"/>
+									<div class="type-name">Khay</div>
+								</div>
+											
+					</div>
+				</div>
+				<div class="col-sm-6 pd-none">
+					<div class="carouselOverlay">
+						<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/images/loading.gif" />
+					</div>
+					<div id="pCarousel">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+</section><section id="process" class="row">		
+	<img class="hidden-img img-pc" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/images/home/process-bg.png">
+	<img class="img-mb" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/images/home/process-bg-mb.png">
+	<div class="col-xs-12 col-md-offset-7 col-md-4 info">
+		<h2 class="headline">Quy trình sản xuất</h2>
+		<p>
+			Không chỉ sở hữu hương vị thơm ngon, hấp dẫn, phù hợp với khẩu vị Việt, 
+			mỗi gói mì ăn liền được ra đời từ Acecook Việt Nam còn được đảm bảo chất lượng tối đa 
+			bằng dây chuyền sản xuất cùng những quy định chất lượng nghiêm ngặt chuẩn Nhật, 
+			với mục tiêu mang đến những bữa ăn ngon và hạnh phúc cho người tiêu dùng.		</p>
+		<div class="button-container">                                                        
+			<a href="https://acecookvietnam.vn/mi-an-lien/quy-trinh-san-xuat-3/" class="button-outline">Khám phá ngay</a>
+		</div>
+	</div>		
+</section><section id="history" class="row">
+	<div class="col-xs-12 col-md-6 history pd-none">
+		<h2 class="headline-mb">Lịch sử hình thành</h2>
+		<img class="background-image" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/08/history-bg.png">
+		<div class="content">
+			<h2 class="headline">Lịch sử hình thành</h2>
+			<div class="row">
+				<div class="col-sm-offset-1 col-sm-10 details">
+					<p>Được thành lập vào ngày 15/12/1993 và chính thức đi vào hoạt động từ năm 1995, sau nhiều năm hoạt động. Công ty Cổ phần Acecook Việt Nam đã không ngừng phát triển lớn mạnh trở thành công ty thực phẩm tổng hợp hàng đầu tại Việt Nam</p>
+				</div>
+			</div>
+			<div class="button-container">
+				<a href="https://acecookvietnam.vn/lich-su-hinh-thanh/" class="button-outline button-white">Khám phá ngay</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-12 col-md-6 tvc pd-none">
+		<img class="background-image" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/uploads/2017/10/home-tvc-new.jpg">
+		<div class="info">
+			<div class="play-button">
+				<img class="img-responsive" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/images/play-button.png">
+			</div>
+			<div class="headline">
+				Cách người Nhật sản xuất mì ăn liền			</div>
+		</div>
+		<iframe class="hidden" id="tvcIframe" src="https://www.youtube.com/embed/D0Gq0IxoX54?start=1?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+	</div>			
+</section><section id="status" class="row">
+		<div class="col-sm-offset-1 col-sm-10 bd-top">
+			<div class="row content">
+				<div class="col-xs-4 col-md-4">
+					<img class="img-responsive" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/images/icon/cursor-outline.png">
+					<div class="counter"><span class='page-views'>5154362</span></div>
+					<div class="info">lượt truy cập</div>
+				</div>
+				<div class="col-xs-4 col-md-4">
+					<img class="img-responsive" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/images/icon/question-outline.png">
+					<div class="counter">1069</div>
+					<div class="info">câu hỏi được giải đáp</div>
+				</div>
+				<div class="col-xs-4 col-md-4">
+					<img class="img-responsive" src="https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/images/icon/recipe-outline.png">
+					<div class="counter">302</div>
+					<div class="info">món ăn được yêu thích</div>
+				</div>
+			</div>
+		</div>
+	</section></div>
+<style type="text/css">
+	a#red-readmore, a#slide-130-layer-8{
+	    text-align: center !important;
+	}
+</style>
+<!-- start social media link -->
+<div class="icon-bar">
+	<div id="desk-social-fb">
+		<span><i class="fa fa-facebook"></i></span>
+		<div class="dropdown-content-fb">
+			<a href="https://www.facebook.com/mianliensiukay" class="fb-mianliensiukay" target="blank">Mì ăn liền Acecook</a>
+			<a href="https://www.facebook.com/HaoHaoAcecook" class="fb-HaoHaoAcecook" target="blank">Mì ăn liền Hảo Hảo</a>
+			<a href="https://www.facebook.com/milymodernvn" class="fb-milymodernvn" target="blank">Mì ly Modern</a>
+			<a href="https://www.facebook.com/mienphuhuongacecook" class="fb-mienphuhuongacecook" target="blank">Miến Phú Hương</a>
+			<a href="https://www.facebook.com/micaykayacecook" class="fb-micaykayacecook" target="blank">Mì Caykay</a>
+			<a href="https://www.facebook.com/acecookvicongdong" class="fb-acecookvicongdong" target="blank">Acecook Vì Cộng Đồng</a>
+			<a href="https://www.facebook.com/PhoBunHutieuAcecook" class="fb-PhoBunHutieuAcecook" target="blank">Phở - Bún- Hủ tiếu Acecook</a>
+			<a href="https://www.facebook.com/HandyHaoHao" class="fb-HandyHaoHao" target="blank">Handy Hảo Hảo</a>
+			<!-- <a href="https://www.facebook.com/AcecookThamquannhamay">Acecook Việt Nam – Tham quan nhà máy Acecook</a> -->
+			<a href="https://www.facebook.com/AcecookVietnam.vn" class="fb-AcecookVietnam" target="blank">Acecook Việt Nam</a>
+			<a href="https://www.facebook.com/snackmigionnani" class="fb-snackmigionnani" target="blank">Snack Mì Giòn Nà Ní</a>
+			<a href="https://www.facebook.com/MiCupAcecook" class="fb-MiCupAcecook" target="blank">Mì Cup Acecook</a>
+		</div>
+	</div>
+	<div id="desk-social-ig">
+		<span><i class="fa fa-instagram"></i></span>
+		<div class="dropdown-content-ig">
+		  <a href="https://www.instagram.com/mianlien.haohao/" class="ig-mianlien-haohao" target="blank">Mì ăn liền Hảo Hảo</a>
+		  <a href="https://www.instagram.com/pho_bun_hutieu_acecook/" class="ig-pho_bun_hutieu_acecook" target="blank">Phở - Bún – Hủ tiếu Acecook</a>
+		</div>
+	</div>
+	<div id="desk-social-yt">
+		<span><i class="fa fa-youtube"></i></span>
+		<div class="dropdown-content-yt">
+		  <a href="https://www.youtube.com/channel/UClZa8CAUbGEotUd1nWLftow" class="yt-UClZa8CAUbGEotUd1nWLftow" target="blank">Mì Hảo Hảo – Acecook</a>
+		  <a href="https://www.youtube.com/channel/UCMh5WctpkGTR_o0EQ9S1jHg/videos" class="yt-UCMh5WctpkGTR_o0EQ9S1jHg" target="blank">Acecook Việt Nam</a>
+		  <a href="https://www.youtube.com/channel/UC-xzh1IWL0ylmD3o0-CrdxQ/videos" class="yt-xzh1IWL0ylmD3o0" target="blank">Acecook Happiness Concert</a>
+		  <a href="https://www.youtube.com/channel/UCOn7rfrctR3HoMEYB5mCm8Q/videos" class="yt-UCOn7rfrctR3HoMEYB5mCm8Q" target="blank">Mì ly Acecook</a>
+		  <a href="https://www.youtube.com/watch?v=EERfWjHyb2Y" class="yt-EERfWjHyb2Y" target="blank">Phở - Bún – Hủ tiếu Acecook</a>
+		</div>
+	</div>
+	<!-- <div id="desk-social-sc">
+		<span><i class="fa fa-shopping-cart"></i></span>
+		<div class="dropdown-content-sc">
+		  <a href="https://www.sendo.vn/shop/acecook-viet-nam/">Acecook Shop Mall - Sendo</a>
+		</div>
+	</div> -->
+</div>
+<div class="icon-show-media-mobile">
+	<img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/images/media-link-mb.png">
+</div>
+<!-- end social media link -->
+		<footer class="footer">
+			<div class="row footer-wrap">
+				<div class="container">
+					<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+						<div class="logo">
+							<a href=""><img src="https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/images/logo_footer.png" class=" img-responsive" alt="logo acecook"></a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+						<div>
+							<p class="copy-right">Bản quyền © 2020 thuộc về Acecook Viet Nam</p>
+							<p class="copy-right" style="text-transform: unset;">CÔNG TY CỔ PHẦN ACECOOK VIỆT NAM<br>Địa chỉ: Lô số II-3,Đường số 11,Nhóm CN II, Khu Công nghiệp Tân Bình, Phường Tây Thạnh, Quận Tân Phú, Thành phố Hồ Chí Minh, Việt Nam<br>Điện thoại: (028) 38154064 Fax: (028) 38154067<br>Email: info@acecookvietnam.com<br>Mã số doanh nghiệp: 0300808687<br>Cấp bởi: Sở kế hoạch và Đầu tư Tp. Hồ Chí Minh</p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 col-mb-545">
+						<ul class="list-unstyled list-footer text-right">
+							<li><a href="/dieu-khoan-su-dung">Điều khoản sử dụng</a></li>
+							<li><a href="/lien-he">Liên hệ</a></li>							
+						</ul>
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-mb-545">
+						<ul class="list-unstyled list-social text-right">
+							<li><a class="social-item facebook" href="https://www.facebook.com/AcecookVietnam.vn" target="blank"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="social-item linkedin" href="https://www.linkedin.com/company/acecook-viet-nam?trk=company_logo" target="blank"><i class="fa fa-linkedin"></i></a></li>
+							<li><a class="social-item youtube" href="https://www.youtube.com/channel/UCMh5WctpkGTR_o0EQ9S1jHg" target="blank"><i class="fa fa-youtube-play"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div><!-- #container-fluid -->
+        <!--facebook like and share js -->
+        <div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+		  	if (d.getElementById(id)) return;
+		  	js = d.createElement(s); js.id = id;
+		  	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+		  	fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<!--<div id="fb-root"></div>
+        <script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1425108201100352&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>-->
+ 	         <!--google share and  like and e js -->
+        <script type="text/javascript">
+            window.___gcfg = {
+              lang: 'en-US'
+            };
+            (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+        </script>
+		
+		<!-- google share -->
+        <script type="text/javascript">
+          (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+			<!-- twitter JS End -->
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
+	     <script>
+	    jQuery( document ).scroll(function( $ )
+		{
+	    	var y = jQuery(this).scrollTop();
+	      	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+			{	 
+			   if(jQuery(window).scrollTop() + jQuery(window).height() >= jQuery(document).height()-100)
+			   {
+				  jQuery('.sfsi_outr_div').css({'z-index':'9996',opacity:1,top:jQuery(window).scrollTop()+"px",position:"absolute"});
+				  jQuery('.sfsi_outr_div').fadeIn(200);
+				  jQuery('.sfsi_FrntInner_chg').fadeIn(200);
+			   }
+			   else{
+				   jQuery('.sfsi_outr_div').fadeOut();
+				   jQuery('.sfsi_FrntInner_chg').fadeOut();
+			   }
+		  }
+		  else
+		  {
+			   if(jQuery(window).scrollTop() + jQuery(window).height() >= jQuery(document).height()-3)
+			   {
+					jQuery('.sfsi_outr_div').css({'z-index':'9996',opacity:1,top:jQuery(window).scrollTop()+200+"px",position:"absolute"});
+					jQuery('.sfsi_outr_div').fadeIn(200);
+					jQuery('.sfsi_FrntInner_chg').fadeIn(200);
+		  	   }
+	 		   else
+			   {
+				 jQuery('.sfsi_outr_div').fadeOut();
+				 jQuery('.sfsi_FrntInner_chg').fadeOut();
+			   }
+	 	  } 
+		});
+     </script>
+         	<script>
+			jQuery(document).ready(function(e) {
+                jQuery("body").addClass("sfsi_1.80")
+            });
+			function sfsi_processfurther(ref) {
+				var feed_id = 'aVJYU3dOSWtSV1REdlZJd1paZ1B1bzZyaGVIbGdYNWF0dTJJNDNTaWJLRSsrN1YxcU93UXgzV2xMWmNIeVZiTThMRkRlc2JrOU56NGtoRXJhRlFySTZBWDFHVldyOTA4eHExR0hkNjdxQndaRUlNdEdWdlBRZGJ1cGVmWHZiSmR8RjVqcWxiZGxRMG9uSDNYUU1PSFVVcERnc3RFd0ticVlxSFA1MUlZTXYyUT0=';
+				var feedtype = 8;
+				var email = jQuery(ref).find('input[name="data[Widget][email]"]').val();
+				var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+				if ((email != "Enter your email") && (filter.test(email))) {
+					if (feedtype == "8") {
+						var url ="https://www.specificfeeds.com/widgets/subscribeWidget/"+feed_id+"/"+feedtype;
+						window.open(url, "popupwindow", "scrollbars=yes,width=1080,height=760");
+						return true;
+					}
+				} else {
+					alert("Please enter email address");
+					jQuery(ref).find('input[name="data[Widget][email]"]').focus();
+					return false;
+				}
+			}
+		</script>
+        <style type="text/css" aria-selected="true">
+			.sfsi_subscribe_Popinner
+			{
+								width: 100% !important;
+				height: auto !important;
+												border: 1px solid #b5b5b5 !important;
+								padding: 18px 0px !important;
+				background-color: #ffffff !important;
+			}
+			.sfsi_subscribe_Popinner form
+			{
+				margin: 0 20px !important;
+			}
+			.sfsi_subscribe_Popinner h5
+			{
+				font-family: Helvetica,Arial,sans-serif !important;
+								font-weight: bold !important;
+								color: #000000 !important;
+				font-size: 16px !important;
+				text-align: center !important;
+				margin: 0 0 10px !important;
+    			padding: 0 !important;
+			}
+			.sfsi_subscription_form_field {
+				margin: 5px 0 !important;
+				width: 100% !important;
+				display: inline-flex;
+				display: -webkit-inline-flex;
+			}
+			.sfsi_subscription_form_field input {
+				width: 100% !important;
+				padding: 10px 0px !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]
+			{
+				font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]::-webkit-input-placeholder {
+			   	font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]:-moz-placeholder { /* Firefox 18- */
+			    font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]::-moz-placeholder {  /* Firefox 19+ */
+			    font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]:-ms-input-placeholder {  
+			  	font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=submit]
+			{
+				font-family: Helvetica,Arial,sans-serif !important;
+								font-weight: bold !important;
+								color: #000000 !important;
+				font-size: 16px !important;
+				text-align: center !important;
+				background-color: #dedede !important;
+			}
+		</style>
+				<script type="text/javascript">
+				function revslider_showDoubleJqueryError(sliderID) {
+					var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+					errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+					errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+					errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+					errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+						jQuery(sliderID).show().html(errorMessage);
+				}
+			</script>
+			<link rel='stylesheet' id='wpml-legacy-dropdown-0-css'  href='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style.css?ver=1' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/acecookvietnam.vn\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.9'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/srs-simple-hits-counter/js/srs_simple_hits_counter_js.js?ver=4.9.10'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/ultimate-social-media-icons/js/shuffle/modernizr.custom.min.js?ver=4.9.10'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/ultimate-social-media-icons/js/shuffle/jquery.shuffle.min.js?ver=4.9.10'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/ultimate-social-media-icons/js/shuffle/random-shuffle-min.js?ver=4.9.10'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_object = {"ajax_url":"https:\/\/acecookvietnam.vn\/wp-admin\/admin-ajax.php"};
+var ajax_object = {"ajax_url":"https:\/\/acecookvietnam.vn\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/acecookvietnam.vn\/wp-content\/plugins\/ultimate-social-media-icons\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/ultimate-social-media-icons/js/custom.js?ver=4.9.10'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mr_frontend_data = {"ajax_url":"https:\/\/acecookvietnam.vn\/wp-admin\/admin-ajax.php","ajax_nonce":"3d19dd7989","icon_classes":"{\"star_full\":\"fa fa-star mr-star-full\",\"star_hover\":\"fa fa-star mr-star-hover\",\"star_half\":\"fa fa-star-half-o mr-star-half\",\"star_empty\":\"fa fa-star-o mr-star-empty\",\"minus\":\"fa fa-minus-circle mr-minus\",\"spinner\":\"fa fa-spinner fa-spin mr-spinner\"}","use_custom_star_images":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/multi-rating/assets/js/frontend-min.js?ver=4.2.7'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/js/navigation.js?ver=20151215'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/js/skip-link-focus-fix.js?ver=20151215'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/bootstrap/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/js/fontfaceobserver.js'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/js/parallax.min.js'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/js/owl.carousel.js'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=5.2'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var acv_ajax_object = {"ajax_url":"https:\/\/acecookvietnam.vn\/wp-admin\/admin-ajax.php"};
+var acv = {"theme_uri":"https:\/\/acecookvietnam.vn\/wp-content\/themes\/acecook"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/js/main.js?ver=1.8'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/js/jquery.matchHeight-min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var acv_ajax_object = {"ajax_url":"https:\/\/acecookvietnam.vn\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/themes/acecook/assets/js/home.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajaxsearchlite = {"ajaxurl":"https:\/\/acecookvietnam.vn\/wp-admin\/admin-ajax.php","backend_ajaxurl":"https:\/\/acecookvietnam.vn\/wp-admin\/admin-ajax.php","js_scope":"jQuery"};
+var ASL = {"ajaxurl":"https:\/\/acecookvietnam.vn\/wp-admin\/admin-ajax.php","backend_ajaxurl":"https:\/\/acecookvietnam.vn\/wp-admin\/admin-ajax.php","js_scope":"jQuery","detect_ajax":"0","scrollbar":"1","version":"4717"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/ajax-search-lite/js/min/jquery.ajaxsearchlite.min.js?ver=4.7.8'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-includes/js/wp-embed.min.js?ver=4.9.10'></script>
+<script type='text/javascript' src='https://acecookvietnam.cdn.vccloud.vn/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/script.js?ver=1'></script>
+</body>
+</html>
+
+
+<!-- Cache Enabler by KeyCDN @ 20.07.2021 14:33:37 (html gzip) -->

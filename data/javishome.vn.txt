@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-language" content="vi" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noodp,index,follow" />
+    <meta name='revisit-after' content='1 days' />
+        <meta property="fb:app_id" content="854189808331714"/>
+            <meta name="description" content="✅ Nhà thông Minh JAVIS - Nhà thông minh điều khiển bằng Tiếng Việt">
+    <meta property="og:description" content="✅ Nhà thông Minh JAVIS - Nhà thông minh điều khiển bằng Tiếng Việt"/>
+    <meta property="twitter:description" content="✅ Nhà thông Minh JAVIS - Nhà thông minh điều khiển bằng Tiếng Việt">
+            <meta name="keywords" content="nhà thông minh, smarthome, javis home, Công tắc thông minh giá rẻ, Công tắc thông minh nào tốt">
+            <meta property="og:title" content="✅ Nhà thông Minh JAVIS - Nhà thông minh điều khiển bằng Tiếng Việt"/>
+    <meta property="twitter:title" content="✅ Nhà thông Minh JAVIS - Nhà thông minh điều khiển bằng Tiếng Việt">
+    <title>✅ Nhà thông Minh JAVIS - Nhà thông minh điều khiển bằng Tiếng Việt</title>
+            <meta name="twitter:site" content="Nhà thông minh JAVIS" />
+    <meta property="og:site_name" content="Nhà thông minh JAVIS"/>
+        <meta property="og:locale" content="vi"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://javishome.vn/"/>
+    <!-- property twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://javishome.vn/">
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <meta name="csrf-token" content="dM8MLow1fYclCzeqjPfbzHGiVrBb8LKmzXC95rEp">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://javishome.vn/favicon.png">
+    <link rel="canonical" href="https://javishome.vn/" />
+    <script type="text/javascript" src="https://javishome.vn/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="https://javishome.vn/assets/OwlCarousel/dist/owl.carousel.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://javishome.vn/assets/theme1/css/library.css">
+    <link rel="stylesheet" type="text/css" href="https://javishome.vn/assets/theme1/css/style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120236046-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120236046-1');
+</script>    </head>
+<body>
+    <div class='wrapper-fixed hidden-sm-down'>
+        <div id="send-question" class="send-question btn btn-primary">
+            <i class="send-question-fa fa fa-phone-square"></i>
+            Hotline: 090-123-0688        </div >
+    </div>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="https://javishome.vn">
+                            <img src="/storage/img/logo-2951.png" class="fullwidthimg" alt="JAVIS home  - Nhà thông minh điều khiển bằng tiếng Việt">
+                        </a>
+                    </div>
+                    <div class="col-sm-9  fright hidden-sm-down header_text">
+                        <div class="socal">
+                            Theo dõi chúng tôi
+                            <a href="https://www.facebook.com/nhathongminh.io"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/nhathongminh_io"><i class="fab fa-twitter"></i></a>
+                            <a href="https://plus.google.com/u/2/107262434169145903284?hl=vi"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="https://www.youtube.com/channel/UCklOTTQ62PFk2iM-y4IdFCA?view_as=subscriber"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="mail">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>Email:
+                                                        <a href="mailto:contact@javisco.vn">contact@javisco.vn</a>
+                                                    </div>
+                        <div class="phone">
+                            <i class="fa fa-phone" aria-hidden="true"></i> Hotline: <span>090-123-0688</span>
+                        </div>
+                        <div class="cart">
+                            <a href="https://javishome.vn/thanh-toan">
+                                <span id="count_product"></span>
+                                <img src="https://javishome.vn/img/cart.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="clear" id="catcher" style="height: 0px;"></div>
+    <div class="menu_lg secondary-navigation">
+        <div class="container">
+            <div class="">
+                <nav class="navbar navbar-expand-lg ">
+                    <button id="collapsed" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <form id="search-bar" method="get"  action="https://javishome.vn/search" class="hidden-lg-up form-inline my-2 my-lg-0" >
+                        <input  class="form-control mr-sm-2" type="search" placeholder="Search" name="q" >
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                    <div class="navbar-collapse collapse" id="navbarTogglerDemo02" >
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-center" data-hover="dropdown">
+                                                                                   
+                        
+                                                        <li  class="nav-item   active ">
+                                                                <a class="nav-link" href="https://javishome.vn">
+                                    <i class="fas fa-home"></i>
+                                </a>
+                                                            </li>
+                                                                                                               
+                        
+                                                        <li  class="nav-item  ">
+                                                                <a class="nav-link" href="https://javishome.vn/gioi-thieu">
+                                    Giới thiệu
+                                </a>
+                                                            </li>
+                                                                                                               
+                        
+                                                        <li  class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle"  href="https://javishome.vn/#" >Thiết bị</a>
+                                <div class="dropdown-menu">
+                                                                                                            <a class="dropdown-item" href="https://javishome.vn/loa-thong-minh">
+                                        Loa thông minh
+                                    </a>
+                                                                                                            <a class="dropdown-item" href="https://javishome.vn/cong-tac-thong-minh">
+                                        Công tắc thông minh
+                                    </a>
+                                                                                                            <a class="dropdown-item" href="https://javishome.vn/khoa-thong-minh">
+                                        Khóa thông minh
+                                    </a>
+                                                                                                            <a class="dropdown-item" href="https://javishome.vn/o-cam-thong-minh">
+                                        Ổ cắm thông minh
+                                    </a>
+                                                                                                            <a class="dropdown-item" href="https://javishome.vn/he-thong-an-ninh">
+                                        Hệ thống an ninh
+                                    </a>
+                                                                                                            <a class="dropdown-item" href="https://javishome.vn/bo-dieu-khien-trung-tam">
+                                        Bộ điều khiển trung tâm
+                                    </a>
+                                                                                                            <a class="dropdown-item" href="https://javishome.vn/den-thong-minh">
+                                        Đèn thông minh
+                                    </a>
+                                                                                                            <a class="dropdown-item" href="https://javishome.vn/binh-nong-lanh-thong-minh">
+                                        Bình nóng lạnh thông minh
+                                    </a>
+                                                                                                            <a class="dropdown-item" href="https://javishome.vn/he-thong-kiem-soat-moi-truong">
+                                        Hệ thống kiểm soát môi trường
+                                    </a>
+                                                                                                            <a class="dropdown-item" href="https://javishome.vn/rem-thong-minh">
+                                        Rèm thông minh
+                                    </a>
+                                                                    </div>
+                            </li>
+                                                                                                               
+                        
+                                                        <li  class="nav-item  ">
+                                                                <a class="nav-link" href="https://javishome.vn/huong-dan">
+                                    Hướng dẫn
+                                </a>
+                                                            </li>
+                                                                                                               
+                        
+                                                        <li  class="nav-item  ">
+                                                                <a class="nav-link" href="https://javishome.vn/video">
+                                    Video
+                                </a>
+                                                            </li>
+                                                                                                               
+                        
+                                                        <li  class="nav-item  ">
+                                                                <a class="nav-link" href="https://javishome.vn/tin-tuc">
+                                    Tin tức
+                                </a>
+                                                            </li>
+                                                                                </ul>
+                        <form id="search-bar" method="get"  action="https://javishome.vn/search" class="hidden-md-down form-inline my-2 my-lg-0" >
+                            <input  class="form-control mr-sm-2" type="search" placeholder="Search" name="q" >
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </form>
+                       
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="slide">
+	<div id="slideMain" class="owl-carousel owl-theme">
+                <div class="item">
+         <a href="">
+        <img  src="/storage/img/baner-he-sinh-thai-javis-home-9707.jpg" alt="baner-he-sinh-thai-javis-home-9707.jpg" class="w-100 h-100" />
+        </a>
+    </div>
+        <div class="item">
+         <a href="">
+        <img  src="/storage/img/baner-javis-speaker-loa-thong-minh-noi-tieng-viet-4835.jpeg" alt="baner-javis-speaker-loa-thong-minh-noi-tieng-viet-4835.jpeg" class="w-100 h-100" />
+        </a>
+    </div>
+        <div class="item">
+         <a href="">
+        <img  src="/storage/img/baner-loa-thong-minh-noi-tieng-viet-javis-speaker-8187.jpeg" alt="baner-loa-thong-minh-noi-tieng-viet-javis-speaker-8187.jpeg" class="w-100 h-100" />
+        </a>
+    </div>
+            </div>
+
+<script type="text/javascript">
+    var ratio = 0.4;
+    var width = $( window ).width();
+
+    $('#slideMain .item').css('height',width*ratio);
+    $('#slideMain').owlCarousel({
+        loop:true,
+        nav:false,
+        autoplay:true,
+        autoplayTimeout:8000,
+        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+        dots:true,
+        responsive:{
+            0:{
+                items:1
+            }
+        },
+        singleItem: true
+    });
+</script>
+<style type="text/css">
+    #slideMain .owl-prev{
+        position: absolute;
+        top: 40%;
+        left: 10px;
+        background: transparent;
+        font-size: 200%;
+    }
+    #slideMain .owl-next{
+        position: absolute;
+        top: 40%;
+        right: 10px;
+        background: transparent;
+        font-size: 200%;
+    }
+    #slideMain .owl-dots{
+        position: absolute;
+        bottom: 10px;
+        left: 46%;
+    }
+    #slideMain .owl-dots span{
+        background: #ffffff;
+        border: 1px solid #e8e8e8;
+    }
+    #slideMain .owl-dots .active span{
+        background: #ff4667;
+        border:none;
+    }
+</style>
+</div>
+<div id="wrapper">
+	<div class="container pt-5 pb-5">
+		<div class="introduce">
+			<h3 class="header_index">Giới thiệu</h3>
+			<div class="ico-border"><i class="ico-bg flower"></i></div>
+			<p class="intro_detail">
+								Nhathongminh.io là trang web được vận hành bởi JAVISCO, công ty chuyên nghiên cứu và cung cấp các giải pháp về nhà thông minh, loa thông minh tiếng Việt.
+Tại đây, bạn có thể tìm thấy tất cả các sản phẩm và dịch vụ liên quan để biến căn nhà của bạn trở nên thông minh hơn.
+							</p>
+			<a class="btn-get-started popup-youtube" href="https://www.youtube.com/watch?v=d5Umfyg8T48">XEM VIDEO</a>
+		</div>
+	</div>
+	<div class="dowload">
+		<div class="container text-center ">
+			<h2 class="mb-4">Ứng dụng điều khiển nhà thông minh bằng tiếng Việt &quot;Javis Home&quot;</h2>
+			<p class="text-faded mb-4">Ứng dụng giúp kết nối các thiết bị trong hệ sinh thái Javis Home như công tắc thông minh, ổ cắm thông minh, loa thông minh JAVIS , Home Assistant </p>
+			<div class="badges">
+				<div class="row">
+					<div class="col-sm-6">
+						<a class="badge-link fright" href="https://play.google.com/store/apps/details?id=vn.javisco.javis">
+							<img data-src="https://javishome.vn/img/google-play-badge.png" class="lazyload" alt="">
+						</a>
+					</div>
+					<div class="col-sm-6">
+
+						<a class="badge-link fleft" href="https://itunes.apple.com/us/app/javis-home/id1419033219?ls=1&amp;mt=8">
+							<img data-src="https://javishome.vn/img/app-store-badge.png" class="lazyload" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="product">
+		<div class="container">
+			<center>
+				<h3 class="header_index">Sản phẩm của chúng tôi</h3>
+				<div class="ico-border"><i class="ico-bg flower"></i></div>
+				<p class="intro_detail">Các sản phẩm được bán</a></p>
+			</center>
+			<div class="row">
+				
+												<div class="col-md-4 col-xs-6">
+					<div class="best_service_item sptop">
+
+						<figure>
+							<div class="thumb">
+								<img  data-src="/storage/img/khoa-thong-minh-js-slk1-zb-chuyen-dung-cho-cua-go-5370.jpg" class="lazyload img_cover" alt="Khóa thông minh JS-SLK1-ZB chuyên dùng cho cửa gỗ">		
+							</div>
+							<a href="https://javishome.vn/khoa-thong-minh-js-slk1-zb-chuyen-dung-cho-cua-go">    
+								<div class="image-overlay">
+									<div class="image-overlay-details">
+										<h2 class="webkit-box-1">
+											Khóa thông minh JS-SLK1-ZB chuyên dùng cho cửa gỗ
+										</h2>
+										<div class="excerpt-service webkit-box-2">
+											Khóa được mở bằng vân tay, thẻ từ, mã số. Có thể theo dõi trạng thái đóng mở từ xa qua điện thoại, cập nhật trạng thái tức thời.                               
+										</div>
+										<div class="readmore"  rel="nofollow" title="">
+											Xem tiếp
+										</div>
+									</div>
+								</div>
+							</a>
+						</figure>
+					</div>
+				</div>		
+								<div class="col-md-4 col-xs-6">
+					<div class="best_service_item sptop">
+
+						<figure>
+							<div class="thumb">
+								<img  data-src="/storage/img/avt-loa-thong-minh-noi-tieng-viet-javis-speaker-9275.jpeg" class="lazyload img_cover" alt="Loa Thông Minh JAVIS speaker">		
+							</div>
+							<a href="https://javishome.vn/loa-thong-minh-javis-speaker">    
+								<div class="image-overlay">
+									<div class="image-overlay-details">
+										<h2 class="webkit-box-1">
+											Loa Thông Minh JAVIS speaker
+										</h2>
+										<div class="excerpt-service webkit-box-2">
+											JAVIS là loa thông minh có màn hình cảm ứng đầu tiên tại Việt Nam hỗ trợ điều khiển bằng giọng nói tiếng Việt. Loa tích hợp trí thông minh nhân tạo giúp nhận dạng và tương tác với các thiết bị thông minh trong ngôi nhà của bạn một cách dễ dàng.                               
+										</div>
+										<div class="readmore"  rel="nofollow" title="">
+											Xem tiếp
+										</div>
+									</div>
+								</div>
+							</a>
+						</figure>
+					</div>
+				</div>		
+								<div class="col-md-4 col-xs-6">
+					<div class="best_service_item sptop">
+
+						<figure>
+							<div class="thumb">
+								<img  data-src="/storage/img/avt-2157.jpg" class="lazyload img_cover" alt="Bộ Điều Khiển Trung Tâm JAVIS HC V2">		
+							</div>
+							<a href="https://javishome.vn/bo-dieu-khien-trung-tam-javis-hc-v2">    
+								<div class="image-overlay">
+									<div class="image-overlay-details">
+										<h2 class="webkit-box-1">
+											Bộ Điều Khiển Trung Tâm JAVIS HC V2
+										</h2>
+										<div class="excerpt-service webkit-box-2">
+											Kết nối và điều khiển toàn bộ các thiết bị trong hệ sinh thái JAVIS                               
+										</div>
+										<div class="readmore"  rel="nofollow" title="">
+											Xem tiếp
+										</div>
+									</div>
+								</div>
+							</a>
+						</figure>
+					</div>
+				</div>		
+								<div class="col-md-4 col-xs-6">
+					<div class="best_service_item sptop">
+
+						<figure>
+							<div class="thumb">
+								<img  data-src="/storage/img/avt-cong-tac-zigbee-3-nut-lom-javis-home-7001.jpg" class="lazyload img_cover" alt="Công tắc JAVIS 3 Gang mặt kính lõm chữ  nhật đen viền vàng Zigbee">		
+							</div>
+							<a href="https://javishome.vn/cong-tac-javis-3-gang-mat-kinh-lom-chu-nhat-den-vien-vang-zigbee">    
+								<div class="image-overlay">
+									<div class="image-overlay-details">
+										<h2 class="webkit-box-1">
+											Công tắc JAVIS 3 Gang mặt kính lõm chữ  nhật đen viền vàng Zigbee
+										</h2>
+										<div class="excerpt-service webkit-box-2">
+											nhà thông minh, công tắc thông minh, công tắc cảm ứng, công tắc zigbee                               
+										</div>
+										<div class="readmore"  rel="nofollow" title="">
+											Xem tiếp
+										</div>
+									</div>
+								</div>
+							</a>
+						</figure>
+					</div>
+				</div>		
+								<div class="col-md-4 col-xs-6">
+					<div class="best_service_item sptop">
+
+						<figure>
+							<div class="thumb">
+								<img  data-src="/storage/img/avt-congtac-zigbee-3-nut-8505.jpg" class="lazyload img_cover" alt="Công tắc JAVIS 3 Gang chữ nhật đen viền vàng Zigbee ( Không N )">		
+							</div>
+							<a href="https://javishome.vn/cong-tac-javis-3-gang-chu-nhat-den-vien-vang-zigbee-khong-n-">    
+								<div class="image-overlay">
+									<div class="image-overlay-details">
+										<h2 class="webkit-box-1">
+											Công tắc JAVIS 3 Gang chữ nhật đen viền vàng Zigbee ( Không N )
+										</h2>
+										<div class="excerpt-service webkit-box-2">
+											Công tắc thông minh điều khiển và hẹn giờ qua Zigbee.Công tắc Zigbee JAVIS 3 Gang không N                               
+										</div>
+										<div class="readmore"  rel="nofollow" title="">
+											Xem tiếp
+										</div>
+									</div>
+								</div>
+							</a>
+						</figure>
+					</div>
+				</div>		
+								<div class="col-md-4 col-xs-6">
+					<div class="best_service_item sptop">
+
+						<figure>
+							<div class="thumb">
+								<img  data-src="/storage/img/avt-congtac-zigbee-8865.jpg" class="lazyload img_cover" alt="Công tắc JAVIS 3 Gang chữ nhật trắng viền bạc Zigbee">		
+							</div>
+							<a href="https://javishome.vn/cong-tac-javis-3-gang-chu-nhat-trang-vien-bac-zigbee">    
+								<div class="image-overlay">
+									<div class="image-overlay-details">
+										<h2 class="webkit-box-1">
+											Công tắc JAVIS 3 Gang chữ nhật trắng viền bạc Zigbee
+										</h2>
+										<div class="excerpt-service webkit-box-2">
+											Công tắc JAVIS điều khiển bình nóng lạnh - Công tắc thông minh điều khiển và hẹn giờ qua Zigbee. Công tắc JAVIS 3 Gang chữ nhật có viền Zigbee                               
+										</div>
+										<div class="readmore"  rel="nofollow" title="">
+											Xem tiếp
+										</div>
+									</div>
+								</div>
+							</a>
+						</figure>
+					</div>
+				</div>		
+								<div class="col-md-4 col-xs-6">
+					<div class="best_service_item sptop">
+
+						<figure>
+							<div class="thumb">
+								<img  data-src="/storage/img/avt-congtac-zigbee-4588.jpg" class="lazyload img_cover" alt="Công tắc Zigbee JAVIS 2 Gang vuông đen viền vàng">		
+							</div>
+							<a href="https://javishome.vn/cong-tac-zigbee-javis-2-gang-vuong-den-vien-vang">    
+								<div class="image-overlay">
+									<div class="image-overlay-details">
+										<h2 class="webkit-box-1">
+											Công tắc Zigbee JAVIS 2 Gang vuông đen viền vàng
+										</h2>
+										<div class="excerpt-service webkit-box-2">
+											Công tắc Zigbee JAVIS 2 Gang vuông đen viền vàng                               
+										</div>
+										<div class="readmore"  rel="nofollow" title="">
+											Xem tiếp
+										</div>
+									</div>
+								</div>
+							</a>
+						</figure>
+					</div>
+				</div>		
+								<div class="col-md-4 col-xs-6">
+					<div class="best_service_item sptop">
+
+						<figure>
+							<div class="thumb">
+								<img  data-src="/storage/img/avt-congtacwifi-9788.jpg" class="lazyload img_cover" alt="Công tắc bình nóng lạnh chữ nhật đen viền vàng JAVIS bản Wifi">		
+							</div>
+							<a href="https://javishome.vn/cong-tac-binh-nong-lanh-chu-nhat-den-vien-vang-javis-ban-wifi">    
+								<div class="image-overlay">
+									<div class="image-overlay-details">
+										<h2 class="webkit-box-1">
+											Công tắc bình nóng lạnh chữ nhật đen viền vàng JAVIS bản Wifi
+										</h2>
+										<div class="excerpt-service webkit-box-2">
+											Công tắc JAVIS điều khiển bình nóng lạnh - Công tắc thông minh điều khiển và hẹn giờ qua WIFI                               
+										</div>
+										<div class="readmore"  rel="nofollow" title="">
+											Xem tiếp
+										</div>
+									</div>
+								</div>
+							</a>
+						</figure>
+					</div>
+				</div>		
+								<div class="col-md-4 col-xs-6">
+					<div class="best_service_item sptop">
+
+						<figure>
+							<div class="thumb">
+								<img  data-src="/storage/img/cong-tac-zigbee-javis-3-gang-vuong-vien-bac-1622.jpg" class="lazyload img_cover" alt="Công tắc Zigbee JAVIS 3 Gang vuông viền bạc">		
+							</div>
+							<a href="https://javishome.vn/cong-tac-zigbee-javis-3-gang-vuong-vien-bac">    
+								<div class="image-overlay">
+									<div class="image-overlay-details">
+										<h2 class="webkit-box-1">
+											Công tắc Zigbee JAVIS 3 Gang vuông viền bạc
+										</h2>
+										<div class="excerpt-service webkit-box-2">
+											Công tắc thông minh điều khiển và hẹn giờ qua Zigbee.Công tắc Zigbee JAVIS 3 Gang vuông viền bạc                               
+										</div>
+										<div class="readmore"  rel="nofollow" title="">
+											Xem tiếp
+										</div>
+									</div>
+								</div>
+							</a>
+						</figure>
+					</div>
+				</div>		
+							
+								<script type="text/javascript">
+					$(function(){
+						$('.best_service_item .thumb').css('height',$('.best_service_item .thumb').width()*0.625);
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+	<div class="news">
+		<div class="container pt-5">
+			<div class="pull-left">
+				<h3 class="font20 text-uppercase">Bài viết hướng dẫn</h3>
+			</div>
+			<div id="slideNews" class="owl-carousel owl-theme pt-3" >
+												<div class="item">
+					<div class="inner bg-white">
+						<a href="https://javishome.vn/kinh-nghiem-xu-ly-cac-van-de-thuong-gap-khi-su-dung-cong-tac-wifi-cach-khac-phuc-loi-phat-sinh-trong-qua-trinh-su-dung-cong-tac-wifi">
+							<div class="thumb">
+								<img data-src="/storage/img/avt-congtac-wifi-4894.jpg" class="lazyload img_cover" alt="Kinh nghiệm xử lý các vấn đề thường gặp khi sử dụng công tắc WIFI | Cách khắc phục lỗi phát sinh trong quá trình sử dụng công tắc WIFI. ">
+							</div>
+							<h3 class="font15 webkit-box-2 pt-3">
+								Kinh nghiệm xử lý các vấn đề thường gặp khi sử dụng công tắc WIFI | Cách khắc phục lỗi phát sinh trong quá trình sử dụng công tắc WIFI. 
+							</h3>
+						</a>
+						<p class="readmore">
+							Xem thêm
+						</p>
+					</div>
+				</div>
+																<div class="item">
+					<div class="inner bg-white">
+						<a href="https://javishome.vn/nhung-luu-y-khi-chuan-bi-lap-dat-nha-thong-minh-kinh-nghiem-lap-nha-thong-minh">
+							<div class="thumb">
+								<img data-src="/storage/img/800kb-watermark-bosanphamjavishome-9771.jpg" class="lazyload img_cover" alt="Những lưu ý khi chuẩn bị lắp đặt nhà thông minh | Kinh nghiệm lắp nhà thông minh">
+							</div>
+							<h3 class="font15 webkit-box-2 pt-3">
+								Những lưu ý khi chuẩn bị lắp đặt nhà thông minh | Kinh nghiệm lắp nhà thông minh
+							</h3>
+						</a>
+						<p class="readmore">
+							Xem thêm
+						</p>
+					</div>
+				</div>
+																<div class="item">
+					<div class="inner bg-white">
+						<a href="https://javishome.vn/nen-chon-cong-tac-thong-minh-ket-noi-zigbee-hay-wifi-so-sanh-cong-tac-zigbee-va-wifi-nha-thong-minh-javis">
+							<div class="thumb">
+								<img data-src="/storage/img/so-sanh-7751.png" class="lazyload img_cover" alt="Nên chọn công tắc thông minh kết nối Zigbee hay WIFI | So sánh công tắc Zigbee và WIFI | Nhà thông minh JAVIS">
+							</div>
+							<h3 class="font15 webkit-box-2 pt-3">
+								Nên chọn công tắc thông minh kết nối Zigbee hay WIFI | So sánh công tắc Zigbee và WIFI | Nhà thông minh JAVIS
+							</h3>
+						</a>
+						<p class="readmore">
+							Xem thêm
+						</p>
+					</div>
+				</div>
+																<div class="item">
+					<div class="inner bg-white">
+						<a href="https://javishome.vn/huong-dan-thiet-lap-tu-dong-hoa-trong-ung-dung-javis-smart">
+							<div class="thumb">
+								<img data-src="/storage/img/tao-tdh-1500.png" class="lazyload img_cover" alt="Hướng dẫn thiết lập tự động hóa trong ứng dụng JAVIS SMART">
+							</div>
+							<h3 class="font15 webkit-box-2 pt-3">
+								Hướng dẫn thiết lập tự động hóa trong ứng dụng JAVIS SMART
+							</h3>
+						</a>
+						<p class="readmore">
+							Xem thêm
+						</p>
+					</div>
+				</div>
+																<div class="item">
+					<div class="inner bg-white">
+						<a href="https://javishome.vn/huong-dan-tao-kich-ban-trong-ung-dung-javis-smart">
+							<div class="thumb">
+								<img data-src="/storage/img/tao-kich-ban-moi-9407.png" class="lazyload img_cover" alt="Hướng dẫn tạo kịch bản trong ứng dụng JAVIS SMART">
+							</div>
+							<h3 class="font15 webkit-box-2 pt-3">
+								Hướng dẫn tạo kịch bản trong ứng dụng JAVIS SMART
+							</h3>
+						</a>
+						<p class="readmore">
+							Xem thêm
+						</p>
+					</div>
+				</div>
+																<div class="item">
+					<div class="inner bg-white">
+						<a href="https://javishome.vn/huong-dan-tao-moi-va-sap-xep-phong-trong-ung-dung-javis-smart">
+							<div class="thumb">
+								<img data-src="/storage/img/tao-phong-8411.png" class="lazyload img_cover" alt="Hướng dẫn tạo mới và sắp xếp phòng trong ứng dụng JAVIS SMART">
+							</div>
+							<h3 class="font15 webkit-box-2 pt-3">
+								Hướng dẫn tạo mới và sắp xếp phòng trong ứng dụng JAVIS SMART
+							</h3>
+						</a>
+						<p class="readmore">
+							Xem thêm
+						</p>
+					</div>
+				</div>
+																																																																																																																																																																																																																																																																																																																																																																																																																																			</div>	
+			<script type="text/javascript">
+				$(function(){
+					$('#slideNews .thumb').css('height',$('#slideNews .thumb').width()*0.625);
+				});
+				$('#slideNews').owlCarousel({
+					loop:true,
+					nav:false,
+					autoplay:true,
+					autoplayTimeout:8000,
+					navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+					dots:true,
+					margin: 15,
+					responsive:{
+						0:{
+							items:1
+						},
+						768:{
+							items:2
+						},
+						992:{
+							items:3
+						}
+					}
+				});
+			</script>		
+		</div>
+	</div>
+	<div class="guide-blogs">
+		<div class="container pt-5">
+			<div class="pull-left">
+				<h3 class="font20 text-uppercase ">
+					Video nổi bật				</h3>
+			</div>
+			<div id="slideVideos"  class="owl-carousel owl-theme pt-3">
+																<div class="item">
+					<div class="inner bg-white">
+						<a href="https://javishome.vn/hot-tro-ly-ao-thong-minh-javis-da-co-mat-tren-dien-thoai">
+						<div class="thumb thumb_video">
+							<img data-src="https://i.ytimg.com/vi/ANrndSUshpU/hqdefault.jpg" class="lazyload img_cover" alt="[HOT] Trợ lý ảo thông minh JAVIS đã có mặt trên điện thoại">
+							<div class="hover-img"></div>
+						</div>
+						<h3 class="font15 webkit-box-2 pt-3">
+							[HOT] Trợ lý ảo thông minh JAVIS đã có mặt trên điện thoại
+						</h3>
+						<p class="readmore">
+							Xem thêm
+						</p>
+						</a>
+					</div>
+				</div>
+																<div class="item">
+					<div class="inner bg-white">
+						<a href="https://javishome.vn/can-nha-thong-minh-smarthome-khoang-25-trieu-se-nhu-the-nao">
+						<div class="thumb thumb_video">
+							<img data-src="https://i.ytimg.com/vi/d5Umfyg8T48/hqdefault.jpg" class="lazyload img_cover" alt="Căn nhà thông minh (smarthome) khoảng 25 triệu sẽ như thế nào?">
+							<div class="hover-img"></div>
+						</div>
+						<h3 class="font15 webkit-box-2 pt-3">
+							Căn nhà thông minh (smarthome) khoảng 25 triệu sẽ như thế nào?
+						</h3>
+						<p class="readmore">
+							Xem thêm
+						</p>
+						</a>
+					</div>
+				</div>
+																<div class="item">
+					<div class="inner bg-white">
+						<a href="https://javishome.vn/nha-thong-minh-javis-tren-vtv1-nha-thong-minh-dieu-khien-bang-tieng-viet">
+						<div class="thumb thumb_video">
+							<img data-src="https://i.ytimg.com/vi/k23DIQAE1Ug/hqdefault.jpg" class="lazyload img_cover" alt="Nhà thông minh JAVIS trên VTV1 - Nhà thông minh điều khiển bằng tiếng Việt">
+							<div class="hover-img"></div>
+						</div>
+						<h3 class="font15 webkit-box-2 pt-3">
+							Nhà thông minh JAVIS trên VTV1 - Nhà thông minh điều khiển bằng tiếng Việt
+						</h3>
+						<p class="readmore">
+							Xem thêm
+						</p>
+						</a>
+					</div>
+				</div>
+																<div class="item">
+					<div class="inner bg-white">
+						<a href="https://javishome.vn/bo-dieu-khien-dieu-hoa-thong-minh-javis-phanhoi-trang-thai-dautien-tai-viet-nam-nha-thong-minh">
+						<div class="thumb thumb_video">
+							<img data-src="https://i.ytimg.com/vi/t3xgkxHN4cw/hqdefault.jpg" class="lazyload img_cover" alt="Bộ điều khiển điều hòa thông minh JAVIS phản hồi trạng thái 2 chiều đầu tiên tại Việt Nam | Nhà thông minh JAVIS">
+							<div class="hover-img"></div>
+						</div>
+						<h3 class="font15 webkit-box-2 pt-3">
+							Bộ điều khiển điều hòa thông minh JAVIS phản hồi trạng thái 2 chiều đầu tiên tại Việt Nam | Nhà thông minh JAVIS
+						</h3>
+						<p class="readmore">
+							Xem thêm
+						</p>
+						</a>
+					</div>
+				</div>
+																<div class="item">
+					<div class="inner bg-white">
+						<a href="https://javishome.vn/cap-nhat-virus-corona-bang-loa-thong-minh-javis-javis-home-nha-thong-minh-javis">
+						<div class="thumb thumb_video">
+							<img data-src="https://i.ytimg.com/vi/SywprUT5A5M/hqdefault.jpg" class="lazyload img_cover" alt="Cập nhật  thông tin VIRUS CORONA bằng Loa thông minh JAVIS | Javis Home | Nhà thông minh JAVIS">
+							<div class="hover-img"></div>
+						</div>
+						<h3 class="font15 webkit-box-2 pt-3">
+							Cập nhật  thông tin VIRUS CORONA bằng Loa thông minh JAVIS | Javis Home | Nhà thông minh JAVIS
+						</h3>
+						<p class="readmore">
+							Xem thêm
+						</p>
+						</a>
+					</div>
+				</div>
+																<div class="item">
+					<div class="inner bg-white">
+						<a href="https://javishome.vn/huong-dan-ket-noi-cam-bien-thong-minh-co-man-hinh-zigbee-vao-bo-javis-hc-nha-thong-minh-javis">
+						<div class="thumb thumb_video">
+							<img data-src="https://i.ytimg.com/vi/_-wsZ_kinMs/hqdefault.jpg" class="lazyload img_cover" alt="Cảm biến thông minh có màn hình  LCD kết nối Zigbee vào bộ Javis HC | Nhà thông minh JAVIS">
+							<div class="hover-img"></div>
+						</div>
+						<h3 class="font15 webkit-box-2 pt-3">
+							Cảm biến thông minh có màn hình  LCD kết nối Zigbee vào bộ Javis HC | Nhà thông minh JAVIS
+						</h3>
+						<p class="readmore">
+							Xem thêm
+						</p>
+						</a>
+					</div>
+				</div>
+																																																															</div>			
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			$('.guide-blogs .thumb').css('height',$('.guide-blogs .thumb').width()*0.625);
+		});
+		$('#slideVideos').owlCarousel({
+			loop:true,
+			nav:false,
+			autoplay:true,
+			autoplayTimeout:8000,
+			navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+			dots:true,
+			margin: 15,
+			responsive:{
+				0:{
+					items:1
+				},
+				768:{
+					items:2
+				},
+				992:{
+					items:3
+				}
+			}
+		});
+	</script>
+</div>
+<footer class="pt-4 pb-4">
+	<div class="container">
+		<div class="row">
+			<div class=" col-sm-4 footer_box">
+				<h3 class="footer_box_title">Nhà thông minh điều khiển bằng tiếng Việt</h3>
+				<p>Đ/C : 18 Tam Trinh, Hai Bà Trưng, Hà Nội.</p>
+				<p>SĐT: 090-123-0688</p>
+				<p>Email: 
+										<a href="mailto:contact@javisco.vn">contact@javisco.vn</a>
+									</p>
+				<p>WEB: http://nhathongminh.io</p>
+			</div>
+			<div class=" col-sm-4 footer_box">
+				<h3 class="footer_box_title">Liên kết</h3>
+								<ul id="menu_footer" class="menu">
+										<li>
+												<a href="/"><i class="fas fa-chevron-right"></i>Trang chủ</a>
+											</li>
+										<li>
+												<a href="/gioi-thieu"><i class="fas fa-chevron-right"></i>Giới thiêu</a>
+											</li>
+										<li>
+												<a href="https://javishome.vn/lien-he">
+							<i class="fas fa-chevron-right"></i>Liên hệ
+						</a>
+											</li>
+										<li>
+												<a href="/huong-dan"><i class="fas fa-chevron-right"></i>Tư vấn</a>
+											</li>
+									</ul>
+						
+			</div>
+			<div class=" col-sm-4 footer_box">
+								<div class="fb-page" data-href="https://www.facebook.com/nhathongminh.io/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/nhathongminh.io/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/nhathongminh.io/">JAVIS home - Nhà thông minh điều khiển bằng tiếng Việt</a></blockquote></div>
+							</div>
+			<div class="clear"></div>
+
+		</div>
+	</div>
+</footer>
+<div class="container">
+	<div class="col-md-12">
+		<div id="bttop">
+			<img src="https://javishome.vn/img/scroll_top.png" alt="scrolltop">
+		</div>
+	</div>
+</div>
+<div class="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="col-6 fleft">
+				<p>© Copyright 2019 JAVISCO . All rights reserved.</p>
+
+			</div>
+			<div class="col-6 fright">
+				<a href="//www.dmca.com/Protection/Status.aspx?ID=5fd58637-15cf-4a8e-a575-fd9a184deda2" title="DMCA.com Protection Status" class="dmca-badge"> 
+					<img src="//images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=5fd58637-15cf-4a8e-a575-fd9a184deda2" alt="DMCA.com Protection Status" style="    margin-top: 5px;float: right;">
+				</a> 
+				<script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>	
+			</div>
+		</div>
+	</div>
+</div>
+<div id="scriptLoad" style="display: none;"></div>
+<script type="text/javascript" src="https://javishome.vn/assets/theme1/js/lazyload.min.js"></script>  
+<script type="text/javascript" src="https://javishome.vn/assets/theme1/js/popper.min.js"></script>  
+<script type="text/javascript" src="https://javishome.vn/assets/theme1/js/holder.min.js"></script>  
+<script type="text/javascript" src="https://javishome.vn/assets/theme1/js/tether.min.js"></script>  
+<script type="text/javascript" src="https://javishome.vn/assets/theme1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://javishome.vn/assets/theme1/js/jquery.barrating.min.js"></script>
+<script type="text/javascript" src="https://javishome.vn/assets/magnific/jquery.magnific-popup.js"></script>
+<script type="text/javascript" src="https://javishome.vn/assets/theme1/js/theme1.js"></script>  
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+  FB.init({
+    xfbml            : true,
+    version          : 'v5.0'
+  });
+};
+</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=install_email
+  page_id="163751770931482"
+  theme_color="#ff3300">
+</div><script type="text/javascript">
+	function addProduct(id) {
+		$.ajax({
+            headers : { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') },
+			url: 'https://javishome.vn/addProduct',
+			type: 'POST',
+			data: {id: id},
+			success: function(output){
+				console.log(output);
+				changeCart(output);
+			}
+		});
+	}
+	function addProductAndBuy(id) {
+		$.ajax({
+            headers : { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') },
+			url: 'https://javishome.vn/addProduct',
+			type: 'POST',
+			data: {id: id},
+			success: function(output){
+				changeCart(output);
+				window.location.href = 'https://javishome.vn/thanh-toan'; 
+			}
+		});
+	}
+	function changeCart(count){
+		document.getElementById("count_product").innerHTML = count;
+	}
+	$('.popup-youtube, .iframe-popup').magnificPopup({
+		disableOn: 700,
+		type: 'iframe',
+		mainClass: 'mfp-fade',
+		removalDelay: 160,
+		preloader: false,
+		fixedContentPos: false
+	});
+
+	lazyload();
+	function loadFB() {
+		var js = document.createElement('script');
+		js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0&appId=854189808331714&autoLogAppEvents=1';
+		document.body.appendChild(js);
+	}
+
+	function loadChatFB()
+	{
+		var js = document.createElement('script');
+		js.src = "https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js";
+		document.body.appendChild(js);
+
+	}
+	function loadAddThis()
+	{
+		var js = document.createElement('script');
+		js.src = '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-583d3b81dd4cb376';
+		document.body.appendChild(js);
+	}
+	window.onscroll = function () {
+		var rect = document.getElementById('scriptLoad').getBoundingClientRect();
+		if (rect.top < window.innerHeight) {
+			loadFB();
+			loadChatFB();
+			// loadAddThis();
+			window.onscroll = null;
+		} 
+	}
+</script>
+</body>
+</html>

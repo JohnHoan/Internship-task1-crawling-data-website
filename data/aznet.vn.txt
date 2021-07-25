@@ -1,0 +1,1813 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]> <html lang="vi" prefix="og: https://ogp.me/ns#" class="ie9 loading-site no-js"> <![endif]-->
+<!--[if IE 8 ]> <html lang="vi" prefix="og: https://ogp.me/ns#" class="ie8 loading-site no-js"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="vi" prefix="og: https://ogp.me/ns#" class="loading-site no-js"> <!--<![endif]-->
+<head><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}async _loadEverythingNow(){this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{const n=document.createElement("script");let i;[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type",i=e.nodeValue),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")&&this._isValidScriptType(i)?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}_isValidScriptType(e){return!e||""===e||"string"==typeof e&&["text/javascript","text/x-javascript","text/ecmascript","text/jscript","application/javascript","application/x-javascript","application/ecmascript","application/jscript","module"].includes(e.toLowerCase())}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(i){e["rocket"+t]=n=i}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript;n||console.error("WPRocket unable to document.write this: "+t);const i=document.createRange(),r=n.parentElement;let a=e.get(n);void 0===a&&(a=n.nextSibling,e.set(n,a));const o=document.createDocumentFragment();i.setStart(o,0),o.appendChild(i.createContextualFragment(t)),r.insertBefore(o,a)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mousemove","touchmove","touchstart","touchend","wheel"]);e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();
+</script>
+	<meta charset="UTF-8" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	
+
+	<script type="rocketlazyloadscript">(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<link rel='preload' as='script' href='https://aznet.vn/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70' data-wpacu-preload-js='1'>
+<link rel='preload' as='script' href='https://aznet.vn/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=5.5.1' data-wpacu-preload-js='1'>
+<link rel='preload' as='script' href='https://aznet.vn/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4' data-wpacu-preload-js='1'>
+<link rel='preload' as='script' href='https://aznet.vn/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=5.5.1' data-wpacu-preload-js='1'>
+<link rel='preload' as='script' href='https://aznet.vn/wp-content/plugins/yith-woocommerce-recently-viewed-products-premium/assets/js/yith-wrvp-frontend.min.js?ver=2.0.0' data-wpacu-preload-js='1'>
+<link rel='preload' as='script' href='https://aznet.vn/wp-content/plugins/yith-woocommerce-recently-viewed-products-premium/assets/js/slick.min.js?ver=2.0.0' data-wpacu-preload-js='1'>
+<link rel='preload' as='script' href='https://aznet.vn/wp-content/themes/flatsome/assets/js/flatsome.js?ver=942e5d46e3c18336921615174a7d6798' data-wpacu-preload-js='1'>
+<link rel='preload' as='script' href='https://aznet.vn/wp-content/themes/flatsome/assets/js/woocommerce.js?ver=707a90c89eab7247f6e9e1b12f4f381b' data-wpacu-preload-js='1'>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!-- Search Engine Optimization by Rank Math PRO - https://s.rankmath.com/home -->
+<title>AZnet Việt Nam - Thiết Kế Website WordPress Chuẩn SEO, Đẹp, Nhanh</title><style id="rocket-critical-css">.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;overflow-wrap:normal!important;word-wrap:normal!important;padding:0;position:absolute!important;width:1px}@font-face{font-family:'fl-icons';font-display:block;src:url(https://aznet.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot);src:url(https://aznet.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot#iefix) format("embedded-opentype"),url(https://aznet.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff2) format("woff2"),url(https://aznet.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.ttf) format("truetype"),url(https://aznet.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff) format("woff"),url(https://aznet.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.svg#fl-icons) format("svg")}#yith-wcwl-popup-message{background:#fff;border:1px solid #dddddd;padding:15px 0;font-size:120%;position:fixed;text-align:center;top:50%;left:50%;transform:translateX(50%);width:300px;z-index:10000}.wishlist-icon{position:relative}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}header,main,section{display:block}a{background-color:transparent}strong{font-weight:inherit}strong{font-weight:bolder}img{border-style:none}button,input{font:inherit}button,input{overflow:visible}button{text-transform:none}button,[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}button:-moz-focusring,input:-moz-focusring{outline:1px dotted ButtonText}[type="checkbox"]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type="search"]{-webkit-appearance:textfield}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}*,*:before,*:after{-webkit-box-sizing:border-box;box-sizing:border-box}html{-webkit-box-sizing:border-box;box-sizing:border-box;background-attachment:fixed}body{color:#777;scroll-behavior:smooth;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}img{max-width:100%;height:auto;display:inline-block;vertical-align:middle}p:empty{display:none}a,button,input{-ms-touch-action:manipulation;touch-action:manipulation}.col{position:relative;margin:0;padding:0 15px 30px;width:100%}.col-inner{position:relative;margin-left:auto;margin-right:auto;width:100%;background-position:50% 50%;background-size:cover;background-repeat:no-repeat;-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto}@media screen and (min-width:850px){.col:first-child .col-inner{margin-left:auto;margin-right:0}.col+.col .col-inner{margin-right:auto;margin-left:0}}@media screen and (max-width:849px){.col{padding-bottom:30px}}.small-12{max-width:100%;-ms-flex-preferred-size:100%;flex-basis:100%}@media screen and (min-width:550px){.medium-6{max-width:50%;-ms-flex-preferred-size:50%;flex-basis:50%}}@media screen and (min-width:850px){.large-3{max-width:25%;-ms-flex-preferred-size:25%;flex-basis:25%}.large-12{max-width:100%;-ms-flex-preferred-size:100%;flex-basis:100%}}body,.container,.row{width:100%;margin-left:auto;margin-right:auto}.container{padding-left:15px;padding-right:15px}.container,.row{max-width:1080px}.row.row-small{max-width:1065px}.flex-row{-js-display:flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%}.text-center .flex-row{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.header .flex-row{height:100%}.flex-col{max-height:100%}.flex-grow{-webkit-box-flex:1;-ms-flex:1;flex:1;-ms-flex-negative:1;-ms-flex-preferred-size:auto!important}.flex-center{margin:0 auto}.flex-left{margin-right:auto}.flex-right{margin-left:auto}@media all and (-ms-high-contrast:none){.nav>li>a>i{top:-1px}}.row{width:100%;-js-display:flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap}.row .row:not(.row-collapse){padding-left:0;padding-right:0;margin-left:-15px;margin-right:-15px;width:auto}.row .row-small:not(.row-collapse){margin-left:-10px;margin-right:-10px;margin-bottom:0}.row-small>.col{padding:0 9.8px 19.6px;margin-bottom:0}.section{padding:30px 0;position:relative;min-height:auto;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row;flex-flow:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.section-bg{overflow:hidden}.section-bg,.section-content{width:100%}.section-content{z-index:1}.nav-dropdown{position:absolute;min-width:260px;max-height:0;z-index:9;padding:20px 0 20px;opacity:0;margin:0;color:#777;background-color:#fff;text-align:left;display:table;left:-99999px}.nav-dropdown:after{visibility:hidden;display:block;content:"";clear:both;height:0}.nav-dropdown li{display:block;margin:0;vertical-align:top}.nav-dropdown>li.html{min-width:260px}.nav-dropdown>li>a{width:auto;display:block;padding:10px 20px;line-height:1.3}.nav-dropdown>li:last-child:not(.nav-dropdown-col)>a{border-bottom:0!important}.nav-dropdown.nav-dropdown-default>li>a{padding-left:0;padding-right:0;margin:0 10px;border-bottom:1px solid #ececec}.nav-dropdown-default{padding:20px}.nav-dropdown-has-arrow li.has-dropdown:after,.nav-dropdown-has-arrow li.has-dropdown:before{bottom:-2px;z-index:10;opacity:0;left:50%;border:solid transparent;content:'';height:0;width:0;position:absolute}.nav-dropdown-has-arrow li.has-dropdown:after{border-color:rgba(221,221,221,0);border-bottom-color:#fff;border-width:8px;margin-left:-8px}.nav-dropdown-has-arrow li.has-dropdown:before{z-index:-999;border-width:11px;margin-left:-11px}.nav-dropdown-has-shadow .nav-dropdown{-webkit-box-shadow:1px 1px 15px rgba(0,0,0,0.15);box-shadow:1px 1px 15px rgba(0,0,0,0.15)}.nav-dropdown-has-arrow.nav-dropdown-has-border li.has-dropdown:before{border-bottom-color:#ddd}.nav-dropdown-has-border .nav-dropdown{border:2px solid #ddd}.nav p{margin:0;padding-bottom:0}.nav,.nav ul:not(.nav-dropdown){margin:0;padding:0}.nav>li>button{margin-bottom:0}.nav{width:100%;position:relative;display:inline-block;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.nav>li{display:inline-block;list-style:none;margin:0;padding:0;position:relative;margin:0 7px}.nav>li>a{padding:10px 0;display:inline-block;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.nav.nav-small>li>a{vertical-align:top;padding-top:5px;padding-bottom:5px;font-weight:normal}.nav-small.nav>li.html{font-size:.75em}.nav-center{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.nav-left{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.nav-right{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}@media (max-width:849px){.medium-nav-center{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}}.nav>li>a,.nav-dropdown>li>a{color:rgba(102,102,102,0.85)}.nav-dropdown>li>a{display:block}.nav>li.active>a{color:rgba(17,17,17,0.85)}.nav li:first-child{margin-left:0!important}.nav li:last-child{margin-right:0!important}.nav-uppercase>li>a{letter-spacing:.02em;text-transform:uppercase;font-weight:bolder}@media (min-width:850px){.nav-divided>li{margin:0 .7em}.nav-divided>li+li>a:after{content:"";position:absolute;top:50%;width:1px;border-left:1px solid rgba(0,0,0,0.1);height:15px;margin-top:-7px;left:-1em}}li.html form,li.html input{margin:0}.nav-line-bottom>li>a:before{content:" ";position:absolute;top:0;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);width:100%;background-color:#446084;opacity:0;height:3px}.nav-line-bottom>li:before,.nav-line-bottom>li:after{display:none}.nav-line-bottom>li>a:before{top:auto;bottom:0}.toggle{height:auto;width:45px;line-height:1;-webkit-box-shadow:none!important;box-shadow:none!important;padding:0;color:currentColor;opacity:.6;margin:0 5px 0 0}.toggle i{font-size:1.8em}.nav.nav-vertical{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-flow:column;flex-flow:column}.nav.nav-vertical li{list-style:none;margin:0;width:100%}.nav-vertical li li{font-size:1em;padding-left:.5em}.nav-vertical>li{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.nav-vertical>li ul{width:100%}.nav-vertical>li>ul>li a,.nav-vertical>li>a{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:auto;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.nav-vertical>li.html{padding-top:1em;padding-bottom:1em}.nav-vertical>li>ul li a{color:#666}.nav-vertical>li>ul{margin:0 0 2em;padding-left:1em}.nav .children{position:fixed;opacity:0;left:-99999px;-webkit-transform:translateX(-10px);-ms-transform:translateX(-10px);transform:translateX(-10px)}.nav-sidebar.nav-vertical>li+li{border-top:1px solid #ececec}.nav-vertical>li+li{border-top:1px solid #ececec}.banner{position:relative;background-color:#446084;width:100%;min-height:30px}.banner-bg{overflow:hidden}.banner-layers{max-height:100%;height:100%;position:relative}@media (max-width:549px){.banner-layers{overflow:auto;-webkit-overflow-scrolling:touch}}.banner-layers>*{position:absolute!important}.button,button{position:relative;display:inline-block;background-color:transparent;text-transform:uppercase;font-size:.97em;letter-spacing:.03em;font-weight:bolder;text-align:center;color:currentColor;text-decoration:none;border:1px solid transparent;vertical-align:middle;border-radius:0;margin-top:0;margin-right:1em;text-shadow:none;line-height:2.4em;min-height:2.5em;padding:0 1.2em;max-width:100%;text-rendering:optimizeLegibility;-webkit-box-sizing:border-box;box-sizing:border-box}.button span{display:inline-block;line-height:1.6}.button.is-outline{line-height:2.19em}.button{color:#fff;background-color:#446084;background-color:var(--primary-color);border-color:rgba(0,0,0,0.05)}.button.is-outline{border:2px solid currentColor;background-color:transparent}.dark .button{color:#fff}.is-outline{color:silver}.primary{background-color:#446084}.secondary{background-color:#d26e4b}.text-center .button:first-of-type{margin-left:0!important}.text-center .button:last-of-type{margin-right:0!important}.header-button{display:inline-block}.header-button .button{margin:0}.flex-col button,.flex-col .button,.flex-col input{margin-bottom:0}.is-divider{height:3px;display:block;background-color:rgba(0,0,0,0.1);margin:1em 0 1em;width:100%;max-width:30px}form{margin-bottom:0}input[type='search'],input[type='text'],input[type='password']{-webkit-box-sizing:border-box;box-sizing:border-box;border:1px solid #ddd;padding:0 .75em;height:2.507em;font-size:.97em;border-radius:0;max-width:100%;width:100%;vertical-align:middle;background-color:#fff;color:#333;-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);box-shadow:inset 0 1px 2px rgba(0,0,0,0.1)}input[type='search'],input[type='text']{-webkit-appearance:none;-moz-appearance:none;appearance:none}label{font-weight:bold;display:block;font-size:.9em;margin-bottom:0.4em}input[type='checkbox']{display:inline;margin-right:10px;font-size:16px}.icon-box .icon-box-img{margin-bottom:1em;max-width:100%;position:relative}.icon-box-img img{padding-top:.2em;width:100%}.icon-box-center .icon-box-img{margin:0 auto 1em}i[class^="icon-"],i[class*=" icon-"]{font-family:'fl-icons'!important;font-display:block;speak:none!important;margin:0;padding:0;display:inline-block;font-style:normal!important;font-weight:normal!important;font-variant:normal!important;text-transform:none!important;position:relative;line-height:1.2}button i,.button i{vertical-align:middle;top:-1.5px}a.icon:not(.button){font-family:sans-serif;margin-left:.25em;margin-right:.25em;font-size:1.2em}.header a.icon:not(.button){margin-left:.3em;margin-right:.3em}.header .nav-small a.icon:not(.button){font-size:1em}.button.icon{margin-left:.12em;margin-right:.12em;min-width:2.5em;padding-left:.6em;padding-right:.6em;display:inline-block}.button.icon i{font-size:1.2em}.button.icon i+span{padding-right:.5em}.button.icon.is-small{border-width:1px}.button.icon.is-small i{top:-1px}.button.icon.circle{padding-left:0;padding-right:0}.button.icon.circle>i{margin:0 8px}.button.icon.circle>i:only-child{margin:0}.nav>li>a>i{vertical-align:middle;font-size:20px}.nav>li>a>i+span{margin-left:5px}.nav>li>a>span+i{margin-left:5px}.nav-vertical>li>a>i{font-size:16px;opacity:.6}.has-dropdown .icon-angle-down{font-size:16px;margin-left:.2em;opacity:.6}.image-icon{display:inline-block;height:auto;vertical-align:middle;position:relative}span+.image-icon{margin-left:10px}img{opacity:1}.overlay{position:absolute;top:0;bottom:0;height:100%;left:-1px;right:-1px;background-color:rgba(0,0,0,0.15)}.lightbox-content{background-color:#fff;max-width:875px;margin:0 auto;-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-box-shadow:3px 3px 20px 0 rgba(0,0,0,0.15);box-shadow:3px 3px 20px 0 rgba(0,0,0,0.15);position:relative}.lightbox-content .lightbox-inner{padding:30px 20px}.mfp-hide{display:none!important}label{color:#222}.text-box{max-height:100%}.text-box .text-box-content{position:relative;z-index:10;-webkit-backface-visibility:hidden;backface-visibility:hidden}a{color:#334862;text-decoration:none}a.plain{color:currentColor}.dark a{color:currentColor}ul{list-style:disc}ul{margin-top:0;padding:0}ul ul{margin:1.5em 0 1.5em 3em}li{margin-bottom:.6em}.button,button,input{margin-bottom:1em}form,p,ul{margin-bottom:1.3em}form p{margin-bottom:.5em}body{line-height:1.6}h2,h3,h4{color:#555;width:100%;margin-top:0;margin-bottom:.5em;text-rendering:optimizeSpeed}h2{font-size:1.6em;line-height:1.3}h3{font-size:1.25em}h4{font-size:1.125em}@media (max-width:549px){h2{font-size:1.2em}h3{font-size:1em}}p{margin-top:0}h2>span{-webkit-box-decoration-break:clone;box-decoration-break:clone}.uppercase{line-height:1.05;letter-spacing:.05em;text-transform:uppercase}.is-normal{font-weight:normal}.uppercase{line-height:1.2;text-transform:uppercase}.is-xlarge{font-size:1.5em}.is-small,.is-small.button{font-size:.8em}@media (max-width:549px){.is-xlarge{font-size:1.8em}}.banner .button{margin-top:.5em;margin-bottom:.5em}.banner h2{font-size:2.9em}.banner h2{padding:0;font-weight:normal;margin-top:.2em;margin-bottom:.2em;line-height:1}.banner p{padding:0;margin-top:1em;margin-bottom:1em}[data-line-height="xs"]{line-height:0.85!important}.nav>li>a{font-size:.8em}.nav>li.html{font-size:.85em}.nav-size-medium>li>a{font-size:.9em}.container:after,.row:after,.clearfix:after{content:"";display:table;clear:both}@media (max-width:549px){.hide-for-small{display:none!important}}@media (min-width:850px){.show-for-medium{display:none!important}}@media (max-width:849px){.hide-for-medium{display:none!important}}.full-width{width:100%!important;max-width:100%!important;padding-left:0!important;padding-right:0!important;display:block}.mb-0{margin-bottom:0!important}.ml-0{margin-left:0!important}.inner-padding{padding:30px}.last-reset *:last-child{margin-bottom:0}.text-left{text-align:left}.text-center{text-align:center}.text-center>div,.text-center>div>div,.text-center .is-divider{margin-left:auto;margin-right:auto}.relative{position:relative!important}.fixed{position:fixed!important;z-index:12}.right{right:0}.left{left:0}.bottom{bottom:0}.fill{position:absolute;top:0;left:0;height:100%;right:0;bottom:0;padding:0!important;margin:0!important}.bg-fill{background-size:cover!important;background-repeat:no-repeat!important;background-position:50% 50%}.circle{border-radius:999px!important;-o-object-fit:cover;object-fit:cover}.round{border-radius:5px}.z-1{z-index:21}.z-top{z-index:9995}.no-scrollbar{-ms-overflow-style:-ms-autohiding-scrollbar;scrollbar-width:none}.no-scrollbar::-webkit-scrollbar{width:0px!important;height:0px!important}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}@media screen and (max-width:549px){.y15{top:15%}.x50{left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}}@media screen and (min-width:550px) and (max-width:849px){.md-y15{top:15%}.md-x50{left:50%;-webkit-transform:translateX(-50%)!important;-ms-transform:translateX(-50%)!important;transform:translateX(-50%)!important}}@media screen and (min-width:850px){.lg-y15{top:15%}.lg-x50{left:50%;-webkit-transform:translateX(-50%)!important;-ms-transform:translateX(-50%)!important;transform:translateX(-50%)!important}}.res-text{font-size:11px}@media screen and (min-width:550px){.res-text{font-size:1.8vw}}@media screen and (min-width:850px){.res-text{font-size:16px}}.row-box-shadow-1 .col-inner{-webkit-box-shadow:0 1px 3px -2px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);box-shadow:0 1px 3px -2px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24)}.dark,.dark p{color:#f1f1f1}.dark label,.dark h2{color:#fff}.nav-dark .nav>li>a{color:rgba(255,255,255,0.8)}.nav-dark .nav>li.active>a{color:#fff}.nav-dark .nav-divided>li+li>a:after{border-color:rgba(255,255,255,0.2)}.nav-dark .nav>li.html{color:#fff}html{overflow-x:hidden}@media (max-width:849px){body{overflow-x:hidden}}#wrapper,#main{background-color:#fff;position:relative}.header,.header-wrapper{width:100%;z-index:30;position:relative;background-size:cover;background-position:50% 0}.header-bg-color{background-color:rgba(255,255,255,0.9)}.header-top,.header-bottom{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-wrap:no-wrap;flex-wrap:no-wrap}.header-bg-image,.header-bg-color{background-position:50% 0}.header-top{background-color:#446084;z-index:11;position:relative;min-height:20px}.header-main{z-index:10;position:relative}.header-bottom{z-index:9;position:relative;min-height:35px}.top-divider{margin-bottom:-1px;border-top:1px solid currentColor;opacity:0.1}.wpcf7 p{padding:0;margin:0}.wpcf7 br{display:none}html{background-color:#5b5b5b}.back-to-top{margin:0;opacity:0;bottom:20px;right:20px;-webkit-transform:translateY(30%);-ms-transform:translateY(30%);transform:translateY(30%)}.logo{line-height:1;margin:0}.logo a{text-decoration:none;display:block;color:#446084;font-size:32px;text-transform:uppercase;font-weight:bolder;margin:0}.logo img{display:block;width:auto}.header-logo-dark{display:none!important}.logo-left .logo{margin-left:0;margin-right:30px}@media screen and (max-width:849px){.header-inner .nav{-ms-flex-wrap:nowrap;flex-wrap:nowrap}.medium-logo-center .flex-left{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;-webkit-box-flex:1;-ms-flex:1 1 0px;flex:1 1 0}.medium-logo-center .logo{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2;text-align:center;margin:0 15px}.medium-logo-center .logo img{margin:0 auto}.medium-logo-center .flex-right{-webkit-box-flex:1;-ms-flex:1 1 0px;flex:1 1 0;-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}}.sidebar-menu .search-form{display:block!important}.searchform-wrapper form{margin-bottom:0}.mobile-nav>.search-form,.sidebar-menu .search-form{padding:5px 0;width:100%}.searchform-wrapper:not(.form-flat) .submit-button{border-top-left-radius:0!important;border-bottom-left-radius:0!important}.searchform{position:relative}.searchform .button.icon{margin:0}.searchform .button.icon i{font-size:1.2em}.searchform-wrapper{width:100%}.header .search-form .live-search-results{text-align:left;color:#111;top:105%;-webkit-box-shadow:0 0 10px 0 rgba(0,0,0,0.1);box-shadow:0 0 10px 0 rgba(0,0,0,0.1);left:0;right:0;background-color:rgba(255,255,255,0.95);position:absolute}.icon-phone:before{content:"\e600"}.icon-menu:before{content:"\e800"}.icon-heart:before{content:"\e000"}.icon-angle-up:before{content:"\f106"}.icon-angle-down:before{content:"\f107"}.icon-twitter:before{content:"\e001"}.icon-envelop:before{content:"\e003"}.icon-facebook:before{content:"\e002"}.icon-instagram:before{content:"\e00e"}.icon-search:before{content:"\e012"}.social-icons{display:inline-block;vertical-align:middle;font-size:.85em;color:#999}.html .social-icons{font-size:1em}.social-icons i{min-width:1em}.nav-dark .social-icons{color:#FFF}.woocommerce-form-login .button{margin-bottom:0}p.form-row-wide{clear:both}span.amount{white-space:nowrap;color:#111;font-weight:bold}.header-cart-title span.amount{color:currentColor}.cart-icon{display:inline-block}.cart-icon strong{border-radius:0;font-weight:bold;margin:.3em 0;border:2px solid #446084;color:#446084;position:relative;display:inline-block;vertical-align:middle;text-align:center;width:2.2em;height:2.2em;font-size:1em;line-height:1.9em;font-family:Helvetica,Arial,Sans-serif}.cart-icon strong:after{bottom:100%;margin-bottom:0;margin-left:-7px;height:8px;width:14px;left:50%;content:' ';position:absolute;border:2px solid #446084;border-top-left-radius:99px;border-top-right-radius:99px;border-bottom:0}.woocommerce-mini-cart__empty-message{text-align:center}</style><link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto%3A700%2Cregular&#038;display=swap" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+<meta name="description" content="AZnet chuyên bán Theme WordPress, cung cấp các giao diện website bán hàng, website doanh nghiệp chuẩn SEO, tối ưu tốc độ và cài đặt sẵn các chức năng quan trọng để kinh doanh online thành công."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://aznet.vn" />
+<meta property="og:locale" content="vi_VN" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="AZnet Việt Nam - Thiết Kế Website WordPress Chuẩn SEO, Đẹp, Nhanh" />
+<meta property="og:description" content="AZnet chuyên bán Theme WordPress, cung cấp các giao diện website bán hàng, website doanh nghiệp chuẩn SEO, tối ưu tốc độ và cài đặt sẵn các chức năng quan trọng để kinh doanh online thành công." />
+<meta property="og:url" content="https://aznet.vn" />
+<meta property="og:site_name" content="AZnet Việt Nam" />
+<meta property="og:updated_time" content="2021-07-15T07:16:31+07:00" />
+<meta property="og:image" content="https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress.jpg" />
+<meta property="og:image:secure_url" content="https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress.jpg" />
+<meta property="og:image:width" content="966" />
+<meta property="og:image:height" content="570" />
+<meta property="og:image:alt" content="Theme WordPress đẹp" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="article:published_time" content="2021-01-20GMT+070010:30:56+07:00" />
+<meta property="article:modified_time" content="2021-07-15GMT+070007:16:31+07:00" />
+<meta property="og:video" content="https://www.youtube.com/embed/3zsq0rRnImM?feature=oembed" />
+<meta property="video:duration" content="918" />
+<meta property="ya:ovs:upload_date" content="2021-01-29" />
+<meta property="ya:ovs:allow_embed" content="true" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="AZnet Việt Nam - Thiết Kế Website WordPress Chuẩn SEO, Đẹp, Nhanh" />
+<meta name="twitter:description" content="AZnet chuyên bán Theme WordPress, cung cấp các giao diện website bán hàng, website doanh nghiệp chuẩn SEO, tối ưu tốc độ và cài đặt sẵn các chức năng quan trọng để kinh doanh online thành công." />
+<meta name="twitter:creator" content="@truongdinhnamth" />
+<meta name="twitter:image" content="https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress.jpg" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":"Place","@id":"https://aznet.vn/#place","address":{"@type":"PostalAddress","addressCountry":"Vi\u1ec7t Nam"}},{"@type":"Organization","@id":"https://aznet.vn/#organization","name":"AZnet Vi\u00eat Nam","url":"https://aznet.vn","email":"truongnamqd@gmail.com","address":{"@type":"PostalAddress","addressCountry":"Vi\u1ec7t Nam"},"logo":{"@type":"ImageObject","@id":"https://aznet.vn/#logo","url":"https://aznet.vn/wp-content/uploads/2021/01/logo.png","caption":"AZnet Vi\u00eat Nam","inLanguage":"vi","width":"250","height":"68"},"contactPoint":[{"@type":"ContactPoint","telephone":"0972782255","contactType":"customer support"}],"location":{"@id":"https://aznet.vn/#place"}},{"@type":"WebSite","@id":"https://aznet.vn/#website","url":"https://aznet.vn","name":"AZnet Vi\u00eat Nam","publisher":{"@id":"https://aznet.vn/#organization"},"inLanguage":"vi","potentialAction":{"@type":"SearchAction","target":"https://aznet.vn/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress.jpg","url":"https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress.jpg","width":"966","height":"570","caption":"Theme WordPress \u0111\u1eb9p","inLanguage":"vi"},{"@type":"Person","@id":"https://aznet.vn/author/aznet_nam","name":"Tr\u01b0\u01a1ng \u0110\u00ecnh Nam","url":"https://aznet.vn/author/aznet_nam","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/f264665d056f84e90bd6b6261abb23db?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/f264665d056f84e90bd6b6261abb23db?s=96&amp;d=mm&amp;r=g","caption":"Tr\u01b0\u01a1ng \u0110\u00ecnh Nam","inLanguage":"vi"},"sameAs":["https://aznet.com.vn","https://facebook.com/truongdinhnamonline","https://twitter.com/truongdinhnamth"],"worksFor":{"@id":"https://aznet.vn/#organization"}},{"@type":"WebPage","@id":"https://aznet.vn#webpage","url":"https://aznet.vn","name":"AZnet Vi\u1ec7t Nam - Thi\u1ebft K\u1ebf Website WordPress Chu\u1ea9n SEO, \u0110\u1eb9p, Nhanh","datePublished":"2021-01-20T10:30:56+07:00","dateModified":"2021-07-15T07:16:31+07:00","author":{"@id":"https://aznet.vn/author/aznet_nam"},"isPartOf":{"@id":"https://aznet.vn/#website"},"primaryImageOfPage":{"@id":"https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress.jpg"},"inLanguage":"vi"},{"@type":"Article","headline":"AZnet Vi\u1ec7t Nam - Thi\u1ebft K\u1ebf Website WordPress Chu\u1ea9n SEO, \u0110\u1eb9p, Nhanh","description":"AZnet chuy\u00ean b\u00e1n Theme WordPress, cung c\u1ea5p c\u00e1c giao di\u1ec7n website b\u00e1n h\u00e0ng, website doanh nghi\u1ec7p chu\u1ea9n SEO, t\u1ed1i \u01b0u t\u1ed1c \u0111\u1ed9 v\u00e0 c\u00e0i \u0111\u1eb7t s\u1eb5n c\u00e1c ch\u1ee9c n\u0103ng quan tr\u1ecdng \u0111\u1ec3 kinh doanh online th\u00e0nh c\u00f4ng.","datePublished":"2021-01-20GMT+070010:30:56+07:00","dateModified":"2021-07-15GMT+070007:16:31+07:00","image":{"@id":"https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress.jpg"},"author":{"@id":"https://aznet.vn/author/aznet_nam"},"name":"AZnet Vi\u1ec7t Nam - Thi\u1ebft K\u1ebf Website WordPress Chu\u1ea9n SEO, \u0110\u1eb9p, Nhanh","@id":"https://aznet.vn#schema-7187","isPartOf":{"@id":"https://aznet.vn#webpage"},"publisher":{"@id":"https://aznet.vn/#organization"},"inLanguage":"vi","mainEntityOfPage":{"@id":"https://aznet.vn#webpage"}},{"@type":"VideoObject","name":"AZnet Vi\u1ec7t Nam - Thi\u1ebft K\u1ebf Website WordPress Chu\u1ea9n SEO, \u0110\u1eb9p, Nhanh","description":"AZnet chuy\u00ean b\u00e1n Theme WordPress, cung c\u1ea5p c\u00e1c giao di\u1ec7n website b\u00e1n h\u00e0ng, website doanh nghi\u1ec7p chu\u1ea9n SEO, t\u1ed1i \u01b0u t\u1ed1c \u0111\u1ed9 v\u00e0 c\u00e0i \u0111\u1eb7t s\u1eb5n c\u00e1c ch\u1ee9c n\u0103ng quan tr\u1ecdng \u0111\u1ec3 kinh doanh online th\u00e0nh c\u00f4ng.","uploadDate":"2021-01-29","thumbnailUrl":"https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress.jpg","embedUrl":"https://www.youtube.com/embed/3zsq0rRnImM?feature=oembed","duration":"PT15M18S","width":"1280","height":"720","isFamilyFriendly":"1","@id":"https://aznet.vn#schema-7188","isPartOf":{"@id":"https://aznet.vn#webpage"},"publisher":{"@id":"https://aznet.vn/#organization"},"inLanguage":"vi"}]}</script>
+<meta name="google-site-verification" content="DHIw3JWh6t2cNjhLIx_22-APJcbBgZOGK1cAhOOMv4A" />
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin AZnet Việt Nam &raquo;" href="https://aznet.vn/feed" />
+<link rel="alternate" type="application/rss+xml" title="Dòng phản hồi AZnet Việt Nam &raquo;" href="https://aznet.vn/comments/feed" />
+<link rel='preload'   href='https://aznet.vn/wp-content/plugins/menu-icons/css/extra.min.css?ver=0.12.8' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link data-minify="1" rel='preload'   href='https://aznet.vn/wp-content/cache/min/1/wp-content/plugins/yith-woocommerce-recently-viewed-products-premium/assets/css/yith-wrvp-frontend.css?ver=1626309567' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+<link data-minify="1" rel='preload'   href='https://aznet.vn/wp-content/cache/min/1/wp-content/plugins/yith-woocommerce-recently-viewed-products-premium/assets/css/slick.css?ver=1626309567' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+<link data-minify="1" rel='preload'   href='https://aznet.vn/wp-content/cache/min/1/wp-content/themes/flatsome/assets/css/flatsome.css?ver=1626309567' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+<style id='flatsome-main-inline-css' type='text/css'>
+@font-face {
+				font-family: "fl-icons";
+				font-display: block;
+				src: url(https://aznet.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot?v=3.14.0);
+				src:
+					url(https://aznet.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot#iefix?v=3.14.0) format("embedded-opentype"),
+					url(https://aznet.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff2?v=3.14.0) format("woff2"),
+					url(https://aznet.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.ttf?v=3.14.0) format("truetype"),
+					url(https://aznet.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff?v=3.14.0) format("woff"),
+					url(https://aznet.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.svg?v=3.14.0#fl-icons) format("svg");
+			}
+</style>
+<link data-minify="1" rel='preload'   href='https://aznet.vn/wp-content/cache/min/1/wp-content/themes/flatsome/assets/css/flatsome-shop.css?ver=1626309567' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type='text/css' media='all' />
+
+<script   type='text/javascript' src='https://aznet.vn/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js' defer></script>
+<link rel="https://api.w.org/" href="https://aznet.vn/wp-json/" /><link rel="alternate" type="application/json" href="https://aznet.vn/wp-json/wp/v2/pages/272" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://aznet.vn/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://aznet.vn/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8" />
+<link rel='shortlink' href='https://aznet.vn/' />
+<style>.bg{opacity: 0; transition: opacity 1s; -webkit-transition: opacity 1s;} .bg-loaded{opacity: 1;}</style><!--[if IE]><link rel="stylesheet" type="text/css" href="https://aznet.vn/wp-content/themes/flatsome/assets/css/ie-fallback.css"><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script><script>var head = document.getElementsByTagName('head')[0],style = document.createElement('style');style.type = 'text/css';style.styleSheet.cssText = ':before,:after{content:none !important';head.appendChild(style);setTimeout(function(){head.removeChild(style);}, 0);</script><script src="https://aznet.vn/wp-content/themes/flatsome/assets/libs/ie-flexibility.js"></script><![endif]--><!-- Google Tag Manager -->
+<script type="rocketlazyloadscript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TVJDJDV');</script>
+<!-- End Google Tag Manager -->
+<meta property="fb:pages" content="111826580685736" />
+
+<link rel="preload" href="https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2" as="font" crossorigin="anonymous">
+<meta name="facebook-domain-verification" content="t9vn63moctuyboxhxrfyq69omngviw" />	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="https://aznet.vn/wp-content/uploads/2021/07/cropped-icon-az-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://aznet.vn/wp-content/uploads/2021/07/cropped-icon-az-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://aznet.vn/wp-content/uploads/2021/07/cropped-icon-az-180x180.png" />
+<meta name="msapplication-TileImage" content="https://aznet.vn/wp-content/uploads/2021/07/cropped-icon-az-270x270.png" />
+<style id="custom-css" type="text/css">:root {--primary-color: #3b88c8;}.full-width .ubermenu-nav, .container, .row{max-width: 1250px}.row.row-collapse{max-width: 1220px}.row.row-small{max-width: 1242.5px}.row.row-large{max-width: 1280px}.header-main{height: 90px}#logo img{max-height: 90px}#logo{width:169px;}.header-bottom{min-height: 10px}.header-top{min-height: 20px}.transparent .header-main{height: 30px}.transparent #logo img{max-height: 30px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 110px;}.header.show-on-scroll,.stuck .header-main{height:49px!important}.stuck #logo img{max-height: 49px!important}.search-form{ width: 80%;}.header-bg-color, .header-wrapper {background-color: rgba(255,255,255,0.9)}.header-bottom {background-color: #f1f1f1}.header-main .nav > li > a{line-height: 16px }.header-bottom-nav > li > a{line-height: 16px }@media (max-width: 549px) {.header-main{height: 52px}#logo img{max-height: 52px}}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #3b88c8;}/* Color !important */[data-text-color="primary"]{color: #3b88c8!important;}/* Background Color */[data-text-bg="primary"]{background-color: #3b88c8;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #3b88c8;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #3b88c8}.nav-tabs > li.active > a{border-top-color: #3b88c8}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #3b88c8 }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #3b88c8 }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #3b88c8;}/* Background Color */[data-icon-label]:after, .secondary.is-underline:hover,.secondary.is-outline:hover,.icon-label,.button.secondary:not(.is-outline),.button.alt:not(.is-outline), .badge-inner.on-sale, .button.checkout, .single_add_to_cart_button, .current .breadcrumb-step{ background-color:#b20000; }[data-text-bg="secondary"]{background-color: #b20000;}/* Color */.secondary.is-underline,.secondary.is-link, .secondary.is-outline,.stars a.active, .star-rating:before, .woocommerce-page .star-rating:before,.star-rating span:before, .color-secondary{color: #b20000}/* Color !important */[data-text-color="secondary"]{color: #b20000!important;}/* Border */.secondary.is-outline:hover{border-color:#b20000}body{font-size: 100%;}@media screen and (max-width: 549px){body{font-size: 100%;}}body{font-family:"Roboto", sans-serif}body{font-weight: 0}body{color: #494949}.nav > li > a {font-family:"Roboto", sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family:"Roboto", sans-serif;}.nav > li > a {font-weight: 700;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Roboto", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font{color: #000000;}.alt-font{font-family: "Roboto", sans-serif;}.alt-font{font-weight: 0!important;}.header:not(.transparent) .header-nav-main.nav > li > a {color: #000000;}.header:not(.transparent) .header-nav-main.nav > li > a:hover,.header:not(.transparent) .header-nav-main.nav > li.active > a,.header:not(.transparent) .header-nav-main.nav > li.current > a,.header:not(.transparent) .header-nav-main.nav > li > a.active,.header:not(.transparent) .header-nav-main.nav > li > a.current{color: #1c7dd2;}.header-nav-main.nav-line-bottom > li > a:before,.header-nav-main.nav-line-grow > li > a:before,.header-nav-main.nav-line > li > a:before,.header-nav-main.nav-box > li > a:hover,.header-nav-main.nav-box > li.active > a,.header-nav-main.nav-pills > li > a:hover,.header-nav-main.nav-pills > li.active > a{color:#FFF!important;background-color: #1c7dd2;}.header:not(.transparent) .header-bottom-nav.nav > li > a{color: #ffffff;}a{color: #1e73be;}a:hover{color: #dd3333;}.tagcloud a:hover{border-color: #dd3333;background-color: #dd3333;}.has-equal-box-heights .box-image {padding-top: 100%;}.star-rating span:before,.star-rating:before, .woocommerce-page .star-rating:before, .stars a:hover:after, .stars a.active:after{color: #eeee22}.price del, .product_list_widget del, del .woocommerce-Price-amount { color: #dd3333; }ins .woocommerce-Price-amount { color: #50a215; }@media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 700px!important;width: 700px!important;}}/* Custom CSS */aside#nav_menu-2 {background: #3b88c8;padding: 10px 15px;}aside#nav_menu-2 span.widget-title {text-transform: uppercase;color: #fff;padding: 10px 0;font-weight: 600;border-bottom: 1px solid #f9f9f9;margin-bottom: 18px;display: block;margin-top: 6px;}aside#nav_menu-2 li a{font-size: 15px;font-weight: 500;}ul#menu-danh-muc-giao-dien a:before{content: 'f105' !important;font-family: 'fl-icons';font-size: 16px;color: #fff;display: inline-block;margin-right: 10px;}.xem-them ul li{margin-left:0 !important}.header-search-form-wrapper input[type='search']{ border-top-left-radius: 5px;border-bottom-left-radius: 5px; height: 43px;box-shadow: none;border: 2px solid #f26a56;}.header-search-form-wrapper .searchform .button.icon{height: 43px;width: 70px;background-image: linear-gradient(to right, #f26957 , #e31388);border-top-right-radius: 5px;border-bottom-right-radius: 5px;}.header-button .is-outline {color: #020202;text-transform: none;font-weight: normal;font-size: 14px;padding-top: 2px;}.header-button .is-outline:hover{color:white}.header-bottom {background-image: linear-gradient(to right, #3b88c8 , #ED4F4F); border-top: 1px solid #f6f6f6;box-shadow: 2px 7px 10px #0000000f;}.section-title-normal span {margin-right: 15px;padding-bottom: 6px;border-bottom: 0;margin-bottom: 0;text-transform: none;font-size: 18px;}.list-post-ngang .post-item .box-text{padding:0; padding-left:10px}.list-post-ngang .post-item:last-child{border-bottom:none}.list-post-ngang .post-item{border-bottom: 1px dashed #f4f4f4;padding: 7px 10px !important;}.list-post-ngang .post-item .post-title{margin: 0;font-size: 14px;font-weight: normal;}.box-blog-post .is-divider{display:none}.list-post-ngang{border: 1px solid #e9e9e9;margin-left:0 !important; margin-right:0 !important; background: white;padding: 8px;}.slider-section .section-title-normal{margin-bottom: 0;}.TextCaptions .item.is-selected{color:#ea0e86}.list-post-ngang .post-item .post-title:hover{color:#e31587}.slider-section .col{padding-bottom:0}.TextCaptions .item:last-child{border-right:none !important}.TextCaptions .item{font-size:12px; border-right: 1px solid #e9e9e9 !important; width:20%}.header-bottom-nav > li > a {line-height: 16px; font-size:16px;}.nav-dropdown-default{border:none; padding:0}.nav-dropdown-default li a{font-size:15px; color:black}.nav-dropdown-default li a:hover{color:#e11088}.TextCaptions{border: 1px solid #e9e9e9;padding:5px !important}.thong-bao {background: #DCEDC8;padding: 10px;margin-bottom: 10px;border-radius: 4px;font-size: 14px;color: #2E7D32;margin-top: 8px;}.thong-bao ul {margin-bottom: 0;}.single-product .product-info {padding-bottom:0;padding-top: 0;padding-right: 0;border-right: none;padding-left: 0;}.row2 .row-info .cot2{float:left; display:inline-block;width:34%; }.khoi-box .box-title{background: url(/wp-content/uploads/2019/11/red-pattern.png);border-top-left-radius: 5px;border-top-right-radius: 5px;font-size:14px;text-align: center;color: white;padding: 8px;}.khoi-box ul.list-star li:before {color: #FF9800;content: 'f005';font-size: 14px;font-family: 'Font Awesome 5 Free';margin-right: 10px;top: 0;position: relative;left: 0;}.khoi-box ul li{margin-bottom: 0;font-size: 14px;list-style: none;}.khoi-box ul.list-star{text-align:left; padding: 10px;margin-bottom:0}.cot2 .nut-dang-ky{background:#8BC34A}.cot2 .khoi-box{ text-align:center; border:1px solid #8bc34a;border-radius: 6px;}.khoi-box .box-title label{margin-bottom: 0;text-transform: none;color:white;font-size: 17px;}.row2 .row-info .cot3{float:left; display:inline-block;padding-left: 15px;width:24%; }.row2 .row-info .cot1{text-align:center; padding-right:15px; float:left; display:inline-block;width:42%}.row2 .row-info{display: inline-block;width: 100%;clear: both;}.single-product #product-sidebar{padding-bottom:0; padding-left:15px}.product-main {padding: 20px 0 10px 0;}.product-info .breadcrumbs {text-transform: none;font-size: 14px;}.san-pham-section .col.large-12{padding-bottom:0}.single-product .product-info .price, .single-product .product-info .price del span{font-size:14px; color:gray}.single-product .product-info .price span.amount, .single-product .product-info .price ins span{font-size:23px !important;color: #f92e33 !important;font-weight: bold;}.star-rating span:before{color: #FFC107;}.single-product .product-info .product-title{margin-bottom:0; font-size:20px}.thong-tin-ky-thuat{margin-bottom: 15px;border-top: 1px dashed #eaeaea;}.thong-tin-ky-thuat .row-info{display: inline-block;clear: both;width: 100%;padding: 5px 0;border-bottom: 1px dashed #eaeaea;font-size: 14px;}.thong-tin-ky-thuat .row-info .left{width:70%; display:inline-block; float:left}.thong-tin-ky-thuat .row-info .right{text-align: center;width: 30%;display: inline-block;background: #e4e4e4;border-radius: 4px;color: #292929;}.product-summary .quantity{display:none}.thong-tin-ky-thuat .row-info .right:hover a{color:white !important}.thong-tin-ky-thuat a{padding: 4px 10px;border-radius: 4px;color: #3c3c3c;width: 100%;display: contents;}span.widget-title {font-size: 19px;font-weight: 500;text-transform: none;letter-spacing: 0;display: block;margin-bottom: 10px;color: #e41984;}.widget .is-divider{display:none}.box-live-demo .left a:hover{background:#757575;}.box-live-demo .right a:hover{background:#fc322e}.thong-tin-ky-thuat .row-info .right:hover{background:#8bc34a; color:white}.fa.fa-credit-card{margin-right:0 !important}.buy_now_button{padding:0; margin-bottom:0; margin-right: 0;width: 48%;display: inline-block;float: right;text-transform: none;border-radius: 4px;letter-spacing: 0;font-size: 16px;}.single_add_to_cart_button{margin-bottom:0; width: 48%;float: left;text-transform: none;border-radius: 4px;letter-spacing: 0;font-size: 16px;}.woocommerce-product-gallery{transition: opacity 0.25s ease-in-out 0s;border: 1px solid #ececec;border-radius: 4px;}.single-product form.cart{display: inline-block;width: 100%;margin-bottom:0}.box-live-demo{margin-top:15px; width:100%; display:inline-block; clear:both}.box-live-demo .left{width:49%; float:left; display:inline-block; text-align:center}.box-live-demo .right a{font-size:15px; width: 100%;display: block;background: #71ab2e;color: white;padding: 6px 10px;border-radius: 5px;}.fa, .far{padding-right:12px}.box-live-demo .left a{ font-size:15px; background: #888888; width:100%;border-radius: 4px;display:block;padding: 6px 10px;color: white;}.box-live-demo .right{width:49%; float:right; display:inline-block; text-align:center}#block_widget-2 .icon-box:hover{background:white}#block_widget-2 .icon-box{background: #fafafa;padding: 2px;margin-bottom: 10px;border-radius: 4px;border: 1px dashed #ececec}#block_widget-2 .icon-box .icon-box-text{font-size: 14px;}#block_widget-2 .icon-box h4{font-size: 15px;margin-bottom: -2px;padding-top: 3px;}.cot3 .khoi-box .box-title{background:url(/wp-content/uploads/2019/11/yellow-pattern-1.png)}.nut-dang-ky:hover{color:white}.nut-dang-ky{background: #FFA000;padding: 8px 15px;text-align: center;color: white;border-radius: 22px;font-size: 15px;font-weight:500}.cot1 .khoi-box{border-radius: 6px;border: 1px solid #ffa000;}.cot2 .khoi-box .box-title{background:#71ab2e;}.cot3 .khoi-box {text-align: center;border: 1px solid #f4d036;border-radius: 6px;}.cot3 .khoi-box .box-info h4{color:#e31585}.nut-dang-ky:hover{box-shadow: 2px 5px 7px #0000002e;}.cot1 .nut-dang-ky{background: #F57C00;}.cot3 .khoi-box .box-info{padding: 10px 0px 3px 0;font-size: 14px;}.single-product .woocommerce-tabs .tab-panels{ border: 1px solid #ddd;background-color: #fff;padding: 30px;border: 1px solid #ececec;border-radius: 0px 5px 5px 5px;padding: 10px;box-shadow: 2px 2px 10px #0000001a;}.row-info .left{width:100%; float:left; display:inline-block}.product-footer .woocommerce-tabs {padding: 0;border-top: 0;}.nav-tabs>li>a {background: #eaeaea;font-family: "roboto",sans-serif;font-size: 15px;text-transform: none;color: black;font-weight: 700;}.product_list_widget li a{font-size:15px}.recent-blog-posts a{font-size:15px; margin-bottom:0}.mr-half .badge-inner{border-radius:1%}.product_list_widget span.amount{color: #e80000;}ul.product_list_widget li img{border-radius:1%}.product_list_widget, .flatsome_recent_posts ul{border: 1px solid #ececec;border-radius: 5px;padding: 10px;box-shadow: 2px 2px 10px #0000001a;}.product-footer{margin-top:20px}.row-info .right{padding-left:15px; width:28%; float:left; display:inline-block}.single-product .related h3{margin-bottom: 0;text-transform: none;letter-spacing: 0;}.single-product .related .product-small.box{background: white; border-radius: 5px;}.related .product-small.box .box-text{padding:15px 10px}.related .product-small.box .product-title a{margin-bottom: 6px;}.related .product-small.box .price ins span, .related .product-small.box .price span.amount{font-size:16px; font-weight:normal}div#reviews.woocommerce-Reviews {border-bottom: 1px solid #ddd;width:auto;max-width: 100%;}.product-section {border-top: 0;}.single-product .product-info a.devvn_buy_now_style{display:none}#nut-buy {border: 1px solid #ececec;border-radius: 5px;box-shadow: 2px 2px 10px #00000012;padding: 15px;text-align: center;}#nut-buy img {border-radius: 1%;margin-bottom: 10px;border: 4px solid #FFECB3;}#nut-buy h3 {font-size: 16px;}#nut-buy .price {margin-bottom: 10px;}#nut-buy .price .ins {color: #E91E63;font-size: 18px;margin-left: 10px;}#nut-buy p, #nut-buy ul {font-size: 13px;color: gray;text-align: justify;}#nut-buy p.des {text-align: center;color: #FF9800;}#nut-buy ul li{margin-bottom:0}a.devvn_buy_now_style{margin-bottom:0; font-size:16px; text-transform:none;background-image: linear-gradient(to right, #ca1177 , #E91E63);}a.devvn_buy_now_style:hover, a.devvn_buy_now_style:focus{background:#e31687}.devvn-popup-title, .popup-customer-info-group .devvn-order-btn{text-transform: none;background-image: linear-gradient(to right, #ca1177 , #E91E63);}.devvn_prod_variable{display:none}.devvn-popup-quickbuy{font-family:"roboto", sans-serif}span.devvn_title {display:block;font-size: 17px;}.devvn_price span{color:red}.product-small.box{background:white;border-radius:5px}.product-small.box .product-title{ overflow: hidden; margin-bottom:9px}.product-small.box .product-title a:hover{color:#e31586}.product-small.box .category{color: #8BC34A;}.product-small.box .product-title a{color:black}.product-small.box .price, .product-small.box .price del span{color:gray; font-size:15px}.product-small.box .price span.amount, .product-small.box .price ins span{font-size:16px !important; font-weight:normal; color: #e31687 !important;}.product-small.box .box-image{border-top-left-radius:5px; border-top-right-radius:5px}.tin-tuc-section .col.large-12{padding-bottom:0}.list-post .post-item .box-text{padding: 0;padding-top: 10px;text-align: left;}.list-post .post-item .post-title{font-size: 16px;height: 60px;overflow: hidden; margin-bottom:6px}.list-post .post-item .from_the_blog_excerpt {margin: 0;font-size: 14px;height: 41px;overflow: hidden;}.list-post .post-item .from_the_blog_comments {display:none}.list-post .post-item .box-image{border-radius:5px}.tin-tuc-section .list-post-ngang .post-item{padding:8px 10px !important}.tin-tuc-section .list-post-ngang .post-item .post-title {font-size: 15px;font-weight: 500;}.list-post .post-item .post-title:hover{color:#e21586}.list-post .post-item a:hover{color:black;}.tieu-chi-section .row2{background: white;}.footer-section .col{padding-bottom:0}.footer-secondary {padding: 0;}.copyright-footer p, .copyright-footer h4{margin-bottom:0}.absolute-footer {font-size: 14px;border-top: 1px solid #f0f0f0;}.banner-section .col{padding-bottom:0}.product-small .box-image:hover::before{-webkit-animation:shine .75s;animation:shine .75s}@-webkit-keyframes shine{100%{left:125%}}@keyframes shine{100%{left:125%}}.product-small .box-image::before{position:absolute;top:0;left:-75%;z-index:2;display:block;content:'';width:50%;height:100%;background:-webkit-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);background:linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);-webkit-transform:skewX(-25deg);transform:skewX(-25deg)}.post-item .box-image:hover::before{-webkit-animation:shine .75s;animation:shine .75s}@-webkit-keyframes shine{100%{left:125%}}@keyframes shine{100%{left:125%}}.post-item .box-image::before{position:absolute;top:0;left:-75%;z-index:2;display:block;content:'';width:50%;height:100%;background:-webkit-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);background:linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);-webkit-transform:skewX(-25deg);transform:skewX(-25deg)}.tdk-product-loop-custom-product-meta {margin: 0px 0 10px 0;}.tdk-product-loop-custom-product-meta .last-updated-date {background: #2196F3;color: white;padding: 4px 8px;border-radius: 4px;font-size: 12px;margin-right: 8px;}.tdk-product-loop-custom-product-meta .version {background: #7dbd33;color: white;padding: 4px 8px;border-radius: 4px;font-size: 12px;}.tdk-product-loop-custom-product-meta i {padding-right:5px;}#breadcrumbs {margin-bottom: 10px;font-size: 15px;}.blog-single .entry-header .entry-meta {font-size: 14px !important;letter-spacing: 0;text-transform: none;color: gray !important;background: none;border-top: none !important;padding-top: 0 !important;padding-left: 0 !important;}.is-divider {display: none;}.blog-single .article-inner .badge.post-date {top: 4%;left: 2%;}.xem-them .tieu-de-xem-them {font-weight: 700;display: block;margin-bottom: 10px;font-size: 19px;color: black;}.xem-them ul li {margin-bottom: 3px;}.xem-them ul li a {font-weight: 700;font-size: 16px;color: #D81B60;}.blog-single .blog-share {text-align: left;}.blog-single .entry-meta {text-transform: none;font-size: 14px;letter-spacing: 0;color: gray;border-top: 1px solid #e2e2e2;border-bottom: 1px solid #e2e2e2;padding: 10px;background: #f9f9f9;}.danh-muc {margin-bottom: 15px;}.danh-muc span.title, .the-tim-kiem span.title {border-radius: 4px;background: #E91E63;padding: 4px 10px;color: white;margin-right: 5px;}.danh-muc a, .the-tim-kiem a {border-radius: 4px;margin-bottom: 10px;padding: 4px 10px;background: #dedede;color: #464646;}.danh-muc a:hover, .the-tim-kiem a:hover {background: #FF9800;color: white;}.bai-viet-lien-quan {margin-top: 15px;}.bai-viet-lien-quan h3 {font-size: 19px;color: black;}.bai-viet-lien-quan ul {margin-bottom: 0;display: inline-block;width: 100%;}.bai-viet-lien-quan ul li {list-style: none;width: 25%;color: graytext;float: left;padding-left: 4px;padding-right: 5px;}.bai-viet-lien-quan ul li .box-image img {height: 120px;border-radius: 4px;object-fit: cover;object-position: center;}.bai-viet-lien-quan h4 {font-size: 15px;color: black;line-height: 19px;padding-top: 7px;height: 64px;overflow: hidden;}.bai-viet-lien-quan h4:hover {color: #E91E63;text-decoration: underline;}.blog-single .large-3{padding-left:0} .ftwp-item.ftwp-has-sub button{display:none !important}.badge-inner {border-radius: 99%;font-weight:normal}#ftwp-container #ftwp-list.ftwp-list-nest.ftwp-colexp-icon .ftwp-anchor {padding-left: 10px;}#ftwp-container.ftwp-wrap #ftwp-contents {border-color: rgb(218, 218, 218);}#ftwp-container.ftwp-wrap #ftwp-trigger {border-color: rgb(228, 25, 132); top:70px}.san-pham-lien-quan h5.product-title{font-size:18px; margin:0; margin-bottom:7px}.san-pham-lien-quan .cot3{width: 18%;float: left;display: inline-block;}.san-pham-lien-quan .ngay-dang{font-size: 14px;color: #afafaf;}.san-pham-lien-quan .price{ margin:15px; display: block;text-align: center;font-size: 21px;font-weight: 500;color: #fa3031;}.san-pham-lien-quan .nut-xem-chi-tiet:hover{background:#ff5722}.san-pham-lien-quan .nut-xem-chi-tiet{display: block;width: 100%;background: #fe341e;background-image: linear-gradient(to right, #e31587 , #8112b9);text-align: center;border-radius: 4px;padding: 6px;color: white;font-size: 15px;margin: 15px 0;}.san-pham-lien-quan .tom-tat p{height: 65px;overflow: hidden;}.san-pham-lien-quan .tom-tat{margin: 0;font-size: 14px;}.san-pham-lien-quan ul li .box-text{padding:0; padding-right:15px; width:65%; float:left; display:inline-block}.san-pham-lien-quan ul li{display:inline-block; list-style: none;background: white;margin-left: 0;border: 1px solid #ececec;border-radius: 5px;padding: 15px;margin-bottom: 12px;box-shadow: 2px 2px 10px #0000001a;}.san-pham-lien-quan ul li:hover{background: #fff7fa;border: 1px dashed #e41984;}.blog-archive .archive-page-header .large-12 {text-align: left;padding-bottom: 0px;}.blog-archive h1.page-title {text-transform: none;letter-spacing: 0;font-size: 23px;}.blog-archive {background: #f7f7f7;}.blog-archive .post-item .box-text {border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;padding: 10px 10px 20px 10px;background: white;}.blog-archive .post-item .post-title:hover {color: #E91E63;text-decoration: underline;} .blog-archive .post-item .post-title {font-size:16px;margin-bottom: 10px;height: 62px;overflow: hidden;}.box-blog-post .is-divider {display: none;}.blog-archive .post-item .from_the_blog_excerpt {height:40px; overflow:hidden}.san-pham-lien-quan ul{margin-bottom:0}.san-pham-lien-quan .anh-dai-dien{display: inline-block;width: 17%;float: left;padding-right: 15px;}.san-pham-lien-quan{display: block;}.archive .product-small.box .box-text{padding: 15px 10px;text-align: center;}a.back-to-top{background:#e41984 !important; border:none !important; color:white}.woocommerce-ordering select{font-size:14px}.blog-archive .post-item a:hover{color:black}.page-wrapper {padding-top: 30px;padding-bottom: 0;}.blog-archive .post-item .box-image{border-top-left-radius:5px; border-top-right-radius:5px}.san-pham-lien-quan h2{font-size:20px}h1.entry-title.mb {margin-bottom: 15px;text-transform: none;letter-spacing: 0;}.page-right-sidebar .large-9 {border-right: none;}.page-right-sidebar .large-3 {padding-left: 0;}.success-color {color: #7a9c59;background: #8BC34A;border-radius: 4px;padding: 7px 20px;font-size: 15px;color: white;}.page-inner .has-border {border: 1px dashed #e91e63;padding: 15px 15px 15px;border-radius: 5px;background: #fff9f9;}#payment button{border-radius:5px; text-transform:none}.woocommerce-cart .woocommerce{box-shadow: 2px 2px 20px #0000001a;padding: 20px;border-radius: 5px;}.cart_totals .button {border-radius: 5px;text-transform: none;}.button-continue-shopping, .button.primary.mt-0.pull-left{border-radius:5px; text-transform:none;}.woocommerce-input-wrapper input{font-size: 14px;border-radius: 5px;box-shadow: none;}.widget_shopping_cart_content .woocommerce-mini-cart{border:none; box-shadow:none; padding:0}p.form-row-first, p.form-row-last{width:100%}.widget_shopping_cart_content{padding:15px}.widget_shopping_cart_content a.button{text-transform:none; border-radius:5px; color:white}.devvn_prod_cmt{max-width:100%}.wc-pao-addon {margin-top: 12px;}.wc-pao-addon .form-row {margin-bottom: 1px;}div.product-addon-totals {margin: 0px 0 0px 0;padding: 0px 0 0 0;border-top: 1px solid #eee;border-bottom: 1px solid #eee;overflow: hidden;}.box-live-demo .right a {font-size: 15px;width: 200%;display: block;background: #71ab2e;color: white;padding: 6px 10px;border-radius: 5px;margin-left: -245px;}.single-product .product-info .product-title {margin-bottom: 15px;font-size: 20px;}.badge-container {margin: 03px 0 0 0;}.breadcrumbs {color: #222;font-weight: 700;letter-spacing: 0;padding: 0;}.product-info .breadcrumbs {text-transform: none;font-size: 14px;margin-top: 20px;}.woocommerce-product-gallery {transition: opacity 0.25s ease-in-out 0s;border: 1px solid #ececec;border-radius: 4px;margin-top: 20px;}html, body {overflow-x: hidden;}blockquote {position: relative;font-size: 100%;margin: 0 0 1.25em;padding: 0 1em 0 1em;border-left: 2px solid #93e41c;font-style: italic;color: #4CAF50;}.badge {display: none;}ul.menu>li li>a, .widget>ul>li li>a {font-size: 15px;padding: 3px 0;display: inline-block;}@media screen and (max-width:767px){.single-product .product-info{padding:15px;}.box-live-demo .right a{margin-left:0;}.box-live-demo .right{width:50%;float:none;}}@media screen and (max-width: 767px){.quantity .single_add_to_cart_button{display: flex;align-items: center;height: 40px;font-size: 15px;}}.product-small.box .product-title{height: auto !important;overflow: visible !important;}ul.box-info {list-style: none;margin-bottom:0;}ul.box-info li span {color: #3b88c8;font-weight: 600;position: relative;}ul.box-info li:before {content: "";width: 14px;height: 14px;display: inline-block;background: url('https://aznet.vn/wp-content/uploads/2021/02/tich.png');background-size: contain;margin-right: 5px;}.moreinfo_sp.row .col-inners {border: 2px solid red;padding: 15px;margin: 0 !important;border-radius: 5px;height: 100%;padding-bottom: 0;} .moreinfo_sp h3.title {color: #ed5050;}.viewdemo_loop {width: 100%;display: inherit;background: #71ab2e;color: #fff;padding: 6px 10px;border-radius: 3px;margin: 5px 0;margin-top: 12px !important;}.viewdemo_loop:hover{background: #fc322e;color:#fff;}.product-small.col>.col-inner{height:100%;}body.single-product .woocommerce-tabs .tab-panels{margin-top:0 !important;}h3.product-section-title.container-width.product-section-title-related.pt-half.pb-half.uppercase {margin-left: 0;margin-top: 20px;margin-bottom: 10px;color: #3b88c8;text-transform: uppercase;}.product-small.box .product-title a{overflow: hidden;word-wrap: break-word;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;height:54px;font-size: 15px;}iframe{max-width:100% !important;}.video-container {overflow: hidden;position: relative;width:100%;}.video-container::after {padding-top: 56.25%;display: block;content: '';}.video-container iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}.col-inners.padding-0 {padding: 0 !important;}.badge {display: table;}.form-tu-van input[type='submit']:not(.is-form){ margin: 10px;font-weight: normal;border-radius: 5px;margin-top: 0;}.float-contact {position: fixed;bottom: 20px;left: 20px;z-index: 99999;}.chat-zalo {background: #8eb22b;border-radius: 20px;padding: 0px 18px;color: white;display: block;margin-bottom: 6px;}.chat-face {background: #125c9e;border-radius: 20px;padding: 0px 18px;color: white;display: block;margin-bottom: 6px;}.float-contact .hotline {background: #d11a59 !important;border-radius: 20px;padding: 0 18px;color: white;display: block;margin-bottom: 6px;}.chat-zalo a, .chat-face a, .hotline a {font-size: 15px;color: white;font-weight: normal;text-transform: none;line-height: 0;}.khuyen-mai {background-color: #e4ffe4;border-style: dotted;border-top-style: dotted;border-right-style: dotted;border-bottom-style: dotted;border-left-style: dotted;}.single-product .product-info .price, .single-product .product-info .price del span {font-size: 14px;color: red;font-size: 20px;}/* Custom CSS Mobile */@media (max-width: 549px){.page-right-sidebar .large-3 {padding-left: 15px;}.off-canvas:not(.off-canvas-center) .nav-vertical li>a {padding-left: 20px;padding-top: 12px;padding-bottom: 12px;text-transform: none;font-size: 16px;color: black;}.off-canvas:not(.off-canvas-center) .nav-vertical li ul{padding-bottom:0}.off-canvas:not(.off-canvas-center) .nav-vertical li ul li a{padding-top:7px; padding-bottom:7px; font-size:15px}.TextCaptions .item{width:33.33%}.slider-section .col, .tieu-chi-section .col{padding-bottom:10px}.list-post-ngang .post-item{flex-basis:50%; max-width:50%}.list-post-ngang .post-item .box-text{padding:0; padding-top:8px}.tieu-chi-section .col {padding: 7px;}.tdk-product-loop-custom-product-meta .version, .tdk-product-loop-custom-product-meta .last-updated-date{padding:4px !important}.product-small.box .product-title{}.tin-tuc-section .list-post .post-item{flex-basis:50%; max-width:50%}.list-post .post-item .post-title {font-size: 15px;height: 56px;}#footer .tieu-chi-section .col.medium-2{flex-basis:50%; max-width:50%}.header-main {box-shadow: 2px 2px 10px #00000024;}.san-pham-lien-quan ul li .box-text{width:54%}.san-pham-lien-quan .cot3{width:29%}.san-pham-lien-quan h5.product-title {font-size: 15px;margin: 0;}.san-pham-lien-quan .ngay-dang{display:none}.san-pham-lien-quan ul li{margin-bottom:7px}.san-pham-lien-quan .tom-tat p {display:none}.san-pham-lien-quan .price {margin: 0;}.san-pham-lien-quan .nut-xem-chi-tiet{font-size: 13px;margin:0; margin-top:10px}.san-pham-lien-quan .nut-xem-chi-tiet .fa{display:none}.bai-viet-lien-quan ul li{width:50%}.bai-viet-lien-quan ul li .box-image img{height:100px}.blog-single .large-3{padding-left:15px}.blog-archive .post-item{flex-basis: 50%;max-width: 50%;padding:5px}.blog-archive .post-item .post-title {font-size: 15px;height: 57px;}.single-product .product-info{padding:10px 15px}.single_add_to_cart_button{padding:0}.fa-cart-plus{padding-right:0}.row2 .row-info .cot1, .row2 .row-info .cot2, .row2 .row-info .cot3{width:100%; padding:10px 0}.row-info .left, .row-info .right{width:100%; padding:10px 0}.related .product-small.box .box-text {padding: 10px 5px;}.tdk-product-loop-custom-product-meta .version, .tdk-product-loop-custom-product-meta .last-updated-date{font-size:12px}.related .product-small.col{padding:5px}.archive .product-small.col{padding:5px}.archive .product-small.box .box-text {padding: 10px 5px;}.widget{margin-bottom: 1.5em;display: none;}.product-small.box span.price>* {display: block;}.float-contact {display: none;}}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}</style>		<style type="text/css" id="wp-custom-css">
+			/** Rank Math SEO FAQ **/
+#rank-math-faq {
+        margin-top: 40px;
+        border: 1px solid #e0e0e0;
+        border-top: 4px solid #22a8e2;
+        padding: 20px;
+        position: relative
+}
+#rank-math-faq .rank-math-question {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        padding: 18px 0 13px;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #333;
+        position: relative;
+        cursor: pointer
+}
+ 
+#rank-math-faq .rank-math-question:after {
+        content: "";
+        background: url(/wp-content/uploads/2021/01/drop-down.svg) no-repeat right center;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        z-index: 1;
+        width: 10px;
+        height: 10px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        transition: all .3s
+}
+ 
+#rank-math-faq .rank-math-question.faq-active:after {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg)
+}
+ 
+#rank-math-faq .rank-math-list-item:not(first-child) .rank-math-answer {
+        display: none
+}
+ 
+#rank-math-faq .rank-math-list-item:not(:last-child) {
+        border-bottom: 1px solid #f0f0f0
+}
+ 
+#rank-math-faq .rank-math-answer {
+        padding: 0 10px
+}
+ 
+#rank-math-faq .rank-math-answer p,
+#rank-math-faq .rank-math-answer {
+        color: #666;
+        background-color: #fff;
+        font-size: 18px
+}
+ul#menu-danh-muc-giao-dien a:before{
+content: '\f105' !important;
+font-family: 'fl-icons';
+font-size: 16px;
+    color: #fff;
+display: inline-block;
+    margin-right: 10px;
+}
+.video-container::after {
+    padding-top: 0 !important;
+}		</style>
+		<script type="rocketlazyloadscript" id="wpacu-preload-async-css-fallback">
+    /*! LoadCSS. [c]2017 Filament Group, Inc. MIT License */
+    /* This file is meant as a standalone workflow for
+	- testing support for link[rel=preload]
+	- enabling async CSS loading in browsers that do not support rel=preload
+	- applying rel preload css once loaded, whether supported or not.
+	*/
+    !function(n){"use strict";n.wpacuLoadCSS||(n.wpacuLoadCSS=function(){});var o=wpacuLoadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-wpacuLoadCSS")||(a.setAttribute("data-wpacuLoadCSS",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.wpacuLoadCSS=wpacuLoadCSS:n.wpacuLoadCSS=wpacuLoadCSS}("undefined"!=typeof global?global:this);
+</script><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><script type="rocketlazyloadscript">
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script></head>
+
+<body class="home page-template page-template-page-blank page-template-page-blank-php page page-id-272 theme-flatsome woocommerce-no-js no-webp-support nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TVJDJDV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+<div id="wrapper">
+
+	
+	<header id="header" class="header has-sticky sticky-jump sticky-hide-on-scroll">
+		<div class="header-wrapper">
+			<div id="top-bar" class="header-top hide-for-sticky nav-dark hide-for-medium">
+    <div class="flex-row container">
+      <div class="flex-col hide-for-medium flex-left">
+          <ul class="nav nav-left medium-nav-center nav-small  nav-divided">
+              <li class="html custom html_topbar_left">Website Chuẩn SEO, Đẹp, Nhanh tại AZnet!</li>          </ul>
+      </div>
+
+      <div class="flex-col hide-for-medium flex-center">
+          <ul class="nav nav-center nav-small  nav-divided">
+                        </ul>
+      </div>
+
+      <div class="flex-col hide-for-medium flex-right">
+         <ul class="nav top-bar-nav nav-right nav-small  nav-divided">
+              <li class="account-item has-icon
+    "
+>
+
+<a href="https://aznet.vn/my-account"
+    class="nav-top-link nav-top-not-logged-in "
+    data-open="#login-form-popup"  >
+    <span>
+    Đăng nhập     / Đăng ký  </span>
+  
+</a>
+
+
+
+</li>
+<li class="html header-social-icons ml-0">
+	<div class="social-icons follow-icons" ><a href="https://www.facebook.com/aznetvietnam" target="_blank" data-label="Facebook" rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Follow on Facebook" aria-label="Follow on Facebook"><i class="icon-facebook" ></i></a><a href="tel:0972782255" target="_blank" data-label="Phone" rel="noopener noreferrer nofollow" class="icon plain  phone tooltip" title="Call us" aria-label="Call us"><i class="icon-phone" ></i></a><a href="https://youtube.com/c/truongdinhnnamaznet" target="_blank" rel="noopener noreferrer nofollow" data-label="YouTube" class="icon plain  youtube tooltip" title="Follow on YouTube" aria-label="Follow on YouTube"><i class="icon-youtube" ></i></a></div></li>          </ul>
+      </div>
+
+      
+    </div>
+</div>
+<div id="masthead" class="header-main hide-for-sticky has-sticky-logo">
+      <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
+
+          <!-- Logo -->
+          <div id="logo" class="flex-col logo">
+            <!-- Header logo -->
+<a href="https://aznet.vn/" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh" rel="home">
+    <img width="169" height="90" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20169%2090'%3E%3C/svg%3E" class="header-logo-sticky" alt="AZnet Việt Nam" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/01/logo.png"/><noscript><img width="169" height="90" src="https://aznet.vn/wp-content/uploads/2021/01/logo.png" class="header-logo-sticky" alt="AZnet Việt Nam"/></noscript><img width="169" height="90" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20169%2090'%3E%3C/svg%3E" class="header_logo header-logo" alt="AZnet Việt Nam" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/01/logo.png"/><noscript><img width="169" height="90" src="https://aznet.vn/wp-content/uploads/2021/01/logo.png" class="header_logo header-logo" alt="AZnet Việt Nam"/></noscript><img  width="169" height="90" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20169%2090'%3E%3C/svg%3E" class="header-logo-dark" alt="AZnet Việt Nam" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/01/logo.png"/><noscript><img  width="169" height="90" src="https://aznet.vn/wp-content/uploads/2021/01/logo.png" class="header-logo-dark" alt="AZnet Việt Nam"/></noscript></a>
+          </div>
+
+          <!-- Mobile Left Elements -->
+          <div class="flex-col show-for-medium flex-left">
+            <ul class="mobile-nav nav nav-left ">
+              <li class="nav-icon has-icon">
+  <div class="header-button">		<a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay" data-color="" class="icon primary button round is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
+		
+		  <i class="icon-menu" ></i>
+		  <span class="menu-title uppercase hide-for-small">Menu</span>		</a>
+	 </div> </li>            </ul>
+          </div>
+
+          <!-- Left Elements -->
+          <div class="flex-col hide-for-medium flex-left
+            flex-grow">
+            <ul class="header-nav header-nav-main nav nav-left  nav-line-bottom nav-size-medium nav-uppercase" >
+              <li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper">
+		<div class="searchform-wrapper ux-search-box relative is-normal"><form role="search" method="get" class="searchform" action="https://aznet.vn/">
+	<div class="flex-row relative">
+						<div class="flex-col flex-grow">
+			<label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
+			<input type="search" id="woocommerce-product-search-field-0" class="search-field mb-0" placeholder="Nhập tên lĩnh vực của bạn..." value="" name="s" />
+			<input type="hidden" name="post_type" value="product" />
+					</div>
+		<div class="flex-col">
+			<button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+				<i class="icon-search" ></i>			</button>
+		</div>
+	</div>
+	<div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li>            </ul>
+          </div>
+
+          <!-- Right Elements -->
+          <div class="flex-col hide-for-medium flex-right">
+            <ul class="header-nav header-nav-main nav nav-right  nav-line-bottom nav-size-medium nav-uppercase">
+              <li class="cart-item has-icon has-dropdown">
+
+<a href="https://aznet.vn/cart" title="Giỏ hàng" class="header-cart-link is-small">
+
+
+<span class="header-cart-title">
+   Giỏ hàng   /      <span class="cart-price"><span class="woocommerce-Price-amount amount"><bdi>0<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+  </span>
+
+    <span class="cart-icon image-icon">
+    <strong>0</strong>
+  </span>
+  </a>
+
+ <ul class="nav-dropdown nav-dropdown-default">
+    <li class="html widget_shopping_cart">
+      <div class="widget_shopping_cart_content">
+        
+
+	<p class="woocommerce-mini-cart__empty-message">Chưa có sản phẩm trong giỏ hàng.</p>
+
+
+      </div>
+    </li>
+     </ul>
+
+</li>
+            </ul>
+          </div>
+
+          <!-- Mobile Right Elements -->
+          <div class="flex-col show-for-medium flex-right">
+            <ul class="mobile-nav nav nav-right ">
+              <li class="html header-button-1">
+	<div class="header-button">
+	<a rel="noopener noreferrer" href="https://zalo.me/0972782255" target="_blank" class="button primary"  style="border-radius:99px;">
+    <span>Zalo</span>
+  </a>
+	</div>
+</li>
+
+
+            </ul>
+          </div>
+
+      </div>
+     
+            <div class="container"><div class="top-divider full-width"></div></div>
+      </div><div id="wide-nav" class="header-bottom wide-nav nav-dark">
+    <div class="flex-row container">
+
+                        <div class="flex-col hide-for-medium flex-left">
+                <ul class="nav header-nav header-bottom-nav nav-left  nav-divided nav-uppercase">
+                    <li id="menu-item-402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-272 current_page_item menu-item-402 active menu-item-design-default"><a href="https://aznet.vn/" aria-current="page" class="nav-top-link">Trang chủ</a></li>
+<li id="menu-item-18993" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-18993 menu-item-design-default has-dropdown"><a href="https://aznet.vn/thiet-ke-website-wordpress" class="nav-top-link">Thiết Kế Website WordPress<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default">
+	<li id="menu-item-17099" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17099"><a href="https://aznet.vn/bat-dong-san">Bất Động Sản</a></li>
+	<li id="menu-item-17289" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17289"><a href="https://aznet.vn/website-ban-hang">Website bán hàng</a></li>
+	<li id="menu-item-17100" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17100"><a href="https://aznet.vn/cong-nghe-may-tinh">Công Nghệ &#8211; Máy Tính</a></li>
+	<li id="menu-item-17101" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17101"><a href="https://aznet.vn/cong-ty-doanh-nghiep">Công Ty &#8211; Doanh Nghiệp</a></li>
+	<li id="menu-item-17102" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17102"><a href="https://aznet.vn/dich-vu">Dịch vụ</a></li>
+	<li id="menu-item-17103" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17103"><a href="https://aznet.vn/du-lich-khach-san-ve-may-bay">Du Lịch &#8211; Khách Sạn &#8211; Vé Máy Bay</a></li>
+	<li id="menu-item-17104" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17104"><a href="https://aznet.vn/giao-duc-nha-truong">Giáo dục &#8211; Nhà trường</a></li>
+	<li id="menu-item-17105" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17105"><a href="https://aznet.vn/hoa-tuoi-qua-tang-do-trang-tri">Hoa tươi &#8211; Quà tặng &#8211; Đồ trang trí</a></li>
+	<li id="menu-item-17107" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17107"><a href="https://aznet.vn/landing-page">Landing Page &#8211; Trang bán hàng</a></li>
+	<li id="menu-item-17108" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17108"><a href="https://aznet.vn/nha-hang-va-ca-phe">Nhà hàng và Cà phê</a></li>
+	<li id="menu-item-17109" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17109"><a href="https://aznet.vn/noi-that-kien-truc-xay-dung">Nội thất, Kiến trúc và Xây dựng</a></li>
+	<li id="menu-item-17110" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17110"><a href="https://aznet.vn/o-to-xe-may">Ô tô &#8211; Xe Máy &#8211; Xe cộ</a></li>
+	<li id="menu-item-17111" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17111"><a href="https://aznet.vn/sach-van-phong-pham">Sách &#8211; Văn phòng phẩm</a></li>
+	<li id="menu-item-17112" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17112"><a href="https://aznet.vn/sieu-thi-do-gia-dung">Siêu Thị &#8211; Đồ Gia dụng</a></li>
+	<li id="menu-item-17113" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17113"><a href="https://aznet.vn/thoi-trang-my-pham-lam-dep">Thời Trang, Mỹ phẩm, Làm Đẹp</a></li>
+	<li id="menu-item-17114" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17114"><a href="https://aznet.vn/thuc-pham-va-do-an">Thực phẩm và Đồ Ăn</a></li>
+	<li id="menu-item-18103" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18103"><a href="https://aznet.vn/website-tin-tuc">Website Tin tức</a></li>
+	<li id="menu-item-17116" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17116"><a href="https://aznet.vn/tuyen-dung-viec-lam">Tuyển dụng &#8211; Việc làm</a></li>
+	<li id="menu-item-17106" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17106"><a href="https://aznet.vn/khac">Khác</a></li>
+</ul>
+</li>
+<li id="menu-item-19139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19139 menu-item-design-default"><a href="https://aznet.vn/mua-theme-wordpress-gia-re-tai-aznet-viet-nam" class="nav-top-link">Mua Theme WordPress</a></li>
+<li id="menu-item-610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-610 menu-item-design-default"><a href="https://aznet.vn/hosting" class="nav-top-link">Bảng giá Hosting</a></li>
+<li id="menu-item-19305" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-19305 menu-item-design-default"><a href="https://aznet.vn/bang-gia-ten-mien-tai-aznet-thang.html" class="nav-top-link">Bảng giá tên miền</a></li>
+<li id="menu-item-897" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-897 menu-item-design-default"><a href="https://aznet.vn/huong-dan" class="nav-top-link">Hướng dẫn</a></li>
+<li id="menu-item-18079" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18079 menu-item-design-default"><a href="https://aznet.vn/lien-he" class="nav-top-link">Liên hệ</a></li>
+                </ul>
+            </div>
+            
+            
+                        <div class="flex-col hide-for-medium flex-right flex-grow">
+              <ul class="nav header-nav header-bottom-nav nav-right  nav-divided nav-uppercase">
+                   <li class="header-search header-search-dropdown has-icon has-dropdown menu-item-has-children">
+		<a href="#" aria-label="Tìm kiếm" class="is-small"><i class="icon-search" ></i></a>
+		<ul class="nav-dropdown nav-dropdown-default">
+	 	<li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper">
+		<div class="searchform-wrapper ux-search-box relative is-normal"><form role="search" method="get" class="searchform" action="https://aznet.vn/">
+	<div class="flex-row relative">
+						<div class="flex-col flex-grow">
+			<label class="screen-reader-text" for="woocommerce-product-search-field-1">Tìm kiếm:</label>
+			<input type="search" id="woocommerce-product-search-field-1" class="search-field mb-0" placeholder="Nhập tên lĩnh vực của bạn..." value="" name="s" />
+			<input type="hidden" name="post_type" value="product" />
+					</div>
+		<div class="flex-col">
+			<button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+				<i class="icon-search" ></i>			</button>
+		</div>
+	</div>
+	<div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li>	</ul>
+</li>
+              </ul>
+            </div>
+            
+                          <div class="flex-col show-for-medium flex-grow">
+                  <ul class="nav header-bottom-nav nav-center mobile-nav  nav-divided nav-uppercase">
+                      <li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper">
+		<div class="searchform-wrapper ux-search-box relative is-normal"><form role="search" method="get" class="searchform" action="https://aznet.vn/">
+	<div class="flex-row relative">
+						<div class="flex-col flex-grow">
+			<label class="screen-reader-text" for="woocommerce-product-search-field-2">Tìm kiếm:</label>
+			<input type="search" id="woocommerce-product-search-field-2" class="search-field mb-0" placeholder="Nhập tên lĩnh vực của bạn..." value="" name="s" />
+			<input type="hidden" name="post_type" value="product" />
+					</div>
+		<div class="flex-col">
+			<button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+				<i class="icon-search" ></i>			</button>
+		</div>
+	</div>
+	<div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li>                  </ul>
+              </div>
+            
+    </div>
+</div>
+
+<div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div>		</div>
+	</header>
+
+	
+	<main id="main" class="">
+
+
+<div id="content" role="main" class="content-area">
+
+		
+				<section class="section hide-for-small" id="section_1853146337">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+
+  <div class="banner has-hover" id="banner-807502656">
+          <div class="banner-inner fill">
+        <div class="banner-bg fill" >
+            <div class="bg fill bg-fill "></div>
+                        <div class="overlay"></div>            
+                    </div>
+        <div class="banner-layers container">
+            <div class="fill banner-link"></div>            
+   <div id="text-box-1774895999" class="text-box banner-layer x50 md-x50 lg-x50 y15 md-y15 lg-y15 res-text">
+                                <div class="text-box-content text dark">
+              
+              <div class="text-inner text-center">
+                  
+	<div id="text-4100808453" class="text">
+		
+<p class="uppercase"><span style="font-size: 115%;" data-line-height="xs">Hãy gõ lĩnh vực của bạn vào ô tìm kiếm</span></p>
+<h1><span style="font-size: 80%;"><strong>THIẾT KẾ WEBSITE WORDPRESS CHUẨN SEO</strong></span></h1>
+		
+<style>
+#text-4100808453 {
+  font-size: 1rem;
+  text-align: center;
+}
+</style>
+	</div>
+	
+	<div id="gap-359688912" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-359688912 {
+  padding-top: 7px;
+}
+</style>
+	</div>
+	
+<div class="searchform-wrapper ux-search-box relative is-xlarge"><form role="search" method="get" class="searchform" action="https://aznet.vn/">
+	<div class="flex-row relative">
+						<div class="flex-col flex-grow">
+			<label class="screen-reader-text" for="woocommerce-product-search-field-3">Tìm kiếm:</label>
+			<input type="search" id="woocommerce-product-search-field-3" class="search-field mb-0" placeholder="Nhập tên lĩnh vực của bạn..." value="" name="s" />
+			<input type="hidden" name="post_type" value="product" />
+					</div>
+		<div class="flex-col">
+			<button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+				<i class="icon-search" ></i>			</button>
+		</div>
+	</div>
+	<div class="live-search-results text-left z-top"></div>
+</form>
+</div>
+<p>Ví dụ: <a title="Thời trang" href="https://aznet.vn/?s=th%E1%BB%9Di+trang&amp;post_type=product" data-schema-attribute="">Thời trang</a>, <a href="https://aznet.vn/?s=N%E1%BB%99i+th%E1%BA%A5t&amp;post_type=product" data-schema-attribute="">Nội thất</a>, <a href="https://aznet.vn/?s=B%E1%BA%A5t+%C4%91%E1%BB%99ng+s%E1%BA%A3n&amp;post_type=product">Bất động sản</a>, <a href="https://aznet.vn/?s=%C4%91i%E1%BB%87n+m%C3%A1y&amp;post_type=product">Điện máy</a>, <a href="https://aznet.vn/?s=c%C3%B4ng+ngh%E1%BB%87&amp;post_type=product">Công nghệ</a>, <a href="https://aznet.vn/?s=Tin+t%E1%BB%A9c&amp;post_type=product">Tin tức</a>, <a href="https://aznet.vn/?s=Du+L%E1%BB%8Bch&amp;post_type=product">Du Lịch</a>, <a href="https://aznet.vn/?s=nh%C3%A0+h%C3%A0ng&amp;post_type=product">Nhà hàng</a>, <a href="https://aznet.vn/?s=th%E1%BB%B1c+ph%E1%BA%A9m&amp;post_type=product" data-schema-attribute="">Thực phẩm</a>,&#8230;</p>
+              </div>
+           </div>
+                            
+<style>
+#text-box-1774895999 {
+  width: 84%;
+}
+#text-box-1774895999 .text-box-content {
+  font-size: 100%;
+}
+@media (min-width:550px) {
+  #text-box-1774895999 {
+    width: 75%;
+  }
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style>
+#banner-807502656 {
+  padding-top: 482px;
+}
+#banner-807502656 .bg.bg-loaded {
+  background-image: url(https://aznet.vn/wp-content/uploads/2021/01/bilder-5-of-10.jpg);
+}
+#banner-807502656 .overlay {
+  background-color: rgba(0,0,0,.5);
+}
+</style>
+  </div>
+
+
+		</div>
+
+		
+<style>
+#section_1853146337 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+</style>
+	</section>
+	
+	<section class="section hide-for-small" id="section_1319337350">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-2002945554">
+
+	<div id="col-225052859" class="col small-12 large-12"  >
+				<div class="col-inner"  >
+			
+			
+<div class="row row-small row-box-shadow-1 row-box-shadow-4-hover"  id="row-5520342">
+
+	<div id="col-2063266560" class="col medium-6 small-12 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+	<a class="plain" href="https://aznet.vn/thiet-ke-website-wordpress" target="_blank" rel="noopener noreferrer" >	<div class="icon-box featured-box icon-box-center text-center"  >
+					<div class="icon-box-img" style="width: 600px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="966" height="570" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20966%20570'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="Theme WordPress đẹp" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress.jpg 966w, https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress-768x453.jpg 768w, https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress-700x413.jpg 700w" data-lazy-sizes="(max-width: 966px) 100vw, 966px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 1" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress.jpg"><noscript><img width="966" height="570" src="https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress.jpg" class="attachment-medium size-medium" alt="Theme WordPress đẹp" srcset="https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress.jpg 966w, https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress-768x453.jpg 768w, https://aznet.vn/wp-content/uploads/2021/01/theme-wordpress-700x413.jpg 700w" sizes="(max-width: 966px) 100vw, 966px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 1"></noscript>					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+<h3>Thiết Kế Website</h3>
+<p>Giao diện website đẹp, chuẩn SEO, tối ưu tốc độ.</p>
+		</div>
+	</div>
+	</a>
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-306312671" class="col medium-6 small-12 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+	<a class="plain" href="https://aznet.vn/hosting"  >	<div class="icon-box featured-box icon-box-center text-center"  >
+					<div class="icon-box-img" style="width: 600px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="1000" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%20600'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="web" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2021/01/web.jpg 1000w, https://aznet.vn/wp-content/uploads/2021/01/web-768x461.jpg 768w, https://aznet.vn/wp-content/uploads/2021/01/web-700x420.jpg 700w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 2" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/01/web.jpg"><noscript><img width="1000" height="600" src="https://aznet.vn/wp-content/uploads/2021/01/web.jpg" class="attachment-medium size-medium" alt="web" srcset="https://aznet.vn/wp-content/uploads/2021/01/web.jpg 1000w, https://aznet.vn/wp-content/uploads/2021/01/web-768x461.jpg 768w, https://aznet.vn/wp-content/uploads/2021/01/web-700x420.jpg 700w" sizes="(max-width: 1000px) 100vw, 1000px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 2"></noscript>					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+<h3>Hosting</h3>
+<p>Gói Hosting tốc độ cao dành cho website.</p>
+		</div>
+	</div>
+	</a>
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-1622200180" class="col medium-6 small-12 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+	<a class="plain" href="https://tutamgroup.vn" target="_blank" rel="noopener noreferrer nofollow">	<div class="icon-box featured-box icon-box-center text-center"  >
+					<div class="icon-box-img" style="width: 600px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="667" height="400" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20667%20400'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="anh truong dinh nam" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 3" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/01/anh-truong-dinh-nam.jpg"><noscript><img width="667" height="400" src="https://aznet.vn/wp-content/uploads/2021/01/anh-truong-dinh-nam.jpg" class="attachment-medium size-medium" alt="anh truong dinh nam" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 3"></noscript>					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+<h3>Khóa Học</h3>
+<p>Các chương trình đào tạo Kinh Doanh Online.</p>
+		</div>
+	</div>
+	</a>
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-1832837919" class="col medium-6 small-12 large-3"  >
+				<div class="col-inner"  >
+			
+			
+
+	<a class="plain" href="https://tenmien.aznet.vn" target="_blank" rel="noopener noreferrer">	<div class="icon-box featured-box icon-box-center text-center"  >
+					<div class="icon-box-img" style="width: 600px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="400" height="240" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20240'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="hoc tieng han quoc online 1" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 4" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/01/hoc-tieng-han-quoc-online_1.jpg"><noscript><img width="400" height="240" src="https://aznet.vn/wp-content/uploads/2021/01/hoc-tieng-han-quoc-online_1.jpg" class="attachment-medium size-medium" alt="hoc tieng han quoc online 1" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 4"></noscript>					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+<h3>Tên miền Website</h3>
+<p>Sở hữu ngay tên miền đẹp và bảo vệ thương hiệu.</p>
+		</div>
+	</div>
+	</a>
+	
+		</div>
+					</div>
+
+	
+
+<style>
+#row-5520342 > .col > .col-inner {
+  padding: 30px 30px 30px 30px;
+  background-color: rgb(255,255,255);
+}
+</style>
+</div>
+		</div>
+				
+<style>
+#col-225052859 > .col-inner {
+  margin: -100px 0px 0px 0px;
+}
+</style>
+	</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_1319337350 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(245, 247, 251);
+}
+</style>
+	</section>
+	
+	<section class="section" id="section_1635820196">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+<div class="row"  id="row-296699612">
+
+	<div id="col-1980044675" class="col hide-for-small medium-3 small-12 large-3"  >
+				<div class="col-inner dark"  >
+			
+			
+<ul class="sidebar-wrapper ul-reset"><aside id="nav_menu-2" class="widget widget_nav_menu"><span class="widget-title">Danh mục giao diện</span><div class="menu-danh-muc-giao-dien-container"><ul id="menu-danh-muc-giao-dien" class="menu"><li id="menu-item-16235" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16235"><a href="https://aznet.vn/bat-dong-san"><i class="_mi _before dashicons dashicons-building" aria-hidden="true"></i><span>Bất Động Sản</span></a></li>
+<li id="menu-item-18520" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18520"><a href="https://aznet.vn/website-ban-hang"><i class="_mi _before dashicons dashicons-store" aria-hidden="true"></i><span>Website bán hàng</span></a></li>
+<li id="menu-item-16236" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16236"><a href="https://aznet.vn/cong-nghe-may-tinh"><i class="_mi _before dashicons dashicons-desktop" aria-hidden="true"></i><span>Công Nghệ &#8211; Máy Tính</span></a></li>
+<li id="menu-item-16237" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16237"><a href="https://aznet.vn/cong-ty-doanh-nghiep"><i class="_mi _before dashicons dashicons-networking" aria-hidden="true"></i><span>Công Ty &#8211; Doanh Nghiệp</span></a></li>
+<li id="menu-item-16238" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16238"><a href="https://aznet.vn/dich-vu"><i class="_mi _before dashicons dashicons-editor-distractionfree" aria-hidden="true"></i><span>Dịch vụ</span></a></li>
+<li id="menu-item-16239" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16239"><a href="https://aznet.vn/du-lich-khach-san-ve-may-bay"><i class="_mi _before dashicons dashicons-editor-kitchensink" aria-hidden="true"></i><span>Du Lịch, Khách Sạn, Vé Máy Bay</span></a></li>
+<li id="menu-item-16240" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16240"><a href="https://aznet.vn/giao-duc-nha-truong"><i class="_mi _before dashicons dashicons-welcome-learn-more" aria-hidden="true"></i><span>Giáo dục &#8211; Nhà trường</span></a></li>
+<li id="menu-item-16241" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16241"><a href="https://aznet.vn/hoa-tuoi-qua-tang-do-trang-tri"><i class="_mi _before dashicons dashicons-share-alt" aria-hidden="true"></i><span>Hoa tươi &#8211; Quà tặng &#8211; Đồ trang trí</span></a></li>
+<li id="menu-item-16243" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16243"><a href="https://aznet.vn/landing-page"><i class="_mi _before dashicons dashicons-cart" aria-hidden="true"></i><span>Landing Page &#8211; Trang bán hàng</span></a></li>
+<li id="menu-item-16244" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16244"><a href="https://aznet.vn/nha-hang-va-ca-phe"><i class="_mi _before dashicons dashicons-twitter" aria-hidden="true"></i><span>Nhà hàng và Cà phê</span></a></li>
+<li id="menu-item-16245" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16245"><a href="https://aznet.vn/noi-that-kien-truc-xay-dung"><i class="_mi _before dashicons dashicons-screenoptions" aria-hidden="true"></i><span>Nội thất, Kiến trúc và Xây dựng</span></a></li>
+<li id="menu-item-16246" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16246"><a href="https://aznet.vn/o-to-xe-may"><i class="_mi _before dashicons dashicons-admin-generic" aria-hidden="true"></i><span>Ô tô &#8211; Xe Máy &#8211; Xe cộ</span></a></li>
+<li id="menu-item-16247" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16247"><a href="https://aznet.vn/sach-van-phong-pham"><i class="_mi _before dashicons dashicons-book" aria-hidden="true"></i><span>Sách &#8211; Văn phòng phẩm</span></a></li>
+<li id="menu-item-16248" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16248"><a href="https://aznet.vn/sieu-thi-do-gia-dung"><i class="_mi _before dashicons dashicons-products" aria-hidden="true"></i><span>Siêu Thị &#8211; Đồ Gia dụng</span></a></li>
+<li id="menu-item-16249" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16249"><a href="https://aznet.vn/thoi-trang-my-pham-lam-dep"><i class="_mi _before dashicons dashicons-admin-customizer" aria-hidden="true"></i><span>Thời Trang, Mỹ phẩm, Làm Đẹp</span></a></li>
+<li id="menu-item-16250" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16250"><a href="https://aznet.vn/thuc-pham-va-do-an"><i class="_mi _before dashicons dashicons-smiley" aria-hidden="true"></i><span>Thực phẩm và Đồ Ăn</span></a></li>
+<li id="menu-item-16251" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16251"><a href="https://aznet.vn/website-tin-tuc"><i class="_mi _before dashicons dashicons-editor-alignleft" aria-hidden="true"></i><span>Website Tin tức</span></a></li>
+<li id="menu-item-16252" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16252"><a href="https://aznet.vn/tuyen-dung-viec-lam"><i class="_mi _before dashicons dashicons-search" aria-hidden="true"></i><span>Tuyển dụng &#8211; Việc làm</span></a></li>
+<li id="menu-item-16242" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-16242"><a href="https://aznet.vn/khac"><i class="_mi _before dashicons dashicons-thumbs-up" aria-hidden="true"></i><span>Khác</span></a></li>
+</ul></div></aside></ul>
+		</div>
+					</div>
+
+	
+
+	<div id="col-1105764182" class="col medium-9 small-12 large-9"  >
+				<div class="col-inner"  >
+			
+			
+
+  
+    <div class="row  equalize-box large-columns-3 medium-columns- small-columns-2 row-small">
+  	
+	     
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-circle"><div class="badge-inner secondary on-sale"><span class="onsale">-20%</span></div></div>
+</div>
+						<div class="product-small box has-hover box-normal box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://aznet.vn/bach-hoa-4-mau-website-ban-hang-chuan-seo-toc-do-cao-cho-san-pham-me-va-be" aria-label="Bách Hóa 4 - Mẫu website bán hàng Chuẩn SEO, tốc độ cao cho sản phẩm Mẹ Và Bé">
+										<img width="700" height="700" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20700'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="bach hoa 4" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2021/07/bach-hoa-4-700x700.png 700w, https://aznet.vn/wp-content/uploads/2021/07/bach-hoa-4-768x768.png 768w, https://aznet.vn/wp-content/uploads/2021/07/bach-hoa-4-100x100.png 100w, https://aznet.vn/wp-content/uploads/2021/07/bach-hoa-4.png 900w" data-lazy-sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 5" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/07/bach-hoa-4-700x700.png"><noscript><img width="700" height="700" src="https://aznet.vn/wp-content/uploads/2021/07/bach-hoa-4-700x700.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="bach hoa 4" srcset="https://aznet.vn/wp-content/uploads/2021/07/bach-hoa-4-700x700.png 700w, https://aznet.vn/wp-content/uploads/2021/07/bach-hoa-4-768x768.png 768w, https://aznet.vn/wp-content/uploads/2021/07/bach-hoa-4-100x100.png 100w, https://aznet.vn/wp-content/uploads/2021/07/bach-hoa-4.png 900w" sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 5"></noscript>									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+																	</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+																			</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Mẫu Website WordPress		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://aznet.vn/bach-hoa-4-mau-website-ban-hang-chuan-seo-toc-do-cao-cho-san-pham-me-va-be" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Bách Hóa 4 &#8211; Mẫu website bán hàng Chuẩn SEO, tốc độ cao cho sản phẩm Mẹ Và Bé</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,500,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>1,200,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>           <a href="https://bachhoa4.vnwordpress.net/" class="viewdemo_loop" target="_blank" tile="Xem demo" rel="nofollow noopener">Xem demo</a>
+  							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-circle"><div class="badge-inner secondary on-sale"><span class="onsale">-42%</span></div></div>
+</div>
+						<div class="product-small box has-hover box-normal box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://aznet.vn/luat-su-2-mau-website-dich-vu-tu-van-phap-luat-luat-su-van-phong-luat" aria-label="Luật Sư 2 - Mẫu website dịch vụ tư vấn pháp luật, luật sư, văn phòng luật">
+										<img width="700" height="700" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20700'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="luat su 2" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2021/06/luat-su-2-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/luat-su-2-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/luat-su-2-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/luat-su-2.jpg 900w" data-lazy-sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 6" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/06/luat-su-2-700x700.jpg"><noscript><img width="700" height="700" src="https://aznet.vn/wp-content/uploads/2021/06/luat-su-2-700x700.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="luat su 2" srcset="https://aznet.vn/wp-content/uploads/2021/06/luat-su-2-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/luat-su-2-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/luat-su-2-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/luat-su-2.jpg 900w" sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 6"></noscript>									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+																	</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+																			</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Mẫu Website WordPress		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://aznet.vn/luat-su-2-mau-website-dich-vu-tu-van-phap-luat-luat-su-van-phong-luat" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Luật Sư 2 &#8211; Mẫu website dịch vụ tư vấn pháp luật, luật sư, văn phòng luật</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,200,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>700,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>           <a href="https://luatsu2.vnwordpress.net/" class="viewdemo_loop" target="_blank" tile="Xem demo" rel="nofollow noopener">Xem demo</a>
+  							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-circle"><div class="badge-inner secondary on-sale"><span class="onsale">-25%</span></div></div>
+</div>
+						<div class="product-small box has-hover box-normal box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://aznet.vn/luat-su-1-mau-website-dich-vu-luat-su-tu-van-phap-ly" aria-label="Luật Sư 1 - Mẫu website dịch vụ Luật Sư, tư vấn pháp lý">
+										<img width="700" height="700" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20700'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="luat su 1" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2021/06/luat-su-1-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/luat-su-1-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/luat-su-1-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/luat-su-1.jpg 900w" data-lazy-sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 7" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/06/luat-su-1-700x700.jpg"><noscript><img width="700" height="700" src="https://aznet.vn/wp-content/uploads/2021/06/luat-su-1-700x700.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="luat su 1" srcset="https://aznet.vn/wp-content/uploads/2021/06/luat-su-1-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/luat-su-1-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/luat-su-1-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/luat-su-1.jpg 900w" sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 7"></noscript>									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+																	</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+																			</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Dịch vụ		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://aznet.vn/luat-su-1-mau-website-dich-vu-luat-su-tu-van-phap-ly" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Luật Sư 1 &#8211; Mẫu website dịch vụ Luật Sư, tư vấn pháp lý</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,200,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>900,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>           <a href="https://luatsu1.vnwordpress.net" class="viewdemo_loop" target="_blank" tile="Xem demo" rel="nofollow noopener">Xem demo</a>
+  							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-circle"><div class="badge-inner secondary on-sale"><span class="onsale">-42%</span></div></div>
+</div>
+						<div class="product-small box has-hover box-normal box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://aznet.vn/kien-truc-1-mau-website-thiet-ke-kien-truc-xay-dung-noi-that" aria-label="Kiến Trúc 1 - Mẫu website thiết kế kiến trúc, xây dựng, nội thất">
+										<img width="700" height="700" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20700'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="kien truc 1" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2021/06/kien-truc-1-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/kien-truc-1-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/kien-truc-1-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/kien-truc-1.jpg 900w" data-lazy-sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 8" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/06/kien-truc-1-700x700.jpg"><noscript><img width="700" height="700" src="https://aznet.vn/wp-content/uploads/2021/06/kien-truc-1-700x700.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="kien truc 1" srcset="https://aznet.vn/wp-content/uploads/2021/06/kien-truc-1-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/kien-truc-1-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/kien-truc-1-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/kien-truc-1.jpg 900w" sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 8"></noscript>									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+																	</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+																			</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Nội thất, Kiến trúc và Xây dựng		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://aznet.vn/kien-truc-1-mau-website-thiet-ke-kien-truc-xay-dung-noi-that" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Kiến Trúc 1 &#8211; Mẫu website thiết kế kiến trúc, xây dựng, nội thất</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,200,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>700,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>           <a href="https://kientruc1.vnwordpress.net/" class="viewdemo_loop" target="_blank" tile="Xem demo" rel="nofollow noopener">Xem demo</a>
+  							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-circle"><div class="badge-inner secondary on-sale"><span class="onsale">-40%</span></div></div>
+</div>
+						<div class="product-small box has-hover box-normal box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://aznet.vn/phong-kham-1-mau-website-dich-vu-kham-chua-benh-cham-soc-suc-khoe" aria-label="Phòng Khám 1 - Mẫu website dịch vụ khám chữa bệnh, chăm sóc sức khỏe">
+										<img width="700" height="700" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20700'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="phong kham 1" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2021/06/phong-kham-1-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/phong-kham-1-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/phong-kham-1-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/phong-kham-1.jpg 900w" data-lazy-sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 9" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/06/phong-kham-1-700x700.jpg"><noscript><img width="700" height="700" src="https://aznet.vn/wp-content/uploads/2021/06/phong-kham-1-700x700.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="phong kham 1" srcset="https://aznet.vn/wp-content/uploads/2021/06/phong-kham-1-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/phong-kham-1-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/phong-kham-1-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/phong-kham-1.jpg 900w" sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 9"></noscript>									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+																	</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+																			</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Thiết Kế Website WordPress		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://aznet.vn/phong-kham-1-mau-website-dich-vu-kham-chua-benh-cham-soc-suc-khoe" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Phòng Khám 1 &#8211; Mẫu website dịch vụ khám chữa bệnh, chăm sóc sức khỏe</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,500,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>900,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>           <a href="https://phongkham1.vnwordpress.net/" class="viewdemo_loop" target="_blank" tile="Xem demo" rel="nofollow noopener">Xem demo</a>
+  							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-circle"><div class="badge-inner secondary on-sale"><span class="onsale">-25%</span></div></div>
+</div>
+						<div class="product-small box has-hover box-normal box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://aznet.vn/baby-2-mau-website-ban-hang-chuyen-ve-1-dong-san-pham-cho-me-va-be" aria-label="Baby 2 - Mẫu website bán hàng chuyên về 1 dòng sản phẩm cho mẹ và bé">
+										<img width="700" height="700" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20700'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="baby 2" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2021/06/baby-2-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/baby-2-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/baby-2-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/baby-2.jpg 900w" data-lazy-sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 10" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/06/baby-2-700x700.jpg"><noscript><img width="700" height="700" src="https://aznet.vn/wp-content/uploads/2021/06/baby-2-700x700.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="baby 2" srcset="https://aznet.vn/wp-content/uploads/2021/06/baby-2-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/baby-2-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/baby-2-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/baby-2.jpg 900w" sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 10"></noscript>									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+																	</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+																			</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Mẹ và Bé		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://aznet.vn/baby-2-mau-website-ban-hang-chuyen-ve-1-dong-san-pham-cho-me-va-be" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Baby 2 &#8211; Mẫu website bán hàng chuyên về 1 dòng sản phẩm cho mẹ và bé</a></p></div><div class="price-wrapper">
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>1,200,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi>900,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></ins></span>
+</div>           <a href="https://baby2.vnwordpress.net/" class="viewdemo_loop" target="_blank" tile="Xem demo" rel="nofollow noopener">Xem demo</a>
+  							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-normal box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://aznet.vn/ke-toan-3-mau-website-dich-vu-ke-toan-thue-cho-doanh-nghiep" aria-label="Kế Toán 3 - Mẫu website Dịch Vụ Kế Toán Thuế cho Doanh Nghiệp">
+										<img width="700" height="700" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20700'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Ke toan 3" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2021/06/Ke-toan-3.png 700w, https://aznet.vn/wp-content/uploads/2021/06/Ke-toan-3-100x100.png 100w" data-lazy-sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 11" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/06/Ke-toan-3.png"><noscript><img width="700" height="700" src="https://aznet.vn/wp-content/uploads/2021/06/Ke-toan-3.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Ke toan 3" srcset="https://aznet.vn/wp-content/uploads/2021/06/Ke-toan-3.png 700w, https://aznet.vn/wp-content/uploads/2021/06/Ke-toan-3-100x100.png 100w" sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 11"></noscript>									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+																	</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+																			</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Dịch vụ		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://aznet.vn/ke-toan-3-mau-website-dich-vu-ke-toan-thue-cho-doanh-nghiep" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Kế Toán 3 &#8211; Mẫu website Dịch Vụ Kế Toán Thuế cho Doanh Nghiệp</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>700,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</div>           <a href="https://ketoan3.vnwordpress.net/" class="viewdemo_loop" target="_blank" tile="Xem demo" rel="nofollow noopener">Xem demo</a>
+  							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-normal box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://aznet.vn/my-pham-6-mau-website-ban-hang-my-pham-cuc-dep" aria-label="Mỹ Phẩm 6 - Mẫu website bán hàng mỹ phẩm cực đẹp">
+										<img width="700" height="700" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20700'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="my pham 6" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2021/06/my-pham-6-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/my-pham-6-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/my-pham-6-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/my-pham-6.jpg 900w" data-lazy-sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 12" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/06/my-pham-6-700x700.jpg"><noscript><img width="700" height="700" src="https://aznet.vn/wp-content/uploads/2021/06/my-pham-6-700x700.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="my pham 6" srcset="https://aznet.vn/wp-content/uploads/2021/06/my-pham-6-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/my-pham-6-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/my-pham-6-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/my-pham-6.jpg 900w" sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 12"></noscript>									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+																	</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+																			</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Thời Trang, Mỹ phẩm, Làm Đẹp		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://aznet.vn/my-pham-6-mau-website-ban-hang-my-pham-cuc-dep" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Mỹ Phẩm 6 &#8211; Mẫu website bán hàng mỹ phẩm cực đẹp</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>700,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</div>           <a href="http://mypham6.vnwordpress.net/" class="viewdemo_loop" target="_blank" tile="Xem demo" rel="nofollow noopener">Xem demo</a>
+  							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-normal box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://aznet.vn/noi-that-9-mau-website-ban-hang-noi-that-rat-chuyen-nghiep" aria-label="Nội Thất 9 - Mẫu website Bán Hàng Nội Thất rất chuyên nghiệp">
+										<img width="700" height="700" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20700'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="noi that 9" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2021/06/noi-that-9-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/noi-that-9-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/noi-that-9-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/noi-that-9.jpg 900w" data-lazy-sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 13" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/06/noi-that-9-700x700.jpg"><noscript><img width="700" height="700" src="https://aznet.vn/wp-content/uploads/2021/06/noi-that-9-700x700.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="noi that 9" srcset="https://aznet.vn/wp-content/uploads/2021/06/noi-that-9-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/noi-that-9-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/noi-that-9-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/noi-that-9.jpg 900w" sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 13"></noscript>									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+																	</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+																			</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Nội thất, Kiến trúc và Xây dựng		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://aznet.vn/noi-that-9-mau-website-ban-hang-noi-that-rat-chuyen-nghiep" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Nội Thất 9 &#8211; Mẫu website Bán Hàng Nội Thất rất chuyên nghiệp</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>900,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</div>           <a href="https://noithat9.vnwordpress.net/" class="viewdemo_loop" target="_blank" tile="Xem demo" rel="nofollow noopener">Xem demo</a>
+  							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-normal box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://aznet.vn/thiet-bi-ve-sinh-mau-website-ban-hang-thiet-bi-ve-sinh-rat-dep" aria-label="Thiết Bị Vệ Sinh - Mẫu website bán hàng thiết bị vệ sinh rất đẹp">
+										<img width="700" height="700" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20700'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="thiet bi ve sinh" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2021/06/thiet-bi-ve-sinh-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/thiet-bi-ve-sinh-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/thiet-bi-ve-sinh-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/thiet-bi-ve-sinh.jpg 900w" data-lazy-sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 14" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/06/thiet-bi-ve-sinh-700x700.jpg"><noscript><img width="700" height="700" src="https://aznet.vn/wp-content/uploads/2021/06/thiet-bi-ve-sinh-700x700.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="thiet bi ve sinh" srcset="https://aznet.vn/wp-content/uploads/2021/06/thiet-bi-ve-sinh-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/thiet-bi-ve-sinh-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/thiet-bi-ve-sinh-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/thiet-bi-ve-sinh.jpg 900w" sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 14"></noscript>									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+																	</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+																			</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Website bán hàng		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://aznet.vn/thiet-bi-ve-sinh-mau-website-ban-hang-thiet-bi-ve-sinh-rat-dep" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Thiết Bị Vệ Sinh &#8211; Mẫu website bán hàng thiết bị vệ sinh rất đẹp</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>900,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</div>           <a href="http://thietbivesinh.vnwordpress.net/" class="viewdemo_loop" target="_blank" tile="Xem demo" rel="nofollow noopener">Xem demo</a>
+  							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-normal box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://aznet.vn/honda-mau-website-ban-hang-o-to-chuyen-nghiep" aria-label="Honda - Mẫu website bán hàng Ô Tô chuyên nghiệp">
+										<img width="700" height="700" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20700'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="hon da" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2021/06/hon-da-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/hon-da-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/hon-da-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/hon-da.jpg 900w" data-lazy-sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 15" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/06/hon-da-700x700.jpg"><noscript><img width="700" height="700" src="https://aznet.vn/wp-content/uploads/2021/06/hon-da-700x700.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="hon da" srcset="https://aznet.vn/wp-content/uploads/2021/06/hon-da-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/hon-da-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/hon-da-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/hon-da.jpg 900w" sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 15"></noscript>									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+																	</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+																			</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Ô tô - Xe Máy - Xe cộ		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://aznet.vn/honda-mau-website-ban-hang-o-to-chuyen-nghiep" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Honda &#8211; Mẫu website bán hàng Ô Tô chuyên nghiệp</a></p></div><div class="price-wrapper"><div class="star-rating" role="img" aria-label="Được xếp hạng 5.00 5 sao"><span style="width:100%">Được xếp hạng <strong class="rating">5.00</strong> 5 sao</span></div>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>900,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</div>           <a href="https://honda.vnwordpress.net/" class="viewdemo_loop" target="_blank" tile="Xem demo" rel="nofollow noopener">Xem demo</a>
+  							</div>
+						</div>
+						</div>
+					</div>
+						            
+						            	
+	            	<div class="col" >
+						<div class="col-inner">
+						
+<div class="badge-container absolute left top z-1">
+</div>
+						<div class="product-small box has-hover box-normal box-text-bottom">
+							<div class="box-image" >
+								<div class="" >
+									<a href="https://aznet.vn/thao-duoc-3-mau-website-ban-hang-thuoc-nam" aria-label="Thảo Dược 3 - Mẫu website bán hàng thuốc Nam">
+										<img width="700" height="700" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20700'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="thuoc nam 1" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2021/06/thuoc-nam-1-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/thuoc-nam-1-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/thuoc-nam-1-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/thuoc-nam-1.jpg 900w" data-lazy-sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 16" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/06/thuoc-nam-1-700x700.jpg"><noscript><img width="700" height="700" src="https://aznet.vn/wp-content/uploads/2021/06/thuoc-nam-1-700x700.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="thuoc nam 1" srcset="https://aznet.vn/wp-content/uploads/2021/06/thuoc-nam-1-700x700.jpg 700w, https://aznet.vn/wp-content/uploads/2021/06/thuoc-nam-1-768x768.jpg 768w, https://aznet.vn/wp-content/uploads/2021/06/thuoc-nam-1-100x100.jpg 100w, https://aznet.vn/wp-content/uploads/2021/06/thuoc-nam-1.jpg 900w" sizes="(max-width: 700px) 100vw, 700px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 16"></noscript>									</a>
+																		 								</div>
+								<div class="image-tools top right show-on-hover">
+																	</div>
+																	<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+																			</div>
+																							</div>
+
+							<div class="box-text text-center" >
+								<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Website bán hàng		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="https://aznet.vn/thao-duoc-3-mau-website-ban-hang-thuoc-nam" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Thảo Dược 3 &#8211; Mẫu website bán hàng thuốc Nam</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>700,000<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</div>           <a href="https://thuocnam1.vnwordpress.net/" class="viewdemo_loop" target="_blank" tile="Xem demo" rel="nofollow noopener">Xem demo</a>
+  							</div>
+						</div>
+						</div>
+					</div>
+						            	        </div>
+<a data-animate="fadeInDown" href="https://aznet.vn/mau-website-wordpress" target="_self" class="button primary is-outline expand" style="border-radius:10px;">
+    <span>Xem tất cả</span>
+  </a>
+
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_1635820196 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (min-width:550px) {
+  #section_1635820196 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+</style>
+	</section>
+	
+<div class="container section-title-container" ><h3 class="section-title section-title-center"><b></b><span class="section-title-main" ><i class="icon-heart" ></i>Hỗ trợ khách hàng</span><b></b></h3></div>
+<div class="row"  id="row-754627626">
+
+	<div id="col-641749461" class="col medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+    <div class="box has-hover has-hover box-text-bottom" >
+
+                  <div class="box-image " style="width:80%;">
+           <div class="box-image-inner image-cover" style="border-radius:100%;padding-top:100%;">
+              <img width="640" height="640" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20640'%3E%3C/svg%3E" class="attachment- size-" alt="Trương Đình Nam" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg 640w, https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam-100x100.jpg 100w" data-lazy-sizes="(max-width: 640px) 100vw, 640px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 17" data-lazy-src="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg"><noscript><img width="640" height="640" src="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg" class="attachment- size-" alt="Trương Đình Nam" srcset="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg 640w, https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam-100x100.jpg 100w" sizes="(max-width: 640px) 100vw, 640px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 17"></noscript>                         </div>
+          </div>
+         
+          <div class="box-text text-center" >
+                <div class="box-text-inner">
+                  <h4 class="uppercase">
+                    <span class="person-name">Trương Đình Nam</span><br/>
+                    <span class="person-title is-small thin-font op-7">
+                      Hỗ trợ khách hàng                    </span>
+                  </h4>
+                 <div class="social-icons follow-icons" ><a href="https://facebook.com/truongdinhnamaznet" target="_blank" data-label="Facebook" rel="noopener noreferrer nofollow" class="icon button circle is-outline facebook tooltip" title="Follow on Facebook" aria-label="Follow on Facebook"><i class="icon-facebook" ></i></a><a href="tel:0972782255" target="_blank" data-label="Phone" rel="noopener noreferrer nofollow" class="icon button circle is-outline  phone tooltip" title="Call us" aria-label="Call us"><i class="icon-phone" ></i></a><a href="https://youtube.com/c/truongdinhnamaznet" target="_blank" rel="noopener noreferrer nofollow" data-label="YouTube" class="icon button circle is-outline  youtube tooltip" title="Follow on YouTube" aria-label="Follow on YouTube"><i class="icon-youtube" ></i></a></div>                 
+	<div id="text-3977232385" class="text">
+		
+<h3>Tư vấn và hỗ trợ khách hàng:</h3>
+<li>Thiết kế Website</li>
+<li>SEO Website</li>
+<li>Quảng cáo Google</li>
+<li>Quảng cáo YouTube</li>
+		
+<style>
+#text-3977232385 {
+  text-align: left;
+}
+</style>
+	</div>
+	
+                </div>
+          </div>
+    </div>
+
+    
+    
+		</div>
+					</div>
+
+	
+
+	<div id="col-1157805028" class="col medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+    <div class="box has-hover has-hover box-text-bottom" >
+
+                  <div class="box-image " style="width:80%;">
+           <div class="box-image-inner image-cover" style="border-radius:100%;padding-top:100%;">
+              <img width="640" height="640" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20640'%3E%3C/svg%3E" class="attachment- size-" alt="Trương Đình Nam" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg 640w, https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam-100x100.jpg 100w" data-lazy-sizes="(max-width: 640px) 100vw, 640px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 17" data-lazy-src="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg"><noscript><img width="640" height="640" src="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg" class="attachment- size-" alt="Trương Đình Nam" srcset="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg 640w, https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam-100x100.jpg 100w" sizes="(max-width: 640px) 100vw, 640px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 17"></noscript>                         </div>
+          </div>
+         
+          <div class="box-text text-center" >
+                <div class="box-text-inner">
+                  <h4 class="uppercase">
+                    <span class="person-name">Trương Đình Nam</span><br/>
+                    <span class="person-title is-small thin-font op-7">
+                      Hỗ trợ khách hàng                    </span>
+                  </h4>
+                 <div class="social-icons follow-icons" ><a href="https://facebook.com/truongdinhnamaznet" target="_blank" data-label="Facebook" rel="noopener noreferrer nofollow" class="icon button circle is-outline facebook tooltip" title="Follow on Facebook" aria-label="Follow on Facebook"><i class="icon-facebook" ></i></a><a href="tel:0972782255" target="_blank" data-label="Phone" rel="noopener noreferrer nofollow" class="icon button circle is-outline  phone tooltip" title="Call us" aria-label="Call us"><i class="icon-phone" ></i></a><a href="https://youtube.com/c/truongdinhnamaznet" target="_blank" rel="noopener noreferrer nofollow" data-label="YouTube" class="icon button circle is-outline  youtube tooltip" title="Follow on YouTube" aria-label="Follow on YouTube"><i class="icon-youtube" ></i></a></div>                 
+	<div id="text-1206972843" class="text">
+		
+<h3>Tư vấn và hỗ trợ khách hàng:</h3>
+<li>Thiết kế Website</li>
+<li>SEO Website</li>
+<li>Quảng cáo Google</li>
+<li>Quảng cáo YouTube</li>
+		
+<style>
+#text-1206972843 {
+  text-align: left;
+}
+</style>
+	</div>
+	
+                </div>
+          </div>
+    </div>
+
+    
+    
+		</div>
+					</div>
+
+	
+
+	<div id="col-479287684" class="col medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+    <div class="box has-hover has-hover box-text-bottom" >
+
+                  <div class="box-image " style="width:80%;">
+           <div class="box-image-inner image-cover" style="border-radius:100%;padding-top:100%;">
+              <img width="640" height="640" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20640'%3E%3C/svg%3E" class="attachment- size-" alt="Trương Đình Nam" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg 640w, https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam-100x100.jpg 100w" data-lazy-sizes="(max-width: 640px) 100vw, 640px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 17" data-lazy-src="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg"><noscript><img width="640" height="640" src="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg" class="attachment- size-" alt="Trương Đình Nam" srcset="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg 640w, https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam-100x100.jpg 100w" sizes="(max-width: 640px) 100vw, 640px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 17"></noscript>                         </div>
+          </div>
+         
+          <div class="box-text text-center" >
+                <div class="box-text-inner">
+                  <h4 class="uppercase">
+                    <span class="person-name">Trương Đình Nam</span><br/>
+                    <span class="person-title is-small thin-font op-7">
+                      Hỗ trợ khách hàng                    </span>
+                  </h4>
+                 <div class="social-icons follow-icons" ><a href="https://facebook.com/truongdinhnamaznet" target="_blank" data-label="Facebook" rel="noopener noreferrer nofollow" class="icon button circle is-outline facebook tooltip" title="Follow on Facebook" aria-label="Follow on Facebook"><i class="icon-facebook" ></i></a><a href="tel:0972782255" target="_blank" data-label="Phone" rel="noopener noreferrer nofollow" class="icon button circle is-outline  phone tooltip" title="Call us" aria-label="Call us"><i class="icon-phone" ></i></a><a href="https://youtube.com/c/truongdinhnamaznet" target="_blank" rel="noopener noreferrer nofollow" data-label="YouTube" class="icon button circle is-outline  youtube tooltip" title="Follow on YouTube" aria-label="Follow on YouTube"><i class="icon-youtube" ></i></a></div>                 
+	<div id="text-3264083385" class="text">
+		
+<h3>Tư vấn và hỗ trợ khách hàng:</h3>
+<li>Thiết kế Website</li>
+<li>SEO Website</li>
+<li>Quảng cáo Google</li>
+<li>Quảng cáo YouTube</li>
+		
+<style>
+#text-3264083385 {
+  text-align: left;
+}
+</style>
+	</div>
+	
+                </div>
+          </div>
+    </div>
+
+    
+    
+		</div>
+					</div>
+
+	
+
+	<div id="col-1702091230" class="col medium-3 small-6 large-3"  >
+				<div class="col-inner"  >
+			
+			
+    <div class="box has-hover has-hover box-text-bottom" >
+
+                  <div class="box-image " style="width:80%;">
+           <div class="box-image-inner image-cover" style="border-radius:100%;padding-top:100%;">
+              <img width="640" height="640" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20640'%3E%3C/svg%3E" class="attachment- size-" alt="Trương Đình Nam" data-lazy-srcset="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg 640w, https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam-100x100.jpg 100w" data-lazy-sizes="(max-width: 640px) 100vw, 640px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 17" data-lazy-src="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg"><noscript><img width="640" height="640" src="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg" class="attachment- size-" alt="Trương Đình Nam" srcset="https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam.jpg 640w, https://aznet.vn/wp-content/uploads/2020/12/truong-dinh-nam-100x100.jpg 100w" sizes="(max-width: 640px) 100vw, 640px" title="AZnet Việt Nam - Thiết Kế Website WordPress chuẩn SEO, Đẹp, Nhanh 17"></noscript>                         </div>
+          </div>
+         
+          <div class="box-text text-center" >
+                <div class="box-text-inner">
+                  <h4 class="uppercase">
+                    <span class="person-name">Trương Đình Nam</span><br/>
+                    <span class="person-title is-small thin-font op-7">
+                      Hỗ trợ khách hàng                    </span>
+                  </h4>
+                 <div class="social-icons follow-icons" ><a href="https://facebook.com/truongdinhnamaznet" target="_blank" data-label="Facebook" rel="noopener noreferrer nofollow" class="icon button circle is-outline facebook tooltip" title="Follow on Facebook" aria-label="Follow on Facebook"><i class="icon-facebook" ></i></a><a href="tel:0972782255" target="_blank" data-label="Phone" rel="noopener noreferrer nofollow" class="icon button circle is-outline  phone tooltip" title="Call us" aria-label="Call us"><i class="icon-phone" ></i></a><a href="https://youtube.com/c/truongdinhnamaznet" target="_blank" rel="noopener noreferrer nofollow" data-label="YouTube" class="icon button circle is-outline  youtube tooltip" title="Follow on YouTube" aria-label="Follow on YouTube"><i class="icon-youtube" ></i></a></div>                 
+	<div id="text-2186157256" class="text">
+		
+<h3>Tư vấn và hỗ trợ khách hàng:</h3>
+<li>Thiết kế Website</li>
+<li>SEO Website</li>
+<li>Quảng cáo Google</li>
+<li>Quảng cáo YouTube</li>
+		
+<style>
+#text-2186157256 {
+  text-align: left;
+}
+</style>
+	</div>
+	
+                </div>
+          </div>
+    </div>
+
+    
+    
+		</div>
+					</div>
+
+	
+</div>
+		
+				
+</div>
+
+
+
+</main>
+
+<footer id="footer" class="footer-wrapper">
+
+	<div class="message-box relative dark" style="padding-top:15px;padding-bottom:15px;"><div class="message-box-bg-image bg-fill fill" ></div><div class="message-box-bg-overlay bg-fill fill" style="background-color:rgb(59, 136, 200);"></div><div class="container relative"><div class="inner last-reset">
+
+<div class="row align-middle align-center"  id="row-1818936855">
+
+
+	<div id="col-589078796" class="col medium-9 small-12 large-9"  >
+				<div class="col-inner"  >
+			
+			
+
+<p>Chúng tôi có hơn 300 giao diện và không ngừng bổ sung thêm mỗi ngày. Hãy tiếp tục xem thêm các giao diện khác hoặc liên hệ với chúng tôi nếu bạn không tìm được giao diện như ý.</p>
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-1568561396" class="col medium-2 small-12 large-2"  >
+				<div class="col-inner text-center"  >
+			
+			
+
+<a rel="noopener noreferrer" href="https://aznet.vn/mau-website-wordpress" target="_blank" class="button white is-outline"  style="border-radius:99px;">
+    <span>Xem tất cả</span>
+  </a>
+
+
+
+		</div>
+					</div>
+
+	
+
+</div>
+
+</div></div></div>
+	<section class="section" id="section_824696346">
+		<div class="bg section-bg fill bg-fill  bg-loaded" >
+
+			
+			
+			
+
+		</div>
+
+		<div class="section-content relative">
+			
+
+	<div id="gap-2131499478" class="gap-element clearfix" style="display:block; height:auto;">
+		
+<style>
+#gap-2131499478 {
+  padding-top: 20px;
+}
+</style>
+	</div>
+	
+
+<div class="row row-small"  id="row-250224813">
+
+
+	<div id="col-52185704" class="col medium-12 small-12 large-5"  >
+				<div class="col-inner"  >
+			
+			
+
+
+		<div class="icon-box featured-box icon-box-center text-center"  >
+					<div class="icon-box-img" style="width: 137px">
+				<div class="icon">
+					<div class="icon-inner" >
+						<img width="250" height="68" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%2068'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="aznet" data-lazy-src="https://aznet.vn/wp-content/uploads/2021/01/logo.png" /><noscript><img width="250" height="68" src="https://aznet.vn/wp-content/uploads/2021/01/logo.png" class="attachment-medium size-medium" alt="aznet" /></noscript>					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset">
+									
+
+<p><span style="font-size: 120%;"><strong>Công ty TNHH Công Nghệ JNET</strong></span></p>
+<ul>
+<li class="fa fa-map-marker" style="text-align: left;">Tại Hà Nội: P1503, Tòa nhà 18T2 Lê Văn Lương, Thanh Xuân, Hà Nội</li>
+<li class="fa fa-map-marker" style="text-align: left;">Tại Hồ Chí Minh: 299/3A Lý Thường Kiệt, P15, Quận 11, Tp. Hồ Chí Minh</li>
+<li class="fa fa-map-marker" style="text-align: left;">Website: <a title="AZnet Việt Nam" href="https://aznet.vn" data-schema-attribute="">https://aznet.vn</a> - Email: truongnamqd@gmail.com</li>
+</ul>
+
+		</div>
+	</div>
+	
+	
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-68309873" class="col medium-12 small-12 large-7"  >
+				<div class="col-inner"  >
+			
+			
+
+<div class="row row-collapse"  id="row-35410223">
+
+
+	<div id="col-531159477" class="col medium-6 small-12 large-6"  >
+				<div class="col-inner"  >
+			
+			
+
+<p><span style="font-size: 130%;"><strong>THÔNG TIN</strong></span></p>
+<ul>
+<li class="bullet-arrow"><a title="Hướng dẫn cài đặt Theme" href="#" target="_blank" rel="noopener" data-schema-attribute="">Hướng dẫn cài đặt Theme</a></li>
+<li class="bullet-arrow"><a title="Hướng dẫn thanh toán" href="#" target="_blank" rel="noopener" data-schema-attribute="">Hướng dẫn thanh toán</a></li>
+<li class="bullet-arrow"><a title="Thông tin khuyến mại" href="#" target="_blank" rel="noopener" data-schema-attribute="">Thông tin khuyến mại</a></li>
+<li class="bullet-arrow"><a title="Chính sách sau bán hàng" href="#" target="_blank" rel="noopener" data-schema-attribute="">Chính sách sau bán hàng</a></li>
+</ul>
+
+		</div>
+					</div>
+
+	
+
+	<div id="col-727619072" class="col medium-6 small-12 large-6"  >
+				<div class="col-inner"  >
+			
+			
+
+<p><span style="font-size: 130%;"><strong>HỆ THỐNG LIÊN KẾT</strong></span></p>
+<ul>
+<li class="bullet-arrow"><a title="Trương Đình Nam" href="https://truongdinhnam.com" target="_blank" rel="noopener">Trương Đình Nam</a></li>
+<li class="bullet-arrow"><a title="Từ Tân Group" href="https://tutamgroup.vn" target="_blank" rel="noopener">Từ Tân Group</a></li>
+</ul>
+
+		</div>
+					</div>
+
+	
+
+</div>
+
+		</div>
+					</div>
+
+	
+
+</div>
+
+		</div>
+
+		
+<style>
+#section_824696346 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(245, 247, 251);
+}
+</style>
+	</section>
+	
+<div class="absolute-footer dark medium-text-center text-center">
+  <div class="container clearfix">
+
+    
+    <div class="footer-primary pull-left">
+            <div class="copyright-footer">
+        <span style="color: white; font-size:14px"> Thiết kế bởi <a target=_blank href="https://aznet.vn">AZnet Việt Nam</span></a>      </div>
+          </div>
+  </div>
+</div>
+
+<a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link" aria-label="Go to top"><i class="icon-angle-up" ></i></a>
+
+</footer>
+
+</div>
+
+<div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
+	<div class="sidebar-menu no-scrollbar ">
+		<ul class="nav nav-sidebar nav-vertical nav-uppercase">
+			<li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper">
+		<div class="searchform-wrapper ux-search-box relative is-normal"><form role="search" method="get" class="searchform" action="https://aznet.vn/">
+	<div class="flex-row relative">
+						<div class="flex-col flex-grow">
+			<label class="screen-reader-text" for="woocommerce-product-search-field-4">Tìm kiếm:</label>
+			<input type="search" id="woocommerce-product-search-field-4" class="search-field mb-0" placeholder="Nhập tên lĩnh vực của bạn..." value="" name="s" />
+			<input type="hidden" name="post_type" value="product" />
+					</div>
+		<div class="flex-col">
+			<button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+				<i class="icon-search" ></i>			</button>
+		</div>
+	</div>
+	<div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-272 current_page_item menu-item-402"><a href="https://aznet.vn/" aria-current="page">Trang chủ</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-18993"><a href="https://aznet.vn/thiet-ke-website-wordpress">Thiết Kế Website WordPress</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17099"><a href="https://aznet.vn/bat-dong-san">Bất Động Sản</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17289"><a href="https://aznet.vn/website-ban-hang">Website bán hàng</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17100"><a href="https://aznet.vn/cong-nghe-may-tinh">Công Nghệ &#8211; Máy Tính</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17101"><a href="https://aznet.vn/cong-ty-doanh-nghiep">Công Ty &#8211; Doanh Nghiệp</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17102"><a href="https://aznet.vn/dich-vu">Dịch vụ</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17103"><a href="https://aznet.vn/du-lich-khach-san-ve-may-bay">Du Lịch &#8211; Khách Sạn &#8211; Vé Máy Bay</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17104"><a href="https://aznet.vn/giao-duc-nha-truong">Giáo dục &#8211; Nhà trường</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17105"><a href="https://aznet.vn/hoa-tuoi-qua-tang-do-trang-tri">Hoa tươi &#8211; Quà tặng &#8211; Đồ trang trí</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17107"><a href="https://aznet.vn/landing-page">Landing Page &#8211; Trang bán hàng</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17108"><a href="https://aznet.vn/nha-hang-va-ca-phe">Nhà hàng và Cà phê</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17109"><a href="https://aznet.vn/noi-that-kien-truc-xay-dung">Nội thất, Kiến trúc và Xây dựng</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17110"><a href="https://aznet.vn/o-to-xe-may">Ô tô &#8211; Xe Máy &#8211; Xe cộ</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17111"><a href="https://aznet.vn/sach-van-phong-pham">Sách &#8211; Văn phòng phẩm</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17112"><a href="https://aznet.vn/sieu-thi-do-gia-dung">Siêu Thị &#8211; Đồ Gia dụng</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17113"><a href="https://aznet.vn/thoi-trang-my-pham-lam-dep">Thời Trang, Mỹ phẩm, Làm Đẹp</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17114"><a href="https://aznet.vn/thuc-pham-va-do-an">Thực phẩm và Đồ Ăn</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18103"><a href="https://aznet.vn/website-tin-tuc">Website Tin tức</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17116"><a href="https://aznet.vn/tuyen-dung-viec-lam">Tuyển dụng &#8211; Việc làm</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-17106"><a href="https://aznet.vn/khac">Khác</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19139"><a href="https://aznet.vn/mua-theme-wordpress-gia-re-tai-aznet-viet-nam">Mua Theme WordPress</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-610"><a href="https://aznet.vn/hosting">Bảng giá Hosting</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-19305"><a href="https://aznet.vn/bang-gia-ten-mien-tai-aznet-thang.html">Bảng giá tên miền</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-897"><a href="https://aznet.vn/huong-dan">Hướng dẫn</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18079"><a href="https://aznet.vn/lien-he">Liên hệ</a></li>
+<li class="menu-item cart-item has-icon has-child">
+	<a href="https://aznet.vn/cart" title="Giỏ hàng" class="header-cart-link">
+				<span class="header-cart-title">
+			Giỏ hàng			/							<span class="cart-price"><span class="woocommerce-Price-amount amount"><bdi>0<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+					</span>
+			</a>
+
+	<ul class="children">
+		<li>
+			<!-- Cart Sidebar Popup -->
+			<div id="cart-popup" class="widget_shopping_cart">
+				<div class="cart-popup-inner inner-padding">
+						<div class="cart-popup-title text-center">
+								<h4 class="uppercase">Giỏ hàng</h4>
+								<div class="is-divider"></div>
+						</div>
+						<div class="widget_shopping_cart_content">
+								
+
+	<p class="woocommerce-mini-cart__empty-message">Chưa có sản phẩm trong giỏ hàng.</p>
+
+
+						</div>
+												<div class="cart-sidebar-content relative"></div>				</div>
+			</div>
+		</li>
+	</ul>
+
+</li>
+<li class="header-contact-wrapper">
+		<ul id="header-contact" class="nav nav-divided nav-uppercase header-contact">
+		
+						<li class="">
+			  <a href="mailto:truongnamqd@gmail.com" class="tooltip" title="truongnamqd@gmail.com">
+				  <i class="icon-envelop" style="font-size:16px;"></i>			       <span>
+			       	Contact			       </span>
+			  </a>
+			</li>
+					
+			
+						<li class="">
+			  <a href="tel:0972782255" class="tooltip" title="0972782255">
+			     <i class="icon-phone" style="font-size:16px;"></i>			      <span>0972782255</span>
+			  </a>
+			</li>
+				</ul>
+</li><li class="account-item has-icon menu-item">
+<a href="https://aznet.vn/my-account"
+    class="nav-top-link nav-top-not-logged-in">
+    <span class="header-account-title">
+    Đăng nhập  </span>
+</a>
+
+</li>
+		</ul>
+	</div>
+</div>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+       location = 'https://aznet.vn/thankyou'; // Đường dẫn trang mà bạn muốn điều hướng tới
+}, false );
+</script>
+<style>
+
+.box_fixRight {
+
+    position: fixed;
+
+    top: 190px;
+
+    right: -167px;
+
+    width: auto;
+
+    transition: all 0.2s ease-in-out 0s;
+
+    z-index: 999;
+
+}
+
+.hotline-footer{display:none}
+
+@media (max-width: 549px){.hotline-footer{display:block; position:fixed; bottom:0; width:100%; height:50px; z-index:99; background:rgba(0,0,0,0.6)}
+
+.hotline-footer .left{    width: 35%;
+
+    float: left;
+
+    height: 100%;
+
+    color: white;
+
+    line-height: 43px;
+
+    text-align: center;}
+
+.hotline-footer .right{    width: 65%;
+
+    float: right;
+
+    height: 100%;
+
+    line-height: 43px;
+
+    text-align: center;}.absolute-footer{font-size:13px}
+
+.blog-single .large-9, .blog-single .large-3{    flex-basis: 100%;
+
+ max-width: 100%;}.blog-single .large-3{padding-left:15px; font-size:15px}
+
+ 
+
+.blog-single .large-3 .widget-area .section4{display:none}.tin-tuc-section .cot1-2{display:none}.hotline-footer a{color:white}
+
+.hotline-footer a{display:block;}.hotline-footer .left a{    background: #0082d0;
+
+    line-height: 40px;
+
+    margin: 5px;
+
+ border-radius: 3px;}.hotline-footer .right a{background: #3fb801;
+
+    line-height: 40px;
+
+    margin: 5px;
+
+ border-radius: 3px;}
+
+.hotline-footer .left img, .hotline-footer .right img{width:30px;    padding-right: 10px;}
+
+.box_fixRight{display:none}
+
+}
+
+</style>
+
+<div class="float-contact">
+
+<button class="chat-zalo"><a target=_blank href="https://zalo.me/0972782255">Chat Zalo</a></button>
+
+<button class="hotline"><a href="tel:0972782255">Hotline: 0972782255</a></button>
+
+</div>
+
+<div class="hotline-footer">
+
+<div class="left">
+
+<a target=_blank href="https://zalo.me/0972782255" ><img width="54" height="54" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2054%2054'%3E%3C/svg%3E" data-lazy-src="/wp-content/uploads/2021/06/icon-zalo.png"/><noscript><img width="54" height="54" src="/wp-content/uploads/2021/06/icon-zalo.png"/></noscript>Chat Zalo</a>
+
+</div>
+
+<div class="right">
+
+<a href="tel:0972782255"><img width="54" height="54" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2054%2054'%3E%3C/svg%3E" data-lazy-src="/wp-content/uploads/2021/06/icon-phone-w.png"/><noscript><img width="54" height="54" src="/wp-content/uploads/2021/06/icon-phone-w.png"/></noscript>Gọi: 0972.78.22.55</a>
+
+</div>
+
+<div class="clearboth"></div>
+
+</div>    <div id="login-form-popup" class="lightbox-content mfp-hide">
+            <div class="woocommerce-notices-wrapper"></div>
+<div class="account-container lightbox-inner">
+
+	
+			<div class="account-login-inner">
+
+				<h3 class="uppercase">Đăng nhập</h3>
+
+				<form class="woocommerce-form woocommerce-form-login login" method="post">
+
+					
+					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+						<label for="username">Tên tài khoản hoặc địa chỉ email&nbsp;<span class="required">*</span></label>
+						<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="" />					</p>
+					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+						<label for="password">Mật khẩu&nbsp;<span class="required">*</span></label>
+						<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" />
+					</p>
+
+					
+					<p class="form-row">
+						<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
+							<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span>Ghi nhớ mật khẩu</span>
+						</label>
+						<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="2a7cb280ba" /><input type="hidden" name="_wp_http_referer" value="/" />						<button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Đăng nhập">Đăng nhập</button>
+					</p>
+					<p class="woocommerce-LostPassword lost_password">
+						<a href="https://aznet.vn/my-account/lost-password">Quên mật khẩu?</a>
+					</p>
+
+					
+				</form>
+			</div>
+
+			
+</div>
+
+          </div>
+  	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script   data-wpacu-to-be-preloaded-basic='1' type='text/javascript' async='async' defer='defer' src='https://aznet.vn/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70' id='jquery-blockui-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Xem gi\u1ecf h\u00e0ng","cart_url":"https:\/\/aznet.vn\/cart","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script   data-wpacu-to-be-preloaded-basic='1' type='text/javascript' async='async' defer='defer' src='https://aznet.vn/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=5.5.1' id='wc-add-to-cart-js'></script>
+<script   data-wpacu-to-be-preloaded-basic='1' type='text/javascript' async='async' defer='defer' src='https://aznet.vn/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4' id='js-cookie-js'></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script   type='text/javascript' async='async' defer='defer' src='https://aznet.vn/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=5.5.1' id='woocommerce-js'></script>
+<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_d1f2c7630cabb2f42a95ea4739899cb8","fragment_name":"wc_fragments_d1f2c7630cabb2f42a95ea4739899cb8","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script   data-wpacu-to-be-preloaded-basic='1' type='text/javascript' async='async' defer='defer' src='https://aznet.vn/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=5.5.1' id='wc-cart-fragments-js'></script>
+<script type='text/javascript' id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/checkout(.*)|\/cart|\/my-account(.*)|\/wc-api\/v(.*)|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/aznet.vn","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type='text/javascript' id='yith-wrvp-frontend-js-extra'>
+/* <![CDATA[ */
+var ywrvp = {"ajaxurl":"https:\/\/aznet.vn\/recently-viewed-products","products_selector":".products","slider_n_columns_breakpoint_480":"1"};
+/* ]]> */
+</script>
+<script   data-wpacu-to-be-preloaded-basic='1' type='text/javascript' async='async' defer='defer' src='https://aznet.vn/wp-content/plugins/yith-woocommerce-recently-viewed-products-premium/assets/js/yith-wrvp-frontend.min.js?ver=2.0.0' id='yith-wrvp-frontend-js'></script>
+<script   data-wpacu-to-be-preloaded-basic='1' type='text/javascript' defer='defer' src='https://aznet.vn/wp-content/plugins/yith-woocommerce-recently-viewed-products-premium/assets/js/slick.min.js?ver=2.0.0' id='slick-js'></script>
+<script   type='text/javascript' src='https://aznet.vn/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7' id='regenerator-runtime-js' defer></script>
+<script   type='text/javascript' src='https://aznet.vn/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script   type='text/javascript' src='https://aznet.vn/wp-includes/js/hoverIntent.min.js?ver=1.8.1' id='hoverIntent-js' defer></script>
+<script type='text/javascript' id='flatsome-js-js-extra'>
+/* <![CDATA[ */
+var flatsomeVars = {"ajaxurl":"https:\/\/aznet.vn\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"49","assets_url":"https:\/\/aznet.vn\/wp-content\/themes\/flatsome\/assets\/js\/","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Main Menu"},"options":{"cookie_notice_version":"1","swatches_layout":false,"swatches_box_select_event":false,"swatches_box_behavior_selected":false,"swatches_box_update_urls":"1","swatches_box_reset":false,"swatches_box_reset_extent":false,"swatches_box_reset_time":300,"search_result_latency":"0"},"is_mini_cart_reveal":"1"};
+/* ]]> */
+</script>
+<script data-minify="1"   data-wpacu-to-be-preloaded-basic='1' type='text/javascript' defer='defer' src='https://aznet.vn/wp-content/cache/min/1/wp-content/themes/flatsome/assets/js/flatsome.js?ver=1626309566' id='flatsome-js-js'></script>
+<script data-minify="1"   type='text/javascript' src='https://aznet.vn/wp-content/cache/min/1/wp-content/themes/flatsome/inc/integrations/wp-rocket/flatsome-wp-rocket.js?ver=1626309566' id='flatsome-wp-rocket-js' defer></script>
+<script data-minify="1"   type='text/javascript' async='async' defer='defer' src='https://aznet.vn/wp-content/cache/min/1/wp-content/themes/flatsome/inc/extensions/flatsome-instant-page/flatsome-instant-page.js?ver=1626309566' id='flatsome-instant-page-js'></script>
+<script data-minify="1"   data-wpacu-to-be-preloaded-basic='1' type='text/javascript' async='async' defer='defer' src='https://aznet.vn/wp-content/cache/min/1/wp-content/themes/flatsome/assets/js/woocommerce.js?ver=1626309566' id='flatsome-theme-woocommerce-js-js'></script>
+<noscript></noscript>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://aznet.vn/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script>
+<script type="rocketlazyloadscript">"use strict";var wprRemoveCPCSS=function wprRemoveCPCSS(){var elem;document.querySelector('link[data-rocket-async="style"][rel="preload"]')?setTimeout(wprRemoveCPCSS,200):(elem=document.getElementById("rocket-critical-css"))&&"remove"in elem&&elem.remove()};window.addEventListener?window.addEventListener("load",wprRemoveCPCSS):window.attachEvent&&window.attachEvent("onload",wprRemoveCPCSS);</script><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A700%2Cregular&#038;display=swap" /><link rel='stylesheet' id='menu-icons-extra-css'  href='https://aznet.vn/wp-content/plugins/menu-icons/css/extra.min.css?ver=0.12.8' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='yith-wrvp-frontend-css'  href='https://aznet.vn/wp-content/cache/min/1/wp-content/plugins/yith-woocommerce-recently-viewed-products-premium/assets/css/yith-wrvp-frontend.css?ver=1626309567' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='ywrvp_slick-css'  href='https://aznet.vn/wp-content/cache/min/1/wp-content/plugins/yith-woocommerce-recently-viewed-products-premium/assets/css/slick.css?ver=1626309567' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='flatsome-main-css'  href='https://aznet.vn/wp-content/cache/min/1/wp-content/themes/flatsome/assets/css/flatsome.css?ver=1626309567' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='flatsome-shop-css'  href='https://aznet.vn/wp-content/cache/min/1/wp-content/themes/flatsome/assets/css/flatsome-shop.css?ver=1626309567' type='text/css' media='all' /></noscript></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1626942636 -->

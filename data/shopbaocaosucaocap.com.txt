@@ -1,0 +1,3038 @@
+ 		<!doctype html>
+		<html lang="vi">
+
+		<head>
+			<base href="//shopbaocaosucaocap.com/"  />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+			<link href="style.css" type="text/css" rel="stylesheet" />
+			<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+			<link rel="stylesheet" href="css/bootstrap/css/bootstrap.css" type="text/css" media="screen" />
+			<link rel="stylesheet" type="text/css" href="css/giohang.css?v=5"/>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="SHORTCUT ICON" href="upload/hinhanh/shop-bao-cao-su-o-quan-22704_32x32.png" type="image/x-icon" />
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW" />
+<meta name="author" content="SHOP BAO CAO SU CAO CẤP QUẬN 2" />
+<meta name="copyright" content="SHOP BAO CAO SU CAO CẤP QUẬN 2 [thucuong847@gmail.com]" />
+<!--Meta Geo-->
+<meta name="DC.title" content="Shop Bao Cao Su Cao Cấp - Tuyệt Đỉnh Chuyện Phòng The" />
+<meta name="geo.region" content="VN" />
+<meta name="geo.placename" content=" 333 Nguyễn Duy Trinh, Phường Bình Trưng Tây, Quận 2, TP. HCM" />
+<meta name="geo.position" content="10.78826:106.76654600000006" />
+<meta name="ICBM" content="10.78826,106.76654600000006" />
+<meta name="DC.identifier" content="http://shopbaocaosucaocap.com/" />
+<!--Meta Geo-->
+<!--Meta Ngôn ngữ-->
+<meta name="language" content="Việt Nam">
+<meta http-equiv="content-language" content="vi" />
+<meta content="VN" name="geo.region" />
+<meta name="DC.language" scheme="utf-8" content="vi" />
+<meta property="og:locale" content="vi_VN" />
+<!--Meta Ngôn ngữ-->
+<!--Meta seo web-->
+<title>Shop Bao Cao Su Cao Cấp - Tuyệt Đỉnh Chuyện Phòng The</title>
+<meta name="keywords" content="Shop Bao Cao Su Cao Cấp" />
+<meta name="description" content="Shop bao cao su cao cấp 333 Nguyễn Duy Trinh quận 2 chuyên cung cấp những sản phẩm :chai xịt chống xuất tinh sớm,bao cao su các loại,đồ chơi người lớn,... với mức giá hợp lý, hàng chất lượng cao." />
+<!--Meta seo web-->
+<!--Meta facebook-->
+<meta property="og:image" content="" />
+<meta property="og:title" content="" />
+<meta property="og:url" content="" />
+<meta property="og:site_name" content="http://shopbaocaosucaocap.com/" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="SHOP BAO CAO SU CAO CẤP QUẬN 2" /> 
+<!--Meta facebook-->
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+			
+			
+			<script type="application/ld+json">
+				{
+					"@context": "http://schema.org/",
+					"@type": "Product",
+					"name": "'.$row_setting['ten_'.$lang].'",
+					"author": "'.$row_setting['ten_'.$lang].'",
+					"image": "http://'.$config_url.'/'._upload_hinhanh_l.$hinhdaidientrangchu['photo_'.$lang].'",
+					"description": "'.strip_tags($row_setting['description']).'",
+					"aggregateRating": {
+					"@type": "Product",
+					"ratingValue": "4.5",
+					"reviewCount": "'.$all_visitors.'",
+					"bestRating": "5",
+					"worstRating": "1"
+				}
+			}
+		</script>  
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123973919-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123973919-1');
+</script>
+
+
+
+
+
+<style>.fb-livechat, .fb-widget{display: none}.ctrlq.fb-button, .ctrlq.fb-close{position: fixed; right: 24px; cursor: pointer}.ctrlq.fb-button{z-index: 999; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyOCAxMjgiIGhlaWdodD0iMTI4cHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB3aWR0aD0iMTI4cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxyZWN0IGZpbGw9IiMwMDg0RkYiIGhlaWdodD0iMTI4IiB3aWR0aD0iMTI4Ii8+PC9nPjxwYXRoIGQ9Ik02NCwxNy41MzFjLTI1LjQwNSwwLTQ2LDE5LjI1OS00Niw0My4wMTVjMCwxMy41MTUsNi42NjUsMjUuNTc0LDE3LjA4OSwzMy40NnYxNi40NjIgIGwxNS42OTgtOC43MDdjNC4xODYsMS4xNzEsOC42MjEsMS44LDEzLjIxMywxLjhjMjUuNDA1LDAsNDYtMTkuMjU4LDQ2LTQzLjAxNUMxMTAsMzYuNzksODkuNDA1LDE3LjUzMSw2NCwxNy41MzF6IE02OC44NDUsNzUuMjE0ICBMNTYuOTQ3LDYyLjg1NUwzNC4wMzUsNzUuNTI0bDI1LjEyLTI2LjY1N2wxMS44OTgsMTIuMzU5bDIyLjkxLTEyLjY3TDY4Ljg0NSw3NS4yMTR6IiBmaWxsPSIjRkZGRkZGIiBpZD0iQnViYmxlX1NoYXBlIi8+PC9zdmc+) center no-repeat #0084ff; width: 60px; height: 60px; text-align: center; bottom: 30px; border: 0; outline: 0; border-radius: 60px; -webkit-border-radius: 60px; -moz-border-radius: 60px; -ms-border-radius: 60px; -o-border-radius: 60px; box-shadow: 0 1px 6px rgba(0, 0, 0, .06), 0 2px 32px rgba(0, 0, 0, .16); -webkit-transition: box-shadow .2s ease; background-size: 80%; transition: all .2s ease-in-out}.ctrlq.fb-button:focus, .ctrlq.fb-button:hover{transform: scale(1.1); box-shadow: 0 2px 8px rgba(0, 0, 0, .09), 0 4px 40px rgba(0, 0, 0, .24)}.fb-widget{background: #fff; z-index: 1000; position: fixed; width: 360px; height: 435px; overflow: hidden; opacity: 0; bottom: 0; right: 24px; border-radius: 6px; -o-border-radius: 6px; -webkit-border-radius: 6px; box-shadow: 0 5px 40px rgba(0, 0, 0, .16); -webkit-box-shadow: 0 5px 40px rgba(0, 0, 0, .16); -moz-box-shadow: 0 5px 40px rgba(0, 0, 0, .16); -o-box-shadow: 0 5px 40px rgba(0, 0, 0, .16)}.fb-credit{text-align: center; margin-top: 8px}.fb-credit a{transition: none; color: #bec2c9; font-family: Helvetica, Arial, sans-serif; font-size: 12px; text-decoration: none; border: 0; font-weight: 400}.ctrlq.fb-overlay{z-index: 0; position: fixed; height: 100vh; width: 100vw; -webkit-transition: opacity .4s, visibility .4s; transition: opacity .4s, visibility .4s; top: 0; left: 0; background: rgba(0, 0, 0, .05); display: none}.ctrlq.fb-close{z-index: 4; padding: 0 6px; background: #365899; font-weight: 700; font-size: 11px; color: #fff; margin: 8px; border-radius: 3px}.ctrlq.fb-close::after{content: "X"; font-family: sans-serif}.bubble{width: 20px; height: 20px; background: #c00; color: #fff; position: absolute; z-index: 999999999; text-align: center; vertical-align: middle; top: -2px; left: -5px; border-radius: 50%;}.bubble-msg{width: 120px; left: -140px; top: 5px; position: relative; background: rgba(59, 89, 152, .8); color: #fff; padding: 5px 8px; border-radius: 8px; text-align: center; font-size: 13px;}</style><div class="fb-livechat"> <div class="ctrlq fb-overlay"></div><div class="fb-widget"> <div class="ctrlq fb-close"></div><div class="fb-page" data-href="https://www.facebook.com/shopbaocaosucaocap.com.vn" data-tabs="messages" data-width="360" data-height="400" data-small-header="true" data-hide-cover="true" data-show-facepile="false"> </div><div class="fb-credit"> <a href="https://chanhtuoi.com" target="_blank">Powered by Chanhtuoi</a> </div><div id="fb-root"></div></div><a href="https://m.me/shopbaocaosucaocap.com.vn" title="Gửi tin nhắn cho chúng tôi qua Facebook" class="ctrlq fb-button"> <div class="bubble">1</div><div class="bubble-msg">Bạn cần hỗ trợ?</div></a></div><script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><script>jQuery(document).ready(function($){function detectmob(){if( navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i) ){return true;}else{return false;}}var t={delay: 125, overlay: $(".fb-overlay"), widget: $(".fb-widget"), button: $(".fb-button")}; setTimeout(function(){$("div.fb-livechat").fadeIn()}, 8 * t.delay); if(!detectmob()){$(".ctrlq").on("click", function(e){e.preventDefault(), t.overlay.is(":visible") ? (t.overlay.fadeOut(t.delay), t.widget.stop().animate({bottom: 0, opacity: 0}, 2 * t.delay, function(){$(this).hide("slow"), t.button.show()})) : t.button.fadeOut("medium", function(){t.widget.stop().show().animate({bottom: "30px", opacity: 1}, 2 * t.delay), t.overlay.fadeIn(t.delay)})})}});</script>
+
+
+
+		<meta name="google-site-verification" content="e54GlTDaPTQirN5TQu-q7-sOf-nIA4OOXtHTuJ1uf44" />
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PGPLD8C');</script>
+	<!-- End Google Tag Manager -->     
+</head>
+
+<body onLoad=" ">
+	<!-- Go to www.addthis.com/dashboard to customize your tools <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bed83b702d8cb7b"></script> -->
+	<h1 class="fn" style="position:absolute; top:-1000px;">Shop Bao Cao Su Cao Cấp - Tuyệt Đỉnh Chuyện Phòng The</h1>
+			<h2 style="position:absolute; top:-1000px;">Shop Bao Cao Su Cao Cấp - Tuyệt Đỉnh Chuyện Phòng The</h2>
+		<h3 style="position:absolute; top:-1000px;">Shop Bao Cao Su Cao Cấp - Tuyệt Đỉnh Chuyện Phòng The</h3>
+	
+	<div id="wapper">
+		<div id="box-top">
+			<div class="box-bao">
+	<div class="l_top">
+    	<ul>
+        	<li><a href="index.html">Trang chủ</a></li>
+            <li class="line_top"></li>
+            <li><a href="tin-tuc.html">Tin tức</a></li>
+            <li class="line_top"></li>
+            <li><a href="nha-phan-phoi.html">Nhà phân phối</a></li>
+        </ul>
+    </div><!--l_top-->
+    
+    <div class="r_top">
+    	Hotline: <span>0783 730 604</span>
+    </div><!--r_top-->
+   
+<div class="clear"></div>
+</div>
+
+<div class="clear"></div>		</div><!---END #header-->
+
+		<div id="header">
+			
+<div class="wap_1200">
+
+	<div class="logo_head">
+		<a href="index.php"><img src="thumb/398x93/2/upload/hinhanh/logo-4622-0631.jpg"  alt="SHOP BAO CAO SU CAO CẤP QUẬN 2"/></a>
+	</div>
+
+	<div class="banner_mb">
+		<a href=""><img src="thumb/215x115/2/upload/hinhanh/banner-19-11-199994-1186.png" class="logo_mobi wow bounce"  alt="SHOP BAO CAO SU CAO CẤP QUẬN 2"/></a>
+	</div><!--banner_mb-->
+
+	<div class="search-top">
+		<form action="" class="form_timkiem" method="" name="frm1">
+
+			<input type="text" name="keywords" placeholder="Nhập từ khóa tìm kiếm...">
+			<button type="submit" value="" class="btn-search">Tìm kiếm</button>
+
+		</form>
+		<ul class="header-tag">
+			<li class="border-none"><strong>Xu hướng tìm kiếm:</strong></li>
+							<li><a href="">Gel bôi trơn</a></li>
+							<li><a href="">Bao cu su</a></li>
+						
+			
+		</ul>
+	</div>
+</div>
+
+
+<div class="clear"></div>		</div><!---END #header-->
+		
+		<div id="menu">
+			<div class="menu">
+				<!--Hover menu-->
+<script language="javascript" type="text/javascript">
+	$(document).ready(function() { 
+		$("#menu ul li").hover(function(){
+			$(this).find('ul:first').css({visibility: "visible",display: "none"}).show(300); 
+		},function(){ 
+			$(this).find('ul:first').css({visibility: "hidden"});
+		}); 
+		$("#menu ul li").hover(function(){
+			$(this).find('>a').addClass('active2'); 
+		},function(){ 
+			$(this).find('>a').removeClass('active2'); 
+		}); 
+	});  
+</script>
+<!--Hover menu-->
+
+<div class="wap_1200">
+	<div class="title_danhmuc">
+		<div class="tieude">Danh mục sản phẩm <i class="fa fa-bars" aria-hidden="true"></i></div>
+		<div class="danhmucsp" id="danhmuc">
+			<ul>
+									<li><a href="thuoc-tang-cuong-sinh-ly-nam.html">THUỐC TĂNG CƯỜNG SINH LÝ NAM</a>
+						<div class="wap_ddmouth_menu">
+							<ul>
+																	<li><a href="thuoc-tang-cuong-sinh-li-maxman.html">thuốc tăng cường sinh lí maxman</a></li>
+																	<li><a href="thuoc-tang-cuong-sinh-li-big-penis.html">thuốc tăng cường sinh lí big penis</a></li>
+																	<li><a href="keo-ngam-hammer-tang-cuong-sinh-li-cho-nam.html">Kẹo ngậm hammer - tăng cường sinh lí cho nam </a></li>
+																	<li><a href="thuoc-tengsu-chinh-hang-tang-cuong-sinh-li-cho-nam.html">Thuốc Tengsu chính hãng -tăng cường sinh lí cho nam</a></li>
+																	<li><a href="thuoc-cuong-duong-majegra-100.html">Thuốc cường dương Majegra 100</a></li>
+																	<li><a href="thuoc-tang-cuong-sinh-ly-nam-vien-tempteure-100.html">Thuốc tăng cường sinh lý nam viên TEMPTEURE - 100</a></li>
+																	<li><a href="thuoc-tang-cuong-sinh-ly-nam-vien-ngua-thai.html">Thuốc tăng cường sinh lý nam viên ngựa thái</a></li>
+																	<li><a href="thuoc-tang-cuong-sinh-ly-nam-vien-tadalafil.html">Thuốc tăng cường sinh lý nam viên tadalafil </a></li>
+															</ul>
+						</div><!--wap-->
+					</li>
+									<li><a href="chai-xit-chong-xuat-tinh-som.html">CHAI XỊT CHỐNG XUẤT TINH SỚM </a>
+						<div class="wap_ddmouth_menu">
+							<ul>
+																	<li><a href="chai-xit-thao-duoc-vip-men.html">Chai xịt thảo dược vip men </a></li>
+																	<li><a href="chai-xit-chong-xuat-tinh-som-vinmax-tot-nhat-tai-canada.html">Chai xịt chống xuất tinh sớm Vinmax tốt nhất tại Canada</a></li>
+																	<li><a href="kem-boi-quan-he-lau-ra-emla-5.html">Kem Bôi Quan Hệ Lâu Ra Emla 5%</a></li>
+																	<li><a href="chai-xit-quan-he-lau-ra-dynamo-nhap-khau-hoa-ky.html">Chai xịt Quan Hệ Lâu Ra Dynamo Nhập Khẩu Hoa Kỳ</a></li>
+																	<li><a href="chai-xit-chong-xuat-tinh-som-long-time.html">Chai Xịt Chống Xuất Tinh Sớm Long Time </a></li>
+																	<li><a href="chai-xit-chong-xuat-tinh-som-viga-50000.html">CHAI XỊT CHỐNG XUẤT TINH SỚM VIGA 50000</a></li>
+																	<li><a href="chai-xit-chong-xuat-tinh-som-playboy-vip.html">CHAI XỊT CHỐNG XUẤT TINH SỚM PLAYBOY VIP</a></li>
+																	<li><a href="chai-xit-chong-xuat-tinh-som-procomil-spray.html">CHAI XỊT CHỐNG XUẤT TINH SỚM PROCOMIL SPRAY</a></li>
+																	<li><a href="chai-xit-chong-xuat-tinh-som-stud-100.html">CHAI XỊT CHỐNG XUẤT TINH SỚM STUD 100 </a></li>
+																	<li><a href="chai-xit-chong-xuat-tinh-som-playboy-thuong.html">CHAI XỊT CHÔNG XUẤT TINH SỚM PLAYBOY THƯỜNG</a></li>
+																	<li><a href="chai-xit-chong-xuat-tinh-som-power-men.html">CHAI XỊT CHỐNG XUẤT TINH SỚM POWER MEN</a></li>
+																	<li><a href="chai-xit-chong-xuat-tinh-som-super-viga-duc.html">CHAI XỊT CHỐNG XUẤT TINH SỚM SUPER VIGA ĐỨC</a></li>
+															</ul>
+						</div><!--wap-->
+					</li>
+									<li><a href="do-choi-massage-nam-nu.html">ĐỒ CHƠI MASSAGE  NAM - NỮ</a>
+						<div class="wap_ddmouth_menu">
+							<ul>
+																	<li><a href="duong-vat-gia-hongkong-ailighter-tu-thut-silicon-mem.html">Dương vật giả HongKong Ailighter - tự thụt, silicon mềm</a></li>
+																	<li><a href="luoi-rung-massge-diem-g.html">Lưỡi rung massge điểm G</a></li>
+																	<li><a href="duong-vat-gia-haloy-sac-dien.html">Dương vật giả Haloy sạc điện </a></li>
+																	<li><a href="king-kong-massage-kich-thich-diem-g.html">King kong massage kích thích điểm G</a></li>
+																	<li><a href="duong-vat-gia-sac-pin-hinh-qua-chuoi-da-chuc-nang-rung-cuc-khoai.html">Dương vật giả sạc pin hình quả chuối đa chức năng - Rung cực khoái</a></li>
+																	<li><a href="duong-vat-gia-pretty-love.html">Dương vật giả Pretty Love </a></li>
+															</ul>
+						</div><!--wap-->
+					</li>
+									<li><a href="do-choi-tinh-duc-nam-gioi.html">ĐỒ CHƠI TÌNH DỤC NAM GIỚI</a>
+						<div class="wap_ddmouth_menu">
+							<ul>
+																	<li><a href="may-tap-to-duong-vat-chinh-hang.html">MÁY TẬP TO DƯƠNG VẬT - CHÍNH HÃNG</a></li>
+																	<li><a href="am-dao-gia-danh-cho-nam-chinh-hang.html">ÂM ĐẠO GIẢ DÀNH CHO NAM - CHÍNH HÃNG</a></li>
+															</ul>
+						</div><!--wap-->
+					</li>
+									<li><a href="bao-cao-su-don-den-gai-gan-bi-lon.html">BAO CAO SU ĐÔN DÊN - GAI GÂN BI LỚN</a>
+						<div class="wap_ddmouth_menu">
+							<ul>
+																	<li><a href="bao-cao-su-don-den.html">bao cao su đôn dên</a></li>
+																	<li><a href="bao-cao-su-gai-gan-bi-lon.html">bao cao su gai gân bi lớn </a></li>
+															</ul>
+						</div><!--wap-->
+					</li>
+									<li><a href="bao-cao-su.html">BAO CAO SU</a>
+						<div class="wap_ddmouth_menu">
+							<ul>
+																	<li><a href="bao-cao-su-okamoto-001-hop-2-cai.html">bao cao su  OKAMOTO 001 hộp 2 cái </a></li>
+																	<li><a href="bao-cao-su-okamoto-001-hop-4-cai.html">bao cao su  OKAMOTO 001 hộp 4 cái </a></li>
+																	<li><a href="bao-cao-su-power-men-sieu-mong-keo-dai.html">BAO CAO SU POWER MEN SIÊU MỎNG KÉO DÀI</a></li>
+																	<li><a href="bao-cao-su-khach-san-gia-re.html">bao cao su khách sạn giá rẻ.</a></li>
+																	<li><a href="bao-cao-su-durex-invisible-extra-thin.html">BAO CAO SU Durex Invisible Extra Thin</a></li>
+																	<li><a href="bao-cao-su-durex-performa-hop-12-cai.html">Bao Cao Su Durex Performa hộp 12 cái</a></li>
+																	<li><a href="bao-cao-su-durex-fetherlite-hop-12-cai.html"> Bao Cao Su Durex Fetherlite hộp 12 cái</a></li>
+																	<li><a href="bao-cao-su-truex-performax.html">Bao cao su True-x Performax</a></li>
+																	<li><a href="bao-cao-su-okamoto-purity.html">Bao cao su okamoto Purity</a></li>
+																	<li><a href="bao-cao-su-truex-performax.html">Bao cao su True-x Performax</a></li>
+																	<li><a href="bao-cao-su-okamoto-dot-de-cool.html">bao cao su okamoto DOT DE COOL</a></li>
+																	<li><a href="bao-cao-su-sagami-original-001-sieu-mong.html">Bao cao su Sagami Original 0.01 siêu mỏng</a></li>
+																	<li><a href="bao-cao-su-sagami-original-002-sieu-sieu-mong.html">Bao cao su Sagami Original 0.02 siêu siêu mỏng </a></li>
+																	<li><a href="bao-cao-su-strong-men-sieu-mong.html">Bao cao su Strong Men Siêu mỏng</a></li>
+																	<li><a href="bao-cao-su-powermen-ca-ngua-5-hang-chinh-hang.html">Bao cao su Powermen Cá Ngựa 5% hàng chính hãng</a></li>
+																	<li><a href="bao-cao-su-power-men-ca-ngua-9-chinh-hang.html">BAO CAO SU POWER MEN CÁ NGỰA 9%  -CHÍNH HÃNG</a></li>
+																	<li><a href="bao-cao-su-durex.html">BAO CAO SU DUREX</a></li>
+																	<li><a href="bao-cao-su-strong-men-gan-gai.html">BAO CAO SU  STRONG MEN GÂN GAI</a></li>
+																	<li><a href="bao-cao-su-rezo-sieu-mong.html">BAO CAO SU REZO SIÊU MỎNG</a></li>
+																	<li><a href="bao-cao-su-power-men-9-gai-gan-om-sat-chinh-hang.html">BAO CAO SU POWER MEN 9% GAI GÂN ÔM SÁT - CHÍNH HÃNG</a></li>
+																	<li><a href="bao-cao-su-masculan.html">BAO CAO SU MASCULAN </a></li>
+															</ul>
+						</div><!--wap-->
+					</li>
+									<li><a href="gel-boi-tron.html">GEL BÔI TRƠN</a>
+						<div class="wap_ddmouth_menu">
+							<ul>
+																	<li><a href="gel-tang-khoai-cam-climax.html">gel tăng khoái cảm climax</a></li>
+																	<li><a href="gel-boi-tron-durex-play-cao-cap-massage-2-in-1.html">Gel bôi trơn durex play cao cấp massage 2 in 1</a></li>
+																	<li><a href="gel-boi-tron-durex-strawberry-chai-100ml-huong-dau.html">GEL BÔI TRƠN DUREX STRAWBERRY CHAI 100ML HƯƠNG DÂU</a></li>
+																	<li><a href="gel-boi-tron-ky.html">Gel bôi trơn Ky</a></li>
+																	<li><a href="gen-lam-hong-va-se-khit-vung-kin-eve-cream-in-rose.html">Gen Làm Hồng Và Se Khít Vùng Kín Eve Cream In Rose</a></li>
+																	<li><a href="gel-boi-tron-inno-chinh-hang.html">Gel bôi trơn inno chính hãng</a></li>
+																	<li><a href="gel-boi-tron-tang-khoai-cam-cho-nu.html">GEL BÔI TRƠN  TĂNG KHOÁI CẢM CHO NỮ</a></li>
+																	<li><a href="gel-tang-khoai-cam-cho-nu.html">GEL TĂNG KHOÁI CẢM CHO NỮ</a></li>
+															</ul>
+						</div><!--wap-->
+					</li>
+									<li><a href="gel-phat-trien-duong-vat.html">GEL PHÁT TRIỂN DƯƠNG VẬT</a>
+						<div class="wap_ddmouth_menu">
+							<ul>
+																	<li><a href="gel-titan-gold-chinh-hang.html">GEL TITAN GOLD CHÍNH HÃNG</a></li>
+																	<li><a href="gel-titan-chinh-hang.html">GEL TITAN CHÍNH HÃNG</a></li>
+																	<li><a href="gel-titan-max-man.html">GEL TITAN MAX MAN</a></li>
+															</ul>
+						</div><!--wap-->
+					</li>
+									<li><a href="gel-ve-sinh-vung-kin-nam-gioi.html">GEL VỆ SINH VÙNG KÍN NAM GIỚI</a>
+						<div class="wap_ddmouth_menu">
+							<ul>
+																	<li><a href="gel-ve-sinh-vung-kin-nam-gioi.html">GEL VỆ SINH VÙNG KÍN NAM GIỚI</a></li>
+																	<li><a href="gel-ve-sinh-vung-kin-nam-gioi-winmen.html">GEL VỆ SINH VÙNG KÍN NAM GIỚI WINMEN </a></li>
+															</ul>
+						</div><!--wap-->
+					</li>
+							</ul>
+		</div>
+	</div>
+	<ul class="ul_menu">	
+		<li><a class="" href="chuyen-muc-tu-van.html">Chuyên mục tư vấn</a></li>
+
+		<li class="line"></li>
+		<li><a class="" href="kien-thuc-tam-sinh-li.html">Kiến thức tâm sinh lí</a></li>
+	</ul>
+
+
+</div>
+			</div>
+		</div><!---END #menu-->
+		
+		<div id="menu_mobi"> 
+			<!--Tim kiem-->
+<script language="javascript"> 
+    function doEnter2(evt){
+	var key;
+	if(evt.keyCode == 13 || evt.which == 13){
+		onSearch2(evt);
+	}
+	}
+	function onSearch2(evt) {			
+	
+			var keyword2 = document.getElementById("keyword2").value;
+			if(keyword2=='' || keyword2=='Nhập từ khóa tìm kiếm...')
+			{
+				alert('Bạn chưa nhập từ khóa tìm kiếm');
+			}
+			else{
+				location.href = "tim-kiem.html&keyword="+keyword2;
+				loadPage(document.location);			
+			}
+		}		
+</script>   
+<!--Tim kiem-->
+
+<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+<script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('.hien_menu').click(function(){
+			$('nav#menu_mobi').css({height: "auto"});
+		});
+		$('nav#menu_mobi').mmenu({
+			extensions	: [ 'effect-slide-menu', 'pageshadow' ],
+			searchfield	: true,
+			counters	: true,
+			navbar 		: {
+				title		: 'Menu'
+			},
+			navbars		: [
+				{
+					position	: 'top',
+					content		: [ 'searchfield' ]
+				}, {
+					position	: 'top',
+					content		: [
+						'prev',
+						'title',
+						'close'
+					]
+				}, {
+					position	: 'bottom',
+					content		: [
+						'<a>Online : 10</a>',
+						'<a>Tổng : 382765</a>'
+					]
+				}
+			]
+		});
+	});
+</script>
+
+<div class="header"><a href="#menu_mobi" class="hien_menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+
+<div class="user"><a href="lien-he.html" style="color:#fff;"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></div>
+
+</div> 
+<nav id="menu_mobi" style="height:0; overflow:hidden;">
+    <ul>	
+    	<div id="search_mobi">
+            <input type="text" name="keyword2" id="keyword2" onKeyPress="doEnter2(event,'keyword2');" value="Nhập từ khóa tìm kiếm..." onclick="if(this.value=='Nhập từ khóa tìm kiếm...'){this.value=''}" onblur="if(this.value==''){this.value='Nhập từ khóa tìm kiếm...'}">
+            <i class="fa fa-search" aria-hidden="true" onclick="onSearch2(event,'keyword2');"></i>
+    	</div><!---END #search-->
+
+                	<li><a href="thuoc-tang-cuong-sinh-ly-nam.html">THUỐC TĂNG CƯỜNG SINH LÝ NAM</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="thuoc-tang-cuong-sinh-li-maxman.html">thuốc tăng cường sinh lí maxman</a></li>
+                                 	<li><a href="thuoc-tang-cuong-sinh-li-big-penis.html">thuốc tăng cường sinh lí big penis</a></li>
+                                 	<li><a href="keo-ngam-hammer-tang-cuong-sinh-li-cho-nam.html">Kẹo ngậm hammer - tăng cường sinh lí cho nam </a></li>
+                                 	<li><a href="thuoc-tengsu-chinh-hang-tang-cuong-sinh-li-cho-nam.html">Thuốc Tengsu chính hãng -tăng cường sinh lí cho nam</a></li>
+                                 	<li><a href="thuoc-cuong-duong-majegra-100.html">Thuốc cường dương Majegra 100</a></li>
+                                 	<li><a href="thuoc-tang-cuong-sinh-ly-nam-vien-tempteure-100.html">Thuốc tăng cường sinh lý nam viên TEMPTEURE - 100</a></li>
+                                 	<li><a href="thuoc-tang-cuong-sinh-ly-nam-vien-ngua-thai.html">Thuốc tăng cường sinh lý nam viên ngựa thái</a></li>
+                                 	<li><a href="thuoc-tang-cuong-sinh-ly-nam-vien-tadalafil.html">Thuốc tăng cường sinh lý nam viên tadalafil </a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="chai-xit-chong-xuat-tinh-som.html">CHAI XỊT CHỐNG XUẤT TINH SỚM </a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="chai-xit-thao-duoc-vip-men.html">Chai xịt thảo dược vip men </a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-vinmax-tot-nhat-tai-canada.html">Chai xịt chống xuất tinh sớm Vinmax tốt nhất tại Canada</a></li>
+                                 	<li><a href="kem-boi-quan-he-lau-ra-emla-5.html">Kem Bôi Quan Hệ Lâu Ra Emla 5%</a></li>
+                                 	<li><a href="chai-xit-quan-he-lau-ra-dynamo-nhap-khau-hoa-ky.html">Chai xịt Quan Hệ Lâu Ra Dynamo Nhập Khẩu Hoa Kỳ</a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-long-time.html">Chai Xịt Chống Xuất Tinh Sớm Long Time </a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-viga-50000.html">CHAI XỊT CHỐNG XUẤT TINH SỚM VIGA 50000</a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-playboy-vip.html">CHAI XỊT CHỐNG XUẤT TINH SỚM PLAYBOY VIP</a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-procomil-spray.html">CHAI XỊT CHỐNG XUẤT TINH SỚM PROCOMIL SPRAY</a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-stud-100.html">CHAI XỊT CHỐNG XUẤT TINH SỚM STUD 100 </a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-playboy-thuong.html">CHAI XỊT CHÔNG XUẤT TINH SỚM PLAYBOY THƯỜNG</a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-power-men.html">CHAI XỊT CHỐNG XUẤT TINH SỚM POWER MEN</a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-super-viga-duc.html">CHAI XỊT CHỐNG XUẤT TINH SỚM SUPER VIGA ĐỨC</a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="do-choi-massage-nam-nu.html">ĐỒ CHƠI MASSAGE  NAM - NỮ</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="duong-vat-gia-hongkong-ailighter-tu-thut-silicon-mem.html">Dương vật giả HongKong Ailighter - tự thụt, silicon mềm</a></li>
+                                 	<li><a href="luoi-rung-massge-diem-g.html">Lưỡi rung massge điểm G</a></li>
+                                 	<li><a href="duong-vat-gia-haloy-sac-dien.html">Dương vật giả Haloy sạc điện </a></li>
+                                 	<li><a href="king-kong-massage-kich-thich-diem-g.html">King kong massage kích thích điểm G</a></li>
+                                 	<li><a href="duong-vat-gia-sac-pin-hinh-qua-chuoi-da-chuc-nang-rung-cuc-khoai.html">Dương vật giả sạc pin hình quả chuối đa chức năng - Rung cực khoái</a></li>
+                                 	<li><a href="duong-vat-gia-pretty-love.html">Dương vật giả Pretty Love </a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="do-choi-tinh-duc-nam-gioi.html">ĐỒ CHƠI TÌNH DỤC NAM GIỚI</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="may-tap-to-duong-vat-chinh-hang.html">MÁY TẬP TO DƯƠNG VẬT - CHÍNH HÃNG</a></li>
+                                 	<li><a href="am-dao-gia-danh-cho-nam-chinh-hang.html">ÂM ĐẠO GIẢ DÀNH CHO NAM - CHÍNH HÃNG</a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="bao-cao-su-don-den-gai-gan-bi-lon.html">BAO CAO SU ĐÔN DÊN - GAI GÂN BI LỚN</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="bao-cao-su-don-den.html">bao cao su đôn dên</a></li>
+                                 	<li><a href="bao-cao-su-gai-gan-bi-lon.html">bao cao su gai gân bi lớn </a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="bao-cao-su.html">BAO CAO SU</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="bao-cao-su-okamoto-001-hop-2-cai.html">bao cao su  OKAMOTO 001 hộp 2 cái </a></li>
+                                 	<li><a href="bao-cao-su-okamoto-001-hop-4-cai.html">bao cao su  OKAMOTO 001 hộp 4 cái </a></li>
+                                 	<li><a href="bao-cao-su-power-men-sieu-mong-keo-dai.html">BAO CAO SU POWER MEN SIÊU MỎNG KÉO DÀI</a></li>
+                                 	<li><a href="bao-cao-su-khach-san-gia-re.html">bao cao su khách sạn giá rẻ.</a></li>
+                                 	<li><a href="bao-cao-su-durex-invisible-extra-thin.html">BAO CAO SU Durex Invisible Extra Thin</a></li>
+                                 	<li><a href="bao-cao-su-durex-performa-hop-12-cai.html">Bao Cao Su Durex Performa hộp 12 cái</a></li>
+                                 	<li><a href="bao-cao-su-durex-fetherlite-hop-12-cai.html"> Bao Cao Su Durex Fetherlite hộp 12 cái</a></li>
+                                 	<li><a href="bao-cao-su-truex-performax.html">Bao cao su True-x Performax</a></li>
+                                 	<li><a href="bao-cao-su-okamoto-purity.html">Bao cao su okamoto Purity</a></li>
+                                 	<li><a href="bao-cao-su-truex-performax.html">Bao cao su True-x Performax</a></li>
+                                 	<li><a href="bao-cao-su-okamoto-dot-de-cool.html">bao cao su okamoto DOT DE COOL</a></li>
+                                 	<li><a href="bao-cao-su-sagami-original-001-sieu-mong.html">Bao cao su Sagami Original 0.01 siêu mỏng</a></li>
+                                 	<li><a href="bao-cao-su-sagami-original-002-sieu-sieu-mong.html">Bao cao su Sagami Original 0.02 siêu siêu mỏng </a></li>
+                                 	<li><a href="bao-cao-su-strong-men-sieu-mong.html">Bao cao su Strong Men Siêu mỏng</a></li>
+                                 	<li><a href="bao-cao-su-powermen-ca-ngua-5-hang-chinh-hang.html">Bao cao su Powermen Cá Ngựa 5% hàng chính hãng</a></li>
+                                 	<li><a href="bao-cao-su-power-men-ca-ngua-9-chinh-hang.html">BAO CAO SU POWER MEN CÁ NGỰA 9%  -CHÍNH HÃNG</a></li>
+                                 	<li><a href="bao-cao-su-durex.html">BAO CAO SU DUREX</a></li>
+                                 	<li><a href="bao-cao-su-strong-men-gan-gai.html">BAO CAO SU  STRONG MEN GÂN GAI</a></li>
+                                 	<li><a href="bao-cao-su-rezo-sieu-mong.html">BAO CAO SU REZO SIÊU MỎNG</a></li>
+                                 	<li><a href="bao-cao-su-power-men-9-gai-gan-om-sat-chinh-hang.html">BAO CAO SU POWER MEN 9% GAI GÂN ÔM SÁT - CHÍNH HÃNG</a></li>
+                                 	<li><a href="bao-cao-su-masculan.html">BAO CAO SU MASCULAN </a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="gel-boi-tron.html">GEL BÔI TRƠN</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="gel-tang-khoai-cam-climax.html">gel tăng khoái cảm climax</a></li>
+                                 	<li><a href="gel-boi-tron-durex-play-cao-cap-massage-2-in-1.html">Gel bôi trơn durex play cao cấp massage 2 in 1</a></li>
+                                 	<li><a href="gel-boi-tron-durex-strawberry-chai-100ml-huong-dau.html">GEL BÔI TRƠN DUREX STRAWBERRY CHAI 100ML HƯƠNG DÂU</a></li>
+                                 	<li><a href="gel-boi-tron-ky.html">Gel bôi trơn Ky</a></li>
+                                 	<li><a href="gen-lam-hong-va-se-khit-vung-kin-eve-cream-in-rose.html">Gen Làm Hồng Và Se Khít Vùng Kín Eve Cream In Rose</a></li>
+                                 	<li><a href="gel-boi-tron-inno-chinh-hang.html">Gel bôi trơn inno chính hãng</a></li>
+                                 	<li><a href="gel-boi-tron-tang-khoai-cam-cho-nu.html">GEL BÔI TRƠN  TĂNG KHOÁI CẢM CHO NỮ</a></li>
+                                 	<li><a href="gel-tang-khoai-cam-cho-nu.html">GEL TĂNG KHOÁI CẢM CHO NỮ</a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="gel-phat-trien-duong-vat.html">GEL PHÁT TRIỂN DƯƠNG VẬT</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="gel-titan-gold-chinh-hang.html">GEL TITAN GOLD CHÍNH HÃNG</a></li>
+                                 	<li><a href="gel-titan-chinh-hang.html">GEL TITAN CHÍNH HÃNG</a></li>
+                                 	<li><a href="gel-titan-max-man.html">GEL TITAN MAX MAN</a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="gel-ve-sinh-vung-kin-nam-gioi.html">GEL VỆ SINH VÙNG KÍN NAM GIỚI</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="gel-ve-sinh-vung-kin-nam-gioi.html">GEL VỆ SINH VÙNG KÍN NAM GIỚI</a></li>
+                                 	<li><a href="gel-ve-sinh-vung-kin-nam-gioi-winmen.html">GEL VỆ SINH VÙNG KÍN NAM GIỚI WINMEN </a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+            </ul>
+</nav>		</div><!---END #menu_mobi-->   
+
+					<div id="slider">
+				<div class="wap_1200">
+					<div class="l_slider">
+						<script language="javascript" type="text/javascript">
+	$(document).ready(function() { 
+		$(".danhmucsp ul li").hover(function(){
+			$(this).find('.wap_ddmouth_menu').css({visibility: "visible",display: "block"}); 
+			},function(){ 
+			$(this).find('.wap_ddmouth_menu').css({visibility: "hidden"});
+			}); 
+	});  
+</script>
+
+
+
+<div class="danhmucsp" id="danhmuc">
+	<ul>
+    	        	<li><a href="thuoc-tang-cuong-sinh-ly-nam.html">THUỐC TĂNG CƯỜNG SINH LÝ NAM</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="thuoc-tang-cuong-sinh-li-maxman.html">thuốc tăng cường sinh lí maxman</a></li>
+                                 	<li><a href="thuoc-tang-cuong-sinh-li-big-penis.html">thuốc tăng cường sinh lí big penis</a></li>
+                                 	<li><a href="keo-ngam-hammer-tang-cuong-sinh-li-cho-nam.html">Kẹo ngậm hammer - tăng cường sinh lí cho nam </a></li>
+                                 	<li><a href="thuoc-tengsu-chinh-hang-tang-cuong-sinh-li-cho-nam.html">Thuốc Tengsu chính hãng -tăng cường sinh lí cho nam</a></li>
+                                 	<li><a href="thuoc-cuong-duong-majegra-100.html">Thuốc cường dương Majegra 100</a></li>
+                                 	<li><a href="thuoc-tang-cuong-sinh-ly-nam-vien-tempteure-100.html">Thuốc tăng cường sinh lý nam viên TEMPTEURE - 100</a></li>
+                                 	<li><a href="thuoc-tang-cuong-sinh-ly-nam-vien-ngua-thai.html">Thuốc tăng cường sinh lý nam viên ngựa thái</a></li>
+                                 	<li><a href="thuoc-tang-cuong-sinh-ly-nam-vien-tadalafil.html">Thuốc tăng cường sinh lý nam viên tadalafil </a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="chai-xit-chong-xuat-tinh-som.html">CHAI XỊT CHỐNG XUẤT TINH SỚM </a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="chai-xit-thao-duoc-vip-men.html">Chai xịt thảo dược vip men </a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-vinmax-tot-nhat-tai-canada.html">Chai xịt chống xuất tinh sớm Vinmax tốt nhất tại Canada</a></li>
+                                 	<li><a href="kem-boi-quan-he-lau-ra-emla-5.html">Kem Bôi Quan Hệ Lâu Ra Emla 5%</a></li>
+                                 	<li><a href="chai-xit-quan-he-lau-ra-dynamo-nhap-khau-hoa-ky.html">Chai xịt Quan Hệ Lâu Ra Dynamo Nhập Khẩu Hoa Kỳ</a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-long-time.html">Chai Xịt Chống Xuất Tinh Sớm Long Time </a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-viga-50000.html">CHAI XỊT CHỐNG XUẤT TINH SỚM VIGA 50000</a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-playboy-vip.html">CHAI XỊT CHỐNG XUẤT TINH SỚM PLAYBOY VIP</a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-procomil-spray.html">CHAI XỊT CHỐNG XUẤT TINH SỚM PROCOMIL SPRAY</a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-stud-100.html">CHAI XỊT CHỐNG XUẤT TINH SỚM STUD 100 </a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-playboy-thuong.html">CHAI XỊT CHÔNG XUẤT TINH SỚM PLAYBOY THƯỜNG</a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-power-men.html">CHAI XỊT CHỐNG XUẤT TINH SỚM POWER MEN</a></li>
+                                 	<li><a href="chai-xit-chong-xuat-tinh-som-super-viga-duc.html">CHAI XỊT CHỐNG XUẤT TINH SỚM SUPER VIGA ĐỨC</a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="do-choi-massage-nam-nu.html">ĐỒ CHƠI MASSAGE  NAM - NỮ</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="duong-vat-gia-hongkong-ailighter-tu-thut-silicon-mem.html">Dương vật giả HongKong Ailighter - tự thụt, silicon mềm</a></li>
+                                 	<li><a href="luoi-rung-massge-diem-g.html">Lưỡi rung massge điểm G</a></li>
+                                 	<li><a href="duong-vat-gia-haloy-sac-dien.html">Dương vật giả Haloy sạc điện </a></li>
+                                 	<li><a href="king-kong-massage-kich-thich-diem-g.html">King kong massage kích thích điểm G</a></li>
+                                 	<li><a href="duong-vat-gia-sac-pin-hinh-qua-chuoi-da-chuc-nang-rung-cuc-khoai.html">Dương vật giả sạc pin hình quả chuối đa chức năng - Rung cực khoái</a></li>
+                                 	<li><a href="duong-vat-gia-pretty-love.html">Dương vật giả Pretty Love </a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="do-choi-tinh-duc-nam-gioi.html">ĐỒ CHƠI TÌNH DỤC NAM GIỚI</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="may-tap-to-duong-vat-chinh-hang.html">MÁY TẬP TO DƯƠNG VẬT - CHÍNH HÃNG</a></li>
+                                 	<li><a href="am-dao-gia-danh-cho-nam-chinh-hang.html">ÂM ĐẠO GIẢ DÀNH CHO NAM - CHÍNH HÃNG</a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="bao-cao-su-don-den-gai-gan-bi-lon.html">BAO CAO SU ĐÔN DÊN - GAI GÂN BI LỚN</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="bao-cao-su-don-den.html">bao cao su đôn dên</a></li>
+                                 	<li><a href="bao-cao-su-gai-gan-bi-lon.html">bao cao su gai gân bi lớn </a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="bao-cao-su.html">BAO CAO SU</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="bao-cao-su-okamoto-001-hop-2-cai.html">bao cao su  OKAMOTO 001 hộp 2 cái </a></li>
+                                 	<li><a href="bao-cao-su-okamoto-001-hop-4-cai.html">bao cao su  OKAMOTO 001 hộp 4 cái </a></li>
+                                 	<li><a href="bao-cao-su-power-men-sieu-mong-keo-dai.html">BAO CAO SU POWER MEN SIÊU MỎNG KÉO DÀI</a></li>
+                                 	<li><a href="bao-cao-su-khach-san-gia-re.html">bao cao su khách sạn giá rẻ.</a></li>
+                                 	<li><a href="bao-cao-su-durex-invisible-extra-thin.html">BAO CAO SU Durex Invisible Extra Thin</a></li>
+                                 	<li><a href="bao-cao-su-durex-performa-hop-12-cai.html">Bao Cao Su Durex Performa hộp 12 cái</a></li>
+                                 	<li><a href="bao-cao-su-durex-fetherlite-hop-12-cai.html"> Bao Cao Su Durex Fetherlite hộp 12 cái</a></li>
+                                 	<li><a href="bao-cao-su-truex-performax.html">Bao cao su True-x Performax</a></li>
+                                 	<li><a href="bao-cao-su-okamoto-purity.html">Bao cao su okamoto Purity</a></li>
+                                 	<li><a href="bao-cao-su-truex-performax.html">Bao cao su True-x Performax</a></li>
+                                 	<li><a href="bao-cao-su-okamoto-dot-de-cool.html">bao cao su okamoto DOT DE COOL</a></li>
+                                 	<li><a href="bao-cao-su-sagami-original-001-sieu-mong.html">Bao cao su Sagami Original 0.01 siêu mỏng</a></li>
+                                 	<li><a href="bao-cao-su-sagami-original-002-sieu-sieu-mong.html">Bao cao su Sagami Original 0.02 siêu siêu mỏng </a></li>
+                                 	<li><a href="bao-cao-su-strong-men-sieu-mong.html">Bao cao su Strong Men Siêu mỏng</a></li>
+                                 	<li><a href="bao-cao-su-powermen-ca-ngua-5-hang-chinh-hang.html">Bao cao su Powermen Cá Ngựa 5% hàng chính hãng</a></li>
+                                 	<li><a href="bao-cao-su-power-men-ca-ngua-9-chinh-hang.html">BAO CAO SU POWER MEN CÁ NGỰA 9%  -CHÍNH HÃNG</a></li>
+                                 	<li><a href="bao-cao-su-durex.html">BAO CAO SU DUREX</a></li>
+                                 	<li><a href="bao-cao-su-strong-men-gan-gai.html">BAO CAO SU  STRONG MEN GÂN GAI</a></li>
+                                 	<li><a href="bao-cao-su-rezo-sieu-mong.html">BAO CAO SU REZO SIÊU MỎNG</a></li>
+                                 	<li><a href="bao-cao-su-power-men-9-gai-gan-om-sat-chinh-hang.html">BAO CAO SU POWER MEN 9% GAI GÂN ÔM SÁT - CHÍNH HÃNG</a></li>
+                                 	<li><a href="bao-cao-su-masculan.html">BAO CAO SU MASCULAN </a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="gel-boi-tron.html">GEL BÔI TRƠN</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="gel-tang-khoai-cam-climax.html">gel tăng khoái cảm climax</a></li>
+                                 	<li><a href="gel-boi-tron-durex-play-cao-cap-massage-2-in-1.html">Gel bôi trơn durex play cao cấp massage 2 in 1</a></li>
+                                 	<li><a href="gel-boi-tron-durex-strawberry-chai-100ml-huong-dau.html">GEL BÔI TRƠN DUREX STRAWBERRY CHAI 100ML HƯƠNG DÂU</a></li>
+                                 	<li><a href="gel-boi-tron-ky.html">Gel bôi trơn Ky</a></li>
+                                 	<li><a href="gen-lam-hong-va-se-khit-vung-kin-eve-cream-in-rose.html">Gen Làm Hồng Và Se Khít Vùng Kín Eve Cream In Rose</a></li>
+                                 	<li><a href="gel-boi-tron-inno-chinh-hang.html">Gel bôi trơn inno chính hãng</a></li>
+                                 	<li><a href="gel-boi-tron-tang-khoai-cam-cho-nu.html">GEL BÔI TRƠN  TĂNG KHOÁI CẢM CHO NỮ</a></li>
+                                 	<li><a href="gel-tang-khoai-cam-cho-nu.html">GEL TĂNG KHOÁI CẢM CHO NỮ</a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="gel-phat-trien-duong-vat.html">GEL PHÁT TRIỂN DƯƠNG VẬT</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="gel-titan-gold-chinh-hang.html">GEL TITAN GOLD CHÍNH HÃNG</a></li>
+                                 	<li><a href="gel-titan-chinh-hang.html">GEL TITAN CHÍNH HÃNG</a></li>
+                                 	<li><a href="gel-titan-max-man.html">GEL TITAN MAX MAN</a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+                	<li><a href="gel-ve-sinh-vung-kin-nam-gioi.html">GEL VỆ SINH VÙNG KÍN NAM GIỚI</a>
+            <div class="wap_ddmouth_menu">
+            	<ul>
+                                	<li><a href="gel-ve-sinh-vung-kin-nam-gioi.html">GEL VỆ SINH VÙNG KÍN NAM GIỚI</a></li>
+                                 	<li><a href="gel-ve-sinh-vung-kin-nam-gioi-winmen.html">GEL VỆ SINH VÙNG KÍN NAM GIỚI WINMEN </a></li>
+                                 </ul>
+             </div><!--wap-->
+            </li>
+            </ul>
+</div>					</div>
+					
+					<div class="c_slider">
+						<div id="slider_slick">
+	        	
+<img src="timthumb.php?src=upload/hinhanh/untitled-1-8582.jpg&h=350&w=660&zc=1&q=70" title=""/>
+		    </div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#slider_slick').slick({
+		  	lazyLoad: 'progressive',
+			pauseOnHover:true,//Rê chuột vào đúng lại
+        	infinite: true,
+			accessibility:true,
+		  	slidesToShow: 1,    //Số item hiển thị
+		  	slidesToScroll: 1, //Số item cuộn khi chạy
+		  	autoplay:true,  //Tự động chạy			
+			autoplaySpeed:2500,  //Tốc độ chạy giữa 2 ảnh
+			speed:2500,//tốc độ hiệu ứng chuyển ảnh
+			arrows:true, //Hiển thị mũi tên
+			centerMode:false,  //item nằm giữa
+			dots:false,  //Hiển thị dấu chấm
+			draggable:true,  //Kích hoạt tính năng kéo chuột
+			//fade: true,   //Hiệu ứng fade
+			
+      });
+	});
+ </script>
+
+
+
+					</div>
+					
+					<div class="r_slider">
+						<div class="hotro2">
+	<div class="phone2">0783 730 604</div>
+  		<p>Hỗ trợ online</p>
+        
+        <div class="content_httt">
+            <div class="img_httt">
+                <a href="skype:skype?chat"><img src="images/icon_skype.jpg" alt="SHOP BAO CAO SU CAO CẤP QUẬN 2" /></a>
+                
+                <a href="skype:skype?chat"><img src="images/icon_viber.jpg" alt="SHOP BAO CAO SU CAO CẤP QUẬN 2" /></a>
+                
+                <a href="skype:skype?chat"><img src="images/icon_zalo.jpg" alt="SHOP BAO CAO SU CAO CẤP QUẬN 2" /></a>
+            </div><!--img_httt-->
+          
+              <h5>Địa chỉ:  333 Nguyễn Duy Trinh, Phường Bình Trưng Tây, Quận 2, TP. HCM</h5>
+              
+              <h5>Email: thucuong847@gmail.com</h5>
+       
+       </div><!--content_httt-->
+   
+</div><!---END #hotro2-->					</div>
+				</div><!--wap_1200-->
+			</div><!---END #slider-->
+				<div class="clear"></div>
+		
+					<div id="wap_sp"> 
+				<script type="text/javascript">
+	function load_tt(id){
+		var id=id;
+		$('.content_load').load('ajax/load.php?id='+id);
+		//alert(id);exit;
+	}//function
+	
+</script>
+
+<div class="wap_1200">
+    <div class="title_sp">
+        <ul>
+            <li><a href="javascript:void()" onclick="load_tt(1)">Sản phẩm mới</a></li>
+            <li class="line_sp"></li>
+            <li><a href="javascript:void()" onclick="load_tt(2)">Sản phẩm khuyến mãi</a></li>
+            <li class="line_sp"></li>
+            <li><a href="javascript:void()" onclick="load_tt(3)">Sản phẩm bán chạy</a></li>
+        </ul>
+    </div>
+    
+    <div class="content_load">
+    	        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="chai-xit-chong-xuat-tinh-som-viga-50000-keo-dai-quan-he-den-45-phut.html">
+                         <img src="thumb/230x165/2/upload/sanpham/download-(7)-6605.jpg" alt="CHAI XỊT CHỐNG XUẤT TINH SỚM VIGA 50000 KÉO DÀI QUAN HỆ ĐẾN 45 PHÚT" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="chai-xit-chong-xuat-tinh-som-viga-50000-keo-dai-quan-he-den-45-phut.html"> CHAI XỊT CHỐNG XUẤT TINH SỚM VIGA 50000 KÉO...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>350.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="luoi-rung-massage-kich-thich-diem-g.html">
+                         <img src="thumb/230x165/2/upload/sanpham/luoi-liem-rung-baile-6061.jpg" alt="Lưỡi rung massage kích thích điểm G" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="luoi-rung-massage-kich-thich-diem-g.html"> Lưỡi rung massage kích thích điểm G</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>750.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="chai-xit-chong-xuat-tinh-som-playboy.html">
+                         <img src="thumb/230x165/2/upload/sanpham/untitled-1-3987.jpg" alt="CHAI XỊT CHỐNG XUẤT TINH SỚM PLAYBOY" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="chai-xit-chong-xuat-tinh-som-playboy.html"> CHAI XỊT CHỐNG XUẤT TINH SỚM PLAYBOY</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>170.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="chai-xit-chong-xuat-tinh-som-stud-100-keo-dai-thoi-gian-quan-he.html">
+                         <img src="thumb/230x165/2/upload/sanpham/untitled-6-6758.jpg" alt="CHAI XỊT CHỐNG XUẤT TINH SỚM STUD 100 KÉO DÀI THỜI GIAN QUAN HỆ" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="chai-xit-chong-xuat-tinh-som-stud-100-keo-dai-thoi-gian-quan-he.html"> CHAI XỊT CHỐNG XUẤT TINH SỚM STUD 100 KÉO...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>400.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="gel-lifestyles-excite-tang-khoai-cam.html">
+                         <img src="thumb/230x165/2/upload/sanpham/excite-9370.png" alt="Gel Lifestyles Excite tăng khoái cảm " />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="gel-lifestyles-excite-tang-khoai-cam.html"> Gel Lifestyles Excite tăng khoái cảm </a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>520.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-strong-mens-gan-gai-nhat-ban.html">
+                         <img src="thumb/230x165/2/upload/sanpham/bcs-co-gan-4079.png" alt=" BAO CAO SU STRONG MEN'S GÂN GAI - NHẬT BẢN" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-strong-mens-gan-gai-nhat-ban.html">  BAO CAO SU STRONG MEN'S GÂN GAI - NHẬT BẢN</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>90.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="chai-xit-chong-xuat-tinh-som-playboy-vip-hang-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/1-54-0495.jpg" alt="CHAI XỊT CHỐNG XUẤT TINH SỚM PLAYBOY VIP - HÀNG CHÍNH HÃNG" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="chai-xit-chong-xuat-tinh-som-playboy-vip-hang-chinh-hang.html"> CHAI XỊT CHỐNG XUẤT TINH SỚM PLAYBOY VIP -...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>390.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="chai-xit-chong-xuat-tinh-som-procomil-spray-keo-dai-thoi-gian-quan-he.html">
+                         <img src="thumb/230x165/2/upload/sanpham/untitled-3-1653.jpg" alt="CHAI XỊT CHỐNG XUẤT TINH SỚM PROCOMIL SPRAY - KÉO DÀI THỜI GIAN QUAN HỆ" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="chai-xit-chong-xuat-tinh-som-procomil-spray-keo-dai-thoi-gian-quan-he.html"> CHAI XỊT CHỐNG XUẤT TINH SỚM PROCOMIL SPRAY...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>450.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="thuoc-tang-cuong-sinh-ly-nam-vien-tempteure-100-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/temptcute-100-5433.png" alt="Thuốc tăng cường sinh lý nam viên Tempteure - 100 chính hãng" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="thuoc-tang-cuong-sinh-ly-nam-vien-tempteure-100-chinh-hang.html"> Thuốc tăng cường sinh lý nam viên Tempteure...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>250.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="chai-xit-chong-xuat-tinh-som-power-men-play-longer.html">
+                         <img src="thumb/230x165/2/upload/sanpham/chai-xit-chong-xuat-tinh-som-power-men-2376.png" alt="CHAI XỊT CHỐNG XUẤT TINH SỚM POWER MEN PLAY LONGER" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="chai-xit-chong-xuat-tinh-som-power-men-play-longer.html"> CHAI XỊT CHỐNG XUẤT TINH SỚM POWER MEN PLAY...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>180.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="thuoc-cuong-duong-majegra-100-an-do.html">
+                         <img src="thumb/230x165/2/upload/sanpham/thuoc-cuong-duong-majegra_100-8463.jpg" alt="THUỐC CƯỜNG DƯƠNG MAJEGRA 100 - ẤN DỘ" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="thuoc-cuong-duong-majegra-100-an-do.html"> THUỐC CƯỜNG DƯƠNG MAJEGRA 100 - ẤN DỘ</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>300.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="thuoc-cuong-duong-japan-tengsu-chinh-hang-lo-16-vien.html">
+                         <img src="thumb/230x165/2/upload/sanpham/thuoc-cuong-duong-japan-tengsu-6-6761.jpg" alt="Thuốc Cường Dương Japan Tengsu chính hãng ( lọ 16 viên)" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="thuoc-cuong-duong-japan-tengsu-chinh-hang-lo-16-vien.html"> Thuốc Cường Dương Japan Tengsu chính hãng...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>400.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="gel-boi-tron-danh-cho-nu.html">
+                         <img src="thumb/230x165/2/upload/sanpham/gel-boi-tron-excite-woman-1350.jpg" alt="GEL BÔI TRƠN  DÀNH CHO NỮ" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="gel-boi-tron-danh-cho-nu.html"> GEL BÔI TRƠN  DÀNH CHO NỮ</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>400.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-durex-sieu-mong-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/bao-cao-su-durex-fetherlite-ultima-hop-12-chiec-0155.jpg" alt="BAO CAO SU DUREX SIÊU MỎNG  -CHÍNH HÃNG" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-durex-sieu-mong-chinh-hang.html"> BAO CAO SU DUREX SIÊU MỎNG  -CHÍNH HÃNG</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>170.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="combo-2-hop-bao-cao-su-sagami-original-002-sieu-sieu-mong-cao-cap-hop-2-cai.html">
+                         <img src="thumb/230x165/2/upload/sanpham/bao-cao-su-sagami-original-0-02-sieu-mong-2c-9379.jpg" alt="combo 2 hôp Bao cao su Sagami Original 0.02 siêu siêu mỏng cao cấp (hộp 2 cái)" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="combo-2-hop-bao-cao-su-sagami-original-002-sieu-sieu-mong-cao-cap-hop-2-cai.html"> combo 2 hôp Bao cao su Sagami Original 0.02 siêu...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>200.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-sagami-original-001-sieu-mong-cao-cap-hop-5-cai-.html">
+                         <img src="thumb/230x165/2/upload/sanpham/bao-cao-su-sagami-original-0-5887.jpg" alt="Bao cao su Sagami Original 0.01 siêu mỏng cao cấp (hộp 5 cái )" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-sagami-original-001-sieu-mong-cao-cap-hop-5-cai-.html"> Bao cao su Sagami Original 0.01 siêu mỏng cao cấp...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>750.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="combo-2-chai-longtime-chong-xuat-tinh-som.html">
+                         <img src="thumb/230x165/2/upload/sanpham/download-(5)-6855.jpg" alt="combo 2 Chai longtime chống xuất tinh sớm" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="combo-2-chai-longtime-chong-xuat-tinh-som.html"> combo 2 Chai longtime chống xuất tinh sớm</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>160.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="thuoc-tri-yeu-sinh-ly-nam-pig-penis-chinh-hang-hop-12-vien.html">
+                         <img src="thumb/230x165/2/upload/sanpham/m3gew66h-2818.jpg" alt="Thuốc trị yếu sinh lý nam Pig Penis -chính hãng ( hộp 12 viên)" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="thuoc-tri-yeu-sinh-ly-nam-pig-penis-chinh-hang-hop-12-vien.html"> Thuốc trị yếu sinh lý nam Pig Penis -chính...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>550.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="thuoc-tang-cuong-sinh-li-ngua-thai-chinh-hang-vi-10-vien.html">
+                         <img src="thumb/230x165/2/upload/sanpham/thuoc-cuong-duong-ngua-thai-2019-0281.jpg" alt="THUÔC TĂNG CƯỜNG SINH LÍ NGỰA THÁI- chính hãng vỉ 10 viên" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="thuoc-tang-cuong-sinh-li-ngua-thai-chinh-hang-vi-10-vien.html"> THUÔC TĂNG CƯỜNG SINH LÍ NGỰA THÁI- chính...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>350.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-power-men-9-gan-gai-keo-dai-thoi-gian-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/0b8f6b87ea115801ecc3b4a871cd1349-3780.jpg" alt="BAO CAO SU  POWER MEN 9% gân gai kéo dài thời gian - CHÍNH HÃNG" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-power-men-9-gan-gai-keo-dai-thoi-gian-chinh-hang.html"> BAO CAO SU  POWER MEN 9% gân gai kéo dài thời...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>150.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-cao-cap-rezo-sieu-mong-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/bao-cao-su-rezo-sieu-mong-5883.png" alt="BAO CAO SU CAO CẤP REZO SIÊU MỎNG - CHÍNH HÃNG" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-cao-cap-rezo-sieu-mong-chinh-hang.html"> BAO CAO SU CAO CẤP REZO SIÊU MỎNG - CHÍNH H�...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>90.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-power-men-9-gan-gai-om-sat-keo-dai-thoi-gian-quan-he.html">
+                         <img src="thumb/230x165/2/upload/sanpham/3d385c36bc078273533728c874116308-6701.jpg" alt="BAO CAO SU POWER MEN 9% gân gai ôm sát kéo dài thời gian quan hệ" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-power-men-9-gan-gai-om-sat-keo-dai-thoi-gian-quan-he.html"> BAO CAO SU POWER MEN 9% gân gai ôm sát kéo dài...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>200.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-masculan-sieu-mong--chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/bao-cao-su-masculan-pursuperfinne-2018.png" alt="BAO CAO SU  MASCULAN  SIÊU MỎNG  - CHÍNH HÃNG" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-masculan-sieu-mong--chinh-hang.html"> BAO CAO SU  MASCULAN  SIÊU MỎNG  - CHÍNH HÃNG</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>160.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="am-dao-gia-hit-tuong-cao-cap-tang-chai-gel-ky.html">
+                         <img src="thumb/230x165/2/upload/sanpham/5c53b89e5bdea380facf-0879.jpg" alt="Âm dạo giả hít tường cao cấp + tặng chai gel KY" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="am-dao-gia-hit-tuong-cao-cap-tang-chai-gel-ky.html"> Âm dạo giả hít tường cao cấp + tặng chai...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>1.250.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="coc-am-dao-tang-chai-gel-ky.html">
+                         <img src="thumb/230x165/2/upload/sanpham/qing6-9088.jpg" alt="Cốc âm đạo + tặng chai gel ky" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="coc-am-dao-tang-chai-gel-ky.html"> Cốc âm đạo + tặng chai gel ky</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>320.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="den-pin-am-dao-gia-rung-cao-cap-tang-chai-gel-ky.html">
+                         <img src="thumb/230x165/2/upload/sanpham/am-dao-gia-gia-re-pink-pussy-nguy-trang-den-pin-9-3337.gif" alt="đèn pin âm đạo giả rung cao cấp + tặng chai gel ky" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="den-pin-am-dao-gia-rung-cao-cap-tang-chai-gel-ky.html"> đèn pin âm đạo giả rung cao cấp + tặng...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>680.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="den-pin-am-dao-gia-co-dieu-khien-7-cap-do-rung-tang-chai-gel-ky.html">
+                         <img src="thumb/230x165/2/upload/sanpham/full_img_am-dao-gia-den-pin-tinh-a255-8030.jpg" alt="Đèn pin âm đạo giả có điều khiển 7 cấp độ rung + tặng chai gel ky" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="den-pin-am-dao-gia-co-dieu-khien-7-cap-do-rung-tang-chai-gel-ky.html"> Đèn pin âm đạo giả có điều khiển 7 cấp...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>680.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="may-tap-tang-kich-thuoc-duong-vat-gauge-cao-cap-tang-gel-titan-phat-trien-duong-vat-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/2017110715271013-5673.jpg" alt="Máy tập tăng kích thước dương vật Gauge cao cấp + tặng gel titan phát triển dương vật chính hãng" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="may-tap-tang-kich-thuoc-duong-vat-gauge-cao-cap-tang-gel-titan-phat-trien-duong-vat-chinh-hang.html"> Máy tập tăng kích thước dương vật Gauge...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>1.350.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-powerman-ca-ngua.html">
+                         <img src="thumb/230x165/2/upload/sanpham/baocaosu_powermen-ca-ngua-2327.jpg" alt="Bao cao su Powerman Cá Ngựa " />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-powerman-ca-ngua.html"> Bao cao su Powerman Cá Ngựa </a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>100.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="gel-boi-tron-kly-chinh-hang-82-gr.html">
+                         <img src="thumb/230x165/2/upload/sanpham/gel-boi-tron-kly-3495.jpg" alt="Gel bôi trơn Kly chính hãng (82 gr)" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="gel-boi-tron-kly-chinh-hang-82-gr.html"> Gel bôi trơn Kly chính hãng (82 gr)</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>150.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="gel-boi-tron-ky-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/gel-boi-tron-ky-2719.jpg" alt="Gel bôi trơn Ky chính hãng" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="gel-boi-tron-ky-chinh-hang.html"> Gel bôi trơn Ky chính hãng</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>65.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="gel-boi-tron-durex-strawberry-chai-100ml-huong-dau--chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/gel-boi-tron-durex-strawberry-chai-100ml-huong-dau-1-822-2466.jpg" alt="GEL BÔI TRƠN DUREX STRAWBERRY CHAI 100ML HƯƠNG DÂU  -- chính hãng " />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="gel-boi-tron-durex-strawberry-chai-100ml-huong-dau--chinh-hang.html"> GEL BÔI TRƠN DUREX STRAWBERRY CHAI 100ML HƯƠNG...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>270.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="durex-play-cao-cap-massage-2-in-1-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/gel-boi-tron-cao-cap-cho-nu-massage-2-in-1-durex-play-1289-500x500-0050.jpg" alt="durex play cao cấp massage 2 in 1 chính hãng" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="durex-play-cao-cap-massage-2-in-1-chinh-hang.html"> durex play cao cấp massage 2 in 1 chính hãng</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>330.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-okamoto-dot-de-cool-so-1-nhat-ban-hop-10-cai-.html">
+                         <img src="thumb/230x165/2/upload/sanpham/4970520215863_1.u2409.d20160901.t152918.932011-7181.jpg" alt="bao cao su okamoto dot de cool số 1 nhật bản( hộp 10 cái )" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-okamoto-dot-de-cool-so-1-nhat-ban-hop-10-cai-.html"> bao cao su okamoto dot de cool số 1 nhật bản(...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>250.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="combo-bo-bao-cao-su-true-x-performax-hop-12-cai--hop-gai-bi-lon-6-kieu-khac-nhau-hop-6-cai.html">
+                         <img src="thumb/230x165/2/upload/sanpham/ba02f5ec66788226db69-3790.jpg" alt="Combo bộ bao cao su True - X performax ( hộp 12 cái ) + hộp gai bi  lớn 6 kiểu khác nhau ( hộp 6 cái" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="combo-bo-bao-cao-su-true-x-performax-hop-12-cai--hop-gai-bi-lon-6-kieu-khac-nhau-hop-6-cai.html"> Combo bộ bao cao su True - X performax ( hộp 12...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>270.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="chai-xit-thao-duoc-vinmax-chong-xuat-tinh-som-keo-dai-thoi-gian-quan-he.html">
+                         <img src="thumb/230x165/2/upload/sanpham/download-(19)-0066.jpg" alt="CHAI XỊT THẢO DƯỢC VINMAX CHỐNG XUẤT TINH SỚM KÉO DÀI THỜI GIAN QUAN HỆ " />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="chai-xit-thao-duoc-vinmax-chong-xuat-tinh-som-keo-dai-thoi-gian-quan-he.html"> CHAI XỊT THẢO DƯỢC VINMAX CHỐNG XUẤT TINH...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>500.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="combo-3-hop-bao-cao-su-okamo-purity-sieu-mong-nhat-ban.html">
+                         <img src="thumb/230x165/2/upload/sanpham/9407d9d103ce6f9c6bd2b3bfa1aa49f1-0205.jpg" alt="Combo 3 hộp Bao cao su okamo Purity siêu mỏng nhật bản" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="combo-3-hop-bao-cao-su-okamo-purity-sieu-mong-nhat-ban.html"> Combo 3 hộp Bao cao su okamo Purity siêu mỏng...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>300.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-okamo-purity-sieu-mong-nhat-ban.html">
+                         <img src="thumb/230x165/2/upload/sanpham/18d12938254b6e383d0f8819dde1db41-9230.jpg" alt="Bao cao su okamo Purity siêu mỏng nhật bản" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-okamo-purity-sieu-mong-nhat-ban.html"> Bao cao su okamo Purity siêu mỏng nhật bản</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>110.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="gel-titan-chinh-hang-nga-50ml.html">
+                         <img src="thumb/230x165/2/upload/sanpham/gel-titan-nga-gia-bao-nhieu-7861.jpg" alt="Gel titan chính hãng Nga - 50ml" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="gel-titan-chinh-hang-nga-50ml.html"> Gel titan chính hãng Nga - 50ml</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>550.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="may-massage-cao-cap-nalon.html">
+                         <img src="thumb/230x165/2/upload/sanpham/2ae9e6eacf45918e88684cbb19770266-1762.jpg" alt="MÁY MASSAGE CAO CẤP NALON" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="may-massage-cao-cap-nalon.html"> MÁY MASSAGE CAO CẤP NALON</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>Liên hệ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="duong-vat-gia-haloy-sac-dien-cao-cap-cua-usa.html">
+                         <img src="thumb/230x165/2/upload/sanpham/dv-gia-haloy-7281.jpg" alt="Dương vật giả Haloy sạc điện cao cấp của USA" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="duong-vat-gia-haloy-sac-dien-cao-cap-cua-usa.html"> Dương vật giả Haloy sạc điện cao cấp của...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>830.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-gai-bi-rau-lon-hop-6-cai.html">
+                         <img src="thumb/230x165/2/upload/sanpham/bao-cao-su-english-rumbo-hop-6-chiec(1)-4006.png" alt="Bao cao su gai bi râu lớn  hộp 6 cái " />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-gai-bi-rau-lon-hop-6-cai.html"> Bao cao su gai bi râu lớn  hộp 6 cái </a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>150.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="keo-ngam-hammer-chinh-hang-hop-10-vien-tang-cuong-sinh-li-cho-nam-gioi.html">
+                         <img src="thumb/230x165/2/upload/sanpham/keo-sam-hamer2-9563.jpg" alt="Kẹo ngậm HAMMER chính hãng (hộp 10 viên )-- tăng cường sinh lí cho nam giới " />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="keo-ngam-hammer-chinh-hang-hop-10-vien-tang-cuong-sinh-li-cho-nam-gioi.html"> Kẹo ngậm HAMMER chính hãng (hộp 10 viên )--...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>1.100.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-truex-performax--bao-cao-su-keo-dai-thoi-gian-quan-he-hop-12-cai.html">
+                         <img src="thumb/230x165/2/upload/sanpham/1eebf05dbec95a9703d8-3593.jpg" alt="Bao cao su True-x Performax  - bao cao su kéo dài thời gian quan hệ ( hộp 12 cái)" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-truex-performax--bao-cao-su-keo-dai-thoi-gian-quan-he-hop-12-cai.html"> Bao cao su True-x Performax  - bao cao su kéo dài...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>170.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="duong-vat-gia-prettylove-snapy.html">
+                         <img src="thumb/230x165/2/upload/sanpham/492ff38e19f2d72cca69e19250d106f0-0982.jpg" alt="Dương vật giả  Prettylove Snapy" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="duong-vat-gia-prettylove-snapy.html"> Dương vật giả  Prettylove Snapy</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>750.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-durex-fetherlite-hang-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/images-(3)-1846.jpg" alt=" Bao Cao Su Durex Fetherlite hàng chính hãng" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-durex-fetherlite-hang-chinh-hang.html">  Bao Cao Su Durex Fetherlite hàng chính hãng</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>170.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-durex-performa-keo-dai-thoi-gian-hang-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/bao-cao-su-durex-performa-hop-12-cai-2-9640.png" alt="Bao Cao Su Durex Performa kéo dài thời gian - hàng chính hãng" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-durex-performa-keo-dai-thoi-gian-hang-chinh-hang.html"> Bao Cao Su Durex Performa kéo dài thời gian - hàng...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>170.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-durex-invisible-extra-thin--hang-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/00010242-durex-invisible-extra-thin-10s-4991-5f62_large-7661.jpg" alt="BAO CAO SU Durex Invisible Extra Thin  - HÀNG CHÍNH HÃNG" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-durex-invisible-extra-thin--hang-chinh-hang.html"> BAO CAO SU Durex Invisible Extra Thin  - HÀNG CHÍNH...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>180.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="duong-vat-gia-sieu-rung-hinh-trai-chuoi-sac-dien-cao-cap.html">
+                         <img src="thumb/230x165/2/upload/sanpham/ms09_5-5546.jpg" alt="Dương vật giả siêu rung hình trái chuối sạc điện cao cấp" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="duong-vat-gia-sieu-rung-hinh-trai-chuoi-sac-dien-cao-cap.html"> Dương vật giả siêu rung hình trái chuối...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>820.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="chai-xit-thao-duoc-vip-men-keo-dai-thoi-gian-quan-he-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/z2348771217814_26e57606d1c0d7bb90818f64471faa1d-6502.jpg" alt="CHAI XỊT THẢO DƯỢC VIP MEN -KÉO DÀI THỜI GIAN QUAN HỆ (chính hãng)" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="chai-xit-thao-duoc-vip-men-keo-dai-thoi-gian-quan-he-chinh-hang.html"> CHAI XỊT THẢO DƯỢC VIP MEN -KÉO DÀI THỜI...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>450.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="gel-boi-tron-tang-khoai-cam-cho-nu-durex-climax-chinh-hang-10ml.html">
+                         <img src="thumb/230x165/2/upload/sanpham/04f533a74ce2b462be1c7a2db6b7294f-3470.jpg" alt="Gel bôi trơn tăng khoái cảm cho nữ Durex Climax chính hãng 10ml" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="gel-boi-tron-tang-khoai-cam-cho-nu-durex-climax-chinh-hang-10ml.html"> Gel bôi trơn tăng khoái cảm cho nữ Durex Climax...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>710.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-amo-hop-120-cai-hop.html">
+                         <img src="thumb/230x165/2/upload/sanpham/qnrlfgfl-7235.jpg" alt="BAO CAO SU AMO HỘP 120 CÁI / HỘP" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-amo-hop-120-cai-hop.html"> BAO CAO SU AMO HỘP 120 CÁI / HỘP</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>330.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-co-gai-hop-120-cai-.html">
+                         <img src="thumb/230x165/2/upload/sanpham/bao-cao-su-co-gai-nhat863-6552.jpg" alt="Bao cao su cô gái ( hộp 120 cái )" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-co-gai-hop-120-cai-.html"> Bao cao su cô gái ( hộp 120 cái )</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>150.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="combo-3-hop-bao-cao-su-sure-hop-12-cai.html">
+                         <img src="thumb/230x165/2/upload/sanpham/bao-cao-su-sure-do-7954.png" alt="combo 3 hộp bao cao su SURE (hộp 12 cái)" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="combo-3-hop-bao-cao-su-sure-hop-12-cai.html"> combo 3 hộp bao cao su SURE (hộp 12 cái)</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>150.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-power-men-sieu-mong-keo-dai-hop-12-cai-.html">
+                         <img src="thumb/230x165/2/upload/sanpham/super-thin-longer-12-6242.jpg" alt="Bao cao su power men siêu mỏng kéo dài ( hộp 12 cái )" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-power-men-sieu-mong-keo-dai-hop-12-cai-.html"> Bao cao su power men siêu mỏng kéo dài ( hộp...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>150.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-masculan-keo-dai-thoi-gian-quan-he-hop-10-cai-.html">
+                         <img src="thumb/230x165/2/upload/sanpham/f5f78506f254b82f62f33b40b9c79137-2325.jpg" alt="Bao cao su MASCULAN kéo dài thời gian quan hệ (hộp 10 cái )" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-masculan-keo-dai-thoi-gian-quan-he-hop-10-cai-.html"> Bao cao su MASCULAN kéo dài thời gian quan hệ...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>180.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-sagami-original-002-sieu-mong-cao-cap-hop-6-cai-.html">
+                         <img src="thumb/230x165/2/upload/sanpham/images-(9)-0542.jpg" alt="Bao cao su Sagami Original 0.02 siêu mỏng cao cấp (hộp 6 cái )" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-sagami-original-002-sieu-mong-cao-cap-hop-6-cai-.html"> Bao cao su Sagami Original 0.02 siêu mỏng cao cấp...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>250.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-sagami-original-002-sieu-sieu-mong-hop-12-cai.html">
+                         <img src="thumb/230x165/2/upload/sanpham/a1820e24947b8851ed84dcaf8313477c-5699.jpg" alt="Bao cao su Sagami Original 0.02 siêu siêu mỏng  hộp 12 cái" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-sagami-original-002-sieu-sieu-mong-hop-12-cai.html"> Bao cao su Sagami Original 0.02 siêu siêu mỏng...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>510.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="duong-vat-gia-ailighter-tu-thut-silicon-mem-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/2018-10-15-1712.jpg" alt="Dương vật giả  Ailighter - tự thụt, silicon mềm (chính hãng)" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="duong-vat-gia-ailighter-tu-thut-silicon-mem-chinh-hang.html"> Dương vật giả  Ailighter - tự thụt, silicon...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>1.650.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="kem-giup-quan-he-lau-ra-o-nam-gioi-emla-5-chinh-hang-thuy-sy-1-hop-5-tuyp.html">
+                         <img src="thumb/230x165/2/upload/sanpham/kem-emla-5-chong-xuat-tinh-som-5-(1)-6664.jpg" alt="Kem Giúp Quan Hệ Lâu Ra Ở Nam Giới Emla 5% Chính Hãng Thụy Sỹ ( 1 hộp 5 tuyp)" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="kem-giup-quan-he-lau-ra-o-nam-gioi-emla-5-chinh-hang-thuy-sy-1-hop-5-tuyp.html"> Kem Giúp Quan Hệ Lâu Ra Ở Nam Giới Emla 5%...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>450.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="chai-xit-chong-xuat-tinh-som-dynamo-delay-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/2aa8f3d9424da613ff5c-9594.jpg" alt="chai xịt chống xuất tinh sớm DYNAMO DELAY chính hãng" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="chai-xit-chong-xuat-tinh-som-dynamo-delay-chinh-hang.html"> chai xịt chống xuất tinh sớm DYNAMO DELAY chính...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>500.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="thuoc-maxman-thao-duoc-ho-tro-sinh-li-nam-3800mg-vi-12-vien.html">
+                         <img src="thumb/230x165/2/upload/sanpham/maxman4_natural_male_enhancement-3367.jpg" alt="Thuôc maxman thảo dược hỗ trợ sinh lí nam 3800mg ( vỉ 12 viên)" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="thuoc-maxman-thao-duoc-ho-tro-sinh-li-nam-3800mg-vi-12-vien.html"> Thuôc maxman thảo dược hỗ trợ sinh lí nam...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>350.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="combo-2-hop-bao-cao-su-super-gold-gan-gai-lon-nhat-ban-hop-2-cai.html">
+                         <img src="thumb/230x165/2/upload/sanpham/0f6b00817215964bcf04-3075.jpg" alt="combo 2 hộp bao cao su Super Gold Gân, Gai lớn nhật bản ( hộp 2 cái)" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="combo-2-hop-bao-cao-su-super-gold-gan-gai-lon-nhat-ban-hop-2-cai.html"> combo 2 hộp bao cao su Super Gold Gân, Gai lớn...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>100.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="gel-inno-chinh-hang-100g.html">
+                         <img src="thumb/230x165/2/upload/sanpham/d11ba3a8bceda00d0a1c88b6ab34b624-8241.jpg" alt="Gel inno chính hãng 100g" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="gel-inno-chinh-hang-100g.html"> Gel inno chính hãng 100g</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>150.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-don-den-maxman-25cm-30-cm-mau-ngau-nhien.html">
+                         <img src="thumb/230x165/2/upload/sanpham/bcs-donzen-maxman-tang-kich-thuoc-cau-nho-them-3-phan-anh-1-4102.jpg" alt="bao cao su đôn dên maxman 25cm -30 cm( mẫu ngẫu nhiên)" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-don-den-maxman-25cm-30-cm-mau-ngau-nhien.html"> bao cao su đôn dên maxman 25cm -30 cm( mẫu ngẫu...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>250.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-don-gai-mau-ngau-nhien-.html">
+                         <img src="thumb/230x165/2/upload/sanpham/bao-cao-su-don-den2-3594.jpg" alt="BAO CAO SU ĐÔN GAI (mẫu ngẫu nhiên )" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-don-gai-mau-ngau-nhien-.html"> BAO CAO SU ĐÔN GAI (mẫu ngẫu nhiên )</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>150.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-don-gai-bi.html">
+                         <img src="thumb/230x165/2/upload/sanpham/6fd28bf69ee48f0109c7b34310926f81-1346.jpg" alt="bao cao su đôn gai bi" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-don-gai-bi.html"> bao cao su đôn gai bi</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>150.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-don-maxman-50-cm-mau-ngau-nhien-gan-gai-bi-don-dai-to.html">
+                         <img src="thumb/230x165/2/upload/sanpham/bcs-donzen-maxman-tang-kich-thuoc-cau-nho-them-3-phan-anh-01-7635.jpg" alt="bao cao su đôn maxman 50 cm ( mẫu ngẫu nhiên) gân- gai- bi- đôn dài to" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-don-maxman-50-cm-mau-ngau-nhien-gan-gai-bi-don-dai-to.html"> bao cao su đôn maxman 50 cm ( mẫu ngẫu nhiên)...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>270.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-okamoto-001-chinh-hang-hop-4c.html">
+                         <img src="thumb/230x165/2/upload/sanpham/bcsokamota-2638.jpg" alt="bao cao su  OKAMOTO 001 chính hãng< hộp 4c>" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-okamoto-001-chinh-hang-hop-4c.html"> bao cao su  OKAMOTO 001 chính hãng< hộp 4c></a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>340.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="bao-cao-su-okamoto-001-hop-2-cai-chinh-hang.html">
+                         <img src="thumb/230x165/2/upload/sanpham/fc1a3208de0d3cc1a20df347ff5a7b4c-(1)-3800-2120.png" alt="bao cao su  OKAMOTO 001 hộp 2 cái  chính hãng" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="bao-cao-su-okamoto-001-hop-2-cai-chinh-hang.html"> bao cao su  OKAMOTO 001 hộp 2 cái  chính hãng</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>180.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		        	<div class="box_sp">
+            
+                        
+            	<div class="img_sp">
+                    <a href="may-massage-2-trung-rung-dau-cam-sac-usb-mau-ngau-nhien.html">
+                         <img src="thumb/230x165/2/upload/sanpham/66f13759bad2408c19c3-7458.jpg" alt="máy massage 2 trứng rung đầu cắm sạc USB < màu ngẫu nhiên>" />
+                    </a>
+                 </div><!--img_sp-->
+                
+                
+                    <h3><a href="may-massage-2-trung-rung-dau-cam-sac-usb-mau-ngau-nhien.html"> máy massage 2 trứng rung đầu cắm sạc USB...</a></h3>
+                    
+                    <p class="sp_gia">
+						                        <span class="giamoi motgia">Giá: <b>410.000 vnđ</b></span>
+                                            </p>
+                     <div class="clear"></div>
+               
+                <div class="clear"></div>
+            </div>
+            
+		      
+    </div><!--load-->
+    <div class="clear"></div>
+</div><!--wap_1200-->			</div><!---END #wap_sp-->
+				
+		
+		<div id="main_content">
+			<div class="wap_1200">
+				
+				<script type="text/javascript">
+	function load_danhmucc1(id,id_c1){
+		var id=id;
+		var id_c1=id_c1;
+		$('#load_dmc1'+id_c1).load('ajax/load_sp.php?id='+id+'&id_c1='+id_c1);
+		//alert('id='+id+'id_c1='+id_c1);
+	}
+</script>
+
+
+    <style type="text/css">
+       .tieude_l0{ background:url(upload/sanpham/bg_tieude2-2962-9845.jpg) no-repeat; height:46px; line-height:46px; text-align: center; background-size:100% 100%;}
+       .tieude_l0 a{text-decoration: none; color:#fff; font-size:13px;font-family: 'roboto_slabbold'; text-transform: uppercase;}
+       .l_sp20{ border-right: solid 2px #000000}
+   </style>
+
+
+   <div class=" l_sp l_sp20">
+       <div class="tieude_l0"><a href="thuoc-tang-cuong-sinh-ly-nam.html">THUỐC TĂNG CƯỜNG SINH LÝ NAM</a></div>
+
+       <ul>
+                        <li><a onclick="load_danhmucc1(115,19)">thuốc tăng cường sinh lí maxman</a></li>
+                      <li><a onclick="load_danhmucc1(110,19)">thuốc tăng cường sinh lí big penis</a></li>
+                      <li><a onclick="load_danhmucc1(102,19)">Kẹo ngậm hammer - tăng cường sinh lí cho nam </a></li>
+                      <li><a onclick="load_danhmucc1(88,19)">Thuốc Tengsu chính hãng -tăng cường sinh lí cho nam</a></li>
+                      <li><a onclick="load_danhmucc1(73,19)">Thuốc cường dương Majegra 100</a></li>
+                      <li><a onclick="load_danhmucc1(40,19)">Thuốc tăng cường sinh lý nam viên TEMPTEURE - 100</a></li>
+                      <li><a onclick="load_danhmucc1(43,19)">Thuốc tăng cường sinh lý nam viên ngựa thái</a></li>
+                      <li><a onclick="load_danhmucc1(44,19)">Thuốc tăng cường sinh lý nam viên tadalafil </a></li>
+              </ul>
+ </div><!--l_sp-->
+
+
+ <div class="r_sp">
+   <div class="wap_item" id="load_dmc119">
+
+    <div class="container_19">
+        <script type="text/javascript">
+            $(document).ready(function() {
+                loadData1(1,19,0,'noibat','.container_19');
+            });
+        </script>
+    </div>
+
+    </div><!--wap_item-->
+
+</div><!--r_sp-->
+<div class="clear"></div>
+<div class="banner_qc">
+    <a href="thuoc-tang-cuong-sinh-ly-nam.html">
+    <img width="100%" src="upload/sanpham/" alt="THUỐC TĂNG CƯỜNG SINH LÝ NAM">
+    </a>
+</div>
+
+    <style type="text/css">
+       .tieude_l1{ background:url(upload/sanpham/bg_tieude2-2962-7408.jpg) no-repeat; height:46px; line-height:46px; text-align: center; background-size:100% 100%;}
+       .tieude_l1 a{text-decoration: none; color:#fff; font-size:13px;font-family: 'roboto_slabbold'; text-transform: uppercase;}
+       .l_sp21{ border-right: solid 2px #000000}
+   </style>
+
+
+   <div class=" l_sp l_sp21">
+       <div class="tieude_l1"><a href="chai-xit-chong-xuat-tinh-som.html">CHAI XỊT CHỐNG XUẤT TINH SỚM </a></div>
+
+       <ul>
+                        <li><a onclick="load_danhmucc1(121,14)">Chai xịt thảo dược vip men </a></li>
+                      <li><a onclick="load_danhmucc1(97,14)">Chai xịt chống xuất tinh sớm Vinmax tốt nhất tại Canada</a></li>
+                      <li><a onclick="load_danhmucc1(91,14)">Kem Bôi Quan Hệ Lâu Ra Emla 5%</a></li>
+                      <li><a onclick="load_danhmucc1(90,14)">Chai xịt Quan Hệ Lâu Ra Dynamo Nhập Khẩu Hoa Kỳ</a></li>
+                      <li><a onclick="load_danhmucc1(89,14)">Chai Xịt Chống Xuất Tinh Sớm Long Time </a></li>
+                      <li><a onclick="load_danhmucc1(30,14)">CHAI XỊT CHỐNG XUẤT TINH SỚM VIGA 50000</a></li>
+                      <li><a onclick="load_danhmucc1(31,14)">CHAI XỊT CHỐNG XUẤT TINH SỚM PLAYBOY VIP</a></li>
+                      <li><a onclick="load_danhmucc1(50,14)">CHAI XỊT CHỐNG XUẤT TINH SỚM PROCOMIL SPRAY</a></li>
+                      <li><a onclick="load_danhmucc1(51,14)">CHAI XỊT CHỐNG XUẤT TINH SỚM STUD 100 </a></li>
+                      <li><a onclick="load_danhmucc1(52,14)">CHAI XỊT CHÔNG XUẤT TINH SỚM PLAYBOY THƯỜNG</a></li>
+                      <li><a onclick="load_danhmucc1(53,14)">CHAI XỊT CHỐNG XUẤT TINH SỚM POWER MEN</a></li>
+                      <li><a onclick="load_danhmucc1(54,14)">CHAI XỊT CHỐNG XUẤT TINH SỚM SUPER VIGA ĐỨC</a></li>
+              </ul>
+ </div><!--l_sp-->
+
+
+ <div class="r_sp">
+   <div class="wap_item" id="load_dmc114">
+
+    <div class="container_14">
+        <script type="text/javascript">
+            $(document).ready(function() {
+                loadData1(1,14,0,'noibat','.container_14');
+            });
+        </script>
+    </div>
+
+    </div><!--wap_item-->
+
+</div><!--r_sp-->
+<div class="clear"></div>
+<div class="banner_qc">
+    <a href="chai-xit-chong-xuat-tinh-som.html">
+    <img width="100%" src="upload/sanpham/" alt="CHAI XỊT CHỐNG XUẤT TINH SỚM ">
+    </a>
+</div>
+
+    <style type="text/css">
+       .tieude_l2{ background:url(upload/sanpham/bg_tieude1-9320-8249.jpg) no-repeat; height:46px; line-height:46px; text-align: center; background-size:100% 100%;}
+       .tieude_l2 a{text-decoration: none; color:#fff; font-size:13px;font-family: 'roboto_slabbold'; text-transform: uppercase;}
+       .l_sp22{ border-right: solid 2px #000000}
+   </style>
+
+
+   <div class=" l_sp l_sp22">
+       <div class="tieude_l2"><a href="do-choi-massage-nam-nu.html">ĐỒ CHƠI MASSAGE  NAM - NỮ</a></div>
+
+       <ul>
+                        <li><a onclick="load_danhmucc1(114,22)">Dương vật giả HongKong Ailighter - tự thụt, silicon mềm</a></li>
+                      <li><a onclick="load_danhmucc1(101,22)">Lưỡi rung massge điểm G</a></li>
+                      <li><a onclick="load_danhmucc1(99,22)">Dương vật giả Haloy sạc điện </a></li>
+                      <li><a onclick="load_danhmucc1(67,22)">King kong massage kích thích điểm G</a></li>
+                      <li><a onclick="load_danhmucc1(63,22)">Dương vật giả sạc pin hình quả chuối đa chức năng - Rung cực khoái</a></li>
+                      <li><a onclick="load_danhmucc1(62,22)">Dương vật giả Pretty Love </a></li>
+              </ul>
+ </div><!--l_sp-->
+
+
+ <div class="r_sp">
+   <div class="wap_item" id="load_dmc122">
+
+    <div class="container_22">
+        <script type="text/javascript">
+            $(document).ready(function() {
+                loadData1(1,22,0,'noibat','.container_22');
+            });
+        </script>
+    </div>
+
+    </div><!--wap_item-->
+
+</div><!--r_sp-->
+<div class="clear"></div>
+<div class="banner_qc">
+    <a href="do-choi-massage-nam-nu.html">
+    <img width="100%" src="upload/sanpham/" alt="ĐỒ CHƠI MASSAGE  NAM - NỮ">
+    </a>
+</div>
+
+    <style type="text/css">
+       .tieude_l3{ background:url(upload/sanpham/tieude1-3500-8804.jpg) no-repeat; height:46px; line-height:46px; text-align: center; background-size:100% 100%;}
+       .tieude_l3 a{text-decoration: none; color:#fff; font-size:13px;font-family: 'roboto_slabbold'; text-transform: uppercase;}
+       .l_sp23{ border-right: solid 2px #000000}
+   </style>
+
+
+   <div class=" l_sp l_sp23">
+       <div class="tieude_l3"><a href="do-choi-tinh-duc-nam-gioi.html">ĐỒ CHƠI TÌNH DỤC NAM GIỚI</a></div>
+
+       <ul>
+                        <li><a onclick="load_danhmucc1(61,18)">MÁY TẬP TO DƯƠNG VẬT - CHÍNH HÃNG</a></li>
+                      <li><a onclick="load_danhmucc1(48,18)">ÂM ĐẠO GIẢ DÀNH CHO NAM - CHÍNH HÃNG</a></li>
+              </ul>
+ </div><!--l_sp-->
+
+
+ <div class="r_sp">
+   <div class="wap_item" id="load_dmc118">
+
+    <div class="container_18">
+        <script type="text/javascript">
+            $(document).ready(function() {
+                loadData1(1,18,0,'noibat','.container_18');
+            });
+        </script>
+    </div>
+
+    </div><!--wap_item-->
+
+</div><!--r_sp-->
+<div class="clear"></div>
+<div class="banner_qc">
+    <a href="do-choi-tinh-duc-nam-gioi.html">
+    <img width="100%" src="upload/sanpham/" alt="ĐỒ CHƠI TÌNH DỤC NAM GIỚI">
+    </a>
+</div>
+
+    <style type="text/css">
+       .tieude_l4{ background:url(upload/sanpham/tieude1-3500-8804-91930.jpg) no-repeat; height:46px; line-height:46px; text-align: center; background-size:100% 100%;}
+       .tieude_l4 a{text-decoration: none; color:#fff; font-size:13px;font-family: 'roboto_slabbold'; text-transform: uppercase;}
+       .l_sp24{ border-right: solid 2px #000000}
+   </style>
+
+
+   <div class=" l_sp l_sp24">
+       <div class="tieude_l4"><a href="bao-cao-su-don-den-gai-gan-bi-lon.html">BAO CAO SU ĐÔN DÊN - GAI GÂN BI LỚN</a></div>
+
+       <ul>
+                        <li><a onclick="load_danhmucc1(118,29)">bao cao su đôn dên</a></li>
+                      <li><a onclick="load_danhmucc1(117,29)">bao cao su gai gân bi lớn </a></li>
+              </ul>
+ </div><!--l_sp-->
+
+
+ <div class="r_sp">
+   <div class="wap_item" id="load_dmc129">
+
+    <div class="container_29">
+        <script type="text/javascript">
+            $(document).ready(function() {
+                loadData1(1,29,0,'noibat','.container_29');
+            });
+        </script>
+    </div>
+
+    </div><!--wap_item-->
+
+</div><!--r_sp-->
+<div class="clear"></div>
+<div class="banner_qc">
+    <a href="bao-cao-su-don-den-gai-gan-bi-lon.html">
+    <img width="100%" src="upload/sanpham/" alt="BAO CAO SU ĐÔN DÊN - GAI GÂN BI LỚN">
+    </a>
+</div>
+
+    <style type="text/css">
+       .tieude_l5{ background:url(upload/sanpham/bg_tieude1-9320-1169.jpg) no-repeat; height:46px; line-height:46px; text-align: center; background-size:100% 100%;}
+       .tieude_l5 a{text-decoration: none; color:#fff; font-size:13px;font-family: 'roboto_slabbold'; text-transform: uppercase;}
+       .l_sp25{ border-right: solid 2px #000000}
+   </style>
+
+
+   <div class=" l_sp l_sp25">
+       <div class="tieude_l5"><a href="bao-cao-su.html">BAO CAO SU</a></div>
+
+       <ul>
+                        <li><a onclick="load_danhmucc1(120,16)">bao cao su  OKAMOTO 001 hộp 2 cái </a></li>
+                      <li><a onclick="load_danhmucc1(119,16)">bao cao su  OKAMOTO 001 hộp 4 cái </a></li>
+                      <li><a onclick="load_danhmucc1(113,16)">BAO CAO SU POWER MEN SIÊU MỎNG KÉO DÀI</a></li>
+                      <li><a onclick="load_danhmucc1(112,16)">bao cao su khách sạn giá rẻ.</a></li>
+                      <li><a onclick="load_danhmucc1(109,16)">BAO CAO SU Durex Invisible Extra Thin</a></li>
+                      <li><a onclick="load_danhmucc1(108,16)">Bao Cao Su Durex Performa hộp 12 cái</a></li>
+                      <li><a onclick="load_danhmucc1(107,16)"> Bao Cao Su Durex Fetherlite hộp 12 cái</a></li>
+                      <li><a onclick="load_danhmucc1(104,16)">Bao cao su True-x Performax</a></li>
+                      <li><a onclick="load_danhmucc1(98,16)">Bao cao su okamoto Purity</a></li>
+                      <li><a onclick="load_danhmucc1(95,16)">Bao cao su True-x Performax</a></li>
+                      <li><a onclick="load_danhmucc1(94,16)">bao cao su okamoto DOT DE COOL</a></li>
+                      <li><a onclick="load_danhmucc1(86,16)">Bao cao su Sagami Original 0.01 siêu mỏng</a></li>
+                      <li><a onclick="load_danhmucc1(85,16)">Bao cao su Sagami Original 0.02 siêu siêu mỏng </a></li>
+                      <li><a onclick="load_danhmucc1(84,16)">Bao cao su Strong Men Siêu mỏng</a></li>
+                      <li><a onclick="load_danhmucc1(79,16)">Bao cao su Powermen Cá Ngựa 5% hàng chính hãng</a></li>
+                      <li><a onclick="load_danhmucc1(66,16)">BAO CAO SU POWER MEN CÁ NGỰA 9%  -CHÍNH HÃNG</a></li>
+                      <li><a onclick="load_danhmucc1(26,16)">BAO CAO SU DUREX</a></li>
+                      <li><a onclick="load_danhmucc1(27,16)">BAO CAO SU  STRONG MEN GÂN GAI</a></li>
+                      <li><a onclick="load_danhmucc1(28,16)">BAO CAO SU REZO SIÊU MỎNG</a></li>
+                      <li><a onclick="load_danhmucc1(29,16)">BAO CAO SU POWER MEN 9% GAI GÂN ÔM SÁT - CHÍNH HÃNG</a></li>
+                      <li><a onclick="load_danhmucc1(60,16)">BAO CAO SU MASCULAN </a></li>
+              </ul>
+ </div><!--l_sp-->
+
+
+ <div class="r_sp">
+   <div class="wap_item" id="load_dmc116">
+
+    <div class="container_16">
+        <script type="text/javascript">
+            $(document).ready(function() {
+                loadData1(1,16,0,'noibat','.container_16');
+            });
+        </script>
+    </div>
+
+    
+    </div><!--wap_item-->
+
+</div><!--r_sp-->
+<div class="clear"></div>
+<div class="banner_qc">
+    <a href="bao-cao-su.html">
+    <img width="100%" src="upload/sanpham/banner-thanh-toan-tien-loi1_1-4916.jpg" alt="BAO CAO SU">
+    </a>
+</div>
+
+    <style type="text/css">
+       .tieude_l6{ background:url(upload/sanpham/tieude1-3500-6141.jpg) no-repeat; height:46px; line-height:46px; text-align: center; background-size:100% 100%;}
+       .tieude_l6 a{text-decoration: none; color:#fff; font-size:13px;font-family: 'roboto_slabbold'; text-transform: uppercase;}
+       .l_sp26{ border-right: solid 2px #000000}
+   </style>
+
+
+   <div class=" l_sp l_sp26">
+       <div class="tieude_l6"><a href="gel-boi-tron.html">GEL BÔI TRƠN</a></div>
+
+       <ul>
+                        <li><a onclick="load_danhmucc1(111,15)">gel tăng khoái cảm climax</a></li>
+                      <li><a onclick="load_danhmucc1(83,15)">Gel bôi trơn durex play cao cấp massage 2 in 1</a></li>
+                      <li><a onclick="load_danhmucc1(82,15)">GEL BÔI TRƠN DUREX STRAWBERRY CHAI 100ML HƯƠNG DÂU</a></li>
+                      <li><a onclick="load_danhmucc1(81,15)">Gel bôi trơn Ky</a></li>
+                      <li><a onclick="load_danhmucc1(78,15)">Gen Làm Hồng Và Se Khít Vùng Kín Eve Cream In Rose</a></li>
+                      <li><a onclick="load_danhmucc1(69,15)">Gel bôi trơn inno chính hãng</a></li>
+                      <li><a onclick="load_danhmucc1(34,15)">GEL BÔI TRƠN  TĂNG KHOÁI CẢM CHO NỮ</a></li>
+                      <li><a onclick="load_danhmucc1(35,15)">GEL TĂNG KHOÁI CẢM CHO NỮ</a></li>
+              </ul>
+ </div><!--l_sp-->
+
+
+ <div class="r_sp">
+   <div class="wap_item" id="load_dmc115">
+
+    <div class="container_15">
+        <script type="text/javascript">
+            $(document).ready(function() {
+                loadData1(1,15,0,'noibat','.container_15');
+            });
+        </script>
+    </div>
+
+    </div><!--wap_item-->
+
+</div><!--r_sp-->
+<div class="clear"></div>
+<div class="banner_qc">
+    <a href="gel-boi-tron.html">
+    <img width="100%" src="upload/sanpham/" alt="GEL BÔI TRƠN">
+    </a>
+</div>
+
+    <style type="text/css">
+       .tieude_l7{ background:url(upload/sanpham/tieude2-7794-9840.jpg) no-repeat; height:46px; line-height:46px; text-align: center; background-size:100% 100%;}
+       .tieude_l7 a{text-decoration: none; color:#fff; font-size:13px;font-family: 'roboto_slabbold'; text-transform: uppercase;}
+       .l_sp27{ border-right: solid 2px #000000}
+   </style>
+
+
+   <div class=" l_sp l_sp27">
+       <div class="tieude_l7"><a href="gel-phat-trien-duong-vat.html">GEL PHÁT TRIỂN DƯƠNG VẬT</a></div>
+
+       <ul>
+                        <li><a onclick="load_danhmucc1(105,17)">GEL TITAN GOLD CHÍNH HÃNG</a></li>
+                      <li><a onclick="load_danhmucc1(41,17)">GEL TITAN CHÍNH HÃNG</a></li>
+                      <li><a onclick="load_danhmucc1(42,17)">GEL TITAN MAX MAN</a></li>
+              </ul>
+ </div><!--l_sp-->
+
+
+ <div class="r_sp">
+   <div class="wap_item" id="load_dmc117">
+
+    <div class="container_17">
+        <script type="text/javascript">
+            $(document).ready(function() {
+                loadData1(1,17,0,'noibat','.container_17');
+            });
+        </script>
+    </div>
+
+    </div><!--wap_item-->
+
+</div><!--r_sp-->
+<div class="clear"></div>
+<div class="banner_qc">
+    <a href="gel-phat-trien-duong-vat.html">
+    <img width="100%" src="upload/sanpham/" alt="GEL PHÁT TRIỂN DƯƠNG VẬT">
+    </a>
+</div>
+
+<div class="clear"></div> 
+				
+				<div class="clear"></div>
+			</div>
+		</div><!---END #main_content-->
+		
+		<div id="doitac">
+			
+<div class="wap_1200">
+	<div class="title_dt"><span>Logo nhà đối tác</span></div>
+<div class="doitac">	
+	    	<a href="" title="" target="_blank">
+       
+        <img src="timthumb.php?src=upload/hinhanh/5fd1b9cbcd91484f8da2129fa2e119f2-9365.jpg&h=90&w=135&zc=2&q=50"  alt="logo1">
+
+        </a>
+        	<a href="" title="" target="_blank">
+       
+        <img src="timthumb.php?src=upload/hinhanh/appota_original-2433.jpg&h=90&w=135&zc=2&q=50"  alt="logo2">
+
+        </a>
+        	<a href="" title="" target="_blank">
+       
+        <img src="timthumb.php?src=upload/hinhanh/^bea770c95e4a7cd8118dfa8ae46a5d776e082e528726281588^pimgpsh_fullsize_distr-9437.jpg&h=90&w=135&zc=2&q=50"  alt="logo3">
+
+        </a>
+        	<a href="" title="" target="_blank">
+       
+        <img src="timthumb.php?src=upload/hinhanh/logo-nam-a-0411-1270-8460.jpg&h=90&w=135&zc=2&q=50"  alt="logo4">
+
+        </a>
+        	<a href="" title="" target="_blank">
+       
+        <img src="timthumb.php?src=upload/hinhanh/logo--hdbank-5955-6693-6986.gif&h=90&w=135&zc=2&q=50"  alt="logo5">
+
+        </a>
+        	<a href="" title="" target="_blank">
+       
+        <img src="timthumb.php?src=upload/hinhanh/donga-2253-3326-7225.jpg&h=90&w=135&zc=2&q=50"  alt="logo6">
+
+        </a>
+        	<a href="" title="" target="_blank">
+       
+        <img src="timthumb.php?src=upload/hinhanh/acb-7343-4395-7582.jpg&h=90&w=135&zc=2&q=50"  alt="logo7">
+
+        </a>
+        	<a href="" title="" target="_blank">
+       
+        <img src="timthumb.php?src=upload/hinhanh/20474684051286945210-3410-8863-8379.JPG&h=90&w=135&zc=2&q=50"  alt="logo8">
+
+        </a>
+    </div>
+</div>
+			<div class="clear"></div>
+		</div><!---END #menu_bottom-->
+	</div><!---END #wapper-->
+
+	<div id="bottom">
+		<ul class="footer-ser">
+    <div class="wap_1200">
+    <li class="ser-gia-tot-nhat">
+        <img src="images/ser-gia-tot-nhat.png" alt="icon1" />
+    </li>
+     <li class="ser-giao-hang">
+         <img src="images/ser-giao-hang.png" alt="icon2" />
+    </li>
+   
+    <li class="ser-giao-hang">
+         <img src="images/ser-doi-tra-hang.png" alt="icon3" />
+    </li>
+    <li class="ser-doi-tra-hang">
+         <img src="images//ser-tu-van.png" alt="icon4" />
+    </li>
+    <li class="ser-tu-van">
+         <img src="images/ser-ho-tro.png" alt="icon5" />
+    </li>
+  </div>
+</ul>
+<div class="wap_1200">
+	<div class="bottom1">
+       <div class="tieude_giua">Liên kết mạng xã hội</div>
+
+       <div class="main_connect">
+                      <a href="https://www.youtube.com/" target="_blank"><img src="upload/khac/icon_youtube-3224-1778.jpg"  title="Youtobe"/></a>
+                    <a href="https://plus.google.com/u/1/" target="_blank"><img src="upload/khac/icon_gg-6272-7160.jpg"  title="Goog+"/></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="upload/khac/icon_fb-1829-6265.jpg"  title="Lược thích"/></a>
+            </div><!--main_connect-->
+</div><!--bottom1-->
+<div class="clear"></div>
+
+<div class="bottom2">
+   <div class="box1">
+       <div class="title_bt">Về chúng tôi</div>
+
+       <div class="box_chung">
+           <ul>
+                           <li><a href="shop-bao-cao-su-cao-cap-quan-2.html">SHOP BAO CAO SU CAO CẤP QUẬN 2</a></li>
+                          <li><a href="thuoc-quan-he-lau-ra-danh-cho-nam-gioi.html">Thuốc Quan Hệ Lâu Ra Dành Cho Nam Giới</a></li>
+                          <li><a href="chai-xit-thuoc-quan-he-lau-ra-stud-100-thang-hoa-trong-cam-xuc.html">Chai Xịt Thuốc Quan Hệ Lâu Ra Stud 100 Thăng Hoa Trong Cảm Xúc</a></li>
+                          <li><a href="cong-ty-cung-cap-bao-cao-su-cho-nha-nghi-khach-san.html">CÔNG TY CUNG CẤP BAO CAO SU CHO NHÀ NGHỈ - KHÁCH SẠN</a></li>
+                          <li><a href="keo-sam-hamer-nguoi-ban-dong-hanh-cung-hanh-phuc-thang-hoa.html">Kẹo sâm hamer người bạn đồng hành cùng hạnh phúc thăng hoa</a></li>
+                  </ul>
+   </div><!--box_chung-->
+</div>
+
+<div class="box2">
+   <div class="title_bt">Điều khoản - chính sách</div>
+
+   <div class="box_chung">
+       <ul>
+                   <li><a href="chinh-sach-doi-tra.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
+                  <li><a href="hinh-thuc-thanh-toan.html">HÌNH THỨC THANH TOÁN</a></li>
+                  <li><a href="tra-hang-va-hoan-tra.html">TRẢ HÀNG VÀ HOÀN TRẢ</a></li>
+                  <li><a href="thong-tin-chu-so-huu-website.html">Thông tin chủ sở hữu website</a></li>
+                  <li><a href="chinh-sach-bao-mat-thong-tin.html">Chính sách bảo mật thông tin</a></li>
+          </ul>
+</div><!--box_chung-->
+</div>
+
+<div class="box3">
+   <div class="title_bt">Hướng dẫn sử dụng</div>
+
+   <div class="box_chung">
+       <ul>
+                   <li><a href="tu-van.html">TƯ VẤN </a></li>
+                  <li><a href="huong-dan-dat-hang.html">HƯỚNG DẪN ĐẶT HÀNG</a></li>
+          </ul>
+</div><!--box_chung-->
+</div>
+
+<div class="box4">
+   <div class="title_bt">Thời gian bán hàng</div>
+
+   <div class="info_bt4">
+
+    <p>8h sáng - 24h tối.(Từ Thứ 2 đến Chủ Nhật)</p>
+
+    <h5>Hotline: <span>0783 730 604</span></h5>
+</div><!--info_bt4-->
+
+<div class="main_dknt">
+  <div class="title_bt">Đăng ký nhận tin</div>
+
+  <script type="text/javascript" language="javascript">
+	$(document).ready(function(e) {
+		$('#email_nhantin').click(function(){
+			if($(this).val()=='Nhập email của bạn...')
+			{
+				$(this).val('');
+			}
+			return false;
+		});
+		$('#email_nhantin').blur(function(){
+			if($(this).val()=='')
+			{
+				$(this).val('Nhập email của bạn...');
+			}
+			return false;
+		});
+	});
+	function nhantin(){
+		if(isEmpty($('#email_nhantin').val(), "Nhập email"))
+			{
+				$('#email_nhantin').focus();
+				return false;
+			}
+			if(isEmail($('#email_nhantin').val(), "Email không hợp lệ"))
+			{
+				$('#email_nhantin').focus();
+				return false;
+			}	
+		document.frm_dknt.submit();
+	}
+</script>
+
+
+<form name="frm_dknt" id="frm_dknt" method="post" action="" >
+    <input type="text" name="email_nhantin" id="email_nhantin" value="Nhập email của bạn..." />
+    <input type="button" name="submit_nhantin" id="submit_nhantin" onclick="nhantin()" value="Gửi" />
+</form>
+
+
+</div><!--main_dknt-->
+</div>
+</div><!--bottom2-->
+<div class="clear"></div>
+</div>
+<div class="clear"></div>		<div class="clear"></div>
+	</div><!---END #bottom-->
+	<div class="clear"></div>
+
+	<div id="wap_footer">
+		
+<div id="footer">
+	<div class="box_ft">
+		<h1 style="margin: 3px 0px; padding: 0px; outline: none; color: rgb(0, 0, 0); font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px;"><strong><span style="font-size: 20px;">SHOP BAO CAO SU CAO CẤP </span></strong></h1>
+
+<p style="margin: 3px 0px; padding: 0px; outline: none; color: rgb(0, 0, 0); font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px;"><span style="font-size: 14px; font-family: sans-serif, Arial, Verdana, " trebuchet="">Địa chỉ: </span><span style="font-size: 14px;">333 Nguyễn Duy Trinh, Phường Bình Trưng Tây, Quận 2, TP. HCM</span><br />
+<span style="font-size: 14px; font-family: sans-serif, Arial, Verdana, " trebuchet="">Email: nguyenthithu865@gmail.com</span><br />
+<span style="font-size: 14px; font-family: sans-serif, Arial, Verdana, " trebuchet="">Skype/Yahoo:</span><br />
+<span style="font-size: 14px; font-family: sans-serif, Arial, Verdana, " trebuchet="">Tel: Mr.Cường</span><span style="font-size: 14px; color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, " trebuchet=""> </span><span style="font-size: 14px; font-family: sans-serif, Arial, Verdana, " trebuchet=""><strong style="font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; margin: 0px; padding: 0px; outline: none;"><span style="margin: 0px; padding: 0px; outline: none;">0904533102 - 01283730604</span></strong></span></p>
+
+<p style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; appearance: none; color: rgb(33, 37, 41); font-family: GoogleSansRegular, Roboto; font-size: 15px;"><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 20px;"><span new="" style="box-sizing: border-box; margin: 0px; padding: 0px; font-family: " times="">Số chứng nhận đăng ký kinh doanh : 41B8014794</span></span></p>
+
+<p style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; appearance: none; color: rgb(33, 37, 41); font-family: GoogleSansRegular, Roboto; font-size: 15px;"><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 20px;"><span new="" style="box-sizing: border-box; margin: 0px; padding: 0px; font-family: " times="">Ngày cấp : 02/01/2020</span></span></p>
+
+<p style="box-sizing: border-box; margin: 0px 0px 10px; padding: 0px; appearance: none; color: rgb(33, 37, 41); font-family: GoogleSansRegular, Roboto; font-size: 15px;"><span style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 20px;"><span new="" style="box-sizing: border-box; margin: 0px; padding: 0px; font-family: " times="">Do : Sở KH & ĐT TPHCM cấp </span></span></p>
+	</div>
+	    	<div class="box_ft">
+        	<h3>SHOP BAO CAO SU CAO CAP - Chi Nhánh 1</h3>
+            
+            <span>333 Nguyễn Duy Trinh, Phường Bình Trưng Tây, Quận 2, TP. HCM <br> SĐT:  078 3730 604
+	
+</span>
+            <a target="bank" style="color: inherit;text-decoration: none;cursor: none;position: absolute;z-index:  -999999999;left:  -1000%;" href="https://dongduocvn.com/tu-van/thuoc-lam-se-khit-vung-kin-tot-nhat-32.html" title="se khít vùng kín">se khít vùng kín</a>
+            <p><a href="shop-bao-cao-su-cao-cap-chi-nhanh-1.html">Xem bản đồ</a></p>
+        </div>
+        	<div class="box_ft">
+        	<h3>SHOP BAO CAO SU CAO CAP - Chi Nhánh 2</h3>
+            
+            <span>318 Nguyễn Thị Định, Phường Thạnh  Mỹ Lợi, Quận 2, TP. HCM <br> SĐT: 078 3730 604</span>
+            <a target="bank" style="color: inherit;text-decoration: none;cursor: none;position: absolute;z-index:  -999999999;left:  -1000%;" href="https://dongduocvn.com/tu-van/thuoc-lam-se-khit-vung-kin-tot-nhat-32.html" title="se khít vùng kín">se khít vùng kín</a>
+            <p><a href="shop-bao-cao-su-cao-cap-chi-nhanh-2.html">Xem bản đồ</a></p>
+        </div>
+        <div class="clear"></div>
+</div><!---END #footer--> 
+
+
+
+<a id="btn-zalo" href="https://zalo.me/0783730604" target="_blank">
+    <div class="animated infinite zoomIn kenit-alo-circle"></div>
+    <div class="animated infinite pulse kenit-alo-circle-fill"></div>
+    <i><img class="shake-anim" src="images/icon-zalo2.png" alt="Zalo"></i>
+  </a>	</div><!---END #footer--> 
+<div class="copy-right">
+	
+    	2016 Copyright © SHOP BAO CAO SU CAO CẤP QUẬN 2. Web Design by Nina.vn
+        <div class="clear"></div>    
+    
+</div>	
+		<div class="directions_message">
+		<ul>
+			
+			<li class="goidien nhay_dt"><a class="link_title blink_me ui-link" href="tel:0783 730 604">Gọi điện</a></li>
+			<li class="nhantin"><a class="link_title ui-link" target="_blank" href="sms:0783 730 604">SMS</a></li> 
+			<li class="chiduong"><a class="link_title ui-link" href="lien-he.html">Chỉ đường</a></li>
+			<div class="clear"></div>      
+		</ul>
+	</div><!--directions_message--> 
+
+	<script type="text/javascript" src="css/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js" ></script>
+<script type="text/javascript" src="js/my_script.js"></script>
+<script src="js/plugins-scroll.js" type="text/javascript" ></script>
+<link href="fontawesome/css/font-awesome.css" type="text/css" rel="stylesheet" />
+
+ <link rel="stylesheet" href="ajax_paging/ajax.css" />
+	<script src="ajax_paging/paging.js" type="text/javascript"></script>
+ <script type="text/javascript">
+	$(document).ready(function(){
+	$('.doitac').slick({
+	  	lazyLoad: 'progressive',
+		pauseOnHover:true,//Rê chuột vào đúng lại
+		infinite: true,
+		accessibility:true,
+		slidesToShow: 8,    //Số item hiển thị
+		slidesToScroll: 1, //Số item cuộn khi chạy
+		autoplay:true,  //Tự động chạy			
+		autoplaySpeed:2500,  //Tốc độ chạy giữa 2 ảnh
+		speed:2500,//tốc độ hiệu ứng chuyển ảnh
+		arrows:true, //Hiển thị mũi tên
+		centerMode:false,  //item nằm giữa
+		dots:false,  //Hiển thị dấu chấm
+		draggable:true,  //Kích hoạt tính năng kéo chuột
+	  responsive: [
+		{
+		  breakpoint: 1025,
+		  settings: {
+			slidesToShow: 6,
+			slidesToScroll: 1,
+			infinite: true,
+			dots: false
+		  }
+		},
+		{
+		  breakpoint: 801,
+		  settings: {
+			slidesToShow: 4,
+			slidesToScroll: 1
+		  }
+		},
+		{
+		  breakpoint: 601,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 1
+		  }
+		}
+	  ]
+	});
+});
+
+$(document).ready(function() {
+  $('.form_timkiem').submit(function(event) {
+    var keywords = $('.form_timkiem input').val();
+  
+    if(keywords=='')
+    {
+      alert('Bạn chưa nhập từ khóa tìm kiếm . ');
+
+    } 
+    else 
+    {
+
+      window.location.href = 'tim-kiem&keyword='+keywords+'.html';
+    }
+    return false;
+  });
+});
+  var heaigt_header = $('#header').height() + $('#box-top').height();
+  $(window).bind("scroll", function () {
+    var cach_top = $(window).scrollTop();
+    if (cach_top >= heaigt_header) {
+      if (!$('#menu .menu').hasClass('fix_head')) {
+        $('#menu .menu').addClass('fix_head');
+      }
+    } else {
+      $('#menu .menu').removeClass('fix_head');
+    }
+  });
+
+   var heaigt_header1 = $('#header').height() + $('#box-top').height();
+  $(window).bind("scroll", function () {
+    var cach_top = $(window).scrollTop();
+    if (cach_top >= heaigt_header1) {
+      if (!$('#menu_mobi .header').hasClass('fix_head')) {
+        $('#menu_mobi .header').addClass('fix_head');
+      }
+    } else {
+      $('#menu_mobi .header').removeClass('fix_head');
+    }
+  });
+
+  $(document).ready(function() {
+  	
+  
+  $('.title_danhmuc').hover(function() {
+    $(this).find('#danhmuc').slideDown(100);
+  }, function() {
+    $(this).find('#danhmuc').slideUp(100);
+  });
+  $('.danhmucsp > ul > li').hover(function(){
+    var vitri = $(this).position().top;
+    $('.danhmucsp > ul > li > .wap_ddmouth_menu').css({'top':vitri+'px'})
+  });  
+  });
+</script>
+
+
+ <script type="text/javascript">
+	$(document).ready(function(){
+	$('.content_load').slick({
+	  	lazyLoad: 'progressive',
+		pauseOnHover:true,//Rê chuột vào đúng lại
+		infinite: true,
+		accessibility:true,
+		slidesToShow: 4,    //Số item hiển thị
+		slidesToScroll: 1, //Số item cuộn khi chạy
+		autoplay:true,  //Tự động chạy			
+		autoplaySpeed:2500,  //Tốc độ chạy giữa 2 ảnh
+		speed:2500,//tốc độ hiệu ứng chuyển ảnh
+		arrows:true, //Hiển thị mũi tên
+		centerMode:false,  //item nằm giữa
+		dots:false,  //Hiển thị dấu chấm
+		draggable:true,  //Kích hoạt tính năng kéo chuột
+	  responsive: [
+		{
+		  breakpoint: 1025,
+		  settings: {
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			infinite: true,
+			dots: false
+		  }
+		},
+		{
+		  breakpoint: 801,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 1
+		  }
+		},
+		{
+		  breakpoint: 601,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+		  }
+		}
+	  ]
+	});
+
+
+$('body').on('click', '.AddToCart', function(event) {
+  event.preventDefault();
+  var pid=$(this).attr('data-id');
+  var soluong=$('#qty').val();
+  if(!soluong) soluong=1;
+  $.ajax ({
+    type: "POST",
+    url: "ajax/add_giohang.php",
+    dataType : 'json',
+    data: {pid:pid,soluong:soluong},
+    success: function(result) { 
+      $('.num_cart').html(result.count);
+      $('.soluong_e').html(result.count);
+      if(result.html!='') {
+        $('.cart_wrapper table tbody').append(result.html);
+        $('#total_price_popup').html(result.tonggia);
+      }
+      else
+      {
+        $('.cart-'+pid).find('.product_quantity').val(result.soluong);
+        $('.cart-'+pid).find('.price_total').html(result.tongtien);
+        $('#total_price_popup').html(result.tonggia);
+      }
+      $('#myModal').modal('show');
+    }
+  });
+});
+ $('body').on('click', '.btnAddToCart', function(event) {
+    event.preventDefault();
+    var pid=$(this).attr('data-id');
+    var soluong=$('#qty').val();
+    if(!soluong) soluong=1;
+    $.ajax ({
+      type: "POST",
+      url: "ajax/add_giohang.php",
+      dataType : 'json',
+      data: {pid:pid,soluong:soluong},
+      success: function(result) { 
+        window.location.href="thanh-toan.html";
+      }
+    });
+  });
+
+
+});
+	
+function updownqty(type)
+{
+  var soluong=$('.qty-text').val();
+  if(type=='up')
+  {
+    soluong++;
+    $('.qty-text').val(soluong);
+  }
+  if(type=='down')
+  {
+    if(soluong > 1)
+    {
+      soluong--;
+      $('.qty-text').val(soluong);
+    }
+  }
+}
+</script>
+
+<script type="text/javascript" src="js/slick.min.js"></script>
+
+<!--Tooltip hình ảnh-->
+<script type="text/javascript" src="js/ImageTooltip.js"></script>
+<!--Tooltip hình ảnh-->
+
+<script type="text/javascript" src="js/ImageScroller.js"></script>
+
+<!--Thêm alt cho hình ảnh-->
+<script type="text/javascript">
+	$(document).ready(function(e) {
+        $('img').each(function(index, element) {
+			if(!$(this).attr('alt') || $(this).attr('alt')=='')
+			{
+				$(this).attr('alt','SHOP BAO CAO SU CAO CẤP QUẬN 2');
+			}
+        });
+    });
+</script>
+<!--Thêm alt cho hình ảnh-->
+
+<!--Tim kiem-->
+<script language="javascript"> 
+    function doEnter(evt){
+	var key;
+	if(evt.keyCode == 13 || evt.which == 13){
+		onSearch(evt);
+	}
+	}
+	function onSearch(evt) {			
+	
+			var keyword = document.getElementById("keyword").value;
+			if(keyword=='' || keyword=='Nhập từ khóa tìm kiếm...')
+			{
+				alert('Bạn chưa nhập từ khóa tìm kiếm');
+			}
+			else{
+				location.href = "tim-kiem.html&keyword="+keyword;
+				loadPage(document.location);			
+			}
+		}		
+</script>   
+<!--Tim kiem-->
+
+
+
+
+<!-- CSS -->
+        
+<!-- FancyBox -->
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/jquery.fancybox-buttons.js"></script>
+<script src="js/jquery.fancybox-thumbs.js"></script>
+<script src="js/jquery.easing-1.3.pack.js"></script>
+<script src="js/jquery.mousewheel-3.0.6.pack.js"></script>	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PGPLD8C"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+	</body>
+	</html>

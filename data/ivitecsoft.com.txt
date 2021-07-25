@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ivitecSoft, chứng thư số, chữ ký số">
+    <meta property="og:image" content="https://ivitecsoft.com/portal.jpg">
+    <link rel="icon" href="icon.png">
+    <title>ivitecSoft</title>
+    <link rel="stylesheet" href="ivi_v2.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body class="">
+    <nav class="navbar sticky-top navbar-dark page-color" >
+        <div class="container pl-0">
+            <div class="col-12 col-md-4">
+                
+                <a class="navbar-brand ivitecsoft-brand" href="/index.html">
+                    ivitecSoft
+                </a>
+            </div>
+            <div class="col-12 col-md-8 justify-content-end d-none d-md-flex text-white">
+                Đơn giản hóa hệ thống phức tạp
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row mb-5">
+            <div class="col-12 p-0">
+                <img src="cover.png" alt="" width="100%" style="max-height: 400px; object-fit: cover;" class="sd">
+            </div>
+        </div>
+    </div>
+    <div class="ivitecsoft-body">
+       
+        <div class="container scroll-container">
+          
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h3 class="d-flex align-items-center">Bạn muốn?</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-3">
+                    
+                    <a class="ivitecsoft-card border-color-1" href="chung-thu-so.html">
+                        <img src="usb.png" height="60px"  alt="" class="mr-3">
+                        <div>Mua chứng thư số</div> 
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 justify-content-center align-items-center mb-3">
+                    <a class="ivitecsoft-card border-color-2" href="yeu-cau-tu-van.html">
+                        <img src="tech.png" height="60px"  alt="" class="mr-3">
+                        <div>Yêu cầu tư vấn</div> 
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mb-3">
+                    
+                    <a class="ivitecsoft-card border-color-3" href="gioi-thieu.html">
+                        <img src="explore.jpg" height="60px"  alt="" class="mr-3">
+                        <div>Tìm hiểu về công ty</div> 
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 justify-content-center align-items-center mb-3">
+                    <a class="ivitecsoft-card border-color-4" href="lien-he.html">
+                        <img src="location.png" height="60px"  alt="" class="mr-3">
+                        <div>Liên hệ</div> 
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+    <a class="zalo-icon" href="https://zalo.me/3103520833355779810" target="_blank">
+        Zalo
+    </a>
+<ul class="fireflies">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+      <li></li>
+  </ul>
+  <div class="container-fluid page-color ivitecsoft-footer" >
+    <div class="container pl-0 pt-4">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <table class="text-white table table-borderless">
+                    <tr>
+                     <td>Email</td>
+                     <td>sale@ivitecsoft.com</td>
+                     </tr>
+                     <tr>
+                         <td>Điện thoại</td>
+                         <td>094 946 3083</td>
+                     </tr>
+                     <tr>
+                         <td>Địa chỉ</td>
+                         <td>Tầng 2, Oriental Plaza, 685 Âu Cơ, P. Tân Thành, Q. Tân Phú, TP. HCM</td>
+                     </tr>
+                </table>
+             </div>
+             <div class="col-12 col-md-4 justify-content-center align-items-center  d-flex flex-column text-white">
+                 <div class="mb-3">Quét mã Zalo</div>
+                 <img src="qr-zalo.jpg" width="80%" class="sd" alt="">
+             </div>
+        </div>
+       
+    </div>
+</div>
+ </body>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155738121-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155738121-1');
+</script>
+<!-- Messenger Chat Plugin Code -->
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "415023029229942");
+  chatbox.setAttribute("attribution", "biz_inbox");
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v10.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<div class="zalo-chat-widget" data-oaid="3103520833355779810" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="350" data-height="420"></div>
+
+<script src="https://sp.zalo.me/plugins/sdk.js"></script>
+</body>
+</html>

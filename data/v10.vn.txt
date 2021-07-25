@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>V10 - Cổng thông tin toàn cầu</title>
+        <meta property="og:title" content="V10 - Cổng thông tin toàn cầu"/>
+        <meta property="og:site_name" content="V10 - Cổng thông tin toàn cầu"/><meta name="description" content="V10 hướng tới xây dựng một Cổng thông tin toàn cầu - Chia sẻ văn hoá - Lan toả yêu thương. Một nơi mang đến cơ hội vươn tới đỉnh cao tri thức trong thời đại công nghệ số"/>
+        <meta property="og:description" content="V10 hướng tới xây dựng một Cổng thông tin toàn cầu - Chia sẻ văn hoá - Lan toả yêu thương. Một nơi mang đến cơ hội vươn tới đỉnh cao tri thức trong thời đại công nghệ số"/><meta property="og:image" content="/assets/images/landing_page/image_cover_landing-page.png"/>
+        <meta property="og:image:secure_url" content="/assets/images/landing_page/image_cover_landing-page.png"/><link rel="canonical" href="https://vnm.v10.vn"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="VNM"/>
+    <meta property="og:image:width" content="1252"/>
+    <meta property="og:image:height" content="616"/>
+    <meta name="revisit-after" content="1 days"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://vnm.v10.vn/assets/css/landing-page.css">
+        <style>[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid] {display: none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+<body>
+    <header wire:id="tYk6brXSj5XYiZJyrQiL" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;tYk6brXSj5XYiZJyrQiL&quot;,&quot;name&quot;:&quot;landing-page.header&quot;,&quot;locale&quot;:&quot;vi&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;76e5a11e&quot;,&quot;data&quot;:{&quot;languages&quot;:[{&quot;id&quot;:&quot;60ee68c510c1317e26604243&quot;,&quot;language&quot;:&quot;Vi\u1ec7t Nam&quot;,&quot;active&quot;:1,&quot;acronym&quot;:&quot;VNM&quot;,&quot;id_custom&quot;:100000,&quot;text_by_language&quot;:&quot;Ti\u1ebfng Vi\u1ec7t&quot;,&quot;icon&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/_1626237123619_30216.png&quot;},{&quot;id&quot;:&quot;60ee68c510c1317e26604244&quot;,&quot;language&quot;:&quot;Nh\u1eadt B\u1ea3n&quot;,&quot;active&quot;:1,&quot;acronym&quot;:&quot;JPN&quot;,&quot;id_custom&quot;:100001,&quot;text_by_language&quot;:&quot;\u65e5\u672c\u8a9e&quot;,&quot;icon&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/_1626237123987_15253.png&quot;},{&quot;id&quot;:&quot;60ee68c510c1317e26604245&quot;,&quot;language&quot;:&quot;\u0110\u00e0i Loan&quot;,&quot;active&quot;:1,&quot;acronym&quot;:&quot;TWN&quot;,&quot;id_custom&quot;:100002,&quot;text_by_language&quot;:&quot;\u4e2d\u6587&quot;,&quot;icon&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/_1626237124302_65599.png&quot;},{&quot;id&quot;:&quot;60ee68c510c1317e26604246&quot;,&quot;language&quot;:&quot;H\u00e0n Qu\u1ed1c&quot;,&quot;active&quot;:1,&quot;acronym&quot;:&quot;KOR&quot;,&quot;id_custom&quot;:100003,&quot;text_by_language&quot;:&quot;\ud55c\uad6d\uc5b4&quot;,&quot;icon&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/_1626237124676_95684.png&quot;},{&quot;id&quot;:&quot;60ee68c510c1317e26604247&quot;,&quot;language&quot;:&quot;Ch\u00e2u \u00c2u&quot;,&quot;active&quot;:1,&quot;acronym&quot;:&quot;EUR&quot;,&quot;id_custom&quot;:100004,&quot;text_by_language&quot;:&quot;English&quot;,&quot;icon&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/_1626237124979_37332.png&quot;}],&quot;language_active&quot;:{&quot;id&quot;:&quot;60ee68c510c1317e26604243&quot;,&quot;language&quot;:&quot;Vi\u1ec7t Nam&quot;,&quot;active&quot;:1,&quot;acronym&quot;:&quot;VNM&quot;,&quot;id_custom&quot;:100000,&quot;text_by_language&quot;:&quot;Ti\u1ebfng Vi\u1ec7t&quot;,&quot;icon&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/_1626237123619_30216.png&quot;}},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;13d3d38ee1844f9e48fe0ad67106c2cdd0869aed335e7efa1e52dd10faa63371&quot;}}" class="header_ctrl bg-white shadow" x-data={}>
+    <div class="container">
+        <div class="row justify-content-between align-items-center" style="padding: 15px 10px">
+            <div class="logo">
+                <a href="https://VNM.v10.vn" title="Trang chủ">
+                    <img class="mr-2" src="https://vnm.v10.vn/assets/images/landing_page/logo.png" alt="logo">
+                    <span class="text-body">V10</span>
+                </a>
+            </div>
+            <div>
+                <div class="main_menu d-flex align-items-center justify-content-end text-uppercase">
+                    <ul class="nav d-flex align-items-center">
+                        <li class="px-4">
+                            <a class="text-body" href="https://VNM.v10.vn" title="Trang chủ">Trang chủ</a>
+                        </li>
+                        <li class="px-4"><a class="text-body" href="#" title="#">Giới thiệu</a></li>
+                        <li class="px-4"><a class="text-body" href="#news">Tin tức</a></li>
+                        <li class="px-4"><a class="text-body" href="https://v10.vn/admin" title="page-admin">Đăng nhập</a></li>
+                    </ul>
+                    <a class="phone" href="#scroll" title="Gọi ngay">
+                        <div class="d-flex align-items-center bg-danger rounded-pill text-white">
+                            Kết nối ngay
+                            <span class="ml-2 rounded-circle d-flex align-items-center justify-content-center">
+                                <img src="https://vnm.v10.vn/assets/images/landing_page/phone.png" alt="phone"/>
+                            </span>
+                        </div>
+                    </a>
+
+                    <div class="language_ctrl position-relative ml-3">
+                        <div class="btn rounded-lg px-3 py-2 d-flex align-items-center bg-light border">
+                            <img src="https://vnm.v10.vn/assets/images/landing_page/VN.png" alt="VNM"/>
+                            <span>VNM</span>
+                        </div>
+                        <div class="dropdown_menu position-absolute pt-2 rounded shadow-lg bg-light">
+                                                            <a :class="{
+                                        'dropdown_item d-flex align-items-center px-3 py-2 text-uppercase': true,
+                                        'text-body': false,
+                                        'active text-light': true,
+                                        'rounded-top': true,
+                                        'rounded-bottom': false
+                                    }"
+                                    href="https://VNM.v10.vn">
+                                    <img src="https://storage.googleapis.com/v10-dev/_1626237123619_30216.png" alt="VNM"
+                                        class="mr-2"/>
+                                    <span>VNM</span>
+                                </a>
+                                                            <a :class="{
+                                        'dropdown_item d-flex align-items-center px-3 py-2 text-uppercase': true,
+                                        'text-body': true,
+                                        'active text-light': false,
+                                        'rounded-top': false,
+                                        'rounded-bottom': false
+                                    }"
+                                    href="https://JPN.v10.vn">
+                                    <img src="https://storage.googleapis.com/v10-dev/_1626237123987_15253.png" alt="JPN"
+                                        class="mr-2"/>
+                                    <span>JPN</span>
+                                </a>
+                                                            <a :class="{
+                                        'dropdown_item d-flex align-items-center px-3 py-2 text-uppercase': true,
+                                        'text-body': true,
+                                        'active text-light': false,
+                                        'rounded-top': false,
+                                        'rounded-bottom': false
+                                    }"
+                                    href="https://TWN.v10.vn">
+                                    <img src="https://storage.googleapis.com/v10-dev/_1626237124302_65599.png" alt="TWN"
+                                        class="mr-2"/>
+                                    <span>TWN</span>
+                                </a>
+                                                            <a :class="{
+                                        'dropdown_item d-flex align-items-center px-3 py-2 text-uppercase': true,
+                                        'text-body': true,
+                                        'active text-light': false,
+                                        'rounded-top': false,
+                                        'rounded-bottom': false
+                                    }"
+                                    href="https://KOR.v10.vn">
+                                    <img src="https://storage.googleapis.com/v10-dev/_1626237124676_95684.png" alt="KOR"
+                                        class="mr-2"/>
+                                    <span>KOR</span>
+                                </a>
+                                                            <a :class="{
+                                        'dropdown_item d-flex align-items-center px-3 py-2 text-uppercase': true,
+                                        'text-body': true,
+                                        'active text-light': false,
+                                        'rounded-top': false,
+                                        'rounded-bottom': true
+                                    }"
+                                    href="https://EUR.v10.vn">
+                                    <img src="https://storage.googleapis.com/v10-dev/_1626237124979_37332.png" alt="EUR"
+                                        class="mr-2"/>
+                                    <span>EUR</span>
+                                </a>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <div>
+        <section wire:id="absZXJQiHkrJt7XJdHky" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;absZXJQiHkrJt7XJdHky&quot;,&quot;name&quot;:&quot;landing-page.home.index&quot;,&quot;locale&quot;:&quot;vi&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:{&quot;9XSkxFl&quot;:{&quot;id&quot;:&quot;sj16xoa3WfIidMYbIOIE&quot;,&quot;tag&quot;:&quot;section&quot;},&quot;5D7RNp6&quot;:{&quot;id&quot;:&quot;3sGmh9cz7HBpDA2lH6Ez&quot;,&quot;tag&quot;:&quot;section&quot;},&quot;VmeMZyA&quot;:{&quot;id&quot;:&quot;2Fg0CuvCcxqls45NVw9C&quot;,&quot;tag&quot;:&quot;div&quot;},&quot;njqKqqL&quot;:{&quot;id&quot;:&quot;UW2KyW9qlQxDTUruHimq&quot;,&quot;tag&quot;:&quot;div&quot;}},&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;58ca1a54&quot;,&quot;data&quot;:{&quot;description_about&quot;:&quot;D\u00f9 b\u1ea1n l\u00e0 ai? \u1ede b\u1ea5t c\u1ee9 n\u01a1i \u0111\u00e2u tr\u00ean th\u1ebf gi\u1edbi? B\u1ea1n th\u00edch du l\u1ecbch tr\u1ea3i nghi\u1ec7m, h\u1ecdc t\u1eadp, l\u00e0m vi\u1ec7c, kh\u00e1m ph\u00e1 n\u1ec1n v\u0103n h\u00f3a c\u00e1c qu\u1ed1c gia - V10 t\u1ef1 tin v\u1edbi n\u1ec1n t\u1ea3ng c\u00f4ng ngh\u1ec7 s\u1ed1, \u0111\u1ea1i di\u1ec7n gi\u00fap b\u1ea1n k\u1ebft n\u1ed1i th\u00f4ng qua c\u00e1c ti\u1ec7n \u00edch th\u00f4ng minh, \u0111a d\u1ea1ng, d\u1ec5 d\u00e0ng s\u1eed d\u1ee5ng \u0111\u1ec3 r\u00fat ng\u1eafn t\u1ed1i \u0111a kho\u1ea3ng c\u00e1ch t\u01b0\u01a1ng lai.&quot;,&quot;background_about&quot;:&quot;\/assets\/images\/landing_page\/bg-banner.png&quot;,&quot;statistics&quot;:{&quot;total&quot;:1541,&quot;done&quot;:1275,&quot;studyed&quot;:1505,&quot;partnerV10&quot;:140,&quot;order&quot;:32,&quot;country&quot;:5},&quot;text_info&quot;:&quot;V10 h\u01b0\u1edbng t\u1edbi x\u00e2y d\u1ef1ng m\u1ed9t C\u1ed5ng th\u00f4ng tin to\u00e0n c\u1ea7u - Chia s\u1ebb v\u0103n ho\u00e1 - Lan to\u1ea3 y\u00eau th\u01b0\u01a1ng. M\u1ed9t n\u01a1i mang \u0111\u1ebfn c\u01a1 h\u1ed9i v\u01b0\u01a1n t\u1edbi \u0111\u1ec9nh cao tri th\u1ee9c trong th\u1eddi \u0111\u1ea1i c\u00f4ng ngh\u1ec7 s\u1ed1. Gi\u00fap th\u1ebf h\u1ec7 m\u1edbi n\u1eafm tr\u1ecdn th\u1ebf gi\u1edbi Ki\u1ebfn th\u1ee9c ngh\u1ec1 nghi\u1ec7p - Ch\u00eca kho\u00e1 th\u00f4ng minh quy\u1ebft \u0111\u1ecbnh t\u01b0\u01a1ng lai c\u1ee7a c\u00e1c em&quot;,&quot;image_info&quot;:&quot;\/assets\/images\/landing_page\/info-img.png&quot;,&quot;hotline_adv&quot;:&quot;02436374388&quot;,&quot;mail_adv&quot;:&quot;contact@v10.vn&quot;,&quot;background_adv&quot;:&quot;\/assets\/images\/landing_page\/main-advantage-2.png&quot;},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;ca1c1074cf4b7a047a4b183cde54143e24aafdcd815f16c856fecd7025d660b0&quot;}}" class="about_ctrl" style="background: url(/assets/images/landing_page/bg-banner.png) no-repeat right">
+    <div class="container">
+        <div class="d-flex align-items-center text_about">
+            <div class="inner_text">
+                <div class="main_title mb-0">
+                    <h2>Cổng thông tin toàn cầu</h2>
+                </div>
+                <div class="description mb-4 text-muted text-justify">
+                    Dù bạn là ai? Ở bất cứ nơi đâu trên thế giới? Bạn thích du lịch trải nghiệm, học tập, làm việc, khám phá nền văn hóa các quốc gia - V10 tự tin với nền tảng công nghệ số, đại diện giúp bạn kết nối thông qua các tiện ích thông minh, đa dạng, dễ dàng sử dụng để rút ngắn tối đa khoảng cách tương lai.
+                </div>
+                <div class="inner_button d-inline-block">
+                    <a class="d-flex align-items-center bg-danger text-uppercase text-white px-3 py-2 rounded-pill"
+                        href="#" title="#">Tìm hiểu thêm 
+                        <span class="d-flex align-items-center justify-content-center rounded-circle ml-3">
+                            <img src="/assets/images/landing_page/arrow-down.png" alt="arrow-down">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="statistical_ctrl">
+    <div class="container">
+        <div class="d-flex justify-content-between body_statistical_ctrl align-items-center">
+            <div>
+                <div class="card_icon d-flex align-items-center">
+                    <img class="mr-2" src="/assets/images/landing_page/hands-helping.png" alt="hands-helping"/>
+                    <span>140</span>
+                </div>
+                <span class="text-dark">Đối tác liên kết</span>
+            </div>
+            <div>
+                <div class="card_icon d-flex align-items-center">
+                    <img class="mr-2" src="/assets/images/landing_page/user-friends.png" alt="user-friends"/>
+                    <span>1.541</span>
+                </div>
+                <span class="text-dark">Đã nộp hồ sơ</span>
+            </div>
+            <div>
+                <div class="card_icon d-flex align-items-center">
+                    <img class="mr-2" src="/assets/images/landing_page/chalkboard-teacher.png" alt="chalkboard-teacher"/>
+                    <span>1.505</span>
+                </div>
+                    <span class="text-dark">Đang đào tạo</span>
+            </div>
+            <div>
+                <div class="card_icon d-flex align-items-center">
+                    <img class="mr-2" src="/assets/images/landing_page/plane-departure.png" alt="plane-departure"/>
+                    <span>1.275</span>
+                </div>
+                <span class="text-dark">Đã nhận việc</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="info_ctrl my-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-6">
+                <div class="item_img">
+                    <div class="img">
+                        <img src="/assets/images/landing_page/info-img.png" alt="info" class="img-fluid"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6">
+                <div class="item_text text-dark text-justify pl-3">
+                    V10 hướng tới xây dựng một Cổng thông tin toàn cầu - Chia sẻ văn hoá - Lan toả yêu thương. Một nơi mang đến cơ hội vươn tới đỉnh cao tri thức trong thời đại công nghệ số. Giúp thế hệ mới nắm trọn thế giới Kiến thức nghề nghiệp - Chìa khoá thông minh quyết định tương lai của các em
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="map">
+    <div class="container">
+        <div class="main_title text-center">
+            <h2>Bản đồ ứng viên</h2>
+        </div>
+        <div>
+            <img src="/assets/images/landing_page/map.svg" alt="map"/>
+        </div>
+    </div>
+</section>
+
+<section class="brand_ctrl">
+    <div class="container">
+        <div class="main_title text-center">
+            <h2>Đối tác của V10</h2>
+        </div>
+        
+        <div class="main_content">
+            <ul class="row">
+                <div class="owl-brand owl-carousel owl-theme">
+                    <li class="col-12">
+                        <div class="card_item d-flex align-items-center justify-content-center border rounded-lg p-2">
+                            <img src="/assets/images/landing_page/toyota.png" alt="toyota" class="img-fuild">
+                        </div>
+                    </li>
+                    <li class="col-12">
+                        <div class="card_item d-flex align-items-center justify-content-center border rounded-lg p-2">
+                            <img src="/assets/images/landing_page/fujitsu.png" alt="fujitsu" class="img-fuild">
+                        </div>
+                    </li>
+                    <li class="col-12">
+                        <div class="card_item d-flex align-items-center justify-content-center border rounded-lg p-2">
+                            <img src="/assets/images/landing_page/daikin.png" alt="daikin" class="img-fuild">
+                        </div>
+                    </li>
+                    <li class="col-12">
+                        <div class="card_item d-flex align-items-center justify-content-center border rounded-lg p-2">
+                            <img src="/assets/images/landing_page/toho.png" alt="toho" class="img-fuild">
+                        </div>
+                    </li>
+                    <li class="col-12">
+                        <div class="card_item d-flex align-items-center justify-content-center border rounded-lg p-2">
+                            <img src="/assets/images/landing_page/canon.png" alt="canon" class="img-fuild">
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section wire:id="sj16xoa3WfIidMYbIOIE" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;sj16xoa3WfIidMYbIOIE&quot;,&quot;name&quot;:&quot;landing-page.home.career&quot;,&quot;locale&quot;:&quot;vi&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;73b15e7f&quot;,&quot;data&quot;:{&quot;careers&quot;:[{&quot;id&quot;:&quot;60ee68ca10c1317e2660455a&quot;,&quot;id_custom&quot;:100000,&quot;career&quot;:&quot;Th\u1ef1c ph\u1ea9m&quot;,&quot;count&quot;:&quot;6&quot;,&quot;curriculum_vitae&quot;:[{&quot;id&quot;:&quot;60f4e1cd220b851f0e01c164&quot;,&quot;id_custom&quot;:100034,&quot;name&quot;:&quot;G Th\u1ee7y&quot;,&quot;phone&quot;:&quot;0823000666&quot;,&quot;email&quot;:&quot;thuy@gmail.com&quot;,&quot;birthday&quot;:&quot;1996-07-18&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;01&quot;,&quot;district&quot;:&quot;001&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;x&quot;,&quot;height&quot;:&quot;166&quot;,&quot;weight&quot;:&quot;55&quot;,&quot;blood_group&quot;:&quot;o&quot;,&quot;education&quot;:&quot;12\/12&quot;,&quot;experience&quot;:&quot;x&quot;,&quot;id_card&quot;:&quot;0648484&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60eec2760622e81d22347592&quot;,&quot;counselors_id&quot;:&quot;60eed35099731e3c56006042&quot;,&quot;id_order&quot;:&quot;60ef8af13ec22b1ad212aba6&quot;,&quot;id_factor&quot;:&quot;60eed2d256450a793d333c63&quot;,&quot;id_enterprise&quot;:&quot;60eea455f3af7e62301bc513&quot;,&quot;time_create&quot;:&quot;19\/07\/2021 09:22&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60eec1808d2f1f13a265c6c2&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60eec2760622e81d22347592_1626661324782_44814.png&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ef8af13ec22b1ad212aba6&quot;,&quot;id_custom&quot;:100003,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60eed2d256450a793d333c63&quot;,&quot;id_enterprise&quot;:&quot;60eea455f3af7e62301bc513&quot;,&quot;title&quot;:&quot;TUY\u1ec2N 37 N\u1eee CBTP THU\u1ef6 S\u1ea2N GIA NHI\u1ec6T&quot;,&quot;salary&quot;:&quot;140.000&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455a&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;15\/07\/2021 - 08:10&quot;,&quot;time_create_int&quot;:1626311408,&quot;recruitment_date&quot;:&quot;01-08-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:37,&quot;sex&quot;:3,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:37,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;KAGOSHIMA&quot;,&quot;money&quot;:&quot;200.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60eed35099731e3c56006042_1626311408347_95653.jpg&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60eed35099731e3c56006042_1626311409343_28029.jpg&quot;,&quot;count_submit&quot;:1,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604260&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;01&quot;,&quot;name&quot;:&quot;H\u00e0 N\u1ed9i&quot;,&quot;type&quot;:&quot;thanh-pho&quot;,&quot;name_with_type&quot;:&quot;Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;ha-noi&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;},{&quot;id&quot;:&quot;60f7e392cc8d520c873ece35&quot;,&quot;id_custom&quot;:100045,&quot;name&quot;:&quot;xo\u00e0i xanh&quot;,&quot;phone&quot;:&quot;0906279637&quot;,&quot;email&quot;:&quot;tranvana@gmail.com&quot;,&quot;birthday&quot;:&quot;1995-07-20&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;01&quot;,&quot;district&quot;:&quot;008&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;l\u0129nh nam&quot;,&quot;height&quot;:&quot;160&quot;,&quot;weight&quot;:&quot;55&quot;,&quot;blood_group&quot;:&quot;O&quot;,&quot;education&quot;:&quot;12\/12&quot;,&quot;experience&quot;:&quot;kh\u00f4ng&quot;,&quot;id_card&quot;:&quot;124678421&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60f7d4562d6fc723d8518612&quot;,&quot;counselors_id&quot;:&quot;60efbd37c2aa954113591cf2&quot;,&quot;id_order&quot;:&quot;60efbfaa83a9ba56d0497277&quot;,&quot;id_factor&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;time_create&quot;:&quot;21\/07\/2021 16:06&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60f4ec65e6b9ed75303574c3&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60f7d4562d6fc723d8518612_1626858385984_35340.jpg&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60efbfaa83a9ba56d0497277&quot;,&quot;id_custom&quot;:100009,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;title&quot;:&quot;Th\u00f4ng b\u00e1o \u0111\u01a1n h\u00e0ng ch\u1ebf bi\u1ebfn \u0111\u1ed3 \u0103n s\u1eb5n&quot;,&quot;salary&quot;:&quot;161.000&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455a&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626324905,&quot;recruitment_date&quot;:&quot;19-08-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:8,&quot;sex&quot;:3,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:8,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;AICHIKEN&quot;,&quot;money&quot;:&quot;130.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60efb2b17b906f226253f8b2_1626324905246_47912.png&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60efb2b17b906f226253f8b2_1626324906051_14766.png&quot;,&quot;count_submit&quot;:16,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604260&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;01&quot;,&quot;name&quot;:&quot;H\u00e0 N\u1ed9i&quot;,&quot;type&quot;:&quot;thanh-pho&quot;,&quot;name_with_type&quot;:&quot;Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;ha-noi&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;},{&quot;id&quot;:&quot;60efc439cadffd28d8017e64&quot;,&quot;id_custom&quot;:100013,&quot;name&quot;:&quot;H Th\u1ee7y&quot;,&quot;phone&quot;:&quot;0823000777&quot;,&quot;email&quot;:&quot;thuy@gmail.com&quot;,&quot;birthday&quot;:&quot;1990-07-14&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;04&quot;,&quot;district&quot;:&quot;043&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;12&quot;,&quot;height&quot;:&quot;150&quot;,&quot;weight&quot;:&quot;50&quot;,&quot;blood_group&quot;:&quot;A&quot;,&quot;education&quot;:&quot;cao \u0111\u1eb3ng&quot;,&quot;experience&quot;:&quot;1 n\u0103m&quot;,&quot;id_card&quot;:&quot;1122334455&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60efc27b6092a53cdd2f6ea2&quot;,&quot;counselors_id&quot;:&quot;60eed35099731e3c56006042&quot;,&quot;id_order&quot;:&quot;60eed69a220a1e7fc0699ef6&quot;,&quot;id_factor&quot;:&quot;60eed2d256450a793d333c63&quot;,&quot;id_enterprise&quot;:&quot;60eea455f3af7e62301bc513&quot;,&quot;time_create&quot;:&quot;15\/07\/2021 12:14&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60eec7e8e026e57d3e2296d2&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60efc27b6092a53cdd2f6ea2_1626326072241_73868.png&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60eed69a220a1e7fc0699ef6&quot;,&quot;id_custom&quot;:100002,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60eed2d256450a793d333c63&quot;,&quot;id_enterprise&quot;:&quot;60eea455f3af7e62301bc513&quot;,&quot;title&quot;:&quot;Tuy\u1ec3n 20 n\u1eef ch\u1ebf bi\u1ebfn th\u1ef1c ph\u1ea9m (chuy\u1ec3n \u0111\u01a1n h\u00e0ng du h\u1ecdc)&quot;,&quot;salary&quot;:&quot;145.800&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455a&quot;,&quot;min_years_experience&quot;:1,&quot;time_create&quot;:&quot;14\/07\/2021 - 19:20&quot;,&quot;time_create_int&quot;:1626265241,&quot;recruitment_date&quot;:&quot;31-07-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:20,&quot;sex&quot;:3,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:20,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;SAGA KEN&quot;,&quot;money&quot;:&quot;150.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60eed35099731e3c56006042_1626265241069_73028.jpg&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60eed35099731e3c56006042_1626265241973_69156.jpg&quot;,&quot;count_submit&quot;:3,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e2660427d&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;04&quot;,&quot;name&quot;:&quot;Cao B\u1eb1ng&quot;,&quot;type&quot;:&quot;tinh&quot;,&quot;name_with_type&quot;:&quot;T\u1ec9nh Cao B\u1eb1ng&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;cao-bang&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;},{&quot;id&quot;:&quot;60efc3beaa7bf4741b1a5445&quot;,&quot;id_custom&quot;:100011,&quot;name&quot;:&quot;H Th\u1ee7y&quot;,&quot;phone&quot;:&quot;0823000777&quot;,&quot;email&quot;:&quot;thuy@gmail.com&quot;,&quot;birthday&quot;:&quot;1992-07-14&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:2,&quot;city&quot;:&quot;04&quot;,&quot;district&quot;:&quot;040&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;100&quot;,&quot;height&quot;:&quot;165&quot;,&quot;weight&quot;:&quot;45&quot;,&quot;blood_group&quot;:&quot;A&quot;,&quot;education&quot;:&quot;12\/12&quot;,&quot;experience&quot;:&quot;1&quot;,&quot;id_card&quot;:&quot;1122334455&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60efc27b6092a53cdd2f6ea2&quot;,&quot;counselors_id&quot;:&quot;60efbd37c2aa954113591cf2&quot;,&quot;id_order&quot;:&quot;60efbda2ba42326a0106dcd6&quot;,&quot;id_factor&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;time_create&quot;:&quot;15\/07\/2021 12:12&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60eec7e8e026e57d3e2296d2&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60efc27b6092a53cdd2f6ea2_1626325949572_10133.png&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60efbda2ba42326a0106dcd6&quot;,&quot;id_custom&quot;:100007,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;title&quot;:&quot;Th\u00f4ng b\u00e1o \u0111\u01a1n h\u00e0ng ch\u1ebf bi\u1ebfn th\u1ee7y s\u1ea3n&quot;,&quot;salary&quot;:&quot;200.000&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455a&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626324385,&quot;recruitment_date&quot;:&quot;04-08-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:15,&quot;sex&quot;:1,&quot;recruitment_men&quot;:5,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:10,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;KANECHOU&quot;,&quot;money&quot;:&quot;120.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60efb2b17b906f226253f8b2_1626324385146_94719.jpg&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60efb2b17b906f226253f8b2_1626324385992_54672.png&quot;,&quot;count_submit&quot;:5,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e2660427d&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;04&quot;,&quot;name&quot;:&quot;Cao B\u1eb1ng&quot;,&quot;type&quot;:&quot;tinh&quot;,&quot;name_with_type&quot;:&quot;T\u1ec9nh Cao B\u1eb1ng&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;cao-bang&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;},{&quot;id&quot;:&quot;60efc5f7e46e583afa73f584&quot;,&quot;id_custom&quot;:100018,&quot;name&quot;:&quot;K Th\u1ee7y&quot;,&quot;phone&quot;:&quot;0823000888&quot;,&quot;email&quot;:&quot;thuy@gmail.com&quot;,&quot;birthday&quot;:&quot;1994-07-14&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;12&quot;,&quot;district&quot;:&quot;106&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;17&quot;,&quot;height&quot;:&quot;158&quot;,&quot;weight&quot;:&quot;45&quot;,&quot;blood_group&quot;:&quot;A&quot;,&quot;education&quot;:&quot;12\/12&quot;,&quot;experience&quot;:&quot;1 n\u0103m&quot;,&quot;id_card&quot;:&quot;1122334458&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60efc57657bb725aa97bb6e2&quot;,&quot;counselors_id&quot;:&quot;60efbd37c2aa954113591cf2&quot;,&quot;id_order&quot;:&quot;60efbfaa83a9ba56d0497277&quot;,&quot;id_factor&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;time_create&quot;:&quot;15\/07\/2021 12:21&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60efc18083728635f6146a45&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60efc57657bb725aa97bb6e2_1626326518065_35084.png&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60efbfaa83a9ba56d0497277&quot;,&quot;id_custom&quot;:100009,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;title&quot;:&quot;Th\u00f4ng b\u00e1o \u0111\u01a1n h\u00e0ng ch\u1ebf bi\u1ebfn \u0111\u1ed3 \u0103n s\u1eb5n&quot;,&quot;salary&quot;:&quot;161.000&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455a&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626324905,&quot;recruitment_date&quot;:&quot;19-08-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:8,&quot;sex&quot;:3,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:8,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;AICHIKEN&quot;,&quot;money&quot;:&quot;130.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60efb2b17b906f226253f8b2_1626324905246_47912.png&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60efb2b17b906f226253f8b2_1626324906051_14766.png&quot;,&quot;count_submit&quot;:16,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604262&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;12&quot;,&quot;name&quot;:&quot;Lai Ch\u00e2u&quot;,&quot;type&quot;:&quot;tinh&quot;,&quot;name_with_type&quot;:&quot;T\u1ec9nh Lai Ch\u00e2u&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;lai-chau&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;},{&quot;id&quot;:&quot;60f8db971d3a9d7f3d5e6565&quot;,&quot;id_custom&quot;:100049,&quot;name&quot;:&quot;abc U f1&quot;,&quot;phone&quot;:&quot;0906279641&quot;,&quot;email&quot;:&quot;gigi@gmail.com&quot;,&quot;birthday&quot;:&quot;2000-07-21&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;06&quot;,&quot;district&quot;:&quot;058&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;bjd&quot;,&quot;height&quot;:&quot;156&quot;,&quot;weight&quot;:&quot;56&quot;,&quot;blood_group&quot;:&quot;a&quot;,&quot;education&quot;:&quot;12\/12&quot;,&quot;experience&quot;:&quot;hdbd&quot;,&quot;id_card&quot;:&quot;845164218&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60f8da54a95f99505d6a8d52&quot;,&quot;counselors_id&quot;:&quot;60efbd37c2aa954113591cf2&quot;,&quot;id_order&quot;:&quot;60efbfaa83a9ba56d0497277&quot;,&quot;id_factor&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;time_create&quot;:&quot;22\/07\/2021 09:44&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:null,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60f8da54a95f99505d6a8d52_1626921878480_94270.jpg&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60efbfaa83a9ba56d0497277&quot;,&quot;id_custom&quot;:100009,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;title&quot;:&quot;Th\u00f4ng b\u00e1o \u0111\u01a1n h\u00e0ng ch\u1ebf bi\u1ebfn \u0111\u1ed3 \u0103n s\u1eb5n&quot;,&quot;salary&quot;:&quot;161.000&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455a&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626324905,&quot;recruitment_date&quot;:&quot;19-08-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:8,&quot;sex&quot;:3,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:8,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;AICHIKEN&quot;,&quot;money&quot;:&quot;130.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60efb2b17b906f226253f8b2_1626324905246_47912.png&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60efb2b17b906f226253f8b2_1626324906051_14766.png&quot;,&quot;count_submit&quot;:16,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604295&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;06&quot;,&quot;name&quot;:&quot;B\u1eafc K\u1ea1n&quot;,&quot;type&quot;:&quot;tinh&quot;,&quot;name_with_type&quot;:&quot;T\u1ec9nh B\u1eafc K\u1ea1n&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;bac-kan&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;}]},{&quot;id&quot;:&quot;60ee68ca10c1317e2660455b&quot;,&quot;id_custom&quot;:100001,&quot;career&quot;:&quot;C\u01a1 kh\u00ed &amp; Kim lo\u1ea1i&quot;,&quot;count&quot;:&quot;5&quot;,&quot;curriculum_vitae&quot;:[{&quot;id&quot;:&quot;60efc37fa6c23642530fef3a&quot;,&quot;id_custom&quot;:100010,&quot;name&quot;:&quot;H Th\u1ee7y&quot;,&quot;phone&quot;:&quot;0823000777&quot;,&quot;email&quot;:&quot;thuy@gmail.com&quot;,&quot;birthday&quot;:&quot;1997-07-14&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;01&quot;,&quot;district&quot;:&quot;002&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;10&quot;,&quot;height&quot;:&quot;150&quot;,&quot;weight&quot;:&quot;42&quot;,&quot;blood_group&quot;:&quot;A&quot;,&quot;education&quot;:&quot;12\/12&quot;,&quot;experience&quot;:&quot;1&quot;,&quot;id_card&quot;:&quot;1122334455&quot;,&quot;status&quot;:5,&quot;status_text&quot;:&quot;L\u00e0m th\u1ee7 t\u1ee5c&quot;,&quot;user_id&quot;:&quot;60efc27b6092a53cdd2f6ea2&quot;,&quot;counselors_id&quot;:&quot;60efbd37c2aa954113591cf2&quot;,&quot;id_order&quot;:&quot;60efbed6551ea378c2524666&quot;,&quot;id_factor&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;time_create&quot;:&quot;15\/07\/2021 12:11&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60eec7e8e026e57d3e2296d2&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60efc27b6092a53cdd2f6ea2_1626325886858_2130.png&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60efbed6551ea378c2524666&quot;,&quot;id_custom&quot;:100008,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;title&quot;:&quot;Th\u00f4ng b\u00e1o \u0111\u01a1n h\u00e0ng \u0111\u1ecbnh h\u00ecnh s\u1ea3n ph\u1ea9m nh\u1ef1a&quot;,&quot;salary&quot;:&quot;144.060&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455b&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626324693,&quot;recruitment_date&quot;:&quot;23-08-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:6,&quot;sex&quot;:3,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:6,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;NIGATA KEN&quot;,&quot;money&quot;:&quot;180.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60efb2b17b906f226253f8b2_1626324693489_76848.jpg&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60efb2b17b906f226253f8b2_1626324694238_48595.png&quot;,&quot;count_submit&quot;:5,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604260&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;01&quot;,&quot;name&quot;:&quot;H\u00e0 N\u1ed9i&quot;,&quot;type&quot;:&quot;thanh-pho&quot;,&quot;name_with_type&quot;:&quot;Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;ha-noi&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;},{&quot;id&quot;:&quot;60efc4c1ec9f177e631905a4&quot;,&quot;id_custom&quot;:100015,&quot;name&quot;:&quot;G Th\u1ee7y&quot;,&quot;phone&quot;:&quot;0823000666&quot;,&quot;email&quot;:&quot;thuy@gmail.com&quot;,&quot;birthday&quot;:&quot;1997-07-14&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:2,&quot;city&quot;:&quot;33&quot;,&quot;district&quot;:&quot;325&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;15&quot;,&quot;height&quot;:&quot;156&quot;,&quot;weight&quot;:&quot;45&quot;,&quot;blood_group&quot;:&quot;a&quot;,&quot;education&quot;:&quot;12&quot;,&quot;experience&quot;:&quot;1&quot;,&quot;id_card&quot;:&quot;1122334457&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60eec2760622e81d22347592&quot;,&quot;counselors_id&quot;:&quot;60efbd37c2aa954113591cf2&quot;,&quot;id_order&quot;:&quot;60efbed6551ea378c2524666&quot;,&quot;id_factor&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;time_create&quot;:&quot;15\/07\/2021 12:16&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60eec1808d2f1f13a265c6c2&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60eec2760622e81d22347592_1626326208482_37964.png&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60efbed6551ea378c2524666&quot;,&quot;id_custom&quot;:100008,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;title&quot;:&quot;Th\u00f4ng b\u00e1o \u0111\u01a1n h\u00e0ng \u0111\u1ecbnh h\u00ecnh s\u1ea3n ph\u1ea9m nh\u1ef1a&quot;,&quot;salary&quot;:&quot;144.060&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455b&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626324693,&quot;recruitment_date&quot;:&quot;23-08-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:6,&quot;sex&quot;:3,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:6,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;NIGATA KEN&quot;,&quot;money&quot;:&quot;180.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60efb2b17b906f226253f8b2_1626324693489_76848.jpg&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60efb2b17b906f226253f8b2_1626324694238_48595.png&quot;,&quot;count_submit&quot;:5,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604263&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;33&quot;,&quot;name&quot;:&quot;H\u01b0ng Y\u00ean&quot;,&quot;type&quot;:&quot;tinh&quot;,&quot;name_with_type&quot;:&quot;T\u1ec9nh H\u01b0ng Y\u00ean&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;hung-yen&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;},{&quot;id&quot;:&quot;60efc62515f0e56dc27d96a4&quot;,&quot;id_custom&quot;:100019,&quot;name&quot;:&quot;K Th\u1ee7y&quot;,&quot;phone&quot;:&quot;0823000888&quot;,&quot;email&quot;:&quot;thuy@gmail.com&quot;,&quot;birthday&quot;:&quot;1997-07-14&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:2,&quot;city&quot;:&quot;02&quot;,&quot;district&quot;:&quot;024&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;18&quot;,&quot;height&quot;:&quot;172&quot;,&quot;weight&quot;:&quot;56&quot;,&quot;blood_group&quot;:&quot;b&quot;,&quot;education&quot;:&quot;12&quot;,&quot;experience&quot;:&quot;1&quot;,&quot;id_card&quot;:&quot;1122334459&quot;,&quot;status&quot;:3,&quot;status_text&quot;:&quot;Tr\u00fang tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60efc57657bb725aa97bb6e2&quot;,&quot;counselors_id&quot;:&quot;60efbd37c2aa954113591cf2&quot;,&quot;id_order&quot;:&quot;60efbed6551ea378c2524666&quot;,&quot;id_factor&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;time_create&quot;:&quot;15\/07\/2021 12:22&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60efc18083728635f6146a45&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60efc57657bb725aa97bb6e2_1626326564640_92145.png&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60efbed6551ea378c2524666&quot;,&quot;id_custom&quot;:100008,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;title&quot;:&quot;Th\u00f4ng b\u00e1o \u0111\u01a1n h\u00e0ng \u0111\u1ecbnh h\u00ecnh s\u1ea3n ph\u1ea9m nh\u1ef1a&quot;,&quot;salary&quot;:&quot;144.060&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455b&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626324693,&quot;recruitment_date&quot;:&quot;23-08-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:6,&quot;sex&quot;:3,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:6,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;NIGATA KEN&quot;,&quot;money&quot;:&quot;180.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60efb2b17b906f226253f8b2_1626324693489_76848.jpg&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60efb2b17b906f226253f8b2_1626324694238_48595.png&quot;,&quot;count_submit&quot;:5,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604292&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;02&quot;,&quot;name&quot;:&quot;H\u00e0 Giang&quot;,&quot;type&quot;:&quot;tinh&quot;,&quot;name_with_type&quot;:&quot;T\u1ec9nh H\u00e0 Giang&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;ha-giang&quot;}},&quot;status_color&quot;:&quot;#BB6BD9&quot;},{&quot;id&quot;:&quot;60f7f59080daf00a5943e274&quot;,&quot;id_custom&quot;:100046,&quot;name&quot;:&quot;T\u01b0 v\u1ea5n vi\u00ean EK 01&quot;,&quot;phone&quot;:&quot;0985097753&quot;,&quot;email&quot;:&quot;tvvek@gmail.com&quot;,&quot;birthday&quot;:&quot;1975-07-20&quot;,&quot;sex&quot;:1,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;01&quot;,&quot;district&quot;:&quot;001&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;100 Li\u1ec5u giai&quot;,&quot;height&quot;:&quot;156&quot;,&quot;weight&quot;:&quot;56&quot;,&quot;blood_group&quot;:&quot;A&quot;,&quot;education&quot;:&quot;12&quot;,&quot;experience&quot;:&quot;ko&quot;,&quot;id_card&quot;:&quot;0865367921&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60eed35099731e3c56006042&quot;,&quot;counselors_id&quot;:&quot;60eeb005638c2747b606ae42&quot;,&quot;id_order&quot;:&quot;60f0e2a80b8d15734f023126&quot;,&quot;id_factor&quot;:&quot;60eea5fe890fe47c4929d303&quot;,&quot;id_enterprise&quot;:&quot;60eea4317a197020a7735bd3&quot;,&quot;time_create&quot;:&quot;21\/07\/2021 17:23&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:null,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60eed35099731e3c56006042_1626862991069_75285.jpg&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60f0e2a80b8d15734f023126&quot;,&quot;id_custom&quot;:100010,&quot;country&quot;:&quot;60ee955783fa6c59cc384825&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60eea5fe890fe47c4929d303&quot;,&quot;id_enterprise&quot;:&quot;60eea4317a197020a7735bd3&quot;,&quot;title&quot;:&quot;Du h\u1ecdc&quot;,&quot;salary&quot;:&quot;100.000&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455b&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626399398,&quot;recruitment_date&quot;:&quot;23-07-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:0,&quot;sex&quot;:1,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:0,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;japan&quot;,&quot;money&quot;:0,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60eeb005638c2747b606ae42_1626399398153_42928.jpg&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60eeb005638c2747b606ae42_1626399400585_79889.jpg&quot;,&quot;count_submit&quot;:1,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604260&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;01&quot;,&quot;name&quot;:&quot;H\u00e0 N\u1ed9i&quot;,&quot;type&quot;:&quot;thanh-pho&quot;,&quot;name_with_type&quot;:&quot;Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;ha-noi&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;},{&quot;id&quot;:&quot;60f8d0cfdcec6c5fca6aa2c4&quot;,&quot;id_custom&quot;:100048,&quot;name&quot;:&quot;abc f2&quot;,&quot;phone&quot;:&quot;0906279639&quot;,&quot;email&quot;:&quot;abcf2@gmail.com&quot;,&quot;birthday&quot;:&quot;2000-07-21&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;06&quot;,&quot;district&quot;:&quot;058&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;bzbs&quot;,&quot;height&quot;:&quot;156&quot;,&quot;weight&quot;:&quot;56&quot;,&quot;blood_group&quot;:&quot;a&quot;,&quot;education&quot;:&quot;12\/12&quot;,&quot;experience&quot;:&quot;shd&quot;,&quot;id_card&quot;:&quot;5467842164&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60f8cb8065d8e803ac3102f2&quot;,&quot;counselors_id&quot;:&quot;60efbd37c2aa954113591cf2&quot;,&quot;id_order&quot;:&quot;60efbed6551ea378c2524666&quot;,&quot;id_factor&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;time_create&quot;:&quot;22\/07\/2021 08:58&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60f8cb578a1ef7443b43a222&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60f8cb8065d8e803ac3102f2_1626919118589_320.jpg&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60efbed6551ea378c2524666&quot;,&quot;id_custom&quot;:100008,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;title&quot;:&quot;Th\u00f4ng b\u00e1o \u0111\u01a1n h\u00e0ng \u0111\u1ecbnh h\u00ecnh s\u1ea3n ph\u1ea9m nh\u1ef1a&quot;,&quot;salary&quot;:&quot;144.060&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455b&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626324693,&quot;recruitment_date&quot;:&quot;23-08-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:6,&quot;sex&quot;:3,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:6,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;NIGATA KEN&quot;,&quot;money&quot;:&quot;180.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60efb2b17b906f226253f8b2_1626324693489_76848.jpg&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60efb2b17b906f226253f8b2_1626324694238_48595.png&quot;,&quot;count_submit&quot;:5,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604295&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;06&quot;,&quot;name&quot;:&quot;B\u1eafc K\u1ea1n&quot;,&quot;type&quot;:&quot;tinh&quot;,&quot;name_with_type&quot;:&quot;T\u1ec9nh B\u1eafc K\u1ea1n&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;bac-kan&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;}]},{&quot;id&quot;:&quot;60ee68ca10c1317e2660455c&quot;,&quot;id_custom&quot;:100002,&quot;career&quot;:&quot;X\u00e2y d\u1ef1ng&quot;,&quot;count&quot;:&quot;3&quot;,&quot;curriculum_vitae&quot;:[{&quot;id&quot;:&quot;60f0ed1e7216cb5667452b94&quot;,&quot;id_custom&quot;:100028,&quot;name&quot;:&quot;K Th\u1ee7y&quot;,&quot;phone&quot;:&quot;0823000888&quot;,&quot;email&quot;:&quot;thuy@gmail.com&quot;,&quot;birthday&quot;:&quot;1993-07-15&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;01&quot;,&quot;district&quot;:&quot;001&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;vb&quot;,&quot;height&quot;:&quot;166&quot;,&quot;weight&quot;:&quot;55&quot;,&quot;blood_group&quot;:&quot;o&quot;,&quot;education&quot;:&quot;12&quot;,&quot;experience&quot;:&quot;jj&quot;,&quot;id_card&quot;:&quot;0644854&quot;,&quot;status&quot;:4,&quot;status_text&quot;:&quot;\u0110\u00e3 h\u1ecdc xong ch\u01b0a bay&quot;,&quot;user_id&quot;:&quot;60efc57657bb725aa97bb6e2&quot;,&quot;counselors_id&quot;:&quot;60eed35099731e3c56006042&quot;,&quot;id_order&quot;:&quot;60f0e40bf26e7d65cf6a9d06&quot;,&quot;id_factor&quot;:&quot;60eed2d256450a793d333c63&quot;,&quot;id_enterprise&quot;:&quot;60eea455f3af7e62301bc513&quot;,&quot;time_create&quot;:&quot;16\/07\/2021 09:21&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60efc18083728635f6146a45&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60efc57657bb725aa97bb6e2_1626402077967_93374.png&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60f0e40bf26e7d65cf6a9d06&quot;,&quot;id_custom&quot;:100012,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60eed2d256450a793d333c63&quot;,&quot;id_enterprise&quot;:&quot;60eea455f3af7e62301bc513&quot;,&quot;title&quot;:&quot;Du h\u1ecdc Nh\u1eadt B\u1ea3n&quot;,&quot;salary&quot;:&quot;100.000&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455c&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626399753,&quot;recruitment_date&quot;:&quot;29-07-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:0,&quot;sex&quot;:1,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:0,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;OSAKA&quot;,&quot;money&quot;:0,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60eed35099731e3c56006042_1626399754007_8308.jpg&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60eed35099731e3c56006042_1626399755186_11170.jpg&quot;,&quot;count_submit&quot;:4,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604260&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;01&quot;,&quot;name&quot;:&quot;H\u00e0 N\u1ed9i&quot;,&quot;type&quot;:&quot;thanh-pho&quot;,&quot;name_with_type&quot;:&quot;Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;ha-noi&quot;}},&quot;status_color&quot;:&quot;#56CCF2&quot;},{&quot;id&quot;:&quot;60f0fd9f5ca7ab5b9d1ea437&quot;,&quot;id_custom&quot;:100029,&quot;name&quot;:&quot;Nguy\u1ec5n Ph\u01b0\u01a1ng&quot;,&quot;phone&quot;:&quot;0111111111&quot;,&quot;email&quot;:&quot;a@gmail.com&quot;,&quot;birthday&quot;:&quot;1993-07-14&quot;,&quot;sex&quot;:1,&quot;marital_status&quot;:2,&quot;city&quot;:&quot;01&quot;,&quot;district&quot;:&quot;001&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;vv&quot;,&quot;height&quot;:&quot;16&quot;,&quot;weight&quot;:&quot;36&quot;,&quot;blood_group&quot;:&quot;a&quot;,&quot;education&quot;:&quot;j&quot;,&quot;experience&quot;:&quot;k&quot;,&quot;id_card&quot;:&quot;69985&quot;,&quot;status&quot;:4,&quot;status_text&quot;:&quot;\u0110\u00e3 h\u1ecdc xong ch\u01b0a bay&quot;,&quot;user_id&quot;:&quot;60ee6cdc594552561133a6f2&quot;,&quot;counselors_id&quot;:&quot;60eeb005638c2747b606ae42&quot;,&quot;id_order&quot;:&quot;60f0e35c94963d3e105b9476&quot;,&quot;id_factor&quot;:&quot;60eea5fe890fe47c4929d303&quot;,&quot;id_enterprise&quot;:&quot;60eea4317a197020a7735bd3&quot;,&quot;time_create&quot;:&quot;16\/07\/2021 10:31&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:null,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60ee6cdc594552561133a6f2_1626406302988_66939.jpg&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60f0e35c94963d3e105b9476&quot;,&quot;id_custom&quot;:100011,&quot;country&quot;:&quot;60ee955783fa6c59cc384825&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60eea5fe890fe47c4929d303&quot;,&quot;id_enterprise&quot;:&quot;60eea4317a197020a7735bd3&quot;,&quot;title&quot;:&quot;Du h\u1ecdc Japan&quot;,&quot;salary&quot;:&quot;100.000&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455c&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626399579,&quot;recruitment_date&quot;:&quot;23-07-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:0,&quot;sex&quot;:1,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:0,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;Japan&quot;,&quot;money&quot;:0,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60eeb005638c2747b606ae42_1626399579740_93000.jpg&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60eeb005638c2747b606ae42_1626399580597_10479.jpg&quot;,&quot;count_submit&quot;:2,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604260&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;01&quot;,&quot;name&quot;:&quot;H\u00e0 N\u1ed9i&quot;,&quot;type&quot;:&quot;thanh-pho&quot;,&quot;name_with_type&quot;:&quot;Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;ha-noi&quot;}},&quot;status_color&quot;:&quot;#56CCF2&quot;},{&quot;id&quot;:&quot;60f4e112ed8dfd7e1445ef64&quot;,&quot;id_custom&quot;:100033,&quot;name&quot;:&quot;G Th\u1ee7y&quot;,&quot;phone&quot;:&quot;0823000666&quot;,&quot;email&quot;:&quot;thuy@gmail.com&quot;,&quot;birthday&quot;:&quot;1988-07-18&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;01&quot;,&quot;district&quot;:&quot;002&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;gh&quot;,&quot;height&quot;:&quot;165&quot;,&quot;weight&quot;:&quot;55&quot;,&quot;blood_group&quot;:&quot;o&quot;,&quot;education&quot;:&quot;12\/12&quot;,&quot;experience&quot;:&quot;k&quot;,&quot;id_card&quot;:&quot;06184345&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60eec2760622e81d22347592&quot;,&quot;counselors_id&quot;:&quot;60eeb005638c2747b606ae42&quot;,&quot;id_order&quot;:&quot;60f0e35c94963d3e105b9476&quot;,&quot;id_factor&quot;:&quot;60eea5fe890fe47c4929d303&quot;,&quot;id_enterprise&quot;:&quot;60eea4317a197020a7735bd3&quot;,&quot;time_create&quot;:&quot;19\/07\/2021 09:18&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60eec1808d2f1f13a265c6c2&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60eec2760622e81d22347592_1626661137602_11444.png&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60f0e35c94963d3e105b9476&quot;,&quot;id_custom&quot;:100011,&quot;country&quot;:&quot;60ee955783fa6c59cc384825&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60eea5fe890fe47c4929d303&quot;,&quot;id_enterprise&quot;:&quot;60eea4317a197020a7735bd3&quot;,&quot;title&quot;:&quot;Du h\u1ecdc Japan&quot;,&quot;salary&quot;:&quot;100.000&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455c&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626399579,&quot;recruitment_date&quot;:&quot;23-07-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:0,&quot;sex&quot;:1,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:0,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;Japan&quot;,&quot;money&quot;:0,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60eeb005638c2747b606ae42_1626399579740_93000.jpg&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60eeb005638c2747b606ae42_1626399580597_10479.jpg&quot;,&quot;count_submit&quot;:2,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604260&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;01&quot;,&quot;name&quot;:&quot;H\u00e0 N\u1ed9i&quot;,&quot;type&quot;:&quot;thanh-pho&quot;,&quot;name_with_type&quot;:&quot;Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;ha-noi&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;}]}],&quot;career_active&quot;:{&quot;id&quot;:&quot;60ee68ca10c1317e2660455a&quot;,&quot;id_custom&quot;:100000,&quot;career&quot;:&quot;Th\u1ef1c ph\u1ea9m&quot;,&quot;count&quot;:&quot;6&quot;,&quot;curriculum_vitae&quot;:[{&quot;id&quot;:&quot;60f4e1cd220b851f0e01c164&quot;,&quot;id_custom&quot;:100034,&quot;name&quot;:&quot;G Th\u1ee7y&quot;,&quot;phone&quot;:&quot;0823000666&quot;,&quot;email&quot;:&quot;thuy@gmail.com&quot;,&quot;birthday&quot;:&quot;1996-07-18&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;01&quot;,&quot;district&quot;:&quot;001&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;x&quot;,&quot;height&quot;:&quot;166&quot;,&quot;weight&quot;:&quot;55&quot;,&quot;blood_group&quot;:&quot;o&quot;,&quot;education&quot;:&quot;12\/12&quot;,&quot;experience&quot;:&quot;x&quot;,&quot;id_card&quot;:&quot;0648484&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60eec2760622e81d22347592&quot;,&quot;counselors_id&quot;:&quot;60eed35099731e3c56006042&quot;,&quot;id_order&quot;:&quot;60ef8af13ec22b1ad212aba6&quot;,&quot;id_factor&quot;:&quot;60eed2d256450a793d333c63&quot;,&quot;id_enterprise&quot;:&quot;60eea455f3af7e62301bc513&quot;,&quot;time_create&quot;:&quot;19\/07\/2021 09:22&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60eec1808d2f1f13a265c6c2&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60eec2760622e81d22347592_1626661324782_44814.png&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ef8af13ec22b1ad212aba6&quot;,&quot;id_custom&quot;:100003,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60eed2d256450a793d333c63&quot;,&quot;id_enterprise&quot;:&quot;60eea455f3af7e62301bc513&quot;,&quot;title&quot;:&quot;TUY\u1ec2N 37 N\u1eee CBTP THU\u1ef6 S\u1ea2N GIA NHI\u1ec6T&quot;,&quot;salary&quot;:&quot;140.000&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455a&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;15\/07\/2021 - 08:10&quot;,&quot;time_create_int&quot;:1626311408,&quot;recruitment_date&quot;:&quot;01-08-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:37,&quot;sex&quot;:3,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:37,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;KAGOSHIMA&quot;,&quot;money&quot;:&quot;200.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60eed35099731e3c56006042_1626311408347_95653.jpg&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60eed35099731e3c56006042_1626311409343_28029.jpg&quot;,&quot;count_submit&quot;:1,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604260&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;01&quot;,&quot;name&quot;:&quot;H\u00e0 N\u1ed9i&quot;,&quot;type&quot;:&quot;thanh-pho&quot;,&quot;name_with_type&quot;:&quot;Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;ha-noi&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;},{&quot;id&quot;:&quot;60f7e392cc8d520c873ece35&quot;,&quot;id_custom&quot;:100045,&quot;name&quot;:&quot;xo\u00e0i xanh&quot;,&quot;phone&quot;:&quot;0906279637&quot;,&quot;email&quot;:&quot;tranvana@gmail.com&quot;,&quot;birthday&quot;:&quot;1995-07-20&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;01&quot;,&quot;district&quot;:&quot;008&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;l\u0129nh nam&quot;,&quot;height&quot;:&quot;160&quot;,&quot;weight&quot;:&quot;55&quot;,&quot;blood_group&quot;:&quot;O&quot;,&quot;education&quot;:&quot;12\/12&quot;,&quot;experience&quot;:&quot;kh\u00f4ng&quot;,&quot;id_card&quot;:&quot;124678421&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60f7d4562d6fc723d8518612&quot;,&quot;counselors_id&quot;:&quot;60efbd37c2aa954113591cf2&quot;,&quot;id_order&quot;:&quot;60efbfaa83a9ba56d0497277&quot;,&quot;id_factor&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;time_create&quot;:&quot;21\/07\/2021 16:06&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60f4ec65e6b9ed75303574c3&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60f7d4562d6fc723d8518612_1626858385984_35340.jpg&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60efbfaa83a9ba56d0497277&quot;,&quot;id_custom&quot;:100009,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;title&quot;:&quot;Th\u00f4ng b\u00e1o \u0111\u01a1n h\u00e0ng ch\u1ebf bi\u1ebfn \u0111\u1ed3 \u0103n s\u1eb5n&quot;,&quot;salary&quot;:&quot;161.000&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455a&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626324905,&quot;recruitment_date&quot;:&quot;19-08-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:8,&quot;sex&quot;:3,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:8,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;AICHIKEN&quot;,&quot;money&quot;:&quot;130.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60efb2b17b906f226253f8b2_1626324905246_47912.png&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60efb2b17b906f226253f8b2_1626324906051_14766.png&quot;,&quot;count_submit&quot;:16,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604260&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;01&quot;,&quot;name&quot;:&quot;H\u00e0 N\u1ed9i&quot;,&quot;type&quot;:&quot;thanh-pho&quot;,&quot;name_with_type&quot;:&quot;Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;ha-noi&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;},{&quot;id&quot;:&quot;60efc439cadffd28d8017e64&quot;,&quot;id_custom&quot;:100013,&quot;name&quot;:&quot;H Th\u1ee7y&quot;,&quot;phone&quot;:&quot;0823000777&quot;,&quot;email&quot;:&quot;thuy@gmail.com&quot;,&quot;birthday&quot;:&quot;1990-07-14&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;04&quot;,&quot;district&quot;:&quot;043&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;12&quot;,&quot;height&quot;:&quot;150&quot;,&quot;weight&quot;:&quot;50&quot;,&quot;blood_group&quot;:&quot;A&quot;,&quot;education&quot;:&quot;cao \u0111\u1eb3ng&quot;,&quot;experience&quot;:&quot;1 n\u0103m&quot;,&quot;id_card&quot;:&quot;1122334455&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60efc27b6092a53cdd2f6ea2&quot;,&quot;counselors_id&quot;:&quot;60eed35099731e3c56006042&quot;,&quot;id_order&quot;:&quot;60eed69a220a1e7fc0699ef6&quot;,&quot;id_factor&quot;:&quot;60eed2d256450a793d333c63&quot;,&quot;id_enterprise&quot;:&quot;60eea455f3af7e62301bc513&quot;,&quot;time_create&quot;:&quot;15\/07\/2021 12:14&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60eec7e8e026e57d3e2296d2&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60efc27b6092a53cdd2f6ea2_1626326072241_73868.png&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60eed69a220a1e7fc0699ef6&quot;,&quot;id_custom&quot;:100002,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60eed2d256450a793d333c63&quot;,&quot;id_enterprise&quot;:&quot;60eea455f3af7e62301bc513&quot;,&quot;title&quot;:&quot;Tuy\u1ec3n 20 n\u1eef ch\u1ebf bi\u1ebfn th\u1ef1c ph\u1ea9m (chuy\u1ec3n \u0111\u01a1n h\u00e0ng du h\u1ecdc)&quot;,&quot;salary&quot;:&quot;145.800&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455a&quot;,&quot;min_years_experience&quot;:1,&quot;time_create&quot;:&quot;14\/07\/2021 - 19:20&quot;,&quot;time_create_int&quot;:1626265241,&quot;recruitment_date&quot;:&quot;31-07-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:20,&quot;sex&quot;:3,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:20,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;SAGA KEN&quot;,&quot;money&quot;:&quot;150.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60eed35099731e3c56006042_1626265241069_73028.jpg&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60eed35099731e3c56006042_1626265241973_69156.jpg&quot;,&quot;count_submit&quot;:3,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e2660427d&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;04&quot;,&quot;name&quot;:&quot;Cao B\u1eb1ng&quot;,&quot;type&quot;:&quot;tinh&quot;,&quot;name_with_type&quot;:&quot;T\u1ec9nh Cao B\u1eb1ng&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;cao-bang&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;},{&quot;id&quot;:&quot;60efc3beaa7bf4741b1a5445&quot;,&quot;id_custom&quot;:100011,&quot;name&quot;:&quot;H Th\u1ee7y&quot;,&quot;phone&quot;:&quot;0823000777&quot;,&quot;email&quot;:&quot;thuy@gmail.com&quot;,&quot;birthday&quot;:&quot;1992-07-14&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:2,&quot;city&quot;:&quot;04&quot;,&quot;district&quot;:&quot;040&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;100&quot;,&quot;height&quot;:&quot;165&quot;,&quot;weight&quot;:&quot;45&quot;,&quot;blood_group&quot;:&quot;A&quot;,&quot;education&quot;:&quot;12\/12&quot;,&quot;experience&quot;:&quot;1&quot;,&quot;id_card&quot;:&quot;1122334455&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60efc27b6092a53cdd2f6ea2&quot;,&quot;counselors_id&quot;:&quot;60efbd37c2aa954113591cf2&quot;,&quot;id_order&quot;:&quot;60efbda2ba42326a0106dcd6&quot;,&quot;id_factor&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;time_create&quot;:&quot;15\/07\/2021 12:12&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60eec7e8e026e57d3e2296d2&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60efc27b6092a53cdd2f6ea2_1626325949572_10133.png&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60efbda2ba42326a0106dcd6&quot;,&quot;id_custom&quot;:100007,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;title&quot;:&quot;Th\u00f4ng b\u00e1o \u0111\u01a1n h\u00e0ng ch\u1ebf bi\u1ebfn th\u1ee7y s\u1ea3n&quot;,&quot;salary&quot;:&quot;200.000&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455a&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626324385,&quot;recruitment_date&quot;:&quot;04-08-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:15,&quot;sex&quot;:1,&quot;recruitment_men&quot;:5,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:10,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;KANECHOU&quot;,&quot;money&quot;:&quot;120.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60efb2b17b906f226253f8b2_1626324385146_94719.jpg&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60efb2b17b906f226253f8b2_1626324385992_54672.png&quot;,&quot;count_submit&quot;:5,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e2660427d&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;04&quot;,&quot;name&quot;:&quot;Cao B\u1eb1ng&quot;,&quot;type&quot;:&quot;tinh&quot;,&quot;name_with_type&quot;:&quot;T\u1ec9nh Cao B\u1eb1ng&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;cao-bang&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;},{&quot;id&quot;:&quot;60efc5f7e46e583afa73f584&quot;,&quot;id_custom&quot;:100018,&quot;name&quot;:&quot;K Th\u1ee7y&quot;,&quot;phone&quot;:&quot;0823000888&quot;,&quot;email&quot;:&quot;thuy@gmail.com&quot;,&quot;birthday&quot;:&quot;1994-07-14&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;12&quot;,&quot;district&quot;:&quot;106&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;17&quot;,&quot;height&quot;:&quot;158&quot;,&quot;weight&quot;:&quot;45&quot;,&quot;blood_group&quot;:&quot;A&quot;,&quot;education&quot;:&quot;12\/12&quot;,&quot;experience&quot;:&quot;1 n\u0103m&quot;,&quot;id_card&quot;:&quot;1122334458&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60efc57657bb725aa97bb6e2&quot;,&quot;counselors_id&quot;:&quot;60efbd37c2aa954113591cf2&quot;,&quot;id_order&quot;:&quot;60efbfaa83a9ba56d0497277&quot;,&quot;id_factor&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;time_create&quot;:&quot;15\/07\/2021 12:21&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:&quot;60efc18083728635f6146a45&quot;,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60efc57657bb725aa97bb6e2_1626326518065_35084.png&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60efbfaa83a9ba56d0497277&quot;,&quot;id_custom&quot;:100009,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;title&quot;:&quot;Th\u00f4ng b\u00e1o \u0111\u01a1n h\u00e0ng ch\u1ebf bi\u1ebfn \u0111\u1ed3 \u0103n s\u1eb5n&quot;,&quot;salary&quot;:&quot;161.000&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455a&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626324905,&quot;recruitment_date&quot;:&quot;19-08-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:8,&quot;sex&quot;:3,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:8,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;AICHIKEN&quot;,&quot;money&quot;:&quot;130.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60efb2b17b906f226253f8b2_1626324905246_47912.png&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60efb2b17b906f226253f8b2_1626324906051_14766.png&quot;,&quot;count_submit&quot;:16,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604262&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;12&quot;,&quot;name&quot;:&quot;Lai Ch\u00e2u&quot;,&quot;type&quot;:&quot;tinh&quot;,&quot;name_with_type&quot;:&quot;T\u1ec9nh Lai Ch\u00e2u&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;lai-chau&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;},{&quot;id&quot;:&quot;60f8db971d3a9d7f3d5e6565&quot;,&quot;id_custom&quot;:100049,&quot;name&quot;:&quot;abc U f1&quot;,&quot;phone&quot;:&quot;0906279641&quot;,&quot;email&quot;:&quot;gigi@gmail.com&quot;,&quot;birthday&quot;:&quot;2000-07-21&quot;,&quot;sex&quot;:2,&quot;marital_status&quot;:1,&quot;city&quot;:&quot;06&quot;,&quot;district&quot;:&quot;058&quot;,&quot;commune&quot;:null,&quot;address&quot;:&quot;bjd&quot;,&quot;height&quot;:&quot;156&quot;,&quot;weight&quot;:&quot;56&quot;,&quot;blood_group&quot;:&quot;a&quot;,&quot;education&quot;:&quot;12\/12&quot;,&quot;experience&quot;:&quot;hdbd&quot;,&quot;id_card&quot;:&quot;845164218&quot;,&quot;status&quot;:2,&quot;status_text&quot;:&quot;Thi tuy\u1ec3n&quot;,&quot;user_id&quot;:&quot;60f8da54a95f99505d6a8d52&quot;,&quot;counselors_id&quot;:&quot;60efbd37c2aa954113591cf2&quot;,&quot;id_order&quot;:&quot;60efbfaa83a9ba56d0497277&quot;,&quot;id_factor&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;time_create&quot;:&quot;22\/07\/2021 09:44&quot;,&quot;time_update&quot;:&quot;&quot;,&quot;collaborator_id&quot;:null,&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60f8da54a95f99505d6a8d52_1626921878480_94270.jpg&quot;}},&quot;order&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60efbfaa83a9ba56d0497277&quot;,&quot;id_custom&quot;:100009,&quot;country&quot;:&quot;60ee955783fa6c59cc384822&quot;,&quot;premium&quot;:null,&quot;id_user&quot;:&quot;60efbbfbc8406954386d3f83&quot;,&quot;id_enterprise&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;title&quot;:&quot;Th\u00f4ng b\u00e1o \u0111\u01a1n h\u00e0ng ch\u1ebf bi\u1ebfn \u0111\u1ed3 \u0103n s\u1eb5n&quot;,&quot;salary&quot;:&quot;161.000&quot;,&quot;currency_unit&quot;:&quot;JPY&quot;,&quot;career_id&quot;:&quot;60ee68ca10c1317e2660455a&quot;,&quot;min_years_experience&quot;:0,&quot;time_create&quot;:&quot;6 ng\u00e0y tr\u01b0\u1edbc&quot;,&quot;time_create_int&quot;:1626324905,&quot;recruitment_date&quot;:&quot;19-08-2021&quot;,&quot;user_relate_to&quot;:null,&quot;count_recruitment&quot;:8,&quot;sex&quot;:3,&quot;recruitment_men&quot;:0,&quot;recruitment_men_rest&quot;:0,&quot;recruitment_female&quot;:8,&quot;recruitment_female_rest&quot;:0,&quot;user_contact&quot;:0,&quot;workplace&quot;:&quot;AICHIKEN&quot;,&quot;money&quot;:&quot;130.000.000&quot;,&quot;image&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/60efb2b17b906f226253f8b2_1626324905246_47912.png&quot;,&quot;image_order&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-768_60efb2b17b906f226253f8b2_1626324906051_14766.png&quot;,&quot;count_submit&quot;:16,&quot;status&quot;:1}},&quot;city_data&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604295&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;06&quot;,&quot;name&quot;:&quot;B\u1eafc K\u1ea1n&quot;,&quot;type&quot;:&quot;tinh&quot;,&quot;name_with_type&quot;:&quot;T\u1ec9nh B\u1eafc K\u1ea1n&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;bac-kan&quot;}},&quot;status_color&quot;:&quot;#3578E5&quot;}]}},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;8641ec1b926e1958aecc5a81fb197a93b8ebdeb7a3ae8e66a2cf3cc11cb2df62&quot;}}" class="career_ctrl mt-5"
+    x-init="active = '60ee68ca10c1317e2660455a'"
+    x-data="{
+        active: '',
+    }">
+    <div class="container">
+        <div class="main_title text-center">
+            <h2>Thống kê ngành nghề</h2>
+        </div>
+        <div class="categories mb-5">
+            <div class="category">
+                <ul class="row">
+                    <div class="owl-career owl-carousel owl-theme">
+                                                    <li class="col-12" key="0" x-on:click="active = '60ee68ca10c1317e2660455a'">
+                                <div :class="{
+                                        'card_ctrl position-relative': true,
+                                        'active': active === '60ee68ca10c1317e2660455a' ? true : false
+                                    }">
+                                    <img src="/assets/images/landing_page/ckkl.png"
+                                        alt="Thực phẩm"  class="img-fluid">
+                                    <h3 class="text-white">Thực phẩm</h3>
+                                </div>
+                            </li>
+                                                    <li class="col-12" key="1" x-on:click="active = '60ee68ca10c1317e2660455b'">
+                                <div :class="{
+                                        'card_ctrl position-relative': true,
+                                        'active': active === '60ee68ca10c1317e2660455b' ? true : false
+                                    }">
+                                    <img src="/assets/images/landing_page/ckkl.png"
+                                        alt="Cơ khí &amp; Kim loại"  class="img-fluid">
+                                    <h3 class="text-white">Cơ khí &amp; Kim loại</h3>
+                                </div>
+                            </li>
+                                                    <li class="col-12" key="2" x-on:click="active = '60ee68ca10c1317e2660455c'">
+                                <div :class="{
+                                        'card_ctrl position-relative': true,
+                                        'active': active === '60ee68ca10c1317e2660455c' ? true : false
+                                    }">
+                                    <img src="/assets/images/landing_page/ckkl.png"
+                                        alt="Xây dựng"  class="img-fluid">
+                                    <h3 class="text-white">Xây dựng</h3>
+                                </div>
+                            </li>
+                                            </div>
+                </ul>
+            </div>
+        </div>
+                    <div class="career_gr" x-show="active === '60ee68ca10c1317e2660455a'">
+                <div class="title d-flex align-items-center text-dark">
+                    <h2>Thực phẩm</h2>
+                    <span class="text-black-50 ml-2">6 ứng viên</span>
+                </div>
+                
+                <div class="wrap_content">
+                    <div class="row">
+                                                    <div class="col-4 margin-botom-15">
+                                <div class="card bg-white p-0 border-0 rounded-lg shadow">
+                                    <div class="card_top d-flex align-items-center p-3 border-bottom">
+                                        <div class="img">
+                                            <img src="https://storage.googleapis.com/v10-dev/w-384_60eec2760622e81d22347592_1626661324782_44814.png" alt="G Thủy"/>
+                                        </div>
+                                        <div class="text pl-2">
+                                            <h2 class="text-dark">G Thủy</h2>
+                                            <p class="text-muted">
+                                                                                                    Nhóm tuyển dụng 100003 - 
+                                                                                                <span style="color: #3578E5">Thi tuyển</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card_bot">
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/venus-mars.png" alt="venus-mars"/>
+                                                                                                    Nữ
+                                                                                            </span>
+                                            <span>
+                                                <img src="assets/images/landing_page/calendar-alt.png" alt="#">
+                                                1996
+                                            </span>
+                                                                                    </div>
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/location.png" alt="location"/>
+                                                                                                    Hà Nội - 
+                                                                                                Việt Nam
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 margin-botom-15">
+                                <div class="card bg-white p-0 border-0 rounded-lg shadow">
+                                    <div class="card_top d-flex align-items-center p-3 border-bottom">
+                                        <div class="img">
+                                            <img src="https://storage.googleapis.com/v10-dev/w-384_60f7d4562d6fc723d8518612_1626858385984_35340.jpg" alt="xoài xanh"/>
+                                        </div>
+                                        <div class="text pl-2">
+                                            <h2 class="text-dark">xoài xanh</h2>
+                                            <p class="text-muted">
+                                                                                                    Nhóm tuyển dụng 100009 - 
+                                                                                                <span style="color: #3578E5">Thi tuyển</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card_bot">
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/venus-mars.png" alt="venus-mars"/>
+                                                                                                    Nữ
+                                                                                            </span>
+                                            <span>
+                                                <img src="assets/images/landing_page/calendar-alt.png" alt="#">
+                                                1995
+                                            </span>
+                                                                                    </div>
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/location.png" alt="location"/>
+                                                                                                    Hà Nội - 
+                                                                                                Việt Nam
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 margin-botom-15">
+                                <div class="card bg-white p-0 border-0 rounded-lg shadow">
+                                    <div class="card_top d-flex align-items-center p-3 border-bottom">
+                                        <div class="img">
+                                            <img src="https://storage.googleapis.com/v10-dev/w-384_60efc27b6092a53cdd2f6ea2_1626326072241_73868.png" alt="H Thủy"/>
+                                        </div>
+                                        <div class="text pl-2">
+                                            <h2 class="text-dark">H Thủy</h2>
+                                            <p class="text-muted">
+                                                                                                    Nhóm tuyển dụng 100002 - 
+                                                                                                <span style="color: #3578E5">Thi tuyển</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card_bot">
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/venus-mars.png" alt="venus-mars"/>
+                                                                                                    Nữ
+                                                                                            </span>
+                                            <span>
+                                                <img src="assets/images/landing_page/calendar-alt.png" alt="#">
+                                                1990
+                                            </span>
+                                                                                    </div>
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/location.png" alt="location"/>
+                                                                                                    Cao Bằng - 
+                                                                                                Việt Nam
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 margin-botom-15">
+                                <div class="card bg-white p-0 border-0 rounded-lg shadow">
+                                    <div class="card_top d-flex align-items-center p-3 border-bottom">
+                                        <div class="img">
+                                            <img src="https://storage.googleapis.com/v10-dev/w-384_60efc27b6092a53cdd2f6ea2_1626325949572_10133.png" alt="H Thủy"/>
+                                        </div>
+                                        <div class="text pl-2">
+                                            <h2 class="text-dark">H Thủy</h2>
+                                            <p class="text-muted">
+                                                                                                    Nhóm tuyển dụng 100007 - 
+                                                                                                <span style="color: #3578E5">Thi tuyển</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card_bot">
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/venus-mars.png" alt="venus-mars"/>
+                                                                                                    Nữ
+                                                                                            </span>
+                                            <span>
+                                                <img src="assets/images/landing_page/calendar-alt.png" alt="#">
+                                                1992
+                                            </span>
+                                                                                    </div>
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/location.png" alt="location"/>
+                                                                                                    Cao Bằng - 
+                                                                                                Việt Nam
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 margin-botom-15">
+                                <div class="card bg-white p-0 border-0 rounded-lg shadow">
+                                    <div class="card_top d-flex align-items-center p-3 border-bottom">
+                                        <div class="img">
+                                            <img src="https://storage.googleapis.com/v10-dev/w-384_60efc57657bb725aa97bb6e2_1626326518065_35084.png" alt="K Thủy"/>
+                                        </div>
+                                        <div class="text pl-2">
+                                            <h2 class="text-dark">K Thủy</h2>
+                                            <p class="text-muted">
+                                                                                                    Nhóm tuyển dụng 100009 - 
+                                                                                                <span style="color: #3578E5">Thi tuyển</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card_bot">
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/venus-mars.png" alt="venus-mars"/>
+                                                                                                    Nữ
+                                                                                            </span>
+                                            <span>
+                                                <img src="assets/images/landing_page/calendar-alt.png" alt="#">
+                                                1994
+                                            </span>
+                                                                                    </div>
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/location.png" alt="location"/>
+                                                                                                    Lai Châu - 
+                                                                                                Việt Nam
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 margin-botom-15">
+                                <div class="card bg-white p-0 border-0 rounded-lg shadow">
+                                    <div class="card_top d-flex align-items-center p-3 border-bottom">
+                                        <div class="img">
+                                            <img src="https://storage.googleapis.com/v10-dev/w-384_60f8da54a95f99505d6a8d52_1626921878480_94270.jpg" alt="abc U f1"/>
+                                        </div>
+                                        <div class="text pl-2">
+                                            <h2 class="text-dark">abc U f1</h2>
+                                            <p class="text-muted">
+                                                                                                    Nhóm tuyển dụng 100009 - 
+                                                                                                <span style="color: #3578E5">Thi tuyển</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card_bot">
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/venus-mars.png" alt="venus-mars"/>
+                                                                                                    Nữ
+                                                                                            </span>
+                                            <span>
+                                                <img src="assets/images/landing_page/calendar-alt.png" alt="#">
+                                                2000
+                                            </span>
+                                                                                    </div>
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/location.png" alt="location"/>
+                                                                                                    Bắc Kạn - 
+                                                                                                Việt Nam
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+                    <div class="career_gr" x-show="active === '60ee68ca10c1317e2660455b'">
+                <div class="title d-flex align-items-center text-dark">
+                    <h2>Cơ khí &amp; Kim loại</h2>
+                    <span class="text-black-50 ml-2">5 ứng viên</span>
+                </div>
+                
+                <div class="wrap_content">
+                    <div class="row">
+                                                    <div class="col-4 margin-botom-15">
+                                <div class="card bg-white p-0 border-0 rounded-lg shadow">
+                                    <div class="card_top d-flex align-items-center p-3 border-bottom">
+                                        <div class="img">
+                                            <img src="https://storage.googleapis.com/v10-dev/w-384_60efc27b6092a53cdd2f6ea2_1626325886858_2130.png" alt="H Thủy"/>
+                                        </div>
+                                        <div class="text pl-2">
+                                            <h2 class="text-dark">H Thủy</h2>
+                                            <p class="text-muted">
+                                                                                                    Nhóm tuyển dụng 100008 - 
+                                                                                                <span style="color: #3578E5">Làm thủ tục</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card_bot">
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/venus-mars.png" alt="venus-mars"/>
+                                                                                                    Nữ
+                                                                                            </span>
+                                            <span>
+                                                <img src="assets/images/landing_page/calendar-alt.png" alt="#">
+                                                1997
+                                            </span>
+                                                                                    </div>
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/location.png" alt="location"/>
+                                                                                                    Hà Nội - 
+                                                                                                Việt Nam
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 margin-botom-15">
+                                <div class="card bg-white p-0 border-0 rounded-lg shadow">
+                                    <div class="card_top d-flex align-items-center p-3 border-bottom">
+                                        <div class="img">
+                                            <img src="https://storage.googleapis.com/v10-dev/w-384_60eec2760622e81d22347592_1626326208482_37964.png" alt="G Thủy"/>
+                                        </div>
+                                        <div class="text pl-2">
+                                            <h2 class="text-dark">G Thủy</h2>
+                                            <p class="text-muted">
+                                                                                                    Nhóm tuyển dụng 100008 - 
+                                                                                                <span style="color: #3578E5">Thi tuyển</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card_bot">
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/venus-mars.png" alt="venus-mars"/>
+                                                                                                    Nữ
+                                                                                            </span>
+                                            <span>
+                                                <img src="assets/images/landing_page/calendar-alt.png" alt="#">
+                                                1997
+                                            </span>
+                                                                                    </div>
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/location.png" alt="location"/>
+                                                                                                    Hưng Yên - 
+                                                                                                Việt Nam
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 margin-botom-15">
+                                <div class="card bg-white p-0 border-0 rounded-lg shadow">
+                                    <div class="card_top d-flex align-items-center p-3 border-bottom">
+                                        <div class="img">
+                                            <img src="https://storage.googleapis.com/v10-dev/w-384_60efc57657bb725aa97bb6e2_1626326564640_92145.png" alt="K Thủy"/>
+                                        </div>
+                                        <div class="text pl-2">
+                                            <h2 class="text-dark">K Thủy</h2>
+                                            <p class="text-muted">
+                                                                                                    Nhóm tuyển dụng 100008 - 
+                                                                                                <span style="color: #BB6BD9">Trúng tuyển</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card_bot">
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/venus-mars.png" alt="venus-mars"/>
+                                                                                                    Nữ
+                                                                                            </span>
+                                            <span>
+                                                <img src="assets/images/landing_page/calendar-alt.png" alt="#">
+                                                1997
+                                            </span>
+                                                                                    </div>
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/location.png" alt="location"/>
+                                                                                                    Hà Giang - 
+                                                                                                Việt Nam
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 margin-botom-15">
+                                <div class="card bg-white p-0 border-0 rounded-lg shadow">
+                                    <div class="card_top d-flex align-items-center p-3 border-bottom">
+                                        <div class="img">
+                                            <img src="https://storage.googleapis.com/v10-dev/w-384_60eed35099731e3c56006042_1626862991069_75285.jpg" alt="Tư vấn viên EK 01"/>
+                                        </div>
+                                        <div class="text pl-2">
+                                            <h2 class="text-dark">Tư vấn viên EK 01</h2>
+                                            <p class="text-muted">
+                                                                                                    Nhóm tuyển dụng 100010 - 
+                                                                                                <span style="color: #3578E5">Thi tuyển</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card_bot">
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/venus-mars.png" alt="venus-mars"/>
+                                                                                                    Nam
+                                                                                            </span>
+                                            <span>
+                                                <img src="assets/images/landing_page/calendar-alt.png" alt="#">
+                                                1975
+                                            </span>
+                                                                                    </div>
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/location.png" alt="location"/>
+                                                                                                    Hà Nội - 
+                                                                                                Việt Nam
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 margin-botom-15">
+                                <div class="card bg-white p-0 border-0 rounded-lg shadow">
+                                    <div class="card_top d-flex align-items-center p-3 border-bottom">
+                                        <div class="img">
+                                            <img src="https://storage.googleapis.com/v10-dev/w-384_60f8cb8065d8e803ac3102f2_1626919118589_320.jpg" alt="abc f2"/>
+                                        </div>
+                                        <div class="text pl-2">
+                                            <h2 class="text-dark">abc f2</h2>
+                                            <p class="text-muted">
+                                                                                                    Nhóm tuyển dụng 100008 - 
+                                                                                                <span style="color: #3578E5">Thi tuyển</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card_bot">
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/venus-mars.png" alt="venus-mars"/>
+                                                                                                    Nữ
+                                                                                            </span>
+                                            <span>
+                                                <img src="assets/images/landing_page/calendar-alt.png" alt="#">
+                                                2000
+                                            </span>
+                                                                                    </div>
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/location.png" alt="location"/>
+                                                                                                    Bắc Kạn - 
+                                                                                                Việt Nam
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+                    <div class="career_gr" x-show="active === '60ee68ca10c1317e2660455c'">
+                <div class="title d-flex align-items-center text-dark">
+                    <h2>Xây dựng</h2>
+                    <span class="text-black-50 ml-2">3 ứng viên</span>
+                </div>
+                
+                <div class="wrap_content">
+                    <div class="row">
+                                                    <div class="col-4 margin-botom-15">
+                                <div class="card bg-white p-0 border-0 rounded-lg shadow">
+                                    <div class="card_top d-flex align-items-center p-3 border-bottom">
+                                        <div class="img">
+                                            <img src="https://storage.googleapis.com/v10-dev/w-384_60efc57657bb725aa97bb6e2_1626402077967_93374.png" alt="K Thủy"/>
+                                        </div>
+                                        <div class="text pl-2">
+                                            <h2 class="text-dark">K Thủy</h2>
+                                            <p class="text-muted">
+                                                                                                    Nhóm tuyển dụng 100012 - 
+                                                                                                <span style="color: #56CCF2">Đã học xong chưa bay</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card_bot">
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/venus-mars.png" alt="venus-mars"/>
+                                                                                                    Nữ
+                                                                                            </span>
+                                            <span>
+                                                <img src="assets/images/landing_page/calendar-alt.png" alt="#">
+                                                1993
+                                            </span>
+                                                                                    </div>
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/location.png" alt="location"/>
+                                                                                                    Hà Nội - 
+                                                                                                Việt Nam
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 margin-botom-15">
+                                <div class="card bg-white p-0 border-0 rounded-lg shadow">
+                                    <div class="card_top d-flex align-items-center p-3 border-bottom">
+                                        <div class="img">
+                                            <img src="https://storage.googleapis.com/v10-dev/w-384_60ee6cdc594552561133a6f2_1626406302988_66939.jpg" alt="Nguyễn Phương"/>
+                                        </div>
+                                        <div class="text pl-2">
+                                            <h2 class="text-dark">Nguyễn Phương</h2>
+                                            <p class="text-muted">
+                                                                                                    Nhóm tuyển dụng 100011 - 
+                                                                                                <span style="color: #56CCF2">Đã học xong chưa bay</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card_bot">
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/venus-mars.png" alt="venus-mars"/>
+                                                                                                    Nam
+                                                                                            </span>
+                                            <span>
+                                                <img src="assets/images/landing_page/calendar-alt.png" alt="#">
+                                                1993
+                                            </span>
+                                                                                    </div>
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/location.png" alt="location"/>
+                                                                                                    Hà Nội - 
+                                                                                                Việt Nam
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-4 margin-botom-15">
+                                <div class="card bg-white p-0 border-0 rounded-lg shadow">
+                                    <div class="card_top d-flex align-items-center p-3 border-bottom">
+                                        <div class="img">
+                                            <img src="https://storage.googleapis.com/v10-dev/w-384_60eec2760622e81d22347592_1626661137602_11444.png" alt="G Thủy"/>
+                                        </div>
+                                        <div class="text pl-2">
+                                            <h2 class="text-dark">G Thủy</h2>
+                                            <p class="text-muted">
+                                                                                                    Nhóm tuyển dụng 100011 - 
+                                                                                                <span style="color: #3578E5">Thi tuyển</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card_bot">
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/venus-mars.png" alt="venus-mars"/>
+                                                                                                    Nữ
+                                                                                            </span>
+                                            <span>
+                                                <img src="assets/images/landing_page/calendar-alt.png" alt="#">
+                                                1988
+                                            </span>
+                                                                                    </div>
+                                        <div class="item_elm">
+                                            <span>
+                                                <img src="assets/images/landing_page/location.png" alt="location"/>
+                                                                                                    Hà Nội - 
+                                                                                                Việt Nam
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+            </div>
+</section>
+<script>
+    window.addEventListener('owl-career', event => {
+        if(event){
+            runAginOwlCarrer()
+        }
+    })
+</script>
+
+
+<section class="section_adv">
+    <div class="container">
+        <div class="content" style="background: url(/assets/images/landing_page/main-advantage-2.png) no-repeat center;">   
+            <div class="inner_content">
+                <h2>Doanh nghiệp bạn đang cần tuyển?</h2>
+                <p>
+                    <a href="tel:02436374388" title="#">Hotline: 0243 637 4388
+                        <span><img src="/assets/images/landing_page/arrow-right.png" alt="arrow-right"></span>
+                    </a>
+                </p>
+                <p>
+                    <a href="mailto:contact@v10.vn" title="#">Email: contact@v10.vn
+                        <span><img src="/assets/images/landing_page/arrow-right.png" alt="arrow-right"></span>
+                    </a>
+                </p>
+            </div>
+        </div> 
+    </div>
+</section>
+
+<section wire:id="3sGmh9cz7HBpDA2lH6Ez" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;3sGmh9cz7HBpDA2lH6Ez&quot;,&quot;name&quot;:&quot;landing-page.home.recruitment&quot;,&quot;locale&quot;:&quot;vi&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;49006a8d&quot;,&quot;data&quot;:{&quot;xkld&quot;:[{&quot;id&quot;:&quot;60eea4317a197020a7735bd3&quot;,&quot;name&quot;:&quot;\u0110\u01a0N V\u1eca XKL\u0110 TH\u1ee6Y TH\u00c1I 01&quot;,&quot;id_custom&quot;:100029,&quot;name_profile&quot;:null,&quot;phone&quot;:&quot;0985 097 746&quot;,&quot;email&quot;:&quot;thuy@gmail.com&quot;,&quot;sex&quot;:0,&quot;classify&quot;:4,&quot;marital_status&quot;:0,&quot;commune&quot;:null,&quot;address&quot;:&quot;100 Li\u1ec5u giai&quot;,&quot;active_collaborators&quot;:0,&quot;birthday&quot;:&quot;&quot;,&quot;active&quot;:1,&quot;level&quot;:0,&quot;premium&quot;:false,&quot;phone_presenter&quot;:&quot;&quot;,&quot;complete_profile&quot;:false,&quot;user_parent&quot;:0,&quot;time_last_login&quot;:&quot;&quot;,&quot;count_voted&quot;:345,&quot;point_vote&quot;:4,&quot;user_care&quot;:3,&quot;user_done&quot;:0,&quot;count_order&quot;:0,&quot;bg_color&quot;:&quot;rgba(224, 224, 224, 0.7)&quot;,&quot;city&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604260&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;01&quot;,&quot;name&quot;:&quot;H\u00e0 N\u1ed9i&quot;,&quot;type&quot;:&quot;thanh-pho&quot;,&quot;name_with_type&quot;:&quot;Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;ha-noi&quot;}},&quot;district&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e266042e6&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:false,&quot;district&quot;:true,&quot;code&quot;:&quot;001&quot;,&quot;name&quot;:&quot;Ba \u0110\u00ecnh&quot;,&quot;type&quot;:&quot;quan&quot;,&quot;name_with_type&quot;:&quot;Qu\u1eadn Ba \u0110\u00ecnh&quot;,&quot;path_with_type&quot;:&quot;Qu\u1eadn Ba \u0110\u00ecnh, Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;parent_code&quot;:&quot;01&quot;,&quot;path&quot;:&quot;Ba \u0110\u00ecnh, H\u00e0 N\u1ed9i&quot;,&quot;active&quot;:1,&quot;slug&quot;:&quot;ba-dinh&quot;}},&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60ee6bb5fcad400dc11c6902_1626252336752_30255.jpg&quot;}},&quot;cover_image&quot;:null},{&quot;id&quot;:&quot;60eea455f3af7e62301bc513&quot;,&quot;name&quot;:&quot;EK All&quot;,&quot;id_custom&quot;:100030,&quot;name_profile&quot;:null,&quot;phone&quot;:&quot;0243 637 4388&quot;,&quot;email&quot;:&quot;info@eki.com.vn&quot;,&quot;sex&quot;:0,&quot;classify&quot;:4,&quot;marital_status&quot;:0,&quot;commune&quot;:null,&quot;address&quot;:&quot;T\u1ea7ng 6 CT1 - T\u00f2a B\u1eafc H\u00e0 C14, T\u1ed1 H\u1eefu, Trung V\u0103n&quot;,&quot;active_collaborators&quot;:0,&quot;birthday&quot;:&quot;&quot;,&quot;active&quot;:1,&quot;level&quot;:0,&quot;premium&quot;:false,&quot;phone_presenter&quot;:&quot;&quot;,&quot;complete_profile&quot;:false,&quot;user_parent&quot;:0,&quot;time_last_login&quot;:&quot;&quot;,&quot;count_voted&quot;:319,&quot;point_vote&quot;:5,&quot;user_care&quot;:4,&quot;user_done&quot;:5,&quot;count_order&quot;:0,&quot;bg_color&quot;:&quot;rgba(235, 87, 87, 0.7)&quot;,&quot;city&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604260&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;01&quot;,&quot;name&quot;:&quot;H\u00e0 N\u1ed9i&quot;,&quot;type&quot;:&quot;thanh-pho&quot;,&quot;name_with_type&quot;:&quot;Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;ha-noi&quot;}},&quot;district&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e266042f2&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:false,&quot;district&quot;:true,&quot;code&quot;:&quot;019&quot;,&quot;name&quot;:&quot;Nam T\u1eeb Li\u00eam&quot;,&quot;type&quot;:&quot;quan&quot;,&quot;name_with_type&quot;:&quot;Qu\u1eadn Nam T\u1eeb Li\u00eam&quot;,&quot;path_with_type&quot;:&quot;Qu\u1eadn Nam T\u1eeb Li\u00eam, Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;parent_code&quot;:&quot;01&quot;,&quot;path&quot;:&quot;Nam T\u1eeb Li\u00eam, H\u00e0 N\u1ed9i&quot;,&quot;active&quot;:1,&quot;slug&quot;:&quot;nam-tu-liem&quot;}},&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60ee6af2a32fe132d1534e92_1626252373356_21916.png&quot;}},&quot;cover_image&quot;:null},{&quot;id&quot;:&quot;60eea4d82725c9367e02b233&quot;,&quot;name&quot;:&quot;LABCO., JSC&quot;,&quot;id_custom&quot;:100033,&quot;name_profile&quot;:null,&quot;phone&quot;:&quot;0387 042 221&quot;,&quot;email&quot;:&quot;labco@labco.vn&quot;,&quot;sex&quot;:0,&quot;classify&quot;:4,&quot;marital_status&quot;:0,&quot;commune&quot;:null,&quot;address&quot;:&quot;32 Tr\u00e0ng Ti\u1ec1n&quot;,&quot;active_collaborators&quot;:0,&quot;birthday&quot;:&quot;&quot;,&quot;active&quot;:1,&quot;level&quot;:0,&quot;premium&quot;:false,&quot;phone_presenter&quot;:&quot;&quot;,&quot;complete_profile&quot;:false,&quot;user_parent&quot;:0,&quot;time_last_login&quot;:&quot;&quot;,&quot;count_voted&quot;:305,&quot;point_vote&quot;:5,&quot;user_care&quot;:1,&quot;user_done&quot;:11,&quot;count_order&quot;:0,&quot;bg_color&quot;:&quot;rgba(235, 87, 87, 0.7)&quot;,&quot;city&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604260&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;01&quot;,&quot;name&quot;:&quot;H\u00e0 N\u1ed9i&quot;,&quot;type&quot;:&quot;thanh-pho&quot;,&quot;name_with_type&quot;:&quot;Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;ha-noi&quot;}},&quot;district&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e266042e7&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:false,&quot;district&quot;:true,&quot;code&quot;:&quot;002&quot;,&quot;name&quot;:&quot;Ho\u00e0n Ki\u1ebfm&quot;,&quot;type&quot;:&quot;quan&quot;,&quot;name_with_type&quot;:&quot;Qu\u1eadn Ho\u00e0n Ki\u1ebfm&quot;,&quot;path_with_type&quot;:&quot;Qu\u1eadn Ho\u00e0n Ki\u1ebfm, Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;parent_code&quot;:&quot;01&quot;,&quot;path&quot;:&quot;Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i&quot;,&quot;active&quot;:1,&quot;slug&quot;:&quot;hoan-kiem&quot;}},&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60ee6af2a32fe132d1534e92_1626252503471_39369.png&quot;}},&quot;cover_image&quot;:null},{&quot;id&quot;:&quot;60f4f870767692221d4620a3&quot;,&quot;name&quot;:&quot;EMICO - VOV&quot;,&quot;id_custom&quot;:100105,&quot;name_profile&quot;:null,&quot;phone&quot;:&quot;0000 000 000&quot;,&quot;email&quot;:&quot;nguon.emico@gmail.com&quot;,&quot;sex&quot;:0,&quot;classify&quot;:4,&quot;marital_status&quot;:0,&quot;commune&quot;:null,&quot;address&quot;:&quot;65 L\u1ea1c Trung, ph\u01b0\u1eddng V\u0129nh Tuy&quot;,&quot;active_collaborators&quot;:0,&quot;birthday&quot;:&quot;&quot;,&quot;active&quot;:1,&quot;level&quot;:0,&quot;premium&quot;:false,&quot;phone_presenter&quot;:&quot;&quot;,&quot;complete_profile&quot;:false,&quot;user_parent&quot;:0,&quot;time_last_login&quot;:&quot;&quot;,&quot;count_voted&quot;:340,&quot;point_vote&quot;:5,&quot;user_care&quot;:0,&quot;user_done&quot;:1,&quot;count_order&quot;:0,&quot;bg_color&quot;:&quot;rgba(242, 153, 74, 0.7)&quot;,&quot;city&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e26604260&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:true,&quot;district&quot;:false,&quot;code&quot;:&quot;01&quot;,&quot;name&quot;:&quot;H\u00e0 N\u1ed9i&quot;,&quot;type&quot;:&quot;thanh-pho&quot;,&quot;name_with_type&quot;:&quot;Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;path_with_type&quot;:null,&quot;parent_code&quot;:&quot;0&quot;,&quot;path&quot;:null,&quot;active&quot;:1,&quot;slug&quot;:&quot;ha-noi&quot;}},&quot;district&quot;:{&quot;data&quot;:{&quot;id&quot;:&quot;60ee68c810c1317e266042ec&quot;,&quot;id_custom&quot;:null,&quot;city&quot;:false,&quot;district&quot;:true,&quot;code&quot;:&quot;007&quot;,&quot;name&quot;:&quot;Hai B\u00e0 Tr\u01b0ng&quot;,&quot;type&quot;:&quot;quan&quot;,&quot;name_with_type&quot;:&quot;Qu\u1eadn Hai B\u00e0 Tr\u01b0ng&quot;,&quot;path_with_type&quot;:&quot;Qu\u1eadn Hai B\u00e0 Tr\u01b0ng, Th\u00e0nh ph\u1ed1 H\u00e0 N\u1ed9i&quot;,&quot;parent_code&quot;:&quot;01&quot;,&quot;path&quot;:&quot;Hai B\u00e0 Tr\u01b0ng, H\u00e0 N\u1ed9i&quot;,&quot;active&quot;:1,&quot;slug&quot;:&quot;hai-ba-trung&quot;}},&quot;avatar&quot;:{&quot;data&quot;:{&quot;fullsize&quot;:&quot;https:\/\/storage.googleapis.com\/v10-dev\/w-384_60f4f7eeda299c71c87682a2_1626749890597_46992.jpg&quot;}},&quot;cover_image&quot;:null}]},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;307554bd4d27e9388fdae57feae02ec59aabed45e01a6b9e24b6d5c8c75a10c0&quot;}}" id="scroll" class="recruitment_unit">
+    <div class="container">
+        <div class="main_title text-center">
+            <h2>Các đơn vị tuyển dụng</h2>
+        </div>
+        <div class="main_content">
+            <ul class="row ">
+                <div class="owl-unit owl-carousel owl-theme">
+                                            <li class="col-12">
+                            <div class="card_box rounded-lg shadow overflow-hidden">
+                                <div class="card_top">
+                                                                        <div class="card_text bg-white p-3">
+                                        <div class="header d-flex align-items-center justify-content-between">
+                                            <div class="unit d-flex align-items-center justify-content-between">
+                                                <img src="https://storage.googleapis.com/v10-dev/w-384_60ee6bb5fcad400dc11c6902_1626252336752_30255.jpg" alt="ĐƠN VỊ XKLĐ THỦY THÁI 01"
+                                                    class="rounded-circle mr-1"/>
+                                                <div class="unit_text">
+                                                    <h3>ĐƠN VỊ XKLĐ THỦY THÁI 01</h3>
+                                                    <span>Đơn vị tuyển dụng</span>
+                                                </div>
+                                            </div>
+                                            <div class="comment pl-2">
+                                                <span wire:click="$emit('activeContact', '60eea4317a197020a7735bd3')">
+                                                    <img src="/assets/images/landing_page/comment-icon.png" alt="comment-icon"/>
+                                                </span>
+                                                <p>Liên hệ</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom d-flex py-2">
+                                            <div class="info">
+                                                <p>0</p>
+                                                <span>Yêu cầu tuyển dụng</span>
+                                            </div>
+                                            <div class="info">
+                                                <p>0</p>
+                                                <span>Học viên trúng tuyển</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_bottom bg-white p-3">
+                                    <div class="header">
+                                        <h3>Thông tin doanh nghiệp</h3>
+                                        <div class="info_conpany">
+                                            <div class="info_item">
+                                                <div class="icon">
+                                                    <img src="/assets/images/landing_page/city.png" alt="city"/>
+                                                </div>
+                                                <span>ĐƠN VỊ XKLĐ THỦY THÁI 01</span>
+                                            </div>
+                                            <div class="info_item">
+                                                <div class="icon">
+                                                    <img src="/assets/images/landing_page/map-marker.png" alt="map-marker"/>
+                                                </div>
+                                                <span>
+                                                    100 Liễu giai 
+                                                    Quận Ba Đình 
+                                                    Hà Nội
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="elm">
+                                            <div class="icon">
+                                                <img src="/assets/images/landing_page/star.png" alt="star"/>
+                                            </div>
+                                            <span><strong>4</strong> - 345 đánh giá từ học viên</span>
+                                        </div>
+                                        <div class="elm">
+                                            <div class="icon"> 
+                                                <img src="/assets/images/landing_page/rss.png" alt="rss"/>
+                                            </div>  
+                                            <span><strong>3</strong> người theo dõi</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                                            <li class="col-12">
+                            <div class="card_box rounded-lg shadow overflow-hidden">
+                                <div class="card_top">
+                                                                        <div class="card_text bg-white p-3">
+                                        <div class="header d-flex align-items-center justify-content-between">
+                                            <div class="unit d-flex align-items-center justify-content-between">
+                                                <img src="https://storage.googleapis.com/v10-dev/w-384_60ee6af2a32fe132d1534e92_1626252373356_21916.png" alt="EK All"
+                                                    class="rounded-circle mr-1"/>
+                                                <div class="unit_text">
+                                                    <h3>EK All</h3>
+                                                    <span>Đơn vị tuyển dụng</span>
+                                                </div>
+                                            </div>
+                                            <div class="comment pl-2">
+                                                <span wire:click="$emit('activeContact', '60eea455f3af7e62301bc513')">
+                                                    <img src="/assets/images/landing_page/comment-icon.png" alt="comment-icon"/>
+                                                </span>
+                                                <p>Liên hệ</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom d-flex py-2">
+                                            <div class="info">
+                                                <p>0</p>
+                                                <span>Yêu cầu tuyển dụng</span>
+                                            </div>
+                                            <div class="info">
+                                                <p>5</p>
+                                                <span>Học viên trúng tuyển</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_bottom bg-white p-3">
+                                    <div class="header">
+                                        <h3>Thông tin doanh nghiệp</h3>
+                                        <div class="info_conpany">
+                                            <div class="info_item">
+                                                <div class="icon">
+                                                    <img src="/assets/images/landing_page/city.png" alt="city"/>
+                                                </div>
+                                                <span>EK All</span>
+                                            </div>
+                                            <div class="info_item">
+                                                <div class="icon">
+                                                    <img src="/assets/images/landing_page/map-marker.png" alt="map-marker"/>
+                                                </div>
+                                                <span>
+                                                    Tầng 6 CT1 - Tòa Bắc Hà C14, Tố Hữu, Trung Văn 
+                                                    Quận Nam Từ Liêm 
+                                                    Hà Nội
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="elm">
+                                            <div class="icon">
+                                                <img src="/assets/images/landing_page/star.png" alt="star"/>
+                                            </div>
+                                            <span><strong>5</strong> - 319 đánh giá từ học viên</span>
+                                        </div>
+                                        <div class="elm">
+                                            <div class="icon"> 
+                                                <img src="/assets/images/landing_page/rss.png" alt="rss"/>
+                                            </div>  
+                                            <span><strong>4</strong> người theo dõi</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                                            <li class="col-12">
+                            <div class="card_box rounded-lg shadow overflow-hidden">
+                                <div class="card_top">
+                                                                        <div class="card_text bg-white p-3">
+                                        <div class="header d-flex align-items-center justify-content-between">
+                                            <div class="unit d-flex align-items-center justify-content-between">
+                                                <img src="https://storage.googleapis.com/v10-dev/w-384_60ee6af2a32fe132d1534e92_1626252503471_39369.png" alt="LABCO., JSC"
+                                                    class="rounded-circle mr-1"/>
+                                                <div class="unit_text">
+                                                    <h3>LABCO., JSC</h3>
+                                                    <span>Đơn vị tuyển dụng</span>
+                                                </div>
+                                            </div>
+                                            <div class="comment pl-2">
+                                                <span wire:click="$emit('activeContact', '60eea4d82725c9367e02b233')">
+                                                    <img src="/assets/images/landing_page/comment-icon.png" alt="comment-icon"/>
+                                                </span>
+                                                <p>Liên hệ</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom d-flex py-2">
+                                            <div class="info">
+                                                <p>0</p>
+                                                <span>Yêu cầu tuyển dụng</span>
+                                            </div>
+                                            <div class="info">
+                                                <p>11</p>
+                                                <span>Học viên trúng tuyển</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_bottom bg-white p-3">
+                                    <div class="header">
+                                        <h3>Thông tin doanh nghiệp</h3>
+                                        <div class="info_conpany">
+                                            <div class="info_item">
+                                                <div class="icon">
+                                                    <img src="/assets/images/landing_page/city.png" alt="city"/>
+                                                </div>
+                                                <span>LABCO., JSC</span>
+                                            </div>
+                                            <div class="info_item">
+                                                <div class="icon">
+                                                    <img src="/assets/images/landing_page/map-marker.png" alt="map-marker"/>
+                                                </div>
+                                                <span>
+                                                    32 Tràng Tiền 
+                                                    Quận Hoàn Kiếm 
+                                                    Hà Nội
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="elm">
+                                            <div class="icon">
+                                                <img src="/assets/images/landing_page/star.png" alt="star"/>
+                                            </div>
+                                            <span><strong>5</strong> - 305 đánh giá từ học viên</span>
+                                        </div>
+                                        <div class="elm">
+                                            <div class="icon"> 
+                                                <img src="/assets/images/landing_page/rss.png" alt="rss"/>
+                                            </div>  
+                                            <span><strong>1</strong> người theo dõi</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                                            <li class="col-12">
+                            <div class="card_box rounded-lg shadow overflow-hidden">
+                                <div class="card_top">
+                                                                        <div class="card_text bg-white p-3">
+                                        <div class="header d-flex align-items-center justify-content-between">
+                                            <div class="unit d-flex align-items-center justify-content-between">
+                                                <img src="https://storage.googleapis.com/v10-dev/w-384_60f4f7eeda299c71c87682a2_1626749890597_46992.jpg" alt="EMICO - VOV"
+                                                    class="rounded-circle mr-1"/>
+                                                <div class="unit_text">
+                                                    <h3>EMICO - VOV</h3>
+                                                    <span>Đơn vị tuyển dụng</span>
+                                                </div>
+                                            </div>
+                                            <div class="comment pl-2">
+                                                <span wire:click="$emit('activeContact', '60f4f870767692221d4620a3')">
+                                                    <img src="/assets/images/landing_page/comment-icon.png" alt="comment-icon"/>
+                                                </span>
+                                                <p>Liên hệ</p>
+                                            </div>
+                                        </div>
+                                        <div class="bottom d-flex py-2">
+                                            <div class="info">
+                                                <p>0</p>
+                                                <span>Yêu cầu tuyển dụng</span>
+                                            </div>
+                                            <div class="info">
+                                                <p>1</p>
+                                                <span>Học viên trúng tuyển</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card_bottom bg-white p-3">
+                                    <div class="header">
+                                        <h3>Thông tin doanh nghiệp</h3>
+                                        <div class="info_conpany">
+                                            <div class="info_item">
+                                                <div class="icon">
+                                                    <img src="/assets/images/landing_page/city.png" alt="city"/>
+                                                </div>
+                                                <span>EMICO - VOV</span>
+                                            </div>
+                                            <div class="info_item">
+                                                <div class="icon">
+                                                    <img src="/assets/images/landing_page/map-marker.png" alt="map-marker"/>
+                                                </div>
+                                                <span>
+                                                    65 Lạc Trung, phường Vĩnh Tuy 
+                                                    Quận Hai Bà Trưng 
+                                                    Hà Nội
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="elm">
+                                            <div class="icon">
+                                                <img src="/assets/images/landing_page/star.png" alt="star"/>
+                                            </div>
+                                            <span><strong>5</strong> - 340 đánh giá từ học viên</span>
+                                        </div>
+                                        <div class="elm">
+                                            <div class="icon"> 
+                                                <img src="/assets/images/landing_page/rss.png" alt="rss"/>
+                                            </div>  
+                                            <span><strong>0</strong> người theo dõi</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                                    </div>
+            </ul>
+        </div>
+    </div>
+</section>
+<div wire:id="2Fg0CuvCcxqls45NVw9C" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;2Fg0CuvCcxqls45NVw9C&quot;,&quot;name&quot;:&quot;landing-page.home.news&quot;,&quot;locale&quot;:&quot;vi&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;d5e665ca&quot;,&quot;data&quot;:{&quot;topicks&quot;:[],&quot;title&quot;:&quot;Tin t\u1ee9c m\u1edbi nh\u1ea5t&quot;},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;1c6cba611b2d0c8c6c16c6cb90a85319a1a3390b90a797572cbf36e860621101&quot;}}">
+    </div><div wire:id="UW2KyW9qlQxDTUruHimq" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;UW2KyW9qlQxDTUruHimq&quot;,&quot;name&quot;:&quot;landing-page.form-contact&quot;,&quot;locale&quot;:&quot;vi&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[&quot;activeContact&quot;]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;77fefca0&quot;,&quot;data&quot;:{&quot;name&quot;:&quot;&quot;,&quot;phone&quot;:&quot;&quot;,&quot;email&quot;:&quot;&quot;,&quot;note&quot;:&quot;&quot;,&quot;id_business&quot;:&quot;&quot;,&quot;active&quot;:false,&quot;message_success&quot;:&quot;&quot;,&quot;active_success&quot;:false},&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;fef1f71f3e411a52faa621b89b735f426f11748b2a82e8a5d5b0ef9db7175552&quot;}}" class="modal_ctrl position-fixed" x-data="{
+        active: window.Livewire.find('UW2KyW9qlQxDTUruHimq').entangle('active'),
+    }" x-show="active" style="display:none">
+    <div class="modal-main d-flex align-items-center justify-content-center">
+        <div class="modal_body bg-white p-4 rounded-lg" @click.away="active = false">
+                            <div class="header">
+                    <h2>Liên hệ với đơn vị tuyển dụng</h2>
+                    <p>Để lại thông tin và v10 sẽ giúp bạn kết nối trực tiếp</p>
+                </div>
+                <div class="inner_form">
+                    <form method="POST" wire:submit.prevent="submitForm">
+                        <div class="form_item ">
+                            <input type="text" placeholder="Người đại diện hoặc Tên công ty"
+                                wire:model="name" id="name_contact"/>
+                            <label for="name_contact"><img src="/assets/images/landing_page/user.png" alt="#"></label>
+                        </div>
+                                
+                        <div class="form_item ">
+                            <input type="text" placeholder="Địa chỉ email"
+                                wire:model="email" id="email_contact"/>
+                            <label for="email_contact"><img src="/assets/images/landing_page/envelope.png" alt="#"></label>
+                        </div>
+                                
+                        <div class="form_item ">
+                            <input type="text" placeholder="Số điện thoại"
+                                wire:model="phone" id="phone_contact"/>
+                            <label for="phone_contact"><img src="/assets/images/landing_page/phone-alt.png" alt="#"></label>
+                        </div>
+                                
+                        <div class="form_item">
+                            <textarea rows="4" cols="50" placeholder="Ghi chú thông tin cần tư vấn, các câu hỏi,..."
+                                wire:model="note"></textarea>
+                        </div>
+        
+                        <button type="submit" class="btn btn-block text-left">
+                            Gửi thông tin
+                            <span><img src="/assets/images/landing_page/arrow-down.png" alt=""></span>
+                        </button>
+                    </form>
+                </div>
+                    </div>
+    </div>
+</div>
+    </div>
+    <footer wire:id="hUYU5DjhYTT6bAXm6pzC" wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;hUYU5DjhYTT6bAXm6pzC&quot;,&quot;name&quot;:&quot;landing-page.footer&quot;,&quot;locale&quot;:&quot;vi&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;e2efb747&quot;,&quot;data&quot;:[],&quot;dataMeta&quot;:[],&quot;checksum&quot;:&quot;a4712c7184868869626ef11693674face64a3a66b6b5f92134968fe0f0928b9c&quot;}}" class="footer_ctrl">
+    <div class="footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="logo">
+                        <img src="https://vnm.v10.vn/assets/images/landing_page/logo.png" alt="logo"/>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="info_company">
+                        <div class="text_title">
+                            <h2>CÔNG TY CỔ PHẦN CÔNG NGHỆ V10</h2>
+                        </div>
+                        <div class="info_elm">
+                            <p>Số 20b Lĩnh Nam, Phường Lĩnh Nam, Quận Hoàng Mai Thành phố Hà Nội, Việt Nam</p>
+                            <p>Hotline: <span> 0243 826 6429 – 0357 879 633</span></p>
+                            <p>Mail: <span>v10congnghe@gmail.com</span></p>
+                            <p>Số giấy chứng nhận ĐKKD: <span>0109583913</span></p>
+                            <p>Người đại diện theo pháp luật: <span>NGUYỄN THÀNH KÍNH</span></p>
+                            <p>Chức vụ: <span>Tổng Giám Đốc</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="menu_bottom">
+                        <div class="text_title">
+                            <h2>Đường dẫn</h2>
+                        </div>
+                        <ul>
+                            <li><a href="https://VNM.v10.vn/chinh-sach-quy-dinh-chung">Chính sách &amp; Quy định chung</a></li>
+                            <li><a href="https://VNM.v10.vn/chinh-sach-bao-mat">Chính sách bảo mật</a></li>
+                            <li><a href="https://VNM.v10.vn/chinh-sach-thanh-toan">Chính sách thanh toán</a></li>
+                            <li><a href="https://VNM.v10.vn/thong-tin-chu-so-huu">Chủ sở hữu Website</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="menu_bottom">
+                        <div class="text_title">
+                            <h2>Thông tin</h2>
+                        </div>
+                        <ul>
+                            <li><a href="#" title="#">Liên hệ với V10</a></li>
+                            <li><a href="#" title="#">Giới thiệu về V10</a></li>
+                            <li><a href="#" title="#">Câu hỏi thường gặp</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom text-center">
+        © 2021 V10
+    </div>
+</footer>
+    <script src="/vendor/livewire/livewire.js?id=e6704f81026a73a52725" data-turbo-eval="false" data-turbolinks-eval="false"></script><script data-turbo-eval="false" data-turbolinks-eval="false">window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'dwVAyEKvfV8C3mAiTqG8Gdi20RLAtxrPpE6fVznk';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', () => {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+    <script type="text/javascript" src="https://vnm.v10.vn/assets/js/landing-page.js"></script>
+    </body>
+</html>

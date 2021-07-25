@@ -1,0 +1,835 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<base href="http://vitbatanhminh.com/"  />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+ 
+<!--//===============================MOBILE_code===================//-->    
+
+<!--//===============================computer===================//-->      
+
+<meta name="keywords" content="Công ty TNHH SX - TM - DV Vít Bát Anh Minh" /> <!--$keywords_custom -> file_requick.php-->
+<meta name="description" content="Công ty TNHH SX - TM - DV Vít Bát Anh Minh" />
+<meta name="author" content="Trầm Nhật Khánh" />
+<meta name="copyright" content="Trầm Nhật Khánh [nhatkhanh.nina@gmail.com]" />
+<title>Công ty TNHH SX - TM - DV Vít Bát Anh Minh</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link type="text/css" href="css/magiczoomplus.css" media="all" rel="stylesheet" />
+<link type="text/css" href="css/skitter.styles.css" media="all" rel="stylesheet" />
+<link type="text/css" href="css/skins/tango/skin.css" media="all" rel="stylesheet" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="js/magiczoomplus.js"></script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript" src="js/ImageTooltip.js"></script>
+<script type="text/javascript">
+function doEnter(evt){
+	// IE					// Netscape/Firefox/Opera
+	var key;
+	if(evt.keyCode == 13 || evt.which == 13){
+		onSearch(evt);
+	}
+}
+function onSearch(evt) {			
+
+		var keyword = document.getElementById("keyword").value;
+		if(keyword=='' || keyword=='Nhập từ khoá tìm kiếm...')
+			alert('Bạn chưa nhập từ khóa tìm kiếm!');
+		else{
+		//var encoded = Base64.encode(keyword);
+		location.href = "tim-kiem.html/keyword="+keyword;
+		loadPage(document.location);			
+		}
+}	
+</script>
+
+	
+<!--//===============================MOBILE_code===================//-->     
+
+
+</head>
+
+<body >
+  
+<div id="waper">
+	<div id="banner"><div id="hinh"><img src="upload/hinhanh/570.png" width="1000px" height="208px"/></div></div>
+    <div id="menu">
+    	<div class="menu_top">
+        	
+        	<ul>
+            	<li><a href="index.html" class="active">Trang chủ</a></li>
+            	<li><a href="gioi-thieu.html" class="">Giới thiệu</a></li>
+            	<li><a href="san-pham.html" class="">Sản phẩm</a>
+    			<ul>
+        		        			<li><a href="vit-nganh-go/" title="V&Iacute;T NG&Agrave;NH GỖ">VÍT NGÀNH GỖ</a>        	
+           		           		</li>
+                   			<li><a href="bulon-nganh-go/" title="BULON NG&Agrave;NH GỖ">BULON NGÀNH GỖ</a>        	
+           		           		</li>
+                   			<li><a href="tan-cay-so-sat/" title="T&Aacute;N CẤY - S&Ograve; SẮT">TÁN CẤY - SÒ SẮT</a>        	
+           		           		</li>
+                   			<li><a href="khoa-khoa-luc-giac/" title="KH&Oacute;A - KH&Oacute;A LỤC GI&Aacute;C">KHÓA - KHÓA LỤC GIÁC</a>        	
+           		           		</li>
+                   			<li><a href="pat-sat-ban-le/" title="P&Aacute;T SẮT - BẢN LỀ">PÁT SẮT - BẢN LỀ</a>        	
+           		           		</li>
+                   			<li><a href="ri-ve-dinh/" title="RI V&Ecirc; - ĐINH">RI VÊ - ĐINH</a>        	
+           		           		</li>
+                   			<li><a href="ty-ren-guzong/" title="TY REN - GUZONG">TY REN - GUZONG</a>        	
+           		           		</li>
+                   			<li><a href="long-den-dai-oc/" title="LONG ĐỀN - ĐAI ỐC">LONG ĐỀN - ĐAI ỐC</a>        	
+           		           		</li>
+                   			<li><a href="san-pham-nhua/" title="SẢN PHẨM NHỰA">SẢN PHẨM NHỰA</a>        	
+           		           		</li>
+                   			<li><a href="san-pham-inox/" title="SẢN PHẨM INOX">SẢN PHẨM INOX</a>        	
+           		           		</li>
+                   			<li><a href="mam-xoay-ray/" title="M&Acirc;M XOAY - RAY ">MÂM XOAY - RAY </a>        	
+           		           		</li>
+                   			<li><a href="bulon-co-khi/" title="BULON CƠ KH&Iacute;">BULON CƠ KHÍ</a>        	
+           		           		</li>
+                   			<li><a href="tan-du-tan-ngang/" title="T&aacute;n D&ugrave; - T&aacute;n Ngang">Tán Dù - Tán Ngang</a>        	
+           		           		</li>
+                   </ul>     
+                </li>
+            	<li><a href="dich-vu.html" class="">Dịch vụ</a></li>
+                <li><a href="tin-tuc.html" class="">tin tức</a></li>
+                <li><a href="tuyen-dung.html" class="">tuyển dụng</a></li>
+            	<li id="last"><a href="lien-he.html" class="">Liên hệ</a></li>
+            </ul>
+            <div class="box_search">
+                <input type="text" name="keyword" id="keyword"  onkeypress="doEnter(event,'keyword');"> 
+                <input type="button" value="Search" onclick="onSearch();">
+           </div>
+<script> 
+$(document).ready(function(){
+  $("#menu ul li").hover(function(){
+    $(this).find("ul:first").css({visibility: "visible",display: "none"}).slideDown(400);
+  },function(){
+	  $(this).find("ul.first").css({visibility: "hidden"});
+	  });
+});
+</script>       	</div>
+    </div>
+    <div id="slider"><script src="js/skdslider.js"></script>
+<link href="css/skdslider.css" rel="stylesheet">
+<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#demo1').skdslider({delay:5000, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
+			jQuery('#demo2').skdslider({delay:5000, animationSpeed: 1000,showNextPrev:true,showPlayButton:false,autoSlide:true,animationType:'sliding'});
+			jQuery('#demo3').skdslider({delay:5000, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
+			
+			jQuery('#responsive').change(function(){
+			  $('#responsive_wrapper').width(jQuery(this).val());
+			});
+			
+		});
+</script>
+
+                     
+<div id="center-container">
+
+<div id="content">
+		<div class="border_box">
+            <div class="skdslidere">
+				<ul id="demo3" class="slides">
+					 					
+                   
+                     
+                    <li><a href="" target="_blank"><img src="upload/hinhanh/761466175720856_1000x380.png" class="" alt="Công ty TNHH SX - TM - DV Vít Bát Anh Minh" /></a></li>
+					   					
+                   
+                     
+                    <li><a href="" target="_blank"><img src="upload/hinhanh/200244311436424_1000x380.gif" class="" alt="Công ty TNHH SX - TM - DV Vít Bát Anh Minh" /></a></li>
+					  	
+				</ul>
+			</div>
+		<div style="clear:both"></div>
+            
+		</div>
+		
+		
+</div>
+
+           
+</div></div>
+    <div id="waper_conten">
+    	<div id="left">        	<div class="left_box">
+            	<div class="left_box_title">
+                	<div class="title_top">
+                        <div class="title_top_left"><p>Danh Mục Sản Phẩm</p></div>
+                        <div class="title_top_right"></div>
+                    </div>
+                	<div class="title_bot">
+                        <div class="title_bot_left"></div>
+                        <div class="title_bot_right"></div>
+                    </div>
+                </div>
+            <ul>
+    	               	         
+                	<li><a href="vit-nganh-go/" title="V&Iacute;T NG&Agrave;NH GỖ">VÍT NGÀNH GỖ</a>
+                                         </li>
+                    <div class="left_border_bottom"></div>                	               	         
+                	<li><a href="bulon-nganh-go/" title="BULON NG&Agrave;NH GỖ">BULON NGÀNH GỖ</a>
+                                         </li>
+                    <div class="left_border_bottom"></div>                	               	         
+                	<li><a href="tan-cay-so-sat/" title="T&Aacute;N CẤY - S&Ograve; SẮT">TÁN CẤY - SÒ SẮT</a>
+                                         </li>
+                    <div class="left_border_bottom"></div>                	               	         
+                	<li><a href="khoa-khoa-luc-giac/" title="KH&Oacute;A - KH&Oacute;A LỤC GI&Aacute;C">KHÓA - KHÓA LỤC GIÁC</a>
+                                         </li>
+                    <div class="left_border_bottom"></div>                	               	         
+                	<li><a href="pat-sat-ban-le/" title="P&Aacute;T SẮT - BẢN LỀ">PÁT SẮT - BẢN LỀ</a>
+                                         </li>
+                    <div class="left_border_bottom"></div>                	               	         
+                	<li><a href="ri-ve-dinh/" title="RI V&Ecirc; - ĐINH">RI VÊ - ĐINH</a>
+                                         </li>
+                    <div class="left_border_bottom"></div>                	               	         
+                	<li><a href="ty-ren-guzong/" title="TY REN - GUZONG">TY REN - GUZONG</a>
+                                         </li>
+                    <div class="left_border_bottom"></div>                	               	         
+                	<li><a href="long-den-dai-oc/" title="LONG ĐỀN - ĐAI ỐC">LONG ĐỀN - ĐAI ỐC</a>
+                                         </li>
+                    <div class="left_border_bottom"></div>                	               	         
+                	<li><a href="san-pham-nhua/" title="SẢN PHẨM NHỰA">SẢN PHẨM NHỰA</a>
+                                         </li>
+                    <div class="left_border_bottom"></div>                	               	         
+                	<li><a href="san-pham-inox/" title="SẢN PHẨM INOX">SẢN PHẨM INOX</a>
+                                         </li>
+                    <div class="left_border_bottom"></div>                	               	         
+                	<li><a href="mam-xoay-ray/" title="M&Acirc;M XOAY - RAY ">MÂM XOAY - RAY </a>
+                                         </li>
+                    <div class="left_border_bottom"></div>                	               	         
+                	<li><a href="bulon-co-khi/" title="BULON CƠ KH&Iacute;">BULON CƠ KHÍ</a>
+                                         </li>
+                    <div class="left_border_bottom"></div>                	               	         
+                	<li><a href="tan-du-tan-ngang/" title="T&aacute;n D&ugrave; - T&aacute;n Ngang">Tán Dù - Tán Ngang</a>
+                                         </li>
+                                                </ul>
+            </div>
+            <div class="left_box">
+            	<div class="left_box_title">
+                	<div class="title_top">
+                    	<div class="title_top_left"><p>Sản Phẩm Nổi Bật</p></div>
+                        <div class="title_top_right"></div>
+                    </div>
+                	<div class="title_bot">
+                        <div class="title_bot_left"></div>
+                        <div class="title_bot_right"></div>
+                    </div>
+                </div>
+                <div class="left_box_hinhanh">
+        	<ul id ="slider_spnb" class="jcarousel jcarousel-skin-tango">
+            					                                    <li class="item  first" style="padding:0; margin:0;">						    																																		    							<a href="san-pham/rive-lo-407.html" ><img src="upload/product/171427154550_225x168.jpg"      alt="RIVE LỖ" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/rive-lo-407.html" >RIVE LỖ</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/ray-truot-nhua-404.html" ><img src="upload/product/177251170820_225x168.jpg"      alt="Ray Trượt Nhựa" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/ray-truot-nhua-404.html" >Ray Trượt Nhựa</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/dinh-nhua-bang-399.html" ><img src="upload/product/605291266187_225x168.jpg"      alt="Đinh Nhựa Bằng" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/dinh-nhua-bang-399.html" >Đinh Nhựa Bằng</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/long-den-nhua-398.html" ><img src="upload/product/096727325643_225x168.jpg"      alt="Long Đền Nhựa" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/long-den-nhua-398.html" >Long Đền Nhựa</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/ray-cap-3-tang-389.html" ><img src="upload/product/208023647365_225x168.jpg"      alt="Ray Cáp 3 tầng" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/ray-cap-3-tang-389.html" >Ray Cáp 3 tầng</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/ray-bi-3-tang-388.html" ><img src="upload/product/101278907034_225x168.jpg"      alt="Ray Bi 3 Tầng" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/ray-bi-3-tang-388.html" >Ray Bi 3 Tầng</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/ray-bi-1-tang-387.html" ><img src="upload/product/924728742537_225x168.jpg"      alt="Ray Bi 1 tầng" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/ray-bi-1-tang-387.html" >Ray Bi 1 tầng</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/ban-le-bat-hoi-385.html" ><img src="upload/product/480737492393_225x168.jpg"      alt="Bản Lề Bật Hơi" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/ban-le-bat-hoi-385.html" >Bản Lề Bật Hơi</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/mam-xoay-370.html" ><img src="upload/product/764884359736_225x168.jpg"      alt="Mâm Xoay" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/mam-xoay-370.html" >Mâm Xoay</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/vit-dau-chim-ren-thuong-bndc-358.html" ><img src="upload/product/154259139753_225x168.jpg"      alt="Vít đầu chìm ren thường, BNDC" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/vit-dau-chim-ren-thuong-bndc-358.html" >Vít đầu chìm ren thường, BNDC</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/vit-dau-bang-ren-thua-vit-dau-f-ren-thua-357.html" ><img src="upload/product/194850488944_225x168.jpg"      alt="Vít đầu bằng ren thưa, vít đầu F ren thưa" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/vit-dau-bang-ren-thua-vit-dau-f-ren-thua-357.html" >Vít đầu bằng ren thưa, vít đầu F ren thưa</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/ban-le-oval-lo-xo-353.html" ><img src="upload/product/395761061794_225x168.jpg"      alt="Bản lề oval lò xo" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/ban-le-oval-lo-xo-353.html" >Bản lề oval lò xo</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/ban-le-kieu-351.html" ><img src="upload/product/195486732587_225x168.jpg"      alt="Bản lề kiểu" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/ban-le-kieu-351.html" >Bản lề kiểu</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/khoa-luc-giac-dau-bi-350.html" ><img src="upload/product/935153946859_225x168.png"      alt="Khóa Lục Giác Đầu Bi" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/khoa-luc-giac-dau-bi-350.html" >Khóa Lục Giác Đầu Bi</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/khoa-luc-giac-349.html" ><img src="upload/product/804096282843_225x168.jpg"      alt="Khóa Lục Giác" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/khoa-luc-giac-349.html" >Khóa Lục Giác</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/ren-suot-346.html" ><img src="upload/product/225434391809_225x168.jpg"      alt="Ren Suốt" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/ren-suot-346.html" >Ren Suốt</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/bulong-luc-giac-chim-kllgc-343.html" ><img src="upload/product/609298697634_225x168.jpg"      alt="Bulong lục giác chìm, KLLGC" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/bulong-luc-giac-chim-kllgc-343.html" >Bulong lục giác chìm, KLLGC</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/long-den-phang-93.html" ><img src="upload/product/409415252265_225x168.jpg"      alt="Long đền phẳng" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/long-den-phang-93.html" >Long đền phẳng</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/long-den-venh-92.html" ><img src="upload/product/448553840268_225x168.jpg"      alt="Long Đền Vênh" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/long-den-venh-92.html" >Long Đền Vênh</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/tan-chau-91.html" ><img src="upload/product/474562820180_225x168.jpg"      alt="Tán Chấu " width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/tan-chau-91.html" >Tán Chấu </a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/dai-oc-90.html" ><img src="upload/product/992323569788_225x168.jpg"      alt="Đai Ốc" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/dai-oc-90.html" >Đai Ốc</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/so-sat-noi-ngoai-rang-sat-86.html" ><img src="upload/product/679553689816_225x168.jpg"      alt="Sò Sắt, Nổi Ngoại Răng Sắt" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/so-sat-noi-ngoai-rang-sat-86.html" >Sò Sắt, Nổi Ngoại Răng Sắt</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/so-sat-co-dau-nnr-sat-co-dau-85.html" ><img src="upload/product/568588355296_225x168.jpg"      alt="Sò Sắt có đầu, NNR Sắt có đầu" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/so-sat-co-dau-nnr-sat-co-dau-85.html" >Sò Sắt có đầu, NNR Sắt có đầu</a></div>
+                                    </li>
+				                                                   <li class="item  " style="padding:0; margin:0;">						    																																		    							<a href="san-pham/tan-cay-khong-dau-83.html" ><img src="upload/product/071625325019_225x168.jpg"      alt="Tán Cấy Không Đầu" width="183px" height="140px"/></a>
+                                    	<div class="left_box_hinhanh_ten"><a href="san-pham/tan-cay-khong-dau-83.html" >Tán Cấy Không Đầu</a></div>
+                                    </li>
+				                       	</ul>
+                
+                </div>
+            </div>
+            <div class="left_box">
+            	<div class="left_box_title">
+                	<div class="title_top">
+                    	<div class="title_top_left"><p>Hỗ Trợ Trực Tuyến</p></div>
+                        <div class="title_top_right"></div>
+                    </div>
+                	<div class="title_bot">
+                        <div class="title_bot_left"></div>
+                        <div class="title_bot_right"></div>
+                    </div>
+                </div>
+                <div class="left_box_hotro">
+                	<p>0918 507 357</p>
+                    <ul>
+                                        	<li>
+                        	<div class="hotro"><a title="Hỗ trợ trực tuyến qua yahoo" href="ymsgr:sendIM?vitbatanhminh"><img src="images/yahoo_01.png" /></a></div>
+                        	<div class="hotro"><a title="Hỗ trợ trực tuyến qua skype" href="skype:?chat"><img src="images/skype.png" /></a></div>
+                            <div class="hotro">
+                        	<p>Mr.Thanh (Xưởng SX)</p>
+                			<p>0989 115 456</p>
+                            </div>
+                        </li>
+                        <div class="clear"></div>
+                                            	<li>
+                        	<div class="hotro"><a title="Hỗ trợ trực tuyến qua yahoo" href="ymsgr:sendIM?vitbatanhminh"><img src="images/yahoo_01.png" /></a></div>
+                        	<div class="hotro"><a title="Hỗ trợ trực tuyến qua skype" href="skype:?chat"><img src="images/skype.png" /></a></div>
+                            <div class="hotro">
+                        	<p>Mr. Hiếu</p>
+                			<p>0949 15 30 30</p>
+                            </div>
+                        </li>
+                        <div class="clear"></div>
+                                            	<li>
+                        	<div class="hotro"><a title="Hỗ trợ trực tuyến qua yahoo" href="ymsgr:sendIM?vitbatanhminh"><img src="images/yahoo_01.png" /></a></div>
+                        	<div class="hotro"><a title="Hỗ trợ trực tuyến qua skype" href="skype:?chat"><img src="images/skype.png" /></a></div>
+                            <div class="hotro">
+                        	<p>Mrs.Trúc Anh (Kinh Doanh)</p>
+                			<p>0918 507 357</p>
+                            </div>
+                        </li>
+                        <div class="clear"></div>
+                                            </ul>
+                </div>
+            </div>
+            <div class="left_box">
+            	<div class="left_box_title">
+                	<div class="title_top">
+                    	<div class="title_top_left"><p>Tin Tức - Sự Kiện</p></div>
+                        <div class="title_top_right"></div>
+                    </div>
+                	<div class="title_bot">
+                        <div class="title_bot_left"></div>
+                        <div class="title_bot_right"></div>
+                    </div>
+                </div>
+                <div class="left_box_tintuc">
+                    <ul>
+                    	                        <li>
+                        	<a href="tin-tuc/-33.html">
+                        	<img src="upload/news/77463770_280x180.jpg" />
+                            </a>
+                            <div class="title_tintuc">
+                            	<a href="tin-tuc/-33.html"></a>
+                            	<p>14-09-2014 06:48:10 AM</p>    
+                            </div>
+                        </li>
+                                                <li>
+                        	<a href="tin-tuc/-31.html">
+                        	<img src="upload/news/96094446_280x180.jpg" />
+                            </a>
+                            <div class="title_tintuc">
+                            	<a href="tin-tuc/-31.html"></a>
+                            	<p>14-09-2014 06:44:27 AM</p>    
+                            </div>
+                        </li>
+                                                <li>
+                        	<a href="tin-tuc/-32.html">
+                        	<img src="upload/news/38879923_280x180.jpg" />
+                            </a>
+                            <div class="title_tintuc">
+                            	<a href="tin-tuc/-32.html"></a>
+                            	<p>14-09-2014 06:46:11 AM</p>    
+                            </div>
+                        </li>
+                                                <li>
+                        	<a href="tin-tuc/-.html">
+                        	<img src="upload/news/" />
+                            </a>
+                            <div class="title_tintuc">
+                            	<a href="tin-tuc/-.html"></a>
+                            	<p>01-01-1970 12:00:00 AM</p>    
+                            </div>
+                        </li>
+                                                <li>
+                        	<a href="tin-tuc/-.html">
+                        	<img src="upload/news/" />
+                            </a>
+                            <div class="title_tintuc">
+                            	<a href="tin-tuc/-.html"></a>
+                            	<p>01-01-1970 12:00:00 AM</p>    
+                            </div>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+            <div class="left_box">
+            	<div class="left_box_title">
+                	<div class="title_top">
+                    	<div class="title_top_left"><p>Quảng cáo</p></div>
+                        <div class="title_top_right"></div>
+                    </div>
+                	<div class="title_bot">
+                        <div class="title_bot_left"></div>
+                        <div class="title_bot_right"></div>
+                    </div>
+                </div>
+                <div class="left_box_quangcao">
+        	<ul id ="slider_qc" class="jcarousel jcarousel-skin-tango">
+            					        	</ul>
+                <img src="images/quangcao.gif" /></div>
+            </div>
+            <script type="text/javascript">
+            //<![CDATA[
+				
+                $(document).ready(function() {
+                    $('#slider_spnb').jcarousel({
+                       	auto: 1,
+                        wrap: 'circular',
+						animation: 1000,
+						vertical: true,
+                        scroll: 1                 });
+                });
+                $(document).ready(function() {
+                    $('#slider_qc').jcarousel({
+                       	auto: 1,
+                        wrap: 'circular',
+						animation: 1000,
+						vertical: true,
+                        scroll: 1                 });
+                });               
+				               
+            //]]>
+				$(document).ready(function(){
+				  $("#left ul li").hover(function(){
+					$(this).find("ul:first").css({visibility: "visible",display: "none"}).slideDown(400);
+				  },function(){
+					  $(this).find("ul.first").css({visibility: "hidden"});
+					  });
+				});
+			
+            </script></div>
+        
+        <div id="right">
+        	            <div class="right_box">
+            	<div class="right_box_title">
+                	<div class="title_top">
+                    	<div class="title_top_left"><p>VÍT NGÀNH GỖ</p></div>
+                        <div class="title_top_right"></div>
+                    </div>
+                	<div class="title_bot">
+                        <div class="title_bot_left"></div>
+                        <div class="title_bot_right"></div>
+                   </div>
+           	 	</div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/vit-dau-chim-ren-thuong-bndc-358.html"><img src="upload/product/154259139753_225x168.jpg" width="173px" height="148px" alt="Vít đầu chìm ren thường, BNDC" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/vit-dau-chim-ren-thuong-bndc-358.html"><p>Vít đầu chìm ren thường, BNDC</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/vit-dau-bang-ren-thua-vit-dau-f-ren-thua-357.html"><img src="upload/product/194850488944_225x168.jpg" width="173px" height="148px" alt="Vít đầu bằng ren thưa, vít đầu F ren thưa" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/vit-dau-bang-ren-thua-vit-dau-f-ren-thua-357.html"><p>Vít đầu bằng ren thưa, vít đầu F ren thưa</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/vit-dau-du-ren-thuong-bndd-359.html"><img src="upload/product/590460800546_225x168.jpg" width="173px" height="148px" alt="Vít dầu dù ren thường, BNDD" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/vit-dau-du-ren-thuong-bndd-359.html"><p>Vít dầu dù ren thường, BNDD</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/vit-dau-du-ren-thua-bndd-ren-thua-361.html"><img src="upload/product/086532045354_225x168.jpg" width="173px" height="148px" alt="Vít đầu dù ren thưa, BNDD ren thưa" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/vit-dau-du-ren-thua-bndd-ren-thua-361.html"><p>Vít đầu dù ren thưa, BNDD ren thưa</p></a></div>
+                </div>
+                                <div class="clear"></div>
+        	</div>
+                        <div class="right_box">
+            	<div class="right_box_title">
+                	<div class="title_top">
+                    	<div class="title_top_left"><p>BULON NGÀNH GỖ</p></div>
+                        <div class="title_top_right"></div>
+                    </div>
+                	<div class="title_bot">
+                        <div class="title_bot_left"></div>
+                        <div class="title_bot_right"></div>
+                   </div>
+           	 	</div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/bulong-luc-giac-chim-kllgc-343.html"><img src="upload/product/609298697634_225x168.jpg" width="173px" height="148px" alt="Bulong lục giác chìm, KLLGC" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/bulong-luc-giac-chim-kllgc-343.html"><p>Bulong lục giác chìm, KLLGC</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/bl-luc-giac-chim-lightlock-405.html"><img src="upload/product/828939775246_225x168.jpg" width="173px" height="148px" alt="BL Lục Giác Chìm Lightlock" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/bl-luc-giac-chim-lightlock-405.html"><p>BL Lục Giác Chìm Lightlock</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/dau-chim-kim-loai-409.html"><img src="upload/product/402485859655_225x168.jpg" width="173px" height="148px" alt="Đầu Chìm Kim Loại" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/dau-chim-kim-loai-409.html"><p>Đầu Chìm Kim Loại</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/luc-giac-chim-ren-go-bnlgc-356.html"><img src="upload/product/765986531698_225x168.jpg" width="173px" height="148px" alt="Lục Giác Chìm Ren Gỗ, BNLGC" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/luc-giac-chim-ren-go-bnlgc-356.html"><p>Lục Giác Chìm Ren Gỗ, BNLGC</p></a></div>
+                </div>
+                                <div class="clear"></div>
+        	</div>
+                        <div class="right_box">
+            	<div class="right_box_title">
+                	<div class="title_top">
+                    	<div class="title_top_left"><p>TÁN CẤY - SÒ SẮT</p></div>
+                        <div class="title_top_right"></div>
+                    </div>
+                	<div class="title_bot">
+                        <div class="title_bot_left"></div>
+                        <div class="title_bot_right"></div>
+                   </div>
+           	 	</div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/so-sat-noi-ngoai-rang-sat-86.html"><img src="upload/product/679553689816_225x168.jpg" width="173px" height="148px" alt="Sò Sắt, Nổi Ngoại Răng Sắt" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/so-sat-noi-ngoai-rang-sat-86.html"><p>Sò Sắt, Nổi Ngoại Răng Sắt</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/tan-dong-84.html"><img src="upload/product/484777006795_225x168.jpg" width="173px" height="148px" alt="Tán Đóng" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/tan-dong-84.html"><p>Tán Đóng</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/tan-cay-khong-dau-83.html"><img src="upload/product/071625325019_225x168.jpg" width="173px" height="148px" alt="Tán Cấy Không Đầu" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/tan-cay-khong-dau-83.html"><p>Tán Cấy Không Đầu</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/so-sat-co-dau-nnr-sat-co-dau-85.html"><img src="upload/product/568588355296_225x168.jpg" width="173px" height="148px" alt="Sò Sắt có đầu, NNR Sắt có đầu" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/so-sat-co-dau-nnr-sat-co-dau-85.html"><p>Sò Sắt có đầu, NNR Sắt có đầu</p></a></div>
+                </div>
+                                <div class="clear"></div>
+        	</div>
+                        <div class="right_box">
+            	<div class="right_box_title">
+                	<div class="title_top">
+                    	<div class="title_top_left"><p>KHÓA - KHÓA LỤC GIÁC</p></div>
+                        <div class="title_top_right"></div>
+                    </div>
+                	<div class="title_bot">
+                        <div class="title_bot_left"></div>
+                        <div class="title_bot_right"></div>
+                   </div>
+           	 	</div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/khoa-luc-giac-dau-bi-350.html"><img src="upload/product/935153946859_225x168.png" width="173px" height="148px" alt="Khóa Lục Giác Đầu Bi" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/khoa-luc-giac-dau-bi-350.html"><p>Khóa Lục Giác Đầu Bi</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/khoa-co-le-348.html"><img src="upload/product/795029433852_225x168.jpg" width="173px" height="148px" alt="Khóa Cờ Lê" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/khoa-co-le-348.html"><p>Khóa Cờ Lê</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/khoa-luc-giac-349.html"><img src="upload/product/804096282843_225x168.jpg" width="173px" height="148px" alt="Khóa Lục Giác" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/khoa-luc-giac-349.html"><p>Khóa Lục Giác</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/khoa-luc-giac-chu-z-384.html"><img src="upload/product/975446378318_225x168.jpg" width="173px" height="148px" alt="Khóa Lục Giác Chữ Z" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/khoa-luc-giac-chu-z-384.html"><p>Khóa Lục Giác Chữ Z</p></a></div>
+                </div>
+                                <div class="clear"></div>
+        	</div>
+                        <div class="right_box">
+            	<div class="right_box_title">
+                	<div class="title_top">
+                    	<div class="title_top_left"><p>PÁT SẮT - BẢN LỀ</p></div>
+                        <div class="title_top_right"></div>
+                    </div>
+                	<div class="title_bot">
+                        <div class="title_bot_left"></div>
+                        <div class="title_bot_right"></div>
+                   </div>
+           	 	</div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/khoa-on-off-371.html"><img src="upload/product/439353412039_225x168.jpg" width="173px" height="148px" alt="Khóa ON - OFF" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/khoa-on-off-371.html"><p>Khóa ON - OFF</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/ban-le-kieu-351.html"><img src="upload/product/195486732587_225x168.jpg" width="173px" height="148px" alt="Bản lề kiểu" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/ban-le-kieu-351.html"><p>Bản lề kiểu</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/bat-ban-tra-373.html"><img src="upload/product/712838281523_225x168.jpg" width="173px" height="148px" alt="Bát bàn trà" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/bat-ban-tra-373.html"><p>Bát bàn trà</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/ban-le-oval-lo-xo-353.html"><img src="upload/product/395761061794_225x168.jpg" width="173px" height="148px" alt="Bản lề oval lò xo" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/ban-le-oval-lo-xo-353.html"><p>Bản lề oval lò xo</p></a></div>
+                </div>
+                                <div class="clear"></div>
+        	</div>
+                        <div class="right_box">
+            	<div class="right_box_title">
+                	<div class="title_top">
+                    	<div class="title_top_left"><p>LONG ĐỀN - ĐAI ỐC</p></div>
+                        <div class="title_top_right"></div>
+                    </div>
+                	<div class="title_bot">
+                        <div class="title_bot_left"></div>
+                        <div class="title_bot_right"></div>
+                   </div>
+           	 	</div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/tan-chau-91.html"><img src="upload/product/474562820180_225x168.jpg" width="173px" height="148px" alt="Tán Chấu " /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/tan-chau-91.html"><p>Tán Chấu </p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/dai-oc-90.html"><img src="upload/product/992323569788_225x168.jpg" width="173px" height="148px" alt="Đai Ốc" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/dai-oc-90.html"><p>Đai Ốc</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/tan-keo-416.html"><img src="upload/product/445857101268_225x168.jpg" width="173px" height="148px" alt="Tán Keo" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/tan-keo-416.html"><p>Tán Keo</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/long-den-venh-92.html"><img src="upload/product/448553840268_225x168.jpg" width="173px" height="148px" alt="Long Đền Vênh" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/long-den-venh-92.html"><p>Long Đền Vênh</p></a></div>
+                </div>
+                                <div class="clear"></div>
+        	</div>
+                        <div class="right_box">
+            	<div class="right_box_title">
+                	<div class="title_top">
+                    	<div class="title_top_left"><p>SẢN PHẨM INOX</p></div>
+                        <div class="title_top_right"></div>
+                    </div>
+                	<div class="title_bot">
+                        <div class="title_bot_left"></div>
+                        <div class="title_bot_right"></div>
+                   </div>
+           	 	</div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/dai-oc-inox-420.html"><img src="upload/product/472651853060_225x168.jpg" width="173px" height="148px" alt="Đai Ốc Inox" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/dai-oc-inox-420.html"><p>Đai Ốc Inox</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/vit-dau-chim-inox-bndc-inox-363.html"><img src="upload/product/540749265094_225x168.jpg" width="173px" height="148px" alt="Vít đầu chìm Inox, BNDC Inox" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/vit-dau-chim-inox-bndc-inox-363.html"><p>Vít đầu chìm Inox, BNDC Inox</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/ld-phang-inox-ld-venh-inox-367.html"><img src="upload/product/229307745620_225x168.jpg" width="173px" height="148px" alt="LĐ Phẳng Inox, LĐ vênh Inox" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/ld-phang-inox-ld-venh-inox-367.html"><p>LĐ Phẳng Inox, LĐ vênh Inox</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/bulon-luc-giac-chim-inox-kllgc-inox-365.html"><img src="upload/product/418828063068_225x168.jpg" width="173px" height="148px" alt="Bulon Lục Giác Chìm Inox, KLLGC Inox" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/bulon-luc-giac-chim-inox-kllgc-inox-365.html"><p>Bulon Lục Giác Chìm Inox, KLLGC Inox</p></a></div>
+                </div>
+                                <div class="clear"></div>
+        	</div>
+                        <div class="right_box">
+            	<div class="right_box_title">
+                	<div class="title_top">
+                    	<div class="title_top_left"><p>MÂM XOAY - RAY </p></div>
+                        <div class="title_top_right"></div>
+                    </div>
+                	<div class="title_bot">
+                        <div class="title_bot_left"></div>
+                        <div class="title_bot_right"></div>
+                   </div>
+           	 	</div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/ray-truot-banh-xe-nhua-410.html"><img src="upload/product/467385155472_225x168.jpg" width="173px" height="148px" alt="Ray trượt bánh xe Nhựa" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/ray-truot-banh-xe-nhua-410.html"><p>Ray trượt bánh xe Nhựa</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/ray-bi-1-tang-387.html"><img src="upload/product/924728742537_225x168.jpg" width="173px" height="148px" alt="Ray Bi 1 tầng" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/ray-bi-1-tang-387.html"><p>Ray Bi 1 tầng</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/mam-xoay-370.html"><img src="upload/product/764884359736_225x168.jpg" width="173px" height="148px" alt="Mâm Xoay" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/mam-xoay-370.html"><p>Mâm Xoay</p></a></div>
+                </div>
+                                <div class="box_product">
+                	<div class="box_product_hinhanh"><a href="san-pham/ray-cap-3-tang-389.html"><img src="upload/product/208023647365_225x168.jpg" width="173px" height="148px" alt="Ray Cáp 3 tầng" /></a></div>
+                    <div class="box_product_ten"><a href="san-pham/ray-cap-3-tang-389.html"><p>Ray Cáp 3 tầng</p></a></div>
+                </div>
+                                <div class="clear"></div>
+        	</div>
+                	</div>
+        <div class="clear"></div>
+        <div id="doitac">			<div id="doitac_conten">
+                    <ul id ="ma-brandpro-slider">
+				                                                     <li class="item  first">						    																																		    							<a href="" target="_blank"><img src="upload/hinhanh/0876039432028240.png"  width="177"  height="97"    alt="" /></a>
+                                    </li>
+				                                                   <li class="item  ">						    																																		    							<a href="" target="_blank"><img src="upload/hinhanh/214092031078747.png"  width="177"  height="97"    alt="" /></a>
+                                    </li>
+				                                                   <li class="item  ">						    																																		    							<a href="" target="_blank"><img src="upload/hinhanh/865415012701339.gif"  width="177"  height="97"    alt="DUC NHAN" /></a>
+                                    </li>
+				                                                   <li class="item  ">						    																																		    							<a href="" target="_blank"><img src="upload/hinhanh/2229330444000440.gif"  width="177"  height="97"    alt="" /></a>
+                                    </li>
+				                                                   <li class="item  ">						    																																		    							<a href="https://www.google.com.vn/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=vietcombank" target="_blank"><img src="upload/hinhanh/482456925692677.png"  width="177"  height="97"    alt="Garco" /></a>
+                                    </li>
+				                                                   <li class="item  ">						    																																		    							<a href="" target="_blank"><img src="upload/hinhanh/801982416829330.gif"  width="177"  height="97"    alt="coca" /></a>
+                                    </li>
+				                       </ul>
+        </div>
+            <script type="text/javascript">
+            //<![CDATA[
+				
+                $(document).ready(function() {
+                    $('#ma-brandpro-slider').jcarousel({
+                        auto: 1,
+                        wrap: 'circular',
+						animation: 1000,
+                        scroll: 1                    
+						});
+                });               
+            //]]>
+            </script>
+</div>    
+    </div>
+    <div id="footer">	    <div class="bg">
+    	<div class="footer_conten">
+            <div id="menu_footer">
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                        <li><a href="san-pham.html">Sản phẩm</a></li>
+                        <li><a href="dich-vu.html">Dịch vụ</a></li>
+                        <li><a href="tin-tuc.html">Tin tức</a></li>
+                        <li><a href="tuyen-dung.html">Tuyển dụng</a></li>
+                        <li><a href="lien-he.html">Liên hệ</a></li>
+                    </ul>
+            </div>
+            <div class="footer_cty">
+            	<div class="title_cty"><h2>Công ty TNHH SX - TM - DV Vít Bát Anh Minh</h2></div>
+                <ul>
+                	<li><p>Địa chỉ:  Sơn kỳ, P.Sơn kỳ, Q.Tân phú, TP.HCM</p></li>
+                	<li><p>Địện thoại: 0989 115 456 - Email: vitbatanhminh@yahoo.com.vn</p></li>
+                </ul>
+            </div>
+            <div class="footer_connect">
+            	<p>Kết Nối Với Chúng Tôi</p>
+                <ul>
+                	<li><a href="https://facebook.com"><img src="images/facebook_icon.png" /></a></li>
+                    <li><a href="vitbatanhminh@yahoo.com.vn"><img src="images/yahoo_icon.png" /></a></li>
+                    <li><a href="https://twitter.com/"><img src="images/tiwer_icon.png" /></a></li>
+                    <li><a href="https://www.google.com.vn"><img src="images/google_icon.png" /></a></li>
+                </ul>
+            </div>
+            <div class="footer_thongke">
+            	<div class="footer_thongke_title">THỐNG KÊ TRUY CẬP</div>
+                <table>
+                	<tr>
+                    	<td>Đang online:</td>
+                    	<td style="text-align:right">2</td>
+                    </tr>
+                	<tr>
+                    	<td>Tổng lược truy cập:</td>
+                    	<td style="text-align:right">211903</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+  </div>
+</div>    
+    
+</div>
+    <div id="divAdRight" style="DISPLAY: none; POSITION: absolute; TOP: 0px">
+        </div>
+    
+    <div id="divAdLeft" style="DISPLAY: none; POSITION: absolute; TOP: 0px">
+         
+    </div>
+    <script>
+        function FloatTopDiv()
+        {
+            startLX = ((document.body.clientWidth -MainContentW)/2)-LeftBannerW-LeftAdjust , startLY = TopAdjust+220;
+            startRX = ((document.body.clientWidth -MainContentW)/2)+MainContentW+RightAdjust , startRY = TopAdjust+220;
+            var d = document;
+            function ml(id)
+            {
+                var el=d.getElementById?d.getElementById(id):d.all?d.all[id]:d.layers[id];
+                el.sP=function(x,y){this.style.left=x + 'px';this.style.top=y + 'px';};
+                el.x = startRX;
+                el.y = startRY;
+                return el;
+            }
+            function m2(id)
+            {
+                var e2=d.getElementById?d.getElementById(id):d.all?d.all[id]:d.layers[id];
+                e2.sP=function(x,y){this.style.left=x + 'px';this.style.top=y + 'px';};
+                e2.x = startLX;
+                e2.y = startLY;
+                return e2;
+            }
+            window.stayTopLeft=function()
+            {
+                if (document.documentElement && document.documentElement.scrollTop)
+                    var pY =  document.documentElement.scrollTop;
+                else if (document.body)
+                    var pY =  document.body.scrollTop;
+                if (document.body.scrollTop > 52){startLY = 3;startRY = 3;} else {startLY = TopAdjust;startRY = TopAdjust;};
+                ftlObj.y += (pY+startRY-ftlObj.y)/16;
+                ftlObj.sP(ftlObj.x, ftlObj.y);
+                ftlObj2.y += (pY+startLY-ftlObj2.y)/16;
+                ftlObj2.sP(ftlObj2.x, ftlObj2.y);
+                setTimeout("stayTopLeft()", 1);
+            }
+            ftlObj = ml("divAdRight");
+            //stayTopLeft();
+            ftlObj2 = m2("divAdLeft");
+            stayTopLeft();
+        }
+        function ShowAdDiv()
+        {
+            var objAdDivRight = document.getElementById("divAdRight");
+            var objAdDivLeft = document.getElementById("divAdLeft");       
+            if (document.body.clientWidth < 1000)
+            {
+                objAdDivRight.style.display = "none";
+                objAdDivLeft.style.display = "none";
+            }
+            else
+            {
+                objAdDivRight.style.display = "block";
+                objAdDivLeft.style.display = "block";
+                FloatTopDiv();
+            }
+        } 
+    </script>
+    <script>
+    document.write("<script type='text/javascript' language='javascript'>MainContentW = 1000;LeftBannerW = 150;RightBannerW = 150;LeftAdjust = 5;RightAdjust = 5;TopAdjust = 40;ShowAdDiv();window.onresize=ShowAdDiv;;<\/script>");
+    </script>
+
+
+ 	<!--//===============================MOBILE_code===================//-->    
+    	
+</body>
+</html>
